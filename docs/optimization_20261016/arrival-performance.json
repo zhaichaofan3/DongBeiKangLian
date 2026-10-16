@@ -1,0 +1,22 @@
+{
+  "frames": 120,
+  "p99_frame_ms": 7.409,
+  "passed": true,
+  "physics_engine": "Jolt Physics",
+  "rendered": true,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "timings_ms": {
+    "ally_path": 0.117,
+    "arrive": 14.438,
+    "landing_path": 0.183,
+    "read_save": 5.604,
+    "save": 1.775,
+    "start_new": 19.897
+  },
+  "unfocused_frames": 0,
+  "version": "0.7.2-rc1",
+  "worst_frame_ms": 24.58
+}

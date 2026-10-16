@@ -1,0 +1,75 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Rebuilt encounter walls retain solid opaque 2.8m volumes
+SKIP: Dummy rendering server does not return MultiMesh instance placements; rendered check verifies wall boxes
+PASS: western wall hides checkpoint enemies
+PASS: checkpoint wall hides the timber sector
+PASS: timber wall hides the office approach
+PASS: Forest wire is limited to two unused spurs
+PASS: 林师傅木棚尽头低网: wire mesh and collision are 0.8m high, grounded collision
+PASS: 林师傅木棚尽头低网: blocks at wire height with no tall invisible wall
+PASS: 林师傅木棚尽头低网: both ends meet scenery, gaps=[0.02991399765015, 0.0]
+PASS: 林师傅木棚尽头低网: ground sprint-jump blocked
+PASS: 林师傅木棚尽头低网: crouch blocked
+PASS: 装卸棚后低网: wire mesh and collision are 0.8m high, grounded collision
+PASS: 装卸棚后低网: blocks at wire height with no tall invisible wall
+PASS: 装卸棚后低网: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 装卸棚后低网: ground sprint-jump blocked
+PASS: 装卸棚后低网: crouch blocked
+BERM ATTEMPT: (6.0, 0.08, 274.0) end=(4.204623, 0.001015, 273.9448) crouch=false
+PASS: Berm blocks sprint jumping at (6.0, 0.08, 274.0)
+BERM ATTEMPT: (6.0, 0.08, 274.0) end=(4.208549, -0.003673, 273.9914) crouch=true
+PASS: Berm blocks crouching at (6.0, 0.08, 274.0)
+BERM ATTEMPT: (34.0, 0.08, 188.0) end=(30.19056, 0.000035, 188.8235) crouch=false
+PASS: Berm blocks sprint jumping at (34.0, 0.08, 188.0)
+BERM ATTEMPT: (34.0, 0.08, 188.0) end=(31.27125, 0.000877, 188.418) crouch=true
+PASS: Berm blocks crouching at (34.0, 0.08, 188.0)
+BERM ATTEMPT: (56.0, 0.08, 176.0) end=(59.79432, 0.000999, 175.8442) crouch=false
+PASS: Berm blocks sprint jumping at (56.0, 0.08, 176.0)
+BERM ATTEMPT: (56.0, 0.08, 176.0) end=(59.34804, 0.000883, 176.0) crouch=true
+PASS: Berm blocks crouching at (56.0, 0.08, 176.0)
+BERM ATTEMPT: (72.0, 0.08, 90.0) end=(75.79309, 0.000041, 89.53741) crouch=false
+PASS: Berm blocks sprint jumping at (72.0, 0.08, 90.0)
+BERM ATTEMPT: (72.0, 0.08, 90.0) end=(74.65643, -0.002299, 90.0) crouch=true
+PASS: Berm blocks crouching at (72.0, 0.08, 90.0)
+PASS: Logger and optional supply approach remain open
+PASS: Checkpoint and timber route remains open after gate clearance
+PASS: Northern escort road remains connected to the ferry
+PASS: Reinforcement entrance retains its ferry route
+PASS: Four opaque courtyard wall wings remain visible
+PASS: Courtyard wall at z=196 hides the next encounter
+PASS: Courtyard wall at z=112 hides the next encounter
+PASS: Low wire closes only measured gaps between original courtyard surfaces
+PASS: 横巷柴场低网_0: wire mesh and collision are 0.8m high, grounded collision
+PASS: 横巷柴场低网_0: blocks at wire height with no tall invisible wall
+PASS: 横巷柴场低网_0: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 横巷柴场低网_0: squad navigation cannot cut through the thin wire
+PASS: 横巷柴场低网_1: wire mesh and collision are 0.8m high, grounded collision
+PASS: 横巷柴场低网_1: blocks at wire height with no tall invisible wall
+PASS: 横巷柴场低网_1: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 横巷柴场低网_1: squad navigation cannot cut through the thin wire
+PASS: 横巷柴场低网_2: wire mesh and collision are 0.8m high, grounded collision
+PASS: 横巷柴场低网_2: blocks at wire height with no tall invisible wall
+PASS: 横巷柴场低网_2: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 横巷柴场低网_2: squad navigation cannot cut through the thin wire
+PASS: 横巷柴场低网_3: wire mesh and collision are 0.8m high, grounded collision
+PASS: 横巷柴场低网_3: blocks at wire height with no tall invisible wall
+PASS: 横巷柴场低网_3: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 横巷柴场低网_3: squad navigation cannot cut through the thin wire
+PASS: 横巷柴场低网_4: wire mesh and collision are 0.8m high, grounded collision
+PASS: 横巷柴场低网_4: blocks at wire height with no tall invisible wall
+PASS: 横巷柴场低网_4: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 横巷柴场低网_4: squad navigation cannot cut through the thin wire
+PASS: 横巷柴场低网_5: wire mesh and collision are 0.8m high, grounded collision
+PASS: 横巷柴场低网_5: blocks at wire height with no tall invisible wall
+PASS: 横巷柴场低网_5: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 横巷柴场低网_5: squad navigation cannot cut through the thin wire
+PASS: Courtyard wall and gate seam prevent skipping at x=1139
+PASS: Courtyard wall and gate seam prevent skipping at x=1143
+PASS: Courtyard wall and gate seam prevent skipping at x=1147
+PASS: Courtyard wall and gate seam prevent skipping at x=1151
+PASS: Courtyard wall and gate seam prevent skipping at x=1155
+PASS: Village encounters cannot be skipped before opening the gates
+PASS: First opened gate permits only the next encounter
+PASS: Cleared main street stays connected for player and squad
+LINEAR BOUNDARIES: PASS | checks=63

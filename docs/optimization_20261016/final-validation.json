@@ -1,0 +1,729 @@
+{
+  "version": "0.7.2-rc1",
+  "revision": "20261016-performance-quality",
+  "created_at": "2026-10-16T22:37:47.4591992+08:00",
+  "passed": true,
+  "source": {
+    "groups": 33,
+    "passed": true,
+    "results": [
+      {
+        "name": "character-model.log",
+        "result": "CHARACTER MODEL RESULT: 59/59 passed",
+        "sha256": "287004dbdecf98afa6788607929e241ebd92c8f15dc203a54ed5a586c86164cb"
+      },
+      {
+        "name": "combat-route.log",
+        "result": "ACTIVE COMBAT ROUTE: PASS | health=100.0 | guards defeated=37 | elapsed=469.749999999901 | state=won",
+        "sha256": "8334e7ed4809d739426f0822d8e8e7a2fb935b50101a956714c552aa7efdd553"
+      },
+      {
+        "name": "linear-route.log",
+        "result": "LINEAR ROUTE RESULT: 38/38 passed",
+        "sha256": "3feee7c458588e04f74355d51e0928c9070325cfc772091f4d9bc38db5d505ed"
+      },
+      {
+        "name": "opening-checks/audio_settings/run.log",
+        "result": "AUDIO SETTINGS: PASS | checks=34",
+        "sha256": "03aaddec9d59a4dcf3512b16450077d7455b3df555d2892f8e5703f94c71164a"
+      },
+      {
+        "name": "opening-checks/bayonet_encounter/run.log",
+        "result": "BAYONET ENCOUNTER: PASS 31/31",
+        "sha256": "97059a24a970f0a30707188655570424f1b8af72619f9c39eac53cd65affd72f"
+      },
+      {
+        "name": "opening-checks/changbai_landscape/run.log",
+        "result": "CHANGBAI LANDSCAPE: PASS | checks=25 | trees=680",
+        "sha256": "2b79c026b4e5847592adf6e2086651a1d06632ab04fed28f2bb713d943455743"
+      },
+      {
+        "name": "opening-checks/courtyard_controls/run.log",
+        "result": "COURTYARD CONTROLS: PASS | checks=77",
+        "sha256": "81c63e4b86370f6b38aac26d9981cbfe7d80cb25c39cffe73f914918f44227eb"
+      },
+      {
+        "name": "opening-checks/dialogue_motion/run.log",
+        "result": "DIALOGUE MOTION: PASS | checks=5",
+        "sha256": "dedba8831de83b9985a74d1a60e2b99aa259401e51b46e825d127c80652a312c"
+      },
+      {
+        "name": "opening-checks/first_level_rebuild/run.log",
+        "result": "FIRST LEVEL REBUILD: PASS | checks=125",
+        "sha256": "dce94c5ad481f7054fc5b003651e7a9515569acbe8afbbb94c593744a7ee2f37"
+      },
+      {
+        "name": "opening-checks/linear_boundaries/run.log",
+        "result": "LINEAR BOUNDARIES: PASS | checks=63",
+        "sha256": "5a622208f88629906bc6df7f40f17f3068cb5635094fabe62e5969802502da5e"
+      },
+      {
+        "name": "opening-checks/opening/run.log",
+        "result": "OPENING RESULT: 41/41 passed",
+        "sha256": "6e94e258c7fa09eccdf6df9ef38d5b533c81e9be1f9625cbbbe25921e24818e3"
+      },
+      {
+        "name": "opening-checks/polish_revision/run.log",
+        "result": "POLISH REVISION: PASS | checks=30",
+        "sha256": "4a0add7455d7a4b155f6b18b3e9bb5b0b6639e598711051f99f79bf1dd9786d5"
+      },
+      {
+        "name": "opening-checks/render_quality/run.log",
+        "result": "RENDER QUALITY: PASS | checks=35",
+        "sha256": "6de2e52af4eb14927105739a17a00aa1fc2ee3246af1e0ddc8322c54db07d407"
+      },
+      {
+        "name": "opening-checks/river_journey/run.log",
+        "result": "RIVER JOURNEY: PASS | checks=60",
+        "sha256": "29a6a833fa0501d7e8dfc39fa55b3f48ff690ea5d97dc9da04293e82f8455216"
+      },
+      {
+        "name": "opening-checks/s22_tianchi_access/run.log",
+        "result": "S22 TIANCHI ACCESS: PASS | checks=9",
+        "sha256": "5ffe99a04059b00699cf65e4bdbf9d3066f67482891d87b0ae4191303bb276d6"
+      },
+      {
+        "name": "opening-checks/s25_handoff/run.log",
+        "result": "S25 HANDOFF: PASS | checks=10",
+        "sha256": "18f43a00ed6a11e38fd12394f869a2e0a1a99feee1fea50d2037e0ac8c95d094"
+      },
+      {
+        "name": "opening-checks/s30_audio_mix/run.log",
+        "result": "S30 AUDIO MIX: PASS | checks=28",
+        "sha256": "e064fa6610ffd0a37d265562f5bfc1a63a752f056f96f9458103f9558251d8f1"
+      },
+      {
+        "name": "opening-checks/s31_voice_integration/run.log",
+        "result": "S31 VOICE INTEGRATION: PASS | checks=53",
+        "sha256": "83d4ca4e314f3c37f2a8d48f2434b2b49807b90b91fa100fa9aaae0903914c44"
+      },
+      {
+        "name": "opening-checks/s32_history_formal/run.log",
+        "result": "S32 HISTORY FORMAL: PASS | checks=29",
+        "sha256": "86c1119c5b91a72b327d2e6e326e0191995523448a8e1de5dd3669b1de1d6220"
+      },
+      {
+        "name": "opening-checks/s33_task_formal/run.log",
+        "result": "S33 TASK FORMAL: PASS | checks=14",
+        "sha256": "6222e2b5e40f9d5eb752c9be403285f6ef0741e8cfa0eb0601d09d448b72cc52"
+      },
+      {
+        "name": "opening-checks/s34_state_matrix/run.log",
+        "result": "S34 STATE MATRIX: PASS | checks=14 rows=9",
+        "sha256": "89641746e9dcdcca396ec8e796a798efa7a8a7edc99039642f948838ea23cb15"
+      },
+      {
+        "name": "opening-checks/s36_departure_review/run.log",
+        "result": "S36 DEPARTURE: PASS | samples=21",
+        "sha256": "959b033aae3b817e9b014aaedee7d305e32825b8c3573533a208bde8b5fc4b6f"
+      },
+      {
+        "name": "opening-checks/settlement_revision/run.log",
+        "result": "SETTLEMENT REVISION: PASS | checks=38",
+        "sha256": "133c8adf705915e7d2a887481834a341a791bc5c60c1860ad47c44d6820f9aa5"
+      },
+      {
+        "name": "opening-checks/straight_charge/run.log",
+        "result": "STRAIGHT CHARGE: PASS | checks=27",
+        "sha256": "1ae1279007f2cd982457585ede30a78a9e8be6faf5e41abbcd249a2e04f6319c"
+      },
+      {
+        "name": "opening-checks/surface_loading/run.log",
+        "result": "SURFACE LOADING: PASS | checks=22",
+        "sha256": "ea8ee66d002a2caa29eff89d44bcab57c72d4a7a6b15df7b4b3e3663c3e0f780"
+      },
+      {
+        "name": "opening-checks/user_audio_20261015/run.log",
+        "result": "USER AUDIO: PASS | checks=26",
+        "sha256": "406a33a4fccd1191c70805222eef90cd4f8bcad3754dea6ede003387e9016817"
+      },
+      {
+        "name": "opening-checks/user_expansion/run.log",
+        "result": "USER EXPANSION: PASS | checks=42",
+        "sha256": "d622fe40e174b9f19156aa0fff9c9573505296b3ea9c5d48cbea5704221ba2f9"
+      },
+      {
+        "name": "opening-checks/user_revision_20261015/run.log",
+        "result": "USER REVISION: PASS 61/61",
+        "sha256": "0bc97751cab662ec7a6634b789f2bb1174cffe04a9203eb7a57b957a08090e3e"
+      },
+      {
+        "name": "opening-checks/user_sfx_20261015/run.log",
+        "result": "USER SFX RESULT: PASS | 31/31",
+        "sha256": "6a87532c35afa09b69cab1f5864c9343924f904c005b3e29778236064e301427"
+      },
+      {
+        "name": "opening-checks/world_revision/run.log",
+        "result": "WORLD REVISION: PASS | checks=45",
+        "sha256": "51e4af477704dfe8d6df24672a24c273d02ab8fb537652f9c567efaf21c746e4"
+      },
+      {
+        "name": "smoke.log",
+        "result": "SMOKE RESULT: 108/108 passed",
+        "sha256": "3657a7ca1270933da32fcb4a9e8d39eb6d2c40bbc1f2813fd78e0f3c853c6bc8"
+      },
+      {
+        "name": "story-moments.log",
+        "result": "STORY MOMENTS RESULT: 11/11 passed",
+        "sha256": "53be442e1fb66f4789780a5c7e2bf81d9459e3a796b31200a307cefc46e5e208"
+      },
+      {
+        "name": "visual-motion.log",
+        "result": "VISUAL MOTION RESULT: 51/51 passed",
+        "sha256": "3838809a414ad0f230a09aee5c8629ecfdcf474cabb991b096f14537790878ea"
+      }
+    ]
+  },
+  "release": {
+    "groups": 9,
+    "passed": true,
+    "results": [
+      {
+        "name": "courtyard_controls.log",
+        "result": "COURTYARD CONTROLS: PASS | checks=77",
+        "sha256": "c2a50abc49b2ba0c1ece69c4f42f0af655094e012d4d372e05adf293c96a74fc"
+      },
+      {
+        "name": "first_level_rebuild.log",
+        "result": "FIRST LEVEL REBUILD: PASS | checks=125",
+        "sha256": "dce94c5ad481f7054fc5b003651e7a9515569acbe8afbbb94c593744a7ee2f37"
+      },
+      {
+        "name": "linear_route.log",
+        "result": "LINEAR ROUTE RESULT: 38/38 passed",
+        "sha256": "3a6e0c6c92ad5b4a731423aa6cc7baa82a7e39e5b1ce8c41abe47b64282b6e01"
+      },
+      {
+        "name": "river_journey.log",
+        "result": "RIVER JOURNEY: PASS | checks=60",
+        "sha256": "e56e231cdee22d76a8eebf603000e01944e961ee9d063f83bde772d17f5482f9"
+      },
+      {
+        "name": "settlement_revision.log",
+        "result": "SETTLEMENT REVISION: PASS | checks=38",
+        "sha256": "8db469035cdb7b00a9c9c014ea2cc353c761c03f32f8ee3ca8d8d51470f09322"
+      },
+      {
+        "name": "smoke.log",
+        "result": "SMOKE RESULT: 108/108 passed",
+        "sha256": "af5f89d11b25aadbb0a74a5b385bb755a33167ada778f41d4f72fd61e5855149"
+      },
+      {
+        "name": "surface_loading.log",
+        "result": "SURFACE LOADING: PASS | checks=22",
+        "sha256": "ea8ee66d002a2caa29eff89d44bcab57c72d4a7a6b15df7b4b3e3663c3e0f780"
+      },
+      {
+        "name": "user_expansion.log",
+        "result": "USER EXPANSION: PASS | checks=42",
+        "sha256": "78e386b66330f61a4e44427f007102d2ca238cd296e4cf3de639e64b815d1dd2"
+      },
+      {
+        "name": "visual_motion.log",
+        "result": "VISUAL MOTION RESULT: 51/51 passed",
+        "sha256": "3838809a414ad0f230a09aee5c8629ecfdcf474cabb991b096f14537790878ea"
+      }
+    ]
+  },
+  "navigation": {
+    "assembly_ms": 15158.079,
+    "longest_initial_frame_ms": 699.408,
+    "passed": true,
+    "reachable_cells": 79572,
+    "reachable_sha256": "d23dd1abfdd3f63401624e8b3adba1d4c9ea4f1f468e20f486addfc8f3dda5fb",
+    "reference": "C:\\GameMake\\docs\\validation\\optimization-20261016\\final-source-navigation.json",
+    "scope": "All four-neighbour cells reachable from the village and landing after opening both section gates. Graph equivalence includes all accessible yards and side recesses. Startup timing is wall-clock and includes deferred scenery/navigation; headless fixture, not FPS.",
+    "twelve_initial_physics_frames_ms": 1479.602,
+    "version": "0.7.2-rc1",
+    "village_navigation_build_ms": 241.285,
+    "village_physics_queries": 104570,
+    "village_scenery_build_ms": 693.962
+  },
+  "navigation_delta": {
+    "passed": true,
+    "baseline_cells": 79589,
+    "baseline_sha256": "bf6c80496a4ce18b9ea367c8041bf4c5aa3cc68887e509a3e9974dfed7906980",
+    "source_cells": 79572,
+    "source_sha256": "d23dd1abfdd3f63401624e8b3adba1d4c9ea4f1f468e20f486addfc8f3dda5fb",
+    "changed_cells": 21,
+    "added": 2,
+    "removed": 19,
+    "dimensions": [
+      290,
+      450
+    ],
+    "offset": [
+      990.5,
+      0.5
+    ],
+    "differences": [
+      {
+        "x": 1062.5,
+        "z": 239.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1066.5,
+        "z": 241.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1157.5,
+        "z": 288.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1158.5,
+        "z": 293.5,
+        "before": 0,
+        "after": 1
+      },
+      {
+        "x": 1150.5,
+        "z": 294.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1173.5,
+        "z": 331.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1177.5,
+        "z": 338.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1169.5,
+        "z": 374.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1174.5,
+        "z": 377.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1183.5,
+        "z": 382.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1186.5,
+        "z": 384.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1201.5,
+        "z": 412.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1204.5,
+        "z": 414.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1207.5,
+        "z": 416.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1209.5,
+        "z": 422.5,
+        "before": 0,
+        "after": 1
+      },
+      {
+        "x": 1204.5,
+        "z": 433.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1213.5,
+        "z": 433.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1214.5,
+        "z": 433.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1204.5,
+        "z": 434.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1205.5,
+        "z": 434.5,
+        "before": 1,
+        "after": 0
+      },
+      {
+        "x": 1210.5,
+        "z": 434.5,
+        "before": 1,
+        "after": 0
+      }
+    ],
+    "audit": "21 boundary samples change with Jolt: 19 removed, two added in the woodland (z=293.5 and 422.5), both south of village entrance z=282. No new reachable cells within village combat sections. Original colliders are retained. Source courtyard_controls (77), river_journey (60), route boundaries and complete combat route pass; package equivalence is checked separately."
+  },
+  "rendered_quality": {
+    "checks": 39,
+    "failures": [],
+    "instance_bounds_checked": true,
+    "passed": true,
+    "renderer": "Windows"
+  },
+  "rendered_world": {
+    "checks": 54,
+    "failures": [],
+    "near_trees": 180,
+    "passed": true,
+    "renderer": "Windows",
+    "village_props": 42
+  },
+  "cameras": {
+    "balanced_valid": true,
+    "high_valid": true,
+    "balanced_unfocused_frames": 231,
+    "high_unfocused_frames": 0
+  },
+  "rendered_combat": {
+    "active_route_frames": {
+      "frames": 111799,
+      "max_frame_ms": 635.155,
+      "mean_fps": 320.660831094058,
+      "mean_frame_ms": 3.11855987083959,
+      "p95_frame_ms": 5.46,
+      "p99_frame_ms": 7.711,
+      "seconds_sampled": 348.651874999995
+    },
+    "all_playing_frames": {
+      "frames": 154287,
+      "max_frame_ms": 635.155,
+      "mean_fps": 329.173052505906,
+      "mean_frame_ms": 3.03791574792428,
+      "p95_frame_ms": 5.183,
+      "p99_frame_ms": 7.375,
+      "seconds_sampled": 468.710906999994
+    },
+    "enemy_in_combat_frames": {
+      "frames": 1630,
+      "max_frame_ms": 24.369,
+      "mean_fps": 216.412598718333,
+      "mean_frame_ms": 4.62080306748467,
+      "p95_frame_ms": 7.871,
+      "p99_frame_ms": 9.686,
+      "seconds_sampled": 7.53190900000001
+    },
+    "enemy_shots_observed": 7,
+    "fps_limit": 0,
+    "frames_over_100ms": 1,
+    "frames_over_50ms": 1,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "health_at_finish": 100.0,
+    "longest_frames": [
+      {
+        "frame_ms": 635.155,
+        "game_seconds": 164.988729666668,
+        "player": [
+          79.0054931640625,
+          0.000881951244082302,
+          14.0136470794678
+        ],
+        "village": false,
+        "wall_seconds": 170.739955
+      },
+      {
+        "frame_ms": 28.179,
+        "game_seconds": 17.869499,
+        "player": [
+          27.8857612609863,
+          0.000875430239830166,
+          246.862640380859
+        ],
+        "village": false,
+        "wall_seconds": 17.753334
+      },
+      {
+        "frame_ms": 24.369,
+        "game_seconds": 53.6497869999999,
+        "player": [
+          45.3583602905273,
+          0.000875428842846304,
+          154.961166381836
+        ],
+        "village": false,
+        "wall_seconds": 53.536842
+      },
+      {
+        "frame_ms": 15.474,
+        "game_seconds": 198.393154666666,
+        "player": [
+          1213.98706054688,
+          0.000874045537784696,
+          425.986999511719
+        ],
+        "village": true,
+        "wall_seconds": 242.144377
+      },
+      {
+        "frame_ms": 13.171,
+        "game_seconds": 114.476277,
+        "player": [
+          43.8779792785645,
+          0.000875475525390357,
+          38.499942779541
+        ],
+        "village": false,
+        "wall_seconds": 119.740947
+      },
+      {
+        "frame_ms": 12.936,
+        "game_seconds": 219.523225666665,
+        "player": [
+          1191.50048828125,
+          0.000864356115926057,
+          387.134155273438
+        ],
+        "village": true,
+        "wall_seconds": 263.272578
+      },
+      {
+        "frame_ms": 12.644,
+        "game_seconds": 53.6627809999999,
+        "player": [
+          45.2953948974609,
+          0.000875415571499616,
+          154.967987060547
+        ],
+        "village": false,
+        "wall_seconds": 53.549486
+      },
+      {
+        "frame_ms": 12.444,
+        "game_seconds": 281.661671666665,
+        "player": [
+          1146.49926757813,
+          0.000868900388013572,
+          279.544921875
+        ],
+        "village": true,
+        "wall_seconds": 325.41344
+      },
+      {
+        "frame_ms": 12.267,
+        "game_seconds": 356.125225666661,
+        "player": [
+          1146.98059082031,
+          0.000867774826474488,
+          155.945541381836
+        ],
+        "village": true,
+        "wall_seconds": 399.87776
+      },
+      {
+        "frame_ms": 11.878,
+        "game_seconds": 267.225214666665,
+        "player": [
+          1162.49914550781,
+          0.000867801601998508,
+          304.20556640625
+        ],
+        "village": true,
+        "wall_seconds": 310.975
+      },
+      {
+        "frame_ms": 11.77,
+        "game_seconds": 282.231333666665,
+        "player": [
+          1146.49938964844,
+          0.000868897594045848,
+          277.391906738281
+        ],
+        "village": true,
+        "wall_seconds": 325.983566
+      },
+      {
+        "frame_ms": 11.688,
+        "game_seconds": 235.559971666665,
+        "player": [
+          1169.49938964844,
+          0.000864451809320599,
+          361.34326171875
+        ],
+        "village": true,
+        "wall_seconds": 279.309362
+      }
+    ],
+    "mean_draw_calls": 457.65523342861,
+    "measurement_valid": true,
+    "peak_alive_enemies_observed": 13,
+    "player_shots_observed": 36,
+    "quality": "balanced",
+    "recent_enemy_firing_frames": {
+      "frames": 1330,
+      "max_frame_ms": 24.369,
+      "mean_fps": 220.92267274575,
+      "mean_frame_ms": 4.52647067669173,
+      "p95_frame_ms": 7.638,
+      "p99_frame_ms": 9.209,
+      "seconds_sampled": 6.020206
+    },
+    "recent_firing_frames": {
+      "frames": 8793,
+      "max_frame_ms": 635.155,
+      "mean_fps": 239.004495312231,
+      "mean_frame_ms": 4.18402172182418,
+      "p95_frame_ms": 7.451,
+      "p99_frame_ms": 9.304,
+      "seconds_sampled": 36.790103
+    },
+    "render_scale_3d": 1.0,
+    "renderer": "gl_compatibility",
+    "reported_peak_texture_bytes": 2278131670.0,
+    "reported_viewport_texture_size": [
+      2880,
+      1620
+    ],
+    "resolution": [
+      1920,
+      1080
+    ],
+    "resolution_method": "Viewport image readback before and after sampling; window and stretch configuration checked each sample; readback intervals excluded.",
+    "route_passed": true,
+    "scope": "Real AI and automated player route; automatic aiming is not human difficulty. Primary active_route_frames include movement or a shot within 1s. Stationary no-shot intervals are separate. AI combat state alone is not evidence of firing. Excludes first 1.5s, menus, pauses and their boundary intervals. No fixed-fps simulation override.",
+    "stationary_without_recent_fire_frames": {
+      "frames": 42488,
+      "max_frame_ms": 12.267,
+      "mean_fps": 353.89257511255,
+      "mean_frame_ms": 2.82571624929391,
+      "p95_frame_ms": 4.516,
+      "p99_frame_ms": 5.877,
+      "seconds_sampled": 120.059032
+    },
+    "time_scale": 1.0,
+    "two_sided_recent_firing_frames": {
+      "frames": 790,
+      "max_frame_ms": 10.379,
+      "mean_fps": 217.979501097348,
+      "mean_frame_ms": 4.58758734177215,
+      "p95_frame_ms": 7.725,
+      "p99_frame_ms": 9.209,
+      "seconds_sampled": 3.624194
+    },
+    "unfocused_frames": 0,
+    "validation_errors": [],
+    "version": "0.7.2-rc1",
+    "vsync": false,
+    "window_resolution": [
+      1920,
+      1080
+    ]
+  },
+  "rendered_arrival": {
+    "frames": 120,
+    "p99_frame_ms": 7.409,
+    "passed": true,
+    "physics_engine": "Jolt Physics",
+    "rendered": true,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "timings_ms": {
+      "ally_path": 0.117,
+      "arrive": 14.438,
+      "landing_path": 0.183,
+      "read_save": 5.604,
+      "save": 1.775,
+      "start_new": 19.897
+    },
+    "unfocused_frames": 0,
+    "version": "0.7.2-rc1",
+    "worst_frame_ms": 24.58
+  },
+  "rendered_surface_loading": {
+    "checks": 31,
+    "failures": [],
+    "passed": true,
+    "rendered": true
+  },
+  "protected_files": 127,
+  "protected_changes": 0,
+  "captures": [
+    {
+      "file": "forest_contact.png",
+      "quality": "high",
+      "sha256": "026a877798c08270c70d69a19150e16b54aca7c0de3a3debdfbbd5aaa86e45db"
+    },
+    {
+      "file": "forest_approach.png",
+      "quality": "high",
+      "sha256": "c73f6c31b8b20a309457897556308e6a7d7e255385efb575848487bf65d6bfa8"
+    },
+    {
+      "file": "village_street.png",
+      "quality": "high",
+      "sha256": "97d67da4cab1ce313d3720534891f36cf0033b2d42b17f62c43f8af04ba3fcfb"
+    },
+    {
+      "file": "river.png",
+      "quality": "high",
+      "sha256": "68577cfb64fd85922688c3bd43807f484e500119c59cf88a6a6ca1ee7701c4b7"
+    },
+    {
+      "file": "forest-village-bend.png",
+      "quality": "balanced",
+      "sha256": "6dc1fb7905758cb783f1809b7a0cbe1ae929f296fabfd691602528cd1344e755"
+    },
+    {
+      "file": "ferry-surface.png",
+      "quality": "balanced",
+      "sha256": "98a929f8b7d1d7e10da6b7f7c10180cceb3eeac24a65e098f7b6af43dbe63194"
+    },
+    {
+      "file": "rifle-support.png",
+      "quality": "balanced",
+      "sha256": "a1d54f79cf50aed64eb0facddad55b92850d5ec54491af03ad2738d19353d3cb"
+    },
+    {
+      "file": "reload-39.png",
+      "quality": "balanced",
+      "sha256": "3e27cc32350df27deb0ea67abd2ba8f85c7cc921d6dae2a22e61a281ae2d77a4"
+    },
+    {
+      "file": "reload-60.png",
+      "quality": "balanced",
+      "sha256": "63c4d676a8dde9df2badaa4d679f630976ba5ac9fc190a066167d63216a53491"
+    }
+  ],
+  "baseline_pack_sha256": "cb08eea5f35ea686d422d1781e1ce8759d99f407741b24c14db7b61447e0852b",
+  "pack_sha256": "fa79577aafbf3b6acc6febcb940b76fb0c82ed2aab99fc76f9ea762a58451147",
+  "limitations": [
+    "Camera FPS changes vary by view and session; no universal improvement percentage.",
+    "Navigation and scenery startup costs remain before launch.",
+    "One 635ms ferry-area gameplay frame remains in the final combat sample; its cause is not yet isolated.",
+    "Automatic aim does not assess human difficulty.",
+    "Continuous art, acting, audio listening and other hardware remain pending."
+  ]
+}

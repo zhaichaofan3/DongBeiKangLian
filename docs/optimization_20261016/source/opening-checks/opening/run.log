@@ -1,0 +1,44 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New opening begins with A
+PASS: A entry is a valid restorable save
+PASS: Fixed opening words appear unaltered
+PASS: Pause freezes timeline and camera
+PASS: Pause freezes opening environment audio
+PASS: Settings/continue return to the same opening
+PASS: N13 remains visible through the continuous battle shot
+PASS: New closing subtitle remains over the building glide before title
+PASS: Title follows subtitle clearance
+PASS: Cinematic shots do not change gameplay resources or position
+PASS: Cinematic shots do not change story or gates
+PASS: All 28 shots, including the telegraph insert, are reached by continuous clock playback
+PASS: All 17 narration and 14 dialogue cues are reached
+PASS: Full A/B playback commits gameplay once
+PASS: Full playback: briefing complete, task actions untouched
+PASS: Full playback: camera and position align
+PASS: Full playback: guards, gates and ammunition unchanged
+PASS: Repeated finish cannot duplicate the mission
+PASS: Skipping A starts B, not gameplay
+PASS: B boundary has a valid restorable save
+PASS: Stale/double skip cannot skip the new part
+PASS: Skip A and B: briefing complete, task actions untouched
+PASS: Skip A and B: camera and position align
+PASS: Skip A and B: guards, gates and ammunition unchanged
+PASS: Skip and full playback produce the same mission state
+PASS: Watch A then skip B: briefing complete, task actions untouched
+PASS: Watch A then skip B: camera and position align
+PASS: Watch A then skip B: guards, gates and ammunition unchanged
+PASS: Travel time/place card is separate from spoken dialogue
+PASS: Skip A then watch remaining B: briefing complete, task actions untouched
+PASS: Skip A then watch remaining B: camera and position align
+PASS: Skip A then watch remaining B: guards, gates and ammunition unchanged
+PASS: History save resumes at A1
+PASS: Task save resumes at B1
+PASS: Gameplay save does not replay B or reset progress
+PASS: Legacy gameplay save retains its original briefing state
+PASS: Unknown opening state is rejected visibly, not treated as complete
+PASS: Invalid save remains available for diagnosis
+PASS: Failed handoff save leaves a visible retry state
+PASS: Failed write preserves previous successful save
+PASS: Retry saves the prepared gameplay state
+OPENING RESULT: 41/41 passed

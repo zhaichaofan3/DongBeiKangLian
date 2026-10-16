@@ -1,0 +1,32 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Category buses and cinematic master exist without replacing Master volume
+PASS: Existing player gun, footstep and wind streams route to separate buses
+PASS: Spatial river, radio and switch use the appropriate layers
+PASS: Both gunshot streams are still playing when the pause is requested
+PAUSE AUDIO DIAGNOSTIC: {"after":{"ambient":true,"enemy":true,"gun":true},"before":{"ambient_playing":true,"enemy_length":0.705306112766266,"enemy_playing":true,"gun_length":0.705306112766266,"gun_playing":true}}
+PASS: Gameplay pause freezes gunfire and ambient playback
+PASS: Resume releases paused streams without replaying them
+PASS: Reload uses Foley rather than the gunshot layer
+PASS: Music starts at silence and fades in
+PASS: Repeated request for the same cue does not restart or add a player
+PASS: A transition overlaps exactly two streams
+PASS: Rapid cue changes recycle the quieter slot and preserve the audible outgoing cue
+PASS: Journal pause freezes both playback and crossfade time
+PASS: Fade completion releases the old stream
+PASS: Voice lowers music by 10dB while keeping a separate voice bus
+PASS: Voice lowers ambience by 3dB without changing gunshot gain
+PASS: Ducking does not overwrite the user's Master volume
+PASS: Music recovers gradually after speech ends
+PASS: Music fade-out retains playback until the fade finishes
+PASS: Music fade-out ends with both streams released
+PASS: Loading clears old voice/gun tails and restores the global music
+PASS: A-to-B transition clears old history cue audio
+PASS: New voice or music requested during cinematic pause stays paused
+PASS: Leaving a paused cinematic releases cue audio and restores menu music
+PASS: A new task resumes one persistent ambient stream
+PASS: 512 live routing transitions preserve every category send without a mixer crash
+PASS: The audio thread keeps advancing during routing transitions
+PASS: Scene re-entry reuses buses without duplicates
+PASS: Scene teardown clears dialogue ducking
+S30 AUDIO MIX: PASS | checks=28

@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "baseline_cells": 79589,
+  "baseline_sha256": "bf6c80496a4ce18b9ea367c8041bf4c5aa3cc68887e509a3e9974dfed7906980",
+  "source_cells": 79572,
+  "source_sha256": "d23dd1abfdd3f63401624e8b3adba1d4c9ea4f1f468e20f486addfc8f3dda5fb",
+  "changed_cells": 21,
+  "added": 2,
+  "removed": 19,
+  "dimensions": [
+    290,
+    450
+  ],
+  "offset": [
+    990.5,
+    0.5
+  ],
+  "differences": [
+    {
+      "x": 1062.5,
+      "z": 239.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1066.5,
+      "z": 241.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1157.5,
+      "z": 288.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1158.5,
+      "z": 293.5,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "x": 1150.5,
+      "z": 294.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1173.5,
+      "z": 331.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1177.5,
+      "z": 338.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1169.5,
+      "z": 374.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1174.5,
+      "z": 377.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1183.5,
+      "z": 382.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1186.5,
+      "z": 384.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1201.5,
+      "z": 412.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1204.5,
+      "z": 414.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1207.5,
+      "z": 416.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1209.5,
+      "z": 422.5,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "x": 1204.5,
+      "z": 433.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1213.5,
+      "z": 433.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1214.5,
+      "z": 433.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1204.5,
+      "z": 434.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1205.5,
+      "z": 434.5,
+      "before": 1,
+      "after": 0
+    },
+    {
+      "x": 1210.5,
+      "z": 434.5,
+      "before": 1,
+      "after": 0
+    }
+  ],
+  "audit": "21 boundary samples change with Jolt: 19 removed, two added in the woodland (z=293.5 and 422.5), both south of village entrance z=282. No new reachable cells within village combat sections. Original colliders are retained. Source courtyard_controls (77), river_journey (60), route boundaries and complete combat route pass; package equivalence is checked separately."
+}

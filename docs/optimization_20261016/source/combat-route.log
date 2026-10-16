@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+COMBAT PROGRESS: checkpoint cleared
+COMBAT PROGRESS: timber yard cleared
+COMBAT PROGRESS: office complete, courier rescued
+FERRY COMBAT: issued=12 | defeated=2 | enemy shots=0 | first contact remaining=28.8333333333334
+WARNING: [Physics interpolation] Interpolated Camera3D triggered from outside physics process: "/root/Main/Player/@Camera3D@4135" (possibly benign).
+   at: _notification (scene/3d/camera_3d.cpp:218)
+COMBAT PROGRESS: landed on the far bank
+COMBAT PROGRESS: forest approach complete
+COMBAT PROGRESS: village encounter 1 complete
+COMBAT PROGRESS: village encounter 2 complete
+COMBAT PROGRESS: village encounter 3 complete
+ACTIVE COMBAT ROUTE: PASS | health=100.0 | guards defeated=37 | elapsed=469.749999999901 | state=won

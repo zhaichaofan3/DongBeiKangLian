@@ -2,6 +2,7 @@ $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $inputRoot = Join-Path $root 'docs\validation\optimization-20261016'
 $report = Join-Path $root 'docs\optimization_20261016'
+$packBuiltAt = (Get-Item -LiteralPath (Join-Path $root 'Release\FenghuoEcho.pck')).LastWriteTimeUtc
 New-Item -ItemType Directory -Path $report -Force | Out-Null
 
 function Read-Regression([string]$batch) {
@@ -10,6 +11,7 @@ function Read-Regression([string]$batch) {
     $expected = if ($batch -eq 'final-source') { 33 } else { 9 }
     if ($logs.Count -ne $expected) { throw "Expected $expected $batch regression logs, found $($logs.Count)." }
     $results = foreach ($file in $logs) {
+        if ($batch -eq 'final-release' -and $file.LastWriteTimeUtc -lt $packBuiltAt) { throw "Package log predates this build: $($file.FullName)" }
         $content = Get-Content -LiteralPath $file.FullName -Raw
         $marker = @($content -split "`n" | Where-Object { $_ -match '^[A-Z0-9 ]+(?:RESULT: ([0-9]+)/\1 passed|: PASS)' }) | Select-Object -Last 1
         if (-not $marker -or $content -match '(?m)^(SCRIPT ERROR|ERROR|FAIL):') { throw "Failed or incomplete check: $($file.FullName)" }
@@ -24,6 +26,7 @@ function Read-Regression([string]$batch) {
 
 function Read-Evidence([string]$relative, [string]$destination) {
     $path = Join-Path $inputRoot $relative
+    if ($relative.StartsWith('release-') -and (Get-Item -LiteralPath $path).LastWriteTimeUtc -lt $packBuiltAt) { throw "Evidence predates this build: $relative" }
     $data = Get-Content -LiteralPath $path -Raw | ConvertFrom-Json
     Copy-Item -LiteralPath $path -Destination (Join-Path $report $destination) -Force
     return $data
@@ -114,7 +117,7 @@ $record = [ordered]@{
     captures = @($captures)
     baseline_pack_sha256 = 'cb08eea5f35ea686d422d1781e1ce8759d99f407741b24c14db7b61447e0852b'
     pack_sha256 = (Get-FileHash -LiteralPath (Join-Path $root 'Release\FenghuoEcho.pck')).Hash.ToLowerInvariant()
-    limitations = @('Camera FPS changes vary by view and session; no universal improvement percentage.', 'Navigation and scenery startup costs remain before launch.', 'Automatic aim does not assess human difficulty.', 'Continuous art, acting, audio listening and other hardware remain pending.')
+    limitations = @('Camera FPS changes vary by view and session; no universal improvement percentage.', 'Navigation and scenery startup costs remain before launch.', 'One 635ms ferry-area gameplay frame remains in the final combat sample; its cause is not yet isolated.', 'Automatic aim does not assess human difficulty.', 'Continuous art, acting, audio listening and other hardware remain pending.')
 }
 $record | ConvertTo-Json -Depth 12 | Set-Content -LiteralPath (Join-Path $report 'final-validation.json') -Encoding utf8
 $record | ConvertTo-Json -Depth 12 | Set-Content -LiteralPath (Join-Path $root 'Release\release_validation.json') -Encoding utf8

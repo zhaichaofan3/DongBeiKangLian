@@ -1,0 +1,96 @@
+{
+	"active_route_frames": {
+		"frames": 100104,
+		"max_frame_ms": 5086.634,
+		"mean_fps": 282.344533794286,
+		"mean_frame_ms": 3.54177212698792,
+		"p95_frame_ms": 6.888,
+		"p99_frame_ms": 10.275,
+		"seconds_sampled": 354.545556999998
+	},
+	"all_playing_frames": {
+		"frames": 136965,
+		"max_frame_ms": 5086.634,
+		"mean_fps": 288.661259282108,
+		"mean_frame_ms": 3.46426812689369,
+		"p95_frame_ms": 6.676,
+		"p99_frame_ms": 9.957,
+		"seconds_sampled": 474.483483999994
+	},
+	"enemy_in_combat_frames": {
+		"frames": 1247,
+		"max_frame_ms": 39.427,
+		"mean_fps": 165.553022769847,
+		"mean_frame_ms": 6.04036086607858,
+		"p95_frame_ms": 10.45,
+		"p99_frame_ms": 24.499,
+		"seconds_sampled": 7.53233
+	},
+	"enemy_shots_observed": 7,
+	"fps_limit": 0,
+	"gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+	"health_at_finish": 100.0,
+	"mean_draw_calls": 521.141342678787,
+	"measurement_valid": true,
+	"peak_alive_enemies_observed": 13,
+	"player_shots_observed": 36,
+	"quality": "balanced",
+	"recent_enemy_firing_frames": {
+		"frames": 1060,
+		"max_frame_ms": 39.427,
+		"mean_fps": 174.349561000964,
+		"mean_frame_ms": 5.7356037735849,
+		"p95_frame_ms": 10.128,
+		"p99_frame_ms": 27.027,
+		"seconds_sampled": 6.07973999999999
+	},
+	"recent_firing_frames": {
+		"frames": 8392,
+		"max_frame_ms": 39.427,
+		"mean_fps": 227.657493641283,
+		"mean_frame_ms": 4.39256351286941,
+		"p95_frame_ms": 7.96,
+		"p99_frame_ms": 12.777,
+		"seconds_sampled": 36.8623930000001
+	},
+	"render_scale_3d": 1.0,
+	"renderer": "gl_compatibility",
+	"reported_peak_texture_bytes": 2260174807.0,
+	"reported_viewport_texture_size": [
+		2880,
+		1620
+	],
+	"resolution": [
+		1920,
+		1080
+	],
+	"resolution_method": "Viewport image readback before and after sampling; window and stretch configuration checked each sample; readback intervals excluded.",
+	"route_passed": true,
+	"scope": "Real AI and automated player route; automatic aiming is not human difficulty. Primary active_route_frames include movement or a shot within 1s. Stationary no-shot intervals are separate. AI combat state alone is not evidence of firing. Excludes first 1.5s, menus, pauses and their boundary intervals. No fixed-fps simulation override.",
+	"stationary_without_recent_fire_frames": {
+		"frames": 36861,
+		"max_frame_ms": 502.26,
+		"mean_fps": 307.333976182527,
+		"mean_frame_ms": 3.25378928949299,
+		"p95_frame_ms": 6.199,
+		"p99_frame_ms": 8.225,
+		"seconds_sampled": 119.937927000001
+	},
+	"time_scale": 1.0,
+	"two_sided_recent_firing_frames": {
+		"frames": 721,
+		"max_frame_ms": 27.027,
+		"mean_fps": 196.967304520195,
+		"mean_frame_ms": 5.07698474341193,
+		"p95_frame_ms": 8.588,
+		"p99_frame_ms": 10.288,
+		"seconds_sampled": 3.660506
+	},
+	"validation_errors": [],
+	"version": "0.7.1-rc1",
+	"vsync": false,
+	"window_resolution": [
+		1920,
+		1080
+	]
+}

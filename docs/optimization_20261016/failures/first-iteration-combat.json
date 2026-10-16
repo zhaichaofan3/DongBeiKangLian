@@ -1,0 +1,233 @@
+{
+	"active_route_frames": {
+		"frames": 31985,
+		"max_frame_ms": 7943.275,
+		"mean_fps": 89.7635106852812,
+		"mean_frame_ms": 11.1403842426138,
+		"p95_frame_ms": 18.157,
+		"p99_frame_ms": 24.563,
+		"seconds_sampled": 356.325190000002
+	},
+	"all_playing_frames": {
+		"frames": 43633,
+		"max_frame_ms": 7943.275,
+		"mean_fps": 91.2244873962809,
+		"mean_frame_ms": 10.9619689684413,
+		"p95_frame_ms": 17.974,
+		"p99_frame_ms": 23.612,
+		"seconds_sampled": 478.303592000001
+	},
+	"enemy_in_combat_frames": {
+		"frames": 487,
+		"max_frame_ms": 165.31,
+		"mean_fps": 63.7496635798041,
+		"mean_frame_ms": 15.6863572895277,
+		"p95_frame_ms": 22.15,
+		"p99_frame_ms": 86.325,
+		"seconds_sampled": 7.639256
+	},
+	"enemy_shots_observed": 7,
+	"fps_limit": 0,
+	"frames_over_100ms": 14,
+	"frames_over_50ms": 56,
+	"gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+	"health_at_finish": 100.0,
+	"longest_frames": [
+		{
+			"frame_ms": 7943.275,
+			"game_seconds": 198.334581666665,
+			"player": [
+				1213.84460449219,
+				0.000840496446471661,
+				425.844390869141
+			],
+			"village": true,
+			"wall_seconds": 253.652297
+		},
+		{
+			"frame_ms": 1114.311,
+			"game_seconds": 164.865536999999,
+			"player": [
+				79.0055236816406,
+				0.000840800814330578,
+				14.0137166976929
+			],
+			"village": false,
+			"wall_seconds": 173.483138
+		},
+		{
+			"frame_ms": 701.611,
+			"game_seconds": 163.545675333333,
+			"player": [
+				79.0055236816406,
+				0.000840800814330578,
+				14.0137166976929
+			],
+			"village": false,
+			"wall_seconds": 171.309871
+		},
+		{
+			"frame_ms": 378.7,
+			"game_seconds": 1.59036866666667,
+			"player": [
+				10.7983875274658,
+				0.000840495398733765,
+				284.903015136719
+			],
+			"village": false,
+			"wall_seconds": 3.134146
+		},
+		{
+			"frame_ms": 273.938,
+			"game_seconds": 271.738186333332,
+			"player": [
+				1156.27563476563,
+				0.000935803633183241,
+				296.321044921875
+			],
+			"village": true,
+			"wall_seconds": 327.101792
+		},
+		{
+			"frame_ms": 240.873,
+			"game_seconds": 155.715321333333,
+			"player": [
+				67.2761001586914,
+				0.000841280852910131,
+				23.1474342346191
+			],
+			"village": false,
+			"wall_seconds": 162.795997
+		},
+		{
+			"frame_ms": 165.31,
+			"game_seconds": 115.120902666666,
+			"player": [
+				45.0463790893555,
+				0.000716088572517037,
+				37.3130989074707
+			],
+			"village": false,
+			"wall_seconds": 122.212925
+		},
+		{
+			"frame_ms": 157.304,
+			"game_seconds": 238.478981999999,
+			"player": [
+				1169.94360351563,
+				0.00085486751049757,
+				352.081573486328
+			],
+			"village": true,
+			"wall_seconds": 293.721971
+		},
+		{
+			"frame_ms": 118.694,
+			"game_seconds": 115.001395666666,
+			"player": [
+				44.7031784057617,
+				0.000668269582092762,
+				37.2702903747559
+			],
+			"village": false,
+			"wall_seconds": 122.047615
+		},
+		{
+			"frame_ms": 117.771,
+			"game_seconds": 221.072829666665,
+			"player": [
+				1191.94470214844,
+				0.000926155829802155,
+				383.053497314453
+			],
+			"village": true,
+			"wall_seconds": 276.291138
+		},
+		{
+			"frame_ms": 113.652,
+			"game_seconds": 113.945149666666,
+			"player": [
+				42.2947578430176,
+				-0.00142606836743653,
+				38.4995040893555
+			],
+			"village": false,
+			"wall_seconds": 120.985831
+		},
+		{
+			"frame_ms": 113.56,
+			"game_seconds": 113.833174666666,
+			"player": [
+				41.8514289855957,
+				-0.00286573055200279,
+				38.4987487792969
+			],
+			"village": false,
+			"wall_seconds": 120.872179
+		}
+	],
+	"mean_draw_calls": 470.67164760617,
+	"measurement_valid": true,
+	"peak_alive_enemies_observed": 13,
+	"player_shots_observed": 37,
+	"quality": "balanced",
+	"recent_enemy_firing_frames": {
+		"frames": 406,
+		"max_frame_ms": 165.31,
+		"mean_fps": 65.920145375028,
+		"mean_frame_ms": 15.1698694581281,
+		"p95_frame_ms": 20.758,
+		"p99_frame_ms": 86.325,
+		"seconds_sampled": 6.158967
+	},
+	"recent_firing_frames": {
+		"frames": 3025,
+		"max_frame_ms": 240.873,
+		"mean_fps": 81.3500220371159,
+		"mean_frame_ms": 12.2925596694215,
+		"p95_frame_ms": 18.264,
+		"p99_frame_ms": 36.4,
+		"seconds_sampled": 37.184993
+	},
+	"render_scale_3d": 1.0,
+	"renderer": "gl_compatibility",
+	"reported_peak_texture_bytes": 2276995712.0,
+	"reported_viewport_texture_size": [
+		2880,
+		1620
+	],
+	"resolution": [
+		1920,
+		1080
+	],
+	"resolution_method": "Viewport image readback before and after sampling; window and stretch configuration checked each sample; readback intervals excluded.",
+	"route_passed": true,
+	"scope": "Real AI and automated player route; automatic aiming is not human difficulty. Primary active_route_frames include movement or a shot within 1s. Stationary no-shot intervals are separate. AI combat state alone is not evidence of firing. Excludes first 1.5s, menus, pauses and their boundary intervals. No fixed-fps simulation override.",
+	"stationary_without_recent_fire_frames": {
+		"frames": 11648,
+		"max_frame_ms": 1114.311,
+		"mean_fps": 95.4923151067355,
+		"mean_frame_ms": 10.472046875,
+		"p95_frame_ms": 17.521,
+		"p99_frame_ms": 21.133,
+		"seconds_sampled": 121.978401999999
+	},
+	"time_scale": 1.0,
+	"two_sided_recent_firing_frames": {
+		"frames": 283,
+		"max_frame_ms": 53.068,
+		"mean_fps": 77.5123732207076,
+		"mean_frame_ms": 12.9011660777385,
+		"p95_frame_ms": 18.558,
+		"p99_frame_ms": 36.4,
+		"seconds_sampled": 3.65103
+	},
+	"unfocused_frames": 0,
+	"validation_errors": [],
+	"version": "0.7.2-rc1",
+	"vsync": false,
+	"window_resolution": [
+		1920,
+		1080
+	]
+}

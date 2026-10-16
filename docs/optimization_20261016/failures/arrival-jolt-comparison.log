@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ARRIVAL READY: graphics=<null> prewarm_ms=<null>
+ARRIVAL CPU: start_new = 17.453 ms
+ARRIVAL CPU: arrive = 16.139 ms
+ARRIVAL CPU: save = 1.65 ms
+ARRIVAL CPU: read_save = 9.645 ms
+ARRIVAL CPU: landing_path = 0.182 ms
+ARRIVAL CPU: ally_path = 0.118 ms
+ARRIVAL PHASE: idle +1.203 ms
+ARRIVAL PHASE: physics +2.434 ms
+ARRIVAL PHASE: physics +0.726 ms
+ARRIVAL PHASE: idle +0.765 ms
+ARRIVAL PHASE: idle +0.573 ms
+ARRIVAL PHASE: idle +4.848 ms
+ARRIVAL PHASE: physics +6.886 ms
+ARRIVAL PHASE: idle +0.689 ms
+ARRIVAL PHASE: idle +6.286 ms
+ARRIVAL BUDGET: worst_ms=13.147

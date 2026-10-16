@@ -1,0 +1,11 @@
+{
+  "assembly_ms": 17590.959,
+  "longest_initial_frame_ms": 3225.604,
+  "passed": true,
+  "reachable_cells": 79589,
+  "reachable_sha256": "bf6c80496a4ce18b9ea367c8041bf4c5aa3cc68887e509a3e9974dfed7906980",
+  "reference": "",
+  "scope": "All four-neighbour cells reachable from the village and landing after opening both section gates. Graph equivalence includes all accessible yards and side recesses. Startup timing is wall-clock and includes deferred scenery/navigation; headless fixture, not FPS.",
+  "twelve_initial_physics_frames_ms": 4883.118,
+  "version": "0.7.1-rc1"
+}
