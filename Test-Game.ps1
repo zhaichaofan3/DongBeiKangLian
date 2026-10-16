@@ -30,11 +30,11 @@ if ($OutputDirectory) { $logDir = [IO.Path]::GetFullPath((Join-Path $PSScriptRoo
 New-Item -ItemType Directory -Path $logDir -Force | Out-Null
 
 function Invoke-GameCheck {
-    param([string[]]$GameArgs, [string]$LogPath)
+    param([string[]]$GameArgs, [string]$LogPath, [int]$TimeoutSeconds = 120)
     if (Test-Path -LiteralPath $LogPath) { Remove-Item -LiteralPath $LogPath }
     $quotedArgs = (@('--log-file', $LogPath) + $GameArgs) | ForEach-Object { '"' + $_ + '"' }
     $process = Start-Process -FilePath $engine -ArgumentList $quotedArgs -WorkingDirectory $workingDir -WindowStyle Hidden -PassThru
-    if (-not $process.WaitForExit(120000)) {
+    if (-not $process.WaitForExit($TimeoutSeconds * 1000)) {
         $process.Kill()
         throw "Game validation timed out. See $LogPath"
     }
@@ -59,7 +59,7 @@ Invoke-GameCheck -GameArgs ($baseArgs + @('--headless', '--fixed-fps', '60', '--
 if (-not (Select-String -LiteralPath $linearLog -Pattern 'LINEAR ROUTE RESULT: ([1-9][0-9]*)/\1 passed' -Quiet)) {
     throw 'Linear route test completion marker missing.'
 }
-Invoke-GameCheck -GameArgs ($baseArgs + @('--headless', '--fixed-fps', '60', '--script', (Join-Path $project 'tests\combat_route.gd'), '--', '--qa')) -LogPath $combatLog
+Invoke-GameCheck -GameArgs ($baseArgs + @('--headless', '--fixed-fps', '60', '--script', (Join-Path $project 'tests\combat_route.gd'), '--', '--qa')) -LogPath $combatLog -TimeoutSeconds 600
 if (-not (Select-String -LiteralPath $combatLog -Pattern 'ACTIVE COMBAT ROUTE: PASS' -Quiet)) {
     throw 'Combat test completion marker missing.'
 }

@@ -12,7 +12,8 @@
 | `Find-Godot.ps1` | GODOT_EXE、本地工具、PATH或WinGet定位引擎 |
 | `Verify-RiverJourney.ps1` | 渡河、密林、存档与跳过专项，支持-Release、-Headless与-EvidenceRoot |
 | `Verify-PolishRevision.ps1`及其他Verify工具 | 对应专项画面与交互检查，运行前查看参数 |
-| `Record-CourtyardValidation.ps1` | 本轮最终31组源码/独立包日志、代表画面与校验汇总；必须先完成对应验证，不调用旧版发布脚本 |
+| `Record-OptimizationValidation.ps1` | 0.7.2的32组源码、7组独立包专项、有画面画质/地图、导航/实战与校验汇总；必须先完成对应验证 |
+| `Record-CourtyardValidation.ps1` | 历史0.7.1的31组验证汇总；不可用于当前包 |
 
 ## 模型制作
 

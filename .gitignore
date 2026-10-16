@@ -18,6 +18,8 @@ tools/downloads/
 Release/
 !docs/courtyard_revision_20261016/release/
 !docs/courtyard_revision_20261016/release/**
+!docs/optimization_20261016/release/
+!docs/optimization_20261016/release/**
 ReleaseBackups/
 WorkBackups/
 RestoreChecks/

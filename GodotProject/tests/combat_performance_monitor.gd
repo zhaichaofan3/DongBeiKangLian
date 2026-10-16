@@ -34,6 +34,7 @@ var measured_content_mode := 0
 var longest_frames: Array[Dictionary] = []
 var frames_over_50ms := 0
 var frames_over_100ms := 0
+var unfocused_frames := 0
 
 func initialize(game: Node3D, destination: String) -> void:
 	main = game
@@ -50,6 +51,7 @@ func initialize(game: Node3D, destination: String) -> void:
 	main.presentation.apply_all()
 	main.get_tree().root.size = EXPECTED_SIZE
 	main.get_viewport().scaling_3d_scale = 1.0
+	DisplayServer.window_move_to_foreground()
 	for argument in OS.get_cmdline_args():
 		if argument == "--fixed-fps" or argument.begins_with("--fixed-fps="):
 			_flag("A --fixed-fps simulation override was supplied.")
@@ -132,6 +134,7 @@ func _process(_delta: float) -> void:
 		was_playing = false
 		return
 	_check_configuration()
+	if not get_tree().root.has_focus(): unfocused_frames += 1
 	frames.append(ms)
 	if ms>50.0: frames_over_50ms += 1
 	if ms>100.0: frames_over_100ms += 1
@@ -202,7 +205,7 @@ func finish(route_passed: bool) -> void:
 		"two_sided_recent_firing_frames": _summary(exchange_frames), "player_shots_observed": player_shots, "enemy_shots_observed": enemy_shots,
 		"peak_alive_enemies_observed": peak_enemies, "reported_peak_texture_bytes": peak_texture_bytes,
 		"mean_draw_calls": calls / maxf(frames.size(), 1), "health_at_finish": main.player.health,
-		"frames_over_50ms":frames_over_50ms,"frames_over_100ms":frames_over_100ms,"longest_frames":longest_frames}
+		"frames_over_50ms":frames_over_50ms,"frames_over_100ms":frames_over_100ms,"unfocused_frames":unfocused_frames,"longest_frames":longest_frames}
 	if DirAccess.make_dir_recursive_absolute(output.get_base_dir()) != OK:
 		push_error("Cannot create active-combat performance report directory: " + output.get_base_dir())
 		return
