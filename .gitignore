@@ -15,7 +15,7 @@ tools/Godot-*/
 tools/blender-*-windows-x64/
 tools/asset_python/
 tools/downloads/
-Release/
+/Release/
 ReleaseBackups/
 WorkBackups/
 RestoreChecks/

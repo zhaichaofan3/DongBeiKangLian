@@ -1,0 +1,80 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Twelve full-size domestic courtyard groups are assembled on both sides
+PASS: Actual wall-to-wall street width stays near 3.4m at z=267 (3.63m)
+PASS: Actual wall-to-wall street width stays near 3.4m at z=225 (3.63m)
+PASS: Actual wall-to-wall street width stays near 3.4m at z=183 (3.63m)
+PASS: Actual wall-to-wall street width stays near 3.4m at z=141 (3.63m)
+PASS: Actual wall-to-wall street width stays near 3.4m at z=99 (3.63m)
+PASS: Actual wall-to-wall street width stays near 3.4m at z=57 (3.63m)
+PASS: Closed encounter gate prevents skipping phase 0
+PASS: Closed encounter gate prevents skipping phase 1
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 274.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 250.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 225.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 210.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 206.0)
+PASS: Real capsule walks narrow street / opened yard to (1143.5, 0.08, 206.0)
+PASS: Real capsule walks narrow street / opened yard to (1143.5, 0.08, 201.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 201.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 199.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 192.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 174.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 156.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 151.0)
+PASS: Real capsule walks narrow street / opened yard to (1150.5, 0.08, 151.0)
+PASS: Real capsule walks narrow street / opened yard to (1150.5, 0.08, 146.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 146.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 118.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 108.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 87.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 70.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 67.0)
+PASS: Real capsule walks narrow street / opened yard to (1150.5, 0.08, 67.0)
+PASS: Real capsule walks narrow street / opened yard to (1150.5, 0.08, 62.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 62.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 40.0)
+PASS: Real capsule walks narrow street / opened yard to (1147.0, 0.08, 29.0)
+PASS: Real player reaches the north rendezvous after every yard
+PASS: Courtyard enemy and companion path is connected: (1143.5, 0.08, 204.0)
+PASS: Courtyard enemy and companion path is connected: (1150.5, 0.08, 148.5)
+PASS: Courtyard enemy and companion path is connected: (1150.5, 0.08, 64.5)
+PASS: Enemy spawn and patrol avoid source model collision: village_0
+PASS: Enemy spawn and patrol avoid source model collision: village_1
+PASS: Enemy spawn and patrol avoid source model collision: village_2
+PASS: Enemy spawn and patrol avoid source model collision: village_3
+PASS: Enemy spawn and patrol avoid source model collision: village_4
+PASS: Enemy spawn and patrol avoid source model collision: village_5
+PASS: Enemy spawn and patrol avoid source model collision: village_6
+PASS: Enemy spawn and patrol avoid source model collision: village_7
+PASS: Enemy spawn and patrol avoid source model collision: village_8
+PASS: Enemy spawn and patrol avoid source model collision: village_9
+PASS: Enemy spawn and patrol avoid source model collision: village_10
+PASS: Enemy spawn and patrol avoid source model collision: village_11
+PASS: C toggles crouch and remains crouched after release
+PASS: Keyboard repeat does not toggle crouch
+PASS: Second C press stands and restores eye height
+PASS: Ctrl retains hold-to-crouch
+PASS: Releasing Ctrl stands when overhead is clear
+PASS: Standing capsule cannot expand into a low ceiling
+PASS: Crouch releases after leaving the low ceiling
+PASS: Holding Q leans left with matching camera roll
+PASS: Releasing Q returns the camera to centre
+PASS: Holding E leans right
+PASS: Sprinting retracts the lean
+PASS: Head sphere prevents left lean from entering a wall
+PASS: Returning camera also retracts immediately when movement brings a wall close
+PASS: Pause immediately clears the leaning pose
+PASS: Checkpoint restore clears transient crouch and lean state
+PASS: Opaque corner hides the centred player from enemy vision
+PASS: Enemy can see the head exposed by a right lean
+PASS: Leaned camera and weapon fire use the same unobstructed aim ray
+PASS: Input binding: interact
+PASS: Input binding: heal
+PASS: Input binding: lean_left
+PASS: Input binding: lean_right
+PASS: Input binding: crouch
+PASS: Previous full-village save migrates to the same cleared encounter
+PASS: Layout migration preserves defeats, ammo and first-level revision
+PASS: Woodland save retains the player route and courier's shore rest position
+COURTYARD CONTROLS: PASS | checks=77

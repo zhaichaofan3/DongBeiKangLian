@@ -5,6 +5,7 @@
 *.md text eol=lf
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
+docs/courtyard_revision_20261016/**/*.log -text
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.max filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
