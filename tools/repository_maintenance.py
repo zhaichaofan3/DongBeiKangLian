@@ -54,9 +54,11 @@ def inventory(label):
                         errors.append({"path": relative, "error": str(error)})
         except OSError as error:
             errors.append({"path": str(directory), "error": str(error)})
+    git_bytes = sum(path.stat().st_size for path in (ROOT / '.git').rglob('*') if path.is_file()) if (ROOT / '.git').exists() else 0
     report = {
         "created_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-        "bytes": totals["."], "files": counts["."],
+        "bytes": totals["."], "files": counts["."], "git_bytes": git_bytes,
+        "total_bytes_including_git": totals["."] + git_bytes,
         "directories": [{"path": key, "bytes": value, "files": counts[key]}
                         for key, value in totals.most_common()],
         "extensions": dict(extensions.most_common()),
@@ -65,7 +67,8 @@ def inventory(label):
     }
     REPORT.mkdir(parents=True, exist_ok=True)
     (REPORT / (label + ".json")).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    summary = {"GiB": round(totals["."] / 2**30, 3), "files": counts["."], "errors": errors,
+    summary = {"GiB": round(totals["."] / 2**30, 3), "git_GiB": round(git_bytes / 2**30, 3),
+               "total_GiB_including_git": round((totals["."] + git_bytes) / 2**30, 3), "files": counts["."], "errors": errors,
                "top_level": [{"path": key, "GiB": round(value / 2**30, 3), "files": counts[key]}
                              for key, value in totals.most_common() if "/" not in key and key != "."],
                "largest": report["largest"][:25]}

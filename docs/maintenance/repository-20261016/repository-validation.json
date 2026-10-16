@@ -3,9 +3,11 @@
   "changed_runtime_files": [],
   "model_inputs_verified": 9,
   "failed_model_migrations": [],
-  "tracked_files": 5911,
+  "tracked_files": 5922,
   "forbidden_tracked_files": [],
   "credential_signature_files": [],
-  "lfs_files": 1494,
+  "lfs_files": 1864,
+  "missing_entrypoint_links": [],
+  "fixed_narration_preserved": true,
   "passed": true
 }

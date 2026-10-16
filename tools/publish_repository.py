@@ -1,5 +1,6 @@
 """Authenticated GitHub operations; credentials never leave this process."""
 import argparse
+import base64
 import hashlib
 import http.client
 import json
@@ -42,20 +43,86 @@ def inspect():
         "can_push": repository.get("permissions", {}).get("push", False)}, ensure_ascii=False))
 
 
+def lfs_status():
+    files = json.loads(subprocess.check_output(['git', 'lfs', 'ls-files', '--json'], cwd=ROOT, text=True, encoding='utf-8'))['files']
+    ordered = sorted(files, key=lambda item: item['size'], reverse=True)
+    selected = ordered[:3] + ordered[-3:]
+    body = json.dumps(dict(operation='download', transfers=['basic'], objects=[dict(oid=item['oid'], size=item['size']) for item in selected])).encode()
+    auth = base64.b64encode(('zhaichaofan3:' + github_token()).encode()).decode()
+    request = urllib.request.Request('https://github.com/' + REPOSITORY + '.git/info/lfs/objects/batch', data=body,
+        headers={'Authorization': 'Basic ' + auth, 'Content-Type': 'application/vnd.git-lfs+json',
+                 'Accept': 'application/vnd.git-lfs+json', 'User-Agent': 'DongBeiKangLian-maintenance'})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        result = json.load(response)
+    print(json.dumps(dict(samples=[dict(oid=item['oid'][:12], exists='download' in item.get('actions', {}), error=item.get('error')) for item in result['objects']]), ensure_ascii=False))
+
+
+def lfs_inventory():
+    files = json.loads(subprocess.check_output(['git', 'lfs', 'ls-files', '--json'], cwd=ROOT, text=True, encoding='utf-8'))['files']
+    unique = {item['oid']: dict(oid=item['oid'], size=item['size']) for item in files}
+    objects = list(unique.values())
+    token = github_token()
+    auth = base64.b64encode(('zhaichaofan3:' + token).encode()).decode()
+    uploaded = []
+    for start in range(0, len(objects), 100):
+        request = urllib.request.Request('https://github.com/' + REPOSITORY + '.git/info/lfs/objects/batch',
+            data=json.dumps(dict(operation='download', transfers=['basic'], objects=objects[start:start+100])).encode(),
+            headers={'Authorization': 'Basic ' + auth, 'Content-Type': 'application/vnd.git-lfs+json',
+                     'Accept': 'application/vnd.git-lfs+json', 'User-Agent': 'DongBeiKangLian-maintenance'})
+        with urllib.request.urlopen(request, timeout=60) as response:
+            batch = json.load(response)
+        uploaded.extend(item for item in batch['objects'] if 'download' in item.get('actions', {}))
+        print(json.dumps(dict(objects_checked=min(start+100, len(objects)), uploaded_objects=len(uploaded),
+                              uploaded_MiB=sum(item['size'] for item in uploaded)//1024**2)), flush=True)
+    result = dict(unique_objects=len(objects), total_bytes=sum(item['size'] for item in objects),
+                  uploaded_objects=len(uploaded), uploaded_bytes=sum(item['size'] for item in uploaded))
+    (REPORT / 'remote-lfs-validation.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(result), flush=True)
+
+
 def package():
     output = ROOT / '.publish'
     output.mkdir(exist_ok=True)
     archive = output / 'FenghuoEcho-0.7.0-rc1-Windows-x64.zip'
+    selected = [source for source in sorted((ROOT / 'Release').rglob('*'))
+                if source.is_file() and 'Validation' not in source.relative_to(ROOT / 'Release').parts
+                and source.name != 'SHA256SUMS.txt']
+    sums = []
+    for source in selected:
+        with source.open('rb') as stream:
+            digest = hashlib.file_digest(stream, 'sha256').hexdigest()
+        sums.append(digest + '  ' + source.relative_to(ROOT / 'Release').as_posix())
+    manifest = ROOT / 'Release/SHA256SUMS.txt'
+    manifest.write_text('\n'.join(sums) + '\n', encoding='utf-8')
+    selected.append(manifest)
     with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=3, allowZip64=True) as target:
-        for source in sorted((ROOT / 'Release').rglob('*')):
-            if source.is_file() and 'Validation' not in source.relative_to(ROOT / 'Release').parts:
-                target.write(source, Path('FenghuoEcho') / source.relative_to(ROOT / 'Release'))
+        for source in selected:
+            target.write(source, Path('FenghuoEcho') / source.relative_to(ROOT / 'Release'))
     with archive.open('rb') as source:
         digest = hashlib.file_digest(source, 'sha256').hexdigest()
     checksum = output / (archive.name + '.sha256')
     checksum.write_text(digest + '  ' + archive.name + '\n', encoding='ascii')
     result = dict(path=archive.relative_to(ROOT).as_posix(), bytes=archive.stat().st_size, sha256=digest)
     (REPORT / 'release-archive.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(result), flush=True)
+
+
+def verify_package():
+    record = json.loads((REPORT / 'release-archive.json').read_text())
+    archive = ROOT / record['path']
+    with archive.open('rb') as source:
+        assert hashlib.file_digest(source, 'sha256').hexdigest() == record['sha256']
+    with zipfile.ZipFile(archive) as package_file:
+        manifest = package_file.read('FenghuoEcho/SHA256SUMS.txt').decode('utf-8')
+        expected = dict((name, digest) for digest, name in (line.split('  ', 1) for line in manifest.splitlines()))
+        for name, digest in expected.items():
+            with package_file.open('FenghuoEcho/' + name) as source:
+                assert hashlib.file_digest(source, 'sha256').hexdigest() == digest, name
+        names = package_file.namelist()
+        assert len(names) == len(expected) + 1
+        assert not any('/Validation/' in name for name in names)
+    result = dict(archive=archive.name, files_verified=len(expected), archive_sha256=record['sha256'], passed=True)
+    (REPORT / 'package-validation.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(result), flush=True)
 
 
@@ -66,7 +133,13 @@ def upload_asset(release, path):
     if existing:
         api('/repos/' + REPOSITORY + '/releases/assets/' + str(existing['id']), method='DELETE')
     url = urllib.parse.urlsplit(release['upload_url'].split('{')[0] + '?name=' + urllib.parse.quote(path.name))
-    connection = http.client.HTTPSConnection(url.hostname, timeout=180)
+    proxy = urllib.request.getproxies().get('https')
+    if proxy:
+        endpoint = urllib.parse.urlsplit(proxy if '://' in proxy else 'http://' + proxy)
+        connection = http.client.HTTPSConnection(endpoint.hostname, endpoint.port, timeout=180)
+        connection.set_tunnel(url.hostname, 443)
+    else:
+        connection = http.client.HTTPSConnection(url.hostname, timeout=180)
     try:
         connection.putrequest('POST', url.path + '?' + url.query)
         connection.putheader('Authorization', 'Bearer ' + github_token())
@@ -117,7 +190,7 @@ def release():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=["inspect", "package", "release"])
+    parser.add_argument("command", choices=["inspect", "lfs_status", "lfs_inventory", "package", "verify_package", "release"])
     args = parser.parse_args()
     try:
         globals()[args.command]()

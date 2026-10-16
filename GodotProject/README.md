@@ -4,7 +4,7 @@
 
 ## 启动
 
-双击同目录的FenghuoEcho.exe，保留FenghuoEcho.pck、许可和来源说明；转移时移动整个Release文件夹。源码位于C:\GameMake\GodotProject，可用根目录Start-Game.cmd试玩，或Start-Game.ps1 -Editor编辑。
+试玩包解压后双击FenghuoEcho.exe，保留同目录PCK、许可和来源说明。源码位于仓库GodotProject目录；开发者先安装Git LFS与Godot，再用根目录Start-Game.cmd运行，或Start-Game.ps1 -Editor编辑。安装与环境设置见仓库根README。
 
 选择“开始游戏”观看两段开场，Esc暂停，Enter跳过当前段。选择“直接进入林场”则先与姜岚交谈。林场13名固定敌人，渡口有追兵，过河后另有12名村庄敌人。体验完整布置请开始新游戏；旧渡口完成档可继续登船。
 
@@ -87,4 +87,4 @@
 
 源码与发布包分别测试，发布复测从源码目录外启动exe/PCK。根Test-Game.ps1运行统一回归，-Release验证发布包；tools/Verify-PolishRevision.ps1进行两种尺寸的画面与全屏拖动检查，支持-Release。根Build-Game.ps1先导出临时PCK，成功后替换正式包。
 
-开发目录完整说明见C:\GameMake\README.md；继续制作先读PROGRESS.md。可编辑人物、手部、建筑、天池及原始声音保存在AssetLibrary/，工作检查点保存在WorkBackups/。
+开发说明见仓库根README和docs/DEVELOPMENT.md，当前状态见PROGRESS.md。可编辑人物、手部、建筑、天池及原录音在AssetLibrary；后续使用Git/LFS记录版本。2026-10-16已精简旧重复截图与转储，历史Validation引用仅表示当时记录，当前分发包不包含这些实验输出。

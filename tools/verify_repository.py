@@ -32,12 +32,28 @@ def main():
         if path.suffix.lower() in {'.md', '.txt', '.json', '.jsonl', '.py', '.ps1', '.gd', '.html', '.ini', '.cfg'}:
             if secret.search(path.read_bytes()):
                 suspects.append(name)
-    lfs = subprocess.check_output(['git', 'lfs', 'ls-files', '--size'], cwd=ROOT, text=True)
+    lfs = json.loads(subprocess.check_output(['git', 'lfs', 'ls-files', '--json'], cwd=ROOT, text=True, encoding='utf-8'))['files']
+    active_docs = ['README.md', 'PROGRESS.md', 'docs/README.md', 'docs/DEVELOPMENT.md',
+                   'docs/DESIGN.md', 'docs/PROJECT_HISTORY.md', 'docs/WORKFLOW.md',
+                   'tools/README.md', 'AssetLibrary/README.md']
+    missing_links = []
+    for name in active_docs:
+        path = ROOT / name
+        for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)', path.read_text(encoding='utf-8')):
+            if '://' in target or target.startswith('#'):
+                continue
+            if not (path.parent / target.split('#')[0]).exists():
+                missing_links.append(dict(document=name, target=target))
+    original_plan = ROOT / 'docs/archive/design-notes/production_plan.md'
+    quote = lambda path: next(line[2:] for line in path.read_text(encoding='utf-8-sig').splitlines() if line.startswith('> '))
+    narration_preserved = quote(original_plan) == quote(ROOT / 'docs/DESIGN.md')
     result = dict(protected_runtime_files=len(runtime), changed_runtime_files=changed,
                   model_inputs_verified=len(migrated), failed_model_migrations=bad_moves,
                   tracked_files=len(files), forbidden_tracked_files=forbidden,
-                  credential_signature_files=suspects, lfs_files=len(lfs.splitlines()))
-    result['passed'] = not any([changed, bad_moves, forbidden, suspects])
+                  credential_signature_files=suspects, lfs_files=len(lfs),
+                  unique_lfs_objects=len({item['oid'] for item in lfs}),
+                  missing_entrypoint_links=missing_links, fixed_narration_preserved=narration_preserved)
+    result['passed'] = not any([changed, bad_moves, forbidden, suspects, missing_links]) and narration_preserved
     (REPORT / 'repository-validation.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(result))
     raise SystemExit(0 if result['passed'] else 1)
