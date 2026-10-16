@@ -4,7 +4,7 @@
 
 ## 先运行起来
 
-- **只想试玩：**到 [Releases](https://github.com/zhaichaofan3/DongBeiKangLian/releases) 下载Windows试玩包，解压后运行 `FenghuoEcho.exe`，保留同目录的PCK和来源文件。
+- **只想试玩：**到 [Releases](https://github.com/zhaichaofan3/DongBeiKangLian/releases) 下载Windows试玩包，解压后运行 `FenghuoEcho.exe`，保留同目录的PCK和来源文件。在线包目前为0.7.0-rc1，本轮0.7.1-rc1从下方本机入口或源码运行。
 - **本机已有工程：**双击 `Start-Game.cmd`；编辑器入口为 `./Start-Game.ps1 -Editor`。
 - **新电脑开发：**安装 [Git LFS](https://git-lfs.com/) 与 [Godot 4.7.2](https://godotengine.org/download/archive/)，再执行：
 

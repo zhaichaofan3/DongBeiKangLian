@@ -107,7 +107,7 @@ func _box(title: String, at: Vector3, size: Vector3, material: String) -> Static
 	return body
 
 func _build_lane() -> void:
-	var points: Array[Vector3] = [START+Vector3(0,0,9)]
+	var points: Array[Vector3] = [Forest.ENTRANCE,START]
 	for section: Array in ROUTE_STOPS:
 		for at: Vector3 in section: points.append(at)
 	points.append(EXIT)
@@ -211,6 +211,14 @@ func _build_surroundings() -> void:
 		var factor := rng.randf_range(10,18)/bounds.size.y
 		var offset := -Vector3(bounds.get_center().x,bounds.position.y,bounds.get_center().z)
 		transforms.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*factor),at)*Transform3D(Basis.IDENTITY,offset))
+	# Inaccessible woodlots connect the yard trees to the distant forest while
+	# leaving the logging sheds and timber landing a clear working space.
+	for i in 460:
+		var at := Vector3(rng.randf_range(1018,1112) if i%2==0 else rng.randf_range(1182,1264),-.05,rng.randf_range(24,280))
+		if Vector2(at.x-1070,at.z-250).length()<17: continue
+		var factor := rng.randf_range(8,15)/bounds.size.y
+		var offset := -Vector3(bounds.get_center().x,bounds.position.y,bounds.get_center().z)
+		transforms.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*factor),at)*Transform3D(Basis.IDENTITY,offset))
 	tree_count = transforms.size()
 	for item in pieces:
 		var instances := MultiMesh.new()
@@ -266,15 +274,14 @@ func _close_side_lanes() -> void:
 		for span in [[1117.8,1145.3],[1148.7,1176.2]]:
 			side_wires.append(world.WireFence.add_blocker(container,"横巷柴场低网_%d" % side_wires.size(),Vector3(span[0],0,z),Vector3(span[1],0,z)))
 
+func prepare_navigation() -> void:
+	_close_side_lanes()
+	scenery.build(world,container)
+
 func initialize_navigation() -> void:
 	if navigation.region.size!=GRID:
 		push_error("Village build did not finish before navigation initialization")
 		return
-	_close_side_lanes()
-	scenery.build(world,container)
-	# Let newly placed trunks, rocks and working-yard cover enter physics before
-	# measuring the same geometry for friendly and enemy navigation.
-	await container.get_tree().physics_frame
 	var capsule := CapsuleShape3D.new()
 	capsule.radius = .55
 	capsule.height = 1.62

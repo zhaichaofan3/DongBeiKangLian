@@ -15,7 +15,8 @@ func build(owner_world: RefCounted, container: Node3D) -> void:
 	_world = weakref(owner_world)
 	parent = container
 	var village: RefCounted = world.village_world
-	route.append(village.START+Vector3(0,0,9))
+	route.append(village.Forest.ENTRANCE)
+	route.append(village.START)
 	for section: Array in village.ROUTE_STOPS:
 		for at: Vector3 in section: route.append(at)
 	route.append(village.EXIT)

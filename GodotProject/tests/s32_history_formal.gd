@@ -34,7 +34,7 @@ func _run() -> void:
 	var a_shots: Array = opening.data.shots.filter(func(item): return item.part == "A")
 	var b_shots: Array = opening.data.shots.filter(func(item): return item.part == "B")
 	# Check observable behavior instead of trusting completion labels in metadata.
-	check(a_shots.size() == 11 and b_shots.size() == 16, "History uses 11 longer shots and B retains 16 shots")
+	check(a_shots.size() == 12 and b_shots.size() == 16, "History includes the added telegraph close-up and B retains 16 shots")
 	for history_shot in a_shots:
 		opening.preview_at("A", (history_shot.start_ms + history_shot.end_ms) * 0.0005)
 		var actors_present := true
@@ -92,7 +92,7 @@ func _run() -> void:
 	check(opening.part == "B" and opening.active and opening.handoff_count == 0, "A1-A6 complete into the separate B boundary without gameplay handoff")
 	var history_seen_shots: Array = opening.seen_shots.filter(func(item): return str(item).begins_with("A-"))
 	var history_seen_cues: Array = opening.seen_cues.filter(func(item): return str(item).begins_with("N"))
-	check(history_seen_shots.size() == 11 and history_seen_cues.size() == 17, "Continuous history playback reaches all A shots and narration cues")
+	check(history_seen_shots.size() == 12 and history_seen_cues.size() == 17, "Continuous history playback reaches all A shots and narration cues")
 	check(not main.story.met_scout and main.mode == "cinematic", "History completion does not commit the task prologue")
 	opening.abort()
 	var passed := true

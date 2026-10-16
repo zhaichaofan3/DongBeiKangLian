@@ -17,7 +17,7 @@
 | 场景、实体与任务装配 | `world.gd`、`mission.gd` |
 | 首关道路、战斗区与碰撞 | `first_level_layout.gd`、`first_level_world.gd`、`first_level_scenery.gd`、`linear_director.gd` |
 | 渡河与密林入村 | `river_journey.gd`、`forest_approach.gd` |
-| 村庄建筑与战斗分段 | `village_world.gd`、`village_director.gd` |
+| 村庄窄街、院落与战斗分段 | `village_world.gd`、`village_scenery.gd`、`village_director.gd` |
 | 开场、对白与任务剧情 | `opening_director.gd`、`story.gd`、`story_moments.gd` |
 | 玩家、武器与第一人称手 | `fps_player.gd`、`weapon_visuals.gd`、`fp_hands.gd` |
 | 人物、敌人与战友 | `human_model.gd`、`field_character_rig.gd`、`guard.gd`、`friendly.gd` |
@@ -49,5 +49,7 @@
 ## 存档与调试
 
 正常存档在 `%APPDATA%/FenghuoEcho/`，设置为 `presentation_v1.cfg`，检查点为 `qinglan_checkpoint_v2.json`。测试用独立QA文件。修改任务、过河或村庄状态后检查旧档兼容。F3显示帧率。
+
+首关地图版本仍为5，村庄独立状态版本为4。旧村庄存档按已清阶段迁移到安全入口，林中存档保留原位置；不要通过提升首关地图版本来迁移村庄，以免首关坐标再次偏移。新操作为C切换蹲、Ctrl按住蹲、Q/E按住探头、F互动、H包扎。`courtyard_controls.gd`检查真实穿院移动、头部碰撞、可见性和迁移；`world_revision.gd`检查电报房、水面、下游航线及特写，`village_presentation.gd`供实际画面检查。
 
 Git忽略缓存、软件安装目录、生成包、私人会话与冷备份；大二进制用LFS。恢复与大小控制见 [WORKFLOW.md](WORKFLOW.md)。

@@ -16,28 +16,28 @@
       "end_ms": 11740,
       "s07_placeholder": "Original supplied settlement and logging camp, joined in the establishing sequence; fixed narration and timing retained.",
       "camera_from": [
-        1238,
-        60,
-        324
+        1200,
+        34,
+        303
       ],
       "camera_to": [
-        1220,
-        52,
-        302
+        1194,
+        30,
+        287
       ],
       "look_at": [
-        1125,
+        1119,
         3,
-        190
+        247
       ],
-      "fov": 60,
+      "fov": 54,
       "actors": [],
       "production_status": "integrated_pending_acceptance_s32",
       "environment": "songling_village",
       "look_at_to": [
-        1126,
+        1115,
         3,
-        170
+        236
       ]
     },
     {

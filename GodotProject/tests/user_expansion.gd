@@ -36,7 +36,7 @@ func _run() -> void:
 			for point: Vector3 in part.mesh.surface_get_arrays(surface)[Mesh.ARRAY_VERTEX]:
 				contact_error = minf(contact_error, (part.transform * point).distance_to(rifle.bolt_contact))
 	check(contact_error < .015, "Bolt hand socket lies on the supplied metal handle geometry")
-	check(main.world.village_world.house_count == 12 and main.world.village_world.tree_count == 300, "Twelve full-size original courtyards form the narrow village with surrounding forest")
+	check(main.world.village_world.house_count == 12 and main.world.village_world.tree_count >= 700, "Twelve full-size original courtyards have connected near and distant woodlots")
 	check(main.world.water != null and main.world.water.material_override is ShaderMaterial, "Supplied river channel uses animated game water")
 	var waterfront := {"dock":0,"boat":0,"river":0}
 	for child in main.get_children():

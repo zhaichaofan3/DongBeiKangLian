@@ -49,6 +49,12 @@ func initialize(owner_node: Node3D) -> void:
 
 func _prepare_navigation() -> void:
 	await get_tree().physics_frame
+	main.world.village_world.prepare_navigation()
+	# A Node-owned one-shot disconnects on teardown, avoiding a suspended
+	# RefCounted coroutine resuming after a quick scene change.
+	get_tree().physics_frame.connect(_finish_navigation,CONNECT_ONE_SHOT)
+
+func _finish_navigation() -> void:
 	main.world.village_world.initialize_navigation()
 
 func reset() -> void:
@@ -333,7 +339,7 @@ func migrate_layout(data: Dictionary) -> void:
 		var at: Vector3 = VillageWorld.EXIT if data.village.finished else VillageWorld.PHASE_STARTS[int(data.village.phase)]
 		data.player.position = [at.x,at.y,at.z]
 		data.village.ally_position = [at.x+.7,at.y,at.z+1.5]
-	data.story.lu_position = [1152,.08,285]
+		data.story.lu_position = [Forest.REST.x,Forest.REST.y,Forest.REST.z]
 	data.village.approach_active = data.village.get("approach_active",false)
 	data.village.intro_seen = not data.village.approach_active
 	for id in data.encounter.active:

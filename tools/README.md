@@ -12,6 +12,7 @@
 | `Find-Godot.ps1` | GODOT_EXE、本地工具、PATH或WinGet定位引擎 |
 | `Verify-RiverJourney.ps1` | 渡河、密林、存档与跳过专项，支持-Release、-Headless与-EvidenceRoot |
 | `Verify-PolishRevision.ps1`及其他Verify工具 | 对应专项画面与交互检查，运行前查看参数 |
+| `Record-CourtyardValidation.ps1` | 本轮最终31组源码/独立包日志、代表画面与校验汇总；必须先完成对应验证，不调用旧版发布脚本 |
 
 ## 模型制作
 
@@ -20,6 +21,7 @@
 | `build_user_soldiers.py` | 从用户人物批次`imported/`适配动作；可能覆盖现有人物 |
 | `build_user_expansion.py`、`build_user_waterfront.py`、`build_user_fence.py` | 从场景批次`imported/`生成初版；最终村庄和棚屋另由`revise_settlement.py`修订 |
 | `revise_settlement.py` | 完整原农村、棚屋贴图及电报房处理；运行前读当前源版本 |
+| `build_courtyard_passages.py` | 从现有`village_4.blend`派生双侧门大院，不覆盖原模型；用于窄街穿院路线 |
 | `build_field_character.py`、`guard_identity_geometry.py` | 基础人物与头部特征 |
 | `refine_fp_hands.py` | 玩家手部源加工，修改后检查持枪与拉栓 |
 | `build_s10_buildings.py`、`build_s12_landscape_assets.py`、`build_s21_tianchi.py` | 现有建筑、自然和天池源生成；名称保留历史编号，不代表当前步骤状态 |

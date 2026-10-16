@@ -173,15 +173,18 @@ func _run() -> void:
 	print("COURTYARD CONTROLS: ","PASS" if failures.is_empty() else "FAIL"," | checks=",checks)
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(main.save_path))
 	village = null
-	main.ambience.stop()
-	main.player.sound.stop()
-	main.player.footsteps.stop()
-	main.enemy_audio.stop()
+	main.audio_mix.set_process(false)
+	for kind in ["AudioStreamPlayer","AudioStreamPlayer3D"]:
+		for sound in main.find_children("*",kind,true,false):
+			sound.stop()
+			sound.stream = null
 	await process_frame
 	OS.delay_msec(150)
 	await process_frame
 	main.queue_free()
 	await frames(3)
+	OS.delay_msec(150)
+	await process_frame
 	quit(0 if failures.is_empty() else 1)
 
 func ray(a: Vector3,b: Vector3) -> Dictionary:
@@ -220,5 +223,6 @@ func _migration() -> void:
 	old.village.intro_seen = false
 	old.player.position = [1214,.08,416]
 	old.village.ally_position = [1214,.08,418]
+	old.story.lu_position = [1215.7,.08,426]
 	main.village.migrate_layout(old)
-	check(old.player.position==[1214,.08,416] and old.village.approach_active and not old.village.intro_seen,"Woodland save retains its playable approach position")
+	check(old.player.position==[1214,.08,416] and old.story.lu_position==[1215.7,.08,426] and old.village.approach_active and not old.village.intro_seen,"Woodland save retains the player route and courier's shore rest position")
