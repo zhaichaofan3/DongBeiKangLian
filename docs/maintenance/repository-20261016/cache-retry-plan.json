@@ -1,0 +1,9 @@
+{
+  "items": [
+    {
+      "path": ".publish/fresh-clone/GodotProject/.godot",
+      "bytes": 0,
+      "reason": "Discard failed first-import cache in the temporary verification clone before clean retry"
+    }
+  ]
+}

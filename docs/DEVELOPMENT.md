@@ -44,6 +44,8 @@
 
 构建先导入，再导出临时PCK，成功后替换正式PCK，同时拷贝官方标准运行时及许可。使用 `--export-pack`，无需另装导出模板。试玩包通过GitHub Releases分发。
 
+首次批处理导入使用 `--headless --import` 并等待引擎自行退出，不要额外叠加 `--quit`。本轮修正了这一导入流程，并从空缓存验证通过。
+
 ## 存档与调试
 
 正常存档在 `%APPDATA%/FenghuoEcho/`，设置为 `presentation_v1.cfg`，检查点为 `qinglan_checkpoint_v2.json`。测试用独立QA文件。修改任务、过河或村庄状态后检查旧档兼容。F3显示帧率。

@@ -112,6 +112,20 @@ def temporary_plan():
     print(json.dumps(dict(temporary_GiB=round(size/2**30, 3))))
 
 
+def empty_plan():
+    empty = set()
+    for scope in ['docs', 'AssetLibrary', 'ConversationBackups']:
+        for directory, children, files in os.walk(ROOT / scope, topdown=False, followlinks=False):
+            path = Path(directory)
+            if not files and all(path / child in empty for child in children):
+                empty.add(path)
+    roots = sorted(path for path in empty if path.parent not in empty)
+    items = [dict(path=path.relative_to(ROOT).as_posix(), bytes=0,
+                  reason='Empty historical evidence directory after file cleanup') for path in roots]
+    (REPORT / 'empty-directories-plan.json').write_text(json.dumps(dict(items=items), indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(dict(empty_directory_trees=len(items))))
+
+
 def summary():
     before = json.loads((REPORT / 'before.json').read_text(encoding='utf-8'))
     after = json.loads((REPORT / 'final.json').read_text(encoding='utf-8'))
@@ -135,6 +149,8 @@ if __name__ == "__main__":
         backup_plan()
     elif label == 'temporary-plan':
         temporary_plan()
+    elif label == 'empty-plan':
+        empty_plan()
     elif label == 'summary':
         summary()
     else:

@@ -1,0 +1,2634 @@
+{
+  "created_at": "2026-10-16T15:44:43+08:00",
+  "bytes": 14038145978,
+  "files": 17208,
+  "git_bytes": 5797286222,
+  "total_bytes_including_git": 19835432200,
+  "directories": [
+    {
+      "path": ".",
+      "bytes": 14038145978,
+      "files": 17208
+    },
+    {
+      "path": "AssetLibrary",
+      "bytes": 5274971187,
+      "files": 1958
+    },
+    {
+      "path": "AssetLibrary/environment",
+      "bytes": 3592731241,
+      "files": 956
+    },
+    {
+      "path": "WorkBackups",
+      "bytes": 3162681967,
+      "files": 2173
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4",
+      "bytes": 3162681922,
+      "files": 2172
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files",
+      "bytes": 3162203059,
+      "files": 2170
+    },
+    {
+      "path": "GodotProject",
+      "bytes": 2870738389,
+      "files": 2596
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015",
+      "bytes": 2649497028,
+      "files": 245
+    },
+    {
+      "path": "GodotProject/.godot",
+      "bytes": 1633829694,
+      "files": 1336
+    },
+    {
+      "path": "GodotProject/.godot/imported",
+      "bytes": 1633595882,
+      "files": 1225
+    },
+    {
+      "path": "Release",
+      "bytes": 1506603579,
+      "files": 703
+    },
+    {
+      "path": "GodotProject/assets",
+      "bytes": 1235969316,
+      "files": 1049
+    },
+    {
+      "path": "AssetLibrary/derived",
+      "bytes": 1168071278,
+      "files": 20
+    },
+    {
+      "path": "tools",
+      "bytes": 1145955705,
+      "files": 6858
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015",
+      "bytes": 1108326475,
+      "files": 15
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64",
+      "bytes": 938445658,
+      "files": 6025
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015",
+      "bytes": 805081111,
+      "files": 561
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/4.5",
+      "bytes": 364747469,
+      "files": 5456
+    },
+    {
+      "path": "AssetLibrary/environment/supplement",
+      "bytes": 362084517,
+      "files": 117
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared",
+      "bytes": 292816419,
+      "files": 465
+    },
+    {
+      "path": "AssetLibrary/audio",
+      "bytes": 292616476,
+      "files": 874
+    },
+    {
+      "path": "GodotProject/assets/environment",
+      "bytes": 247747671,
+      "files": 282
+    },
+    {
+      "path": "AssetLibrary/environment/models",
+      "bytes": 226710235,
+      "files": 122
+    },
+    {
+      "path": "tools/Godot-4.7.2",
+      "bytes": 181057040,
+      "files": 2
+    },
+    {
+      "path": "AssetLibrary/characters",
+      "bytes": 179841657,
+      "files": 72
+    },
+    {
+      "path": "AssetLibrary/environment/textures",
+      "bytes": 172353174,
+      "files": 71
+    },
+    {
+      "path": "AssetLibrary/environment/china_northeast_20261013",
+      "bytes": 159046526,
+      "files": 246
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015",
+      "bytes": 137564371,
+      "files": 37
+    },
+    {
+      "path": "GodotProject/assets/characters",
+      "bytes": 125193089,
+      "files": 71
+    },
+    {
+      "path": "AssetLibrary/audio/S29_20261015",
+      "bytes": 87391268,
+      "files": 28
+    },
+    {
+      "path": "AssetLibrary/derived/S10_buildings",
+      "bytes": 59744803,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/super-foley-pack",
+      "bytes": 47626861,
+      "files": 17
+    },
+    {
+      "path": "GodotProject/assets/audio",
+      "bytes": 45812794,
+      "files": 118
+    },
+    {
+      "path": "ConversationBackups",
+      "bytes": 43950340,
+      "files": 162
+    },
+    {
+      "path": "ConversationBackups/objects",
+      "bytes": 42165946,
+      "files": 105
+    },
+    {
+      "path": "AssetLibrary/audio/S31_20261015",
+      "bytes": 34970633,
+      "files": 96
+    },
+    {
+      "path": "docs",
+      "bytes": 33108172,
+      "files": 2741
+    },
+    {
+      "path": "AssetLibrary/weapons",
+      "bytes": 29954946,
+      "files": 15
+    },
+    {
+      "path": "AssetLibrary/weapons/lee_enfield",
+      "bytes": 29949950,
+      "files": 13
+    },
+    {
+      "path": "AssetLibrary/audio/user_20261015",
+      "bytes": 27119527,
+      "files": 3
+    },
+    {
+      "path": "AssetLibrary/characters/field_character",
+      "bytes": 24485920,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/handling-guns",
+      "bytes": 21734122,
+      "files": 16
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_base_characters",
+      "bytes": 15508124,
+      "files": 12
+    },
+    {
+      "path": "tools/grip-final",
+      "bytes": 13042702,
+      "files": 10
+    },
+    {
+      "path": "AssetLibrary/environment/hdris",
+      "bytes": 11898530,
+      "files": 2
+    },
+    {
+      "path": "AssetLibrary/first_person",
+      "bytes": 11749699,
+      "files": 18
+    },
+    {
+      "path": "tools/asset_python",
+      "bytes": 11563737,
+      "files": 741
+    },
+    {
+      "path": "AssetLibrary/audio/42-snow-and-gravel-footsteps",
+      "bytes": 8127650,
+      "files": 48
+    },
+    {
+      "path": "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall",
+      "bytes": 7951497,
+      "files": 11
+    },
+    {
+      "path": "AssetLibrary/audio/S28_20261015",
+      "bytes": 7666376,
+      "files": 26
+    },
+    {
+      "path": "AssetLibrary/audio/field_sfx_20261015",
+      "bytes": 7526879,
+      "files": 12
+    },
+    {
+      "path": "GodotProject/assets/opening",
+      "bytes": 7519044,
+      "files": 8
+    },
+    {
+      "path": "AssetLibrary/audio/ready_to_import",
+      "bytes": 7518310,
+      "files": 52
+    },
+    {
+      "path": "tools/asset_python/Cryptodome",
+      "bytes": 7220989,
+      "files": 552
+    },
+    {
+      "path": "AssetLibrary/environment/evidence",
+      "bytes": 7110980,
+      "files": 134
+    },
+    {
+      "path": "AssetLibrary/audio/door-open-door-close-set",
+      "bytes": 6868844,
+      "files": 41
+    },
+    {
+      "path": "AssetLibrary/first_person/oga_fps_arms",
+      "bytes": 6686224,
+      "files": 8
+    },
+    {
+      "path": "AssetLibrary/audio/stealth-music",
+      "bytes": 6134479,
+      "files": 5
+    },
+    {
+      "path": "docs/level",
+      "bytes": 5078786,
+      "files": 810
+    },
+    {
+      "path": "AssetLibrary/first_person/field_hands",
+      "bytes": 5059845,
+      "files": 8
+    },
+    {
+      "path": "GodotProject/assets/first_person",
+      "bytes": 4615607,
+      "files": 9
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016",
+      "bytes": 4425413,
+      "files": 297
+    },
+    {
+      "path": "docs/river_journey_20261016",
+      "bytes": 4279687,
+      "files": 149
+    },
+    {
+      "path": "Release/AssetNotices",
+      "bytes": 4201086,
+      "files": 25
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-final",
+      "bytes": 3909344,
+      "files": 6
+    },
+    {
+      "path": "docs/maintenance",
+      "bytes": 3860187,
+      "files": 41
+    },
+    {
+      "path": "Release/Validation",
+      "bytes": 3762205,
+      "files": 662
+    },
+    {
+      "path": "AssetLibrary/environment/derived",
+      "bytes": 3624090,
+      "files": 4
+    },
+    {
+      "path": "AssetLibrary/audio/q009s-weapon-sounds",
+      "bytes": 3539466,
+      "files": 39
+    },
+    {
+      "path": "docs/audio",
+      "bytes": 3255396,
+      "files": 314
+    },
+    {
+      "path": "Release/AssetNotices/D02",
+      "bytes": 3246565,
+      "files": 2
+    },
+    {
+      "path": "docs/maintenance/repository-20261016",
+      "bytes": 2692877,
+      "files": 33
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.crt",
+      "bytes": 2326041,
+      "files": 51
+    },
+    {
+      "path": "docs/resources",
+      "bytes": 2149967,
+      "files": 13
+    },
+    {
+      "path": "docs/resources/S02",
+      "bytes": 2149967,
+      "files": 13
+    },
+    {
+      "path": "docs/expansion_20261015",
+      "bytes": 2145120,
+      "files": 272
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_modular",
+      "bytes": 2063550,
+      "files": 7
+    },
+    {
+      "path": "AssetLibrary/audio/kenney-rpg-audio",
+      "bytes": 2052762,
+      "files": 60
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-final",
+      "bytes": 1964457,
+      "files": 4
+    },
+    {
+      "path": "AssetLibrary/audio/kenney-impact-sounds",
+      "bytes": 1904979,
+      "files": 138
+    },
+    {
+      "path": "docs/archive",
+      "bytes": 1834881,
+      "files": 167
+    },
+    {
+      "path": "AssetLibrary/audio/radio-noise-1",
+      "bytes": 1790272,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/cloth-swing-sounds",
+      "bytes": 1770401,
+      "files": 5
+    },
+    {
+      "path": "docs/settlement_revision_20261015",
+      "bytes": 1634953,
+      "files": 200
+    },
+    {
+      "path": "docs/audio/S29",
+      "bytes": 1499641,
+      "files": 39
+    },
+    {
+      "path": "tools/asset_python/backports",
+      "bytes": 1373036,
+      "files": 43
+    },
+    {
+      "path": "AssetLibrary/audio/inventory-sound-effects",
+      "bytes": 1312968,
+      "files": 11
+    },
+    {
+      "path": "AssetLibrary/audio/mysterious-radio-signal",
+      "bytes": 1299865,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/creaky-light-wooden-door",
+      "bytes": 1252509,
+      "files": 5
+    },
+    {
+      "path": "docs/level/S19",
+      "bytes": 1243857,
+      "files": 233
+    },
+    {
+      "path": "AssetLibrary/audio/opening-and-closing-a-map-sounds",
+      "bytes": 1234981,
+      "files": 6
+    },
+    {
+      "path": "docs/archive/workspace-20261016",
+      "bytes": 1208496,
+      "files": 41
+    },
+    {
+      "path": "docs/maintenance/workspace-20261016",
+      "bytes": 1167310,
+      "files": 8
+    },
+    {
+      "path": "docs/handover",
+      "bytes": 1145881,
+      "files": 18
+    },
+    {
+      "path": "AssetLibrary/audio/fantozzis-footsteps-grasssand-stone",
+      "bytes": 1042411,
+      "files": 29
+    },
+    {
+      "path": "AssetLibrary/audio/footsteps-on-different-surfaces",
+      "bytes": 973711,
+      "files": 134
+    },
+    {
+      "path": "tools/asset_python/psutil",
+      "bytes": 845516,
+      "files": 21
+    },
+    {
+      "path": "Release/Validation/settlement_revision_20261015",
+      "bytes": 842089,
+      "files": 122
+    },
+    {
+      "path": "AssetLibrary/audio/paper-pages-sounds",
+      "bytes": 819449,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/village",
+      "bytes": 786190,
+      "files": 1
+    },
+    {
+      "path": "docs/user-polish-20261015",
+      "bytes": 755439,
+      "files": 25
+    },
+    {
+      "path": "Release/Validation/polish-20261015",
+      "bytes": 754732,
+      "files": 24
+    },
+    {
+      "path": "Release/AssetNotices/JKM",
+      "bytes": 753303,
+      "files": 3
+    },
+    {
+      "path": "tools/grip-inspect",
+      "bytes": 715665,
+      "files": 4
+    },
+    {
+      "path": "AssetLibrary/audio/gun-reload-sounds",
+      "bytes": 666993,
+      "files": 7
+    },
+    {
+      "path": "docs/level/S09",
+      "bytes": 565714,
+      "files": 42
+    },
+    {
+      "path": "AssetLibrary/audio/sfx-circuit-breaker",
+      "bytes": 546150,
+      "files": 7
+    },
+    {
+      "path": "tools/asset_python/py7zr",
+      "bytes": 538501,
+      "files": 29
+    },
+    {
+      "path": "docs/audio/dialogue_retake_20261015",
+      "bytes": 503368,
+      "files": 104
+    },
+    {
+      "path": "Release/Validation/dialogue_retake_20261015",
+      "bytes": 502306,
+      "files": 103
+    },
+    {
+      "path": "docs/audio/settings_20261015",
+      "bytes": 474156,
+      "files": 49
+    },
+    {
+      "path": "docs/level/S23",
+      "bytes": 470687,
+      "files": 53
+    },
+    {
+      "path": "tools/blender-verification",
+      "bytes": 459453,
+      "files": 5
+    },
+    {
+      "path": "GodotProject/scripts",
+      "bytes": 445295,
+      "files": 66
+    },
+    {
+      "path": "docs/level/S17",
+      "bytes": 442143,
+      "files": 75
+    },
+    {
+      "path": "docs/user-polish-20261015/organization",
+      "bytes": 439483,
+      "files": 3
+    },
+    {
+      "path": "GodotProject/tests",
+      "bytes": 426620,
+      "files": 122
+    },
+    {
+      "path": "docs/narrative",
+      "bytes": 424025,
+      "files": 50
+    },
+    {
+      "path": "docs/level/S13",
+      "bytes": 423330,
+      "files": 31
+    },
+    {
+      "path": "Release/Validation/expansion_20261015",
+      "bytes": 419031,
+      "files": 124
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015",
+      "bytes": 410769,
+      "files": 99
+    },
+    {
+      "path": "docs/level/S10",
+      "bytes": 404402,
+      "files": 18
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/license",
+      "bytes": 376711,
+      "files": 26
+    },
+    {
+      "path": "docs/user-models-20261015",
+      "bytes": 361937,
+      "files": 30
+    },
+    {
+      "path": "Release/Validation/first_level_rebuild_20261016",
+      "bytes": 355662,
+      "files": 124
+    },
+    {
+      "path": "docs/archive/workspace-20261015",
+      "bytes": 343592,
+      "files": 98
+    },
+    {
+      "path": "docs/audio/user_20261015",
+      "bytes": 331722,
+      "files": 68
+    },
+    {
+      "path": "docs/level/S27",
+      "bytes": 326791,
+      "files": 38
+    },
+    {
+      "path": "Release/Validation/user-models-20261015",
+      "bytes": 326101,
+      "files": 26
+    },
+    {
+      "path": "ConversationBackups/20261015-085350-3088e9",
+      "bytes": 324292,
+      "files": 7
+    },
+    {
+      "path": "docs/level/S36",
+      "bytes": 314002,
+      "files": 72
+    },
+    {
+      "path": "docs/expansion_20261015/river",
+      "bytes": 312656,
+      "files": 1
+    },
+    {
+      "path": "AssetLibrary/audio/dialogue_20261015",
+      "bytes": 306431,
+      "files": 10
+    },
+    {
+      "path": "Release/Validation/river_journey_20261016",
+      "bytes": 302801,
+      "files": 115
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-initial",
+      "bytes": 286333,
+      "files": 2
+    },
+    {
+      "path": "docs/archive/design-notes",
+      "bytes": 282793,
+      "files": 28
+    },
+    {
+      "path": "tools/third_party",
+      "bytes": 281305,
+      "files": 9
+    },
+    {
+      "path": "tools/third_party/max_importer",
+      "bytes": 281305,
+      "files": 9
+    },
+    {
+      "path": "docs/file-audit-20261015-2026",
+      "bytes": 273883,
+      "files": 9
+    },
+    {
+      "path": "Release/Validation/user-model-fix-final-20261015",
+      "bytes": 259483,
+      "files": 24
+    },
+    {
+      "path": "docs/level/S24",
+      "bytes": 258263,
+      "files": 43
+    },
+    {
+      "path": "docs/audio/dialogue_20261015",
+      "bytes": 255556,
+      "files": 18
+    },
+    {
+      "path": "ConversationBackups/20261013-223822-d09e3c",
+      "bytes": 232974,
+      "files": 7
+    },
+    {
+      "path": "AssetLibrary/audio/footsteps-leather-cloth-armor",
+      "bytes": 226252,
+      "files": 17
+    },
+    {
+      "path": "ConversationBackups/20261013-211541-b19fc7",
+      "bytes": 225821,
+      "files": 7
+    },
+    {
+      "path": "ConversationBackups/20261013-205145-7a3b3b",
+      "bytes": 223517,
+      "files": 7
+    },
+    {
+      "path": "docs/recovery",
+      "bytes": 215750,
+      "files": 4
+    },
+    {
+      "path": "ConversationBackups/20261015-085350-3088e9/workspace",
+      "bytes": 213166,
+      "files": 5
+    },
+    {
+      "path": "docs/user-revision-20261015",
+      "bytes": 209379,
+      "files": 28
+    },
+    {
+      "path": "docs/validation",
+      "bytes": 207687,
+      "files": 92
+    },
+    {
+      "path": "ConversationBackups/20261013-185754-b67354",
+      "bytes": 199076,
+      "files": 7
+    },
+    {
+      "path": "ConversationBackups/20261013-185615-a680f7",
+      "bytes": 196293,
+      "files": 7
+    },
+    {
+      "path": "ConversationBackups/20261013-185149-287065",
+      "bytes": 193576,
+      "files": 7
+    },
+    {
+      "path": "docs/narrative/S07",
+      "bytes": 192047,
+      "files": 30
+    },
+    {
+      "path": "ConversationBackups/20261013-183937-53fc5e",
+      "bytes": 188749,
+      "files": 7
+    },
+    {
+      "path": "GodotProject/.godot/editor",
+      "bytes": 185422,
+      "files": 106
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/portable",
+      "bytes": 177585,
+      "files": 2
+    },
+    {
+      "path": "docs/level/S12",
+      "bytes": 158285,
+      "files": 41
+    },
+    {
+      "path": "AssetLibrary/audio/bayonet_20261015",
+      "bytes": 138819,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/release-regression-final",
+      "bytes": 137598,
+      "files": 53
+    },
+    {
+      "path": "docs/river_journey_20261016/source-regression-final",
+      "bytes": 137595,
+      "files": 53
+    },
+    {
+      "path": "AssetLibrary/audio/licenses",
+      "bytes": 137421,
+      "files": 3
+    },
+    {
+      "path": "docs/narrative/S06",
+      "bytes": 133093,
+      "files": 5
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-release-regression-v3",
+      "bytes": 131953,
+      "files": 51
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression-v5",
+      "bytes": 131951,
+      "files": 51
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression-v4",
+      "bytes": 131543,
+      "files": 51
+    },
+    {
+      "path": "ConversationBackups/20261013-223822-d09e3c/workspace",
+      "bytes": 127989,
+      "files": 5
+    },
+    {
+      "path": "tools/asset_python/pyppmd",
+      "bytes": 126512,
+      "files": 8
+    },
+    {
+      "path": "docs/settlement_revision_20261015/accepted-release-regression",
+      "bytes": 122830,
+      "files": 49
+    },
+    {
+      "path": "docs/settlement_revision_20261015/accepted-source-regression",
+      "bytes": 122828,
+      "files": 49
+    },
+    {
+      "path": "docs/level/S08",
+      "bytes": 122360,
+      "files": 11
+    },
+    {
+      "path": "ConversationBackups/20261013-211541-b19fc7/workspace",
+      "bytes": 121722,
+      "files": 5
+    },
+    {
+      "path": "docs/reviews",
+      "bytes": 120374,
+      "files": 31
+    },
+    {
+      "path": "docs/reviews/20261014-project-check",
+      "bytes": 120374,
+      "files": 31
+    },
+    {
+      "path": "ConversationBackups/20261013-205145-7a3b3b/workspace",
+      "bytes": 119419,
+      "files": 5
+    },
+    {
+      "path": "ConversationBackups/20261013-185615-a680f7/workspace",
+      "bytes": 110978,
+      "files": 5
+    },
+    {
+      "path": "ConversationBackups/20261013-185754-b67354/workspace",
+      "bytes": 110329,
+      "files": 5
+    },
+    {
+      "path": "tools/asset_python/bin",
+      "bytes": 108390,
+      "files": 1
+    },
+    {
+      "path": "ConversationBackups/20261013-185149-287065/workspace",
+      "bytes": 108249,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/accepted-release-regression",
+      "bytes": 106156,
+      "files": 47
+    },
+    {
+      "path": "docs/expansion_20261015/accepted-source-regression",
+      "bytes": 106154,
+      "files": 47
+    },
+    {
+      "path": "ConversationBackups/20261013-183937-53fc5e/workspace",
+      "bytes": 105606,
+      "files": 5
+    },
+    {
+      "path": "docs/baselines",
+      "bytes": 105502,
+      "files": 27
+    },
+    {
+      "path": "docs/baselines/S01_20261013",
+      "bytes": 105502,
+      "files": 27
+    },
+    {
+      "path": "docs/validation/release",
+      "bytes": 103844,
+      "files": 46
+    },
+    {
+      "path": "docs/validation/source",
+      "bytes": 103843,
+      "files": 46
+    },
+    {
+      "path": "licenses",
+      "bytes": 101257,
+      "files": 2
+    },
+    {
+      "path": "docs/audio/S28",
+      "bytes": 99297,
+      "files": 8
+    },
+    {
+      "path": "tools/__pycache__",
+      "bytes": 92016,
+      "files": 6
+    },
+    {
+      "path": "AssetLibrary/audio/generator-loop",
+      "bytes": 86677,
+      "files": 5
+    },
+    {
+      "path": "docs/file-audit-20261015",
+      "bytes": 84982,
+      "files": 9
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-opening-checks",
+      "bytes": 75241,
+      "files": 37
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-opening-checks",
+      "bytes": 75240,
+      "files": 37
+    },
+    {
+      "path": "docs/level/S26",
+      "bytes": 74713,
+      "files": 22
+    },
+    {
+      "path": "docs/level/S25",
+      "bytes": 74010,
+      "files": 26
+    },
+    {
+      "path": "docs/expansion_20261015/remaining-checks",
+      "bytes": 70697,
+      "files": 31
+    },
+    {
+      "path": "AssetLibrary/audio/dialogue_retake_20261015",
+      "bytes": 66790,
+      "files": 3
+    },
+    {
+      "path": "docs/audio/S31",
+      "bytes": 58556,
+      "files": 18
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v2",
+      "bytes": 53907,
+      "files": 19
+    },
+    {
+      "path": "docs/performance",
+      "bytes": 52459,
+      "files": 33
+    },
+    {
+      "path": "docs/expansion_20261015/source-render-attempt03",
+      "bytes": 52241,
+      "files": 2
+    },
+    {
+      "path": "tools/asset_python/pycryptodomex-3.24.1.dist-info",
+      "bytes": 52130,
+      "files": 7
+    },
+    {
+      "path": "tools/asset_python/bcj",
+      "bytes": 50351,
+      "files": 6
+    },
+    {
+      "path": "Release/AssetNotices/Voice",
+      "bytes": 49224,
+      "files": 3
+    },
+    {
+      "path": "tools/asset_python/py7zr-1.1.3.dist-info",
+      "bytes": 46640,
+      "files": 8
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression",
+      "bytes": 44460,
+      "files": 12
+    },
+    {
+      "path": "tools/asset_python/inflate64",
+      "bytes": 44454,
+      "files": 4
+    },
+    {
+      "path": "docs/narrative/S03",
+      "bytes": 43855,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-complete-final",
+      "bytes": 41361,
+      "files": 19
+    },
+    {
+      "path": "docs/level/S32",
+      "bytes": 41239,
+      "files": 19
+    },
+    {
+      "path": "docs/level/S21",
+      "bytes": 40691,
+      "files": 23
+    },
+    {
+      "path": "docs/user-model-fix-20261015",
+      "bytes": 38558,
+      "files": 9
+    },
+    {
+      "path": "tools/asset_python/__pycache__",
+      "bytes": 35278,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v5",
+      "bytes": 35153,
+      "files": 14
+    },
+    {
+      "path": "tools/asset_python/multivolumefile",
+      "bytes": 34453,
+      "files": 6
+    },
+    {
+      "path": "tools/asset_python/multivolumefile-0.2.3.dist-info",
+      "bytes": 33949,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-complete",
+      "bytes": 33859,
+      "files": 14
+    },
+    {
+      "path": "tools/asset_python/pyppmd-1.3.1.dist-info",
+      "bytes": 33734,
+      "files": 6
+    },
+    {
+      "path": "tools/asset_python/pybcj-1.0.8.dist-info",
+      "bytes": 33226,
+      "files": 8
+    },
+    {
+      "path": "docs/expansion_20261015/resume-polish",
+      "bytes": 32984,
+      "files": 8
+    },
+    {
+      "path": "tools/asset_python/inflate64-1.0.4.dist-info",
+      "bytes": 32451,
+      "files": 6
+    },
+    {
+      "path": "docs/settlement_revision_20261015/boundary-diagnostics",
+      "bytes": 32159,
+      "files": 4
+    },
+    {
+      "path": "docs/narrative/S05",
+      "bytes": 30272,
+      "files": 6
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight",
+      "bytes": 28783,
+      "files": 6
+    },
+    {
+      "path": "Release/Dialogue",
+      "bytes": 26788,
+      "files": 4
+    },
+    {
+      "path": "tools/asset_python/backports_zstd-1.8.0.dist-info",
+      "bytes": 26692,
+      "files": 7
+    },
+    {
+      "path": "tools/asset_python/psutil-7.2.2.dist-info",
+      "bytes": 26204,
+      "files": 6
+    },
+    {
+      "path": "docs/audio/S30",
+      "bytes": 26035,
+      "files": 6
+    },
+    {
+      "path": "docs/narrative/S04",
+      "bytes": 24758,
+      "files": 6
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-v2",
+      "bytes": 24552,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/regression-source-final",
+      "bytes": 23849,
+      "files": 10
+    },
+    {
+      "path": "AssetLibrary/audio/__pycache__",
+      "bytes": 21968,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-regression",
+      "bytes": 20956,
+      "files": 8
+    },
+    {
+      "path": "docs/expansion_20261015/dock",
+      "bytes": 20728,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-boundaries-final",
+      "bytes": 20212,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-boundaries",
+      "bytes": 20212,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-regression-attempt02",
+      "bytes": 19687,
+      "files": 8
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-accepted",
+      "bytes": 19072,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-boundaries-accepted",
+      "bytes": 19072,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v4",
+      "bytes": 18793,
+      "files": 10
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-v3",
+      "bytes": 18111,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-final",
+      "bytes": 17932,
+      "files": 2
+    },
+    {
+      "path": "docs/level/S16",
+      "bytes": 17505,
+      "files": 9
+    },
+    {
+      "path": "docs/level/S33",
+      "bytes": 17396,
+      "files": 9
+    },
+    {
+      "path": "docs/user-models-20261015/volunteer",
+      "bytes": 17306,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/polish",
+      "bytes": 16493,
+      "files": 4
+    },
+    {
+      "path": "docs/user-models-20261015/japanese",
+      "bytes": 14223,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression-v3",
+      "bytes": 12894,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/office",
+      "bytes": 12773,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/regression-third",
+      "bytes": 12579,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/regression-source-attempt02",
+      "bytes": 11891,
+      "files": 4
+    },
+    {
+      "path": "docs/level/S15",
+      "bytes": 11633,
+      "files": 6
+    },
+    {
+      "path": "tools/asset_python/texttable-1.7.0.dist-info",
+      "bytes": 11605,
+      "files": 6
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-accepted",
+      "bytes": 11162,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/dressing-initial",
+      "bytes": 9794,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-accepted-v3",
+      "bytes": 9371,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-accepted-v2",
+      "bytes": 9371,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-render-final",
+      "bytes": 9281,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-render",
+      "bytes": 9173,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-regression-v2",
+      "bytes": 9149,
+      "files": 3
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/dressing-second",
+      "bytes": 9039,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/dressing-third",
+      "bytes": 9021,
+      "files": 2
+    },
+    {
+      "path": "docs/level/S20",
+      "bytes": 8699,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/source-attempt02",
+      "bytes": 8612,
+      "files": 2
+    },
+    {
+      "path": "docs/user-models-20261015/source-render-1280",
+      "bytes": 8247,
+      "files": 2
+    },
+    {
+      "path": "docs/user-models-20261015/release-render-1280",
+      "bytes": 8247,
+      "files": 2
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-render-1280",
+      "bytes": 8247,
+      "files": 2
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-render-1280",
+      "bytes": 8247,
+      "files": 2
+    },
+    {
+      "path": "docs/user-models-20261015/source-render-960",
+      "bytes": 8246,
+      "files": 2
+    },
+    {
+      "path": "docs/user-models-20261015/release-render-960",
+      "bytes": 8246,
+      "files": 2
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-render-960",
+      "bytes": 8246,
+      "files": 2
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-render-960",
+      "bytes": 8246,
+      "files": 2
+    },
+    {
+      "path": "tools/asset_python/brotli-1.2.0.dist-info",
+      "bytes": 8172,
+      "files": 6
+    },
+    {
+      "path": "docs/level/S22",
+      "bytes": 7941,
+      "files": 5
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-release-regression",
+      "bytes": 7870,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/resume-source-regression",
+      "bytes": 7870,
+      "files": 3
+    },
+    {
+      "path": "docs/user-polish-20261015/source-render-1280",
+      "bytes": 7709,
+      "files": 2
+    },
+    {
+      "path": "docs/user-polish-20261015/release-render-1280",
+      "bytes": 7709,
+      "files": 2
+    },
+    {
+      "path": "docs/user-polish-20261015/release-render-960",
+      "bytes": 7708,
+      "files": 2
+    },
+    {
+      "path": "docs/user-polish-20261015/source-render-960",
+      "bytes": 7707,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render",
+      "bytes": 7706,
+      "files": 2
+    },
+    {
+      "path": "docs/level/S35",
+      "bytes": 7603,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/regression-first",
+      "bytes": 7547,
+      "files": 1
+    },
+    {
+      "path": "docs/level/S18",
+      "bytes": 7517,
+      "files": 7
+    },
+    {
+      "path": "docs/level/S11",
+      "bytes": 7372,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/regression-source-attempt01",
+      "bytes": 7300,
+      "files": 1
+    },
+    {
+      "path": "GodotProject/shaders",
+      "bytes": 7253,
+      "files": 14
+    },
+    {
+      "path": "docs/level/S34",
+      "bytes": 7178,
+      "files": 5
+    },
+    {
+      "path": "docs/level/S14",
+      "bytes": 7091,
+      "files": 3
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-release-regression-v2",
+      "bytes": 7046,
+      "files": 2
+    },
+    {
+      "path": "Release/AssetNotices/TerrainReference",
+      "bytes": 6907,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-check-v2",
+      "bytes": 6526,
+      "files": 3
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v3",
+      "bytes": 6379,
+      "files": 4
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/second-render",
+      "bytes": 6199,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-regression-attempt01",
+      "bytes": 5984,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-ferry-pier-failure",
+      "bytes": 5863,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/combat-initial",
+      "bytes": 5855,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-attempt-2",
+      "bytes": 5744,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-regression",
+      "bytes": 5623,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/third-render",
+      "bytes": 5615,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/release-render-final",
+      "bytes": 5569,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-before-waterline",
+      "bytes": 5568,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/regression-second",
+      "bytes": 5335,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-audio-pause-diagnostic",
+      "bytes": 5267,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-final-v4",
+      "bytes": 5262,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-release-final",
+      "bytes": 5262,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-corrected-final",
+      "bytes": 5253,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-endpoints",
+      "bytes": 5178,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-59-checks-stable",
+      "bytes": 5169,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-2",
+      "bytes": 5142,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/initial",
+      "bytes": 5125,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-audio-pause-timing-failure",
+      "bytes": 5052,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-audio-pause-second-failure",
+      "bytes": 5052,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/audio-routing-source",
+      "bytes": 5050,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-final-v3",
+      "bytes": 5016,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/release-combat-diagnostic",
+      "bytes": 4980,
+      "files": 4
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-3",
+      "bytes": 4855,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/charge-new-office",
+      "bytes": 4845,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-1",
+      "bytes": 4800,
+      "files": 2
+    },
+    {
+      "path": "docs/user-polish-20261015/source-headless",
+      "bytes": 4774,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/rifle",
+      "bytes": 4519,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-attempt02",
+      "bytes": 4352,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-final",
+      "bytes": 4304,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-headless-corrected",
+      "bytes": 4252,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/resume-motion-release-captured",
+      "bytes": 3948,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/resume-motion-attempt01",
+      "bytes": 3948,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/rifle-render-source",
+      "bytes": 3870,
+      "files": 1
+    },
+    {
+      "path": "docs/user-revision-20261015/a10-render",
+      "bytes": 3649,
+      "files": 1
+    },
+    {
+      "path": "docs/user-models-20261015/s32-targeted",
+      "bytes": 3602,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/resume-motion-release",
+      "bytes": 3578,
+      "files": 1
+    },
+    {
+      "path": "docs/user-revision-20261015/a10-repair",
+      "bytes": 3559,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/camp",
+      "bytes": 3541,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v4",
+      "bytes": 3416,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v3",
+      "bytes": 3276,
+      "files": 3
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v5",
+      "bytes": 3124,
+      "files": 3
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-survey",
+      "bytes": 2954,
+      "files": 3
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v4",
+      "bytes": 2954,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/source-render-attempt05",
+      "bytes": 2876,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-render",
+      "bytes": 2861,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-render",
+      "bytes": 2861,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/resume-source-render",
+      "bytes": 2754,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/resume-release-render",
+      "bytes": 2754,
+      "files": 2
+    },
+    {
+      "path": "docs/user-revision-20261015/source",
+      "bytes": 2701,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-check-v1",
+      "bytes": 2678,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/resume-source-packages",
+      "bytes": 2659,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/fence",
+      "bytes": 2621,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/source-render-attempt06",
+      "bytes": 2613,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-check-v3",
+      "bytes": 2574,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-final",
+      "bytes": 2565,
+      "files": 2
+    },
+    {
+      "path": "docs/user-revision-20261015/render-960",
+      "bytes": 2458,
+      "files": 2
+    },
+    {
+      "path": "docs/user-revision-20261015/render-1280",
+      "bytes": 2458,
+      "files": 2
+    },
+    {
+      "path": "docs/user-revision-20261015/release-render-960",
+      "bytes": 2458,
+      "files": 2
+    },
+    {
+      "path": "docs/user-revision-20261015/release-render-1280",
+      "bytes": 2458,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/first-render",
+      "bytes": 2457,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/performance",
+      "bytes": 2324,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v2",
+      "bytes": 2012,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/source-attempt04",
+      "bytes": 2000,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-initial",
+      "bytes": 1850,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v3",
+      "bytes": 1658,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/fence-source-attempt01",
+      "bytes": 1498,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/office-survey",
+      "bytes": 1215,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/office-refined",
+      "bytes": 1215,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v2",
+      "bytes": 1035,
+      "files": 1
+    },
+    {
+      "path": "docs/reference",
+      "bytes": 996,
+      "files": 1
+    },
+    {
+      "path": "docs/reference/bf1_storm_of_steel",
+      "bytes": 996,
+      "files": 1
+    },
+    {
+      "path": "GodotProject/.godot/exported",
+      "bytes": 824,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-attempt01",
+      "bytes": 682,
+      "files": 1
+    },
+    {
+      "path": "docs/v04_environment_captures",
+      "bytes": 586,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-initial",
+      "bytes": 567,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries",
+      "bytes": 509,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/source-initial",
+      "bytes": 395,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/release-combat-render-final",
+      "bytes": 377,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-combat-render-final",
+      "bytes": 377,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-combat-render",
+      "bytes": 377,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-combat-render",
+      "bytes": 280,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/resume-release-combat-render",
+      "bytes": 280,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-combat-diagnostic",
+      "bytes": 270,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v5",
+      "bytes": 173,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/combat-second",
+      "bytes": 173,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/resume-combat-isolated",
+      "bytes": 173,
+      "files": 1
+    }
+  ],
+  "extensions": {
+    ".pck": 2635173712,
+    ".blend": 2140151901,
+    ".jpg": 1615273229,
+    ".ctex": 1482225396,
+    ".glb": 1177442768,
+    ".png": 747763663,
+    ".rar": 696462947,
+    ".exe": 642223374,
+    ".max": 508351914,
+    ".dll": 363996680,
+    ".exr": 260761245,
+    ".wav": 202298128,
+    ".tga": 191446106,
+    ".pdb": 126881792,
+    ".fbx": 117038608,
+    ".scn": 112916695,
+    ".zip": 105253966,
+    ".bin": 96684321,
+    ".zst": 85871860,
+    ".7z": 83736177,
+    ".mo": 68825312,
+    ".hdr": 64597694,
+    ".ogg": 58965649,
+    ".pyd": 54022656,
+    ".py": 52835377,
+    ".mp3": 45502294,
+    ".jsonl": 30885683,
+    ".json": 25806986,
+    ".cube": 24900085,
+    ".oggvorbisstr": 24575406,
+    ".jpeg": 24531456,
+    ".aac": 24389718,
+    ".pyc": 18121205,
+    ".md": 15522342,
+    ".woff2": 15498908,
+    ".flac": 11629348,
+    ".log": 11322313,
+    ".mp3str": 10663519,
+    ".html": 9407737,
+    ".dmp": 9135948,
+    ".txt": 5562408,
+    ".npy": 4195223,
+    ".whl": 3366507,
+    ".h": 3203032,
+    ".sample": 3162766,
+    ".oso": 3105899,
+    ".mtlx": 2365086,
+    ".tex": 2253151,
+    ".gd": 1758716,
+    ".dds": 1574400,
+    ".csv": 1514769,
+    ".pk3": 1219944,
+    ".pyi": 1083448,
+    ".import": 1056210,
+    ".c": 952287,
+    ".blend1": 903556,
+    ".spi1d": 869614,
+    ".usda": 859709,
+    "": 794270,
+    ".gltf": 745287,
+    ".pxd": 628199,
+    ".pem": 574699,
+    ".dae": 497874,
+    ".lib": 463994,
+    ".glslfx": 347279,
+    ".rps": 315392,
+    ".dat": 288590,
+    ".mdl": 272587,
+    ".glsl": 242414,
+    ".obj": 165895,
+    ".cpp": 109747,
+    ".pyx": 87280,
+    ".osl": 81993,
+    ".ps1": 80118,
+    ".md5": 52780,
+    ".xml": 50601,
+    ".metal": 48030,
+    ".ocio": 31348,
+    ".f90": 24725,
+    ".rst": 15630,
+    ".gdshader": 14234,
+    ".cu": 10019,
+    ".f": 9947,
+    ".fits": 8640,
+    ".cmd": 7912,
+    ".svg": 6935,
+    ".cfg": 6842,
+    ".sl": 5883,
+    ".tsv": 5876,
+    ".manifest": 5128,
+    ".toml": 4819,
+    ".srt": 4684,
+    ".uid": 4020,
+    ".js": 3765,
+    ".godot": 2805,
+    ".build": 2612,
+    ".vtt": 2410,
+    ".fish": 2278,
+    ".cmake": 2147,
+    ".pyf": 1650,
+    ".template": 1633,
+    ".bat": 1481,
+    ".css": 1437,
+    ".pkl": 1434,
+    ".csh": 959,
+    ".gif": 956,
+    ".in": 928,
+    ".npz": 815,
+    ".ini": 644,
+    ".vbs": 566,
+    ".tscn": 503,
+    ".ds_store": 480,
+    ".typed": 412,
+    ".mod": 412,
+    ".tmpl": 365,
+    ".ctypes": 302,
+    ".url": 200,
+    ".pth": 152,
+    ".spimtx": 118
+  },
+  "largest": [
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/Release/FenghuoEcho.pck",
+      "bytes": 1317586856
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 1317586856
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/village_complete.blend",
+      "bytes": 599206355
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/original.rar",
+      "bytes": 372325110
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/imported/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/3d66.com_15202935.max",
+      "bytes": 284377088
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/imported/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/village/3d66.com_691775.max",
+      "bytes": 180950442
+    },
+    {
+      "path": "tools/Godot-4.7.2/Godot_v4.7.2-stable_win64.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.pdb",
+      "bytes": 119820288
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/imported/dock/raw-import.blend",
+      "bytes": 109482240
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/village/original.rar",
+      "bytes": 107870983
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/dock/3d66.com_JCI54557104651.fbx",
+      "bytes": 103795856
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/dock.blend",
+      "bytes": 103536582
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/dock.glb",
+      "bytes": 98415264
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/dock.glb",
+      "bytes": 98415264
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.exe",
+      "bytes": 96093144
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/dock/original.rar",
+      "bytes": 86586175
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/阿尔法斯特农场_4k.exr",
+      "bytes": 85786901
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/3d66Model-15202935-files-44.exr",
+      "bytes": 85786901
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/1021512640-68180442.exr",
+      "bytes": 85786901
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/camp_2.blend",
+      "bytes": 80061181
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/modular-building-asset-0/Free Nobiax modular building asset.7z",
+      "bytes": 70488351
+    },
+    {
+      "path": "GodotProject/.godot/imported/river_3d66Model-15202935-files-43.jpg-ffbc4fb8f2210cda475e6ab35a76d1a8.ctex",
+      "bytes": 69295084
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/camp/original.rar",
+      "bytes": 66760435
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_complete.glb-5b7ccf4f639eaa85266f1aa82bd99f7f.scn",
+      "bytes": 66053830
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/avcodec-61.dll",
+      "bytes": 50503680
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/modular-building-asset-0/extracted/specular.tga",
+      "bytes": 50331692
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/modular-building-asset-0/extracted/normal.tga",
+      "bytes": 50331692
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/modular-building-asset-0/extracted/diffuse.tga",
+      "bytes": 50331692
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/imported/camp/raw-import.blend",
+      "bytes": 47703325
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/camp_1.blend",
+      "bytes": 47582330
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/camp_3.blend",
+      "bytes": 47578264
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/camp_4.blend",
+      "bytes": 47555903
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/OpenImageDenoise_core.dll",
+      "bytes": 46934528
+    },
+    {
+      "path": "AssetLibrary/derived/S10_buildings/D04.blend",
+      "bytes": 43577156
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/oslexec.dll",
+      "bytes": 41600000
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/imported/office/raw-import.blend",
+      "bytes": 41084764
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/usd_ms.dll",
+      "bytes": 40412160
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/office.blend",
+      "bytes": 36100758
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/camp/3d66Model-4690991-files-3.hdr",
+      "bytes": 35807300
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/dims-arboretum/extracted/dim_arboretum.blend",
+      "bytes": 34506724
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/river.glb",
+      "bytes": 31132324
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/river.glb",
+      "bytes": 31132324
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/river.blend",
+      "bytes": 30898809
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/cycles_kernel_oneapi_aot.dll",
+      "bytes": 30225920
+    },
+    {
+      "path": "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.blend",
+      "bytes": 28358000
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/embree4.dll",
+      "bytes": 27092480
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015/originals/volunteer.rar",
+      "bytes": 26858613
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/dims-arboretum/dims_arboretum.zip",
+      "bytes": 25745536
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/characters/user_soldiers/volunteer.glb",
+      "bytes": 25310944
+    },
+    {
+      "path": "GodotProject/assets/characters/user_soldiers/volunteer.glb",
+      "bytes": 25310944
+    },
+    {
+      "path": "GodotProject/.godot/imported/global_war_music.ogg-a438dff7256f0690c34ae0884f8eb7ed.oggvorbisstr",
+      "bytes": 24575406
+    },
+    {
+      "path": "AssetLibrary/audio/user_20261015/战争激昂的背景音乐.aac",
+      "bytes": 24389718
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/village_4.blend",
+      "bytes": 24226027
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/village_1.blend",
+      "bytes": 24226027
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/camp/3d66Model-4690991-files-2.png",
+      "bytes": 24223318
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/village_3.blend",
+      "bytes": 24198591
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/village_2.blend",
+      "bytes": 24156235
+    },
+    {
+      "path": "AssetLibrary/characters/field_character/field_character.blend",
+      "bytes": 23929854
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/audio/global_war_music.ogg",
+      "bytes": 23859938
+    },
+    {
+      "path": "GodotProject/assets/audio/global_war_music.ogg",
+      "bytes": 23859938
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/retro-log-cabin/log_cabin.zip",
+      "bytes": 23481554
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/camp/3d66Model-4690991-files-4.png",
+      "bytes": 22901952
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/hiprt64.dll",
+      "bytes": 22652928
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/oslcomp.dll",
+      "bytes": 22600704
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/village_4.glb",
+      "bytes": 22244440
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/village_4.glb",
+      "bytes": 22244440
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/village_1.glb",
+      "bytes": 22244432
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/village_1.glb",
+      "bytes": 22244432
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/village_3.glb",
+      "bytes": 22227504
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/village_3.glb",
+      "bytes": 22227504
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/village_2.glb",
+      "bytes": 22204940
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/village_2.glb",
+      "bytes": 22204940
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/retro-log-cabin/extracted/log_cabin/log_cabin_4096px.png",
+      "bytes": 22166108
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/office/3d66.com_22399557.max",
+      "bytes": 20578304
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/river_3d66Model-15202935-files-43.jpg",
+      "bytes": 20447015
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/river_3d66Model-15202935-files-43.jpg",
+      "bytes": 20447015
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/3d66Model-15202935-files-43.jpeg",
+      "bytes": 20447015
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015/volunteer/3d66.com_17309872.max",
+      "bytes": 18665472
+    },
+    {
+      "path": "GodotProject/.godot/imported/river_3d66Model-15202935-files-42.jpg-18aa8682accc875234d03f86c94c2c3b.ctex",
+      "bytes": 18579572
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/characters/field_character.glb",
+      "bytes": 18439132
+    },
+    {
+      "path": "GodotProject/assets/characters/field_character.glb",
+      "bytes": 18439132
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/environment/models/pine_sapling_small/pine_sapling_small.bin",
+      "bytes": 17771796
+    },
+    {
+      "path": "GodotProject/assets/environment/models/pine_sapling_small/pine_sapling_small.bin",
+      "bytes": 17771796
+    },
+    {
+      "path": "AssetLibrary/environment/models/pine_sapling_small/pine_sapling_small.bin",
+      "bytes": 17771796
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/characters/user_soldiers/japanese.glb",
+      "bytes": 17225168
+    },
+    {
+      "path": "GodotProject/assets/characters/user_soldiers/japanese.glb",
+      "bytes": 17225168
+    },
+    {
+      "path": "GodotProject/.godot/imported/pine_sapling_small_2k.gltf-b7338c17fe2f2e53dd0446d4cbea4b79.scn",
+      "bytes": 16819712
+    },
+    {
+      "path": "AssetLibrary/audio/S29_20261015/music-summary.wav",
+      "bytes": 16320044
+    },
+    {
+      "path": "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.glb",
+      "bytes": 16063396
+    },
+    {
+      "path": "AssetLibrary/audio/super-foley-pack/originals/foley_pack.zip",
+      "bytes": 15950362
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/office/original.rar",
+      "bytes": 15322470
+    },
+    {
+      "path": "AssetLibrary/weapons/lee_enfield/Lee Enfield.zip",
+      "bytes": 14276217
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/barbed_wire.glb",
+      "bytes": 12176472
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/barbed_wire.glb",
+      "bytes": 12176472
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015/imported/volunteer/raw-import.blend",
+      "bytes": 11691178
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/4.5/datafiles/fonts/Noto Sans CJK Regular.woff2",
+      "bytes": 11425316
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015/adapted/japanese.blend",
+      "bytes": 11423187
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015/adapted/volunteer.blend",
+      "bytes": 11282722
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/log-cabin-dae/logcabin.zip",
+      "bytes": 10128731
+    },
+    {
+      "path": "AssetLibrary/derived/S10_buildings/D03.blend",
+      "bytes": 9973893
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015/originals/japanese.rar",
+      "bytes": 9933513
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-020.jpg-f8090bc97f828d3e25427bf3554de613.ctex",
+      "bytes": 9234812
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-004.jpg-c25d015e496a9ee2563a32d70fca7f04.ctex",
+      "bytes": 9234812
+    },
+    {
+      "path": "GodotProject/.godot/imported/brown_mud_leaves_01_nor_gl_2k.jpg-1ced6abe515bd14d02b17ff5201970dd.ctex",
+      "bytes": 8988116
+    },
+    {
+      "path": "GodotProject/.godot/imported/camp_4_3d66Model-4690991-files-4.jpg-af8db1f0eb09c68ff88bc322f024dab6.ctex",
+      "bytes": 8983772
+    },
+    {
+      "path": "GodotProject/.godot/imported/camp_3_3d66Model-4690991-files-4.jpg-8bb691a53c91c8ceb4cfeb20f0df5165.ctex",
+      "bytes": 8983772
+    },
+    {
+      "path": "GodotProject/.godot/imported/camp_2_3d66Model-4690991-files-4.jpg-e893df41ed1fe227b80c3e17ac43386f.ctex",
+      "bytes": 8983772
+    },
+    {
+      "path": "GodotProject/.godot/imported/camp_1_3d66Model-4690991-files-4.jpg-f4f6546d0907c3aa50b21387401dd8d4.ctex",
+      "bytes": 8983772
+    },
+    {
+      "path": "GodotProject/.godot/imported/wood_chips_nor_gl_2k.jpg-4892a6222b30386c40e40cf7ceb4322d.ctex",
+      "bytes": 8871790
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-016.jpg-c654ea2e9a6d2e66ccedbd983e04607b.ctex",
+      "bytes": 8750256
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-008.jpg-4436c28369f3119514a74fa41216826e.ctex",
+      "bytes": 8750256
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-002.jpg-c91c1621fd06440440fe8a9b51df5dfc.ctex",
+      "bytes": 8742820
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-028.jpg-2995b5e40e479c15d733169acbff12f8.ctex",
+      "bytes": 8739698
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-012.jpg-e2c24f12c4cdeebc30f642732de6bc2c.ctex",
+      "bytes": 8739698
+    },
+    {
+      "path": "GodotProject/.godot/imported/forest_ground_04_nor_gl_2k.jpg-08af98070e42406eb4ba49e30eed5d2c.ctex",
+      "bytes": 8577464
+    },
+    {
+      "path": "GodotProject/.godot/imported/kloofendal_overcast_puresky_2k.hdr-0d1f32063aad7487c8182d4d3610a6e0.ctex",
+      "bytes": 8388660
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/imported/fence/raw-import.blend",
+      "bytes": 8383248
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/barbed_wire.blend",
+      "bytes": 8383248
+    },
+    {
+      "path": "GodotProject/.godot/imported/muddy_tracks_nor_gl_2k.jpg-e7db4abfebcab7d169877396f9c75a79.ctex",
+      "bytes": 8316750
+    },
+    {
+      "path": "GodotProject/.godot/imported/barbed_wire_3d66-export-JJI54557884089-003.jpg-74738aecfdbef64e92c95c83337f49de.ctex",
+      "bytes": 8245466
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_complete_3d66Model-691775-files-68.jpg-e56d55e98c2dbe525fdbde60c4c19fc5.ctex",
+      "bytes": 8219666
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_4_3d66Model-691775-files-68.jpg-9f30738b5be336457d766db76cf83ff7.ctex",
+      "bytes": 8219666
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_3_3d66Model-691775-files-68.jpg-684f662771e2f76758dc27f31c8e053d.ctex",
+      "bytes": 8219666
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_2_3d66Model-691775-files-68.jpg-077fa55b224fc68c36dcd5460b2e4551.ctex",
+      "bytes": 8219666
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_1_3d66Model-691775-files-68.jpg-4fa8c763da8066145755db45ee9e69c0.ctex",
+      "bytes": 8219666
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/fence/3d66.com_JJI54557884089.fbx",
+      "bytes": 7934176
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/fence/original.rar",
+      "bytes": 7826607
+    },
+    {
+      "path": "AssetLibrary/environment/textures/japanese_cedar_bark/japanese_cedar_bark_nor_gl_2k.jpg",
+      "bytes": 7737423
+    },
+    {
+      "path": "AssetLibrary/audio/S31_20261015/B-temporary-rehearsal.wav",
+      "bytes": 7689644
+    },
+    {
+      "path": "AssetLibrary/audio/S31_20261015/A-temporary-rehearsal.wav",
+      "bytes": 7680044
+    },
+    {
+      "path": "GodotProject/.godot/imported/pine_bark_nor_gl_2k.jpg-9e92472a723926186a616c9b0a4d5af6.ctex",
+      "bytes": 7634132
+    },
+    {
+      "path": "AssetLibrary/environment/hdris/autumn_forest_01/autumn_forest_01_2k.hdr",
+      "bytes": 7562813
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/barbed_wire_3d66-export-JJI54557884089-001-3d66-export-JJI54557884089-002.png",
+      "bytes": 7465017
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/barbed_wire_3d66-export-JJI54557884089-001-3d66-export-JJI54557884089-002.png",
+      "bytes": 7465017
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/OpenImageDenoise_device_hip.dll",
+      "bytes": 7420416
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared/openimageio.dll",
+      "bytes": 7308800
+    },
+    {
+      "path": "GodotProject/.godot/imported/tree_stump_01_nor_gl_2k.jpg-ff1e287ba19099287fc7997999ebb697.ctex",
+      "bytes": 7267510
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_complete_3d66Model-691775-files-6.jpg-20c1098448efe7b36b3eba2dcf1851d9.ctex",
+      "bytes": 7157482
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_complete_3d66Model-691775-files-67.jpg-8569d184b066a2e9ec2d54e20bf3787d.ctex",
+      "bytes": 7025006
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_4_3d66Model-691775-files-67.jpg-e5ebefd27e900bf86f7481aa51850b00.ctex",
+      "bytes": 7025006
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_3_3d66Model-691775-files-67.jpg-f2c49c4998f1c47d740d3b52a8e9e68d.ctex",
+      "bytes": 7025006
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_2_3d66Model-691775-files-67.jpg-31bc4e975d72fcf4ca79128379794efc.ctex",
+      "bytes": 7025006
+    },
+    {
+      "path": "GodotProject/.godot/imported/village_1_3d66Model-691775-files-67.jpg-48a776e006486b704d862f449b710ae4.ctex",
+      "bytes": 7025006
+    },
+    {
+      "path": "GodotProject/.godot/imported/dock_3d66-export-JCI54557104651-019.jpg-7422abb7de87828f772815558d8ad741.ctex",
+      "bytes": 6983332
+    }
+  ],
+  "links_skipped": [],
+  "errors": []
+}

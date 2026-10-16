@@ -1,5 +1,6 @@
 """Fetch runtime assets from GitHub into an empty checkout and run Godot checks."""
 import json
+import argparse
 import hashlib
 import os
 import subprocess
@@ -18,17 +19,25 @@ def run(command, log, cwd=ROOT):
 
 
 def main():
-    if CLONE.exists():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--resume', action='store_true')
+    arguments = parser.parse_args()
+    if CLONE.exists() and not arguments.resume:
         raise RuntimeError('Refusing to overwrite an existing verification checkout')
     proxy = subprocess.run(['git', 'config', '--get', 'http.proxy'], cwd=ROOT, text=True, capture_output=True).stdout.strip()
-    options = ['-c', 'http.proxy=' + proxy] if proxy else []
-    run(['git'] + options + ['clone', '--no-checkout',
-         'https://github.com/zhaichaofan3/DongBeiKangLian.git', str(CLONE)], 'clone.log')
-    if proxy:
-        run(['git', 'config', 'http.proxy', proxy], 'clone-config.log', CLONE)
-    run(['git', 'sparse-checkout', 'set', 'GodotProject'], 'clone-sparse.log', CLONE)
-    # An empty checkout forces the LFS client to fetch the selected assets remotely.
-    run(['git', 'checkout', 'main'], 'clone-checkout.log', CLONE)
+    git_options = ['-c', 'http.proxy=' + proxy] if proxy else []
+    if not arguments.resume:
+        run(['git'] + git_options + ['clone', '--no-checkout',
+             'https://github.com/zhaichaofan3/DongBeiKangLian.git', str(CLONE)], 'clone.log')
+        if proxy:
+            run(['git', 'config', 'http.proxy', proxy], 'clone-config.log', CLONE)
+        run(['git', 'sparse-checkout', 'set', 'GodotProject'], 'clone-sparse.log', CLONE)
+        # An empty checkout forces the LFS client to fetch the selected assets remotely.
+        run(['git', 'checkout', 'main'], 'clone-checkout.log', CLONE)
+    else:
+        remote = subprocess.check_output(['git', 'remote', 'get-url', 'origin'], cwd=CLONE, text=True).strip()
+        if remote != 'https://github.com/zhaichaofan3/DongBeiKangLian.git':
+            raise RuntimeError('Unexpected verification checkout origin')
     lfs = json.loads(subprocess.check_output(['git', 'lfs', 'ls-files', '--json'], cwd=CLONE, text=True, encoding='utf-8'))['files']
     selected = [item for item in lfs if item['name'].startswith('GodotProject/')]
     for item in selected:
@@ -37,7 +46,8 @@ def main():
                 raise RuntimeError('Downloaded LFS content mismatch: ' + item['name'])
     engine = os.environ.get('GODOT_EXE', str(ROOT / 'tools/Godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe'))
     project = CLONE / 'GodotProject'
-    run([engine, '--headless', '--path', str(project), '--editor', '--import', '--quit'], 'clone-import.log')
+    import_log = 'clone-import-retry.log' if arguments.resume else 'clone-import.log'
+    run([engine, '--headless', '--path', str(project), '--import'], import_log)
     run([engine, '--headless', '--path', str(project), '--fixed-fps', '60', '--script', 'res://tests/smoke.gd',
          '--', '--qa'], 'clone-smoke.log')
     text = (REPORT / 'clone-smoke.log').read_text(encoding='utf-8')
@@ -45,6 +55,7 @@ def main():
     result = dict(remote='https://github.com/zhaichaofan3/DongBeiKangLian',
                   commit=subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=CLONE, text=True).strip(),
                   fresh_runtime_lfs_download=True, lfs_files_verified=len(selected), clean_import_passed=True,
+                  initial_import_crashed=(REPORT / 'clone-import-failure-1.log').exists(), import_log=import_log,
                   smoke_passed=passed, smoke_assertions=108 if passed else 0)
     (REPORT / 'fresh-clone-validation.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(result), flush=True)

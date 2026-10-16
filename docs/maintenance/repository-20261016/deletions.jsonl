@@ -3226,3 +3226,69 @@
 {"time":"2026-10-16T15:08:18.4222975+08:00","path":"tools/Organize-Workspace.ps1","bytes":6938,"reason":"Retired one-off step controller, old state generator or superseded batch finalizer","removed":true}
 {"time":"2026-10-16T15:08:18.4304522+08:00","path":"tools/verify_handover.py","bytes":12751,"reason":"Retired one-off step controller, old state generator or superseded batch finalizer","removed":true}
 {"time":"2026-10-16T15:08:18.4403588+08:00","path":"tools/workspace_maintenance.py","bytes":16983,"reason":"Retired one-off step controller, old state generator or superseded batch finalizer","removed":true}
+{"time":"2026-10-16T15:41:19.9790907+08:00","path":".publish/fresh-clone/GodotProject/.godot","bytes":0,"reason":"Discard failed first-import cache in the temporary verification clone before clean retry","removed":true}
+{"time":"2026-10-16T15:43:14.2879990+08:00","path":"AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3069618+08:00","path":"AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Unity","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3207788+08:00","path":"AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3267596+08:00","path":"AssetLibrary/characters/quaternius_modular/files","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3371990+08:00","path":"docs/archive/workspace-20261015/GodotProject/captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3465115+08:00","path":"docs/archive/workspace-20261015/GodotProject/verification-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3530873+08:00","path":"docs/archive/workspace-20261015/Release/character-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3621972+08:00","path":"docs/archive/workspace-20261015/Release/hand-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3722882+08:00","path":"docs/archive/workspace-20261015/Release/verification-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3798589+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/benchmarks","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3889842+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/character-grip-refinement","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.3991443+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/character-verification","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4076436+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/before-character-0.6","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4206476+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/before-grip-0.6.1","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4293258+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/before-linear-0.5","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4371716+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/character-0.6/GodotProject/scripts","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4452220+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/character-0.6/GodotProject/tests","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4545576+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/character-0.6/tools","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4716755+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/linear-0.5/scripts","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4795759+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/checkpoints/linear-0.5/tests","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4882706+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/grip-after","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.4978129+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/grip-before","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5063567+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/grip-inspect-after","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5148795+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/hands-refined","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5264042+08:00","path":"docs/archive/workspace-20261016/tool-artifacts/hands-refined-inspect","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5350940+08:00","path":"docs/audio/S31/char-debug","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5428385+08:00","path":"docs/first_level_rebuild_20261016/crash-data","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5518748+08:00","path":"docs/level/S09/direct-render-final","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5604173+08:00","path":"docs/level/S09/geometry-final","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5690208+08:00","path":"docs/level/S17/reference-scale-20261015/after","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5800399+08:00","path":"docs/level/S17/reference-scale-20261015/before","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5868473+08:00","path":"docs/level/S19/identity-20261015/release-portraits","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.5952934+08:00","path":"docs/level/S19/identity-20261015/source-portraits","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6032334+08:00","path":"docs/level/S21/previews","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6303721+08:00","path":"docs/level/S23/render-final","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6356484+08:00","path":"docs/level/S23/render-final2","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6478088+08:00","path":"docs/level/S24/runtime-v1","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6587071+08:00","path":"docs/level/S24/runtime-v2","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6685640+08:00","path":"docs/level/S25/opening-runtime/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6794591+08:00","path":"docs/level/S25/opening-runtime-v2/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.6916621+08:00","path":"docs/level/S25/opening-runtime-v3/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7002816+08:00","path":"docs/level/S25/opening-runtime-v4/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7112809+08:00","path":"docs/level/S25/opening-runtime-v5/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7177820+08:00","path":"docs/level/S27/opening-final/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7260364+08:00","path":"docs/level/S27/opening-final-v2/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7348045+08:00","path":"docs/level/S36/visual-after/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7435934+08:00","path":"docs/level/S36/visual-before/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7499081+08:00","path":"docs/narrative/S07/accepted-render/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7612488+08:00","path":"docs/narrative/S07/render/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7708859+08:00","path":"docs/narrative/S07/render-final/frames","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7838520+08:00","path":"docs/reviews/20261014-project-check/s11-render/images","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7890096+08:00","path":"docs/user-model-fix-20261015/source-characters","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.7982322+08:00","path":"docs/user-model-fix-final-20261015/release-characters","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8073813+08:00","path":"docs/user-model-fix-final-20261015/release-gameplay","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8165687+08:00","path":"docs/user-model-fix-final-20261015/source-characters","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8250714+08:00","path":"docs/user-model-fix-final-20261015/source-gameplay","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8320042+08:00","path":"docs/user-models-20261015/release-characters","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8405495+08:00","path":"docs/user-models-20261015/source-characters","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8482915+08:00","path":"docs/v04","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8554257+08:00","path":"docs/v06","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8783327+08:00","path":"docs/validation/release/character-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8834105+08:00","path":"docs/validation/release/verification-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.8949481+08:00","path":"docs/validation/source/character-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:43:14.9019741+08:00","path":"docs/validation/source/verification-captures","bytes":0,"reason":"Empty historical evidence directory after file cleanup","removed":true}
+{"time":"2026-10-16T15:44:14.4597029+08:00","path":".publish","bytes":4987565638,"reason":"Verified remote release and fresh-clone temporary data; results retained as text","removed":true}

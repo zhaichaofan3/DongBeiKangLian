@@ -3,7 +3,8 @@ $engine = & (Join-Path $PSScriptRoot 'tools\Find-Godot.ps1')
 $project = Join-Path $PSScriptRoot 'GodotProject'
 $release = Join-Path $PSScriptRoot 'Release'
 New-Item -ItemType Directory -Path $release -Force | Out-Null
-& $engine --headless --path $project --editor --import --quit
+# --import waits for worker imports and exits on its own.
+& $engine --headless --path $project --import
 if ($LASTEXITCODE -ne 0) { throw 'Godot import failed.' }
 $runtime = Join-Path (Split-Path -Parent $engine) ((Split-Path -Leaf $engine) -replace '_console(?=\.exe$)', '')
 if (-not (Test-Path -LiteralPath $runtime)) { throw 'The standard Godot runtime is missing.' }

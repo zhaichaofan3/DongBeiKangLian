@@ -38,3 +38,5 @@
 `repository_maintenance.py`生成目录大小清单，`verify_repository.py`校验受保护运行文件、模型迁移及待提交内容。`Apply-RepositoryCleanup.ps1`、`prepare_repository_cleanup.py`与`organize_project_records.py`是本轮一次性整理工具，不应重复执行迁移或删除。审计见docs/maintenance/repository-20261016。
 
 `publish_repository.py`通过Git凭据管理器访问本项目GitHub仓库，不保存凭据。生成包放Releases，当前源与素材放Git/LFS。
+
+`Verify-RepositoryBuild.ps1`验证便携构建和独立包；`verify_fresh_clone.py`为本轮空目录远端下载、素材哈希、首次导入及运行验证入口，输出使用固定日期目录，已有验证副本时不得直接覆盖。

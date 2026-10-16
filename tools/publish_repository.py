@@ -43,6 +43,35 @@ def inspect():
         "can_push": repository.get("permissions", {}).get("push", False)}, ensure_ascii=False))
 
 
+def verify_remote():
+    local = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+    remote = api('/repos/' + REPOSITORY + '/commits/main')
+    repository = api('/repos/' + REPOSITORY)
+    result = dict(url=repository['html_url'], private=repository['private'], branch='main',
+                  local_commit=local, remote_commit=remote['sha'], matched=local == remote['sha'])
+    (REPORT / 'remote-repository.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(result), flush=True)
+    if not result['matched']:
+        raise RuntimeError('Remote main does not match the current local commit')
+
+
+def verify_release():
+    item = api('/repos/' + REPOSITORY + '/releases/tags/' + TAG)
+    record = json.loads((REPORT / 'release-archive.json').read_text())
+    archive = next(asset for asset in item['assets'] if asset['name'].endswith('.zip'))
+    checksum = next(asset for asset in item['assets'] if asset['name'].endswith('.sha256'))
+    assert not item['draft'] and archive['size'] == record['bytes']
+    assert archive['digest'] == 'sha256:' + record['sha256']
+    with urllib.request.urlopen(checksum['browser_download_url'], timeout=60) as response:
+        remote_checksum = response.read(4096).decode('ascii').split()[0]
+    assert remote_checksum == record['sha256']
+    result = dict(url=item['html_url'], tag=TAG, published=True, prerelease=item['prerelease'],
+                  checksum_download_verified=True,
+                  assets=[dict(name=asset['name'], bytes=asset['size'], url=asset['browser_download_url'], digest=asset.get('digest')) for asset in item['assets']])
+    (REPORT / 'github-release.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(result), flush=True)
+
+
 def lfs_status():
     files = json.loads(subprocess.check_output(['git', 'lfs', 'ls-files', '--json'], cwd=ROOT, text=True, encoding='utf-8'))['files']
     ordered = sorted(files, key=lambda item: item['size'], reverse=True)
@@ -171,7 +200,10 @@ def release():
     except urllib.error.HTTPError as error:
         if error.code != 404:
             raise
-        item = api('/repos/' + REPOSITORY + '/releases', method='POST', data=dict(
+        drafts = api('/repos/' + REPOSITORY + '/releases')
+        item = next((candidate for candidate in drafts if candidate['tag_name'] == TAG), None)
+        if item is None:
+            item = api('/repos/' + REPOSITORY + '/releases', method='POST', data=dict(
             tag_name=TAG, target_commitish=commit, name='0.7.0-rc1 · 林海归途试玩候选版',
             draft=True, prerelease=True,
             body='Windows离线试玩候选版。双人渡河、密林入村与完整松岭屯三段战斗。\n\n'
@@ -187,6 +219,7 @@ def release():
         if asset['size'] != path.stat().st_size or (asset.get('digest') and asset['digest'] != expected):
             raise RuntimeError('Uploaded release asset does not match local bytes: ' + path.name)
     item = api('/repos/' + REPOSITORY + '/releases/' + str(item['id']), method='PATCH', data=dict(draft=False))
+    assets = item['assets']
     result = dict(url=item['html_url'], tag=TAG, target_commit=commit,
                   assets=[dict(name=a['name'], bytes=a['size'], url=a['browser_download_url'], digest=a.get('digest')) for a in assets])
     (REPORT / 'github-release.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
@@ -195,7 +228,7 @@ def release():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=["inspect", "lfs_status", "lfs_inventory", "package", "verify_package", "release"])
+    parser.add_argument("command", choices=["inspect", "verify_remote", "verify_release", "lfs_status", "lfs_inventory", "package", "verify_package", "release"])
     args = parser.parse_args()
     try:
         globals()[args.command]()

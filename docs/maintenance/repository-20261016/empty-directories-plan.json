@@ -1,0 +1,324 @@
+{
+  "items": [
+    {
+      "path": "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Unity",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_modular/files",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261015/GodotProject/captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261015/GodotProject/verification-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261015/Release/character-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261015/Release/hand-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261015/Release/verification-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/benchmarks",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/character-grip-refinement",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/character-verification",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/before-character-0.6",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/before-grip-0.6.1",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/before-linear-0.5",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/character-0.6/GodotProject/scripts",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/character-0.6/GodotProject/tests",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/character-0.6/tools",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/linear-0.5/scripts",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/checkpoints/linear-0.5/tests",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/grip-after",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/grip-before",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/grip-inspect-after",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/hands-refined",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/archive/workspace-20261016/tool-artifacts/hands-refined-inspect",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/audio/S31/char-debug",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/crash-data",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S09/direct-render-final",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S09/geometry-final",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S17/reference-scale-20261015/after",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S17/reference-scale-20261015/before",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S19/identity-20261015/release-portraits",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S19/identity-20261015/source-portraits",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S21/previews",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S23/render-final",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S23/render-final2",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S24/runtime-v1",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S24/runtime-v2",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S25/opening-runtime/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S25/opening-runtime-v2/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S25/opening-runtime-v3/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S25/opening-runtime-v4/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S25/opening-runtime-v5/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S27/opening-final/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S27/opening-final-v2/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S36/visual-after/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/level/S36/visual-before/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/narrative/S07/render/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/narrative/S07/render-final/frames",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/reviews/20261014-project-check/s11-render/images",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/user-model-fix-20261015/source-characters",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-characters",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-gameplay",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-characters",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-gameplay",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/user-models-20261015/release-characters",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/user-models-20261015/source-characters",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/v04",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/v06",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/validation/release/character-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/validation/release/verification-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/validation/source/character-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    },
+    {
+      "path": "docs/validation/source/verification-captures",
+      "bytes": 0,
+      "reason": "Empty historical evidence directory after file cleanup"
+    }
+  ]
+}

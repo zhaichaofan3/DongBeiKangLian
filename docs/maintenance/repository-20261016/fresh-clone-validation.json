@@ -1,0 +1,11 @@
+{
+  "remote": "https://github.com/zhaichaofan3/DongBeiKangLian",
+  "commit": "626d228e8fafdda06bec3b2cb240d8216be69177",
+  "fresh_runtime_lfs_download": true,
+  "lfs_files_verified": 509,
+  "clean_import_passed": true,
+  "initial_import_crashed": true,
+  "import_log": "clone-import-retry.log",
+  "smoke_passed": true,
+  "smoke_assertions": 108
+}
