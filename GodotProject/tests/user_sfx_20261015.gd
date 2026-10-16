@@ -101,10 +101,11 @@ func _run() -> void:
 	guard.take_damage(1000)
 	check(not guard.alert_audio.playing, "Defeated guard stops speaking")
 	for kind in ["door_open", "door_close"]:
-		main.play_world_sound(kind, main.player.position)
+		var door_at: Vector3 = main.player.position
+		main.play_world_sound(kind, door_at)
 		var sound: AudioStreamPlayer3D = main.get_node("WorldSound_" + kind)
 		await frames(3)
-		check(sound.playing and sound.stream == AudioFactory.make_sound(kind) and sound.global_position.is_equal_approx(main.player.position), kind + " plays at the door position")
+		check(sound.playing and sound.stream == AudioFactory.make_sound(kind) and sound.global_position.is_equal_approx(door_at), kind + " plays at the door position")
 		main.mode = "paused"
 		main.audio_mix.update_mix(0)
 		check(sound.stream_paused, kind + " pauses with gameplay")

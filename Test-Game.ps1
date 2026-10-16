@@ -83,6 +83,7 @@ if (-not (Select-String -LiteralPath $characterLog -Pattern 'CHARACTER MODEL RES
 # These controllers live outside the PCK on release runs; all res:// game assets
 # still resolve exclusively to the shipped pack, launched outside the project.
 $openingChecks = @(
+	@('surface_loading.gd','FENGHUO_SURFACE_LOADING_OUTPUT','SURFACE LOADING: PASS'),
 	@('render_quality.gd','FENGHUO_RENDER_QUALITY_EVIDENCE','RENDER QUALITY: PASS'),
 	@('courtyard_controls.gd','FENGHUO_COURTYARD_EVIDENCE','COURTYARD CONTROLS: PASS'),
 	@('world_revision.gd','FENGHUO_WORLD_EVIDENCE','WORLD REVISION: PASS'),

@@ -25,6 +25,9 @@ func _run() -> void:
 		return
 	root.add_child(main)
 	await process_frame
+	for i in 120:
+		if not main.world.has_method("is_world_ready") or main.world.is_world_ready(): break
+		await process_frame
 	main.start_new()
 	var performance_output := OS.get_environment("FENGHUO_COMBAT_PERFORMANCE_OUTPUT")
 	if not performance_output.is_empty() and DisplayServer.get_name() != "headless":
@@ -40,8 +43,10 @@ func _run() -> void:
 	main.story.choose(1)
 	await _route(Vector3(34, 0, 200))
 	await _clear_gate("checkpoint")
+	if not failed: print("COMBAT PROGRESS: checkpoint cleared")
 	await _route(Vector3(34, 0, 128))
 	await _clear_gate("yard")
+	if not failed: print("COMBAT PROGRESS: timber yard cleared")
 	await _route(Vector3(34, 0, 124))
 	main.interact()
 	if "yard" not in main.linear.opened:
@@ -68,6 +73,7 @@ func _run() -> void:
 	main.interact()
 	main.story.choose(0)
 	await _route(Vector3(38, 0, 38))
+	if not failed: print("COMBAT PROGRESS: office complete, courier rescued")
 	await _route(Vector3(34, 0, 22))
 	await _route(Vector3(67, 0, 22))
 	main.interact()
@@ -102,8 +108,10 @@ func _run() -> void:
 	if not main.village.entered:
 		failed = true
 		push_error("Ferry did not reach the village")
+	if not failed: print("COMBAT PROGRESS: landed on the far bank")
 	for at: Vector3 in main.village.Forest.ROAD:
 		await _route(at)
+	if not failed: print("COMBAT PROGRESS: forest approach complete")
 	for phase in 3:
 		for at: Vector3 in main.VillageDirector.VillageWorld.ROUTE_STOPS[phase]:
 			await _route(at)
@@ -115,6 +123,7 @@ func _run() -> void:
 		if not main.village.section_cleared():
 			failed = true
 			push_error("Village encounter did not clear: %d" % phase)
+		if not failed: print("COMBAT PROGRESS: village encounter %d complete" % (phase+1))
 		if phase < 2:
 			await _route(main.VillageDirector.VillageWorld.APPROACHES[phase])
 			main.interact()

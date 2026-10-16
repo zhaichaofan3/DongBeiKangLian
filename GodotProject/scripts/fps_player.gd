@@ -302,6 +302,8 @@ func _animate_mechanism(delta: float) -> void:
 	var reach := 0.0
 	var insert := 0.0
 	var left_action := "grip"
+	var loading_target := Vector3.ZERO
+	var pressing := false
 	var loading := reload_timer > 0.0
 	clip.visible = false
 	if loading:
@@ -320,6 +322,21 @@ func _animate_mechanism(delta: float) -> void:
 		left_basis = left_basis.slerp(load_basis,reach)
 		left_action = "push" if t > 0.43 and t < 0.69 else "clip"
 		if t > 0.69: left_action = "release"
+		if weapon_index==0:
+			var seat := smoothstep(.27,.39,t)
+			insert = smoothstep(.43,.64,t)
+			var withdraw := smoothstep(.68,.76,t)
+			clip.visible = t>.26 and t<.76
+			clip.position = Vector3(0,lerpf(.165,.075,seat)+withdraw*.105,-.022)
+			rig.rounds.position.y = -insert*float(rig.feed_depth)
+			# The empty clip lifts away while the cartridges stay inside the magazine.
+			if t>=.66:
+				for round in rig.rounds.get_children(): round.visible = false
+			load_basis = Basis(Vector3.BACK,deg_to_rad(-35))*Basis(Vector3.FORWARD,Vector3.RIGHT,Vector3.DOWN)
+			left_basis = Basis.from_euler(rest.left_rotation).slerp(load_basis,reach)
+			loading_target = Vector3(0,.053+float(rig.feed_depth)*(1-insert),.018)
+			loading_target.y += (1-seat)*.09+withdraw*.105
+			pressing = t>.28 and t<.70
 	elif weapon_index == 0:
 		# Reach first, lift the handle, pull/push, then lock and regrip.
 		bolt_lift = _envelope(visual_fire_age, 0.15, 0.235, 0.645, 0.755)
@@ -330,6 +347,8 @@ func _animate_mechanism(delta: float) -> void:
 	bolt.position.z = bolt_pull * (0.085 if weapon_index == 0 else 0.027)
 	bolt.rotation.z = bolt_lift * 0.90 if weapon_index == 0 else 0.0
 	left.pose(left_action,reach if loading else 1.0,delta)
+	if pressing:
+		left_at = rest.left_position.lerp(loading_target-left_basis*left.loading_contact(),reach)
 	right.pose("bolt" if handle > 0.01 else "grip",handle if handle > 0.01 else 1.0,delta,exp(-visual_fire_age*18.0))
 	if handle > 0.0:
 		var handle_basis := bolt.basis * Basis(Vector3.UP,Vector3.FORWARD,Vector3.LEFT)
@@ -405,6 +424,7 @@ func start_reload() -> void:
 	if main.mode != "playing" or reload_timer > 0 or magazines[weapon_index] >= WEAPONS[weapon_index]["capacity"] or reserves[weapon_index] <= 0:
 		return
 	reload_timer = WEAPONS[weapon_index]["reload"]
+	WeaponVisuals.prepare_reload(weapon_rigs[weapon_index],mini(WEAPONS[weapon_index]["capacity"]-magazines[weapon_index],reserves[weapon_index]))
 	bolt_pending = false
 	bolt_sound.stop()
 	_play("reload")

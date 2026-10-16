@@ -52,6 +52,8 @@ func _run() -> void:
 	hash.start(HashingContext.HASH_SHA256)
 	hash.update(reached)
 	var fingerprint := hash.finish().hex_encode()
+	var mask_output := OS.get_environment("FENGHUO_NAVIGATION_MASK_OUTPUT")
+	if not mask_output.is_empty(): FileAccess.open(mask_output,FileAccess.WRITE).store_buffer(reached)
 	var valid: bool = world.navigation_ready and pending.size()>1000
 	var reference_path := OS.get_environment("FENGHUO_NAVIGATION_REFERENCE")
 	if not reference_path.is_empty():

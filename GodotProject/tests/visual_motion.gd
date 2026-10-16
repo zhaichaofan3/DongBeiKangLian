@@ -366,5 +366,8 @@ func _finish() -> void:
 	check(not FileAccess.file_exists(temporary_save), "Motion verification removes its temporary checkpoint")
 	main.queue_free()
 	await process_frame
+	# Audio playback releases streams on the mixer thread, even at fixed FPS.
+	OS.delay_msec(150)
+	await process_frame
 	print("VISUAL MOTION RESULT: ", checks - failures.size(), "/", checks, " passed")
-	quit(0 if failures.is_empty() else 1)
+	quit.call_deferred(0 if failures.is_empty() else 1)

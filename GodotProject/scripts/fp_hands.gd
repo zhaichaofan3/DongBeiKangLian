@@ -29,9 +29,8 @@ static func create(right_hand: bool, gun_index: int, cloth: StandardMaterial3D, 
     return hand
 
 func _build(cloth: StandardMaterial3D, cuff_material: StandardMaterial3D) -> void:
-    # View-model proportions: the support hand was undersized against the
-    # reference. Scale its skin, cuff and sleeve together, including details.
-    limb_scale = 1.47 if not is_right and weapon_index == 0 else 1.0
+    # Scale skin, cuff and sleeve together to fit the supplied rifle's fore-end.
+    limb_scale = 1.14 if not is_right and weapon_index == 0 else 1.0
     var instance: Node3D = (RIGHT_MODEL if is_right else LEFT_MODEL).instantiate()
     instance.scale = Vector3.ONE * HAND_SCALE * limb_scale
     add_child(instance)
@@ -60,7 +59,7 @@ func _build(cloth: StandardMaterial3D, cuff_material: StandardMaterial3D) -> voi
         # The support wrist rises diagonally into the fore-end. A transverse
         # wrist forced the sleeve through a visible right-angle turn.
         basis = Basis(Vector3.BACK, deg_to_rad(70.0)) * Basis(Vector3.BACK, Vector3.RIGHT, Vector3.UP) * Basis(Vector3.UP, deg_to_rad(-160.0))
-        position = Vector3(-0.085,-0.135,-0.300)
+        position = Vector3(-0.063,-0.068,-0.300)
     else:
         basis = Basis(Vector3.DOWN,Vector3.FORWARD,Vector3.RIGHT)
         position = Vector3(-0.050,-0.111,0.125)
@@ -89,14 +88,14 @@ func pose(action: String, weight: float, delta: float, trigger := 0.0) -> void:
     # an empty circle below it, and the pistol firing hand sits higher.
     var target: Array
     if weapon_index == 0:
-        target = [0.40,0.88,0.94,1.00,0.56] if is_right else [0.58,0.65,0.72,0.79,0.36]
+        target = [0.40,0.88,0.94,1.00,0.56] if is_right else [0.72,0.82,0.88,0.94,0.50]
     else:
         target = [0.40,0.92,1.00,1.05,0.58] if is_right else [0.62,0.80,0.88,0.94,0.40]
     var requested: Array = target.duplicate()
     match action:
         "bolt": requested = [0.83, 0.95, 1.0, 1.10, 0.78]
         "clip": requested = [0.47, 1.12, 1.17, 1.23, 0.72]
-        "push": requested = [0.18, 0.80, 0.96, 1.08, 0.34]
+        "push": requested = [0.55, 0.85, 0.96, 1.08, 0.18]
         "release": requested = [0.10,0.22,0.25,0.27,0.16]
     var smooth := 1.0 - exp(-delta * 30.0)
     var side := "R" if is_right else "L"
@@ -129,6 +128,11 @@ func bolt_contact() -> Vector3:
     # previous parent-transform shortcut dropped the imported instance's
     # effective basis, leaving a fixed ~2.7 cm offset from the bolt knob.
     return to_local(skeleton.to_global(center))
+
+func loading_contact() -> Vector3:
+    skeleton.force_update_all_bone_transforms()
+    var thumb := skeleton.find_bone("thumb_03_L")
+    return to_local(skeleton.to_global(skeleton.get_bone_global_pose(thumb).origin))
 
 func _cuff_mesh() -> ArrayMesh:
     # An oval cloth opening with a turned hem; the skin continues inside it.

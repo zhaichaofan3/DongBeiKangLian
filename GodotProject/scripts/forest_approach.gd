@@ -1,6 +1,7 @@
 extends RefCounted
 ## A playable woodland interval between the river landing and the original village.
 const Vegetation = preload("res://scripts/vegetation_batch.gd")
+const RoadSurface = preload("res://scripts/road_surface.gd")
 
 const LANDING := Vector3(1214, .08, 426)
 const REST := Vector3(1215.7, .08, 426)
@@ -74,23 +75,9 @@ func build(world: RefCounted, parent: Node3D) -> void:
 	ground.material_override = ground_material
 	parent.add_child(ground)
 	ground.create_trimesh_collision()
-	var road := SurfaceTool.new()
-	road.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for i in range(ROAD.size()-1):
-		var a: Vector3 = ROAD[i]
-		var b: Vector3 = ROAD[i+1]
-		var forward := (b-a).normalized()
-		var side := Vector3(forward.z,0,-forward.x)*2.65
-		a -= forward*.35
-		b += forward*.35
-		for p in [a-side,a+side,b+side,a-side,b+side,b-side]:
-			road.set_uv(Vector2(p.x,p.z)*.28)
-			road.add_vertex(Vector3(p.x,.032,p.z))
-	road.generate_normals()
-	road.generate_tangents()
 	var lane := MeshInstance3D.new()
 	lane.name = "引向村口的浅色土路"
-	lane.mesh = road.commit()
+	lane.mesh = RoadSurface.build(ROAD,2.3,.045,.28)
 	lane.material_override = road_material
 	parent.add_child(lane)
 	_build_trees(world,parent)

@@ -2,6 +2,7 @@ extends RefCounted
 const Layout = preload("res://scripts/first_level_layout.gd")
 const Scenery = preload("res://scripts/first_level_scenery.gd")
 const Vegetation = preload("res://scripts/vegetation_batch.gd")
+const RoadSurface = preload("res://scripts/road_surface.gd")
 var scenery := Scenery.new()
 var _world: WeakRef
 var w: RefCounted:
@@ -194,19 +195,12 @@ func _cover() -> void:
 	w.side_wires.append(w.WireFence.add_blocker(w.root,"装卸棚后低网",Vector3(60,0,122),Vector3(60,0,170)))
 
 func _road() -> void:
-	var surface := SurfaceTool.new()
-	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for i in range(1,Layout.ROUTE.size()):
-		var a: Vector3 = Layout.ROUTE[i-1]; var b: Vector3 = Layout.ROUTE[i]
-		if i>=18 and i<=24: continue
-		var side := Vector3(b.z-a.z,0,a.x-b.x).normalized()*2.3
-		for p in [a-side,b+side,a+side,a-side,b-side,b+side]: surface.add_vertex(Vector3(p.x,.014,p.z))
-	surface.generate_normals()
-	var mesh := MeshInstance3D.new()
-	mesh.name="首关连续车辙主路"
-	mesh.mesh=surface.commit()
-	mesh.material_override=w.AssetDressing.pbr("muddy_tracks",.23,Color("a9ada3"))
-	w.root.add_child(mesh)
+	for section in [Layout.ROUTE.slice(0,18),Layout.ROUTE.slice(24)]:
+		var mesh := MeshInstance3D.new()
+		mesh.name="首关连续车辙主路"
+		mesh.mesh=RoadSurface.build(section,2.3,.035,.23)
+		mesh.material_override=w.AssetDressing.pbr("muddy_tracks",.23,Color("a9ada3"))
+		w.root.add_child(mesh)
 
 func _dressing() -> void:
 	w.asset_dressing=w.AssetDressing.new()

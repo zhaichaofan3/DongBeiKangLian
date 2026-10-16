@@ -12,7 +12,9 @@ void fragment() {
 	vec2 p = river_position.xz - current_direction * TIME * 0.85;
 	float wave_a = sin(p.x * 0.71 + p.y * 1.13 + TIME * 0.65);
 	float wave_b = sin(p.x * 2.1 - p.y * 0.53 + TIME * 0.91);
-	float wave_c = sin(p.x * 8.0 + p.y * 3.5 - TIME * 1.35) * wave_detail;
+	float fine_phase = p.x * 8.0 + p.y * 3.5 - TIME * 1.35;
+	float fine_visibility = 1.0 - smoothstep(0.5, 3.14, fwidth(fine_phase));
+	float wave_c = sin(fine_phase) * wave_detail * fine_visibility;
 	NORMAL_MAP = normalize(vec3(wave_a * 0.08 + wave_c * 0.018, wave_b * 0.06, 1.0)) * 0.5 + 0.5;
 	float fresnel = pow(1.0 - max(dot(NORMAL, VIEW), 0.0), 3.0);
 	vec3 deep = vec3(0.105, 0.18, 0.18);

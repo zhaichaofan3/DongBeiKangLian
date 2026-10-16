@@ -23,7 +23,11 @@ func _run() -> void:
 	var loading_buttons: Array = main.hud.actions.get_children().filter(func(button): return button.has_meta("requires_world_ready"))
 	check(loading_buttons.size()>=2 and loading_buttons.all(func(button): return button.disabled),"Launch actions wait for complete navigation instead of entering during blocking preparation")
 	for i in 12: await physics_frame
-	check(main.world.is_navigation_ready() and loading_buttons.all(func(button): return not button.disabled),"Launch actions unlock after both chapters finish preparation")
+	for i in 120:
+		if main.world.is_world_ready(): break
+		await process_frame
+	await process_frame
+	check(main.world.is_world_ready() and loading_buttons.all(func(button): return not button.disabled),"Launch actions unlock after navigation and graphics preparation")
 	var sun: DirectionalLight3D = main.world.sunlight
 	var cap := Engine.max_fps
 	var size := root.size

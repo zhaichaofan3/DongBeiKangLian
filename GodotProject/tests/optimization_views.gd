@@ -43,6 +43,9 @@ func _run() -> void:
 	main.save_path = "user://qa_optimization_%d.json" % OS.get_process_id()
 	root.add_child(main)
 	await process_frame
+	for i in 120:
+		if not main.world.has_method("is_world_ready") or main.world.is_world_ready(): break
+		await process_frame
 	main.start_new()
 	main.set_process(false)
 	main.village.set_process(false)

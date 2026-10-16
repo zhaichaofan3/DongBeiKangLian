@@ -513,7 +513,10 @@ func build_supplied_river(at: Vector3, yaw: float = 0) -> Node3D:
 			var downstream := Basis(Vector3.UP,yaw)*Vector3.BACK
 			material.set_shader_parameter("current_direction",Vector2(downstream.x,downstream.z))
 			mesh.material_override = material
+			mesh.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 		elif str(mesh.name) in ["SuppliedRiverBank_2","SuppliedRiverBank_4"]:
+			# The source bank's flat top shares y=0 with the playable ground.
+			mesh.position.y -= .04
 			var bank_material: StandardMaterial3D = materials.mud.duplicate()
 			bank_material.cull_mode = BaseMaterial3D.CULL_DISABLED
 			mesh.material_override = bank_material
@@ -525,6 +528,7 @@ func build_supplied_dock(at: Vector3, yaw: float = 0) -> Node3D:
 	dock.set_meta("blockout_retained", true)
 	dock.set_meta("user_waterfront", "dock")
 	dock.position = at
+	dock.position.y += .04
 	dock.rotation.y = yaw
 	root.add_child(dock)
 	for mesh: MeshInstance3D in dock.find_children("*", "MeshInstance3D", true, false):
@@ -609,8 +613,8 @@ func _setup_environment() -> void:
 	sunlight.shadow_enabled = true
 	sunlight.directional_shadow_mode = DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS
 	sunlight.directional_shadow_max_distance = 80
-	sunlight.shadow_bias = 0.1
-	sunlight.shadow_normal_bias = 1.0
+	sunlight.shadow_bias = 0.5
+	sunlight.shadow_normal_bias = 1.5
 	root.add_child(sunlight)
 
 func _material(color: Color, pattern: String) -> StandardMaterial3D:
@@ -1133,6 +1137,9 @@ func prepare_imported_materials(model: Node3D) -> void:
 
 func is_navigation_ready() -> bool:
 	return first_level.ready and office_navigation_ready and village_world.navigation_ready
+
+func is_world_ready() -> bool:
+	return is_navigation_ready()
 
 func apply_quality(level: int) -> void:
 	quality_level = clampi(level, 0, 2)

@@ -22,6 +22,7 @@ func shot(label: String, gun: int, reload_progress: float, fire_age: float, aim:
     main.player.camera.fov=54.0 if aim else 78.0
     main.player.visual_fire_age=fire_age
     main.player.reload_timer=(1.0-reload_progress)*main.player.WEAPONS[gun].reload if reload_progress>=0 else 0.0
+    if reload_progress>=0: main.player.WeaponVisuals.prepare_reload(main.player.weapon_rigs[gun],5 if gun==0 else 10)
     main.player.model.position=main.player.WeaponVisuals.AIM_POSITIONS[gun] if aim else main.player.WeaponVisuals.HIP_POSITIONS[gun]
     main.player.model.rotation=Vector3.ZERO if aim else main.player.WeaponVisuals.HIP_ROTATION
     if reload_progress>=0:
@@ -29,6 +30,9 @@ func shot(label: String, gun: int, reload_progress: float, fire_age: float, aim:
         main.player.model.rotation+=Vector3(-0.10,-0.25,0.29)
     main.player._animate_mechanism(1.0)
     await process_frame
+    for i in 120:
+        if main.world.is_world_ready(): break
+        await process_frame
     await process_frame
     var rig: Dictionary=main.player.weapon_rigs[gun]
     var frame_points := {}
@@ -70,6 +74,8 @@ func run() -> void:
     await shot("rifle_bolt",0,-1,0.39)
     await shot("rifle_load_present",0,0.35,2.0)
     await shot("rifle_load_press",0,0.57,2.0)
+    await shot("rifle_load_inserted",0,0.65,2.0)
+    await shot("rifle_load_empty_clip",0,0.73,2.0)
     await shot("pistol_hold",1,-1,2.0)
     await shot("pistol_aim",1,-1,2.0,true)
     await shot("pistol_load",1,0.49,2.0)

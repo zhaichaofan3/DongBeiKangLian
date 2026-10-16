@@ -2,7 +2,7 @@
 
 ## 环境与首次启动
 
-当前验证组合是Windows、Godot 4.7.2、GL Compatibility。安装Git LFS后克隆，运行 `git lfs pull`。模型若只有几行文本，说明LFS内容尚未下载。
+当前验证组合是Windows、Godot 4.7.2、GL Compatibility与内置Jolt物理。安装Git LFS后克隆，运行 `git lfs pull`。模型若只有几行文本，说明LFS内容尚未下载。
 
 引擎定位顺序：环境变量 `GODOT_EXE`、本地 `tools/Godot-4.7.2/`、PATH、WinGet。`GODOT_EXE`指向官方Windows控制台版；标准版EXE放同目录供构建使用。引擎不入库。模型制作使用Blender 4.5 LTS，可通过 `BLENDER_EXE` 指定路径；工具脚本使用Python 3.11。
 
@@ -20,6 +20,7 @@
 | 村庄窄街、院落与战斗分段 | `village_world.gd`、`village_scenery.gd`、`village_director.gd` |
 | 开场、对白与任务剧情 | `opening_director.gd`、`story.gd`、`story_moments.gd` |
 | 玩家、武器与第一人称手 | `fps_player.gd`、`weapon_visuals.gd`、`fp_hands.gd` |
+| 连续土路与山体避让 | `road_surface.gd`、`forest_approach.gd`、`village_world.gd::HILL_INNER` |
 | 人物、敌人与战友 | `human_model.gd`、`field_character_rig.gd`、`guard.gd`、`friendly.gd` |
 | 声音、设置与界面 | `audio_mix.gd`、`audio_factory.gd`、`presentation.gd`、`hud.gd` |
 | 天池、自然与效果 | `tianchi_landscape.gd`、`landscape.gd`、`muzzle_effect.gd`、`explosion_effect.gd` |
@@ -62,3 +63,7 @@ Git忽略缓存、软件安装目录、生成包、私人会话与冷备份；�
 `optimization_views.gd`比较八个固定场景的缓慢转头负担，要求真实渲染窗口、1920×1080、无垂直同步/限帧；每处预热1.5秒、实测5秒，读图在计时外。输出环境变量为`FENGHUO_OPTIMIZATION_OUTPUT`，可用`FENGHUO_OPTIMIZATION_QUALITY=0/1/2`选档。这不是实战测试。`combat_route.gd`配合`FENGHUO_COMBAT_PERFORMANCE_OUTPUT`才测真实移动、敌人AI与双方开火，不得传`--fixed-fps`。串行运行，记录窗口焦点和硬件条件；不能混用无画面/固定模拟速度的帧率。
 
 `navigation_budget.gd`对村庄与上岸点做四邻接可达图指纹，输出为`FENGHUO_NAVIGATION_OUTPUT`，旧版参照为`FENGHUO_NAVIGATION_REFERENCE`。导航准备仍有加载成本，主菜单在首关、室内与村庄导航全部准备完毕后开放开始/读档；不要将加载期停顿隐瞒为已消除。
+
+物理后端使用内置Jolt，保留原地形/建筑碰撞。`arrival_budget.gd`测真实上岸后120帧，保持战友碰撞与AI开启；`surface_loading.gd`检查山岭不穿道路、路面/河岸接缝，以及1/3/5发原模型子弹与拇指接触、压入机匣和空夹退出。第一人称原资产不变，动作脚本允许按需求调整。
+
+0.7.2切换物理后端后，导航边缘21格发生变化，坐标与审计见`optimization_20261016/navigation-delta.json`。包必须与已审计源码指纹完全一致，不能继续沿用旧包指纹。`Test-OptimizationPackage.ps1`与`Test-OptimizationRender.ps1`从工程外串行启动独立PCK并捕获完整退出输出，最后由`Record-OptimizationValidation.ps1`核对证据并写包校验。

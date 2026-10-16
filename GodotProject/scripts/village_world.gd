@@ -19,6 +19,8 @@ const ROUTE_STOPS := [
 	Vector3(1147,.08,67),Vector3(1150.5,.08,67),Vector3(1150.5,.08,62),Vector3(1147,.08,62),Vector3(1147,.08,40),Vector3(1147,.08,29)]]
 const GRID := Vector2i(290, 450)
 const OFFSET := Vector2(990.5,.5)
+const HILL_INNER := Vector2(310,360)
+const HILL_OUTER := Vector2(380,430)
 var _world: WeakRef
 var world: RefCounted:
 	get: return _world.get_ref()
@@ -268,7 +270,9 @@ func _build_surroundings() -> void:
 	for i in 96:
 		var a := TAU*i/96.0
 		var b := TAU*(i+1)/96.0
-		var points := [Vector3(cos(a)*215,-1,sin(a)*245),Vector3(cos(a)*275,52+sin(a*5)*17,sin(a)*300),Vector3(cos(b)*275,52+sin(b*5)*17,sin(b)*300),Vector3(cos(b)*215,-1,sin(b)*245)]
+		# Enclose both the village and the complete woodland approach. The old
+		# southern slope cut across the road near the landing despite having no collider.
+		var points := [Vector3(cos(a)*HILL_INNER.x,-1,sin(a)*HILL_INNER.y),Vector3(cos(a)*HILL_OUTER.x,52+sin(a*5)*17,sin(a)*HILL_OUTER.y),Vector3(cos(b)*HILL_OUTER.x,52+sin(b*5)*17,sin(b)*HILL_OUTER.y),Vector3(cos(b)*HILL_INNER.x,-1,sin(b)*HILL_INNER.y)]
 		for index in [0,2,1,0,3,2]: surface.add_vertex(points[index])
 	surface.generate_normals()
 	var hills := MeshInstance3D.new()

@@ -104,26 +104,79 @@ static func _supplied_rifle() -> Dictionary:
 	var clip := Node3D.new()
 	clip.name = "StripperClip"
 	root.add_child(clip)
+	var rounds := Node3D.new()
+	rounds.name = "Cartridges"
+	clip.add_child(rounds)
 	var source := (load("res://assets/user_expansion_20261015/kar98k.glb") as PackedScene).instantiate()
-	_copy_supplied_parts(source, Transform3D.IDENTITY, root, bolt, clip)
+	_copy_supplied_parts(source, Transform3D.IDENTITY, root, bolt, clip, rounds)
 	source.free()
 	clip.visible = false
 	var left := _hand(false, 0)
 	var right := _hand(true, 0)
 	root.add_child(left)
 	root.add_child(right)
-	return {"root": root, "bolt": bolt, "clip": clip, "left": left, "right": right, "muzzle": Vector3(0, 0.044, -0.729), "bolt_contact": Vector3(.025, .059, .085)}
+	return {"root": root, "bolt": bolt, "clip": clip, "rounds": rounds, "left": left, "right": right, "muzzle": Vector3(0, 0.044, -0.729), "bolt_contact": Vector3(.025, .059, .085), "feed_depth": .073}
 
-static func _copy_supplied_parts(node: Node3D, inherited: Transform3D, root: Node3D, bolt: Node3D, clip: Node3D) -> void:
+static func _copy_supplied_parts(node: Node3D, inherited: Transform3D, root: Node3D, bolt: Node3D, clip: Node3D, rounds: Node3D) -> void:
 	var placement := inherited * node.transform
 	if node is MeshInstance3D:
-		var part := node.duplicate() as MeshInstance3D
-		part.transform = placement
-		part.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
-		var parent := bolt if str(node.name).begins_with("Bolt_") else clip if str(node.name).begins_with("Clip_") else root
-		parent.add_child(part)
+		if str(node.name)=="Clip_c78028de":
+			_split_cartridges(node,placement,rounds)
+		else:
+			var part := node.duplicate() as MeshInstance3D
+			part.transform = placement
+			part.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+			var parent := bolt if str(node.name).begins_with("Bolt_") else clip if str(node.name).begins_with("Clip_") else root
+			parent.add_child(part)
 	for child in node.get_children():
-		if child is Node3D: _copy_supplied_parts(child, placement, root, bolt, clip)
+		if child is Node3D: _copy_supplied_parts(child, placement, root, bolt, clip, rounds)
+
+static func _split_cartridges(source: MeshInstance3D, placement: Transform3D, parent: Node3D) -> void:
+	var bounds := placement*source.mesh.get_aabb()
+	var meshes: Array[ArrayMesh] = []
+	for i in 5: meshes.append(ArrayMesh.new())
+	for surface in source.mesh.get_surface_count():
+		var arrays := source.mesh.surface_get_arrays(surface)
+		var vertices: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX]
+		var indices: PackedInt32Array = arrays[Mesh.ARRAY_INDEX]
+		var builders: Array[SurfaceTool] = []
+		var counts := [0,0,0,0,0]
+		for i in 5:
+			var builder := SurfaceTool.new()
+			builder.begin(Mesh.PRIMITIVE_TRIANGLES)
+			builder.set_material(source.get_active_material(surface))
+			builders.append(builder)
+		for triangle in range(0,indices.size(),3):
+			var center := (vertices[indices[triangle]]+vertices[indices[triangle+1]]+vertices[indices[triangle+2]])/3.0
+			var row := clampi(floori(((placement*center).y-bounds.position.y)/bounds.size.y*5),0,4)
+			for corner in 3:
+				var vertex := indices[triangle+corner]
+				builders[row].set_normal(arrays[Mesh.ARRAY_NORMAL][vertex])
+				builders[row].set_uv(arrays[Mesh.ARRAY_TEX_UV][vertex])
+				var tangents: PackedFloat32Array = arrays[Mesh.ARRAY_TANGENT]
+				if not tangents.is_empty(): builders[row].set_tangent(Plane(tangents[vertex*4],tangents[vertex*4+1],tangents[vertex*4+2],tangents[vertex*4+3]))
+				builders[row].add_vertex(vertices[vertex])
+				counts[row] += 1
+		for i in 5:
+			if counts[i]>0: builders[i].commit(meshes[i])
+	for i in 5:
+		var round := MeshInstance3D.new()
+		round.name = "Cartridge_%d" % i
+		round.mesh = meshes[i]
+		round.transform = placement
+		round.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		parent.add_child(round)
+
+static func prepare_reload(rig: Dictionary, count: int) -> void:
+	if not rig.has("rounds"): return
+	var highest := 0.0
+	for round: MeshInstance3D in rig.rounds.get_children():
+		round.visible = round.get_index()<count
+		if round.visible:
+			var bounds: AABB = round.transform*round.mesh.get_aabb()
+			highest = maxf(highest,bounds.end.y)
+	rig.feed_depth = .075+highest-.053
+	rig.rounds.position = Vector3.ZERO
 
 static func _clip_geometry(parts: Dictionary, count: int, spacing: float, length: float) -> void:
 	_box(parts, "steel", Vector3(0, 0.04, 0), Vector3(count * spacing + 0.007, 0.007, 0.015))

@@ -152,7 +152,9 @@ func _run() -> void:
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(main.save_path))
 	main.queue_free()
 	await frames(4)
-	quit(0 if failures.is_empty() else 1)
+	OS.delay_msec(150)
+	await process_frame
+	quit.call_deferred(0 if failures.is_empty() else 1)
 
 func legacy_checkpoints() -> void:
 	for phase in 4:

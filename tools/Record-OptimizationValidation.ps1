@@ -7,14 +7,14 @@ New-Item -ItemType Directory -Path $report -Force | Out-Null
 function Read-Regression([string]$batch) {
     $directory = Join-Path $inputRoot $batch
     $logs = @(Get-ChildItem -LiteralPath $directory -Recurse -Filter '*.log' | Where-Object { $_.Name -notlike '*retry*' } | Sort-Object FullName)
-    $expected = if ($batch -eq 'source') { 32 } else { 7 }
+    $expected = if ($batch -eq 'final-source') { 33 } else { 9 }
     if ($logs.Count -ne $expected) { throw "Expected $expected $batch regression logs, found $($logs.Count)." }
     $results = foreach ($file in $logs) {
         $content = Get-Content -LiteralPath $file.FullName -Raw
         $marker = @($content -split "`n" | Where-Object { $_ -match '^[A-Z0-9 ]+(?:RESULT: ([0-9]+)/\1 passed|: PASS)' }) | Select-Object -Last 1
         if (-not $marker -or $content -match '(?m)^(SCRIPT ERROR|ERROR|FAIL):') { throw "Failed or incomplete check: $($file.FullName)" }
         $relative = [IO.Path]::GetRelativePath($directory, $file.FullName)
-        $destination = Join-Path $report "$batch\$relative"
+        $destination = Join-Path $report "$($batch.Replace('final-', ''))\$relative"
         New-Item -ItemType Directory -Path (Split-Path -Parent $destination) -Force | Out-Null
         Copy-Item -LiteralPath $file.FullName -Destination $destination -Force
         [ordered]@{ name = $relative.Replace('\', '/'); result = $marker.Trim(); sha256 = (Get-FileHash -LiteralPath $file.FullName).Hash.ToLowerInvariant() }
@@ -29,17 +29,24 @@ function Read-Evidence([string]$relative, [string]$destination) {
     return $data
 }
 
-$source = Read-Regression 'source'
-$release = Read-Regression 'release'
+$source = Read-Regression 'final-source'
+$release = Read-Regression 'final-release'
 $sourceNames = @($source.results | ForEach-Object { $_.name })
-$releaseNames = @($release.results | ForEach-Object { $_.name.Replace('integration.log', 'smoke.log') })
-$expectedRelease = @('smoke.log','linear-route.log','courtyard-controls.log','river-journey.log','first-level-rebuild.log','settlement-revision.log','user-expansion.log')
-$normalizedRelease = @($releaseNames | ForEach-Object { $_.Replace('courtyard-controls.log','opening-checks/courtyard_controls/run.log').Replace('river-journey.log','opening-checks/river_journey/run.log').Replace('first-level-rebuild.log','opening-checks/first_level_rebuild/run.log').Replace('settlement-revision.log','opening-checks/settlement_revision/run.log').Replace('user-expansion.log','opening-checks/user_expansion/run.log') })
+$releaseNames = @($release.results | ForEach-Object { $_.name })
+$expectedRelease = @('smoke.log','linear_route.log','visual_motion.log','courtyard_controls.log','river_journey.log','first_level_rebuild.log','settlement_revision.log','user_expansion.log','surface_loading.log')
+$normalizedRelease = @($releaseNames | ForEach-Object {
+    if ($_ -eq 'linear_route.log') { 'linear-route.log' }
+    elseif ($_ -eq 'visual_motion.log') { 'visual-motion.log' }
+    elseif ($_ -eq 'smoke.log') { $_ }
+    else { 'opening-checks/' + $_.Replace('.log', '') + '/run.log' }
+})
 if (@($normalizedRelease | Where-Object { $_ -notin $sourceNames }).Count) { throw 'Package checks differ from their source counterparts.' }
 if (Compare-Object ($releaseNames | Sort-Object) ($expectedRelease | Sort-Object)) { throw 'Targeted package checks incomplete.' }
 
 $navigation = Read-Evidence 'release-navigation.json' 'navigation.json'
-if (-not $navigation.passed -or $navigation.reachable_cells -ne 79589 -or $navigation.reachable_sha256 -ne 'bf6c80496a4ce18b9ea367c8041bf4c5aa3cc68887e509a3e9974dfed7906980') { throw 'Reachable navigation graph changed.' }
+$sourceNavigation = Read-Evidence 'final-source-navigation.json' 'source-navigation.json'
+$navigationDelta = Read-Evidence 'navigation-delta.json' 'navigation-delta.json'
+if (-not $navigation.passed -or -not $sourceNavigation.passed -or $navigation.reachable_sha256 -ne $sourceNavigation.reachable_sha256 -or -not $navigationDelta.passed) { throw 'Package navigation differs from the audited source graph.' }
 $renderQuality = Read-Evidence 'release-render-quality\validation.json' 'render-quality.json'
 if (-not $renderQuality.passed -or -not $renderQuality.instance_bounds_checked -or $renderQuality.checks -ne 39) { throw 'Rendered quality checks failed.' }
 $renderWorld = Read-Evidence 'release-world\validation.json' 'render-world.json'
@@ -52,9 +59,13 @@ foreach ($cameraData in @($balanced, $high)) {
 if ($balanced.quality -ne 1 -or $high.quality -ne 2) { throw 'Camera quality presets differ from the requested runs.' }
 $combat = Read-Evidence 'release-combat.json' 'combat-performance.json'
 if (-not $combat.measurement_valid -or -not $combat.route_passed -or $combat.version -ne '0.7.2-rc1' -or $combat.player_shots_observed -lt 1 -or $combat.enemy_shots_observed -lt 1) { throw 'Real-time package combat measurement failed.' }
+$arrival = Read-Evidence 'release-arrival.json' 'arrival-performance.json'
+if (-not $arrival.passed -or -not $arrival.rendered -or $arrival.physics_engine -ne 'Jolt Physics') { throw 'Rendered arrival check failed.' }
+$loading = Read-Evidence 'release-surface-loading/validation.json' 'surface-loading.json'
+if (-not $loading.passed -or -not $loading.rendered -or $loading.checks -ne 31) { throw 'Rendered terrain/loading checks failed.' }
 
 $baseline = Get-Content (Join-Path $root 'docs\maintenance\repository-20261016\protected-files.json') -Raw | ConvertFrom-Json
-$protected = @($baseline | Where-Object { $_.path -match '^GodotProject/assets/(audio|first_person)/' -or $_.path -eq 'GodotProject/scripts/fp_hands.gd' })
+$protected = @($baseline | Where-Object { $_.path -match '^GodotProject/assets/(audio|first_person)/' })
 foreach ($file in $protected) {
     if ((Get-FileHash -LiteralPath (Join-Path $root $file.path)).Hash.ToLowerInvariant() -ne $file.sha256) { throw "Protected asset changed: $($file.path)" }
 }
@@ -64,7 +75,7 @@ foreach ($item in @(
     @('baseline-combat.json','baseline-combat-performance.json'),
     @('repeat-baseline\performance.json','baseline-cameras.json')
 )) { Copy-Item -LiteralPath (Join-Path $inputRoot $item[0]) -Destination (Join-Path $report $item[1]) -Force }
-foreach ($name in @('release-navigation','release-render-quality','release-world','release-balanced','release-high','release-combat')) {
+foreach ($name in @('release-navigation','release-render-quality','release-world','release-balanced','release-high','release-combat','release-arrival','release-surface-loading')) {
     $path = Join-Path $inputRoot "$name.log"
     $content = Get-Content -LiteralPath $path -Raw
     if ($content -match '(?m)^(SCRIPT ERROR|ERROR|FAIL):') { throw "Failure in final rendered log: $name" }
@@ -76,6 +87,13 @@ $captures = foreach ($name in @('forest_contact','forest_approach','village_stre
     Copy-Item -LiteralPath $path -Destination (Join-Path $report "$name.png") -Force
     [ordered]@{ file = "$name.png"; quality = 'high'; sha256 = (Get-FileHash -LiteralPath $path).Hash.ToLowerInvariant() }
 }
+foreach ($name in @('forest-village-bend','ferry-surface','rifle-support','reload-39','reload-60')) {
+    $path = Join-Path $inputRoot "release-surface-loading/$name.png"
+    Copy-Item -LiteralPath $path -Destination (Join-Path $report "$name.png") -Force
+    $captures += [ordered]@{ file = "$name.png"; quality = 'balanced'; sha256 = (Get-FileHash -LiteralPath $path).Hash.ToLowerInvariant() }
+}
+Copy-Item -LiteralPath (Join-Path $inputRoot 'source-first-level-exit.log') -Destination (Join-Path $report 'source-first-level-exit.log') -Force
+Copy-Item -LiteralPath (Join-Path $inputRoot 'final-build.log') -Destination (Join-Path $report 'build.log') -Force
 $record = [ordered]@{
     version = '0.7.2-rc1'
     revision = '20261016-performance-quality'
@@ -84,10 +102,13 @@ $record = [ordered]@{
     source = $source
     release = $release
     navigation = $navigation
+    navigation_delta = $navigationDelta
     rendered_quality = $renderQuality
     rendered_world = $renderWorld
     cameras = [ordered]@{ balanced_valid = $balanced.measurement_valid; high_valid = $high.measurement_valid; balanced_unfocused_frames = $balanced.unfocused_frames; high_unfocused_frames = $high.unfocused_frames }
     rendered_combat = $combat
+    rendered_arrival = $arrival
+    rendered_surface_loading = $loading
     protected_files = $protected.Count
     protected_changes = 0
     captures = @($captures)
@@ -109,4 +130,4 @@ $sums = Get-ChildItem -LiteralPath $releaseRoot -Recurse -File | Where-Object { 
     (Get-FileHash -LiteralPath $_.FullName).Hash.ToLowerInvariant() + '  ' + [IO.Path]::GetRelativePath($releaseRoot, $_.FullName).Replace('\', '/')
 }
 $sums | Set-Content -LiteralPath (Join-Path $releaseRoot 'SHA256SUMS.txt') -Encoding utf8
-Write-Output "Recorded 32 source groups, 7 targeted package groups, 39 quality/54 world rendered checks, navigation fingerprint, real-time combat and $($protected.Count) protected files."
+Write-Output "Recorded 33 source groups, 9 targeted package groups, 39 quality/54 world/31 surface-loading rendered checks, audited navigation, real-time combat and $($protected.Count) protected assets."

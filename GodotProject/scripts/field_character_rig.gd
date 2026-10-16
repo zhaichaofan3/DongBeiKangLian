@@ -13,6 +13,7 @@ const SOLDIER_MODELS := {
 const REQUIRED_BONES := ["Hips", "Chest", "Head", "Thigh0", "Thigh1", "Knee0", "Knee1", "Foot0", "Foot1", "Shoulder0", "Shoulder1", "Elbow0", "Elbow1"]
 
 static var _materials: Dictionary = {}
+static var _scenes: Dictionary = {}
 var skeleton: Skeleton3D
 var character: Node3D
 var has_guard_hands := false
@@ -27,7 +28,9 @@ var _skeleton_from_model := Transform3D.IDENTITY
 func prepare(character_role: String, gripping_hands: bool = false) -> bool:
 	model_path = SOLDIER_MODELS.get(character_role, MODEL_PATH)
 	if not ResourceLoader.exists(model_path): return false
-	var scene := load(model_path) as PackedScene
+	if not _scenes.has(model_path):
+		_scenes[model_path] = load(model_path) as PackedScene
+	var scene: PackedScene = _scenes[model_path]
 	if scene == null: return false
 	character = scene.instantiate() as Node3D
 	if character == null: return false

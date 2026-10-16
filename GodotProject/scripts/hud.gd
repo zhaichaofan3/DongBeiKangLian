@@ -155,7 +155,7 @@ func _process(delta: float) -> void:
 	if main == null or main.player == null:
 		return
 	if main.mode=="briefing":
-		var ready: bool = main.world.is_navigation_ready()
+		var ready: bool = main.world.is_world_ready()
 		for button in actions.get_children():
 			if button.has_meta("requires_world_ready"): button.disabled = not ready
 	var changed: bool = menu_kind != main.mode
@@ -558,7 +558,7 @@ func _button(text: String, action: Callable, requires_world_ready: bool = false)
 	var button := Button.new()
 	if requires_world_ready:
 		button.set_meta("requires_world_ready",true)
-		button.disabled = not main.world.is_navigation_ready()
+		button.disabled = not main.world.is_world_ready()
 	button.text = text
 	button.custom_minimum_size = Vector2(0, 44)
 	if menu_kind == "briefing":
