@@ -78,6 +78,8 @@ func apply_all() -> void:
 func set_quality(level: int, persist: bool = true) -> void:
 	quality = clampi(level, 0, 2)
 	main.get_viewport().msaa_3d = [Viewport.MSAA_DISABLED, Viewport.MSAA_2X, Viewport.MSAA_4X][quality]
+	main.get_viewport().mesh_lod_threshold = [3.0, 2.0, 1.0][quality]
+	RenderingServer.directional_shadow_atlas_set_size([1024,2048,4096][quality],true)
 	if main.world.has_method("apply_quality"):
 		main.world.apply_quality(quality)
 	if persist:

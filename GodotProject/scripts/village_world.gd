@@ -3,6 +3,7 @@ extends RefCounted
 
 const Forest = preload("res://scripts/forest_approach.gd")
 const Scenery = preload("res://scripts/village_scenery.gd")
+const Vegetation = preload("res://scripts/vegetation_batch.gd")
 const START := Vector3(1147, .08, 282)
 const EXIT := Vector3(1147, .08, 24)
 const GATES := [Vector3(1147, 1.4, 196), Vector3(1147, 1.4, 112)]
@@ -27,6 +28,9 @@ var base_solid := PackedByteArray()
 var gates: Array[StaticBody3D] = []
 var opaque_wings: Array[StaticBody3D] = []
 var navigation_ready := false
+var navigation_physics_queries := 0
+var navigation_build_ms := 0.0
+var scenery_build_ms := 0.0
 var phase := 0
 var house_count := 0
 var tree_count := 0
@@ -49,6 +53,7 @@ func build(owner_world: RefCounted) -> void:
 	var ground := _box("村庄山谷地面", Vector3(1125,-.3,47), Vector3(650,.6,500), "mud")
 	ground.get_child(0).material_override = _ground_material(false)
 	_build_courtyards()
+	_batch_courtyards()
 	for i in 2:
 		for span in [[1117.5,1145.3],[1148.7,1176.5]]:
 			opaque_wings.append(_box("院墙关口门垛",Vector3((span[0]+span[1])*.5,1.4,GATES[i].z),Vector3(span[1]-span[0],2.8,.4),"brick"))
@@ -82,6 +87,7 @@ func _build_courtyards() -> void:
 			model.position = Vector3(1147+side*13.5,-.1045,z)
 			model.rotation.y = 0 if side<0 else PI
 			container.add_child(model)
+			world.prepare_imported_materials(model)
 			courtyard_modules.append(model)
 			house_count += 1
 			for mesh: MeshInstance3D in model.find_children("*","MeshInstance3D",true,false):
@@ -100,6 +106,39 @@ func _build_courtyards() -> void:
 			brace.rotation.x = -.5
 	for at in [Vector3(1145.8,.4,254),Vector3(1148.2,.4,171),Vector3(1145.8,.4,89),Vector3(1148.2,.4,40)]:
 		_box("窄街路旁柴箱掩体",at,Vector3(.85,.8,1.6),"wood")
+
+func _batch_courtyards() -> void:
+	var groups := {}
+	for model in courtyard_modules:
+		for mesh: MeshInstance3D in model.find_children("*","MeshInstance3D",true,false):
+			var key := Vector2i(mesh.mesh.get_instance_id(),floori((model.position.z-50)/84))
+			if not groups.has(key): groups[key] = []
+			groups[key].append(mesh)
+	for group: Array in groups.values():
+		var first: MeshInstance3D = group[0]
+		var center := Vector3(1147,0,first.global_position.z)
+		var instances := MultiMesh.new()
+		instances.transform_format = MultiMesh.TRANSFORM_3D
+		instances.mesh = first.mesh
+		instances.instance_count = group.size()
+		var bounds := AABB()
+		for i in group.size():
+			var mesh: MeshInstance3D = group[i]
+			var placement := mesh.global_transform
+			placement.origin -= center
+			instances.set_instance_transform(i,placement)
+			var box := placement*mesh.mesh.get_aabb()
+			bounds = box if i==0 else bounds.merge(box)
+			# Retain the authored hierarchy and all collision children.
+			mesh.visible = false
+		instances.custom_aabb = bounds
+		var batch := MultiMeshInstance3D.new()
+		batch.name = "CourtyardBatch_%d" % container.get_child_count()
+		batch.position = center
+		batch.multimesh = instances
+		batch.visibility_range_end = 500
+		batch.visibility_range_end_margin = 24
+		container.add_child(batch)
 
 func _box(title: String, at: Vector3, size: Vector3, material: String) -> StaticBody3D:
 	var body: StaticBody3D = world.box(title,at,size,material)
@@ -133,6 +172,7 @@ func _build_lane() -> void:
 			surface.set_uv(Vector2([0,1,1,0,1,0][k],p.z*.26))
 			surface.add_vertex(Vector3(p.x,.016,p.z))
 	surface.generate_normals()
+	surface.generate_tangents()
 	var road := MeshInstance3D.new()
 	road.name = "窄街转入院落的泥辙"
 	road.mesh = surface.commit()
@@ -147,6 +187,7 @@ func _ground_material(is_road: bool) -> ShaderMaterial:
 	material.set_shader_parameter("ground_diffuse",load("res://assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg"))
 	material.set_shader_parameter("road_diffuse",load("res://assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg"))
 	material.set_shader_parameter("road_normal",load("res://assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg"))
+	material.set_shader_parameter("ground_normal",load("res://assets/environment/textures/gravel_road/gravel_road_nor_gl_2k.jpg"))
 	material.set_shader_parameter("is_road",is_road)
 	return material
 
@@ -220,27 +261,7 @@ func _build_surroundings() -> void:
 		var offset := -Vector3(bounds.get_center().x,bounds.position.y,bounds.get_center().z)
 		transforms.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*factor),at)*Transform3D(Basis.IDENTITY,offset))
 	tree_count = transforms.size()
-	for item in pieces:
-		var instances := MultiMesh.new()
-		instances.transform_format = MultiMesh.TRANSFORM_3D
-		var mesh: Mesh = item.mesh.duplicate()
-		for index in mesh.get_surface_count():
-			var mat := mesh.surface_get_material(index).duplicate() as StandardMaterial3D
-			if mat==null: continue
-			mat.albedo_color = Color("819573")
-			mat.roughness = 1
-			if mat.transparency!=BaseMaterial3D.TRANSPARENCY_DISABLED:
-				mat.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR
-				mat.alpha_scissor_threshold = .45
-				mat.cull_mode = BaseMaterial3D.CULL_DISABLED
-			mesh.surface_set_material(index,mat)
-		instances.mesh = mesh
-		instances.instance_count = transforms.size()
-		for i in transforms.size(): instances.set_instance_transform(i,transforms[i]*item.transform)
-		var trees := MultiMeshInstance3D.new()
-		trees.name = "环村树林"
-		trees.multimesh = instances
-		container.add_child(trees)
+	Vegetation.build(container,"环村树林",pieces,transforms,Color("819573"),false)
 	source.free()
 	var surface := SurfaceTool.new()
 	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
@@ -275,10 +296,14 @@ func _close_side_lanes() -> void:
 			side_wires.append(world.WireFence.add_blocker(container,"横巷柴场低网_%d" % side_wires.size(),Vector3(span[0],0,z),Vector3(span[1],0,z)))
 
 func prepare_navigation() -> void:
+	var started := Time.get_ticks_usec()
 	_close_side_lanes()
 	scenery.build(world,container)
+	world.apply_quality(world.quality_level)
+	scenery_build_ms = float(Time.get_ticks_usec()-started)/1000.0
 
 func initialize_navigation() -> void:
+	var started := Time.get_ticks_usec()
 	if navigation.region.size!=GRID:
 		push_error("Village build did not finish before navigation initialization")
 		return
@@ -293,6 +318,7 @@ func initialize_navigation() -> void:
 	query.exclude = excluded
 	var space := container.get_world_3d().direct_space_state
 	base_solid.resize(GRID.x*GRID.y)
+	navigation_physics_queries = 0
 	var obstacles: Array[Dictionary] = []
 	for body: StaticBody3D in side_wires+opaque_wings:
 		var shapes := body.find_children("*","CollisionShape3D",true,false)
@@ -301,17 +327,30 @@ func initialize_navigation() -> void:
 		for x in GRID.x:
 			var at := Vector3(OFFSET.x+x,1.02,OFFSET.y+y)
 			query.transform.origin = at
-			var solid := not contains(Vector3(at.x,.08,at.z)) or not space.intersect_shape(query,1).is_empty()
-			for obstacle: Dictionary in obstacles:
-				var size: Vector3 = obstacle.size
-				var local: Vector3 = obstacle.inverse*at
-				if absf(local.x)<size.x*.5+.65 and absf(local.z)<size.z*.5+.65:
-					solid = true
-					break
+			var solid := not contains(Vector3(at.x,.08,at.z))
+			if not solid:
+				navigation_physics_queries += 1
+				solid = not space.intersect_shape(query,1).is_empty()
 			base_solid[y*GRID.x+x] = 1 if solid else 0
 			navigation.set_point_solid(Vector2i(x,y),solid)
+	# Raster each thin wall/wire only over its own footprint. The former loop
+	# transformed every grid cell against every obstacle, including distant land.
+	for obstacle: Dictionary in obstacles:
+		var size: Vector3 = obstacle.size
+		var inverse: Transform3D = obstacle.inverse
+		var expanded := AABB(Vector3(-size.x*.5-.65,0,-size.z*.5-.65),Vector3(size.x+1.3,1,size.z+1.3))
+		var bounds := inverse.affine_inverse()*expanded
+		var begin := Vector2i(maxi(0,floori(bounds.position.x-OFFSET.x)),maxi(0,floori(bounds.position.z-OFFSET.y)))
+		var end := Vector2i(mini(GRID.x-1,ceili(bounds.end.x-OFFSET.x)),mini(GRID.y-1,ceili(bounds.end.z-OFFSET.y)))
+		for y in range(begin.y,end.y+1):
+			for x in range(begin.x,end.x+1):
+				var local := inverse*Vector3(OFFSET.x+x,1.02,OFFSET.y+y)
+				if absf(local.x)<size.x*.5+.65 and absf(local.z)<size.z*.5+.65:
+					base_solid[y*GRID.x+x] = 1
+					navigation.set_point_solid(Vector2i(x,y),true)
 	navigation_ready = true
 	set_phase(phase)
+	navigation_build_ms = float(Time.get_ticks_usec()-started)/1000.0
 
 func set_phase(value: int) -> void:
 	phase = value

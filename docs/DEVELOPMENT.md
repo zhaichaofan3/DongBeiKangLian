@@ -23,6 +23,7 @@
 | 人物、敌人与战友 | `human_model.gd`、`field_character_rig.gd`、`guard.gd`、`friendly.gd` |
 | 声音、设置与界面 | `audio_mix.gd`、`audio_factory.gd`、`presentation.gd`、`hud.gd` |
 | 天池、自然与效果 | `tianchi_landscape.gd`、`landscape.gd`、`muzzle_effect.gd`、`explosion_effect.gd` |
+| 树林分块、院落合批与画质 | `vegetation_batch.gd`、`village_world.gd::_batch_courtyards`、`presentation.gd`、`world.gd::apply_quality` |
 
 `GodotProject/assets/`放游戏选用资源，`AssetLibrary/`放可编辑源与原件。导出后更新来源，材质贴图和glTF外部依赖必须一同保留。
 
@@ -53,3 +54,11 @@
 首关地图版本仍为5，村庄独立状态版本为4。旧村庄存档按已清阶段迁移到安全入口，林中存档保留原位置；不要通过提升首关地图版本来迁移村庄，以免首关坐标再次偏移。新操作为C切换蹲、Ctrl按住蹲、Q/E按住探头、F互动、H包扎。`courtyard_controls.gd`检查真实穿院移动、头部碰撞、可见性和迁移；`world_revision.gd`检查电报房、水面、下游航线及特写，`village_presentation.gd`供实际画面检查。
 
 Git忽略缓存、软件安装目录、生成包、私人会话与冷备份；大二进制用LFS。恢复与大小控制见 [WORKFLOW.md](WORKFLOW.md)。
+
+## 性能与画质检查
+
+`render_quality.gd`纳入常规回归；有画面运行还会逐树核对分块包围盒。树林使用64米分块，显式局部包围盒；重复大院按84米纵向段合批，原层级及碰撞继续保留。约500米的建筑裁剪避免另一关的细小模型参与当前镜头；远山保留独立背景。默认8倍各向异性过滤，原生分辨率不因画质档位缩小。
+
+`optimization_views.gd`比较八个固定场景的缓慢转头负担，要求真实渲染窗口、1920×1080、无垂直同步/限帧；每处预热1.5秒、实测5秒，读图在计时外。输出环境变量为`FENGHUO_OPTIMIZATION_OUTPUT`，可用`FENGHUO_OPTIMIZATION_QUALITY=0/1/2`选档。这不是实战测试。`combat_route.gd`配合`FENGHUO_COMBAT_PERFORMANCE_OUTPUT`才测真实移动、敌人AI与双方开火，不得传`--fixed-fps`。串行运行，记录窗口焦点和硬件条件；不能混用无画面/固定模拟速度的帧率。
+
+`navigation_budget.gd`对村庄与上岸点做四邻接可达图指纹，输出为`FENGHUO_NAVIGATION_OUTPUT`，旧版参照为`FENGHUO_NAVIGATION_REFERENCE`。导航准备仍有加载成本，主菜单在首关、室内与村庄导航全部准备完毕后开放开始/读档；不要将加载期停顿隐瞒为已消除。

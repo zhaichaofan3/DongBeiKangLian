@@ -31,6 +31,9 @@ var reported_texture_size := Vector2i.ZERO
 var measured_content_size := Vector2i.ZERO
 var measured_content_factor := 1.0
 var measured_content_mode := 0
+var longest_frames: Array[Dictionary] = []
+var frames_over_50ms := 0
+var frames_over_100ms := 0
 
 func initialize(game: Node3D, destination: String) -> void:
 	main = game
@@ -130,6 +133,13 @@ func _process(_delta: float) -> void:
 		return
 	_check_configuration()
 	frames.append(ms)
+	if ms>50.0: frames_over_50ms += 1
+	if ms>100.0: frames_over_100ms += 1
+	if longest_frames.size()<12 or ms>float(longest_frames[-1].frame_ms):
+		var at: Vector3 = main.player.global_position
+		longest_frames.append({"frame_ms":ms,"wall_seconds":float(now-began)/1000000.0,"game_seconds":main.elapsed,"player":[at.x,at.y,at.z],"village":main.village.entered})
+		longest_frames.sort_custom(func(a,b): return a.frame_ms>b.frame_ms)
+		if longest_frames.size()>12: longest_frames.resize(12)
 	calls += Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME)
 	peak_texture_bytes = maxf(peak_texture_bytes, Performance.get_monitor(Performance.RENDER_TEXTURE_MEM_USED))
 	peak_enemies = maxi(peak_enemies, main.alive_guard_count())
@@ -191,7 +201,8 @@ func finish(route_passed: bool) -> void:
 		"recent_firing_frames": firing_summary, "recent_enemy_firing_frames": _summary(enemy_firing_frames),
 		"two_sided_recent_firing_frames": _summary(exchange_frames), "player_shots_observed": player_shots, "enemy_shots_observed": enemy_shots,
 		"peak_alive_enemies_observed": peak_enemies, "reported_peak_texture_bytes": peak_texture_bytes,
-		"mean_draw_calls": calls / maxf(frames.size(), 1), "health_at_finish": main.player.health}
+		"mean_draw_calls": calls / maxf(frames.size(), 1), "health_at_finish": main.player.health,
+		"frames_over_50ms":frames_over_50ms,"frames_over_100ms":frames_over_100ms,"longest_frames":longest_frames}
 	if DirAccess.make_dir_recursive_absolute(output.get_base_dir()) != OK:
 		push_error("Cannot create active-combat performance report directory: " + output.get_base_dir())
 		return

@@ -1,5 +1,6 @@
 extends RefCounted
 ## Domestic work yards and woodland frame the compact playable courtyards.
+const Vegetation = preload("res://scripts/vegetation_batch.gd")
 
 var _world: WeakRef
 var world: RefCounted:
@@ -147,24 +148,5 @@ func _build_trees(rng: RandomNumberGenerator) -> void:
 	for at in tree_sites:
 		var scale := rng.randf_range(7,12)/bounds.size.y
 		transforms.append(Transform3D(Basis(Vector3.UP,rng.randf()*TAU).scaled(Vector3.ONE*scale),at)*Transform3D(Basis.IDENTITY,-Vector3(bounds.get_center().x,bounds.position.y,bounds.get_center().z)))
-	for item in pieces:
-		var instances := MultiMesh.new()
-		instances.transform_format = MultiMesh.TRANSFORM_3D
-		instances.mesh = item.mesh.duplicate()
-		for i in instances.mesh.get_surface_count():
-			var mat := instances.mesh.surface_get_material(i).duplicate() as StandardMaterial3D
-			if mat==null: continue
-			mat.albedo_color = Color("7b8862")
-			mat.roughness = 1
-			if mat.transparency!=BaseMaterial3D.TRANSPARENCY_DISABLED:
-				mat.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR
-				mat.alpha_scissor_threshold = .45
-				mat.cull_mode = BaseMaterial3D.CULL_DISABLED
-			instances.mesh.surface_set_material(i,mat)
-		instances.instance_count = transforms.size()
-		for i in transforms.size(): instances.set_instance_transform(i,transforms[i]*item.transform)
-		var trees := MultiMeshInstance3D.new()
-		trees.name = "村内院落与街边松林"
-		trees.multimesh = instances
-		parent.add_child(trees)
+	Vegetation.build(parent,"村内院落与街边松林",pieces,transforms,Color("7b8862"))
 	source.free()

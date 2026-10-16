@@ -4,6 +4,7 @@ render_mode cull_back;
 uniform sampler2D ground_diffuse : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D road_diffuse : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D road_normal : hint_normal, filter_linear_mipmap_anisotropic, repeat_enable;
+uniform sampler2D ground_normal : hint_normal, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform bool is_road = false;
 varying vec2 ground_position;
 
@@ -13,6 +14,8 @@ void vertex() {
 
 void fragment() {
 	vec3 earth = texture(ground_diffuse, ground_position * 0.26).rgb;
+	vec3 broad_earth = texture(ground_diffuse, ground_position * 0.043).rgb;
+	earth = mix(earth, broad_earth, 0.22);
 	float earth_value = dot(earth, vec3(0.299, 0.587, 0.114));
 	earth = mix(vec3(earth_value), earth, 0.35) * vec3(0.84, 0.79, 0.69);
 	vec3 tracks = texture(road_diffuse, ground_position * 0.26).rgb;
@@ -21,8 +24,8 @@ void fragment() {
 	float edge_noise = sin(ground_position.x * 3.7 + ground_position.y * 4.3) * 0.018;
 	float road_weight = is_road ? smoothstep(0.0, 0.12, UV.x + edge_noise) * (1.0 - smoothstep(0.88, 1.0, UV.x + edge_noise)) : 0.0;
 	ALBEDO = mix(earth, tracks, road_weight);
-	NORMAL_MAP = texture(road_normal, ground_position * 0.26).rgb;
-	NORMAL_MAP_DEPTH = 0.22;
+	NORMAL_MAP = mix(texture(ground_normal, ground_position * 0.26).rgb, texture(road_normal, ground_position * 0.26).rgb, road_weight);
+	NORMAL_MAP_DEPTH = 0.36;
 	ROUGHNESS = 0.96;
 	SPECULAR = 0.18;
 }

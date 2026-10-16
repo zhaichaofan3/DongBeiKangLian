@@ -1,10 +1,10 @@
 # 烽火回声 · 林海归途
 
-东北抗联题材原创单机第一人称游戏。故事发生在1938年深秋的虚构青岚林场与松岭屯，当前版本 **0.7.1-rc1**。使用 **Godot 4.7.2 / GDScript / GL Compatibility**，Windows为当前验证平台。
+东北抗联题材原创单机第一人称游戏。故事发生在1938年深秋的虚构青岚林场与松岭屯，当前版本 **0.7.2-rc1**。使用 **Godot 4.7.2 / GDScript / GL Compatibility**，Windows为当前验证平台。
 
 ## 先运行起来
 
-- **只想试玩：**到 [Releases](https://github.com/zhaichaofan3/DongBeiKangLian/releases) 下载Windows试玩包，解压后运行 `FenghuoEcho.exe`，保留同目录的PCK和来源文件。在线包目前为0.7.0-rc1，本轮0.7.1-rc1从下方本机入口或源码运行。
+- **只想试玩：**到 [Releases](https://github.com/zhaichaofan3/DongBeiKangLian/releases) 下载Windows试玩包，解压后运行 `FenghuoEcho.exe`，保留同目录的PCK和来源文件。在线包目前为0.7.0-rc1，本轮0.7.2-rc1从下方本机入口或源码运行。
 - **本机已有工程：**双击 `Start-Game.cmd`；编辑器入口为 `./Start-Game.ps1 -Editor`。
 - **新电脑开发：**安装 [Git LFS](https://git-lfs.com/) 与 [Godot 4.7.2](https://godotengine.org/download/archive/)，再执行：
 
@@ -28,6 +28,8 @@ $env:GODOT_EXE = 'D:\Apps\Godot\Godot_v4.7.2-stable_win64_console.exe'
 WASD移动，Shift冲刺，C切换蹲伏（Ctrl按住蹲伏），Q/E按住左右探头，Space跳跃，鼠标射击/瞄准，R装填，F互动，H包扎，J记录，Esc暂停，Enter跳过当前演出。完整操作与存档说明见 [游戏说明](GodotProject/README.md)。
 
 当前是候选版。新增渡河对白仍为字幕，声音听审、连续人物表演与美术观感、完整真人难度及其他硬件兼容性仍待验收。最新状态见 [PROGRESS.md](PROGRESS.md)。
+
+0.7.2增加树林空间分块与重复院落合批，保留原有树木和碰撞；改进贴图斜视角清晰度、自然光、近景阴影与地表细节。画面设置仍为性能、均衡、画质三档，按档位调整抗锯齿、几何细节和阴影精度，默认均衡。开始与读档按钮会等待战场准备完成。
 
 ## 文件放在哪里
 

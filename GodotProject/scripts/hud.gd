@@ -154,6 +154,10 @@ func initialize(owner_node: Node3D) -> void:
 func _process(delta: float) -> void:
 	if main == null or main.player == null:
 		return
+	if main.mode=="briefing":
+		var ready: bool = main.world.is_navigation_ready()
+		for button in actions.get_children():
+			if button.has_meta("requires_world_ready"): button.disabled = not ready
 	var changed: bool = menu_kind != main.mode
 	var holding: bool = main.mode == "playing" and main.linear.extraction_started and main.linear.extraction_remaining > 0
 	hold_clock.visible = holding
@@ -326,10 +330,10 @@ func show_menu(kind: String) -> void:
 		"briefing":
 			menu_title.text = "东北抗联-烽火回声"
 			menu_caption.text = "一份名册，一位战友。\n穿过林场，把他们一起带回山。"
-			_button("开始游戏", main.start_with_opening)
-			_button("直接进入林场", main.start_new)
+			_button("开始游戏", main.start_with_opening,true)
+			_button("直接进入林场", main.start_new,true)
 			if main.has_save():
-				_button("继续检查点", main.continue_checkpoint)
+				_button("继续检查点", main.continue_checkpoint,true)
 			_button("设置", _show_settings)
 			_button("退出", func(): main.get_tree().quit())
 		"paused":
@@ -550,8 +554,11 @@ func _refresh_dialogue() -> void:
 	if dialog_actions.get_child_count() > 0:
 		(dialog_actions.get_child(0) as Button).grab_focus()
 
-func _button(text: String, action: Callable) -> void:
+func _button(text: String, action: Callable, requires_world_ready: bool = false) -> void:
 	var button := Button.new()
+	if requires_world_ready:
+		button.set_meta("requires_world_ready",true)
+		button.disabled = not main.world.is_navigation_ready()
 	button.text = text
 	button.custom_minimum_size = Vector2(0, 44)
 	if menu_kind == "briefing":

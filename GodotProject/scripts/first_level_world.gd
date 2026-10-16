@@ -1,6 +1,7 @@
 extends RefCounted
 const Layout = preload("res://scripts/first_level_layout.gd")
 const Scenery = preload("res://scripts/first_level_scenery.gd")
+const Vegetation = preload("res://scripts/vegetation_batch.gd")
 var scenery := Scenery.new()
 var _world: WeakRef
 var w: RefCounted:
@@ -146,6 +147,7 @@ func _building(id: String,at: Vector3,fit: Vector3) -> void:
 	model.scale=scale
 	model.position=at-Vector3(bounds.get_center().x,bounds.position.y,bounds.get_center().z)*scale
 	w.root.add_child(model)
+	w.prepare_imported_materials(model)
 	for mesh: MeshInstance3D in model.find_children("*","MeshInstance3D",true,false):
 		if id.begins_with("camp_"):
 			for surface in mesh.mesh.get_surface_count():
@@ -256,26 +258,7 @@ func _trees() -> void:
 		shape.radius=.21; shape.height=2.8; collision.shape=shape
 		body.add_child(collision); body.position=at+Vector3.UP*1.4
 		w.root.add_child(body)
-	for item: Dictionary in pieces:
-		var mm:=MultiMesh.new(); mm.transform_format=MultiMesh.TRANSFORM_3D; mm.mesh=item.mesh; mm.instance_count=transforms.size()
-		for i in transforms.size(): mm.set_instance_transform(i,transforms[i]*item.transform)
-		var batch:=MultiMeshInstance3D.new(); batch.name="重构首关山林"; batch.multimesh=mm
-		var tree_mesh: Mesh=item.mesh.duplicate()
-		for s in tree_mesh.get_surface_count():
-			var mat:=tree_mesh.surface_get_material(s).duplicate() as StandardMaterial3D
-			if mat==null: continue
-			mat.albedo_color=Color("607b51")
-			mat.vertex_color_use_as_albedo=true
-			mat.roughness=1
-			mat.metallic_specular=.12
-			if mat.transparency!=BaseMaterial3D.TRANSPARENCY_DISABLED:
-				mat.transparency=BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR
-				mat.alpha_scissor_threshold=.45
-				mat.cull_mode=BaseMaterial3D.CULL_DISABLED
-			tree_mesh.surface_set_material(s,mat)
-		mm.mesh=tree_mesh
-		batch.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
-		w.root.add_child(batch)
+	Vegetation.build(w.root,"重构首关山林",pieces,transforms,Color("607b51"),false,true)
 	source.free()
 
 func _initialize() -> void:

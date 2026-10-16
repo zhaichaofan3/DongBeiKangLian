@@ -1,5 +1,6 @@
 extends RefCounted
 ## A playable woodland interval between the river landing and the original village.
+const Vegetation = preload("res://scripts/vegetation_batch.gd")
 
 const LANDING := Vector3(1214, .08, 426)
 const REST := Vector3(1215.7, .08, 426)
@@ -66,6 +67,7 @@ func build(world: RefCounted, parent: Node3D) -> void:
 			terrain.set_uv(Vector2(p.x,p.y)*.24)
 			terrain.add_vertex(p)
 	terrain.generate_normals()
+	terrain.generate_tangents()
 	var ground := MeshInstance3D.new()
 	ground.name = "渡河后起伏密林地表"
 	ground.mesh = terrain.commit()
@@ -85,6 +87,7 @@ func build(world: RefCounted, parent: Node3D) -> void:
 			road.set_uv(Vector2(p.x,p.z)*.28)
 			road.add_vertex(Vector3(p.x,.032,p.z))
 	road.generate_normals()
+	road.generate_tangents()
 	var lane := MeshInstance3D.new()
 	lane.name = "引向村口的浅色土路"
 	lane.mesh = road.commit()
@@ -143,25 +146,5 @@ func _build_trees(_world: RefCounted, parent: Node3D) -> void:
 			collider.position = at+Vector3.UP*1.5
 			trunks.add_child(collider)
 	tree_count = transforms.size()
-	for item in pieces:
-		var instances := MultiMesh.new()
-		instances.transform_format = MultiMesh.TRANSFORM_3D
-		var mesh: Mesh = item.mesh.duplicate()
-		for index in mesh.get_surface_count():
-			var mat := mesh.surface_get_material(index).duplicate() as StandardMaterial3D
-			if mat==null: continue
-			mat.albedo_color = Color("879a7a")
-			mat.roughness = 1
-			if mat.transparency!=BaseMaterial3D.TRANSPARENCY_DISABLED:
-				mat.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR
-				mat.alpha_scissor_threshold = .45
-				mat.cull_mode = BaseMaterial3D.CULL_DISABLED
-			mesh.surface_set_material(index,mat)
-		instances.mesh = mesh
-		instances.instance_count = transforms.size()
-		for i in transforms.size(): instances.set_instance_transform(i,transforms[i]*item.transform)
-		var trees := MultiMeshInstance3D.new()
-		trees.name = "上岸后的连续密林"
-		trees.multimesh = instances
-		parent.add_child(trees)
+	Vegetation.build(parent,"上岸后的连续密林",pieces,transforms,Color("879a7a"))
 	source.free()

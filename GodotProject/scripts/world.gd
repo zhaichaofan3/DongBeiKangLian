@@ -590,12 +590,12 @@ func _setup_environment() -> void:
 	sky.sky_material = sky_material
 	environment.sky = sky
 	environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
-	environment.ambient_light_color = Color("91a9bb")
-	environment.ambient_light_energy = 0.38
+	environment.ambient_light_color = Color("b2b4a8")
+	environment.ambient_light_energy = 0.46
 	environment.reflected_light_source = Environment.REFLECTION_SOURCE_SKY
 	environment.fog_enabled = true
-	environment.fog_light_color = Color("81929b")
-	environment.fog_density = 0.0041
+	environment.fog_light_color = Color("9da8a5")
+	environment.fog_density = 0.0034
 	environment.fog_sun_scatter = 0.08
 	environment.fog_height = -0.2
 	environment.fog_height_density = 0.022
@@ -604,13 +604,13 @@ func _setup_environment() -> void:
 	root.add_child(node)
 	sunlight = DirectionalLight3D.new()
 	sunlight.rotation_degrees = Vector3(-43, -38, 0)
-	sunlight.light_color = Color("d8e1e2")
-	sunlight.light_energy = 0.48
+	sunlight.light_color = Color("e5dfca")
+	sunlight.light_energy = 0.62
 	sunlight.shadow_enabled = true
 	sunlight.directional_shadow_mode = DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS
 	sunlight.directional_shadow_max_distance = 80
-	sunlight.shadow_bias = 0.16
-	sunlight.shadow_normal_bias = 2.0
+	sunlight.shadow_bias = 0.1
+	sunlight.shadow_normal_bias = 1.0
 	root.add_child(sunlight)
 
 func _material(color: Color, pattern: String) -> StandardMaterial3D:
@@ -1121,6 +1121,19 @@ func _batch_static_visuals() -> void:
 		static_batch_count += 1
 		static_instance_count += parts.size()
 
+func prepare_imported_materials(model: Node3D) -> void:
+	for mesh: MeshInstance3D in model.find_children("*","MeshInstance3D",true,false):
+		if mesh.mesh == null: continue
+		mesh.visibility_range_end = 500.0
+		mesh.visibility_range_end_margin = 24.0
+		for surface in mesh.mesh.get_surface_count():
+			var material := mesh.get_active_material(surface)
+			if material is BaseMaterial3D:
+				material.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
+
+func is_navigation_ready() -> bool:
+	return first_level.ready and office_navigation_ready and village_world.navigation_ready
+
 func apply_quality(level: int) -> void:
 	quality_level = clampi(level, 0, 2)
 	if not is_instance_valid(sunlight):
@@ -1128,8 +1141,12 @@ func apply_quality(level: int) -> void:
 	if asset_dressing != null:
 		asset_dressing.apply_quality(quality_level)
 	landscape.apply_quality(quality_level)
-	sunlight.directional_shadow_max_distance = [45.0, 80.0, 105.0][quality_level]
-	sunlight.directional_shadow_mode = DirectionalLight3D.SHADOW_ORTHOGONAL if quality_level == 0 else DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS
+	sunlight.directional_shadow_max_distance = [42.0, 72.0, 96.0][quality_level]
+	sunlight.directional_shadow_mode = [DirectionalLight3D.SHADOW_ORTHOGONAL,DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS,DirectionalLight3D.SHADOW_PARALLEL_4_SPLITS][quality_level]
+	sunlight.directional_shadow_split_1 = .16 if quality_level==1 else .1
+	sunlight.directional_shadow_split_2 = .28
+	sunlight.directional_shadow_split_3 = .55
+	sunlight.directional_shadow_blend_splits = quality_level==2
 	for material in _foliage_materials:
 		material.set_shader_parameter("detail_wind", 0.0 if quality_level == 0 else 1.0)
 	materials["water"].set_shader_parameter("wave_detail", 0.0 if quality_level == 0 else 1.0)
@@ -1143,6 +1160,11 @@ func apply_quality(level: int) -> void:
 			child.visibility_range_end = 0.0 if child.get_meta("large_surface") else [140.0, 200.0, 270.0][quality_level]
 			if child.get_meta("distant"):
 				child.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+	for batch: MultiMeshInstance3D in root.find_children("*","MultiMeshInstance3D",true,false):
+		if not batch.has_meta("vegetation_cell"): continue
+		var casts: bool = batch.get_meta("vegetation_shadow")
+		batch.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_ON if casts and quality_level>0 else GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		batch.visibility_range_end = [240.0,380.0,460.0][quality_level]
 
 func update(delta: float) -> void:
 	clock += delta
