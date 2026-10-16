@@ -1,0 +1,14 @@
+{
+  "captures": [
+    "street-standing",
+    "street-crouched",
+    "courtyard-door",
+    "courtyard-lean",
+    "courtyard-passage",
+    "settings-bindings",
+    "opening-village",
+    "opening-courtyards"
+  ],
+  "passed": true,
+  "viewport": "(1280, 720)"
+}

@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FERRY COMBAT: issued=12 | defeated=2 | enemy shots=0 | first contact remaining=28.8333333333334
+WARNING: [Physics interpolation] Interpolated Camera3D triggered from outside physics process: "/root/Main/Player/@Camera3D@4134" (possibly benign).
+   at: _notification (scene/3d/camera_3d.cpp:218)
+ACTIVE COMBAT ROUTE: PASS | health=100.0 | guards defeated=37 | elapsed=469.566666666568 | state=won

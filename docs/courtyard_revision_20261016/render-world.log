@@ -1,0 +1,58 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Office opaque enclosure blocks the outside view at (38.0, 1.6, 32.0)
+PASS: Office opaque enclosure blocks the outside view at (38.0, 1.6, 44.0)
+PASS: Office opaque enclosure blocks the outside view at (54.0, 1.6, 20.0)
+PASS: Office opaque enclosure blocks the outside view at (70.0, 1.6, 36.0)
+PASS: Office opaque enclosure blocks the outside view at (54.0, 1.6, 51.0)
+PASS: Opening the existing door leaves a full-width physical entrance
+PASS: Actual river water is visible from the playable ferry at (100.0, -1.3, 4.0)
+PASS: Actual river water is visible from the playable ferry at (102.0, -1.3, 14.0)
+PASS: Actual river water is visible from the playable ferry at (101.0, -1.3, 26.0)
+PASS: Twelve large supplied courtyard groups form the compact village
+PASS: Near-field village trees, rocks and working-yard props are populated
+PASS: Village road triangles face the player above ground
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 274.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 250.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 225.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 210.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 206.0)
+PASS: Visible dirt road and navigation reach (1143.5, 0.08, 206.0)
+PASS: Visible dirt road and navigation reach (1143.5, 0.08, 201.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 201.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 199.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 192.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 174.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 156.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 151.0)
+PASS: Visible dirt road and navigation reach (1150.5, 0.08, 151.0)
+PASS: Visible dirt road and navigation reach (1150.5, 0.08, 146.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 146.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 118.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 108.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 87.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 70.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 67.0)
+PASS: Visible dirt road and navigation reach (1150.5, 0.08, 67.0)
+PASS: Visible dirt road and navigation reach (1150.5, 0.08, 62.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 62.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 40.0)
+PASS: Visible dirt road and navigation reach (1147.0, 0.08, 29.0)
+PASS: Village encounter gate still enforces sequence 0
+PASS: Village encounter gate still enforces sequence 1
+PASS: Nonblank rendered frame: office
+PASS: Nonblank rendered frame: ferry
+PASS: Nonblank rendered frame: village-entry
+PASS: Nonblank rendered frame: village-middle
+PASS: Nonblank rendered frame: village-north
+PASS: The opening reaches a dedicated lit telegraph close-up
+PASS: The complete supplied narration and task timing are retained
+PASS: Nonblank rendered frame: telegraph
+PASS: Hull and oars clear every pier mesh through 311 departure, travel and arrival samples
+PASS: Every sampled boat position has actual water underneath
+PASS: Travel advances along the same downstream direction as the animated current
+PASS: Nonblank rendered frame: boat-boarding
+PASS: Nonblank rendered frame: boat-downstream
+PASS: Nonblank rendered frame: boat-landing
+WORLD REVISION: PASS | checks=54

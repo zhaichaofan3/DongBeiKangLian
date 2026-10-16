@@ -1,0 +1,402 @@
+{
+  "version": "0.7.1-rc1",
+  "revision": "20261016-courtyard-controls",
+  "created_at": "2026-10-16T18:12:48.8784597+08:00",
+  "passed": true,
+  "source": {
+    "groups": 31,
+    "passed": true,
+    "results": [
+      {
+        "name": "character-model.log",
+        "result": "CHARACTER MODEL RESULT: 59/59 passed",
+        "sha256": "370f4e5c51cf21651b312684423e11d51d2090130902937578506da44a95b340"
+      },
+      {
+        "name": "combat-route.log",
+        "result": "ACTIVE COMBAT ROUTE: PASS | health=100.0 | guards defeated=37 | elapsed=469.566666666568 | state=won",
+        "sha256": "1f49563dc75de18c9656f181ac4875dc941d5b35ba596c7495b0b047a778269f"
+      },
+      {
+        "name": "linear-route.log",
+        "result": "LINEAR ROUTE RESULT: 38/38 passed",
+        "sha256": "12ca2d3d43bd18f7c5e26aec3104bbd3f275914faa2ffeebe9e3a8da4c8ef92b"
+      },
+      {
+        "name": "smoke.log",
+        "result": "SMOKE RESULT: 108/108 passed",
+        "sha256": "cf818d3fe3ec7409043f22c90e728555f3c8a94eb2d1f824fddfd68ac9728d7f"
+      },
+      {
+        "name": "story-moments.log",
+        "result": "STORY MOMENTS RESULT: 11/11 passed",
+        "sha256": "53be442e1fb66f4789780a5c7e2bf81d9459e3a796b31200a307cefc46e5e208"
+      },
+      {
+        "name": "visual-motion.log",
+        "result": "VISUAL MOTION RESULT: 51/51 passed",
+        "sha256": "7968a11b1d2f896e35d048a41f3cebba757cfae8fe876d94173a6b07306322be"
+      },
+      {
+        "name": "opening-checks/audio_settings/run.log",
+        "result": "AUDIO SETTINGS: PASS | checks=34",
+        "sha256": "03aaddec9d59a4dcf3512b16450077d7455b3df555d2892f8e5703f94c71164a"
+      },
+      {
+        "name": "opening-checks/bayonet_encounter/run.log",
+        "result": "BAYONET ENCOUNTER: PASS 31/31",
+        "sha256": "0d21bc607652e2175a9b3fb0e68fa65fcf43b244681d60d069a2f8cacec76900"
+      },
+      {
+        "name": "opening-checks/changbai_landscape/run.log",
+        "result": "CHANGBAI LANDSCAPE: PASS | checks=25 | trees=680",
+        "sha256": "2b79c026b4e5847592adf6e2086651a1d06632ab04fed28f2bb713d943455743"
+      },
+      {
+        "name": "opening-checks/courtyard_controls/run.log",
+        "result": "COURTYARD CONTROLS: PASS | checks=77",
+        "sha256": "81c63e4b86370f6b38aac26d9981cbfe7d80cb25c39cffe73f914918f44227eb"
+      },
+      {
+        "name": "opening-checks/dialogue_motion/run.log",
+        "result": "DIALOGUE MOTION: PASS | checks=5",
+        "sha256": "dedba8831de83b9985a74d1a60e2b99aa259401e51b46e825d127c80652a312c"
+      },
+      {
+        "name": "opening-checks/first_level_rebuild/run.log",
+        "result": "FIRST LEVEL REBUILD: PASS | checks=125",
+        "sha256": "7dda7a14b25599ab75ca57f49d234a7f64a511f956ae90b317b278b451f6c778"
+      },
+      {
+        "name": "opening-checks/linear_boundaries/run.log",
+        "result": "LINEAR BOUNDARIES: PASS | checks=63",
+        "sha256": "97ed9114979a609a98504095201b934bbea9bf8bad5aa8b77bc56b532029b336"
+      },
+      {
+        "name": "opening-checks/opening/run.log",
+        "result": "OPENING RESULT: 41/41 passed",
+        "sha256": "6e94e258c7fa09eccdf6df9ef38d5b533c81e9be1f9625cbbbe25921e24818e3"
+      },
+      {
+        "name": "opening-checks/polish_revision/run.log",
+        "result": "POLISH REVISION: PASS | checks=30",
+        "sha256": "4a0add7455d7a4b155f6b18b3e9bb5b0b6639e598711051f99f79bf1dd9786d5"
+      },
+      {
+        "name": "opening-checks/river_journey/run.log",
+        "result": "RIVER JOURNEY: PASS | checks=60",
+        "sha256": "29a6a833fa0501d7e8dfc39fa55b3f48ff690ea5d97dc9da04293e82f8455216"
+      },
+      {
+        "name": "opening-checks/s22_tianchi_access/run.log",
+        "result": "S22 TIANCHI ACCESS: PASS | checks=9",
+        "sha256": "5ffe99a04059b00699cf65e4bdbf9d3066f67482891d87b0ae4191303bb276d6"
+      },
+      {
+        "name": "opening-checks/s25_handoff/run.log",
+        "result": "S25 HANDOFF: PASS | checks=10",
+        "sha256": "18f43a00ed6a11e38fd12394f869a2e0a1a99feee1fea50d2037e0ac8c95d094"
+      },
+      {
+        "name": "opening-checks/s30_audio_mix/run.log",
+        "result": "S30 AUDIO MIX: PASS | checks=28",
+        "sha256": "e064fa6610ffd0a37d265562f5bfc1a63a752f056f96f9458103f9558251d8f1"
+      },
+      {
+        "name": "opening-checks/s31_voice_integration/run.log",
+        "result": "S31 VOICE INTEGRATION: PASS | checks=53",
+        "sha256": "83d4ca4e314f3c37f2a8d48f2434b2b49807b90b91fa100fa9aaae0903914c44"
+      },
+      {
+        "name": "opening-checks/s32_history_formal/run.log",
+        "result": "S32 HISTORY FORMAL: PASS | checks=29",
+        "sha256": "86c1119c5b91a72b327d2e6e326e0191995523448a8e1de5dd3669b1de1d6220"
+      },
+      {
+        "name": "opening-checks/s33_task_formal/run.log",
+        "result": "S33 TASK FORMAL: PASS | checks=14",
+        "sha256": "6222e2b5e40f9d5eb752c9be403285f6ef0741e8cfa0eb0601d09d448b72cc52"
+      },
+      {
+        "name": "opening-checks/s34_state_matrix/run.log",
+        "result": "S34 STATE MATRIX: PASS | checks=14 rows=9",
+        "sha256": "89641746e9dcdcca396ec8e796a798efa7a8a7edc99039642f948838ea23cb15"
+      },
+      {
+        "name": "opening-checks/s36_departure_review/run.log",
+        "result": "S36 DEPARTURE: PASS | samples=21",
+        "sha256": "60d947fc114fae0bfd3d062137f6d57d0743aebd721c643df05b024991f2d329"
+      },
+      {
+        "name": "opening-checks/settlement_revision/run.log",
+        "result": "SETTLEMENT REVISION: PASS | checks=38",
+        "sha256": "133c8adf705915e7d2a887481834a341a791bc5c60c1860ad47c44d6820f9aa5"
+      },
+      {
+        "name": "opening-checks/straight_charge/run.log",
+        "result": "STRAIGHT CHARGE: PASS | checks=27",
+        "sha256": "1ae1279007f2cd982457585ede30a78a9e8be6faf5e41abbcd249a2e04f6319c"
+      },
+      {
+        "name": "opening-checks/user_audio_20261015/run.log",
+        "result": "USER AUDIO: PASS | checks=26",
+        "sha256": "406a33a4fccd1191c70805222eef90cd4f8bcad3754dea6ede003387e9016817"
+      },
+      {
+        "name": "opening-checks/user_expansion/run.log",
+        "result": "USER EXPANSION: PASS | checks=42",
+        "sha256": "d622fe40e174b9f19156aa0fff9c9573505296b3ea9c5d48cbea5704221ba2f9"
+      },
+      {
+        "name": "opening-checks/user_revision_20261015/run.log",
+        "result": "USER REVISION: PASS 61/61",
+        "sha256": "b782b145f30733df7bfb2e1c8d2c1d6d36fa0c3281ba6c857b8a4681f529a705"
+      },
+      {
+        "name": "opening-checks/user_sfx_20261015/run.log",
+        "result": "USER SFX RESULT: PASS | 31/31",
+        "sha256": "6a87532c35afa09b69cab1f5864c9343924f904c005b3e29778236064e301427"
+      },
+      {
+        "name": "opening-checks/world_revision/run.log",
+        "result": "WORLD REVISION: PASS | checks=45",
+        "sha256": "51e4af477704dfe8d6df24672a24c273d02ab8fb537652f9c567efaf21c746e4"
+      }
+    ]
+  },
+  "release": {
+    "groups": 31,
+    "passed": true,
+    "results": [
+      {
+        "name": "character-model.log",
+        "result": "CHARACTER MODEL RESULT: 59/59 passed",
+        "sha256": "22c9cfcee3a4704becf5e2d9f99942cd6d6a1ae08459bebc836af5a19f8262ff"
+      },
+      {
+        "name": "combat-route.log",
+        "result": "ACTIVE COMBAT ROUTE: PASS | health=100.0 | guards defeated=37 | elapsed=469.566666666568 | state=won",
+        "sha256": "1f49563dc75de18c9656f181ac4875dc941d5b35ba596c7495b0b047a778269f"
+      },
+      {
+        "name": "integration.log",
+        "result": "SMOKE RESULT: 108/108 passed",
+        "sha256": "ed8ff081e259b87730733d243d51ca5f56bfbe486739da38498a6329d4f666f5"
+      },
+      {
+        "name": "linear-route.log",
+        "result": "LINEAR ROUTE RESULT: 38/38 passed",
+        "sha256": "12ca2d3d43bd18f7c5e26aec3104bbd3f275914faa2ffeebe9e3a8da4c8ef92b"
+      },
+      {
+        "name": "story-moments.log",
+        "result": "STORY MOMENTS RESULT: 11/11 passed",
+        "sha256": "53be442e1fb66f4789780a5c7e2bf81d9459e3a796b31200a307cefc46e5e208"
+      },
+      {
+        "name": "visual-motion.log",
+        "result": "VISUAL MOTION RESULT: 51/51 passed",
+        "sha256": "7968a11b1d2f896e35d048a41f3cebba757cfae8fe876d94173a6b07306322be"
+      },
+      {
+        "name": "opening-checks/audio_settings/run.log",
+        "result": "AUDIO SETTINGS: PASS | checks=34",
+        "sha256": "03aaddec9d59a4dcf3512b16450077d7455b3df555d2892f8e5703f94c71164a"
+      },
+      {
+        "name": "opening-checks/bayonet_encounter/run.log",
+        "result": "BAYONET ENCOUNTER: PASS 31/31",
+        "sha256": "ead5b701c4db9aa2d8f8689b2a9c94fc49690a8d8a56363832f2e713a7e0ccfd"
+      },
+      {
+        "name": "opening-checks/changbai_landscape/run.log",
+        "result": "CHANGBAI LANDSCAPE: PASS | checks=25 | trees=680",
+        "sha256": "2b79c026b4e5847592adf6e2086651a1d06632ab04fed28f2bb713d943455743"
+      },
+      {
+        "name": "opening-checks/courtyard_controls/run.log",
+        "result": "COURTYARD CONTROLS: PASS | checks=77",
+        "sha256": "81c63e4b86370f6b38aac26d9981cbfe7d80cb25c39cffe73f914918f44227eb"
+      },
+      {
+        "name": "opening-checks/dialogue_motion/run.log",
+        "result": "DIALOGUE MOTION: PASS | checks=5",
+        "sha256": "dedba8831de83b9985a74d1a60e2b99aa259401e51b46e825d127c80652a312c"
+      },
+      {
+        "name": "opening-checks/first_level_rebuild/run.log",
+        "result": "FIRST LEVEL REBUILD: PASS | checks=125",
+        "sha256": "7dda7a14b25599ab75ca57f49d234a7f64a511f956ae90b317b278b451f6c778"
+      },
+      {
+        "name": "opening-checks/linear_boundaries/run.log",
+        "result": "LINEAR BOUNDARIES: PASS | checks=63",
+        "sha256": "97ed9114979a609a98504095201b934bbea9bf8bad5aa8b77bc56b532029b336"
+      },
+      {
+        "name": "opening-checks/opening/run.log",
+        "result": "OPENING RESULT: 41/41 passed",
+        "sha256": "6e94e258c7fa09eccdf6df9ef38d5b533c81e9be1f9625cbbbe25921e24818e3"
+      },
+      {
+        "name": "opening-checks/polish_revision/run.log",
+        "result": "POLISH REVISION: PASS | checks=30",
+        "sha256": "4a0add7455d7a4b155f6b18b3e9bb5b0b6639e598711051f99f79bf1dd9786d5"
+      },
+      {
+        "name": "opening-checks/river_journey/run.log",
+        "result": "RIVER JOURNEY: PASS | checks=60",
+        "sha256": "29a6a833fa0501d7e8dfc39fa55b3f48ff690ea5d97dc9da04293e82f8455216"
+      },
+      {
+        "name": "opening-checks/s22_tianchi_access/run.log",
+        "result": "S22 TIANCHI ACCESS: PASS | checks=9",
+        "sha256": "5ffe99a04059b00699cf65e4bdbf9d3066f67482891d87b0ae4191303bb276d6"
+      },
+      {
+        "name": "opening-checks/s25_handoff/run.log",
+        "result": "S25 HANDOFF: PASS | checks=10",
+        "sha256": "18f43a00ed6a11e38fd12394f869a2e0a1a99feee1fea50d2037e0ac8c95d094"
+      },
+      {
+        "name": "opening-checks/s30_audio_mix/run.log",
+        "result": "S30 AUDIO MIX: PASS | checks=28",
+        "sha256": "e064fa6610ffd0a37d265562f5bfc1a63a752f056f96f9458103f9558251d8f1"
+      },
+      {
+        "name": "opening-checks/s31_voice_integration/run.log",
+        "result": "S31 VOICE INTEGRATION: PASS | checks=53",
+        "sha256": "83d4ca4e314f3c37f2a8d48f2434b2b49807b90b91fa100fa9aaae0903914c44"
+      },
+      {
+        "name": "opening-checks/s32_history_formal/run.log",
+        "result": "S32 HISTORY FORMAL: PASS | checks=29",
+        "sha256": "86c1119c5b91a72b327d2e6e326e0191995523448a8e1de5dd3669b1de1d6220"
+      },
+      {
+        "name": "opening-checks/s33_task_formal/run.log",
+        "result": "S33 TASK FORMAL: PASS | checks=14",
+        "sha256": "6222e2b5e40f9d5eb752c9be403285f6ef0741e8cfa0eb0601d09d448b72cc52"
+      },
+      {
+        "name": "opening-checks/s34_state_matrix/run.log",
+        "result": "S34 STATE MATRIX: PASS | checks=14 rows=9",
+        "sha256": "89641746e9dcdcca396ec8e796a798efa7a8a7edc99039642f948838ea23cb15"
+      },
+      {
+        "name": "opening-checks/s36_departure_review/run.log",
+        "result": "S36 DEPARTURE: PASS | samples=21",
+        "sha256": "60d947fc114fae0bfd3d062137f6d57d0743aebd721c643df05b024991f2d329"
+      },
+      {
+        "name": "opening-checks/settlement_revision/run.log",
+        "result": "SETTLEMENT REVISION: PASS | checks=38",
+        "sha256": "133c8adf705915e7d2a887481834a341a791bc5c60c1860ad47c44d6820f9aa5"
+      },
+      {
+        "name": "opening-checks/straight_charge/run.log",
+        "result": "STRAIGHT CHARGE: PASS | checks=27",
+        "sha256": "1ae1279007f2cd982457585ede30a78a9e8be6faf5e41abbcd249a2e04f6319c"
+      },
+      {
+        "name": "opening-checks/user_audio_20261015/run.log",
+        "result": "USER AUDIO: PASS | checks=26",
+        "sha256": "406a33a4fccd1191c70805222eef90cd4f8bcad3754dea6ede003387e9016817"
+      },
+      {
+        "name": "opening-checks/user_expansion/run.log",
+        "result": "USER EXPANSION: PASS | checks=42",
+        "sha256": "d622fe40e174b9f19156aa0fff9c9573505296b3ea9c5d48cbea5704221ba2f9"
+      },
+      {
+        "name": "opening-checks/user_revision_20261015/run.log",
+        "result": "USER REVISION: PASS 61/61",
+        "sha256": "b782b145f30733df7bfb2e1c8d2c1d6d36fa0c3281ba6c857b8a4681f529a705"
+      },
+      {
+        "name": "opening-checks/user_sfx_20261015/run.log",
+        "result": "USER SFX RESULT: PASS | 31/31",
+        "sha256": "6a87532c35afa09b69cab1f5864c9343924f904c005b3e29778236064e301427"
+      },
+      {
+        "name": "opening-checks/world_revision/run.log",
+        "result": "WORLD REVISION: PASS | checks=45",
+        "sha256": "51e4af477704dfe8d6df24672a24c273d02ab8fb537652f9c567efaf21c746e4"
+      }
+    ]
+  },
+  "presentation": {
+    "captures": [
+      "street-standing",
+      "street-crouched",
+      "courtyard-door",
+      "courtyard-lean",
+      "courtyard-passage",
+      "settings-bindings",
+      "opening-village",
+      "opening-courtyards"
+    ],
+    "passed": true,
+    "viewport": "(1280, 720)"
+  },
+  "small_presentation": {
+    "captures": [
+      "street-standing",
+      "street-crouched",
+      "courtyard-door",
+      "courtyard-lean",
+      "courtyard-passage",
+      "settings-bindings",
+      "opening-village",
+      "opening-courtyards"
+    ],
+    "passed": true,
+    "viewport": "(960, 540)"
+  },
+  "rendered_world": {
+    "checks": 54,
+    "failures": [],
+    "near_trees": 180,
+    "passed": true,
+    "renderer": "Windows",
+    "village_props": 42
+  },
+  "rendered_combat": "ACTIVE COMBAT ROUTE: PASS | health=100.0 | guards defeated=37 | elapsed=469.566666666568 | state=won",
+  "protected_files": 128,
+  "protected_changes": 0,
+  "captures": [
+    {
+      "file": "street-standing.png",
+      "sha256": "3b91ec5be0fc8930f649f5cd76df47f57e362de40e58c1cf6eea7a076c51ea0e"
+    },
+    {
+      "file": "street-crouched.png",
+      "sha256": "adc1dd6f8e8b58dbfd8018b1697ea19c69bf059937437cc02887dce194616267"
+    },
+    {
+      "file": "courtyard-lean.png",
+      "sha256": "227f62fba1e53b7dbe0b55d3f1e33ae4ae18e775a70f75b0f777bd1129c743c3"
+    },
+    {
+      "file": "opening-village.png",
+      "sha256": "ad79de725e02a9ed74019d41369174b4147c4c752581a714d42bb4ca912711f2"
+    },
+    {
+      "file": "settings-bindings.png",
+      "sha256": "7f5e4be5616b2dade26ccbb871d28b509bbd2a172291ab97bab87f0cce57354d"
+    },
+    {
+      "file": "telegraph.png",
+      "sha256": "a5c8454659b125198351800703ea45f2513fcfe456089b84226b9a20478b16c7"
+    },
+    {
+      "file": "ferry.png",
+      "sha256": "7618e99bb7a7320030985988793dde6a2d1b11e14a477caa6f88c6a857047a9b"
+    }
+  ],
+  "pack_sha256": "cb08eea5f35ea686d422d1781e1ce8759d99f407741b24c14db7b61447e0852b",
+  "limitations": [
+    "Automatic aim does not assess human difficulty.",
+    "Continuous art, acting, audio listening and other hardware remain pending."
+  ]
+}

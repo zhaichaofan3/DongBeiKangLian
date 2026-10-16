@@ -35,6 +35,7 @@ func _run() -> void:
 	main.start_new()
 	main.set_process(false)
 	main.village._arrive()
+	main.message_timer = 0
 	main.village.set_process(false)
 	for guard in main.guards: guard.set_physics_process(false)
 	for npc in main.story.people.values(): npc.set_physics_process(false)

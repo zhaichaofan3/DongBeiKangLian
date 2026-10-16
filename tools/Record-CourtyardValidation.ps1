@@ -46,6 +46,17 @@ foreach ($name in @('run.log', 'presentation.json')) {
 }
 $presentation = Get-Content (Join-Path $report 'render-presentation.json') -Raw | ConvertFrom-Json
 if (-not $presentation.passed) { throw 'Release presentation failed.' }
+$smallPresentation = Get-Content (Join-Path $root 'docs\validation\courtyard-release-render-960\presentation.json') -Raw | ConvertFrom-Json
+if (-not $smallPresentation.passed) { throw 'Small-window release presentation failed.' }
+Copy-Item -LiteralPath (Join-Path $root 'docs\validation\courtyard-release-render-960\run.log') -Destination (Join-Path $report 'render-960.log') -Force
+$worldRender = Get-Content (Join-Path $root 'docs\validation\courtyard-release-world\validation.json') -Raw | ConvertFrom-Json
+if (-not $worldRender.passed) { throw 'Rendered world revision failed.' }
+Copy-Item -LiteralPath (Join-Path $root 'docs\validation\courtyard-release-world\run.log') -Destination (Join-Path $report 'render-world.log') -Force
+foreach ($name in @('telegraph', 'ferry')) {
+    $path = Join-Path $root "docs\validation\courtyard-release-world\$name.png"
+    Copy-Item -LiteralPath $path -Destination (Join-Path $report "$name.png") -Force
+    $captures += [ordered]@{ file = "$name.png"; sha256 = (Get-FileHash -LiteralPath $path).Hash.ToLowerInvariant() }
+}
 $renderCombat = Join-Path $root 'docs\validation\courtyard-release-render\combat-route.log'
 $combatContent = Get-Content -LiteralPath $renderCombat -Raw
 if ($combatContent -notmatch 'ACTIVE COMBAT ROUTE: PASS' -or $combatContent -match '(?m)^(SCRIPT ERROR|ERROR):') { throw 'Rendered release combat failed.' }
@@ -59,6 +70,8 @@ $record = [ordered]@{
     source = $source
     release = $release
     presentation = $presentation
+    small_presentation = $smallPresentation
+    rendered_world = $worldRender
     rendered_combat = ($combatContent -split "`n" | Where-Object { $_ -match '^ACTIVE COMBAT ROUTE:' } | Select-Object -Last 1).Trim()
     protected_files = $protected.Count
     protected_changes = 0
