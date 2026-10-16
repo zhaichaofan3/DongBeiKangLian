@@ -15,7 +15,9 @@ tools/Godot-*/
 tools/blender-*-windows-x64/
 tools/asset_python/
 tools/downloads/
-/Release/
+Release/
+!docs/courtyard_revision_20261016/release/
+!docs/courtyard_revision_20261016/release/**
 ReleaseBackups/
 WorkBackups/
 RestoreChecks/
