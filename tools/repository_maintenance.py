@@ -104,11 +104,38 @@ def backup_plan():
     print(json.dumps({"retained": latest, "directories_to_remove": len(items), "GiB_to_remove": round(plan["bytes_to_remove"] / 2**30, 3)}, ensure_ascii=False))
 
 
+def temporary_plan():
+    target = ROOT / '.publish'
+    size = sum(path.stat().st_size for path in target.rglob('*') if path.is_file()) if target.exists() else 0
+    plan = dict(items=[dict(path='.publish', bytes=size, reason='Verified remote release and fresh-clone temporary data; results retained as text')])
+    (REPORT / 'temporary-plan.json').write_text(json.dumps(plan, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(dict(temporary_GiB=round(size/2**30, 3))))
+
+
+def summary():
+    before = json.loads((REPORT / 'before.json').read_text(encoding='utf-8'))
+    after = json.loads((REPORT / 'final.json').read_text(encoding='utf-8'))
+    operations = [json.loads(line) for line in (REPORT / 'deletions.jsonl').read_text(encoding='utf-8-sig').splitlines() if line.strip()]
+    result = dict(before_bytes=before['bytes'], final_working_bytes=after['bytes'], git_bytes=after['git_bytes'],
+                  final_total_bytes=after['total_bytes_including_git'],
+                  working_bytes_removed=before['bytes']-after['bytes'],
+                  net_bytes_freed_including_git=before['bytes']-after['total_bytes_including_git'],
+                  net_reduction_percent=round((1-after['total_bytes_including_git']/before['bytes'])*100, 2),
+                  deletion_operations=len(operations), removed_old_checkpoint_directories=sum(item['path'].startswith('WorkBackups/') for item in operations),
+                  retained_full_recovery_points=1, scan_errors=after['errors'])
+    (REPORT / 'cleanup-result.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(result))
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("label")
     label = parser.parse_args().label
     if label == "backup-plan":
         backup_plan()
+    elif label == 'temporary-plan':
+        temporary_plan()
+    elif label == 'summary':
+        summary()
     else:
         inventory(label)

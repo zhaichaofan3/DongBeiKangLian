@@ -181,6 +181,11 @@ def release():
     if len(files) != 2:
         raise RuntimeError('Run package first; expected one ZIP and its SHA-256 file')
     assets = [upload_asset(item, path) for path in files]
+    for path, asset in zip(files, assets):
+        with path.open('rb') as source:
+            expected = 'sha256:' + hashlib.file_digest(source, 'sha256').hexdigest()
+        if asset['size'] != path.stat().st_size or (asset.get('digest') and asset['digest'] != expected):
+            raise RuntimeError('Uploaded release asset does not match local bytes: ' + path.name)
     item = api('/repos/' + REPOSITORY + '/releases/' + str(item['id']), method='PATCH', data=dict(draft=False))
     result = dict(url=item['html_url'], tag=TAG, target_commit=commit,
                   assets=[dict(name=a['name'], bytes=a['size'], url=a['browser_download_url'], digest=a.get('digest')) for a in assets])
