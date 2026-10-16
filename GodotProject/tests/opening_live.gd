@@ -32,7 +32,7 @@ func _run() -> void:
 		"all_shots":main.opening.seen_shots, "all_cues":main.opening.seen_cues,
 		"mission_isolated":isolated, "handoffs":main.opening.handoff_count,
 		"ended_playing":main.mode=="playing", "briefed":main.story.met_scout,
-		"all_passed":not main.opening.active and main.mode=="playing" and main.opening.handoff_count==1 and main.opening.seen_shots.size()==27 and main.opening.seen_cues.size()==31 and isolated and main.story.met_scout and absf(elapsed_sim-148.48)<.15
+		"all_passed":not main.opening.active and main.mode=="playing" and main.opening.handoff_count==1 and main.opening.seen_shots.size()==28 and main.opening.seen_cues.size()==31 and isolated and main.story.met_scout and absf(elapsed_sim-148.48)<.15
 	}
 	var directory := OS.get_environment("FENGHUO_OPENING_EVIDENCE")
 	if not directory.is_empty():

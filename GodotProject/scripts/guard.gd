@@ -127,7 +127,7 @@ func _physics_process(delta: float) -> void:
 		# The first shot warns; subsequent deliberate shots alternate with
 		# suppression. Extra guards add pressure without six perfect hits at once.
 		var aimed_hit := shots_fired % (3 if distance > 12.0 else 2) == 0
-		var shot_target := player_position + Vector3.UP * 1.2
+		var shot_target: Vector3 = main.player.exposed_target()
 		if not aimed_hit:
 			var side := (player_position - global_position).cross(Vector3.UP).normalized()
 			shot_target += side * (0.8 if shots_fired % 2 == 0 else -0.8) + Vector3.UP * 0.25
@@ -139,16 +139,16 @@ func can_see_player() -> bool:
 	if main.linear != null and not main.linear.can_guard_act(guard_id):
 		return false
 	var origin := global_position + Vector3.UP * 1.45
-	var target: Vector3 = main.player.global_position + Vector3.UP * 1.25
+	var target: Vector3 = main.player.exposed_target()
 	var direction := target - origin
 	if direction.length() > 28:
 		return false
 	if state == "patrol" and direction.length() > 4 and -global_basis.z.dot(direction.normalized()) < 0.25:
 		return false
-	var query := PhysicsRayQueryParameters3D.create(origin, target, 1 | 2 | 8)
+	var query := PhysicsRayQueryParameters3D.create(origin, target, 1 | 8)
 	query.exclude = [get_rid()]
 	var hit := get_world_3d().direct_space_state.intersect_ray(query)
-	return not hit.is_empty() and hit.collider == main.player
+	return hit.is_empty()
 
 func hear_shot(location: Vector3) -> void:
 	if main.linear != null and not main.linear.can_guard_act(guard_id):

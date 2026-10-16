@@ -243,7 +243,7 @@ func start_new() -> void:
 	world.set_power(true)
 	_save_checkpoint()
 	resume()
-	notify("林道前方是侦察员姜岚。靠近后按 E 交谈。J 查看行动记录。", 7)
+	notify("林道前方是侦察员姜岚。靠近后按 F 交谈。J 查看行动记录。", 7)
 
 func start_with_opening() -> void:
 	start_new()
@@ -339,9 +339,9 @@ func interaction_prompt() -> String:
 		return route_prompt
 	var at_evac := stage == 2 and can_reach(EVAC, 3.0)
 	if at_evac and story.ready_to_leave():
-		return "E  与陆山一起撤离"
+		return "F  与陆山一起撤离"
 	if story.met_scout and stage < 2 and can_reach([BOOK, POWER][stage], 2.3):
-		return ["E  取回搜山名册", "E  拉下总闸"][stage]
+		return ["F  取回搜山名册", "F  拉下总闸"][stage]
 	var item: Dictionary = story.candidate()
 	if not item.is_empty():
 		return item.text
@@ -351,7 +351,7 @@ func interaction_prompt() -> String:
 		return ""
 	if not can_reach([BOOK, POWER, EVAC, EVAC][stage], 2.3):
 		return ""
-	return ["E  取回搜山名册", "E  拉下总闸", "E  一起撤离"][stage]
+	return ["F  取回搜山名册", "F  拉下总闸", "F  一起撤离"][stage]
 
 func can_reach(target: Vector3, distance: float) -> bool:
 	var origin := player.position + Vector3.UP * 1.2
@@ -877,7 +877,7 @@ func elapsed_text() -> String:
 	return "%02d:%02d" % [int(elapsed) / 60, int(elapsed) % 60]
 
 func _configure_input() -> void:
-	var keys := {"move_forward": KEY_W, "move_back": KEY_S, "move_left": KEY_A, "move_right": KEY_D, "sprint": KEY_SHIFT, "crouch": KEY_CTRL, "jump": KEY_SPACE, "reload": KEY_R, "interact": KEY_E, "weapon_1": KEY_1, "weapon_2": KEY_2, "pause": KEY_ESCAPE, "journal": KEY_J, "heal": KEY_Q, "performance_overlay": KEY_F3}
+	var keys := {"move_forward": KEY_W, "move_back": KEY_S, "move_left": KEY_A, "move_right": KEY_D, "sprint": KEY_SHIFT, "crouch": KEY_C, "crouch_hold": KEY_CTRL, "lean_left": KEY_Q, "lean_right": KEY_E, "jump": KEY_SPACE, "reload": KEY_R, "interact": KEY_F, "weapon_1": KEY_1, "weapon_2": KEY_2, "pause": KEY_ESCAPE, "journal": KEY_J, "heal": KEY_H, "performance_overlay": KEY_F3}
 	for action in keys:
 		if InputMap.has_action(action):
 			InputMap.erase_action(action)

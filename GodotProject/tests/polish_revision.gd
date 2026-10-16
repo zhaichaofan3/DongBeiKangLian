@@ -96,7 +96,7 @@ func _run() -> void:
 	var walk_ok := true
 	var camera_start := Vector3.ZERO
 	for i in 51:
-		opening.preview_at("A", 27.74 + i * 0.099)
+		opening.preview_at("A", 30.24 + i * 0.049)
 		if i == 0: camera_start = opening.camera.position
 		for id in ["ally1", "ally2"]:
 			var actor = opening.actors[id]

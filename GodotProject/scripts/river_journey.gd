@@ -34,7 +34,7 @@ func initialize(owner_node: Node3D, owner_director: Node) -> void:
 	stage = Node3D.new()
 	stage.position = Vector3(600,0,600)
 	add_child(stage)
-	var river: Node3D = main.world.build_supplied_river(Vector3(-17,0,-35))
+	var river: Node3D = main.world.build_supplied_river(Vector3(-17,0,85))
 	river.reparent(stage,false)
 	river.scale.z = 2
 	var dock: Node3D = main.world.build_supplied_dock(Vector3(-28,0,0))
@@ -56,8 +56,8 @@ func initialize(owner_node: Node3D, owner_director: Node) -> void:
 	stage.add_child(greeter)
 	greeter.global_position = Forest.SCOUT
 	_build_banks()
-	for point in [Vector3(-18.9,0,12.7),Vector3(-16,0,-20),Vector3(-20,0,-48),Vector3(-21,0,-77)]:
-		route.add_point(point,Vector3(-1.2,0,5),Vector3(1.2,0,-5))
+	for point in [Vector3(-18.9,0,13.7),Vector3(-14,0,34),Vector3(-20,0,63),Vector3(-21,0,91)]:
+		route.add_point(point,Vector3(0,0,-4),Vector3(0,0,4))
 	camera = Camera3D.new()
 	camera.fov = 58
 	camera.environment = main.world.village_world.environment
@@ -112,11 +112,11 @@ func initialize(owner_node: Node3D, owner_director: Node) -> void:
 
 func _build_banks() -> void:
 	for side in [-1,1]:
-		var body: Node3D = main.world.box("渡河镜头林岸",Vector3(side*41-17,-.8,-55),Vector3(32,1.2,320),"mud",false)
+		var body: Node3D = main.world.box("渡河镜头林岸",Vector3(side*41-17,-.8,85),Vector3(32,1.2,320),"mud",false)
 		body.reparent(stage,false)
 		for i in 84:
 			var tree := (load("res://assets/environment/landscape/far_pine.glb") as PackedScene).instantiate() as Node3D
-			tree.position = Vector3(side*(29+i%4*3)-17,-.2,40-i*3.1)
+			tree.position = Vector3(side*(29+i%4*3)-17,-.2,-30+i*3.1)
 			tree.scale = Vector3.ONE*(1.6+(i%5)*.18)
 			tree.rotation.y = i*2.1
 			stage.add_child(tree)
@@ -128,14 +128,14 @@ func sample(time: float, delta: float) -> void:
 	var location := route.sample_baked(boat_distance,true)
 	var next := route.sample_baked(minf(route.get_baked_length(),boat_distance+.6),true)
 	var direction := next-location
-	if direction.length_squared()<.001: direction = Vector3(0,0,-1)
+	if direction.length_squared()<.001: direction = Vector3.BACK
 	boat.position = location+Vector3(0,-1.7+sin(at*1.7)*.018,0)
 	boat.rotation = Vector3(sin(at*.8)*.012,atan2(-direction.x,-direction.z),sin(at*1.3)*.018)
 	greeter.visible = at>=27.7
 	if at>=27.7:
 		var arriving := smoothstep(27.7,31,at)
-		boat.global_position = Vector3(1220,-1.7,452).lerp(Vector3(1214,-1.7,439.6),arriving)
-		boat.rotation.y = lerp_angle(-.5,0,arriving)
+		boat.global_position = Vector3(1202,-1.7,443.5).lerp(Vector3(1214,-1.7,440.4),arriving)
+		boat.rotation.y = lerp_angle(-PI*.5,0,arriving)
 	_board_actor(courier,at,1,5.5,Vector3(-19,.06,6.8),Vector3(.15,.2,-.72),delta)
 	_board_actor(rower,at,3,7.7,Vector3(-19,.06,4.9),Vector3(-.15,.2,.65),delta)
 	if at>=31:
@@ -148,10 +148,10 @@ func sample(time: float, delta: float) -> void:
 		_camera(stage.to_global(Vector3(-9,3.4,20)),stage.to_global(Vector3(-19,-.1,10)),58)
 	elif at<17:
 		shot_id = "river-wide"
-		_camera(boat.global_position+Vector3(11,6.3,12),boat.global_position+Vector3(0,.8,-2),55)
+		_camera(boat.global_position+Vector3(11,6.3,-12),boat.global_position+Vector3(0,.8,2),55)
 	elif at<27.7:
 		shot_id = "river-onboard"
-		_camera(boat.global_position+Vector3(4.4,2.1,3.5),boat.global_position+Vector3(0,1.1,-.35),59)
+		_camera(boat.global_position+Vector3(4.4,2.1,-3.5),boat.global_position+Vector3(0,1.1,.35),59)
 	else:
 		shot_id = "landing"
 		_camera(Vector3(1222,3.6,445),Vector3(1214,.3,433),59)

@@ -144,6 +144,9 @@ func _forest_roads() -> void:
 		_prop("pine_sapling_small",at,Vector3(1.4,2.7,1.4),at.z,"林缘幼松",false,"",45)
 
 func _office_edge() -> void:
+	for z in [-15,0,34,53,76,94]:
+		for x in [136,154,176]:
+			tree_sites.append(Vector4(x+sin(z)*2,-.25,z+cos(x)*3,11+sin(x+z)*2))
 	_logs(Vector3(36.9,0,57),3.2,3,PI*.5,"电报房冬用柴垛")
 	_prop("wine_barrel_01",Vector3(37,0,52.5),Vector3(.7,.95,.7),.2,"房侧储水桶")
 	_prop("wooden_crate_01",Vector3(37.1,0,50.9),Vector3(.85,.65,.7),-.12,"房侧日用箱")

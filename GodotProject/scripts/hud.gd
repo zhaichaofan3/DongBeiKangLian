@@ -196,7 +196,7 @@ func _process(delta: float) -> void:
 	if subtitle.text.is_empty() and main.message_timer > 0:
 		subtitle.text = main.message
 	var player = main.player
-	health.text = "生命 %03d  ·  绷带 %d [Q]  ·  记录 [J]" % [int(player.health), main.story.bandages]
+	health.text = "生命 %03d  ·  绷带 %d [H]  ·  记录 [J]" % [int(player.health), main.story.bandages]
 	ammo.text = "%s\n%02d / %02d" % [player.WEAPONS[player.weapon_index].name, player.magazines[player.weapon_index], player.reserves[player.weapon_index]]
 	if player.reload_timer > 0:
 		ammo.text += "  装填中"
@@ -485,7 +485,7 @@ func _show_settings() -> void:
 	stats.toggled.connect(func(value: bool): main.presentation.change("show_stats", value))
 	toggles.add_child(stats)
 	var bindings := _label(settings_panel, 15, Color("c7dcda"))
-	bindings.text = "移动 WASD · 冲刺 Shift · 蹲伏 Ctrl · 跳跃 Space\n射击 左键 · 瞄准 右键 · 换弹 R · 切枪 1 / 2\n互动 E · 包扎 Q · 记录 J · 暂停 Esc\n对话：点击选项或按 1 / 2 / 3，Esc 暂时离开"
+	bindings.text = "移动 WASD · 冲刺 Shift · 跳跃 Space\n蹲伏 C / Ctrl · 左右探头 Q / E\n射击 左键 · 瞄准 右键 · 换弹 R · 切枪 1 / 2\n互动 F · 包扎 H · 记录 J · 暂停 Esc\n对话：点击选项或按 1 / 2 / 3，Esc 暂时离开"
 	_button("返回", func(): show_menu(main.mode))
 	(settings_panel.find_child("MasterVolume", true, false) as HSlider).grab_focus()
 

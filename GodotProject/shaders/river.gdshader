@@ -1,6 +1,7 @@
 shader_type spatial;
 
 uniform float wave_detail = 1.0;
+uniform vec2 current_direction = vec2(0.0, 1.0);
 varying vec3 river_position;
 
 void vertex() {
@@ -8,7 +9,7 @@ void vertex() {
 }
 
 void fragment() {
-	vec2 p = river_position.xz;
+	vec2 p = river_position.xz - current_direction * TIME * 0.85;
 	float wave_a = sin(p.x * 0.71 + p.y * 1.13 + TIME * 0.65);
 	float wave_b = sin(p.x * 2.1 - p.y * 0.53 + TIME * 0.91);
 	float wave_c = sin(p.x * 8.0 + p.y * 3.5 - TIME * 1.35) * wave_detail;

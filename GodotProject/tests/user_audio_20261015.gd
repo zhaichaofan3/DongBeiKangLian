@@ -101,7 +101,7 @@ func _run() -> void:
 	check(main.mode=="playing" and count_music()==1,"Checkpoint load restores one music stream")
 	var passed:=true
 	for item in checks: passed=passed and item.passed
-	FileAccess.open(evidence.path_join("user-audio.json"),FileAccess.WRITE).store_string(JSON.stringify({"all_passed":passed,"checks":checks,"listening":"pending","history_ms":68180,"history_shots":11,"global_music_default":.22},"  "))
+	FileAccess.open(evidence.path_join("user-audio.json"),FileAccess.WRITE).store_string(JSON.stringify({"all_passed":passed,"checks":checks,"listening":"pending","history_ms":68180,"history_shots":main.opening.data.shots.filter(func(shot): return shot.part=="A").size(),"global_music_default":.22},"  "))
 	for kind in ["AudioStreamPlayer","AudioStreamPlayer3D"]:
 		for sound in main.find_children("*",kind,true,false): sound.stop()
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(main.presentation.settings_path))

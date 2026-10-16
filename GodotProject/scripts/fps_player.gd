@@ -21,6 +21,10 @@ var shot_timer := 0.0
 var recoil := 0.0
 var damage_flash := 0.0
 var crouching := false
+var crouch_latched := false
+var lean := 0.0
+const LEAN_DISTANCE := .4
+var _head_probe := SphereShape3D.new()
 var aiming := false
 var fire_requested := false
 var step_clock := 0.0
@@ -68,6 +72,7 @@ func initialize(owner_node: Node3D, spawn: Vector3) -> void:
 	camera.fov = 78.0
 	camera.near = 0.04
 	camera.current = true
+	_head_probe.radius = .14
 	add_child(camera)
 	model = Node3D.new()
 	model.physics_interpolation_mode = Node.PHYSICS_INTERPOLATION_MODE_OFF
@@ -106,6 +111,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		switch_weapon(1)
 	if event.is_action_pressed("interact"):
 		main.interact()
+	if event is InputEventKey and not event.echo and event.is_action_pressed("crouch"):
+		crouch_latched = not crouch_latched
 
 func _physics_process(delta: float) -> void:
 	if main.mode != "playing":
@@ -117,8 +124,8 @@ func _physics_process(delta: float) -> void:
 	damage_flash = maxf(0.0, damage_flash - delta * 1.8)
 	recoil = move_toward(recoil, 0, delta * 0.12)
 	aiming = Input.is_action_pressed("aim")
-	var requested_crouch := Input.is_action_pressed("crouch")
-	if requested_crouch or _can_stand():
+	var requested_crouch := crouch_latched or Input.is_action_pressed("crouch") or Input.is_action_pressed("crouch_hold")
+	if requested_crouch or not crouching or _can_stand():
 		crouching = requested_crouch
 	(collider.shape as CapsuleShape3D).height = 1.05 if crouching else 1.72
 	collider.position.y = 0.525 if crouching else 0.86
@@ -126,7 +133,7 @@ func _physics_process(delta: float) -> void:
 	var axis := Input.get_vector("move_left", "move_right", "move_forward", "move_back")
 	var direction := (transform.basis * Vector3(axis.x, 0, axis.y)).normalized()
 	var speed := 1.7 if crouching else 3.8
-	if Input.is_action_pressed("sprint") and not crouching and not aiming:
+	if Input.is_action_pressed("sprint") and not crouching and not aiming and absf(lean)<.05:
 		speed = 6.0
 	if aiming:
 		speed *= 0.65
@@ -141,6 +148,7 @@ func _physics_process(delta: float) -> void:
 		velocity.y -= 20.0 * delta
 	_block_wire_edge_climb(delta)
 	move_and_slide()
+	_update_lean(delta)
 	var actual_speed := horizontal_velocity.length()
 	if actual_speed > 0.1 and is_on_floor():
 		walk_clock += delta * actual_speed * 2.0
@@ -165,6 +173,30 @@ func _physics_process(delta: float) -> void:
 		fire()
 	camera.rotation.x = pitch + recoil
 
+func _update_lean(delta: float) -> void:
+	var requested := Input.get_axis("lean_left","lean_right")*LEAN_DISTANCE
+	if Input.is_action_pressed("sprint"): requested = 0
+	lean = move_toward(lean,_safe_lean(requested),delta*2.4)
+	# Movement and key release must obey the same constraint while returning.
+	lean = _safe_lean(lean)
+	camera.position.x = lean
+	camera.rotation.z = -lean/LEAN_DISTANCE*deg_to_rad(11)
+
+func _safe_lean(distance: float) -> float:
+	if is_zero_approx(distance): return 0
+	var query := PhysicsShapeQueryParameters3D.new()
+	query.shape = _head_probe
+	query.transform.origin = global_transform*Vector3(0,camera.position.y,0)
+	query.motion = global_basis.x*distance
+	query.collision_mask = 1 | 4 | 8
+	query.exclude = [get_rid()]
+	var fractions := get_world_3d().direct_space_state.cast_motion(query)
+	return distance*maxf(0,fractions[0]-.04) if not fractions.is_empty() and fractions[0]<1 else distance
+
+func exposed_target() -> Vector3:
+	# Enemies can see the exposed head even when the body stays behind the corner.
+	return camera.global_position-Vector3.UP*.08
+
 func _block_wire_edge_climb(delta: float) -> void:
 	var motion := Vector3(velocity.x,0,velocity.z)
 	if motion.length_squared()<.001: return
@@ -185,6 +217,9 @@ func _process(delta: float) -> void:
 	if not is_instance_valid(main) or not is_instance_valid(model):
 		return
 	if main.mode != "playing":
+		lean = 0
+		camera.position.x = 0
+		camera.rotation.z = 0
 		if main.mode == "dialogue":
 			model.position = model.position.lerp(WeaponVisuals.SAFE_POSITION, 1.0 - exp(-delta * 12))
 			model.rotation = model.rotation.lerp(WeaponVisuals.SAFE_ROTATION, 1.0 - exp(-delta * 12))
@@ -318,9 +353,15 @@ func _envelope(value: float, start: float, rise: float, fall: float, end: float)
 	return smoothstep(start, rise, value) * (1.0 - smoothstep(fall, end, value))
 
 func _can_stand() -> bool:
-	var query := PhysicsRayQueryParameters3D.create(global_position + Vector3.UP * 1.02, global_position + Vector3.UP * 1.8, 1)
+	var shape := CapsuleShape3D.new()
+	shape.radius = .32
+	shape.height = 1.72
+	var query := PhysicsShapeQueryParameters3D.new()
+	query.shape = shape
+	query.transform.origin = global_position+Vector3.UP*.88
+	query.collision_mask = 1 | 4
 	query.exclude = [get_rid()]
-	return get_world_3d().direct_space_state.intersect_ray(query).is_empty()
+	return get_world_3d().direct_space_state.intersect_shape(query,1).is_empty()
 
 func fire() -> void:
 	if main.mode != "playing" or reload_timer > 0 or shot_timer > 0:
@@ -423,6 +464,8 @@ func restore(snapshot: Dictionary) -> void:
 	fire_requested = false
 	aiming = false
 	crouching = false
+	crouch_latched = false
+	lean = 0
 	recoil = 0
 	view_kick = 0.0
 	flash_time = 0.0
@@ -434,6 +477,7 @@ func restore(snapshot: Dictionary) -> void:
 	camera.rotation = Vector3.ZERO
 	camera.fov = 78.0
 	camera.position.y = 1.57
+	camera.position.x = 0
 	(collider.shape as CapsuleShape3D).height = 1.72
 	collider.position.y = 0.86
 	switch_weapon(int(snapshot.weapon))

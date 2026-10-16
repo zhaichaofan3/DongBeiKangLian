@@ -418,6 +418,7 @@ func _build_office() -> void:
 	for mesh: MeshInstance3D in shell.find_children("*", "MeshInstance3D", true, false):
 		mesh.create_trimesh_collision()
 		for shape: CollisionShape3D in mesh.find_children("*","CollisionShape3D",true,false): shape.shape.backface_collision = true
+	_build_office_enclosure()
 	box("电报房门框北",Vector3(41.7,1.55,35.6),Vector3(.22,3.1,1.4),"iron")
 	box("电报房门框南",Vector3(41.7,1.55,40.3),Vector3(.22,3.1,1.2),"iron")
 	for x in range(10, 17):
@@ -433,6 +434,36 @@ func _build_office() -> void:
 	_collision_only_box("电报机", Vector3(54.6, 1.05, 40), Vector3(0.55, 0.34, 0.4), "iron")
 	box("电话柜", Vector3(63.5, 1.0, 29.4), Vector3(1.5, 2.0, 0.8), "wood")
 	box("电源闸", Vector3(63.0, 1.55, 30.2), Vector3(0.6, 0.65, 0.3), "iron")
+
+func _build_office_enclosure() -> void:
+	# The supplied warehouse is a cutaway. Close its skin, keeping the existing
+	# sliding door and the interior mission route at z=38 unobstructed.
+	for entry in [
+		[Vector3(41.25,1.65,30.2),Vector3(.35,3.3,12.4)],
+		[Vector3(41.25,1.65,43.85),Vector3(.35,3.3,8.3)],
+		[Vector3(41.25,3.15,38.05),Vector3(.35,.3,3.3)],
+		[Vector3(66.85,1.65,36),Vector3(.35,3.3,24)],
+		[Vector3(54,1.65,24.15),Vector3(26,3.3,.35)],
+		[Vector3(54,1.65,47.85),Vector3(26,3.3,.35)]]:
+		box("电报房封闭砖墙",entry[0],entry[1],"brick")
+	for x in [41.25,66.85]:
+		var surface := SurfaceTool.new()
+		surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+		for center in [30.0,42.0]:
+			for i in 24:
+				var a := PI*i/24.0
+				var b := PI*(i+1)/24.0
+				for p in [Vector3(x,3.3,center),Vector3(x,3.3+sin(a)*2.94,center+cos(a)*6),Vector3(x,3.3+sin(b)*2.94,center+cos(b)*6)]: surface.add_vertex(p)
+		surface.generate_normals()
+		var gable := MeshInstance3D.new()
+		gable.name = "电报房拱顶封檐"
+		gable.mesh = surface.commit()
+		var mat: StandardMaterial3D = materials.wood.duplicate()
+		mat.cull_mode = BaseMaterial3D.CULL_DISABLED
+		gable.material_override = mat
+		root.add_child(gable)
+		gable.create_trimesh_collision()
+		for shape: CollisionShape3D in gable.find_children("*","CollisionShape3D",true,false): shape.shape.backface_collision = true
 
 func _build_yard() -> void:
 	var crate_positions := [Vector3(14, 0, 62), Vector3(30, 0, 70), Vector3(46, 0, 66), Vector3(46, 0, 54), Vector3(62, 0, 54), Vector3(78, 0, 38)]
@@ -460,11 +491,11 @@ func _build_yard() -> void:
 		box("岗亭柱", Vector3(22, 1.75, z), Vector3(0.3, 3.5, 0.3), "wood")
 
 func _build_river() -> void:
-	var river := build_supplied_river(Vector3(111, 0, 48))
+	var river := build_supplied_river(Vector3(103.7, 0, 48))
 	water = river.find_child("SuppliedRiverWater", true, false) as MeshInstance3D
 	build_supplied_dock(Vector3(76, 0, 14))
 	box("栈桥入岸连接", Vector3(75.6, -.13, 14), Vector3(3.3, .24, 2.4), "wood")
-	_build_boat(Vector3(91, -1.3, 18))
+	_build_boat(Vector3(91, -1.7, 18))
 	for z in range(8, 91, 12):
 		box("江堤柱", Vector3(85.8, 0.8, z), Vector3(0.3, 1.6, 0.3), "wood", false)
 
@@ -477,7 +508,15 @@ func build_supplied_river(at: Vector3, yaw: float = 0) -> Node3D:
 	river.rotation.y = yaw
 	root.add_child(river)
 	for mesh: MeshInstance3D in river.find_children("*", "MeshInstance3D", true, false):
-		if str(mesh.name) == "SuppliedRiverWater": mesh.material_override = materials.water
+		if str(mesh.name) == "SuppliedRiverWater":
+			var material: ShaderMaterial = materials.water.duplicate()
+			var downstream := Basis(Vector3.UP,yaw)*Vector3.BACK
+			material.set_shader_parameter("current_direction",Vector2(downstream.x,downstream.z))
+			mesh.material_override = material
+		elif str(mesh.name) in ["SuppliedRiverBank_2","SuppliedRiverBank_4"]:
+			var bank_material: StandardMaterial3D = materials.mud.duplicate()
+			bank_material.cull_mode = BaseMaterial3D.CULL_DISABLED
+			mesh.material_override = bank_material
 	return river
 
 func build_supplied_dock(at: Vector3, yaw: float = 0) -> Node3D:

@@ -85,7 +85,7 @@ func _run() -> void:
 	main.player.set_collision_mask_value(3, false)
 	check(await _walk_to(Vector3(12, 0.08, 284)), "Walk to scout")
 	main.interact()
-	check(main.mode == "dialogue" and main.story.speaker_id == "scout", "E opens face-to-face conversation")
+	check(main.mode == "dialogue" and main.story.speaker_id == "scout", "Interaction opens face-to-face conversation")
 	var before: Vector3 = main.player.position
 	var health: float = main.player.health
 	Input.action_press("move_forward")
@@ -212,7 +212,7 @@ func _run() -> void:
 	main.player.position = Vector3(76.23, 0.08, 14)
 	await _frames(2)
 	check(main.can_reach(main.EVAC, 3.0) and not main.story.ready_to_leave() and main.story.candidate().get("id") == "lu", "Waiting companion overlaps evacuation interaction range")
-	check(main.interaction_prompt() == "E  与陆山交谈", "Dock prompt offers nearby companion conversation")
+	check(main.interaction_prompt() == "F  与陆山交谈", "Dock prompt offers nearby companion conversation")
 	main.interact()
 	check(main.mode == "dialogue" and main.story.speaker_id == "lu", "Evacuation does not block talking to waiting companion")
 	main.story.choose(0)

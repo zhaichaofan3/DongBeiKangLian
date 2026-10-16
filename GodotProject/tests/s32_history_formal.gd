@@ -61,7 +61,9 @@ func _run() -> void:
 		var capture_path := OS.get_environment("FENGHUO_S32_SNOW_CAPTURE")
 		DirAccess.make_dir_recursive_absolute(capture_path.get_base_dir())
 		check(root.get_texture().get_image().save_png(capture_path) == OK, "A07 snow render capture saved")
-	opening.preview_at("A", 30.2)
+	opening.preview_at("A", 29.0)
+	check(opening.shot_id == "A-09T" and opening.office_showcase_lights.visible and opening.camera.fov == 48,"Opening includes a lit close-up of the telegraph desk within the original narration timing")
+	opening.preview_at("A", 31.4)
 	var support = opening.actors["ally1"]
 	var assisted = opening.actors["ally2"]
 	check(opening.shot_id == "A-10" and support.position.x > 49 and assisted.position.x > 47.7 and support.position.z >= 38, "A10 soldiers walk through the office instead of helping each other")

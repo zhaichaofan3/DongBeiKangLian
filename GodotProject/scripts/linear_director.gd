@@ -90,9 +90,9 @@ func interaction_prompt() -> String:
 	if id.is_empty():
 		return ""
 	if _needs_ammo(id):
-		return "E  从备用弹药箱取 5 发步枪弹"
+		return "F  从备用弹药箱取 5 发步枪弹"
 	if gate_ready(id):
-		return "E  打开%s栅门" % {"checkpoint": "检查口", "yard": "木料巷", "river": "渡口"}[id]
+		return "F  打开%s栅门" % {"checkpoint": "检查口", "yard": "木料巷", "river": "渡口"}[id]
 	if not main.story.met_scout:
 		return "先与姜岚接头"
 	if id == "river":
@@ -140,7 +140,7 @@ func status_text() -> String:
 		return ""
 	if extraction_started and extraction_remaining > 0:
 		if not main.story.people.lu.following:
-			return "靠近陆山按 E，让他继续跟随并解缆。"
+			return "靠近陆山按 F，让他继续跟随并解缆。"
 		if main.player.position.distance_to(main.EVAC) > 10 or main.story.people.lu.position.distance_to(main.EVAC) > 6:
 			return "回到渡口照应陆山，才能继续解缆。"
 		return "掩护陆山解缆  ·  还需 %d 秒\n利用渡口木箱，看住林道入口。" % ceili(extraction_remaining)

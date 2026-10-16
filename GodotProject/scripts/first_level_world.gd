@@ -14,7 +14,9 @@ var cleaned_camp_surfaces: Array[BaseMaterial3D]=[]
 
 func build(world: RefCounted) -> void:
 	_world = weakref(world)
-	w.box("首关山谷地面",Vector3(40,-.3,148),Vector3(220,.6,380),"mud")
+	# Land ends at the west bank; a continuous slab here used to bury the river.
+	w.box("首关山谷地面",Vector3(7.5,-.3,148),Vector3(155,.6,380),"mud")
+	w.box("首关对岸林地",Vector3(177,-.55,48),Vector3(94,.6,200),"mud",false)
 	w.navigation.region = Rect2i(Vector2i.ZERO,w.GRID_SIZE)
 	w.navigation.cell_size = Vector2(w.TILE,w.TILE)
 	w.navigation.offset = Vector2.ONE*w.TILE*.5
@@ -49,7 +51,7 @@ func build(world: RefCounted) -> void:
 	scenery.build(w)
 	_trees()
 	w._sign("青嵐林場",Vector3(33,4,253),0)
-	w._sign("電報房",Vector3(42,3.2,37.5),PI*.5)
+	w._sign("電報房",Vector3(40.99,3.52,38),-PI*.5)
 	w._sign("林溪渡口",Vector3(78,2.6,19),0)
 	for item in [[Vector3(15,1.9,256),"林場 →"],[Vector3(37.5,1.9,202),"木料場 ↑"],[Vector3(55,1.9,181),"木料場 ↑"],[Vector3(37.5,1.9,126),"電報房 ↑"],[Vector3(72,1.9,80),"電報房 ←"],[Vector3(37,1.9,24),"渡口 →"]]:
 		w._route_sign(item[1],item[0],0)
@@ -90,6 +92,9 @@ func _wall(key: String,start: int,end: int) -> void:
 	var vertical := key.begins_with("v")
 	var fixed := float(key.split("_")[1])
 	var at := Vector3(fixed,1.4,(start+end)*.5) if vertical else Vector3((start+end)*.5,1.4,fixed)
+	if vertical and fixed==84 and end<=30:
+		w.box("渡口临水矮石岸",Vector3(fixed,.34,at.z),Vector3(.5,.68,end-start+.25),"stone")
+		return
 	if (at.z>72 and at.z<122) or (at.z>170 and at.z<198) or (vertical and fixed==4):
 		_berm(vertical,fixed,start,end)
 		return

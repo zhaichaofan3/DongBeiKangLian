@@ -1,16 +1,21 @@
 extends RefCounted
-## The supplied settlement retains its authored courtyard and lane positions.
+## Large supplied courtyards form a narrow street with three playable yard detours.
 
-const ORIGIN := Vector3(1100, 0, 180)
 const Forest = preload("res://scripts/forest_approach.gd")
-const START := Vector3(1153, .08, 278)
+const Scenery = preload("res://scripts/village_scenery.gd")
+const START := Vector3(1147, .08, 282)
 const EXIT := Vector3(1147, .08, 24)
-const GATES := [Vector3(1143, 1.4, 182), Vector3(1148, 1.4, 75)]
-const APPROACHES := [Vector3(1143,.08,185), Vector3(1148,.08,78)]
+const GATES := [Vector3(1147, 1.4, 196), Vector3(1147, 1.4, 112)]
+const APPROACHES := [Vector3(1147,.08,199), Vector3(1147,.08,115)]
+const PHASE_STARTS := [START, Vector3(1147,.08,192), Vector3(1147,.08,108)]
+const YARDS := [Vector3(1143.5,.08,204),Vector3(1150.5,.08,148.5),Vector3(1150.5,.08,64.5)]
 const ROUTE_STOPS := [
-	[Vector3(1153,.08,268), Vector3(1152,.08,244), Vector3(1147,.08,219), Vector3(1143,.08,191)],
-	[Vector3(1140,.08,167), Vector3(1141,.08,146), Vector3(1148,.08,123), Vector3(1148,.08,86)],
-	[Vector3(1147,.08,68), Vector3(1147,.08,48), Vector3(1147,.08,29)]]
+	[Vector3(1147,.08,274),Vector3(1147,.08,250),Vector3(1147,.08,225),Vector3(1147,.08,210),
+	Vector3(1147,.08,206),Vector3(1143.5,.08,206),Vector3(1143.5,.08,201),Vector3(1147,.08,201),Vector3(1147,.08,199)],
+	[Vector3(1147,.08,192),Vector3(1147,.08,174),Vector3(1147,.08,156),
+	Vector3(1147,.08,151),Vector3(1150.5,.08,151),Vector3(1150.5,.08,146),Vector3(1147,.08,146),Vector3(1147,.08,118)],
+	[Vector3(1147,.08,108),Vector3(1147,.08,87),Vector3(1147,.08,70),
+	Vector3(1147,.08,67),Vector3(1150.5,.08,67),Vector3(1150.5,.08,62),Vector3(1147,.08,62),Vector3(1147,.08,40),Vector3(1147,.08,29)]]
 const GRID := Vector2i(290, 450)
 const OFFSET := Vector2(990.5,.5)
 var _world: WeakRef
@@ -28,6 +33,10 @@ var tree_count := 0
 var environment: Environment
 var side_wires: Array[StaticBody3D] = []
 var forest := Forest.new()
+var scenery := Scenery.new()
+var road_material: ShaderMaterial
+var courtyard_modules: Array[Node3D] = []
+var street_barricades: Array[StaticBody3D] = []
 
 func build(owner_world: RefCounted) -> void:
 	_world = weakref(owner_world)
@@ -35,31 +44,15 @@ func build(owner_world: RefCounted) -> void:
 	environment.fog_density = .0008
 	environment.fog_height_density = .002
 	container = Node3D.new()
-	container.name = "东北农村_原村落布局"
+	container.name = "东北农村_窄街与院落巷战"
 	world.root.add_child(container)
-	_box("村庄山谷地面", Vector3(1125,-.3,47), Vector3(650,.6,500), "mud")
-	var settlement := (load("res://assets/user_expansion_20261015/village_complete.glb") as PackedScene).instantiate() as Node3D
-	settlement.name = "东北农村完整原场景"
-	settlement.position = ORIGIN
-	container.add_child(settlement)
-	for mesh: MeshInstance3D in settlement.find_children("*", "MeshInstance3D", true, false):
-		mesh.create_trimesh_collision()
-		for shape: CollisionShape3D in mesh.find_children("*", "CollisionShape3D", true, false):
-			if shape.shape is ConcavePolygonShape3D: shape.shape.backface_collision = true
-	var manifest: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://assets/user_expansion_20261015/village-layout.json"))
-	for item in manifest.kept:
-		var lo: Array = item.bounds_cm[0]
-		var hi: Array = item.bounds_cm[1]
-		if hi[0]-lo[0]>2000 and hi[1]-lo[1]>2000 and hi[2]-lo[2]>400: house_count += 1
-	# Only the short gate returns are new opaque masonry. Side lanes are closed
-	# with low wire measured against the source buildings after physics starts.
-	for entry in [
-		[Vector3(1132.5,1.4,182),Vector3(13,2.8,.35)],
-		[Vector3(1148.5,1.4,182),Vector3(3,2.8,.35)],
-		[Vector3(1141.5,1.4,75),Vector3(5,2.8,.35)],
-		[Vector3(1155,1.4,75),Vector3(6,2.8,.35)]]:
-		opaque_wings.append(_box("沿原院墙接出的门垛",entry[0],entry[1],"brick"))
-	for i in 2: gates.append(_box("村内院门_%d" % i,GATES[i],Vector3(8,2.8,.35),"wood"))
+	var ground := _box("村庄山谷地面", Vector3(1125,-.3,47), Vector3(650,.6,500), "mud")
+	ground.get_child(0).material_override = _ground_material(false)
+	_build_courtyards()
+	for i in 2:
+		for span in [[1117.5,1145.3],[1148.7,1176.5]]:
+			opaque_wings.append(_box("院墙关口门垛",Vector3((span[0]+span[1])*.5,1.4,GATES[i].z),Vector3(span[1]-span[0],2.8,.4),"brick"))
+		gates.append(_box("村内院门_%d" % i,GATES[i],Vector3(3.5,2.8,.4),"wood"))
 	_build_lane()
 	_build_perimeter()
 	_build_logging_edge()
@@ -70,13 +63,43 @@ func build(owner_world: RefCounted) -> void:
 	var shore_ramp := _box("栈桥岸边踏板",Vector3(1214,.08,433.3),Vector3(2,.12,2),"wood")
 	shore_ramp.rotation.x = -.14
 	_box("栈桥平台铺板",Vector3(1214,.205,435.55),Vector3(2,.15,3.2),"wood")
-	world._build_boat(Vector3(1214,-1.7,439.6))
-	world._sign("松嶺屯",Vector3(1147,2.4,275),0)
+	world._build_boat(Vector3(1214,-1.7,440.4))
+	world._sign("松嶺屯",Vector3(1147,2.4,281),0)
 	navigation.region = Rect2i(Vector2i.ZERO,GRID)
 	navigation.cell_size = Vector2.ONE
 	navigation.offset = OFFSET
 	navigation.diagonal_mode = AStarGrid2D.DIAGONAL_MODE_NEVER
 	navigation.update()
+
+func _build_courtyards() -> void:
+	var packed := load("res://assets/user_expansion_20261015/village_4.glb") as PackedScene
+	var passage := load("res://assets/user_expansion_20261015/village_passages.glb") as PackedScene
+	for z in [260,218,176,134,92,50]:
+		for side in [-1,1]:
+			var playable: bool = (side<0 and z==218) or (side>0 and z in [134,50])
+			var model := (passage if playable else packed).instantiate() as Node3D
+			model.name = "穿行大院_%d_%d" % [side,z] if playable else "沿街大院_%d_%d" % [side,z]
+			model.position = Vector3(1147+side*13.5,-.1045,z)
+			model.rotation.y = 0 if side<0 else PI
+			container.add_child(model)
+			courtyard_modules.append(model)
+			house_count += 1
+			for mesh: MeshInstance3D in model.find_children("*","MeshInstance3D",true,false):
+				mesh.create_trimesh_collision()
+				for shape: CollisionShape3D in mesh.find_children("*","CollisionShape3D",true,false):
+					shape.shape.backface_collision = true
+	# Narrow gap alleys remain domestic spaces, closed at their outer ends by
+	# visible masonry. Main-street barricades make each opened yard the route.
+	for z in [239,155,71,29]:
+		for span in [[1118.0,1145.3],[1148.7,1176.0]]:
+			_box("相邻院落横巷尽头",Vector3((span[0]+span[1])*.5,1.35,z),Vector3(span[1]-span[0],2.7,.35),"brick")
+	for z in [203.5,148.5,64.5]:
+		street_barricades.append(_box("迫使转入院内的木料封街",Vector3(1147,1.4,z),Vector3(3.6,2.8,.65),"wood"))
+		for x in [1145.65,1148.35]:
+			var brace := _box("封街斜撑",Vector3(x,1.1,z+1),Vector3(.16,2.5,.16),"bark")
+			brace.rotation.x = -.5
+	for at in [Vector3(1145.8,.4,254),Vector3(1148.2,.4,171),Vector3(1145.8,.4,89),Vector3(1148.2,.4,40)]:
+		_box("窄街路旁柴箱掩体",at,Vector3(.85,.8,1.6),"wood")
 
 func _box(title: String, at: Vector3, size: Vector3, material: String) -> StaticBody3D:
 	var body: StaticBody3D = world.box(title,at,size,material)
@@ -88,21 +111,51 @@ func _build_lane() -> void:
 	for section: Array in ROUTE_STOPS:
 		for at: Vector3 in section: points.append(at)
 	points.append(EXIT)
+	var samples: Array[Vector3] = []
+	for i in range(1,points.size()):
+		var count := ceili(points[i-1].distance_to(points[i])/2)
+		for j in count: samples.append(points[i-1].lerp(points[i],float(j)/count))
+	samples.append(points[-1])
+	var edges: Array[Vector3] = []
+	for i in samples.size():
+		var direction := (samples[mini(i+1,samples.size()-1)]-samples[maxi(0,i-1)]).normalized()
+		edges.append(Vector3(direction.z,0,-direction.x)*(1.35+sin(samples[i].z*.51)*.08))
 	var surface := SurfaceTool.new()
 	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for i in range(1,points.size()):
-		var a := points[i-1]
-		var b := points[i]
-		var side := Vector3(b.z-a.z,0,a.x-b.x).normalized()*2.6
-		for p in [a-side,b+side,a+side,a-side,b-side,b+side]: surface.add_vertex(Vector3(p.x,.012,p.z))
+	for i in range(1,samples.size()):
+		var a := samples[i-1]
+		var b := samples[i]
+		var left := edges[i-1]
+		var right := edges[i]
+		var vertices := [a-left,a+left,b+right,a-left,b+right,b-right]
+		for k in 6:
+			var p: Vector3 = vertices[k]
+			surface.set_uv(Vector2([0,1,1,0,1,0][k],p.z*.26))
+			surface.add_vertex(Vector3(p.x,.016,p.z))
 	surface.generate_normals()
 	var road := MeshInstance3D.new()
-	road.name = "顺原村道延伸的泥辙"
+	road.name = "窄街转入院落的泥辙"
 	road.mesh = surface.commit()
-	road.material_override = world.AssetDressing.pbr("muddy_tracks",.23,Color("a9ada3"))
+	road.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+	road_material = _ground_material(true)
+	road.material_override = road_material
 	container.add_child(road)
 
+func _ground_material(is_road: bool) -> ShaderMaterial:
+	var material := ShaderMaterial.new()
+	material.shader = load("res://shaders/village_ground.gdshader")
+	material.set_shader_parameter("ground_diffuse",load("res://assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg"))
+	material.set_shader_parameter("road_diffuse",load("res://assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg"))
+	material.set_shader_parameter("road_normal",load("res://assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg"))
+	material.set_shader_parameter("is_road",is_road)
+	return material
+
 func _build_perimeter() -> void:
+	for x in [1118,1176]:
+		_box("村后连续院墙",Vector3(x,1.4,149),Vector3(.4,2.8,266),"brick")
+	_box("北院尽头院墙",Vector3(1147,1.4,17),Vector3(58,2.8,.4),"brick")
+	for span in [[1118,1145.2],[1148.8,1176]]:
+		_box("村口收口院墙",Vector3((span[0]+span[1])*.5,1.4,280),Vector3(span[1]-span[0],2.8,.4),"brick")
 	var rim := [Vector2(994,45),Vector2(1010,3),Vector2(1200,3),Vector2(1278,35),Vector2(1278,275),Vector2(1230,297),Vector2(1163,297),Vector2(1147,297),Vector2(1020,297),Vector2(994,250)]
 	var surface := SurfaceTool.new()
 	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
@@ -205,38 +258,23 @@ func _collect(node: Node3D, parent: Transform3D, result: Array[Dictionary]) -> v
 		if child is Node3D: _collect(child,placement,result)
 
 func _close_side_lanes() -> void:
-	var space := container.get_world_3d().direct_space_state
-	var probe := SphereShape3D.new()
-	probe.radius = .06
-	var query := PhysicsShapeQueryParameters3D.new()
-	query.shape = probe
-	query.collision_mask = 1
-	for section in 2:
-		var z: float = GATES[section].z
-		for span: Array in [[1000.0,GATES[section].x-4],[GATES[section].x+4,1272.0]]:
-			var start := -1.0
-			var x: float = span[0]
-			while x<=span[1]+.25:
-				query.transform.origin = Vector3(x,.75,z)
-				var closed: bool = x>span[1] or not space.intersect_shape(query,1).is_empty()
-				if not closed and start<0: start = x-1.0
-				if closed and start>=0:
-					if x-start>1.5: side_wires.append(world.WireFence.add_blocker(container,"原村院落支巷封口_%d_%d" % [section,side_wires.size()],Vector3(start,0,z),Vector3(x+1.0,0,z)))
-					start = -1
-				x += .2
-	# Keep the original climbable haystacks behind a low enclosure, so they
-	# cannot serve as steps over the northern encounter boundary.
-	for entry in [
-		[Vector3(1128.5,0,75),Vector3(1128.5,0,79)],
-		[Vector3(1128.5,0,79),Vector3(1140,0,79)],
-		[Vector3(1140,0,79),Vector3(1140,0,75)]]:
-		side_wires.append(world.WireFence.add_blocker(container,"北院草垛支路低网_%d" % side_wires.size(),entry[0],entry[1]))
+	# Low wire closes short, visible side recesses; solid court walls carry the
+	# encounter boundaries, keeping enemies concealed beyond the current section.
+	for z in [237.5,153.5,69.5]:
+		for x in [1145.2,1148.8]:
+			_box("横巷封口门柱",Vector3(x,.65,z),Vector3(.45,1.3,1.25),"brick")
+		for span in [[1117.8,1145.3],[1148.7,1176.2]]:
+			side_wires.append(world.WireFence.add_blocker(container,"横巷柴场低网_%d" % side_wires.size(),Vector3(span[0],0,z),Vector3(span[1],0,z)))
 
 func initialize_navigation() -> void:
 	if navigation.region.size!=GRID:
 		push_error("Village build did not finish before navigation initialization")
 		return
 	_close_side_lanes()
+	scenery.build(world,container)
+	# Let newly placed trunks, rocks and working-yard cover enter physics before
+	# measuring the same geometry for friendly and enemy navigation.
+	await container.get_tree().physics_frame
 	var capsule := CapsuleShape3D.new()
 	capsule.radius = .55
 	capsule.height = 1.62
@@ -275,8 +313,8 @@ func set_phase(value: int) -> void:
 		gates[i].visible = not opened
 		gates[i].collision_layer = 0 if opened else 1
 		if not navigation_ready: continue
-		for y in range(floori(GATES[i].z-1),ceili(GATES[i].z+1)):
-			for x in range(floori(GATES[i].x-OFFSET.x-4.65),ceili(GATES[i].x-OFFSET.x+4.65)):
+		for y in range(floori(GATES[i].z-OFFSET.y-1),ceili(GATES[i].z-OFFSET.y+1)):
+			for x in range(floori(GATES[i].x-OFFSET.x-2.3),ceili(GATES[i].x-OFFSET.x+2.3)):
 				navigation.set_point_solid(Vector2i(x,y),base_solid[y*GRID.x+x]!=0 or not opened)
 
 func _anchor(at: Vector3) -> Vector2i:

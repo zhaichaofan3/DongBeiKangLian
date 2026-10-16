@@ -69,13 +69,13 @@ func reset() -> void:
 
 func candidate() -> Dictionary:
 	var items: Array = [
-		{"id": "scout", "at": people.scout.position + Vector3.UP * 1.3, "text": "E  与姜岚交谈"},
-		{"id": "logger", "at": people.logger.position + Vector3.UP * 1.3, "text": "E  与林守义交谈"},
-		{"id": "lu", "at": people.lu.position + Vector3.UP * 1.3, "text": "E  与陆山交谈"},
-		{"id": "door", "at": DOOR, "text": "E  关闭木门" if door_open else "E  推开木门"},
-		{"id": "letter", "at": LETTER, "text": "E  阅读家书"}]
+		{"id": "scout", "at": people.scout.position + Vector3.UP * 1.3, "text": "F  与姜岚交谈"},
+		{"id": "logger", "at": people.logger.position + Vector3.UP * 1.3, "text": "F  与林守义交谈"},
+		{"id": "lu", "at": people.lu.position + Vector3.UP * 1.3, "text": "F  与陆山交谈"},
+		{"id": "door", "at": DOOR, "text": "F  关闭木门" if door_open else "F  推开木门"},
+		{"id": "letter", "at": LETTER, "text": "F  阅读家书"}]
 	if not supply_taken:
-		items.append({"id": "supply", "at": SUPPLY, "text": "E  拿取医药包"})
+		items.append({"id": "supply", "at": SUPPLY, "text": "F  拿取医药包"})
 	var nearest: Dictionary = {}
 	var best := 2.8
 	for item in items:
@@ -104,7 +104,7 @@ func interact() -> bool:
 			supply_taken = true
 			bandages += 1
 			parcel.visible = false
-			main.notify("获得绷带 ×1。Q 为自己包扎，也可留给陆山。", 4)
+			main.notify("获得绷带 ×1。H 为自己包扎，也可留给陆山。", 4)
 			main._save_checkpoint()
 		_:
 			talk(item.id)
@@ -196,7 +196,7 @@ func choose(index: int) -> void:
 			people.lu.following = true
 			if action == "rescue_treat":
 				_treat()
-			main.notify("陆山开始跟随。靠近他按 E 可让他等候或继续跟随。", 5)
+			main.notify("陆山开始跟随。靠近他按 F 可让他等候或继续跟随。", 5)
 		"follow":
 			people.lu.following = true
 		"wait":
@@ -235,7 +235,7 @@ func ending() -> void:
 		main.notify("带陆山靠近船边，并在渡口掩护他解缆。", 4)
 		return
 	if not ready_to_leave():
-		main.notify("等陆山一起到渡口。靠近他按 E，确认他正在跟随。", 4)
+		main.notify("等陆山一起到渡口。靠近他按 F，确认他正在跟随。", 4)
 		return
 	show_dialog("lu", "陆山", "过河就是松岭屯。名单上几户乡亲还在那里，日军已经进村了。姜岚绕山路先到对岸接应。\n把船靠到南岸，我先守着名册。你和姜岚沿村道往北，把乡亲撤离的路打通。", [{"label": "登船，去松岭屯与姜岚会合。", "action": "finish"}, {"label": "稍等，我再检查一下四周。", "action": "close"}])
 

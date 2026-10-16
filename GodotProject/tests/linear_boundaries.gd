@@ -84,13 +84,14 @@ func _run() -> void:
 	var village = main.world.village_world
 	var walls: Array = village.opaque_wings
 	check(walls.size() == 4 and walls.all(func(wall): return wall.get_child(0).visible), "Four opaque courtyard wall wings remain visible")
-	for z in [182,75]:
-		var x := 1133 if z==182 else 1141
+	for at: Vector3 in village.GATES:
+		var z: float = at.z
+		var x := 1139
 		var hit := ray(Vector3(x,1.57,z+1), Vector3(x,1.57,z-1))
 		check(not hit.is_empty() and hit.collider in walls, "Courtyard wall at z=%d hides the next encounter" % z)
 	check(village.side_wires.size()>0, "Low wire closes only measured gaps between original courtyard surfaces")
 	for body in village.side_wires:
-		village.set_phase(0 if body.position.z>100 else 1)
+		village.set_phase(2)
 		await frames(2)
 		await verify_wire(body)
 		var center := Vector3(body.position.x,.08,body.position.z)
@@ -100,12 +101,12 @@ func _run() -> void:
 		check(clear, str(body.name)+": squad navigation cannot cut through the thin wire")
 	village.set_phase(0)
 	await frames(2)
-	for target in [Vector3(1133,.08,178),Vector3(1138,.08,178),Vector3(1143,.08,178),Vector3(1148,.08,178),Vector3(1153,.08,178)]:
+	for target in [Vector3(1139,.08,192),Vector3(1143,.08,192),Vector3(1147,.08,192),Vector3(1151,.08,192),Vector3(1155,.08,192)]:
 		await attempt(target + Vector3(0,0,8), target, false)
-		check(main.player.position.z>182, "Courtyard wall and gate seam prevent skipping at x=%.0f" % target.x)
+		check(main.player.position.z>196, "Courtyard wall and gate seam prevent skipping at x=%.0f" % target.x)
 	check(village.path(village.START, village.EXIT).is_empty(), "Village encounters cannot be skipped before opening the gates")
 	village.set_phase(1)
-	check(not village.path(village.START, Vector3(1140,.08,167)).is_empty() and village.path(village.START, village.EXIT).is_empty(), "First opened gate permits only the next encounter")
+	check(not village.path(village.START, village.PHASE_STARTS[1]).is_empty() and village.path(village.START, village.EXIT).is_empty(), "First opened gate permits only the next encounter")
 	village.set_phase(2)
 	check(not village.path(village.START, village.EXIT).is_empty(), "Cleared main street stays connected for player and squad")
 	village.set_phase(0)
@@ -148,7 +149,7 @@ func verify_wire(body: StaticBody3D) -> void:
 	var b := center-normal*3+Vector3.UP*.08
 	var reachable := true
 	if body.position.x>900:
-		var entry: Vector3 = main.world.village_world.START if body.position.z>100 else Vector3(1143,.08,177)
+		var entry: Vector3 = main.world.village_world.START
 		reachable = not main.world.village_world.path(entry,a).is_empty()
 	if reachable and main.world._path_segment_clear(a,a) and main.world._path_segment_clear(b,b):
 		for crouch in [false,true]:

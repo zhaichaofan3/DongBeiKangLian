@@ -209,11 +209,27 @@
       "production_status": "integrated_pending_acceptance_s32"
     },
     {
+      "id": "A-09T",
+      "part": "A",
+      "segment": "A3",
+      "title": "电报手键与收发机",
+      "start_ms": 27740,
+      "end_ms": 30240,
+      "production_note": "沿桌面缓慢推进，近看电报手键、导线和收发机；保留原历史旁白与总时长。",
+      "camera_from": [53.7, 1.83, 38.55],
+      "camera_to": [53.95, 1.7, 38.65],
+      "look_at": [54.36, 1.08, 39.95],
+      "look_at_to": [54.42, 1.1, 39.95],
+      "fov": 48,
+      "actors": [],
+      "production_status": "integrated_pending_visual_acceptance"
+    },
+    {
       "id": "A-10",
       "part": "A",
       "segment": "A3",
       "title": "电报房内的脚步",
-      "start_ms": 27740,
+      "start_ms": 30240,
       "end_ms": 32740,
       "production_note": "友军沿桌后通道行走，连续滑动镜头展示电报设备、木梁与室内冷暖灯光；替换旧扶人镜头。",
       "camera_from": [

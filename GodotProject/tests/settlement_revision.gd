@@ -86,17 +86,17 @@ func _run() -> void:
 		await place(approach)
 		check(main.can_reach(target,2.3 if target!=main.Story.WOUNDED+Vector3.UP else 2.8),"Interior mission interaction remains reachable: "+str(target))
 	var village = main.world.village_world
-	check(village.house_count==22,"Level uses the complete main settlement, retaining twenty-two original courtyard groups")
-	for entry in [[Vector3(1003,.08,190),Vector3(990,.08,190)],[Vector3(1270,.08,190),Vector3(1285,.08,190)]]:
+	check(village.house_count==12,"Twelve large original courtyard groups form the rebuilt narrow-street village")
+	for entry in [[Vector3(1120,.08,190),Vector3(1110,.08,190)],[Vector3(1174,.08,190),Vector3(1185,.08,190)]]:
 		await place(entry[0])
 		await push_toward(entry[1],120,true)
-		check(main.player.position.x>998 if entry[0].x<1100 else main.player.position.x<1273,"Enclosing village bank blocks real sprint-jump at "+str(entry[0]))
+		check(main.player.position.x>1118 if entry[0].x<1147 else main.player.position.x<1176,"Enclosing village wall blocks real sprint-jump at "+str(entry[0]))
 	for i in 2:
 		village.set_phase(i)
 		await frames(2)
 		var holes := []
-		for sample in range(1089):
-			var x := 1000+sample*.25
+		for sample in range(233):
+			var x := 1118+sample*.25
 			var z: float = village.GATES[i].z
 			if main.world._path_segment_clear(Vector3(x,.08,z+1),Vector3(x,.08,z-1)): holes.append(x)
 		check(holes.is_empty(),"Continuous physical boundary between enclosing banks for encounter %d; gaps=%s" % [i,str(holes)])

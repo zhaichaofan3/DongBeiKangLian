@@ -27,8 +27,8 @@ func _run() -> void:
 	var shots: Array = opening.data.shots.filter(func(item): return item.part == "A")
 	var counts := {}
 	for shot in shots: counts[shot.segment] = int(counts.get(shot.segment,0))+1
-	check(shots.size()==11,"History preflight contains 11 authored A shots")
-	check(counts=={"A1":1,"A2":1,"A3":4,"A4":2,"A5":2,"A6":1},"A1-A6 shot coverage matches the storyboard")
+	check(shots.size()==12,"History preflight contains 12 authored A shots including the telegraph insert")
+	check(counts=={"A1":1,"A2":1,"A3":5,"A4":2,"A5":2,"A6":1},"A1-A6 shot coverage matches the storyboard")
 	check(opening.data.durations_ms.A==68180 and opening.data.cues.A.size()==17,"Historical duration and original narration plus two new cues are present")
 	check(opening.voice_streams.size()==8 and opening.HISTORY_AUDIO.get_length()>68,"Full history track and eight supplied B dialogue recordings are available")
 	check(opening.blasts.size()==4 and opening.data.events.any(func(item): return item.id=="A_TITLE"),"The history climax has four authored artillery effects and a closing title event")

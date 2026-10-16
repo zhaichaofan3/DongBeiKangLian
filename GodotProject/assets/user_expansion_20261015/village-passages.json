@@ -1,0 +1,19 @@
+{
+  "source": "village_4.blend",
+  "units": "metres",
+  "door_centres_godot": [
+    [
+      11.78,
+      0,
+      -12
+    ],
+    [
+      11.78,
+      0,
+      -17
+    ]
+  ],
+  "door_width": 2.5,
+  "door_height": 2.79,
+  "purpose": "Two side gates connect a compact village street through an existing domestic courtyard."
+}

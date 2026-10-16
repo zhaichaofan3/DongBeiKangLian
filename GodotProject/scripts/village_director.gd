@@ -5,18 +5,18 @@ const VillageWorld = preload("res://scripts/village_world.gd")
 const Journey = preload("res://scripts/river_journey.gd")
 const Forest = preload("res://scripts/forest_approach.gd")
 const ENEMIES := {
-	"village_0": [Vector3(1150,.08,262),Vector3(1151,.08,255)],
-	"village_1": [Vector3(1159,.08,248),Vector3(1157,.08,239)],
-	"village_2": [Vector3(1142,.08,224),Vector3(1144,.08,216)],
-	"village_3": [Vector3(1147,.08,197),Vector3(1146,.08,191)],
-	"village_4": [Vector3(1140,.08,172),Vector3(1140,.08,165)],
-	"village_5": [Vector3(1143,.08,150),Vector3(1141,.08,143)],
-	"village_6": [Vector3(1154,.08,127),Vector3(1150,.08,119)],
-	"village_7": [Vector3(1146,.08,90),Vector3(1147,.08,84)],
-	"village_8": [Vector3(1147,.08,67),Vector3(1146,.08,61)],
-	"village_9": [Vector3(1146,.08,51),Vector3(1146,.08,45)],
-	"village_10": [Vector3(1142,.08,36),Vector3(1145,.08,31)],
-	"village_11": [Vector3(1155,.08,28),Vector3(1152,.08,25)]}
+	"village_0": [Vector3(1147,.08,264),Vector3(1147,.08,258)],
+	"village_1": [Vector3(1147,.08,237),Vector3(1147,.08,231)],
+	"village_2": [Vector3(1143.5,.08,204),Vector3(1143.5,.08,202)],
+	"village_3": [Vector3(1147,.08,199),Vector3(1147,.08,201)],
+	"village_4": [Vector3(1147,.08,180),Vector3(1147,.08,174)],
+	"village_5": [Vector3(1150.5,.08,149),Vector3(1150.5,.08,147)],
+	"village_6": [Vector3(1147,.08,136),Vector3(1147,.08,130)],
+	"village_7": [Vector3(1147,.08,116),Vector3(1147,.08,119)],
+	"village_8": [Vector3(1147,.08,97),Vector3(1147,.08,91)],
+	"village_9": [Vector3(1150.5,.08,65),Vector3(1150.5,.08,63)],
+	"village_10": [Vector3(1147,.08,49),Vector3(1147,.08,44)],
+	"village_11": [Vector3(1147,.08,29),Vector3(1147,.08,26)]}
 var main: Node3D
 var entered := false
 var phase := 0
@@ -173,9 +173,9 @@ func _arrive(via_forest: bool = false) -> bool:
 	main.player.reserves[1] += 30
 	main.story.bandages = mini(3, main.story.bandages + 1)
 	var treated: bool = main.story.people.lu.treated
-	main.story.people.lu.reset(Forest.REST if via_forest else Vector3(1149,.08,280))
+	main.story.people.lu.reset(Forest.REST if via_forest else Vector3(1152,.08,285))
 	main.story.people.lu.treated = treated
-	main.story.people.scout.reset(Forest.SCOUT if via_forest else Vector3(1156,.08,276))
+	main.story.people.scout.reset(Forest.SCOUT if via_forest else VillageWorld.START+Vector3(.7,0,1.5))
 	main.story.people.scout.model.set_armed(true)
 	main.story.people.scout.following = true
 	main.story.people.logger.visible = false
@@ -198,7 +198,7 @@ func _update_approach() -> void:
 			intro_seen = false
 			main.notify("入村检查点保存失败，请重试。"+main.last_save_error,4)
 			return
-		main.story.show_dialog("scout","姜岚","到了，前面就是松岭屯。\n陆山的名单上有几户乡亲还没撤走，日军正在沿村道搜人。咱们先打通村口，再往北院找他们。你走前面，我在侧后掩护。",[{"label":"进村，先打通村口。","action":"close"}])
+		main.story.show_dialog("scout","姜岚","到了，前面就是松岭屯。\n陆山的名单上有几户乡亲还没撤走，日军正在挨院搜人。街上堆了木料，得从敞开的院门穿过去。你贴着院墙走，我在侧后掩护。",[{"label":"进村，先打通村口。","action":"close"}])
 		return
 	var marker: int = Forest.projection(main.player.position).index
 	if marker>approach_marker and marker%2==0:
@@ -241,13 +241,13 @@ func interact() -> void:
 func interaction_prompt() -> String:
 	if approach_active: return ""
 	if phase < 2 and main.can_reach(VillageWorld.GATES[phase], 3.5):
-		return "E  打开村内院门" if section_cleared() else "清除本段日军后打开院门"
-	if phase == 2 and remaining() == 0 and main.can_reach(VillageWorld.EXIT + Vector3.UP, 3.5): return "E  村庄安全，与战友完成会合"
+		return "F  打开村内院门" if section_cleared() else "清除本段日军后打开院门"
+	if phase == 2 and remaining() == 0 and main.can_reach(VillageWorld.EXIT + Vector3.UP, 3.5): return "F  村庄安全，与战友完成会合"
 	return ""
 
 func objective_text() -> String:
 	if approach_active: return "04 / 07   穿过密林，沿土路前往松岭屯"
-	return "%02d / 07   %s · 剩余 %d 名日军" % [5 + phase, ["清理村口", "沿主街推进", "肃清北院"][phase], remaining()]
+	return "%02d / 07   %s · 剩余 %d 名日军" % [5 + phase, ["穿过村口西院", "转入东侧夹巷", "肃清北院"][phase], remaining()]
 
 func target_name() -> String:
 	if approach_active: return "松岭屯村口"
@@ -288,8 +288,8 @@ func _update_ally(delta: float) -> void:
 		return
 
 func snapshot() -> Dictionary:
-	var at: Vector3 = main.story.people.scout.position if entered else Vector3(1156,.08,276)
-	return {"version": 3, "entered": entered, "phase": phase, "finished": finished, "ally_position": [at.x,at.y,at.z], "ally_shots": ally_shots,"approach_active":approach_active,"intro_seen":intro_seen}
+	var at: Vector3 = main.story.people.scout.position if entered else VillageWorld.START+Vector3(.7,0,1.5)
+	return {"version": 4, "entered": entered, "phase": phase, "finished": finished, "ally_position": [at.x,at.y,at.z], "ally_shots": ally_shots,"approach_active":approach_active,"intro_seen":intro_seen}
 
 func restore(data: Dictionary) -> void:
 	reset()
@@ -312,7 +312,7 @@ func restore(data: Dictionary) -> void:
 func valid_snapshot(data: Variant) -> bool:
 	if not data is Dictionary: return false
 	if data.is_empty(): return true
-	if not main._whole_number(data.get("version"),1,3) or not data.get("entered") is bool or not data.get("finished") is bool: return false
+	if not main._whole_number(data.get("version"),1,4) or not data.get("entered") is bool or not data.get("finished") is bool: return false
 	if int(data.version)>=3:
 		if not data.get("approach_active") is bool or not data.get("intro_seen") is bool: return false
 		if data.approach_active and (not data.entered or data.finished or data.get("phase")!=0 or data.intro_seen): return false
@@ -326,12 +326,16 @@ func valid_snapshot(data: Variant) -> bool:
 	return data.entered or (int(data.phase) == 0 and not data.finished and int(data.ally_shots) == 0)
 
 func migrate_layout(data: Dictionary) -> void:
-	if not data.get("village",{}).get("entered",false) or int(data.get("map_revision",0))>=4: return
-	var starts := [VillageWorld.START,Vector3(1143,.08,177),Vector3(1148,.08,70)]
-	var at: Vector3 = VillageWorld.EXIT if data.village.finished else starts[int(data.village.phase)]
-	data.player.position = [at.x,at.y,at.z]
-	data.village.ally_position = [at.x+1.5,at.y,at.z+1]
-	data.story.lu_position = [1149,.08,280]
+	if not data.get("village",{}).get("entered",false) or int(data.village.get("version",0))>=4: return
+	# Woodland saves retain their landing/path position. Village saves move only
+	# to their matching cleared section; combat progress and supplies are retained.
+	if not data.village.get("approach_active",false):
+		var at: Vector3 = VillageWorld.EXIT if data.village.finished else VillageWorld.PHASE_STARTS[int(data.village.phase)]
+		data.player.position = [at.x,at.y,at.z]
+		data.village.ally_position = [at.x+.7,at.y,at.z+1.5]
+	data.story.lu_position = [1152,.08,285]
+	data.village.approach_active = data.village.get("approach_active",false)
+	data.village.intro_seen = not data.village.approach_active
 	for id in data.encounter.active:
 		if not ENEMIES.has(id): continue
 		var enemy: Dictionary = data.encounter.active[id]
@@ -341,5 +345,5 @@ func migrate_layout(data: Dictionary) -> void:
 		enemy.patrol = [patrol.x,patrol.y,patrol.z]
 		enemy.last_seen = [0,0,0]
 		enemy.state = "patrol"
-	data.map_revision = 4
-	data.village.version = 2
+	data.map_revision = maxi(4,int(data.get("map_revision",0)))
+	data.village.version = 4

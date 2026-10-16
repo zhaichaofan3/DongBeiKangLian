@@ -36,7 +36,7 @@ func _run() -> void:
 			for point: Vector3 in part.mesh.surface_get_arrays(surface)[Mesh.ARRAY_VERTEX]:
 				contact_error = minf(contact_error, (part.transform * point).distance_to(rifle.bolt_contact))
 	check(contact_error < .015, "Bolt hand socket lies on the supplied metal handle geometry")
-	check(main.world.village_world.house_count == 22 and main.world.village_world.tree_count == 300, "Complete original settlement retains twenty-two courtyard groups and its surrounding forest")
+	check(main.world.village_world.house_count == 12 and main.world.village_world.tree_count == 300, "Twelve full-size original courtyards form the narrow village with surrounding forest")
 	check(main.world.water != null and main.world.water.material_override is ShaderMaterial, "Supplied river channel uses animated game water")
 	var waterfront := {"dock":0,"boat":0,"river":0}
 	for child in main.get_children():
@@ -93,7 +93,7 @@ func _run() -> void:
 	check(main.guards.size() == 12 and main.village.remaining() == 12, "Village starts with twelve enemies")
 	check(main.story.people.scout.following and not main.story.people.lu.following, "Jiang Lan joins combat while Lu Shan rests with the roster")
 	check(main.story.people.scout.model.rifle != null and main.story.people.scout.model.rifle.visible, "Jiang Lan carries a rifle with friendly appearance")
-	check(not main.world.village_world.path(main.VillageDirector.VillageWorld.START, Vector3(1140, .08, 167)).size(), "Closed first courtyard gate blocks route to the next encounter")
+	check(not main.world.village_world.path(main.VillageDirector.VillageWorld.START, main.VillageDirector.VillageWorld.PHASE_STARTS[1]).size(), "Closed first courtyard gate blocks route to the next encounter")
 	var before: int = main.village.phase
 	main.player.position = main.VillageDirector.VillageWorld.APPROACHES[0]
 	main.village.interact()
@@ -101,8 +101,8 @@ func _run() -> void:
 	main.player.position = main.village.Forest.ENTRANCE
 	main.village._update_approach()
 	if main.mode=="dialogue": main.story.choose(0)
-	main.player.position = Vector3(1153, .08, 272)
-	main.story.people.scout.position = Vector3(1150, .08, 270)
+	main.player.position = Vector3(1147, .08, 274)
+	main.story.people.scout.position = Vector3(1147, .08, 270)
 	for guard in main.guards: guard.set_physics_process(false)
 	await _frames(125)
 	check(main.village.ally_shots > 0, "Companion fires at a visible village enemy")

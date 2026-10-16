@@ -203,7 +203,7 @@ func _shelter() -> void:
 func _office() -> void:
 	# Exact desktop elevation preserves the codebook anchor and the tested route around it.
 	_spawn("WoodenTable_01", Vector3(54, 0, 40), 0, 0, "", 0, Vector3(2.8, 0.90, 1.5), 60)
-	_spawn("vintage_radio_transceiver", Vector3(54.65, 0.905, 40.05), 0, 0.05, "", 0.93, Vector3.ZERO, 35)
+	_spawn("vintage_radio_transceiver", Vector3(54.65, 0.905, 40.05), 0, PI+0.05, "", 0.93, Vector3.ZERO, 35)
 	_spawn("Lantern_01", Vector3(55.0, 0.905, 40.43), 0.33, 0.25, "", 0, Vector3.ZERO, 32)
 	_fixture(Vector3(54.94, 1.17, 40.39), 0.80, 4.0)
 	_spawn("WoodenTable_01", Vector3(45.35, 0, 28.95), 0, PI * 0.5, "", 0, Vector3(1.25, 0.76, 0.64), 38)

@@ -8,7 +8,7 @@ const ENTRANCE := Vector3(1153, .08, 285)
 const ROAD := [LANDING, Vector3(1214,0,416), Vector3(1192,0,401),
 	Vector3(1192,0,383), Vector3(1170,0,370), Vector3(1170,0,352),
 	Vector3(1183,0,339), Vector3(1173,0,323), Vector3(1163,0,308),
-	Vector3(1155,0,296), ENTRANCE, Vector3(1153,0,278)]
+	Vector3(1155,0,296), ENTRANCE, Vector3(1147,0,282)]
 const AREA := Rect2(1114, 289, 140, 146)
 const PIER_AREA := Rect2(1212.9,435,2.2,2.3)
 var tree_count := 0

@@ -42,7 +42,7 @@ func _run() -> void:
 				if not main.opening.active: break
 				await process_frame
 				opening_seconds += main.get_process_delta_time()
-			check(main.opening.seen_shots.size()==27 and main.opening.seen_cues.size()==31 and absf(opening_seconds-148.48)<.15,"Full opening plays all 27 shots and 31 cues through actual process")
+			check(main.opening.seen_shots.size()==28 and main.opening.seen_cues.size()==31 and absf(opening_seconds-148.48)<.15,"Full opening plays all 28 shots and 31 cues through actual process")
 		check(not main.opening.active and main.opening.handoff_count==1 and main.story.met_scout,"Opening hands off once with briefing complete")
 	entry_gates = main.linear.opened.duplicate()
 	check(main.mode=="playing" and entry_gates.is_empty() and main.alive_guard_count()==5,"Every entry starts with five guards and all three gates closed")

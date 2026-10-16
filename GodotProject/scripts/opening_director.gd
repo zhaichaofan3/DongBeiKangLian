@@ -1,5 +1,5 @@
 extends Node3D
-## Integrated opening; final visual and audio acceptance is tracked in production_state.json.
+## Integrated opening; current acceptance is recorded in PROGRESS.md.
 
 const Explosion = preload("res://scripts/explosion_effect.gd")
 const MuzzleEffect = preload("res://scripts/muzzle_effect.gd")
@@ -622,7 +622,7 @@ func _update_view(delta: float) -> void:
 	hands.visible = part == "B" and shot.segment != "B4"
 	hands.position = Weapons.SAFE_POSITION + Vector3(0,sin(clock*1.6)*.003,0)
 	hands.rotation = Weapons.SAFE_ROTATION
-	office_showcase_lights.visible = shot_id == "A-10"
+	office_showcase_lights.visible = shot_id in ["A-09T","A-10"]
 	lake.visible = in_lake
 	if is_instance_valid(tianchi_environment_root):
 		tianchi_environment_root.visible = in_lake

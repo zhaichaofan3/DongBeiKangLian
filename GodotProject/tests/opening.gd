@@ -57,7 +57,7 @@ func _run() -> void:
 		if not opening.active: break
 		opening.advance(1.0/60.0)
 	var complete_snapshot: Dictionary = main._snapshot()
-	check(opening.seen_shots.size()==27,"All 27 shots are reached by continuous clock playback")
+	check(opening.seen_shots.size()==28,"All 28 shots, including the telegraph insert, are reached by continuous clock playback")
 	check(opening.seen_cues.size()==31,"All 17 narration and 14 dialogue cues are reached")
 	check(not opening.active and main.mode=="playing" and opening.handoff_count==1,"Full A/B playback commits gameplay once")
 	_check_handoff("Full playback")

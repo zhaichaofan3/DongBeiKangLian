@@ -81,7 +81,7 @@ func _run() -> void:
 	opening.camera.look_at(actor.position + Vector3.UP * 1.08)
 	opening.camera.fov = 42
 	if rendered: await capture("07-coat-three-quarter")
-	opening.preview_at("A",30.2)
+	opening.preview_at("A",31.4)
 	if rendered: await capture("08-office-walk")
 	var support = opening.actors.ally1
 	var assisted = opening.actors.ally2
