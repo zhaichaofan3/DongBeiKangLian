@@ -8,7 +8,7 @@
 
 本轮源码与独立包各31组回归通过，院落与操作各77项；源码、独立包无画面及有画面实走战斗均37敌、生命100通关，战友参战且最终存档有效。独立包1280×720与960×540画面检查通过，地图/船程有画面专项54项通过。128个音频/第一人称文件与整理前SHA-256一致。已收紧开场村庄取景并补村外林带。
 
-本机试玩入口：`Start-Game.cmd`或`Release/FenghuoEcho.exe`。本地包与源码为0.7.1-rc1，在线Release仍保留0.7.0-rc1。代码和模型使用Git/LFS记录，未新增全量工程备份；最终证据见[本轮验收](docs/courtyard_revision_20261016/review.md)与该目录`final-validation.json`。
+本机试玩入口：`Start-Game.cmd`或`Release/FenghuoEcho.exe`。本地包与源码为0.7.1-rc1，在线Release仍保留0.7.0-rc1。源码、模型与验收记录已推送GitHub main，未新增全量工程备份；最终证据见[本轮验收](docs/courtyard_revision_20261016/review.md)与该目录`final-validation.json`。正式记录保留7张代表图；51张重复临时截图（43,445,714字节）的删除被工具自动审批阻止，仍在被忽略的`docs/validation/`中。
 
 上一里程碑：已完成仓库精简与首次GitHub发布。
 
