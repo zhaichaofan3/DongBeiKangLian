@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS: NPC skin palms follow both grips through raise, repeated recoil, flinch and lowering
+PASS: NPC arm poses remain continuous through transition and recoil
+PASS: NPC rifle stays within both arms reach through the full movement
+NPC MOTION: max_grip_error_m=0.00003178605402 max_joint_step_rad=0.16608649492264 max_reach_overshoot_m=0.0
+PASS: NPC recoil raises the muzzle
+CHARACTER MODEL RESULT: 4/4 passed

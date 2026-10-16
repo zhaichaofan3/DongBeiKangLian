@@ -1,0 +1,1742 @@
+{
+  "Applied": false,
+  "CreatedAt": "2026-10-15T16:19:10.2269398+08:00",
+  "Actions": [
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/office.png",
+      "Bytes": 663973,
+      "SHA256": "B658FE15F1A2FB5A505FFBE41E21A68D40D196591F1FAA637D827EC99CBC899F"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/office.png.import",
+      "Bytes": 931,
+      "SHA256": "1B867CDD9B4FA429391BFBAF8D7B2713800FA19BC94E740C2F21CBDBF69586CC"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/title.png",
+      "Bytes": 380427,
+      "SHA256": "DE05F0FB63170161E7A7F1D2AEE183F766AB7C830D7C2977D5EA0EAFCFA5136B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/title.png.import",
+      "Bytes": 927,
+      "SHA256": "FFF5E139AD15EAA6F2A95DEBFEC9E408B0F6595D56698F2E170CA41C08BD78DF"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/yard.png",
+      "Bytes": 490990,
+      "SHA256": "A144076A8357C428F95C4D78D3376B5425877ED391CD0A598098A1084CD59043"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/yard.png.import",
+      "Bytes": 924,
+      "SHA256": "6F9EE8B5B0AE585010935CCFE2B6AF2D3C7A986101B23CC52F099DB5589A565E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1024x768/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1024x768/office.png",
+      "Bytes": 423804,
+      "SHA256": "F1BB4D7A44EEC7A437CEFEBEB780282CE59F357DBCCCC5B06618054BCB8EE317"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1024x768/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1024x768/office.png.import",
+      "Bytes": 940,
+      "SHA256": "D5B8FCFA9864D0B154D9626FD35C20D6B2BD23B0B2F53B708634628A9276ECDC"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1024x768/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1024x768/title.png",
+      "Bytes": 250282,
+      "SHA256": "65FFF72843685CBEA3D351B7225B3F7C56D1B54C97FFA9D3E6A832A310E8EC15"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1024x768/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1024x768/title.png.import",
+      "Bytes": 937,
+      "SHA256": "5B1E5B706EB2A50CDD74F48560940ECA778208660C3EF31441E81384F09586E0"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1024x768/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1024x768/yard.png",
+      "Bytes": 316461,
+      "SHA256": "5244DDE61B6862EBA311B2A87238E2DCAE37DC4A1799DB615F10F8895B9536F9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1024x768/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1024x768/yard.png.import",
+      "Bytes": 933,
+      "SHA256": "E312FA6080CFFAB2B8F7CADBE92C9CF33CDF8A4CF3D55213558372D8EEC4C17C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1920x1080/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1920x1080/office.png",
+      "Bytes": 1556655,
+      "SHA256": "615630ECB1EDBD64ED9E2CA7D121CEC60B8F9C96E73527C4193EAF14E3D5B2FC"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1920x1080/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1920x1080/office.png.import",
+      "Bytes": 941,
+      "SHA256": "FEA3C42E617E9EA1B633E1160EAF5BD4FFD7C88C00DFB6DF15A01450B027FFEF"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1920x1080/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1920x1080/title.png",
+      "Bytes": 850573,
+      "SHA256": "F31C712D16D6E1A14CC6EB0225628A502F1F0C55BCBEAB58381F78FAF679B91E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1920x1080/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1920x1080/title.png.import",
+      "Bytes": 938,
+      "SHA256": "8076ED4A351FA77C28662C7A43A0F52A077D86E8150B4B5F15C013FB2677F96E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1920x1080/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1920x1080/yard.png",
+      "Bytes": 1138796,
+      "SHA256": "7D84F45E36A6A898E917D83181E7FB83B328A3DC4FC2D13B777BA431DAFBF025"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/1920x1080/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/1920x1080/yard.png.import",
+      "Bytes": 935,
+      "SHA256": "0CEB0C8D0D60514AE6BE9E3F9DD3C5B44AA0FC0E10CBD49B281913CE11A309E8"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/960x540/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/960x540/office.png",
+      "Bytes": 372216,
+      "SHA256": "6905C9C011E04740ADF7A8518E1C6E6B23E27CF56B8DED6C45746981ACC2947D"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/960x540/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/960x540/office.png.import",
+      "Bytes": 938,
+      "SHA256": "1B45DF488A859939A8265677E5EE2722CF0ACFE1E206AAF644819E35381CA2ED"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/960x540/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/960x540/title.png",
+      "Bytes": 222894,
+      "SHA256": "A8C0553FCEE6D22669193C845FF86D7001195D901B1BB2BB69E2B15AE3B04116"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/960x540/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/960x540/title.png.import",
+      "Bytes": 936,
+      "SHA256": "CDC248993202770B3EE6B1488A1DB298DB2AC986CD98C848461F1F1D12A5E89D"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/960x540/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/960x540/yard.png",
+      "Bytes": 277297,
+      "SHA256": "E64570CFFC67AA6A54943C7B85022459AF1F8EEF99877DBECE59D12E1779A59B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/960x540/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/960x540/yard.png.import",
+      "Bytes": 933,
+      "SHA256": "24D2FE3D6785A2D891ABB4E6AE77E9F3C3A6A12498BBF69780667CC4BA0EC54C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/conversation.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/conversation.png",
+      "Bytes": 650732,
+      "SHA256": "CA3439ED0A7E51183C77F6943EB8AA1B21EF1B52FEB0FB34C05286A0A611EB47"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/conversation.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/conversation.png.import",
+      "Bytes": 957,
+      "SHA256": "59E17B1DD1B5FB229A19D9A8C4F9788A305CC21F56CB4B4DC06C7221D68EB1F9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/office.png",
+      "Bytes": 773641,
+      "SHA256": "25F2B389CBAE5D46A681FA5DDE5FABDEC071BE7058A62D65BD43629DDF269798"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/office.png.import",
+      "Bytes": 939,
+      "SHA256": "A0E2E52B715D34EDD75F1EE44A0EAFB7C611EB6785C3F1BF76D91E0A557676B5"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/rescue.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/rescue.png",
+      "Bytes": 759706,
+      "SHA256": "2497618C4098970A420654C7A8D5E536752C739E92F4E1EFDA923BFCD60DC4D9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/rescue.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/rescue.png.import",
+      "Bytes": 938,
+      "SHA256": "C3E8FB7FFFBDDD97FE1C9AB427CC48DBB741EEED212399F9405E40FA0C51E0EB"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/title.png",
+      "Bytes": 399011,
+      "SHA256": "306D196858AE0212A35E038C7A0C3D0BA81726DA138C2CE3B910A097B37715A8"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/title.png.import",
+      "Bytes": 935,
+      "SHA256": "DB8B1FACABDE9B5072F26D3632F66F244780176C295E1D2606EDEAD2F25FA0E8"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/yard.png",
+      "Bytes": 668994,
+      "SHA256": "C03911B0773E259E8FEF97C1C0FC61EF9B103012524CF3486C1D55A968A8E4A2"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan/yard.png.import",
+      "Bytes": 933,
+      "SHA256": "5501E6F76C8414AED73F75FCB3899FC3F7F519127E494B60E5DF8A4011B95357"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/conversation.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/conversation.png",
+      "Bytes": 401444,
+      "SHA256": "E9FD5137D2395D4BED48F59DBF17873FE0633FFC0B5CD51F4E2D65ACDEFB6E7B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/conversation.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/conversation.png.import",
+      "Bytes": 963,
+      "SHA256": "AD003AC57A4DF6FCF7098658288557882C05CB750A3C61B451FF74FC3E8A1933"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/journal.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/journal.png",
+      "Bytes": 363062,
+      "SHA256": "95269EB802C227F882D219E1444FA0AE011F1669E5A364F3E32F8FE0A6F6B6A9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/journal.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/journal.png.import",
+      "Bytes": 947,
+      "SHA256": "57AD8966491F9FD0B82080671194967C5FAE4055A03F764DD77FCC5E4CA5A552"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/office.png",
+      "Bytes": 446485,
+      "SHA256": "3BD67B9DCD4F1C2A564A8861D1F56EAE31B0824CC9F1A6AEBCDF979A02999C83"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/office.png.import",
+      "Bytes": 944,
+      "SHA256": "A32E446A6C61A19ABFCFD8984152CCA0142672385D4AE29F2A306C39164AC7B5"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/rescue.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/rescue.png",
+      "Bytes": 446965,
+      "SHA256": "96FD0C9CA01B809C88C6FEED6810C4A77ABBEB6A09831B25134AE5F77D1E47A9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/rescue.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/rescue.png.import",
+      "Bytes": 945,
+      "SHA256": "2A9C6F2E8F6F1AE8ABB3F9F8A242C8D099131A11BCA1966435DF9FD96AA94613"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/title.png",
+      "Bytes": 250823,
+      "SHA256": "867F5320BC966EFF65A2FD8FA8BF5C846B4BCBBFA6674B6F79E4EA0BEC881417"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/title.png.import",
+      "Bytes": 942,
+      "SHA256": "39F5683433B560F0CAD2AA4174EE1D81878F6628A57B13D9D007776DF69926C5"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/yard.png",
+      "Bytes": 400828,
+      "SHA256": "7E386171610F37842959DEC41C71F47C7DF5C14E01E9EAA2396575163B5B1D92"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/captures/qinglan-small/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/captures/qinglan-small/yard.png.import",
+      "Bytes": 939,
+      "SHA256": "5A8D1C9E59F6A31246886771DDDA4B941FE4B4FAAA68A10AFF7BF2D000101B9E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/conversation.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/conversation.png",
+      "Bytes": 776707,
+      "SHA256": "EB5CC269B2797E956A96B9C9B210DE1969AD57675C90E38CB8BEAC21400BE60C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/conversation.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/conversation.png.import",
+      "Bytes": 971,
+      "SHA256": "D3D40643C1EC737FF947993F768B6EAEEF8F7DDA7A1751C0972EFE14703A647F"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/journal.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/journal.png",
+      "Bytes": 615116,
+      "SHA256": "C03BF7D4D4BCBA685B82086985DC3219621D24FD0EE99E9C3631A4E483165212"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/journal.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/journal.png.import",
+      "Bytes": 956,
+      "SHA256": "BF5E2EF79DA77C190B94D0DE9E26D6451EA569451EE5988AB55AFEABD0799331"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/office.png",
+      "Bytes": 917929,
+      "SHA256": "8B1F41ECCA5775F7B5DC13395A443D6980AA1F937F1BF107AD43F5CAF8C6987B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/office.png.import",
+      "Bytes": 953,
+      "SHA256": "BE61A9584F7DE019E36BB0C1B8AF1B820F63EE2B41D3B57B4BAC619DEFA8A7C8"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/rescue.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/rescue.png",
+      "Bytes": 691395,
+      "SHA256": "AB1A55166FC07F37517B531068D710A0B0740E738F5F0C1E551BBD59FFF9C009"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/rescue.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/rescue.png.import",
+      "Bytes": 953,
+      "SHA256": "DDC8F47DAD42F10719525B602A7219B1165DF7C797DAA1400D577F8361B1E1C9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/river.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/river.png",
+      "Bytes": 1020331,
+      "SHA256": "923EB63B25BF736D832EB1F7054F376AD44C47208FFFAD028FD0A5A5DD2AC7EE"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/river.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/river.png.import",
+      "Bytes": 949,
+      "SHA256": "12AE041C97B59485ABDE5DA812A135DD39D76F3F3E51BE6A33C8BD8C59B75770"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/settings.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/settings.png",
+      "Bytes": 602253,
+      "SHA256": "9EEC6B54A5F9915E3D4E49A28A53FF988575267576F6A195E9AD7E63F02A21DD"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/settings.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/settings.png.import",
+      "Bytes": 959,
+      "SHA256": "E50D3A08350BA84439150E3836AE99D6AEEDA771A38C1780897E1ABF6DCEEB38"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/title.png",
+      "Bytes": 543890,
+      "SHA256": "DB2E0AB3A219FF736E2BB7B4CB981158C59C472A11F550E853D9D3C829AC6126"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/title.png.import",
+      "Bytes": 949,
+      "SHA256": "48763D184F4E3ABE6DC383AF99A6DA82B33D3CD6C6B19EA544C876C1FB0AA763"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/yard.png",
+      "Bytes": 855133,
+      "SHA256": "6A1C303361E0432C2654D23DCCAE5EC9470816DB355712BD964DB1EA380BC675"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/1280x720/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/1280x720/yard.png.import",
+      "Bytes": 947,
+      "SHA256": "7E0C65093D5F87C3B5BA9EF7893AF89A90D572BC7582E9566299D8B102CE97CE"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/conversation.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/conversation.png",
+      "Bytes": 480113,
+      "SHA256": "8FDCEA89BF054B239533BAA73950FAF706A8D4E22E07FBAED551631251365DD0"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/conversation.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/conversation.png.import",
+      "Bytes": 970,
+      "SHA256": "4AA251872F2CC4A4C41838D91BA0B6DF76412D01097D39607CA30E144F65155A"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/journal.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/journal.png",
+      "Bytes": 386279,
+      "SHA256": "C64724B95F0F7587E4C77BB1DB91F56FBAD77C4232F3E701B8DC5F4C66ADCF11"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/journal.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/journal.png.import",
+      "Bytes": 955,
+      "SHA256": "9171E88EF5D23E514B6F811B7B3B3AC80AB64C4B229444573C683E0E9BB1D24C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/office.png",
+      "Bytes": 545839,
+      "SHA256": "BF4E46A6E9A72AFDAD007CD966978C1A83C64B62E78D93028AC1B8CEBA0B735D"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/office.png.import",
+      "Bytes": 951,
+      "SHA256": "699F871D1CC0515579E4BB5989F637DE090DFB98B83085A68DA6757EF9A3A712"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/rescue.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/rescue.png",
+      "Bytes": 426545,
+      "SHA256": "2AAF71508D7959A35BC720C00D7EAB66139EB541143C7329B1EE1A8321FDA4A1"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/rescue.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/rescue.png.import",
+      "Bytes": 952,
+      "SHA256": "55BA4BF5D786CE5ACF39FDCFACE079FCDECED799C1D64612F06A20F126717308"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/river.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/river.png",
+      "Bytes": 622451,
+      "SHA256": "FB390B1C963E47817514D13ECA04C214950287115980DDD8B5585FFDA7D567A3"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/river.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/river.png.import",
+      "Bytes": 949,
+      "SHA256": "97B77064779B4EC1071E51B6A4135726A9707C461E0E028C72A5E2665F82D964"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/settings.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/settings.png",
+      "Bytes": 381332,
+      "SHA256": "D6619CFB393E657994E21E00AF5F26D8C3E0617404C116341720A3F0B2BE65B9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/settings.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/settings.png.import",
+      "Bytes": 958,
+      "SHA256": "D994BE4D251921D61C1B50A67A37760A9F79683F21AB29A3D911ED9A4CC4EE3C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/title.png",
+      "Bytes": 341974,
+      "SHA256": "82E01C0A14A1672FA2A217A52F9610A86B697F7615D9BE10C08C439C4A5369D6"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/title.png.import",
+      "Bytes": 949,
+      "SHA256": "6F2E21D412670C59F9A015DA86F4781A0B28F770843996FE1B9CD6DB709D7CCB"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/yard.png",
+      "Bytes": 522100,
+      "SHA256": "A558E48BEE2085EF9CBF853E98A5A9137F25DDB5C4D638008CFE66F107EFB47B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/960x540/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/960x540/yard.png.import",
+      "Bytes": 946,
+      "SHA256": "14824956CA92EF78D725F38F80ECF899E8423D37A3CDA877655CA11D495CAC9C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/conversation.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/conversation.png",
+      "Bytes": 1908836,
+      "SHA256": "1AF9E2D6D624B63738CA444F6D5C3A98CE6E208667C69A6E017ABDAEF14CE287"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/conversation.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/conversation.png.import",
+      "Bytes": 972,
+      "SHA256": "F912DFFE8E1039680E0D5C874D9CDE28128FB3EBB76CCB8D6C625091F8036395"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/journal.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/journal.png",
+      "Bytes": 1270904,
+      "SHA256": "32438DFF2BB84918B4BBAD01FDEFFA62D60C6E4E8563F428DE03C18A3F12AAC4"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/journal.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/journal.png.import",
+      "Bytes": 958,
+      "SHA256": "1A428462D49858A8595FEF141A22D733890832FFD55A74CA26D831EFC853873E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/office.png",
+      "Bytes": 1995967,
+      "SHA256": "F2832C1B781886CA5CF71DC7965FC7D095FA05A07CBE6E24CE69EDE7138D4307"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/office.png.import",
+      "Bytes": 955,
+      "SHA256": "F4302948204037261673421E25D7832C9E45FBDD55F0AE820C9E26CE05880177"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/rescue.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/rescue.png",
+      "Bytes": 1490602,
+      "SHA256": "BBE2ED10465996B506A04F3B5A2BD3172087FDF7CB20D1FC8A7E5BFF10069BB1"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/rescue.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/rescue.png.import",
+      "Bytes": 954,
+      "SHA256": "7337E7319EE36A51AD1C26BEE5B3396B56EB320222D73CB61C86622DAEDDB54F"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/title.png",
+      "Bytes": 1225255,
+      "SHA256": "C63883251DFED85666F20D1F00C74A9C00F58487CF3A6C4259CFDAECF35715EB"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/title.png.import",
+      "Bytes": 952,
+      "SHA256": "BE1C369D6C5BC77D59F3F66358FD6D48F961BA72E02A694C03631D20B2E6321A"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/yard.png",
+      "Bytes": 1822384,
+      "SHA256": "89A3BC12D4ADF933A25792B0F24B7EF0F8F5892D74731A8A5F58D631F4F7698E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration1/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration1/yard.png.import",
+      "Bytes": 949,
+      "SHA256": "BD9CF39F2429EA9B1A3B3D1A7962ACD9B6618042CED587432E304D0D4C296A14"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/conversation.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/conversation.png",
+      "Bytes": 778239,
+      "SHA256": "1EBC4FBF05BDE31B9F14119AEA439ED7050EDEA2657C45C7AEAE2EB399E4ADCD"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/conversation.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/conversation.png.import",
+      "Bytes": 972,
+      "SHA256": "5A64598D2ADC484F477F8F3AE911EE2B7D364A40D5E4819237E4BDCA887E81B2"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/journal.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/journal.png",
+      "Bytes": 615095,
+      "SHA256": "4F0D6C758C0CD3D983D077C01417D3F5A05B8A38D54B18E8BE8CF2056E2BB500"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/journal.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/journal.png.import",
+      "Bytes": 958,
+      "SHA256": "E71250F021CB299BE7635FEA6A3CE87E0EEE8D391C8F399CE97E96E70D4D24B6"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/office.png",
+      "Bytes": 918281,
+      "SHA256": "B73F8A82D6F362B9FEC313D29D2EAEB21AEF26092851964C26ABB36D8C6D77C7"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/office.png.import",
+      "Bytes": 955,
+      "SHA256": "BBD7FD9360970DACB9EE0BD4B31821BD0B6955A4E14C83A1BE92E154F81D075E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/rescue.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/rescue.png",
+      "Bytes": 688788,
+      "SHA256": "9571AF8829481B11B95283CC75BAEC0AFEB74C3855DC4B6FC53E8294D08BC174"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/rescue.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/rescue.png.import",
+      "Bytes": 955,
+      "SHA256": "78EC56349AED553A145FA2F430FC64F2FB67CCC389EF3364E3B465273FD1D0A4"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/river.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/river.png",
+      "Bytes": 1000763,
+      "SHA256": "3ACC2DC5C1AF55EA755996AEA16637CB3C40D57D4697D87584E03878C10C1E84"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/river.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/river.png.import",
+      "Bytes": 952,
+      "SHA256": "7D9EE1D1F03B6D7BAA991C717866FF03D68CC79A6C5024D6D0C02CFE142DDA1E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/settings.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/settings.png",
+      "Bytes": 601048,
+      "SHA256": "EE5B254C70ABD245ACDF2630A87C69A7BB2160146BDD6F1A761490D820865E40"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/settings.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/settings.png.import",
+      "Bytes": 961,
+      "SHA256": "58881517F6E9DA51E9A4FDF473225655CFCD72E12FA1E85D0F3B85A2373EDE0F"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/title.png",
+      "Bytes": 542179,
+      "SHA256": "A0FC96429AE717BFDCDD6E7112EC9806228703DD59343BDCDBD48F36AFDAECFF"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/title.png.import",
+      "Bytes": 952,
+      "SHA256": "CB7335C1090A52F6487264F255ABE3C8C47FDC8DD2525BB1FB874A952791A14F"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/yard.png",
+      "Bytes": 868494,
+      "SHA256": "7ABF9C6935A17D18BE26893FFA1E84E0208071DF4A0322EE8B3A88A9A937624A"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration2/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration2/yard.png.import",
+      "Bytes": 949,
+      "SHA256": "EE268936AA6F904B481B6AF9EA4CABC1A239D67F425E4408646255D8C431BA7A"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/conversation.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/conversation.png",
+      "Bytes": 776143,
+      "SHA256": "03BABBC26A9B0530F87791EE075B4CE28E2D4ACDB700A71DB130373736AEF884"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/conversation.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/conversation.png.import",
+      "Bytes": 973,
+      "SHA256": "BAA1E57DC2FC8C09C4E8BB6D91280830031C65503C247E84CD3B42664CA8B051"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/journal.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/journal.png",
+      "Bytes": 615272,
+      "SHA256": "12151E3BA792216C42B512921CA4920E392249E713029736820A8DFC0D71E6A1"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/journal.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/journal.png.import",
+      "Bytes": 958,
+      "SHA256": "16BA36A228F07841F86B5B03246900D4E4BA7B0AADEA6B88FE5E683A70403A55"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/office.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/office.png",
+      "Bytes": 918311,
+      "SHA256": "1DBEF55E1B10F4343C284F3CE548539D125ECC6DA4FA887738955267457DEBF3"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/office.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/office.png.import",
+      "Bytes": 955,
+      "SHA256": "2C5F41094067AD6AD6E1B6F8291CCB7F60069F36BCCB1B2AD839B6081CEEBDA6"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/rescue.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/rescue.png",
+      "Bytes": 691259,
+      "SHA256": "9F78E2D9F0C58902BC8207C3E88A1696B12D768FE80365C1A675637D840A6674"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/rescue.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/rescue.png.import",
+      "Bytes": 955,
+      "SHA256": "59CF42FE35BF4628E5136A1D63DE5C42E730625383537EB91A4A58BD2C04C729"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/river.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/river.png",
+      "Bytes": 1027194,
+      "SHA256": "DFF470842E2AF6ABF336CAA7695E490E861C73EADE9E4A482412644726CF5DFB"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/river.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/river.png.import",
+      "Bytes": 951,
+      "SHA256": "A64B7E5604C69D7987F50D67DB5E2669E034DA94C7DF6CA443A1544F64E2B2CF"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/settings.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/settings.png",
+      "Bytes": 602537,
+      "SHA256": "87C19FBA4867CB1A853597A94DA5644A35FB15DEE5112D2E55C7EA1D4FF74B19"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/settings.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/settings.png.import",
+      "Bytes": 961,
+      "SHA256": "3A2676C81246E6249F81A8C47BB12BDB4618F9629A290D7CC685C0F4E06A9725"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/title.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/title.png",
+      "Bytes": 544855,
+      "SHA256": "9D5A807A7303D8A0C6406A0DA9FADC8D6EB3D80610AABEA106E23DED6FE62254"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/title.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/title.png.import",
+      "Bytes": 952,
+      "SHA256": "2E71486C5F7AE227528EC1BC380A515A07859DCAEF2523788580810234E28E13"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/yard.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/yard.png",
+      "Bytes": 854978,
+      "SHA256": "B8D3C4E2E284612E13B20B778FC0676134D788E2C2B9B31D064C419AA6BC4237"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/iteration3/yard.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/iteration3/yard.png.import",
+      "Bytes": 949,
+      "SHA256": "8CF117169832B8FF831FA4604D8ECC2C15CC31AC66B16F16454C128BF4A8D4AB"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/aim.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/aim.png",
+      "Bytes": 984249,
+      "SHA256": "BFAEDF7905D88C0C55738EFDE3C81F160677D57A0C21EDC0C1C16633EC32C896"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/aim.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/aim.png.import",
+      "Bytes": 942,
+      "SHA256": "D3E4346BDD110616C79672FD728C6F5FB1F1C20330FB0B457625B12917CF1E1D"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/bolt_01_lift.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/bolt_01_lift.png",
+      "Bytes": 931153,
+      "SHA256": "45FB231D7E04FF6A779A91C9C2529B42E6E6EFD3DAB6BFAEA0C44B6FED7CE73F"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/bolt_01_lift.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/bolt_01_lift.png.import",
+      "Bytes": 969,
+      "SHA256": "795B008105D0BE2DA5656C6098E5E696D62B0DA886ACCF7FEAD5C9B5641D0746"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/bolt_02_open.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/bolt_02_open.png",
+      "Bytes": 940911,
+      "SHA256": "08BF3CBDBBDA9B2702090769CECF84DFB38577CCF5DAC2F2AA7535ACA9E2CBC6"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/bolt_02_open.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/bolt_02_open.png.import",
+      "Bytes": 968,
+      "SHA256": "940BFBCE5C334A9745569CE72D0825B6A20B484798BDBFF5A2B7581661C51A59"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/bolt_03_return.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/bolt_03_return.png",
+      "Bytes": 940641,
+      "SHA256": "4F7EC2E38ABB50A8516239B7190B221CC4719FC5AC20CBCE63308A71F84A50FD"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/bolt_03_return.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/bolt_03_return.png.import",
+      "Bytes": 975,
+      "SHA256": "374C0C3385B88077ADB70B0A42AB6D07A2BBD546E94094BDBE85C1540076EB75"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/pistol_reload.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/pistol_reload.png",
+      "Bytes": 903694,
+      "SHA256": "9A7B7F408D56D1CC590798C3FB20ACA6EED80E9ABE84264FF9612F2E1D880D3B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/pistol_reload.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/pistol_reload.png.import",
+      "Bytes": 972,
+      "SHA256": "0810303CD2A49BC39D0F4107C90AB5BBDC32D84B21D47E17C79D8B8ECFE91688"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/pistol.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/pistol.png",
+      "Bytes": 921816,
+      "SHA256": "6AE789F2F13029EE9A6DBB2614DB56C54705C7E80DEE807F076DAF9AFE1B8AD6"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/pistol.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/pistol.png.import",
+      "Bytes": 951,
+      "SHA256": "DDE18959EFEACA6BB8275C23D58792B7DBD8C1E134DB84E5AE9E4250190AE506"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/reload_01_open.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/reload_01_open.png",
+      "Bytes": 931882,
+      "SHA256": "D072B5DC1B00D78FE22F2D9184FD3544E197D1A44360A41A932F378A2C12E8B9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/reload_01_open.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/reload_01_open.png.import",
+      "Bytes": 975,
+      "SHA256": "48CC26F4554F49B4C60D0CEE367233125C8563325173FCAD728F127DED9F98D2"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/reload_02_present.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/reload_02_present.png",
+      "Bytes": 924580,
+      "SHA256": "CC2EC3BC8EBE3C82C1BBF67EE0BA3647BA3366834DDA7280F89EFD1D088238DB"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/reload_02_present.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/reload_02_present.png.import",
+      "Bytes": 984,
+      "SHA256": "6D4AC894DFE7304A418DC133D2CD0304662CA72CFFE5FDC7F49DD21EDEDFAB64"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/reload.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/reload.png",
+      "Bytes": 926435,
+      "SHA256": "51DD98B6DB8C18CADD2341EF45B615612F553BBDBC612D9F3A49F667B34F7172"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/reload.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/reload.png.import",
+      "Bytes": 951,
+      "SHA256": "EA8257BC5C9CBC62934A9A1EF145CBD02AD3AA8944377C8002C229D02784E649"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/rifle.png",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/rifle.png",
+      "Bytes": 939358,
+      "SHA256": "5E293D0E1F48E81794EE2CF79ED0AB44C0AB077ACDAEE4581CB5A69DE4988FA1"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/verification-captures/motion/rifle.png.import",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/verification-captures/motion/rifle.png.import",
+      "Bytes": 948,
+      "SHA256": "049A15260230791DBF2AA82FE1EAA84C35AA6D6E680D849143D4EF1494ECBDF6"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/audio_settings/audio-settings.json",
+      "Destination": "docs/audio/settings_20261015/source-initial/audio-settings.json",
+      "Bytes": 4188,
+      "SHA256": "43C527D152DCA6D4FD07503C255DDF5AF950E623E5323C3E4E501113DA629E8F"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/audio_settings/run.log",
+      "Destination": "docs/audio/settings_20261015/source-runtime/opening-checks/audio_settings/run.log",
+      "Bytes": 2434,
+      "SHA256": "03AADDEC9D59A4DCF3512B16450077D7455B3DF555D2892F8E5703F94C71164A"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/bayonet_encounter/run.log",
+      "Destination": "docs/level/S19/bayonet-20261015/source-opening-checks/bayonet_encounter/run.log",
+      "Bytes": 1766,
+      "SHA256": "CD794DA446845A148F7F394AA2D84ADCAD5ECC008662F380D9ED5B94D34481D5"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/bayonet_encounter/validation.json",
+      "Destination": "docs/level/S19/bayonet-20261015/release-opening-checks/bayonet_encounter/validation.json",
+      "Bytes": 97,
+      "SHA256": "3E45270580922751439AF64761FBE27E904E0E1FEE7E15377CF5B37086A805C1"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/changbai_landscape/run.log",
+      "Destination": "docs/level/S23/changbai-20261015/source-headless.log",
+      "Bytes": 1542,
+      "SHA256": "2B79C026B4E5847592ADF6E2086651A1D06632AB04FED28F2BB713D943455743"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/changbai_landscape/validation.json",
+      "Destination": "docs/level/S23/changbai-20261015/source-headless/validation.json",
+      "Bytes": 3259,
+      "SHA256": "3006EE168C26F60DCF3D82F0DBA0A73474A0CEFB0ACCBDFAF1B42E509DBB0BF4"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/dialogue_motion/run.log",
+      "Destination": "docs/level/S24/natural-dialogue-20261015/source-headless/run.log",
+      "Bytes": 486,
+      "SHA256": "ACDF81BB8B008E2F052C6FA0B64554D1D8F7C5B6F843D69883C556AF48A16D43"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/dialogue_motion/validation.json",
+      "Destination": "docs/level/S24/natural-dialogue-20261015/source-headless/validation.json",
+      "Bytes": 847,
+      "SHA256": "44CF7431804C9CBC42DE28EBB4AB47673DCAC1396B68800B4DAECE5D54012CDF"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/opening/run.log",
+      "Destination": "docs/level/S19/bayonet-20261015/release-opening-checks/opening/run.log",
+      "Bytes": 2318,
+      "SHA256": "132E75FF4F01180DDDC7B008096E719CC46DF2E56E72CBB71FBD87453D97783C"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/opening/runtime_validation.json",
+      "Destination": "docs/level/S19/bayonet-20261015/release-opening-checks/opening/runtime_validation.json",
+      "Bytes": 4302,
+      "SHA256": "92F54365BDA8734E5830E276AFC81E73D9BA9127829A6EA6B850B3E0D7A32D7C"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s22_tianchi_access/run.log",
+      "Destination": "docs/level/S17/reference-scale-20261015/release-opening-checks/s22_tianchi_access/run.log",
+      "Bytes": 718,
+      "SHA256": "5FFE99A04059B00699CF65E4BDBF9D3066F67482891D87B0AE4191303BB276D6"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s22_tianchi_access/tianchi_access.json",
+      "Destination": "docs/level/S17/reference-scale-20261015/release-opening-checks/s22_tianchi_access/tianchi_access.json",
+      "Bytes": 1798,
+      "SHA256": "06EFFC0B45419BC856EFC25E24F97F6DBDB22E7F885432587033E3A75F4E6384"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s25_handoff/handoff.json",
+      "Destination": "docs/level/S17/reference-scale-20261015/release-opening-checks/s25_handoff/handoff.json",
+      "Bytes": 1648,
+      "SHA256": "8A43F2A81E096D2543B23760899B4489B7C65FD40278212F4D9D75232C0F2AF8"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s25_handoff/run.log",
+      "Destination": "docs/level/S17/reference-scale-20261015/release-opening-checks/s25_handoff/run.log",
+      "Bytes": 702,
+      "SHA256": "18F43A00ED6A11E38FD12394F869A2E0A1A99FEEE1FEA50D2037E0AC8C95D094"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s30_audio_mix/audio-mix.json",
+      "Destination": "docs/audio/settings_20261015/source-runtime/opening-checks/s30_audio_mix/audio-mix.json",
+      "Bytes": 3006,
+      "SHA256": "417D94012697CB624E85C6CB0420983EB24C5D9DF131A8758CB525B06719134D"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s30_audio_mix/run.log",
+      "Destination": "docs/audio/settings_20261015/source-runtime/opening-checks/s30_audio_mix/run.log",
+      "Bytes": 1636,
+      "SHA256": "5856DE8BD65EB8927E4D508FBDFFF0CF9D43BDBA146FE6228097CD1F2AF1B5E8"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s31_voice_integration/run.log",
+      "Destination": "docs/audio/settings_20261015/source-runtime/opening-checks/s31_voice_integration/run.log",
+      "Bytes": 588,
+      "SHA256": "CE50BE868FB12F9D1B3ECE0B0A3D54ACC7EA11723D5408FDBFC3BE8E179330CE"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s31_voice_integration/voice-integration.json",
+      "Destination": "docs/audio/settings_20261015/source-runtime/opening-checks/s31_voice_integration/voice-integration.json",
+      "Bytes": 1076,
+      "SHA256": "B9B7874D0E138ADAF727A980D48B8162A12130ACC888EF99003D5454F53DD03F"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s32_history_formal/history-formal.json",
+      "Destination": "docs/level/S24/natural-dialogue-20261015/rescue-check/history-formal.json",
+      "Bytes": 3559,
+      "SHA256": "938997349DA63EB017AD568197660805B6D659B073979F00977A8F0DB47AC7F7"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s32_history_formal/run.log",
+      "Destination": "docs/user-revision-20261015/a10-repair.log",
+      "Bytes": 2051,
+      "SHA256": "41A12BB9FA8C9333B9697956BBFA4F21947F6FF1772508EC4863F86180CB340A"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s33_task_formal/run.log",
+      "Destination": "docs/level/S17/reference-scale-20261015/release-opening-checks/s33_task_formal/run.log",
+      "Bytes": 1258,
+      "SHA256": "0116F95221B145583F64166C39A452C9C56BA509E9EB3E710645D54145357FFC"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s33_task_formal/task-formal.json",
+      "Destination": "docs/level/S19/bayonet-20261015/release-opening-checks/s33_task_formal/task-formal.json",
+      "Bytes": 1995,
+      "SHA256": "4C05E4DC37CFCAA3E3821A566E157AA7D2DE81993601AC6C0A9D15748F46DE20"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/opening-checks/s34_state_matrix/run.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/opening-checks/s34_state_matrix/run.log",
+      "Bytes": 1149,
+      "SHA256": "89641746E9DCDCCA396EC8E796A798EFA7A8A7EDC99039642F948838EA23CB15"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/opening-checks/s34_state_matrix/state-matrix.json",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/opening-checks/s34_state_matrix/state-matrix.json",
+      "Bytes": 3783,
+      "SHA256": "A74CD52D49CCDE37EB21885A89E2099E87D42F5044A5D0BE00EFEC410CEF20A5"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/opening-checks/s36_departure_review/run.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/opening-checks/s36_departure_review/run.log",
+      "Bytes": 482,
+      "SHA256": "60D947FC114FAE0BFD3D062137F6D57D0743AEBD721C643DF05B024991F2D329"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/s36_departure_review/terrain-samples.json",
+      "Destination": "docs/level/S17/reference-scale-20261015/release-opening-checks/s36_departure_review/terrain-samples.json",
+      "Bytes": 3376,
+      "SHA256": "1C60FCF11EC60FD50DF73563DF2ECB6EA524CE4262906C81A88E78DCF0B8EE05"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/opening-checks/straight_charge/run.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/opening-checks/straight_charge/run.log",
+      "Bytes": 1861,
+      "SHA256": "1AE1279007F2CD982457585EDE30A78A9E8BE6FAF5E41ABBCD249A2E04F6319C"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/straight_charge/validation.json",
+      "Destination": "docs/level/S19/straight-charge-20261015/source-headless/validation.json",
+      "Bytes": 2984,
+      "SHA256": "F1C226754DF9540518946F412811E103CA7054F83A58D94BA2FAC9897AB46A74"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/user_audio_20261015/run.log",
+      "Destination": "docs/level/S19/bayonet-20261015/release-opening-checks/user_audio_20261015/run.log",
+      "Bytes": 1542,
+      "SHA256": "406A33A4FCCD1191C70805222EEF90CD4F8BCAD3754DEA6EDE003387E9016817"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/user_audio_20261015/user-audio.json",
+      "Destination": "docs/level/S19/bayonet-20261015/release-opening-checks/user_audio_20261015/user-audio.json",
+      "Bytes": 2938,
+      "SHA256": "D96FC6EDEBFE5554E900FAB414CEE857AE6F70EA20D0BD194E905A9921223B00"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/user_revision_20261015/dialogue-runtime.json",
+      "Destination": "docs/user-revision-20261015/release-render-1280/dialogue-runtime.json",
+      "Bytes": 2388,
+      "SHA256": "5A17864B0562D5E081C8B5BBC5F06C7FF272EAE01525C1092CF4802836816A38"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/opening-checks/user_revision_20261015/run.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/opening-checks/user_revision_20261015/run.log",
+      "Bytes": 3283,
+      "SHA256": "637B91EB4AA5B1265A2366E1C203162E3EB80C1CA615E22047984F40D74B5137"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/opening-checks/user_revision_20261015/validation.json",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/opening-checks/user_revision_20261015/validation.json",
+      "Bytes": 71,
+      "SHA256": "50116ABD2B260279718149F029FCF5168FB05EEC503AC1C4268A2CDF67CB7F13"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/user_sfx_20261015/run.log",
+      "Destination": "docs/level/S19/field-sfx-20261015/release-runtime/user_sfx_20261015/run.log",
+      "Bytes": 1634,
+      "SHA256": "6A87532C35AFA09B69CAB1F5864C9343924F904C005B3E29778236064E301427"
+    },
+    {
+      "Action": "remove_verified_duplicate",
+      "Source": "GodotProject/opening-checks/user_sfx_20261015/validation.json",
+      "Destination": "docs/level/S19/field-sfx-20261015/release-runtime/user_sfx_20261015/validation.json",
+      "Bytes": 3168,
+      "SHA256": "08A9440C5D51D38FA2EE1EA6DD0439EE7B51028A14ED291E418C79382795BC37"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-baseline-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-baseline-balanced.log",
+      "Bytes": 895,
+      "SHA256": "C83160BA9EEC4C83AF205F4267AD06CFB24CE3DD243A512C758A4C946DDC827A"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-optimized-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-optimized-balanced.log",
+      "Bytes": 876,
+      "SHA256": "D559FC78E0120970424427AFC3FAEC60CF6ABA245577897D95C313DB19F97433"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-release-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-release-balanced.log",
+      "Bytes": 876,
+      "SHA256": "05B08CE555D7EF2A4095594436D15F43CF2A5430FB5878242A46B5497F57D695"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-release-performance.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-release-performance.log",
+      "Bytes": 877,
+      "SHA256": "C58C5345F3F7112E696B7BCCC4372EC51D859BFF5B37F8E8579B9E4DE8DD76A1"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-release-quality.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-release-quality.log",
+      "Bytes": 876,
+      "SHA256": "0C1FD2EDA1904FA6A4C10526837D62155902ACC156B2C0B4D31116B3F27E329B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-s01-20261013-release-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-s01-20261013-release-balanced.log",
+      "Bytes": 862,
+      "SHA256": "0C946827FEB5865406004B17DF3A0F85FE10DCF04D86460FF31C3A326B4F89C9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-s01-20261013-source-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-s01-20261013-source-balanced.log",
+      "Bytes": 874,
+      "SHA256": "8C5AF4F618CBAA036C8009CB21D93E3FD455CE09F48A5BFEC9DD0CF561EF5C96"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-s01-20261013-verified-release-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-s01-20261013-verified-release-balanced.log",
+      "Bytes": 874,
+      "SHA256": "F88760FF7BAB72BD5FEB05D458CE5DD3083549DBAF262D9448F44DD8F68CB34C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-s01-20261013-verified-source-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-s01-20261013-verified-source-balanced.log",
+      "Bytes": 874,
+      "SHA256": "BAC1447DFB2DE2AFE1FAE94CAEA363F3D98A052D876C539630A2B01745186976"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/benchmark-s35-20261015-balanced.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/benchmark-s35-20261015-balanced.log",
+      "Bytes": 870,
+      "SHA256": "3D9EAE82B872286367B156814B9C523056DF0904226362A3631BFA52C33F9538"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/build-character.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/build-character.log",
+      "Bytes": 34698,
+      "SHA256": "8ECD211845CD2088EA80CBB2CC3344492081ACE6A0D9B6AE524E04AC17387620"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/build-linear.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/build-linear.log",
+      "Bytes": 31937,
+      "SHA256": "A9D4885DB4BDDDE1EB762391A52706AC0921579A42C0DF01D0384B7CB421FEBA"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/build.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/build.log",
+      "Bytes": 15679,
+      "SHA256": "0ED9B4923C92C3E12BD0F592176FB568559E3744325C02A7E2181F344689CD3A"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/character-import.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/character-import.log",
+      "Bytes": 3993,
+      "SHA256": "32964A5305A5E68BC011C470B8BE06E8C9F14CE14A91AD792FA6330F41386CF2"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/character-model.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/character-model.log",
+      "Bytes": 2292,
+      "SHA256": "BFA5CD7A5831B35783209646F6DFC641E6A1E4FBFA3E4FEC20D8CD19C3981BBE"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/combat-console.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/combat-console.log",
+      "Bytes": 176,
+      "SHA256": "7B78E0D86474115235DA198EBAC8D01AACCD840F84EB9168E24CE260F8FCEF22"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/combat-route.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/combat-route.log",
+      "Bytes": 173,
+      "SHA256": "7BF12D9E85BABE0550C3C2CF7E1DC218F88977935529DF9EACFC2368401B3CF0"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/import-current.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/import-current.log",
+      "Bytes": 1033,
+      "SHA256": "B728DE0C23F24D9AA31BC7608B177D7CA13857D7C3ACA862A08506D00675123B"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/import.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/import.log",
+      "Bytes": 1136,
+      "SHA256": "498CA4BD03F96ACEAFFF9DC396500ED7B3D9E00D6F4534FEEFD25354A3979C9A"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/linear-import.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/linear-import.log",
+      "Bytes": 2074,
+      "SHA256": "91A2F3D1ACE1E0EFDEA518434EC33E4CC4DDA09A04C6858EF6283370786A515F"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/linear-parse.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/linear-parse.log",
+      "Bytes": 196,
+      "SHA256": "554054A141B798078E4A93FC360A602B580ADDEB5324C47D43134694AC7C0DE1"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/linear-route.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/linear-route.log",
+      "Bytes": 2364,
+      "SHA256": "5A1F61D0931981E80C72A928FAB63A560A66E98F75F6E31D3EB81F9D2F7B228C"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/opening-import.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/opening-import.log",
+      "Bytes": 2059,
+      "SHA256": "987EAD40D068CBD6E98A884672BDD86230EE045CA8F1E762A01B18B4D97FDAEF"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/qinglan-render.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/qinglan-render.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/qinglan-small.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/qinglan-small.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/render-1280x720.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/render-1280x720.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/render-4by3.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/render-4by3.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/render-960x540.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/render-960x540.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/render-fullhd.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/render-fullhd.log",
+      "Bytes": 185,
+      "SHA256": "31A8D7C2AA972A533C097C061D7D90419902CC35E92830B6F8CB43A3094BB9DA"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/render-small.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/render-small.log",
+      "Bytes": 185,
+      "SHA256": "31A8D7C2AA972A533C097C061D7D90419902CC35E92830B6F8CB43A3094BB9DA"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/render.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/render.log",
+      "Bytes": 185,
+      "SHA256": "31A8D7C2AA972A533C097C061D7D90419902CC35E92830B6F8CB43A3094BB9DA"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/runtime.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/runtime.log",
+      "Bytes": 78,
+      "SHA256": "C2CBDD702654EFD1D77073DF507EDCB16ACE821A6AB6489BDA38676DF0787CDB"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/smoke-console.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/smoke-console.log",
+      "Bytes": 5408,
+      "SHA256": "F19F0C121F0E6D01202F7AD9971E4D49A08A36F9A98C5C5C1C9C9C7C4CB185B7"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/smoke-current.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/smoke-current.log",
+      "Bytes": 5408,
+      "SHA256": "F19F0C121F0E6D01202F7AD9971E4D49A08A36F9A98C5C5C1C9C9C7C4CB185B7"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/smoke-verbose.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/smoke-verbose.log",
+      "Bytes": 2542,
+      "SHA256": "C8857A86D1E3BBEB0DB11746C7E8DD86169836B766E5774202F7E9B0380711E5"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/smoke.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/smoke.log",
+      "Bytes": 5330,
+      "SHA256": "8E25A5B0B0F0017B4C0BF4DEA84DB1A59C43ACC104D54717D8D5E6E672A09D1E"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/source-validation.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/source-validation.log",
+      "Bytes": 13397,
+      "SHA256": "DA003EDF16A427978108E0A7C6AC41A3BF436FF6EEE666BB782DCDDB65AADCD9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/story-moments.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/story-moments.log",
+      "Bytes": 683,
+      "SHA256": "53BE442E1FB66F4789780A5C7E2BF81D9459E3A796B31200A307CEFC46E5E208"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/v04-import.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/v04-import.log",
+      "Bytes": 26025,
+      "SHA256": "F69377E77CF26208947EB0FF487435BCA7B1AE798471E0AF575C68BA5A17BD13"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/visual-iteration1.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/visual-iteration1.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/visual-iteration2.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/visual-iteration2.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/visual-iteration3.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/visual-iteration3.log",
+      "Bytes": 180,
+      "SHA256": "F91D6836EEEC389B4DA2545F478C41D226A15C0E8BAAE393FFFB8D36C47C1EF9"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/visual-motion-render.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/visual-motion-render.log",
+      "Bytes": 2905,
+      "SHA256": "6F2FB083DD250A512A275655151EC47647E026D7A8DDDE99773A169CFFF06863"
+    },
+    {
+      "Action": "archive",
+      "Source": "GodotProject/visual-motion.log",
+      "Destination": "docs/archive/workspace-20261015/GodotProject/visual-motion.log",
+      "Bytes": 3394,
+      "SHA256": "CCEE4F047C0922B17F5D151574FD2648DFA6AEB91ED720474D14D02BEAD6AABB"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/blender-setup.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/blender-setup.log",
+      "Bytes": 971,
+      "SHA256": "B08CDE4CE0F9679914689356CD2895603579E1686F2F20E2EA4F3EF2BB074481"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/character_rig_parse.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/character_rig_parse.log",
+      "Bytes": 73,
+      "SHA256": "6D1C065383A27C36804949B6FFA4B09714470B112E5DACC0BD5AEB7B9C147C4E"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/character-grip-refinement.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/character-grip-refinement.log",
+      "Bytes": 3099,
+      "SHA256": "75C49D7C9716270855C4260ADC1514CA2559761699EE68162F8B46B229DAE0C6"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/character-import-inspect.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/character-import-inspect.log",
+      "Bytes": 783,
+      "SHA256": "C3B43A73E1686609C9AC62F98275EB4150539AC32EFEC9F0D10AD2BF7841FFA9"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/character-source.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/character-source.log",
+      "Bytes": 442,
+      "SHA256": "D8FB60335EA25D4DFEA1C8AE56FF143E12A3D6B508CAFAB1C453C5CEBEA4B6CA"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/character-test-parse.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/character-test-parse.log",
+      "Bytes": 73,
+      "SHA256": "6D1C065383A27C36804949B6FFA4B09714470B112E5DACC0BD5AEB7B9C147C4E"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/character-test.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/character-test.log",
+      "Bytes": 2976,
+      "SHA256": "72D483C1EAE0AB1F9F368B1D3F50C9F02E8B376BDE0B83C20E47BF2F3DB56378"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/field-character-build.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/field-character-build.log",
+      "Bytes": 3909,
+      "SHA256": "5DFAE0F6EF3288634BF4839BC0710A52FEA7CBBBE0760C4BB9203414DE008443"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/field-character-revision-build.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/field-character-revision-build.log",
+      "Bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/grip-after.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/grip-after.log",
+      "Bytes": 3356,
+      "SHA256": "B98F1FC8FABEB1D7F4D697D9DCF483BD62317B8B2E43F440A2CC645C58662896"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/grip-before.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/grip-before.log",
+      "Bytes": 3088,
+      "SHA256": "6F50DA194154932C9000CFAF26FBC40E4E369F5BE13C547202F361D9B9E34D6A"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/grip-inspect-after.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/grip-inspect-after.log",
+      "Bytes": 2543,
+      "SHA256": "72FB0D975B37EEC8B17F9839FEE6589ECD9B885856F81371270D315A0DEF4852"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/grip-inspect.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/grip-inspect.log",
+      "Bytes": 2537,
+      "SHA256": "7C03169EDFD6C338BB6661F1CF8F0CC155FB18FF3F5B8A586A19EA94CC4B5D79"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/hand-refinement-build.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/hand-refinement-build.log",
+      "Bytes": 738,
+      "SHA256": "48DDAD49E1CDD89C5CFD2320DCB0F40C443060325F359E5F6F112A7B34673CE6"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/hand-refinement-import.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/hand-refinement-import.log",
+      "Bytes": 3757,
+      "SHA256": "EDF373FBFBABD5C4416C2413483C989C28F2FB9754C9BDF0A4EE89B84D531675"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/hands-build-release.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/hands-build-release.log",
+      "Bytes": 34698,
+      "SHA256": "8ECD211845CD2088EA80CBB2CC3344492081ACE6A0D9B6AE524E04AC17387620"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/hands-refined-inspect.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/hands-refined-inspect.log",
+      "Bytes": 2497,
+      "SHA256": "A869F048217E51F9ECF8C69C69FF17CC733928D7E11C48C77D733541605BFE3E"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/hands-refined-motion.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/hands-refined-motion.log",
+      "Bytes": 3872,
+      "SHA256": "C14F99865E40BE9BD11CE630D78D094FA0B5ED01D7F316423D97D30BAE6570A2"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/motion-grip-validation.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/motion-grip-validation.log",
+      "Bytes": 4188,
+      "SHA256": "FB9A0F04D22608F2AAE6A63E92839B45A65FE7793EB0B23D9B4C956C70DDC9CE"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/motion-test-parse.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/motion-test-parse.log",
+      "Bytes": 73,
+      "SHA256": "6D1C065383A27C36804949B6FFA4B09714470B112E5DACC0BD5AEB7B9C147C4E"
+    },
+    {
+      "Action": "archive",
+      "Source": "tools/npc-grip-motion-review.log",
+      "Destination": "docs/archive/workspace-20261015/tool-logs/npc-grip-motion-review.log",
+      "Bytes": 604,
+      "SHA256": "3F72508E30F9945BED06E076791947EEAC21EA8B57E6BB1D1CE0E0EB840A988C"
+    },
+    {
+      "Action": "archive",
+      "Source": "godot-standard-4.7.2.zip",
+      "Destination": "tools/downloads/godot-standard-4.7.2.zip",
+      "Bytes": 86013866,
+      "SHA256": "731980F9608D61333E5BAF54A2EF17210ACC7A538446C0CB9969F002ACA1E953"
+    },
+    {
+      "Action": "remove_regenerable_python_cache",
+      "Source": "tools/__pycache__",
+      "Destination": null,
+      "Bytes": 144580.0
+    },
+    {
+      "Action": "remove_empty_directory",
+      "Source": "GodotProject/export_templates",
+      "Destination": null,
+      "Bytes": 0
+    },
+    {
+      "Action": "remove_empty_directory",
+      "Source": "GodotProject/script_templates",
+      "Destination": null,
+      "Bytes": 0
+    },
+    {
+      "Action": "remove_empty_directory",
+      "Source": "GodotProject/text_editor_themes",
+      "Destination": null,
+      "Bytes": 0
+    }
+  ],
+  "Preserved": [
+    "original asset downloads",
+    "editable sources",
+    "WorkBackups",
+    "ReleaseBackups",
+    "RestoreChecks",
+    "ConversationBackups",
+    "engine installations",
+    "inactive Unity skeleton"
+  ],
+  "BytesRemovedAsDuplicates": 59304.0
+}

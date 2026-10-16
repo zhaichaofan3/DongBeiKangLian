@@ -1,0 +1,7 @@
+Title: Footsteps leather, cloth, armor
+Author: HaelDB
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/footsteps-leather-cloth-armor
+Evidence: source.html and source.txt
+Notes: Page offers CC0 and OGA-BY 3.0 alternatives; selected CC0. Soft gain, suitable clothing layers.

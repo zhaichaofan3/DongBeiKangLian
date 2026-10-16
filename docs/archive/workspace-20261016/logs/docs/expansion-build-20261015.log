@@ -1,0 +1,89 @@
+信息: 已另存为 "kar98k.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+19:43:56 | INFO: Starting glTF 2.0 export
+19:43:56 | INFO: Extracting primitive: 网格.008
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Extracting primitive: 网格.009
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Extracting primitive: 网格.010
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Extracting primitive: 网格.011
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Extracting primitive: 网格.012
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Extracting primitive: 网格.013
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Extracting primitive: 网格.014
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Extracting primitive: 网格.015
+19:43:56 | INFO: Primitives created: 1
+19:43:56 | INFO: Finished glTF 2.0 export in 0.08603858947753906 s
+
+信息: 已另存为 "office.blend"
+19:43:56 | INFO: Starting glTF 2.0 export
+19:43:56 | INFO: Extracting primitive: 3d66-Editable_Poly-22399557-001.001
+19:43:57 | INFO: Primitives created: 20
+19:43:57 | INFO: Finished glTF 2.0 export in 0.7018568515777588 s
+
+信息: 已另存为 "camp_1.blend"
+19:43:57 | INFO: Starting glTF 2.0 export
+19:43:57 | INFO: Extracting primitive: Obj3d66-4690991-1-376.001
+19:43:58 | INFO: Primitives created: 1
+19:43:58 | INFO: Finished glTF 2.0 export in 0.8986268043518066 s
+
+信息: 已另存为 "camp_2.blend"
+19:43:58 | INFO: Starting glTF 2.0 export
+19:43:58 | INFO: Extracting primitive: Obj3d66-4690991-2-628.001
+19:43:59 | INFO: Primitives created: 1
+19:43:59 | INFO: Finished glTF 2.0 export in 1.1793570518493652 s
+
+信息: 已另存为 "camp_3.blend"
+19:44:00 | INFO: Starting glTF 2.0 export
+19:44:00 | INFO: Extracting primitive: Obj3d66-4690991-3-130.001
+19:44:01 | INFO: Primitives created: 1
+19:44:01 | INFO: Finished glTF 2.0 export in 1.1810507774353027 s
+
+信息: 已另存为 "camp_4.blend"
+19:44:01 | INFO: Starting glTF 2.0 export
+19:44:01 | INFO: Extracting primitive: Obj3d66-4690991-4-65.001
+19:44:02 | INFO: Primitives created: 1
+19:44:02 | INFO: Finished glTF 2.0 export in 1.1661591529846191 s
+
+信息: 已另存为 "village_1.blend"
+19:44:04 | INFO: Starting glTF 2.0 export
+19:44:04 | INFO: Extracting primitive: Obj3d66-691775-387-726.001
+19:44:05 | INFO: Primitives created: 24
+19:44:05 | INFO: Finished glTF 2.0 export in 0.7520709037780762 s
+
+信息: 已另存为 "village_2.blend"
+19:44:07 | INFO: Starting glTF 2.0 export
+19:44:07 | INFO: Extracting primitive: Obj3d66-691775-388-812.001
+19:44:08 | INFO: Primitives created: 22
+19:44:08 | INFO: Finished glTF 2.0 export in 0.6519622802734375 s
+
+信息: 已另存为 "village_3.blend"
+19:44:10 | INFO: Starting glTF 2.0 export
+19:44:10 | INFO: Extracting primitive: Obj3d66-691775-488-171.001
+19:44:11 | INFO: Primitives created: 24
+19:44:11 | INFO: Finished glTF 2.0 export in 0.6426005363464355 s
+
+信息: 已另存为 "village_4.blend"
+19:44:13 | INFO: Starting glTF 2.0 export
+19:44:13 | INFO: Extracting primitive: Obj3d66-691775-564-115.001
+19:44:14 | INFO: Primitives created: 24
+19:44:14 | INFO: Finished glTF 2.0 export in 0.6234893798828125 s
+
+USER_EXPANSION_BUILD_COMPLETE 10
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\docs\expansion_20261015\rifle\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\office\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\camp\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\camp\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\camp\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\camp\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\village\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\village\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\village\raw-import.blend"
+Read blend: "C:\GameMake\docs\expansion_20261015\village\raw-import.blend"
+
+Blender quit

@@ -1,0 +1,646 @@
+{
+  "checked_at": "2026-10-13T21:12:02+08:00",
+  "scope": "文档路径、结构、固定原文、资源文件、历史快照哈希、S11备份/当前游戏文件；未运行游戏、试听或性能测试。",
+  "errors": [
+    "文档断链：{\"document\": \"docs/PROJECT_HANDOVER.md\", \"target\": \"handover/VALIDATION.md\"}",
+    "文档断链：{\"document\": \"docs/PROJECT_HANDOVER.md\", \"target\": \"handover/validation.json\"}",
+    "文档断链：{\"document\": \"docs/handover/OPERATIONS.md\", \"target\": \"VALIDATION.md\"}",
+    "新增未核对的游戏文件：['GodotProject/captures/office.png.import', 'GodotProject/captures/title.png.import', 'GodotProject/captures/yard.png.import', 'GodotProject/captures/1024x768/office.png.import', 'GodotProject/captures/1024x768/title.png.import', 'GodotProject/captures/1024x768/yard.png.import', 'GodotProject/captures/1920x1080/office.png.import', 'GodotProject/captures/1920x1080/title.png.import', 'GodotProject/captures/1920x1080/yard.png.import', 'GodotProject/captures/960x540/office.png.import', 'GodotProject/captures/960x540/title.png.import', 'GodotProject/captures/960x540/yard.png.import', 'GodotProject/captures/qinglan/conversation.png.import', 'GodotProject/captures/qinglan/office.png.import', 'GodotProject/captures/qinglan/rescue.png.import', 'GodotProject/captures/qinglan/title.png.import', 'GodotProject/captures/qinglan/yard.png.import', 'GodotProject/captures/qinglan-small/conversation.png.import', 'GodotProject/captures/qinglan-small/journal.png.import', 'GodotProject/captures/qinglan-small/office.png.import', 'GodotProject/captures/qinglan-small/rescue.png.import', 'GodotProject/captures/qinglan-small/title.png.import', 'GodotProject/captures/qinglan-small/yard.png.import', 'GodotProject/verification-captures/1280x720/conversation.png.import', 'GodotProject/verification-captures/1280x720/journal.png.import', 'GodotProject/verification-captures/1280x720/office.png.import', 'GodotProject/verification-captures/1280x720/rescue.png.import', 'GodotProject/verification-captures/1280x720/river.png.import', 'GodotProject/verification-captures/1280x720/settings.png.import', 'GodotProject/verification-captures/1280x720/title.png.import', 'GodotProject/verification-captures/1280x720/yard.png.import', 'GodotProject/verification-captures/960x540/conversation.png.import', 'GodotProject/verification-captures/960x540/journal.png.import', 'GodotProject/verification-captures/960x540/office.png.import', 'GodotProject/verification-captures/960x540/rescue.png.import', 'GodotProject/verification-captures/960x540/river.png.import', 'GodotProject/verification-captures/960x540/settings.png.import', 'GodotProject/verification-captures/960x540/title.png.import', 'GodotProject/verification-captures/960x540/yard.png.import', 'GodotProject/verification-captures/iteration1/conversation.png.import', 'GodotProject/verification-captures/iteration1/journal.png.import', 'GodotProject/verification-captures/iteration1/office.png.import', 'GodotProject/verification-captures/iteration1/rescue.png.import', 'GodotProject/verification-captures/iteration1/title.png.import', 'GodotProject/verification-captures/iteration1/yard.png.import', 'GodotProject/verification-captures/iteration2/conversation.png.import', 'GodotProject/verification-captures/iteration2/journal.png.import', 'GodotProject/verification-captures/iteration2/office.png.import', 'GodotProject/verification-captures/iteration2/rescue.png.import', 'GodotProject/verification-captures/iteration2/river.png.import', 'GodotProject/verification-captures/iteration2/settings.png.import', 'GodotProject/verification-captures/iteration2/title.png.import', 'GodotProject/verification-captures/iteration2/yard.png.import', 'GodotProject/verification-captures/iteration3/conversation.png.import', 'GodotProject/verification-captures/iteration3/journal.png.import', 'GodotProject/verification-captures/iteration3/office.png.import', 'GodotProject/verification-captures/iteration3/rescue.png.import', 'GodotProject/verification-captures/iteration3/river.png.import', 'GodotProject/verification-captures/iteration3/settings.png.import', 'GodotProject/verification-captures/iteration3/title.png.import', 'GodotProject/verification-captures/iteration3/yard.png.import', 'GodotProject/verification-captures/motion/aim.png.import', 'GodotProject/verification-captures/motion/bolt_01_lift.png.import', 'GodotProject/verification-captures/motion/bolt_02_open.png.import', 'GodotProject/verification-captures/motion/bolt_03_return.png.import', 'GodotProject/verification-captures/motion/pistol.png.import', 'GodotProject/verification-captures/motion/pistol_reload.png.import', 'GodotProject/verification-captures/motion/reload.png.import', 'GodotProject/verification-captures/motion/reload_01_open.png.import', 'GodotProject/verification-captures/motion/reload_02_present.png.import', 'GodotProject/verification-captures/motion/rifle.png.import']"
+  ],
+  "notes": [],
+  "production_steps": {
+    "done": 11,
+    "next": "S12",
+    "state_revision_at_check": 48
+  },
+  "step_evidence": {
+    "paths": 66,
+    "missing": []
+  },
+  "document_links": {
+    "documents": 15,
+    "local_links": 564,
+    "broken": [
+      {
+        "document": "docs/PROJECT_HANDOVER.md",
+        "target": "handover/VALIDATION.md"
+      },
+      {
+        "document": "docs/PROJECT_HANDOVER.md",
+        "target": "handover/validation.json"
+      },
+      {
+        "document": "docs/handover/OPERATIONS.md",
+        "target": "VALIDATION.md"
+      }
+    ]
+  },
+  "fixed_narration": {
+    "characters": 161,
+    "identical": true,
+    "sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320"
+  },
+  "future_steps": {
+    "count": 25,
+    "ids": [
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28",
+      "S29",
+      "S30",
+      "S31",
+      "S32",
+      "S33",
+      "S34",
+      "S35",
+      "S36"
+    ]
+  },
+  "resources": {
+    "records": 105,
+    "unique_file_paths": 1130,
+    "missing": [],
+    "s10_derivatives": 5,
+    "s11_mappings": [
+      {
+        "id": "village_market",
+        "game_file_count": 1
+      },
+      {
+        "id": "market_stalls",
+        "game_file_count": 1
+      },
+      {
+        "id": "chinese_screen_panels",
+        "game_file_count": 5
+      },
+      {
+        "id": "chinese_tea_table",
+        "game_file_count": 5
+      },
+      {
+        "id": "wicker_basket_01",
+        "game_file_count": 5
+      }
+    ]
+  },
+  "s11_checkpoint": {
+    "path": "WorkBackups/20261013-202324-S11-done-f7924d",
+    "files_verified": 449,
+    "bytes": 281296098,
+    "mismatches": []
+  },
+  "game_comparison": {
+    "snapshotted_game_files": 392,
+    "mismatches": [],
+    "outside_snapshot_files": [
+      "GodotProject/benchmark-baseline-balanced.log",
+      "GodotProject/benchmark-optimized-balanced.log",
+      "GodotProject/benchmark-release-balanced.log",
+      "GodotProject/benchmark-release-performance.log",
+      "GodotProject/benchmark-release-quality.log",
+      "GodotProject/benchmark-s01-20261013-release-balanced.log",
+      "GodotProject/benchmark-s01-20261013-source-balanced.log",
+      "GodotProject/benchmark-s01-20261013-verified-release-balanced.log",
+      "GodotProject/benchmark-s01-20261013-verified-source-balanced.log",
+      "GodotProject/build-character.log",
+      "GodotProject/build-linear.log",
+      "GodotProject/build.log",
+      "GodotProject/character-import.log",
+      "GodotProject/character-model.log",
+      "GodotProject/combat-console.log",
+      "GodotProject/combat-route.log",
+      "GodotProject/import-current.log",
+      "GodotProject/import.log",
+      "GodotProject/linear-import.log",
+      "GodotProject/linear-parse.log",
+      "GodotProject/linear-route.log",
+      "GodotProject/opening-import.log",
+      "GodotProject/qinglan-render.log",
+      "GodotProject/qinglan-small.log",
+      "GodotProject/render-1280x720.log",
+      "GodotProject/render-4by3.log",
+      "GodotProject/render-960x540.log",
+      "GodotProject/render-fullhd.log",
+      "GodotProject/render-small.log",
+      "GodotProject/render.log",
+      "GodotProject/runtime.log",
+      "GodotProject/smoke-console.log",
+      "GodotProject/smoke-current.log",
+      "GodotProject/smoke-verbose.log",
+      "GodotProject/smoke.log",
+      "GodotProject/source-validation.log",
+      "GodotProject/story-moments.log",
+      "GodotProject/v04-import.log",
+      "GodotProject/visual-iteration1.log",
+      "GodotProject/visual-iteration2.log",
+      "GodotProject/visual-iteration3.log",
+      "GodotProject/visual-motion-render.log",
+      "GodotProject/visual-motion.log",
+      "GodotProject/captures/office.png",
+      "GodotProject/captures/office.png.import",
+      "GodotProject/captures/title.png",
+      "GodotProject/captures/title.png.import",
+      "GodotProject/captures/yard.png",
+      "GodotProject/captures/yard.png.import",
+      "GodotProject/captures/1024x768/office.png",
+      "GodotProject/captures/1024x768/office.png.import",
+      "GodotProject/captures/1024x768/title.png",
+      "GodotProject/captures/1024x768/title.png.import",
+      "GodotProject/captures/1024x768/yard.png",
+      "GodotProject/captures/1024x768/yard.png.import",
+      "GodotProject/captures/1920x1080/office.png",
+      "GodotProject/captures/1920x1080/office.png.import",
+      "GodotProject/captures/1920x1080/title.png",
+      "GodotProject/captures/1920x1080/title.png.import",
+      "GodotProject/captures/1920x1080/yard.png",
+      "GodotProject/captures/1920x1080/yard.png.import",
+      "GodotProject/captures/960x540/office.png",
+      "GodotProject/captures/960x540/office.png.import",
+      "GodotProject/captures/960x540/title.png",
+      "GodotProject/captures/960x540/title.png.import",
+      "GodotProject/captures/960x540/yard.png",
+      "GodotProject/captures/960x540/yard.png.import",
+      "GodotProject/captures/qinglan/conversation.png",
+      "GodotProject/captures/qinglan/conversation.png.import",
+      "GodotProject/captures/qinglan/office.png",
+      "GodotProject/captures/qinglan/office.png.import",
+      "GodotProject/captures/qinglan/rescue.png",
+      "GodotProject/captures/qinglan/rescue.png.import",
+      "GodotProject/captures/qinglan/title.png",
+      "GodotProject/captures/qinglan/title.png.import",
+      "GodotProject/captures/qinglan/yard.png",
+      "GodotProject/captures/qinglan/yard.png.import",
+      "GodotProject/captures/qinglan-small/conversation.png",
+      "GodotProject/captures/qinglan-small/conversation.png.import",
+      "GodotProject/captures/qinglan-small/journal.png",
+      "GodotProject/captures/qinglan-small/journal.png.import",
+      "GodotProject/captures/qinglan-small/office.png",
+      "GodotProject/captures/qinglan-small/office.png.import",
+      "GodotProject/captures/qinglan-small/rescue.png",
+      "GodotProject/captures/qinglan-small/rescue.png.import",
+      "GodotProject/captures/qinglan-small/title.png",
+      "GodotProject/captures/qinglan-small/title.png.import",
+      "GodotProject/captures/qinglan-small/yard.png",
+      "GodotProject/captures/qinglan-small/yard.png.import",
+      "GodotProject/verification-captures/1280x720/conversation.png",
+      "GodotProject/verification-captures/1280x720/conversation.png.import",
+      "GodotProject/verification-captures/1280x720/journal.png",
+      "GodotProject/verification-captures/1280x720/journal.png.import",
+      "GodotProject/verification-captures/1280x720/office.png",
+      "GodotProject/verification-captures/1280x720/office.png.import",
+      "GodotProject/verification-captures/1280x720/rescue.png",
+      "GodotProject/verification-captures/1280x720/rescue.png.import",
+      "GodotProject/verification-captures/1280x720/river.png",
+      "GodotProject/verification-captures/1280x720/river.png.import",
+      "GodotProject/verification-captures/1280x720/settings.png",
+      "GodotProject/verification-captures/1280x720/settings.png.import",
+      "GodotProject/verification-captures/1280x720/title.png",
+      "GodotProject/verification-captures/1280x720/title.png.import",
+      "GodotProject/verification-captures/1280x720/yard.png",
+      "GodotProject/verification-captures/1280x720/yard.png.import",
+      "GodotProject/verification-captures/960x540/conversation.png",
+      "GodotProject/verification-captures/960x540/conversation.png.import",
+      "GodotProject/verification-captures/960x540/journal.png",
+      "GodotProject/verification-captures/960x540/journal.png.import",
+      "GodotProject/verification-captures/960x540/office.png",
+      "GodotProject/verification-captures/960x540/office.png.import",
+      "GodotProject/verification-captures/960x540/rescue.png",
+      "GodotProject/verification-captures/960x540/rescue.png.import",
+      "GodotProject/verification-captures/960x540/river.png",
+      "GodotProject/verification-captures/960x540/river.png.import",
+      "GodotProject/verification-captures/960x540/settings.png",
+      "GodotProject/verification-captures/960x540/settings.png.import",
+      "GodotProject/verification-captures/960x540/title.png",
+      "GodotProject/verification-captures/960x540/title.png.import",
+      "GodotProject/verification-captures/960x540/yard.png",
+      "GodotProject/verification-captures/960x540/yard.png.import",
+      "GodotProject/verification-captures/iteration1/conversation.png",
+      "GodotProject/verification-captures/iteration1/conversation.png.import",
+      "GodotProject/verification-captures/iteration1/journal.png",
+      "GodotProject/verification-captures/iteration1/journal.png.import",
+      "GodotProject/verification-captures/iteration1/office.png",
+      "GodotProject/verification-captures/iteration1/office.png.import",
+      "GodotProject/verification-captures/iteration1/rescue.png",
+      "GodotProject/verification-captures/iteration1/rescue.png.import",
+      "GodotProject/verification-captures/iteration1/title.png",
+      "GodotProject/verification-captures/iteration1/title.png.import",
+      "GodotProject/verification-captures/iteration1/yard.png",
+      "GodotProject/verification-captures/iteration1/yard.png.import",
+      "GodotProject/verification-captures/iteration2/conversation.png",
+      "GodotProject/verification-captures/iteration2/conversation.png.import",
+      "GodotProject/verification-captures/iteration2/journal.png",
+      "GodotProject/verification-captures/iteration2/journal.png.import",
+      "GodotProject/verification-captures/iteration2/office.png",
+      "GodotProject/verification-captures/iteration2/office.png.import",
+      "GodotProject/verification-captures/iteration2/rescue.png",
+      "GodotProject/verification-captures/iteration2/rescue.png.import",
+      "GodotProject/verification-captures/iteration2/river.png",
+      "GodotProject/verification-captures/iteration2/river.png.import",
+      "GodotProject/verification-captures/iteration2/settings.png",
+      "GodotProject/verification-captures/iteration2/settings.png.import",
+      "GodotProject/verification-captures/iteration2/title.png",
+      "GodotProject/verification-captures/iteration2/title.png.import",
+      "GodotProject/verification-captures/iteration2/yard.png",
+      "GodotProject/verification-captures/iteration2/yard.png.import",
+      "GodotProject/verification-captures/iteration3/conversation.png",
+      "GodotProject/verification-captures/iteration3/conversation.png.import",
+      "GodotProject/verification-captures/iteration3/journal.png",
+      "GodotProject/verification-captures/iteration3/journal.png.import",
+      "GodotProject/verification-captures/iteration3/office.png",
+      "GodotProject/verification-captures/iteration3/office.png.import",
+      "GodotProject/verification-captures/iteration3/rescue.png",
+      "GodotProject/verification-captures/iteration3/rescue.png.import",
+      "GodotProject/verification-captures/iteration3/river.png",
+      "GodotProject/verification-captures/iteration3/river.png.import",
+      "GodotProject/verification-captures/iteration3/settings.png",
+      "GodotProject/verification-captures/iteration3/settings.png.import",
+      "GodotProject/verification-captures/iteration3/title.png",
+      "GodotProject/verification-captures/iteration3/title.png.import",
+      "GodotProject/verification-captures/iteration3/yard.png",
+      "GodotProject/verification-captures/iteration3/yard.png.import",
+      "GodotProject/verification-captures/motion/aim.png",
+      "GodotProject/verification-captures/motion/aim.png.import",
+      "GodotProject/verification-captures/motion/bolt_01_lift.png",
+      "GodotProject/verification-captures/motion/bolt_01_lift.png.import",
+      "GodotProject/verification-captures/motion/bolt_02_open.png",
+      "GodotProject/verification-captures/motion/bolt_02_open.png.import",
+      "GodotProject/verification-captures/motion/bolt_03_return.png",
+      "GodotProject/verification-captures/motion/bolt_03_return.png.import",
+      "GodotProject/verification-captures/motion/pistol.png",
+      "GodotProject/verification-captures/motion/pistol.png.import",
+      "GodotProject/verification-captures/motion/pistol_reload.png",
+      "GodotProject/verification-captures/motion/pistol_reload.png.import",
+      "GodotProject/verification-captures/motion/reload.png",
+      "GodotProject/verification-captures/motion/reload.png.import",
+      "GodotProject/verification-captures/motion/reload_01_open.png",
+      "GodotProject/verification-captures/motion/reload_01_open.png.import",
+      "GodotProject/verification-captures/motion/reload_02_present.png",
+      "GodotProject/verification-captures/motion/reload_02_present.png.import",
+      "GodotProject/verification-captures/motion/rifle.png",
+      "GodotProject/verification-captures/motion/rifle.png.import"
+    ],
+    "note": "快照范围外普通日志/旧截图不自动视为丢失源码；完整清单见逐文件目录。"
+  },
+  "history": {
+    "snapshot": "ConversationBackups/20261013-205145-7a3b3b/manifest.json",
+    "threads": 63,
+    "raw_bytes": 339425980,
+    "raw_and_attachment_objects_verified": 66,
+    "readable_transcripts": 63,
+    "transcript_checksums": [
+      {
+        "path": "ConversationBackups/objects/bae9568711c76e4150dac55102c7732e15eca1c90ae2dec2e668aeb647819b1a.md",
+        "bytes": 21228009,
+        "sha256": "b052a1644b77b09d5d9fc1ddff9fbb57d03cbe4d40e4043b0c11f0038d357ac2"
+      },
+      {
+        "path": "ConversationBackups/objects/6a1fa83df7aa17375baaf54659f17229280082577718d686e8205affb42f9be5.md",
+        "bytes": 21019,
+        "sha256": "4a280b2671f8332bbaf9ebd4d9d2430284ded4f717330e20b47ed357560701c8"
+      },
+      {
+        "path": "ConversationBackups/objects/62441a0c9da1434d6b9e9ac00f1a8bbc03c6ebe0d989ec454d77192da9a982bf.md",
+        "bytes": 29138,
+        "sha256": "bfb4707f5240ebf2cfd015f7099a86c2544db92fc04acc487491583efd127c45"
+      },
+      {
+        "path": "ConversationBackups/objects/073d9dd87df85c781674c88ba5bc50e1a1c91bf8290cbb0e569d5ae2e328cf46.md",
+        "bytes": 66262,
+        "sha256": "7106e26e2cffe930163601df9c944425107754b8326f332fee332a100270e8eb"
+      },
+      {
+        "path": "ConversationBackups/objects/3283beb7fbca28c3bed63b742f2e022f4df8b8281c26fc68f6d5685fad449686.md",
+        "bytes": 76170,
+        "sha256": "9a5a0baa215f3905dd137b44b804983a3590cd3c4e1623c7a5bc083a888092d1"
+      },
+      {
+        "path": "ConversationBackups/objects/f088e3debbff14ea8c3041e9168badad3a197c15ec2ac41b4f4b22c799eb409d.md",
+        "bytes": 172218,
+        "sha256": "248f0588efaf240b765457377ca7c747c9f8b5ffdf1f76a728c76c6baca61ff2"
+      },
+      {
+        "path": "ConversationBackups/objects/7e08fd9a6934a8d39c13383fbf547aa3766d4329308aff3eb613725be039b00f.md",
+        "bytes": 64006,
+        "sha256": "74932cc626437abed7f4fc452e731160a438ec0106ac81b2084d1e825654b1a8"
+      },
+      {
+        "path": "ConversationBackups/objects/8a194f6231287ee49c6f8e325c4238b56913bf18b9ebe5619f70e797a19a1562.md",
+        "bytes": 69148,
+        "sha256": "4a097e5a07d9f4ed662492d1578676c988eacc9e80ba63c64b55b4edb346c08e"
+      },
+      {
+        "path": "ConversationBackups/objects/fa29f281562d2bf683b12113d7a900635ce72e9b8e6bf737c2e59c32e0f2eae8.md",
+        "bytes": 19090249,
+        "sha256": "a0ea85333abd5ce94596114a367a49e811a29a49f7e9a1e3d4ed18cdaa8fb281"
+      },
+      {
+        "path": "ConversationBackups/objects/e65f4a185ba45657524f389a44a934bbbea9991e02cf09f052fcdfc05e09c00f.md",
+        "bytes": 1295159,
+        "sha256": "82a135d6b59054dabf42648b6b69b68677c04dd450259f1c7cf7361efcac013d"
+      },
+      {
+        "path": "ConversationBackups/objects/cf865d0967e6d63249dd9e3bc375c4ec5e7ecac01ce163961c96a90f581650c3.md",
+        "bytes": 7298986,
+        "sha256": "e367f7930ff41ccf3e3d4936e3f5ca83d36b8956a4d0ea1512f799120bd8fb92"
+      },
+      {
+        "path": "ConversationBackups/objects/f7341c82e0c1ce7990e4548848c1390952d40193aaf5d80cc04d6411d4602cbd.md",
+        "bytes": 3479563,
+        "sha256": "99e1b6d797c83fa24d11dddeff25dc6bb2b9e05f3dc8013cac60c9328fbd5294"
+      },
+      {
+        "path": "ConversationBackups/objects/e566c841fbf3858dde107efdae2f31bef2b4b55e59f7702f500787f2cdd2a5df.md",
+        "bytes": 233687,
+        "sha256": "939273b5cad1ad2b23630a9085a2055810b82b606a58feef6ca4863582874b71"
+      },
+      {
+        "path": "ConversationBackups/objects/170873f999c33cb432ce64d8d61b432cbc1b5f0a295fca2456f2ff4e83b56991.md",
+        "bytes": 45008554,
+        "sha256": "57bd2eb88c871fdf996834a6154a27c69113746e7d44ba4833d48141581a4ce9"
+      },
+      {
+        "path": "ConversationBackups/objects/e3f42cf3599c26f0268cfbe42e588220464b80d39fc9e5569ef8c4416a426c1b.md",
+        "bytes": 3761679,
+        "sha256": "5571b79fbccdfa39561b26e6265fdfe27b863e3c5e37c7425a8fa0b2868d0a2e"
+      },
+      {
+        "path": "ConversationBackups/objects/5f82a9d9e08db52b512e150fad18856f385729e0df76ba8d03635789a899ccb7.md",
+        "bytes": 176477,
+        "sha256": "efcf293b7d935a661f47c408f232472abcdecf33c6932217211b50420470ffe4"
+      },
+      {
+        "path": "ConversationBackups/objects/93bde726f8abd6d9f757047209b78c7f18cf851156a8db310867b08673dac52d.md",
+        "bytes": 2645026,
+        "sha256": "c8fba14a7404dddd084772b1706c924cdebc19149124c3e5f8b3650b4b51df32"
+      },
+      {
+        "path": "ConversationBackups/objects/2157f03f31d975c5a6a986e917a81a3145612b24ee8ea8605e9cb36933142061.md",
+        "bytes": 49405,
+        "sha256": "68f833b7ec886ae45e8a42aaa41f8109e203794e98483155d978ecbe78236999"
+      },
+      {
+        "path": "ConversationBackups/objects/fa05f320e4445a44bd386438cb96757fa4c5f49af8618b096067568da7d3ba72.md",
+        "bytes": 29782509,
+        "sha256": "38846caddb1b46578bae522076deaa6149ad252dfd56ad605558cad469186cb8"
+      },
+      {
+        "path": "ConversationBackups/objects/38e36648b7c60f6092677b09d1609441fdb0abae0cced86c0fe010ec5d2889f6.md",
+        "bytes": 885991,
+        "sha256": "471951dba60333028a0897d36b4236e88e6687a6bfa50587c0867457dd72869b"
+      },
+      {
+        "path": "ConversationBackups/objects/5fb372f855d06107b198fca3376f5d37079174518443238df98faac31b163398.md",
+        "bytes": 18646505,
+        "sha256": "3209dffd1af3c62a331e90089ca5db707a60f821b52dc9a3c6d9578a024cc190"
+      },
+      {
+        "path": "ConversationBackups/objects/3ef139ace97924f13c992553638f8d2a14c2f7e66369be12ad342cd0edb57e17.md",
+        "bytes": 128632,
+        "sha256": "b823151b377ab479a76f9bf8e4ae120cb37a3c56a27fe10b86c1f9cd356871b1"
+      },
+      {
+        "path": "ConversationBackups/objects/f367bb86b73f41c053e01d0d0fff431cea9aab6ac06d5eeaa2fb80a78e434ffd.md",
+        "bytes": 62915,
+        "sha256": "c8d104cf66174dfb20ba25ffcaeea37e4a0ae5ea38231fe2f51d8267c2345b43"
+      },
+      {
+        "path": "ConversationBackups/objects/649264143e614c337f52449ef5b092f7973699ceedd0f238869312881cf5ae9d.md",
+        "bytes": 4832742,
+        "sha256": "c298c624be0a80217d096182a4f64a8fab4451c67d0ec05cca45ea060d31451c"
+      },
+      {
+        "path": "ConversationBackups/objects/abf80c7babd88e93e0e95c672992635d550ab41ee8b03aa0861409447628925b.md",
+        "bytes": 306112,
+        "sha256": "9f8bd6d654a152146cd421bdedb8afbe623c4b18f3826c40669924af5802b029"
+      },
+      {
+        "path": "ConversationBackups/objects/4d65f3ab4630c75224b64ec0fe8d161c52691df4e817195867a9c11d6cfe5622.md",
+        "bytes": 304769,
+        "sha256": "68604165820e65dcca95d77e02b4d5ac5e85af106260458ce85ba01f6d99b091"
+      },
+      {
+        "path": "ConversationBackups/objects/bdcb4020cfbf736696590f5cb052b81c0b6276284bea594d91fd848b6a29d2d6.md",
+        "bytes": 308814,
+        "sha256": "b1a264f1595a68fa92128810ea76c435296368de929571ed0981abce114f7b79"
+      },
+      {
+        "path": "ConversationBackups/objects/6be7b22511faf6806632662faf36b3f7d6c3387ab92441ef1c21ca2a8c9acc8e.md",
+        "bytes": 36617137,
+        "sha256": "47a8cfc4609ff864658c695b48d9438588d25c2ebc98133945b09291cc234ff9"
+      },
+      {
+        "path": "ConversationBackups/objects/df7f48174131afb4c34c233d97b4c9d8f54368be90f9c3e6b5e6a66fa96d81d0.md",
+        "bytes": 123046,
+        "sha256": "215dfe2ee7e89feb8a59aff93c49a9227e959470a0f925c73985cbb22feebb5c"
+      },
+      {
+        "path": "ConversationBackups/objects/fde3b9edbdbb6bb20de81f9c01bedf0355a65e277d7f336fe17e1fb1967a9ae2.md",
+        "bytes": 254708,
+        "sha256": "57d423c6b7dcac2388677653ea86172d42fad871d425466035f04b52e6caa8b6"
+      },
+      {
+        "path": "ConversationBackups/objects/91fdc5ad027d649e54f7984a8ca1d65a69b9945bea07c89b63fa3b2824f0b9ef.md",
+        "bytes": 325092,
+        "sha256": "5da30a63a427b766f518002d6e67f8038fe6a254b7e866aa4e1df77255a3f886"
+      },
+      {
+        "path": "ConversationBackups/objects/69466fb6319f03ae24bc53e8954ddf2253566edefd9c4f188b5a801d806cf61b.md",
+        "bytes": 283087,
+        "sha256": "453f43e584ce4ae8f00d93139e66365a5fc5584949ae5284a2610db04b91df0d"
+      },
+      {
+        "path": "ConversationBackups/objects/b7a91b4fe713cd4553c99a36fd7c838fd9776862c015a692207b60b5fc81af2c.md",
+        "bytes": 29837,
+        "sha256": "a000b9b784a8fb88a04281eb98588838a1a58b0d84923c5a9c37cfd476373c3c"
+      },
+      {
+        "path": "ConversationBackups/objects/d9aff4d124ab108b9e4ac1990444498edf2f28c42e9cc3838e66d64ada40df24.md",
+        "bytes": 244635,
+        "sha256": "de6d227c4e317b51b214d67a449b4e262d23067a34cf904bcd55c3daaa759456"
+      },
+      {
+        "path": "ConversationBackups/objects/17e188cee167155867c832266aced0b5075aff7b9a56c4e4632c010c2032c2d0.md",
+        "bytes": 358056,
+        "sha256": "d4a5e736970f79810119035b2c8ee920461e5ec040aca473e3931438079a1d0c"
+      },
+      {
+        "path": "ConversationBackups/objects/78d40df0851033ae9ae82b5e0043d323e6a71e506a2654e704e6cb3802c8e00f.md",
+        "bytes": 485687,
+        "sha256": "ab8e635e455cdc526ed2dbe6b405946284a0b3b1ae58b928966f4118692cd60e"
+      },
+      {
+        "path": "ConversationBackups/objects/06eefa2051c07e767311dffa7942a26ec2780bfe70ffdc312291df4cc98dac5e.md",
+        "bytes": 308405,
+        "sha256": "0631a2d8c75a90e03992c842d06721a4be3a67c61e5a4d3a6ddb09ba40f42221"
+      },
+      {
+        "path": "ConversationBackups/objects/87db6eaba8e99cb42ab4c4c67b7312bc288966721872aa86255ebc4ef6ab94a7.md",
+        "bytes": 26105,
+        "sha256": "6df4c8aa149d88b3fe9d1958eea26009ef99de878d6e6f0d42b4b46e88300b01"
+      },
+      {
+        "path": "ConversationBackups/objects/15e480b376220d281147cc3c68a8a3ee105befa6e300c65eb597e65d13438a98.md",
+        "bytes": 3803920,
+        "sha256": "f2f3ae273981372a6a6858841bd82f8db05b45e428bc680f4ab31e7c4674da05"
+      },
+      {
+        "path": "ConversationBackups/objects/c84829360386c30b8b6e384645c819923bcc51d93ee8f59a50272b248eb05162.md",
+        "bytes": 6341033,
+        "sha256": "8c25137d4720bb34a8f736be20379b68402555966e1fb8080883a1734fe23b09"
+      },
+      {
+        "path": "ConversationBackups/objects/7383f6ec67c0851c42a65f6a3bb5aa72cd640694bbfde2d5f9d3c5c7df2e1b96.md",
+        "bytes": 111991,
+        "sha256": "d4899077b0ff749d8400375906dae2472ddc27c905d3de6258e47ad564be26d7"
+      },
+      {
+        "path": "ConversationBackups/objects/eee78a1ec8b68c84d4df466b82f887bd538243e1b4d2c1eb0901dfd9b8aef2c8.md",
+        "bytes": 114123,
+        "sha256": "b6ee55ee856bf51d21a2e6b7473197b1d7571ffa2d88f75c751a1562d7b77cd2"
+      },
+      {
+        "path": "ConversationBackups/objects/be59b542c44242887ea93f49f569ffa5d5407d24e9102bc3a74a6ea4da8709cb.md",
+        "bytes": 94418,
+        "sha256": "82246542ceea6df3f5001df2eb6399b9c099ed73873a4f7ec39b692c5ac9ec7f"
+      },
+      {
+        "path": "ConversationBackups/objects/aec66f2b3ef9dbd8d9c041d194cf8ef68704f703fc80be83db12d9c97db1db68.md",
+        "bytes": 17463886,
+        "sha256": "a3322e4ec5867418d463329767be191a418006c7a075d538229b8ce6a869929c"
+      },
+      {
+        "path": "ConversationBackups/objects/62c3f76bb05e8b7d289dd0bf48bba8b728ed5cdaf21d71494b45fb501e5bd852.md",
+        "bytes": 343865,
+        "sha256": "efd359d1686d64644a4b209a53b0316c60574ce849807f8d10977a6c2b6a74b9"
+      },
+      {
+        "path": "ConversationBackups/objects/4b44dcecfc529c42a0bcfffbe6d1ca5846bd8623178438ebe53d93ed76e861cd.md",
+        "bytes": 4161117,
+        "sha256": "a124d7401ceb2d624abdb2bb2cbc9681d4e66b02a511514c45dcc67317cc0c69"
+      },
+      {
+        "path": "ConversationBackups/objects/93f759208d0b5f84b866d03311fdfafb1a087af1512b9f08cd41640b0caaaf08.md",
+        "bytes": 96082,
+        "sha256": "7c1b9655481b6fb2438c6693c87b3cde4a52e715c5b9871c3e78d5a9f127515f"
+      },
+      {
+        "path": "ConversationBackups/objects/98cf335cb1cf52db162102b39df367cce9775f9b5e97c6918e77b3ec200ca89f.md",
+        "bytes": 1927,
+        "sha256": "b69e0a1aaa903d0fef614d092f8f3d0dcf2b1dab7ba70782910a23bd36545c83"
+      },
+      {
+        "path": "ConversationBackups/objects/c18c0c0bdad08f4a0e5788dcd695f6ca9ce36c3db531fc1b219886e86a1b8fb6.md",
+        "bytes": 48703240,
+        "sha256": "a6f01e588361022ce9ec705948a08f0304323b9e63c82cb3b198bc0c2227db94"
+      },
+      {
+        "path": "ConversationBackups/objects/9e0616daa34c44fec534848ed397ee41f0c2541c937555ab755869f1e0c72433.md",
+        "bytes": 6872,
+        "sha256": "620d1917db0a5cf487ae3ec416ee33490a130fe57417f0459d307fd91bb089ac"
+      },
+      {
+        "path": "ConversationBackups/objects/358f7f3dec547f27621d24f6739054b69eaa4cd4b75510d428dd4d84ca02ece6.md",
+        "bytes": 8258,
+        "sha256": "be04890da0d3591a6c9b201c154f9f679ad19ff82f9fc890a8cb74b9b559998c"
+      },
+      {
+        "path": "ConversationBackups/objects/e227a1393d37ba49010be20ee7afbbe6aac34cbe1870c6fa161a7e57b9c22857.md",
+        "bytes": 113,
+        "sha256": "b0de5965a22d950db2ddc20b4b59678621ee7f64827fa3477ad7219c1904613b"
+      },
+      {
+        "path": "ConversationBackups/objects/261fec7b79fed618574a959f38458a86f91e8ae51d66ec5c91fb4413b76b2c09.md",
+        "bytes": 8265,
+        "sha256": "b036f3e00f6207c9ff38199b4c2542131cbabcc9caa1bb342b5aa1b6c7033be5"
+      },
+      {
+        "path": "ConversationBackups/objects/06b194615536ad0f15db03df6b0870a380849e8a7642382a89342e933a85d5ab.md",
+        "bytes": 3625515,
+        "sha256": "57e9c01b5fbdc14a811b323fe8e55253cc827d5f3d56b08c01133d04f0d004b6"
+      },
+      {
+        "path": "ConversationBackups/objects/c91e482f5777f80f954ac12a9731607ded63e02915008a275b2a8cecdf566a63.md",
+        "bytes": 527783,
+        "sha256": "2abf83acaa5cd2cb76f673095eaa86faafcb5af480fb74cf2d6cd2638c726c7e"
+      },
+      {
+        "path": "ConversationBackups/objects/18a8937aed3619978d4cdc9d470e4e43903f1f6c34fd29f7252e059acebb043d.md",
+        "bytes": 5511,
+        "sha256": "2b15f8e78258fd2fd6d1dc1243151b306b13b3df4a2e32161b345d3d63c61947"
+      },
+      {
+        "path": "ConversationBackups/objects/9daf5b94b28b3f3a563a7884044a02cb5ce90c01825453b4b7ff6bde311dd764.md",
+        "bytes": 5713,
+        "sha256": "805dc38405464141163eb0eb043374c7b2cc116dc3064b51f4a9c7e952efc08c"
+      },
+      {
+        "path": "ConversationBackups/objects/a856412e68477dbdaadae7b9ccf4b883bd7eb6814182f6179ab847676d7df6b5.md",
+        "bytes": 5508,
+        "sha256": "9a4cb01a968b98d8f1da4833062a290561016cd87d89e1d25a531d85412a8257"
+      },
+      {
+        "path": "ConversationBackups/objects/94f85f637f75c5303d0c8daaf1723eec30c99a0a20bb9ddf31c34ddc33412981.md",
+        "bytes": 51808,
+        "sha256": "f6b0de179aa83dd5d0d41ef10b83695b46a738d8c7395c4bcb85aff777906db7"
+      },
+      {
+        "path": "ConversationBackups/objects/36db47493dfe1c536492bdb84e61fe16858dcfb47e7f41eed43e48e5daf144df.md",
+        "bytes": 333779,
+        "sha256": "336016482ec462d55b1377e2550aa408c3acfc1d8acda8e65397565cfe078846"
+      },
+      {
+        "path": "ConversationBackups/objects/b0e8b030e4747b8c9ba8a0681543af8d16b226638959dcda72df0dfa80a86b4d.md",
+        "bytes": 8175906,
+        "sha256": "8117ba17e8f9afadd6b49d892495bf306bc51ae91d6989bbd945f0eea27ba3e3"
+      },
+      {
+        "path": "ConversationBackups/objects/3ec1a5f432af5198adeda8e0dae7109c3660312b83fd06b14d955a73ecdcc1d3.md",
+        "bytes": 570385,
+        "sha256": "1907bf6c5448a170f52104e89773c0edf85eed8f9f95b6df59c20732dd1ad2dd"
+      },
+      {
+        "path": "ConversationBackups/objects/1b58bc3d8cd9ca2a5b6e376c51dd3788c6d12fc916d8314b841fc6958b41237b.md",
+        "bytes": 218765,
+        "sha256": "f654836df0aec4f5c8ed83e4400f8a6b26492877a709a571377ee0109128030c"
+      }
+    ],
+    "partial_lines": 0,
+    "mismatches": [],
+    "unavailable_attachments": []
+  },
+  "catalog": {
+    "working_files": 9675,
+    "all_files": 18818,
+    "scan_time": "2026-10-13T21:09:48+08:00",
+    "duplicate_paths": 0,
+    "missing_paths": [],
+    "note": "文件数/大小按扫描时刻；后续新增检查点按该快照manifest登记，不递归重算自身备份。"
+  },
+  "automation_controls": {
+    ".auto-continue/control.json": false,
+    ".auto-resume/control.json": false
+  },
+  "external_references": {
+    "count": 9,
+    "available": 8,
+    "missing": [
+      "C:\\\\Program Files\\\\Epic Games\\\\4.0\\\\\\r\\nPSPath             : Microsoft.PowerShell.Core\\\\Registry::HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\EpicGames\\\\Unreal Engine\\\\4.0\\r\\nPSParentPath       : Microsoft.PowerShell.Core\\\\Registry::HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\EpicGames\\\\Unreal Engine\\r\\nPSChildName        : 4.0\\r\\nPSProvider         : Microsoft.PowerShell.Core\\\\Registry\\r\\n\\r\\nMissing registry: HKLM:/SOFTWARE/WOW6432Node/EpicGames/Unreal Engine\\r\\n"
+    ]
+  },
+  "passed": false
+}

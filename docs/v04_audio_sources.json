@@ -1,0 +1,81 @@
+[
+  {
+    "game_file": "C:\\GameMake\\GodotProject\\assets\\audio\\river_bank_loop.wav",
+    "source": {
+      "path": "ready_to_import/ambience/amb_river.ogg",
+      "source_path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_river.flac",
+      "source_asset_id": "ambient-mountain-river-wind-and-forest-and-waterfall",
+      "source_url": "https://opengameart.org/content/ambient-mountain-river-wind-and-forest-and-waterfall",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "author": "Blender Foundation",
+      "license": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "sha256": "e5854c94af7c31cadf1aee310591e1dae9b7f8ee68f246a740bd3af2e5c2d6e4",
+      "bytes": 268932,
+      "start_seconds": null,
+      "duration_seconds": 21.423313,
+      "sample_rate": 48000,
+      "channels": 1,
+      "format": "vorbis",
+      "decode_ok": true,
+      "notes": "Original loop suitability still requires listening. Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    "modifications": "First 14s source, mono PCM16 24kHz, 500ms wrap crossfade, 2ms endpoint taper, RMS target -25 dBFS; spatial loop with region attenuation.",
+    "bytes": 648044,
+    "sha256": "bdb38a1d4aa8a993d9eb3b8be775e6fb6988511f8ac4aa79b50c213a243da947",
+    "duration_seconds": 13.5,
+    "boundary_delta": 0
+  },
+  {
+    "game_file": "C:\\GameMake\\GodotProject\\assets\\audio\\radio_room_loop.wav",
+    "source": {
+      "path": "ready_to_import/props/radio_static.ogg",
+      "source_path": "radio-noise-1/originals/radio_noise_loop.wav",
+      "source_asset_id": "radio-noise-1",
+      "source_url": "https://opengameart.org/content/radio-noise-1",
+      "download_url": "https://opengameart.org/sites/default/files/radio_noise_loop.wav",
+      "author": "Kresiek The Furry",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "7bba6485fea9c896b0ed3255dcc8edcea1648fee9b69cdc8e2ccff205473769a",
+      "bytes": 263265,
+      "start_seconds": null,
+      "duration_seconds": 55.226875,
+      "sample_rate": 48000,
+      "channels": 1,
+      "format": "vorbis",
+      "decode_ok": true,
+      "notes": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    "modifications": "First 9s source, mono PCM16 24kHz, 500ms wrap crossfade, 2ms endpoint taper, RMS target -25 dBFS; spatial loop with region attenuation.",
+    "bytes": 408044,
+    "sha256": "e55817df8cf2cc0700b980e99a718de6b587f43794652e400d43ef65819b713d",
+    "duration_seconds": 8.5,
+    "boundary_delta": 0
+  },
+  {
+    "game_file": "C:\\GameMake\\GodotProject\\assets\\audio\\power_switch_off.wav",
+    "source": {
+      "path": "ready_to_import/props/switch_off.wav",
+      "source_path": "sfx-circuit-breaker/extracted/Circuit Breaker/switch off.wav",
+      "source_asset_id": "sfx-circuit-breaker",
+      "source_url": "https://opengameart.org/content/sfx-circuit-breaker",
+      "download_url": "https://opengameart.org/sites/default/files/Circuit%20Breaker.zip",
+      "author": "Cleyton Kauffman",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "08ae78e664093b269320f2252fb5ace416d3b6d119fe145932124afd79195808",
+      "bytes": 88696,
+      "start_seconds": null,
+      "duration_seconds": 0.923104,
+      "sample_rate": 48000,
+      "channels": 1,
+      "format": "pcm_s16le",
+      "decode_ok": true,
+      "notes": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    "modifications": "Existing prepared mono 48kHz PCM16; exact copy.",
+    "bytes": 88696,
+    "sha256": "08ae78e664093b269320f2252fb5ace416d3b6d119fe145932124afd79195808"
+  }
+]

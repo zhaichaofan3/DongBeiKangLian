@@ -1,0 +1,89 @@
+{
+  "asset": "field_character.glb",
+  "source_project": "C:\\GameMake\\AssetLibrary\\characters\\field_character\\field_character.blend",
+  "source_base": "AssetLibrary\\characters\\quaternius_base_characters\\files\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\Superhero_Male_FullBody.gltf",
+  "base_author": "Quaternius",
+  "base_license": "CC0-1.0",
+  "base_url": "https://quaternius.com/packs/universalbasecharacters.html",
+  "adaptation": "Head, eyes, eyebrows and hands retained with UVs; reshaped head and relaxed hands. New padded clothing, equipment, textures and 13-bone game skeleton. Existing gameplay motion drives the skeleton.",
+  "bone_count": 13,
+  "meshes": [
+    {
+      "name": "Face",
+      "vertices": 10385,
+      "triangles": 19452
+    },
+    {
+      "name": "Hands",
+      "vertices": 2194,
+      "triangles": 3362
+    },
+    {
+      "name": "GuardHands",
+      "vertices": 2194,
+      "triangles": 3362
+    },
+    {
+      "name": "Clothing",
+      "vertices": 12618,
+      "triangles": 25240
+    },
+    {
+      "name": "Trousers",
+      "vertices": 6192,
+      "triangles": 12152
+    },
+    {
+      "name": "Boots",
+      "vertices": 576,
+      "triangles": 1008
+    },
+    {
+      "name": "Cuffs",
+      "vertices": 128,
+      "triangles": 248
+    },
+    {
+      "name": "Belt",
+      "vertices": 288,
+      "triangles": 564
+    },
+    {
+      "name": "Details",
+      "vertices": 3002,
+      "triangles": 5876
+    },
+    {
+      "name": "Scarf",
+      "vertices": 216,
+      "triangles": 424
+    },
+    {
+      "name": "Backpack",
+      "vertices": 1426,
+      "triangles": 2780
+    },
+    {
+      "name": "Cap",
+      "vertices": 754,
+      "triangles": 1464
+    },
+    {
+      "name": "Helmet",
+      "vertices": 400,
+      "triangles": 764
+    },
+    {
+      "name": "GuardGear",
+      "vertices": 556,
+      "triangles": 1088
+    },
+    {
+      "name": "Bandage",
+      "vertices": 448,
+      "triangles": 872
+    }
+  ],
+  "all_variant_triangles": 78656,
+  "sha256": "bb68e21bd47d696ef6d44da35b220430833c7636a12d1d9f01b2d416d8b6ce0a"
+}

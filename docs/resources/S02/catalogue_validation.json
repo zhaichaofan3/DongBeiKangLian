@@ -1,0 +1,65 @@
+{
+  "geometry_crosscheck_11_sources": [
+    {
+      "id": "pagoda_red",
+      "relative_bounds_difference": 2.944121795559436e-09,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "pagoda_hall",
+      "relative_bounds_difference": 2.9352062334750283e-08,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "pagoda_tower",
+      "relative_bounds_difference": 2.5228435437699067e-08,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "warehouse",
+      "relative_bounds_difference": 9.745890453964677e-09,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "log_cabin_scene",
+      "relative_bounds_difference": 3.0556701435624056e-08,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "village_market",
+      "relative_bounds_difference": 5.972727486252527e-07,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "market_stalls",
+      "relative_bounds_difference": 6.214674383729283e-07,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "modular_factory_facade",
+      "relative_bounds_difference": 3.5609777409738475e-08,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "chinese_screen_panels",
+      "relative_bounds_difference": 4.4037051273801877e-07,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "chinese_tea_table",
+      "relative_bounds_difference": 1.0478555960760546e-07,
+      "triangles_match_existing_structure": true
+    },
+    {
+      "id": "wicker_basket_01",
+      "relative_bounds_difference": 7.317375735864081e-07,
+      "triangles_match_existing_structure": true
+    }
+  ],
+  "all_geometry_crosschecks_passed": true,
+  "catalogue_cards": 105,
+  "local_catalogue_links": 139,
+  "missing_local_links": [],
+  "passed": true,
+  "scope": "Read-only actual-file crosschecks against prior independent Blender dimensions/structure and HTML local-link inventory; no new gameplay test."
+}

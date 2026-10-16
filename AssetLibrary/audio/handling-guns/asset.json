@@ -1,0 +1,112 @@
+{
+  "id": "handling-guns",
+  "title": "Handling Guns",
+  "source_url": "https://opengameart.org/content/handling-guns",
+  "author": "Gary (fossilrecords.net)",
+  "license": "CC-BY-SA-3.0",
+  "notes": "Includes bolt-action rifle mechanics and dry recordings. Credit Guns by Gary; preserve share-alike for modified audio.",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "files": [
+    {
+      "path": "handling-guns/originals/Gary Guns.zip",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 6783731,
+      "sha256": "bf4974a49d9416422b32a2c80addf7640932fb6c2fc809c137c389cb645f06dc",
+      "role": "original_download"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/12ga_dry.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 1988898,
+      "sha256": "1639faecabedafaee8dcd8627d631fd4285415a463020b4801946adfe1872bb6",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/12ga_load_chamber.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 768354,
+      "sha256": "b21c939f8fe10b9e5afd514a667859358ad10bd73a6aaed4f7cd44bbe8d73a03",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/22_mag.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 693554,
+      "sha256": "0ce6899d74357143f16a1a19d45c18c82f889e30aafe0ccc5f80bf22c5d8bf01",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/30-06_accessories.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 837522,
+      "sha256": "a19ac8453a818184fa7206f61e4bfeeacc978397fa5c9c636780c1e2c7d36201",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/30-06_bolt.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 1193150,
+      "sha256": "04d5b5baefa20524c33c289077ce0d0cbe515c68de1694f5d4b08faeb2a83aa9",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/30-06_load.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 3042334,
+      "sha256": "ea15316f73db9a6dda13f4a5d57f24e136ec22e7d5ea2f4a629b73721ef464e7",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/45_add_rounds.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 2578702,
+      "sha256": "ee23d6ac7aaae62ff46b0de7123a17eb0a2b0e2dd3c3da14618a4f701717658b",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/45_unload_rounds.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 595062,
+      "sha256": "9885ea7ea38163d2a5806a85714d09e92a5fa8212b7bb2208df6069f770969aa",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/45ACP_Loading.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 1429482,
+      "sha256": "b36fc171e435bc300c0e98bbf7544df7d8cb4030c7ecb73827ec2861d1ab5336",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/45ACP_slide.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 1787590,
+      "sha256": "b854cb05087afb13679e3223e34bb2f897a55df42148a3bd063aed197617ce68",
+      "role": "extracted"
+    },
+    {
+      "path": "handling-guns/extracted/Gary Guns/Gary Guns/PARPG_Audio.txt",
+      "download_url": "https://opengameart.org/sites/default/files/Gary%20Guns.zip",
+      "bytes": 1326,
+      "sha256": "adfc820fae099be226122087397c0e078093e968b19e5deeb04e02ef9905e5b2",
+      "role": "extracted"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 10,
+    "decode_passed": 10,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 84.13,
+    "duration_range_seconds": [
+      3.331,
+      17.205
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

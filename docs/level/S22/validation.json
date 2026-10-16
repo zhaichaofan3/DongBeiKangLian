@@ -1,0 +1,25 @@
+{
+  "step": "S22",
+  "status": "done",
+  "all_passed": true,
+  "runtime_checks": "9/9",
+  "colliders": {
+    "arrival_steps": 5,
+    "departure_steps": 5,
+    "talk_platform": 1,
+    "total": 11,
+    "platform_top_m": 26.0
+  },
+  "routes": {
+    "arrival_waypoints": [[484,18,199.5],[487,20,184],[492,22,169],[497,24,156],[501,26,145.5]],
+    "departure_waypoints": [[501,26,145.5],[493,24,133.5],[482,21.5,113.5],[490,18.5,87.5],[512,16,63.5]],
+    "lake_clearance_radius_m": 55
+  },
+  "evidence": [
+    "docs/level/S22/tianchi_access.json",
+    "docs/level/S22-tianchi-access.log",
+    "docs/level/S22-godot-import.log",
+    "docs/level/S22/access_map.svg"
+  ],
+  "integration_boundary": "Opening stage only; S23 owns water, fog and lighting; S24-S25 own final acting and camera handoff."
+}

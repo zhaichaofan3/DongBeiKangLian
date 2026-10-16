@@ -1,0 +1,50 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Combat route blocked at (53.00014, 0.000282, 151.7791) toward (53.0, 0.0, 151.0)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _walk (res://tests/combat_route.gd:228)
+ERROR: Cleared timber lane did not open its exit
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:46)
+       [1] _route (res://tests/combat_route.gd:208)
+       [2] _walk (res://tests/combat_route.gd:228)
+ERROR: Power switch did not advance the mission at (53.00014, 0.000282, 151.7791)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:62)
+       [1] _route (res://tests/combat_route.gd:208)
+       [2] _walk (res://tests/combat_route.gd:228)
+RIVER DIAGNOSTICS: { "version": 2, "map_revision": 5, "village": { "version": 2, "entered": false, "phase": 0, "finished": false, "ally_position": [1156.0, 0.07999999821186, 276.0], "ally_shots": 0 }, "player": { "position": [53.0001373291016, 0.00028188619763, 151.779052734375], "yaw": 0.00017627702618, "health": 100.0, "magazines": [1, 10], "reserves": [45, 50], "weapon": 0 }, "story": { "briefed": true, "choice": "ammunition", "letter": false, "supply": false, "recruited": false, "door": false, "bandages": 1, "lu_position": [47.0, 0.05688802152872, 30.0], "following": false, "treated": false, "moments_seen": [] }, "stage": 0, "defeated": { "gate_guard": true, "gate_guard_3": true, "gate_guard_2": true, "yard_guard_2": true }, "kills": 4, "elapsed": 56.6166666666647, "yard": true, "opening": { "version": 1, "phase": "gameplay" }, "linear": { "version": 2, "enabled": true, "opened": ["checkpoint"], "contact_started": true, "extraction_started": false, "extraction_remaining": 30.0 }, "encounter": { "revision": 2, "expanded": true, "next": 0, "wait": 0.0, "hold_next": 0, "hold_wait": 0.0, "active": { "yard_guard": { "position": [38.9986915588379, -0.0028578909114, 131.120483398438], "health": 75.0, "state": "patrol", "patrol": [38.0, 0.07999999821186, 126.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 0.0, "shots": 0, "yaw": -0.00069579028059 }, "pier_guard": { "position": [74.0, 0.07999999821186, 26.0], "health": 75.0, "state": "patrol", "patrol": [74.0, 0.07999999821186, 18.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 1.2, "shots": 0, "yaw": 0.0 }, "timber_guard": { "position": [30.8046836853027, 0.0008322756039, 128.440246582031], "health": 75.0, "state": "patrol", "patrol": [30.0, 0.07999999821186, 130.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 0.0, "shots": 0, "yaw": -3.03522610664368 }, "office_guard": { "position": [46.0, 0.07999999821186, 34.0], "health": 75.0, "state": "patrol", "patrol": [46.0, 0.07999999821186, 38.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 1.2, "shots": 0, "yaw": 0.0 }, "door_ambusher": { "position": [34.0, 0.07999999821186, 118.5], "health": 75.0, "state": "patrol", "patrol": [34.0, 0.07999999821186, 112.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 1.2, "shots": 0, "yaw": 0.0 }, "yard_guard_3": { "position": [36.4402961730957, 0.00083979399642, 126.804664611816], "health": 75.0, "state": "patrol", "patrol": [38.0, 0.07999999821186, 126.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 0.0, "shots": 0, "yaw": -1.67716777324677 }, "office_guard_2": { "position": [50.0, 0.07999999821186, 38.0], "health": 75.0, "state": "patrol", "patrol": [46.0, 0.07999999821186, 38.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 1.2, "shots": 0, "yaw": 0.0 }, "office_guard_3": { "position": [58.0, 0.07999999821186, 36.0], "health": 75.0, "state": "patrol", "patrol": [54.0, 0.07999999821186, 36.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 1.2, "shots": 0, "yaw": 0.0 }, "office_guard_4": { "position": [56.0, 0.07999999821186, 30.0], "health": 75.0, "state": "patrol", "patrol": [54.0, 0.07999999821186, 30.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 1.2, "shots": 0, "yaw": 0.0 } } } } prompt=
+ERROR: Rescued courier did not unlock the river passage
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:74)
+       [1] _route (res://tests/combat_route.gd:208)
+       [2] _walk (res://tests/combat_route.gd:228)
+ERROR: Ferry did not reach the village
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:86)
+ERROR: Village encounter did not clear: 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:97)
+ERROR: Village gate did not open: 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:103)
+ERROR: Village encounter did not clear: 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:97)
+ERROR: Village gate did not open: 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:103)
+ERROR: Village encounter did not clear: 2
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:97)
+ACTIVE COMBAT ROUTE: FAIL | health=100.0 | guards defeated=4 | elapsed=59.6999999999979 | state=playing

@@ -1,0 +1,42 @@
+{
+  "step": "S20",
+  "status": "draft",
+  "scene_id": "artistic_tianchi_talk_v1",
+  "units": "metres in an abstract game composition",
+  "intent": "用环形火山口、深蓝湖面、分层山脊和西南岩台表现天池意象；不按真实高程1:1复刻。",
+  "layout": {
+    "crater_center": [0, 0],
+    "crater_outer_radius": 92,
+    "inner_basin_radius": 68,
+    "lake_center": [4, 2],
+    "lake_radius": 48,
+    "lake_depth": 6,
+    "ridge_sectors": [
+      {"id": "north_wall", "azimuth": 0, "radius": 90, "height": 34, "profile": "steep layered basalt"},
+      {"id": "east_wall", "azimuth": 90, "radius": 86, "height": 27, "profile": "broken ridge and mist gaps"},
+      {"id": "south_wall", "azimuth": 180, "radius": 94, "height": 22, "profile": "lower saddle for arrival path"},
+      {"id": "west_wall", "azimuth": 270, "radius": 88, "height": 30, "profile": "high shoulder framing the lake"}
+    ],
+    "talk_platform": {"center": [-59, -24], "width": 18, "depth": 11, "height": 14, "edge": "broken dark rock", "characters": {"shen_yan": [-56, -24, 0], "jiang_lan": [-63, -23, 0], "spacing": 7}, "look_target": [4, 2, 8]},
+    "arrival_path": {"start": [-76, -78], "waypoints": [[-78, -62], [-72, -47], [-67, -34], [-59, -28]], "exit_after_talk": [[-52, -15], [-35, 10], [-18, 28]], "clear_width": 4.0},
+    "near_rocks": [[-71, -32, 5], [-48, -38, 4], [-34, -28, 3], [-25, 18, 6]],
+    "vegetation_pockets": [[-77, -39], [-42, -49], [30, -30], [52, 35]],
+    "fog_layers": [{"radius": 62, "height": 7, "density": 0.18}, {"radius": 88, "height": 18, "density": 0.10}]
+  },
+  "composition_views": [
+    {"id": "hero_wide", "camera": [-112, -128, 58], "target": [0, 0, 16], "purpose": "人物剪影、环形山口与深蓝湖面同框"},
+    {"id": "conversation_reverse", "camera": [-35, -55, 9], "target": [-60, -24, 4], "purpose": "沈砚与姜岚互看，湖面作背景"},
+    {"id": "lake_over_shoulder", "camera": [-47, -28, 8], "target": [10, 2, 12], "purpose": "从人物肩后看湖心和北壁"},
+    {"id": "departure", "camera": [-22, -5, 13], "target": [-60, -24, 5], "purpose": "两人离开岩台并接入下山路径"}
+  ],
+  "sightline_checks": [
+    {"from": "shen_yan", "to": "lake_center", "clearance": "above_near_rock_01"},
+    {"from": "jiang_lan", "to": "north_wall_break", "clearance": "no_character_overlap"},
+    {"from": "hero_wide", "to": "talk_platform", "clearance": "platform silhouette separated from lake"}
+  ],
+  "implementation_boundary": {
+    "this_step": "构图、尺度、站位、视线和路径草案",
+    "later_steps": ["S21山体湖面模型", "S22岩台路径碰撞", "S23水雾光照层次", "S24-S25谈话表演和镜头"],
+    "reference_only": ["AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.glb", "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display_lod.glb"]
+  }
+}

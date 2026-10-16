@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "shapes" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/linear_boundaries.gd:37)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "walls" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/linear_boundaries.gd:68)
+ERROR: Failed to load script "res://tests/linear_boundaries.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)

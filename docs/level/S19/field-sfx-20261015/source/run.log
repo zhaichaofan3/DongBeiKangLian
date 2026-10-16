@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: User single gunshot is assigned to both player weapons
+PASS: User bolt/reload sound is assigned to weapon reload
+PASS: Walk and sprint footsteps use separate user recordings
+PASS: User water recording is assigned to the river ambience
+PASS: User door recordings are mapped to world door events
+PASS: User explosion recording is mapped to artillery impact
+PASS: Every guard receives one of the three user alert voices
+PASS: Guard frenzy expression opens the mouth
+PASS: Reload event plays the user bolt sound
+PASS: Fire event plays the user gunshot
+PASS: Damage raises the transient red-edge state
+PASS: All four screen edges turn red after damage
+USER SFX RESULT: PASS | 12/12
+WARNING: 21 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 6 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

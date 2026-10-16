@@ -1,0 +1,60 @@
+{
+  "id": "opening-and-closing-a-map-sounds",
+  "title": "Opening and closing a map",
+  "source_url": "https://opengameart.org/content/opening-and-closing-a-map-sounds",
+  "author": "Julie Damsgaard / Spring Spring / Spring Enterprises",
+  "license": "CC0-1.0",
+  "notes": "Two ready cues for maps or documents.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "opening-and-closing-a-map-sounds/originals/snd_use_map.wav",
+      "download_url": "https://opengameart.org/sites/default/files/snd_use_map.wav",
+      "bytes": 584198,
+      "sha256": "7813465b02f279cb268c80b64ad15ec3749edf7e080c2c219e6fcd971580af10",
+      "role": "original_download"
+    },
+    {
+      "path": "opening-and-closing-a-map-sounds/originals/snd_close_map.wav",
+      "download_url": "https://opengameart.org/sites/default/files/snd_close_map.wav",
+      "bytes": 623978,
+      "sha256": "cf0f53aa3ce6ff522527bbdffa610f56bbcdc91d1b93dc7541ff3c279d34c4d1",
+      "role": "original_download"
+    },
+    {
+      "path": "ready_to_import/props/map_open.wav",
+      "download_url": "https://opengameart.org/sites/default/files/snd_use_map.wav",
+      "bytes": 146088,
+      "sha256": "9d20e8bea04080f9285227fbb82c97e4fa8a7230f5976fd7b2a2bc8f426094ef",
+      "role": "derived_ready_to_import",
+      "source_path": "opening-and-closing-a-map-sounds/originals/snd_use_map.wav",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/props/map_close.wav",
+      "download_url": "https://opengameart.org/sites/default/files/snd_close_map.wav",
+      "bytes": 156032,
+      "sha256": "36eee01fcfa523d6ae4a5f77f4cd604884c5a1fa287ed4e4765d161f5ce6517a",
+      "role": "derived_ready_to_import",
+      "source_path": "opening-and-closing-a-map-sounds/originals/snd_close_map.wav",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 2,
+    "decode_passed": 2,
+    "sample_rates": [
+      96000
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 3.15,
+    "duration_range_seconds": [
+      1.521,
+      1.625
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

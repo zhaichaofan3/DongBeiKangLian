@@ -1,0 +1,87 @@
+{
+  "version": "0.7.0-rc1",
+  "revision": "20261015-complete-settlement-office-collision",
+  "created_at": "2026-10-16T00:42:39+08:00",
+  "runtime": {
+    "source": {
+      "passed": true,
+      "regression_groups": 27,
+      "assertions": 936,
+      "collision_checks": 38,
+      "expansion_checks": 42,
+      "boundary_checks": 138,
+      "wire_segments": 26,
+      "screenshots": 12,
+      "combat": {
+        "health": 91.0,
+        "defeated": 33,
+        "seconds": 234.433333333412,
+        "state": "won"
+      }
+    },
+    "release": {
+      "passed": true,
+      "regression_groups": 27,
+      "assertions": 936,
+      "collision_checks": 38,
+      "expansion_checks": 42,
+      "boundary_checks": 138,
+      "wire_segments": 26,
+      "screenshots": 12,
+      "combat": {
+        "health": 91.0,
+        "defeated": 33,
+        "seconds": 234.433333333412,
+        "state": "won"
+      }
+    }
+  },
+  "polish_render": {
+    "1280": {
+      "checks": 46,
+      "screenshots": 8
+    },
+    "960": {
+      "checks": 46,
+      "screenshots": 8
+    }
+  },
+  "rendered_release_combat": "won",
+  "release_survey_images": 8,
+  "original_packages_verified": 7,
+  "original_courtyard_groups": 22,
+  "original_objects_retained": 1159,
+  "editable_derivatives_verified": 15,
+  "protected_hand_files": 6,
+  "protected_audio_files": 61,
+  "opening": {
+    "narration_and_timing": "unchanged",
+    "scenery": [
+      "original_settlement_and_logging_edge",
+      "qinglan_logging_camp",
+      "original_village_lanes"
+    ]
+  },
+  "save_migration": "legacy village checkpoints retain encounter phase, defeats and ammunition",
+  "previous_checkpoint": "WorkBackups/20261015-224937-S10-in_progress-a53787",
+  "previous_package_checkpoint": "WorkBackups/20261016-001805-S10-in_progress-92b087",
+  "human_acceptance": {
+    "continuous_performance": "pending",
+    "listening": "pending",
+    "difficulty": "pending"
+  },
+  "diagnostics": "Earlier failed attempts are retained in the development evidence directory and excluded from passing totals.",
+  "files": [
+    {
+      "path": "FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "FenghuoEcho.pck",
+      "bytes": 1317530932,
+      "sha256": "e990c65508bd6ee1a8faed2d5bd2a30894bb5abe2d955343c602e52a7a9434c9"
+    }
+  ],
+  "review": "Validation/settlement_revision_20261015/review.md"
+}

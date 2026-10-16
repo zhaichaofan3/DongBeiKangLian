@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Supplied wire visibly covers the forest route boundaries
+PASS: Every forest fence blocks the capsule at 0.000m foot height
+PASS: Every forest fence blocks the capsule at 0.625m foot height
+PASS: Every forest fence blocks the capsule at 1.725m foot height
+PASS: Sprint jumping cannot bypass west approach
+PASS: Crouching cannot bypass west approach
+PASS: Sprint jumping cannot bypass checkpoint flank
+PASS: Crouching cannot bypass checkpoint flank
+PASS: Sprint jumping cannot bypass timber flank
+PASS: Crouching cannot bypass timber flank
+PASS: Sprint jumping cannot bypass river flank
+PASS: Crouching cannot bypass river flank
+PASS: Village fence and gate seam prevent jumping at x=1041
+PASS: Village fence and gate seam prevent jumping at x=1044
+PASS: Village fence and gate seam prevent jumping at x=1048
+PASS: Village fence and gate seam prevent jumping at x=1052
+PASS: Village fence and gate seam prevent jumping at x=1088
+PASS: Village perimeter cannot be left by sprint jumping
+PASS: Village cannot be bypassed before clearing its encounters
+PASS: First opened gate permits only the next encounter
+PASS: Cleared village retains an uninterrupted route to the rendezvous
+LINEAR BOUNDARIES: PASS | checks=21

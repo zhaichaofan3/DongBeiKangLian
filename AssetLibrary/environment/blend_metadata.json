@@ -1,0 +1,761 @@
+[
+  {
+    "path": "C:\\GameMake\\AssetLibrary\\environment\\supplement\\birch-tree\\treebirch.blend",
+    "version": "281",
+    "pointer_bytes": 8,
+    "meshes": [
+      {
+        "name": "MEPlane",
+        "structure_bytes": 1560,
+        "computed_structure_bytes": 1560,
+        "totvert": 25,
+        "totedge": 40,
+        "totface": 0,
+        "totpoly": 16,
+        "totloop": 64
+      },
+      {
+        "name": "MEPlane.001",
+        "structure_bytes": 1560,
+        "computed_structure_bytes": 1560,
+        "totvert": 647,
+        "totedge": 1086,
+        "totface": 0,
+        "totpoly": 462,
+        "totloop": 1812
+      },
+      {
+        "name": "MEPlane.002",
+        "structure_bytes": 1560,
+        "computed_structure_bytes": 1560,
+        "totvert": 647,
+        "totedge": 1086,
+        "totface": 0,
+        "totpoly": 462,
+        "totloop": 1812
+      }
+    ],
+    "actions": [],
+    "method": "Blender DNA byte parsing only; no asset execution or rendering."
+  },
+  {
+    "path": "C:\\GameMake\\AssetLibrary\\environment\\supplement\\dims-arboretum\\extracted\\dim_arboretum.blend",
+    "version": "246",
+    "pointer_bytes": 4,
+    "meshes": [
+      {
+        "name": "MEBaneberry",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 13,
+        "totedge": 16,
+        "totface": 6
+      },
+      {
+        "name": "MEBarrel",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 34,
+        "totedge": 68,
+        "totface": 38
+      },
+      {
+        "name": "MEBarrelOpen",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 55,
+        "totedge": 115,
+        "totface": 62
+      },
+      {
+        "name": "MEBeech",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 151,
+        "totedge": 240,
+        "totface": 101
+      },
+      {
+        "name": "MEBeechNG",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MEBishop'sWeed",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 71,
+        "totedge": 92,
+        "totface": 37
+      },
+      {
+        "name": "MEBlackEyedSusan",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 12,
+        "totface": 3
+      },
+      {
+        "name": "MEBlueParadise",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 34,
+        "totedge": 35,
+        "totface": 9
+      },
+      {
+        "name": "MEBook1",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 16,
+        "totedge": 28,
+        "totface": 14
+      },
+      {
+        "name": "MEBook2",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 24,
+        "totedge": 36,
+        "totface": 16
+      },
+      {
+        "name": "MEBurdock",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 48,
+        "totedge": 64,
+        "totface": 24
+      },
+      {
+        "name": "MECarrot",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MECattail",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 40,
+        "totedge": 40,
+        "totface": 10
+      },
+      {
+        "name": "MEChristmasFern",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 36,
+        "totedge": 42,
+        "totface": 12
+      },
+      {
+        "name": "MECinderBlock",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 56,
+        "totedge": 136,
+        "totface": 76
+      },
+      {
+        "name": "MECinnamonFern",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 40,
+        "totedge": 50,
+        "totface": 15
+      },
+      {
+        "name": "MECinnamonFernS",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 5,
+        "totedge": 8,
+        "totface": 4
+      },
+      {
+        "name": "MEColtsFoot",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 40,
+        "totedge": 40,
+        "totface": 10
+      },
+      {
+        "name": "MECylinder",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 84,
+        "totedge": 154,
+        "totface": 74
+      },
+      {
+        "name": "MEDaisy",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 26,
+        "totedge": 27,
+        "totface": 7
+      },
+      {
+        "name": "MEDogwood",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MEEquisetum",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 4,
+        "totedge": 4,
+        "totface": 1
+      },
+      {
+        "name": "MEFalseSoloman'sSeal",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 5,
+        "totedge": 6,
+        "totface": 2
+      },
+      {
+        "name": "MEFir",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 201,
+        "totedge": 276,
+        "totface": 96
+      },
+      {
+        "name": "MEFirSmall",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 87,
+        "totedge": 118,
+        "totface": 41
+      },
+      {
+        "name": "MEFleabane",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MEForgetMeNot",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 28,
+        "totedge": 28,
+        "totface": 7
+      },
+      {
+        "name": "MEGoldenrod",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 14,
+        "totface": 4
+      },
+      {
+        "name": "MEGoldenrodUnbloomed",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MEGrassTall",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 12,
+        "totface": 3
+      },
+      {
+        "name": "MEGrate",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 20,
+        "totface": 9
+      },
+      {
+        "name": "MEGroundCover",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 5,
+        "totedge": 8,
+        "totface": 4
+      },
+      {
+        "name": "MEGroundCover3",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 3,
+        "totedge": 3,
+        "totface": 1
+      },
+      {
+        "name": "MEHayBale",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 42,
+        "totedge": 80,
+        "totface": 40
+      },
+      {
+        "name": "MEJackInThePulpit",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 24,
+        "totedge": 24,
+        "totface": 6
+      },
+      {
+        "name": "MEJewelWeed",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 13,
+        "totedge": 16,
+        "totface": 6
+      },
+      {
+        "name": "MEJoepyeWeed",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 17,
+        "totedge": 22,
+        "totface": 8
+      },
+      {
+        "name": "MELadyFern",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 30,
+        "totedge": 35,
+        "totface": 10
+      },
+      {
+        "name": "MELadyFernS",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 5,
+        "totedge": 8,
+        "totface": 4
+      },
+      {
+        "name": "MELillyOfTheValley",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 13,
+        "totface": 6
+      },
+      {
+        "name": "MEMare'sTails",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 12,
+        "totface": 3
+      },
+      {
+        "name": "MEMushroom 1",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 13,
+        "totedge": 16,
+        "totface": 6
+      },
+      {
+        "name": "MEMushroom 1 Cluste.001",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 39,
+        "totedge": 48,
+        "totface": 18
+      },
+      {
+        "name": "MEMushroom 2",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 13,
+        "totedge": 16,
+        "totface": 6
+      },
+      {
+        "name": "MEMushroom 2 Cluster",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 39,
+        "totedge": 48,
+        "totface": 18
+      },
+      {
+        "name": "MEMushroom 3",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 12,
+        "totface": 3
+      },
+      {
+        "name": "MEMushroom 3 Cluster",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 36,
+        "totedge": 36,
+        "totface": 9
+      },
+      {
+        "name": "MEMushroom 4",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MEMushroom 5",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 13,
+        "totedge": 16,
+        "totface": 6
+      },
+      {
+        "name": "MEMushroom 5 Cluster",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 39,
+        "totedge": 48,
+        "totface": 18
+      },
+      {
+        "name": "MEMushroom 7",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 12,
+        "totface": 3
+      },
+      {
+        "name": "MEMushroom 7 Cluster",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 36,
+        "totedge": 36,
+        "totface": 9
+      },
+      {
+        "name": "MEMushroom6",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 12,
+        "totedge": 12,
+        "totface": 3
+      },
+      {
+        "name": "MEMushroom6 Cluster",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 56,
+        "totedge": 56,
+        "totface": 14
+      },
+      {
+        "name": "MEMushroom8",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 6,
+        "totedge": 9,
+        "totface": 4
+      },
+      {
+        "name": "MEMuskMallow",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 32,
+        "totedge": 32,
+        "totface": 8
+      },
+      {
+        "name": "MENarrowleafChainfern",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 24,
+        "totedge": 28,
+        "totface": 8
+      },
+      {
+        "name": "MEOnion",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MEPallette",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 88,
+        "totedge": 132,
+        "totface": 66
+      },
+      {
+        "name": "MEQueenAnne'sLace",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 28,
+        "totedge": 28,
+        "totface": 7
+      },
+      {
+        "name": "MERedClover",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 16,
+        "totedge": 16,
+        "totface": 4
+      },
+      {
+        "name": "MERubySpice",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 44,
+        "totedge": 44,
+        "totface": 11
+      },
+      {
+        "name": "MESpearmint",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "METallBlueLettuce",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 8,
+        "totedge": 8,
+        "totface": 2
+      },
+      {
+        "name": "MEWoodpile",
+        "structure_bytes": 268,
+        "computed_structure_bytes": 268,
+        "totvert": 140,
+        "totedge": 295,
+        "totface": 156
+      }
+    ],
+    "actions": [],
+    "method": "Blender DNA byte parsing only; no asset execution or rendering."
+  },
+  {
+    "path": "C:\\GameMake\\AssetLibrary\\environment\\supplement\\medieval-waterpowered-sawmill\\extracted\\WaterPoweredSawmillUpload.blend",
+    "version": "271",
+    "pointer_bytes": 8,
+    "meshes": [
+      {
+        "name": "MECube.002",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 152,
+        "totedge": 284,
+        "totface": 0,
+        "totpoly": 141,
+        "totloop": 564
+      },
+      {
+        "name": "MECube.003",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 32,
+        "totedge": 64,
+        "totface": 0,
+        "totpoly": 32,
+        "totloop": 128
+      },
+      {
+        "name": "MECube.006",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 440,
+        "totedge": 656,
+        "totface": 0,
+        "totpoly": 226,
+        "totloop": 904
+      },
+      {
+        "name": "MECube.009",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 64,
+        "totedge": 96,
+        "totface": 0,
+        "totpoly": 34,
+        "totloop": 136
+      },
+      {
+        "name": "MECube.014",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 84,
+        "totedge": 118,
+        "totface": 0,
+        "totpoly": 42,
+        "totloop": 196
+      },
+      {
+        "name": "MECube.020",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 304,
+        "totedge": 456,
+        "totface": 0,
+        "totpoly": 156,
+        "totloop": 624
+      },
+      {
+        "name": "MECube.024",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 84,
+        "totedge": 159,
+        "totface": 0,
+        "totpoly": 76,
+        "totloop": 304
+      },
+      {
+        "name": "MECube.029",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 32,
+        "totedge": 50,
+        "totface": 0,
+        "totpoly": 19,
+        "totloop": 82
+      },
+      {
+        "name": "MECube.030",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 8,
+        "totedge": 10,
+        "totface": 0,
+        "totpoly": 3,
+        "totloop": 12
+      },
+      {
+        "name": "MECube.031",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 88,
+        "totedge": 156,
+        "totface": 0,
+        "totpoly": 69,
+        "totloop": 276
+      },
+      {
+        "name": "MECube.034",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 120,
+        "totedge": 224,
+        "totface": 0,
+        "totpoly": 108,
+        "totloop": 432
+      },
+      {
+        "name": "MECylinder.002",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 936,
+        "totedge": 1764,
+        "totface": 0,
+        "totpoly": 842,
+        "totloop": 3436
+      },
+      {
+        "name": "MECylinder.003",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 2136,
+        "totedge": 3332,
+        "totface": 0,
+        "totpoly": 1474,
+        "totloop": 6324
+      },
+      {
+        "name": "MECylinder.004",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 128,
+        "totedge": 224,
+        "totface": 0,
+        "totpoly": 98,
+        "totloop": 416
+      },
+      {
+        "name": "MECylinder.005",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 112,
+        "totedge": 196,
+        "totface": 0,
+        "totpoly": 86,
+        "totloop": 344
+      },
+      {
+        "name": "MECylinder.006",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 112,
+        "totedge": 212,
+        "totface": 0,
+        "totpoly": 104,
+        "totloop": 424
+      },
+      {
+        "name": "MECylinder.009",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 672,
+        "totedge": 1200,
+        "totface": 0,
+        "totpoly": 550,
+        "totloop": 2344
+      },
+      {
+        "name": "MECylinder.012",
+        "structure_bytes": 1376,
+        "computed_structure_bytes": 1376,
+        "totvert": 24,
+        "totedge": 36,
+        "totface": 0,
+        "totpoly": 14,
+        "totloop": 72
+      }
+    ],
+    "actions": [
+      "ACSawing"
+    ],
+    "method": "Blender DNA byte parsing only; no asset execution or rendering."
+  }
+]

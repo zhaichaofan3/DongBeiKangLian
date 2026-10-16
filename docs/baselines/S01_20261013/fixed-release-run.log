@@ -1,0 +1,8 @@
+
+view           mean_fps mean_frame_ms p99_frame_ms mean_draw_calls
+----           -------- ------------- ------------ ---------------
+forest_contact   193.18          5.18         7.70          891.00
+yard             236.24          4.23         6.43          655.00
+office           286.71          3.49         5.70          436.00
+
+C:\GameMake\docs\performance\s01-20261013-release-balanced-1920x1080.json

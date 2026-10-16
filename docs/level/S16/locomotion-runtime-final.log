@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Player accelerates into walk speed
+PASS: Player decelerates after release
+PASS: Player foot phase follows actual travel speed
+PASS: Player footstep timer remains valid during stop
+PASS: Lu Shan accelerates into escort pace
+PASS: Lu Shan eases to a stop when waiting
+PASS: Guard accelerates into patrol pace
+PASS: Guard eases to a stop at combat target
+S16 LOCOMOTION: PASS | checks=8

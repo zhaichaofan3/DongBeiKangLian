@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "release_files": 1095,
+  "package_sha256": "c76fae8ae40cf358458f962f75024d6da2f91c2c5eb84b07ce6f01d3627711a4",
+  "protections": {
+    "audio_files": 61,
+    "hand_files": 12,
+    "model_files": 15,
+    "opening_cues_and_timing": "unchanged"
+  }
+}

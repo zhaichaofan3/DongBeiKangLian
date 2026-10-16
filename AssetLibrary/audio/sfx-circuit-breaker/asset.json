@@ -1,0 +1,67 @@
+{
+  "id": "sfx-circuit-breaker",
+  "title": "SFX Circuit breaker",
+  "source_url": "https://opengameart.org/content/sfx-circuit-breaker",
+  "author": "Cleyton Kauffman",
+  "license": "CC0-1.0",
+  "notes": "On and off switch events.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "sfx-circuit-breaker/originals/Circuit Breaker.zip",
+      "download_url": "https://opengameart.org/sites/default/files/Circuit%20Breaker.zip",
+      "bytes": 189401,
+      "sha256": "d8b0b2b008ce4d1b5286d76ce15974fed69c41fa4746bdeadcfcb8f7a2053bd6",
+      "role": "original_download"
+    },
+    {
+      "path": "sfx-circuit-breaker/extracted/Circuit Breaker/switch off.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Circuit%20Breaker.zip",
+      "bytes": 163010,
+      "sha256": "42c6be41a0082d602b0af647bac7c2009b4ff2b6228d6a1ed3c21d76290bd1a8",
+      "role": "extracted"
+    },
+    {
+      "path": "sfx-circuit-breaker/extracted/Circuit Breaker/switch on.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Circuit%20Breaker.zip",
+      "bytes": 165554,
+      "sha256": "023585f7cc913a746e8aa59dbc6a14e56bf1658d2a3c3f9b8438794c4c9757e8",
+      "role": "extracted"
+    },
+    {
+      "path": "ready_to_import/props/switch_on.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Circuit%20Breaker.zip",
+      "bytes": 90080,
+      "sha256": "0171527bbd00ef04da076233288a530321b16937bf0fce2ea5d280e673875316",
+      "role": "derived_ready_to_import",
+      "source_path": "sfx-circuit-breaker/extracted/Circuit Breaker/switch on.wav",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/props/switch_off.wav",
+      "download_url": "https://opengameart.org/sites/default/files/Circuit%20Breaker.zip",
+      "bytes": 88696,
+      "sha256": "08ae78e664093b269320f2252fb5ace416d3b6d119fe145932124afd79195808",
+      "role": "derived_ready_to_import",
+      "source_path": "sfx-circuit-breaker/extracted/Circuit Breaker/switch off.wav",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 2,
+    "decode_passed": 2,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 1.86,
+    "duration_range_seconds": [
+      0.923,
+      0.938
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

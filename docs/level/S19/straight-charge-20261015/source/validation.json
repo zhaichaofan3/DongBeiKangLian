@@ -1,0 +1,92 @@
+{
+	"checks": [
+		{
+			"description": "Straight charge starts for office_guard",
+			"passed": true
+		},
+		{
+			"description": "Entire charge corridor is clear for office_guard",
+			"passed": true
+		},
+		{
+			"description": "25 charge samples stay collinear, forward and fixed-facing: office_guard",
+			"passed": true
+		},
+		{
+			"description": "Straight charge reaches the existing grapple: office_guard",
+			"passed": true
+		},
+		{
+			"description": "Straight charge starts for office_guard_2",
+			"passed": true
+		},
+		{
+			"description": "Entire charge corridor is clear for office_guard_2",
+			"passed": true
+		},
+		{
+			"description": "25 charge samples stay collinear, forward and fixed-facing: office_guard_2",
+			"passed": true
+		},
+		{
+			"description": "Straight charge reaches the existing grapple: office_guard_2",
+			"passed": true
+		},
+		{
+			"description": "Straight charge starts for office_guard_3",
+			"passed": true
+		},
+		{
+			"description": "Entire charge corridor is clear for office_guard_3",
+			"passed": true
+		},
+		{
+			"description": "25 charge samples stay collinear, forward and fixed-facing: office_guard_3",
+			"passed": true
+		},
+		{
+			"description": "Straight charge reaches the existing grapple: office_guard_3",
+			"passed": true
+		},
+		{
+			"description": "Straight charge starts for office_guard_4",
+			"passed": true
+		},
+		{
+			"description": "Entire charge corridor is clear for office_guard_4",
+			"passed": true
+		},
+		{
+			"description": "25 charge samples stay collinear, forward and fixed-facing: office_guard_4",
+			"passed": true
+		},
+		{
+			"description": "Straight charge reaches the existing grapple: office_guard_4",
+			"passed": true
+		},
+		{
+			"description": "Desk blocks the charge even when the player is visible above it",
+			"passed": true
+		},
+		{
+			"description": "Blocked corridor never starts a winding charge or clips through the desk",
+			"passed": true
+		},
+		{
+			"description": "Final survivor approaches around furniture before committing to a clear straight charge",
+			"passed": true
+		},
+		{
+			"description": "Clear approach starts the same two-point charge",
+			"passed": true
+		},
+		{
+			"description": "Office wall also blocks a direct charge",
+			"passed": true
+		}
+	],
+	"count": 21,
+	"passed": true,
+	"rendered": false,
+	"resolution": "(64, 64)"
+}

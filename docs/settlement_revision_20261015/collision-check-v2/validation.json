@@ -1,0 +1,9 @@
+{
+	"checks": 34,
+	"failures": [
+		"Old straight-village checkpoint migrates to the matching encounter",
+		"Village migration preserves defeats and ammunition",
+		"Disk-only resume restores the new layout"
+	],
+	"passed": false
+}

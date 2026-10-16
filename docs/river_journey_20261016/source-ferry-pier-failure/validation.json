@@ -1,0 +1,76 @@
+{
+  "boat_samples": [
+    {
+      "boat": [
+        581.099975585938,
+        -1.3178653717041,
+        612.700012207031
+      ],
+      "shot": "boarding",
+      "time": 2.7
+    },
+    {
+      "boat": [
+        581.099975585938,
+        -1.28283631801605,
+        612.700012207031
+      ],
+      "shot": "boarding",
+      "time": 4.8
+    },
+    {
+      "boat": [
+        581.099975585938,
+        -1.29671323299408,
+        612.700012207031
+      ],
+      "shot": "boarding",
+      "time": 7.5
+    },
+    {
+      "boat": [
+        582.710205078125,
+        -1.28200376033783,
+        593.753784179688
+      ],
+      "shot": "river-wide",
+      "time": 12.0
+    },
+    {
+      "boat": [
+        579.895935058594,
+        -1.28225922584534,
+        541.962158203125
+      ],
+      "shot": "river-onboard",
+      "time": 23.0
+    },
+    {
+      "boat": [
+        1215.31896972656,
+        -1.29999995231628,
+        442.325897216797
+      ],
+      "shot": "landing",
+      "time": 30.0
+    },
+    {
+      "boat": [
+        1214.0,
+        -1.29999995231628,
+        439.600006103516
+      ],
+      "shot": "landing",
+      "time": 35.7
+    }
+  ],
+  "captures": [],
+  "checks": 59,
+  "failures": [
+    "The player can physically walk back along the landing pier",
+    "Walking off the pier safely returns to shore without a soft lock"
+  ],
+  "forest_trees": 2017,
+  "passed": false,
+  "renderer": "headless"
+}

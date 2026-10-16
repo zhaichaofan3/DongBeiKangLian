@@ -1,0 +1,5 @@
+Info: Saved as "field_hands.blend"
+HAND_REFINEMENT_COMPLETE [{"file": "hand_left.glb", "source_triangles": 3356, "triangles": 20136, "vertices": 12389, "bones": 24, "bind_rig_preserved": true, "source_sha256": "5295744011561320aaeeeb41a4f569736090fec0182599bcbcf14af613e0c0fb", "sha256": "7b4d81dd2dd8c2a305489355c9e8573ce78c754d3f188118196eef25ca60a9fb"}, {"file": "hand_right.glb", "source_triangles": 3356, "triangles": 20136, "vertices": 14134, "bones": 24, "bind_rig_preserved": true, "source_sha256": "3bac07447ba6f33ac12dd146564eb539fa8efb1d7b890341a0432e85bd93ea04", "sha256": "7e1013e39d3e5547a66552074641db17f4db90a7d4a51530ff63f9d23fed1024"}]
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

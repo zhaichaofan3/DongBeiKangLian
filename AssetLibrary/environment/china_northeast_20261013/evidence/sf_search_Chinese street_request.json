@@ -1,0 +1,4 @@
+{
+  "url": "https://api.sketchfab.com/v3/search?type=models&q=Chinese+street&count=12&downloadable=true",
+  "status": 200
+}

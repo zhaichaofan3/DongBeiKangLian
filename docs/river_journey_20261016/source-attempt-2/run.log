@@ -1,0 +1,73 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Complete departure checkpoint validates before boarding
+PASS: Ferry starts the two-person cinematic
+PASS: Both passengers use the existing skinned friendly models
+PASS: Cinematic camera owns a finite frame: boarding
+PASS: Cinematic camera owns a finite frame: seated
+PASS: Both seated passengers travel with the hull: seated
+PASS: Cinematic camera owns a finite frame: river-wide
+PASS: Both seated passengers travel with the hull: river-wide
+PASS: Cinematic camera owns a finite frame: river-onboard
+PASS: Both seated passengers travel with the hull: river-onboard
+PASS: Cinematic camera owns a finite frame: approaching-bank
+PASS: Cinematic camera owns a finite frame: landing
+PASS: The boat visibly drifts downstream rather than remaining stationary
+PASS: Pausing freezes the crossing clock and river sound
+PASS: Resume restores the ferry cinematic
+PASS: A mid-river save cannot replace the safe departure checkpoint
+PASS: Returning to menu cleans up the cinematic and restores gameplay actors
+PASS: Disk-only recovery during crossing resumes the safe departure
+PASS: Skipping hands control to the forest landing, retaining the playable approach
+PASS: Player arrives at the shore, outside the village
+PASS: Village combat stays inactive throughout the forest approach
+PASS: Crossing grants the existing arrival supplies once
+PASS: Repeated finish cannot duplicate supplies
+PASS: The landing checkpoint validates the enlarged chapter bounds
+PASS: The non-road woodland is densely populated using instanced existing pine models
+PASS: The dirt route has substantially lighter colour than the forest floor
+PASS: A navigation route connects the landing to the original village
+FOREST MOVEMENT BLOCKED: (1213.697, -0.323051, 425.697) target=(1214.0, 0.0, 416.0)
+ERROR: Real player movement follows the dirt road through bend 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/river_journey.gd:24)
+       [1] _run (res://tests/river_journey.gd:106)
+       [2] _walk (res://tests/river_journey.gd:186)
+ERROR: The village introduction plays exactly once at the entrance
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/river_journey.gd:24)
+       [1] _run (res://tests/river_journey.gd:115)
+       [2] _walk (res://tests/river_journey.gd:186)
+ERROR: After the introduction only the first village encounter activates
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/river_journey.gd:24)
+       [1] _run (res://tests/river_journey.gd:116)
+       [2] _walk (res://tests/river_journey.gd:186)
+ERROR: The post-introduction checkpoint is valid
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/river_journey.gd:24)
+       [1] _run (res://tests/river_journey.gd:117)
+       [2] _walk (res://tests/river_journey.gd:186)
+ERROR: Loading after the introduction does not repeat the dialogue
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/river_journey.gd:24)
+       [1] _run (res://tests/river_journey.gd:121)
+       [2] _frames (res://tests/river_journey.gd:27)
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 1 side -1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 1 side 1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 3 side -1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 3 side 1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 5 side -1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 5 side 1
+ERROR: Legacy village saves retain the original encounter and skip the new arrival
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/river_journey.gd:24)
+       [1] _run (res://tests/river_journey.gd:158)
+PASS: Contradictory forest-introduction flags are rejected
+RIVER JOURNEY: FAIL | checks=40

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-15",
+  "all_passed": true,
+  "source_checks": 14,
+  "release_checks": 14,
+  "rows_each": 9,
+  "reports": [
+    "docs/level/S36/source-checks/s34_state_matrix/state-matrix.json",
+    "docs/level/S36/release-checks/s34_state_matrix/state-matrix.json"
+  ]
+}

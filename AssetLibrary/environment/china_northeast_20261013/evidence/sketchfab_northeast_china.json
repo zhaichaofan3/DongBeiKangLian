@@ -1,0 +1,836 @@
+{
+  "cursors": {
+    "next": null,
+    "previous": null
+  },
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/43cd641ce9924acbbccb64da76e19a6a",
+      "uid": "43cd641ce9924acbbccb64da76e19a6a",
+      "name": "Fnaf SB Every Cut Map (Updated)",
+      "staffpickedAt": null,
+      "viewCount": 3335,
+      "likeCount": 27,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-43cd641ce9924acbbccb64da76e19a6a",
+      "embedUrl": "https://sketchfab.com/models/43cd641ce9924acbbccb64da76e19a6a/embed",
+      "commentCount": 15,
+      "isDownloadable": true,
+      "publishedAt": "2025-05-31T00:00:25.480143",
+      "tags": [
+        {
+          "name": "fnaf",
+          "slug": "fnaf",
+          "uri": "https://api.sketchfab.com/v3/tags/fnaf"
+        },
+        {
+          "name": "fivenightsatfreddys",
+          "slug": "fivenightsatfreddys",
+          "uri": "https://api.sketchfab.com/v3/tags/fivenightsatfreddys"
+        },
+        {
+          "name": "securitybreach",
+          "slug": "securitybreach",
+          "uri": "https://api.sketchfab.com/v3/tags/securitybreach"
+        },
+        {
+          "name": "fnafsecuritybreach",
+          "slug": "fnafsecuritybreach",
+          "uri": "https://api.sketchfab.com/v3/tags/fnafsecuritybreach"
+        },
+        {
+          "name": "fnafsb",
+          "slug": "fnafsb",
+          "uri": "https://api.sketchfab.com/v3/tags/fnafsb"
+        },
+        {
+          "name": "fnafsbruin",
+          "slug": "fnafsbruin",
+          "uri": "https://api.sketchfab.com/v3/tags/fnafsbruin"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "12baa7a90fc24cf7863729b61f4e34a0",
+            "size": 100203,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/43cd641ce9924acbbccb64da76e19a6a/thumbnails/34cb49256baf4d1e8a140fcb800dee70/efe407a17b514ed18de8e69579144f0e.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a6ff14bdc0e04a56b13443e32e91362a",
+            "size": 36093,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/43cd641ce9924acbbccb64da76e19a6a/thumbnails/34cb49256baf4d1e8a140fcb800dee70/1cd64f23e6af4fc28c3c39052ca693ab.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "da9e4734851e4e4e9f3352533f254b80",
+            "size": 21662,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/43cd641ce9924acbbccb64da76e19a6a/thumbnails/34cb49256baf4d1e8a140fcb800dee70/f34310ea08c84a5097ba333ef741480d.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "b2b13eb0817f4fc8aa29c98c306e54ae",
+            "size": 5032,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/43cd641ce9924acbbccb64da76e19a6a/thumbnails/34cb49256baf4d1e8a140fcb800dee70/3af4eb7be38341938c3bf24c7399cba5.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "a268dfd19e884bd18f393c5319e93a97",
+            "size": 1228,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/43cd641ce9924acbbccb64da76e19a6a/thumbnails/34cb49256baf4d1e8a140fcb800dee70/5045c20d01af47f0a9abce1e024071f3.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "d2b02d2975eb475f899838bddd5013d0",
+        "username": "skylajade69",
+        "displayName": "skylajade69",
+        "profileUrl": "https://sketchfab.com/skylajade69",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/51af6a870cce449eb75b0345feebaebb",
+          "images": [
+            {
+              "size": 5719,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/2ef0f894055b4bb69123b2a27fa2d379.jpeg",
+              "height": 90
+            },
+            {
+              "size": 6496,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/ab11eedf96374486acb544f71a23b165.jpeg",
+              "height": 100
+            },
+            {
+              "size": 1359,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/35f6f9b6c9a14a548ce472582d8a9bb5.jpeg",
+              "height": 32
+            },
+            {
+              "size": 2584,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/a8072a51447c4d41ab177b357111b420.jpeg",
+              "height": 48
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/d2b02d2975eb475f899838bddd5013d0"
+      },
+      "description": "**(in the files of course)**\n\n*I got an idea ever since I got a new porter I decided to remake this with new and improved maps that are*: ***Large Vat Room***, ***Bowling Alley Test***, ***Lobby To Food Court***, And ***7 Decals From Utility NorthEast Corrner*** *and that's it for new stuff. And here's the list of the old maps but better ported*: **West To Racer**, **Utility West**, **West Arcade To Lobby**, **Food Court Unused Mesh Save**, **Cut Roxy Airlock**, **Golf Airlock 1**,**DC Airlock 1**, **DC Airlock 4**, **DC Airlock 5**, **Cupcake Airlock**, **Freddy Back Hall**, **Chica Back Hall**, **Monty Back Hall**, **Roxy Back Hall**, **Backstage Kitchen**, **V.I.P Party Room**, **Hive Arcade Room**, **West Airlock** (Staircase).\n\n**Credits: PolarSends (Cut Racer). That's it for now**\n\nDT tomorrow",
+      "faceCount": 8387795,
+      "createdAt": "2025-05-30T23:08:40.287808",
+      "vertexCount": 4841128,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 479478408,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 8387776,
+          "vertexCount": 8790166
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 160616989,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 8387776,
+          "vertexCount": 8790166
+        },
+        "source": {
+          "textureCount": null,
+          "size": 85686003,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/20985473ab8743f784c05cd01716fff3",
+      "uid": "20985473ab8743f784c05cd01716fff3",
+      "name": "Changbai Mountain长白山",
+      "staffpickedAt": null,
+      "viewCount": 613,
+      "likeCount": 12,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-20985473ab8743f784c05cd01716fff3",
+      "embedUrl": "https://sketchfab.com/models/20985473ab8743f784c05cd01716fff3/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2023-03-22T10:26:43.394414",
+      "tags": [
+        {
+          "name": "geology",
+          "slug": "geology",
+          "uri": "https://api.sketchfab.com/v3/tags/geology"
+        },
+        {
+          "name": "mountain",
+          "slug": "mountain",
+          "uri": "https://api.sketchfab.com/v3/tags/mountain"
+        },
+        {
+          "name": "geography",
+          "slug": "geography",
+          "uri": "https://api.sketchfab.com/v3/tags/geography"
+        }
+      ],
+      "categories": [
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "5a5fad37be22492bbec7ba37e48d53c7",
+            "size": 326062,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/20985473ab8743f784c05cd01716fff3/thumbnails/e8b4395a5ed242ed9a0d060f8842d756/290d00a35e9d4367b831f9af1e24f376.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "7fef14f5905f4363b0d964485a6ce99d",
+            "size": 105381,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/20985473ab8743f784c05cd01716fff3/thumbnails/e8b4395a5ed242ed9a0d060f8842d756/3eab61ecf4a34be19bdaf0736547cd34.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "6638c40a97b34f0585ec876b26c48fe9",
+            "size": 58992,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/20985473ab8743f784c05cd01716fff3/thumbnails/e8b4395a5ed242ed9a0d060f8842d756/6783b337c6a24a5d99334311c5a0fc9f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "edf05ea74f474d80aad0f7443c69752d",
+            "size": 11186,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/20985473ab8743f784c05cd01716fff3/thumbnails/e8b4395a5ed242ed9a0d060f8842d756/78e366bc220d413682c02b7a47b04920.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "9160a821462e4a72a953774fe9dedc1d",
+            "size": 1634,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/20985473ab8743f784c05cd01716fff3/thumbnails/e8b4395a5ed242ed9a0d060f8842d756/180cb6695d0e41fcaade840d3762448c.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "44d9ce3d3f5341e59d275de8aefda757",
+        "username": "liyanquan6",
+        "displayName": "李延权",
+        "profileUrl": "https://sketchfab.com/liyanquan6",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/5c42197410f84b50a56ef90131bbc176",
+          "images": [
+            {
+              "size": 2544,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/5c42197410f84b50a56ef90131bbc176/8a6ef04fad09499f8db5b36783016954.png",
+              "height": 32
+            },
+            {
+              "size": 5152,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/5c42197410f84b50a56ef90131bbc176/190b2fda4dcb42f0b967c05464cd3895.png",
+              "height": 48
+            },
+            {
+              "size": 15152,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/5c42197410f84b50a56ef90131bbc176/a0fdf749bb1f410e953db2f543aa2df1.png",
+              "height": 90
+            },
+            {
+              "size": 18112,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/5c42197410f84b50a56ef90131bbc176/5651f82f349a4ed0b4bb754a798ff778.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/44d9ce3d3f5341e59d275de8aefda757"
+      },
+      "description": "Because it is the highest peak in Northeast China and the Korean Peninsula, Changbai Mountain is regarded as a \"sacred mountain\" in the myths and legends of many northern Chinese peoples, and the Korean people also regard it as the birthplace of their nation.\n由于是中国东北及朝鲜半岛的最高峰，长白山在多个中国北方民族的神话传说中都被视为“神山”，朝鲜族亦视它为民族的发祥地",
+      "faceCount": 524268,
+      "createdAt": "2023-03-22T09:50:25.787497",
+      "vertexCount": 264172,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 27834536,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 523856,
+          "vertexCount": 270160
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 17979561,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 523856,
+          "vertexCount": 270160
+        },
+        "source": {
+          "textureCount": null,
+          "size": 25315917,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 13364355,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9c166c4a77fd46649cef7b53aa80dbdd",
+      "uid": "9c166c4a77fd46649cef7b53aa80dbdd",
+      "name": "Maple Tree Seed",
+      "staffpickedAt": null,
+      "viewCount": 747,
+      "likeCount": 7,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9c166c4a77fd46649cef7b53aa80dbdd",
+      "embedUrl": "https://sketchfab.com/models/9c166c4a77fd46649cef7b53aa80dbdd/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2024-04-23T18:55:16.847166",
+      "tags": [
+        {
+          "name": "plant",
+          "slug": "plant",
+          "uri": "https://api.sketchfab.com/v3/tags/plant"
+        },
+        {
+          "name": "maple",
+          "slug": "maple",
+          "uri": "https://api.sketchfab.com/v3/tags/maple"
+        },
+        {
+          "name": "seed",
+          "slug": "seed",
+          "uri": "https://api.sketchfab.com/v3/tags/seed"
+        },
+        {
+          "name": "nature",
+          "slug": "nature",
+          "uri": "https://api.sketchfab.com/v3/tags/nature"
+        },
+        {
+          "name": "risd",
+          "slug": "risd",
+          "uri": "https://api.sketchfab.com/v3/tags/risd"
+        },
+        {
+          "name": "design",
+          "slug": "design",
+          "uri": "https://api.sketchfab.com/v3/tags/design"
+        }
+      ],
+      "categories": [
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "1075d041d5d04de8bee99309c873de3c",
+            "size": 77130,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9c166c4a77fd46649cef7b53aa80dbdd/thumbnails/6b3a136582f240f5a2fcff0cb343b627/1d308a1c3bce47cca45e21129bc6f186.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "adab696afaba490ea4faf11ba2405baf",
+            "size": 26262,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9c166c4a77fd46649cef7b53aa80dbdd/thumbnails/6b3a136582f240f5a2fcff0cb343b627/2e659cc124014a8d98b90631a351dfc6.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "d445cd354c3947f7939473dcd250ab28",
+            "size": 15423,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9c166c4a77fd46649cef7b53aa80dbdd/thumbnails/6b3a136582f240f5a2fcff0cb343b627/ba19965275ef466c8450fec9dbcd0148.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "a3b31faa35894eaf96e4fb2975a1d7b1",
+            "size": 3588,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9c166c4a77fd46649cef7b53aa80dbdd/thumbnails/6b3a136582f240f5a2fcff0cb343b627/50a2a9d3590943bc85022baff94a9a05.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "fd2912b7a9a34b7b8f419f39b1b5aeb2",
+            "size": 1068,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9c166c4a77fd46649cef7b53aa80dbdd/thumbnails/6b3a136582f240f5a2fcff0cb343b627/3545fd6038694de2ba1784c0de31902d.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "aae849c2166648be8f55966b3be7b2a4",
+        "username": "RISDNaturelab",
+        "displayName": "RISD Nature Lab",
+        "profileUrl": "https://sketchfab.com/RISDNaturelab",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/f046cfd21e964b6f85f2be5d339fb3be",
+          "images": [
+            {
+              "size": 820,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/f046cfd21e964b6f85f2be5d339fb3be/9ccda00fb47c40f5b2dc3fc1bb8e775a.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1332,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/f046cfd21e964b6f85f2be5d339fb3be/b7c15aa5b0aa451ba1771efe998bcac9.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3662,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/f046cfd21e964b6f85f2be5d339fb3be/dc695478b60a40deaa974301b73f4d17.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4342,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/f046cfd21e964b6f85f2be5d339fb3be/12afb9c6078a4431b2988287c7ae1cae.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/aae849c2166648be8f55966b3be7b2a4"
+      },
+      "description": "Maple Tree Seed (*Acer* sp.)\n\n\"Maple tree seeds go by different names like “helicopters” or “whirlers” depending on what you called them when you were a child. Regardless of what you call them, everyone knows the signature twisting, swirling, winged seeds that fall from maple trees every year.\"* (Chop)*(https://www.we-chop.com/maple-tree-seeds/)\n\n\"The closest relative of *Acer* is *Dipteronia*, which only has two living species in China, but has a fossil record extending back to the middle Paleocene in North America. The oldest known fossils of *Acer* are from the late Paleocene of Northeast Asia and northern North America, around 60 million years old.\" *(Wikipedia)*\n\nAccession number: 77.18\n\nCaptured by Vir Joseph Naidu (MID ‘24) with an Artec Spider 3D Scanner https://www.artec3d.com/portable-3d-scanners/artec-spider-v2.",
+      "faceCount": 291872,
+      "createdAt": "2024-04-23T18:18:55.409803",
+      "vertexCount": 145930,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 11030264,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 291872,
+          "vertexCount": 164505
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 6990581,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 291872,
+          "vertexCount": 164505
+        },
+        "source": {
+          "textureCount": null,
+          "size": 24537011,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6578403,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/914dd055abdc41319688091592d144b0",
+      "uid": "914dd055abdc41319688091592d144b0",
+      "name": "20261007_千葉県匝瑳市_ナガスクジラ",
+      "staffpickedAt": null,
+      "viewCount": 54,
+      "likeCount": 4,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-914dd055abdc41319688091592d144b0",
+      "embedUrl": "https://sketchfab.com/models/914dd055abdc41319688091592d144b0/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2026-10-09T10:14:32.447376",
+      "tags": [
+        {
+          "name": "mammal",
+          "slug": "mammal",
+          "uri": "https://api.sketchfab.com/v3/tags/mammal"
+        },
+        {
+          "name": "whale",
+          "slug": "whale",
+          "uri": "https://api.sketchfab.com/v3/tags/whale"
+        },
+        {
+          "name": "stranding",
+          "slug": "stranding",
+          "uri": "https://api.sketchfab.com/v3/tags/stranding"
+        },
+        {
+          "name": "nsmt",
+          "slug": "nsmt",
+          "uri": "https://api.sketchfab.com/v3/tags/nsmt"
+        },
+        {
+          "name": "rojohaku",
+          "slug": "rojohaku",
+          "uri": "https://api.sketchfab.com/v3/tags/rojohaku"
+        }
+      ],
+      "categories": [
+        {
+          "name": "animals-pets"
+        },
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "9a5048b026d84e0b9b26c2191240ed53",
+            "size": 606878,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/914dd055abdc41319688091592d144b0/thumbnails/ecbee07e81f044acb87fb95292177083/677964f430b14261a7466077ae729db5.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e4478114ba8e4297b68058c15439dd6d",
+            "size": 141154,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/914dd055abdc41319688091592d144b0/thumbnails/ecbee07e81f044acb87fb95292177083/f975f1d5c0f34d8aac4e3041bf2e10ca.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "39b5e425ab8d47ac99fb6c57b9ae05b3",
+            "size": 70960,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/914dd055abdc41319688091592d144b0/thumbnails/ecbee07e81f044acb87fb95292177083/bc830aab083c4c4b80f4dc16e296cd70.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "040df06cfe3146c498341882d3a41f24",
+            "size": 10775,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/914dd055abdc41319688091592d144b0/thumbnails/ecbee07e81f044acb87fb95292177083/f1b2ab1ae5dd45b485807c833158c22a.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "c38cf28fe55b408894319de23462bb14",
+            "size": 1577,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/914dd055abdc41319688091592d144b0/thumbnails/ecbee07e81f044acb87fb95292177083/74d27a4d4f8d4eacb190b0976568e3f7.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "475b7abc0d5841d78a3c35d3c3545586",
+        "username": "Memento",
+        "displayName": "Kent MORI @rojohaku",
+        "profileUrl": "https://sketchfab.com/Memento",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/0e615cb138e84b9ba98bc78e56aac678",
+          "images": [
+            {
+              "size": 1440,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/0e615cb138e84b9ba98bc78e56aac678/0f1bcecac6bf47f2864cb8201b872c68.jpeg",
+              "height": 32
+            },
+            {
+              "size": 2893,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/0e615cb138e84b9ba98bc78e56aac678/5e2c63671856405ea881c5e08552b767.jpeg",
+              "height": 48
+            },
+            {
+              "size": 9449,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/0e615cb138e84b9ba98bc78e56aac678/6c76acebf731400699b29c3310901169.jpeg",
+              "height": 90
+            },
+            {
+              "size": 11060,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/0e615cb138e84b9ba98bc78e56aac678/e9af7805f3b1431aa485e6f5f0bd9e0f.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/475b7abc0d5841d78a3c35d3c3545586"
+      },
+      "description": "2026年9月30日15時ごろ、千葉県匝瑳市の栢田浜（九十九里浜）で、波打ち際から20〜30mの浅瀬に座礁した大型のクジラが見つかった。体長約17mのナガスクジラ（*Balaenoptera physalus*）のメスで、発見時は生きており、衰弱した様子ながら潮を吹く姿も確認された。同市では9月19日にも、約1.5km北東の新堀浜に同種の死亡個体が漂着していた。本個体はしばらく生存したのち死亡した。本モデルは2026年10月7日に現地での解剖に参加した際、フォトグラメトリーにより作製した。なお、左右の下顎は腐敗と潮流によりすでに流出しており、発見には至っていない。\n\nAt around 3 p.m. on September 30, 2026, a large whale was found stranded in the shallows 20–30 m from the waterline at Kayada Beach on the Kujukuri coast in Sosa City, Chiba Prefecture, Japan. It was a female fin whale (*Balaenoptera physalus*) about 17 m long. She was alive when found, visibly weakened but still spouting. A dead fin whale had also washed ashore on September 19 at Shinbori Beach in the same city, about 1.5 km to the northeast.  This whale survived for some time before dying. This model was created by photogrammetry on October 7, 2026, while taking part in the on-site necropsy. Note that both the left and right mandibles had already been lost to decomposition and currents, and have not been found.",
+      "faceCount": 999999,
+      "createdAt": "2026-10-09T09:14:22.930202",
+      "vertexCount": 553461,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 5,
+          "size": 250534308,
+          "type": "glb",
+          "textureMaxResolution": 8192,
+          "faceCount": 999999,
+          "vertexCount": 712981
+        },
+        "gltf": {
+          "textureCount": 5,
+          "size": 233814066,
+          "type": "gltf",
+          "textureMaxResolution": 8192,
+          "faceCount": 999999,
+          "vertexCount": 712981
+        },
+        "source": {
+          "textureCount": null,
+          "size": 230394658,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 31783278,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/3077a2c0655741cdaaf44c42f7422410",
+      "uid": "3077a2c0655741cdaaf44c42f7422410",
+      "name": "Topography of Northeast China",
+      "staffpickedAt": null,
+      "viewCount": 136,
+      "likeCount": 4,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-3077a2c0655741cdaaf44c42f7422410",
+      "embedUrl": "https://sketchfab.com/models/3077a2c0655741cdaaf44c42f7422410/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2023-02-12T09:01:54.116348",
+      "tags": [
+        {
+          "name": "landscape",
+          "slug": "landscape",
+          "uri": "https://api.sketchfab.com/v3/tags/landscape"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "geography",
+          "slug": "geography",
+          "uri": "https://api.sketchfab.com/v3/tags/geography"
+        },
+        {
+          "name": "topography",
+          "slug": "topography",
+          "uri": "https://api.sketchfab.com/v3/tags/topography"
+        },
+        {
+          "name": "geoscience",
+          "slug": "geoscience",
+          "uri": "https://api.sketchfab.com/v3/tags/geoscience"
+        }
+      ],
+      "categories": [
+        {
+          "name": "nature-plants"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "c208e85b47814f12b1dc0987550aacf4",
+            "size": 272839,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/3077a2c0655741cdaaf44c42f7422410/thumbnails/02d346b3428442a8978be85cc4524206/574bca8449334ea9b5f43674a123302e.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c0a1d7157f9544b9ba073448af262dfc",
+            "size": 81261,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/3077a2c0655741cdaaf44c42f7422410/thumbnails/02d346b3428442a8978be85cc4524206/3366e47fce7745589b65cb05f8ee26a5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "30a1a04e33d9406db429e355fd283172",
+            "size": 44213,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/3077a2c0655741cdaaf44c42f7422410/thumbnails/02d346b3428442a8978be85cc4524206/064b81a7596448da9bb285c91fd49c88.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "8abeb93631a44076a3d7fcac0fe91535",
+            "size": 7611,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/3077a2c0655741cdaaf44c42f7422410/thumbnails/02d346b3428442a8978be85cc4524206/119d5058e22941e1807a065b7c2cfc61.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "6a1292c3b51a42219aa64cd1f0f51a99",
+            "size": 1359,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/3077a2c0655741cdaaf44c42f7422410/thumbnails/02d346b3428442a8978be85cc4524206/f2ade8c2802f4461af1d95ff23acae2f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "196ae42c5c084a80a0bd9fedd355e2d7",
+        "username": "bluepaint0218",
+        "displayName": "Yang",
+        "profileUrl": "https://sketchfab.com/bluepaint0218",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/e9971299975e44fb8dcb898f9429c54a",
+          "images": [
+            {
+              "size": 1084,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/e9971299975e44fb8dcb898f9429c54a/d75b1aae74a34f30a6b34c0f43db8d59.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1570,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/e9971299975e44fb8dcb898f9429c54a/c62fd40e43344a7eb0880fa0d33c924d.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3405,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/e9971299975e44fb8dcb898f9429c54a/e4dbcc54fe8d4f65bbae42b452d3fdd8.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3866,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/e9971299975e44fb8dcb898f9429c54a/4d9d5e0248e44b3d810083424f375ad7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/196ae42c5c084a80a0bd9fedd355e2d7"
+      },
+      "description": "From QGIS",
+      "faceCount": 179692,
+      "createdAt": "2023-02-12T08:58:46.011941",
+      "vertexCount": 90450,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 31589056,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 179692,
+          "vertexCount": 91083
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 28683107,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 179692,
+          "vertexCount": 91083
+        },
+        "source": {
+          "textureCount": null,
+          "size": 127060518,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 7201550,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    }
+  ]
+}

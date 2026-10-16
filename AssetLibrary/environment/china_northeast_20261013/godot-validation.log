@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+MODEL_CHECK terrain/tianchi_display_lod.glb true
+MODEL_CHECK terrain/tianchi_display.glb true
+MODEL_CHECK models/pagoda_red/pagoda_red.glb true
+MODEL_CHECK models/pagoda_hall/pagoda_hall.glb true
+MODEL_CHECK models/pagoda_tower/pagoda_tower.glb true
+MODEL_CHECK models/warehouse/warehouse.glb true
+MODEL_CHECK models/log_cabin_scene/log_cabin_scene.glb true
+MODEL_CHECK models/village_market/village_market.glb true
+MODEL_CHECK models/market_stalls/market_stalls.glb true
+MODEL_CHECK models/modular_factory_facade/modular_factory_facade_2k.gltf true
+MODEL_CHECK models/chinese_screen_panels/chinese_screen_panels_2k.gltf true
+MODEL_CHECK models/chinese_tea_table/chinese_tea_table_2k.gltf true
+MODEL_CHECK models/wicker_basket_01/wicker_basket_01_2k.gltf true

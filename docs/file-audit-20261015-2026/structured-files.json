@@ -1,0 +1,22 @@
+{
+  "JsonChecked": 1254,
+  "JsonFailures": [
+    {
+      "Path": "docs/connection-latest.json",
+      "Bytes": 1769,
+      "Error": "Conversion from JSON failed with error: Additional text encountered after finished reading JSON content: \\. Path '', line 75, position 1."
+    },
+    {
+      "Path": "docs/level/S13/accepted-01/summary.json",
+      "Bytes": 593,
+      "Error": "Empty JSON or NUL character present."
+    },
+    {
+      "Path": ".auto-resume/control.json",
+      "Bytes": 180,
+      "Error": "Empty JSON or NUL character present."
+    }
+  ],
+  "HistoryLines": 202,
+  "HistoryErrors": []
+}

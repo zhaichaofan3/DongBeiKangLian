@@ -1,0 +1,9 @@
+{
+	"checks": 31,
+	"failures": [
+		"Loading during the grapple restores the safe pre-door state"
+	],
+	"human_playtest": false,
+	"passed": false,
+	"rendered": false
+}

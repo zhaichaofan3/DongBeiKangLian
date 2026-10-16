@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scout shows nonfatal hit stagger
+PASS: scout recovers from hit without staying twisted
+PASS: logger shows nonfatal hit stagger
+PASS: logger recovers from hit without staying twisted
+PASS: wounded shows nonfatal hit stagger
+PASS: wounded recovers from hit without staying twisted
+PASS: guard shows nonfatal hit stagger
+PASS: guard recovers from hit without staying twisted
+PASS: Live guard takes a nonfatal hit without entering death
+PASS: Live guard stagger returns to idle
+PASS: Fatal hit locks guard in dead state and removes collision
+PASS: Guard reaches a grounded fallen pose
+PASS: Fallen guard remains stable during the hold
+PASS: Dead guard does not resume locomotion
+S18 HIT FALL: PASS | checks=14

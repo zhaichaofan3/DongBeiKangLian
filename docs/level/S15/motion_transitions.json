@@ -1,0 +1,109 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "scout has bounded idle breathing",
+      "passed": true
+    },
+    {
+      "description": "scout blends from standing into movement",
+      "passed": true
+    },
+    {
+      "description": "scout eases to a stable stop",
+      "passed": true
+    },
+    {
+      "description": "scout eases into a turn response",
+      "passed": true
+    },
+    {
+      "description": "scout avoids an instantaneous turn snap",
+      "passed": true
+    },
+    {
+      "description": "scout reverses turn response smoothly",
+      "passed": true
+    },
+    {
+      "description": "logger has bounded idle breathing",
+      "passed": true
+    },
+    {
+      "description": "logger blends from standing into movement",
+      "passed": true
+    },
+    {
+      "description": "logger eases to a stable stop",
+      "passed": true
+    },
+    {
+      "description": "logger eases into a turn response",
+      "passed": true
+    },
+    {
+      "description": "logger avoids an instantaneous turn snap",
+      "passed": true
+    },
+    {
+      "description": "logger reverses turn response smoothly",
+      "passed": true
+    },
+    {
+      "description": "wounded has bounded idle breathing",
+      "passed": true
+    },
+    {
+      "description": "wounded blends from standing into movement",
+      "passed": true
+    },
+    {
+      "description": "wounded eases to a stable stop",
+      "passed": true
+    },
+    {
+      "description": "wounded eases into a turn response",
+      "passed": true
+    },
+    {
+      "description": "wounded avoids an instantaneous turn snap",
+      "passed": true
+    },
+    {
+      "description": "wounded reverses turn response smoothly",
+      "passed": true
+    },
+    {
+      "description": "guard has bounded idle breathing",
+      "passed": true
+    },
+    {
+      "description": "guard blends from standing into movement",
+      "passed": true
+    },
+    {
+      "description": "guard eases to a stable stop",
+      "passed": true
+    },
+    {
+      "description": "guard eases into a turn response",
+      "passed": true
+    },
+    {
+      "description": "guard avoids an instantaneous turn snap",
+      "passed": true
+    },
+    {
+      "description": "guard reverses turn response smoothly",
+      "passed": true
+    }
+  ],
+  "method": "Isolated imported character rigs; 120-frame idle breathing, 30-frame start, 45-frame stop and 30-frame eased turn probes.",
+  "roles": [
+    "scout",
+    "logger",
+    "wounded",
+    "guard"
+  ],
+  "step": "S15"
+}

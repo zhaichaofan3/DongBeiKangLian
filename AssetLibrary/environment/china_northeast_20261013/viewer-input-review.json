@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "crater_button_focus": true,
+    "drag_rotates": true,
+    "model_button_switch": true,
+    "release_stops_drag": true,
+    "terrain_button_switch": true,
+    "wheel_zooms": true
+  },
+  "method": "Godot Input.parse_input_event; not OS-level automation"
+}

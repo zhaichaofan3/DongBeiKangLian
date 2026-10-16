@@ -1,0 +1,11 @@
+{
+  "id": "B5-L03",
+  "part": "B",
+  "text": "腿伤了，得慢些。搜山名册也在那儿，上头有密营和乡亲的名字。",
+  "voice": "Microsoft Kangkang",
+  "rate": 0,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "donated": true,
+  "name": "Wooden Axe 02",
+  "categories": [
+    "props"
+  ],
+  "type": 2,
+  "tags": [
+    "tool",
+    "axe",
+    "weapon",
+    "hatchet",
+    "forestry",
+    "firewood",
+    "camping",
+    "hand tool",
+    "lumber",
+    "survival"
+  ],
+  "authors": {
+    "Ulan Cabanilla": "All"
+  },
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 2218,
+  "texel_density": 8828.400206220962,
+  "dimensions": [
+    50.90378411114216,
+    225.73669627308846,
+    704.204648733139
+  ],
+  "date_published": 1721001600,
+  "files_hash": "0df910d54a3067120c13c5cb3af0aeb973e052cc",
+  "description": "Free 4K model: rustic wooden-handled axe with a weathered, patinated iron head, pronounced wood grain, scratches, chips and realistic hand-used wear.",
+  "category_id": "dcc84150-95a1-5bf9-bf5c-342d07b342e4",
+  "category": "Tools & Equipment/Hand Tools/Axes & Hatchets",
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ]
+  },
+  "img_version": "085baa27",
+  "download_count": 6514,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/wooden_axe_02.png?width=256&height=256&format=webp&v=085baa27"
+}

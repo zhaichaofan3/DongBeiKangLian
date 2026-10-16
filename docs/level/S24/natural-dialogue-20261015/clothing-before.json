@@ -1,0 +1,13 @@
+{
+  "source": "C:\\GameMake\\WorkBackups\\20261015-154016-S24-in_progress-a7dfdc\\files\\AssetLibrary\\characters\\field_character\\field_character.blend",
+  "sleeve_samples": 1937,
+  "torso_anchored_sleeve_vertices": 338,
+  "edge_samples": 8109,
+  "p95_edge_stretch": 2.7062459300199064,
+  "max_edge_stretch": 7.963329556654239,
+  "pose_radians": {
+    "shoulder": 0.35,
+    "elbow": 0.9
+  },
+  "passed": false
+}

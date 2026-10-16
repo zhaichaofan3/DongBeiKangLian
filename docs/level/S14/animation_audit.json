@@ -1,0 +1,37 @@
+{
+  "step": "S14",
+  "status": "audited",
+  "baseline_role_rig": {
+    "asset": "GodotProject/assets/characters/field_character.glb",
+    "source": "AssetLibrary/characters/field_character/field_character.blend",
+    "bone_count": 13,
+    "bones": ["Hips", "Chest", "Head", "Thigh0", "Thigh1", "Knee0", "Knee1", "Foot0", "Foot1", "Shoulder0", "Shoulder1", "Elbow0", "Elbow1"],
+    "driver": "GodotProject/scripts/human_model.gd",
+    "binder": "GodotProject/scripts/field_character_rig.gd",
+    "binding_decision": "保留现有13骨驱动；不直接把65骨通用动作写入正式角色"
+  },
+  "roles": [
+    {"id": "scout", "title": "侦察员", "equipment": ["Cap", "Backpack", "Scarf", "Hands"], "special_pose": "normal locomotion and talk"},
+    {"id": "logger", "title": "林场工人", "equipment": ["Cap", "Backpack", "Scarf", "Hands"], "special_pose": "normal locomotion and talk"},
+    {"id": "wounded", "title": "陆山", "equipment": ["Cap", "Backpack", "Scarf", "Bandage", "Hands"], "special_pose": "injury pose; treated blend"},
+    {"id": "guard", "title": "守卫", "equipment": ["Helmet", "GuardGear", "GuardHands"], "special_pose": "rifle aim, recoil and death release"}
+  ],
+  "downloaded_animation_sources": [
+    {"id": "UAL1", "path": "AssetLibrary/characters/quaternius_ual1/files/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb", "joints": 65, "clips": 43, "useful": ["Walk_Loop", "Jog_Fwd_Loop", "Sprint_Loop", "Hit_Chest", "Hit_Head", "Death01", "Pistol_Aim_Neutral", "Pistol_Reload", "Pistol_Shoot"], "decision": "候选参考；骨骼前缀和层级不同，需重定向；枪械动作是手枪，不能直接替代步枪"},
+    {"id": "UAL2", "path": "AssetLibrary/characters/quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard.glb", "joints": 65, "clips": 43, "useful": ["Hit_Knockback", "LayToIdle", "TreeChopping_Loop", "Walk_Carry_Loop", "Consume"], "decision": "候选参考；需重定向和重新校准根运动，部分战斗动作不适合本项目"}
+  ],
+  "validation": {
+    "character_model": "37/37",
+    "all_four_roles_imported_skin": true,
+    "all_four_roles_required_bones": true,
+    "all_four_roles_skin_bindings": true,
+    "walk_deformation": true,
+    "guard_aim_and_grip": true,
+    "wounded_treatment_transition": true,
+    "death_pose": true
+  },
+  "scope_boundary": [
+    "本步完成骨骼、蒙皮和动作适配审计与选择，不把候选动作库写成已接入正式关卡。",
+    "S15-S19 继续处理站立、走跑、持枪、受击和角色差异的实际动作改善。"
+  ]
+}

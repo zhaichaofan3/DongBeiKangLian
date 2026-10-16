@@ -1,0 +1,140 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Supplied rifle is the active first-person weapon
+PASS: Supplied bolt and clip remain independently animated
+PASS: Four supplied courtyards surrounded by forest and mountains
+ERROR: Supplied river channel uses animated game water
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:33)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Supplied pier and boat present at both banks
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:34)
+       [2] _frames (res://tests/user_expansion.gd:146)
+PASS: Codebook reachable on the south-hall office desk
+PASS: Relocated codebook interaction advances mission
+PASS: Power switch reachable beside the northeast telephone cabinet
+PASS: Relocated power switch advances mission
+PASS: Ferry pursuit issues two soldiers per batch
+PASS: Next pursuit batch waits for its one-second interval
+PASS: Second pair arrives after one second, twice the old batch cadence
+ERROR: Legacy ferry victory saves migrate to a completed departure
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:74)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Departure starts the ferry transition
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:76)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Ferry arrives in the playable village and restores control
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:78)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village starts with twelve enemies
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:79)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Jiang Lan joins combat while Lu Shan rests with the roster
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:80)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Closed first courtyard gate blocks route to the next encounter
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:81)
+       [2] _frames (res://tests/user_expansion.gd:146)
+PASS: Uncleared encounter cannot open its gate
+ERROR: Companion fires at a visible village enemy
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:90)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village checkpoint validates all actor and encounter states
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:91)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village checkpoint restores chapter, ally and enemies
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:95)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village encounter 0 clears in order
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:102)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village gate 0 opens after clearing its encounter
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:107)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Gate checkpoint remains loadable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:108)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village encounter 1 clears in order
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:102)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village gate 1 opens after clearing its encounter
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:107)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Gate checkpoint remains loadable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:108)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Village encounter 2 clears in order
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:102)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Final rendezvous wins only after all twelve village enemies are defeated
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:112)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Final village victory is saved
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:113)
+       [2] _frames (res://tests/user_expansion.gd:146)
+ERROR: Completed village restores its victory state
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:115)
+       [2] _frames (res://tests/user_expansion.gd:146)
+USER EXPANSION: FAIL | checks=32

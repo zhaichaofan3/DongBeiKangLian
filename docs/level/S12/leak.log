@@ -1,0 +1,517 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+Loading resource: res://tests/s12_landscape.gd remapped: res://tests/s12_landscape.gd
+Completed load for: 'res://tests/s12_landscape.gd' remapped 'res://tests/s12_landscape.gd' at thread -1
+SceneTreeFTI: traversal method DEFAULT
+Loaded system CA certificates
+Loading resource: res://main.tscn remapped: res://main.tscn
+Loading resource: res://scripts/mission.gd remapped: res://scripts/mission.gd
+Loading resource: res://assets/audio/rifle_arisaka_01.wav remapped: res://assets/audio/rifle_arisaka_01.wav
+Loading resource: res://.godot/imported/rifle_arisaka_01.wav-7f83b0c6d2c5bd1a5f19055a954e58a4.sample remapped: res://.godot/imported/rifle_arisaka_01.wav-7f83b0c6d2c5bd1a5f19055a954e58a4.sample
+Completed load for: 'res://assets/audio/rifle_arisaka_01.wav' remapped 'res://assets/audio/rifle_arisaka_01.wav' at thread -1
+Loading resource: res://assets/audio/step_grass_01.wav remapped: res://assets/audio/step_grass_01.wav
+Loading resource: res://.godot/imported/step_grass_01.wav-000846a276c460ce6a4b82a3523f634c.sample remapped: res://.godot/imported/step_grass_01.wav-000846a276c460ce6a4b82a3523f634c.sample
+Completed load for: 'res://assets/audio/step_grass_01.wav' remapped 'res://assets/audio/step_grass_01.wav' at thread -1
+Loading resource: res://assets/audio/forest_wind_loop.wav remapped: res://assets/audio/forest_wind_loop.wav
+Loading resource: res://.godot/imported/forest_wind_loop.wav-219462c40492f0a4fdc3e232a83c1f8e.sample remapped: res://.godot/imported/forest_wind_loop.wav-219462c40492f0a4fdc3e232a83c1f8e.sample
+Completed load for: 'res://assets/audio/forest_wind_loop.wav' remapped 'res://assets/audio/forest_wind_loop.wav' at thread -1
+Loading resource: res://assets/first_person/hand_left.glb remapped: res://assets/first_person/hand_left.glb
+Loading resource: res://.godot/imported/hand_left.glb-7c3f54a1c032d99f37b35e5ca7cb84a7.scn remapped: res://.godot/imported/hand_left.glb-7c3f54a1c032d99f37b35e5ca7cb84a7.scn
+Loading resource: res://assets/first_person/hand_left_skin_diffuse.png remapped: res://assets/first_person/hand_left_skin_diffuse.png
+Loading resource: res://.godot/imported/hand_left_skin_diffuse.png-e1bfa644978e6ebdd38b2a0be615bd06.ctex remapped: res://.godot/imported/hand_left_skin_diffuse.png-e1bfa644978e6ebdd38b2a0be615bd06.ctex
+Completed load for: 'res://assets/first_person/hand_left_skin_diffuse.png' remapped 'res://assets/first_person/hand_left_skin_diffuse.png' at thread -1
+Completed load for: 'res://assets/first_person/hand_left.glb' remapped 'res://assets/first_person/hand_left.glb' at thread -1
+Loading resource: res://assets/first_person/hand_right.glb remapped: res://assets/first_person/hand_right.glb
+Loading resource: res://.godot/imported/hand_right.glb-e81316809e0d7f6e9cb9cc08308e1a16.scn remapped: res://.godot/imported/hand_right.glb-e81316809e0d7f6e9cb9cc08308e1a16.scn
+Loading resource: res://assets/first_person/hand_right_skin_diffuse.png remapped: res://assets/first_person/hand_right_skin_diffuse.png
+Loading resource: res://.godot/imported/hand_right_skin_diffuse.png-173d029e8c45acb132d3d7bf5b422166.ctex remapped: res://.godot/imported/hand_right_skin_diffuse.png-173d029e8c45acb132d3d7bf5b422166.ctex
+Completed load for: 'res://assets/first_person/hand_right_skin_diffuse.png' remapped 'res://assets/first_person/hand_right_skin_diffuse.png' at thread -1
+Completed load for: 'res://assets/first_person/hand_right.glb' remapped 'res://assets/first_person/hand_right.glb' at thread -1
+Loading resource: res://assets/audio/river_bank_loop.wav remapped: res://assets/audio/river_bank_loop.wav
+Loading resource: res://.godot/imported/river_bank_loop.wav-65d448a33312badb2a3393a82f84451d.sample remapped: res://.godot/imported/river_bank_loop.wav-65d448a33312badb2a3393a82f84451d.sample
+Completed load for: 'res://assets/audio/river_bank_loop.wav' remapped 'res://assets/audio/river_bank_loop.wav' at thread -1
+Loading resource: res://assets/audio/radio_room_loop.wav remapped: res://assets/audio/radio_room_loop.wav
+Loading resource: res://.godot/imported/radio_room_loop.wav-be2b483a7a3c4bd8c5d16b72a6cea34a.sample remapped: res://.godot/imported/radio_room_loop.wav-be2b483a7a3c4bd8c5d16b72a6cea34a.sample
+Completed load for: 'res://assets/audio/radio_room_loop.wav' remapped 'res://assets/audio/radio_room_loop.wav' at thread -1
+Loading resource: res://assets/audio/power_switch_off.wav remapped: res://assets/audio/power_switch_off.wav
+Loading resource: res://.godot/imported/power_switch_off.wav-f56c0eec9b9d109b33a0be280ebdf68c.sample remapped: res://.godot/imported/power_switch_off.wav-f56c0eec9b9d109b33a0be280ebdf68c.sample
+Completed load for: 'res://assets/audio/power_switch_off.wav' remapped 'res://assets/audio/power_switch_off.wav' at thread -1
+Completed load for: 'res://scripts/mission.gd' remapped 'res://scripts/mission.gd' at thread -1
+Completed load for: 'res://main.tscn' remapped 'res://main.tscn' at thread -1
+Loading resource: res://assets/environment/textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg remapped: res://assets/environment/textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg
+Loading resource: res://.godot/imported/brick_wall_001_diffuse_2k.jpg-c1c2ba091c5ff3418b1c8c846151717d.s3tc.ctex remapped: res://.godot/imported/brick_wall_001_diffuse_2k.jpg-c1c2ba091c5ff3418b1c8c846151717d.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg' remapped 'res://assets/environment/textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg remapped: res://assets/environment/textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/brick_wall_001_nor_gl_2k.jpg-9132ba2fb277bb1d1956267eb2674770.s3tc.ctex remapped: res://.godot/imported/brick_wall_001_nor_gl_2k.jpg-9132ba2fb277bb1d1956267eb2674770.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/brick_wall_001/brick_wall_001_rough_2k.jpg remapped: res://assets/environment/textures/brick_wall_001/brick_wall_001_rough_2k.jpg
+Loading resource: res://.godot/imported/brick_wall_001_rough_2k.jpg-95dd81ebbe213f31cfc623e84a0bfe39.s3tc.ctex remapped: res://.godot/imported/brick_wall_001_rough_2k.jpg-95dd81ebbe213f31cfc623e84a0bfe39.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/brick_wall_001/brick_wall_001_rough_2k.jpg' remapped 'res://assets/environment/textures/brick_wall_001/brick_wall_001_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg remapped: res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg
+Loading resource: res://.godot/imported/weathered_brown_planks_diff_2k.jpg-e8e5183d8bc567fd6be782f37d5a8e76.s3tc.ctex remapped: res://.godot/imported/weathered_brown_planks_diff_2k.jpg-e8e5183d8bc567fd6be782f37d5a8e76.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg' remapped 'res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg remapped: res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/weathered_brown_planks_nor_gl_2k.jpg-243a03ebd9091225d1b30a5cc2ca9d9d.s3tc.ctex remapped: res://.godot/imported/weathered_brown_planks_nor_gl_2k.jpg-243a03ebd9091225d1b30a5cc2ca9d9d.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg remapped: res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg
+Loading resource: res://.godot/imported/weathered_brown_planks_rough_2k.jpg-92627c13e2ed7d244687877e7f9cdbae.s3tc.ctex remapped: res://.godot/imported/weathered_brown_planks_rough_2k.jpg-92627c13e2ed7d244687877e7f9cdbae.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg' remapped 'res://assets/environment/textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/forest_ground_04/forest_ground_04_diff_2k.jpg remapped: res://assets/environment/textures/forest_ground_04/forest_ground_04_diff_2k.jpg
+Loading resource: res://.godot/imported/forest_ground_04_diff_2k.jpg-d0638d38df213145b3348535c1a23957.s3tc.ctex remapped: res://.godot/imported/forest_ground_04_diff_2k.jpg-d0638d38df213145b3348535c1a23957.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/forest_ground_04/forest_ground_04_diff_2k.jpg' remapped 'res://assets/environment/textures/forest_ground_04/forest_ground_04_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg remapped: res://assets/environment/textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/forest_ground_04_nor_gl_2k.jpg-08af98070e42406eb4ba49e30eed5d2c.s3tc.ctex remapped: res://.godot/imported/forest_ground_04_nor_gl_2k.jpg-08af98070e42406eb4ba49e30eed5d2c.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/forest_ground_04/forest_ground_04_rough_2k.jpg remapped: res://assets/environment/textures/forest_ground_04/forest_ground_04_rough_2k.jpg
+Loading resource: res://.godot/imported/forest_ground_04_rough_2k.jpg-362efaf2bd08108a6b932aace872e12d.s3tc.ctex remapped: res://.godot/imported/forest_ground_04_rough_2k.jpg-362efaf2bd08108a6b932aace872e12d.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/forest_ground_04/forest_ground_04_rough_2k.jpg' remapped 'res://assets/environment/textures/forest_ground_04/forest_ground_04_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg remapped: res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg
+Loading resource: res://.godot/imported/grey_roof_tiles_diff_2k.jpg-0c5dfd28f869e3196c0173d6d6fde398.s3tc.ctex remapped: res://.godot/imported/grey_roof_tiles_diff_2k.jpg-0c5dfd28f869e3196c0173d6d6fde398.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg' remapped 'res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg remapped: res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/grey_roof_tiles_nor_gl_2k.jpg-89097f41815bfa682044d80a9f849449.s3tc.ctex remapped: res://.godot/imported/grey_roof_tiles_nor_gl_2k.jpg-89097f41815bfa682044d80a9f849449.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg remapped: res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg
+Loading resource: res://.godot/imported/grey_roof_tiles_rough_2k.jpg-9c5570afcaac7eab3dd9ca18d0f8c597.s3tc.ctex remapped: res://.godot/imported/grey_roof_tiles_rough_2k.jpg-9c5570afcaac7eab3dd9ca18d0f8c597.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg' remapped 'res://assets/environment/textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg remapped: res://assets/environment/textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg
+Loading resource: res://.godot/imported/rusty_metal_04_diff_2k.jpg-25678e399a79b53ad67e279c17c64dc7.s3tc.ctex remapped: res://.godot/imported/rusty_metal_04_diff_2k.jpg-25678e399a79b53ad67e279c17c64dc7.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg' remapped 'res://assets/environment/textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg remapped: res://assets/environment/textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/rusty_metal_04_nor_gl_2k.jpg-16e82311e38fccaca464dec60ef58096.s3tc.ctex remapped: res://.godot/imported/rusty_metal_04_nor_gl_2k.jpg-16e82311e38fccaca464dec60ef58096.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg remapped: res://assets/environment/textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg
+Loading resource: res://.godot/imported/rusty_metal_04_rough_2k.jpg-1ff42c9fc5ccc6aa6320560233cca214.s3tc.ctex remapped: res://.godot/imported/rusty_metal_04_rough_2k.jpg-1ff42c9fc5ccc6aa6320560233cca214.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg' remapped 'res://assets/environment/textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/pine_bark/pine_bark_diff_2k.jpg remapped: res://assets/environment/textures/pine_bark/pine_bark_diff_2k.jpg
+Loading resource: res://.godot/imported/pine_bark_diff_2k.jpg-fa7147335b34302a7938126385011ec8.s3tc.ctex remapped: res://.godot/imported/pine_bark_diff_2k.jpg-fa7147335b34302a7938126385011ec8.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/pine_bark/pine_bark_diff_2k.jpg' remapped 'res://assets/environment/textures/pine_bark/pine_bark_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/pine_bark/pine_bark_nor_gl_2k.jpg remapped: res://assets/environment/textures/pine_bark/pine_bark_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/pine_bark_nor_gl_2k.jpg-9e92472a723926186a616c9b0a4d5af6.s3tc.ctex remapped: res://.godot/imported/pine_bark_nor_gl_2k.jpg-9e92472a723926186a616c9b0a4d5af6.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/pine_bark/pine_bark_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/pine_bark/pine_bark_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/pine_bark/pine_bark_rough_2k.jpg remapped: res://assets/environment/textures/pine_bark/pine_bark_rough_2k.jpg
+Loading resource: res://.godot/imported/pine_bark_rough_2k.jpg-d2bf58459945dd21ace214319248b247.s3tc.ctex remapped: res://.godot/imported/pine_bark_rough_2k.jpg-d2bf58459945dd21ace214319248b247.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/pine_bark/pine_bark_rough_2k.jpg' remapped 'res://assets/environment/textures/pine_bark/pine_bark_rough_2k.jpg' at thread -1
+Loading resource: res://shaders/forest_foliage.gdshader remapped: res://shaders/forest_foliage.gdshader
+Completed load for: 'res://shaders/forest_foliage.gdshader' remapped 'res://shaders/forest_foliage.gdshader' at thread -1
+Loading resource: res://shaders/river.gdshader remapped: res://shaders/river.gdshader
+Completed load for: 'res://shaders/river.gdshader' remapped 'res://shaders/river.gdshader' at thread -1
+Loading resource: res://assets/environment/hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr remapped: res://assets/environment/hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr
+Loading resource: res://.godot/imported/kloofendal_overcast_puresky_2k.hdr-0d1f32063aad7487c8182d4d3610a6e0.ctex remapped: res://.godot/imported/kloofendal_overcast_puresky_2k.hdr-0d1f32063aad7487c8182d4d3610a6e0.ctex
+Completed load for: 'res://assets/environment/hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr' remapped 'res://assets/environment/hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr' at thread -1
+Loading resource: res://assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg remapped: res://assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg
+Loading resource: res://.godot/imported/muddy_tracks_diff_2k.jpg-7be2d0962682469a9a479558744eb8c4.s3tc.ctex remapped: res://.godot/imported/muddy_tracks_diff_2k.jpg-7be2d0962682469a9a479558744eb8c4.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg' remapped 'res://assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg remapped: res://assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/muddy_tracks_nor_gl_2k.jpg-e7db4abfebcab7d169877396f9c75a79.s3tc.ctex remapped: res://.godot/imported/muddy_tracks_nor_gl_2k.jpg-e7db4abfebcab7d169877396f9c75a79.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/muddy_tracks/muddy_tracks_rough_2k.jpg remapped: res://assets/environment/textures/muddy_tracks/muddy_tracks_rough_2k.jpg
+Loading resource: res://.godot/imported/muddy_tracks_rough_2k.jpg-356f9277031a32be14f29d66fdf3a27d.s3tc.ctex remapped: res://.godot/imported/muddy_tracks_rough_2k.jpg-356f9277031a32be14f29d66fdf3a27d.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/muddy_tracks/muddy_tracks_rough_2k.jpg' remapped 'res://assets/environment/textures/muddy_tracks/muddy_tracks_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg remapped: res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg
+Loading resource: res://.godot/imported/brown_mud_leaves_01_diff_2k.jpg-2722075b203068b2cb96670428fca9e7.s3tc.ctex remapped: res://.godot/imported/brown_mud_leaves_01_diff_2k.jpg-2722075b203068b2cb96670428fca9e7.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg' remapped 'res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg remapped: res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/brown_mud_leaves_01_nor_gl_2k.jpg-1ced6abe515bd14d02b17ff5201970dd.s3tc.ctex remapped: res://.godot/imported/brown_mud_leaves_01_nor_gl_2k.jpg-1ced6abe515bd14d02b17ff5201970dd.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg remapped: res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg
+Loading resource: res://.godot/imported/brown_mud_leaves_01_rough_2k.jpg-75f1ca0d3b6a0606a3a262d64a0a4c99.s3tc.ctex remapped: res://.godot/imported/brown_mud_leaves_01_rough_2k.jpg-75f1ca0d3b6a0606a3a262d64a0a4c99.s3tc.ctex
+Completed load for: 'res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg' remapped 'res://assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/dead_tree_trunk/dead_tree_trunk_2k.gltf remapped: res://assets/environment/models/dead_tree_trunk/dead_tree_trunk_2k.gltf
+Loading resource: res://.godot/imported/dead_tree_trunk_2k.gltf-61b50ba9316e722439487e8a8d91a4c3.scn remapped: res://.godot/imported/dead_tree_trunk_2k.gltf-61b50ba9316e722439487e8a8d91a4c3.scn
+Loading resource: res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg remapped: res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg
+Loading resource: res://.godot/imported/dead_tree_trunk_diff_2k.jpg-87c2c3231af4c913ab714d104445d3e4.s3tc.ctex remapped: res://.godot/imported/dead_tree_trunk_diff_2k.jpg-87c2c3231af4c913ab714d104445d3e4.s3tc.ctex
+Completed load for: 'res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg' remapped 'res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg remapped: res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg
+Loading resource: res://.godot/imported/dead_tree_trunk_arm_2k.jpg-0a9ebd666b3cf698395ecdfad96fc46d.s3tc.ctex remapped: res://.godot/imported/dead_tree_trunk_arm_2k.jpg-0a9ebd666b3cf698395ecdfad96fc46d.s3tc.ctex
+Completed load for: 'res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg' remapped 'res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg remapped: res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/dead_tree_trunk_nor_gl_2k.jpg-43aef5eeddff70b04ab0852599e7e087.s3tc.ctex remapped: res://.godot/imported/dead_tree_trunk_nor_gl_2k.jpg-43aef5eeddff70b04ab0852599e7e087.s3tc.ctex
+Completed load for: 'res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg' remapped 'res://assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/dead_tree_trunk/dead_tree_trunk_2k.gltf' remapped 'res://assets/environment/models/dead_tree_trunk/dead_tree_trunk_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/tree_stump_01/tree_stump_01_2k.gltf remapped: res://assets/environment/models/tree_stump_01/tree_stump_01_2k.gltf
+Loading resource: res://.godot/imported/tree_stump_01_2k.gltf-93e20a34ffe7788c5db68fbe1a3aa6d1.scn remapped: res://.godot/imported/tree_stump_01_2k.gltf-93e20a34ffe7788c5db68fbe1a3aa6d1.scn
+Loading resource: res://assets/environment/models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg remapped: res://assets/environment/models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg
+Loading resource: res://.godot/imported/tree_stump_01_diff_2k.jpg-228350fb1fd4d3f1b1af174cf62bec61.s3tc.ctex remapped: res://.godot/imported/tree_stump_01_diff_2k.jpg-228350fb1fd4d3f1b1af174cf62bec61.s3tc.ctex
+Completed load for: 'res://assets/environment/models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg' remapped 'res://assets/environment/models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg remapped: res://assets/environment/models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg
+Loading resource: res://.godot/imported/tree_stump_01_arm_2k.jpg-5f7ed04d6cc4ccaf1b1384543b7f7f69.s3tc.ctex remapped: res://.godot/imported/tree_stump_01_arm_2k.jpg-5f7ed04d6cc4ccaf1b1384543b7f7f69.s3tc.ctex
+Completed load for: 'res://assets/environment/models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg' remapped 'res://assets/environment/models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg remapped: res://assets/environment/models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/tree_stump_01_nor_gl_2k.jpg-ff1e287ba19099287fc7997999ebb697.s3tc.ctex remapped: res://.godot/imported/tree_stump_01_nor_gl_2k.jpg-ff1e287ba19099287fc7997999ebb697.s3tc.ctex
+Completed load for: 'res://assets/environment/models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg' remapped 'res://assets/environment/models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/tree_stump_01/tree_stump_01_2k.gltf' remapped 'res://assets/environment/models/tree_stump_01/tree_stump_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/rock_moss_set_01/rock_moss_set_01_2k.gltf remapped: res://assets/environment/models/rock_moss_set_01/rock_moss_set_01_2k.gltf
+Loading resource: res://.godot/imported/rock_moss_set_01_2k.gltf-9158a464cc0f0a99f868d015ee1122c1.scn remapped: res://.godot/imported/rock_moss_set_01_2k.gltf-9158a464cc0f0a99f868d015ee1122c1.scn
+Loading resource: res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg remapped: res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg
+Loading resource: res://.godot/imported/rock_moss_set_01_diff_2k.jpg-56ce3b700d50671333d248265f0472f8.s3tc.ctex remapped: res://.godot/imported/rock_moss_set_01_diff_2k.jpg-56ce3b700d50671333d248265f0472f8.s3tc.ctex
+Completed load for: 'res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg' remapped 'res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg remapped: res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg
+Loading resource: res://.godot/imported/rock_moss_set_01_rough_2k.jpg-823cbabc220ab633d9783e6d3b2526d4.s3tc.ctex remapped: res://.godot/imported/rock_moss_set_01_rough_2k.jpg-823cbabc220ab633d9783e6d3b2526d4.s3tc.ctex
+Completed load for: 'res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg' remapped 'res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg remapped: res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/rock_moss_set_01_nor_gl_2k.jpg-de4b3f530547ffcb1dd1df011e94e237.s3tc.ctex remapped: res://.godot/imported/rock_moss_set_01_nor_gl_2k.jpg-de4b3f530547ffcb1dd1df011e94e237.s3tc.ctex
+Completed load for: 'res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg' remapped 'res://assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/rock_moss_set_01/rock_moss_set_01_2k.gltf' remapped 'res://assets/environment/models/rock_moss_set_01/rock_moss_set_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/pine_sapling_small/pine_sapling_small_2k.gltf remapped: res://assets/environment/models/pine_sapling_small/pine_sapling_small_2k.gltf
+Loading resource: res://.godot/imported/pine_sapling_small_2k.gltf-b7338c17fe2f2e53dd0446d4cbea4b79.scn remapped: res://.godot/imported/pine_sapling_small_2k.gltf-b7338c17fe2f2e53dd0446d4cbea4b79.scn
+Loading resource: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg remapped: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg
+Loading resource: res://.godot/imported/pine_sapling_small_bark_diff_2k.jpg-1abf470324fa021bc1f4138c1d88a472.s3tc.ctex remapped: res://.godot/imported/pine_sapling_small_bark_diff_2k.jpg-1abf470324fa021bc1f4138c1d88a472.s3tc.ctex
+Completed load for: 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg' remapped 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg remapped: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg
+Loading resource: res://.godot/imported/pine_sapling_small_bark_arm_2k.jpg-04522bc144e36c2072d53fe144facd28.s3tc.ctex remapped: res://.godot/imported/pine_sapling_small_bark_arm_2k.jpg-04522bc144e36c2072d53fe144facd28.s3tc.ctex
+Completed load for: 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg' remapped 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg remapped: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/pine_sapling_small_bark_nor_gl_2k.jpg-86a94c3834cd1d6b93b81e142773b21c.s3tc.ctex remapped: res://.godot/imported/pine_sapling_small_bark_nor_gl_2k.jpg-86a94c3834cd1d6b93b81e142773b21c.s3tc.ctex
+Completed load for: 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg' remapped 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg remapped: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg
+Loading resource: res://.godot/imported/pine_sapling_small_twig_diff_2k.jpg-304b83ff177369825a19b829df8ff8c6.s3tc.ctex remapped: res://.godot/imported/pine_sapling_small_twig_diff_2k.jpg-304b83ff177369825a19b829df8ff8c6.s3tc.ctex
+Completed load for: 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg' remapped 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg remapped: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg
+Loading resource: res://.godot/imported/pine_sapling_small_twig_arm_2k.jpg-b41c0e7e3bc82251523106e5479fb042.s3tc.ctex remapped: res://.godot/imported/pine_sapling_small_twig_arm_2k.jpg-b41c0e7e3bc82251523106e5479fb042.s3tc.ctex
+Completed load for: 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg' remapped 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg remapped: res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/pine_sapling_small_twig_nor_gl_2k.jpg-bfae3ef334f32dcf52ebca8e74b94747.s3tc.ctex remapped: res://.godot/imported/pine_sapling_small_twig_nor_gl_2k.jpg-bfae3ef334f32dcf52ebca8e74b94747.s3tc.ctex
+Completed load for: 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg' remapped 'res://assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/pine_sapling_small/pine_sapling_small_2k.gltf' remapped 'res://assets/environment/models/pine_sapling_small/pine_sapling_small_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/fern_02/fern_02_2k.gltf remapped: res://assets/environment/models/fern_02/fern_02_2k.gltf
+Loading resource: res://.godot/imported/fern_02_2k.gltf-2a1ccc7e0e7c88459975b4b2693c8aa4.scn remapped: res://.godot/imported/fern_02_2k.gltf-2a1ccc7e0e7c88459975b4b2693c8aa4.scn
+Loading resource: res://assets/environment/models/fern_02/textures/fern_02_diff_2k.jpg remapped: res://assets/environment/models/fern_02/textures/fern_02_diff_2k.jpg
+Loading resource: res://.godot/imported/fern_02_diff_2k.jpg-fd586d3f27c821a3f6a30d86b615e2d4.s3tc.ctex remapped: res://.godot/imported/fern_02_diff_2k.jpg-fd586d3f27c821a3f6a30d86b615e2d4.s3tc.ctex
+Completed load for: 'res://assets/environment/models/fern_02/textures/fern_02_diff_2k.jpg' remapped 'res://assets/environment/models/fern_02/textures/fern_02_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/fern_02/textures/fern_02_arm_2k.jpg remapped: res://assets/environment/models/fern_02/textures/fern_02_arm_2k.jpg
+Loading resource: res://.godot/imported/fern_02_arm_2k.jpg-4dc20c96d50a8ae93ef941f68e505de3.s3tc.ctex remapped: res://.godot/imported/fern_02_arm_2k.jpg-4dc20c96d50a8ae93ef941f68e505de3.s3tc.ctex
+Completed load for: 'res://assets/environment/models/fern_02/textures/fern_02_arm_2k.jpg' remapped 'res://assets/environment/models/fern_02/textures/fern_02_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/fern_02/textures/fern_02_nor_gl_2k.jpg remapped: res://assets/environment/models/fern_02/textures/fern_02_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/fern_02_nor_gl_2k.jpg-f2e21c91962c1c0f713781fb3b8d740d.s3tc.ctex remapped: res://.godot/imported/fern_02_nor_gl_2k.jpg-f2e21c91962c1c0f713781fb3b8d740d.s3tc.ctex
+Completed load for: 'res://assets/environment/models/fern_02/textures/fern_02_nor_gl_2k.jpg' remapped 'res://assets/environment/models/fern_02/textures/fern_02_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/fern_02/fern_02_2k.gltf' remapped 'res://assets/environment/models/fern_02/fern_02_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/wine_barrel_01/wine_barrel_01_2k.gltf remapped: res://assets/environment/models/wine_barrel_01/wine_barrel_01_2k.gltf
+Loading resource: res://.godot/imported/wine_barrel_01_2k.gltf-db69a1824e1b3d164f3e9007529c9cb9.scn remapped: res://.godot/imported/wine_barrel_01_2k.gltf-db69a1824e1b3d164f3e9007529c9cb9.scn
+Loading resource: res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg remapped: res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg
+Loading resource: res://.godot/imported/wine_barrel_01_diff_2k.jpg-ef1762091e86aad6aeb7013e5fd6a875.s3tc.ctex remapped: res://.godot/imported/wine_barrel_01_diff_2k.jpg-ef1762091e86aad6aeb7013e5fd6a875.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg' remapped 'res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg remapped: res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg
+Loading resource: res://.godot/imported/wine_barrel_01_arm_2k.jpg-8eb5ee0a12e525116d081a5c9998cf03.s3tc.ctex remapped: res://.godot/imported/wine_barrel_01_arm_2k.jpg-8eb5ee0a12e525116d081a5c9998cf03.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg' remapped 'res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg remapped: res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/wine_barrel_01_nor_gl_2k.jpg-64db82a4f7b1c5de5ed890f39113a455.s3tc.ctex remapped: res://.godot/imported/wine_barrel_01_nor_gl_2k.jpg-64db82a4f7b1c5de5ed890f39113a455.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg' remapped 'res://assets/environment/models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/wine_barrel_01/wine_barrel_01_2k.gltf' remapped 'res://assets/environment/models/wine_barrel_01/wine_barrel_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/wooden_crate_01/wooden_crate_01_2k.gltf remapped: res://assets/environment/models/wooden_crate_01/wooden_crate_01_2k.gltf
+Loading resource: res://.godot/imported/wooden_crate_01_2k.gltf-a2bb1b04b3cd674ebcd84b790d20f4d8.scn remapped: res://.godot/imported/wooden_crate_01_2k.gltf-a2bb1b04b3cd674ebcd84b790d20f4d8.scn
+Loading resource: res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg remapped: res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg
+Loading resource: res://.godot/imported/wooden_crate_01_diff_2k.jpg-5fee41736eeb3914ef5596f04b0bdd88.s3tc.ctex remapped: res://.godot/imported/wooden_crate_01_diff_2k.jpg-5fee41736eeb3914ef5596f04b0bdd88.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg' remapped 'res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg remapped: res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg
+Loading resource: res://.godot/imported/wooden_crate_01_arm_2k.jpg-ef0417c3ecce551adb82fb84419f0420.s3tc.ctex remapped: res://.godot/imported/wooden_crate_01_arm_2k.jpg-ef0417c3ecce551adb82fb84419f0420.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg' remapped 'res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg remapped: res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/wooden_crate_01_nor_gl_2k.jpg-c509e274adcf07cadec8f5813cb4aed0.s3tc.ctex remapped: res://.godot/imported/wooden_crate_01_nor_gl_2k.jpg-c509e274adcf07cadec8f5813cb4aed0.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg' remapped 'res://assets/environment/models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/wooden_crate_01/wooden_crate_01_2k.gltf' remapped 'res://assets/environment/models/wooden_crate_01/wooden_crate_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/wooden_bucket_01/wooden_bucket_01_2k.gltf remapped: res://assets/environment/models/wooden_bucket_01/wooden_bucket_01_2k.gltf
+Loading resource: res://.godot/imported/wooden_bucket_01_2k.gltf-c251bd69b2f717119cd5446a5fd7a9ba.scn remapped: res://.godot/imported/wooden_bucket_01_2k.gltf-c251bd69b2f717119cd5446a5fd7a9ba.scn
+Loading resource: res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg remapped: res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg
+Loading resource: res://.godot/imported/wooden_bucket_01_diff_2k.jpg-307de7b144e188a096fc116c822b8886.s3tc.ctex remapped: res://.godot/imported/wooden_bucket_01_diff_2k.jpg-307de7b144e188a096fc116c822b8886.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg' remapped 'res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg remapped: res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg
+Loading resource: res://.godot/imported/wooden_bucket_01_arm_2k.jpg-ea7fd7f60c4eacf08b86b3924b509673.s3tc.ctex remapped: res://.godot/imported/wooden_bucket_01_arm_2k.jpg-ea7fd7f60c4eacf08b86b3924b509673.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg' remapped 'res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg remapped: res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/wooden_bucket_01_nor_gl_2k.jpg-ea3c1972bac98aec929e5a4f1e7ddd99.s3tc.ctex remapped: res://.godot/imported/wooden_bucket_01_nor_gl_2k.jpg-ea3c1972bac98aec929e5a4f1e7ddd99.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg' remapped 'res://assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/wooden_bucket_01/wooden_bucket_01_2k.gltf' remapped 'res://assets/environment/models/wooden_bucket_01/wooden_bucket_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/wooden_axe_02/wooden_axe_02_2k.gltf remapped: res://assets/environment/models/wooden_axe_02/wooden_axe_02_2k.gltf
+Loading resource: res://.godot/imported/wooden_axe_02_2k.gltf-90314b03778f46f9873084c1c12d1855.scn remapped: res://.godot/imported/wooden_axe_02_2k.gltf-90314b03778f46f9873084c1c12d1855.scn
+Loading resource: res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg remapped: res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg
+Loading resource: res://.godot/imported/wooden_axe_02_diff_2k.jpg-f4a80602c095c18dfdebdfa48de5b1b5.s3tc.ctex remapped: res://.godot/imported/wooden_axe_02_diff_2k.jpg-f4a80602c095c18dfdebdfa48de5b1b5.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg' remapped 'res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg remapped: res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg
+Loading resource: res://.godot/imported/wooden_axe_02_arm_2k.jpg-38f16d646952b4d2da3e74d6cc8870b2.s3tc.ctex remapped: res://.godot/imported/wooden_axe_02_arm_2k.jpg-38f16d646952b4d2da3e74d6cc8870b2.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg' remapped 'res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg remapped: res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/wooden_axe_02_nor_gl_2k.jpg-46a68c21b60363c387bd920fdbfee383.s3tc.ctex remapped: res://.godot/imported/wooden_axe_02_nor_gl_2k.jpg-46a68c21b60363c387bd920fdbfee383.s3tc.ctex
+Completed load for: 'res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg' remapped 'res://assets/environment/models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/wooden_axe_02/wooden_axe_02_2k.gltf' remapped 'res://assets/environment/models/wooden_axe_02/wooden_axe_02_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/Lantern_01/Lantern_01_2k.gltf remapped: res://assets/environment/models/Lantern_01/Lantern_01_2k.gltf
+Loading resource: res://.godot/imported/Lantern_01_2k.gltf-f65d8addf3e20c5478c894b0ca9c929e.scn remapped: res://.godot/imported/Lantern_01_2k.gltf-f65d8addf3e20c5478c894b0ca9c929e.scn
+Loading resource: res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg remapped: res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg
+Loading resource: res://.godot/imported/Lantern_01_brass_diff_2k.jpg-469c16d7900aee35e4c564a3c35ee451.s3tc.ctex remapped: res://.godot/imported/Lantern_01_brass_diff_2k.jpg-469c16d7900aee35e4c564a3c35ee451.s3tc.ctex
+Completed load for: 'res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg' remapped 'res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg remapped: res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg
+Loading resource: res://.godot/imported/Lantern_01_brass_arm_2k.jpg-ddb69bd9a7c508ab29661545640e4c72.s3tc.ctex remapped: res://.godot/imported/Lantern_01_brass_arm_2k.jpg-ddb69bd9a7c508ab29661545640e4c72.s3tc.ctex
+Completed load for: 'res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg' remapped 'res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg remapped: res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/Lantern_01_brass_nor_gl_2k.jpg-800f4b0f906d15dee7fcee227f81e33a.s3tc.ctex remapped: res://.godot/imported/Lantern_01_brass_nor_gl_2k.jpg-800f4b0f906d15dee7fcee227f81e33a.s3tc.ctex
+Completed load for: 'res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg' remapped 'res://assets/environment/models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/Lantern_01/Lantern_01_2k.gltf' remapped 'res://assets/environment/models/Lantern_01/Lantern_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/WoodenTable_01/WoodenTable_01_2k.gltf remapped: res://assets/environment/models/WoodenTable_01/WoodenTable_01_2k.gltf
+Loading resource: res://.godot/imported/WoodenTable_01_2k.gltf-c3b7c66b53acc4e1e57ee0227e715ddc.scn remapped: res://.godot/imported/WoodenTable_01_2k.gltf-c3b7c66b53acc4e1e57ee0227e715ddc.scn
+Loading resource: res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg remapped: res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg
+Loading resource: res://.godot/imported/WoodenTable_01_diff_2k.jpg-a24ba57b7507976fed1383658ed29da3.s3tc.ctex remapped: res://.godot/imported/WoodenTable_01_diff_2k.jpg-a24ba57b7507976fed1383658ed29da3.s3tc.ctex
+Completed load for: 'res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg' remapped 'res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg remapped: res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg
+Loading resource: res://.godot/imported/WoodenTable_01_arm_2k.jpg-b785b678c922f178e8c2d83bc3d12724.s3tc.ctex remapped: res://.godot/imported/WoodenTable_01_arm_2k.jpg-b785b678c922f178e8c2d83bc3d12724.s3tc.ctex
+Completed load for: 'res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg' remapped 'res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg remapped: res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/WoodenTable_01_nor_gl_2k.jpg-0a3a5a03907b5ff99e661a945e0ba866.s3tc.ctex remapped: res://.godot/imported/WoodenTable_01_nor_gl_2k.jpg-0a3a5a03907b5ff99e661a945e0ba866.s3tc.ctex
+Completed load for: 'res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg' remapped 'res://assets/environment/models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/WoodenTable_01/WoodenTable_01_2k.gltf' remapped 'res://assets/environment/models/WoodenTable_01/WoodenTable_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf remapped: res://assets/environment/models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf
+Loading resource: res://.godot/imported/vintage_radio_transceiver_2k.gltf-aac76f382924447ade5bda0977a4677d.scn remapped: res://.godot/imported/vintage_radio_transceiver_2k.gltf-aac76f382924447ade5bda0977a4677d.scn
+Loading resource: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg remapped: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg
+Loading resource: res://.godot/imported/vintage_radio_transceiver_diff_2k.jpg-3350423e1020f61a99178df6ddbc2e74.s3tc.ctex remapped: res://.godot/imported/vintage_radio_transceiver_diff_2k.jpg-3350423e1020f61a99178df6ddbc2e74.s3tc.ctex
+Completed load for: 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg' remapped 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg remapped: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg
+Loading resource: res://.godot/imported/vintage_radio_transceiver_arm_2k.jpg-949cfa86943f57377020c77cb3da27e1.s3tc.ctex remapped: res://.godot/imported/vintage_radio_transceiver_arm_2k.jpg-949cfa86943f57377020c77cb3da27e1.s3tc.ctex
+Completed load for: 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg' remapped 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg remapped: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/vintage_radio_transceiver_nor_gl_2k.jpg-021a7783e5a38aece589ba3ad362ce05.s3tc.ctex remapped: res://.godot/imported/vintage_radio_transceiver_nor_gl_2k.jpg-021a7783e5a38aece589ba3ad362ce05.s3tc.ctex
+Completed load for: 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg' remapped 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg remapped: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg
+Loading resource: res://.godot/imported/vintage_radio_transceiver_accessories_diff_2k.jpg-c24dff92c91f107ea1eba5b9b55daee3.s3tc.ctex remapped: res://.godot/imported/vintage_radio_transceiver_accessories_diff_2k.jpg-c24dff92c91f107ea1eba5b9b55daee3.s3tc.ctex
+Completed load for: 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg' remapped 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg remapped: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg
+Loading resource: res://.godot/imported/vintage_radio_transceiver_accessories_arm_2k.jpg-c59f13edcb983bd8423fc86b27798beb.s3tc.ctex remapped: res://.godot/imported/vintage_radio_transceiver_accessories_arm_2k.jpg-c59f13edcb983bd8423fc86b27798beb.s3tc.ctex
+Completed load for: 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg' remapped 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg remapped: res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/vintage_radio_transceiver_accessories_nor_gl_2k.jpg-f0121abeaf00d2e20f2b7a6555ce902f.s3tc.ctex remapped: res://.godot/imported/vintage_radio_transceiver_accessories_nor_gl_2k.jpg-f0121abeaf00d2e20f2b7a6555ce902f.s3tc.ctex
+Completed load for: 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg' remapped 'res://assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf' remapped 'res://assets/environment/models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf' at thread -1
+Loading resource: res://assets/environment/buildings/D01.glb remapped: res://assets/environment/buildings/D01.glb
+Loading resource: res://.godot/imported/D01.glb-1dbfdcb9cc2daaf3d1c8a646f8e08212.scn remapped: res://.godot/imported/D01.glb-1dbfdcb9cc2daaf3d1c8a646f8e08212.scn
+Loading resource: res://assets/environment/buildings/D01_Cottage Texture.png remapped: res://assets/environment/buildings/D01_Cottage Texture.png
+Loading resource: res://.godot/imported/D01_Cottage Texture.png-50bb0c618054f7d6a08e48e684d64720.ctex remapped: res://.godot/imported/D01_Cottage Texture.png-50bb0c618054f7d6a08e48e684d64720.ctex
+Completed load for: 'res://assets/environment/buildings/D01_Cottage Texture.png' remapped 'res://assets/environment/buildings/D01_Cottage Texture.png' at thread -1
+Completed load for: 'res://assets/environment/buildings/D01.glb' remapped 'res://assets/environment/buildings/D01.glb' at thread -1
+Loading resource: res://assets/environment/buildings/D02.glb remapped: res://assets/environment/buildings/D02.glb
+Loading resource: res://.godot/imported/D02.glb-c08dc0209490296341876ba04c90bea3.scn remapped: res://.godot/imported/D02.glb-c08dc0209490296341876ba04c90bea3.scn
+Loading resource: res://assets/environment/buildings/D02_log_cabin_1024px.png remapped: res://assets/environment/buildings/D02_log_cabin_1024px.png
+Loading resource: res://.godot/imported/D02_log_cabin_1024px.png-5b0f76e848b688f937b695cbc9a5485f.ctex remapped: res://.godot/imported/D02_log_cabin_1024px.png-5b0f76e848b688f937b695cbc9a5485f.ctex
+Completed load for: 'res://assets/environment/buildings/D02_log_cabin_1024px.png' remapped 'res://assets/environment/buildings/D02_log_cabin_1024px.png' at thread -1
+Completed load for: 'res://assets/environment/buildings/D02.glb' remapped 'res://assets/environment/buildings/D02.glb' at thread -1
+Loading resource: res://assets/environment/buildings/D03.glb remapped: res://assets/environment/buildings/D03.glb
+Loading resource: res://.godot/imported/D03.glb-5b898e08bdece4e9e4482edda664e87a.scn remapped: res://.godot/imported/D03.glb-5b898e08bdece4e9e4482edda664e87a.scn
+Loading resource: res://assets/environment/buildings/D03_concrete_floor_01_diff_1k.jpg remapped: res://assets/environment/buildings/D03_concrete_floor_01_diff_1k.jpg
+Loading resource: res://.godot/imported/D03_concrete_floor_01_diff_1k.jpg-59e32dedaae144a68adb2292c633ccaf.ctex remapped: res://.godot/imported/D03_concrete_floor_01_diff_1k.jpg-59e32dedaae144a68adb2292c633ccaf.ctex
+Completed load for: 'res://assets/environment/buildings/D03_concrete_floor_01_diff_1k.jpg' remapped 'res://assets/environment/buildings/D03_concrete_floor_01_diff_1k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png remapped: res://assets/environment/buildings/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png
+Loading resource: res://.godot/imported/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png-03fbcfa9602d35b1c9012c20ffacb994.ctex remapped: res://.godot/imported/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png-03fbcfa9602d35b1c9012c20ffacb994.ctex
+Completed load for: 'res://assets/environment/buildings/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png' remapped 'res://assets/environment/buildings/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png' at thread -1
+Loading resource: res://assets/environment/buildings/D03_concrete_floor_01_nor_1k.jpg remapped: res://assets/environment/buildings/D03_concrete_floor_01_nor_1k.jpg
+Loading resource: res://.godot/imported/D03_concrete_floor_01_nor_1k.jpg-94c1d6612ae406604c90d4724bc7a7ae.ctex remapped: res://.godot/imported/D03_concrete_floor_01_nor_1k.jpg-94c1d6612ae406604c90d4724bc7a7ae.ctex
+Completed load for: 'res://assets/environment/buildings/D03_concrete_floor_01_nor_1k.jpg' remapped 'res://assets/environment/buildings/D03_concrete_floor_01_nor_1k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_rusty_metal_diff_1k.jpg remapped: res://assets/environment/buildings/D03_rusty_metal_diff_1k.jpg
+Loading resource: res://.godot/imported/D03_rusty_metal_diff_1k.jpg-47684ff099b741fa7a7a50182c818fc3.ctex remapped: res://.godot/imported/D03_rusty_metal_diff_1k.jpg-47684ff099b741fa7a7a50182c818fc3.ctex
+Completed load for: 'res://assets/environment/buildings/D03_rusty_metal_diff_1k.jpg' remapped 'res://assets/environment/buildings/D03_rusty_metal_diff_1k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_rusty_metal_nor_1k.jpg remapped: res://assets/environment/buildings/D03_rusty_metal_nor_1k.jpg
+Loading resource: res://.godot/imported/D03_rusty_metal_nor_1k.jpg-60d03536fb28a3c519c5f64a32fe7a67.ctex remapped: res://.godot/imported/D03_rusty_metal_nor_1k.jpg-60d03536fb28a3c519c5f64a32fe7a67.ctex
+Completed load for: 'res://assets/environment/buildings/D03_rusty_metal_nor_1k.jpg' remapped 'res://assets/environment/buildings/D03_rusty_metal_nor_1k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_rusty_metal_ao_1k.jpg remapped: res://assets/environment/buildings/D03_rusty_metal_ao_1k.jpg
+Loading resource: res://.godot/imported/D03_rusty_metal_ao_1k.jpg-b2ddc923829d5fc63106e5836fb78efe.ctex remapped: res://.godot/imported/D03_rusty_metal_ao_1k.jpg-b2ddc923829d5fc63106e5836fb78efe.ctex
+Completed load for: 'res://assets/environment/buildings/D03_rusty_metal_ao_1k.jpg' remapped 'res://assets/environment/buildings/D03_rusty_metal_ao_1k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_green_metal_rust_diff_1k.jpg remapped: res://assets/environment/buildings/D03_green_metal_rust_diff_1k.jpg
+Loading resource: res://.godot/imported/D03_green_metal_rust_diff_1k.jpg-308cf4e872df98e9c5f9dea1b31feb07.ctex remapped: res://.godot/imported/D03_green_metal_rust_diff_1k.jpg-308cf4e872df98e9c5f9dea1b31feb07.ctex
+Completed load for: 'res://assets/environment/buildings/D03_green_metal_rust_diff_1k.jpg' remapped 'res://assets/environment/buildings/D03_green_metal_rust_diff_1k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_green_metal_rust_Nor_1k.jpg remapped: res://assets/environment/buildings/D03_green_metal_rust_Nor_1k.jpg
+Loading resource: res://.godot/imported/D03_green_metal_rust_Nor_1k.jpg-d17c9b150129561afbb4da38a4fb28a6.ctex remapped: res://.godot/imported/D03_green_metal_rust_Nor_1k.jpg-d17c9b150129561afbb4da38a4fb28a6.ctex
+Completed load for: 'res://assets/environment/buildings/D03_green_metal_rust_Nor_1k.jpg' remapped 'res://assets/environment/buildings/D03_green_metal_rust_Nor_1k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_rusty_metal_04_diff_2k.jpg remapped: res://assets/environment/buildings/D03_rusty_metal_04_diff_2k.jpg
+Loading resource: res://.godot/imported/D03_rusty_metal_04_diff_2k.jpg-3b917c060ab415364cd3c16967f2a64f.ctex remapped: res://.godot/imported/D03_rusty_metal_04_diff_2k.jpg-3b917c060ab415364cd3c16967f2a64f.ctex
+Completed load for: 'res://assets/environment/buildings/D03_rusty_metal_04_diff_2k.jpg' remapped 'res://assets/environment/buildings/D03_rusty_metal_04_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D03_weathered_brown_planks_diff_2k.jpg remapped: res://assets/environment/buildings/D03_weathered_brown_planks_diff_2k.jpg
+Loading resource: res://.godot/imported/D03_weathered_brown_planks_diff_2k.jpg-5794066fe960867513dd175c421b2b06.ctex remapped: res://.godot/imported/D03_weathered_brown_planks_diff_2k.jpg-5794066fe960867513dd175c421b2b06.ctex
+Completed load for: 'res://assets/environment/buildings/D03_weathered_brown_planks_diff_2k.jpg' remapped 'res://assets/environment/buildings/D03_weathered_brown_planks_diff_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/buildings/D03.glb' remapped 'res://assets/environment/buildings/D03.glb' at thread -1
+Loading resource: res://assets/environment/buildings/D04.glb remapped: res://assets/environment/buildings/D04.glb
+Loading resource: res://.godot/imported/D04.glb-0894f62376c1b2fe9a8bc7278aa8cea8.scn remapped: res://.godot/imported/D04.glb-0894f62376c1b2fe9a8bc7278aa8cea8.scn
+Loading resource: res://assets/environment/buildings/D04_modular_factory_facade_brick_diff_2k.jpg remapped: res://assets/environment/buildings/D04_modular_factory_facade_brick_diff_2k.jpg
+Loading resource: res://.godot/imported/D04_modular_factory_facade_brick_diff_2k.jpg-b4778482a638bb0cd8fc5b70d09b987d.ctex remapped: res://.godot/imported/D04_modular_factory_facade_brick_diff_2k.jpg-b4778482a638bb0cd8fc5b70d09b987d.ctex
+Completed load for: 'res://assets/environment/buildings/D04_modular_factory_facade_brick_diff_2k.jpg' remapped 'res://assets/environment/buildings/D04_modular_factory_facade_brick_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D04_modular_factory_facade_brick_arm_2k.jpg remapped: res://assets/environment/buildings/D04_modular_factory_facade_brick_arm_2k.jpg
+Loading resource: res://.godot/imported/D04_modular_factory_facade_brick_arm_2k.jpg-c1173ab7c7c2eadc1fc84e008a1068f7.ctex remapped: res://.godot/imported/D04_modular_factory_facade_brick_arm_2k.jpg-c1173ab7c7c2eadc1fc84e008a1068f7.ctex
+Completed load for: 'res://assets/environment/buildings/D04_modular_factory_facade_brick_arm_2k.jpg' remapped 'res://assets/environment/buildings/D04_modular_factory_facade_brick_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D04_modular_factory_facade_brick_nor_gl_2k.jpg remapped: res://assets/environment/buildings/D04_modular_factory_facade_brick_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/D04_modular_factory_facade_brick_nor_gl_2k.jpg-322f79b114ff098859c4d3320769668e.ctex remapped: res://.godot/imported/D04_modular_factory_facade_brick_nor_gl_2k.jpg-322f79b114ff098859c4d3320769668e.ctex
+Completed load for: 'res://assets/environment/buildings/D04_modular_factory_facade_brick_nor_gl_2k.jpg' remapped 'res://assets/environment/buildings/D04_modular_factory_facade_brick_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k.jpg remapped: res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k.jpg
+Loading resource: res://.godot/imported/D04_modular_factory_facade_windows_diff_2k.jpg-913abcad1737f020f7f7486410a7bf33.ctex remapped: res://.godot/imported/D04_modular_factory_facade_windows_diff_2k.jpg-913abcad1737f020f7f7486410a7bf33.ctex
+Completed load for: 'res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k.jpg' remapped 'res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D04_modular_factory_facade_windows_arm_2k.jpg remapped: res://assets/environment/buildings/D04_modular_factory_facade_windows_arm_2k.jpg
+Loading resource: res://.godot/imported/D04_modular_factory_facade_windows_arm_2k.jpg-3d791c5b07f399f02ce9be7b9a75ffa7.ctex remapped: res://.godot/imported/D04_modular_factory_facade_windows_arm_2k.jpg-3d791c5b07f399f02ce9be7b9a75ffa7.ctex
+Completed load for: 'res://assets/environment/buildings/D04_modular_factory_facade_windows_arm_2k.jpg' remapped 'res://assets/environment/buildings/D04_modular_factory_facade_windows_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D04_modular_factory_facade_windows_nor_gl_2k.jpg remapped: res://assets/environment/buildings/D04_modular_factory_facade_windows_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/D04_modular_factory_facade_windows_nor_gl_2k.jpg-b8a38a3d25c626b2dee727e1c26d669d.ctex remapped: res://.godot/imported/D04_modular_factory_facade_windows_nor_gl_2k.jpg-b8a38a3d25c626b2dee727e1c26d669d.ctex
+Completed load for: 'res://assets/environment/buildings/D04_modular_factory_facade_windows_nor_gl_2k.jpg' remapped 'res://assets/environment/buildings/D04_modular_factory_facade_windows_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k_6.png remapped: res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k_6.png
+Loading resource: res://.godot/imported/D04_modular_factory_facade_windows_diff_2k_6.png-c208e8a9426acfbc2d3bc098a7836e49.ctex remapped: res://.godot/imported/D04_modular_factory_facade_windows_diff_2k_6.png-c208e8a9426acfbc2d3bc098a7836e49.ctex
+Completed load for: 'res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k_6.png' remapped 'res://assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k_6.png' at thread -1
+Loading resource: res://assets/environment/buildings/D04_weathered_brown_planks_diff_2k.jpg remapped: res://assets/environment/buildings/D04_weathered_brown_planks_diff_2k.jpg
+Loading resource: res://.godot/imported/D04_weathered_brown_planks_diff_2k.jpg-6c7c0d4075d98fc93108235064d0a23a.ctex remapped: res://.godot/imported/D04_weathered_brown_planks_diff_2k.jpg-6c7c0d4075d98fc93108235064d0a23a.ctex
+Completed load for: 'res://assets/environment/buildings/D04_weathered_brown_planks_diff_2k.jpg' remapped 'res://assets/environment/buildings/D04_weathered_brown_planks_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D04_grey_roof_tiles_diff_2k.jpg remapped: res://assets/environment/buildings/D04_grey_roof_tiles_diff_2k.jpg
+Loading resource: res://.godot/imported/D04_grey_roof_tiles_diff_2k.jpg-c065bf3488cb18d715cc4004f172ce0f.ctex remapped: res://.godot/imported/D04_grey_roof_tiles_diff_2k.jpg-c065bf3488cb18d715cc4004f172ce0f.ctex
+Completed load for: 'res://assets/environment/buildings/D04_grey_roof_tiles_diff_2k.jpg' remapped 'res://assets/environment/buildings/D04_grey_roof_tiles_diff_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/buildings/D04.glb' remapped 'res://assets/environment/buildings/D04.glb' at thread -1
+Loading resource: res://assets/environment/buildings/D05.glb remapped: res://assets/environment/buildings/D05.glb
+Loading resource: res://.godot/imported/D05.glb-6efb523b8ab281be235e168b95985e27.scn remapped: res://.godot/imported/D05.glb-6efb523b8ab281be235e168b95985e27.scn
+Loading resource: res://assets/environment/buildings/D05_Wood.jpg remapped: res://assets/environment/buildings/D05_Wood.jpg
+Loading resource: res://.godot/imported/D05_Wood.jpg-058898eb9d1515ec5379cc49c00a469e.ctex remapped: res://.godot/imported/D05_Wood.jpg-058898eb9d1515ec5379cc49c00a469e.ctex
+Completed load for: 'res://assets/environment/buildings/D05_Wood.jpg' remapped 'res://assets/environment/buildings/D05_Wood.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D05_TreeLogEdgeWeathered.jpg remapped: res://assets/environment/buildings/D05_TreeLogEdgeWeathered.jpg
+Loading resource: res://.godot/imported/D05_TreeLogEdgeWeathered.jpg-8b9b60dea3c11e79cc4b3cefae0767a6.ctex remapped: res://.godot/imported/D05_TreeLogEdgeWeathered.jpg-8b9b60dea3c11e79cc4b3cefae0767a6.ctex
+Completed load for: 'res://assets/environment/buildings/D05_TreeLogEdgeWeathered.jpg' remapped 'res://assets/environment/buildings/D05_TreeLogEdgeWeathered.jpg' at thread -1
+Loading resource: res://assets/environment/buildings/D05_RoofTiles.jpg remapped: res://assets/environment/buildings/D05_RoofTiles.jpg
+Loading resource: res://.godot/imported/D05_RoofTiles.jpg-4cc89fb785e668d16e1473a292b55cb7.ctex remapped: res://.godot/imported/D05_RoofTiles.jpg-4cc89fb785e668d16e1473a292b55cb7.ctex
+Completed load for: 'res://assets/environment/buildings/D05_RoofTiles.jpg' remapped 'res://assets/environment/buildings/D05_RoofTiles.jpg' at thread -1
+Completed load for: 'res://assets/environment/buildings/D05.glb' remapped 'res://assets/environment/buildings/D05.glb' at thread -1
+Loading resource: res://assets/environment/models/s11/village_market/village_market.glb remapped: res://assets/environment/models/s11/village_market/village_market.glb
+Loading resource: res://.godot/imported/village_market.glb-8d4bb0ddce974ef7d01f9d178c548eb4.scn remapped: res://.godot/imported/village_market.glb-8d4bb0ddce974ef7d01f9d178c548eb4.scn
+Completed load for: 'res://assets/environment/models/s11/village_market/village_market.glb' remapped 'res://assets/environment/models/s11/village_market/village_market.glb' at thread -1
+Loading resource: res://assets/environment/models/s11/wicker_basket_01/wicker_basket_01_2k.gltf remapped: res://assets/environment/models/s11/wicker_basket_01/wicker_basket_01_2k.gltf
+Loading resource: res://.godot/imported/wicker_basket_01_2k.gltf-783af71c6b7035ce3cba266691aabdda.scn remapped: res://.godot/imported/wicker_basket_01_2k.gltf-783af71c6b7035ce3cba266691aabdda.scn
+Loading resource: res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg remapped: res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg
+Loading resource: res://.godot/imported/wicker_basket_01_diff_2k.jpg-e6ae9bda10452cf975688008a620bd6c.ctex remapped: res://.godot/imported/wicker_basket_01_diff_2k.jpg-e6ae9bda10452cf975688008a620bd6c.ctex
+Completed load for: 'res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg' remapped 'res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg remapped: res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg
+Loading resource: res://.godot/imported/wicker_basket_01_arm_2k.jpg-6b9b14b50aa453223df800012b7540d4.ctex remapped: res://.godot/imported/wicker_basket_01_arm_2k.jpg-6b9b14b50aa453223df800012b7540d4.ctex
+Completed load for: 'res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg' remapped 'res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg remapped: res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/wicker_basket_01_nor_gl_2k.jpg-eb9ebb2c5a7766d45bee7857b55e1921.ctex remapped: res://.godot/imported/wicker_basket_01_nor_gl_2k.jpg-eb9ebb2c5a7766d45bee7857b55e1921.ctex
+Completed load for: 'res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg' remapped 'res://assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/s11/wicker_basket_01/wicker_basket_01_2k.gltf' remapped 'res://assets/environment/models/s11/wicker_basket_01/wicker_basket_01_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/s11/market_stalls/market_stalls.glb remapped: res://assets/environment/models/s11/market_stalls/market_stalls.glb
+Loading resource: res://.godot/imported/market_stalls.glb-1a7471d44f6ec884966d75242c700907.scn remapped: res://.godot/imported/market_stalls.glb-1a7471d44f6ec884966d75242c700907.scn
+Completed load for: 'res://assets/environment/models/s11/market_stalls/market_stalls.glb' remapped 'res://assets/environment/models/s11/market_stalls/market_stalls.glb' at thread -1
+Loading resource: res://assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels_2k.gltf remapped: res://assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels_2k.gltf
+Loading resource: res://.godot/imported/chinese_screen_panels_2k.gltf-7a69421916c0f1a7ae5cecd60f46d794.scn remapped: res://.godot/imported/chinese_screen_panels_2k.gltf-7a69421916c0f1a7ae5cecd60f46d794.scn
+Loading resource: res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg remapped: res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg
+Loading resource: res://.godot/imported/chinese_screen_panels_diff_2k.jpg-70b79db4e01db6702b07173336a82b0e.ctex remapped: res://.godot/imported/chinese_screen_panels_diff_2k.jpg-70b79db4e01db6702b07173336a82b0e.ctex
+Completed load for: 'res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg' remapped 'res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg remapped: res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg
+Loading resource: res://.godot/imported/chinese_screen_panels_arm_2k.jpg-d0ad20cfd5e71ffd0609f21e55f2b059.ctex remapped: res://.godot/imported/chinese_screen_panels_arm_2k.jpg-d0ad20cfd5e71ffd0609f21e55f2b059.ctex
+Completed load for: 'res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg' remapped 'res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg remapped: res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/chinese_screen_panels_nor_gl_2k.jpg-4d333e3ee9b0445d424f8367c552e47b.ctex remapped: res://.godot/imported/chinese_screen_panels_nor_gl_2k.jpg-4d333e3ee9b0445d424f8367c552e47b.ctex
+Completed load for: 'res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg' remapped 'res://assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels_2k.gltf' remapped 'res://assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels_2k.gltf' at thread -1
+Loading resource: res://assets/environment/models/s11/chinese_tea_table/chinese_tea_table_2k.gltf remapped: res://assets/environment/models/s11/chinese_tea_table/chinese_tea_table_2k.gltf
+Loading resource: res://.godot/imported/chinese_tea_table_2k.gltf-6199e5f7208f8d97ec21a225651887fd.scn remapped: res://.godot/imported/chinese_tea_table_2k.gltf-6199e5f7208f8d97ec21a225651887fd.scn
+Loading resource: res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg remapped: res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg
+Loading resource: res://.godot/imported/chinese_tea_table_diff_2k.jpg-36d708126f2f05977f5b4aad30063110.ctex remapped: res://.godot/imported/chinese_tea_table_diff_2k.jpg-36d708126f2f05977f5b4aad30063110.ctex
+Completed load for: 'res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg' remapped 'res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg remapped: res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg
+Loading resource: res://.godot/imported/chinese_tea_table_arm_2k.jpg-b0c16561db6d232e0ed9d20a4ab8be47.ctex remapped: res://.godot/imported/chinese_tea_table_arm_2k.jpg-b0c16561db6d232e0ed9d20a4ab8be47.ctex
+Completed load for: 'res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg' remapped 'res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg' at thread -1
+Loading resource: res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg remapped: res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/chinese_tea_table_nor_gl_2k.jpg-f7ab2efe31d75f2c0ac46dc8473b9726.ctex remapped: res://.godot/imported/chinese_tea_table_nor_gl_2k.jpg-f7ab2efe31d75f2c0ac46dc8473b9726.ctex
+Completed load for: 'res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg' remapped 'res://assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg' at thread -1
+Completed load for: 'res://assets/environment/models/s11/chinese_tea_table/chinese_tea_table_2k.gltf' remapped 'res://assets/environment/models/s11/chinese_tea_table/chinese_tea_table_2k.gltf' at thread -1
+Loading resource: res://assets/environment/textures/wood_chips/wood_chips_diff_2k.jpg remapped: res://assets/environment/textures/wood_chips/wood_chips_diff_2k.jpg
+Loading resource: res://.godot/imported/wood_chips_diff_2k.jpg-9e8f67467f18032d52e332f462147579.ctex remapped: res://.godot/imported/wood_chips_diff_2k.jpg-9e8f67467f18032d52e332f462147579.ctex
+Completed load for: 'res://assets/environment/textures/wood_chips/wood_chips_diff_2k.jpg' remapped 'res://assets/environment/textures/wood_chips/wood_chips_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/wood_chips/wood_chips_nor_gl_2k.jpg remapped: res://assets/environment/textures/wood_chips/wood_chips_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/wood_chips_nor_gl_2k.jpg-4892a6222b30386c40e40cf7ceb4322d.ctex remapped: res://.godot/imported/wood_chips_nor_gl_2k.jpg-4892a6222b30386c40e40cf7ceb4322d.ctex
+Completed load for: 'res://assets/environment/textures/wood_chips/wood_chips_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/wood_chips/wood_chips_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/wood_chips/wood_chips_rough_2k.jpg remapped: res://assets/environment/textures/wood_chips/wood_chips_rough_2k.jpg
+Loading resource: res://.godot/imported/wood_chips_rough_2k.jpg-cc073924d9b34f6abf9236f2191bb80b.ctex remapped: res://.godot/imported/wood_chips_rough_2k.jpg-cc073924d9b34f6abf9236f2191bb80b.ctex
+Completed load for: 'res://assets/environment/textures/wood_chips/wood_chips_rough_2k.jpg' remapped 'res://assets/environment/textures/wood_chips/wood_chips_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg remapped: res://assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg
+Loading resource: res://.godot/imported/gravel_road_diff_2k.jpg-a9d7ae1db84c73167b348149d42f2620.ctex remapped: res://.godot/imported/gravel_road_diff_2k.jpg-a9d7ae1db84c73167b348149d42f2620.ctex
+Completed load for: 'res://assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg' remapped 'res://assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/gravel_road/gravel_road_nor_gl_2k.jpg remapped: res://assets/environment/textures/gravel_road/gravel_road_nor_gl_2k.jpg
+Loading resource: res://.godot/imported/gravel_road_nor_gl_2k.jpg-f6b358d53067beee2e72c7faaa721a1a.ctex remapped: res://.godot/imported/gravel_road_nor_gl_2k.jpg-f6b358d53067beee2e72c7faaa721a1a.ctex
+Completed load for: 'res://assets/environment/textures/gravel_road/gravel_road_nor_gl_2k.jpg' remapped 'res://assets/environment/textures/gravel_road/gravel_road_nor_gl_2k.jpg' at thread -1
+Loading resource: res://assets/environment/textures/gravel_road/gravel_road_rough_2k.jpg remapped: res://assets/environment/textures/gravel_road/gravel_road_rough_2k.jpg
+Loading resource: res://.godot/imported/gravel_road_rough_2k.jpg-2c91e2634b019309f02fe68e486c7d45.ctex remapped: res://.godot/imported/gravel_road_rough_2k.jpg-2c91e2634b019309f02fe68e486c7d45.ctex
+Completed load for: 'res://assets/environment/textures/gravel_road/gravel_road_rough_2k.jpg' remapped 'res://assets/environment/textures/gravel_road/gravel_road_rough_2k.jpg' at thread -1
+Loading resource: res://assets/environment/landscape/far_pine.glb remapped: res://assets/environment/landscape/far_pine.glb
+Loading resource: res://.godot/imported/far_pine.glb-246ab99d4bcaa7eae1f2dbc0d05f98b4.scn remapped: res://.godot/imported/far_pine.glb-246ab99d4bcaa7eae1f2dbc0d05f98b4.scn
+Loading resource: res://assets/environment/landscape/far_pine_nadel.png remapped: res://assets/environment/landscape/far_pine_nadel.png
+Loading resource: res://.godot/imported/far_pine_nadel.png-9b094a9cc1b2218284356f70daa0493b.ctex remapped: res://.godot/imported/far_pine_nadel.png-9b094a9cc1b2218284356f70daa0493b.ctex
+Completed load for: 'res://assets/environment/landscape/far_pine_nadel.png' remapped 'res://assets/environment/landscape/far_pine_nadel.png' at thread -1
+Loading resource: res://assets/environment/landscape/far_pine_stamm.jpg remapped: res://assets/environment/landscape/far_pine_stamm.jpg
+Loading resource: res://.godot/imported/far_pine_stamm.jpg-d38258abc824804bdb6e7b07b8b16b04.ctex remapped: res://.godot/imported/far_pine_stamm.jpg-d38258abc824804bdb6e7b07b8b16b04.ctex
+Completed load for: 'res://assets/environment/landscape/far_pine_stamm.jpg' remapped 'res://assets/environment/landscape/far_pine_stamm.jpg' at thread -1
+Completed load for: 'res://assets/environment/landscape/far_pine.glb' remapped 'res://assets/environment/landscape/far_pine.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Loading resource: res://assets/characters/field_character_field_wool_weave.png remapped: res://assets/characters/field_character_field_wool_weave.png
+Loading resource: res://.godot/imported/field_character_field_wool_weave.png-6edbc24de4f7fc030d5efd99cc426888.ctex remapped: res://.godot/imported/field_character_field_wool_weave.png-6edbc24de4f7fc030d5efd99cc426888.ctex
+Completed load for: 'res://assets/characters/field_character_field_wool_weave.png' remapped 'res://assets/characters/field_character_field_wool_weave.png' at thread -1
+Loading resource: res://assets/characters/field_character_field_cotton_weave.png remapped: res://assets/characters/field_character_field_cotton_weave.png
+Loading resource: res://.godot/imported/field_character_field_cotton_weave.png-5ebef9f766c41a72f7e3881c8cef9a7f.ctex remapped: res://.godot/imported/field_character_field_cotton_weave.png-5ebef9f766c41a72f7e3881c8cef9a7f.ctex
+Completed load for: 'res://assets/characters/field_character_field_cotton_weave.png' remapped 'res://assets/characters/field_character_field_cotton_weave.png' at thread -1
+Loading resource: res://assets/characters/field_character_T_Hair_1_BaseColor.png remapped: res://assets/characters/field_character_T_Hair_1_BaseColor.png
+Loading resource: res://.godot/imported/field_character_T_Hair_1_BaseColor.png-3368369a7383291d073b3308796b95a8.ctex remapped: res://.godot/imported/field_character_T_Hair_1_BaseColor.png-3368369a7383291d073b3308796b95a8.ctex
+Completed load for: 'res://assets/characters/field_character_T_Hair_1_BaseColor.png' remapped 'res://assets/characters/field_character_T_Hair_1_BaseColor.png' at thread -1
+Loading resource: res://assets/characters/field_character_T_Hair_1_Normal.png remapped: res://assets/characters/field_character_T_Hair_1_Normal.png
+Loading resource: res://.godot/imported/field_character_T_Hair_1_Normal.png-478e40c4ced6bba7006d019b22bbf3a0.ctex remapped: res://.godot/imported/field_character_T_Hair_1_Normal.png-478e40c4ced6bba7006d019b22bbf3a0.ctex
+Completed load for: 'res://assets/characters/field_character_T_Hair_1_Normal.png' remapped 'res://assets/characters/field_character_T_Hair_1_Normal.png' at thread -1
+Loading resource: res://assets/characters/field_character_T_Eye_Brown.png remapped: res://assets/characters/field_character_T_Eye_Brown.png
+Loading resource: res://.godot/imported/field_character_T_Eye_Brown.png-5a10eff5365b407e6a9774ebd372a1f4.ctex remapped: res://.godot/imported/field_character_T_Eye_Brown.png-5a10eff5365b407e6a9774ebd372a1f4.ctex
+Completed load for: 'res://assets/characters/field_character_T_Eye_Brown.png' remapped 'res://assets/characters/field_character_T_Eye_Brown.png' at thread -1
+Loading resource: res://assets/characters/field_character_T_Eye_Normal.png remapped: res://assets/characters/field_character_T_Eye_Normal.png
+Loading resource: res://.godot/imported/field_character_T_Eye_Normal.png-dc91894b2a079331474b8e0f7bf8cd90.ctex remapped: res://.godot/imported/field_character_T_Eye_Normal.png-dc91894b2a079331474b8e0f7bf8cd90.ctex
+Completed load for: 'res://assets/characters/field_character_T_Eye_Normal.png' remapped 'res://assets/characters/field_character_T_Eye_Normal.png' at thread -1
+Loading resource: res://assets/characters/field_character_T_Superhero_Male_Dark.png remapped: res://assets/characters/field_character_T_Superhero_Male_Dark.png
+Loading resource: res://.godot/imported/field_character_T_Superhero_Male_Dark.png-50c9772f47cf319f1d791b2725df8ec2.ctex remapped: res://.godot/imported/field_character_T_Superhero_Male_Dark.png-50c9772f47cf319f1d791b2725df8ec2.ctex
+Completed load for: 'res://assets/characters/field_character_T_Superhero_Male_Dark.png' remapped 'res://assets/characters/field_character_T_Superhero_Male_Dark.png' at thread -1
+Loading resource: res://assets/characters/field_character_T_Superhero_Male_Roughness.png remapped: res://assets/characters/field_character_T_Superhero_Male_Roughness.png
+Loading resource: res://.godot/imported/field_character_T_Superhero_Male_Roughness.png-d2e7c500d05a1a0817f97d7fae01f704.ctex remapped: res://.godot/imported/field_character_T_Superhero_Male_Roughness.png-d2e7c500d05a1a0817f97d7fae01f704.ctex
+Completed load for: 'res://assets/characters/field_character_T_Superhero_Male_Roughness.png' remapped 'res://assets/characters/field_character_T_Superhero_Male_Roughness.png' at thread -1
+Loading resource: res://assets/characters/field_character_T_Superhero_Male_Normal.png remapped: res://assets/characters/field_character_T_Superhero_Male_Normal.png
+Loading resource: res://.godot/imported/field_character_T_Superhero_Male_Normal.png-2305130e8dbb5c34a92da74caf46043b.ctex remapped: res://.godot/imported/field_character_T_Superhero_Male_Normal.png-2305130e8dbb5c34a92da74caf46043b.ctex
+Completed load for: 'res://assets/characters/field_character_T_Superhero_Male_Normal.png' remapped 'res://assets/characters/field_character_T_Superhero_Male_Normal.png' at thread -1
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+Loading resource: res://assets/characters/field_character.glb remapped: res://assets/characters/field_character.glb
+Loading resource: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn remapped: res://.godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn
+Completed load for: 'res://assets/characters/field_character.glb' remapped 'res://assets/characters/field_character.glb' at thread -1
+PASS: S12 far forest placement catalog has broad shared instances
+PASS: S12 forest batches are split for culling
+PASS: S12 landscape visual nodes are present
+PASS: S12 visual layer adds no physics bodies
+PASS: S12 keeps the reviewed navigation grid
+PASS: Checkpoint to timber route remains traversable
+PASS: Office to river route remains traversable
+S12 LANDSCAPE RESULT: 7/7 passed

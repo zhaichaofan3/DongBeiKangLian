@@ -1,0 +1,21 @@
+信息: 已另存为 "tianchi_artistic.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+20:41:32 | INFO: Starting glTF 2.0 export
+20:41:32 | INFO: Extracting primitive: S21_Artistic_Crater_RingMesh
+20:41:32 | INFO: Primitives created: 1
+20:41:32 | INFO: Extracting primitive: S21_Deep_Blue_LakeMesh
+20:41:32 | INFO: Primitives created: 1
+20:41:32 | INFO: Extracting primitive: Icosphere
+20:41:32 | INFO: Primitives created: 1
+20:41:32 | INFO: Extracting primitive: Icosphere.001
+20:41:32 | INFO: Primitives created: 1
+20:41:32 | INFO: Extracting primitive: Icosphere.002
+20:41:32 | INFO: Primitives created: 1
+20:41:32 | INFO: Extracting primitive: Icosphere.003
+20:41:32 | INFO: Primitives created: 1
+20:41:32 | INFO: Finished glTF 2.0 export in 0.020131826400756836 s
+
+{"step": "S21", "source": "procedural artistic crater composition from S20; no real elevation data baked into the model", "objects": ["S21_Artistic_Crater_Ring", "S21_Deep_Blue_Lake", "S21_Talk_Platform_Base", "S21_Ridge_Cap_0", "S21_Ridge_Cap_1", "S21_Ridge_Cap_2"], "vertices": 591, "triangles": 972, "files": [{"path": "AssetLibrary/environment/derived/S21/tianchi_artistic.blend", "bytes": 596507, "sha256": "db77309f589a9c3971accbc0f8b1431388ce39e0c851d0948aa64424826b986a"}, {"path": "GodotProject/assets/opening/tianchi_artistic.glb", "bytes": 31216, "sha256": "e331555562acdf41f1018370aaf4d0c1a05d70d45339256cd4022dcc527c76c7"}], "integration": "not yet placed in the playable mission; S22 owns platform path and collision"}
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

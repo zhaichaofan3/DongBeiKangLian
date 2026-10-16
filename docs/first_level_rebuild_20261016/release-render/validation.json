@@ -1,0 +1,28 @@
+{
+	"captures": [
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/arrival.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/checkpoint.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/transport-turn.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/timber-yard.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/office-reveal.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/arrival-shelter.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/checkpoint-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/timber-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/loading-forest.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/office-approach.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/escort-road.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/ferry.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/overview.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/village-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/logging-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/timber-barrage.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/village-to-camp.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\release-render/mission-handoff.png"
+	],
+	"checks": 125,
+	"critical_path_metres": 572.592300727963,
+	"failures": [],
+	"near_trees": 36,
+	"passed": true,
+	"scenery_objects": 248
+}

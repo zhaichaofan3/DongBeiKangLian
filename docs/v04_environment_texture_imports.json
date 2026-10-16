@@ -1,0 +1,332 @@
+[
+  {
+    "path": "assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/fern_02/textures/fern_02_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/fern_02/textures/fern_02_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/fern_02/textures/fern_02_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/brick_wall_001/brick_wall_001_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/forest_ground_04/forest_ground_04_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/forest_ground_04/forest_ground_04_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/muddy_tracks/muddy_tracks_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/pine_bark/pine_bark_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/pine_bark/pine_bark_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/pine_bark/pine_bark_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg",
+    "normal_map": true,
+    "mipmaps": true
+  },
+  {
+    "path": "assets/environment/textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg",
+    "normal_map": false,
+    "mipmaps": true
+  }
+]

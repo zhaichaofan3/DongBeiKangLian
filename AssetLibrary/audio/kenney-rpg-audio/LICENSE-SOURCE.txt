@@ -1,0 +1,7 @@
+Title: Kenney RPG Audio
+Author: Kenney
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://kenney.nl/assets/rpg-audio
+Evidence: source.html and source.txt
+Notes: Equipment/footstep/object sounds; select only realistic period-compatible sounds.

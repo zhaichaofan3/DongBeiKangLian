@@ -1,0 +1,153 @@
+{
+  "all_passed": true,
+  "samples": [
+    {
+      "clear_camera": true,
+      "clock": 26.3,
+      "feet_y": 26.0,
+      "passed": true,
+      "support_y": 26.0
+    },
+    {
+      "clear_camera": true,
+      "clock": 26.399,
+      "feet_y": 25.9356498718262,
+      "passed": true,
+      "support_y": 25.9356555938721
+    },
+    {
+      "clear_camera": true,
+      "clock": 26.498,
+      "feet_y": 25.8712997436523,
+      "passed": true,
+      "support_y": 25.8713054656982
+    },
+    {
+      "clear_camera": true,
+      "clock": 26.597,
+      "feet_y": 25.8069496154785,
+      "passed": true,
+      "support_y": 25.8069534301758
+    },
+    {
+      "clear_camera": true,
+      "clock": 26.696,
+      "feet_y": 25.7425994873047,
+      "passed": true,
+      "support_y": 25.742603302002
+    },
+    {
+      "clear_camera": true,
+      "clock": 26.795,
+      "feet_y": 25.6782493591309,
+      "passed": true,
+      "support_y": 25.6782531738281
+    },
+    {
+      "clear_camera": true,
+      "clock": 26.894,
+      "feet_y": 25.6139011383057,
+      "passed": true,
+      "support_y": 25.6139049530029
+    },
+    {
+      "clear_camera": true,
+      "clock": 26.993,
+      "feet_y": 25.5495510101318,
+      "passed": true,
+      "support_y": 25.5495567321777
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.092,
+      "feet_y": 25.485200881958,
+      "passed": true,
+      "support_y": 25.4852066040039
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.191,
+      "feet_y": 25.4208507537842,
+      "passed": true,
+      "support_y": 25.4208545684814
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.29,
+      "feet_y": 25.3565006256104,
+      "passed": true,
+      "support_y": 25.356502532959
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.389,
+      "feet_y": 25.2921504974365,
+      "passed": true,
+      "support_y": 25.2921543121338
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.488,
+      "feet_y": 25.2278003692627,
+      "passed": true,
+      "support_y": 25.2278060913086
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.587,
+      "feet_y": 25.1634502410889,
+      "passed": true,
+      "support_y": 25.1634559631348
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.686,
+      "feet_y": 25.099100112915,
+      "passed": true,
+      "support_y": 25.0991058349609
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.785,
+      "feet_y": 25.0347499847412,
+      "passed": true,
+      "support_y": 25.0347537994385
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.884,
+      "feet_y": 24.9703998565674,
+      "passed": true,
+      "support_y": 24.9704036712646
+    },
+    {
+      "clear_camera": true,
+      "clock": 27.983,
+      "feet_y": 24.9060516357422,
+      "passed": true,
+      "support_y": 24.9060554504395
+    },
+    {
+      "clear_camera": true,
+      "clock": 28.082,
+      "feet_y": 24.8417015075684,
+      "passed": true,
+      "support_y": 24.8417053222656
+    },
+    {
+      "clear_camera": true,
+      "clock": 28.181,
+      "feet_y": 24.7773513793945,
+      "passed": true,
+      "support_y": 24.7773571014404
+    },
+    {
+      "clear_camera": true,
+      "clock": 28.28,
+      "feet_y": 24.7130012512207,
+      "passed": true,
+      "support_y": 24.7130031585693
+    }
+  ],
+  "scope": "B07 visible insert only; outer route continuity and final art not assessed"
+}

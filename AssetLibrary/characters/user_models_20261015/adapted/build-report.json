@@ -1,0 +1,94 @@
+[
+  {
+    "role": "japanese",
+    "source": "japanese/3d66.com_22426855.max",
+    "game_model": "GodotProject/assets/characters/user_soldiers/japanese.glb",
+    "sha256": "975d31ae518aae796aef75d2451a19a8afc7a04b495585201bad1d51dafd7784",
+    "bones": 13,
+    "parts": [
+      {
+        "name": "Face",
+        "triangles": 2735,
+        "vertices": 1516
+      },
+      {
+        "name": "Helmet",
+        "triangles": 734,
+        "vertices": 432
+      },
+      {
+        "name": "Clothing",
+        "triangles": 5877,
+        "vertices": 3168
+      },
+      {
+        "name": "Hands",
+        "triangles": 3362,
+        "vertices": 2194
+      },
+      {
+        "name": "GuardHands",
+        "triangles": 3362,
+        "vertices": 2194
+      },
+      {
+        "name": "GuardHelmetMark",
+        "triangles": 128,
+        "vertices": 128
+      },
+      {
+        "name": "GuardMoustache",
+        "triangles": 320,
+        "vertices": 210
+      }
+    ],
+    "adaptation": "MAX geometry and UVs; normalized and reposed to the existing 13-bone game rig. Existing third-person hand contact meshes retained. First-person hands untouched.",
+    "triangles": 16518
+  },
+  {
+    "role": "volunteer",
+    "source": "volunteer/3d66.com_17309872.max",
+    "game_model": "GodotProject/assets/characters/user_soldiers/volunteer.glb",
+    "sha256": "54d6108e0e70d9dcb6983a7f18e9aadf6469d8343f93209d0d078fcf8b2c24d0",
+    "bones": 13,
+    "parts": [
+      {
+        "name": "Clothing",
+        "triangles": 15107,
+        "vertices": 7781
+      },
+      {
+        "name": "Face",
+        "triangles": 20534,
+        "vertices": 10456
+      },
+      {
+        "name": "Cap",
+        "triangles": 1994,
+        "vertices": 1062
+      },
+      {
+        "name": "Hands",
+        "triangles": 4918,
+        "vertices": 2463
+      },
+      {
+        "name": "GuardHands",
+        "triangles": 4918,
+        "vertices": 2463
+      },
+      {
+        "name": "Bandage",
+        "triangles": 496,
+        "vertices": 256
+      },
+      {
+        "name": "FriendlyCapStar",
+        "triangles": 10,
+        "vertices": 11
+      }
+    ],
+    "adaptation": "MAX geometry, original textured gloves and UVs reposed to the existing 13-bone game rig; separate relaxed/gripping hands. Leg bandage retained, incompatible old forehead wrap removed. First-person hands untouched.",
+    "triangles": 47977
+  }
+]

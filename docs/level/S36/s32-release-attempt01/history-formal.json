@@ -1,0 +1,125 @@
+{
+  "all_passed": false,
+  "checks": [
+    {
+      "description": "Authored A/B shot counts are preserved",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-01",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-02",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-03",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-04",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-05",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-06",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-07",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-08",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-09",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-10",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-11",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-12",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-13",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-14",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-15",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-16",
+      "passed": true
+    },
+    {
+      "description": "Authored actors remain visible in A-17",
+      "passed": true
+    },
+    {
+      "description": "A5-A6 use the artistic Tianchi scene asset",
+      "passed": false
+    },
+    {
+      "description": "History has all 15 fixed narration cues and temporary voice takes",
+      "passed": true
+    },
+    {
+      "description": "A4 has the authored S27 barrage and distant fireline layers",
+      "passed": true
+    },
+    {
+      "description": "A4 runtime combines formal label, muzzle layer and first barrage",
+      "passed": true
+    },
+    {
+      "description": "A5 carries N15 into the artistic Tianchi close",
+      "passed": true
+    },
+    {
+      "description": "A6 resolves on the layered lake and mountain environment",
+      "passed": true
+    },
+    {
+      "description": "History previews leave gameplay resources and mission state unchanged",
+      "passed": true
+    },
+    {
+      "description": "A1-A6 complete into the separate B boundary without gameplay handoff",
+      "passed": true
+    },
+    {
+      "description": "Continuous history playback reaches all A shots and narration cues",
+      "passed": true
+    },
+    {
+      "description": "History completion does not commit the task prologue",
+      "passed": true
+    }
+  ],
+  "history_shots": 17,
+  "music": "not_selected_pending_S29",
+  "narration_cues": 15,
+  "sfx_listening": "pending_S28",
+  "status": "failed",
+  "step": "S32",
+  "task_prologue": "pending_S33",
+  "voice": "temporary_synthetic"
+}

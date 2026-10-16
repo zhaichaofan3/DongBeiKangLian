@@ -1,0 +1,79 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Player rests on ground
+PASS: WASD direction
+PASS: Walls block movement
+PASS: Walls block enemy sight
+PASS: Enemy sees exposed player
+PASS: Rifle consumes ammo and hits physical target
+PASS: Reload transfers ammo
+PASS: Weapon switches independent model
+PASS: Mission requires contact briefing
+PASS: Walk to scout
+PASS: E opens face-to-face conversation
+PASS: Dialogue pauses movement and combat
+PASS: Optional route question has a distinct response
+PASS: Briefing unlocks mission and restores control
+PASS: J opens journal from gameplay
+PASS: Escape closes journal
+PASS: Walk to logger shelter
+PASS: Logger offers supplies in person
+PASS: Medical choice grants exactly one bandage
+PASS: Repeat conversation cannot duplicate reward
+PASS: Player bandage consumes resource and restores 40 health
+PASS: Supply cache is reachable
+PASS: World supply is collectible
+PASS: Supply cache cannot be collected twice
+PASS: Closed door blocks navigation
+PASS: Reach office door approach
+PASS: Approach physical door
+PASS: Door interaction opens physics and navigation
+PASS: Door closes and restores collision
+PASS: Player can stand in doorway
+PASS: Door cannot close on player
+PASS: Walk through open door
+PASS: Reach letter shelf without stepping into bench
+PASS: World letter opens narrative reading
+PASS: Journal preserves discovered letter
+PASS: Codebook route clears desk
+PASS: Roster pickup advances story
+PASS: Roster cannot be collected twice
+PASS: Reach power switch around desk
+PASS: Power switch extinguishes lights and glowing lanterns
+PASS: Reinforcements respect cap
+PASS: Reach wounded courier
+PASS: Wounded courier offers rescue dialogue
+PASS: Treatment consumes bandage and starts escort
+PASS: Wait command stops companion
+PASS: Player can scout ahead
+PASS: Waiting companion stays in place
+PASS: Return to waiting companion
+PASS: Follow command resumes escort
+PASS: Death opens retry menu
+PASS: Checkpoint restores mission
+PASS: Checkpoint restores companion treatment, command and position
+PASS: Checkpoint preserves narrative choices, inventory and door
+PASS: Continuous walking reaches evacuation
+PASS: Companion walks entire office-to-river route without teleporting
+PASS: Evacuation ends in a character conversation
+PASS: Both characters and roster complete mission
+PASS: Invalid companion snapshot rejected
+PASS: Invalid weapon snapshot rejected
+PASS: Corrupt JSON rejected
+PASS: Restart resets narrative, door and companion
+PASS: Alternative ammo choice grants different reward
+PASS: Rescue remains possible without bandages
+PASS: Distant companion cannot satisfy evacuation
+PASS: Waiting companion overlaps evacuation interaction range
+PASS: Dock prompt offers nearby companion conversation
+PASS: Evacuation does not block talking to waiting companion
+PASS: Follow command works inside evacuation area
+PASS: Companion walks from waiting position and completes evacuation
+PASS: Dock still explains missing companion when nobody is nearby
+PASS: QA uses isolated presentation preferences
+PASS: Performance preset applies without resetting mission
+PASS: Quality preset enables 4x antialiasing
+PASS: Zero volume fully mutes audio
+PASS: Graphics and control preferences survive reload from disk
+PASS: Invalid preference values retain safe defaults
+SMOKE RESULT: 76/76 passed

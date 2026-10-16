@@ -1,0 +1,906 @@
+{
+  "durations_ms": {
+    "A": 68180,
+    "B": 80100,
+    "total": 148280
+  },
+  "cues": [
+    {
+      "id": "N01",
+      "segment": "A1",
+      "text": "作为中国共产党创建最早、",
+      "lines": [
+        "作为中国共产党创建最早、"
+      ],
+      "emphasis": [
+        "中国共产党",
+        "最早"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 5340,
+      "pause_after_ms": 0,
+      "delivery": "从容开篇，作为轻起，最早稍落重，保持后接关系",
+      "original_char_start": 0,
+      "original_char_end": 12,
+      "voice_start_ms": 400,
+      "voice_end_ms": 5740,
+      "subtitle_start_ms": 400,
+      "subtitle_end_ms": 5740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N02",
+      "segment": "A1",
+      "text": "坚持抗日时间最长、",
+      "lines": [
+        "坚持抗日时间最长、"
+      ],
+      "emphasis": [
+        "坚持",
+        "最长"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 2000,
+      "pause_after_ms": 0,
+      "delivery": "承接上一项，最长与最早同级，避免每字都重读",
+      "original_char_start": 12,
+      "original_char_end": 21,
+      "voice_start_ms": 5740,
+      "voice_end_ms": 7740,
+      "subtitle_start_ms": 5740,
+      "subtitle_end_ms": 7740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N03",
+      "segment": "A1",
+      "text": "条件最为艰苦的抗日武装力量，",
+      "lines": [
+        "条件最为艰苦的抗日武装力量，"
+      ],
+      "emphasis": [
+        "最为艰苦",
+        "抗日武装力量"
+      ],
+      "inner_pause_after": [
+        "条件最为艰苦的"
+      ],
+      "speech_duration_ms": 4000,
+      "pause_after_ms": 0,
+      "delivery": "三个特征在此收拢；的后只轻连，不把定语与力量读断",
+      "original_char_start": 21,
+      "original_char_end": 35,
+      "voice_start_ms": 7740,
+      "voice_end_ms": 11740,
+      "subtitle_start_ms": 7740,
+      "subtitle_end_ms": 11740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N04",
+      "segment": "A2",
+      "text": "东北抗日联军在民族危亡之际，",
+      "lines": [
+        "东北抗日联军在民族危亡之际，"
+      ],
+      "emphasis": [
+        "东北抗日联军",
+        "民族危亡"
+      ],
+      "inner_pause_after": [
+        "东北抗日联军"
+      ],
+      "speech_duration_ms": 4000,
+      "pause_after_ms": 0,
+      "delivery": "点明主体，危亡压实，避免突然变成口号语气",
+      "original_char_start": 35,
+      "original_char_end": 49,
+      "voice_start_ms": 11740,
+      "voice_end_ms": 15740,
+      "subtitle_start_ms": 11740,
+      "subtitle_end_ms": 15740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N05",
+      "segment": "A2",
+      "text": "高擎抗日救国大旗，",
+      "lines": [
+        "高擎抗日救国大旗，"
+      ],
+      "emphasis": [
+        "高擎",
+        "抗日救国"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 3000,
+      "pause_after_ms": 0,
+      "delivery": "声线稍抬并向前推进，旗字收住，把下一句交给山河画面",
+      "original_char_start": 49,
+      "original_char_end": 58,
+      "voice_start_ms": 15740,
+      "voice_end_ms": 18740,
+      "subtitle_start_ms": 15740,
+      "subtitle_end_ms": 18740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N06",
+      "segment": "A3",
+      "text": "在白山黑水间、",
+      "lines": [
+        "在白山黑水间、"
+      ],
+      "emphasis": [
+        "白山黑水"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 3000,
+      "pause_after_ms": 0,
+      "delivery": "打开空间，字音舒展，顿号仅短停",
+      "original_char_start": 58,
+      "original_char_end": 65,
+      "voice_start_ms": 18740,
+      "voice_end_ms": 21740,
+      "subtitle_start_ms": 18740,
+      "subtitle_end_ms": 21740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N07",
+      "segment": "A3",
+      "text": "在冰天雪地里、",
+      "lines": [
+        "在冰天雪地里、"
+      ],
+      "emphasis": [
+        "冰天雪地"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 2000,
+      "pause_after_ms": 0,
+      "delivery": "与上一句近似节拍，稍加寒意，不突然加速",
+      "original_char_start": 65,
+      "original_char_end": 72,
+      "voice_start_ms": 21740,
+      "voice_end_ms": 23740,
+      "subtitle_start_ms": 21740,
+      "subtitle_end_ms": 23740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N08",
+      "segment": "A3",
+      "text": "在茫茫林海中，",
+      "lines": [
+        "在茫茫林海中，"
+      ],
+      "emphasis": [
+        "茫茫林海"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 2000,
+      "pause_after_ms": 0,
+      "delivery": "三项排比落稳，镜头由辽阔收向林中人物",
+      "original_char_start": 72,
+      "original_char_end": 79,
+      "voice_start_ms": 23740,
+      "voice_end_ms": 25740,
+      "subtitle_start_ms": 23740,
+      "subtitle_end_ms": 25740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N09",
+      "segment": "A3",
+      "text": "孤悬敌后，",
+      "lines": [
+        "孤悬敌后，"
+      ],
+      "emphasis": [
+        "孤悬",
+        "敌后"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 2000,
+      "pause_after_ms": 0,
+      "delivery": "降低声势并压住孤字；留空让处境成立，不读成冲锋口令",
+      "original_char_start": 79,
+      "original_char_end": 84,
+      "voice_start_ms": 25740,
+      "voice_end_ms": 27740,
+      "subtitle_start_ms": 25740,
+      "subtitle_end_ms": 27740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N10",
+      "segment": "A3",
+      "text": "进行了艰苦卓绝的斗争。",
+      "lines": [
+        "进行了艰苦卓绝的斗争。"
+      ],
+      "emphasis": [
+        "艰苦卓绝",
+        "斗争"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 5000,
+      "pause_after_ms": 0,
+      "delivery": "句号处完整换气，给扶起战友或继续行军动作落点",
+      "original_char_start": 84,
+      "original_char_end": 95,
+      "voice_start_ms": 27740,
+      "voice_end_ms": 32740,
+      "subtitle_start_ms": 27740,
+      "subtitle_end_ms": 32740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N11",
+      "segment": "A4",
+      "text": "忠诚于党的坚定信念、",
+      "lines": [
+        "忠诚于党的坚定信念、"
+      ],
+      "emphasis": [
+        "忠诚于党",
+        "坚定信念"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 3000,
+      "pause_after_ms": 0,
+      "delivery": "新一层情绪从坚定开始，三句排比第一层不过早用尽力度",
+      "original_char_start": 95,
+      "original_char_end": 105,
+      "voice_start_ms": 32740,
+      "voice_end_ms": 35740,
+      "subtitle_start_ms": 32740,
+      "subtitle_end_ms": 35740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N12",
+      "segment": "A4",
+      "text": "勇赴国难的民族大义、",
+      "lines": [
+        "勇赴国难的民族大义、"
+      ],
+      "emphasis": [
+        "勇赴国难",
+        "民族大义"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 3000,
+      "pause_after_ms": 0,
+      "delivery": "力度向前，保持与前句相近时值，国难读nàn",
+      "original_char_start": 105,
+      "original_char_end": 115,
+      "voice_start_ms": 35740,
+      "voice_end_ms": 38740,
+      "subtitle_start_ms": 35740,
+      "subtitle_end_ms": 38740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N13",
+      "segment": "A4",
+      "text": "血战到底的英雄气概，",
+      "lines": [
+        "血战到底的英雄气概，"
+      ],
+      "emphasis": [
+        "血战到底",
+        "英雄气概"
+      ],
+      "inner_pause_after": [],
+      "speech_duration_ms": 3000,
+      "pause_after_ms": 0,
+      "delivery": "第三层最强但仍可辨字；句后给战士重新起步和战火远去的余地",
+      "original_char_start": 115,
+      "original_char_end": 125,
+      "voice_start_ms": 38740,
+      "voice_end_ms": 41740,
+      "subtitle_start_ms": 38740,
+      "subtitle_end_ms": 41740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N14",
+      "segment": "A5",
+      "text": "这是战火磨练铸成的东北抗联精神，",
+      "lines": [
+        "这是战火磨练铸成的东北抗联精神，"
+      ],
+      "emphasis": [
+        "战火磨练",
+        "东北抗联精神"
+      ],
+      "inner_pause_after": [
+        "这是",
+        "战火磨练铸成的"
+      ],
+      "speech_duration_ms": 5000,
+      "pause_after_ms": 0,
+      "delivery": "这是轻承接，落在抗联精神；磨练保留原字，不替换成磨炼",
+      "original_char_start": 125,
+      "original_char_end": 141,
+      "voice_start_ms": 41740,
+      "voice_end_ms": 46740,
+      "subtitle_start_ms": 41740,
+      "subtitle_end_ms": 46740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N15",
+      "segment": "A5",
+      "text": "也是中华民族在每次危难之际迸发的复兴强音",
+      "lines": [
+        "也是中华民族在每次危难之际",
+        "迸发的复兴强音"
+      ],
+      "emphasis": [
+        "中华民族",
+        "每次危难",
+        "复兴强音"
+      ],
+      "inner_pause_after": [
+        "也是中华民族",
+        "在每次危难之际"
+      ],
+      "speech_duration_ms": 7000,
+      "pause_after_ms": 0,
+      "delivery": "展开到共同记忆，最后四字放稳，尾音自然结束；原文无句末标点，字幕不自行补句号",
+      "original_char_start": 141,
+      "original_char_end": 161,
+      "voice_start_ms": 46740,
+      "voice_end_ms": 53740,
+      "subtitle_start_ms": 46740,
+      "subtitle_end_ms": 53740,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending"
+    },
+    {
+      "id": "N16",
+      "segment": "A6",
+      "text": "这一刻，历史与现实交响。",
+      "lines": [
+        "这一刻，历史与现实交响。"
+      ],
+      "voice_start_ms": 53740,
+      "voice_end_ms": 58740,
+      "subtitle_start_ms": 53740,
+      "subtitle_end_ms": 58740,
+      "speech_duration_ms": 5000,
+      "pause_after_ms": 0,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending",
+      "source": "User-added recording text"
+    },
+    {
+      "id": "N17",
+      "segment": "A6",
+      "text": "共同把时光瞬间拉回到那个铁血交织的时代。",
+      "lines": [
+        "共同把时光瞬间拉回到",
+        "那个铁血交织的时代。"
+      ],
+      "voice_start_ms": 58740,
+      "voice_end_ms": 65740,
+      "subtitle_start_ms": 58740,
+      "subtitle_end_ms": 65740,
+      "speech_duration_ms": 7000,
+      "pause_after_ms": 0,
+      "audio_source": "opening_history_20261015.mp3",
+      "timing_method": "ASR aligned; listening review pending",
+      "source": "User-added recording text"
+    }
+  ],
+  "shots": [
+    {
+      "id": "A-01",
+      "part": "A",
+      "segment": "A1",
+      "title": "风起林海",
+      "start_ms": 0,
+      "end_ms": 11740,
+      "s07_placeholder": "复用现有远山与树林演出副本，慢移镜头；现有林风临时使用；音乐留空。",
+      "camera_from": [
+        -16,
+        18,
+        112
+      ],
+      "camera_to": [
+        -10,
+        22,
+        104
+      ],
+      "look_at": [
+        22,
+        7,
+        30
+      ],
+      "fov": 60,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-04",
+      "part": "A",
+      "segment": "A2",
+      "title": "家园与林场",
+      "start_ms": 11740,
+      "end_ms": 18740,
+      "s07_placeholder": "现有木棚/电报房/木料作体块占位。新建筑仅已下载，S07不以未经改造的整包替代成品。",
+      "camera_from": [
+        6,
+        5,
+        80
+      ],
+      "camera_to": [
+        9,
+        5,
+        80
+      ],
+      "look_at": [
+        14,
+        2,
+        66
+      ],
+      "fov": 58,
+      "actors": [
+        {
+          "id": "worker",
+          "start": [
+            14,
+            0.08,
+            67
+          ],
+          "end": [
+            14,
+            0.08,
+            67
+          ],
+          "yaw": 2.2
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-06",
+      "part": "A",
+      "segment": "A3",
+      "title": "白山黑水",
+      "start_ms": 18740,
+      "end_ms": 21740,
+      "s07_placeholder": "复用现有河岸、远山；天池不在本镜冒充河流。",
+      "camera_from": [
+        98,
+        20,
+        65
+      ],
+      "camera_to": [
+        102,
+        21,
+        59
+      ],
+      "look_at": [
+        122,
+        0,
+        12
+      ],
+      "fov": 62,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-07",
+      "part": "A",
+      "segment": "A3",
+      "title": "踏雪",
+      "start_ms": 21740,
+      "end_ms": 23740,
+      "s07_placeholder": "独立冬季副本用浅色地表/已下载雪纹理占位，程序走路；脚印、雪粒不宣称实现。",
+      "camera_from": [
+        9.8,
+        0.55,
+        81
+      ],
+      "camera_to": [
+        9.8,
+        0.55,
+        77
+      ],
+      "look_at": [
+        11,
+        0.3,
+        79
+      ],
+      "fov": 55,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            11,
+            0.08,
+            81
+          ],
+          "end": [
+            11,
+            0.08,
+            77
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "ally2",
+          "start": [
+            12,
+            0.08,
+            83
+          ],
+          "end": [
+            12,
+            0.08,
+            79
+          ],
+          "yaw": 0
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-08",
+      "part": "A",
+      "segment": "A3",
+      "title": "密林穿行",
+      "start_ms": 23740,
+      "end_ms": 27740,
+      "s07_placeholder": "现有树林和正常持枪行走，机位避树；拨枝接触用肩部轻转占位。",
+      "camera_from": [
+        7,
+        2.6,
+        84
+      ],
+      "camera_to": [
+        7,
+        2.6,
+        82
+      ],
+      "look_at": [
+        12,
+        1.1,
+        78
+      ],
+      "fov": 52,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            12,
+            0.08,
+            80
+          ],
+          "end": [
+            12,
+            0.08,
+            76
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "ally2",
+          "start": [
+            13,
+            0.08,
+            82
+          ],
+          "end": [
+            13,
+            0.08,
+            78
+          ],
+          "yaw": 0
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-10",
+      "part": "A",
+      "segment": "A3",
+      "title": "扶住战友",
+      "start_ms": 27740,
+      "end_ms": 32740,
+      "s07_placeholder": "两人停步、伸臂与身体倾斜作明确临时姿态，不能称完成扶人动画。",
+      "camera_from": [
+        8.5,
+        1.8,
+        82
+      ],
+      "camera_to": [
+        9,
+        1.8,
+        82
+      ],
+      "look_at": [
+        12,
+        1,
+        79
+      ],
+      "fov": 55,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            11,
+            0.08,
+            79
+          ],
+          "end": [
+            11,
+            0.08,
+            79
+          ],
+          "yaw": -1.2
+        },
+        {
+          "id": "ally2",
+          "start": [
+            12.3,
+            0.08,
+            79.3
+          ],
+          "end": [
+            12.3,
+            0.08,
+            79.3
+          ],
+          "yaw": 0.5
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-11",
+      "part": "A",
+      "segment": "A4",
+      "title": "掩体后的信念",
+      "start_ms": 32740,
+      "end_ms": 37740,
+      "s07_placeholder": "独立演出副本复用现有开火、后坐和枪声；无伤害、无正式AI、无弹药消耗。",
+      "camera_from": [
+        28,
+        2.3,
+        56
+      ],
+      "camera_to": [
+        28.5,
+        2.3,
+        55.7
+      ],
+      "look_at": [
+        33,
+        1.3,
+        51
+      ],
+      "fov": 58,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            30,
+            0.08,
+            53
+          ],
+          "end": [
+            30,
+            0.08,
+            53
+          ],
+          "yaw": -1.0
+        },
+        {
+          "id": "enemy1",
+          "start": [
+            38,
+            0.08,
+            48
+          ],
+          "end": [
+            38,
+            0.08,
+            48
+          ],
+          "yaw": 1.5
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-14",
+      "part": "A",
+      "segment": "A4",
+      "title": "仍有人前行",
+      "start_ms": 37740,
+      "end_ms": 41740,
+      "s07_placeholder": "复用独立战斗布景和人物；远景两组烟团，不靠新增大量AI营造规模。",
+      "camera_from": [
+        26,
+        6,
+        58
+      ],
+      "camera_to": [
+        26,
+        7,
+        58
+      ],
+      "look_at": [
+        36,
+        2.8,
+        49
+      ],
+      "fov": 62,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            31,
+            0.08,
+            53
+          ],
+          "end": [
+            33,
+            0.08,
+            51
+          ],
+          "yaw": -0.8
+        },
+        {
+          "id": "ally2",
+          "start": [
+            34,
+            0.08,
+            51
+          ],
+          "end": [
+            36,
+            0.08,
+            49
+          ],
+          "yaw": -0.8
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-15",
+      "part": "A",
+      "segment": "A5",
+      "title": "走向山脊",
+      "start_ms": 41740,
+      "end_ms": 46740,
+      "s07_placeholder": "已有远山作脊线；DEM仅可做远景地貌参考或明确标示的远景占位，人物不能直接在其上假定可行走。",
+      "camera_from": [
+        500,
+        28,
+        153
+      ],
+      "camera_to": [
+        500,
+        33,
+        158
+      ],
+      "look_at": [
+        501,
+        27,
+        143
+      ],
+      "fov": 60,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            501,
+            26,
+            146
+          ],
+          "end": [
+            502,
+            26,
+            142
+          ],
+          "yaw": -0.2
+        },
+        {
+          "id": "ally2",
+          "start": [
+            503,
+            26,
+            148
+          ],
+          "end": [
+            504,
+            26,
+            144
+          ],
+          "yaw": -0.2
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-16",
+      "part": "A",
+      "segment": "A5",
+      "title": "火山口湖全貌",
+      "start_ms": 46740,
+      "end_ms": 53740,
+      "s07_placeholder": "S07可用现有DEM低档远景加简单湖面占位并标注；正式火山口湖仍需S20–S23另建。",
+      "camera_from": [
+        500,
+        92,
+        170
+      ],
+      "camera_to": [
+        500,
+        112,
+        190
+      ],
+      "look_at": [
+        500,
+        3,
+        -10
+      ],
+      "fov": 62,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-18",
+      "part": "A",
+      "segment": "A6",
+      "title": "历史与现实 · 林场长镜头",
+      "start_ms": 53740,
+      "end_ms": 68180,
+      "camera_from": [
+        20,
+        15,
+        91
+      ],
+      "camera_to": [
+        47,
+        17,
+        69
+      ],
+      "look_at": [
+        34,
+        2.5,
+        57
+      ],
+      "look_at_to": [
+        53,
+        3,
+        39
+      ],
+      "fov": 62,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32",
+      "purpose": "新增两句共用14.44秒连续滑动全景，沿已有房屋、木料棚与电报房展示，标题在同镜头叠入。"
+    }
+  ]
+}

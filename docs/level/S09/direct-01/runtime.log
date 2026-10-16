@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: All four reinforcements dispatched within six-live-guard cap
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:123)
+S09 ROUTE direct: FAIL | checks=14 | seconds=75.6666666666637

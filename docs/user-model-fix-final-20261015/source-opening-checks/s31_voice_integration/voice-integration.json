@@ -1,0 +1,42 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "Complete user history MP3 and 14 temporary dialogue WAVs load",
+      "passed": true
+    },
+    {
+      "description": "Mixed history recording uses the complete cinematic volume bus",
+      "passed": true
+    },
+    {
+      "description": "N01 appears over the complete user history recording",
+      "passed": true
+    },
+    {
+      "description": "Seeking within one cue does not restart the same voice take",
+      "passed": true
+    },
+    {
+      "description": "Cinematic pause freezes the current voice take",
+      "passed": true
+    },
+    {
+      "description": "B1 dialogue replaces the narration take",
+      "passed": true
+    },
+    {
+      "description": "Leaving the opening stops the last voice take",
+      "passed": true
+    },
+    {
+      "description": "Skipping a part clears voice before the next part begins",
+      "passed": true
+    }
+  ],
+  "history": "user_supplied_full_mix",
+  "listening": "pending",
+  "step": "S31",
+  "task_voice": "temporary_synthetic",
+  "voice_count": 14
+}

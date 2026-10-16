@@ -1,0 +1,263 @@
+{
+  "camp_2": [
+    {
+      "name": "SuppliedLoggingHouse2",
+      "materials": [
+        "Mat3d66-4690991-2-5740_3d66Model-4690991-files-2"
+      ],
+      "bounds": [
+        [
+          -1.4984043836593628,
+          -2.0969128608703613,
+          0.0
+        ],
+        [
+          1.4984043836593628,
+          2.0969128608703613,
+          3.500000238418579
+        ]
+      ]
+    }
+  ],
+  "camp_2_images": [
+    {
+      "name": "3d66Model-4690991-files-2.png",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\camp\\3d66Model-4690991-files-2.png",
+      "packed": true,
+      "size": [
+        1536,
+        3072
+      ]
+    },
+    {
+      "name": "3d66Model-4690991-files-4.png",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\camp\\3d66Model-4690991-files-4.png",
+      "packed": true,
+      "size": [
+        1536,
+        3072
+      ]
+    }
+  ],
+  "office": [
+    {
+      "name": "SuppliedTelegraphOffice",
+      "materials": [
+        "3d66-VRayMtl-22399557-025_3d66Model-22399557-files-010",
+        "3d66-VRayMtl-22399557-026_3d66Model-22399557-files-013",
+        "3d66-VRayMtl-22399557-027_3d66Model-22399557-files-012",
+        "3d66-VRayMtl-22399557-028_3d66Model-22399557-files-011",
+        "3d66-VRayMtl-22399557-029_3d66Model-22399557-files-017",
+        "3d66-VRayMtl-22399557-030_3d66Model-22399557-files-018",
+        "3d66-VRayMtl-22399557-031_3d66Model-22399557-files-015",
+        "3d66-VRayMtl-22399557-032_3d66Model-22399557-files-001",
+        "3d66-VRayMtl-22399557-033_3d66Model-22399557-files-016",
+        "3d66-VRayMtl-22399557-034_3d66Model-22399557-files-004",
+        "3d66-VRayMtl-22399557-035_3d66Model-22399557-files-008",
+        "3d66-VRayMtl-22399557-036_3d66Model-22399557-files-003",
+        "3d66-VRayMtl-22399557-037_3d66Model-22399557-files-006",
+        "3d66-VRayMtl-22399557-038_3d66Model-22399557-files-005",
+        "3d66-VRayMtl-22399557-039_3d66Model-22399557-files-007",
+        "3d66-VRayMtl-22399557-040_3d66Model-22399557-files-009",
+        "3d66-VRayMtl-22399557-041_3d66Model-22399557-files-002",
+        "3d66-VRayMtl-22399557-042_3d66Model-22399557-files-019",
+        "3d66-VRayMtl-22399557-043_3d66Model-22399557-files-020",
+        "3d66-VRayMtl-22399557-044_3d66Model-22399557-files-014"
+      ],
+      "bounds": [
+        [
+          -13.000012397766113,
+          -11.999996185302734,
+          0.0017936661606654525
+        ],
+        [
+          12.999987602233887,
+          12.00000286102295,
+          6.271641254425049
+        ]
+      ]
+    }
+  ],
+  "office_images": [
+    {
+      "name": "3d66Model-22399557-files-001.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-001.tga",
+      "packed": true,
+      "size": [
+        256,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-002.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-002.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-003.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-003.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-004.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-004.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-005.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-005.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-006.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-006.tga",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-007.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-007.tga",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-008.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-008.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-009.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-009.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-010.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-010.tga",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-011.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-011.tga",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-012.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-012.tga",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-013.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-013.tga",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-014.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-014.tga",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-015.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-015.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-016.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-016.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-017.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-017.tga",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-018.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-018.tga",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-019.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-019.tga",
+      "packed": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-020.tga",
+      "path": "//..\\..\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-020.tga",
+      "packed": true,
+      "size": [
+        256,
+        512
+      ]
+    }
+  ]
+}

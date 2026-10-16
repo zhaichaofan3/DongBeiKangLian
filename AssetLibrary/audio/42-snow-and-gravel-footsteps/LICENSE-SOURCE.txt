@@ -1,0 +1,7 @@
+Title: 42 snow and gravel footsteps
+Author: Corsica_S; extracted by Iwan Gabovitch
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/42-snow-and-gravel-footsteps
+Evidence: source.html and source.txt
+Notes: Snow and gravel useful for northeast outdoor terrain.

@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-12",
+  "registered_file_records_checked": 895,
+  "unique_sha256_checked": 895,
+  "errors": [],
+  "error_count": 0,
+  "scope": "Existence, byte size and registered SHA256; category reports additionally cover format parsing, dependency checks, audio decoding and Godot import where recorded."
+}

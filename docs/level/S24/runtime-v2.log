@@ -1,0 +1,31 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "active" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/opening_director.gd:596)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/s24_conversation.gd:17)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "forest_stage" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/opening_director.gd:602)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/s24_conversation.gd:17)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "speaking_scout" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/opening_director.gd:613)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/s24_conversation.gd:17)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://scripts/mission.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/s24_conversation.gd:17)
+ERROR: Failed to load script "res://scripts/mission.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/s24_conversation.gd:17)
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: _ensure_opening (res://scripts/mission.gd:191)
+   GDScript backtrace (most recent call first):
+       [0] _ensure_opening (res://scripts/mission.gd:191)
+       [1] _run (res://tests/s24_conversation.gd:21)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_process' in base 'Nil'.
+   at: _run (res://tests/s24_conversation.gd:24)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/s24_conversation.gd:24)

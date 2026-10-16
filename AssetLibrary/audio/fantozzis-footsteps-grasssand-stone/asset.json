@@ -1,0 +1,203 @@
+{
+  "id": "fantozzis-footsteps-grasssand-stone",
+  "title": "Fantozzi footsteps grass/sand and stone",
+  "source_url": "https://opengameart.org/content/fantozzis-footsteps-grasssand-stone",
+  "author": "Fantozzi; prepared by Iwan Gabovitch (qubodup)",
+  "license": "CC0-1.0",
+  "notes": "12 steps in FLAC and OGG; avoid counting alternate formats as unique performances.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/originals/Fantozzi-footsteps.7z",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 476363,
+      "sha256": "415d360e0911c1c1c5355ee94023b772e6f4044f59b9b580610e7dbffd1840fd",
+      "role": "original_download"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-SandL1.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 40317,
+      "sha256": "93a2630579a82507e3c6ceab9b012f71a50cf8922f4beadb14057dcc0636b099",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-SandL2.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 30870,
+      "sha256": "9bb57478cc96e1410cae27d926aa8d77d5f2d368d9776822f63cf0b37c6d2faf",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-SandL3.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 29250,
+      "sha256": "042820e65cc947d8bb8adf18524ffff7cdf5fc310f9412cbf8bdf7a139984c21",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-SandR1.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 36934,
+      "sha256": "3514d12f3369297233e915814364ed02902003d4103b010371c2ac15c2aa48fe",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-SandR2.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 30328,
+      "sha256": "0356f659313887f01a9f21fd5bedf57a77073d0d74d57b5621279ee453a80f3c",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-SandR3.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 32496,
+      "sha256": "7535306b6ff3b9e071256f12789eb53fb90769a913ff7e00b271298727e0f521",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-StoneL1.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 37045,
+      "sha256": "7cfa4a2f500ae2bd19a961022296611d837c34ca2e556fe68deb692388f49971",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-StoneL2.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 33441,
+      "sha256": "dcbd6be44af4b3206daa36c5398035ca527bb057c51ce00482b9ca6356be2468",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-StoneL3.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 34318,
+      "sha256": "37a25f4254cf8f2e56d271912b0569f3bb15c57bf3fde9de492466eb23853b0d",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-StoneR1.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 36412,
+      "sha256": "7073bddd2e3ba432e15a83844180c0ebc52835c2c6bab0fa902ee5952499c729",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-StoneR2.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 34323,
+      "sha256": "d66330b4a32e93b0dfdcb8c53667654de8702a0fa48b2d06c48d94dc66b3e1cc",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/flac/Fantozzi-StoneR3.flac",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 35929,
+      "sha256": "b98f2c4b932242739ce8687206f7eb3313ce30afd4af7b7e148507c5cbd26787",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-SandL1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 10440,
+      "sha256": "fe6ec00cbe8790be0f37540cb8db8d245ca062337b121003685b6a96700cd0ae",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-SandL2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8922,
+      "sha256": "68ba66063efa32b3a83979194582b1420f808cd217ccb5839c382d0e08522e18",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-SandL3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8246,
+      "sha256": "0a526053424687c18735bca107b7234e48aceeb6bf12eec1f182d89aaf792b71",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-SandR1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 9796,
+      "sha256": "439ffe4d6fdf38194caf87e103897354756d69607bd4e48cef923e1ade68ee70",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-SandR2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8716,
+      "sha256": "5eec48117da8fa433963ba06a93f67705f0bbd86ac3f473ab7b3bd120bf55fce",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-SandR3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8635,
+      "sha256": "7498c4e50282acc4e7e0442a9f2e551fae685898f8261152dbc627f04901ddbe",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-StoneL1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8889,
+      "sha256": "2d85768f04a85b6068f3548b33d6e0b0424c5e62b0941042d593affd3a9555d4",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-StoneL2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8516,
+      "sha256": "1cdd36f02590d2b968b1dd311334e71db8514d7c276e62ad474d01c26b37d4de",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-StoneL3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8207,
+      "sha256": "6e008bba3c24c6adc20151126768eba8c9259ec9f40b7c0b8399d60a9ca67812",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-StoneR1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8855,
+      "sha256": "d6949efd0255d50efe4853cc077b18e3ee96b155707ccf4199fd530aaac82d58",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-StoneR2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8346,
+      "sha256": "075c27afbf29b7771cb01a7bf51530b835e82c56698ca5551318fa0c6b7adb9f",
+      "role": "extracted"
+    },
+    {
+      "path": "fantozzis-footsteps-grasssand-stone/extracted/Fantozzi-footsteps/Fantozzi-footsteps/ogg/Fantozzi-StoneR3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+      "bytes": 8404,
+      "sha256": "73bbdfc3d9e891bc1afbab7050de3bd59adf13cf5145ff3fb2f1fa7b251d6d82",
+      "role": "extracted"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 24,
+    "decode_passed": 24,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 8.39,
+    "duration_range_seconds": [
+      0.3,
+      0.443
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

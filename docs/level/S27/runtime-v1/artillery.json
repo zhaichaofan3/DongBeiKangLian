@@ -1,0 +1,96 @@
+{
+  "all_passed": false,
+  "checks": [
+    {
+      "description": "Default artillery is cosmetic and cannot change actor health",
+      "passed": true
+    },
+    {
+      "description": "Flight lead-in displays a shell without early damage",
+      "passed": true
+    },
+    {
+      "description": "Real blast uses distance falloff and leaves the out-of-radius guard untouched",
+      "passed": true
+    },
+    {
+      "description": "Impact flash, short light and preview explosion audio start together",
+      "passed": true
+    },
+    {
+      "description": "A shell applies damage exactly once across multiple frames",
+      "passed": true
+    },
+    {
+      "description": "Nearby guard receives a hit reaction through its normal damage path",
+      "passed": true
+    },
+    {
+      "description": "Flash clears before the expanding dust and smoke",
+      "passed": true
+    },
+    {
+      "description": "Pause freezes shell time, smoke and explosion audio",
+      "passed": false
+    },
+    {
+      "description": "Completed shells reclaim every transient visual and audio node",
+      "passed": true
+    },
+    {
+      "description": "Solid world collision shields the player from a nearby blast",
+      "passed": true
+    },
+    {
+      "description": "Artillery rejects a seventh active shell instead of scheduling invisible damage",
+      "passed": true
+    },
+    {
+      "description": "Gameplay artillery cannot be requested during cinematic playback",
+      "passed": true
+    },
+    {
+      "description": "Leaving gameplay clears queued shells",
+      "passed": true
+    },
+    {
+      "description": "Restart removes pending artillery",
+      "passed": true
+    },
+    {
+      "description": "Checkpoint restore removes pending artillery",
+      "passed": true
+    },
+    {
+      "description": "A4 samples the authored incoming shell before impact",
+      "passed": true
+    },
+    {
+      "description": "A4 impact uses the same explosion with one timed sound event",
+      "passed": true
+    },
+    {
+      "description": "Nearby cinematic actors react without using gameplay damage",
+      "passed": true
+    },
+    {
+      "description": "A4 progresses from short flash to flying debris",
+      "passed": true
+    },
+    {
+      "description": "Cinematic barrage leaves player resources, story and combat state unchanged",
+      "passed": true
+    },
+    {
+      "description": "Cinematic pause freezes explosion visual and sound together",
+      "passed": false
+    },
+    {
+      "description": "Skipping history stops all artillery before the conversation",
+      "passed": true
+    }
+  ],
+  "rendered": false,
+  "scope": "Actual opening integration plus isolated real gameplay damage and wall fixtures; no automatic mission barrage added.",
+  "step": "S27"
+}

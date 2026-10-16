@@ -1,0 +1,461 @@
+{
+  "source": "AssetLibrary/environment/user_expansion_20261015/office/3d66.com_22399557.max",
+  "sha256": "404941be5a552067565289bdc46ac392e2d55e743636e5fee005ff4b0378e8e2",
+  "bounds": [
+    [
+      -312.9296875,
+      -239.38491821289062,
+      -0.884922206401825
+    ],
+    [
+      312.9291076660156,
+      651.5512084960938,
+      215.3785400390625
+    ]
+  ],
+  "objects": [
+    {
+      "name": "3d66-Editable_Poly-22399557-001",
+      "bounds": [
+        [
+          -312.9296875,
+          -239.38491821289062,
+          -0.884922206401825
+        ],
+        [
+          312.9291076660156,
+          651.5512084960938,
+          215.3785400390625
+        ]
+      ],
+      "triangles": 47884,
+      "materials": [
+        "3d66-VRayMtl-22399557-025_3d66Model-22399557-files-010",
+        "3d66-VRayMtl-22399557-026_3d66Model-22399557-files-013",
+        "3d66-VRayMtl-22399557-027_3d66Model-22399557-files-012",
+        "3d66-VRayMtl-22399557-028_3d66Model-22399557-files-011",
+        "3d66-VRayMtl-22399557-029_3d66Model-22399557-files-017",
+        "3d66-VRayMtl-22399557-030_3d66Model-22399557-files-018",
+        "3d66-VRayMtl-22399557-031_3d66Model-22399557-files-015",
+        "3d66-VRayMtl-22399557-032_3d66Model-22399557-files-001",
+        "3d66-VRayMtl-22399557-033_3d66Model-22399557-files-016",
+        "3d66-VRayMtl-22399557-034_3d66Model-22399557-files-004",
+        "3d66-VRayMtl-22399557-035_3d66Model-22399557-files-008",
+        "3d66-VRayMtl-22399557-036_3d66Model-22399557-files-003",
+        "3d66-VRayMtl-22399557-037_3d66Model-22399557-files-006",
+        "3d66-VRayMtl-22399557-038_3d66Model-22399557-files-005",
+        "3d66-VRayMtl-22399557-039_3d66Model-22399557-files-007",
+        "3d66-VRayMtl-22399557-040_3d66Model-22399557-files-009",
+        "3d66-VRayMtl-22399557-041_3d66Model-22399557-files-002",
+        "3d66-VRayMtl-22399557-042_3d66Model-22399557-files-019",
+        "3d66-VRayMtl-22399557-043_3d66Model-22399557-files-020",
+        "3d66-VRayMtl-22399557-044_3d66Model-22399557-files-014"
+      ]
+    }
+  ],
+  "triangles": 47884,
+  "images": [
+    {
+      "name": "3d66Model-22399557-files-001.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-001.tga",
+      "size": [
+        256,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-002.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-002.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-003.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-003.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-004.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-004.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-005.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-005.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-006.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-006.tga",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-007.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-007.tga",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-008.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-008.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-009.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-009.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-010.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-010.tga",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-011.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-011.tga",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-012.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-012.tga",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-013.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-013.tga",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-014.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-014.tga",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-015.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-015.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-016.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-016.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-017.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-017.tga",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-018.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-018.tga",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-019.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-019.tga",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "3d66Model-22399557-files-020.tga",
+      "path": "//..\\..\\..\\AssetLibrary\\environment\\user_expansion_20261015\\office\\3d66Model-22399557-files-020.tga",
+      "size": [
+        256,
+        512
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "3d66-VRayMtl-22399557-025_3d66Model-22399557-files-010",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-010.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-026_3d66Model-22399557-files-013",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-013.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-027_3d66Model-22399557-files-012",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-012.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-028_3d66Model-22399557-files-011",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-011.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-029_3d66Model-22399557-files-017",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-017.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-030_3d66Model-22399557-files-018",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-018.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-031_3d66Model-22399557-files-015",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-015.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-032_3d66Model-22399557-files-001",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-001.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-033_3d66Model-22399557-files-016",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-016.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-034_3d66Model-22399557-files-004",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-004.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-035_3d66Model-22399557-files-008",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-008.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-036_3d66Model-22399557-files-003",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-003.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-037_3d66Model-22399557-files-006",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-006.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-038_3d66Model-22399557-files-005",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-005.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-039_3d66Model-22399557-files-007",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-007.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-040_3d66Model-22399557-files-009",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-009.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-041_3d66Model-22399557-files-002",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-002.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-042_3d66Model-22399557-files-019",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-019.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-043_3d66Model-22399557-files-020",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-020.tga"
+      ]
+    },
+    {
+      "name": "3d66-VRayMtl-22399557-044_3d66Model-22399557-files-014",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22399557-files-014.tga"
+      ]
+    }
+  ]
+}

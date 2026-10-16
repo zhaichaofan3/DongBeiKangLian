@@ -1,0 +1,51 @@
+{
+  "evs_cap": 9,
+  "type": 0,
+  "tags": [
+    "tree",
+    "forest",
+    "leaves",
+    "autumn",
+    "rock"
+  ],
+  "date_published": 1573772400,
+  "name": "Autumn Forest 01",
+  "categories": [
+    "outdoor",
+    "nature",
+    "morning-afternoon",
+    "low contrast",
+    "natural light"
+  ],
+  "coords": [
+    48.404459,
+    9.801223
+  ],
+  "date_taken": 1572445620,
+  "authors": {
+    "Andreas Mischok": "All"
+  },
+  "sponsors": [
+    "42579608"
+  ],
+  "files_hash": "6decfa9fba7c7e8cded29f784d8c72e1951ac1c5",
+  "max_resolution": [
+    16384,
+    8192
+  ],
+  "description": "Unclipped, free 16K HDRI of an autumn forest: soft natural morning/afternoon light, low-contrast overcast sky, warm fallen leaves, trees and a mossy rock.",
+  "category_id": "69311129-a02a-5409-875f-803d4c3e7e16",
+  "category": "Forest & Woodland/Forest/Deciduous Forest",
+  "attributes": {
+    "time_of_day": "afternoon",
+    "weather": "overcast",
+    "light_type": "natural",
+    "contrast": "low",
+    "season": "autumn",
+    "environment": "outdoor",
+    "sky_view": "obstructed"
+  },
+  "img_version": "a0fcefa4",
+  "download_count": 50281,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/autumn_forest_01.png?width=256&height=256&format=webp&v=a0fcefa4"
+}

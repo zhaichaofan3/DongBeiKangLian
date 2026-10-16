@@ -1,0 +1,49 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"fps_limit": 0,
+	"gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+	"quality": "0",
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1920,
+		1080
+	],
+	"sample_seconds_per_view": 3,
+	"scope": "Fixed camera views; AI and player physics paused; excludes startup and shader warmup.",
+	"views": [
+		{
+			"frames": 1753,
+			"mean_draw_calls": 392.0,
+			"mean_fps": 584.034891503775,
+			"mean_frame_ms": 1.71222646891044,
+			"mean_primitives": 278150.0,
+			"node_count": 1633.0,
+			"p95_frame_ms": 2.416,
+			"p99_frame_ms": 3.379,
+			"view": "forest_contact"
+		},
+		{
+			"frames": 1755,
+			"mean_draw_calls": 366.0,
+			"mean_fps": 584.920060925007,
+			"mean_frame_ms": 1.70963532763533,
+			"mean_primitives": 251722.0,
+			"node_count": 1633.0,
+			"p95_frame_ms": 2.467,
+			"p99_frame_ms": 2.743,
+			"view": "yard"
+		},
+		{
+			"frames": 1586,
+			"mean_draw_calls": 312.0,
+			"mean_fps": 528.398768491042,
+			"mean_frame_ms": 1.89251008827238,
+			"mean_primitives": 263412.0,
+			"node_count": 1633.0,
+			"p95_frame_ms": 2.603,
+			"p99_frame_ms": 3.068,
+			"view": "office"
+		}
+	],
+	"vsync": false
+}

@@ -1,0 +1,526 @@
+{
+  "adjustments": [
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1454",
+      "position": [
+        -29.750129699707,
+        4.26239442825317,
+        58.9382400512695
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1455",
+      "position": [
+        -29.750129699707,
+        -0.379999995231628,
+        58.9382400512695
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1582",
+      "position": [
+        6.0,
+        4.79301881790161,
+        80.0
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1583",
+      "position": [
+        6.0,
+        -0.0299999993294477,
+        80.0
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1584",
+      "position": [
+        5.50133228302002,
+        5.27532052993774,
+        79.7928009033203
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1585",
+      "position": [
+        6.22776031494141,
+        5.85408306121826,
+        80.489616394043
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1586",
+      "position": [
+        6.16276979446411,
+        6.43284511566162,
+        79.4851150512695
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1587",
+      "position": [
+        5.53218936920166,
+        7.01160764694214,
+        80.2697296142578
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1588",
+      "position": [
+        6.5271520614624,
+        7.5903697013855,
+        80.1170959472656
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1589",
+      "position": [
+        5.69037389755249,
+        8.16913223266602,
+        79.5575866699219
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1614",
+      "position": [
+        7.0,
+        4.79857492446899,
+        50.0
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1615",
+      "position": [
+        7.0,
+        -0.0299999993294477,
+        50.0
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1616",
+      "position": [
+        7.23552894592285,
+        5.28143262863159,
+        50.4859275817871
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1617",
+      "position": [
+        7.15454912185669,
+        5.86086130142212,
+        49.4825897216797
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1618",
+      "position": [
+        6.53654432296753,
+        6.4402904510498,
+        50.2771453857422
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1619",
+      "position": [
+        7.52894973754883,
+        7.01971960067749,
+        50.1086845397949
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1620",
+      "position": [
+        6.68336725234985,
+        7.59914827346802,
+        49.562572479248
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@MeshInstance3D@1621",
+      "position": [
+        6.93801641464233,
+        8.17857837677002,
+        50.5364303588867
+      ],
+      "reason": "tree_crown_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "tree_stump_01_实物",
+      "position": [
+        7.40000009536743,
+        0.0,
+        78.0
+      ],
+      "reason": "scan_prop_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@Node3D@2781",
+      "position": [
+        5.86789846420288,
+        0.00999999977648258,
+        75.9096527099609
+      ],
+      "reason": "scan_prop_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@Node3D@2785",
+      "position": [
+        6.48111057281494,
+        0.00999999977648258,
+        77.9873504638672
+      ],
+      "reason": "scan_prop_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@Node3D@2805",
+      "position": [
+        7.17465162277222,
+        0.00999999977648258,
+        76.2445983886719
+      ],
+      "reason": "scan_prop_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@Node3D@2817",
+      "position": [
+        5.84957122802734,
+        0.00999999977648258,
+        78.8819580078125
+      ],
+      "reason": "scan_prop_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "@Node3D@2825",
+      "position": [
+        6.12515783309937,
+        0.00999999977648258,
+        79.7870941162109
+      ],
+      "reason": "scan_prop_intersects_reserved_structure"
+    },
+    {
+      "action": "hidden_while_blockout_enabled",
+      "name": "wine_barrel_01_实物",
+      "position": [
+        8.5,
+        0.0,
+        62.0
+      ],
+      "reason": "scan_prop_intersects_reserved_structure"
+    }
+  ],
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "All nine reserved slots enabled",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D01_collision",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D02_collision",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D03_collision",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D04_collision",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_0",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_1",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_2",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_3",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_4",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_5",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_6",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D05_post_7",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D07_stock",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D06_counter",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D06_canopy",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D06_post",
+      "passed": true
+    },
+    {
+      "description": "Physics contains @StaticBody3D@2872",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D08_screen",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D08_chest",
+      "passed": true
+    },
+    {
+      "description": "Physics contains D09_table",
+      "passed": true
+    },
+    {
+      "description": "Blockout does not own dynamic gate cell checkpoint",
+      "passed": true
+    },
+    {
+      "description": "Blockout does not own dynamic gate cell yard",
+      "passed": true
+    },
+    {
+      "description": "Blockout does not own dynamic gate cell river",
+      "passed": true
+    },
+    {
+      "description": "Disable removes all blockout collisions and visuals",
+      "passed": true
+    },
+    {
+      "description": "Disable restores previous navigation and retained trees/props",
+      "passed": true
+    },
+    {
+      "description": "Conflicting trees and props hidden without deleting originals",
+      "passed": true
+    },
+    {
+      "description": "Toggle preserves gate state (8, 14)",
+      "passed": true
+    },
+    {
+      "description": "Toggle preserves gate state (8, 10)",
+      "passed": true
+    },
+    {
+      "description": "Toggle preserves gate state (17, 5)",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at start",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at wall_gap",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at checkpoint",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at timber_lane",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at yard_gate",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at west_return",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at north_turn",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at north_factory",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at river_gate",
+      "passed": true
+    },
+    {
+      "description": "Standing-height clearance at reinforcement_road",
+      "passed": true
+    },
+    {
+      "description": "Player capsule cannot pass through building facade (11.0, 0.08, 60.0)",
+      "passed": true
+    },
+    {
+      "description": "Player capsule cannot pass through building facade (54.0, 0.08, 85.0)",
+      "passed": true
+    },
+    {
+      "description": "Player capsule cannot pass through building facade (54.0, 0.08, 19.0)",
+      "passed": true
+    },
+    {
+      "description": "Dock west-east grid edge clears relocated solid mooring post",
+      "passed": true
+    },
+    {
+      "description": "Controlled pre-blockout save written",
+      "passed": true
+    },
+    {
+      "description": "Overlapping saved player/courier moved to nearby walkable cells",
+      "passed": true
+    },
+    {
+      "description": "Save migration preserves mission, locks, supplies and recruitment",
+      "passed": true
+    },
+    {
+      "description": "Restored actor is outside added obstacles",
+      "passed": true
+    },
+    {
+      "description": "Restored actor is outside added obstacles",
+      "passed": true
+    },
+    {
+      "description": "Restored actor is outside added obstacles",
+      "passed": true
+    },
+    {
+      "description": "Existing unobstructed save positions stay unchanged",
+      "passed": true
+    }
+  ],
+  "method": "Controlled physics probes, open-door cross sections, toggle and synthetic legacy-save checks; not a gameplay completion test.",
+  "reserved_grid_cells": 67,
+  "step": "S09",
+  "widths": [
+    {
+      "height_m": 1.2,
+      "id": "start",
+      "minimum_m": 2.4,
+      "width_m": 16.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "wall_gap",
+      "minimum_m": 2.4,
+      "width_m": 4.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "checkpoint",
+      "minimum_m": 3.6,
+      "width_m": 4.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "timber_lane",
+      "minimum_m": 2.4,
+      "width_m": 20.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "yard_gate",
+      "minimum_m": 3.6,
+      "width_m": 4.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "west_return",
+      "minimum_m": 3.0,
+      "width_m": 4.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "north_turn",
+      "minimum_m": 3.0,
+      "width_m": 20.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "north_factory",
+      "minimum_m": 3.0,
+      "width_m": 8.19999980926514
+    },
+    {
+      "height_m": 1.2,
+      "id": "river_gate",
+      "minimum_m": 3.6,
+      "width_m": 4.0
+    },
+    {
+      "height_m": 1.2,
+      "id": "reinforcement_road",
+      "minimum_m": 2.4,
+      "width_m": 12.0
+    }
+  ]
+}

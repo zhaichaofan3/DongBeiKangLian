@@ -1,0 +1,60 @@
+{
+  "category": "first_person",
+  "assets": [
+    {
+      "id": "oga_fps_arms",
+      "title": "fps arms (rigged only)",
+      "author": "para; MakeHuman base",
+      "source_url": "https://opengameart.org/content/fps-arms-rigged-only",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence": "oga_fps_arms/CC0-1.0.txt",
+      "files": [
+        {
+          "path": "oga_fps_arms/fps_arms.7z",
+          "bytes": 1406250,
+          "sha256": "31f6c7bd5caea8856c4aafca8461f38a3c8bfdd3d8f05c898e403b9475e54562",
+          "role": "original_download",
+          "download_url": "https://opengameart.org/sites/default/files/fps%20arms.7z"
+        },
+        {
+          "path": "oga_fps_arms/original/FPS ARMS RIG 1 test anim.blend",
+          "bytes": 1745864,
+          "sha256": "81bed56c1718957171cb6c16ee5b77f7067ccd0d3c39ec0ff052d25322e05d75",
+          "role": "extracted"
+        },
+        {
+          "path": "oga_fps_arms/original/FPS ARMS RIG 1 test.fbx",
+          "bytes": 743452,
+          "sha256": "4a18fface0de24c64e77701e7920f772d6e12d5023de774b3836f9a5900cddc7",
+          "role": "extracted"
+        },
+        {
+          "path": "oga_fps_arms/original/FPS ARMS RIG 1.blend",
+          "bytes": 1634996,
+          "sha256": "5c41f224f40525fa2f09c1168b3df638fc0b401ba5e59ae7fad6f88369fd6f82",
+          "role": "extracted"
+        },
+        {
+          "path": "oga_fps_arms/original/FPS ARMS RIG 1.fbx",
+          "bytes": 434092,
+          "sha256": "8aeb5a2e5ee6277ecc40e99a6dc5034b0fff321ef6d86f53e10b3461fdbae35b",
+          "role": "extracted"
+        },
+        {
+          "path": "oga_fps_arms/original/new_diff.png",
+          "bytes": 686627,
+          "sha256": "f7a67f1c8f72294dc54ddea96253522dabdee99838746d6fb695eeef46120b63",
+          "role": "extracted"
+        }
+      ],
+      "status": "downloaded_extracted_godot_import_verified_not_integrated",
+      "notes": [
+        "4600 imported vertices, 8152 triangles, 62 skeleton bones, 50 skin binds.",
+        "No-animation FBX has zero clips; test FBX has one 2.25-second test animation.",
+        "FBX material texture missing; test version scale 10x. Fixes restricted to AssetReview work copies.",
+        "Requires historical sleeves and weapon-specific first-person grip/bolt/reload animation."
+      ]
+    }
+  ]
+}

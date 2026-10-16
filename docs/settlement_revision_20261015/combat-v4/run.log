@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESCUE: stage=1 recruited=true player=(48.5542, 0.057717, 29.91206) courier=(47.0, 0.056888, 30.0) prompt=E  与陆山交谈
+RIVER DIAGNOSTICS: { "version": 2, "map_revision": 4, "village": { "version": 2, "entered": false, "phase": 0, "finished": false, "ally_position": [1156.0, 0.07999999821186, 276.0], "ally_shots": 0 }, "player": { "position": [66.7640686035156, 0.00083848979557, 22.0000057220459], "yaw": -1.57077717781067, "health": 91.0, "magazines": [4, 10], "reserves": [35, 50], "weapon": 0 }, "story": { "briefed": true, "choice": "ammunition", "letter": false, "supply": false, "recruited": true, "door": true, "bandages": 0, "lu_position": [56.275749206543, 0.00083824596368, 22.0008583068848], "following": true, "treated": true, "moments_seen": ["departure", "contact"] }, "stage": 1, "defeated": { "gate_guard": true, "gate_guard_2": true, "gate_guard_3": true, "timber_guard": true, "yard_guard": true, "yard_guard_2": true, "yard_guard_3": true, "door_ambusher": true, "office_guard_2": true, "office_guard": true, "office_guard_3": true, "office_guard_4": true }, "kills": 12, "elapsed": 70.216666666664, "yard": true, "opening": { "version": 1, "phase": "gameplay" }, "linear": { "version": 2, "enabled": true, "opened": ["checkpoint", "yard"], "contact_started": true, "extraction_started": false, "extraction_remaining": 30.0 }, "encounter": { "revision": 2, "expanded": true, "next": 0, "wait": 0.0, "hold_next": 0, "hold_wait": 0.0, "active": { "pier_guard": { "position": [74.0, 0.07999999821186, 26.0], "health": 75.0, "state": "patrol", "patrol": [74.0, 0.07999999821186, 18.0], "last_seen": [0.0, 0.0, 0.0], "memory": 0.0, "fire_wait": 1.2, "shots": 0, "yaw": 0.0 } } } } prompt=取回名册、切断电源，再接上陆山
+ERROR: Rescued courier did not unlock the river passage
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:72)
+       [1] _route (res://tests/combat_route.gd:206)
+       [2] _walk (res://tests/combat_route.gd:217)
+ERROR: Ferry did not reach the village
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:84)
+ERROR: Village encounter did not clear: 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:95)
+ERROR: Village gate did not open: 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:101)
+ERROR: Village encounter did not clear: 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:95)
+ERROR: Village gate did not open: 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:101)
+ERROR: Village encounter did not clear: 2
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:95)
+ACTIVE COMBAT ROUTE: FAIL | health=91.0 | guards defeated=12 | elapsed=73.2999999999971 | state=playing

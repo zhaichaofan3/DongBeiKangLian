@@ -1,0 +1,137 @@
+{
+  "all_passed": true,
+  "captures": [],
+  "checks": [
+    {
+      "description": "day weapon 0: real shot starts flash, smoke and light",
+      "passed": true
+    },
+    {
+      "description": "Muzzle aligned immediately; emitted smoke uses world coordinates",
+      "passed": true
+    },
+    {
+      "description": "Flash extinguishes within 100 ms while thin smoke remains",
+      "passed": true
+    },
+    {
+      "description": "Smoke clears within 0.5 seconds",
+      "passed": true
+    },
+    {
+      "description": "day weapon 1: real shot starts flash, smoke and light",
+      "passed": true
+    },
+    {
+      "description": "Muzzle aligned immediately; emitted smoke uses world coordinates",
+      "passed": true
+    },
+    {
+      "description": "Flash extinguishes within 100 ms while thin smoke remains",
+      "passed": true
+    },
+    {
+      "description": "Smoke clears within 0.5 seconds",
+      "passed": true
+    },
+    {
+      "description": "Remote flash starts at the actual animated rifle muzzle",
+      "passed": true
+    },
+    {
+      "description": "Remote flash and light last under 100 ms",
+      "passed": true
+    },
+    {
+      "description": "Remote effect is fully reclaimed after 0.5 seconds",
+      "passed": true
+    },
+    {
+      "description": "dim weapon 0: real shot starts flash, smoke and light",
+      "passed": true
+    },
+    {
+      "description": "Muzzle aligned immediately; emitted smoke uses world coordinates",
+      "passed": true
+    },
+    {
+      "description": "Flash extinguishes within 100 ms while thin smoke remains",
+      "passed": true
+    },
+    {
+      "description": "Smoke clears within 0.5 seconds",
+      "passed": true
+    },
+    {
+      "description": "dim weapon 1: real shot starts flash, smoke and light",
+      "passed": true
+    },
+    {
+      "description": "Muzzle aligned immediately; emitted smoke uses world coordinates",
+      "passed": true
+    },
+    {
+      "description": "Flash extinguishes within 100 ms while thin smoke remains",
+      "passed": true
+    },
+    {
+      "description": "Smoke clears within 0.5 seconds",
+      "passed": true
+    },
+    {
+      "description": "Remote flash starts at the actual animated rifle muzzle",
+      "passed": true
+    },
+    {
+      "description": "Remote flash and light last under 100 ms",
+      "passed": true
+    },
+    {
+      "description": "Remote effect is fully reclaimed after 0.5 seconds",
+      "passed": true
+    },
+    {
+      "description": "Three pistol shots consume three rounds and reuse one smoke emitter",
+      "passed": true
+    },
+    {
+      "description": "Empty magazine cannot create a muzzle effect",
+      "passed": true
+    },
+    {
+      "description": "Reloading blocks muzzle effects",
+      "passed": true
+    },
+    {
+      "description": "Switching weapons immediately hides the old shot",
+      "passed": true
+    },
+    {
+      "description": "Restore clears all first-person shot effects",
+      "passed": true
+    },
+    {
+      "description": "Pause cancels transient effects and blocks further fire",
+      "passed": true
+    },
+    {
+      "description": "Resume does not replay the previous flash",
+      "passed": true
+    },
+    {
+      "description": "Twelve same-frame shots retain at most eight muzzle effects",
+      "passed": true
+    },
+    {
+      "description": "All capped effects reclaim after their lifetime",
+      "passed": true
+    },
+    {
+      "description": "Loading the actual mission checkpoint clears remote and player effects",
+      "passed": true
+    }
+  ],
+  "rendered": false,
+  "scope": "gun effects and gameplay lifecycle; performance measured separately",
+  "step": "S26"
+}

@@ -1,0 +1,23 @@
+{
+  "step": "S08",
+  "checked_at": "2026-10-13T07:03:15.365387+00:00",
+  "scope": "document links, source syntax, JSON readback and image decoding; not gameplay tests",
+  "documents": [
+    "docs/S08-route-and-pacing.md",
+    "docs/level/S08/S09-handoff.md",
+    "docs/level/S08/resource_assignments.md",
+    "README.md",
+    "docs/README.md",
+    "docs/production_plan.md"
+  ],
+  "local_links_checked": 94,
+  "missing": [],
+  "json_files_read": 6,
+  "map_dimensions": [
+    1600,
+    1160
+  ],
+  "generator_sha256": "e989902bcde0120e6cc0590ee55d8d7f82129bd0460bc5883db0f672f205ea0d",
+  "survey_tool_sha256": "4198d0d718aa7f86be08576b1bde484b4c368ebeb4e590cfaa8121c86304509f",
+  "all_passed": true
+}

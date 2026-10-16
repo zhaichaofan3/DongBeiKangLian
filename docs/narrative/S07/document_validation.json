@@ -1,0 +1,19 @@
+{
+  "step": "S07",
+  "checked_at": "2026-10-13T06:41:34.806951+00:00",
+  "scope": "local Markdown file targets, UTF-8 readback, JSON readback",
+  "documents": [
+    "docs/S07-opening-rough-cut.md",
+    "docs/narrative/S07/issues.md",
+    "README.md",
+    "docs/README.md",
+    "docs/production_plan.md",
+    "GodotProject/README.md",
+    "GodotProject/ASSET_SOURCES.md",
+    "GodotProject/VERIFICATION.md"
+  ],
+  "links_checked": 100,
+  "missing": [],
+  "json_readback_count": 12,
+  "all_passed": true
+}

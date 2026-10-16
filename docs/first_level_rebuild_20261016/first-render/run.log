@@ -1,0 +1,50 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: First chapter navigation sampled from real colliders
+PASS: Opening encounters are separated by 76 metres
+PASS: Scout and optional logger are connected
+PASS: Closed first gate blocks all downstream routes: (34.0, 0.08, 194.0)
+PASS: Closed first gate blocks all downstream routes: (34.0, 0.08, 118.0)
+PASS: Closed first gate blocks all downstream routes: (79.0, 0.16, 14.0)
+PASS: Closed gate physically blocks movement 0
+PASS: Gate has no corner shortcut 0/-3.5
+PASS: Gate has no corner shortcut 0/0.0
+PASS: Gate has no corner shortcut 0/3.5
+PASS: Opened gate connects physical navigation 0
+PASS: Later locked gate still blocks the ferry
+PASS: Closed gate physically blocks movement 1
+PASS: Gate has no corner shortcut 1/-3.5
+PASS: Gate has no corner shortcut 1/0.0
+PASS: Gate has no corner shortcut 1/3.5
+PASS: Opened gate connects physical navigation 1
+PASS: Later locked gate still blocks the ferry
+PASS: Closed gate physically blocks movement 2
+PASS: Gate has no corner shortcut 2/-3.5
+PASS: Gate has no corner shortcut 2/0.0
+PASS: Gate has no corner shortcut 2/3.5
+PASS: Opened gate connects physical navigation 2
+PASS: Main path segment 01 is navigable
+PASS: Main path segment 02 is navigable
+PASS: Main path segment 03 is navigable
+PASS: Main path segment 04 is navigable
+PASS: Main path segment 05 is navigable
+PASS: Main path segment 06 is navigable
+PASS: Main path segment 07 is navigable
+PASS: Main path segment 08 is navigable
+PASS: Main path segment 09 is navigable
+PASS: Main path segment 10 is navigable
+PASS: Main path segment 11 is navigable
+PASS: Main path segment 12 is navigable
+PASS: Main path segment 13 is navigable
+PASS: Main path segment 14 is navigable
+ERROR: Node not found: "CollisionShape3D" (relative to "/root/Main/Player").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/first_level_rebuild.gd:55)
+       [1] frames (res://tests/first_level_rebuild.gd:18)
+SCRIPT ERROR: Invalid access to property or key 'shape' on a base object of type 'null instance'.
+   at: _run (res://tests/first_level_rebuild.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/first_level_rebuild.gd:55)
+       [1] frames (res://tests/first_level_rebuild.gd:18)

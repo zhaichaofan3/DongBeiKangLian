@@ -1,0 +1,62 @@
+[
+  {
+    "asset_id": "oga_jkms-tree-set",
+    "type": "missing_model_dependency",
+    "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/pinetree.obj",
+    "detail": "pinetree.mtl"
+  },
+  {
+    "asset_id": "oga_jkms-tree-set",
+    "type": "missing_model_dependency",
+    "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/pinetree_small.obj",
+    "detail": "pinetree_small.mtl"
+  },
+  {
+    "asset_id": "oga_jkms-tree-set",
+    "type": "missing_model_dependency",
+    "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/tree.obj",
+    "detail": "tree1.mtl"
+  },
+  {
+    "asset_id": "oga_jkms-tree-set",
+    "type": "missing_model_dependency",
+    "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/tree_small.obj",
+    "detail": "tree1_small.mtl"
+  },
+  {
+    "asset_id": "oga_jkms-tree-set",
+    "type": "missing_model_dependency",
+    "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/xmas_tree.obj",
+    "detail": "xmas_tree.mtl"
+  },
+  {
+    "asset_id": "oga_birch-tree",
+    "type": "missing_blender_image_reference",
+    "path": "AssetLibrary/environment/supplement/birch-tree/treebirch.blend",
+    "detail": {
+      "image": "BarkBirch_d512.png",
+      "source_reference": "//Texture\\BarkBirch_d512.png",
+      "data_users": 1
+    }
+  },
+  {
+    "asset_id": "oga_birch-tree",
+    "type": "missing_blender_image_reference",
+    "path": "AssetLibrary/environment/supplement/birch-tree/treebirch.blend",
+    "detail": {
+      "image": "BirchLeafsGreen.png",
+      "source_reference": "//Texture\\BirchLeafsGreen.png",
+      "data_users": 1
+    }
+  },
+  {
+    "asset_id": "oga_birch-tree",
+    "type": "missing_blender_image_reference",
+    "path": "AssetLibrary/environment/supplement/birch-tree/treebirch.blend",
+    "detail": {
+      "image": "tree_trunk",
+      "source_reference": "//textures\\tree_trunk.png",
+      "data_users": 1
+    }
+  }
+]

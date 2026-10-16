@@ -1,0 +1,332 @@
+{
+  "step": "S10",
+  "buildings": [
+    {
+      "slot": "D01",
+      "source": "AssetLibrary/environment/china_northeast_20261013/models/log_cabin_scene/log_cabin_scene.glb",
+      "source_sha256": "ac977670a38c94dd9f963345f0b57e08cef5dd1a2027e89c45d7a5c30ce4d535",
+      "changes": [
+        "Extracted Cottage and Door; scenery slab and fence retained in original only",
+        "Centimetres to metres; front turned toward forest road",
+        "Scenic log-house reference, not a regional historical reconstruction"
+      ],
+      "dimensions_godot": [
+        14.998729228973389,
+        7.2756476402282715,
+        14.228419303894043
+      ],
+      "bounds_godot": {
+        "low": [
+          -7.499364852905273,
+          0.0,
+          -7.11421012878418
+        ],
+        "high": [
+          7.499364376068115,
+          7.2756476402282715,
+          7.114209175109863
+        ]
+      },
+      "triangles": 3346,
+      "materials": 1,
+      "door_height_m": 1.854,
+      "colliders": [
+        {
+          "center": [
+            0,
+            2.75,
+            0
+          ],
+          "size": [
+            12.7,
+            5.5,
+            11.8
+          ]
+        }
+      ],
+      "editable": "AssetLibrary/derived/S10_buildings/D01.blend",
+      "game": "GodotProject/assets/environment/buildings/D01.glb"
+    },
+    {
+      "slot": "D02",
+      "source": "AssetLibrary/environment/supplement/retro-log-cabin/extracted/log_cabin/log_cabin.fbx",
+      "source_sha256": "535eb68414131be18a3376c7c09aabb8254bcf0c0d3ba1ef23572f50a4a77821",
+      "changes": [
+        "Restored missing FBX material link to supplied 1024px atlas",
+        "Uniform scale 1.08; door approximately 2.07m",
+        "Smaller solid shell matches cabin; remaining slot is open yard"
+      ],
+      "dimensions_godot": [
+        6.372732877731323,
+        4.367719411849976,
+        6.480000734329224
+      ],
+      "bounds_godot": {
+        "low": [
+          -3.1865975856781006,
+          0.8187859058380127,
+          -3.2400009632110596
+        ],
+        "high": [
+          3.1861352920532227,
+          5.186505317687988,
+          3.239999771118164
+        ]
+      },
+      "triangles": 1554,
+      "materials": 1,
+      "door_height_m": 2.0736,
+      "colliders": [
+        {
+          "center": [
+            0,
+            1.45,
+            0
+          ],
+          "size": [
+            6,
+            2.9,
+            5.9
+          ]
+        }
+      ],
+      "editable": "AssetLibrary/derived/S10_buildings/D02.blend",
+      "game": "GodotProject/assets/environment/buildings/D02.glb"
+    },
+    {
+      "slot": "D03",
+      "source": "AssetLibrary/environment/china_northeast_20261013/models/warehouse/warehouse.glb",
+      "source_sha256": "e600fa56109904c8c4c610db9c3b1dc9d2718f664b22e42b6c60f8ffc1ec4606",
+      "changes": [
+        "Scaled source to10x17m; wall height7.2m",
+        "Added pitched roof, closed gables, timber wall backing and closed loading doors",
+        "Original steel/corrugated structure preserved; no playable interior"
+      ],
+      "dimensions_godot": [
+        10.632514953613281,
+        8.328330993652344,
+        17.600000381469727
+      ],
+      "bounds_godot": {
+        "low": [
+          -5.316257476806641,
+          0.0,
+          -8.800000190734863
+        ],
+        "high": [
+          5.316257476806641,
+          8.328330993652344,
+          8.800000190734863
+        ]
+      },
+      "triangles": 7388,
+      "materials": 12,
+      "door_height_m": 3.3,
+      "colliders": [
+        {
+          "center": [
+            0,
+            3.6,
+            0
+          ],
+          "size": [
+            10,
+            7.2,
+            17
+          ]
+        }
+      ],
+      "editable": "AssetLibrary/derived/S10_buildings/D03.blend",
+      "game": "GodotProject/assets/environment/buildings/D03.glb"
+    },
+    {
+      "slot": "D04",
+      "source": "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/modular_factory_facade_2k.gltf",
+      "source_sha256": "f659bc368b07878202dbacca63bc60c8150bb61a3ede4869b540864e4dcb1e48",
+      "changes": [
+        "Assembled24 facade bays from original wall/window modules",
+        "Added solid backings, full roof, gables, corners and closed timber doors",
+        "Omitted modern garage doors and unused display-grid parts;1K packed textures"
+      ],
+      "dimensions_godot": [
+        24.02694320678711,
+        6.94885778427124,
+        12.0
+      ],
+      "bounds_godot": {
+        "low": [
+          -12.013471603393555,
+          0.0,
+          -6.0
+        ],
+        "high": [
+          12.013471603393555,
+          6.94885778427124,
+          6.0
+        ]
+      },
+      "triangles": 50410,
+      "materials": 6,
+      "door_height_m": 2.6,
+      "colliders": [
+        {
+          "center": [
+            0,
+            2.4,
+            0
+          ],
+          "size": [
+            23.6,
+            4.8,
+            11.6
+          ]
+        }
+      ],
+      "editable": "AssetLibrary/derived/S10_buildings/D04.blend",
+      "game": "GodotProject/assets/environment/buildings/D04.glb"
+    },
+    {
+      "slot": "D05",
+      "source": "AssetLibrary/environment/supplement/medieval-waterpowered-sawmill/extracted/WaterPoweredSawmillUpload.blend",
+      "source_sha256": "230f8260d35254551f0ca07b4a37e022816823e307becb66badda65d8f47b532",
+      "changes": [
+        "Kept original timber frame, roof framing, roof and floor",
+        "Removed waterwheel, submerged foundation and powered saw mechanism; originals remain untouched",
+        "Scaled shell into11.4x5.65m plot, roof4.85m; low post collision derived from timber pieces",
+        "D07 stock still shares this roof; detailed production dressing remains S11"
+      ],
+      "dimensions_godot": [
+        6.74358606338501,
+        5.059802532196045,
+        3.2420977354049683
+      ],
+      "bounds_godot": {
+        "low": [
+          -3.1455557346343994,
+          1.9643354415893555,
+          -4.189949989318848
+        ],
+        "high": [
+          3.5980303287506104,
+          7.0241379737854,
+          -0.9478522539138794
+        ]
+      },
+      "triangles": 884,
+      "materials": 3,
+      "door_height_m": null,
+      "colliders": [
+        {
+          "center": [
+            -2.8228540420532227,
+            2.5038883686065674,
+            -1.1580193042755127
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            -0.7906662225723267,
+            2.5038883686065674,
+            -1.1580193042755127
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            1.2415214776992798,
+            2.5038883686065674,
+            -1.1580193042755127
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            3.273709535598755,
+            2.5038883686065674,
+            -1.1580193042755127
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            -2.8228540420532227,
+            2.5038883686065674,
+            -3.915762424468994
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            -0.7906662225723267,
+            2.5038883686065674,
+            -3.915762424468994
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            1.2415214776992798,
+            2.5038883686065674,
+            -3.915762424468994
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            3.273709535598755,
+            2.5038883686065674,
+            -3.915762424468994
+          ],
+          "size": [
+            0.22,
+            0.9922232627868652,
+            0.22
+          ]
+        },
+        {
+          "center": [
+            0,
+            4.05,
+            0
+          ],
+          "size": [
+            11.4,
+            0.2,
+            5.65
+          ]
+        }
+      ],
+      "editable": "AssetLibrary/derived/S10_buildings/D05.blend",
+      "game": "GodotProject/assets/environment/buildings/D05.glb"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Title: Fantozzi footsteps grass/sand and stone
+Author: Fantozzi; prepared by Iwan Gabovitch (qubodup)
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/fantozzis-footsteps-grasssand-stone
+Evidence: source.html and source.txt
+Notes: 12 steps in FLAC and OGG; avoid counting alternate formats as unique performances.

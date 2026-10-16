@@ -1,0 +1,35 @@
+{
+  "id": "creaky-light-wooden-door",
+  "title": "Creaky light wooden door",
+  "source_url": "https://opengameart.org/content/creaky-light-wooden-door",
+  "author": "fractilegames",
+  "license": "CC-BY-3.0",
+  "notes": "Recorded cabinet door; suitable close creak layer.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "creaky-light-wooden-door/originals/creakylightwoodendoor.wav",
+      "download_url": "https://opengameart.org/sites/default/files/creakylightwoodendoor.wav",
+      "bytes": 1223388,
+      "sha256": "9b0a91420015c2ae080ef6fd9a3bf8141dc897b4d05aa6488d4e23c13bae8335",
+      "role": "original_download"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 1,
+    "decode_passed": 1,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 6.94,
+    "duration_range_seconds": [
+      6.935,
+      6.935
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

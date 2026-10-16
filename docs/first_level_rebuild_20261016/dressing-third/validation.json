@@ -1,0 +1,28 @@
+{
+	"captures": [
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/arrival.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/checkpoint.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/transport-turn.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/timber-yard.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/office-reveal.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/arrival-shelter.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/checkpoint-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/timber-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/loading-forest.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/office-approach.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/escort-road.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/ferry.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/overview.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/village-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/logging-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/timber-barrage.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/village-to-camp.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-third/mission-handoff.png"
+	],
+	"checks": 123,
+	"critical_path_metres": 568.592300727963,
+	"failures": [],
+	"near_trees": 36,
+	"passed": true,
+	"scenery_objects": 248
+}

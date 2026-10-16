@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: pause_A | Pause freezes clock, mode and environment audio
+PASS: resume_A | Resume returns to the same cinematic point
+PASS: exit_A_restore | Mid-history exit resumes at the saved A boundary
+PASS: skip_A_exit_B | Skip-A then exit resumes at the B boundary
+PASS: pause_B_dialogue | Pause preserves the B1 dialogue stream
+PASS: skip_B_handoff | Skip-B commits one gameplay handoff without advancing objectives
+PASS: skip_B_idempotent | Repeated finish is idempotent
+PASS: gameplay_restore | Gameplay checkpoint restores play instead of replaying B
+PASS: restore_unique_guards | Restore has exactly the five unique initial guards
+PASS: invalid_opening_save | Malformed opening save enters a visible load error
+PASS: legacy_restore | Legacy gameplay save retains the original briefing state
+PASS: failed_write | Failed handoff write exposes a retry state
+PASS: failed_write_preserves_file | Failed final write preserves the previous file byte for byte
+PASS: retry_write | Retry writes the prepared gameplay checkpoint
+S34 STATE MATRIX: PASS | checks=14 rows=9

@@ -1,0 +1,44 @@
+{
+  "id": "mysterious-radio-signal",
+  "title": "Mysterious Radio Signal",
+  "source_url": "https://opengameart.org/content/mysterious-radio-signal",
+  "author": "nicStage (2005); Sam Uncle (2017)",
+  "license": "CC-BY-3.0",
+  "notes": "Static and Morse code mixture; ambient radio layer only, not a historically verified message. Original contributor credit retained.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "mysterious-radio-signal/originals/static-radio_0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/static-radio_0.ogg",
+      "bytes": 1270567,
+      "sha256": "7ca4b931f319b25bf317cddde5b4de9d8655905314271321100e1264d977a985",
+      "role": "original_download"
+    },
+    {
+      "path": "ready_to_import/props/radio_morse_static.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/static-radio_0.ogg",
+      "bytes": 1297116,
+      "sha256": "d2af79e66992d54926c698f5a1b9f785ff70c89d34a1a712f77466ebd4d65c61",
+      "role": "derived_ready_to_import",
+      "source_path": "mysterious-radio-signal/originals/static-radio_0.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 1,
+    "decode_passed": 1,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      1
+    ],
+    "total_duration_seconds": 102.54,
+    "duration_range_seconds": [
+      102.54,
+      102.54
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

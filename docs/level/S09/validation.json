@@ -1,0 +1,68 @@
+{
+  "step": "S09",
+  "all_passed": true,
+  "release_updated": false,
+  "regression_assertions": 242,
+  "regression_suites": {
+    "smoke": 107,
+    "linear-route": 37,
+    "visual-motion": 50,
+    "story-moments": 11,
+    "character-model": 37
+  },
+  "opening_assertions": 41,
+  "geometry_assertions": 48,
+  "route_assertions": 40,
+  "captures": 14,
+  "routes": [
+    {
+      "case": "direct",
+      "all_passed": true,
+      "opening_seconds": 0.0,
+      "gameplay_seconds": 75.999999999997,
+      "health": 100.0,
+      "kills": 7,
+      "peak_live_guards": 5,
+      "reinforcements_dispatched": 2,
+      "final_mode": "won"
+    },
+    {
+      "case": "full",
+      "all_passed": true,
+      "opening_seconds": 160.133333333353,
+      "gameplay_seconds": 82.03333333333,
+      "health": 100.0,
+      "kills": 7,
+      "peak_live_guards": 5,
+      "reinforcements_dispatched": 3,
+      "final_mode": "won"
+    },
+    {
+      "case": "skip",
+      "all_passed": true,
+      "opening_seconds": 0.0,
+      "gameplay_seconds": 77.7833333333302,
+      "health": 100.0,
+      "kills": 7,
+      "peak_live_guards": 5,
+      "reinforcements_dispatched": 2,
+      "final_mode": "won"
+    }
+  ],
+  "sources": {
+    "GodotProject/scripts/route_blockout.gd": "c830c1f8ab87732f449c906f7064293634c60c79047470a07d870fd80fad7260",
+    "GodotProject/scripts/world.gd": "f1780ffddea1f0c9b861620315283e27247a543fa9f1c940c04bdb1bf54c616d",
+    "GodotProject/scripts/mission.gd": "7a732455ddcd5844d431a97d97d51c4e0679d0fdaa7b42ae7fd48c35c117c66b",
+    "GodotProject/project.godot": "3027a7eb1d2d4908ff90901428400c6942c84e71602c0b6f49869e79f3aa8cad",
+    "Test-RouteBlockout.ps1": "efa4a78099c58d7ef23e9b86daf882d7c88a51d65c6fb58251c27c6a41fb730b",
+    "GodotProject/tests/s09_route.gd": "fa84656d2e2f8b95698e3f878b309ab62eb72a59209bbcf4fa05ae19c2e9e2cd",
+    "GodotProject/tests/s09_geometry.gd": "c234ef655eb3259adc8dcf256fb880de0b2231b3c73c8b1dd12a27815be89c4e",
+    "GodotProject/tests/s09_overview.gd": "2644e1681102924199a19721246b689a4dedffb050bd5515bc133ae20fec1023",
+    "tools/build_s09_evidence.py": "c52784dae0efc473d2bfa4f0d8d6488913e1722d9842d7875d9bc7c071ed7dda"
+  },
+  "limits": [
+    "Precise automatic aim; no human difficulty or 8-12 minute pacing acceptance",
+    "Primitive structures, not final imported assets",
+    "S13 complete AI/collision matrix and S35 performance optimization remain future work"
+  ]
+}

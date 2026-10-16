@@ -1,0 +1,33 @@
+{
+  "enemy_shots_observed": 10,
+  "fixture": "normal guard sight/fire and player muzzle/effect paths; five guards repositioned around a production scene fixture; route gates disabled for setup; normal health, weapon intervals, magazines and reload; 12 seconds real time. Not a difficulty or traversal assessment.",
+  "fps_limit": 0,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "max_frame_ms": 22.314,
+  "mean_draw_calls": 690.532595325953,
+  "mean_fps": 203.181646307821,
+  "mean_frame_ms": 4.92170438704387,
+  "mean_primitives": 399777.792947929,
+  "measurement_valid": true,
+  "p95_frame_ms": 6.782,
+  "p99_frame_ms": 8.169,
+  "peak_alive_enemies": 5,
+  "player_shots_observed": 15,
+  "quality": "balanced",
+  "render_scale_3d": 1.0,
+  "renderer": "gl_compatibility",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "sample_frames": 2439,
+  "sample_seconds": 12.004037,
+  "status": "firefight_sample_complete",
+  "step": "S35",
+  "two_sided_exchange": true,
+  "vsync": false,
+  "window_resolution": [
+    1920,
+    1080
+  ]
+}

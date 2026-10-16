@@ -1,0 +1,11 @@
+{
+  "id": "N14",
+  "part": "A",
+  "text": "这是战火磨练铸成的东北抗联精神，",
+  "voice": "Microsoft Kangkang",
+  "rate": -1,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

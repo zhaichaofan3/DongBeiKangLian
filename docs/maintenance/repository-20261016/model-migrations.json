@@ -1,0 +1,56 @@
+[
+  {
+    "source": "docs/expansion_20261015/camp/raw-import.blend",
+    "target": "AssetLibrary/environment/user_expansion_20261015/imported/camp/raw-import.blend",
+    "bytes": 47703325,
+    "sha256": "722508886becb81d829fea06aff8796c38c06a2ace1a9a298ae25459fd89c06b"
+  },
+  {
+    "source": "docs/expansion_20261015/dock/raw-import.blend",
+    "target": "AssetLibrary/environment/user_expansion_20261015/imported/dock/raw-import.blend",
+    "bytes": 109482240,
+    "sha256": "15d412a9c8bd9e12254e21c32775e32052ea55ac54bd26d17193decc4fba60ad"
+  },
+  {
+    "source": "docs/expansion_20261015/fence/raw-import.blend",
+    "target": "AssetLibrary/environment/user_expansion_20261015/imported/fence/raw-import.blend",
+    "bytes": 8383248,
+    "sha256": "2f39bcf4c734a27c69bdfb47f589600e6566af3b23c55ccf0acc235f10fb402c"
+  },
+  {
+    "source": "docs/expansion_20261015/office/raw-import.blend",
+    "target": "AssetLibrary/environment/user_expansion_20261015/imported/office/raw-import.blend",
+    "bytes": 41084764,
+    "sha256": "523c6b9fbb473f470c186cd1efc81bcdb401eb41e6a1a21382b7638a6347710b"
+  },
+  {
+    "source": "docs/expansion_20261015/rifle/raw-import.blend",
+    "target": "AssetLibrary/environment/user_expansion_20261015/imported/rifle/raw-import.blend",
+    "bytes": 4301894,
+    "sha256": "e6bcc6772e5e34ff775e799c0d21d93cc742d55b7ac35301628b903af43be0da"
+  },
+  {
+    "source": "docs/expansion_20261015/river/raw-import.blend",
+    "target": "AssetLibrary/environment/user_expansion_20261015/imported/river/raw-import.blend",
+    "bytes": 277552178,
+    "sha256": "b4fa2f92873226d9a2a119a49545534af50b080c2d9c8f213c0c1b62c7eab620"
+  },
+  {
+    "source": "docs/expansion_20261015/village/raw-import.blend",
+    "target": "AssetLibrary/environment/user_expansion_20261015/imported/village/raw-import.blend",
+    "bytes": 330062798,
+    "sha256": "2ee4ffd4ecab99a45720d872c9e809762a870ccbb607334d3aeee0192a410f57"
+  },
+  {
+    "source": "docs/user-models-20261015/japanese/raw-import.blend",
+    "target": "AssetLibrary/characters/user_models_20261015/imported/japanese/raw-import.blend",
+    "bytes": 1439548,
+    "sha256": "ad3170827efbd60e65b531dd23aa854084783ab4f89cd2f94860d3c236a2edf2"
+  },
+  {
+    "source": "docs/user-models-20261015/volunteer/raw-import.blend",
+    "target": "AssetLibrary/characters/user_models_20261015/imported/volunteer/raw-import.blend",
+    "bytes": 11691178,
+    "sha256": "3c35e50807da50c9e39cd84b8bc8b87ca194ce3d0852f78a0d5f05d3f621a8a2"
+  }
+]

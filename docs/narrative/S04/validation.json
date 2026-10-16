@@ -1,0 +1,87 @@
+{
+  "step": "S04",
+  "date": "2026-10-13",
+  "scope": "Verbatim text and draft subtitle exports; no audio or game playback verification",
+  "passed": true,
+  "original_characters": 161,
+  "spoken_hanzi": 147,
+  "canonical_sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320",
+  "matches_S03_original": true,
+  "cues": 15,
+  "srt_roundtrip_exact": true,
+  "webvtt_roundtrip_exact": true,
+  "original_txt_exact": true,
+  "char_ranges_contiguous": true,
+  "cue_times_monotonic_nonoverlapping": true,
+  "max_line_characters": 16,
+  "max_lines": 2,
+  "min_display_duration_ms": 2400,
+  "duration_ms": 80000,
+  "voice_windows_total_ms": 63500,
+  "between_clause_pauses_ms": 9200,
+  "voice_start_ms": 3000,
+  "voice_end_ms": 75700,
+  "segments": [
+    {
+      "id": "A1",
+      "start_ms": 0,
+      "end_ms": 17400
+    },
+    {
+      "id": "A2",
+      "start_ms": 17400,
+      "end_ms": 27100
+    },
+    {
+      "id": "A3",
+      "start_ms": 27100,
+      "end_ms": 45500
+    },
+    {
+      "id": "A4",
+      "start_ms": 45500,
+      "end_ms": 59900
+    },
+    {
+      "id": "A5",
+      "start_ms": 59900,
+      "end_ms": 75700
+    },
+    {
+      "id": "A6",
+      "start_ms": 75700,
+      "end_ms": 80000
+    }
+  ],
+  "audio_recorded": false,
+  "runtime_integrated": false,
+  "audio_alignment_measured": false,
+  "subtitle_render_verified": false,
+  "outputs": [
+    {
+      "path": "docs/narrative/S04/narration_original.txt",
+      "bytes": 483,
+      "sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320"
+    },
+    {
+      "path": "docs/narrative/S04/narration_rehearsal.srt",
+      "bytes": 1059,
+      "sha256": "af21aa7693b3a2809e3297a1c33abeb1cae98346eaaa8104543bf7d09fbf53ca"
+    },
+    {
+      "path": "docs/narrative/S04/narration_rehearsal.vtt",
+      "bytes": 1093,
+      "sha256": "0f93802dd152b26a3ade593ae6fe880680b906ae6a3ef025dd948d56af5cef62"
+    },
+    {
+      "path": "docs/narrative/S04/narration_timeline.json",
+      "bytes": 13017,
+      "sha256": "3bcc0957c6e7a27e67798635030206c621be22522d2467f63651c5f87491b3aa"
+    },
+    {
+      "path": "docs/S04-narration-and-subtitles.md",
+      "bytes": 10643,
+      "sha256": "3214837a0c5ebe2851d809d6039f382f7abf72b2a100e12bb2568af4bd14c211"
+    }
+  ]
+}

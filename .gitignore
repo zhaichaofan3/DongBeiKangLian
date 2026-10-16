@@ -1,0 +1,33 @@
+# Rebuildable output
+GodotProject/.godot/
+GodotProject/captures/
+GodotProject/verification-captures/
+GodotProject/*.log
+**/__pycache__/
+*.pyc
+*.blend1
+*.blend2
+*.tmp
+*.pending.pck
+*.dmp
+# Local tools, builds and recovery
+tools/Godot-*/
+tools/blender-*-windows-x64/
+tools/asset_python/
+tools/downloads/
+Release/
+ReleaseBackups/
+WorkBackups/
+RestoreChecks/
+.publish/
+docs/validation/
+# Private/local state
+ConversationBackups/
+.auto-resume/
+.models/
+.env
+.env.*
+*.pem
+*.key
+Thumbs.db
+Desktop.ini

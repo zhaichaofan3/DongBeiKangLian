@@ -1,0 +1,215 @@
+{
+  "all_passed": true,
+  "body_names": [
+    "D01_collision",
+    "D02_collision",
+    "D03_collision",
+    "D04_collision",
+    "D05_post_0",
+    "D05_post_1",
+    "D05_post_2",
+    "D05_post_3",
+    "D05_post_4",
+    "D05_post_5",
+    "D05_post_6",
+    "D05_post_7",
+    "D07_stock",
+    "D06_counter",
+    "D06_canopy",
+    "D06_post",
+    "@StaticBody3D@2994",
+    "D08_screen",
+    "D08_chest",
+    "D09_table"
+  ],
+  "checks": [
+    {
+      "description": "S09 route container remains enabled",
+      "passed": true
+    },
+    {
+      "description": "D01 reviewed model node exists",
+      "passed": true
+    },
+    {
+      "description": "D01 reviewed model contains render meshes",
+      "passed": true
+    },
+    {
+      "description": "D01 reviewed mesh has non-zero bounds",
+      "passed": true
+    },
+    {
+      "description": "D02 reviewed model node exists",
+      "passed": true
+    },
+    {
+      "description": "D02 reviewed model contains render meshes",
+      "passed": true
+    },
+    {
+      "description": "D02 reviewed mesh has non-zero bounds",
+      "passed": true
+    },
+    {
+      "description": "D03 reviewed model node exists",
+      "passed": true
+    },
+    {
+      "description": "D03 reviewed model contains render meshes",
+      "passed": true
+    },
+    {
+      "description": "D03 reviewed mesh has non-zero bounds",
+      "passed": true
+    },
+    {
+      "description": "D04 reviewed model node exists",
+      "passed": true
+    },
+    {
+      "description": "D04 reviewed model contains render meshes",
+      "passed": true
+    },
+    {
+      "description": "D04 reviewed mesh has non-zero bounds",
+      "passed": true
+    },
+    {
+      "description": "D05 reviewed model node exists",
+      "passed": true
+    },
+    {
+      "description": "D05 reviewed model contains render meshes",
+      "passed": true
+    },
+    {
+      "description": "D05 reviewed mesh has non-zero bounds",
+      "passed": true
+    },
+    {
+      "description": "D01_collision collision body exists",
+      "passed": true
+    },
+    {
+      "description": "D02_collision collision body exists",
+      "passed": true
+    },
+    {
+      "description": "D03_collision collision body exists",
+      "passed": true
+    },
+    {
+      "description": "D04_collision collision body exists",
+      "passed": true
+    },
+    {
+      "description": "D05 retains eight low-post colliders",
+      "passed": true
+    },
+    {
+      "description": "All S09 reserved slots remain defined",
+      "passed": true
+    }
+  ],
+  "d05_post_colliders": 8,
+  "method": "Headless scene instantiation; reviewed GLB mesh presence and route collision nodes. Human visual review remains separate.",
+  "models": [
+    {
+      "first_mesh_size": [
+        14.9987297058105,
+        7.27564764022827,
+        14.228419303894
+      ],
+      "id": "D01",
+      "mesh_nodes": 1,
+      "position": [
+        -18.0,
+        0.0,
+        67.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "first_mesh_size": [
+        6.3727331161499,
+        4.36771965026855,
+        6.48000049591064
+      ],
+      "id": "D02",
+      "mesh_nodes": 1,
+      "position": [
+        11.0,
+        -0.819000005722046,
+        53.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "first_mesh_size": [
+        10.6325149536133,
+        8.32833099365234,
+        17.6000003814697
+      ],
+      "id": "D03",
+      "mesh_nodes": 1,
+      "position": [
+        54.0,
+        0.0,
+        73.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "first_mesh_size": [
+        24.0269432067871,
+        6.9488582611084,
+        12.0
+      ],
+      "id": "D04",
+      "mesh_nodes": 1,
+      "position": [
+        54.0,
+        0.0,
+        10.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "first_mesh_size": [
+        6.74358606338501,
+        5.05980253219604,
+        3.24209785461426
+      ],
+      "id": "D05",
+      "mesh_nodes": 1,
+      "position": [
+        53.6160011291504,
+        -1.96399998664856,
+        56.4959983825684
+      ],
+      "scale": [
+        1.70000004768372,
+        1.0,
+        1.75
+      ]
+    }
+  ],
+  "step": "S10"
+}

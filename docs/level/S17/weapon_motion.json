@@ -1,0 +1,47 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "Moving aim reaches a stable rifle travel speed",
+      "passed": true
+    },
+    {
+      "description": "Rifle aim converges while moving",
+      "passed": true
+    },
+    {
+      "description": "Moving aim keeps sights centered with bounded sway",
+      "passed": true
+    },
+    {
+      "description": "Rifle fires with movement and aim active",
+      "passed": true
+    },
+    {
+      "description": "Rifle recoil and bolt sequence recover after firing",
+      "passed": true
+    },
+    {
+      "description": "Rifle reload exposes its clip during the action",
+      "passed": true
+    },
+    {
+      "description": "Switching weapon safely interrupts rifle reload",
+      "passed": true
+    },
+    {
+      "description": "Damage disturbance is visible without taking control away",
+      "passed": true
+    },
+    {
+      "description": "Damage disturbance recovers over time",
+      "passed": true
+    },
+    {
+      "description": "Restore clears movement and weapon disturbance state",
+      "passed": true
+    }
+  ],
+  "method": "Real first-person player with movement, aim, fire, reload interruption, damage recovery and restore.",
+  "step": "S17"
+}

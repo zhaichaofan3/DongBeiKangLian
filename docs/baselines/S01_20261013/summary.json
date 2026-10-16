@@ -1,0 +1,447 @@
+{
+  "step": "S01",
+  "date": "2026-10-13",
+  "baseline_release_version": "0.6.1",
+  "embedded_project_version": "0.6",
+  "acceptance_passed": true,
+  "starting_checkpoint": "WorkBackups/20261013-115838-S01-in_progress-6a7858",
+  "completion_checkpoint_pointer": "WorkBackups/LATEST.txt",
+  "regression": {
+    "source": {
+      "checks": {
+        "SMOKE": 107,
+        "LINEAR ROUTE": 37,
+        "VISUAL MOTION": 50,
+        "STORY MOMENTS": 11,
+        "CHARACTER MODEL": 37
+      },
+      "total_passed": 242,
+      "route_passed": true,
+      "log": "source-regression.log"
+    },
+    "release": {
+      "checks": {
+        "SMOKE": 107,
+        "LINEAR ROUTE": 37,
+        "VISUAL MOTION": 50,
+        "STORY MOMENTS": 11,
+        "CHARACTER MODEL": 37
+      },
+      "total_passed": 242,
+      "route_passed": true,
+      "log": "release-regression.log"
+    }
+  },
+  "integrity": {
+    "comparison_checkpoint": "WorkBackups/20261013-115838-S01-in_progress-6a7858",
+    "source_files_checked": 279,
+    "unchanged_source_files": 277,
+    "modified_test_harnesses": [
+      "GodotProject/tests/combat_performance_monitor.gd",
+      "GodotProject/tests/performance.gd"
+    ],
+    "gameplay_and_asset_files_unchanged": true,
+    "release_files": [
+      {
+        "path": "Release/FenghuoEcho.exe",
+        "bytes": 180858888,
+        "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424",
+        "matches_release_record": true,
+        "matches_at_completion": true
+      },
+      {
+        "path": "Release/FenghuoEcho.pck",
+        "bytes": 302605228,
+        "sha256": "0cbb03c8e5707e5d98290c5d272e5ee8fe00e01c2399ebda4bcce0e7f7180c87",
+        "matches_release_record": true,
+        "matches_at_completion": true
+      }
+    ]
+  },
+  "performance": {
+    "source": {
+      "fixed": {
+        "engine": "4.7.2-stable (official)",
+        "fps_limit": 0,
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "measurement_valid": true,
+        "quality": "1",
+        "render_scale_3d": 1.0,
+        "renderer": "gl_compatibility",
+        "reported_viewport_texture_size": [
+          2880.0,
+          1620.0
+        ],
+        "resolution": [
+          1920,
+          1080
+        ],
+        "resolution_method": "Viewport image readback outside timed samples, with window and stretch configuration checked each sample.",
+        "sample_seconds_per_view": 3,
+        "scope": "Fixed camera views; AI and player physics paused; excludes startup and shader warmup.",
+        "views": [
+          {
+            "frames": 557,
+            "mean_draw_calls": 891.0,
+            "mean_fps": 185.572395889555,
+            "mean_frame_ms": 5.38873249551167,
+            "mean_primitives": 1422537.0,
+            "node_count": 2238.0,
+            "p95_frame_ms": 7.228,
+            "p99_frame_ms": 8.624,
+            "view": "forest_contact"
+          },
+          {
+            "frames": 713,
+            "mean_draw_calls": 655.0,
+            "mean_fps": 237.518138657293,
+            "mean_frame_ms": 4.21020476858345,
+            "mean_primitives": 531376.0,
+            "node_count": 2238.0,
+            "p95_frame_ms": 5.924,
+            "p99_frame_ms": 7.07,
+            "view": "yard"
+          },
+          {
+            "frames": 882,
+            "mean_draw_calls": 436.0,
+            "mean_fps": 293.884797159513,
+            "mean_frame_ms": 3.40269387755102,
+            "mean_primitives": 410596.0,
+            "node_count": 2238.0,
+            "p95_frame_ms": 4.694,
+            "p99_frame_ms": 5.629,
+            "view": "office"
+          }
+        ],
+        "vsync": false,
+        "window_resolution": [
+          1920,
+          1080
+        ]
+      },
+      "route": {
+        "active_route_frames": {
+          "frames": 16104,
+          "max_frame_ms": 17.648,
+          "mean_fps": 257.68620636652,
+          "mean_frame_ms": 3.8806888971684,
+          "p95_frame_ms": 6.26,
+          "p99_frame_ms": 7.841,
+          "seconds_sampled": 62.494614
+        },
+        "all_playing_frames": {
+          "frames": 21987,
+          "max_frame_ms": 17.648,
+          "mean_fps": 272.331876528516,
+          "mean_frame_ms": 3.67199026697592,
+          "p95_frame_ms": 5.999,
+          "p99_frame_ms": 7.534,
+          "seconds_sampled": 80.7360499999996
+        },
+        "enemy_in_combat_frames": {
+          "frames": 43,
+          "max_frame_ms": 11.869,
+          "mean_fps": 138.154385919819,
+          "mean_frame_ms": 7.23827906976744,
+          "p95_frame_ms": 9.552,
+          "p99_frame_ms": 11.564,
+          "seconds_sampled": 0.311246
+        },
+        "enemy_shots_observed": 0,
+        "fps_limit": 0,
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "health_at_finish": 100.0,
+        "mean_draw_calls": 363.294082867149,
+        "measurement_valid": true,
+        "peak_alive_enemies_observed": 5,
+        "player_shots_observed": 9,
+        "quality": "balanced",
+        "recent_enemy_firing_frames": {
+          "frames": 0
+        },
+        "recent_firing_frames": {
+          "frames": 1576,
+          "max_frame_ms": 17.648,
+          "mean_fps": 199.690479756378,
+          "mean_frame_ms": 5.00774999999999,
+          "p95_frame_ms": 7.953,
+          "p99_frame_ms": 9.477,
+          "seconds_sampled": 7.89221399999999
+        },
+        "render_scale_3d": 1.0,
+        "renderer": "gl_compatibility",
+        "reported_peak_texture_bytes": 433950777.0,
+        "reported_viewport_texture_size": [
+          2880,
+          1620
+        ],
+        "resolution": [
+          1920,
+          1080
+        ],
+        "resolution_method": "Viewport image readback before and after sampling; window and stretch configuration checked each sample; readback intervals excluded.",
+        "route_passed": true,
+        "scope": "Real AI and automated player route; automatic aiming is not human difficulty. Primary active_route_frames include movement or a shot within 1s. Stationary no-shot intervals are separate. AI combat state alone is not evidence of firing. Excludes first 1.5s, menus, pauses and their boundary intervals. No fixed-fps simulation override.",
+        "stationary_without_recent_fire_frames": {
+          "frames": 5883,
+          "max_frame_ms": 9.687,
+          "mean_fps": 322.507504343408,
+          "mean_frame_ms": 3.10070304266531,
+          "p95_frame_ms": 4.791,
+          "p99_frame_ms": 6.024,
+          "seconds_sampled": 18.241436
+        },
+        "time_scale": 1.0,
+        "two_sided_recent_firing_frames": {
+          "frames": 0
+        },
+        "validation_errors": [],
+        "version": "0.6",
+        "vsync": false,
+        "window_resolution": [
+          1920,
+          1080
+        ]
+      }
+    },
+    "release": {
+      "fixed": {
+        "engine": "4.7.2-stable (official)",
+        "fps_limit": 0,
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "measurement_valid": true,
+        "quality": "1",
+        "render_scale_3d": 1.0,
+        "renderer": "gl_compatibility",
+        "reported_viewport_texture_size": [
+          2880.0,
+          1620.0
+        ],
+        "resolution": [
+          1920,
+          1080
+        ],
+        "resolution_method": "Viewport image readback outside timed samples, with window and stretch configuration checked each sample.",
+        "sample_seconds_per_view": 3,
+        "scope": "Fixed camera views; AI and player physics paused; excludes startup and shader warmup.",
+        "views": [
+          {
+            "frames": 540,
+            "mean_draw_calls": 891.0,
+            "mean_fps": 179.731720451939,
+            "mean_frame_ms": 5.56384814814815,
+            "mean_primitives": 1422537.0,
+            "node_count": 2238.0,
+            "p95_frame_ms": 7.945,
+            "p99_frame_ms": 9.34,
+            "view": "forest_contact"
+          },
+          {
+            "frames": 714,
+            "mean_draw_calls": 655.0,
+            "mean_fps": 237.661016170602,
+            "mean_frame_ms": 4.20767366946779,
+            "mean_primitives": 531376.0,
+            "node_count": 2238.0,
+            "p95_frame_ms": 5.761,
+            "p99_frame_ms": 6.493,
+            "view": "yard"
+          },
+          {
+            "frames": 843,
+            "mean_draw_calls": 436.0,
+            "mean_fps": 280.827104112901,
+            "mean_frame_ms": 3.56090984578885,
+            "mean_primitives": 410596.0,
+            "node_count": 2238.0,
+            "p95_frame_ms": 5.085,
+            "p99_frame_ms": 6.303,
+            "view": "office"
+          }
+        ],
+        "vsync": false,
+        "window_resolution": [
+          1920,
+          1080
+        ]
+      },
+      "route": {
+        "active_route_frames": {
+          "frames": 14216,
+          "max_frame_ms": 22.659,
+          "mean_fps": 227.445089913928,
+          "mean_frame_ms": 4.39666558806977,
+          "p95_frame_ms": 7.049,
+          "p99_frame_ms": 8.826,
+          "seconds_sampled": 62.5029979999998
+        },
+        "all_playing_frames": {
+          "frames": 19732,
+          "max_frame_ms": 22.659,
+          "mean_fps": 244.39395661752,
+          "mean_frame_ms": 4.09175420636531,
+          "p95_frame_ms": 6.703,
+          "p99_frame_ms": 8.604,
+          "seconds_sampled": 80.7384940000004
+        },
+        "enemy_in_combat_frames": {
+          "frames": 41,
+          "max_frame_ms": 10.482,
+          "mean_fps": 129.942983554289,
+          "mean_frame_ms": 7.69568292682927,
+          "p95_frame_ms": 10.06,
+          "p99_frame_ms": 10.094,
+          "seconds_sampled": 0.315523
+        },
+        "enemy_shots_observed": 0,
+        "fps_limit": 0,
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "health_at_finish": 100.0,
+        "mean_draw_calls": 361.037249138455,
+        "measurement_valid": true,
+        "peak_alive_enemies_observed": 5,
+        "player_shots_observed": 9,
+        "quality": "balanced",
+        "recent_enemy_firing_frames": {
+          "frames": 0
+        },
+        "recent_firing_frames": {
+          "frames": 1404,
+          "max_frame_ms": 13.204,
+          "mean_fps": 177.743478181608,
+          "mean_frame_ms": 5.62608547008548,
+          "p95_frame_ms": 9.036,
+          "p99_frame_ms": 10.473,
+          "seconds_sampled": 7.89902400000001
+        },
+        "render_scale_3d": 1.0,
+        "renderer": "gl_compatibility",
+        "reported_peak_texture_bytes": 433994467.0,
+        "reported_viewport_texture_size": [
+          2880,
+          1620
+        ],
+        "resolution": [
+          1920,
+          1080
+        ],
+        "resolution_method": "Viewport image readback before and after sampling; window and stretch configuration checked each sample; readback intervals excluded.",
+        "route_passed": true,
+        "scope": "Real AI and automated player route; automatic aiming is not human difficulty. Primary active_route_frames include movement or a shot within 1s. Stationary no-shot intervals are separate. AI combat state alone is not evidence of firing. Excludes first 1.5s, menus, pauses and their boundary intervals. No fixed-fps simulation override.",
+        "stationary_without_recent_fire_frames": {
+          "frames": 5516,
+          "max_frame_ms": 8.736,
+          "mean_fps": 302.486973757116,
+          "mean_frame_ms": 3.30592748368383,
+          "p95_frame_ms": 4.919,
+          "p99_frame_ms": 6.043,
+          "seconds_sampled": 18.235496
+        },
+        "time_scale": 1.0,
+        "two_sided_recent_firing_frames": {
+          "frames": 0
+        },
+        "validation_errors": [],
+        "version": "0.6",
+        "vsync": false,
+        "window_resolution": [
+          1920,
+          1080
+        ]
+      }
+    }
+  },
+  "restore": {
+    "checkpoint": "WorkBackups/20261013-115838-S01-in_progress-6a7858",
+    "restored_project": "C:\\GameMake\\RestoreChecks\\S01-0e5a4467\\GodotProject",
+    "restored_files_checked": 317,
+    "source_hashes_match": true,
+    "import_passed": true,
+    "smoke_passed": true,
+    "engine": "C:\\GameMake\\tools\\Godot-4.7.2\\Godot_v4.7.2-stable_win64_console.exe",
+    "passed": true,
+    "note": "Isolated source restore; existing engine reused; import cache rebuilt; original checkpoint is read-only; ordinary player saves protected by --qa."
+  },
+  "checkpoint_tool_validation": {
+    "date": "2026-10-13",
+    "scope": "isolated temporary fixtures; no game files changed",
+    "tests_run": 8,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "cases": [
+      "test_copy_failure_keeps_previous_checkpoint",
+      "test_done_requires_existing_evidence",
+      "test_existing_lock_is_preserved",
+      "test_interrupted_publication_and_record_recovery",
+      "test_outside_workspace_cannot_be_copied",
+      "test_planning_snapshot_and_history",
+      "test_project_assets_release_and_extra_sources",
+      "test_tampered_file_is_detected"
+    ]
+  },
+  "hardware_file": "hardware.json",
+  "known_issues_file": "known_issues.json",
+  "raw_performance_evidence": [
+    {
+      "source": "docs/performance/s01-20261013-verified-source-balanced-1920x1080.json",
+      "copy": "docs/baselines/S01_20261013/performance/s01-20261013-verified-source-balanced-1920x1080.json",
+      "sha256": "a9d449db379ff32d500cda17daeb13f18e570ad75a064a4ca5bd1dd19b153100"
+    },
+    {
+      "source": "docs/performance/s01-20261013-verified-combat-source-1920x1080.json",
+      "copy": "docs/baselines/S01_20261013/performance/s01-20261013-verified-combat-source-1920x1080.json",
+      "sha256": "c167560a56bae88a4332377cc45a3d4c147aa419eaa5e180fea320fe693bd1a6"
+    },
+    {
+      "source": "GodotProject/benchmark-s01-20261013-verified-source-balanced.log",
+      "copy": "docs/baselines/S01_20261013/performance/benchmark-s01-20261013-verified-source-balanced.log",
+      "sha256": "bac1447dfb2de2afe1fae94caea363f3d98a052d876c539630a2b01745186976"
+    },
+    {
+      "source": "docs/performance/s01-20261013-verified-combat-source.log",
+      "copy": "docs/baselines/S01_20261013/performance/s01-20261013-verified-combat-source.log",
+      "sha256": "1d9cc1c200b0038a33765d62ff84c0051bfa49786cfd96df5bbd5c9a5715ee09"
+    },
+    {
+      "source": "docs/performance/s01-20261013-verified-release-balanced-1920x1080.json",
+      "copy": "docs/baselines/S01_20261013/performance/s01-20261013-verified-release-balanced-1920x1080.json",
+      "sha256": "bff151e37bb9ed0839b8cf26e18a59c37a61d63564932f3ad366309c2e052e91"
+    },
+    {
+      "source": "docs/performance/s01-20261013-verified-combat-release-1920x1080.json",
+      "copy": "docs/baselines/S01_20261013/performance/s01-20261013-verified-combat-release-1920x1080.json",
+      "sha256": "87f3c77a29b3658f37d4f1ccaa13f1f9152a45eed6ed86437ae73fbeb9855ce4"
+    },
+    {
+      "source": "GodotProject/benchmark-s01-20261013-verified-release-balanced.log",
+      "copy": "docs/baselines/S01_20261013/performance/benchmark-s01-20261013-verified-release-balanced.log",
+      "sha256": "f88760ff7bab72bd5feb05d458ce5dd3083549dbaf262d9448f44dd8f68cb34c"
+    },
+    {
+      "source": "docs/performance/s01-20261013-verified-combat-release.log",
+      "copy": "docs/baselines/S01_20261013/performance/s01-20261013-verified-combat-release.log",
+      "sha256": "49b70af882c9351fee429d3531788a90b2d8b6ddb0a555c673d49a20318c549b"
+    }
+  ],
+  "measurement_correction": {
+    "problem": "Canvas stretch makes ViewportTexture.get_size() report 2880x1620 while the actual image is 1920x1080.",
+    "probe": "resolution-probe.log",
+    "solution": "Read actual image dimensions outside timed intervals; verify unchanged window and viewport settings during samples.",
+    "superseded_reports": [
+      "docs/performance/s01-20261013-combat-source-1920x1080.json",
+      "docs/performance/s01-20261013-source-balanced-1920x1080.json",
+      "docs/performance/s01-20261013-release-balanced-1920x1080.json"
+    ],
+    "initial_combat_report_valid": false
+  },
+  "limitations": [
+    "Single sequential sample on this machine, not a minimum hardware guarantee or an optimization comparison.",
+    "Automated route has real movement and player firing but zero observed enemy shots; no sustained two-sided firefight claim.",
+    "No new manual difficulty or animation quality acceptance; automated perfect aim does not represent a human player.",
+    "Restore reuses the installed Godot engine; the entire source download library and tool installations are outside the project snapshot."
+  ],
+  "next_step": "S02",
+  "next_action": "整理全部资源的实际库存、尺度和年代适配，逐组登记正式场景／过场／远景／改造／备用去向。"
+}

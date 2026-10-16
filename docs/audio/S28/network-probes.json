@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://opengameart.org/content/explosion-0",
+    "status": "fetched",
+    "title": [
+      "Explosion | OpenGameArt.org"
+    ],
+    "files": [
+      "https://opengameart.org/sites/default/files/explosion.wav"
+    ]
+  },
+  {
+    "url": "https://opengameart.org/content/explosion-sound",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://opengameart.org/content/rumbleexplosion",
+    "status": "fetched",
+    "title": [
+      "Rumble/explosion | OpenGameArt.org"
+    ],
+    "files": []
+  },
+  {
+    "url": "https://opengameart.org/content/q009s-weapon-sounds",
+    "status": "fetched",
+    "title": [
+      "Q009's weapon sounds | OpenGameArt.org"
+    ],
+    "files": [
+      "https://opengameart.org/sites/default/files/q009-sounds.zip"
+    ]
+  }
+]

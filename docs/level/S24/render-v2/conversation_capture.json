@@ -1,0 +1,18 @@
+{
+  "camera": [
+    493.0,
+    29.0,
+    151.0
+  ],
+  "note": "QA-only side composition; shipped camera remains unchanged for S25.",
+  "peer_visible": true,
+  "save_result": 0,
+  "scout_visible": true,
+  "shot": "B-01",
+  "step": "S24",
+  "target": [
+    500.0,
+    26.0,
+    145.5
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "generator-loop",
+  "title": "Generator loop",
+  "source_url": "https://opengameart.org/content/generator-loop",
+  "author": "YCbCr",
+  "license": "CC0-1.0",
+  "notes": "Low-frequency machinery layer.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "generator-loop/originals/loop_generator_1.mp3",
+      "download_url": "https://opengameart.org/sites/default/files/loop_generator_1.mp3",
+      "bytes": 60664,
+      "sha256": "c5989e33550cefb84e7e224c531662d02530e0484caa814a7fa7e7bed39f2062",
+      "role": "original_download"
+    },
+    {
+      "path": "ready_to_import/props/generator_loop.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/loop_generator_1.mp3",
+      "bytes": 51298,
+      "sha256": "691dc7f4119bb83aa0e35a2295f4f91c194898182a75479e1672c044bd4722fb",
+      "role": "derived_ready_to_import",
+      "source_path": "generator-loop/originals/loop_generator_1.mp3",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 1,
+    "decode_passed": 1,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      1
+    ],
+    "total_duration_seconds": 5.44,
+    "duration_range_seconds": [
+      5.436,
+      5.436
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

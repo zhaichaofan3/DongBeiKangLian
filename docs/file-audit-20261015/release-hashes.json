@@ -1,0 +1,715 @@
+{
+  "FilesChecked": 177,
+  "Failures": [],
+  "UnlistedFiles": [],
+  "Results": [
+    {
+      "Path": "ASSET_SOURCES.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/audio-credits.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/bayonet-20261015.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/building-modifications.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/character-credits.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/D02/D02.blend",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/D02/D02.glb",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/environment-batch.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/environment-original.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/environment-supplement.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/extra-ground-textures.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/field-sfx-20261015.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/guard-identity-20261015.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/JKM/far_pine.blend",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/JKM/LICENSE.txt",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/JKM/README-original.txt",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/TerrainReference/reference_source.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/TerrainReference/source.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/user-audio-20261015.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/user_soldiers.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/Voice/alignment.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/Voice/README.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "AssetNotices/Voice/synthesis.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "AUDIO_CREDITS.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "Dialogue/dialogue-recording-data.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Dialogue/dialogue-recording-list.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "Dialogue/dialogue-recording-list.txt",
+      "Result": "ok"
+    },
+    {
+      "Path": "FenghuoEcho.exe",
+      "Result": "ok"
+    },
+    {
+      "Path": "FenghuoEcho.pck",
+      "Result": "ok"
+    },
+    {
+      "Path": "GODOT_COPYRIGHT.txt",
+      "Result": "ok"
+    },
+    {
+      "Path": "GODOT_LICENSE.txt",
+      "Result": "ok"
+    },
+    {
+      "Path": "KNOWN_ISSUES.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "README.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "release_validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/build.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/combat-route-first-failed.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/combat-route-isolated.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/crash-event.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/final-validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/iteration-notes.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/organization/cleanup.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/organization/inventory-before.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/organization/preview.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-combat-rendered.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-regression-first-failed.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-regression.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-1280/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/release-render-960/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/review.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-headless/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-headless/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-regression.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-1280/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/polish-20261015/source-render-960/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/build.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/character-render-console.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/character-render.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/final-validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/first-person-before.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/godot-import.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/max-import.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/model-build.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/preview.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-character-render.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/guard_aim.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/guard_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/guard_fallen.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/guard_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/lineup.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/logger_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/logger_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/scout_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/scout_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/walking.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/wounded_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/wounded_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/wounded_treated.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-characters/wounded_untreated.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-focused.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-regression.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-1280/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/release-render-960/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/review.md",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/s32-targeted.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/guard_aim.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/guard_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/guard_fallen.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/guard_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/lineup.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/logger_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/logger_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/scout_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/scout_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/walking.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/wounded_face.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/wounded_front.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/wounded_treated.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-characters/wounded_untreated.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-focused.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-regression-first-failed.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-regression-second-failed.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-regression.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-1280/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/bayonet-counter.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/bayonet-grapple.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/conversation-low-ready.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/friendly-cap-star.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/fullscreen-volume-drag.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/office-walk-00.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/office-walk-25.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/office-walk-50.png",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/run.log",
+      "Result": "ok"
+    },
+    {
+      "Path": "Validation/user-models-20261015/source-render-960/validation.json",
+      "Result": "ok"
+    },
+    {
+      "Path": "VERIFICATION.md",
+      "Result": "ok"
+    }
+  ]
+}

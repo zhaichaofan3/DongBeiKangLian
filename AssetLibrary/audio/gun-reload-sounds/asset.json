@@ -1,0 +1,49 @@
+{
+  "id": "gun-reload-sounds",
+  "title": "Gun reload sounds",
+  "source_url": "https://opengameart.org/content/gun-reload-sounds",
+  "author": "SpringySpringo",
+  "license": "CC0-1.0",
+  "notes": "Airsoft recordings; useful mechanical layers, not historically exact rifle handling.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "gun-reload-sounds/originals/gunreload1.wav",
+      "download_url": "https://opengameart.org/sites/default/files/gunreload1.wav",
+      "bytes": 278572,
+      "sha256": "685cac6a184e3cc3ec09a25b6ddb1d6feffd86d469778f339aa423d384035c50",
+      "role": "original_download"
+    },
+    {
+      "path": "gun-reload-sounds/originals/assaultriflereload1_0.wav",
+      "download_url": "https://opengameart.org/sites/default/files/assaultriflereload1_0.wav",
+      "bytes": 274476,
+      "sha256": "efb2d724d634eabe6ba8d3065686abca848bb7497d4d43a5e4aed5e5ea23016f",
+      "role": "original_download"
+    },
+    {
+      "path": "gun-reload-sounds/originals/shotguncock_0.wav",
+      "download_url": "https://opengameart.org/sites/default/files/shotguncock_0.wav",
+      "bytes": 83628,
+      "sha256": "33e007321ba83301c861aef573f2c40b70bc62f8f24c0164877e6dd123e24371",
+      "role": "original_download"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 3,
+    "decode_passed": 3,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 3.61,
+    "duration_range_seconds": [
+      0.474,
+      1.579
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

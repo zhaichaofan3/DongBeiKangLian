@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Both actors keep low, anatomically bounded gestures throughout all conversation scenes
+PASS: Palms stay clear of the coat body during talk and listen poses
+PASS: Continuous 60fps samples have no arm snaps across lines and camera cuts
+PASS: Conversation performance leaves mission state unchanged
+PASS: 01-talk renders a nonblank scene
+PASS: 01-talk saved
+PASS: 02-listen renders a nonblank scene
+PASS: 02-listen saved
+PASS: 03-response renders a nonblank scene
+PASS: 03-response saved
+PASS: 04-route renders a nonblank scene
+PASS: 04-route saved
+PASS: 05-forest renders a nonblank scene
+PASS: 05-forest saved
+PASS: 06-briefing renders a nonblank scene
+PASS: 06-briefing saved
+PASS: 07-coat-three-quarter renders a nonblank scene
+PASS: 07-coat-three-quarter saved
+PASS: 08-rescue-preserved renders a nonblank scene
+PASS: 08-rescue-preserved saved
+PASS: Paired rescue contact retains the existing fifteen-centimetre tolerance
+DIALOGUE MOTION: PASS | checks=21

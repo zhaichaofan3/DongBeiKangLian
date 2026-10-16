@@ -1,0 +1,13 @@
+{
+	"captures": [],
+	"checks": 85,
+	"critical_path_metres": 455.080399766564,
+	"failures": [
+		"Main path segment 15 is navigable",
+		"Main path segment 16 is navigable",
+		"Main path segment 20 is navigable",
+		"Main path segment 21 is navigable",
+		"Main path segment 22 is navigable"
+	],
+	"passed": false
+}

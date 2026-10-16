@@ -1,0 +1,211 @@
+{
+  "time": "2026-10-14T11:49:52.773450+08:00",
+  "scope": "P00 inspection only",
+  "checkpoints": [
+    {
+      "path": "WorkBackups/20261013-225117-P00-done-a02128",
+      "verified": true,
+      "files": 35,
+      "bytes": 499781
+    },
+    {
+      "path": "WorkBackups/20261013-202324-S11-done-f7924d",
+      "verified": true,
+      "files": 449,
+      "bytes": 281296098
+    }
+  ],
+  "game_comparison": {
+    "baseline": "WorkBackups/20261013-202324-S11-done-f7924d",
+    "expected": 392,
+    "actual": 392,
+    "differences": []
+  },
+  "step_evidence": {
+    "total": 66,
+    "missing": []
+  },
+  "steps": [
+    {
+      "id": "S01",
+      "status": "done"
+    },
+    {
+      "id": "S02",
+      "status": "done"
+    },
+    {
+      "id": "S03",
+      "status": "done"
+    },
+    {
+      "id": "S04",
+      "status": "done"
+    },
+    {
+      "id": "S05",
+      "status": "done"
+    },
+    {
+      "id": "S06",
+      "status": "done"
+    },
+    {
+      "id": "S07",
+      "status": "done"
+    },
+    {
+      "id": "S08",
+      "status": "done"
+    },
+    {
+      "id": "S09",
+      "status": "done"
+    },
+    {
+      "id": "S10",
+      "status": "done"
+    },
+    {
+      "id": "S11",
+      "status": "done"
+    },
+    {
+      "id": "S12",
+      "status": "pending"
+    },
+    {
+      "id": "S13",
+      "status": "pending"
+    },
+    {
+      "id": "S14",
+      "status": "pending"
+    },
+    {
+      "id": "S15",
+      "status": "pending"
+    },
+    {
+      "id": "S16",
+      "status": "pending"
+    },
+    {
+      "id": "S17",
+      "status": "pending"
+    },
+    {
+      "id": "S18",
+      "status": "pending"
+    },
+    {
+      "id": "S19",
+      "status": "pending"
+    },
+    {
+      "id": "S20",
+      "status": "pending"
+    },
+    {
+      "id": "S21",
+      "status": "pending"
+    },
+    {
+      "id": "S22",
+      "status": "pending"
+    },
+    {
+      "id": "S23",
+      "status": "pending"
+    },
+    {
+      "id": "S24",
+      "status": "pending"
+    },
+    {
+      "id": "S25",
+      "status": "pending"
+    },
+    {
+      "id": "S26",
+      "status": "pending"
+    },
+    {
+      "id": "S27",
+      "status": "pending"
+    },
+    {
+      "id": "S28",
+      "status": "pending"
+    },
+    {
+      "id": "S29",
+      "status": "pending"
+    },
+    {
+      "id": "S30",
+      "status": "pending"
+    },
+    {
+      "id": "S31",
+      "status": "pending"
+    },
+    {
+      "id": "S32",
+      "status": "pending"
+    },
+    {
+      "id": "S33",
+      "status": "pending"
+    },
+    {
+      "id": "S34",
+      "status": "pending"
+    },
+    {
+      "id": "S35",
+      "status": "pending"
+    },
+    {
+      "id": "S36",
+      "status": "pending"
+    }
+  ],
+  "record_consistency": {
+    "pointer_matches": true,
+    "files": {
+      "PROGRESS.md": true,
+      "docs/production_state.json": true,
+      "docs/work_history.jsonl": true
+    }
+  },
+  "pending_backups": [],
+  "checkpoint_lock_exists": false,
+  "controller": {
+    "pause_exists": true,
+    "phase": "stopped",
+    "updated_at": "2026-10-13T22:51:59+08:00",
+    "receipt": null,
+    "dispatch_exists": false,
+    "control_bytes": 180,
+    "control_all_zero": true,
+    "actions": "read only; no gate/claim/start/stop or runtime writes",
+    "control_valid_json": false,
+    "control_parse_error": "Expecting value: line 1 column 1 (char 0)",
+    "frozen_evidence": {
+      "checkpoint.log": "c97f9df2ed1567f4be1bfe173f4177d04952d438e76ebeec9e662827618e6011",
+      "checkpoint_request.json": "22f835158fd05c5e394cb334ce1f399258ac59f450b8f8fdbccb504eec460a86",
+      "control-corrupt.bin": "10b2a66888c58a54b277fe2e68fb6e87150c3cd2c537b7f6a2d84559017438c7",
+      "events.jsonl": "85ce6328c948955a829e947bf236968b2741965a59d5fc7bc6a0227405348f6c",
+      "last_interruption.json": "1ace07fd5a756a67bfc958bbb199d8d6b2e918455d37b173de49e668c59311cc"
+    }
+  },
+  "interruption_script_parser": {
+    "has_utf8_bom": true,
+    "file_parse_errors": [],
+    "version": "5.1.26100.9444",
+    "utf8_text_parse_errors": []
+  },
+  "disk_free_bytes": 163033042944,
+  "game_files_intact": true
+}

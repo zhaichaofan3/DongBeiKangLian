@@ -1,0 +1,7 @@
+Title: Generator loop
+Author: YCbCr
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/generator-loop
+Evidence: source.html and source.txt
+Notes: Low-frequency machinery layer.

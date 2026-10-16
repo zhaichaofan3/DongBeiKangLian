@@ -1,0 +1,11 @@
+{
+  "id": "B2-L02",
+  "part": "B",
+  "text": "来。到时候，把这一路慢慢走。",
+  "voice": "Microsoft Kangkang",
+  "rate": 0,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

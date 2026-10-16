@@ -1,0 +1,390 @@
+{
+  "id": "42-snow-and-gravel-footsteps",
+  "title": "42 snow and gravel footsteps",
+  "source_url": "https://opengameart.org/content/42-snow-and-gravel-footsteps",
+  "author": "Corsica_S; extracted by Iwan Gabovitch",
+  "license": "CC0-1.0",
+  "notes": "Snow and gravel useful for northeast outdoor terrain.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "42-snow-and-gravel-footsteps/originals/corsica_s-walking_in_snow.7z",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 4041779,
+      "sha256": "206306b51f8eeedf82043d6628174ec8ff9b16230dffb5192a5c74688e62abd4",
+      "role": "original_download"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_01.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 76096,
+      "sha256": "d635d9bed8a5d69d4b95638bae51914717e69eece5982550a52c14cf23a10b00",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_02.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 108901,
+      "sha256": "799c07881c8a49f618401b66403938966c73b2374a19f41dfe6117e89589e7ea",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_03.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 103146,
+      "sha256": "74a6d589884caa34f44390a90522852d8503ba9b6a9750294f1e2de025cb32e6",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_04.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 108268,
+      "sha256": "8473c7f83251a263065936ab6c0a06d93a188d60af41bdd2dcc116742ddf1c54",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_05.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 101893,
+      "sha256": "5848213c9f5c27827b2f502d2d9e5ffdbdcacb069a56a9c92b80d4ec50b92440",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_06.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 106300,
+      "sha256": "8eca849ddb6a5d084cf530fd0abb4e3706f9bb626a05e7cfc40bed2a3109e64f",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_07.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 110287,
+      "sha256": "eece1d322315ed8eca24b5d5c19d48106d513b006f3c39a1b3bbe8f3a6b8e32b",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_08.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 99592,
+      "sha256": "a82edcea0c9149d9b309a710841fd2fa13410e37d73195ef487a608565bcf3cd",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_09.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 98950,
+      "sha256": "6b79064b83f4f3ca150ea43d9c78e9d47f82a5285fe2afa1d087c5c3d70ce9da",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_10.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 106924,
+      "sha256": "70c3a1c596dd565deba9659d2d37aa631929b334977775b580d8aba70a47f40f",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_11.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 101823,
+      "sha256": "157b045c20bdbb926e53c6c8d5459a99a0f0a2f842c488c4414b8defb2f3f5be",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_12.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 89559,
+      "sha256": "db1b95e25b00a25e6d6f557798c6adb4521481e2fe5e63d5d69d336e1107c5a4",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_13.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 116329,
+      "sha256": "c56a4c63d54add25e3eb73f347311178bc973825004394339d5efc7fd9c37e2a",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_14.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 108452,
+      "sha256": "c156b1b3cefff07df57086acf113824f79978720f070fb32a9edee2a46fb2af6",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_15.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 95018,
+      "sha256": "a06638d1b6b43aaca84df918c27ec490d60bb8faf3f773671a87f77c33d1229f",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_16.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 94223,
+      "sha256": "7f936cfa8b597e3e07f8cba571fd727c82e5332f7a6cc2f459c58cec1f7d6d40",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_17.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 113616,
+      "sha256": "09ba95c17bd87395d75d973ed7be5800a5af4c03536580453902b7a65bc22124",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_18.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 72716,
+      "sha256": "8d6f4a3c80034c994a7dc060e76ba8a175a6fd9ed2bed671d5c7181cb26b2bcf",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_01.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 68886,
+      "sha256": "5cafa1340f3c981c6c624c15f925373d0bb9c44a2e1c806ac1d7dc31cdb8cdfe",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_02.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 92657,
+      "sha256": "a801a7bd981281625d92c41ac1b88f4760bf7d287f21348208a91fb8c2726f47",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_03.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 101566,
+      "sha256": "17b53cd24dc83ef457206e6dfa03d51be6197cd7b5fd33f6dbdf49fdf76ded48",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_04.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 95382,
+      "sha256": "b10c0da38f85a76bf04246fac369b651dee07be4dac0ea97ffc49b040da954ff",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_05.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 98620,
+      "sha256": "93632520360c42e125cab0994de4c5b0e4a9ec6bbe6f8ce3a528f00ca0d6329e",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_06.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 106301,
+      "sha256": "77d64aada72f0965547ea8744ad4dd82c66abfe27f263ac32275b93a1e95619e",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_07.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 96768,
+      "sha256": "373672ae4e496c3f4fcb8e01a799a84531959678bd81886d9e9f045fd4a7edc0",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_08.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 85985,
+      "sha256": "e16cad153e6db877f0a04b1bd25fc6bbb38b5f3e454fab157da4387694c376a0",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_09.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 91921,
+      "sha256": "7d68e74ba91b9933d29ec419b69f15f3a22986da4b525bdec48e5117805fbb7f",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_10.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 103599,
+      "sha256": "ccb65d5241043253d136d0db064aa91fd67200284dcfb9f5318399d634aa0e98",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_11.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 94306,
+      "sha256": "506a1b675bea894da27c4d7702ab738f4ff93585b557c6d9d42c6fb1845feea0",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_12.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 91932,
+      "sha256": "1399d38fe2f2675e4a69310a10e1f6952ca73b18c21253179d4b81c72e81b37f",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_13.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 91583,
+      "sha256": "10e1ba999e2b4b46db2a2c07d7e919165991d30ff4fd82e91736f0f85b11dd45",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_14.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 86308,
+      "sha256": "86465e61b20d9e9d2bd765e7e96340de765f7afc7b99f650db147fe9cea1a706",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_15.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 78882,
+      "sha256": "89e4614011a0b8e34effd5a69fdd6cb003bec42d8800479a889198efd02a668c",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_16.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 105561,
+      "sha256": "1b338d1337eefc46490dc767d0d50a126951cb97dbe0d411a1af03173a564b9c",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_17.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 86581,
+      "sha256": "e01818f40021d698190ab8aaae86ddc7bfd12f286f614b2792ce5f6cc81dcd58",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_18.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 108752,
+      "sha256": "a3156f6fd3aedac17d91cab26474cf50c88dc0125d6ca24c5c70afccca7bf7d8",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_19.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 90552,
+      "sha256": "d40abea337e224ebdfbe7cbe7888e91b074cbd2c520538e2a0905e58217be6ba",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_20.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 83537,
+      "sha256": "ac025aa447b8fda6381bdc257d3dbbf01b73fe36e55c5d451d4af202dc0c014c",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_21.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 107015,
+      "sha256": "05801190ed1a08d79d49025fadd2d3b129fff9af6567d7a1cfa0a06987c9b0c0",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_22.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 102429,
+      "sha256": "18e78365d1df72c566cfa81f13100b87c3066b8130139b98523671474d442abb",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_23.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 82691,
+      "sha256": "78ab0cc5b69cf1f09f5b15e8958718829f5aada7b407a610c72a7cd052b40d17",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_24.flac",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 67601,
+      "sha256": "638281d3019537cee22290dfc3fbd7f56c93787adcf6d4a4660676b45ff3b4bf",
+      "role": "extracted"
+    },
+    {
+      "path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/readme.txt",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 467,
+      "sha256": "c519371819ed33ba016eb774719e4a83cd6329d8ebeb59e0aea615f86a7c2da6",
+      "role": "extracted"
+    },
+    {
+      "path": "ready_to_import/footsteps/step_snow_01.wav",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 45858,
+      "sha256": "653df0ea38098f578f28b207870e46121fd0170e7d1e726fb983dcb178a6a515",
+      "role": "derived_ready_to_import",
+      "source_path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_01.flac",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_snow_02.wav",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 66678,
+      "sha256": "4c0de3f2424706431ce24b02a6080601a2ef3eb009ca4be9b9d51d754aa66126",
+      "role": "derived_ready_to_import",
+      "source_path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_02.flac",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_snow_03.wav",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 62436,
+      "sha256": "cf8b622e7f6cf4cb3b9c06db833832d81c22a23b23d9f70cc7c6046bacfd3354",
+      "role": "derived_ready_to_import",
+      "source_path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_03.flac",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_snow_04.wav",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 65264,
+      "sha256": "55b8f430539af58d7336cb3713ee9b1d06b863e869110e824a1d71c14b31646e",
+      "role": "derived_ready_to_import",
+      "source_path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_04.flac",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_snow_05.wav",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 61610,
+      "sha256": "8adcf2ab6b245d435caddd76e326003bfd873b91082d931d27c21eb7db38f655",
+      "role": "derived_ready_to_import",
+      "source_path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_05.flac",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_snow_06.wav",
+      "download_url": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+      "bytes": 63968,
+      "sha256": "242ea1c8b907ba7d09b9196c3b2e2d59998224b845e6c0e47ff2c2f68988aaca",
+      "role": "derived_ready_to_import",
+      "source_path": "42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_06.flac",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 42,
+    "decode_passed": 42,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 25.59,
+    "duration_range_seconds": [
+      0.437,
+      0.72
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

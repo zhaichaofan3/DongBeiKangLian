@@ -1,0 +1,149 @@
+{
+  "engine": "4.7.2-stable (official)",
+  "failures": 0,
+  "models": [
+    {
+      "dimensions": [
+        14540.3974609375,
+        1470.26391601563,
+        14540.3974609375
+      ],
+      "file": "terrain/tianchi_display_lod.glb",
+      "loaded": true,
+      "meshes": 2,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        14540.3974609375,
+        1478.1044921875,
+        14540.3974609375
+      ],
+      "file": "terrain/tianchi_display.glb",
+      "loaded": true,
+      "meshes": 2,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        26.4115390777588,
+        55.5004539489746,
+        26.4115390777588
+      ],
+      "file": "models/pagoda_red/pagoda_red.glb",
+      "loaded": true,
+      "meshes": 1,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        8541.8515625,
+        10906.388671875,
+        8605.4287109375
+      ],
+      "file": "models/pagoda_hall/pagoda_hall.glb",
+      "loaded": true,
+      "meshes": 285,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        15.9605703353882,
+        16.3447914123535,
+        14.6343002319336
+      ],
+      "file": "models/pagoda_tower/pagoda_tower.glb",
+      "loaded": true,
+      "meshes": 1,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        60.5321159362793,
+        49.5000305175781,
+        102.564987182617
+      ],
+      "file": "models/warehouse/warehouse.glb",
+      "loaded": true,
+      "meshes": 2,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        2000.0,
+        839.650024414063,
+        2000.89086914063
+      ],
+      "file": "models/log_cabin_scene/log_cabin_scene.glb",
+      "loaded": true,
+      "meshes": 4,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        1.89079689979553,
+        0.552578330039978,
+        2.10841417312622
+      ],
+      "file": "models/village_market/village_market.glb",
+      "loaded": true,
+      "meshes": 1,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        1.93296539783478,
+        0.657107591629028,
+        1.98546171188354
+      ],
+      "file": "models/market_stalls/market_stalls.glb",
+      "loaded": true,
+      "meshes": 1,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        53.3299980163574,
+        29.0,
+        5.35624980926514
+      ],
+      "file": "models/modular_factory_facade/modular_factory_facade_2k.gltf",
+      "loaded": true,
+      "meshes": 192,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        1.29396772384644,
+        1.60312628746033,
+        0.376891165971756
+      ],
+      "file": "models/chinese_screen_panels/chinese_screen_panels_2k.gltf",
+      "loaded": true,
+      "meshes": 2,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        0.841314911842346,
+        0.498641043901443,
+        0.835621953010559
+      ],
+      "file": "models/chinese_tea_table/chinese_tea_table_2k.gltf",
+      "loaded": true,
+      "meshes": 1,
+      "valid": true
+    },
+    {
+      "dimensions": [
+        0.383224248886108,
+        0.117422930896282,
+        0.295015215873718
+      ],
+      "file": "models/wicker_basket_01/wicker_basket_01_2k.gltf",
+      "loaded": true,
+      "meshes": 1,
+      "valid": true
+    }
+  ]
+}

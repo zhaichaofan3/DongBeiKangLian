@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Moving aim reaches a stable rifle travel speed
+PASS: Rifle aim converges while moving
+PASS: Moving aim keeps sights centered with bounded sway
+PASS: Rifle fires with movement and aim active
+PASS: Rifle recoil and bolt sequence recover after firing
+PASS: Rifle reload exposes its clip during the action
+PASS: Switching weapon safely interrupts rifle reload
+PASS: Damage disturbance is visible without taking control away
+PASS: Damage disturbance recovers over time
+PASS: Restore clears movement and weapon disturbance state
+S17 WEAPON MOTION: PASS | checks=10

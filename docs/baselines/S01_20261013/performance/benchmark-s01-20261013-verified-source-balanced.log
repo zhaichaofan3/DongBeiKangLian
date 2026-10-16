@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+BENCHMARK VIEW: {"frames":557,"mean_draw_calls":891.0,"mean_fps":185.572395889555,"mean_frame_ms":5.38873249551167,"mean_primitives":1422537.0,"node_count":2238.0,"p95_frame_ms":7.228,"p99_frame_ms":8.624,"view":"forest_contact"}
+BENCHMARK VIEW: {"frames":713,"mean_draw_calls":655.0,"mean_fps":237.518138657293,"mean_frame_ms":4.21020476858345,"mean_primitives":531376.0,"node_count":2238.0,"p95_frame_ms":5.924,"p99_frame_ms":7.07,"view":"yard"}
+BENCHMARK VIEW: {"frames":882,"mean_draw_calls":436.0,"mean_fps":293.884797159513,"mean_frame_ms":3.40269387755102,"mean_primitives":410596.0,"node_count":2238.0,"p95_frame_ms":4.694,"p99_frame_ms":5.629,"view":"office"}
+PERFORMANCE RESULT: PASS

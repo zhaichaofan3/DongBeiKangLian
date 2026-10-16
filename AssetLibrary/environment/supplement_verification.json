@@ -1,0 +1,1074 @@
+{
+  "files": [
+    {
+      "path": "supplement/birch-tree/treebirch.blend",
+      "bytes": 562724,
+      "sha256": "52e6ee12f2cf8977ae18b0e445ebee61d97790bcc5f74b2219b37d382e1a81d6",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/dims-arboretum/extracted/dim_arboretum.blend",
+      "bytes": 34506724,
+      "sha256": "2df57c9d43c8d6aa2ebcf68c775db723837991132ef6499f1d52dc9903f2516a",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/preview.png",
+      "bytes": 110405,
+      "sha256": "69c27727e9bb0e686060bca698e029ab97e07cd3ab454d9f5ee9d2c00262b76e",
+      "dimensions": [
+        400,
+        190
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/kerzeblau.tga",
+      "bytes": 29513,
+      "sha256": "6b7d0e96562151a55473dea23686088df6d637b62b8204d56ab94e3a188bb32e",
+      "dimensions": [
+        128,
+        128
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/kerzerot.tga",
+      "bytes": 27729,
+      "sha256": "f5b22a93d0d2efd273ab148544c7e16f10e7d440cc105535711e09c001838e69",
+      "dimensions": [
+        128,
+        128
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/nadel.tga",
+      "bytes": 233128,
+      "sha256": "1a9c732400e1450f09efe61f8ce5aee515c22ce5e06c0323fbdfd4680fce5851",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/nadelsnow.tga",
+      "bytes": 231553,
+      "sha256": "e7f6c53be641d0a81864ebd390d3425c439c2c4db082511b4ebb2631b451d9db",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/nadelsnowb.tga",
+      "bytes": 230758,
+      "sha256": "bc1a0da916e4650e532b6351a8623ea42be2c1eac0f281cfd6795e5435d9fb62",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/nadelsnowg.tga",
+      "bytes": 231794,
+      "sha256": "010cd5853f0e3a7effdb6f7b743c0b0bb67f3656ed87a68d65ce7917640ac845",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/nadelsnowr.tga",
+      "bytes": 229996,
+      "sha256": "636389eacd0e32d856859f3b0fc1dde5169609c7d129f62f3b133835d8fe6985",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/pinetree.obj",
+      "bytes": 17897,
+      "sha256": "392a66ba03855e9abb7f0a04b8377ec1c8f675c4288c4adf994e5267f04998da",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/pinetree_small.obj",
+      "bytes": 17688,
+      "sha256": "5acea86c3b5f61ac7c88242bf891acaf7cec160dd0d54044f9fb2301e9d22388",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/stamm.jpg",
+      "bytes": 2103,
+      "sha256": "e648b05c1bf6a50ee4b97d3286297fcaeb8e58560e6b50e25e37f31a8ef8f372",
+      "dimensions": [
+        128,
+        128
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree.obj",
+      "bytes": 14770,
+      "sha256": "346b75c7adefde5ddb926e7164d831307ce73427a9b7c70656b7669fe4274e3b",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree.tga",
+      "bytes": 119385,
+      "sha256": "b1d1b38d660877c7693a35a16864f1ff842e48233e912ac9d41d16d4cb8a4b03",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree2.tga",
+      "bytes": 135207,
+      "sha256": "9a19135794ddaed2d7785390db0370be280da275b67c286ac447b61513d3a014",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree3.tga",
+      "bytes": 114254,
+      "sha256": "5960d063109df7dda6682dbbc483f965515a4c108a3631c47ad0e14dcf2595f6",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree4.tga",
+      "bytes": 134682,
+      "sha256": "637bcee11ec404d044ac38f1ec46771f4a8d58fd8f18a9650f18e7904ea32c96",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree5.tga",
+      "bytes": 128382,
+      "sha256": "7ffccbb86dbe3a06c194a07d134b9ca7f5a48f3753d6e011c2cde921640e5c43",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree6.tga",
+      "bytes": 128101,
+      "sha256": "507b671a538027d44cf0e6d129141db982fda7ccf4a228d20a07099e710ef3ba",
+      "dimensions": [
+        256,
+        256
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/tree_small.obj",
+      "bytes": 12766,
+      "sha256": "2ae61e5b067eb815cf57af1c8d67ee091cc5a0173390fc9d9b8bb1ec81cfc6b4",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/jkms-tree-set/extracted/models/xmas_tree.obj",
+      "bytes": 24065,
+      "sha256": "21d22a808d5391930da01e6bf8169e60b4038a3af9a8e049e8455b63543c5783",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/log-cabin-dae/extracted/logcabin/logcabin.dae",
+      "bytes": 497874,
+      "sha256": "a4ee2361f35a75112dec29a270b5dcf82f8de49f804db0ac76e75dcc7215b491",
+      "xml_root": "{http://www.collada.org/2005/11/COLLADASchema}COLLADA",
+      "image_references": [
+        "ID123",
+        "ID156",
+        "ID175",
+        "ID224",
+        "ID364",
+        "logcabin/material_8.jpg",
+        "logcabin/Wood__Floor_.jpg",
+        "logcabin/material_6.jpg",
+        "logcabin/material_5.jpg",
+        "logcabin/Roofing_Shingles_Asphalt_.jpg"
+      ],
+      "geometry_primitives": [
+        {
+          "type": "triangles",
+          "count": "48"
+        },
+        {
+          "type": "triangles",
+          "count": "190"
+        },
+        {
+          "type": "triangles",
+          "count": "84"
+        },
+        {
+          "type": "triangles",
+          "count": "24"
+        },
+        {
+          "type": "triangles",
+          "count": "12"
+        },
+        {
+          "type": "triangles",
+          "count": "12"
+        },
+        {
+          "type": "triangles",
+          "count": "12"
+        },
+        {
+          "type": "triangles",
+          "count": "36"
+        },
+        {
+          "type": "triangles",
+          "count": "20"
+        },
+        {
+          "type": "triangles",
+          "count": "89"
+        },
+        {
+          "type": "triangles",
+          "count": "89"
+        },
+        {
+          "type": "triangles",
+          "count": "41"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "255"
+        },
+        {
+          "type": "triangles",
+          "count": "266"
+        },
+        {
+          "type": "triangles",
+          "count": "46"
+        },
+        {
+          "type": "triangles",
+          "count": "46"
+        },
+        {
+          "type": "triangles",
+          "count": "4"
+        },
+        {
+          "type": "triangles",
+          "count": "71"
+        },
+        {
+          "type": "triangles",
+          "count": "71"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "215"
+        },
+        {
+          "type": "triangles",
+          "count": "339"
+        },
+        {
+          "type": "triangles",
+          "count": "3"
+        },
+        {
+          "type": "triangles",
+          "count": "12"
+        },
+        {
+          "type": "triangles",
+          "count": "34"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "24"
+        },
+        {
+          "type": "triangles",
+          "count": "24"
+        },
+        {
+          "type": "triangles",
+          "count": "13"
+        },
+        {
+          "type": "triangles",
+          "count": "5"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "4"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "45"
+        },
+        {
+          "type": "triangles",
+          "count": "45"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "1"
+        },
+        {
+          "type": "triangles",
+          "count": "1"
+        },
+        {
+          "type": "triangles",
+          "count": "1"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "6"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "37"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "2"
+        },
+        {
+          "type": "triangles",
+          "count": "8"
+        }
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/log-cabin-dae/extracted/logcabin/logcabin/material_5.jpg",
+      "bytes": 2878246,
+      "sha256": "9fa949198502ebfa6bb349ef10180efb488add00e0cd2fb5b137f87dbac5eb94",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/log-cabin-dae/extracted/logcabin/logcabin/material_6.jpg",
+      "bytes": 4073852,
+      "sha256": "751f96b9230c46670f456ec08f1f39b22663a2fec91804131f0be06e58113cd5",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/log-cabin-dae/extracted/logcabin/logcabin/material_8.jpg",
+      "bytes": 3155760,
+      "sha256": "f2339efa9428423a39d21f608a8c77e32f617e1eef7ac83c99c368152b6bea62",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/log-cabin-dae/extracted/logcabin/logcabin/Roofing_Shingles_Asphalt_.jpg",
+      "bytes": 2056,
+      "sha256": "1e88453a762eb16a487b9469dfdba19fbfcbd6227be3901405dc2a8e4e7db23f",
+      "dimensions": [
+        128,
+        128
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/log-cabin-dae/extracted/logcabin/logcabin/Wood__Floor_.jpg",
+      "bytes": 13026,
+      "sha256": "238e55b2f6c8cebbabbf01993ff30bf99828184e09c6cc681a7a9f5bb03119a4",
+      "dimensions": [
+        256,
+        286
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/medieval-waterpowered-sawmill/extracted/preview_75340.jpg",
+      "bytes": 3229,
+      "sha256": "dcf8f70c0234a9b937c85381b08aa2e8cc6d8d1bcc2c52c6cc4b7d36415fad87",
+      "dimensions": [
+        96,
+        96
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/medieval-waterpowered-sawmill/extracted/WaterPoweredSawmillUpload.blend",
+      "bytes": 2846960,
+      "sha256": "230f8260d35254551f0ca07b4a37e022816823e307becb66badda65d8f47b532",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/block.FBX",
+      "bytes": 20800,
+      "sha256": "2b259a5c72b7226a23a105637946d372ce317f0fe64195eacbf30b25709f944d",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/block.obj",
+      "bytes": 903,
+      "sha256": "0714cf04768ee6451b460b6a0ade285de2b821296d667a79fbdd35f1a1052e8e",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_door.FBX",
+      "bytes": 27696,
+      "sha256": "fba67d38dd61682955f9542e1cf2df6aedb8109e48fe7c87c73ec7551e45c761",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_door.obj",
+      "bytes": 9115,
+      "sha256": "e465a27f2ff470b8286341813e39badb5094aec886df3566457edadb9fb49929",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_double_window.FBX",
+      "bytes": 20528,
+      "sha256": "77d9c6187e87ba9503f01709fd369eb04543a22054b250ae8b9e553c5e6fa61f",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_double_window.obj",
+      "bytes": 3140,
+      "sha256": "49bd78f6a538dcc15aff129c028f26452988b0a2c7ffc0690686098f3059c0f2",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_small_double_window.FBX",
+      "bytes": 21184,
+      "sha256": "d047761e9c79069d59b4ed130101b93be6614180fba42a2f9b630d7a6cf601b4",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_small_double_window.obj",
+      "bytes": 3046,
+      "sha256": "9cd5f4390c8c7d26419f94487bc0c8836a9a11451e7f9b9c397819b9ae215dec",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_small_window_1.FBX",
+      "bytes": 20736,
+      "sha256": "382070e107e9c9823d0ee988af87c442d48bbbd25787ca705bb4ae9dcb8c9310",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_small_window_1.obj",
+      "bytes": 2876,
+      "sha256": "59182b333afd538034e305ea535f92c62583c4e9e1c052b0d247deed17e7c1c9",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_small_window_2.FBX",
+      "bytes": 20480,
+      "sha256": "39ad83bc3d1b0f68e691151f3e27c7646a769e4d80e4650b3a750644dd612412",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_small_window_2.obj",
+      "bytes": 2706,
+      "sha256": "1ce9d045b786206f1ba139b2d1cf04cec6d85b71cae03ebcc8d44e5aa5dcc940",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_window_1.FBX",
+      "bytes": 20512,
+      "sha256": "784154cfece12b5654362e97796297e01b8bcdd79b90006ddec2b2587c375122",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_window_1.obj",
+      "bytes": 2856,
+      "sha256": "92f2a3a095678fe434277d9b0ec595eab1d50a161f1396f0bca20215d8eb0986",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_window_2.FBX",
+      "bytes": 20736,
+      "sha256": "bb78567db8a129658345860853bd3e8c8578ff54bc340f305a0718b8cefb1b85",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/brick_window_2.obj",
+      "bytes": 2765,
+      "sha256": "a40f0e04517d34144484eb1aa235881ca9ea2d699440aebd6553839c0503c982",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_door.FBX",
+      "bytes": 27392,
+      "sha256": "3a76af8f53348665f40d9c7e3ffed4cc4ca49f814aae24995dfdb79e3543c419",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_door.obj",
+      "bytes": 8944,
+      "sha256": "62149f3ead7434fdc7327c03296d8bfabb2dd2da7259720a00000608c00a83cd",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_double_window.FBX",
+      "bytes": 20576,
+      "sha256": "1967c157e6cea74adcca7128c4ff5e8ce16d23a078086a6a0929d7db6185b3d1",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_double_window.obj",
+      "bytes": 3116,
+      "sha256": "56d51a5fd07a9670a4ffda7ef3324a43e2cfb16d666d70b52c3066f921985739",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_small_double_window.FBX",
+      "bytes": 21200,
+      "sha256": "220628279ff67c5112dc8b1304a048765f8334afd0bcbd2f741c1ed9311d6acb",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_small_double_window.obj",
+      "bytes": 3022,
+      "sha256": "85c459cf760a06418d26ee273f823b6089172c590fe54484d71b3b4626fe6bdb",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_small_window_1.FBX",
+      "bytes": 20672,
+      "sha256": "b72529fd8ad081056f6c78317314151eb5ad0528990bd6b26f5b9006a74a2191",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_small_window_1.obj",
+      "bytes": 2740,
+      "sha256": "10a9fb0063c5b7eb35de0238a14b4b0f91635f5a096fcd67cb02793ad569c013",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_small_window_2.FBX",
+      "bytes": 20608,
+      "sha256": "17885adb9615d100d0cc9d202ed19950fde8c5a6111178805583333e158e0358",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_small_window_2.obj",
+      "bytes": 2712,
+      "sha256": "bdde47b5deaec8bb81274e8da72000453ec3f6f625b8a79187170a56d7a389ea",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_window_1.FBX",
+      "bytes": 20352,
+      "sha256": "943407082726ffce3f50b8093c109ffa1a9dc203ac1796cf3cf8fce8cfce8c9f",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_window_1.obj",
+      "bytes": 2720,
+      "sha256": "80c77790e5da8db5345ca8680ffadac198de82b0e16a5439dc167a01987481f3",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_window_2.FBX",
+      "bytes": 20528,
+      "sha256": "22b656a8bfe074c8e9594139f2b433780172c6c9241aa8a6df70d054a1e250e0",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/concrete_window_2.obj",
+      "bytes": 2692,
+      "sha256": "bf87564e196a99ee9aea62df94d8471104fcc7d400d72697eee138d103095658",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/cooling.FBX",
+      "bytes": 20912,
+      "sha256": "1155002e894ab97433ce48eb3fdcc10f65c2edd9e09ec60210d9a8bba859ec3b",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/cooling.obj",
+      "bytes": 1027,
+      "sha256": "8190d78a1e3d24a9c543bbcbcedbc5b3b0a5f14ac77884a90b63c390ac85a019",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/diffuse.tga",
+      "bytes": 50331692,
+      "sha256": "307429584de50129ab0a2fed0198ecc35b88205be89f6396f54489b3f3f5752c",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/hangar_door.FBX",
+      "bytes": 23072,
+      "sha256": "9332ae7014183b2cf101b88da0936f806f0368aba23300eb2d5d379c05f2d8e4",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/hangar_door.obj",
+      "bytes": 4809,
+      "sha256": "d810c91a40e4ec788ada4aa14d3e9b5241c30f71a7450587957000cf2b861be2",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/normal.tga",
+      "bytes": 50331692,
+      "sha256": "1ba76458a3c7ddbbb31e92f9b57cf00bd0bc14be0d2582ff3f05048c33ecdb2a",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_brick_1.FBX",
+      "bytes": 20960,
+      "sha256": "49ae33c1ac718a2f662dad60cd23d2c27c6852cd26d41944ceb630d750eef6a6",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_brick_1.obj",
+      "bytes": 1110,
+      "sha256": "6e8c6ce0a8dac77352db0bb15441a41a5e36c8480642c20a341d06eec7b93ed5",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_brick_2.FBX",
+      "bytes": 20992,
+      "sha256": "c2bea5df98bb5dfee28ee6c40d0b98c66e6d163f6a129edfac9acc7b28ae5aa6",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_brick_2.obj",
+      "bytes": 1296,
+      "sha256": "2496d1bf9754e340931c2bfd119f1f42ec03d28175c20109e2ad36364b19bad6",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_brick_3.FBX",
+      "bytes": 20896,
+      "sha256": "5fa0dd26aae19da3f95ca1db3ad230a532f8ea638ecfa40a85c192a6efb4ef8a",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_brick_3.obj",
+      "bytes": 1215,
+      "sha256": "2b6ffb6e0460accfb7eaeaf6163291014e7a42588168358fc6f2ecc0925fae3d",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_concrete_1.FBX",
+      "bytes": 20976,
+      "sha256": "87f54aeb74f558c849706b1772f0ea09024b9145654b5323d0c32094873bd8e4",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_concrete_1.obj",
+      "bytes": 1116,
+      "sha256": "73552790c87d604f03f114de44ad48e2b231de8083eee1a2c67a67330403cdde",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_concrete_2.FBX",
+      "bytes": 21040,
+      "sha256": "d9add3b0cf46bb8113c43ca1cc6330b7a95b12e580e2f58bb4f0501aa83b1e8d",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_concrete_2.obj",
+      "bytes": 1220,
+      "sha256": "f087e1acfd1995a09543512401e836c4b6f4d0bd30b7e93177e6b461e51cd211",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_concrete_3.FBX",
+      "bytes": 20992,
+      "sha256": "a44c36f307437541cab5c2bde6f4c7f4c5c4b045986adc6857dad4e156d007a1",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/pillar_concrete_3.obj",
+      "bytes": 1142,
+      "sha256": "b371719378aeb0c0840e2632c8747707eb05841f0a3f31e3e1792f21049d7cd8",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/preview.jpg",
+      "bytes": 720309,
+      "sha256": "e68c85617c234d8f74dd7001320dc2b2db2b09809342623643a5f8b53323e94f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/roof.FBX",
+      "bytes": 20928,
+      "sha256": "9e75e1a69fe9d7d2ca04d2391cb30f64ed3af58871a955aaf2be67ebbd96e576",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/roof.obj",
+      "bytes": 1097,
+      "sha256": "68872acaf08198c3fdf4776c08ca4f7c12d24af7d510a2e54811545a8e136995",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/specular.tga",
+      "bytes": 50331692,
+      "sha256": "a08e57f0c39dd1d0e4abd7f7dbef6f8b9a012154a0693020225ae0b80a0ea2ff",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_1.FBX",
+      "bytes": 20960,
+      "sha256": "a660435b0ff475d79149a4dba10bf8edc859f2d2fdbe24ec44bb75147e475bf1",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_1.obj",
+      "bytes": 1110,
+      "sha256": "69d9d1ebe2d8396ad03eed525157c90a5c12b1a4cc2dc23786f11afe79617c34",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_2.FBX",
+      "bytes": 20960,
+      "sha256": "e4b2cc8415bbe2469e0bc08302a75f4f2889f16745dd8056a6b00e3f4a80ae42",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_2.obj",
+      "bytes": 1110,
+      "sha256": "3f22d94a2bab747a7083d19c09541378404b5633a24bbf0fb10ffe63ac544f12",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_3.FBX",
+      "bytes": 20960,
+      "sha256": "bf030a886bfeacc4cc859fb4ee18a23b0b65ce03cc8bc0a13417a72e22c019f7",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_3.obj",
+      "bytes": 1110,
+      "sha256": "100686081a88ecb0af0ce05bd6a7a3314cf516c256781847e0fc9259982f3b0a",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_4.FBX",
+      "bytes": 20960,
+      "sha256": "9089e8869e5992a537e317d389d29cf7f845cfc0cb6379abf2548ae0dd807d14",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_4.obj",
+      "bytes": 1106,
+      "sha256": "c57126460716f1e914dbe17e79b120ecb2bcdc5f7908d4eb01a017aae4a1b646",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_5.FBX",
+      "bytes": 20992,
+      "sha256": "968985e303c9d400291b49f022191ec70f6385f1ede71b875fbb2542835c8d46",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_brick_5.obj",
+      "bytes": 1158,
+      "sha256": "5625eeb348af77b32faaafb05e80196ed423e3d0c79725ef5505c0f8000e00b4",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_1.FBX",
+      "bytes": 20976,
+      "sha256": "eef61db96c9b8ca498c1b6d218e22bc19e61d53e45517fcad74638da6a30d9d6",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_1.obj",
+      "bytes": 1116,
+      "sha256": "cb032d30019f1856b9c6b7f31c57d8589ae4b49fb3ce01b1b9e977b92892ce4d",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_2.FBX",
+      "bytes": 20976,
+      "sha256": "82c5eb1090e05f946b69c53e3f9a38986e659cb2a1c4a118cf7ee377282abc2f",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_2.obj",
+      "bytes": 1116,
+      "sha256": "1b2367132a8d0afc5de021b7b039d03c14b94c1ea11614338827635563d3bb50",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_3.FBX",
+      "bytes": 20976,
+      "sha256": "eebfa24990f84bed84ab437b3adcb31bbc9b86b66d3b546e314850af2c093b1e",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_3.obj",
+      "bytes": 1118,
+      "sha256": "94f8b18509697642748499a9d91d5879691034bdffdcc6f1675f71ba24a86b8f",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_4.FBX",
+      "bytes": 21040,
+      "sha256": "3a719d5be0f7d768d7f8400abc50583e42101b3ae7c837667cc874813cb81c9a",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_4.obj",
+      "bytes": 1216,
+      "sha256": "8a716091b782ff55de6320d362844eaf844aa54dd08b5809bf5c1e55eef7233d",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_5.FBX",
+      "bytes": 21008,
+      "sha256": "a7a1ea594ab1a68c4233c7d7e3f7d6f56d20272cc8ef4816742285c5885108f8",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/modular-building-asset-0/extracted/wall_concrete_5.obj",
+      "bytes": 1164,
+      "sha256": "5687ee5e83aecf0a80f024043e65239e9b27d20b97c174a675db7f994787e137",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/retro-log-cabin/extracted/log_cabin/log_cabin.fbx",
+      "bytes": 79980,
+      "sha256": "535eb68414131be18a3376c7c09aabb8254bcf0c0d3ba1ef23572f50a4a77821",
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/retro-log-cabin/extracted/log_cabin/log_cabin_1024px.png",
+      "bytes": 1294753,
+      "sha256": "daba0e462f3e676c0d1e60a1ca3056c6abbeffa80e14d9ac07eefd1045043ac2",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "status": "parsed_or_header_recorded"
+    },
+    {
+      "path": "supplement/retro-log-cabin/extracted/log_cabin/log_cabin_4096px.png",
+      "bytes": 22166108,
+      "sha256": "26d7cc30c0a68c703021d36a1f671fd5bd94fdc5b7459aac11e8bb41dfa97310",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "status": "parsed_or_header_recorded"
+    }
+  ],
+  "errors": []
+}

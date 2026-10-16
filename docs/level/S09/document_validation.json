@@ -1,0 +1,11 @@
+{
+  "compared_to": "WorkBackups/20261013-150650-S09-in_progress-0e16f3",
+  "changed_existing_game_files": [
+    "GodotProject/project.godot",
+    "GodotProject/scripts/mission.gd",
+    "GodotProject/scripts/world.gd"
+  ],
+  "document_links_checked": 64,
+  "missing_links": [],
+  "all_passed": true
+}

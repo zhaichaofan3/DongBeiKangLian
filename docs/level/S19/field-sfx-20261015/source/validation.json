@@ -1,0 +1,14 @@
+{
+  "assets": 11,
+  "captures": [
+    "frenzy-charge.png",
+    "sprint-footsteps.png",
+    "damage-red-edge.png"
+  ],
+  "checks": 12,
+  "damage_edges": 4,
+  "failures": [],
+  "human_listening": false,
+  "human_playtest": false,
+  "passed": true
+}

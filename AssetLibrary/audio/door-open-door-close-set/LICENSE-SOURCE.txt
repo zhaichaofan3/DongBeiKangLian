@@ -1,0 +1,7 @@
+Title: Door open / close set
+Author: qubodup
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/door-open-door-close-set
+Evidence: source.html and source.txt
+Notes: Wooden/metal/synthetic doors. Select wood variants for village and telegraph room.

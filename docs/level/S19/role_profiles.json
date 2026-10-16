@@ -1,0 +1,76 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "Friendly role identities remain explicit",
+      "passed": true
+    },
+    {
+      "description": "Scout, logger and untreated wounded speeds are distinct",
+      "passed": true
+    },
+    {
+      "description": "Treated Lu Shan gains a distinct recovered pace",
+      "passed": true
+    },
+    {
+      "description": "Scout and logger use different idle posture",
+      "passed": true
+    },
+    {
+      "description": "Untreated Lu Shan retains injury posture",
+      "passed": true
+    },
+    {
+      "description": "Lu Shan injury posture eases after treatment",
+      "passed": true
+    },
+    {
+      "description": "Guard retains rifle and patrol-to-contact behavior profile",
+      "passed": true
+    },
+    {
+      "description": "Guard combat pace exceeds patrol pace",
+      "passed": true
+    },
+    {
+      "description": "Guard profile enters a stable aimed rifle pose",
+      "passed": true
+    }
+  ],
+  "method": "Live Friendly and Guard nodes plus imported posture drivers.",
+  "profiles": {
+    "guard": {
+      "combat_speed": 2.2,
+      "cover_behavior": "patrol_to_last_seen",
+      "patrol_speed": 1.3,
+      "rifle": true,
+      "role": "guard"
+    },
+    "logger": {
+      "injured": false,
+      "role": "logger",
+      "speed": 2.0,
+      "treated": false
+    },
+    "lu_treated": {
+      "injured": false,
+      "role": "wounded",
+      "speed": 2.7,
+      "treated": true
+    },
+    "lu_untreated": {
+      "injured": true,
+      "role": "wounded",
+      "speed": 1.8,
+      "treated": false
+    },
+    "scout": {
+      "injured": false,
+      "role": "scout",
+      "speed": 2.4,
+      "treated": false
+    }
+  },
+  "step": "S19"
+}

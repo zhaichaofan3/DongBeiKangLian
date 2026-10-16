@@ -1,0 +1,45 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Supplied rifle is the active first-person weapon
+PASS: Supplied bolt and clip remain independently animated
+PASS: Bolt hand socket lies on the supplied metal handle geometry
+PASS: Four supplied courtyards surrounded by forest and mountains
+PASS: Supplied river channel uses animated game water
+PASS: Supplied pier and boat present at both banks
+PASS: Codebook reachable on the south-hall office desk
+PASS: Relocated codebook interaction advances mission
+PASS: Power switch reachable beside the northeast telephone cabinet
+PASS: Relocated power switch advances mission
+PASS: Ferry pursuit issues two soldiers per batch
+PASS: Next pursuit batch waits for its one-second interval
+PASS: Second pair arrives after one second, twice the old batch cadence
+PASS: Legacy ferry victory saves migrate to a completed departure
+PASS: Departure starts the ferry transition
+PASS: Ferry arrives in the playable village and restores control
+PASS: Arrival applies the village atmosphere
+PASS: Village starts with twelve enemies
+PASS: Jiang Lan joins combat while Lu Shan rests with the roster
+PASS: Jiang Lan carries a rifle with friendly appearance
+PASS: Closed first courtyard gate blocks route to the next encounter
+PASS: Uncleared encounter cannot open its gate
+PASS: Companion fires at a visible village enemy
+PASS: Village checkpoint validates all actor and encounter states
+PASS: Village checkpoint restores chapter, ally and enemies
+PASS: Village restore works from disk without the in-memory fallback
+PASS: Disk restore retains the village atmosphere
+PASS: Village encounter 0 clears in order
+PASS: Village gate 0 opens after clearing its encounter
+PASS: Gate checkpoint remains loadable
+PASS: Village encounter 1 clears in order
+PASS: Village gate 1 opens after clearing its encounter
+PASS: Gate checkpoint remains loadable
+PASS: Village encounter 2 clears in order
+PASS: Final rendezvous wins only after all twelve village enemies are defeated
+PASS: Final village victory is saved
+PASS: Completed village restores its victory state
+PASS: New game restores the forest atmosphere
+PASS: Starting a new chapter resets Jiang Lan to the original scout pose
+PASS: A-01 wide shot presents the playable village
+PASS: A-04 wide shot presents the playable village
+PASS: A-06 wide shot presents the playable village
+USER EXPANSION: PASS | checks=42

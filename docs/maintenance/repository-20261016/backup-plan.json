@@ -1,0 +1,1202 @@
+{
+  "retained_checkpoint": "WorkBackups/20261016-144654-S10-done-f0cbe4",
+  "retained_manifest_sha256": "9d50118380cf5bea530c02a3a876f104a9eb382fb7baaca54f60b049da4362c2",
+  "bytes_to_remove": 152985187349,
+  "items": [
+    {
+      "path": "WorkBackups/.pending-20261016-102422-S10-in_progress-b0c3ee",
+      "bytes": 978530845,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-114102-P00-in_progress-f4a800",
+      "bytes": 85159,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-114253-P00-done-3f4d42",
+      "bytes": 87536,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-115838-S01-in_progress-6a7858",
+      "bytes": 780398307,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-122008-S01-done-886184",
+      "bytes": 796065514,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-122544-P00-in_progress-07bfba",
+      "bytes": 90770,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-123259-P00-done-7f419c",
+      "bytes": 135522,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-123508-S02-in_progress-78222b",
+      "bytes": 658541,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-124356-S02-in_progress-f16142",
+      "bytes": 183647,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-125927-S02-done-ec4445",
+      "bytes": 3099442,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-130027-S03-in_progress-4f26a2",
+      "bytes": 145771,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-131057-S03-in_progress-c25edd",
+      "bytes": 209678,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-131129-S03-done-1edea7",
+      "bytes": 320253,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-131257-S04-in_progress-60ede8",
+      "bytes": 169877,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-131853-S04-in_progress-77b3c6",
+      "bytes": 195282,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-132000-S04-done-653d6a",
+      "bytes": 227141,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-132230-S05-in_progress-78414f",
+      "bytes": 180821,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-133051-S05-in_progress-b274d1",
+      "bytes": 205032,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-133156-S05-done-9a4f5e",
+      "bytes": 333809,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-133603-S06-in_progress-74b99c",
+      "bytes": 210113,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-135445-S06-in_progress-760fa0",
+      "bytes": 953039,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-140021-S06-done-0e309b",
+      "bytes": 1029172,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-140140-S07-in_progress-d6b7b2",
+      "bytes": 225648993,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-141612-S07-in_progress-3f2d27",
+      "bytes": 232080406,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-144233-S07-done-83b039",
+      "bytes": 314596540,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-144515-S08-in_progress-d797e9",
+      "bytes": 862768,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-145714-S08-in_progress-f7463e",
+      "bytes": 1095763,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-150408-S08-done-a43152",
+      "bytes": 1351778,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-150650-S09-in_progress-0e16f3",
+      "bytes": 232189225,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-151736-S09-in_progress-053eb2",
+      "bytes": 231797972,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-153744-S09-done-7555a6",
+      "bytes": 273054066,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-154144-S10-in_progress-9f8435",
+      "bytes": 231838833,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-171635-S10-in_progress-64289b",
+      "bytes": 356598985,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-174833-S10-done-90f870",
+      "bytes": 379433509,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-180604-P00-in_progress-099155",
+      "bytes": 174631,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-180937-P00-done-ff3139",
+      "bytes": 187868,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-181641-P00-in_progress-e7b899",
+      "bytes": 187678,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-183942-P00-in_progress-9b8f39",
+      "bytes": 256884,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-185238-P00-done-6c7386",
+      "bytes": 375663,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-185710-P00-in_progress-b597ee",
+      "bytes": 254084639,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-190806-P00-done-1bb7de",
+      "bytes": 286712,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-191002-P00-done-b36d35",
+      "bytes": 288182,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-191125-P00-in_progress-a4348c",
+      "bytes": 253997759,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-192625-P00-in_progress-a98f8b",
+      "bytes": 378428,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-193723-S11-in_progress-a18336",
+      "bytes": 253994970,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-202324-S11-done-f7924d",
+      "bytes": 281390690,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-203103-P00-in_progress-7fa4d2",
+      "bytes": 288837,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-205053-P00-in_progress-8a61cd",
+      "bytes": 7786461,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-210629-P00-in_progress-7a382b",
+      "bytes": 8797376,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-211649-P00-done-6f87b5",
+      "bytes": 20458057,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-213353-P00-in_progress-25d166",
+      "bytes": 296332,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-222750-P00-done-240c3c",
+      "bytes": 20399650,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-224236-P00-in_progress-5da335",
+      "bytes": 270650,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-224854-P00-in_progress-f1fec6",
+      "bytes": 271396,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261013-225117-P00-done-a02128",
+      "bytes": 506697,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-114712-P00-in_progress-772e31",
+      "bytes": 284694,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-115153-P00-done-581ad7",
+      "bytes": 5703370,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-115232-S12-in_progress-fd560e",
+      "bytes": 276106329,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-130903-S12-in_progress-be6d3a",
+      "bytes": 315358315,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-141042-S12-done-764e4e",
+      "bytes": 329248936,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-143952-S13-in_progress-a4bd0b",
+      "bytes": 295785277,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-144606-S13-in_progress-50ca4d",
+      "bytes": 295834041,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-183720-S13-done-d3436d",
+      "bytes": 296216724,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-184626-S14-in_progress-c0cab4",
+      "bytes": 295797581,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-185359-S14-done-157833",
+      "bytes": 361026500,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-185543-S15-in_progress-1de9a2",
+      "bytes": 295799822,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-190227-S15-done-96350b",
+      "bytes": 295818541,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-190318-S16-in_progress-9f8e0c",
+      "bytes": 295805181,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-192133-S16-done-42837a",
+      "bytes": 295839755,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-192246-S17-in_progress-3309ef",
+      "bytes": 295821307,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-193422-S17-done-c3e744",
+      "bytes": 295836197,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-193719-S18-in_progress-f2f581",
+      "bytes": 295827834,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-194841-S18-done-132928",
+      "bytes": 295841841,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-195011-S19-in_progress-bebe0a",
+      "bytes": 295833514,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-195903-S19-done-25558a",
+      "bytes": 295848288,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-200016-S20-in_progress-70990d",
+      "bytes": 295839602,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-200416-S20-done-3ea42e",
+      "bytes": 295851067,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-200557-S21-in_progress-b0a416",
+      "bytes": 295841449,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-204346-S21-in_progress-9250dd",
+      "bytes": 298117598,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-205954-S21-done-d9f1b0",
+      "bytes": 301407606,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-210324-S22-in_progress-0582b2",
+      "bytes": 301407371,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-223452-S22-done-41d74c",
+      "bytes": 301429416,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-223553-S23-in_progress-147919",
+      "bytes": 296973604,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-224939-S23-in_progress-7184aa",
+      "bytes": 298604610,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-231000-S23-done-4935ac",
+      "bytes": 300240369,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-231109-S24-in_progress-d2d7bf",
+      "bytes": 300221549,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-233109-S24-done-7cb1f4",
+      "bytes": 299203313,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261014-233217-S25-in_progress-41224a",
+      "bytes": 299184485,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-000315-S25-done-6b95e6",
+      "bytes": 298914782,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-000430-S26-in_progress-961dfa",
+      "bytes": 297008865,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-002027-S26-in_progress-ba902f",
+      "bytes": 308516968,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-002525-S26-done-2aa71c",
+      "bytes": 347384558,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-002600-S27-in_progress-f7e40b",
+      "bytes": 297030422,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-003207-S27-in_progress-fab876",
+      "bytes": 297064941,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-004216-S27-done-e377e7",
+      "bytes": 393609494,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-004333-S28-in_progress-1dd32e",
+      "bytes": 297052120,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-004757-S28-in_progress-29e239",
+      "bytes": 589026,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-005054-S28-in_progress-309d1f",
+      "bytes": 8111980,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-005118-S29-in_progress-9e9c0e",
+      "bytes": 332519,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-005828-S29-in_progress-075e43",
+      "bytes": 103169690,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-005906-S30-in_progress-ba0dca",
+      "bytes": 297063787,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-010239-S30-in_progress-5967cf",
+      "bytes": 297082087,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-010502-S30-in_progress-205505",
+      "bytes": 297090488,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-010508-S31-in_progress-9a3259",
+      "bytes": 297078114,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-010932-S31-in_progress-f5f72e",
+      "bytes": 434933302,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-011209-S28-blocked-9b28e4",
+      "bytes": 443094,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-011209-S29-blocked-1e7afc",
+      "bytes": 1843306,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-011211-S30-blocked-14cf66",
+      "bytes": 348415,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-011211-S31-blocked-a179f1",
+      "bytes": 434943951,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-080213-S31-done-a03347",
+      "bytes": 341172865,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-080611-S32-in_progress-1f1707",
+      "bytes": 306142549,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-080940-S32-done-f5a1d8",
+      "bytes": 306168823,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-081003-S33-in_progress-b0604b",
+      "bytes": 306162706,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-081318-S33-done-8f2a15",
+      "bytes": 306176455,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-081627-S34-done-c09ff0",
+      "bytes": 306173567,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-081646-S35-in_progress-73c38e",
+      "bytes": 306172759,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-082500-S35-done-fca73c",
+      "bytes": 306203733,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-082603-S36-in_progress-7f177f",
+      "bytes": 1306882902,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-083042-S32-blocked-66b253",
+      "bytes": 937337296,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-083113-S33-blocked-f3613d",
+      "bytes": 306200200,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-083149-S35-in_progress-bdc5cf",
+      "bytes": 306192285,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-083640-S35-in_progress-44feeb",
+      "bytes": 941513545,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-083852-S35-done-3ab63f",
+      "bytes": 360562954,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-084453-S36-in_progress-ad2fbc",
+      "bytes": 970009414,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-084906-S34-done-77e1fb",
+      "bytes": 306280841,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-085020-S32-blocked-fcee97",
+      "bytes": 306274221,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-085030-S33-blocked-e47692",
+      "bytes": 306697327,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-085440-S36-blocked-751c99",
+      "bytes": 2807362009,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-090143-S17-in_progress-2fbb33",
+      "bytes": 917670646,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-090741-S17-in_progress-8c869b",
+      "bytes": 356102699,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-091330-S17-done-94cda2",
+      "bytes": 1040429760,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-091746-S17-in_progress-70b689",
+      "bytes": 1039972721,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-094937-S17-done-b88495",
+      "bytes": 1089277542,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-104907-S32-in_progress-7eb863",
+      "bytes": 306273979,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-105600-S30-in_progress-393cb5",
+      "bytes": 363540767,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-110331-S31-done-418b90",
+      "bytes": 405946,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-110332-S30-blocked-2aa26b",
+      "bytes": 411774,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-110332-S36-blocked-8e8735",
+      "bytes": 408240,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-110359-S32-in_progress-20c125",
+      "bytes": 1106110853,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-112220-S19-in_progress-9196ad",
+      "bytes": 382307010,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-112609-S19-in_progress-afb100",
+      "bytes": 385379288,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-113018-S36-blocked-e94c54",
+      "bytes": 414555,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-113019-S19-done-12df1f",
+      "bytes": 1129334814,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-113400-S19-in_progress-06b906",
+      "bytes": 1073804149,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-113847-S19-in_progress-35129d",
+      "bytes": 333203093,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-114415-S19-in_progress-141d93",
+      "bytes": 353477739,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-115837-S19-done-c3807d",
+      "bytes": 1142643434,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-120623-S19-in_progress-d9014c",
+      "bytes": 333076867,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-120857-S19-in_progress-9d49b5",
+      "bytes": 348132455,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-121850-S19-in_progress-d53507",
+      "bytes": 348146855,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-123531-S19-in_progress-fed476",
+      "bytes": 351501501,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-124814-S19-in_progress-6b7443",
+      "bytes": 366005123,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-125054-S19-in_progress-69641e",
+      "bytes": 366155629,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-125542-S19-done-1573da",
+      "bytes": 1162044510,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-130719-S30-in_progress-f212c9",
+      "bytes": 340636901,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-131434-S30-in_progress-4c9994",
+      "bytes": 344440494,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-131800-S30-in_progress-8d4532",
+      "bytes": 344604483,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-132229-S30-blocked-f95ce2",
+      "bytes": 1143938720,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-132631-S32-in_progress-27951b",
+      "bytes": 340665311,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-133024-S32-in_progress-76d203",
+      "bytes": 341276156,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-135623-S19-in_progress-3af0a4",
+      "bytes": 1136072416,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-140720-S19-in_progress-bcc3b1",
+      "bytes": 344311222,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-141941-S19-in_progress-f93f48",
+      "bytes": 349704996,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-142608-S19-done-7a5b1d",
+      "bytes": 1174140441,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-143030-S23-in_progress-6383a9",
+      "bytes": 1157128172,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-144420-S23-in_progress-9eb548",
+      "bytes": 363305789,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-145419-S23-done-43eb48",
+      "bytes": 1208355654,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-153703-S19-in_progress-450000",
+      "bytes": 1179962345,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-154001-S19-in_progress-d1bc56",
+      "bytes": 340780408,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-154016-S24-in_progress-a7dfdc",
+      "bytes": 390274118,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-155015-S24-in_progress-f533bd",
+      "bytes": 405256155,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-155645-S24-in_progress-67193a",
+      "bytes": 405307441,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-160152-S19-done-e20556",
+      "bytes": 1291532529,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-160237-S24-done-ddc795",
+      "bytes": 1291535359,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-160620-S32-in_progress-8650f3",
+      "bytes": 1260014479,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-161717-S32-in_progress-f03c71",
+      "bytes": 403064457,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-163227-S32-in_progress-e1bc16",
+      "bytes": 422362370,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-170323-S19-done-054263",
+      "bytes": 467564,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-170335-S24-done-0f4f85",
+      "bytes": 463608,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-170349-S30-blocked-df1e55",
+      "bytes": 475065,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-170402-S36-blocked-2e746d",
+      "bytes": 469289,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-170445-S32-in_progress-454871",
+      "bytes": 1173543063,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-170755-S19-in_progress-2f6d31",
+      "bytes": 1000177481,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-172851-S19-in_progress-7eb55c",
+      "bytes": 623599609,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-173548-S19-in_progress-6c0cd5",
+      "bytes": 623742760,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-173937-S19-in_progress-21c8fa",
+      "bytes": 640176934,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-174451-S19-done-64284b",
+      "bytes": 1427562700,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-175138-S19-in_progress-85c8af",
+      "bytes": 491380802,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-180101-S19-in_progress-92509d",
+      "bytes": 491094535,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-181504-P00-in_progress-78db18",
+      "bytes": 496281,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-182115-P00-done-af4452",
+      "bytes": 22745185,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-182515-S19-in_progress-c82f14",
+      "bytes": 1233838576,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-183216-S19-in_progress-b1bc0e",
+      "bytes": 494240358,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-183852-S19-in_progress-a5b85f",
+      "bytes": 523008259,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-184756-S19-done-73b3c6",
+      "bytes": 1366298818,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-184852-S31-in_progress-d6796e",
+      "bytes": 432043458,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-185549-S31-in_progress-1f3a74",
+      "bytes": 438162771,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-190020-S31-in_progress-6209dd",
+      "bytes": 439307251,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-190628-S31-in_progress-969edb",
+      "bytes": 1247634277,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-191423-S31-in_progress-af1166",
+      "bytes": 445942844,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-192101-S31-done-42d196",
+      "bytes": 1397869773,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-192730-S10-in_progress-07d4b5",
+      "bytes": 1247032016,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-202619-P00-in_progress-ae6bd2",
+      "bytes": 539108,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-203108-P00-done-2c596e",
+      "bytes": 25474745,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d",
+      "bytes": 5523203663,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-204840-S10-in_progress-b221eb",
+      "bytes": 3304403615,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d",
+      "bytes": 4145629380,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-212019-S10-in_progress-fd4a89",
+      "bytes": 3360022218,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-213744-S10-in_progress-d4e591",
+      "bytes": 3422573423,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-214543-S10-in_progress-1c47f9",
+      "bytes": 3440685401,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-215230-S10-in_progress-3e035f",
+      "bytes": 3450313108,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-220555-S10-in_progress-7d0903",
+      "bytes": 3455228739,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff",
+      "bytes": 6813013811,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-224937-S10-in_progress-a53787",
+      "bytes": 934535474,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-234029-S10-in_progress-577dd2",
+      "bytes": 2046746992,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261015-235945-S10-in_progress-6e420c",
+      "bytes": 2082786700,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-001805-S10-in_progress-92b087",
+      "bytes": 3575366289,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-095513-S10-in_progress-8ac53f",
+      "bytes": 3898557442,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-100744-S10-in_progress-d358b9",
+      "bytes": 1246735931,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-102538-S10-in_progress-d0ac46",
+      "bytes": 1253551310,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-105712-S10-in_progress-d14969",
+      "bytes": 1265372513,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-110859-S10-in_progress-d1e27d",
+      "bytes": 1333714703,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-113120-S10-in_progress-ea2c20",
+      "bytes": 1392303741,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-114200-S10-in_progress-65619a",
+      "bytes": 582301,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-120507-S10-in_progress-2aff36",
+      "bytes": 597505,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-125835-S10-done-086d8b",
+      "bytes": 3289756023,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-130518-P00-in_progress-6711f8",
+      "bytes": 612884,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-131132-P00-in_progress-241dc0",
+      "bytes": 26675004,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-131635-P00-done-dc30e0",
+      "bytes": 103117160,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-131947-S10-in_progress-8f594a",
+      "bytes": 3071717098,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-133849-S10-in_progress-1d326a",
+      "bytes": 1257019540,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-135404-S10-in_progress-56cd69",
+      "bytes": 1237814842,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-141748-S10-in_progress-5a70e7",
+      "bytes": 1290859177,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "WorkBackups/20261016-143837-S10-in_progress-4796a0",
+      "bytes": 3124918263,
+      "reason": "Superseded full checkpoint; latest verified recovery retained"
+    },
+    {
+      "path": "ReleaseBackups",
+      "bytes": 4999699483,
+      "reason": "Obsolete release/recovery experiment or reproducible installer; current project and release retained"
+    },
+    {
+      "path": "RestoreChecks",
+      "bytes": 527675354,
+      "reason": "Obsolete release/recovery experiment or reproducible installer; current project and release retained"
+    },
+    {
+      "path": "tools/downloads",
+      "bytes": 484675792,
+      "reason": "Obsolete release/recovery experiment or reproducible installer; current project and release retained"
+    },
+    {
+      "path": "GameProject",
+      "bytes": 33851,
+      "reason": "Obsolete release/recovery experiment or reproducible installer; current project and release retained"
+    },
+    {
+      "path": "AssetReview",
+      "bytes": 50001009,
+      "reason": "Obsolete release/recovery experiment or reproducible installer; current project and release retained"
+    }
+  ]
+}

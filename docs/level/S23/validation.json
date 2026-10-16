@@ -1,0 +1,47 @@
+{
+  "step": "S23",
+  "status": "done",
+  "all_passed": true,
+  "runtime_checks": "12/12",
+  "render": {
+    "status": "pass",
+    "log": "docs/level/S23/render-final3.log",
+    "captures": [
+      "docs/level/S23/render-final3/rim.png",
+      "docs/level/S23/render-final3/wide.png",
+      "docs/level/S23/render-final3/environment_wide.png",
+      "docs/level/S23/render-final3/talk.png",
+      "docs/level/S23/render-final3/listen.png",
+      "docs/level/S23/render-final3/briefing.png"
+    ],
+    "resolution": "1280x720",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  },
+  "layers": {
+    "water_surfaces": 1,
+    "mist_bands": 3,
+    "distant_mountain_layers": 3,
+    "dynamic_lights": 2,
+    "fog_density": 0.0022,
+    "fog_height_m": 14.0,
+    "fog_height_density": 0.032
+  },
+  "performance": {
+    "source": "docs/level/S23/render-final3/captures.json",
+    "effects_off_draw_calls": 30,
+    "effects_on_draw_calls": 36,
+    "effects_off_primitives": 14642,
+    "effects_on_primitives": 14816,
+    "effects_on_median_ms_range": [8.452, 8.625],
+    "effects_on_p95_ms_range": [8.935, 8.997],
+    "scope": "1280x720 Compatibility, frozen lake camera, 30 warmup and 90 timed frames per toggle"
+  },
+  "evidence": [
+    "docs/level/S23/runtime-v3.log",
+    "docs/level/S23/runtime-v3/environment.json",
+    "docs/level/S23/render-final3.log",
+    "docs/level/S23/render-final3/captures.json",
+    "docs/level/S23/validation.md"
+  ],
+  "boundary": "Opening stage only; S24 owns acting and S25 owns camera handoff."
+}

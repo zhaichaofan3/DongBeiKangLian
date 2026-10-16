@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+field_character / Node3D
+FieldRig / Node3D
+Skeleton3D / Skeleton3D
+BONE 0 Hips
+BONE 1 Chest
+BONE 2 Head_2
+BONE 3 Shoulder0
+BONE 4 Elbow0
+BONE 5 Shoulder1
+BONE 6 Elbow1
+BONE 7 Thigh0
+BONE 8 Knee0
+BONE 9 Foot0
+BONE 10 Thigh1
+BONE 11 Knee1
+BONE 12 Foot1
+Backpack / MeshInstance3D
+Bandage / MeshInstance3D
+Belt / MeshInstance3D
+Boots / MeshInstance3D
+Cap / MeshInstance3D
+Clothing / MeshInstance3D
+Cuffs / MeshInstance3D
+Details / MeshInstance3D
+GuardGear / MeshInstance3D
+Hands / MeshInstance3D
+Head / MeshInstance3D
+Helmet / MeshInstance3D
+Scarf / MeshInstance3D
+Trousers / MeshInstance3D

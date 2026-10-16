@@ -1,0 +1,137 @@
+{
+  "step": "S05",
+  "review_type": "editorial review against existing source and S03; not runtime tests",
+  "items": [
+    {
+      "id": "R01",
+      "subject": "天池仅沈砚和姜岚",
+      "cue_ids": [
+        "B1-L01",
+        "B2-L01",
+        "B3-L01"
+      ],
+      "basis": "S03 cast; story.gd initialize",
+      "conclusion": "陆山与林守义只被提及，没有新增出场、军衔或健康陆山。"
+    },
+    {
+      "id": "R02",
+      "subject": "早先接应与最新敌情分开",
+      "cue_ids": [
+        "B3-L01",
+        "B5-L01"
+      ],
+      "basis": "S03 time_and_place; story.gd talk",
+      "conclusion": "B3只说原定接头，B4跨数日，B5首次说昨夜受伤被扣；昨夜是S03原创时间细化，不冒充引擎模拟的事件时间。"
+    },
+    {
+      "id": "R03",
+      "subject": "任务动机与名册位置",
+      "cue_ids": [
+        "B5-L01",
+        "B5-L03"
+      ],
+      "basis": "story.gd talk: scout/lu",
+      "conclusion": "陆山和名册都在电报房，密营与乡亲说明危险来自名字外泄，不虚构额外任务物品。"
+    },
+    {
+      "id": "R04",
+      "subject": "线性进入路线",
+      "cue_ids": [
+        "B5-L04"
+      ],
+      "basis": "story.gd choose: route; linear_director.gd gate_ready",
+      "conclusion": "检查口接木料巷往北，清守卫和按E开门留给既有玩法提示，不口述虚构的捷径。"
+    },
+    {
+      "id": "R05",
+      "subject": "名册在断电之前",
+      "cue_ids": [
+        "B5-L04"
+      ],
+      "basis": "mission.gd interact: stage 0 -> 1 -> 2",
+      "conclusion": "明确取名册再拉总闸，电话中继与现有交互一致。"
+    },
+    {
+      "id": "R06",
+      "subject": "腿伤与救援选择",
+      "cue_ids": [
+        "B5-L02",
+        "B5-L03",
+        "B5-L05"
+      ],
+      "basis": "story.gd talk/choose: lu/rescue/rescue_treat",
+      "conclusion": "可以带走但需慢些，不承诺已经包扎，不把救援强行限定在取册或断电之后。"
+    },
+    {
+      "id": "R07",
+      "subject": "撤路与解缆分工",
+      "cue_ids": [
+        "B5-L06"
+      ],
+      "basis": "story.gd choose: route; linear_director.gd update",
+      "conclusion": "电报房北侧到渡口，玩家掩护陆山解缆；不要求杀光追兵，也不把12秒计时当对白。"
+    },
+    {
+      "id": "R08",
+      "subject": "补给与姜岚去向",
+      "cue_ids": [
+        "B6-L01"
+      ],
+      "basis": "story.gd talk: scout/logger",
+      "conclusion": "木棚仍是可选帮助；姜岚守回山路，不新增跟随战斗AI，不自动领取补给。"
+    },
+    {
+      "id": "R09",
+      "subject": "承诺与可玩状态分开",
+      "cue_ids": [
+        "B6-L02"
+      ],
+      "basis": "S03 handoff",
+      "conclusion": "人物说会带回不等于任务已经完成；结束和跳过仍统一进入stage0、已简报、未救援状态。"
+    },
+    {
+      "id": "R10",
+      "subject": "双人表演可排演",
+      "cue_ids": [
+        "B1-L01",
+        "B2-L01",
+        "B2-L02",
+        "B2-L03",
+        "B3-L01",
+        "B3-L02",
+        "B5-L01",
+        "B5-L02",
+        "B5-L03",
+        "B5-L04",
+        "B5-L05",
+        "B5-L06",
+        "B6-L01",
+        "B6-L02"
+      ],
+      "basis": "S03 first-person staging; current hands and scout model",
+      "conclusion": "每句有说话、听话动作；视线不机械同步；复杂接触和新增枪带不作为前提，嘴角等细节仍须S24制作。"
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "path": "GodotProject/scripts/mission.gd",
+      "sha256": "4f75bec4544f448a6836eb84bb04611478d849a2345541f9881ae7910b068b3a",
+      "matches_S03": true
+    },
+    {
+      "path": "GodotProject/scripts/story.gd",
+      "sha256": "6af84ee900a18713b9e1e80e79aab78276efc21c6febf552f6cb5ea84c013c83",
+      "matches_S03": true
+    },
+    {
+      "path": "GodotProject/scripts/linear_director.gd",
+      "sha256": "9b21fba0cd292f680e63e190d4896b2bcb2767152d329d576ebe77e5792c97b4",
+      "matches_S03": true
+    },
+    {
+      "path": "GodotProject/scripts/story_moments.gd",
+      "sha256": "96497358bcfbee3870df9b73e83f10712114da8f63cd164d3c46e6e7a0fb1921",
+      "matches_S03": true
+    }
+  ]
+}

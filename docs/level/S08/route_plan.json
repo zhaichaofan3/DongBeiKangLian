@@ -1,0 +1,2699 @@
+{
+  "step": "S08",
+  "status": "design_only_not_implemented",
+  "coordinate_system": "Godot X/Z metres, north = -Z, Y up; outside map areas are scenic only",
+  "baseline_survey": "docs/level/S08/source_survey.json",
+  "unchanged_task_anchors": {
+    "book": [
+      53.5,
+      34.0
+    ],
+    "door": [
+      41.7000007629395,
+      38.0
+    ],
+    "evac": [
+      79.0,
+      14.0
+    ],
+    "letter": [
+      48.0,
+      41.7999992370605
+    ],
+    "logger": [
+      14.0,
+      66.0
+    ],
+    "lu": [
+      47.0,
+      30.0
+    ],
+    "power": [
+      60.0,
+      30.2000007629395
+    ],
+    "scout": [
+      12.0,
+      82.0
+    ],
+    "start": [
+      10.0,
+      86.0
+    ],
+    "supply": [
+      36.0,
+      50.0
+    ]
+  },
+  "gates": [
+    {
+      "id": "checkpoint",
+      "xz": [
+        34.0,
+        58.0
+      ]
+    },
+    {
+      "id": "yard",
+      "xz": [
+        34.0,
+        42.0
+      ]
+    },
+    {
+      "id": "river",
+      "xz": [
+        70.0,
+        22.0
+      ]
+    }
+  ],
+  "speeds_mps": {
+    "walk": 3.8,
+    "sprint": 6.0,
+    "crouch": 1.7,
+    "aim_multiplier": 0.65,
+    "lu_untreated": 2.2,
+    "lu_treated": 3.2
+  },
+  "beats": [
+    {
+      "id": "Z0",
+      "title": "林口观察与生活",
+      "routes": [
+        "R01"
+      ],
+      "budget_s": [
+        35,
+        55
+      ],
+      "intensity": [
+        1,
+        2
+      ],
+      "goal": "确认方向，决定是否找林守义补给",
+      "unlock": "看完/跳过B已简报；直接开局仍先与姜岚交谈",
+      "sightline": "起点望木墙缺口(22,74)，摊棚退到左侧；不在X>24摆初始谈话位",
+      "route_distance_m": 20.0,
+      "walk_only_s": 5.26,
+      "sprint_only_s": 3.33,
+      "timing_status": "design_budget_not_observed_player_duration"
+    },
+    {
+      "id": "Z1",
+      "title": "检查口初战",
+      "routes": [
+        "R02"
+      ],
+      "budget_s": [
+        50,
+        90
+      ],
+      "intensity": [
+        2,
+        4
+      ],
+      "goal": "清除gate_guard并开第一门",
+      "unlock": "briefed + gate_guard击败；E开门",
+      "sightline": "低掩体—岗哨—(34,58)栅门三级引导，仓库在右侧形成大轮廓",
+      "route_distance_m": 30.0,
+      "walk_only_s": 7.89,
+      "sprint_only_s": 5.0,
+      "timing_status": "design_budget_not_observed_player_duration"
+    },
+    {
+      "id": "Z2",
+      "title": "木料巷交战与短歇",
+      "routes": [
+        "R03"
+      ],
+      "budget_s": [
+        65,
+        115
+      ],
+      "intensity": [
+        3,
+        4
+      ],
+      "goal": "清除yard_guard/timber_guard；可取医药包",
+      "unlock": "第一门已开 + 两守卫击败；E开第二门",
+      "sightline": "主路沿X34贯穿，两侧货物高低错落；棚体留右侧，不遮两门",
+      "route_distance_m": 20.0,
+      "walk_only_s": 5.26,
+      "sprint_only_s": 3.33,
+      "timing_status": "design_budget_not_observed_player_duration"
+    },
+    {
+      "id": "Z3",
+      "title": "电报房取册与救人",
+      "routes": [
+        "R04a",
+        "R04b"
+      ],
+      "budget_s": [
+        85,
+        145
+      ],
+      "intensity": [
+        2,
+        4
+      ],
+      "goal": "名册→总闸；陆山招募独立可先做，包扎/家书可选",
+      "unlock": "stage=2 且 recruited 才可开渡口门；不额外要求office_guard死亡",
+      "sightline": "门—桌—闸的任务焦点清楚，陆山在西北角；屏风放东南生活角",
+      "route_distance_m": 55.2,
+      "walk_only_s": 14.53,
+      "sprint_only_s": 9.2,
+      "timing_status": "design_budget_not_observed_player_duration"
+    },
+    {
+      "id": "Z4",
+      "title": "北侧护送与喘息",
+      "routes": [
+        "R05"
+      ],
+      "budget_s": [
+        40,
+        75
+      ],
+      "intensity": [
+        2,
+        3
+      ],
+      "goal": "原门出房、绕北侧、照应陆山",
+      "unlock": "从西门返回X34后沿Z22东行，到渡口门(70,22)",
+      "sightline": "南侧电报房与北侧厂房夹出通道；保证伤员转弯与回头视线",
+      "route_distance_m": 74.2,
+      "walk_only_s": 19.53,
+      "sprint_only_s": 12.37,
+      "timing_status": "design_budget_not_observed_player_duration"
+    },
+    {
+      "id": "Z5",
+      "title": "渡口掩护与撤离",
+      "routes": [
+        "R06"
+      ],
+      "budget_s": [
+        45,
+        80
+      ],
+      "intensity": [
+        5,
+        1
+      ],
+      "goal": "靠船掩护累计12秒，再与陆山确认撤离",
+      "unlock": "门开、stage2、招募并跟随，玩家≤10米/陆山≤6米；最终陆山<5.5米",
+      "sightline": "向东开阔河景，向南看追兵路；新布景避开X74–82、Z24–58",
+      "route_distance_m": 22.0,
+      "walk_only_s": 5.79,
+      "sprint_only_s": 3.67,
+      "timing_status": "design_budget_not_observed_player_duration"
+    }
+  ],
+  "proposed_slots": [
+    {
+      "id": "D01",
+      "name": "外围木屋整景",
+      "bounds": [
+        -28,
+        57,
+        -8,
+        77
+      ],
+      "height": 5,
+      "zone": "BG",
+      "assets": [
+        "log_cabin_scene"
+      ],
+      "stage": "S10",
+      "rule": "20×20米外围背景；剔除源地面、改地域造型；从边界内和A2观看，不新增可进室内"
+    },
+    {
+      "id": "D02",
+      "name": "林工生活木屋",
+      "bounds": [
+        5,
+        48,
+        17,
+        58
+      ],
+      "height": 3.2,
+      "zone": "Z0",
+      "assets": [
+        "oga_retro-log-cabin",
+        "oga_log-cabin-dae"
+      ],
+      "stage": "S10",
+      "rule": "两套源择一作为主体；另一套作外围变体。保护林守义(14,66)和原木棚"
+    },
+    {
+      "id": "D03",
+      "name": "仓储主建筑",
+      "bounds": [
+        48,
+        63,
+        60,
+        84
+      ],
+      "height": 8,
+      "zone": "Z1",
+      "assets": [
+        "warehouse",
+        "oga_modular-building-asset-0"
+      ],
+      "stage": "S10",
+      "rule": "目标主体约10×17米；补顶补墙，剔除现代设备；南侧仓储体量从检查口和木料巷可见"
+    },
+    {
+      "id": "D04",
+      "name": "北侧厂房背景",
+      "bounds": [
+        42,
+        4,
+        66,
+        16
+      ],
+      "height": 7,
+      "zone": "BG",
+      "assets": [
+        "modular_factory_facade"
+      ],
+      "stage": "S10",
+      "rule": "24×12米预留区，选模块拼两层外观；南立面朝北侧通道，不覆盖现电报房或北侧绕行"
+    },
+    {
+      "id": "D05",
+      "name": "锯木生产棚",
+      "bounds": [
+        48,
+        49,
+        60,
+        55
+      ],
+      "height": 5,
+      "zone": "Z2",
+      "assets": [
+        "oga_medieval-waterpowered-sawmill"
+      ],
+      "stage": "S10",
+      "rule": "仅取约12×6米棚体/工作台；未建引水渠，水轮留给A2另设水边插镜，不在此空转；旧箱堆需复核"
+    },
+    {
+      "id": "D06",
+      "name": "林口生活摊棚",
+      "bounds": [
+        5,
+        76,
+        8,
+        81
+      ],
+      "height": 2.5,
+      "zone": "Z0",
+      "assets": [
+        "village_market"
+      ],
+      "stage": "S11",
+      "rule": "拆成1至2个摊位；旧布、空筐和耐储物，不整组摆放9×10米集市"
+    },
+    {
+      "id": "D07",
+      "name": "集散货摊",
+      "bounds": [
+        49,
+        50,
+        52,
+        53
+      ],
+      "height": 2.5,
+      "zone": "Z2",
+      "assets": [
+        "market_stalls",
+        "wicker_basket_01"
+      ],
+      "stage": "S11",
+      "parent": "D05",
+      "rule": "棚内子槽，取单体木架与筐；和D05合并碰撞规划，不重复放整组棚顶"
+    },
+    {
+      "id": "D08",
+      "name": "电报房生活角",
+      "bounds": [
+        57,
+        39,
+        60,
+        42
+      ],
+      "height": 1.6,
+      "zone": "Z3",
+      "assets": [
+        "chinese_screen_panels",
+        "wicker_basket_01"
+      ],
+      "stage": "S11",
+      "rule": "只取1至2扇屏风和少量筐，不能围住名册、总闸、家书和陆山"
+    },
+    {
+      "id": "D09",
+      "name": "木棚休息角",
+      "bounds": [
+        8,
+        61,
+        10,
+        63
+      ],
+      "height": 0.5,
+      "zone": "Z0",
+      "assets": [
+        "chinese_tea_table",
+        "wicker_basket_01"
+      ],
+      "stage": "S11",
+      "rule": "低桌配木凳和器具，靠生活区边缘，不作强制交互"
+    }
+  ],
+  "resource_assignments": [
+    {
+      "id": "polyhaven_dead_tree_trunk",
+      "title": "Dead Tree Trunk",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "检查口",
+        "林道"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z1"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "自然物无年代冲突；保留细节近景，削减远处面数，不堵主路",
+      "followup_steps": [
+        "S12",
+        "S13",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_tree_stump_01",
+      "title": "Tree Stump 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷",
+        "检查口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z1",
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "自然物；统一切面与土壤接触，避免重复朝向",
+      "followup_steps": [
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_pine_roots",
+      "title": "Pine Roots",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "树林边缘"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "BG",
+        "Z0"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "原始面数较高；拆局部、减面后少量使用，不以树根替代成熟树林",
+      "followup_steps": [
+        "S12",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_fern_02",
+      "title": "Fern 02",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "渡口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "植被需与季节一致；保持步行视线，雪地镜头稀疏放置",
+      "followup_steps": [
+        "S12",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_rock_moss_set_01",
+      "title": "Rock Moss Set 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "渡口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "自然物；只选所需岩块，天池裸岩另做材质",
+      "followup_steps": [
+        "S12",
+        "S22",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_rock_07",
+      "title": "Rock 07",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "天池岩台",
+        "山路"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "TI"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "自然岩石；重塑接地与可站立顶面，补简化碰撞",
+      "followup_steps": [
+        "S22",
+        "S23"
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_crate_01",
+      "title": "Wooden Crate 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷",
+        "电报房",
+        "渡口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2",
+        "Z3",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "木箱形制通用；去不合年代标识，视觉与实际掩体碰撞一致",
+      "followup_steps": [
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "polyhaven_old_military_crate",
+      "title": "Old Military Crate",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "检查口",
+        "电报房"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z0",
+        "Z1",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "重绘外文与部队标识；不把现代扫描标签当作历史实物",
+      "followup_steps": [
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_military_crate",
+      "title": "Wooden Military Crate",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷",
+        "渡口"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z2",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "清理年代不明喷字；减面与材质统一后可作成组货物",
+      "followup_steps": [
+        "S11",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_wine_barrel_01",
+      "title": "Wine Barrel 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷",
+        "渡口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "去酒庄标记，按木桶解释；不默认作为可爆炸物",
+      "followup_steps": [
+        "S11"
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_bucket_01",
+      "title": "Wooden Bucket 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷",
+        "电报房"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "通用木桶；保持提手比例，不能代替大型布景",
+      "followup_steps": [
+        "S11"
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_ladder",
+      "title": "Wooden Ladder",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "仓库外墙",
+        "木料巷"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "通用木梯；本轮拟静态布景，不承诺攀爬机制",
+      "followup_steps": [
+        "S10",
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_axe_02",
+      "title": "Wooden Axe 02",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "检查斧头样式和握持；伐木演出需单独绑定",
+      "followup_steps": [
+        "S11",
+        "S19"
+      ]
+    },
+    {
+      "id": "polyhaven_handsaw_wood",
+      "title": "Handsaw Wood",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "手锯样式复核；与工作台组合，不漂浮陈列",
+      "followup_steps": [
+        "S11"
+      ]
+    },
+    {
+      "id": "polyhaven_Lantern_01",
+      "title": "Lantern 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "检查口",
+        "电报房",
+        "渡口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z1",
+        "Z3",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "核对油灯细部，动态光源分档限量；网格远距简化",
+      "followup_steps": [
+        "S11",
+        "S23",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_WoodenTable_01",
+      "title": "Wooden Table 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "木料巷"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "保持密码本交互位置；禁止装饰侵占既有通道",
+      "followup_steps": [
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_stool_01",
+      "title": "Wooden Stool 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "生活角落"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "通用木凳；降低细节开销，配合桌高",
+      "followup_steps": [
+        "S11"
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_bookshelf_worn",
+      "title": "Wooden Bookshelf Worn",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "重绘现代书脊与标签；不挡陆山救援路线",
+      "followup_steps": [
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "polyhaven_barrel_stove",
+      "title": "Barrel Stove",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "工棚",
+        "电报房"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z0",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "炉体与排烟方式需年代核对；增加烟管，火焰另做",
+      "followup_steps": [
+        "S11",
+        "S27"
+      ]
+    },
+    {
+      "id": "polyhaven_modular_wooden_pier",
+      "title": "Modular Wooden Pier",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "渡口"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "模块按需抽取，保持解缆与船边站位；碰撞独立",
+      "followup_steps": [
+        "S10",
+        "S13",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_pine_sapling_small",
+      "title": "Pine Sapling Small",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "检查口林缘"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z1"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "小树不能替代成熟林；源面数极高，先减面和分级，避免密集复制",
+      "followup_steps": [
+        "S12",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_vintage_radio_transceiver",
+      "title": "Vintage Radio Transceiver",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已有接入但型号年份未考证；去不符年代刻度与标记，任务锚点不变",
+      "followup_steps": [
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "polyhaven_brown_mud_leaves_01",
+      "title": "Brown Mud Leaves 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "电报房外"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "匹配秋冬季节；不把材质贴图算成模型",
+      "followup_steps": [
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_forest_ground_04",
+      "title": "Forest Ground 04",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "全关卡地面"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "统一泥土色调，避免大面积纹理重复",
+      "followup_steps": [
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_muddy_tracks",
+      "title": "Muddy Tracks",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "木料巷"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "泥辙符合生产区，但车辆规格不由纹理推断",
+      "followup_steps": [
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_pine_bark",
+      "title": "Pine Bark",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "树林"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "BG"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "针叶树材质；配合合适树冠轮廓，不能独立证明树种",
+      "followup_steps": [
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_japanese_cedar_bark",
+      "title": "Japanese Cedar Bark",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "材质参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_wood_trunk_wall",
+      "title": "Wood Trunk Wall",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "工棚",
+        "木屋"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z0"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "适合林区底模；与东北民居形制和保温细节一起校准",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_weathered_brown_planks",
+      "title": "Weathered Brown Planks",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "仓库",
+        "渡口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2",
+        "Z3",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "保持木板尺度统一，增加用途差异与磨损",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_raw_plank_wall",
+      "title": "Raw Plank Wall",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷",
+        "工棚"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "用于生产区新料，避免整场景同一种材质",
+      "followup_steps": [
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_wood_chips",
+      "title": "Wood Chips",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷",
+        "锯木棚"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "生产用途明确；地面贴片避免闪烁",
+      "followup_steps": [
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_grey_roof_tiles",
+      "title": "Grey Roof Tiles",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "院落"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "用于筛选后的建筑，屋顶坡度与檐口另做",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_brick_wall_001",
+      "title": "Brick Wall 001",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "厂房"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "BG",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "贴图是现代扫描，去不合年代修补细节，尺寸为制作假设",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_rusty_metal_04",
+      "title": "Rusty Metal 04",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "仓库",
+        "电报房"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z2",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "只作表面旧化，不据此认定设备年代",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "polyhaven_gravel_road",
+      "title": "Gravel Road",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "检查口",
+        "渡口"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z1",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "与泥地过渡，脚步材质标签在音频步骤接入",
+      "followup_steps": [
+        "S12",
+        "S30"
+      ]
+    },
+    {
+      "id": "polyhaven_snow_02",
+      "title": "Snow 02",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "历史序章A1",
+        "A3"
+      ],
+      "disposition": "过场",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "仅用于明确的冬季镜头；避免与可玩秋季地表混杂",
+      "followup_steps": [
+        "S07",
+        "S12",
+        "S32"
+      ]
+    },
+    {
+      "id": "polyhaven_kloofendal_overcast_puresky",
+      "title": "Kloofendal Overcast (Pure Sky)",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "可玩关卡",
+        "天池"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "TI"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "只用天空与照明，不声明为东北实拍天空",
+      "followup_steps": [
+        "S23",
+        "S35"
+      ]
+    },
+    {
+      "id": "polyhaven_autumn_forest_01",
+      "title": "Autumn Forest 01",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "灯光参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S12",
+        "S23"
+      ]
+    },
+    {
+      "id": "oga_dims-arboretum",
+      "title": "Dim's Arboretum",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道两侧",
+        "历史序章A1"
+      ],
+      "disposition": "远景",
+      "zones": [
+        "CIN_A",
+        "Z0"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "低面枝叶片；转换后修透明、风摆和材质，包内多对象不整包摆场",
+      "followup_steps": [
+        "S12",
+        "S35"
+      ]
+    },
+    {
+      "id": "oga_jkms-tree-set",
+      "title": "JKM's tree set",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "树林最外层"
+      ],
+      "disposition": "远景",
+      "zones": [
+        "BG"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "OBJ缺MTL，需用现存树皮和叶片图重绑；仅远景",
+      "followup_steps": [
+        "S12",
+        "S35"
+      ]
+    },
+    {
+      "id": "oga_birch-tree",
+      "title": "Birch Tree",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "山路"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z0"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "实测3个外部贴图引用缺失；补齐或重绘并重绑，再检查叶片透明与风摆，不可直接按贴图完整使用",
+      "followup_steps": [
+        "S12",
+        "S35"
+      ]
+    },
+    {
+      "id": "oga_medieval-waterpowered-sawmill",
+      "title": "Medieval Waterpowered Sawmill",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷外侧",
+        "历史序章A2"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "CIN_A",
+        "Z2"
+      ],
+      "slots": [
+        "D05"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "重做中世纪基础与装饰；已有Sawing动作仅登记，不保证可直接播放",
+      "followup_steps": [
+        "S10",
+        "S11",
+        "S19"
+      ]
+    },
+    {
+      "id": "oga_retro-log-cabin",
+      "title": "Retro Log Cabin",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林场生活区",
+        "历史序章A2"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "CIN_A",
+        "Z0"
+      ],
+      "slots": [
+        "D02"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "西式通用木屋；调整屋顶窗格、炉灶与保温细节",
+      "followup_steps": [
+        "S10",
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "oga_log-cabin-dae",
+      "title": "Log Cabin (DAE)",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林场外围",
+        "历史序章A2"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "BG",
+        "CIN_A"
+      ],
+      "slots": [
+        "D02"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "DAE需转换并检查相对贴图、碰撞与开口；不是东北民居复原",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "oga_modular-building-asset-0",
+      "title": "Nobiax Modular Building Asset",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "仓库",
+        "电报房外"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z2",
+        "Z3"
+      ],
+      "slots": [
+        "D03"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "34组OBJ/FBX是重复格式；修材质，剔除空调等现代设备",
+      "followup_steps": [
+        "S10",
+        "S13",
+        "S35"
+      ]
+    },
+    {
+      "id": "quaternius_ual1",
+      "title": "Universal Animation Library[Standard]",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "全部角色"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "42个非T姿态名；65骨到13骨需适配，手枪动作不能充作栓动步枪整套动作",
+      "followup_steps": [
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ]
+    },
+    {
+      "id": "quaternius_ual2",
+      "title": "Universal Animation Library 2[Standard]",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "工人",
+        "伤员",
+        "战士"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "42个非T姿态名；剔除奇幻动作，重定向与脚步接地另验收",
+      "followup_steps": [
+        "S14",
+        "S16",
+        "S18",
+        "S19"
+      ]
+    },
+    {
+      "id": "quaternius_base_characters",
+      "title": "Universal Base Characters[Standard]",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "全部NPC"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已选用男性基础局部；超英服装不直接接入，女性和发型不算18个独立角色",
+      "followup_steps": [
+        "S14",
+        "S19",
+        "S24"
+      ]
+    },
+    {
+      "id": "godot_tps_player",
+      "title": "Godot TPS Demo player robot and gun animation reference",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "动画制作参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S14",
+        "S17"
+      ]
+    },
+    {
+      "id": "oga_fps_arms",
+      "title": "fps arms (rigged only)",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "第一人称武器"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "原测试动作未采用；当前细分双手为派生输出，袖口和年代衣物由项目制作",
+      "followup_steps": [
+        "S17"
+      ]
+    },
+    {
+      "id": "lee_enfield",
+      "title": "Bolt action Rifle: Lee Enfield",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "武器制作参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S17"
+      ]
+    },
+    {
+      "id": "the-free-firearm-sound-library",
+      "title": "The Free Firearm Sound Library",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "战斗",
+        "历史序章A4"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已接入1个Arisaka音色；源标.30-06不作原装弹药考据，现代自动武器录音仅备用",
+      "followup_steps": [
+        "S26",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "handling-guns",
+      "title": "Handling Guns",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "第一人称武器"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "筛选栓动机构并同步动作；保留来源及派生许可说明",
+      "followup_steps": [
+        "S17",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "gun-reload-sounds",
+      "title": "Gun reload sounds",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "机械拟音参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "q009s-weapon-sounds",
+      "title": "Q009 weapon sounds",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "战斗",
+        "历史序章A4"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "偏风格化；裁掉科幻/不符武器录音，炮弹需要独立试听",
+      "followup_steps": [
+        "S27",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "ambient-mountain-river-wind-and-forest-and-waterfall",
+      "title": "Ambient mountain, river, wind, forest and waterfall",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "渡口",
+        "天池"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "TI",
+        "Z0",
+        "Z5"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已接入森林与河流；天池以高地风为主，不直接套瀑布声",
+      "followup_steps": [
+        "S23",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "fantozzis-footsteps-grasssand-stone",
+      "title": "Fantozzi footsteps grass/sand and stone",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林道",
+        "天池岩台"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "TI",
+        "Z0"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "与现有脚步音量匹配，走跑节奏由脚部接地事件控制",
+      "followup_steps": [
+        "S16",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "footsteps-on-different-surfaces",
+      "title": "Footsteps on different surfaces",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "全关卡"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已接入1个草地脚步；其余待试听，不把7类表面当成已完成混音",
+      "followup_steps": [
+        "S16",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "42-snow-and-gravel-footsteps",
+      "title": "42 snow and gravel footsteps",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "历史序章A3",
+        "山路"
+      ],
+      "disposition": "过场",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "优先冬季过场，避免雪地声出现在泥地",
+      "followup_steps": [
+        "S28",
+        "S30",
+        "S32"
+      ]
+    },
+    {
+      "id": "footsteps-leather-cloth-armor",
+      "title": "Footsteps leather, cloth, armor",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "人物移动与谈话"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "筛掉铠甲金属风格；棉衣皮带合适样本后续试听",
+      "followup_steps": [
+        "S16",
+        "S24",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "cloth-swing-sounds",
+      "title": "Cloth swing sounds",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "人物转身",
+        "倒地"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "按棉衣重量调整高频，不直接整段触发",
+      "followup_steps": [
+        "S18",
+        "S24",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "paper-pages-sounds",
+      "title": "Paper pages sounds",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "任务序幕"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "CIN_B",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "纸张无明显时代冲突，需与触碰动作同步",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "opening-and-closing-a-map-sounds",
+      "title": "Opening and closing a map",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "任务序幕B3"
+      ],
+      "disposition": "过场",
+      "zones": [
+        "CIN_B"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "按原创镜头使用，不把有声音当作已有地图动画",
+      "followup_steps": [
+        "S05",
+        "S24",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "creaky-light-wooden-door",
+      "title": "Creaky light wooden door",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "木屋"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z0",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "原录音为柜门；只作细节层，不能让厚门听感过轻",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "door-open-door-close-set",
+      "title": "Door open / close set",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房",
+        "仓库"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z2",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "排除现代合成门声，绑定实际交互事件",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "super-foley-pack",
+      "title": "Super Foley Pack",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "人物动作",
+        "室内"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "筛选真实材质，音量避让对白，不新增未定义暴力表现",
+      "followup_steps": [
+        "S18",
+        "S24",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "stealth-music",
+      "title": "Stealth in the Woods",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "探索音乐候选"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S29",
+        "S30"
+      ]
+    },
+    {
+      "id": "kenney-impact-sounds",
+      "title": "Kenney Impact Sounds",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "交火掩体",
+        "木料巷"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z2"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "130音效按材质筛选，避免卡通强瞬态，混响按场景处理",
+      "followup_steps": [
+        "S27",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "kenney-rpg-audio",
+      "title": "Kenney RPG Audio",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "拟音参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S28"
+      ]
+    },
+    {
+      "id": "inventory-sound-effects",
+      "title": "Inventory Sound Effects",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "整装",
+        "任务序幕"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "CIN_B"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "合适材质用于人物整装，不强加游戏UI提示风格",
+      "followup_steps": [
+        "S24",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "mysterious-radio-signal",
+      "title": "Mysterious Radio Signal",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房音景参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "radio-noise-1",
+      "title": "Radio Noise 1",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已有接入；与对白、任务提示分层，不重复叠播",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "sfx-circuit-breaker",
+      "title": "SFX Circuit breaker",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房断电"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已有接入；视觉开关形制另核对，声音不证明年代",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "generator-loop",
+      "title": "Generator loop",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "仓库动力区",
+        "电报房外"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z2",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "先确认关卡有对应机械；没有机器时不凭空放声，断电后同步停止",
+      "followup_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "pagoda_red",
+      "title": "五层塔楼（偏日式）",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "独立参考陈列"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10"
+      ]
+    },
+    {
+      "id": "pagoda_hall",
+      "title": "三层楼阁（偏日式）",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "独立参考陈列"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10"
+      ]
+    },
+    {
+      "id": "pagoda_tower",
+      "title": "双层圆亭塔（风格化）",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "历史序章A2远山",
+        "外围山脊"
+      ],
+      "disposition": "远景",
+      "zones": [
+        "BG",
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "先核对中式形制并降饱和；不应抢天池主体，必要时撤回备用",
+      "followup_steps": [
+        "S10",
+        "S12",
+        "S32"
+      ]
+    },
+    {
+      "id": "warehouse",
+      "title": "敞顶仓库结构",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷外侧"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z2"
+      ],
+      "slots": [
+        "D03"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "敞顶结构需补屋顶、封墙和木构细节，钢架样式需年代筛选",
+      "followup_steps": [
+        "S10",
+        "S13",
+        "S35"
+      ]
+    },
+    {
+      "id": "log_cabin_scene",
+      "title": "木屋与周边环境整景",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林场外围",
+        "历史序章A2"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "BG",
+        "CIN_A"
+      ],
+      "slots": [
+        "D01"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "原尺寸约2000单位；分离源地面、检查门高，改变通用西式细节",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "village_market",
+      "title": "成组村镇集市",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "检查口外侧生活区",
+        "历史序章A2"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "CIN_A",
+        "Z0",
+        "Z1"
+      ],
+      "slots": [
+        "D06"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "原组过小；篷布改旧布色，移除不符东北物产与年代装饰",
+      "followup_steps": [
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "market_stalls",
+      "title": "成组果蔬摊棚",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "木料巷边集散区",
+        "历史序章A2"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "CIN_A",
+        "Z2"
+      ],
+      "slots": [
+        "D07"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "按成人门高放大，替换鲜艳现代货物；预留主通路",
+      "followup_steps": [
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "id": "modular_factory_facade",
+      "title": "砖砌厂房立面模块套件",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房外侧",
+        "仓库背景"
+      ],
+      "disposition": "改造",
+      "zones": [
+        "Z2",
+        "Z3"
+      ],
+      "slots": [
+        "D04"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "源为192网格展列而非成楼；挑选时期合适门窗，补屋顶背面与碰撞",
+      "followup_steps": [
+        "S10",
+        "S13",
+        "S35"
+      ]
+    },
+    {
+      "id": "chinese_screen_panels",
+      "title": "中式屏风整套",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "电报房生活角",
+        "历史序章A2室内"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "CIN_A",
+        "Z0",
+        "Z3"
+      ],
+      "slots": [
+        "D08"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "民居陈设参考；不设在普通战斗通道正中，先统一旧化",
+      "followup_steps": [
+        "S11"
+      ]
+    },
+    {
+      "id": "chinese_tea_table",
+      "title": "中式茶桌",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "林场生活区",
+        "历史序章A2"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "CIN_A",
+        "Z0"
+      ],
+      "slots": [
+        "D09"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "低桌需匹配坐姿与环境，不将现代茶室布局整套搬入战地",
+      "followup_steps": [
+        "S11",
+        "S24"
+      ]
+    },
+    {
+      "id": "wicker_basket_01",
+      "title": "编织方筐",
+      "record_kind": "downloaded_source_group",
+      "source_regions": [
+        "集市",
+        "仓储",
+        "电报房"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "Z0",
+        "Z2",
+        "Z3"
+      ],
+      "slots": [
+        "D07",
+        "D08",
+        "D09"
+      ],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "编织细节可用；仅近景点缀，重复放置使用简化版本",
+      "followup_steps": [
+        "S11",
+        "S35"
+      ]
+    },
+    {
+      "id": "derived_field_character",
+      "title": "四类 NPC 可编辑人物与游戏输出",
+      "record_kind": "local_derived_group",
+      "source_regions": [
+        "侦察员",
+        "伐木工",
+        "陆山",
+        "守卫"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "已有连续蒙皮；脸型差异、服装细节、走跑倒地谈话按后续步骤完善",
+      "followup_steps": [
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S24"
+      ]
+    },
+    {
+      "id": "derived_field_hands",
+      "title": "0.6.1 细分双手与可编辑源",
+      "record_kind": "local_derived_group",
+      "source_regions": [
+        "第一人称"
+      ],
+      "disposition": "正式使用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "已有选用部分或派生版本接入；不代表整包已使用",
+      "proposed_only": true,
+      "adoption_gate": "保持当前握点；关节代理通过不代表全部表面接触验收",
+      "followup_steps": [
+        "S17"
+      ]
+    },
+    {
+      "id": "derived_tianchi_dem",
+      "title": "长白山天池公开高程参考样板",
+      "record_kind": "local_derived_group",
+      "source_regions": [
+        "天池构图参考",
+        "文旅地形概览"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "TI"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "S07已作为过场远景参考接入；尚非艺术化天池成品",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S20",
+        "S21",
+        "S22",
+        "S23"
+      ]
+    },
+    {
+      "id": "candidate_f8429f52abb14798a5b180541797160b",
+      "title": "天池火山口地形",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "天池构图参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "TI"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S20"
+      ]
+    },
+    {
+      "id": "candidate_20985473ab8743f784c05cd01716fff3",
+      "title": "长白山大型地形",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "长白山远景参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "BG",
+        "TI"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S20"
+      ]
+    },
+    {
+      "id": "candidate_24e2a51cb75d4e23b11939f55bdfec7c",
+      "title": "吉林长白山白云峰",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "历史序章远山"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S12",
+        "S20"
+      ]
+    },
+    {
+      "id": "candidate_eb129dba5f594b059dfa1444e13f65b1",
+      "title": "长白山鹿鸣河地形",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "山路过渡远景"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "BG",
+        "CIN_B"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S12",
+        "S20"
+      ]
+    },
+    {
+      "id": "candidate_a18881525cfd4fe882e739c9c7cee752",
+      "title": "传统四合院完整院落",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "历史序章家园",
+        "独立建筑展示"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "CIN_A",
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10",
+        "S32"
+      ]
+    },
+    {
+      "id": "candidate_ed4ea9eb5f024d989eec182d48fa72d8",
+      "title": "中式八角楼（低面）",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "序章外围地标"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "BG",
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "candidate_571eb702c8ba413a9a83843fa5428c4a",
+      "title": "街景建筑与道具套件",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "序章街区"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "id": "candidate_d5e673e13b774deba137bd2e99af8e65",
+      "title": "中式街景",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "序章村街",
+        "关卡外围"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "BG",
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "id": "candidate_1b055a0bbfc14111b5cc62e5644efffa",
+      "title": "四合院",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "序章家园"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10"
+      ]
+    },
+    {
+      "id": "candidate_2998e6b0769d461d8780f16438a1a896",
+      "title": "Siheyuan 四合院",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "序章家园"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "CIN_A"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10"
+      ]
+    },
+    {
+      "id": "candidate_2f09fe07f72e4f3dbfb0eebabf978788",
+      "title": "古风亭式构件（高面数）",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "造型参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10"
+      ]
+    },
+    {
+      "id": "candidate_e96e36a7ba2e47028879ec58e4a06f24",
+      "title": "哈尔滨大剧院候选",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "独立现代文旅展示"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10"
+      ]
+    },
+    {
+      "id": "candidate_075a0a6251bc4c0492337063c053c979",
+      "title": "东北炕",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "民居室内",
+        "历史序章A2"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "CIN_A",
+        "Z3"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S11"
+      ]
+    },
+    {
+      "id": "candidate_blendswap_14878",
+      "title": "中国宫殿建筑群",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "独立建筑展示",
+        "序章远景参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "BG",
+        "CIN_A",
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10",
+        "S32"
+      ]
+    },
+    {
+      "id": "candidate_blendswap_24990",
+      "title": "中国寺庙",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "建筑形制参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10"
+      ]
+    },
+    {
+      "id": "candidate_blendswap_25891",
+      "title": "Wutai Pagoda 风格化塔楼",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "远景地标参考"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "BG",
+        "SHOWCASE"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "candidate_mauser_c96",
+      "title": "Mauser C96",
+      "record_kind": "web_candidate_not_downloaded",
+      "source_regions": [
+        "第一人称武器候选"
+      ],
+      "disposition": "备用",
+      "zones": [
+        "GLOBAL"
+      ],
+      "slots": [],
+      "actual_use_at_S08": "未接入正式关卡",
+      "proposed_only": true,
+      "adoption_gate": "保持候选/备用，不依赖其下载或接入",
+      "followup_steps": [
+        "S17"
+      ]
+    }
+  ],
+  "protected": {
+    "main_route_clear_width_m": 2.4,
+    "escort_turning_clear_width_m": 3.0,
+    "gate_clear_width_m": 4.0,
+    "reinforcement_corridor_xz": [
+      74,
+      24,
+      82,
+      58
+    ],
+    "interaction_clear_radius_m": 2.8,
+    "gate_approach_clear_radius_m": 3.3,
+    "note": "design clearance targets; not capsule/mesh collision acceptance; existing collider conflicts checked in S09/S13"
+  },
+  "transition": {
+    "A_duration_s": 80,
+    "B_duration_s": 80.1,
+    "travel_card_s": [
+      29.8,
+      34.3
+    ],
+    "world_link": "editorial_cut_across_days_no_playable_road",
+    "initial_player_xz": [
+      10.0,
+      86.0
+    ],
+    "briefed_after_B": true,
+    "cinematic_cast": [
+      "沈砚第一人称双手",
+      "姜岚"
+    ],
+    "lu_stays_in_office": true
+  },
+  "duration_budget": {
+    "main_route_m": 221.4,
+    "gameplay_s": [
+      320,
+      560
+    ],
+    "opening_s": 160.1,
+    "note": "budgets include movement/combat/reading/optional pauses, not added together with pure walking time; not measured first-play duration"
+  },
+  "caveats": [
+    "4米导航中心折线可能回绕；距离是明确折线的长度而非几何最短路。",
+    "室内R04b沿既有通关脚本的行走节点，当前只计算距离，不声称重新走通。",
+    "新模型尚未放置；建筑与旧箱堆/树林的交叠须S09/S10处理。",
+    "本步不以熟练AI的82.183秒通关替代真人时间。"
+  ]
+}

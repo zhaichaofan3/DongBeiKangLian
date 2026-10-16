@@ -1,0 +1,16 @@
+{
+	"captures": [
+		"office-exterior",
+		"office-interior",
+		"dock",
+		"village-arrival",
+		"village-wide",
+		"opening-A-01",
+		"opening-A-04",
+		"opening-A-06"
+	],
+	"checks": 39,
+	"failures": [],
+	"passed": true,
+	"renderer": "Windows"
+}

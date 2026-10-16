@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-12",
+  "category_count": 5,
+  "source_group_count": 74,
+  "library_disk_bytes": 1948787459,
+  "categories": [
+    {
+      "category": "first_person",
+      "manifest": "first_person/manifest.json",
+      "source_groups": 1,
+      "registered_files_verified": 6,
+      "library_disk_bytes": 6689656,
+      "file_count_including_evidence_and_extracted": 10
+    },
+    {
+      "category": "weapons",
+      "manifest": "weapons/manifest.json",
+      "source_groups": 1,
+      "registered_files_verified": 10,
+      "library_disk_bytes": 29954946,
+      "file_count_including_evidence_and_extracted": 15
+    },
+    {
+      "category": "characters",
+      "manifest": "characters/manifest.json",
+      "source_groups": 4,
+      "registered_files_verified": 15,
+      "library_disk_bytes": 465530482,
+      "file_count_including_evidence_and_extracted": 170
+    },
+    {
+      "category": "environment",
+      "manifest": "environment/manifest.json",
+      "source_groups": 45,
+      "registered_files_verified": 202,
+      "library_disk_bytes": 780559387,
+      "file_count_including_evidence_and_extracted": 459
+    },
+    {
+      "category": "audio",
+      "manifest": "audio/manifest.json",
+      "source_groups": 23,
+      "registered_files_verified": 662,
+      "library_disk_bytes": 666052988,
+      "file_count_including_evidence_and_extracted": 780
+    }
+  ],
+  "integrated_in_game": [
+    "audio/rifle_arisaka_01.wav",
+    "audio/step_grass_01.wav",
+    "audio/forest_wind_loop.wav",
+    "audio/river_bank_loop.wav",
+    "audio/radio_room_loop.wav",
+    "audio/power_switch_off.wav",
+    "first_person/hand_left.glb",
+    "first_person/hand_right.glb",
+    "environment: 21 selected groups; see ../GodotProject/assets/environment/sources.json"
+  ],
+  "reference_direction": "../docs/bf1_reference_direction.md",
+  "limitations": [
+    "Inventory includes original archives and extracted/derived files; these are not independent unique models.",
+    "Selected skinned hands and environment assets are integrated in v0.4; generic NPC animation packs and Lee Enfield remain unintegrated.",
+    "C96 candidate requires login; deferred per user request."
+  ],
+  "reviewed_derivatives": {
+    "project": "../AssetReview/project.godot",
+    "report": "../AssetReview/reports/summary.json",
+    "files": [
+      "../AssetReview/ready/fps_arms_textured.glb",
+      "../AssetReview/ready/fps_arms_test_scaled_textured.glb",
+      "../AssetReview/ready/lee_enfield_display.glb"
+    ],
+    "status": "Standalone review derivatives remain separate; v0.4 uses newly split hand_left/right.glb with custom finger poses, not the generic source test motion."
+  },
+  "updated_at": "2026-10-13",
+  "base_inventory_date": "2026-10-12",
+  "supplemental_batches": [
+    {
+      "id": "china_northeast_20261013",
+      "category": "environment",
+      "manifest": "environment/china_northeast_20261013/manifest.json",
+      "catalog": "environment/china_northeast_20261013/index.html",
+      "downloaded_source_groups": 11,
+      "downloaded_model_bytes": 79720074,
+      "generated_terrain_groups": 1,
+      "candidate_count_not_downloaded": 16,
+      "godot_verified_model_entries": 13,
+      "integrated_in_main_game": false
+    }
+  ],
+  "source_group_count_including_supplemental_batches": 85,
+  "counts_note": "source_group_count and library_disk_bytes retain the 2026-10-12 base snapshot; supplemental batches are listed separately. Generated terrain and online candidates are not counted as downloaded source model groups."
+}

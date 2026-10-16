@@ -1,0 +1,69 @@
+{
+  "all_passed": true,
+  "arrival_route": [
+    "(484.0, 18.0, 199.5)",
+    "(487.0, 20.0, 184.0)",
+    "(492.0, 22.0, 169.0)",
+    "(497.0, 24.0, 156.0)",
+    "(501.0, 26.0, 145.5)"
+  ],
+  "checks": [
+    {
+      "description": "Opening stage loads the S21 artistic Tianchi model",
+      "passed": true
+    },
+    {
+      "description": "S21 model remains fully instanced in the opening stage",
+      "passed": true
+    },
+    {
+      "description": "Five arrival steps, five departure steps and one talk-platform collider exist",
+      "passed": true
+    },
+    {
+      "description": "Arrival and departure routes expose five ordered waypoints each",
+      "passed": true
+    },
+    {
+      "description": "All ten route waypoints have a walkable top surface",
+      "passed": true
+    },
+    {
+      "description": "Arrival and departure waypoints stay outside the lake clearance radius",
+      "passed": true
+    },
+    {
+      "description": "Both speakers share a level 26m talk-platform surface",
+      "passed": true
+    },
+    {
+      "description": "B1 opening speaker stands on the S22 platform anchor",
+      "passed": true
+    },
+    {
+      "description": "Opening access colliders disable after player control is restored",
+      "passed": true
+    }
+  ],
+  "collider_count": 11,
+  "departure_route": [
+    "(501.0, 26.0, 145.5)",
+    "(493.0, 24.0, 133.5)",
+    "(482.0, 21.5, 113.5)",
+    "(490.0, 18.5, 87.5)",
+    "(512.0, 16.0, 63.5)"
+  ],
+  "lake_clearance_center": [
+    564.0,
+    0.4,
+    119.5
+  ],
+  "method": "Headless main scene, OpeningDirector S21 instancing, physics raycasts at ordered route waypoints, platform level and post-handoff collision state.",
+  "platform_anchor": [
+    501.2,
+    26.0,
+    145.5
+  ],
+  "step": "S22",
+  "waypoint_hits": 10
+}

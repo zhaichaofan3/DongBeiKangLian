@@ -1,0 +1,67 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scout uses the imported skin, not the fallback model
+PASS: scout instantiates the correct supplied model or preserved civilian
+PASS: scout has every animated body joint
+PASS: scout has valid skin weights and bone bindings
+PASS: scout shows its correct clothing, headgear and injury equipment
+PASS: scout sleeves meet both wrist openings
+PASS: scout retains the supplied textured glove geometry
+PASS: scout relaxed glove has natural palm and finger proportions: 0
+PASS: scout relaxed glove has natural palm and finger proportions: 1
+PASS: scout has human scale without exploded vertices
+PASS: scout standing footwear stays near the floor
+PASS: logger uses the imported skin, not the fallback model
+PASS: logger instantiates the correct supplied model or preserved civilian
+PASS: logger has every animated body joint
+PASS: logger has valid skin weights and bone bindings
+PASS: logger shows its correct clothing, headgear and injury equipment
+PASS: logger has human scale without exploded vertices
+PASS: logger standing footwear stays near the floor
+PASS: wounded uses the imported skin, not the fallback model
+PASS: wounded instantiates the correct supplied model or preserved civilian
+PASS: wounded has every animated body joint
+PASS: wounded has valid skin weights and bone bindings
+PASS: wounded shows its correct clothing, headgear and injury equipment
+PASS: wounded sleeves meet both wrist openings
+PASS: wounded retains the supplied textured glove geometry
+PASS: wounded relaxed glove has natural palm and finger proportions: 0
+PASS: wounded relaxed glove has natural palm and finger proportions: 1
+PASS: Lu Shan has no obsolete forehead bandage crossing his cap or eyes
+PASS: wounded has human scale without exploded vertices
+PASS: wounded standing footwear stays near the floor
+PASS: guard uses the imported skin, not the fallback model
+PASS: guard instantiates the correct supplied model or preserved civilian
+PASS: guard has every animated body joint
+PASS: guard has valid skin weights and bone bindings
+PASS: guard shows its correct clothing, headgear and injury equipment
+PASS: guard sleeves meet both wrist openings
+PASS: guard has human scale without exploded vertices
+PASS: guard standing footwear stays near the floor
+PASS: Walking drives imported legs, arms and torso
+PASS: Walking keeps sleeves attached to both wrists
+PASS: Walking skin stays finite and attached to its rig
+PASS: Walking stance remains at ground level
+PASS: Aiming drives imported shoulder and elbow bones
+PASS: Guard retains a visible rifle during aiming
+PASS: Aiming keeps sleeves attached to both wrists
+PASS: Skinned palms stay within 5.5 cm of both rifle grips while lowered and aiming
+RIFLE GRIP ERROR (m): lowered=0.00003153796933, aiming=0.00000024978897
+PASS: Firing recoil reaches the imported body rig
+PASS: Armed friendly selects gripping gloves instead of relaxed fingers
+PASS: Armed friendly gloves remain connected to both sleeves
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: lowered/0
+FRIENDLY GLOVE DISTANCE (m): lowered/0 nearest=0.01592145673931 farthest=0.10163950175047
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: lowered/1
+FRIENDLY GLOVE DISTANCE (m): lowered/1 nearest=0.01737236790359 farthest=0.09838600456715
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: aim/0
+FRIENDLY GLOVE DISTANCE (m): aim/0 nearest=0.01590701192617 farthest=0.10166443884373
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: aim/1
+FRIENDLY GLOVE DISTANCE (m): aim/1 nearest=0.01737247034907 farthest=0.09838584810495
+PASS: Treating Lu Shan changes his imported injury posture
+PASS: Treatment transition keeps clothing and bandages attached
+PASS: Death lowers the imported head and torso onto the ground
+PASS: Fallen skin remains finite with a horizontal silhouette
+PASS: Fallen character has no substantial underground geometry
+PASS: Death releases prior aiming twists into a consistent relaxed arm pose
+CHARACTER MODEL RESULT: 59/59 passed

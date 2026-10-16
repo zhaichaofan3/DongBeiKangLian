@@ -1,0 +1,1187 @@
+[
+  {
+    "path": "GodotProject/assets/audio/forest_wind_loop.wav",
+    "bytes": 824200,
+    "sha256": "e634f4c609443add66dbd7b929569b073426942c239c645389d34e1e46476c1c"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B1-L01.wav",
+    "bytes": 221672,
+    "sha256": "dbd9996f49b9b91091d8716762acb603075b6b697d86dc3698860dd741afc61f"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B2-L01.wav",
+    "bytes": 191938,
+    "sha256": "469babc574f53d1dc2063ff798a1e364874ea41a32e86946121cf540ffc3a4e1"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B2-L02.wav",
+    "bytes": 353058,
+    "sha256": "fe5615fd2bb64b255e6c2c91d24c91e244d6a08c2b29c8dd763ac770ba835f46"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B2-L03.wav",
+    "bytes": 120730,
+    "sha256": "9ec13a88b5835c318ec777062b5f48a05563ea9aa92beae897f001883de03c81"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B3-L01.wav",
+    "bytes": 730146,
+    "sha256": "5ae46b2de82066a1336ee12cf2ff1536925a4df5a8e05241e9895f9d0afceb3f"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B3-L02.wav",
+    "bytes": 79562,
+    "sha256": "4c2365c80f1b7bacb5601f4f7af12a710f254fa8ef35a2b2de8c20ec7f965716"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B5-L01.wav",
+    "bytes": 568486,
+    "sha256": "e46ac7a397a903d6420dc451db6ba4aad221dfb90a6c2c207e92711f056ab2dd"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B5-L02.wav",
+    "bytes": 111664,
+    "sha256": "927d6d60ca7d8fb9244ceadf2fa3a5d3ee024ddaa3789368d01f2ff46de0f368"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B5-L03.wav",
+    "bytes": 686192,
+    "sha256": "507118f1dc1e545e5c634d506c69b59c0434515506f549ef534bcdf23fc275e2"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B5-L04.wav",
+    "bytes": 676832,
+    "sha256": "3ce896664990a14cac65ca3b4f61507f8b0ab58352b2857755371b810fb453c9"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B5-L05.wav",
+    "bytes": 199912,
+    "sha256": "846fc6251ecd512f5043e5c83d2aacfbfd481a93db48946a561afb96ceff1003"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B5-L06.wav",
+    "bytes": 470200,
+    "sha256": "fb25e19b560c669bf18c06c5e328af885bb7ed805ca491e82b528b29406dd7d9"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B6-L01.wav",
+    "bytes": 477524,
+    "sha256": "d1daf5103f39290d44b37b60360af82e5a4bba8dddf787677eaa42c9fc52f5cd"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/B6-L02.wav",
+    "bytes": 329062,
+    "sha256": "6344f1d31acff8a6caba2779bcdfbd0e99f8b386544f72bba619d0aece0f2f49"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N01.wav",
+    "bytes": 287002,
+    "sha256": "18120e4adcb79c68c7101549adc6b86991dea1b4c7f94ff80a835ba838391e6c"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N02.wav",
+    "bytes": 238844,
+    "sha256": "7f8736ea02d9feb8b009354027546b8bd51a07c6eb9ce72e700707d556201110"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N03.wav",
+    "bytes": 308852,
+    "sha256": "22a7b19c07baafcca70a1f3fdf1c50b8a6783db9ea4f4da35cca0d4c3345ab2d"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N04.wav",
+    "bytes": 329876,
+    "sha256": "89ecc4463da39a1ae4a6df878374ae64e90c9683d8571e2e8f1e50e59e533f7e"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N05.wav",
+    "bytes": 224784,
+    "sha256": "7f0732dfe10c41ab5e1ce4cc727acbcbc491ff6cb8a2583421196835dd6a458b"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N06.wav",
+    "bytes": 177098,
+    "sha256": "f657f459025c5a1a6bfe0a78367c3e2b5529fe809b94c08be973e08854c637b7"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N07.wav",
+    "bytes": 167498,
+    "sha256": "b453d8e2523e15c42230998187ea0bb51f9359a3519c0f8f02732de0fc8beff8"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N08.wav",
+    "bytes": 168938,
+    "sha256": "1631e6faa003f5d06e6eab15a9c8f50b1014d866ca6395620bb2e20c2a98a0de"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N09.wav",
+    "bytes": 126014,
+    "sha256": "cbba7713e9221b570b81a1e101bf0ec94eefeb240a0331f48dbe82652cfb4544"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N10.wav",
+    "bytes": 232704,
+    "sha256": "3066c12ed6ae5cc11f3f0f64c9c926924e16660530b6640bf670ffa28780bb08"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N11.wav",
+    "bytes": 242796,
+    "sha256": "a5b8edf3982301a34ca18729bf9368a6580c2cb7e21e060497b56c1a6e1302ed"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N12.wav",
+    "bytes": 215970,
+    "sha256": "cbc0f51afddb2ebccddf8a09188abcc4353b9d576b0af415a631116c201c8e7d"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N13.wav",
+    "bytes": 234208,
+    "sha256": "e5de657a16d6785a0fac6cb6f4d8588827c95c62358ecd64922109332d5290f7"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N14.wav",
+    "bytes": 368222,
+    "sha256": "f80eb607aad26dfb6c1b9e33bf46406b76ee92583586fe8b01a99ad8afa65ea4"
+  },
+  {
+    "path": "GodotProject/assets/audio/opening_voice/N15.wav",
+    "bytes": 479010,
+    "sha256": "354aaa5674db28323e1c80317dee1a10d1ecf3a802a5c96d8782af39dab9036a"
+  },
+  {
+    "path": "GodotProject/assets/audio/power_switch_off.wav",
+    "bytes": 88696,
+    "sha256": "08ae78e664093b269320f2252fb5ace416d3b6d119fe145932124afd79195808"
+  },
+  {
+    "path": "GodotProject/assets/audio/radio_room_loop.wav",
+    "bytes": 408044,
+    "sha256": "e55817df8cf2cc0700b980e99a718de6b587f43794652e400d43ef65819b713d"
+  },
+  {
+    "path": "GodotProject/assets/audio/rifle_arisaka_01.wav",
+    "bytes": 244844,
+    "sha256": "0f06056ac3d02337ee26b74d30f4f8f3454ff3deec0b47d28d5c1316784c9d4e"
+  },
+  {
+    "path": "GodotProject/assets/audio/river_bank_loop.wav",
+    "bytes": 648044,
+    "sha256": "bdb38a1d4aa8a993d9eb3b8be775e6fb6988511f8ac4aa79b50c213a243da947"
+  },
+  {
+    "path": "GodotProject/assets/audio/step_grass_01.wav",
+    "bytes": 23408,
+    "sha256": "cfa2f720672020c70e848b5227e9b6ca95ebb1fd6c8536dc42844bf4bcc470f3"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character.glb",
+    "bytes": 18680680,
+    "sha256": "bb68e21bd47d696ef6d44da35b220430833c7636a12d1d9f01b2d416d8b6ce0a"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_field_cotton_weave.png",
+    "bytes": 276520,
+    "sha256": "4782a1d9ebefa39d7cfc755d0539390edcfb07d43c2d564516c0d3577469834b"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_field_wool_weave.png",
+    "bytes": 276275,
+    "sha256": "62232047f973f9ca233c545ba4bc223c8cd31d3797c2a9c70f5d58488b6ac8ec"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_T_Eye_Brown.png",
+    "bytes": 35958,
+    "sha256": "d08e3356a83211bc6ca21fe3a8e39f4b5c1a3b8f85457fc2c0fb57be09935025"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_T_Eye_Normal.png",
+    "bytes": 15099,
+    "sha256": "9ed61f7726a54fe346a78b9e5a18905d8e2b88f86235d97f53cd207a26f3f8c7"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_T_Hair_1_BaseColor.png",
+    "bytes": 1570376,
+    "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_T_Hair_1_Normal.png",
+    "bytes": 4326126,
+    "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_T_Superhero_Male_Dark.png",
+    "bytes": 1384380,
+    "sha256": "df680cbc1967a61e85998bfafb8f7bc0a36dd604bb3266486c4b06b1a184bb45"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_T_Superhero_Male_Normal.png",
+    "bytes": 4252937,
+    "sha256": "9b25cf9200216eb754b79cf4c63b5380c419780788322f3c57cdd2b3e02679a6"
+  },
+  {
+    "path": "GodotProject/assets/characters/field_character_T_Superhero_Male_Roughness.png",
+    "bytes": 3152049,
+    "sha256": "c70dabf48574cda55644d556beae1ee7cf1bdcf68a50d259d20f2f2358f27991"
+  },
+  {
+    "path": "GodotProject/assets/characters/provenance.json",
+    "bytes": 2178,
+    "sha256": "6afe4cf7c442c12d9eedc2e0145ba01b592672f947d5d6618361f54b341a37e1"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/buildings.json",
+    "bytes": 8911,
+    "sha256": "4f5cdbdff2930b05b038aece4e92f2504eaa1f3e23ed289c50959006458cb73f"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D01.glb",
+    "bytes": 227868,
+    "sha256": "948803359990ab1897a7747f89ee75e3a0765281a156edc5340d377a71c48866"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D01_Cottage Texture.png",
+    "bytes": 44304,
+    "sha256": "bb4e2b872d1487de9871caaa07796c54fe4e0b6674048335d994dd45587c90e2"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D02.glb",
+    "bytes": 1366588,
+    "sha256": "de0623296c6f3d4ff6aa3e80b97e749943e3b83ba46ffb4a1022976cb1a5eecc"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D02_log_cabin_1024px.png",
+    "bytes": 1294753,
+    "sha256": "daba0e462f3e676c0d1e60a1ca3056c6abbeffa80e14d9ac07eefd1045043ac2"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03.glb",
+    "bytes": 5188796,
+    "sha256": "20d826a49ede66f16da6aaa6a86330023b15cea471e6c6ab6482f2c49eaeadcb"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png",
+    "bytes": 1233236,
+    "sha256": "da932d27cf858801cbf1df3f418e0fa749a310bdd4f834d27bb6e95a78c23805"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_concrete_floor_01_diff_1k.jpg",
+    "bytes": 436030,
+    "sha256": "e4b6b1c8e533b707ce9d16cf53cd261cd79c0f1ace4c0c33806846d5ae2e9962"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_concrete_floor_01_nor_1k.jpg",
+    "bytes": 909898,
+    "sha256": "28be1f6fa82eeab137c84954bf7ea0f5d8a4434352d01c29f15e20926eb7227e"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_green_metal_rust_diff_1k.jpg",
+    "bytes": 212088,
+    "sha256": "4509ab0cb1cf6bf9b9f970450a41f83ebd9bff178006deae568ff34b404856fc"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_green_metal_rust_Nor_1k.jpg",
+    "bytes": 121379,
+    "sha256": "8ecb28b0ea4026b740ce492e3f606f61a76bdce1f78cb2e29287bf9a56c54a80"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_rusty_metal_04_diff_2k.jpg",
+    "bytes": 201714,
+    "sha256": "3ffa4638a7109f4ad81af78a7a02f13b62c7f2c89f24c8f09e2616778e28d464"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_rusty_metal_ao_1k.jpg",
+    "bytes": 324255,
+    "sha256": "e2d8cc9a8648d724bbdb014b2ec98eda2599f7ea848e831d1d8923609e9b1300"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_rusty_metal_diff_1k.jpg",
+    "bytes": 577389,
+    "sha256": "b532f22a08a9c36b5adf785373e213cd635a2d3769cb61196bbf5404cce7cd43"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_rusty_metal_nor_1k.jpg",
+    "bytes": 420984,
+    "sha256": "cf7c8d72c7b5e1923321762d47f91d59b5233cb5b3c456823c54a2403109ff6a"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D03_weathered_brown_planks_diff_2k.jpg",
+    "bytes": 164105,
+    "sha256": "158cf55bd9710cf55e849bc8891acd322ea63a88bcd07a68e7c210e41090d6a8"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04.glb",
+    "bytes": 5232976,
+    "sha256": "bcdd31c51873767d4b6597b01d19b55c3d83cabb456f47a7f1c0f72cf5cc3f7d"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_grey_roof_tiles_diff_2k.jpg",
+    "bytes": 203387,
+    "sha256": "6cd4e0b6b0a9bffe0ee477327cfc045da5ae7a0b3256e21c90c0013e7b358b4f"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_modular_factory_facade_brick_arm_2k.jpg",
+    "bytes": 124191,
+    "sha256": "4371d15e9f0675ce573a842013665e056b639fe19bd9fc07cf2fe07740e39606"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_modular_factory_facade_brick_diff_2k.jpg",
+    "bytes": 267280,
+    "sha256": "91ceca5c623c997b0481d2e8b2786b812726f3c5a70e79d4f9fa2effed59cea5"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_modular_factory_facade_brick_nor_gl_2k.jpg",
+    "bytes": 228829,
+    "sha256": "d1b9742378e70be81375fa94f9101e3ecb6df6cdef2ede1485c5dfc7f8821040"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_modular_factory_facade_windows_arm_2k.jpg",
+    "bytes": 186419,
+    "sha256": "4cea25d998dafc987a1e86e539ff291c9643ef48438966a2a8472460d64c3f0d"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k.jpg",
+    "bytes": 138219,
+    "sha256": "c2401c1f0a184386cd573fdc992bc37caabbdbff1facacf0a163b0ab2f504de7"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k_6.png",
+    "bytes": 1315359,
+    "sha256": "8eb7c9a6b4ecab38ab9e8e6d5d9c98fd5b1db1902919fae2139126cc014b1313"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_modular_factory_facade_windows_nor_gl_2k.jpg",
+    "bytes": 123663,
+    "sha256": "3a61a84dfe8a3370e7b288d45896d7b2ba57025afbefb355b73badf5694c7308"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D04_weathered_brown_planks_diff_2k.jpg",
+    "bytes": 164105,
+    "sha256": "158cf55bd9710cf55e849bc8891acd322ea63a88bcd07a68e7c210e41090d6a8"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D05.glb",
+    "bytes": 676580,
+    "sha256": "f5d0f5e6fb11728dc16b1f3133b0cc6070804416b53f60ec64227b39f9bcb172"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D05_RoofTiles.jpg",
+    "bytes": 194812,
+    "sha256": "df73a93cc468528c36c4e0c39b706575e5aab6077dc5d829e5948284c3c67fc8"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D05_TreeLogEdgeWeathered.jpg",
+    "bytes": 260268,
+    "sha256": "b68f0516d81a570e927675398c9bcb04490509d8dff8fc725581b0d028689480"
+  },
+  {
+    "path": "GodotProject/assets/environment/buildings/D05_Wood.jpg",
+    "bytes": 160023,
+    "sha256": "3d8433d4830c6b8ad3709036af04177a9a65eb295677db36628766f49e7be58b"
+  },
+  {
+    "path": "GodotProject/assets/environment/CC0-1.0.txt",
+    "bytes": 7048,
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  {
+    "path": "GodotProject/assets/environment/hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr",
+    "bytes": 4335717,
+    "sha256": "312b1b04b7f10057a4f1418abc59d1166c8933cc93fc72051502edaf8d6b2fcd"
+  },
+  {
+    "path": "GodotProject/assets/environment/landscape/far_pine.glb",
+    "bytes": 193248,
+    "sha256": "526cfaf55a31b11d6d3193152f34e8fe7eaa41af9aa7766de2b5992f19d70f32"
+  },
+  {
+    "path": "GodotProject/assets/environment/landscape/far_pine_nadel.png",
+    "bytes": 182288,
+    "sha256": "f571bb192d6132977ac04071ba81baeca9c30a211bfc18c21b97d1660abee480"
+  },
+  {
+    "path": "GodotProject/assets/environment/landscape/far_pine_stamm.jpg",
+    "bytes": 2103,
+    "sha256": "e648b05c1bf6a50ee4b97d3286297fcaeb8e58560e6b50e25e37f31a8ef8f372"
+  },
+  {
+    "path": "GodotProject/assets/environment/landscape/JKM-GPL.txt",
+    "bytes": 18011,
+    "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+  },
+  {
+    "path": "GodotProject/assets/environment/landscape/JKM-README.txt",
+    "bytes": 2852,
+    "sha256": "9349825b5c240618a71d2587176551360eab0f18e5f649d2074e0dbd904b2ba9"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/dead_tree_trunk/dead_tree_trunk.bin",
+    "bytes": 2293788,
+    "sha256": "c1ac6b3195246e8647a28eee2fbfdd4712a045c7cf2dcb4f5abcc2d40a446ca6"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/dead_tree_trunk/dead_tree_trunk_2k.gltf",
+    "bytes": 2812,
+    "sha256": "63133e2cd4c8c9d08114ef158284403ba4fad802b7f1162f73a8323b509a1b53"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg",
+    "bytes": 2608763,
+    "sha256": "f244cfbfab760d877980065593710f74947bb70eac9d47d9a189537d23ba1f6b"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg",
+    "bytes": 2580084,
+    "sha256": "57b3f04a2b9b1017abfefbbca1b5d4f5421960fefd964a0b9dd4036be4d58d0c"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg",
+    "bytes": 3804907,
+    "sha256": "9447959386aa3ee0e3552bd095c3dbbcb13c58cc6a87cb4b51cc4517b695040c"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/fern_02/fern_02.bin",
+    "bytes": 176176,
+    "sha256": "fe1abb762bcbbc7ad9e86925c8080437a62add257d9280e9142fdc85c226e64c"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/fern_02/fern_02_2k.gltf",
+    "bytes": 6899,
+    "sha256": "50540d37531f93fd693d5340d5b3095c9d6d2834fa05c74bea797d54f290cb6a"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/fern_02/textures/fern_02_arm_2k.jpg",
+    "bytes": 850856,
+    "sha256": "1eaf9bd29e2d83a77ca5d89bdddebcd9216b8b4ba244644580fe5b89bbe713f1"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/fern_02/textures/fern_02_diff_2k.jpg",
+    "bytes": 993703,
+    "sha256": "9ee18172170728050871772e2cd6d8d37b52f9138e61b49b04486623f9caf84b"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/fern_02/textures/fern_02_nor_gl_2k.jpg",
+    "bytes": 1365615,
+    "sha256": "dfe1ac4a428d21f7c134411500177d66b8dd800c8fec6f0040c50f44414a777b"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/Lantern_01/Lantern_01.bin",
+    "bytes": 864852,
+    "sha256": "cb0c7eaaea361546201ba1c4324581ac7147c221851657b6e23d2f854beabe49"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/Lantern_01/Lantern_01_2k.gltf",
+    "bytes": 4866,
+    "sha256": "86f12126e0a5c1c369249371537eed653fa308de8b3554fa088b3fe503d9ec8c"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg",
+    "bytes": 847840,
+    "sha256": "f35b2f236301c13da9c127f1a480d06fd61815750c6b0d4a55dc857d576f6385"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg",
+    "bytes": 519828,
+    "sha256": "85d0e815adce257bc8288d21ba585f37d612a8a13bde9d54e7a98b08510ed869"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg",
+    "bytes": 805944,
+    "sha256": "d0c090bbc39cf26828070fe816fa996959578888a9a661713d4c2d1b2f79449e"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/pine_sapling_small.bin",
+    "bytes": 17771796,
+    "sha256": "b4d2fc73d53f1d8717eb5ef9a2c66957d2a53152787e543aace88fcd6fca94ef"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/pine_sapling_small_2k.gltf",
+    "bytes": 11442,
+    "sha256": "1869e078ec82aaa9cad002ad5be76538dac77bf5efd9ad98b2a0e6c11cca7c18"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg",
+    "bytes": 2941366,
+    "sha256": "7afccadf4d239dfbcb99338067bf1b4d0c3316b42021ac2d7cdf17f8dddb7346"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg",
+    "bytes": 2700448,
+    "sha256": "359bb1be7aab30f5b79d391af9ef088503d6d135d529c9fc06bce60adf28ef60"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg",
+    "bytes": 3373886,
+    "sha256": "5b0cc5c45f8f42c2bb7f20518f6a06485d4eaa5444380907916e278517cc5b1e"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg",
+    "bytes": 1251644,
+    "sha256": "f7907164f65ac089d997a6759db63c3504d25a97ad6c26c9ef5a7f58b985d11d"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg",
+    "bytes": 1542464,
+    "sha256": "216afcc5da6dca9e6286c516520e221cd1babf8a9cddf141cd4b98c2b10f4df0"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg",
+    "bytes": 2557993,
+    "sha256": "b28ea2a70a480b1931f328315fbe65a57e3db723c506839f670ced2626482a26"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/rock_moss_set_01/rock_moss_set_01.bin",
+    "bytes": 1466380,
+    "sha256": "de8360e6175879aaf02c171911069cf5f1852547f9ca7f10e440085dbcc3315e"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/rock_moss_set_01/rock_moss_set_01_2k.gltf",
+    "bytes": 9987,
+    "sha256": "794beaf2f4dc0ab155114f286049dc912a8f3287520965ca8bf6bb0d821ae3e2"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg",
+    "bytes": 649415,
+    "sha256": "bdee6da8baba67bd7e85e414e669cd46aab9afaf755114fb5163f0e68775c3d6"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg",
+    "bytes": 840957,
+    "sha256": "f11c238a203eebd5e82da3a50468040a78d25fd2e46783c4ad79b1022b144c0d"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg",
+    "bytes": 293827,
+    "sha256": "a05a8bd9f2563cf55b738484b894671df7b2391aa02d66451366c5ad38077cd2"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels.bin",
+    "bytes": 35936,
+    "sha256": "34a2f03180313ed4dbf6ac8dd6c0277b1b873929daf6bf8f06a209af6c9b2fc3"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels_2k.gltf",
+    "bytes": 4225,
+    "sha256": "b41e9a2e3ec6f0639ee367b330890c551930ab3d3657a078fa46d3be61824b37"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg",
+    "bytes": 2104738,
+    "sha256": "bb41fb737068c276b4959f5d30783d0178ef6fd0f712201fbbc085786a4e121f"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg",
+    "bytes": 2496906,
+    "sha256": "1d13578e290fca3998a2c0862e6c72dc02ce54be2cc4b3767b5f67ddf4220ae8"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg",
+    "bytes": 1667117,
+    "sha256": "964516af3a3970181b1b3fad02ade4e9e5ef2e4631e5faf7c7f0066d79edd172"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_tea_table/chinese_tea_table.bin",
+    "bytes": 78792,
+    "sha256": "e584dbcf8d654c662ef849ef6111b11dc9f87e9a7ea8dc98c7d32dbfe10b7e52"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_tea_table/chinese_tea_table_2k.gltf",
+    "bytes": 2793,
+    "sha256": "bd79eb86ac2edcb87b312ce1c2ae2a0cf5881981d11d21f5b62e3dd69d486303"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg",
+    "bytes": 1922536,
+    "sha256": "316bfe378289b18df8bec3bf906996e921153474417215baad8ce5c2f3701d88"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg",
+    "bytes": 1696113,
+    "sha256": "0ea6290528c50a5c5c994a4648f101670fa0f2ce98209496a4dbba1b025ad669"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg",
+    "bytes": 2329694,
+    "sha256": "ca8484f0c8fa66c6922246cd129523cd4aee9f48a9fc5b0ce4c3f5f04b51e96c"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/market_stalls/market_stalls.glb",
+    "bytes": 987996,
+    "sha256": "ceb40decc76f7045cae5c5a882ed528c5d9c79f31e9be2e647d9a0971b5b9e04"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/village_market/village_market.glb",
+    "bytes": 385312,
+    "sha256": "a9ded34097efad3bb34f097f885805e96dd4c0d7f0f7a516cfe539d0b0139b3f"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg",
+    "bytes": 2893672,
+    "sha256": "b1932ee1cd909fde89d4cd73b69b33d9c62b9bebf10063a37133461164f9e672"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg",
+    "bytes": 2606521,
+    "sha256": "ffc48a6f829f36d6baf7461cbe8d0b71971893315840d93c0e50f3c8b95a9dce"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg",
+    "bytes": 2229761,
+    "sha256": "74eb1bd455ff66f6dd00abe26fa5ad9669a5b67217f394be981d9b04d3e9e774"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/wicker_basket_01/wicker_basket_01.bin",
+    "bytes": 624920,
+    "sha256": "8e96025ffcdc64a7e75d1aa980f2491b1219912a4554272cd1e192a966c399f8"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/s11/wicker_basket_01/wicker_basket_01_2k.gltf",
+    "bytes": 2792,
+    "sha256": "bd02a364acb48039355642f69349f63d0fe9c635a33b4a57c44e6e24d672cb35"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg",
+    "bytes": 2801595,
+    "sha256": "b025cf566d4ce1da452353f3d98c6ddee2fa63b2b440cfa94d9405de347f846f"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg",
+    "bytes": 3189746,
+    "sha256": "77d5238bc40168bcff0833dcf6510aecea4a2b6746968fed7879c5ca7864e6f5"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg",
+    "bytes": 4415649,
+    "sha256": "2cf395f2779c9e3dfab96088af1384573ecc3f36edbd5ccae8dfe26577c969b0"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/tree_stump_01/tree_stump_01.bin",
+    "bytes": 965380,
+    "sha256": "b4d9ca70b3c908c4a638fbd6a23ed96c84055bbbf14cf44b89e31ad59fa21e0a"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/tree_stump_01/tree_stump_01_2k.gltf",
+    "bytes": 2793,
+    "sha256": "9fd1a672738ce1023318b9af829ccc725bb05ddcf38ff2de905a66f42d8f5143"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg",
+    "bytes": 3430814,
+    "sha256": "f9c03b0960f0e0723327ff9f73e9818a8c17fdbc28fa931c82b295647067397c"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg",
+    "bytes": 2759700,
+    "sha256": "67124a78e7de97188ddee5f43b5dc58068dacd679a03cfc15da3c768bd495991"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg",
+    "bytes": 1927802,
+    "sha256": "fb0a8dc541d9b6337405354df580144c95804490f1ba0bc24a46ed7b79128979"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg",
+    "bytes": 3683828,
+    "sha256": "3b301d0a23ccc10711e88380af600e12b74c5e564b6bb3b94f002bfd86124bc1"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg",
+    "bytes": 2978698,
+    "sha256": "87f03f8ce4b48d78083609a91afc9172f09ffe572c622342c6352b04ab90356f"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg",
+    "bytes": 1809010,
+    "sha256": "0847075bff7d68574dcf65986f6c441cfb46c4619878786b1beffe3ad853622a"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/vintage_radio_transceiver.bin",
+    "bytes": 1740024,
+    "sha256": "392976de8f78517141a42c8a4685463c8db508d3ce4ac04e7235d6a5374c0de1"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf",
+    "bytes": 25848,
+    "sha256": "97a942911b68440da250ae0d829a5ae0075df121148c07bf941bef7c6da9f07d"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg",
+    "bytes": 579968,
+    "sha256": "a8902e757c8fe2a80a851bf419906da641fd3829f5f21e5c6cd13016ee13180b"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg",
+    "bytes": 728748,
+    "sha256": "6a76da96d9bbe957fcab8021fc2710bf153eb98d22ff1439fa5093c7c90a7fdb"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg",
+    "bytes": 531442,
+    "sha256": "a241d134de243f3f52e12e883eeeda881a4604d17486a94b7b994b33de08eacb"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wine_barrel_01/wine_barrel_01.bin",
+    "bytes": 385912,
+    "sha256": "d827c31afed824b923ea9168462c93ab3ad3a88c4a68b155bd35efb1a02cbf00"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wine_barrel_01/wine_barrel_01_2k.gltf",
+    "bytes": 6673,
+    "sha256": "cfff0c36ffde5ba24adf1ea499a7219a9369b870b7214d0bd1b554d758c279c9"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg",
+    "bytes": 3218573,
+    "sha256": "48fe4bae958db830994cb5014a2253b78b83e8378374165c790d8e82ec89ca79"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg",
+    "bytes": 3055826,
+    "sha256": "d76e360a2091ef3aeffd503c94c364c972b3c99a7a40100b8f42f51aa4dc83aa"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg",
+    "bytes": 2424098,
+    "sha256": "c7f81288b089ed64eb899d7fdccec1d89b4ebb0807a8d67ceb85e53318e3421e"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_axe_02/wooden_axe_02.bin",
+    "bytes": 59196,
+    "sha256": "8af8b62e3e36b986cdb510b6e7b3fbcfffe3b030c408d89261351041ab69565f"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_axe_02/wooden_axe_02_2k.gltf",
+    "bytes": 2774,
+    "sha256": "e4aa80bbe897bb24eb1fcfadd4b83b18eadb41f7cd56670d5017751c8baaa5e5"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg",
+    "bytes": 2758514,
+    "sha256": "7db02f629d749be87377661df227d4872472c566dec0592ca7e447a95f7305d3"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg",
+    "bytes": 2656660,
+    "sha256": "81c56fadd487ed6ee106f2c02fda074851df3935a3780862e7237f2832475179"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg",
+    "bytes": 2926119,
+    "sha256": "842de72ec1638dc1cca8656dccef0bf4aa7455d08acb49da297fee2e0247599f"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_bucket_01/wooden_bucket_01.bin",
+    "bytes": 158408,
+    "sha256": "7dbce867270cbb1efe7b0970ebeb9b0d40dd53bcb62f57bfa541c04726ed4b7e"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_bucket_01/wooden_bucket_01_2k.gltf",
+    "bytes": 4248,
+    "sha256": "00fbe1118716d6dff68b08b88a2b630b458e0fae219fc4c183aecc0612367538"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg",
+    "bytes": 2808807,
+    "sha256": "00568882a62e4870a3ca9bbaad72606381bf3da857f0cb7a71b004edde39653c"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg",
+    "bytes": 2728494,
+    "sha256": "0ba1a7745837c7b5495b6a90051ddb92b25224476526ebd19418286afc3d429b"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg",
+    "bytes": 2553649,
+    "sha256": "d163fac0801aa15a6153a8b19de898442b849f82bd720ce1418e300fee9f2c75"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_crate_01/wooden_crate_01.bin",
+    "bytes": 189408,
+    "sha256": "85f381f8035f7a6f2f3b848640894c6d3333b261946dd8a338c0fe19e0bea21e"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/wooden_crate_01/wooden_crate_01_2k.gltf",
+    "bytes": 5612,
+    "sha256": "747c26810ddcca99454ccd27fa0079b3718edda34c75d2a792b2c9bd28772a20"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg",
+    "bytes": 744344,
+    "sha256": "7551f1c235f39577e18ba5d7af2c70eb5a7252e4e506794f9e8166e80525188a"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg",
+    "bytes": 537903,
+    "sha256": "3bde4f1a9af22eea8a00a6137dd6054839146a6fb1efea98bdd3a81f2c829946"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg",
+    "bytes": 497296,
+    "sha256": "b82b89d11ccdea7c53f99f89b4cb1414d5a8b39701f38e11b890790ece069048"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/WoodenTable_01/WoodenTable_01.bin",
+    "bytes": 42064,
+    "sha256": "1083a3442969d27e18e6a7a454bc164407439e3908bf8f17f5fb24d58cd0172e"
+  },
+  {
+    "path": "GodotProject/assets/environment/models/WoodenTable_01/WoodenTable_01_2k.gltf",
+    "bytes": 2688,
+    "sha256": "f8355be5c1c4fe002b5298154ad535ac6a437e2ae0ddb8c984ac6400a2c28289"
+  },
+  {
+    "path": "GodotProject/assets/environment/sources.json",
+    "bytes": 36900,
+    "sha256": "642cd497f0e30c5c5f90c6e347d31485aff0cdf506cb1580dc14008b3862da68"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg",
+    "bytes": 2043756,
+    "sha256": "aefa7f3743282de2c7df4e4282c868de204239ac3c94e818b1ef74f2a2d74f1a"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg",
+    "bytes": 1160617,
+    "sha256": "62cc36d391b2f73c3855fd745a5815686db59d73bf3ef9db2ad96ca27eb97e32"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/brick_wall_001/brick_wall_001_rough_2k.jpg",
+    "bytes": 788257,
+    "sha256": "96a124344ee8ace616cf4397324b7b2e47c4f07b6961d12bc19a7b90d2bf61a0"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg",
+    "bytes": 4539452,
+    "sha256": "29c997d77f56e4ea16d3e998a306be0c17fddb28ab4822657c7cd8249040ffda"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg",
+    "bytes": 5688696,
+    "sha256": "b6ec386e00d9d2a1c3a1da6a98a67066b0dfaa88ddb779341df29700cf081bdf"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg",
+    "bytes": 2421908,
+    "sha256": "9556215f5fef905c37cdf19c77aef7822f124890f8fb7dcce65d57c5eafc0ca5"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/forest_ground_04/forest_ground_04_diff_2k.jpg",
+    "bytes": 4529321,
+    "sha256": "24b8aaf4c8547305d80b0e029ec365219ab1b90748d4ca5651bdc9e75bfde5e6"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg",
+    "bytes": 5288849,
+    "sha256": "b37ac799ed410976541e0011c246fca254e74eaa3f096ae7a7d74178db5a6d9b"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/forest_ground_04/forest_ground_04_rough_2k.jpg",
+    "bytes": 2509805,
+    "sha256": "24194662948424c323c75e0918461ad9d38bc0a275022000144f248b3efb4119"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg",
+    "bytes": 2871851,
+    "sha256": "6313bb65816f2890a247cb9a5bae003ddef98cf55099d5abaf543a88e0ab3180"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/gravel_road/gravel_road_nor_gl_2k.jpg",
+    "bytes": 3613956,
+    "sha256": "4fc9dfc7ebfe58e531225dc55b9c89d89c1abb51670e62da086f2a8fa4fb71db"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/gravel_road/gravel_road_rough_2k.jpg",
+    "bytes": 1203380,
+    "sha256": "e03290bca670efb4bc0276a3e1198a2ea4fee27dac87d553b18f336068a461db"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg",
+    "bytes": 2039152,
+    "sha256": "f0ccddb07c8b21cd7825fd2c4cdf04cff23ec9fc52a92578122036ccf22a8a90"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg",
+    "bytes": 1504796,
+    "sha256": "e91134466a2aec440eae42ccef20f7055d87bf8caac208555eb1f069578eb29a"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg",
+    "bytes": 1009346,
+    "sha256": "404d04cfdb77f2537d5cf4f9249bd7c8d265a303c73b7bf362af1f109c88299c"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg",
+    "bytes": 2969433,
+    "sha256": "09d45e99ae5338b4cdb0aa1897519bc096bc38a4249c5042512e5ee74b21125c"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg",
+    "bytes": 5110104,
+    "sha256": "db4884d62000939863718260d97b2a073f0b82b2d9133921cb836457e6f1fc01"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/muddy_tracks/muddy_tracks_rough_2k.jpg",
+    "bytes": 3035220,
+    "sha256": "3b14301b357373eec83330655b98261918eb9483627e8d936807d80df566ba5e"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/pine_bark/pine_bark_diff_2k.jpg",
+    "bytes": 3167561,
+    "sha256": "741f333ab9f8a0996d8a53905b5ac792fab77d7ccb8cac5fbaed8c99b9f6abd5"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/pine_bark/pine_bark_nor_gl_2k.jpg",
+    "bytes": 4637035,
+    "sha256": "e91d024441a698523472ef2001be2eade2f73005d798466c7acd3ec5d585667f"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/pine_bark/pine_bark_rough_2k.jpg",
+    "bytes": 2085022,
+    "sha256": "a86618f6358a97410b15d226d0b3d52bb203aed8d9a29cfa355769b95df94d03"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg",
+    "bytes": 3463347,
+    "sha256": "dc17baa7c113af0a8db59a7166dbebd1d8bc842e69b1f07b89d9e90531ebbd22"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg",
+    "bytes": 3582694,
+    "sha256": "b230568d198778afbf3d104d2951e2e2306ddb276bc1ed2f441b9040c58af537"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg",
+    "bytes": 2548882,
+    "sha256": "b59cb33b478c70404b14294e39979c7a12db25e8f7fac3688cf665fcb0fdd19d"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg",
+    "bytes": 911358,
+    "sha256": "070ebc4c56a6729ca73a791f7cd3bab7670eb03bfa9ac0218864a554228bcc30"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg",
+    "bytes": 1029733,
+    "sha256": "1c4882afd62de8da66b6e0730894e1a08db1e0cdd2370bd8bce77a6935d8812b"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg",
+    "bytes": 944154,
+    "sha256": "6897855d0e2758b612fd8cf478aed01b4992d856987a8b4951e5758a48003df2"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/wood_chips/wood_chips_diff_2k.jpg",
+    "bytes": 4437289,
+    "sha256": "e938bf4508e4fb08e78d1e6a402e7705f0dd48cdd3386c143964b2a902d81946"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/wood_chips/wood_chips_nor_gl_2k.jpg",
+    "bytes": 5638212,
+    "sha256": "ba24d480dce4552a2f4869e731e2110d944701e4836c8d0a54ab3f832c027aa5"
+  },
+  {
+    "path": "GodotProject/assets/environment/textures/wood_chips/wood_chips_rough_2k.jpg",
+    "bytes": 1497828,
+    "sha256": "309b4c2ea461acf08aa71bbc27c4e3e2e5f2eca4a26e9206f2102e443765a126"
+  },
+  {
+    "path": "GodotProject/assets/first_person/hand_left.glb",
+    "bytes": 1680880,
+    "sha256": "7b4d81dd2dd8c2a305489355c9e8573ce78c754d3f188118196eef25ca60a9fb"
+  },
+  {
+    "path": "GodotProject/assets/first_person/hand_left_skin_diffuse.png",
+    "bytes": 575081,
+    "sha256": "b2905ca2f37bf97c18ce1b903229b85c0485bd17f49e47921f0347860598f158"
+  },
+  {
+    "path": "GodotProject/assets/first_person/hand_right.glb",
+    "bytes": 1778608,
+    "sha256": "7e1013e39d3e5547a66552074641db17f4db90a7d4a51530ff63f9d23fed1024"
+  },
+  {
+    "path": "GodotProject/assets/first_person/hand_right_skin_diffuse.png",
+    "bytes": 575081,
+    "sha256": "b2905ca2f37bf97c18ce1b903229b85c0485bd17f49e47921f0347860598f158"
+  },
+  {
+    "path": "GodotProject/assets/first_person/provenance.json",
+    "bytes": 1516,
+    "sha256": "64495ec530a41faa4d447cee0e3a312cf2a9a9e7d3d7b297452ed9ad4085d9fc"
+  },
+  {
+    "path": "GodotProject/assets/opening/opening.json",
+    "bytes": 53948,
+    "sha256": "adf896df9f7bc097c256c2bf3164dbee3c05784585c80211616600ee1cd8ac5d"
+  },
+  {
+    "path": "GodotProject/assets/opening/reference_source.json",
+    "bytes": 598,
+    "sha256": "b4e0e49c2100e6e4b9df0495fc698b209a13d391b56d428e4612b30bf07c5811"
+  },
+  {
+    "path": "GodotProject/assets/opening/tianchi_artistic.glb",
+    "bytes": 1103812,
+    "sha256": "8b4559562453f494ca79263bd62d473f76e8570a54da1b5ad06c590d95148186"
+  },
+  {
+    "path": "GodotProject/assets/opening/tianchi_reference.glb",
+    "bytes": 5036956,
+    "sha256": "6cb48b44e743abf97744865079ea7032aadf4a3d70c41c87b621a5ceec8741c7"
+  },
+  {
+    "path": "GodotProject/assets/opening/tianchi_reference_terrain_color.png",
+    "bytes": 1286635,
+    "sha256": "4117ac2097a8cc4c949361ff3dfa3bf2fc84e1645713871074f25185b58a57b4"
+  },
+  {
+    "path": "GodotProject/export_presets.cfg",
+    "bytes": 581,
+    "sha256": "325db67ee4cf6f7dee124c9835186944f47287bb18f14de7430444a9d7549eef"
+  },
+  {
+    "path": "GodotProject/main.tscn",
+    "bytes": 172,
+    "sha256": "1ac97d3649a78efb778eac08b6ee305609528c7a89ad8fb48f82eabed9dab66c"
+  },
+  {
+    "path": "GodotProject/project.godot",
+    "bytes": 1164,
+    "sha256": "e452011f0240a8bc9543f8ff306fea03436200bba87241301e33ef8db1490a49"
+  },
+  {
+    "path": "GodotProject/scripts/artillery_director.gd",
+    "bytes": 2402,
+    "sha256": "1eb858313547f419ab644b00352662f0620c4106ab310695336100bac9df6ae1"
+  },
+  {
+    "path": "GodotProject/scripts/asset_dressing.gd",
+    "bytes": 18251,
+    "sha256": "f26881ad4b11b3cbeef1526ee58f3e575a4406bcf44118a506f715e5fd31906b"
+  },
+  {
+    "path": "GodotProject/scripts/audio_factory.gd",
+    "bytes": 2308,
+    "sha256": "36233bbbb010f6398c8a960e619bf9bf3be72f97af28b46b15ee295ca7427194"
+  },
+  {
+    "path": "GodotProject/scripts/audio_mix.gd",
+    "bytes": 5359,
+    "sha256": "f40f1d40410d78f311082fc45480d48531b4a85287367dfafb6f1cfcf6ad490d"
+  },
+  {
+    "path": "GodotProject/scripts/explosion_effect.gd",
+    "bytes": 4954,
+    "sha256": "8cda7ca0c6a37259f8a7de0da67c5a4cc64131f4a46d685b7bcbf9e6ae4330d3"
+  },
+  {
+    "path": "GodotProject/scripts/field_character_rig.gd",
+    "bytes": 5507,
+    "sha256": "78af7b839a3dc2c428644f52eb0468a1d2b46dfb13ba2cd44fb16d11b166eed4"
+  },
+  {
+    "path": "GodotProject/scripts/fp_hands.gd",
+    "bytes": 10962,
+    "sha256": "8d5ad8373f16d855d396e2c032db89d425c696bd6b29453d1b75111847986bcd"
+  },
+  {
+    "path": "GodotProject/scripts/fps_player.gd",
+    "bytes": 17867,
+    "sha256": "abd3344b731efa4a58e306bf9377bd25b8fdddb004fe295e93d5172e2c54b669"
+  },
+  {
+    "path": "GodotProject/scripts/friendly.gd",
+    "bytes": 3531,
+    "sha256": "d815f4c801f32f122c413242427323b4d172805c9c360570e9574c71e0d2dbc3"
+  },
+  {
+    "path": "GodotProject/scripts/guard.gd",
+    "bytes": 7943,
+    "sha256": "fbc7457b18658c2dbe814b47e1885af0d008da36dd0bd2940eec05c93993b6bf"
+  },
+  {
+    "path": "GodotProject/scripts/hud.gd",
+    "bytes": 17074,
+    "sha256": "6b473a9551ab3bb9dd6ff9f5df1072acee4c63ade2959eea952816130a885e01"
+  },
+  {
+    "path": "GodotProject/scripts/human_model.gd",
+    "bytes": 24199,
+    "sha256": "2bea26ffc61be6cb8ccfd6a46ac89e487d159331b4a816b0ef0dee1e76b8b101"
+  },
+  {
+    "path": "GodotProject/scripts/landscape.gd",
+    "bytes": 4946,
+    "sha256": "4154de4a9ae2e4ffa9a43d1857f63d9ea78eb0df31992175c668385102fa9cfa"
+  },
+  {
+    "path": "GodotProject/scripts/linear_director.gd",
+    "bytes": 7347,
+    "sha256": "9b21fba0cd292f680e63e190d4896b2bcb2767152d329d576ebe77e5792c97b4"
+  },
+  {
+    "path": "GodotProject/scripts/mission.gd",
+    "bytes": 30141,
+    "sha256": "dd55e3b23552228a55ffe64ef5274d5e5b4b850f3eb10abf5b982c30a4bddeb2"
+  },
+  {
+    "path": "GodotProject/scripts/muzzle_effect.gd",
+    "bytes": 5416,
+    "sha256": "a5fb613d53d658223f7c8e0ee61e8bbd1195ce4a1cf1bcfaaf1e7054eeb67f15"
+  },
+  {
+    "path": "GodotProject/scripts/opening_director.gd",
+    "bytes": 36281,
+    "sha256": "dc72a825ae73c8fca68d8cadbce21aa7e4c12601b03c971fdf86ff62aa12d3f6"
+  },
+  {
+    "path": "GodotProject/scripts/presentation.gd",
+    "bytes": 3445,
+    "sha256": "d79de3a3f6b2b4d4195e78296c7a235793279ddebff54ae93d600e51347e6a19"
+  },
+  {
+    "path": "GodotProject/scripts/route_blockout.gd",
+    "bytes": 8335,
+    "sha256": "8fb721bfbedd26f77b45d45519245d29ed24687f44a3c6d93a219ef450a7fec7"
+  },
+  {
+    "path": "GodotProject/scripts/story.gd",
+    "bytes": 14497,
+    "sha256": "6af84ee900a18713b9e1e80e79aab78276efc21c6febf552f6cb5ea84c013c83"
+  },
+  {
+    "path": "GodotProject/scripts/story_moments.gd",
+    "bytes": 4404,
+    "sha256": "77d92851a57659fc6107333409996bd14506d1666abeba3cdf430c4cb6cde8bb"
+  },
+  {
+    "path": "GodotProject/scripts/weapon_visuals.gd",
+    "bytes": 11277,
+    "sha256": "0c76e382fc3985048f73f90910a1ed370f76b4d213444ddf63be203a39fb6c83"
+  },
+  {
+    "path": "GodotProject/scripts/world.gd",
+    "bytes": 49421,
+    "sha256": "fdb21a0a5cac6a31361ecc36a98876caf9a9c253c903a42a32d8d8ebd7ea2756"
+  },
+  {
+    "path": "GodotProject/shaders/forest_foliage.gdshader",
+    "bytes": 873,
+    "sha256": "2da70ca2f831e8777d8bdd5d026589c6ef177661fde23226a612bfe2f2b05b14"
+  },
+  {
+    "path": "GodotProject/shaders/river.gdshader",
+    "bytes": 847,
+    "sha256": "b527fe0f070eeb12a58cfbdcf28764f8b1338d09fb08baffc24de9738aa70909"
+  },
+  {
+    "path": "GodotProject/shaders/tianchi_mist.gdshader",
+    "bytes": 839,
+    "sha256": "bf8341e28d223c83ec08c7cecc0a5aaa78e9a05b0f22b8e089883b0c9f2edcbf"
+  },
+  {
+    "path": "GodotProject/shaders/tianchi_water.gdshader",
+    "bytes": 1181,
+    "sha256": "a9dcd17523d6f6968670841498072972b8c59ffcfe89ddbf71556b13a9fc5e6d"
+  }
+]

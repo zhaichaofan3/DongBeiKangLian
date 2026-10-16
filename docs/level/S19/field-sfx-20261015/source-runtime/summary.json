@@ -1,0 +1,70 @@
+{
+  "all_passed": true,
+  "assertions": 473,
+  "checks": [
+    {
+      "summary": "SMOKE RESULT: 107/107 passed",
+      "count": 107
+    },
+    {
+      "summary": "LINEAR ROUTE RESULT: 37/37 passed",
+      "count": 37
+    },
+    {
+      "summary": "VISUAL MOTION RESULT: 50/50 passed",
+      "count": 50
+    },
+    {
+      "summary": "STORY MOMENTS RESULT: 11/11 passed",
+      "count": 11
+    },
+    {
+      "summary": "CHARACTER MODEL RESULT: 37/37 passed",
+      "count": 37
+    },
+    {
+      "summary": "USER SFX RESULT: PASS | 31/31",
+      "count": 31
+    },
+    {
+      "summary": "BAYONET ENCOUNTER: PASS 31/31",
+      "count": 31
+    },
+    {
+      "summary": "USER AUDIO: PASS | checks=26",
+      "count": 26
+    },
+    {
+      "summary": "S30 AUDIO MIX: PASS | checks=25",
+      "count": 25
+    },
+    {
+      "summary": "S22 TIANCHI ACCESS: PASS | checks=9",
+      "count": 9
+    },
+    {
+      "summary": "S25 HANDOFF: PASS | checks=10",
+      "count": 10
+    },
+    {
+      "summary": "S31 VOICE INTEGRATION: PASS | checks=8",
+      "count": 8
+    },
+    {
+      "summary": "S32 HISTORY FORMAL: PASS | checks=22",
+      "count": 22
+    },
+    {
+      "summary": "S33 TASK FORMAL: PASS | checks=14",
+      "count": 14
+    },
+    {
+      "summary": "S34 STATE MATRIX: PASS | checks=14 rows=9",
+      "count": 14
+    },
+    {
+      "summary": "OPENING RESULT: 41/41 passed",
+      "count": 41
+    }
+  ]
+}

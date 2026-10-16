@@ -1,0 +1,17 @@
+{
+  "passed": 5,
+  "total": 5,
+  "new_downloads": 4,
+  "reused_downloads": 1,
+  "preview_decode_checks": 17,
+  "subjective_listening": "pending",
+  "runtime_integration": false,
+  "summary": {
+    "path": "AssetLibrary/audio/S29_20261015/music-summary.wav",
+    "sha256": "84160de6098fd0e9c3824373be1655851364e334a749a9b9d5e3de910a5c5fc4",
+    "duration_seconds": 85.0,
+    "peak_dbfs": -7.35,
+    "rms_dbfs": -25.43,
+    "decode_ok": true
+  }
+}

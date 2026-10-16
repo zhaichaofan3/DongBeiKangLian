@@ -1,0 +1,96 @@
+{
+  "category": "weapons",
+  "assets": [
+    {
+      "id": "lee_enfield",
+      "title": "Bolt action Rifle: Lee Enfield",
+      "author": "Lucian Pavel",
+      "source_url": "https://opengameart.org/content/bolt-action-rifle-lee-enfield",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence": "lee_enfield/source.html",
+      "files": [
+        {
+          "path": "lee_enfield/Lee Enfield.zip",
+          "bytes": 14276217,
+          "sha256": "bda94cf59c35d0a46a2157107acbf873f987726979028c91fd768fb5b6455847",
+          "role": "original_download",
+          "download_url": "https://opengameart.org/sites/default/files/Lee%20Enfield.zip"
+        },
+        {
+          "path": "lee_enfield/original/FP Hunting Rifle NRM.png",
+          "bytes": 3868280,
+          "sha256": "9adc2e6289742e4458d5d2550e635e732bc2dbeddcb2d93c8c20902e5a7a85f2",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/FP Hunting Rifle SPEC.png",
+          "bytes": 3863161,
+          "sha256": "31553771e255859b047bf15658821f034d0b4c58c10e03f66537f7b48ceb9b97",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/FP Hunting Rifle.fbx",
+          "bytes": 225468,
+          "sha256": "3aa92fa3fd22e4c9d75c6b7fec00a25631ada31a17befb21fd8dea6c6939b055",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/FP Hunting Rifle.png",
+          "bytes": 4954102,
+          "sha256": "d8bb9856b0414703adf78d1a4e6618f71cb49e2fb47e97338d1861aa83a2bdd7",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/Hunting Rifle.blend",
+          "bytes": 903556,
+          "sha256": "2357698e2d9f101ad27135ee942ab5f58ed6b8cbb857f7cc2965de60441a3c55",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/Hunting Rifle.blend1",
+          "bytes": 903556,
+          "sha256": "c9f046f452e21a012ffa0df9c764c277fc27abf959183b229c43cabc60672cec",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/Lee Enfield Icon.png",
+          "bytes": 28266,
+          "sha256": "1acc903e49586d9720d26c254bc73f9090239df4f45e3e37eaaf97150d7694fb",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/Lee Enfield Preview 1.png",
+          "bytes": 282275,
+          "sha256": "c47e4dee45b632ce4fbfe2acab926671c925a98adbf7a9f5ea8bca7db8392f9e",
+          "role": "extracted"
+        },
+        {
+          "path": "lee_enfield/original/Lee Enfield Preview 2.png",
+          "bytes": 612992,
+          "sha256": "84b72249f5a14a7c1e03bb5b711b0d0b006229cd47c1580d510435a10f32ce73",
+          "role": "extracted"
+        }
+      ],
+      "status": "downloaded_extracted_godot_import_verified_not_integrated",
+      "notes": [
+        "Godot: 5424 triangles, 4607 vertices, one mesh/surface, no skeleton or animations or separate moving-part nodes.",
+        "Diffuse 2K auto-bound; normal/specular not auto-bound. AssetReview working copy binds normal; specular is not reused as metallic or roughness.",
+        "Lee Enfield geometry is a workflow reference, not an Arisaka replacement. Requires weapon type research and separate moving parts."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Mauser C96",
+      "author": "AizekParker",
+      "source_url": "https://sketchfab.com/3d-models/mauser-c96-99fcb70e141d4387b2e7b92e1b5b6f89",
+      "license": "CC-BY-4.0",
+      "status": "not_downloaded_login_required_user_deferred",
+      "page_claims": {
+        "triangles_approx": 10000,
+        "texture_size": "4K"
+      }
+    }
+  ]
+}

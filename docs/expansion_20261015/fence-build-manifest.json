@@ -1,0 +1,14 @@
+{
+  "id": "barbed_wire",
+  "source": "AssetLibrary/environment/user_expansion_20261015/fence/original.rar",
+  "editable": "AssetLibrary/derived/user_expansion_20261015/barbed_wire.blend",
+  "game_model": "GodotProject/assets/user_expansion_20261015/barbed_wire.glb",
+  "dimensions_m": {
+    "width": 2.4390833377838135,
+    "height": 0.800000011920929,
+    "depth": 0.744320273399353
+  },
+  "triangles": 1068,
+  "sha256": "ff66fdc0767ecd25d0a5d28aabf28a0e2fe991935e491ee1b31b90e4b9c17ead",
+  "notes": "Original retained. Uniformly scaled to 0.8 m thigh height; used only at side alleys. Original opaque walls remain. Collision matches the low visible envelope."
+}

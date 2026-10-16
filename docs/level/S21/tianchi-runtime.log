@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: No loader found for resource: res://assets/opening/tianchi_artistic.glb (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:332)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/s21_tianchi.gd:16)
+FAIL: Artistic Tianchi GLB loads in Godot

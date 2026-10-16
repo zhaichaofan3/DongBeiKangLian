@@ -1,0 +1,21 @@
+信息: 已另存为 "tianchi_artistic.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+20:45:44 | INFO: Starting glTF 2.0 export
+20:45:44 | INFO: Extracting primitive: S21_Crater_EastMesh
+20:45:44 | INFO: Primitives created: 4
+20:45:44 | INFO: Extracting primitive: S21_Crater_NorthMesh
+20:45:44 | INFO: Primitives created: 4
+20:45:44 | INFO: Extracting primitive: S21_Crater_WestMesh
+20:45:44 | INFO: Primitives created: 4
+20:45:44 | INFO: Extracting primitive: S21_Crater_SouthMesh
+20:45:44 | INFO: Primitives created: 4
+20:45:44 | INFO: Extracting primitive: S21_Deep_Blue_LakeMesh
+20:45:44 | INFO: Primitives created: 1
+20:45:44 | INFO: Extracting primitive: Icosphere
+20:45:44 | INFO: Primitives created: 1
+20:45:44 | INFO: Finished glTF 2.0 export in 0.03626418113708496 s
+
+{"step": "S21", "revision": "continuous-shore-v2", "source": "original procedural artistic composition; public DEM retained separately as reference only", "coordinates": {"blender": "x,north,up", "godot": "x,up,-north", "metres_per_unit": 1}, "objects": ["S21_Crater_East", "S21_Crater_North", "S21_Crater_West", "S21_Crater_South", "S21_Deep_Blue_Lake", "S21_Talk_Platform_Base"], "vertices": 7699, "triangles": 14400, "scale": {"rim_radius_m": 92, "shore_radius_m_approx": 49, "outer_slope_radius_m": 172, "lake_level_m": 0.4, "platform_top_m": 14}, "files": [{"path": "AssetLibrary/environment/derived/S21/tianchi_artistic.blend", "bytes": 1383078, "sha256": "07c4bb19c3240fe202d66399116ecccc9b6eccd359aff26444365dff51fdc512"}, {"path": "GodotProject/assets/opening/tianchi_artistic.glb", "bytes": 1103812, "sha256": "8b4559562453f494ca79263bd62d473f76e8570a54da1b5ad06c590d95148186"}], "integration": "standalone imported asset; not yet placed in playable mission or opening; S22 builds terrain stage"}
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

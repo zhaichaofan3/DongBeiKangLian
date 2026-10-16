@@ -1,0 +1,84 @@
+{
+	"active_route_frames": {
+		"frames": 17267,
+		"max_frame_ms": 12.965,
+		"mean_fps": 248.689454678483,
+		"mean_frame_ms": 4.02107922626975,
+		"p95_frame_ms": 5.889,
+		"p99_frame_ms": 6.972,
+		"seconds_sampled": 69.4319749999998
+	},
+	"all_playing_frames": {
+		"frames": 22706,
+		"max_frame_ms": 12.965,
+		"mean_fps": 261.704553470208,
+		"mean_frame_ms": 3.8211027922135,
+		"p95_frame_ms": 5.694,
+		"p99_frame_ms": 6.818,
+		"seconds_sampled": 86.7619599999998
+	},
+	"enemy_in_combat_frames": {
+		"frames": 34,
+		"max_frame_ms": 7.785,
+		"mean_fps": 167.18872164553,
+		"mean_frame_ms": 5.98126470588235,
+		"p95_frame_ms": 7.64,
+		"p99_frame_ms": 7.761,
+		"seconds_sampled": 0.203363
+	},
+	"enemy_shots_observed": 0,
+	"fps_limit": 0,
+	"gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+	"health_at_finish": 100.0,
+	"mean_draw_calls": 403.072579934819,
+	"measurement_valid": true,
+	"peak_alive_enemies_observed": 5,
+	"player_shots_observed": 9,
+	"quality": "balanced",
+	"recent_enemy_firing_frames": {
+		"frames": 0
+	},
+	"recent_firing_frames": {
+		"frames": 1680,
+		"max_frame_ms": 12.965,
+		"mean_fps": 212.130800861958,
+		"mean_frame_ms": 4.71407261904762,
+		"p95_frame_ms": 6.903,
+		"p99_frame_ms": 7.672,
+		"seconds_sampled": 7.91964200000001
+	},
+	"render_scale_3d": 1.0,
+	"renderer": "gl_compatibility",
+	"reported_peak_texture_bytes": 770805109.0,
+	"reported_viewport_texture_size": [
+		2880,
+		1620
+	],
+	"resolution": [
+		1920,
+		1080
+	],
+	"resolution_method": "Viewport image readback before and after sampling; window and stretch configuration checked each sample; readback intervals excluded.",
+	"route_passed": true,
+	"scope": "Real AI and automated player route; automatic aiming is not human difficulty. Primary active_route_frames include movement or a shot within 1s. Stationary no-shot intervals are separate. AI combat state alone is not evidence of firing. Excludes first 1.5s, menus, pauses and their boundary intervals. No fixed-fps simulation override.",
+	"stationary_without_recent_fire_frames": {
+		"frames": 5439,
+		"max_frame_ms": 9.333,
+		"mean_fps": 313.849088732621,
+		"mean_frame_ms": 3.18624471410187,
+		"p95_frame_ms": 4.305,
+		"p99_frame_ms": 4.715,
+		"seconds_sampled": 17.3299850000001
+	},
+	"time_scale": 1.0,
+	"two_sided_recent_firing_frames": {
+		"frames": 0
+	},
+	"validation_errors": [],
+	"version": "0.6",
+	"vsync": false,
+	"window_resolution": [
+		1920,
+		1080
+	]
+}

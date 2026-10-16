@@ -1,0 +1,48 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Invalid assignment of property or key 'receive_shadows' with value of type 'bool' on a base object of type 'MeshInstance3D'.
+   at: _build_tianchi_water (res://scripts/opening_director.gd:193)
+   GDScript backtrace (most recent call first):
+       [0] _build_tianchi_water (res://scripts/opening_director.gd:193)
+       [1] _build_tianchi_environment (res://scripts/opening_director.gd:154)
+       [2] _build_stage (res://scripts/opening_director.gd:117)
+       [3] initialize (res://scripts/opening_director.gd:65)
+       [4] _ensure_opening (res://scripts/mission.gd:193)
+       [5] _run (res://tests/s23_tianchi_environment.gd:23)
+--Main Shader--
+    3 | 
+    4 | 
+E   5-> render_mode unshaded, cull_disabled, depth_draw_alpha_prepass;
+    6 | 
+    7 | uniform vec4 mist_color : source_color = vec4(0.56, 0.68, 0.70, 1.0);
+SHADER ERROR: Invalid render mode: 'depth_draw_alpha_prepass'.
+   at: (null) (:5)
+   GDScript backtrace (most recent call first):
+       [0] _build_tianchi_mist (res://scripts/opening_director.gd:201)
+       [1] _build_tianchi_environment (res://scripts/opening_director.gd:155)
+       [2] _build_stage (res://scripts/opening_director.gd:117)
+       [3] initialize (res://scripts/opening_director.gd:65)
+       [4] _ensure_opening (res://scripts/mission.gd:193)
+       [5] _run (res://tests/s23_tianchi_environment.gd:23)
+ERROR: Shader compilation failed.
+   at: shader_set_code (servers/rendering/dummy/storage/material_storage.cpp:192)
+   GDScript backtrace (most recent call first):
+       [0] _build_tianchi_mist (res://scripts/opening_director.gd:201)
+       [1] _build_tianchi_environment (res://scripts/opening_director.gd:155)
+       [2] _build_stage (res://scripts/opening_director.gd:117)
+       [3] initialize (res://scripts/opening_director.gd:65)
+       [4] _ensure_opening (res://scripts/mission.gd:193)
+       [5] _run (res://tests/s23_tianchi_environment.gd:23)
+PASS: S23 environment root is present under the opening stage
+PASS: Animated water surface uses a stable crater-disk mesh
+PASS: Water surface uses the S23 animated shader
+PASS: Three lightweight mist bands provide lake, rim and far-layer separation
+PASS: Every mist band uses the shared translucent S23 mist shader
+PASS: Three ordered distant mountain layers are present
+PASS: Lake environment has height fog tuned for crater depth
+PASS: Dedicated lake fill light keeps characters readable
+PASS: Platform rim light covers the conversation area
+PASS: B1 conversation shot enables the complete lake environment
+PASS: B1 keeps the speaker on the lake visual layer
+FAIL: Non-lake shot disables S23 layers and restores the forest environment
+S23 TIANCHI ENVIRONMENT: FAIL | checks=12

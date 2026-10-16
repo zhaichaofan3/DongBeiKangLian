@@ -1,0 +1,44 @@
+{
+  "id": "radio-noise-1",
+  "title": "Radio Noise 1",
+  "source_url": "https://opengameart.org/content/radio-noise-1",
+  "author": "Kresiek The Furry",
+  "license": "CC0-1.0",
+  "notes": "Real recorded radio static; ambience layer.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "radio-noise-1/originals/radio_noise_loop.wav",
+      "download_url": "https://opengameart.org/sites/default/files/radio_noise_loop.wav",
+      "bytes": 1767554,
+      "sha256": "ba55b08a25969933d8878653df7809c503335ea32d38cd92a8f5c13ee686cb01",
+      "role": "original_download"
+    },
+    {
+      "path": "ready_to_import/props/radio_static.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/radio_noise_loop.wav",
+      "bytes": 263265,
+      "sha256": "7bba6485fea9c896b0ed3255dcc8edcea1648fee9b69cdc8e2ccff205473769a",
+      "role": "derived_ready_to_import",
+      "source_path": "radio-noise-1/originals/radio_noise_loop.wav",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 1,
+    "decode_passed": 1,
+    "sample_rates": [
+      8000
+    ],
+    "channels": [
+      1
+    ],
+    "total_duration_seconds": 55.23,
+    "duration_range_seconds": [
+      55.227,
+      55.227
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

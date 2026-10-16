@@ -1,0 +1,7 @@
+Title: Gun reload sounds
+Author: SpringySpringo
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/gun-reload-sounds
+Evidence: source.html and source.txt
+Notes: Airsoft recordings; useful mechanical layers, not historically exact rifle handling.

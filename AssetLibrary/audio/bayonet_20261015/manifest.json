@@ -1,0 +1,17 @@
+{
+  "id": "user_bayonet_charge_20261015",
+  "provided_by": "user",
+  "source_path": "C:/Users/Administrator/Videos/bilblidown/日军板载冲锋的叫喊音效.mp3",
+  "original_copy": "AssetLibrary/audio/bayonet_20261015/original.mp3",
+  "game_asset": "GodotProject/assets/audio/bayonet_charge.mp3",
+  "sha256": "7db4cc36af21dda2950627ed5f9d39c9ec082ba1ecf7758510a4900be1876f67",
+  "bytes": 137976,
+  "format": "mp3",
+  "duration_seconds": 3.44815,
+  "sample_rate": 44100,
+  "channels": 2,
+  "processing": "原文件完整复制，无裁剪、转码或循环；Voice总线，开门转身时播放一次，背景音乐自动避让",
+  "use": "第二道门（木料巷出口）日军转身刺刀冲锋与随后的争枪",
+  "license": "用户提供用于当前本地游戏；未附外部再分发许可声明",
+  "human_listening": "pending"
+}

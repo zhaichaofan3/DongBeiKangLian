@@ -1,0 +1,197 @@
+{
+  "all_passed": true,
+  "checks": 7,
+  "far_forest_instances": 386,
+  "fixed_views": [
+    "Z0-checkpoint",
+    "Z2-timber",
+    "Z3-office",
+    "Z4-river",
+    "BG-forest"
+  ],
+  "method": "Fixed authored camera positions with visual-layer metadata and route path checks; no gameplay collision or AI state changed.",
+  "middle_forest_instances": 39,
+  "navigation_grid": [
+    22,
+    24
+  ],
+  "physics_bodies_added": 0,
+  "step": "S12",
+  "visual_nodes": 429,
+  "fixed_capture_scope": "Fixed viewpoints with simulation paused; 60 real wall-time rendered frames per view, no gameplay/performance acceptance",
+  "fixed_capture_records": [
+    {
+      "draw_calls": 922.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 3.52281666666667,
+      "p95_ms": 4.507,
+      "position": [
+        10.0,
+        1.70000004768372,
+        86.0
+      ],
+      "primitives": 1460566.0,
+      "quality": 1,
+      "shot": "01-forest-start",
+      "target": [
+        12.0,
+        2.0,
+        65.0
+      ]
+    },
+    {
+      "draw_calls": 768.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 2.82743333333333,
+      "p95_ms": 3.645,
+      "position": [
+        28.0,
+        1.70000004768372,
+        69.0
+      ],
+      "primitives": 452530.0,
+      "quality": 1,
+      "shot": "02-checkpoint",
+      "target": [
+        34.0,
+        2.59999990463257,
+        49.0
+      ]
+    },
+    {
+      "draw_calls": 550.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 2.25455,
+      "p95_ms": 3.017,
+      "position": [
+        34.0,
+        1.70000004768372,
+        50.0
+      ],
+      "primitives": 407556.0,
+      "quality": 1,
+      "shot": "03-timber-lane",
+      "target": [
+        52.0,
+        3.0,
+        51.0
+      ]
+    },
+    {
+      "draw_calls": 331.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 1.75198333333333,
+      "p95_ms": 2.344,
+      "position": [
+        66.0,
+        1.70000004768372,
+        22.0
+      ],
+      "primitives": 300997.0,
+      "quality": 1,
+      "shot": "04-office-north",
+      "target": [
+        44.0,
+        3.5,
+        13.0
+      ]
+    },
+    {
+      "draw_calls": 109.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 1.1912,
+      "p95_ms": 1.579,
+      "position": [
+        79.0,
+        1.70000004768372,
+        14.0
+      ],
+      "primitives": 99983.0,
+      "quality": 1,
+      "shot": "05-river",
+      "target": [
+        155.0,
+        5.0,
+        -18.0
+      ]
+    },
+    {
+      "draw_calls": 918.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 3.80421666666667,
+      "p95_ms": 5.083,
+      "position": [
+        17.0,
+        13.0,
+        94.0
+      ],
+      "primitives": 1296359.0,
+      "quality": 1,
+      "shot": "06-opening-direction",
+      "target": [
+        20.0,
+        3.0,
+        62.0
+      ]
+    },
+    {
+      "draw_calls": 531.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 2.64261666666667,
+      "p95_ms": 3.312,
+      "position": [
+        114.0,
+        82.0,
+        133.0
+      ],
+      "primitives": 289026.0,
+      "quality": 1,
+      "shot": "07-overview",
+      "target": [
+        37.0,
+        1.0,
+        44.0
+      ]
+    }
+  ],
+  "evidence_paths": [
+    "docs/level/S12/validation.md",
+    "docs/level/S12/final-validation/runtime.json",
+    "docs/level/S12/after-final/captures.json"
+  ]
+}

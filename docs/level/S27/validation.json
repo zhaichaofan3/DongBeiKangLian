@@ -1,0 +1,55 @@
+{
+  "step": "S27",
+  "status": "done",
+  "date": "2026-10-15",
+  "all_passed": true,
+  "runtime_checks": 24,
+  "rendered_frames": 7,
+  "render_total": 31,
+  "opening_regression": "74/74",
+  "project_regression": {
+    "smoke": "107/107",
+    "linear": "37/37",
+    "combat": "PASS",
+    "visual": "50/50",
+    "story": "11/11",
+    "character": "37/37"
+  },
+  "cinematic": {
+    "events_seconds": [
+      47.1,
+      50.9,
+      54.05,
+      55.2
+    ],
+    "pooled_explosions": 4,
+    "distant_flashes": 4,
+    "damage": false,
+    "A14_look_y": 2.8
+  },
+  "gameplay": {
+    "max_queued_shells": 6,
+    "lead_seconds": 0.8,
+    "lifetime_after_impact": 4.2,
+    "damage_requires_explicit_harmful": true,
+    "distance_falloff": true,
+    "world_occlusion": true,
+    "automatic_mission_barrage_added": false
+  },
+  "audio": "Generated explosion_preview is provisional; downloaded sound replacement belongs to S28-S30.",
+  "visual_evidence": "docs/level/S27/contact-final.png",
+  "accepted_evidence": [
+    "render-final-v4/artillery.json",
+    "opening-final-v2/runtime_validation.json",
+    "project-regression.log"
+  ],
+  "earlier_failures": "runtime-v1/v2 pause checks ran before audio playback initialized; v4 passed assertions but audio-resource shutdown ERROR invalidated it. Tests now await real audio initialization and shutdown; cancellation unpauses and stops before release. Earlier images had roof-occluded distant smoke; final A14 framing corrected this.",
+  "source_sha256": {
+    "GodotProject/scripts/explosion_effect.gd": "d64d86f191dc4b835aff22d72f7612e16d430a250fd043c63a97e557fb829a71",
+    "GodotProject/scripts/artillery_director.gd": "1eb858313547f419ab644b00352662f0620c4106ab310695336100bac9df6ae1",
+    "GodotProject/scripts/opening_director.gd": "02148ab3abf3d6394bbfa0cc934afd8fae2c166e5ebde5d099063b8c900eec6b",
+    "GodotProject/scripts/mission.gd": "1857e718b0379ef435e3678e06f2bde9155805130d737bac05f31eb74c8cb9ed",
+    "GodotProject/scripts/audio_factory.gd": "36233bbbb010f6398c8a960e619bf9bf3be72f97af28b46b15ee295ca7427194",
+    "GodotProject/assets/opening/opening.json": "08ac20d8d4bc424ab85f64b9f798e78bc41d30a11a46f9d6ada9d4b65e3c482e"
+  }
+}

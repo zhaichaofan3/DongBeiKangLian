@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <rect width="1200" height="820" fill="#172327"/>
+  <style>
+    text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#eee5ca}
+    .small{font-size:16px}.label{font-size:21px;font-weight:bold}.note{font-size:15px;fill:#b8c4ba}
+  </style>
+  <text x="40" y="42" class="label">S20 艺术化天池构图草案 · v1（抽象游戏尺度）</text>
+  <text x="40" y="68" class="note">环形山口 + 深蓝湖面 + 西南谈话岩台；参考高程只用于方向感，不是最终地形。</text>
+  <g transform="translate(40,100)">
+    <text x="10" y="24" class="label">平面构图 / Plan</text>
+    <circle cx="380" cy="320" r="290" fill="#303d3d" stroke="#9aa18e" stroke-width="4"/>
+    <circle cx="380" cy="320" r="215" fill="#25302f" stroke="#69776b" stroke-width="3" stroke-dasharray="12 8"/>
+    <circle cx="392" cy="326" r="152" fill="#123f5a" stroke="#4e91a0" stroke-width="5"/>
+    <path d="M160 112 Q380 38 600 112" fill="none" stroke="#667d72" stroke-width="22" opacity=".7"/>
+    <path d="M625 132 Q690 320 625 508" fill="none" stroke="#7a8a77" stroke-width="20" opacity=".65"/>
+    <path d="M150 560 Q380 625 615 560" fill="none" stroke="#596b65" stroke-width="18" opacity=".7"/>
+    <path d="M135 150 Q75 320 145 510" fill="none" stroke="#83907c" stroke-width="25" opacity=".7"/>
+    <text x="344" y="330" class="label" fill="#d4eff1">深蓝湖面</text>
+    <text x="324" y="354" class="note">半径 48 m / 深度 6 m</text>
+    <text x="292" y="82" class="small">北侧高壁 34 m</text>
+    <text x="620" y="320" class="small" transform="rotate(90 620 320)">东侧断裂山脊与雾隙</text>
+    <text x="298" y="590" class="small">南侧低鞍部：到达与离开</text>
+    <path d="M88 640 L92 570 L112 505 L145 460 L175 430" fill="none" stroke="#d5b874" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="88" cy="640" r="8" fill="#d5b874"/><text x="18" y="670" class="small">山路入口</text>
+    <polygon points="170,415 220,398 245,430 195,450" fill="#4d4540" stroke="#dbb47c" stroke-width="3"/>
+    <text x="165" y="478" class="label">谈话岩台</text>
+    <circle cx="195" cy="414" r="8" fill="#e7d4a5"/><circle cx="225" cy="414" r="8" fill="#b9d0c4"/>
+    <text x="148" y="395" class="small">沈砚 · 姜岚</text>
+    <path d="M205 403 Q310 355 392 326" fill="none" stroke="#e7d4a5" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="235" y="370" class="note">人物视线 → 湖心 / 北壁</text>
+    <path d="M220 410 Q350 470 470 490" fill="none" stroke="#b8c4ba" stroke-width="3" stroke-dasharray="6 6"/>
+    <text x="355" y="500" class="note">离开路径 → 南侧鞍部</text>
+    <path d="M105 80 L105 45 L125 45" stroke="#eee5ca" stroke-width="3"/><text x="88" y="30" class="small">N</text>
+  </g>
+  <g transform="translate(735,100)">
+    <text x="0" y="24" class="label">剖面与镜头层次 / Section</text>
+    <line x1="20" y1="515" x2="425" y2="515" stroke="#80918a" stroke-width="2"/>
+    <path d="M20 515 Q70 455 122 400 Q170 350 215 390 Q260 425 300 330 Q345 230 425 150" fill="none" stroke="#8d9b80" stroke-width="7"/>
+    <path d="M115 515 Q170 475 215 485 Q270 492 330 515" fill="#123f5a" stroke="#4e91a0" stroke-width="4"/>
+    <path d="M50 515 Q80 480 118 465 L156 490 L140 515" fill="#4d4540" stroke="#dbb47c" stroke-width="3"/>
+    <circle cx="100" cy="466" r="7" fill="#e7d4a5"/><circle cx="130" cy="468" r="7" fill="#b9d0c4"/>
+    <path d="M100 455 L190 405" stroke="#e7d4a5" stroke-width="3" stroke-dasharray="7 7"/>
+    <path d="M190 390 Q250 410 300 360" stroke="#a4bbb0" stroke-width="22" fill="none" opacity=".28"/>
+    <path d="M300 330 Q350 235 425 150" stroke="#536863" stroke-width="28" fill="none" opacity=".55"/>
+    <text x="42" y="555" class="small">岩台 14 m</text><text x="155" y="530" class="small">湖面</text><text x="315" y="215" class="small">北壁高层</text>
+    <text x="12" y="600" class="note">镜头：近景人物（低）→湖面中景（中）→山脊与雾（远）</text>
+    <rect x="0" y="640" width="430" height="95" rx="10" fill="#223234" stroke="#556c68"/>
+    <text x="18" y="670" class="small">构图验收要点</text>
+    <text x="18" y="696" class="note">① 两人站位不遮湖心  ② 北壁轮廓保持辨识度</text>
+    <text x="18" y="718" class="note">③ 到达／离开路线绕开岩台边缘  ④ 雾不盖住对白表演</text>
+  </g>
+</svg>

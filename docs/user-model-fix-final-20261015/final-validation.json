@@ -1,0 +1,315 @@
+{
+  "revision": "20261015-head-hand-fix-final",
+  "version": "0.7.0-rc1",
+  "created_at": "2026-10-15T18:45:59+08:00",
+  "runtime": {
+    "source": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 682,
+      "departure_samples": 21,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "guards_defeated": 19,
+        "game_seconds": 103.133333333329
+      },
+      "additional_character_capture_checks": 83
+    },
+    "release": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 682,
+      "departure_samples": 21,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "guards_defeated": 19,
+        "game_seconds": 103.133333333329
+      },
+      "additional_character_capture_checks": 83
+    }
+  },
+  "renders": {
+    "source-render-1280": {
+      "passed": true,
+      "checks": 46,
+      "resolution": "(1280, 720)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.00895949825644493,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    },
+    "source-render-960": {
+      "passed": true,
+      "checks": 46,
+      "resolution": "(960, 540)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.00824927538633347,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    },
+    "release-render-1280": {
+      "passed": true,
+      "checks": 46,
+      "resolution": "(1280, 720)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.00893052667379379,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    },
+    "release-render-960": {
+      "passed": true,
+      "checks": 46,
+      "resolution": "(960, 540)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.00884586572647095,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    }
+  },
+  "character_renders": {
+    "source": {
+      "passed": true,
+      "checks": 83,
+      "captures": [
+        "friendly_aim_hand_0.png",
+        "friendly_aim_hand_1.png",
+        "friendly_aim_hands.png",
+        "friendly_lowered_hand_0.png",
+        "friendly_lowered_hand_1.png",
+        "guard_aim.png",
+        "guard_face.png",
+        "guard_fallen.png",
+        "guard_front.png",
+        "lineup.png",
+        "logger_face.png",
+        "logger_front.png",
+        "scout_face.png",
+        "scout_front.png",
+        "scout_hand_0.png",
+        "scout_hand_1.png",
+        "walking.png",
+        "wounded_face.png",
+        "wounded_front.png",
+        "wounded_hand_0.png",
+        "wounded_hand_1.png",
+        "wounded_head_side.png",
+        "wounded_treated.png",
+        "wounded_untreated.png"
+      ]
+    },
+    "release": {
+      "passed": true,
+      "checks": 83,
+      "captures": [
+        "friendly_aim_hand_0.png",
+        "friendly_aim_hand_1.png",
+        "friendly_aim_hands.png",
+        "friendly_lowered_hand_0.png",
+        "friendly_lowered_hand_1.png",
+        "guard_aim.png",
+        "guard_face.png",
+        "guard_fallen.png",
+        "guard_front.png",
+        "lineup.png",
+        "logger_face.png",
+        "logger_front.png",
+        "scout_face.png",
+        "scout_front.png",
+        "scout_hand_0.png",
+        "scout_hand_1.png",
+        "walking.png",
+        "wounded_face.png",
+        "wounded_front.png",
+        "wounded_hand_0.png",
+        "wounded_hand_1.png",
+        "wounded_head_side.png",
+        "wounded_treated.png",
+        "wounded_untreated.png"
+      ]
+    }
+  },
+  "models": [
+    {
+      "role": "japanese",
+      "source": "japanese/3d66.com_22426855.max",
+      "game_model": "GodotProject/assets/characters/user_soldiers/japanese.glb",
+      "sha256": "975d31ae518aae796aef75d2451a19a8afc7a04b495585201bad1d51dafd7784",
+      "bones": 13,
+      "parts": [
+        {
+          "name": "Face",
+          "triangles": 2735,
+          "vertices": 1516
+        },
+        {
+          "name": "Helmet",
+          "triangles": 734,
+          "vertices": 432
+        },
+        {
+          "name": "Clothing",
+          "triangles": 5877,
+          "vertices": 3168
+        },
+        {
+          "name": "Hands",
+          "triangles": 3362,
+          "vertices": 2194
+        },
+        {
+          "name": "GuardHands",
+          "triangles": 3362,
+          "vertices": 2194
+        },
+        {
+          "name": "GuardHelmetMark",
+          "triangles": 128,
+          "vertices": 128
+        },
+        {
+          "name": "GuardMoustache",
+          "triangles": 320,
+          "vertices": 210
+        }
+      ],
+      "adaptation": "MAX geometry and UVs; normalized and reposed to the existing 13-bone game rig. Existing third-person hand contact meshes retained. First-person hands untouched.",
+      "triangles": 16518
+    },
+    {
+      "role": "volunteer",
+      "source": "volunteer/3d66.com_17309872.max",
+      "game_model": "GodotProject/assets/characters/user_soldiers/volunteer.glb",
+      "sha256": "54d6108e0e70d9dcb6983a7f18e9aadf6469d8343f93209d0d078fcf8b2c24d0",
+      "bones": 13,
+      "parts": [
+        {
+          "name": "Clothing",
+          "triangles": 15107,
+          "vertices": 7781
+        },
+        {
+          "name": "Face",
+          "triangles": 20534,
+          "vertices": 10456
+        },
+        {
+          "name": "Cap",
+          "triangles": 1994,
+          "vertices": 1062
+        },
+        {
+          "name": "Hands",
+          "triangles": 4918,
+          "vertices": 2463
+        },
+        {
+          "name": "GuardHands",
+          "triangles": 4918,
+          "vertices": 2463
+        },
+        {
+          "name": "Bandage",
+          "triangles": 496,
+          "vertices": 256
+        },
+        {
+          "name": "FriendlyCapStar",
+          "triangles": 10,
+          "vertices": 11
+        }
+      ],
+      "adaptation": "MAX geometry, original textured gloves and UVs reposed to the existing 13-bone game rig; separate relaxed/gripping hands. Leg bandage retained, incompatible old forehead wrap removed. First-person hands untouched.",
+      "triangles": 47977
+    }
+  ],
+  "first_person": {
+    "unchanged": true,
+    "files_verified": 7,
+    "baseline": "first-person-before.json"
+  },
+  "files": [
+    {
+      "path": "FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "FenghuoEcho.pck",
+      "bytes": 490285828,
+      "sha256": "c54fe21ec918dc950afd87a548294d18b660f939639389e12167f74a7959683a"
+    }
+  ],
+  "preserved_baseline": "WorkBackups/20261015-182515-S19-in_progress-c82f14",
+  "source_notice": "AssetNotices/user_soldiers.md",
+  "diagnostics": {
+    "reproduced": [
+      "The interrupted revision removed Lu Shan's incompatible forehead bandage but had not completed full regression or rebuilt the release.",
+      "The original glove planes differed between sides; bending by world height left fingers extending above the rifle.",
+      "Opening actor setup retained a two-argument call to a role-preparation method that now required a grip argument."
+    ],
+    "correction": [
+      "Retained the supplied glove meshes, textures, relaxed hands, leg bandage and protected first-person files.",
+      "Bent each gripping glove in its own palm frame while preserving surface thickness and wrist transition.",
+      "Removed duplicate opening role preparation; Human.build already selects the faction model and gripping hands. Office walking still switches to relaxed hands."
+    ],
+    "verification_adjustment": "The first new glove-surface distance check mixed rifle-parent coordinates with actor coordinates. Both points now use actor coordinates; the failed run is retained.",
+    "failed_logs": [
+      "character-first-failed.log",
+      "source-regression-first-failed.log",
+      "opening-initial-failed.log"
+    ],
+    "prior_report": "Earlier broad bounds and virtual palm-target checks did not establish real glove orientation. Four close-ups and actual deformed glove distance checks now cover lowered and aimed poses on both sides."
+  },
+  "human_acceptance": {
+    "continuous_animation": "pending",
+    "listening_and_mix": "pending",
+    "difficulty_and_full_playtest": "pending"
+  },
+  "limits": "Supplied MAX geometry and textures adapted to the existing rig; no claim of complete historical uniform accuracy or new cross-hardware performance acceptance. Previous native startup crash remains undiagnosed in the prior revision record."
+}

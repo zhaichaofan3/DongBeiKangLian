@@ -1,0 +1,22 @@
+{
+	"captures": [
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/arrival.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/checkpoint.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/transport-turn.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/timber-yard.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/office-reveal.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/ferry.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/overview.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/village-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/logging-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/timber-barrage.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/village-to-camp.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\dressing-initial/mission-handoff.png"
+	],
+	"checks": 113,
+	"critical_path_metres": 568.592300727963,
+	"failures": [
+		"First chapter navigation sampled from real colliders"
+	],
+	"passed": false
+}

@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: day weapon 0: real shot starts flash, smoke and light
+PASS: Muzzle aligned immediately; emitted smoke uses world coordinates
+PASS: Flash extinguishes within 100 ms while thin smoke remains
+PASS: Smoke clears within 0.5 seconds
+PASS: day weapon 1: real shot starts flash, smoke and light
+PASS: Muzzle aligned immediately; emitted smoke uses world coordinates
+PASS: Flash extinguishes within 100 ms while thin smoke remains
+PASS: Smoke clears within 0.5 seconds
+PASS: Remote flash starts at the actual animated rifle muzzle
+PASS: Remote flash and light last under 100 ms
+PASS: Remote effect is fully reclaimed after 0.5 seconds
+PASS: dim weapon 0: real shot starts flash, smoke and light
+PASS: Muzzle aligned immediately; emitted smoke uses world coordinates
+PASS: Flash extinguishes within 100 ms while thin smoke remains
+PASS: Smoke clears within 0.5 seconds
+PASS: dim weapon 1: real shot starts flash, smoke and light
+PASS: Muzzle aligned immediately; emitted smoke uses world coordinates
+PASS: Flash extinguishes within 100 ms while thin smoke remains
+PASS: Smoke clears within 0.5 seconds
+PASS: Remote flash starts at the actual animated rifle muzzle
+PASS: Remote flash and light last under 100 ms
+PASS: Remote effect is fully reclaimed after 0.5 seconds
+PASS: Three pistol shots consume three rounds and reuse one smoke emitter
+PASS: Empty magazine cannot create a muzzle effect
+PASS: Reloading blocks muzzle effects
+PASS: Switching weapons immediately hides the old shot
+PASS: Restore clears all first-person shot effects
+PASS: Pause cancels transient effects and blocks further fire
+PASS: Resume does not replay the previous flash
+PASS: Twelve same-frame shots retain at most eight muzzle effects
+PASS: All capped effects reclaim after their lifetime
+PASS: Loading the actual mission checkpoint clears remote and player effects
+S26 MUZZLE EFFECTS: PASS | checks=32

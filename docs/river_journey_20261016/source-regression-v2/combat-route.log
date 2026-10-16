@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FERRY COMBAT: issued=12 | defeated=2 | enemy shots=0 | first contact remaining=28.8333333333334
+SCRIPT ERROR: Invalid access to property or key 'visible' on a base object of type 'previously freed'.
+   at: initialize (res://scripts/river_journey.gd:95)
+   GDScript backtrace (most recent call first):
+       [0] initialize (res://scripts/river_journey.gd:95)
+       [1] depart (res://scripts/village_director.gd:85)
+       [2] choose (res://scripts/story.gd:208)
+       [3] _run (res://tests/combat_route.gd:97)
+WARNING: [Physics interpolation] Interpolated Camera3D triggered from outside physics process: "/root/Main/@Node@4105/双人渡河演出/@Camera3D@4499" (possibly benign).
+   at: _notification (scene/3d/camera_3d.cpp:218)
+ACTIVE COMBAT ROUTE: PASS | health=100.0 | guards defeated=37 | elapsed=400.149999999965 | state=won

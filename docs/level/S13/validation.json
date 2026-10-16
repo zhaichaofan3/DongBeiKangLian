@@ -1,0 +1,37 @@
+{
+  "step": "S13",
+  "title": "碰撞通行与 AI 路线",
+  "status": "done",
+  "specialized_checks": 35,
+  "specialized_passed": 35,
+  "route_direct_checks": 14,
+  "route_direct_passed": 14,
+  "regression": {
+    "smoke": "107/107",
+    "linear_route": "37/37",
+    "combat_route": "PASS",
+    "visual_motion": "50/50",
+    "story_moments": "11/11",
+    "character_model": "37/37"
+  },
+  "files_changed": [
+    "GodotProject/scripts/world.gd",
+    "GodotProject/tests/s13_navigation.gd",
+    "docs/level/S13/validation.md",
+    "docs/level/S13/validation.json"
+  ],
+  "evidence": [
+    "docs/level/S13/accepted-final/s13-navigation/navigation.json",
+    "docs/level/S13/accepted-final/s09-route-direct.json",
+    "docs/level/S13/accepted-final/smoke.log",
+    "docs/level/S13/accepted-final/linear-route.log",
+    "docs/level/S13/accepted-final/combat-route.log",
+    "docs/level/S13/accepted-final/visual-motion.log",
+    "docs/level/S13/accepted-final/story-moments.log",
+    "docs/level/S13/accepted-final/character-model.log"
+  ],
+  "limitations": [
+    "本步没有更新 Release 发布包。",
+    "S14 以后的人物骨骼与动作适配仍未开始。"
+  ]
+}

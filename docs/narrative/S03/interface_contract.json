@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "step": "S03",
+  "date": "2026-10-13",
+  "artifact_kind": "design_contract_not_runtime_implementation",
+  "baseline_version": "0.6.1",
+  "narrative_source": "docs/S03-narrative-and-mission.md",
+  "narration_canonical_source": "docs/production_plan.md",
+  "runtime_implemented": false,
+  "cast": {
+    "player": {"name": "沈砚", "source": "story.gd / story_moments.gd", "tianchi_presence": "first_person", "new_full_body_required": false},
+    "scout": {"name": "姜岚", "role": "抗联侦察员", "tianchi_presence": "speaker", "gameplay_role": "留守回山方向，可补问路线，不新增跟随战斗AI"},
+    "logger": {"name": "林守义", "role": "林工", "tianchi_presence": "absent", "gameplay_role": "木棚接头，可选补给"},
+    "lu": {"name": "陆山", "role": "交通员", "tianchi_presence": "absent", "gameplay_role": "电报房伤员，玩家选择接应和是否包扎"}
+  },
+  "history_segments": ["A1", "A2", "A3", "A4", "A5", "A6"],
+  "task_segments": ["B1", "B2", "B3", "B4", "B5", "B6"],
+  "time_and_place": {
+    "history": "跨季节主题蒙太奇，不是任务当天连续录像",
+    "tianchi": "数日前 · 长白山天池高地（艺术化场景）",
+    "travel": "B4压缩数日行程，姜岚先行侦察后会合",
+    "mission": "1938 年深秋 · 东南满林区 · 青岚林场（虚构）",
+    "B3_information": "原定赴林区接头并接应陆山，不提前得知昨夜受伤被扣",
+    "B5_information": "林师傅提供最新消息；陆山昨夜送信受伤被扣，名册危及密营与乡亲"
+  },
+  "handoff": {
+    "trigger": ["task_completed", "task_skipped"],
+    "apply_once_per_new_mission": true,
+    "mission": {"stage": 0, "elapsed": 0, "kills": 0, "defeated": {}, "yard": false},
+    "player": {
+      "position": [10, 0.08, 86], "yaw": -0.6, "pitch": 0, "health": 100,
+      "magazines": [5, 10], "reserves": [35, 50], "weapon": 0,
+      "camera_fov": 78, "camera_relative_height": 1.57,
+      "clear_transient_input": ["fire_requested", "aiming", "reload_timer", "shot_timer", "velocity", "crouching", "recoil", "mouse_impulse"]
+    },
+    "story_snapshot": {
+      "briefed": true, "choice": "none", "letter": false, "supply": false,
+      "recruited": false, "door": false, "bandages": 1,
+      "lu_position": [47, 0.08, 30], "following": false, "treated": false, "moments_seen": []
+    },
+    "npc_positions": {"scout": [12, 0.08, 82], "logger": [14, 0.08, 66], "lu": [47, 0.08, 30]},
+    "linear_snapshot": {"version": 1, "enabled": true, "opened": [], "contact_started": false, "extraction_started": false, "extraction_remaining": 12.0},
+    "encounter": {"expanded": true, "initial_ids": ["gate_guard", "yard_guard", "pier_guard", "timber_guard", "office_guard"], "reinforcement_next": 0, "reinforcement_wait": 0, "reinforcement_pending": 0, "active_initial_count": 5, "max_alive": 6},
+    "power_on": true,
+    "codebook_visible": true,
+    "opening_save_phase": "gameplay",
+    "control_mode_after_successful_commit": "playing",
+    "order": ["prepare_valid_mission_once_with_controls_locked", "align_camera_player_weapon_and_story", "clear_cinematic_actors_audio_and_captions", "save_gameplay_checkpoint", "enable_control_and_show_objective"],
+    "save_failure": "保留内存状态，显示错误，允许重试保存或返回菜单；不得宣称已保存"
+  },
+  "existing_mission_constraints": {
+    "stage_values": {"0": "未取册", "1": "已取册未断电", "2": "已断电，接应并撤离", "3": "胜利，不是现有有效中途存档stage"},
+    "contact_condition": "story.met_scout && player.position.x > 24",
+    "gate_conditions": {
+      "checkpoint": "met_scout && defeated.gate_guard",
+      "yard": "met_scout && checkpoint_open && defeated.yard_guard && defeated.timber_guard",
+      "river": "met_scout && yard_open && stage == 2 && story.recruited"
+    },
+    "book_before_power": true,
+    "rescue_independent_of_book_power_order": true,
+    "treatment_optional": true,
+    "logger_supplies_optional": true,
+    "reinforcements": {"count": 4, "batch_size": 2, "require_stage": 2, "require_open_gate": "river"},
+    "extraction": {"duration": 12.0, "player_distance_lte": 10, "lu_distance_lte": 6, "following_required": true, "pause_when_outside": true, "resume_remaining_time": true},
+    "finish": {"lu_distance_lt": 5.5, "player_interaction_distance": 3.0, "player_reachable_required": true, "stage_required": 2, "recruited_required": true, "can_evacuate_required": true, "dialogue_confirmation_required": true, "kill_all_reinforcements_required": false}
+  },
+  "planned_opening_save_extension": {
+    "status": "not_implemented",
+    "mission_save_version": 2,
+    "field": "opening",
+    "field_schema": {"version": 1, "phase_enum": ["history", "task", "gameplay"]},
+    "history_restore": "A1 with fresh valid pre-handoff mission state",
+    "task_restore": "B1 with fresh valid pre-handoff mission state",
+    "gameplay_restore": "normal existing mission snapshot; never apply new-mission handoff again",
+    "missing_field": "legacy gameplay restore; preserve briefed and every existing saved field",
+    "missing_linear": "preserve current legacy compatibility; disable new route constraints",
+    "opening_phase_requires": "stage0, briefed=false, recruited=false, no kills/defeats/open gates/reinforcements; formal actors at valid mission anchors",
+    "unknown_or_conflicting_field": "reject invalid save with visible reason; preserve file; no silent completed fallback",
+    "save_boundaries": ["enter_A", "enter_B", "commit_gameplay"],
+    "frame_exact_restore": false,
+    "never_serialize_cinematic_coordinates_as_mission_positions": true
+  },
+  "runtime_acceptance_cases": [
+    {"id": "C01", "scenario": "完整观看A/B", "expected": "统一交接一次"},
+    {"id": "C02", "scenario": "跳过A、观看B", "expected": "B1起播，交接与完整观看一致"},
+    {"id": "C03", "scenario": "观看A、跳过B", "expected": "任务已说明，进入统一交接状态"},
+    {"id": "C04", "scenario": "连续跳过两段或连点", "expected": "不重复生成敌人或补资源"},
+    {"id": "C05", "scenario": "暂停、设置与返回", "expected": "恢复原过场上下文，音画时间同步冻结"},
+    {"id": "C06", "scenario": "A段中断", "expected": "有效history存档从A1恢复"},
+    {"id": "C07", "scenario": "B段中断", "expected": "有效task存档从B1恢复"},
+    {"id": "C08", "scenario": "交接后退出", "expected": "直接继续游戏，不重放开场"},
+    {"id": "C09", "scenario": "战斗失败返回检查点", "expected": "恢复任务实际资源、敌人和伤员"},
+    {"id": "C10", "scenario": "重新开始或再试一次", "expected": "新任务从A开始，可分别跳过"},
+    {"id": "C11", "scenario": "老档无opening、有linear", "expected": "保留全部游戏状态，不强行简报"},
+    {"id": "C12", "scenario": "老档无opening、无linear", "expected": "保留旧路线兼容，不追加解缆"},
+    {"id": "C13", "scenario": "opening损坏或状态冲突", "expected": "记录错误、保留原档，不静默标为完成"},
+    {"id": "C14", "scenario": "加载或保存失败", "expected": "保留最近成功检查点，不冒充完成"}
+  ],
+  "runtime_acceptance_executed": false,
+  "implementation_steps": ["S07", "S09", "S25", "S33", "S34"]
+}

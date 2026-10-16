@@ -1,0 +1,54 @@
+{
+  "CheckedAt": "2026-10-15T20:30:53.8927133+08:00",
+  "Packages": [
+    {
+      "Role": "office",
+      "Original": "C:\\Users\\Administrator\\Downloads\\电报房.rar",
+      "Preserved": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\office\\original.rar",
+      "Bytes": 15322470,
+      "SHA256": "8a7eda8b8d16587deba4c79ae56bf8a17466e6ccb256092241079c522767a514",
+      "Matches": true
+    },
+    {
+      "Role": "camp",
+      "Original": "C:\\Users\\Administrator\\Downloads\\伐木场破房子合集.rar",
+      "Preserved": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\camp\\original.rar",
+      "Bytes": 66760435,
+      "SHA256": "6e1798f359a0a7572ccfe940c4e39d83165b78bff2bd3ff9466ce2fe7e434c50",
+      "Matches": true
+    },
+    {
+      "Role": "village",
+      "Original": "C:\\Users\\Administrator\\Downloads\\东北农村.rar",
+      "Preserved": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\village\\original.rar",
+      "Bytes": 107870983,
+      "SHA256": "15084850fa817d9b8c1295f5d71b2c8e18bff1a5a7093725c5458bb4e373853d",
+      "Matches": true
+    },
+    {
+      "Role": "rifle",
+      "Original": "C:\\Users\\Administrator\\Downloads\\98k步枪.rar",
+      "Preserved": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\rifle\\original.rar",
+      "Bytes": 2979041,
+      "SHA256": "f231854dae7610b57de3a9fb57867cb76cd4cbc0c73ab173f08ed59ea5de6541",
+      "Matches": true
+    },
+    {
+      "Role": "dock",
+      "Original": "C:\\Users\\Administrator\\Downloads\\渡口和小船.rar",
+      "Preserved": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\original.rar",
+      "Bytes": 86586175,
+      "SHA256": "73c980439332c4b540a82fbf3173455dbef7d9637a7b5b4ec4b854eb1e2d544b",
+      "Matches": true
+    },
+    {
+      "Role": "river",
+      "Original": "C:\\Users\\Administrator\\Downloads\\河（可以删掉里面的鱼之类的没用模型）.rar",
+      "Preserved": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\river\\original.rar",
+      "Bytes": 372325110,
+      "SHA256": "d7aedb76a981a9d31d4e402bc727f1c45e9cb5771ac9bef7dfda9f7ad94faaa5",
+      "Matches": true
+    }
+  ],
+  "Passed": true
+}

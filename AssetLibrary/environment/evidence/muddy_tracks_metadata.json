@@ -1,0 +1,56 @@
+{
+  "type": 1,
+  "name": "Muddy Tracks",
+  "categories": [
+    "floor",
+    "natural",
+    "outdoor",
+    "sand",
+    "dirty"
+  ],
+  "tags": [
+    "mud",
+    "muddy surface",
+    "tracks",
+    "tire tracks",
+    "wet",
+    "organic",
+    "outdoor",
+    "earth",
+    "dirty",
+    "earthy",
+    "loose earth",
+    "soil",
+    "moist ground",
+    "muddy terrain",
+    "off-road"
+  ],
+  "description": "Free 8k texture. Wet, earthy mud with deep tire tracks, rough clumps of loose soil, moist sheen and gritty, dirty surface detail.",
+  "authors": {
+    "Amal Kumar": "All"
+  },
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "dimensions": [
+    2250,
+    2250
+  ],
+  "files_hash": "127da873bb561a84f8b892bda7d41d44486bf886",
+  "date_published": 1772064000,
+  "category_id": "da4a03e2-d438-5c20-8e81-7231e7735d91",
+  "category": "Ground & Terrain/Soil & Mud/Tire-Tracked Mud",
+  "attributes": {
+    "surface_use": "ground",
+    "condition": [
+      "weathered",
+      "damaged"
+    ],
+    "origin": "natural",
+    "setting": "outdoor"
+  },
+  "img_version": "99ac7961",
+  "download_count": 6169,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/muddy_tracks.png?width=256&height=256&format=webp&v=99ac7961"
+}

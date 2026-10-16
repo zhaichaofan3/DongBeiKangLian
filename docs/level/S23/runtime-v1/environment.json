@@ -1,0 +1,78 @@
+{
+  "all_passed": false,
+  "backdrop_radii_m": [
+    205.0,
+    260.0,
+    325.0
+  ],
+  "checks": [
+    {
+      "description": "S23 environment root is present under the opening stage",
+      "passed": true
+    },
+    {
+      "description": "Animated water surface uses a stable crater-disk mesh",
+      "passed": true
+    },
+    {
+      "description": "Water surface uses the S23 animated shader",
+      "passed": true
+    },
+    {
+      "description": "Three lightweight mist bands provide lake, rim and far-layer separation",
+      "passed": true
+    },
+    {
+      "description": "Every mist band uses the shared translucent S23 mist shader",
+      "passed": true
+    },
+    {
+      "description": "Three ordered distant mountain layers are present",
+      "passed": true
+    },
+    {
+      "description": "Lake environment has height fog tuned for crater depth",
+      "passed": true
+    },
+    {
+      "description": "Dedicated lake fill light keeps characters readable",
+      "passed": true
+    },
+    {
+      "description": "Platform rim light covers the conversation area",
+      "passed": true
+    },
+    {
+      "description": "B1 conversation shot enables the complete lake environment",
+      "passed": true
+    },
+    {
+      "description": "B1 keeps the speaker on the lake visual layer",
+      "passed": true
+    },
+    {
+      "description": "Non-lake shot disables S23 layers and restores the forest environment",
+      "passed": false
+    }
+  ],
+  "lake_fog": {
+    "density": 0.00219999998807907,
+    "height": 14.0,
+    "height_density": 0.0320000015199184
+  },
+  "method": "Headless main scene, environment node inspection, B1 and A1 preview switching, layer and camera environment checks.",
+  "mist_band_count": 3,
+  "performance_budget": {
+    "backdrop_layers": 3,
+    "dynamic_lights": 2,
+    "mist_bands": 3,
+    "water_surfaces": 1
+  },
+  "status": "failed",
+  "step": "S23",
+  "water_mesh": {
+    "height_m": 0.025000000372529,
+    "name": "S23_Tianchi_Water_Surface",
+    "radius_m": 53.5
+  }
+}

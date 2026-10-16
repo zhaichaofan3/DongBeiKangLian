@@ -1,0 +1,38 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Right-hand porch bypass cannot skip the timber encounter, including sprint-jump
+PASS: Office eastern corner joins the partition without a capsule-width gap
+PASS: Closed office door and frames block entry
+PASS: Office navigation is measured against the supplied interior geometry
+PASS: Real player walks the office route to (46.0, 0.08, 38.0)
+PASS: Real player walks the office route to (53.5, 0.08, 38.0)
+PASS: Real player walks the office route to (61.8, 0.08, 32.5)
+PASS: Real player walks the office route to (48.8, 0.08, 30.0)
+PASS: Real player walks the office route to (38.0, 0.08, 38.0)
+PASS: Interior mission interaction remains reachable: (53.5, 0.99, 40.0)
+PASS: Interior mission interaction remains reachable: (63.0, 1.55, 30.2)
+PASS: Interior mission interaction remains reachable: (47.0, 1.08, 30.0)
+PASS: Level uses the complete main settlement, retaining twenty-two original courtyard groups
+PASS: Continuous physical boundary across village encounter 0; gaps=[]
+PASS: Closed village gate 0 blocks real sprint-jump movement
+PASS: Continuous physical boundary across village encounter 1; gaps=[]
+PASS: Closed village gate 1 blocks real sprint-jump movement
+PASS: Every new branch wire retains its 0.8m collision height
+PASS: All cleared village sections remain connected
+FAIL: Enemy spawns on reachable original village ground: village_0
+PASS: Enemy spawns on reachable original village ground: village_1
+PASS: Enemy spawns on reachable original village ground: village_2
+PASS: Enemy spawns on reachable original village ground: village_3
+PASS: Enemy spawns on reachable original village ground: village_4
+PASS: Enemy spawns on reachable original village ground: village_5
+PASS: Enemy spawns on reachable original village ground: village_6
+PASS: Enemy spawns on reachable original village ground: village_7
+PASS: Enemy spawns on reachable original village ground: village_8
+PASS: Enemy spawns on reachable original village ground: village_9
+PASS: Enemy spawns on reachable original village ground: village_10
+PASS: Enemy spawns on reachable original village ground: village_11
+FAIL: Old straight-village checkpoint migrates to the matching encounter
+FAIL: Village migration preserves defeats and ammunition
+FAIL: Disk-only resume restores the new layout
+SETTLEMENT REVISION: FAIL | checks=34
+

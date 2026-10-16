@@ -1,0 +1,21 @@
+{
+  "all_passed": true,
+  "checks": 7,
+  "far_forest_instances": 386,
+  "fixed_views": [
+    "Z0-checkpoint",
+    "Z2-timber",
+    "Z3-office",
+    "Z4-river",
+    "BG-forest"
+  ],
+  "method": "Fixed authored camera positions with visual-layer metadata and route path checks; no gameplay collision or AI state changed.",
+  "middle_forest_instances": 39,
+  "navigation_grid": [
+    22,
+    24
+  ],
+  "physics_bodies_added": 0,
+  "step": "S12",
+  "visual_nodes": 429
+}

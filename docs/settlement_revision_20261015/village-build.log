@@ -1,0 +1,330 @@
+信息: 已另存为 "village_complete.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+23:08:35 | INFO: Starting glTF 2.0 export
+23:08:36 | INFO: Extracting primitive: Obj3d66-691775-340-926.001
+23:08:37 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+23:08:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+23:08:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+23:08:41 | INFO: Primitives created: 148
+23:08:45 | INFO: Finished glTF 2.0 export in 9.92575716972351 s
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\docs\expansion_20261015\village\raw-import.blend"
+Fra:1 Mem:1297.06M (Peak 1297.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OriginalNortheastSettlement
+Fra:1 Mem:1297.06M (Peak 1297.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ReviewSun
+帧:1 内存:1444.93M (峰值 1492.26M) | 时间:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:1444.92M (Peak 1492.26M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-134.jpg
+Fra:1 Mem:1444.92M (Peak 1492.26M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-102.jpg.029
+Fra:1 Mem:1444.92M (Peak 1492.26M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-41.jpg
+Fra:1 Mem:1461.87M (Peak 1492.26M) | Time:00:00.09 | Mem:2.38M, Peak:2.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-39.jpg
+Fra:1 Mem:1461.87M (Peak 1492.26M) | Time:00:00.09 | Mem:5.22M, Peak:5.22M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-114.jpg
+Fra:1 Mem:1477.87M (Peak 1492.26M) | Time:00:00.09 | Mem:7.22M, Peak:7.22M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-105.jpg
+Fra:1 Mem:1480.28M (Peak 1492.26M) | Time:00:00.09 | Mem:7.63M, Peak:7.63M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-31.jpg
+Fra:1 Mem:1496.28M (Peak 1496.28M) | Time:00:00.09 | Mem:8.63M, Peak:8.63M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-30.jpg
+Fra:1 Mem:1512.28M (Peak 1512.28M) | Time:00:00.09 | Mem:9.63M, Peak:9.63M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-33.jpg
+Fra:1 Mem:1527.54M (Peak 1527.54M) | Time:00:00.09 | Mem:10.63M, Peak:10.63M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-22.jpg
+Fra:1 Mem:1528.29M (Peak 1528.29M) | Time:00:00.09 | Mem:11.63M, Peak:11.63M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-25.jpg
+Fra:1 Mem:1528.29M (Peak 1528.29M) | Time:00:00.09 | Mem:14.77M, Peak:14.77M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-23.jpg
+Fra:1 Mem:1533.61M (Peak 1533.61M) | Time:00:00.09 | Mem:14.77M, Peak:14.77M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-21.jpg
+Fra:1 Mem:1534.78M (Peak 1534.78M) | Time:00:00.09 | Mem:18.33M, Peak:18.33M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-94.jpg
+Fra:1 Mem:1534.78M (Peak 1534.78M) | Time:00:00.09 | Mem:21.26M, Peak:21.26M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-5.jpg
+帧:1 内存:1548.47M (峰值 1548.47M) | 时间:00:00.09 | Mem:26.59M, Peak:26.59M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-131.jpg
+Fra:1 Mem:1549.45M (Peak 1549.45M) | Time:00:00.09 | Mem:28.47M, Peak:28.47M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-4.png
+帧:1 内存:1550.45M (峰值 1550.45M) | 时间:00:00.09 | Mem:29.45M, Peak:29.45M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-89.gif
+Fra:1 Mem:1550.45M (Peak 1550.45M) | Time:00:00.09 | Mem:36.35M, Peak:36.35M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-20.png
+Fra:1 Mem:1550.58M (Peak 1550.58M) | Time:00:00.09 | Mem:36.35M, Peak:36.35M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-125.jpg
+Fra:1 Mem:1550.58M (Peak 1550.58M) | Time:00:00.09 | Mem:36.48M, Peak:36.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-126.jpg
+Fra:1 Mem:1558.58M (Peak 1558.58M) | Time:00:00.09 | Mem:40.48M, Peak:40.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-64.jpg
+帧:1 内存:1559.58M (峰值 1559.58M) | 时间:00:00.09 | Mem:40.48M, Peak:40.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-6.jpg
+Fra:1 Mem:1575.58M (Peak 1575.58M) | Time:00:00.09 | Mem:41.48M, Peak:41.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-65.jpg
+Fra:1 Mem:1577.58M (Peak 1577.58M) | Time:00:00.09 | Mem:45.48M, Peak:45.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-49.jpg
+Fra:1 Mem:1589.88M (Peak 1589.88M) | Time:00:00.09 | Mem:47.48M, Peak:47.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-62.jpg
+Fra:1 Mem:1597.88M (Peak 1597.88M) | Time:00:00.10 | Mem:53.38M, Peak:53.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-61.jpg
+Fra:1 Mem:1601.88M (Peak 1601.88M) | Time:00:00.10 | Mem:68.64M, Peak:68.64M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-63.jpg
+Fra:1 Mem:1603.88M (Peak 1603.88M) | Time:00:00.10 | Mem:72.64M, Peak:72.64M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-50.jpg
+Fra:1 Mem:1608.67M (Peak 1608.67M) | Time:00:00.10 | Mem:74.64M, Peak:74.64M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-56.jpg
+Fra:1 Mem:1610.67M (Peak 1610.67M) | Time:00:00.10 | Mem:90.64M, Peak:90.64M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-58.jpg
+Fra:1 Mem:1611.67M (Peak 1611.67M) | Time:00:00.10 | Mem:91.64M, Peak:91.64M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-59.jpg
+Fra:1 Mem:1611.92M (Peak 1611.92M) | Time:00:00.10 | Mem:99.64M, Peak:99.64M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-60.jpg
+帧:1 内存:1612.42M (峰值 1612.42M) | 时间:00:00.10 | Mem:115.89M, Peak:115.89M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-103.JPG
+Fra:1 Mem:1612.42M (Peak 1612.42M) | Time:00:00.10 | Mem:115.89M, Peak:115.89M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-45.jpg
+Fra:1 Mem:1628.85M (Peak 1628.85M) | Time:00:00.10 | Mem:117.89M, Peak:117.89M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-46.jpg
+Fra:1 Mem:1634.36M (Peak 1634.36M) | Time:00:00.10 | Mem:118.39M, Peak:118.39M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-47.jpg
+Fra:1 Mem:1638.79M (Peak 1638.79M) | Time:00:00.10 | Mem:123.18M, Peak:123.18M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-48.jpg
+帧:1 内存:1652.37M (峰值 1652.37M) | 时间:00:00.10 | Mem:124.18M, Peak:124.18M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-1.JPG
+Fra:1 Mem:1656.19M (Peak 1656.19M) | Time:00:00.10 | Mem:140.18M, Peak:140.18M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-51.jpg
+Fra:1 Mem:1662.19M (Peak 1662.19M) | Time:00:00.10 | Mem:156.18M, Peak:156.18M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-52.jpg
+Fra:1 Mem:1666.98M (Peak 1666.98M) | Time:00:00.10 | Mem:168.48M, Peak:168.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-53.jpg
+Fra:1 Mem:1671.43M (Peak 1671.43M) | Time:00:00.10 | Mem:172.92M, Peak:172.92M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-54.jpg
+帧:1 内存:1674.44M (峰值 1674.44M) | 时间:00:00.10 | Mem:176.74M, Peak:176.74M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-100.JPG
+帧:1 内存:1675.44M (峰值 1675.44M) | 时间:00:00.10 | Mem:177.74M, Peak:177.74M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-104.JPG
+Fra:1 Mem:1676.20M (Peak 1676.20M) | Time:00:00.10 | Mem:183.24M, Peak:183.24M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-55.jpg
+帧:1 内存:1679.21M (峰值 1679.21M) | 时间:00:00.10 | Mem:184.00M, Peak:184.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-11.jpg
+Fra:1 Mem:1682.04M (Peak 1682.04M) | Time:00:00.11 | Mem:187.01M, Peak:187.01M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-57.jpg
+帧:1 内存:1686.04M (峰值 1686.04M) | 时间:00:00.11 | Mem:189.84M, Peak:189.84M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-88.jpg
+Fra:1 Mem:1686.04M (Peak 1686.04M) | Time:00:00.11 | Mem:194.30M, Peak:194.30M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-44.jpg
+帧:1 内存:1691.77M (峰值 1691.77M) | 时间:00:00.11 | Mem:197.04M, Peak:197.04M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-93.jpg
+Fra:1 Mem:1692.94M (Peak 1692.94M) | Time:00:00.11 | Mem:200.05M, Peak:200.05M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-66.jpg
+帧:1 内存:1693.94M (峰值 1693.94M) | 时间:00:00.11 | Mem:201.22M, Peak:201.22M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-137.jpg
+Fra:1 Mem:1695.60M (Peak 1695.60M) | Time:00:00.11 | Mem:206.01M, Peak:206.01M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-79.jpg
+Fra:1 Mem:1698.61M (Peak 1698.61M) | Time:00:00.11 | Mem:212.01M, Peak:212.01M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-69.jpg
+帧:1 内存:1699.61M (峰值 1699.61M) | 时间:00:00.11 | Mem:213.67M, Peak:213.67M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-136.jpg
+Fra:1 Mem:1701.28M (Peak 1701.28M) | Time:00:00.11 | Mem:214.67M, Peak:214.67M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-83.jpg
+Fra:1 Mem:1705.28M (Peak 1705.28M) | Time:00:00.11 | Mem:217.66M, Peak:217.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-70.jpg
+Fra:1 Mem:1706.28M (Peak 1706.28M) | Time:00:00.11 | Mem:221.66M, Peak:221.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-67.jpg
+Fra:1 Mem:1722.28M (Peak 1722.28M) | Time:00:00.11 | Mem:222.66M, Peak:222.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-71.jpg
+Fra:1 Mem:1723.28M (Peak 1723.28M) | Time:00:00.11 | Mem:223.66M, Peak:223.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-77.jpg
+帧:1 内存:1724.28M (峰值 1724.28M) | 时间:00:00.11 | Mem:225.32M, Peak:225.32M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-135.jpg
+Fra:1 Mem:1727.85M (Peak 1727.85M) | Time:00:00.11 | Mem:226.32M, Peak:226.32M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-68.jpg
+帧:1 内存:1743.85M (峰值 1743.85M) | 时间:00:00.11 | Mem:229.90M, Peak:229.90M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-14.jpg
+Fra:1 Mem:1747.43M (Peak 1747.43M) | Time:00:00.11 | Mem:230.90M, Peak:230.90M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-75.jpg
+Fra:1 Mem:1748.43M (Peak 1748.43M) | Time:00:00.11 | Mem:244.47M, Peak:244.47M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-74.jpg
+Fra:1 Mem:1748.43M (Peak 1748.43M) | Time:00:00.11 | Mem:247.49M, Peak:247.49M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-76.jpg
+Fra:1 Mem:1750.43M (Peak 1750.43M) | Time:00:00.11 | Mem:251.49M, Peak:251.49M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-84.jpg
+Fra:1 Mem:1752.43M (Peak 1752.43M) | Time:00:00.11 | Mem:266.92M, Peak:266.92M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-72.jpg
+Fra:1 Mem:1754.43M (Peak 1754.43M) | Time:00:00.11 | Mem:267.92M, Peak:267.92M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-78.jpg
+Fra:1 Mem:1770.43M (Peak 1770.43M) | Time:00:00.11 | Mem:268.92M, Peak:268.92M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-73.jpg
+Fra:1 Mem:1786.43M (Peak 1786.43M) | Time:00:00.11 | Mem:269.92M, Peak:269.92M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-81.jpg
+帧:1 内存:1790.43M (峰值 1790.43M) | 时间:00:00.11 | Mem:273.50M, Peak:273.50M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-109.jpg
+Fra:1 Mem:1790.94M (Peak 1790.94M) | Time:00:00.11 | Mem:275.50M, Peak:275.50M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-82.jpg
+Fra:1 Mem:1790.94M (Peak 1790.94M) | Time:00:00.11 | Mem:277.50M, Peak:277.50M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-85.jpg
+帧:1 内存:1799.94M (峰值 1799.94M) | 时间:00:00.11 | Mem:278.00M, Peak:278.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-18.jpg
+Fra:1 Mem:1803.94M (Peak 1803.94M) | Time:00:00.11 | Mem:279.00M, Peak:279.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-80.jpg
+Fra:1 Mem:1806.95M (Peak 1806.95M) | Time:00:00.11 | Mem:283.00M, Peak:283.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-86.jpg
+帧:1 内存:1807.95M (峰值 1807.95M) | 时间:00:00.11 | Mem:287.00M, Peak:287.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-19.tga
+帧:1 内存:1811.95M (峰值 1811.95M) | 时间:00:00.11 | Mem:292.00M, Peak:292.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-17.tga
+Fra:1 Mem:1811.95M (Peak 1811.95M) | Time:00:00.11 | Mem:292.00M, Peak:292.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-87.jpg
+Fra:1 Mem:1816.20M (Peak 1816.20M) | Time:00:00.11 | Mem:292.25M, Peak:292.25M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-16.jpg
+Fra:1 Mem:1818.10M (Peak 1818.10M) | Time:00:00.12 | Mem:295.27M, Peak:295.27M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-12.jpg
+Fra:1 Mem:1819.40M (Peak 1819.40M) | Time:00:00.12 | Mem:296.56M, Peak:296.56M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-13.jpg
+Fra:1 Mem:1820.69M (Peak 1820.69M) | Time:00:00.12 | Mem:297.86M, Peak:297.86M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-27.jpg
+Fra:1 Mem:1826.19M (Peak 1826.19M) | Time:00:00.12 | Mem:299.76M, Peak:299.76M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-96.jpg
+帧:1 内存:1826.19M (峰值 1826.19M) | 时间:00:00.12 | Mem:303.76M, Peak:303.76M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-97.jpg
+Fra:1 Mem:1838.78M (Peak 1838.78M) | Time:00:00.12 | Mem:319.76M, Peak:319.76M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-9.jpg
+Fra:1 Mem:1840.26M (Peak 1840.26M) | Time:00:00.12 | Mem:327.76M, Peak:327.76M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-95.jpg
+帧:1 内存:1843.00M (峰值 1843.00M) | 时间:00:00.12 | Mem:331.76M, Peak:331.76M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-98.jpg
+Fra:1 Mem:1848.68M (Peak 1848.68M) | Time:00:00.12 | Mem:347.76M, Peak:347.76M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-117.jpg
+Fra:1 Mem:1848.99M (Peak 1848.99M) | Time:00:00.12 | Mem:349.24M, Peak:349.24M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-118.jpg
+Fra:1 Mem:1848.99M (Peak 1848.99M) | Time:00:00.12 | Mem:349.54M, Peak:349.54M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-128.jpg
+Fra:1 Mem:1853.07M (Peak 1853.07M) | Time:00:00.12 | Mem:349.81M, Peak:349.81M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-130.jpg
+Fra:1 Mem:1856.89M (Peak 1856.89M) | Time:00:00.12 | Mem:355.31M, Peak:355.31M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-107.JPG
+Fra:1 Mem:1856.89M (Peak 1856.89M) | Time:00:00.12 | Mem:358.05M, Peak:358.05M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-119.jpg
+Fra:1 Mem:1858.12M (Peak 1858.12M) | Time:00:00.12 | Mem:358.28M, Peak:358.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-132.JPG
+Fra:1 Mem:1858.98M (Peak 1858.98M) | Time:00:00.12 | Mem:362.10M, Peak:362.10M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-7.jpg
+Fra:1 Mem:1859.98M (Peak 1859.98M) | Time:00:00.12 | Mem:365.91M, Peak:365.91M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-8.jpg
+Fra:1 Mem:1864.10M (Peak 1864.10M) | Time:00:00.12 | Mem:366.91M, Peak:366.91M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-90.jpg
+Fra:1 Mem:1864.10M (Peak 1864.10M) | Time:00:00.12 | Mem:367.77M, Peak:367.77M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-116.jpg
+Fra:1 Mem:1877.76M (Peak 1877.76M) | Time:00:00.12 | Mem:383.77M, Peak:383.77M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-37.jpg
+Fra:1 Mem:1878.76M (Peak 1878.76M) | Time:00:00.12 | Mem:384.77M, Peak:384.77M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-37.jpg.004
+Fra:1 Mem:1879.76M (Peak 1879.76M) | Time:00:00.12 | Mem:385.77M, Peak:385.77M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-32.jpg
+Fra:1 Mem:1880.73M (Peak 1880.73M) | Time:00:00.12 | Mem:394.36M, Peak:394.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-36.jpg
+Fra:1 Mem:1882.85M (Peak 1882.85M) | Time:00:00.12 | Mem:410.36M, Peak:410.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-34.jpg
+Fra:1 Mem:1886.89M (Peak 1886.89M) | Time:00:00.12 | Mem:411.36M, Peak:411.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-35.jpg
+Fra:1 Mem:1886.89M (Peak 1886.89M) | Time:00:00.12 | Mem:412.34M, Peak:412.34M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-29.jpg
+Fra:1 Mem:1895.64M (Peak 1895.64M) | Time:00:00.12 | Mem:414.00M, Peak:414.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-28.jpg
+帧:1 内存:1897.10M (峰值 1897.10M) | 时间:00:00.12 | Mem:419.68M, Peak:419.68M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-24.jpg.052
+Fra:1 Mem:1897.10M (Peak 1897.10M) | Time:00:00.12 | Mem:423.80M, Peak:423.80M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-22.jpg.002
+Fra:1 Mem:1891.27M (Peak 1897.10M) | Time:00:00.13 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:1891.27M (Peak 1897.10M) | Time:00:00.13 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:1891.27M (Peak 1897.10M) | Time:00:00.13 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:1891.27M (Peak 1897.10M) | Time:00:00.13 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:1891.46M (Peak 1897.10M) | Time:00:00.13 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:2009.78M (Peak 2009.78M) | Time:00:01.92 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:2009.78M (Peak 2009.78M) | Time:00:01.92 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:2165.18M (Peak 2165.18M) | Time:00:01.96 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:2165.18M (Peak 2165.18M) | Time:00:01.96 | Mem:609.42M, Peak:609.42M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:2165.18M (Peak 2165.18M) | Time:00:01.96 | Mem:609.42M, Peak:609.42M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:2165.18M (Peak 2165.18M) | Time:00:01.96 | Mem:672.53M, Peak:672.53M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:2165.18M (Peak 2165.18M) | Time:00:02.05 | Mem:741.42M, Peak:804.53M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:2165.18M (Peak 2165.18M) | Time:00:02.05 | Mem:741.42M, Peak:804.53M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:741.42M, Peak:804.53M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:2223.54M (Peak 2223.54M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:2223.55M (Peak 2223.55M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:2223.55M (Peak 2223.55M) | Time:00:02.07 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Sample 0/8
+Fra:1 Mem:2409.18M (Peak 2409.18M) | Time:00:02.30 | Remaining:00:01.58 | Mem:985.42M, Peak:985.42M | Scene, ViewLayer | Sample 1/8
+Fra:1 Mem:2487.31M (Peak 2604.50M) | Time:00:09.91 | Mem:985.42M, Peak:985.42M | Scene, ViewLayer | Sample 8/8
+Fra:1 Mem:2487.31M (Peak 2604.50M) | Time:00:09.91 | Mem:985.42M, Peak:985.42M | Scene, ViewLayer | Finished
+Saved: 'C:\GameMake\docs\settlement_revision_20261015\original-main-settlement-top.png'
+Time: 00:10.22 (Saving: 00:00.28)
+
+Fra:1 Mem:1310.54M (Peak 1310.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OriginalNortheastSettlement
+Fra:1 Mem:1310.54M (Peak 1310.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ReviewSun.001
+帧:1 内存:1445.01M (峰值 1492.34M) | 时间:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:1445.00M (Peak 1492.34M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-134.jpg
+帧:1 内存:1445.00M (峰值 1492.34M) | 时间:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-26.jpg
+Fra:1 Mem:1446.83M (Peak 1492.34M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-102.jpg
+Fra:1 Mem:1446.83M (Peak 1492.34M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-24.jpg
+Fra:1 Mem:1454.55M (Peak 1492.34M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-41.jpg
+Fra:1 Mem:1461.95M (Peak 1492.34M) | Time:00:00.06 | Mem:2.38M, Peak:2.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-39.jpg
+Fra:1 Mem:1477.95M (Peak 1492.34M) | Time:00:00.06 | Mem:3.38M, Peak:3.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-43.jpg
+Fra:1 Mem:1478.95M (Peak 1492.34M) | Time:00:00.06 | Mem:4.38M, Peak:4.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-114.jpg
+Fra:1 Mem:1479.95M (Peak 1492.34M) | Time:00:00.06 | Mem:8.60M, Peak:8.60M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-105.jpg
+Fra:1 Mem:1480.36M (Peak 1492.34M) | Time:00:00.06 | Mem:8.60M, Peak:8.60M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-31.jpg
+Fra:1 Mem:1496.36M (Peak 1496.36M) | Time:00:00.06 | Mem:10.60M, Peak:10.60M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-30.jpg
+Fra:1 Mem:1512.36M (Peak 1512.36M) | Time:00:00.06 | Mem:12.02M, Peak:12.02M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-33.jpg
+Fra:1 Mem:1512.36M (Peak 1512.36M) | Time:00:00.06 | Mem:12.02M, Peak:12.02M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-22.jpg
+Fra:1 Mem:1528.37M (Peak 1528.37M) | Time:00:00.06 | Mem:13.02M, Peak:13.02M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-25.jpg
+Fra:1 Mem:1530.76M (Peak 1530.76M) | Time:00:00.06 | Mem:14.02M, Peak:14.02M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-23.jpg
+Fra:1 Mem:1533.69M (Peak 1533.69M) | Time:00:00.06 | Mem:14.77M, Peak:14.77M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-21.jpg
+Fra:1 Mem:1534.86M (Peak 1534.86M) | Time:00:00.06 | Mem:15.94M, Peak:15.94M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-94.jpg
+Fra:1 Mem:1540.76M (Peak 1540.76M) | Time:00:00.06 | Mem:18.33M, Peak:18.33M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-94.jpg.030
+Fra:1 Mem:1546.67M (Peak 1546.67M) | Time:00:00.06 | Mem:21.26M, Peak:21.26M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-5.jpg
+帧:1 内存:1548.55M (峰值 1548.55M) | 时间:00:00.06 | Mem:26.59M, Peak:26.59M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-131.jpg
+Fra:1 Mem:1549.53M (Peak 1549.53M) | Time:00:00.06 | Mem:32.49M, Peak:32.49M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-4.png
+Fra:1 Mem:1550.53M (Peak 1550.53M) | Time:00:00.06 | Mem:33.49M, Peak:33.49M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-20.png
+Fra:1 Mem:1550.65M (Peak 1550.65M) | Time:00:00.06 | Mem:33.62M, Peak:33.62M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-125.jpg
+帧:1 内存:1554.65M (峰值 1554.65M) | 时间:00:00.06 | Mem:34.59M, Peak:34.59M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-89.gif
+Fra:1 Mem:1554.66M (Peak 1554.66M) | Time:00:00.06 | Mem:36.48M, Peak:36.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-126.jpg
+Fra:1 Mem:1558.66M (Peak 1558.66M) | Time:00:00.07 | Mem:40.48M, Peak:40.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-64.jpg
+Fra:1 Mem:1559.66M (Peak 1559.66M) | Time:00:00.07 | Mem:46.38M, Peak:46.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-65.jpg
+帧:1 内存:1561.65M (峰值 1561.66M) | 时间:00:00.07 | Mem:46.38M, Peak:46.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-6.jpg
+Fra:1 Mem:1577.65M (Peak 1577.65M) | Time:00:00.07 | Mem:47.38M, Peak:47.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-49.jpg
+Fra:1 Mem:1589.96M (Peak 1589.96M) | Time:00:00.07 | Mem:49.38M, Peak:49.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-62.jpg
+Fra:1 Mem:1597.96M (Peak 1597.96M) | Time:00:00.07 | Mem:53.38M, Peak:53.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-61.jpg
+Fra:1 Mem:1601.96M (Peak 1601.96M) | Time:00:00.07 | Mem:69.38M, Peak:69.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-63.jpg
+Fra:1 Mem:1603.96M (Peak 1603.96M) | Time:00:00.07 | Mem:85.38M, Peak:85.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-50.jpg
+Fra:1 Mem:1608.75M (Peak 1608.75M) | Time:00:00.07 | Mem:87.38M, Peak:87.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-56.jpg
+Fra:1 Mem:1610.75M (Peak 1610.75M) | Time:00:00.07 | Mem:95.38M, Peak:95.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-58.jpg
+Fra:1 Mem:1611.75M (Peak 1611.75M) | Time:00:00.07 | Mem:111.38M, Peak:111.38M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-59.jpg
+Fra:1 Mem:1612.00M (Peak 1612.00M) | Time:00:00.07 | Mem:111.63M, Peak:111.63M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-60.jpg
+Fra:1 Mem:1612.50M (Peak 1612.50M) | Time:00:00.07 | Mem:112.63M, Peak:112.63M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-45.jpg
+Fra:1 Mem:1627.93M (Peak 1627.93M) | Time:00:00.07 | Mem:113.13M, Peak:113.13M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-46.jpg
+Fra:1 Mem:1633.44M (Peak 1633.44M) | Time:00:00.07 | Mem:115.13M, Peak:115.13M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-47.jpg
+Fra:1 Mem:1637.87M (Peak 1637.87M) | Time:00:00.07 | Mem:119.13M, Peak:119.13M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-48.jpg
+Fra:1 Mem:1651.45M (Peak 1651.45M) | Time:00:00.07 | Mem:131.44M, Peak:131.44M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-51.jpg
+Fra:1 Mem:1657.45M (Peak 1657.45M) | Time:00:00.07 | Mem:136.23M, Peak:136.23M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-52.jpg
+Fra:1 Mem:1662.24M (Peak 1662.24M) | Time:00:00.07 | Mem:151.48M, Peak:151.48M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-53.jpg
+Fra:1 Mem:1666.69M (Peak 1666.69M) | Time:00:00.07 | Mem:155.92M, Peak:155.92M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-54.jpg
+Fra:1 Mem:1669.71M (Peak 1669.71M) | Time:00:00.08 | Mem:158.94M, Peak:158.94M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-55.jpg
+Fra:1 Mem:1672.72M (Peak 1672.72M) | Time:00:00.08 | Mem:164.94M, Peak:164.94M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-57.jpg
+Fra:1 Mem:1676.72M (Peak 1676.72M) | Time:00:00.08 | Mem:169.73M, Peak:169.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-44.jpg
+Fra:1 Mem:1679.71M (Peak 1679.71M) | Time:00:00.08 | Mem:174.18M, Peak:174.18M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-66.jpg
+Fra:1 Mem:1680.71M (Peak 1680.71M) | Time:00:00.08 | Mem:179.69M, Peak:179.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-79.jpg
+帧:1 内存:1683.72M (峰值 1683.72M) | 时间:00:00.08 | Mem:195.69M, Peak:195.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-103.JPG
+Fra:1 Mem:1683.72M (Peak 1683.72M) | Time:00:00.08 | Mem:196.69M, Peak:196.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-69.jpg
+Fra:1 Mem:1685.72M (Peak 1685.72M) | Time:00:00.08 | Mem:199.70M, Peak:199.70M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-83.jpg
+Fra:1 Mem:1689.72M (Peak 1689.72M) | Time:00:00.08 | Mem:202.69M, Peak:202.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-70.jpg
+帧:1 内存:1690.72M (峰值 1690.72M) | 时间:00:00.08 | Mem:203.69M, Peak:203.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-1.JPG
+Fra:1 Mem:1694.54M (Peak 1694.54M) | Time:00:00.08 | Mem:208.69M, Peak:208.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-67.jpg
+Fra:1 Mem:1694.54M (Peak 1694.54M) | Time:00:00.08 | Mem:208.69M, Peak:208.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-71.jpg
+Fra:1 Mem:1711.54M (Peak 1711.54M) | Time:00:00.08 | Mem:209.69M, Peak:209.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-77.jpg
+Fra:1 Mem:1712.54M (Peak 1712.54M) | Time:00:00.08 | Mem:224.27M, Peak:224.27M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-75.jpg
+Fra:1 Mem:1713.54M (Peak 1713.54M) | Time:00:00.08 | Mem:224.27M, Peak:224.27M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-68.jpg
+Fra:1 Mem:1713.54M (Peak 1713.54M) | Time:00:00.08 | Mem:227.28M, Peak:227.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-74.jpg
+Fra:1 Mem:1730.54M (Peak 1730.54M) | Time:00:00.08 | Mem:228.28M, Peak:228.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-76.jpg
+Fra:1 Mem:1731.54M (Peak 1731.54M) | Time:00:00.08 | Mem:243.71M, Peak:243.71M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-84.jpg
+Fra:1 Mem:1733.54M (Peak 1733.54M) | Time:00:00.08 | Mem:244.71M, Peak:244.71M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-72.jpg
+Fra:1 Mem:1735.54M (Peak 1735.54M) | Time:00:00.08 | Mem:245.71M, Peak:245.71M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-78.jpg
+帧:1 内存:1735.54M (峰值 1735.54M) | 时间:00:00.08 | Mem:249.52M, Peak:249.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-100.JPG
+Fra:1 Mem:1752.54M (Peak 1752.54M) | Time:00:00.08 | Mem:250.52M, Peak:250.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-73.jpg
+帧:1 内存:1768.54M (峰值 1768.54M) | 时间:00:00.08 | Mem:251.52M, Peak:251.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-104.JPG
+Fra:1 Mem:1769.29M (Peak 1769.29M) | Time:00:00.08 | Mem:255.52M, Peak:255.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-81.jpg
+Fra:1 Mem:1773.29M (Peak 1773.29M) | Time:00:00.08 | Mem:257.52M, Peak:257.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-82.jpg
+帧:1 内存:1774.29M (峰值 1774.29M) | 时间:00:00.08 | Mem:258.28M, Peak:258.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-11.jpg
+Fra:1 Mem:1777.12M (Peak 1777.12M) | Time:00:00.08 | Mem:260.28M, Peak:260.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-85.jpg
+Fra:1 Mem:1785.12M (Peak 1785.12M) | Time:00:00.08 | Mem:261.28M, Peak:261.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-80.jpg
+帧:1 内存:1788.14M (峰值 1788.14M) | 时间:00:00.08 | Mem:264.11M, Peak:264.11M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-88.jpg
+帧:1 内存:1790.87M (峰值 1790.87M) | 时间:00:00.08 | Mem:266.85M, Peak:266.85M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-93.jpg
+帧:1 内存:1792.05M (峰值 1792.05M) | 时间:00:00.08 | Mem:268.02M, Peak:268.02M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-137.jpg
+Fra:1 Mem:1793.71M (Peak 1793.71M) | Time:00:00.08 | Mem:272.02M, Peak:272.02M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-86.jpg
+Fra:1 Mem:1794.71M (Peak 1794.71M) | Time:00:00.08 | Mem:275.03M, Peak:275.03M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-87.jpg
+帧:1 内存:1794.96M (峰值 1794.96M) | 时间:00:00.08 | Mem:276.69M, Peak:276.69M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-136.jpg
+Fra:1 Mem:1796.62M (Peak 1796.62M) | Time:00:00.09 | Mem:276.94M, Peak:276.94M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-16.jpg
+Fra:1 Mem:1798.52M (Peak 1798.52M) | Time:00:00.09 | Mem:277.94M, Peak:277.94M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-12.jpg
+帧:1 内存:1799.81M (峰值 1799.81M) | 时间:00:00.09 | Mem:279.60M, Peak:279.60M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-135.jpg
+Fra:1 Mem:1799.81M (Peak 1799.81M) | Time:00:00.09 | Mem:281.50M, Peak:281.50M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-13.jpg
+Fra:1 Mem:1804.69M (Peak 1804.69M) | Time:00:00.09 | Mem:282.80M, Peak:282.80M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-27.jpg
+Fra:1 Mem:1810.18M (Peak 1810.18M) | Time:00:00.09 | Mem:284.10M, Peak:284.10M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-96.jpg
+帧:1 内存:1818.78M (峰值 1818.78M) | 时间:00:00.09 | Mem:287.67M, Peak:287.67M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-14.jpg
+Fra:1 Mem:1822.36M (Peak 1822.36M) | Time:00:00.09 | Mem:295.67M, Peak:295.67M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-9.jpg
+Fra:1 Mem:1823.83M (Peak 1823.83M) | Time:00:00.09 | Mem:297.15M, Peak:297.15M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-95.jpg
+帧:1 内存:1826.57M (峰值 1826.57M) | 时间:00:00.09 | Mem:300.73M, Peak:300.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-109.jpg
+帧:1 内存:1827.08M (峰值 1827.08M) | 时间:00:00.09 | Mem:301.24M, Peak:301.24M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-18.jpg
+Fra:1 Mem:1831.08M (Peak 1831.08M) | Time:00:00.09 | Mem:317.24M, Peak:317.24M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-117.jpg
+Fra:1 Mem:1831.39M (Peak 1831.39M) | Time:00:00.09 | Mem:322.73M, Peak:322.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-118.jpg
+Fra:1 Mem:1831.66M (Peak 1831.66M) | Time:00:00.09 | Mem:323.00M, Peak:323.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-128.jpg
+Fra:1 Mem:1835.47M (Peak 1835.47M) | Time:00:00.09 | Mem:323.31M, Peak:323.31M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-130.jpg
+Fra:1 Mem:1839.29M (Peak 1839.29M) | Time:00:00.09 | Mem:326.05M, Peak:326.05M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-107.JPG
+Fra:1 Mem:1840.29M (Peak 1840.29M) | Time:00:00.09 | Mem:334.65M, Peak:334.65M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-119.jpg
+Fra:1 Mem:1840.52M (Peak 1840.52M) | Time:00:00.09 | Mem:334.88M, Peak:334.88M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-132.JPG
+Fra:1 Mem:1841.38M (Peak 1841.38M) | Time:00:00.09 | Mem:335.88M, Peak:335.88M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-7.jpg
+Fra:1 Mem:1842.38M (Peak 1842.38M) | Time:00:00.09 | Mem:336.73M, Peak:336.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-8.jpg
+Fra:1 Mem:1846.49M (Peak 1846.49M) | Time:00:00.09 | Mem:337.73M, Peak:337.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-90.jpg
+帧:1 内存:1858.49M (峰值 1858.49M) | 时间:00:00.09 | Mem:341.73M, Peak:341.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-19.tga
+Fra:1 Mem:1862.49M (Peak 1862.49M) | Time:00:00.09 | Mem:357.73M, Peak:357.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-116.jpg
+Fra:1 Mem:1864.16M (Peak 1864.16M) | Time:00:00.09 | Mem:373.73M, Peak:373.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-37.jpg
+帧:1 内存:1864.16M (峰值 1864.16M) | 时间:00:00.09 | Mem:377.73M, Peak:377.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-17.tga
+Fra:1 Mem:1869.16M (Peak 1869.16M) | Time:00:00.09 | Mem:393.73M, Peak:393.73M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-37.jpg.004
+Fra:1 Mem:1870.16M (Peak 1870.16M) | Time:00:00.09 | Mem:395.39M, Peak:395.39M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-32.jpg
+Fra:1 Mem:1871.13M (Peak 1871.13M) | Time:00:00.09 | Mem:396.39M, Peak:396.39M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-36.jpg
+Fra:1 Mem:1871.13M (Peak 1871.13M) | Time:00:00.09 | Mem:397.39M, Peak:397.39M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-34.jpg
+Fra:1 Mem:1877.29M (Peak 1877.29M) | Time:00:00.09 | Mem:401.51M, Peak:401.51M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-35.jpg
+Fra:1 Mem:1883.92M (Peak 1883.92M) | Time:00:00.10 | Mem:405.33M, Peak:405.33M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-29.jpg
+Fra:1 Mem:1886.04M (Peak 1886.04M) | Time:00:00.10 | Mem:409.14M, Peak:409.14M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-28.jpg
+Fra:1 Mem:1886.04M (Peak 1886.04M) | Time:00:00.10 | Mem:410.12M, Peak:410.12M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-22.jpg.002
+Fra:1 Mem:1888.25M (Peak 1888.25M) | Time:00:00.10 | Mem:410.87M, Peak:410.87M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-24.jpg.052
+Fra:1 Mem:1889.25M (Peak 1889.25M) | Time:00:00.10 | Mem:411.87M, Peak:411.87M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-98.jpg
+帧:1 内存:1894.93M (峰值 1894.93M) | 时间:00:00.10 | Mem:415.87M, Peak:415.87M | Scene, ViewLayer | Updating Images | Loading 3d66Model-691775-files-97.jpg
+Fra:1 Mem:1891.32M (Peak 1898.93M) | Time:00:00.10 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:1891.32M (Peak 1898.93M) | Time:00:00.10 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:1891.32M (Peak 1898.93M) | Time:00:00.10 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:1891.32M (Peak 1898.93M) | Time:00:00.10 | Mem:453.92M, Peak:453.92M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:1891.50M (Peak 1898.93M) | Time:00:00.10 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:2009.83M (Peak 2009.83M) | Time:00:01.79 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:2009.83M (Peak 2009.83M) | Time:00:01.79 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:2165.23M (Peak 2165.23M) | Time:00:01.82 | Mem:454.02M, Peak:454.02M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:2165.23M (Peak 2165.23M) | Time:00:01.82 | Mem:609.42M, Peak:609.42M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:2165.23M (Peak 2165.23M) | Time:00:01.82 | Mem:609.42M, Peak:609.42M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:2165.23M (Peak 2165.23M) | Time:00:01.82 | Mem:672.53M, Peak:672.53M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:2165.23M (Peak 2165.23M) | Time:00:01.92 | Mem:741.42M, Peak:804.53M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:2165.23M (Peak 2165.23M) | Time:00:01.92 | Mem:741.42M, Peak:804.53M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:741.42M, Peak:804.53M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.78M, Peak:804.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:2223.59M (Peak 2223.59M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:2223.60M (Peak 2223.60M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:2223.60M (Peak 2223.60M) | Time:00:01.95 | Mem:799.86M, Peak:804.53M | Scene, ViewLayer | Sample 0/8
+Fra:1 Mem:2409.23M (Peak 2409.23M) | Time:00:02.11 | Remaining:00:01.17 | Mem:985.42M, Peak:985.42M | Scene, ViewLayer | Sample 1/8
+Fra:1 Mem:2487.36M (Peak 2604.55M) | Time:00:09.66 | Mem:985.42M, Peak:985.42M | Scene, ViewLayer | Sample 8/8
+Fra:1 Mem:2487.36M (Peak 2604.55M) | Time:00:09.66 | Mem:985.42M, Peak:985.42M | Scene, ViewLayer | Finished
+Saved: 'C:\GameMake\docs\settlement_revision_20261015\original-main-settlement-overview.png'
+Time: 00:09.86 (Saving: 00:00.18)
+
+
+
+Blender quit

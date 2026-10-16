@@ -1,0 +1,7 @@
+Title: Ambient mountain, river, wind, forest and waterfall
+Author: Blender Foundation
+License: CC-BY-3.0
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://opengameart.org/content/ambient-mountain-river-wind-and-forest-and-waterfall
+Evidence: source.html and source.txt
+Notes: From Yo Frankie; use forest and water loops, check transitions before game import.

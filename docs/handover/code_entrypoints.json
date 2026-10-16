@@ -1,0 +1,3407 @@
+[
+  {
+    "path": "Auto-Resume.vbs",
+    "description": "新自动接续面板入口，默认停止，用户点击后才授权逐步执行。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "Build-Game.ps1",
+    "description": "Godot 源工程构建与发布包原子替换入口。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "GodotProject/scripts/asset_dressing.gd",
+    "description": "环境视觉布景；S11 的 D05-D09 生活/生产道具在此构建。",
+    "functions": [
+      {
+        "line": 20,
+        "name": "pbr"
+      },
+      {
+        "line": 38,
+        "name": "material_for"
+      },
+      {
+        "line": 50,
+        "name": "build"
+      },
+      {
+        "line": 61,
+        "name": "build_s11"
+      },
+      {
+        "line": 102,
+        "name": "_mark_s11"
+      },
+      {
+        "line": 109,
+        "name": "_wood_box"
+      },
+      {
+        "line": 114,
+        "name": "_log_bundle"
+      },
+      {
+        "line": 128,
+        "name": "_ground_surfaces"
+      },
+      {
+        "line": 163,
+        "name": "_forest_edge"
+      },
+      {
+        "line": 181,
+        "name": "_shelter"
+      },
+      {
+        "line": 193,
+        "name": "_office"
+      },
+      {
+        "line": 205,
+        "name": "_spawn"
+      },
+      {
+        "line": 251,
+        "name": "_bounds"
+      },
+      {
+        "line": 263,
+        "name": "_meshes"
+      },
+      {
+        "line": 271,
+        "name": "_visual"
+      },
+      {
+        "line": 284,
+        "name": "_ground_patch"
+      },
+      {
+        "line": 298,
+        "name": "_quad"
+      },
+      {
+        "line": 302,
+        "name": "_fixture"
+      },
+      {
+        "line": 326,
+        "name": "set_power"
+      },
+      {
+        "line": 332,
+        "name": "apply_quality"
+      }
+    ],
+    "resource_references": [
+      "res://assets/environment/",
+      "res://assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels_2k.gltf",
+      "res://assets/environment/models/s11/chinese_tea_table/chinese_tea_table_2k.gltf",
+      "res://assets/environment/models/s11/market_stalls/market_stalls.glb",
+      "res://assets/environment/models/s11/village_market/village_market.glb",
+      "res://assets/environment/models/s11/wicker_basket_01/wicker_basket_01_2k.gltf"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/audio_factory.gd",
+    "description": "运行时生成/管理环境、枪声、开关和音频节点。",
+    "functions": [
+      {
+        "line": 7,
+        "name": "make_sound"
+      },
+      {
+        "line": 42,
+        "name": "make_wind"
+      }
+    ],
+    "resource_references": [
+      "res://assets/audio/forest_wind_loop.wav",
+      "res://assets/audio/rifle_arisaka_01.wav",
+      "res://assets/audio/step_grass_01.wav"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/field_character_rig.gd",
+    "description": "四类东北抗联/守卫人物的连续蒙皮骨架与运行时姿态。",
+    "functions": [
+      {
+        "line": 20,
+        "name": "prepare"
+      },
+      {
+        "line": 37,
+        "name": "bind"
+      },
+      {
+        "line": 53,
+        "name": "sync_pose"
+      },
+      {
+        "line": 67,
+        "name": "_global_pose"
+      },
+      {
+        "line": 74,
+        "name": "_relative_transform"
+      },
+      {
+        "line": 82,
+        "name": "_find_skeleton"
+      },
+      {
+        "line": 89,
+        "name": "_prepare_role"
+      }
+    ],
+    "resource_references": [
+      "res://assets/characters/field_character.glb"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/fp_hands.gd",
+    "description": "第一人称左右手、握枪、拉栓、装填和手部动作。",
+    "functions": [
+      {
+        "line": 21,
+        "name": "create"
+      },
+      {
+        "line": 29,
+        "name": "_build"
+      },
+      {
+        "line": 62,
+        "name": "_find_skeleton"
+      },
+      {
+        "line": 69,
+        "name": "_prepare_skin"
+      },
+      {
+        "line": 78,
+        "name": "pose"
+      },
+      {
+        "line": 113,
+        "name": "bolt_contact"
+      },
+      {
+        "line": 125,
+        "name": "_cuff_mesh"
+      },
+      {
+        "line": 144,
+        "name": "_cuff_details"
+      },
+      {
+        "line": 177,
+        "name": "update_sleeve"
+      }
+    ],
+    "resource_references": [
+      "res://assets/first_person/hand_left.glb",
+      "res://assets/first_person/hand_right.glb",
+      "res://scripts/fp_hands.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/fps_player.gd",
+    "description": "玩家移动、视角、射击、瞄准、换弹、互动和输入。",
+    "functions": [
+      {
+        "line": 47,
+        "name": "initialize"
+      },
+      {
+        "line": 80,
+        "name": "_unhandled_input"
+      },
+      {
+        "line": 99,
+        "name": "_physics_process"
+      },
+      {
+        "line": 144,
+        "name": "_process"
+      },
+      {
+        "line": 199,
+        "name": "_animate_mechanism"
+      },
+      {
+        "line": 263,
+        "name": "_envelope"
+      },
+      {
+        "line": 266,
+        "name": "_can_stand"
+      },
+      {
+        "line": 271,
+        "name": "fire"
+      },
+      {
+        "line": 300,
+        "name": "start_reload"
+      },
+      {
+        "line": 306,
+        "name": "switch_weapon"
+      },
+      {
+        "line": 318,
+        "name": "take_damage"
+      },
+      {
+        "line": 327,
+        "name": "restore"
+      },
+      {
+        "line": 377,
+        "name": "snapshot"
+      },
+      {
+        "line": 380,
+        "name": "_play"
+      },
+      {
+        "line": 384,
+        "name": "_build_weapons"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/audio_factory.gd",
+      "res://scripts/weapon_visuals.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/friendly.gd",
+    "description": "友方侦察员、林工和陆山的互动、跟随、等候与护送逻辑。",
+    "functions": [
+      {
+        "line": 15,
+        "name": "initialize"
+      },
+      {
+        "line": 41,
+        "name": "_physics_process"
+      },
+      {
+        "line": 80,
+        "name": "reset"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/human_model.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/guard.gd",
+    "description": "敌人巡逻、感知、瞄准、开火、受击和死亡逻辑。",
+    "functions": [
+      {
+        "line": 23,
+        "name": "initialize"
+      },
+      {
+        "line": 42,
+        "name": "_physics_process"
+      },
+      {
+        "line": 111,
+        "name": "can_see_player"
+      },
+      {
+        "line": 126,
+        "name": "hear_shot"
+      },
+      {
+        "line": 135,
+        "name": "take_damage"
+      },
+      {
+        "line": 148,
+        "name": "encounter_snapshot"
+      },
+      {
+        "line": 154,
+        "name": "restore_encounter"
+      },
+      {
+        "line": 168,
+        "name": "valid_encounter"
+      },
+      {
+        "line": 183,
+        "name": "_valid_number"
+      },
+      {
+        "line": 186,
+        "name": "_build_model"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/human_model.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/hud.gd",
+    "description": "中文 HUD、目标、对白选择、暂停、菜单和提示。",
+    "functions": [
+      {
+        "line": 32,
+        "name": "initialize"
+      },
+      {
+        "line": 126,
+        "name": "_process"
+      },
+      {
+        "line": 175,
+        "name": "_build_menu"
+      },
+      {
+        "line": 202,
+        "name": "show_menu"
+      },
+      {
+        "line": 263,
+        "name": "_show_settings"
+      },
+      {
+        "line": 337,
+        "name": "_build_conversation"
+      },
+      {
+        "line": 356,
+        "name": "_refresh_dialogue"
+      },
+      {
+        "line": 373,
+        "name": "_button"
+      },
+      {
+        "line": 380,
+        "name": "_label"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "GodotProject/scripts/human_model.gd",
+    "description": "第三人称人物模型、骨骼姿态、服装材质和动画驱动。",
+    "functions": [
+      {
+        "line": 34,
+        "name": "build"
+      },
+      {
+        "line": 148,
+        "name": "_build_detailed_model"
+      },
+      {
+        "line": 181,
+        "name": "_sync_detailed_model"
+      },
+      {
+        "line": 184,
+        "name": "_build_rifle"
+      },
+      {
+        "line": 195,
+        "name": "set_motion_context"
+      },
+      {
+        "line": 200,
+        "name": "fire"
+      },
+      {
+        "line": 203,
+        "name": "flinch"
+      },
+      {
+        "line": 206,
+        "name": "fall"
+      },
+      {
+        "line": 209,
+        "name": "animate_death"
+      },
+      {
+        "line": 235,
+        "name": "animate"
+      },
+      {
+        "line": 306,
+        "name": "_pose_guard_grip"
+      },
+      {
+        "line": 337,
+        "name": "_limb_basis"
+      },
+      {
+        "line": 346,
+        "name": "_joint"
+      },
+      {
+        "line": 353,
+        "name": "_surface"
+      },
+      {
+        "line": 360,
+        "name": "_triangle"
+      },
+      {
+        "line": 369,
+        "name": "_box"
+      },
+      {
+        "line": 389,
+        "name": "_loft"
+      },
+      {
+        "line": 425,
+        "name": "_oval"
+      },
+      {
+        "line": 432,
+        "name": "_flush_meshes"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/field_character_rig.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/linear_director.gd",
+    "description": "线性关卡区段、栅门、追兵、检查点和路线状态。",
+    "functions": [
+      {
+        "line": 14,
+        "name": "initialize"
+      },
+      {
+        "line": 18,
+        "name": "reset"
+      },
+      {
+        "line": 26,
+        "name": "set_enabled"
+      },
+      {
+        "line": 30,
+        "name": "_sync_gates"
+      },
+      {
+        "line": 34,
+        "name": "gate_ready"
+      },
+      {
+        "line": 43,
+        "name": "_near_gate"
+      },
+      {
+        "line": 50,
+        "name": "_needs_ammo"
+      },
+      {
+        "line": 53,
+        "name": "interact"
+      },
+      {
+        "line": 74,
+        "name": "interaction_prompt"
+      },
+      {
+        "line": 88,
+        "name": "can_guard_act"
+      },
+      {
+        "line": 98,
+        "name": "update"
+      },
+      {
+        "line": 118,
+        "name": "can_evacuate"
+      },
+      {
+        "line": 121,
+        "name": "status_text"
+      },
+      {
+        "line": 134,
+        "name": "objective_text"
+      },
+      {
+        "line": 149,
+        "name": "target_name"
+      },
+      {
+        "line": 160,
+        "name": "target_position"
+      },
+      {
+        "line": 169,
+        "name": "snapshot"
+      },
+      {
+        "line": 173,
+        "name": "restore"
+      },
+      {
+        "line": 185,
+        "name": "valid_snapshot"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "GodotProject/scripts/mission.gd",
+    "description": "任务状态、取册、断电、救援、解缆和胜利条件。",
+    "functions": [
+      {
+        "line": 63,
+        "name": "_ready"
+      },
+      {
+        "line": 111,
+        "name": "_process"
+      },
+      {
+        "line": 126,
+        "name": "_unhandled_input"
+      },
+      {
+        "line": 158,
+        "name": "start_new"
+      },
+      {
+        "line": 181,
+        "name": "start_with_opening"
+      },
+      {
+        "line": 189,
+        "name": "_ensure_opening"
+      },
+      {
+        "line": 195,
+        "name": "retry_opening_save"
+      },
+      {
+        "line": 202,
+        "name": "return_to_menu"
+      },
+      {
+        "line": 207,
+        "name": "resume"
+      },
+      {
+        "line": 215,
+        "name": "lose"
+      },
+      {
+        "line": 219,
+        "name": "interact"
+      },
+      {
+        "line": 252,
+        "name": "interaction_prompt"
+      },
+      {
+        "line": 272,
+        "name": "can_reach"
+      },
+      {
+        "line": 284,
+        "name": "objective_text"
+      },
+      {
+        "line": 294,
+        "name": "target_name"
+      },
+      {
+        "line": 304,
+        "name": "target_position"
+      },
+      {
+        "line": 313,
+        "name": "notify"
+      },
+      {
+        "line": 317,
+        "name": "hear_shot"
+      },
+      {
+        "line": 322,
+        "name": "guard_shot"
+      },
+      {
+        "line": 338,
+        "name": "impact"
+      },
+      {
+        "line": 349,
+        "name": "alive_guard_count"
+      },
+      {
+        "line": 356,
+        "name": "_spawn_guard"
+      },
+      {
+        "line": 368,
+        "name": "_spawn_initial_guards"
+      },
+      {
+        "line": 373,
+        "name": "_reset_guards"
+      },
+      {
+        "line": 387,
+        "name": "_update_reinforcements"
+      },
+      {
+        "line": 410,
+        "name": "_reinforcement_entry_safe"
+      },
+      {
+        "line": 427,
+        "name": "register_guard_defeat"
+      },
+      {
+        "line": 436,
+        "name": "_snapshot"
+      },
+      {
+        "line": 445,
+        "name": "_save_checkpoint"
+      },
+      {
+        "line": 465,
+        "name": "has_save"
+      },
+      {
+        "line": 468,
+        "name": "_read_save"
+      },
+      {
+        "line": 514,
+        "name": "_valid_opening_snapshot"
+      },
+      {
+        "line": 524,
+        "name": "_valid_encounter"
+      },
+      {
+        "line": 553,
+        "name": "_number_between"
+      },
+      {
+        "line": 556,
+        "name": "_whole_number"
+      },
+      {
+        "line": 559,
+        "name": "continue_checkpoint"
+      },
+      {
+        "line": 616,
+        "name": "elapsed_text"
+      },
+      {
+        "line": 619,
+        "name": "_configure_input"
+      },
+      {
+        "line": 636,
+        "name": "_capture_views"
+      }
+    ],
+    "resource_references": [
+      "res://captures",
+      "res://scripts/audio_factory.gd",
+      "res://scripts/fps_player.gd",
+      "res://scripts/guard.gd",
+      "res://scripts/hud.gd",
+      "res://scripts/linear_director.gd",
+      "res://scripts/opening_director.gd",
+      "res://scripts/presentation.gd",
+      "res://scripts/story.gd",
+      "res://scripts/world.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/opening_director.gd",
+    "description": "S07 双段开场草案、字幕、镜头控制、暂停/跳过和交接。",
+    "functions": [
+      {
+        "line": 48,
+        "name": "initialize"
+      },
+      {
+        "line": 57,
+        "name": "_build_stage"
+      },
+      {
+        "line": 129,
+        "name": "_audio"
+      },
+      {
+        "line": 136,
+        "name": "_set_visual_layer"
+      },
+      {
+        "line": 140,
+        "name": "_box"
+      },
+      {
+        "line": 145,
+        "name": "_sphere"
+      },
+      {
+        "line": 155,
+        "name": "_mesh"
+      },
+      {
+        "line": 166,
+        "name": "_build_ui"
+      },
+      {
+        "line": 212,
+        "name": "_label"
+      },
+      {
+        "line": 225,
+        "name": "start"
+      },
+      {
+        "line": 247,
+        "name": "_enter_part"
+      },
+      {
+        "line": 258,
+        "name": "_process"
+      },
+      {
+        "line": 262,
+        "name": "advance"
+      },
+      {
+        "line": 274,
+        "name": "_update_view"
+      },
+      {
+        "line": 343,
+        "name": "_update_effects"
+      },
+      {
+        "line": 367,
+        "name": "_speaker_at"
+      },
+      {
+        "line": 373,
+        "name": "_update_captions"
+      },
+      {
+        "line": 392,
+        "name": "_update_sound"
+      },
+      {
+        "line": 408,
+        "name": "skip"
+      },
+      {
+        "line": 414,
+        "name": "set_paused"
+      },
+      {
+        "line": 422,
+        "name": "handle_input"
+      },
+      {
+        "line": 433,
+        "name": "finish"
+      },
+      {
+        "line": 448,
+        "name": "abort"
+      },
+      {
+        "line": 463,
+        "name": "preview_at"
+      },
+      {
+        "line": 471,
+        "name": "_v"
+      }
+    ],
+    "resource_references": [
+      "res://assets/opening/opening.json",
+      "res://assets/opening/tianchi_reference.glb",
+      "res://scripts/audio_factory.gd",
+      "res://scripts/human_model.gd",
+      "res://scripts/weapon_visuals.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/presentation.gd",
+    "description": "标题页、画质/性能、帧率、声音、灵敏度和显示设置。",
+    "functions": [
+      {
+        "line": 16,
+        "name": "initialize"
+      },
+      {
+        "line": 25,
+        "name": "load_preferences"
+      },
+      {
+        "line": 39,
+        "name": "_number"
+      },
+      {
+        "line": 45,
+        "name": "_boolean"
+      },
+      {
+        "line": 49,
+        "name": "save_preferences"
+      },
+      {
+        "line": 57,
+        "name": "apply_all"
+      },
+      {
+        "line": 67,
+        "name": "set_quality"
+      },
+      {
+        "line": 75,
+        "name": "change"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "GodotProject/scripts/route_blockout.gd",
+    "description": "S09 简化路线体块、碰撞、导航保留和 S10/S11 占位替换。",
+    "functions": [
+      {
+        "line": 21,
+        "name": "overlaps_slot"
+      },
+      {
+        "line": 26,
+        "name": "retain"
+      },
+      {
+        "line": 31,
+        "name": "build"
+      },
+      {
+        "line": 77,
+        "name": "_piece"
+      },
+      {
+        "line": 86,
+        "name": "_building"
+      },
+      {
+        "line": 97,
+        "name": "_reviewed_model"
+      },
+      {
+        "line": 112,
+        "name": "_reviewed_building"
+      },
+      {
+        "line": 116,
+        "name": "_reviewed_collision"
+      },
+      {
+        "line": 130,
+        "name": "set_enabled"
+      },
+      {
+        "line": 156,
+        "name": "hide_s11_slot_visuals"
+      },
+      {
+        "line": 177,
+        "name": "restore_position"
+      }
+    ],
+    "resource_references": [
+      "res://assets/environment/buildings/"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/story.gd",
+    "description": "故事状态、简报、对白和任务阶段保存/恢复。",
+    "functions": [
+      {
+        "line": 32,
+        "name": "initialize"
+      },
+      {
+        "line": 48,
+        "name": "_add_person"
+      },
+      {
+        "line": 54,
+        "name": "reset"
+      },
+      {
+        "line": 70,
+        "name": "candidate"
+      },
+      {
+        "line": 88,
+        "name": "interact"
+      },
+      {
+        "line": 112,
+        "name": "talk"
+      },
+      {
+        "line": 143,
+        "name": "show_dialog"
+      },
+      {
+        "line": 161,
+        "name": "close_dialog"
+      },
+      {
+        "line": 169,
+        "name": "choose"
+      },
+      {
+        "line": 211,
+        "name": "_treat"
+      },
+      {
+        "line": 216,
+        "name": "heal_player"
+      },
+      {
+        "line": 229,
+        "name": "ready_to_leave"
+      },
+      {
+        "line": 232,
+        "name": "ending"
+      },
+      {
+        "line": 241,
+        "name": "journal_text"
+      },
+      {
+        "line": 259,
+        "name": "_set_door"
+      },
+      {
+        "line": 265,
+        "name": "_in_doorway"
+      },
+      {
+        "line": 268,
+        "name": "snapshot"
+      },
+      {
+        "line": 272,
+        "name": "valid"
+      },
+      {
+        "line": 288,
+        "name": "restore"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/friendly.gd",
+      "res://scripts/story_moments.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/story_moments.gd",
+    "description": "任务内短对白、人物互动、补给、包扎和故事提示。",
+    "functions": [
+      {
+        "line": 18,
+        "name": "initialize"
+      },
+      {
+        "line": 31,
+        "name": "_spatial_loop"
+      },
+      {
+        "line": 45,
+        "name": "reset"
+      },
+      {
+        "line": 52,
+        "name": "sync_stage"
+      },
+      {
+        "line": 63,
+        "name": "restore"
+      },
+      {
+        "line": 69,
+        "name": "valid_flags"
+      },
+      {
+        "line": 77,
+        "name": "_process"
+      },
+      {
+        "line": 125,
+        "name": "_say"
+      }
+    ],
+    "resource_references": [
+      "res://assets/audio/power_switch_off.wav",
+      "res://assets/audio/radio_room_loop.wav",
+      "res://assets/audio/river_bank_loop.wav"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/weapon_visuals.gd",
+    "description": "枪械外观、枪口火焰、烟气、弹壳和视觉反馈。",
+    "functions": [
+      {
+        "line": 9,
+        "name": "build"
+      },
+      {
+        "line": 85,
+        "name": "_hand"
+      },
+      {
+        "line": 88,
+        "name": "_clip_geometry"
+      },
+      {
+        "line": 95,
+        "name": "_ensure_materials"
+      },
+      {
+        "line": 131,
+        "name": "_append"
+      },
+      {
+        "line": 138,
+        "name": "_bake"
+      },
+      {
+        "line": 147,
+        "name": "_box"
+      },
+      {
+        "line": 152,
+        "name": "_ellipsoid"
+      },
+      {
+        "line": 160,
+        "name": "_rod"
+      },
+      {
+        "line": 172,
+        "name": "_loop"
+      },
+      {
+        "line": 178,
+        "name": "_loft"
+      },
+      {
+        "line": 199,
+        "name": "_triangle"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/fp_hands.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/scripts/world.gd",
+    "description": "世界场景、导航网格、环境、建筑、布景和资源装配入口。",
+    "functions": [
+      {
+        "line": 30,
+        "name": "build"
+      },
+      {
+        "line": 122,
+        "name": "cell_position"
+      },
+      {
+        "line": 125,
+        "name": "cell_at"
+      },
+      {
+        "line": 128,
+        "name": "path"
+      },
+      {
+        "line": 138,
+        "name": "relocate_to_walkable"
+      },
+      {
+        "line": 158,
+        "name": "set_route_gate"
+      },
+      {
+        "line": 170,
+        "name": "_build_route_gate"
+      },
+      {
+        "line": 201,
+        "name": "_build_linear_route"
+      },
+      {
+        "line": 226,
+        "name": "_route_sign"
+      },
+      {
+        "line": 232,
+        "name": "_block"
+      },
+      {
+        "line": 253,
+        "name": "_build_office"
+      },
+      {
+        "line": 277,
+        "name": "_build_yard"
+      },
+      {
+        "line": 302,
+        "name": "_build_river"
+      },
+      {
+        "line": 322,
+        "name": "_build_reeds"
+      },
+      {
+        "line": 347,
+        "name": "_build_distant_scene"
+      },
+      {
+        "line": 358,
+        "name": "_build_lamps"
+      },
+      {
+        "line": 370,
+        "name": "_setup_environment"
+      },
+      {
+        "line": 404,
+        "name": "_material"
+      },
+      {
+        "line": 475,
+        "name": "set_power"
+      },
+      {
+        "line": 483,
+        "name": "cylinder"
+      },
+      {
+        "line": 497,
+        "name": "_pitched_roof"
+      },
+      {
+        "line": 519,
+        "name": "_tree"
+      },
+      {
+        "line": 535,
+        "name": "_canopy_mesh"
+      },
+      {
+        "line": 576,
+        "name": "_triangle"
+      },
+      {
+        "line": 582,
+        "name": "_strip"
+      },
+      {
+        "line": 589,
+        "name": "_build_ground_cover"
+      },
+      {
+        "line": 623,
+        "name": "_is_dock_deck"
+      },
+      {
+        "line": 627,
+        "name": "_build_forest"
+      },
+      {
+        "line": 645,
+        "name": "_build_mountain_ridges"
+      },
+      {
+        "line": 670,
+        "name": "_build_details"
+      },
+      {
+        "line": 721,
+        "name": "_foliage_material"
+      },
+      {
+        "line": 730,
+        "name": "_build_boat"
+      },
+      {
+        "line": 759,
+        "name": "_build_close_details"
+      },
+      {
+        "line": 809,
+        "name": "_build_atmosphere"
+      },
+      {
+        "line": 876,
+        "name": "_batch_static_visuals"
+      },
+      {
+        "line": 923,
+        "name": "apply_quality"
+      },
+      {
+        "line": 945,
+        "name": "update"
+      },
+      {
+        "line": 951,
+        "name": "_collision_only_box"
+      },
+      {
+        "line": 956,
+        "name": "box"
+      },
+      {
+        "line": 974,
+        "name": "visual"
+      },
+      {
+        "line": 983,
+        "name": "_sign"
+      }
+    ],
+    "resource_references": [
+      "res://assets/environment/hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr",
+      "res://scripts/asset_dressing.gd",
+      "res://scripts/route_blockout.gd",
+      "res://shaders/forest_foliage.gdshader",
+      "res://shaders/river.gdshader"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/character_model.gd",
+    "description": "四类人物模型、骨骼、材质和比例检查。",
+    "functions": [
+      {
+        "line": 20,
+        "name": "_initialize"
+      },
+      {
+        "line": 28,
+        "name": "check"
+      },
+      {
+        "line": 36,
+        "name": "_run"
+      },
+      {
+        "line": 175,
+        "name": "_build_stage"
+      },
+      {
+        "line": 224,
+        "name": "_focus"
+      },
+      {
+        "line": 230,
+        "name": "_settle"
+      },
+      {
+        "line": 237,
+        "name": "_find_skeleton"
+      },
+      {
+        "line": 246,
+        "name": "_collect_meshes"
+      },
+      {
+        "line": 252,
+        "name": "_binding_bone"
+      },
+      {
+        "line": 258,
+        "name": "_validate_skin_bindings"
+      },
+      {
+        "line": 296,
+        "name": "_skin_bounds"
+      },
+      {
+        "line": 334,
+        "name": "_finite_aabb"
+      },
+      {
+        "line": 337,
+        "name": "_bone_snapshot"
+      },
+      {
+        "line": 343,
+        "name": "_changed_bones"
+      },
+      {
+        "line": 350,
+        "name": "_bone_position"
+      },
+      {
+        "line": 355,
+        "name": "_guard_grip_error"
+      },
+      {
+        "line": 373,
+        "name": "_death_arms_converge"
+      },
+      {
+        "line": 392,
+        "name": "_capture"
+      },
+      {
+        "line": 404,
+        "name": "_finish"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/human_model.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/combat_performance_monitor.gd",
+    "description": "正常 AI 交火帧时间和射击计数。",
+    "functions": [
+      {
+        "line": 35,
+        "name": "initialize"
+      },
+      {
+        "line": 54,
+        "name": "_player_ammo"
+      },
+      {
+        "line": 60,
+        "name": "_track_shots"
+      },
+      {
+        "line": 76,
+        "name": "_flag"
+      },
+      {
+        "line": 79,
+        "name": "_check_render_target"
+      },
+      {
+        "line": 95,
+        "name": "_check_configuration"
+      },
+      {
+        "line": 111,
+        "name": "_process"
+      },
+      {
+        "line": 151,
+        "name": "_summary"
+      },
+      {
+        "line": 164,
+        "name": "finish"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "GodotProject/tests/combat_route.gd",
+    "description": "敌人、射击、任务路线和撤离回归。",
+    "functions": [
+      {
+        "line": 9,
+        "name": "_initialize"
+      },
+      {
+        "line": 16,
+        "name": "_run"
+      },
+      {
+        "line": 93,
+        "name": "_clear_gate"
+      },
+      {
+        "line": 111,
+        "name": "_combat"
+      },
+      {
+        "line": 134,
+        "name": "_route"
+      },
+      {
+        "line": 146,
+        "name": "_walk"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/environment_v04.gd",
+    "description": "早期环境资源导入和场景检查。",
+    "functions": [
+      {
+        "line": 7,
+        "name": "_initialize"
+      },
+      {
+        "line": 14,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/fp_hands_review.gd",
+    "description": "第一人称双手导入、网格和姿态检查。",
+    "functions": [
+      {
+        "line": 8,
+        "name": "_initialize"
+      },
+      {
+        "line": 15,
+        "name": "shot"
+      },
+      {
+        "line": 42,
+        "name": "run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/linear_route.gd",
+    "description": "线性栅门、护送、检查点和完整通关回归。",
+    "functions": [
+      {
+        "line": 9,
+        "name": "_initialize"
+      },
+      {
+        "line": 16,
+        "name": "check"
+      },
+      {
+        "line": 24,
+        "name": "_run"
+      },
+      {
+        "line": 116,
+        "name": "_test_extraction"
+      },
+      {
+        "line": 146,
+        "name": "_test_save_compatibility"
+      },
+      {
+        "line": 172,
+        "name": "_defeat"
+      },
+      {
+        "line": 178,
+        "name": "_frames"
+      },
+      {
+        "line": 185,
+        "name": "_write_save"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/opening.gd",
+    "description": "开场状态、字幕、跳过和交接断言。",
+    "functions": [
+      {
+        "line": 8,
+        "name": "_initialize"
+      },
+      {
+        "line": 14,
+        "name": "check"
+      },
+      {
+        "line": 19,
+        "name": "_run"
+      },
+      {
+        "line": 151,
+        "name": "_check_handoff"
+      },
+      {
+        "line": 156,
+        "name": "_without_pose"
+      },
+      {
+        "line": 162,
+        "name": "_write_save"
+      },
+      {
+        "line": 167,
+        "name": "_capture_shots"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/opening_live.gd",
+    "description": "真实渲染开场播放和截图。",
+    "functions": [
+      {
+        "line": 5,
+        "name": "_initialize"
+      },
+      {
+        "line": 11,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/performance.gd",
+    "description": "固定场景性能采样。",
+    "functions": [
+      {
+        "line": 7,
+        "name": "_initialize"
+      },
+      {
+        "line": 14,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/s09_geometry.gd",
+    "description": "S09 几何、碰撞、导航、门格和旧档迁移。",
+    "functions": [
+      {
+        "line": 7,
+        "name": "_initialize"
+      },
+      {
+        "line": 13,
+        "name": "check"
+      },
+      {
+        "line": 17,
+        "name": "_hits"
+      },
+      {
+        "line": 26,
+        "name": "_contains_body"
+      },
+      {
+        "line": 31,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/s09_overview.gd",
+    "description": "S09 结构观察机位截图。",
+    "functions": [
+      {
+        "line": 3,
+        "name": "_initialize"
+      },
+      {
+        "line": 9,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/s09_route.gd",
+    "description": "S09 三入口及救援顺序实走。",
+    "functions": [
+      {
+        "line": 12,
+        "name": "check"
+      },
+      {
+        "line": 18,
+        "name": "_run"
+      },
+      {
+        "line": 139,
+        "name": "choose"
+      },
+      {
+        "line": 147,
+        "name": "_wait_for_lu"
+      },
+      {
+        "line": 155,
+        "name": "_combat"
+      },
+      {
+        "line": 164,
+        "name": "_capture"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn",
+      "res://tests/combat_route.gd"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/s10_buildings.gd",
+    "description": "D01-D05 建筑网格、碰撞、尺度和导入。",
+    "functions": [
+      {
+        "line": 6,
+        "name": "_initialize"
+      },
+      {
+        "line": 12,
+        "name": "check"
+      },
+      {
+        "line": 17,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/s11_dressing.gd",
+    "description": "S11 五类资源、五个槽位、占位替换和六段静态路线。",
+    "functions": [
+      {
+        "line": 7,
+        "name": "_initialize"
+      },
+      {
+        "line": 13,
+        "name": "check"
+      },
+      {
+        "line": 18,
+        "name": "_run"
+      },
+      {
+        "line": 86,
+        "name": "_capture"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/smoke.gd",
+    "description": "基础启动、节点和场景烟测。",
+    "functions": [
+      {
+        "line": 7,
+        "name": "_initialize"
+      },
+      {
+        "line": 14,
+        "name": "check"
+      },
+      {
+        "line": 22,
+        "name": "_run"
+      },
+      {
+        "line": 268,
+        "name": "_guard"
+      },
+      {
+        "line": 274,
+        "name": "_test_encounter_boundaries"
+      },
+      {
+        "line": 387,
+        "name": "_write_save"
+      },
+      {
+        "line": 392,
+        "name": "_key"
+      },
+      {
+        "line": 406,
+        "name": "_freeze_guards"
+      },
+      {
+        "line": 411,
+        "name": "_frames"
+      },
+      {
+        "line": 416,
+        "name": "_follow_route"
+      },
+      {
+        "line": 426,
+        "name": "_walk_to"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/story_moments.gd",
+    "description": "人物互动、补给、包扎、跟随和等候检查。",
+    "functions": [
+      {
+        "line": 6,
+        "name": "_initialize"
+      },
+      {
+        "line": 12,
+        "name": "check"
+      },
+      {
+        "line": 18,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "GodotProject/tests/visual_motion.gd",
+    "description": "人物动作、武器接触和视觉运动观察。",
+    "functions": [
+      {
+        "line": 22,
+        "name": "_initialize"
+      },
+      {
+        "line": 38,
+        "name": "check"
+      },
+      {
+        "line": 46,
+        "name": "_run"
+      },
+      {
+        "line": 218,
+        "name": "_sample_bolt_cycle"
+      },
+      {
+        "line": 252,
+        "name": "_finger_in_weapon"
+      },
+      {
+        "line": 260,
+        "name": "_segment_distance"
+      },
+      {
+        "line": 265,
+        "name": "_nearest_index_surface"
+      },
+      {
+        "line": 310,
+        "name": "_aim_recovered"
+      },
+      {
+        "line": 313,
+        "name": "_tap"
+      },
+      {
+        "line": 325,
+        "name": "_seconds"
+      },
+      {
+        "line": 329,
+        "name": "_sequence_capture"
+      },
+      {
+        "line": 333,
+        "name": "_capture"
+      },
+      {
+        "line": 345,
+        "name": "_finish"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "Start-Blender.cmd",
+    "description": "启动本地 Blender 工作环境。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "Start-Game.cmd",
+    "description": "启动 Godot 游戏源码的快捷入口。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "Start-Game.ps1",
+    "description": "启动游戏或编辑器的 PowerShell 入口。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "Stop-Auto-Resume.cmd",
+    "description": "停止 Auto-Resume 面板及其派发的工作进程。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "Test-CombatPerformance.ps1",
+    "description": "正常 AI 与实际渲染交火帧时间测试入口。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "Test-Game.ps1",
+    "description": "源码或 Release 的综合功能、剧情、动作和路线回归入口。",
+    "functions": [
+      {
+        "line": 26,
+        "name": "Invoke-GameCheck"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "Test-Opening.ps1",
+    "description": "双段开场播放、跳过、暂停、恢复和截图验证入口。",
+    "functions": [],
+    "resource_references": [
+      "res://tests/opening.gd",
+      "res://tests/opening_live.gd"
+    ]
+  },
+  {
+    "path": "Test-Performance.ps1",
+    "description": "暂停 AI 的固定机位性能测试；数值不能替代正常交火性能。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "Test-RouteBlockout.ps1",
+    "description": "S09 路线体块 direct/full/skip 实走验证入口。",
+    "functions": [],
+    "resource_references": [
+      "res://tests/s09_route.gd"
+    ]
+  },
+  {
+    "path": "tools/asset_geometry_audit.py",
+    "description": "资源几何、尺寸和复杂度审计。",
+    "functions": [
+      {
+        "line": 11,
+        "name": "identity"
+      },
+      {
+        "line": 15,
+        "name": "multiply"
+      },
+      {
+        "line": 19,
+        "name": "transform"
+      },
+      {
+        "line": 35,
+        "name": "dimensions"
+      },
+      {
+        "line": 41,
+        "name": "read_gltf"
+      },
+      {
+        "line": 66,
+        "name": "measure_gltf"
+      },
+      {
+        "line": 79,
+        "name": "bounds"
+      },
+      {
+        "line": 116,
+        "name": "visit"
+      },
+      {
+        "line": 150,
+        "name": "measure_obj"
+      },
+      {
+        "line": 168,
+        "name": "measure_dae"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/audit_s03_interfaces.py",
+    "description": "S03 叙事/任务接口与源码常量核对。",
+    "functions": [
+      {
+        "line": 24,
+        "name": "read_json"
+      },
+      {
+        "line": 28,
+        "name": "sha"
+      },
+      {
+        "line": 32,
+        "name": "write_json"
+      },
+      {
+        "line": 36,
+        "name": "narration"
+      },
+      {
+        "line": 40,
+        "name": "main"
+      },
+      {
+        "line": 61,
+        "name": "check"
+      },
+      {
+        "line": 64,
+        "name": "vector"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/auto_resume.py",
+    "description": "新自动接续面板、停止、历史导出、回执和恢复入口。",
+    "functions": [
+      {
+        "line": 16,
+        "name": "load_config"
+      },
+      {
+        "line": 30,
+        "name": "gate"
+      },
+      {
+        "line": 44,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/blender_setup_check.py",
+    "description": "建模、资源检查、验证、日志或辅助工具文件。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_field_character.py",
+    "description": "由 Blender 源生成四类连续蒙皮人物游戏 GLB。",
+    "functions": [
+      {
+        "line": 26,
+        "name": "xyz"
+      },
+      {
+        "line": 29,
+        "name": "godot"
+      },
+      {
+        "line": 32,
+        "name": "material"
+      },
+      {
+        "line": 42,
+        "name": "fabric"
+      },
+      {
+        "line": 62,
+        "name": "mesh_obj"
+      },
+      {
+        "line": 85,
+        "name": "rigid"
+      },
+      {
+        "line": 88,
+        "name": "add"
+      },
+      {
+        "line": 92,
+        "name": "loft"
+      },
+      {
+        "line": 116,
+        "name": "box"
+      },
+      {
+        "line": 130,
+        "name": "ellipsoid"
+      },
+      {
+        "line": 140,
+        "name": "cord"
+      },
+      {
+        "line": 153,
+        "name": "weights_coat"
+      },
+      {
+        "line": 167,
+        "name": "weights_leg"
+      },
+      {
+        "line": 168,
+        "name": "w"
+      },
+      {
+        "line": 174,
+        "name": "smooth_apply"
+      },
+      {
+        "line": 186,
+        "name": "join_part"
+      },
+      {
+        "line": 196,
+        "name": "reweight"
+      },
+      {
+        "line": 211,
+        "name": "source_parts"
+      },
+      {
+        "line": 296,
+        "name": "outfit"
+      },
+      {
+        "line": 385,
+        "name": "rig"
+      },
+      {
+        "line": 403,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s02_inventory.py",
+    "description": "生成 S02 资源清单、目录和去向数据。",
+    "functions": [
+      {
+        "line": 28,
+        "name": "read"
+      },
+      {
+        "line": 32,
+        "name": "write"
+      },
+      {
+        "line": 36,
+        "name": "relative"
+      },
+      {
+        "line": 43,
+        "name": "digest"
+      },
+      {
+        "line": 54,
+        "name": "fingerprint"
+      },
+      {
+        "line": 59,
+        "name": "load_plans"
+      },
+      {
+        "line": 72,
+        "name": "main"
+      },
+      {
+        "line": 96,
+        "name": "check_file"
+      },
+      {
+        "line": 111,
+        "name": "inspect"
+      },
+      {
+        "line": 131,
+        "name": "game_use"
+      },
+      {
+        "line": 298,
+        "name": "size_summary"
+      },
+      {
+        "line": 316,
+        "name": "cost_summary"
+      },
+      {
+        "line": 328,
+        "name": "render"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s04_narration.py",
+    "description": "生成旁白字幕/节奏结构。",
+    "functions": [
+      {
+        "line": 12,
+        "name": "read_json"
+      },
+      {
+        "line": 16,
+        "name": "write_json"
+      },
+      {
+        "line": 20,
+        "name": "stamp"
+      },
+      {
+        "line": 27,
+        "name": "short"
+      },
+      {
+        "line": 31,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s05_dialogue.py",
+    "description": "生成原创任务序幕对白结构。",
+    "functions": [
+      {
+        "line": 12,
+        "name": "read"
+      },
+      {
+        "line": 16,
+        "name": "write"
+      },
+      {
+        "line": 20,
+        "name": "digest"
+      },
+      {
+        "line": 24,
+        "name": "timecode"
+      },
+      {
+        "line": 28,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s06_storyboard.py",
+    "description": "生成双段开场分镜数据和验证。",
+    "functions": [
+      {
+        "line": 15,
+        "name": "read"
+      },
+      {
+        "line": 19,
+        "name": "digest"
+      },
+      {
+        "line": 23,
+        "name": "write_json"
+      },
+      {
+        "line": 27,
+        "name": "tc"
+      },
+      {
+        "line": 270,
+        "name": "main"
+      },
+      {
+        "line": 281,
+        "name": "res"
+      },
+      {
+        "line": 291,
+        "name": "inv"
+      },
+      {
+        "line": 397,
+        "name": "check"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s07_opening_data.py",
+    "description": "生成 S07 开场草案数据。",
+    "functions": [
+      {
+        "line": 11,
+        "name": "read"
+      },
+      {
+        "line": 14,
+        "name": "actor"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s08_plan.py",
+    "description": "生成 S08 路线与资源去向规划。",
+    "functions": [
+      {
+        "line": 18,
+        "name": "read"
+      },
+      {
+        "line": 22,
+        "name": "write"
+      },
+      {
+        "line": 26,
+        "name": "digest"
+      },
+      {
+        "line": 81,
+        "name": "zones_for"
+      },
+      {
+        "line": 134,
+        "name": "font"
+      },
+      {
+        "line": 135,
+        "name": "text"
+      },
+      {
+        "line": 136,
+        "name": "pt"
+      },
+      {
+        "line": 137,
+        "name": "rect"
+      },
+      {
+        "line": 218,
+        "name": "point_box_distance"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s09_evidence.py",
+    "description": "生成 S09 路线证据和画面索引。",
+    "functions": [
+      {
+        "line": 14,
+        "name": "digest"
+      },
+      {
+        "line": 19,
+        "name": "read"
+      },
+      {
+        "line": 23,
+        "name": "write"
+      },
+      {
+        "line": 27,
+        "name": "sheet"
+      },
+      {
+        "line": 40,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/build_s10_buildings.py",
+    "description": "加工 D01-D05 建筑源、GLB、碰撞和清单。",
+    "functions": [
+      {
+        "line": 15,
+        "name": "bounds"
+      },
+      {
+        "line": 19,
+        "name": "load"
+      },
+      {
+        "line": 35,
+        "name": "meshes"
+      },
+      {
+        "line": 37,
+        "name": "transform"
+      },
+      {
+        "line": 41,
+        "name": "material"
+      },
+      {
+        "line": 58,
+        "name": "texture_mat"
+      },
+      {
+        "line": 63,
+        "name": "cube"
+      },
+      {
+        "line": 81,
+        "name": "roof"
+      },
+      {
+        "line": 100,
+        "name": "collisions_box"
+      },
+      {
+        "line": 103,
+        "name": "finish"
+      },
+      {
+        "line": 184,
+        "name": "copy_panel"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/continuation/__init__.py",
+    "description": "自动接续/断线恢复实现、协议和本地通信模块。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/continuation/control.py",
+    "description": "唯一自动续接控制门、暂停锁、步骤领取和重复派发保护。",
+    "functions": [
+      {
+        "line": 16,
+        "name": "read_json"
+      },
+      {
+        "line": 20,
+        "name": "atomic_json"
+      },
+      {
+        "line": 31,
+        "name": "file_lock"
+      },
+      {
+        "line": 48,
+        "name": "Controller"
+      },
+      {
+        "line": 49,
+        "name": "__init__"
+      },
+      {
+        "line": 54,
+        "name": "event"
+      },
+      {
+        "line": 59,
+        "name": "pulse"
+      },
+      {
+        "line": 63,
+        "name": "pause"
+      },
+      {
+        "line": 68,
+        "name": "live_control"
+      },
+      {
+        "line": 79,
+        "name": "candidate"
+      },
+      {
+        "line": 129,
+        "name": "check"
+      },
+      {
+        "line": 135,
+        "name": "claim"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/continuation/history.py",
+    "description": "自动接续/断线恢复实现、协议和本地通信模块。",
+    "functions": [
+      {
+        "line": 17,
+        "name": "stamp"
+      },
+      {
+        "line": 21,
+        "name": "normalized"
+      },
+      {
+        "line": 26,
+        "name": "atomic_json"
+      },
+      {
+        "line": 37,
+        "name": "read_json"
+      },
+      {
+        "line": 41,
+        "name": "codex_home"
+      },
+      {
+        "line": 45,
+        "name": "HistoryStore"
+      },
+      {
+        "line": 46,
+        "name": "__init__"
+      },
+      {
+        "line": 51,
+        "name": "discover"
+      },
+      {
+        "line": 85,
+        "name": "seed_settings"
+      },
+      {
+        "line": 102,
+        "name": "seed_running"
+      },
+      {
+        "line": 118,
+        "name": "_blob"
+      },
+      {
+        "line": 147,
+        "name": "export"
+      },
+      {
+        "line": 228,
+        "name": "iter_lines"
+      },
+      {
+        "line": 233,
+        "name": "sha256"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/continuation/panel.py",
+    "description": "自动接续/断线恢复实现、协议和本地通信模块。",
+    "functions": [
+      {
+        "line": 15,
+        "name": "ResumePanel"
+      },
+      {
+        "line": 16,
+        "name": "__init__"
+      },
+      {
+        "line": 65,
+        "name": "on_status"
+      },
+      {
+        "line": 68,
+        "name": "hotkey_loop"
+      },
+      {
+        "line": 86,
+        "name": "pulse"
+      },
+      {
+        "line": 92,
+        "name": "start"
+      },
+      {
+        "line": 105,
+        "name": "pause"
+      },
+      {
+        "line": 113,
+        "name": "open_thread"
+      },
+      {
+        "line": 121,
+        "name": "open_history"
+      },
+      {
+        "line": 126,
+        "name": "tick"
+      },
+      {
+        "line": 160,
+        "name": "close"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/continuation/protocol.py",
+    "description": "自动接续/断线恢复实现、协议和本地通信模块。",
+    "functions": [
+      {
+        "line": 15,
+        "name": "ProtocolError"
+      },
+      {
+        "line": 19,
+        "name": "Stopped"
+      },
+      {
+        "line": 23,
+        "name": "ProcessJob"
+      },
+      {
+        "line": 25,
+        "name": "__init__"
+      },
+      {
+        "line": 30,
+        "name": "Basic"
+      },
+      {
+        "line": 35,
+        "name": "Io"
+      },
+      {
+        "line": 38,
+        "name": "Extended"
+      },
+      {
+        "line": 60,
+        "name": "close"
+      },
+      {
+        "line": 66,
+        "name": "find_codex"
+      },
+      {
+        "line": 77,
+        "name": "AppServer"
+      },
+      {
+        "line": 78,
+        "name": "__init__"
+      },
+      {
+        "line": 112,
+        "name": "_stderr"
+      },
+      {
+        "line": 117,
+        "name": "_read"
+      },
+      {
+        "line": 134,
+        "name": "send"
+      },
+      {
+        "line": 144,
+        "name": "call"
+      },
+      {
+        "line": 171,
+        "name": "interrupt"
+      },
+      {
+        "line": 181,
+        "name": "close"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/continuation/save_interruption.ps1",
+    "description": "自动接续/断线恢复实现、协议和本地通信模块。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/continuation/supervisor.py",
+    "description": "自动接续/断线恢复实现、协议和本地通信模块。",
+    "functions": [
+      {
+        "line": 19,
+        "name": "NeedsAttention"
+      },
+      {
+        "line": 23,
+        "name": "Retryable"
+      },
+      {
+        "line": 27,
+        "name": "checked_state"
+      },
+      {
+        "line": 42,
+        "name": "choose_work"
+      },
+      {
+        "line": 70,
+        "name": "verify_step_finished"
+      },
+      {
+        "line": 91,
+        "name": "file_inventory"
+      },
+      {
+        "line": 102,
+        "name": "save_interruption"
+      },
+      {
+        "line": 132,
+        "name": "recovery_prompt"
+      },
+      {
+        "line": 143,
+        "name": "work_prompt"
+      },
+      {
+        "line": 155,
+        "name": "TurnWatch"
+      },
+      {
+        "line": 156,
+        "name": "__init__"
+      },
+      {
+        "line": 164,
+        "name": "observe"
+      },
+      {
+        "line": 179,
+        "name": "expired"
+      },
+      {
+        "line": 184,
+        "name": "Supervisor"
+      },
+      {
+        "line": 185,
+        "name": "__init__"
+      },
+      {
+        "line": 205,
+        "name": "record"
+      },
+      {
+        "line": 210,
+        "name": "report"
+      },
+      {
+        "line": 215,
+        "name": "request_stop"
+      },
+      {
+        "line": 219,
+        "name": "close_server"
+      },
+      {
+        "line": 226,
+        "name": "open_server"
+      },
+      {
+        "line": 231,
+        "name": "new_thread"
+      },
+      {
+        "line": 245,
+        "name": "turn"
+      },
+      {
+        "line": 291,
+        "name": "recover"
+      },
+      {
+        "line": 322,
+        "name": "run"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/diagnose_model_connection.py",
+    "description": "开发接口连接问题诊断；离线游戏不依赖。",
+    "functions": [
+      {
+        "line": 19,
+        "name": "endpoint_metadata"
+      },
+      {
+        "line": 38,
+        "name": "inspect_switch"
+      },
+      {
+        "line": 68,
+        "name": "NoRedirect"
+      },
+      {
+        "line": 69,
+        "name": "redirect_request"
+      },
+      {
+        "line": 74,
+        "name": "probe"
+      },
+      {
+        "line": 138,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/Find-Godot.ps1",
+    "description": "建模、资源检查、验证、日志或辅助工具文件。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/generate_handover_catalog.py",
+    "description": "本次交接文档使用的逐文件目录生成器。",
+    "functions": [
+      {
+        "line": 112,
+        "name": "human_size"
+      },
+      {
+        "line": 122,
+        "name": "is_catalog_file"
+      },
+      {
+        "line": 131,
+        "name": "base_description"
+      },
+      {
+        "line": 209,
+        "name": "archive_summary"
+      },
+      {
+        "line": 229,
+        "name": "main"
+      },
+      {
+        "line": 240,
+        "name": "raise_scan_error"
+      },
+      {
+        "line": 413,
+        "name": "render"
+      }
+    ],
+    "resource_references": [
+      "res://[^\\s",
+      "res://字面量；可能由其他模块/路径变量取得。"
+    ]
+  },
+  {
+    "path": "tools/generate_handover_support.py",
+    "description": "生成105条资源交接、完整对话定位与S12–S36执行分册；只写docs/handover。",
+    "functions": [
+      {
+        "line": 14,
+        "name": "read"
+      },
+      {
+        "line": 18,
+        "name": "write"
+      },
+      {
+        "line": 22,
+        "name": "link"
+      },
+      {
+        "line": 26,
+        "name": "flat"
+      },
+      {
+        "line": 32,
+        "name": "resources"
+      },
+      {
+        "line": 83,
+        "name": "history"
+      },
+      {
+        "line": 185,
+        "name": "next_steps"
+      },
+      {
+        "line": 219,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/inspect-character-import.gd",
+    "description": "建模、资源检查、验证、日志或辅助工具文件。",
+    "functions": [
+      {
+        "line": 2,
+        "name": "_initialize"
+      },
+      {
+        "line": 8,
+        "name": "inspect"
+      }
+    ],
+    "resource_references": [
+      "res://assets/characters/field_character.glb"
+    ]
+  },
+  {
+    "path": "tools/inspect_character_source.py",
+    "description": "建模、资源检查、验证、日志或辅助工具文件。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/inspect_grip.gd",
+    "description": "建模、资源检查、验证、日志或辅助工具文件。",
+    "functions": [
+      {
+        "line": 3,
+        "name": "_initialize"
+      },
+      {
+        "line": 6,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://scripts/weapon_visuals.gd"
+    ]
+  },
+  {
+    "path": "tools/inspect_s10_sources.py",
+    "description": "检查 S10 来源建筑尺寸、网格和部件。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/refine_fp_hands.py",
+    "description": "由 Blender 双手源生成细分、袖口和姿态改进输出。",
+    "functions": [
+      {
+        "line": 23,
+        "name": "read_glb"
+      },
+      {
+        "line": 32,
+        "name": "values"
+      },
+      {
+        "line": 43,
+        "name": "node_matrix"
+      },
+      {
+        "line": 51,
+        "name": "create_hand"
+      },
+      {
+        "line": 116,
+        "name": "append"
+      },
+      {
+        "line": 154,
+        "name": "world"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/s02_blend_measure.py",
+    "description": "建模、资源检查、验证、日志或辅助工具文件。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/Save-WorkCheckpoint.ps1",
+    "description": "调用 work_checkpoint.py 保存和校验工作检查点。",
+    "functions": [],
+    "resource_references": []
+  },
+  {
+    "path": "tools/summarize_hand_release.py",
+    "description": "建模、资源检查、验证、日志或辅助工具文件。",
+    "functions": [
+      {
+        "line": 38,
+        "name": "collect"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/survey_s08_route.gd",
+    "description": "S08 路线调查和布景槽位采样。",
+    "functions": [
+      {
+        "line": 5,
+        "name": "_initialize"
+      },
+      {
+        "line": 11,
+        "name": "xy"
+      },
+      {
+        "line": 14,
+        "name": "_run"
+      }
+    ],
+    "resource_references": [
+      "res://main.tscn"
+    ]
+  },
+  {
+    "path": "tools/test_auto_resume.py",
+    "description": "新自动接续单元/隔离测试。",
+    "functions": [
+      {
+        "line": 20,
+        "name": "Workspace"
+      },
+      {
+        "line": 21,
+        "name": "__init__"
+      },
+      {
+        "line": 36,
+        "name": "commit"
+      },
+      {
+        "line": 65,
+        "name": "GateTests"
+      },
+      {
+        "line": 66,
+        "name": "setUp"
+      },
+      {
+        "line": 71,
+        "name": "test_claim_is_once_only"
+      },
+      {
+        "line": 77,
+        "name": "test_recovery_reuses_exact_receipt"
+      },
+      {
+        "line": 84,
+        "name": "test_pending_after_network_failure_also_resumes_same_step"
+      },
+      {
+        "line": 89,
+        "name": "test_changed_receipt_fails_closed"
+      },
+      {
+        "line": 95,
+        "name": "test_pause_wins_over_recovery"
+      },
+      {
+        "line": 101,
+        "name": "test_blocked_step_is_never_retried"
+      },
+      {
+        "line": 107,
+        "name": "test_partial_checkpoint_record_blocks_dispatch"
+      },
+      {
+        "line": 112,
+        "name": "test_outside_checkpoint_path_rejected"
+      },
+      {
+        "line": 117,
+        "name": "test_finished_step_evidence_and_hashes_required"
+      },
+      {
+        "line": 125,
+        "name": "test_success_after_disconnect_does_not_redo_step"
+      },
+      {
+        "line": 130,
+        "name": "test_edited_evidence_after_checkpoint_blocks_next_step"
+      },
+      {
+        "line": 137,
+        "name": "test_unrequested_later_step_change_blocks_next_step"
+      },
+      {
+        "line": 144,
+        "name": "test_worker_gate_requires_matching_live_receipt"
+      },
+      {
+        "line": 151,
+        "name": "test_external_model_and_release_changes_are_tracked"
+      },
+      {
+        "line": 160,
+        "name": "test_duplicate_panel_lock_rejected"
+      },
+      {
+        "line": 167,
+        "name": "WatchTests"
+      },
+      {
+        "line": 168,
+        "name": "setUp"
+      },
+      {
+        "line": 172,
+        "name": "test_no_output_timeout"
+      },
+      {
+        "line": 176,
+        "name": "test_real_output_resets_idle_timer"
+      },
+      {
+        "line": 182,
+        "name": "test_running_tool_has_longer_window"
+      },
+      {
+        "line": 189,
+        "name": "test_finished_tool_restores_normal_timeout"
+      },
+      {
+        "line": 196,
+        "name": "test_network_retry_noise_does_not_mask_stall"
+      },
+      {
+        "line": 203,
+        "name": "PanelTests"
+      },
+      {
+        "line": 204,
+        "name": "setUp"
+      },
+      {
+        "line": 219,
+        "name": "test_panel_opens_paused_without_worker"
+      },
+      {
+        "line": 226,
+        "name": "test_stop_button_interrupts_worker_and_prevents_restart_race"
+      },
+      {
+        "line": 239,
+        "name": "HistoryTests"
+      },
+      {
+        "line": 240,
+        "name": "setUp"
+      },
+      {
+        "line": 257,
+        "name": "write"
+      },
+      {
+        "line": 260,
+        "name": "test_archived_conversation_complete_and_checksum_valid"
+      },
+      {
+        "line": 270,
+        "name": "test_other_project_excluded"
+      },
+      {
+        "line": 275,
+        "name": "test_missing_seed_fails_instead_of_claiming_full_history"
+      },
+      {
+        "line": 279,
+        "name": "test_identical_history_reuses_immutable_copy"
+      },
+      {
+        "line": 284,
+        "name": "test_corrupt_existing_blob_detected"
+      },
+      {
+        "line": 291,
+        "name": "test_source_model_inherited"
+      },
+      {
+        "line": 294,
+        "name": "test_active_source_waits_until_completed"
+      },
+      {
+        "line": 302,
+        "name": "test_pause_during_export_produces_no_complete_manifest"
+      },
+      {
+        "line": 309,
+        "name": "test_windows_long_path_normalized"
+      },
+      {
+        "line": 313,
+        "name": "FakeHistory"
+      },
+      {
+        "line": 314,
+        "name": "__init__"
+      },
+      {
+        "line": 317,
+        "name": "seed_running"
+      },
+      {
+        "line": 320,
+        "name": "seed_settings"
+      },
+      {
+        "line": 323,
+        "name": "export"
+      },
+      {
+        "line": 328,
+        "name": "RecoveryTests"
+      },
+      {
+        "line": 329,
+        "name": "simulate"
+      },
+      {
+        "line": 337,
+        "name": "FakeServer"
+      },
+      {
+        "line": 338,
+        "name": "__init__"
+      },
+      {
+        "line": 343,
+        "name": "call"
+      },
+      {
+        "line": 366,
+        "name": "interrupt"
+      },
+      {
+        "line": 369,
+        "name": "close"
+      },
+      {
+        "line": 371,
+        "name": "send"
+      },
+      {
+        "line": 379,
+        "name": "test_single_network_failure_migrates_then_resumes_same_step"
+      },
+      {
+        "line": 389,
+        "name": "test_continuing_outage_retries_same_recovery_chat"
+      },
+      {
+        "line": 396,
+        "name": "test_stop_interrupts_without_migrating_or_advancing"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/test_auto_resume_live.py",
+    "description": "新自动接续真实只读通信和停止路径测试。",
+    "functions": [
+      {
+        "line": 12,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/test_work_checkpoint.py",
+    "description": "检查点工具的复制、校验和记录测试。",
+    "functions": [
+      {
+        "line": 19,
+        "name": "CheckpointTests"
+      },
+      {
+        "line": 20,
+        "name": "setUp"
+      },
+      {
+        "line": 39,
+        "name": "tearDown"
+      },
+      {
+        "line": 43,
+        "name": "put"
+      },
+      {
+        "line": 49,
+        "name": "arguments"
+      },
+      {
+        "line": 56,
+        "name": "save"
+      },
+      {
+        "line": 62,
+        "name": "test_planning_snapshot_and_history"
+      },
+      {
+        "line": 74,
+        "name": "test_project_assets_release_and_extra_sources"
+      },
+      {
+        "line": 82,
+        "name": "test_done_requires_existing_evidence"
+      },
+      {
+        "line": 89,
+        "name": "test_copy_failure_keeps_previous_checkpoint"
+      },
+      {
+        "line": 99,
+        "name": "test_tampered_file_is_detected"
+      },
+      {
+        "line": 105,
+        "name": "test_interrupted_publication_and_record_recovery"
+      },
+      {
+        "line": 108,
+        "name": "fail_progress"
+      },
+      {
+        "line": 125,
+        "name": "test_outside_workspace_cannot_be_copied"
+      },
+      {
+        "line": 129,
+        "name": "test_existing_lock_is_preserved"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/verify_handover.py",
+    "description": "只读核对路径、资源、历史对象哈希、S11快照与固定原文；只写交接验收报告，不运行游戏。",
+    "functions": [
+      {
+        "line": 14,
+        "name": "read"
+      },
+      {
+        "line": 18,
+        "name": "digest"
+      },
+      {
+        "line": 26,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  },
+  {
+    "path": "tools/work_checkpoint.py",
+    "description": "检查点复制、SHA-256、状态记录、LATEST 和历史追加工具。",
+    "functions": [
+      {
+        "line": 33,
+        "name": "digest"
+      },
+      {
+        "line": 41,
+        "name": "json_text"
+      },
+      {
+        "line": 45,
+        "name": "atomic_write"
+      },
+      {
+        "line": 56,
+        "name": "inside_root"
+      },
+      {
+        "line": 65,
+        "name": "select_files"
+      },
+      {
+        "line": 86,
+        "name": "verify"
+      },
+      {
+        "line": 101,
+        "name": "render_progress"
+      },
+      {
+        "line": 143,
+        "name": "save"
+      },
+      {
+        "line": 261,
+        "name": "recover_records"
+      },
+      {
+        "line": 281,
+        "name": "main"
+      }
+    ],
+    "resource_references": []
+  }
+]

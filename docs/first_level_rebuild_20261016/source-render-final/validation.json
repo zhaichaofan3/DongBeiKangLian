@@ -1,0 +1,30 @@
+{
+	"captures": [
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/arrival.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/checkpoint.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/transport-turn.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/timber-yard.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/office-reveal.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/arrival-shelter.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/checkpoint-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/timber-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/loading-forest.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/office-approach.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/escort-road.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/ferry.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/overview.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/village-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/logging-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/timber-barrage.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/village-to-camp.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-final/mission-handoff.png"
+	],
+	"checks": 124,
+	"critical_path_metres": 568.592300727963,
+	"failures": [
+		"All rebuilt camp huts share the atlas with English advertising removed"
+	],
+	"near_trees": 36,
+	"passed": false,
+	"scenery_objects": 248
+}

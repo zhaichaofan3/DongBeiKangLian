@@ -1,0 +1,597 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Player rests on ground
+PASS: New mission begins with thirteen placed guards including the door ambusher
+PASS: WASD direction
+PASS: Walls block movement
+PASS: Walls block enemy sight
+PASS: Enemy sees exposed player
+PASS: Guard first shot suppresses without unavoidable damage
+PASS: Exposed player can still be damaged by deliberate close-range fire
+PASS: Rifle consumes ammo and hits physical target
+PASS: Immediate defeat checkpoint includes the shot ammunition deduction
+PASS: Reload transfers ammo
+PASS: Weapon switches independent model
+PASS: Mission requires contact briefing
+PASS: Walk to scout
+PASS: E opens face-to-face conversation
+PASS: Dialogue pauses movement and combat
+PASS: Optional route question has a distinct response
+PASS: Briefing unlocks mission and restores control
+PASS: J opens journal from gameplay
+PASS: Escape closes journal
+PASS: Walk to logger shelter
+PASS: Logger offers supplies in person
+PASS: Medical choice grants exactly one bandage
+PASS: Repeat conversation cannot duplicate reward
+PASS: Player bandage consumes resource and restores 40 health
+PASS: Supply cache is reachable
+PASS: World supply is collectible
+PASS: Supply cache cannot be collected twice
+PASS: Closed door blocks navigation
+PASS: Reach office door approach
+PASS: Approach physical door
+PASS: Door interaction opens physics and navigation
+PASS: Door closes and restores collision
+PASS: Player can stand in doorway
+PASS: Door cannot close on player
+PASS: Walk through open door
+PASS: Reach letter shelf without stepping into bench
+PASS: World letter opens narrative reading
+PASS: Journal preserves discovered letter
+PASS: Codebook route clears desk
+PASS: Roster pickup advances story
+PASS: Roster cannot be collected twice
+PASS: Reach power switch around desk
+PASS: Power switch extinguishes lights and glowing lanterns
+PASS: Reinforcements respect cap
+PASS: Reach wounded courier
+PASS: Wounded courier offers rescue dialogue
+PASS: Treatment consumes bandage and starts escort
+PASS: Wait command stops companion
+PASS: Player can scout ahead
+PASS: Waiting companion stays in place
+PASS: Return to waiting companion
+PASS: Follow command resumes escort
+PASS: Death opens retry menu
+PASS: Checkpoint restores mission
+PASS: Checkpoint restores companion treatment, command and position
+PASS: Checkpoint preserves narrative choices, inventory and door
+PASS: Continuous walking reaches evacuation
+PASS: Companion walks entire office-to-river route without teleporting
+PASS: Evacuation ends in a character conversation
+PASS: Both characters and roster depart for the village
+PASS: Ferry transition opens the village chapter
+PASS: Invalid companion snapshot rejected
+PASS: Invalid weapon snapshot rejected
+PASS: Corrupt JSON rejected
+PASS: Restart resets narrative, door and companion
+PASS: Alternative ammo choice grants different reward
+PASS: Rescue remains possible without bandages
+PASS: Distant companion cannot satisfy evacuation
+PASS: Waiting companion overlaps evacuation interaction range
+PASS: Dock prompt offers nearby companion conversation
+PASS: Evacuation does not block talking to waiting companion
+PASS: Follow command works inside evacuation area
+PASS: Companion walks from waiting position and starts the crossing
+PASS: Dock still explains missing companion when nobody is nearby
+PASS: QA uses isolated presentation preferences
+PASS: Performance preset applies without resetting mission
+PASS: Quality preset enables 4x antialiasing
+PASS: Zero volume fully mutes audio
+PASS: Graphics and control preferences survive reload from disk
+PASS: Invalid preference values retain safe defaults
+PASS: All five initial guard patrols use traversable routes
+PASS: Reinforcements wait while player occupies their fixed entrance
+PASS: Visible road entrance cannot pop a guard into view
+PASS: Pausing freezes reinforcement countdown
+PASS: Power cut has an initial warning delay
+PASS: First delayed guard brings encounter to six-alive cap
+PASS: Full encounter defers reinforcements without consuming them
+PASS: Defeat is persisted immediately with checkpoint state
+PASS: Vacated slot admits exactly one guard
+PASS: Second pair waits the full inter-wave interval
+PASS: Second pair enters from the same predefined road
+PASS: Partially completed reinforcement encounter creates valid save
+PASS: Repeated load restores exact issued count without duplicate reinforcements
+PASS: Defeated initial and legacy-named wave guards stay defeated after load
+PASS: Checkpoint retains surviving guard health and position
+PASS: Checkpoint retains remaining arrival delay
+PASS: Restored delay cannot spawn the last guard early
+PASS: Final arrival exhausts finite four-guard reinforcement roster
+PASS: All nine defeated remain cleared across long waits and load
+PASS: Save rejects reinforcement index beyond finite roster
+PASS: Save rejects negative reinforcement countdown
+PASS: Save rejects malformed active guard position
+PASS: Save rejects defeat of a reinforcement that never arrived
+PASS: Original version-two save with wave_0 identifier remains compatible
+PASS: Legacy encounter migrates original first wave and delays added second wave
+PASS: Legacy migration preserves defeats and initial roster without surprise guards
+PASS: Migrated legacy encounter writes a valid expanded-format checkpoint
+SMOKE RESULT: 108/108 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New mission closes every route gate
+PASS: Briefing approach does not activate later combat
+PASS: Closed checkpoint cannot be bypassed through the map
+PASS: Player cannot skip the mission along either map edge
+PASS: First engagement activates only after contact and approach
+PASS: Closed checkpoint physically stops forward movement
+PASS: Interaction sight ray cannot pass through a closed gate
+PASS: Interaction cannot open the checkpoint before its guard is defeated
+PASS: Empty weapons can take emergency rifle rounds without skipping combat
+PASS: Emergency crate does not duplicate ammunition while rounds remain
+PASS: Emergency ammunition and locked gate survive checkpoint restore
+PASS: Defeating checkpoint guard unlocks its local interaction
+PASS: Opening checkpoint also opens navigation
+PASS: Opened checkpoint permits physical movement
+PASS: Timber lane exit blocks all routes into office sector
+PASS: Both timber defenders must be cleared before the lane opens
+PASS: Cleared timber lane opens the next engagement in order
+PASS: Office approach becomes navigable after opening timber exit
+PASS: Gate progress is immediately saved to the isolated checkpoint
+PASS: Checkpoint restores gate visuals, collision state and navigation together
+PASS: River exit cannot be bypassed from the office sector
+PASS: River gate stays closed before power cut and rescue
+PASS: Power cut and rescue unlock the final route
+PASS: Arrival begins a real thirty-second hold instead of instant victory
+PASS: Pause freezes extraction countdown
+PASS: Leaving the river hold area stops its countdown
+PASS: Waiting courier cannot advance the extraction hold
+PASS: Checkpoint preserves partially completed extraction time
+PASS: Holding with the following courier completes extraction
+PASS: Completed hold permits the final shared evacuation conversation
+PASS: Completed rescue starts the village crossing
+PASS: Linear route continues into the far-bank village
+PASS: Existing version-two checkpoint without linear fields remains readable
+PASS: Legacy checkpoint opens route gates without introducing new locks
+PASS: Malformed linear checkpoint block is rejected
+PASS: Out-of-order gate checkpoint is rejected
+PASS: Negative extraction checkpoint time is rejected
+PASS: Non-numeric extraction checkpoint time is rejected
+LINEAR ROUTE RESULT: 38/38 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FERRY COMBAT: issued=12 | defeated=2 | enemy shots=0 | first contact remaining=28.8333333333334
+ACTIVE COMBAT ROUTE: PASS | health=91.0 | guards defeated=37 | elapsed=313.533333333377 | state=won
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Motion scene starts in normal playable grounded state
+PASS: Motion verification writes only its own temporary checkpoint
+PASS: Rifle begins as the visible active weapon
+PASS: Aim transitions through an intermediate blend
+PASS: Aim changes FOV smoothly without an immediate jump
+PASS: Held aim converges to the intended FOV
+PASS: Aim brings the weapon sights onto the camera centerline
+PASS: Releasing aim restores the hip view
+PASS: Rifle input fires exactly one real round
+PASS: Firing starts a brief muzzle flash and view-model recoil
+PASS: Rifle shot physically lifts and retracts the bolt
+PASS: Firing hand leaves the grip to operate the bolt
+PASS: The firing hand has bound middle and thumb joints
+PASS: Curled finger joints stay around the bolt knob while it is open
+PASS: Cycling the supplied bolt keeps sleeves outside the central sight line
+PASS: Fingers stay within 2.5 cm of the knob throughout lift, pull, push and lock
+PASS: Bolt handle rises above its closed position instead of rotating underneath the rifle
+PASS: Support hand stays planted on the fore-end throughout the bolt cycle
+BOLT CONTACT: samples=[5, 8, 10, 5], max_error_m=[0.00005309186236, 0.00005488185343, 0.00003392052167, 0.00002785475044], support_drift_m=0.0
+PASS: Bolt returns fully to battery after the cycle
+PASS: Firing hand returns to its grip
+PASS: Flash and recoil decay after the shot
+PASS: Held aim recovers its sight alignment after firing and operating the bolt
+PASS: Rifle reload starts without granting ammunition early
+PASS: Mid-reload clip is visible over the open receiver
+PASS: Support hand reaches the receiver during loading
+PASS: Clip has moved down along its insertion path
+PASS: Rifle reload completes with the correct magazine and reserve transfer
+PASS: Completed reload hides the clip and restores the hand and bolt
+PASS: Held aim recovers its sight alignment after reloading
+PASS: Weapon key switches visibility to the pistol
+PASS: Weapon switch begins its timed visual transition
+PASS: Switched pistol rises into its held position
+PASS: Pistol index-finger skin reaches the trigger region inside the guard outline
+PISTOL TRIGGER: resting_joint=(0.028534, -0.046996, -0.011963), closest_finger_surface=(0.009207, -0.051302, -0.018141), trigger_distance_m=0.01057793479413
+PASS: Pistol shot consumes a round and cycles its bolt
+PASS: Pistol bolt returns after cycling
+PASS: Pistol trigger finger visibly pulls and returns to its held grip
+PASS: Pistol reload uses a visible clip and a separate loading hand
+PASS: Pistol reload completes with correct ammunition transfer
+PASS: Pistol loading hand and clip return to normal
+PASS: Restore test begins while shot effects are active
+PASS: Restore immediately cancels an unfinished shot effect
+PASS: Restore test begins during a real unfinished reload
+PASS: Restore cancels loading and restores snapshot ammunition
+PASS: Restore resets all weapon mechanisms and hands
+PASS: Cancelled reload cannot grant ammunition later
+PASS: Weapon-switch test begins during real rifle loading
+PASS: Switching away cancels loading and hides the rifle
+PASS: Switched-away reload cannot grant ammunition later
+PASS: Restore resets the hidden rifle after its interrupted loading action
+PASS: Restore recovers both weapons' ammunition after a cancelled switch reload
+PASS: Motion verification removes its temporary checkpoint
+VISUAL MOTION RESULT: 51/51 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Pre-0.4 story saves remain accepted
+PASS Legacy restore initializes optional field dialogue state
+PASS Walking dialogue leaves player in live gameplay
+PASS Pause does not consume an unheard subtitle
+PASS Saved field dialogue is not repeated on restore
+PASS Cutting power stops room radio and plays switch once
+PASS Loading powered-off checkpoint does not replay the switch
+PASS Unknown narrative flags are rejected safely
+PASS Invalid narrative flag type is rejected safely
+PASS River is a spatial looping stream
+PASS New mission restores radio and fresh dialogue state
+STORY MOMENTS RESULT: 11/11 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scout uses the imported skin, not the fallback model
+PASS: scout instantiates the correct supplied model or preserved civilian
+PASS: scout has every animated body joint
+PASS: scout has valid skin weights and bone bindings
+PASS: scout shows its correct clothing, headgear and injury equipment
+PASS: scout sleeves meet both wrist openings
+PASS: scout retains the supplied textured glove geometry
+PASS: scout relaxed glove has natural palm and finger proportions: 0
+PASS: scout relaxed glove has natural palm and finger proportions: 1
+PASS: scout has human scale without exploded vertices
+PASS: scout standing footwear stays near the floor
+PASS: logger uses the imported skin, not the fallback model
+PASS: logger instantiates the correct supplied model or preserved civilian
+PASS: logger has every animated body joint
+PASS: logger has valid skin weights and bone bindings
+PASS: logger shows its correct clothing, headgear and injury equipment
+PASS: logger has human scale without exploded vertices
+PASS: logger standing footwear stays near the floor
+PASS: wounded uses the imported skin, not the fallback model
+PASS: wounded instantiates the correct supplied model or preserved civilian
+PASS: wounded has every animated body joint
+PASS: wounded has valid skin weights and bone bindings
+PASS: wounded shows its correct clothing, headgear and injury equipment
+PASS: wounded sleeves meet both wrist openings
+PASS: wounded retains the supplied textured glove geometry
+PASS: wounded relaxed glove has natural palm and finger proportions: 0
+PASS: wounded relaxed glove has natural palm and finger proportions: 1
+PASS: Lu Shan has no obsolete forehead bandage crossing his cap or eyes
+PASS: wounded has human scale without exploded vertices
+PASS: wounded standing footwear stays near the floor
+PASS: guard uses the imported skin, not the fallback model
+PASS: guard instantiates the correct supplied model or preserved civilian
+PASS: guard has every animated body joint
+PASS: guard has valid skin weights and bone bindings
+PASS: guard shows its correct clothing, headgear and injury equipment
+PASS: guard sleeves meet both wrist openings
+PASS: guard has human scale without exploded vertices
+PASS: guard standing footwear stays near the floor
+PASS: Walking drives imported legs, arms and torso
+PASS: Walking keeps sleeves attached to both wrists
+PASS: Walking skin stays finite and attached to its rig
+PASS: Walking stance remains at ground level
+PASS: Aiming drives imported shoulder and elbow bones
+PASS: Guard retains a visible rifle during aiming
+PASS: Aiming keeps sleeves attached to both wrists
+PASS: Skinned palms stay within 5.5 cm of both rifle grips while lowered and aiming
+RIFLE GRIP ERROR (m): lowered=0.00003161175118, aiming=0.0000002556103
+PASS: Firing recoil reaches the imported body rig
+PASS: Armed friendly selects gripping gloves instead of relaxed fingers
+PASS: Armed friendly gloves remain connected to both sleeves
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: lowered/0
+FRIENDLY GLOVE DISTANCE (m): lowered/0 nearest=0.01592180877924 farthest=0.10163950175047
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: lowered/1
+FRIENDLY GLOVE DISTANCE (m): lowered/1 nearest=0.01737220585346 farthest=0.09838612377644
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: aim/0
+FRIENDLY GLOVE DISTANCE (m): aim/0 nearest=0.01590701192617 farthest=0.10166443884373
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: aim/1
+FRIENDLY GLOVE DISTANCE (m): aim/1 nearest=0.01737246289849 farthest=0.09838586300611
+PASS: Treating Lu Shan changes his imported injury posture
+PASS: Treatment transition keeps clothing and bandages attached
+PASS: Death lowers the imported head and torso onto the ground
+PASS: Fallen skin remains finite with a horizontal silhouette
+PASS: Fallen character has no substantial underground geometry
+PASS: Death releases prior aiming twists into a consistent relaxed arm pose
+CHARACTER MODEL RESULT: 59/59 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: First chapter navigation sampled from real colliders
+PASS: Opening encounters are separated by 76 metres
+PASS: Scout and optional logger are connected
+PASS: Closed first gate blocks all downstream routes: (34.0, 0.08, 194.0)
+PASS: Closed first gate blocks all downstream routes: (34.0, 0.08, 118.0)
+PASS: Closed first gate blocks all downstream routes: (79.0, 0.16, 14.0)
+PASS: Closed gate physically blocks movement 0
+PASS: Gate has no corner shortcut 0/-3.5
+PASS: Gate has no corner shortcut 0/0.0
+PASS: Gate has no corner shortcut 0/3.5
+PASS: Opened gate connects physical navigation 0
+PASS: Later locked gate still blocks the ferry
+PASS: Closed gate physically blocks movement 1
+PASS: Gate has no corner shortcut 1/-3.5
+PASS: Gate has no corner shortcut 1/0.0
+PASS: Gate has no corner shortcut 1/3.5
+PASS: Opened gate connects physical navigation 1
+PASS: Later locked gate still blocks the ferry
+PASS: Closed gate physically blocks movement 2
+PASS: Gate has no corner shortcut 2/-3.5
+PASS: Gate has no corner shortcut 2/0.0
+PASS: Gate has no corner shortcut 2/3.5
+PASS: Opened gate connects physical navigation 2
+PASS: Pursuit entrance connects to the new ferry: (62.0, 0.08, 22.0)
+PASS: Pursuit entrance connects to the new ferry: (58.0, 0.08, 22.0)
+PASS: Main path segment 01 is navigable
+PASS: Main path segment 02 is navigable
+PASS: Main path segment 03 is navigable
+PASS: Main path segment 04 is navigable
+PASS: Main path segment 05 is navigable
+PASS: Main path segment 06 is navigable
+PASS: Main path segment 07 is navigable
+PASS: Main path segment 08 is navigable
+PASS: Main path segment 09 is navigable
+PASS: Main path segment 10 is navigable
+PASS: Main path segment 11 is navigable
+PASS: Main path segment 12 is navigable
+PASS: Main path segment 13 is navigable
+PASS: Main path segment 14 is navigable
+PASS: Main path segment 15 is navigable
+PASS: Main path segment 16 is navigable
+PASS: Main path segment 17 is navigable
+PASS: Main path segment 18 is navigable
+PASS: Main path segment 19 is navigable
+PASS: Main path segment 20 is navigable
+PASS: Main path segment 21 is navigable
+PASS: Main path segment 22 is navigable
+PASS: Main path segment 23 is navigable
+PASS: Main path segment 24 is navigable
+PASS: Main path segment 25 is navigable
+PASS: Main path segment 26 is navigable
+PASS: Main path segment 27 is navigable
+PASS: Expanded critical path exceeds 400 metres including office objectives
+PASS: Guard fixture on free chapter ground: gate_guard(30.0, 0.08, 226.0)
+PASS: Guard fixture on free chapter ground: gate_guard(30.0, 0.08, 234.0)
+PASS: Guard fixture on free chapter ground: yard_guard(38.0, 0.08, 134.0)
+PASS: Guard fixture on free chapter ground: yard_guard(38.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: pier_guard(74.0, 0.08, 26.0)
+PASS: Guard fixture on free chapter ground: pier_guard(74.0, 0.08, 18.0)
+PASS: Guard fixture on free chapter ground: timber_guard(30.0, 0.08, 130.0)
+PASS: Guard fixture on free chapter ground: timber_guard(30.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: office_guard(46.0, 0.08, 34.0)
+PASS: Guard fixture on free chapter ground: office_guard(46.0, 0.08, 38.0)
+PASS: Guard fixture on free chapter ground: door_ambusher(34.0, 0.08, 118.5)
+PASS: Guard fixture on free chapter ground: door_ambusher(34.0, 0.08, 112.0)
+PASS: Guard fixture on free chapter ground: gate_guard_2(38.0, 0.08, 210.0)
+PASS: Guard fixture on free chapter ground: gate_guard_2(38.0, 0.08, 204.0)
+PASS: Guard fixture on free chapter ground: gate_guard_3(34.0, 0.08, 214.0)
+PASS: Guard fixture on free chapter ground: gate_guard_3(34.0, 0.08, 206.0)
+PASS: Guard fixture on free chapter ground: yard_guard_2(34.0, 0.08, 134.0)
+PASS: Guard fixture on free chapter ground: yard_guard_2(34.0, 0.08, 128.0)
+PASS: Guard fixture on free chapter ground: yard_guard_3(38.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: yard_guard_3(34.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: office_guard_2(50.0, 0.08, 38.0)
+PASS: Guard fixture on free chapter ground: office_guard_2(46.0, 0.08, 38.0)
+PASS: Guard fixture on free chapter ground: office_guard_3(58.0, 0.08, 36.0)
+PASS: Guard fixture on free chapter ground: office_guard_3(54.0, 0.08, 36.0)
+PASS: Guard fixture on free chapter ground: office_guard_4(56.0, 0.08, 30.0)
+PASS: Guard fixture on free chapter ground: office_guard_4(54.0, 0.08, 30.0)
+PASS: Opaque geography hides future encounter from (34.0, 1.6, 200.0)
+PASS: Opaque geography hides future encounter from (34.0, 1.6, 124.0)
+PASS: Opaque geography hides future encounter from (14.0, 1.6, 276.0)
+PASS: Branch wire remains thigh-height
+PASS: Branch wire remains thigh-height
+PASS: First transport hint points down the visible road
+PASS: Transport hint follows the turn instead of pointing through the berm
+PASS: Office approach hint follows the eastern forest road
+PASS: New chapter checkpoint reads back from disk
+PASS: Revision 4 camp save migrates to the expanded entry
+PASS: Revision 4 checkpoint validates at story phase 0
+PASS: Legacy story and ammunition survive disk restore 0
+PASS: Legacy restore lands on collision-free new ground 0
+PASS: Legacy gates keep their exact progression 0
+PASS: Revision 4 checkpoint validates at story phase 1
+PASS: Legacy story and ammunition survive disk restore 1
+PASS: Legacy restore lands on collision-free new ground 1
+PASS: Legacy gates keep their exact progression 1
+PASS: Revision 4 checkpoint validates at story phase 2
+PASS: Legacy story and ammunition survive disk restore 2
+PASS: Legacy restore lands on collision-free new ground 2
+PASS: Legacy gates keep their exact progression 2
+PASS: Revision 4 checkpoint validates at story phase 3
+PASS: Legacy story and ammunition survive disk restore 3
+PASS: Legacy restore lands on collision-free new ground 3
+PASS: Legacy gates keep their exact progression 3
+PASS: Legacy hold preserves rescued courier and remaining time
+PASS: Original narration and dialogue timing remains unchanged
+PASS: Opening barrage follows the relocated timber encounter
+FIRST LEVEL REBUILD: PASS | checks=108
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Right-hand timber wall prevents skipping the encounter, including sprint-jump
+PASS: Eastern timber boundary has no capsule-width bypass
+PASS: Closed office door and frames block entry
+PASS: Office navigation is measured against the supplied interior geometry
+PASS: Real player walks the office route to (46.0, 0.08, 38.0)
+PASS: Real player walks the office route to (53.5, 0.08, 38.0)
+PASS: Real player walks the office route to (62.2, 0.08, 32.0)
+PASS: Real player walks the office route to (48.8, 0.08, 30.0)
+PASS: Real player walks the office route to (38.0, 0.08, 38.0)
+PASS: Interior mission interaction remains reachable: (53.5, 0.99, 40.0)
+PASS: Interior mission interaction remains reachable: (63.0, 1.55, 30.2)
+PASS: Interior mission interaction remains reachable: (47.0, 1.08, 30.0)
+PASS: Level uses the complete main settlement, retaining twenty-two original courtyard groups
+PASS: Enclosing village bank blocks real sprint-jump at (1003.0, 0.08, 190.0)
+PASS: Enclosing village bank blocks real sprint-jump at (1270.0, 0.08, 190.0)
+PASS: Continuous physical boundary between enclosing banks for encounter 0; gaps=[]
+PASS: Closed village gate 0 blocks real sprint-jump movement
+PASS: Continuous physical boundary between enclosing banks for encounter 1; gaps=[]
+PASS: Closed village gate 1 blocks real sprint-jump movement
+PASS: Every new branch wire retains its 0.8m collision height
+PASS: All cleared village sections remain connected
+PASS: Enemy spawns on reachable original village ground: village_0
+PASS: Enemy spawns on reachable original village ground: village_1
+PASS: Enemy spawns on reachable original village ground: village_2
+PASS: Enemy spawns on reachable original village ground: village_3
+PASS: Enemy spawns on reachable original village ground: village_4
+PASS: Enemy spawns on reachable original village ground: village_5
+PASS: Enemy spawns on reachable original village ground: village_6
+PASS: Enemy spawns on reachable original village ground: village_7
+PASS: Enemy spawns on reachable original village ground: village_8
+PASS: Enemy spawns on reachable original village ground: village_9
+PASS: Enemy spawns on reachable original village ground: village_10
+PASS: Enemy spawns on reachable original village ground: village_11
+PASS: Old straight-village checkpoint migrates to the matching encounter
+PASS: Village migration preserves defeats and ammunition
+PASS: Fractional village versions remain invalid
+PASS: Migrated player stands on free ground beyond the completed courtyard gate
+PASS: Disk-only resume restores the new layout
+SETTLEMENT REVISION: PASS | checks=38
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Rebuilt encounter walls retain solid opaque 2.8m volumes
+SKIP: Dummy rendering server does not return MultiMesh instance placements; rendered check verifies wall boxes
+PASS: western wall hides checkpoint enemies
+PASS: checkpoint wall hides the timber sector
+PASS: timber wall hides the office approach
+PASS: Forest wire is limited to two unused spurs
+PASS: 林师傅木棚尽头低网: wire mesh and collision are 0.8m high, grounded collision
+PASS: 林师傅木棚尽头低网: blocks at wire height with no tall invisible wall
+FAIL: 林师傅木棚尽头低网: both ends meet scenery, gaps=[20.0, 0.0]
+PASS: 林师傅木棚尽头低网: ground sprint-jump blocked
+PASS: 林师傅木棚尽头低网: crouch blocked
+PASS: 装卸棚后低网: wire mesh and collision are 0.8m high, grounded collision
+PASS: 装卸棚后低网: blocks at wire height with no tall invisible wall
+PASS: 装卸棚后低网: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 装卸棚后低网: ground sprint-jump blocked
+PASS: 装卸棚后低网: crouch blocked
+PASS: Logger and optional supply approach remain open
+PASS: Checkpoint and timber route remains open after gate clearance
+PASS: Northern escort road remains connected to the ferry
+PASS: Reinforcement entrance retains its ferry route
+PASS: Four opaque courtyard wall wings remain visible
+PASS: Courtyard wall at z=182 hides the next encounter
+PASS: Courtyard wall at z=75 hides the next encounter
+PASS: Low wire closes only measured gaps between original courtyard surfaces
+PASS: 原村院落支巷封口_0_0: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_0: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_0: both ends meet scenery, gaps=[0.215234375, 0.0]
+PASS: 原村院落支巷封口_0_0: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_1: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_1: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_1: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_1: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_2: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_2: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_2: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_2: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_3: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_3: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_3: both ends meet scenery, gaps=[0.0, 0.170068359375]
+PASS: 原村院落支巷封口_0_3: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_4: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_4: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_4: both ends meet scenery, gaps=[0.170068359375, 0.0]
+PASS: 原村院落支巷封口_0_4: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_5: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_5: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_5: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_5: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_6: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_6: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_6: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_6: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_7: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_7: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_7: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_7: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_8: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_8: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_8: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_8: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_9: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_9: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_9: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_9: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_10: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_10: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_10: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_10: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_11: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_11: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_11: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_11: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_12: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_12: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_12: both ends meet scenery, gaps=[0.0, 0.215234375]
+PASS: 原村院落支巷封口_0_12: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_13: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_13: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_13: both ends meet scenery, gaps=[0.2151123046875, 0.0]
+PASS: 原村院落支巷封口_1_13: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_13: crouch blocked
+PASS: 原村院落支巷封口_1_13: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_14: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_14: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_14: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_14: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_14: crouch blocked
+PASS: 原村院落支巷封口_1_14: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_15: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_15: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_15: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_15: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_16: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_16: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_16: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_16: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_16: crouch blocked
+PASS: 原村院落支巷封口_1_16: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_17: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_17: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_17: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_17: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_18: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_18: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_18: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_18: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_19: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_19: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_19: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_19: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_20: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_20: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_20: both ends meet scenery, gaps=[0.0, 0.2151123046875]
+PASS: 原村院落支巷封口_1_20: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_20: crouch blocked
+PASS: 原村院落支巷封口_1_20: squad navigation cannot cut through the thin wire
+PASS: 北院草垛支路低网_21: wire mesh and collision are 0.8m high, grounded collision
+PASS: 北院草垛支路低网_21: blocks at wire height with no tall invisible wall
+PASS: 北院草垛支路低网_21: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 北院草垛支路低网_21: squad navigation cannot cut through the thin wire
+PASS: 北院草垛支路低网_22: wire mesh and collision are 0.8m high, grounded collision
+PASS: 北院草垛支路低网_22: blocks at wire height with no tall invisible wall
+PASS: 北院草垛支路低网_22: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 北院草垛支路低网_22: ground sprint-jump blocked
+PASS: 北院草垛支路低网_22: crouch blocked
+PASS: 北院草垛支路低网_22: squad navigation cannot cut through the thin wire
+PASS: 北院草垛支路低网_23: wire mesh and collision are 0.8m high, grounded collision
+PASS: 北院草垛支路低网_23: blocks at wire height with no tall invisible wall
+PASS: 北院草垛支路低网_23: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 北院草垛支路低网_23: ground sprint-jump blocked
+PASS: 北院草垛支路低网_23: crouch blocked
+PASS: 北院草垛支路低网_23: squad navigation cannot cut through the thin wire
+PASS: Courtyard wall and gate seam prevent skipping at x=1133
+PASS: Courtyard wall and gate seam prevent skipping at x=1138
+PASS: Courtyard wall and gate seam prevent skipping at x=1143
+PASS: Courtyard wall and gate seam prevent skipping at x=1148
+PASS: Courtyard wall and gate seam prevent skipping at x=1153
+PASS: Village encounters cannot be skipped before opening the gates
+PASS: First opened gate permits only the next encounter
+PASS: Cleared main street stays connected for player and squad
+LINEAR BOUNDARIES: FAIL | checks=139
+

@@ -1,0 +1,35 @@
+{
+  "id": "cloth-swing-sounds",
+  "title": "Cloth swing sounds",
+  "source_url": "https://opengameart.org/content/cloth-swing-sounds",
+  "author": "Vinrax",
+  "license": "CC-BY-3.0",
+  "notes": "Continuous takes in WAV; slice into individual motion cues before use.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "cloth-swing-sounds/originals/cloth_sounds.wav",
+      "download_url": "https://opengameart.org/sites/default/files/cloth_sounds.wav",
+      "bytes": 1742006,
+      "sha256": "fe85c3aef953348afa856d1219e1fb57bbbf0c2df2d23dbbfdf754d9fd03690f",
+      "role": "original_download"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 1,
+    "decode_passed": 1,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 9.87,
+    "duration_range_seconds": [
+      9.874,
+      9.874
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

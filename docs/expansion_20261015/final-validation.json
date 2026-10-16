@@ -1,0 +1,89 @@
+{
+  "version": "0.7.0-rc1",
+  "revision": "20261015-user-models-village-low-side-wire",
+  "created_at": "2026-10-15T22:34:50+08:00",
+  "runtime": {
+    "source": {
+      "passed": true,
+      "groups": 26,
+      "explicit_pass_assertions": 810,
+      "ai_route": {
+        "health": 91.0,
+        "defeated": 33,
+        "seconds": 151.066666666679,
+        "state": "won"
+      },
+      "expansion_render_checks": 42,
+      "boundary_checks": 50,
+      "motion_render_checks": 61
+    },
+    "release": {
+      "passed": true,
+      "groups": 26,
+      "explicit_pass_assertions": 810,
+      "ai_route": {
+        "health": 91.0,
+        "defeated": 33,
+        "seconds": 151.066666666679,
+        "state": "won"
+      },
+      "expansion_render_checks": 42,
+      "boundary_checks": 50,
+      "motion_render_checks": 61
+    }
+  },
+  "release_polish_render": {
+    "1280": {
+      "passed": true,
+      "checks": 46
+    },
+    "960": {
+      "passed": true,
+      "checks": 46
+    }
+  },
+  "rendered_combat": "won",
+  "source_packages_verified": 7,
+  "editable_models_verified": 14,
+  "first_person_hands_unchanged": 6,
+  "weapon_visuals": "adapted_for_supplied_kar98k",
+  "protected_audio_files": 61,
+  "active_dialogue_recordings": 8,
+  "route": [
+    "检查口",
+    "木料巷",
+    "电报房",
+    "渡口",
+    "松岭屯村口",
+    "主街",
+    "北院"
+  ],
+  "boundaries": {
+    "original_opaque_walls": "retained",
+    "side_wire_height_m": 0.8,
+    "side_wire_locations": 5
+  },
+  "previous_package_checkpoint": "WorkBackups/20261015-211433-S10-in_progress-4dc66d",
+  "human_acceptance": {
+    "listening": "pending",
+    "continuous_performance": "pending",
+    "difficulty": "pending"
+  },
+  "diagnostics": {
+    "source_initial_native_exit": "0xc0000005; failed run and Windows event preserved; cause undetermined",
+    "previous_failures": "preserved; excluded from successful counts"
+  },
+  "files": [
+    {
+      "path": "FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "FenghuoEcho.pck",
+      "bytes": 1082486984,
+      "sha256": "39417ad28fcf4b314090b378d057a93b0abd6e1cfc926022b8cf495b1ce1065a"
+    }
+  ],
+  "review": "Validation/expansion_20261015/review.md"
+}

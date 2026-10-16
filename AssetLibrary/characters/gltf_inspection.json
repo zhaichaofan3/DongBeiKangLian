@@ -1,0 +1,3001 @@
+[
+  {
+    "path": "godot_tps_player/player/model/player.glb",
+    "bytes": 23844032,
+    "sha256": "16b783ec2e19245d034326d401796b9bd2635de75f4e38917854316abeee4f9c",
+    "mesh_count": 5,
+    "triangle_count": 19516,
+    "skins": [
+      {
+        "name": "Robot_Skeleton",
+        "joint_count": 145,
+        "joint_names": [
+          "root",
+          "hips",
+          "spine1",
+          "spine2",
+          "chest",
+          "neck",
+          "neck.001",
+          "head.001",
+          "mouth",
+          "headcore",
+          "eyes",
+          "eyelid.u.L",
+          "eyelid.u.R",
+          "eyelid.d.L",
+          "eyelid.d.R",
+          "shoulder.L",
+          "upper_arm.L",
+          "forearm.L",
+          "forearm.L.003",
+          "hand.L",
+          "palm.L",
+          "palm.01.L",
+          "f_index.01.L",
+          "f_index.02.L",
+          "f_index.03.L",
+          "f_index1scaler.L",
+          "f_index1scaler-ikt.L",
+          "thumb.01.L",
+          "thumb.02.L",
+          "thumb.03.L",
+          "thumbscaler.L",
+          "thumbscalerikt.L",
+          "palm.02.L",
+          "f_middle.01.L",
+          "f_middle.02.L",
+          "f_middle.03.L",
+          "f_middle1scaler.L",
+          "f_middle1scalerikt.L",
+          "palm.03.L",
+          "f_ring.01.L",
+          "f_ring.02.L",
+          "f_ring.03.L",
+          "f_ring1scaler.L",
+          "f_ring1scalerikt.L",
+          "hand-coverplate-ikt.L",
+          "palm.L.001",
+          "shoulderpad-ikt.L",
+          "SPiston-a1.L",
+          "SPiston-c2.L",
+          "SPiston-b2.L",
+          "shoulder.R",
+          "upper_arm.R",
+          "forearm.R",
+          "forearm.R.003",
+          "forearmslider.R",
+          "hand.R",
+          "palm.R",
+          "palm.01.R",
+          "f_index.01.R",
+          "f_index.02.R",
+          "f_index.03.R",
+          "f_index1scaler.R",
+          "f_index1scaler-ikt.R",
+          "thumb.01.R",
+          "thumb.02.R",
+          "thumb.03.R",
+          "thumbscaler.R",
+          "thumbscalerikt.R",
+          "palm.02.R",
+          "f_middle.01.R",
+          "f_middle.02.R",
+          "f_middle.03.R",
+          "f_middle1scaler.R",
+          "f_middle1scalerikt.R",
+          "palm.03.R",
+          "f_ring1scaler.R",
+          "f_ring1scalerikt.R",
+          "f_ring.01.R",
+          "f_ring.02.R",
+          "f_ring.03.R",
+          "hand-coverplate-ikt.R",
+          "palm.R.001",
+          "cannon.R",
+          "cannonrotator.R",
+          "cannonflap1.R",
+          "cannonflap3.R",
+          "cannonflap2.R",
+          "forearm.R.001",
+          "fa-mod1.R",
+          "fa-mod1-cover.R",
+          "fa-mod1-sight.R",
+          "fa-mod2.R",
+          "fa-mod2-thing.R",
+          "otherarmik",
+          "shoulderpad-ikt.R",
+          "SPiston-a1.R",
+          "SPiston-c2.R",
+          "SPiston-b2.R",
+          "spineflap3",
+          "shoulderpad.L",
+          "SPiston-b1.L",
+          "SPiston-a2.L",
+          "SPiston-c1.L",
+          "shoulderpad-adjust.L",
+          "shoulderpad.R",
+          "SPiston-b1.R",
+          "SPiston-a2.R",
+          "SPiston-c1.R",
+          "shoulderpad-adjust.R",
+          "boosterpack-cover",
+          "boosterpack",
+          "boosterpack-cover.002",
+          "spineflap2",
+          "spineflap1",
+          "abdocable.L",
+          "abdocable.R",
+          "thigh.L",
+          "knee.L",
+          "shin.L",
+          "foot.L",
+          "toe.L",
+          "footcover.L",
+          "kneepad.L",
+          "kneepad-ikt.L",
+          "thigh.R",
+          "knee.R",
+          "shin.R",
+          "foot.R",
+          "toe.R",
+          "footcover.R",
+          "kneepad.R",
+          "kneepad-ikt.R",
+          "knee-ikt.L",
+          "knee-ikt.R",
+          "heel-ikt.L",
+          "heel-ikt.R",
+          "HeadTarget",
+          "arm-ikt.L",
+          "elbow-ikt.L",
+          "arm-ikt.R",
+          "elbow-ikt.R",
+          "knee-control.L",
+          "knee-control.R",
+          "SPINECONTROL",
+          "Cannon_Aim"
+        ]
+      }
+    ],
+    "animations": [
+      {
+        "name": "AIM-Center",
+        "duration_seconds": 0,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "AIM-Down",
+        "duration_seconds": 0,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "AIM-Left-noexp",
+        "duration_seconds": 0,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "AIM-Right-noexp",
+        "duration_seconds": 0,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "AIM-Up",
+        "duration_seconds": 0,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "ARMCANNON-noexp",
+        "duration_seconds": 0.9167,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "borrar1-noexp",
+        "duration_seconds": 2.5,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "borrar2-noexp",
+        "duration_seconds": 2.5,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "borrar3-noexp",
+        "duration_seconds": 2.5,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "Cannon_activation-noexp",
+        "duration_seconds": 0.9167,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "Cannon_Charge",
+        "duration_seconds": 1.875,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Cannon_Charge-cycle",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "eyes-cycle",
+        "duration_seconds": 5,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "flinch1",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "flinch1.001",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "flinch2",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "flinch_heavy",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle-cycle",
+        "duration_seconds": 15,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idlecombat-cycle",
+        "duration_seconds": 3.3333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idlecombatrest-cycle",
+        "duration_seconds": 10,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "jump_1_up",
+        "duration_seconds": 0.25,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "jump_2_upwards-cycle",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "jump_3_midair-cycle",
+        "duration_seconds": 1.25,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "jump_4_falling-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "jump_5_hardlanding",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "lean_left-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "lean_right-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "metarigAction-noexp",
+        "duration_seconds": 1.6667,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "running_aiming",
+        "duration_seconds": 2.5,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "running_gun-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "running_nogun-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "strafe_allinone-noexp",
+        "duration_seconds": 9.7917,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "strafe_back-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "strafe_front-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "strafe_idle_to_forward-noexp",
+        "duration_seconds": 7.9167,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "strafe_left-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "strafe_neu_to_left-noexp",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "strafe_neu_to_right-noexp",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "strafe_right-cycle",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Strafeapartirderun-noexp",
+        "duration_seconds": 2.5,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "walking_gun-cycle",
+        "duration_seconds": 1.25,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "walking_nogun-cycle",
+        "duration_seconds": 1.25,
+        "channels": 435,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "xxx.001-noexp",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "yateusare-noexp",
+        "duration_seconds": 0.9167,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "z_running_PH-noexp",
+        "duration_seconds": 1.6667,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zdasdasdas-noexp",
+        "duration_seconds": 3.3333,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zDSDASD-noexp",
+        "duration_seconds": 1.0417,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zjump_fullcycle-noexp",
+        "duration_seconds": 1.25,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zkneepadmod-noexp",
+        "duration_seconds": 0.4167,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zSPINE-BOUNCE-noexp",
+        "duration_seconds": 0.8333,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zSPINE_LR-noexp",
+        "duration_seconds": 1.6667,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zSPINE_StS-noexp",
+        "duration_seconds": 1.6667,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zSPINE_ud-noexp",
+        "duration_seconds": 1.6667,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "Zstrafetest-noexp",
+        "duration_seconds": 2.5,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zzARMCANNONNOUSAR-noexp",
+        "duration_seconds": 0.9167,
+        "channels": 435,
+        "author_noexport_suffix": true
+      },
+      {
+        "name": "zzIdleph-noexp",
+        "duration_seconds": 5.375,
+        "channels": 435,
+        "author_noexport_suffix": true
+      }
+    ],
+    "material_count": 2,
+    "image_count": 0,
+    "external_dependencies": [],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf",
+    "bytes": 22939,
+    "sha256": "fd43e6c9a343a249cfebad1a24818794f6df50465a8ca7095b4642525a4cc5fc",
+    "mesh_count": 3,
+    "triangle_count": 15060,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 3,
+    "image_count": 7,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_BaseColor.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Brown.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Dark_BaseColor.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Roughness.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf",
+    "bytes": 22407,
+    "sha256": "3aa16f6ab5d3a141c2ef0bf90a84d0abea3b735c8328e7f5eb1c0299a9abd743",
+    "mesh_count": 3,
+    "triangle_count": 14318,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 3,
+    "image_count": 7,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_BaseColor.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Brown.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Dark.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Roughness.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Female.gltf",
+    "bytes": 2855,
+    "sha256": "9d24b43ac63197c3c242349d54d599d7d8dd5bdee6e7ce37847224f3ff1fb14d",
+    "mesh_count": 1,
+    "triangle_count": 1480,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Female.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Regular.gltf",
+    "bytes": 2018,
+    "sha256": "a91059d18fad4bd3af7546a4226976d8a2139eb82c3fe0790a1c5287c6ac6ed8",
+    "mesh_count": 1,
+    "triangle_count": 984,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Regular.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Beard.gltf",
+    "bytes": 2005,
+    "sha256": "c91ef54606aad25a9d1191deaba90cb411c0067d8cef262b2f4819f242e5b365",
+    "mesh_count": 1,
+    "triangle_count": 1034,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Beard.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buns.gltf",
+    "bytes": 2243,
+    "sha256": "2bb3593575e21c9af39a53e48c42c1314b0a894e9577f3f14abffcb145cd56c5",
+    "mesh_count": 1,
+    "triangle_count": 3284,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buns.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buzzed.gltf",
+    "bytes": 2006,
+    "sha256": "43752a4c8f2464eb2494a8ab179bf7ad237638a3d47fb3de0a38361db40e1451",
+    "mesh_count": 1,
+    "triangle_count": 830,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buzzed.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_BuzzedFemale.gltf",
+    "bytes": 2191,
+    "sha256": "3f30e5a7b0fc6d04d2980a4e937cc5e4b03ca923c9247869168ef13e1b40b747",
+    "mesh_count": 1,
+    "triangle_count": 830,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_BuzzedFemale.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Long.gltf",
+    "bytes": 2056,
+    "sha256": "94500e2e37e09efc8b8b920b8c6437ef1c76ca35863992b82d0d5de6e77122e9",
+    "mesh_count": 1,
+    "triangle_count": 2906,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Long.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_SimpleParted.gltf",
+    "bytes": 2010,
+    "sha256": "ce6c666d00bcca2baa0c58d0442505f90f8feff952592effc4697a2341e9e56d",
+    "mesh_count": 1,
+    "triangle_count": 1301,
+    "skins": [],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_SimpleParted.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.gltf",
+    "bytes": 25053,
+    "sha256": "ec294eb3dbe1b2027090e336255fa34ade5f2182c8964530404f3af7ad45939e",
+    "mesh_count": 1,
+    "triangle_count": 1480,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Regular.gltf",
+    "bytes": 23117,
+    "sha256": "ced6afcce12cc72a27e30fc06880401aff2b3fe883a01739299a5b49e5f7509e",
+    "mesh_count": 1,
+    "triangle_count": 984,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Regular.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Beard.gltf",
+    "bytes": 23104,
+    "sha256": "80013b9791ce12c65fbe693cf669b02ef5c38091c653bf13b9415d2d8380e0ce",
+    "mesh_count": 1,
+    "triangle_count": 1034,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Beard.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.gltf",
+    "bytes": 23807,
+    "sha256": "cbdd6f509ec8f1021361b53da6fa1a077b95762ebc8bc2d8acae59bb0cb263c1",
+    "mesh_count": 1,
+    "triangle_count": 3284,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buzzed.gltf",
+    "bytes": 23108,
+    "sha256": "6e709c691d4feccda9788df917bf9604e751f02da21cee2bc81bcc3d26b3b580",
+    "mesh_count": 1,
+    "triangle_count": 830,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buzzed.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_BuzzedFemale.gltf",
+    "bytes": 23779,
+    "sha256": "096a7a4ea5bcadc588f4c1e95f04b3461f8a20f3643a0308cfd23e81e180ab32",
+    "mesh_count": 1,
+    "triangle_count": 830,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_BuzzedFemale.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Long.gltf",
+    "bytes": 23813,
+    "sha256": "27e2c63e8f98c79fb600268ffcc92b36c621b8653b5a7dcbadb08328f3f887a9",
+    "mesh_count": 1,
+    "triangle_count": 2906,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Long.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.gltf",
+    "bytes": 23114,
+    "sha256": "fe0f354d7f95d83d38e15c60794dcc063fa4d60550706f3d7ba51491cdc07c56",
+    "mesh_count": 1,
+    "triangle_count": 1301,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 1,
+    "image_count": 2,
+    "external_dependencies": [
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.bin",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_Normal.png",
+      "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_BaseColor.png"
+    ],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb",
+    "bytes": 7618436,
+    "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+    "mesh_count": 1,
+    "triangle_count": 13744,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [
+      {
+        "name": "A_TPose",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Crouch_Fwd_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Crouch_Idle_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Dance_Loop",
+        "duration_seconds": 1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Death01",
+        "duration_seconds": 2.4,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Driving_Loop",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Fixing_Kneeling",
+        "duration_seconds": 5.2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Hit_Chest",
+        "duration_seconds": 0.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Hit_Head",
+        "duration_seconds": 0.4333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Talking_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Torch_Loop",
+        "duration_seconds": 1.2667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Interact",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jog_Fwd_Loop",
+        "duration_seconds": 0.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jump_Land",
+        "duration_seconds": 1.2667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jump_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jump_Start",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "PickUp_Table",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Aim_Down",
+        "duration_seconds": 0.1667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Aim_Neutral",
+        "duration_seconds": 0.1667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Aim_Up",
+        "duration_seconds": 0.1667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Idle_Loop",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Reload",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Shoot",
+        "duration_seconds": 0.6333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Punch_Cross",
+        "duration_seconds": 1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Punch_Jab",
+        "duration_seconds": 0.8667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Push_Loop",
+        "duration_seconds": 2.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Roll",
+        "duration_seconds": 1.4667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Enter",
+        "duration_seconds": 1.3,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Exit",
+        "duration_seconds": 1.0333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Idle_Loop",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Talking_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Enter",
+        "duration_seconds": 0.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Exit",
+        "duration_seconds": 0.4333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Idle_Loop",
+        "duration_seconds": 2.1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Shoot",
+        "duration_seconds": 0.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sprint_Loop",
+        "duration_seconds": 0.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Swim_Fwd_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Swim_Idle_Loop",
+        "duration_seconds": 3.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Attack",
+        "duration_seconds": 1.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Idle",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Walk_Formal_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Walk_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      }
+    ],
+    "material_count": 2,
+    "image_count": 0,
+    "external_dependencies": [],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard_RM.glb",
+    "bytes": 7620504,
+    "sha256": "be684571ed655a1b892c2c07e6e2aeca053b606c442d34004adaf1d944090d01",
+    "mesh_count": 1,
+    "triangle_count": 13744,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [
+      {
+        "name": "A_TPose",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Crouch_Fwd_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Crouch_Idle_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Dance_Loop",
+        "duration_seconds": 1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Death01",
+        "duration_seconds": 2.4,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Driving_Loop",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Fixing_Kneeling",
+        "duration_seconds": 5.2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Hit_Chest",
+        "duration_seconds": 0.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Hit_Head",
+        "duration_seconds": 0.4333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Talking_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Torch_Loop",
+        "duration_seconds": 1.2667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Interact",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jog_Fwd_Loop",
+        "duration_seconds": 0.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jump_Land",
+        "duration_seconds": 1.2667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jump_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Jump_Start",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "PickUp_Table",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Aim_Down",
+        "duration_seconds": 0.1667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Aim_Neutral",
+        "duration_seconds": 0.1667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Aim_Up",
+        "duration_seconds": 0.1667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Idle_Loop",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Reload",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Pistol_Shoot",
+        "duration_seconds": 0.6333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Punch_Cross",
+        "duration_seconds": 1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Punch_Jab",
+        "duration_seconds": 0.8667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Push_Loop",
+        "duration_seconds": 2.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Roll",
+        "duration_seconds": 1.4667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Enter",
+        "duration_seconds": 1.3,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Exit",
+        "duration_seconds": 1.0333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Idle_Loop",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sitting_Talking_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Enter",
+        "duration_seconds": 0.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Exit",
+        "duration_seconds": 0.4333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Idle_Loop",
+        "duration_seconds": 2.1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Spell_Simple_Shoot",
+        "duration_seconds": 0.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sprint_Loop",
+        "duration_seconds": 0.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Swim_Fwd_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Swim_Idle_Loop",
+        "duration_seconds": 3.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Attack",
+        "duration_seconds": 1.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Idle",
+        "duration_seconds": 1.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Walk_Formal_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Walk_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      }
+    ],
+    "material_count": 2,
+    "image_count": 0,
+    "external_dependencies": [],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Female Mannequin/Unreal-Godot/Mannequin_F.glb",
+    "bytes": 1442824,
+    "sha256": "2ee6cc3fe888d9b144afa8cc4b2ab7bfc5d13a0d5b7548df777f61f64ad65fa6",
+    "mesh_count": 1,
+    "triangle_count": 14612,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [],
+    "material_count": 2,
+    "image_count": 0,
+    "external_dependencies": [],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard.glb",
+    "bytes": 8091444,
+    "sha256": "8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8",
+    "mesh_count": 1,
+    "triangle_count": 13744,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [
+      {
+        "name": "A_TPose",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Chest_Open",
+        "duration_seconds": 1.3667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "ClimbUp_1m",
+        "duration_seconds": 0.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Consume",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Farm_Harvest",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Farm_PlantSeed",
+        "duration_seconds": 2.7667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Farm_Watering",
+        "duration_seconds": 3.8,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Hit_Knockback",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_FoldArms_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Lantern_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_No_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Rail_Call",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Rail_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Shield_Break",
+        "duration_seconds": 1.0667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Shield_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_TalkingPhone_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "LayToIdle",
+        "duration_seconds": 1.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Melee_Hook",
+        "duration_seconds": 0.4667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Melee_Hook_Rec",
+        "duration_seconds": 0.6,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "NinjaJump_Idle_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "NinjaJump_Land",
+        "duration_seconds": 1.2667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "NinjaJump_Start",
+        "duration_seconds": 0.9667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "OverhandThrow",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Shield_Dash",
+        "duration_seconds": 1.1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Shield_OneShot",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Slide_Exit",
+        "duration_seconds": 0.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Slide_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Slide_Start",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Block",
+        "duration_seconds": 1.2333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Dash",
+        "duration_seconds": 1.5667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Heavy_Combo",
+        "duration_seconds": 4.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_A",
+        "duration_seconds": 0.4333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_A_Rec",
+        "duration_seconds": 0.9667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_B",
+        "duration_seconds": 0.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_B_Rec",
+        "duration_seconds": 1.0333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_C",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_Combo",
+        "duration_seconds": 3,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "TreeChopping_Loop",
+        "duration_seconds": 0.9667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Walk_Carry_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Yes",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Zombie_Idle_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Zombie_Scratch",
+        "duration_seconds": 1.8,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Zombie_Walk_Fwd_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      }
+    ],
+    "material_count": 2,
+    "image_count": 0,
+    "external_dependencies": [],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard_RM.glb",
+    "bytes": 8095936,
+    "sha256": "814eee878f82934992d3ea746c539df25e981487109c591f5efbb8dd03286f99",
+    "mesh_count": 1,
+    "triangle_count": 13744,
+    "skins": [
+      {
+        "name": "Armature",
+        "joint_count": 65,
+        "joint_names": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "Head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "index_01_l",
+          "index_02_l",
+          "index_03_l",
+          "index_04_leaf_l",
+          "middle_01_l",
+          "middle_02_l",
+          "middle_03_l",
+          "middle_04_leaf_l",
+          "pinky_01_l",
+          "pinky_02_l",
+          "pinky_03_l",
+          "pinky_04_leaf_l",
+          "ring_01_l",
+          "ring_02_l",
+          "ring_03_l",
+          "ring_04_leaf_l",
+          "thumb_01_l",
+          "thumb_02_l",
+          "thumb_03_l",
+          "thumb_04_leaf_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r",
+          "hand_r",
+          "index_01_r",
+          "index_02_r",
+          "index_03_r",
+          "index_04_leaf_r",
+          "middle_01_r",
+          "middle_02_r",
+          "middle_03_r",
+          "middle_04_leaf_r",
+          "pinky_01_r",
+          "pinky_02_r",
+          "pinky_03_r",
+          "pinky_04_leaf_r",
+          "ring_01_r",
+          "ring_02_r",
+          "ring_03_r",
+          "ring_04_leaf_r",
+          "thumb_01_r",
+          "thumb_02_r",
+          "thumb_03_r",
+          "thumb_04_leaf_r",
+          "thigh_l",
+          "calf_l",
+          "foot_l",
+          "ball_l",
+          "ball_leaf_l",
+          "thigh_r",
+          "calf_r",
+          "foot_r",
+          "ball_r",
+          "ball_leaf_r"
+        ]
+      }
+    ],
+    "animations": [
+      {
+        "name": "A_TPose",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Chest_Open",
+        "duration_seconds": 1.3667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "ClimbUp_1m",
+        "duration_seconds": 0.6667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Consume",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Farm_Harvest",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Farm_PlantSeed",
+        "duration_seconds": 2.7667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Farm_Watering",
+        "duration_seconds": 3.8,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Hit_Knockback",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_FoldArms_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Lantern_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_No_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Rail_Call",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Rail_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Shield_Break",
+        "duration_seconds": 1.0667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_Shield_Loop",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Idle_TalkingPhone_Loop",
+        "duration_seconds": 2.9333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "LayToIdle",
+        "duration_seconds": 1.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Melee_Hook",
+        "duration_seconds": 0.4667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Melee_Hook_Rec",
+        "duration_seconds": 0.6,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "NinjaJump_Idle_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "NinjaJump_Land",
+        "duration_seconds": 1.2667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "NinjaJump_Start",
+        "duration_seconds": 0.9667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "OverhandThrow",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Shield_Dash",
+        "duration_seconds": 1.1,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Shield_OneShot",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Slide_Exit",
+        "duration_seconds": 0.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Slide_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Slide_Start",
+        "duration_seconds": 0.8333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Block",
+        "duration_seconds": 1.2333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Dash",
+        "duration_seconds": 1.5667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Heavy_Combo",
+        "duration_seconds": 4.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_A",
+        "duration_seconds": 0.4333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_A_Rec",
+        "duration_seconds": 0.9667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_B",
+        "duration_seconds": 0.5333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_B_Rec",
+        "duration_seconds": 1.0333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_C",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Sword_Regular_Combo",
+        "duration_seconds": 3,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "TreeChopping_Loop",
+        "duration_seconds": 0.9667,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Walk_Carry_Loop",
+        "duration_seconds": 2,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Yes",
+        "duration_seconds": 2.5,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Zombie_Idle_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Zombie_Scratch",
+        "duration_seconds": 1.8,
+        "channels": 195,
+        "author_noexport_suffix": false
+      },
+      {
+        "name": "Zombie_Walk_Fwd_Loop",
+        "duration_seconds": 1.3333,
+        "channels": 195,
+        "author_noexport_suffix": false
+      }
+    ],
+    "material_count": 2,
+    "image_count": 0,
+    "external_dependencies": [],
+    "verification": "glTF structure, buffer sizes, bufferView bounds, skin node references, animation references, external file existence checked; not yet rendered or retargeted in game"
+  }
+]

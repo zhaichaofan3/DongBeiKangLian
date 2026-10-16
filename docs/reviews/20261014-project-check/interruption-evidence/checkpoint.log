@@ -1,0 +1,18 @@
+At C:\GameMake\tools\continuation\save_interruption.ps1:14 char:19
++ ... Validation = '这是故障或停止检查点，不表示本步骤验收通过；恢复对话必须重新核对实际�
+���?
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token '这是故障或停止检查点，不表示本步骤验收通过；恢复对话必须重新核对实际文
+�?' in expression or statement.
+At C:\GameMake\tools\continuation\save_interruption.ps1:14 char:19
++     Validation = '这是故障或停止检查点，不表示本步骤验收通过；恢复对话必须重新核对实� ..
+.
++                   ~
+The hash literal was incomplete.
+At C:\GameMake\tools\continuation\save_interruption.ps1:15 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

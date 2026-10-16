@@ -1,0 +1,39 @@
+{
+  "step": "S34",
+  "status": "done_with_explicit_audio_limits",
+  "date": "2026-10-15",
+  "all_passed": true,
+  "matrix": {
+    "rows": 9,
+    "checks": "12/12",
+    "coverage": [
+      "pause_resume_A",
+      "exit_restore_A_boundary",
+      "skip_A_exit_restore_B_boundary",
+      "pause_dialogue_B1",
+      "skip_B_single_handoff",
+      "gameplay_checkpoint_restore",
+      "invalid_opening_save",
+      "legacy_gameplay_save",
+      "failed_write_retry"
+    ]
+  },
+  "runtime_contract": {
+    "opening_audio_cleanup": true,
+    "duplicate_handoff": false,
+    "objectives_advanced_during_opening": false,
+    "old_save_compatibility": true,
+    "failed_write_preserves_previous_save": true
+  },
+  "audio_limits": {
+    "voice": "temporary_synthetic",
+    "s28_sfx_listening": "pending_user_listening",
+    "s29_music_selection": "pending_user_listening",
+    "s30_final_mix": "not_claimed"
+  },
+  "evidence": [
+    "docs/level/S34/state-matrix.json",
+    "docs/level/S34-state-matrix.log"
+  ],
+  "next_step": "S35"
+}

@@ -1,0 +1,49 @@
+{
+  "type": 1,
+  "name": "Japanese Cedar Bark",
+  "categories": [
+    "outdoor",
+    "natural",
+    "bark"
+  ],
+  "tags": [
+    "bark",
+    "tree",
+    "tree bark",
+    "nature",
+    "bark texture",
+    "natural",
+    "forestry",
+    "japanese",
+    "cedar bark",
+    "cedar",
+    "organic"
+  ],
+  "authors": {
+    "Charlotte Baglioni": "All"
+  },
+  "max_resolution": [
+    8192,
+    16384
+  ],
+  "date_published": 1750896000,
+  "description": "Free 16K texture of Japanese cedar bark - rough, fibrous vertical ridges, deep dark-brown weathered tones.",
+  "dimensions": [
+    1000,
+    2000
+  ],
+  "files_hash": "01b8de36ae1459e3a7ae7d02647988e2613e67f6",
+  "category_id": "fc8dd00d-a670-5b83-af7f-2281cb9ca987",
+  "category": "Wood/Bark/Fissured Bark",
+  "attributes": {
+    "surface_use": "object",
+    "condition": [
+      "weathered"
+    ],
+    "origin": "natural",
+    "setting": "outdoor"
+  },
+  "img_version": "0249db68",
+  "download_count": 3569,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/japanese_cedar_bark.png?width=256&height=256&format=webp&v=0249db68"
+}

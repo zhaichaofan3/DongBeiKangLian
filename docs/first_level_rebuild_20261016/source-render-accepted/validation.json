@@ -1,0 +1,43 @@
+{
+	"captures": [
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/arrival.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/checkpoint.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/transport-turn.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/timber-yard.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/office-reveal.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/arrival-shelter.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/checkpoint-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/timber-workside.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/loading-forest.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/office-approach.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/escort-road.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/ferry.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/overview.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/village-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/logging-wide.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/timber-barrage.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/village-to-camp.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\source-render-accepted/mission-handoff.png"
+	],
+	"checks": 125,
+	"critical_path_metres": 286.450165346265,
+	"failures": [
+		"Opened gate connects physical navigation 2",
+		"Pursuit entrance connects to the new ferry: (62.0, 0.08, 22.0)",
+		"Pursuit entrance connects to the new ferry: (58.0, 0.08, 22.0)",
+		"Main path segment 03 is navigable",
+		"Main path segment 08 is navigable",
+		"Main path segment 09 is navigable",
+		"Main path segment 10 is navigable",
+		"Main path segment 13 is navigable",
+		"Main path segment 14 is navigable",
+		"Main path segment 15 is navigable",
+		"Main path segment 16 is navigable",
+		"Main path segment 17 is navigable",
+		"Main path segment 26 is navigable",
+		"Expanded critical path exceeds 400 metres including office objectives"
+	],
+	"near_trees": 36,
+	"passed": false,
+	"scenery_objects": 248
+}

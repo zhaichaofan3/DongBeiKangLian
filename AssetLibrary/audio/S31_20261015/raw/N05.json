@@ -1,0 +1,11 @@
+{
+  "id": "N05",
+  "part": "A",
+  "text": "高擎抗日救国大旗，",
+  "voice": "Microsoft Kangkang",
+  "rate": -1,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

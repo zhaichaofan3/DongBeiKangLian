@@ -1,0 +1,7 @@
+Title: SFX Circuit breaker
+Author: Cleyton Kauffman
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/sfx-circuit-breaker
+Evidence: source.html and source.txt
+Notes: On and off switch events.

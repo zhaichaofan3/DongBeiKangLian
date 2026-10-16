@@ -1,0 +1,62 @@
+{
+  "step": "S07",
+  "recorded_at": "2026-10-13T06:41:04.409954+00:00",
+  "scope": "source regression actually run during S07; archived from original logs; no release test in this step",
+  "passed": 242,
+  "total": 242,
+  "all_passed": true,
+  "suites": [
+    {
+      "suite": "SMOKE",
+      "passed": 107,
+      "total": 107,
+      "path": "docs/narrative/S07/regression/smoke.log",
+      "sha256": "b79e5f3ee45bfabfd905b85a37c736c2a3f544b7e33fb5f02a8c95d52c11c4c1",
+      "source_log_modified_at": "2026-10-13T06:16:58.073121+00:00"
+    },
+    {
+      "suite": "LINEAR ROUTE",
+      "passed": 37,
+      "total": 37,
+      "path": "docs/narrative/S07/regression/linear-route.log",
+      "sha256": "2c39a8bf2b875ebf8d9b5478e4ad643baa66702eb24e4703c755c579ee59ab4c",
+      "source_log_modified_at": "2026-10-13T06:17:00.503795+00:00"
+    },
+    {
+      "suite": "VISUAL MOTION",
+      "passed": 50,
+      "total": 50,
+      "path": "docs/narrative/S07/regression/visual-motion.log",
+      "sha256": "eedd45436a43d05a3a2b7722998e95be6126604b6ad3fdff3eb9a83edb4c1a33",
+      "source_log_modified_at": "2026-10-13T06:17:08.783356+00:00"
+    },
+    {
+      "suite": "STORY MOMENTS",
+      "passed": 11,
+      "total": 11,
+      "path": "docs/narrative/S07/regression/story-moments.log",
+      "sha256": "53be442e1fb66f4789780a5c7e2bf81d9459e3a796b31200a307cefc46e5e208",
+      "source_log_modified_at": "2026-10-13T06:17:10.322003+00:00"
+    },
+    {
+      "suite": "CHARACTER MODEL",
+      "passed": 37,
+      "total": 37,
+      "path": "docs/narrative/S07/regression/character-model.log",
+      "sha256": "14fdf151984cfd10ccc2090d7f7fcb18d726bd700473a457f7a37dacd624d688",
+      "source_log_modified_at": "2026-10-13T06:17:11.224374+00:00"
+    },
+    {
+      "suite": "ACTIVE COMBAT ROUTE",
+      "passed": true,
+      "health": 100.0,
+      "defeated": 9,
+      "elapsed_seconds": 82.18333333333,
+      "state": "won",
+      "path": "docs/narrative/S07/regression/combat-route.log",
+      "sha256": "a60915ec3eefae657312c96b51a43e3493ebc4f0ec9df53b16878dcb69a60410",
+      "source_log_modified_at": "2026-10-13T06:17:06.240910+00:00"
+    }
+  ],
+  "ordering_note": "Regression followed save-validator fixes; later edits only opening visuals and opening test cleanup, not normal gameplay."
+}

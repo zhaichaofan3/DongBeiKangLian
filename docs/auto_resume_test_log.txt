@@ -1,0 +1,39 @@
+test_blocked_step_is_never_retried (test_auto_resume.GateTests.test_blocked_step_is_never_retried) ... ok
+test_changed_receipt_fails_closed (test_auto_resume.GateTests.test_changed_receipt_fails_closed) ... ok
+test_claim_is_once_only (test_auto_resume.GateTests.test_claim_is_once_only) ... ok
+test_duplicate_panel_lock_rejected (test_auto_resume.GateTests.test_duplicate_panel_lock_rejected) ... ok
+test_edited_evidence_after_checkpoint_blocks_next_step (test_auto_resume.GateTests.test_edited_evidence_after_checkpoint_blocks_next_step) ... ok
+test_external_model_and_release_changes_are_tracked (test_auto_resume.GateTests.test_external_model_and_release_changes_are_tracked) ... ok
+test_finished_step_evidence_and_hashes_required (test_auto_resume.GateTests.test_finished_step_evidence_and_hashes_required) ... ok
+test_outside_checkpoint_path_rejected (test_auto_resume.GateTests.test_outside_checkpoint_path_rejected) ... ok
+test_partial_checkpoint_record_blocks_dispatch (test_auto_resume.GateTests.test_partial_checkpoint_record_blocks_dispatch) ... ok
+test_pause_wins_over_recovery (test_auto_resume.GateTests.test_pause_wins_over_recovery) ... ok
+test_pending_after_network_failure_also_resumes_same_step (test_auto_resume.GateTests.test_pending_after_network_failure_also_resumes_same_step) ... ok
+test_recovery_reuses_exact_receipt (test_auto_resume.GateTests.test_recovery_reuses_exact_receipt) ... ok
+test_success_after_disconnect_does_not_redo_step (test_auto_resume.GateTests.test_success_after_disconnect_does_not_redo_step) ... ok
+test_unrequested_later_step_change_blocks_next_step (test_auto_resume.GateTests.test_unrequested_later_step_change_blocks_next_step) ... ok
+test_worker_gate_requires_matching_live_receipt (test_auto_resume.GateTests.test_worker_gate_requires_matching_live_receipt) ... ok
+test_active_source_waits_until_completed (test_auto_resume.HistoryTests.test_active_source_waits_until_completed) ... ok
+test_archived_conversation_complete_and_checksum_valid (test_auto_resume.HistoryTests.test_archived_conversation_complete_and_checksum_valid) ... ok
+test_corrupt_existing_blob_detected (test_auto_resume.HistoryTests.test_corrupt_existing_blob_detected) ... ok
+test_identical_history_reuses_immutable_copy (test_auto_resume.HistoryTests.test_identical_history_reuses_immutable_copy) ... ok
+test_missing_seed_fails_instead_of_claiming_full_history (test_auto_resume.HistoryTests.test_missing_seed_fails_instead_of_claiming_full_history) ... ok
+test_other_project_excluded (test_auto_resume.HistoryTests.test_other_project_excluded) ... ok
+test_pause_during_export_produces_no_complete_manifest (test_auto_resume.HistoryTests.test_pause_during_export_produces_no_complete_manifest) ... ok
+test_source_model_inherited (test_auto_resume.HistoryTests.test_source_model_inherited) ... ok
+test_windows_long_path_normalized (test_auto_resume.HistoryTests.test_windows_long_path_normalized) ... ok
+test_panel_opens_paused_without_worker (test_auto_resume.PanelTests.test_panel_opens_paused_without_worker) ... ok
+test_stop_button_interrupts_worker_and_prevents_restart_race (test_auto_resume.PanelTests.test_stop_button_interrupts_worker_and_prevents_restart_race) ... ok
+test_continuing_outage_retries_same_recovery_chat (test_auto_resume.RecoveryTests.test_continuing_outage_retries_same_recovery_chat) ... ok
+test_single_network_failure_migrates_then_resumes_same_step (test_auto_resume.RecoveryTests.test_single_network_failure_migrates_then_resumes_same_step) ... ok
+test_stop_interrupts_without_migrating_or_advancing (test_auto_resume.RecoveryTests.test_stop_interrupts_without_migrating_or_advancing) ... ok
+test_finished_tool_restores_normal_timeout (test_auto_resume.WatchTests.test_finished_tool_restores_normal_timeout) ... ok
+test_network_retry_noise_does_not_mask_stall (test_auto_resume.WatchTests.test_network_retry_noise_does_not_mask_stall) ... ok
+test_no_output_timeout (test_auto_resume.WatchTests.test_no_output_timeout) ... ok
+test_real_output_resets_idle_timer (test_auto_resume.WatchTests.test_real_output_resets_idle_timer) ... ok
+test_running_tool_has_longer_window (test_auto_resume.WatchTests.test_running_tool_has_longer_window) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 2.025s
+
+OK

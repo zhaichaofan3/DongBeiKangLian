@@ -1,0 +1,15 @@
+{
+  "step": "S04",
+  "date": "2026-10-13",
+  "documents": [
+    "docs/S04-narration-and-subtitles.md",
+    "docs/production_plan.md",
+    "README.md",
+    "docs/README.md"
+  ],
+  "local_links_checked": 70,
+  "missing_links": [],
+  "generator_syntax_valid": true,
+  "scope": "Local document links and generator syntax only; no rendered subtitles or recorded voice.",
+  "passed": true
+}

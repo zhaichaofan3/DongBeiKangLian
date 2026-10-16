@@ -1,0 +1,178 @@
+{
+  "center": {
+    "longitude": 128.055,
+    "latitude": 42.006
+  },
+  "zoom": 13,
+  "tiles": [
+    {
+      "path": "terrain/source/13_7007_3038.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7007/3038.png",
+      "bytes": 25399,
+      "sha256": "a533d52e6cdae9d11a01d06209081974333665eebff6a454a1124a01b78b69a5",
+      "x": 7007,
+      "y": 3038,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7008_3038.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7008/3038.png",
+      "bytes": 25602,
+      "sha256": "61eea5ef4b25d90a0ff02cd889704899d4773f183b5ce8f22ccd8638cebd47ba",
+      "x": 7008,
+      "y": 3038,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7009_3038.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7009/3038.png",
+      "bytes": 26412,
+      "sha256": "ae4f95cd580a17907863255f6df2596ac38dd1ba6859eff91312999c6f542746",
+      "x": 7009,
+      "y": 3038,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7010_3038.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7010/3038.png",
+      "bytes": 27402,
+      "sha256": "4766a14c76148e50263f1cd845f33f1cd6135355c94aeb761bc07d45299f043b",
+      "x": 7010,
+      "y": 3038,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7007_3039.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7007/3039.png",
+      "bytes": 26253,
+      "sha256": "76aa68f3e1e8dc9e2ace0cb2050345e6fc2d08167f93d86b79e3adc6225d942f",
+      "x": 7007,
+      "y": 3039,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7008_3039.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7008/3039.png",
+      "bytes": 35545,
+      "sha256": "491c99f72005724e3ac119aeae8a7d9126e8e6a4ca84c72338e8e789dd6e36b2",
+      "x": 7008,
+      "y": 3039,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7009_3039.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7009/3039.png",
+      "bytes": 35251,
+      "sha256": "01a08e845bcc41cfea7d6cf5ae4f643ff8b1f35c36146b60c1b4fdecbb828fbb",
+      "x": 7009,
+      "y": 3039,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7010_3039.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7010/3039.png",
+      "bytes": 35328,
+      "sha256": "91c8740253f9a3b43ddb400e20d55cfd8b7fcceb2ed9ba13662b5118b9ac6336",
+      "x": 7010,
+      "y": 3039,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7007_3040.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7007/3040.png",
+      "bytes": 31295,
+      "sha256": "4474cc18cf2877d866f6038352414ea483830858ea7ad4074fba1a00ce0edce3",
+      "x": 7007,
+      "y": 3040,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7008_3040.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7008/3040.png",
+      "bytes": 38007,
+      "sha256": "a309f3101083a1f9be2ce68bb1dbd1c3bc81eccc2845d60a2bc946e7fd574c75",
+      "x": 7008,
+      "y": 3040,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7009_3040.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7009/3040.png",
+      "bytes": 44351,
+      "sha256": "61c2286fba7aff665f2131f0f16f476d1c50d4f091a6163b58faafd284b7230e",
+      "x": 7009,
+      "y": 3040,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7010_3040.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7010/3040.png",
+      "bytes": 44698,
+      "sha256": "ed023e4856ff98970a9976254b539f13b374fd932d536ffd03c41968388f078a",
+      "x": 7010,
+      "y": 3040,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7007_3041.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7007/3041.png",
+      "bytes": 30272,
+      "sha256": "f57990b94de6da58bbd2bb846e28ec65ac1008d77b70d0602e6122829a649466",
+      "x": 7007,
+      "y": 3041,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7008_3041.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7008/3041.png",
+      "bytes": 32953,
+      "sha256": "34af1069e1411a5647dc12a0445fcc94ed54901716a1fab58e581d0d853e9a9a",
+      "x": 7008,
+      "y": 3041,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7009_3041.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7009/3041.png",
+      "bytes": 43615,
+      "sha256": "04127b443deb97a0832997c4d7a3e8656b7af1ede9e3f3d8f95267480f73177f",
+      "x": 7009,
+      "y": 3041,
+      "zoom": 13
+    },
+    {
+      "path": "terrain/source/13_7010_3041.png",
+      "download_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7010/3041.png",
+      "bytes": 38983,
+      "sha256": "3c91dd4682f0b24dcd2e66b4320bcf864ad2e408c9b68a3d3f552c7c533fd1fe",
+      "x": 7010,
+      "y": 3041,
+      "zoom": 13
+    }
+  ],
+  "lake_outline_source": "https://www.openstreetmap.org/relation/11650508",
+  "lake_outline_file": "evidence/tianchi_osm.txt",
+  "height_decode": "R*256 + G + B/256 - 32768 meters",
+  "model_status": "generated_and_blender_godot_verified",
+  "attribution": "Mapzen/Terrarium elevation tiles via Tilezen/Joerd; © OpenStreetMap contributors for lake outline",
+  "attribution_reference": "evidence/elevation_attribution.txt",
+  "osm_license": "ODbL 1.0",
+  "outputs": [
+    {
+      "file": "tianchi_display_lod.glb",
+      "terrain_triangles": 131072,
+      "lake_triangles": 2030,
+      "grid": 257,
+      "bytes": 5036956,
+      "sha256": "6cb48b44e743abf97744865079ea7032aadf4a3d70c41c87b621a5ceec8741c7"
+    },
+    {
+      "file": "tianchi_display.glb",
+      "terrain_triangles": 524288,
+      "lake_triangles": 2030,
+      "grid": 513,
+      "bytes": 16063396,
+      "sha256": "0da496ea961fc769b0d8b7ee9aa77a39320573b3c2c5381654916f344c63d13d"
+    }
+  ]
+}

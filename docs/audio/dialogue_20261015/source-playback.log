@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Continuous B playback completes the gameplay handoff
+PASS: Playback uses real elapsed time without accelerated audio
+PASS: Rendered and sampled cue: B1-L01
+PASS: Recorded speech reaches Voice bus: B1-L01
+PASS: Rendered and sampled cue: B2-L01
+PASS: Unrecorded subtitle has silent Voice bus: B2-L01
+PASS: Rendered and sampled cue: B2-L02
+PASS: Recorded speech reaches Voice bus: B2-L02
+PASS: Rendered and sampled cue: B2-L03
+PASS: Unrecorded subtitle has silent Voice bus: B2-L03
+PASS: Rendered and sampled cue: B3-L01
+PASS: Recorded speech reaches Voice bus: B3-L01
+PASS: Rendered and sampled cue: B3-L02
+PASS: Unrecorded subtitle has silent Voice bus: B3-L02
+PASS: Rendered and sampled cue: B5-L01
+PASS: Recorded speech reaches Voice bus: B5-L01
+PASS: Rendered and sampled cue: B5-L02
+PASS: Unrecorded subtitle has silent Voice bus: B5-L02
+PASS: Rendered and sampled cue: B5-L03
+PASS: Recorded speech reaches Voice bus: B5-L03
+PASS: Rendered and sampled cue: B5-L04
+PASS: Recorded speech reaches Voice bus: B5-L04
+PASS: Rendered and sampled cue: B5-L05
+PASS: Unrecorded subtitle has silent Voice bus: B5-L05
+PASS: Rendered and sampled cue: B5-L06
+PASS: Recorded speech reaches Voice bus: B5-L06
+PASS: Rendered and sampled cue: B6-L01
+PASS: Recorded speech reaches Voice bus: B6-L01
+PASS: Rendered and sampled cue: B6-L02
+PASS: Unrecorded subtitle has silent Voice bus: B6-L02
+USER DIALOGUE PLAYBACK: PASS | checks=30

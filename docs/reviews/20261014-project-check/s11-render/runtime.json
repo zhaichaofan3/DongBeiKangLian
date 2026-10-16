@@ -1,0 +1,202 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "village_market S11 imported instance exists",
+      "passed": true
+    },
+    {
+      "description": "market_stalls S11 imported instance exists",
+      "passed": true
+    },
+    {
+      "description": "chinese_screen_panels S11 imported instance exists",
+      "passed": true
+    },
+    {
+      "description": "chinese_tea_table S11 imported instance exists",
+      "passed": true
+    },
+    {
+      "description": "wicker_basket_01 S11 imported instance exists",
+      "passed": true
+    },
+    {
+      "description": "D05 receives S11 dressing",
+      "passed": true
+    },
+    {
+      "description": "D06 receives S11 dressing",
+      "passed": true
+    },
+    {
+      "description": "D07 receives S11 dressing",
+      "passed": true
+    },
+    {
+      "description": "D08 receives S11 dressing",
+      "passed": true
+    },
+    {
+      "description": "D09 receives S11 dressing",
+      "passed": true
+    },
+    {
+      "description": "D06_counter placeholder mesh is visually replaced while collision remains",
+      "passed": true
+    },
+    {
+      "description": "D07_stock placeholder mesh is visually replaced while collision remains",
+      "passed": true
+    },
+    {
+      "description": "D08_screen placeholder mesh is visually replaced while collision remains",
+      "passed": true
+    },
+    {
+      "description": "D08_chest placeholder mesh is visually replaced while collision remains",
+      "passed": true
+    },
+    {
+      "description": "D09_table placeholder mesh is visually replaced while collision remains",
+      "passed": true
+    },
+    {
+      "description": "Z0 route remains reachable",
+      "passed": true
+    },
+    {
+      "description": "Z1 route remains reachable",
+      "passed": true
+    },
+    {
+      "description": "Z2 route remains reachable",
+      "passed": true
+    },
+    {
+      "description": "Z3-return route remains reachable",
+      "passed": true
+    },
+    {
+      "description": "Z4 route remains reachable",
+      "passed": true
+    },
+    {
+      "description": "Z5 route remains reachable",
+      "passed": true
+    }
+  ],
+  "method": "Headless scene instantiation, imported asset presence, placeholder visual replacement and AStar route samples; captures are near/mid documentation, not a human playtest.",
+  "purpose_counts": {
+    "D05棚内生产摊台": 1,
+    "叠放木材": 12,
+    "摊棚座凳": 2,
+    "木工工具": 1,
+    "木料周转箱": 1,
+    "林工棚半遮屏风": 1,
+    "林工棚谈话低桌": 1,
+    "档案传递筐": 2,
+    "检查口外侧生活摊棚": 1,
+    "棚内加工桌": 1,
+    "棚内取水桶": 1,
+    "生产储桶": 1,
+    "生活筐": 2,
+    "电报房东南屏风": 1,
+    "补给筐": 2
+  },
+  "route_segments": [
+    {
+      "from": [
+        12.0,
+        84.0
+      ],
+      "id": "Z0",
+      "passed": true,
+      "path_points": 5,
+      "to": [
+        14.0,
+        68.0
+      ]
+    },
+    {
+      "from": [
+        34.0,
+        60.0
+      ],
+      "id": "Z1",
+      "passed": true,
+      "path_points": 4,
+      "to": [
+        34.0,
+        48.0
+      ]
+    },
+    {
+      "from": [
+        34.0,
+        44.0
+      ],
+      "id": "Z2",
+      "passed": true,
+      "path_points": 4,
+      "to": [
+        38.0,
+        38.0
+      ]
+    },
+    {
+      "from": [
+        38.0,
+        38.0
+      ],
+      "id": "Z3-return",
+      "passed": true,
+      "path_points": 6,
+      "to": [
+        34.0,
+        22.0
+      ]
+    },
+    {
+      "from": [
+        34.0,
+        22.0
+      ],
+      "id": "Z4",
+      "passed": true,
+      "path_points": 9,
+      "to": [
+        67.0,
+        22.0
+      ]
+    },
+    {
+      "from": [
+        67.0,
+        22.0
+      ],
+      "id": "Z5",
+      "passed": true,
+      "path_points": 6,
+      "to": [
+        78.0,
+        14.0
+      ]
+    }
+  ],
+  "slot_counts": {
+    "D05": 8,
+    "D06": 5,
+    "D07": 10,
+    "D08": 3,
+    "D09": 4
+  },
+  "source_counts": {
+    "chinese_screen_panels": 1,
+    "chinese_tea_table": 1,
+    "market_stalls": 1,
+    "village_market": 1,
+    "wicker_basket_01": 1
+  },
+  "step": "S11"
+}

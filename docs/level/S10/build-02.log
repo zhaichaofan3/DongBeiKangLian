@@ -1,0 +1,251 @@
+15:52:34 | INFO: Data are loaded, start creating Blender stuff
+15:52:34 | INFO: Blender create Mesh node Door_1
+15:52:34 | INFO: Blender create Mesh node Cottage_1
+15:52:34 | INFO: Blender create Mesh node Fence_1
+15:52:34 | INFO: Blender create Mesh node Environment_1
+15:52:34 | INFO: glTF import finished in 0.01s
+信息: 已另存为 "D01.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+15:52:34 | INFO: Starting glTF 2.0 export
+15:52:34 | INFO: Extracting primitive: Door_1.001
+15:52:34 | INFO: Primitives created: 1
+15:52:34 | INFO: Finished glTF 2.0 export in 0.010030746459960938 s
+
+S10 BUILT D01 3346 triangles
+FBX version: 7400
+信息: 已另存为 "D02.blend"
+15:52:35 | INFO: Starting glTF 2.0 export
+15:52:35 | INFO: Extracting primitive: cabin_door.001
+15:52:35 | INFO: Primitives created: 1
+15:52:35 | INFO: Finished glTF 2.0 export in 0.009020805358886719 s
+
+S10 BUILT D02 1554 triangles
+15:52:35 | INFO: Data are loaded, start creating Blender stuff
+15:52:35 | INFO: Blender create Mesh node Plane-Mesh
+15:52:35 | INFO: Blender create Mesh node group_0_10988977.001-Mesh
+15:52:35 | INFO: glTF import finished in 0.02s
+信息: 已另存为 "D03.blend"
+15:52:35 | INFO: Starting glTF 2.0 export
+15:52:35 | WARNING: Mesh Plane-Mesh.001 is not valid, and may be exported wrongly
+15:52:35 | INFO: Extracting primitive: Plane-Mesh.001
+15:52:35 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+15:52:35 | INFO: Primitives created: 12
+15:52:36 | INFO: Finished glTF 2.0 export in 0.19057035446166992 s
+
+S10 BUILT D03 7388 triangles
+15:52:36 | INFO: Data are loaded, start creating Blender stuff
+15:52:36 | INFO: Blender create Mesh node Cube.598
+15:52:36 | INFO: Blender create Mesh node Cube.030
+15:52:36 | INFO: Blender create Mesh node Cube.032
+15:52:36 | INFO: Blender create Mesh node Cube.014
+15:52:36 | INFO: Blender create Mesh node Cube.034
+15:52:36 | INFO: Blender create Mesh node Cube.039
+15:52:36 | INFO: Blender create Mesh node Cube.046
+15:52:36 | INFO: Blender create Mesh node Cube.848
+15:52:36 | INFO: Blender create Mesh node Cube.846
+15:52:36 | INFO: Blender create Mesh node Cube.841
+15:52:36 | INFO: Blender create Mesh node Cube.590
+15:52:36 | INFO: Blender create Mesh node Cube.243
+15:52:36 | INFO: Blender create Mesh node Cube.464
+15:52:36 | INFO: Blender create Mesh node Cube.504
+15:52:36 | INFO: Blender create Mesh node Cube.375
+15:52:36 | INFO: Blender create Mesh node Cube.439
+15:52:36 | INFO: Blender create Mesh node Cube.050
+15:52:36 | INFO: Blender create Mesh node Cube.136
+15:52:36 | INFO: Blender create Mesh node Cube.139
+15:52:36 | INFO: Blender create Mesh node Cube.225
+15:52:36 | INFO: Blender create Mesh node Cube.726
+15:52:36 | INFO: Blender create Mesh node Cube.741
+15:52:36 | INFO: Blender create Mesh node Cube.745
+15:52:36 | INFO: Blender create Mesh node Cube.750
+15:52:36 | INFO: Blender create Mesh node Cube.003
+15:52:36 | INFO: Blender create Mesh node Cube.033
+15:52:36 | INFO: Blender create Mesh node Cube.044
+15:52:36 | INFO: Blender create Mesh node Cube.068
+15:52:36 | INFO: Blender create Mesh node Cube.070
+15:52:36 | INFO: Blender create Mesh node Cube.091
+15:52:36 | INFO: Blender create Mesh node Cube.095
+15:52:36 | INFO: Blender create Mesh node Cube.106
+15:52:36 | INFO: Blender create Mesh node Cube.109
+15:52:36 | INFO: Blender create Mesh node Cube.112
+15:52:36 | INFO: Blender create Mesh node Cube.113
+15:52:36 | INFO: Blender create Mesh node Cube.130
+15:52:36 | INFO: Blender create Mesh node Cube.140
+15:52:36 | INFO: Blender create Mesh node Cube.152
+15:52:36 | INFO: Blender create Mesh node Cube.219
+15:52:36 | INFO: Blender create Mesh node Cube.220
+15:52:36 | INFO: Blender create Mesh node Cube.221
+15:52:36 | INFO: Blender create Mesh node Cube.222
+15:52:36 | INFO: Blender create Mesh node Cube.228
+15:52:36 | INFO: Blender create Mesh node Cube.229
+15:52:36 | INFO: Blender create Mesh node Cube.230
+15:52:36 | INFO: Blender create Mesh node Cube.231
+15:52:36 | INFO: Blender create Mesh node Cube.248
+15:52:36 | INFO: Blender create Mesh node Cube.249
+15:52:36 | INFO: Blender create Mesh node Cube.250
+15:52:36 | INFO: Blender create Mesh node Cube.251
+15:52:36 | INFO: Blender create Mesh node Plane.102
+15:52:36 | INFO: Blender create Mesh node Plane.086
+15:52:36 | INFO: Blender create Mesh node Plane.085
+15:52:36 | INFO: Blender create Mesh node Plane.059
+15:52:36 | INFO: Blender create Mesh node Plane.080
+15:52:36 | INFO: Blender create Mesh node Plane.088
+15:52:36 | INFO: Blender create Mesh node Plane.008
+15:52:36 | INFO: Blender create Mesh node Plane.012
+15:52:36 | INFO: Blender create Mesh node Plane.014
+15:52:36 | INFO: Blender create Mesh node Plane.017
+15:52:36 | INFO: Blender create Mesh node Plane.022
+15:52:36 | INFO: Blender create Mesh node Plane.025
+15:52:36 | INFO: Blender create Mesh node Plane.002
+15:52:36 | INFO: Blender create Mesh node Plane.006
+15:52:36 | INFO: Blender create Mesh node Plane.009
+15:52:36 | INFO: Blender create Mesh node Cube.747
+15:52:36 | INFO: Blender create Mesh node Cube.742
+15:52:36 | INFO: Blender create Mesh node Cube.814
+15:52:36 | INFO: Blender create Mesh node Cube.591
+15:52:36 | INFO: Blender create Mesh node Cube.015
+15:52:36 | INFO: Blender create Mesh node Cube.035
+15:52:36 | INFO: Blender create Mesh node Cube.041
+15:52:36 | INFO: Blender create Mesh node Cube.047
+15:52:36 | INFO: Blender create Mesh node Cube.083
+15:52:36 | INFO: Blender create Mesh node Cube.084
+15:52:36 | INFO: Blender create Mesh node Cube.596
+15:52:36 | INFO: Blender create Mesh node Cube.604
+15:52:36 | INFO: Blender create Mesh node Cube.010
+15:52:36 | INFO: Blender create Mesh node Cube.038
+15:52:36 | INFO: Blender create Mesh node Cube.045
+15:52:36 | INFO: Blender create Mesh node Cube.597
+15:52:36 | INFO: Blender create Mesh node Cube.019
+15:52:36 | INFO: Blender create Mesh node Cube.048
+15:52:36 | INFO: Blender create Mesh node Cube.053
+15:52:36 | INFO: Blender create Mesh node Cube.066
+15:52:36 | INFO: Blender create Mesh node Cube.071
+15:52:36 | INFO: Blender create Mesh node Cube.073
+15:52:36 | INFO: Blender create Mesh node Cube.075
+15:52:36 | INFO: Blender create Mesh node Cube.094
+15:52:36 | INFO: Blender create Mesh node Cube.097
+15:52:36 | INFO: Blender create Mesh node Cube.599
+15:52:36 | INFO: Blender create Mesh node Cube.079
+15:52:36 | INFO: Blender create Mesh node Cube.080
+15:52:36 | INFO: Blender create Mesh node Cube.031
+15:52:36 | INFO: Blender create Mesh node Cube.037
+15:52:36 | INFO: Blender create Mesh node Cube.043
+15:52:36 | INFO: Blender create Mesh node Cube.049
+15:52:36 | INFO: Blender create Mesh node Cube.804
+15:52:36 | INFO: Blender create Mesh node Cube.809
+15:52:36 | INFO: Blender create Mesh node Cube.843
+15:52:36 | INFO: Blender create Mesh node Cube.023
+15:52:36 | INFO: Blender create Mesh node Cube.040
+15:52:36 | INFO: Blender create Mesh node Cube.108
+15:52:36 | INFO: Blender create Mesh node Cube.442
+15:52:36 | INFO: Blender create Mesh node Cube.443
+15:52:36 | INFO: Blender create Mesh node Cube.444
+15:52:36 | INFO: Blender create Mesh node Cube.445
+15:52:36 | INFO: Blender create Mesh node Cube.116
+15:52:36 | INFO: Blender create Mesh node Cube.352
+15:52:36 | INFO: Blender create Mesh node Plane.063
+15:52:36 | INFO: Blender create Mesh node Cube.018
+15:52:36 | INFO: Blender create Mesh node Plane.126
+15:52:36 | INFO: Blender create Mesh node Cube.004
+15:52:36 | INFO: Blender create Mesh node Cube.005
+15:52:36 | INFO: Blender create Mesh node Cube.021
+15:52:36 | INFO: Blender create Mesh node Cube.024
+15:52:36 | INFO: Blender create Mesh node Cube.052
+15:52:36 | INFO: Blender create Mesh node Cube.056
+15:52:36 | INFO: Blender create Mesh node Cube.061
+15:52:36 | INFO: Blender create Mesh node Cube.067
+15:52:36 | INFO: Blender create Mesh node Cube.069
+15:52:36 | INFO: Blender create Mesh node Cube.088
+15:52:36 | INFO: Blender create Mesh node Cube.090
+15:52:36 | INFO: Blender create Mesh node Cube.105
+15:52:36 | INFO: Blender create Mesh node Cube.107
+15:52:36 | INFO: Blender create Mesh node Cube.110
+15:52:36 | INFO: Blender create Mesh node Cube.111
+15:52:36 | INFO: Blender create Mesh node Cube.121
+15:52:36 | INFO: Blender create Mesh node Cube.123
+15:52:36 | INFO: Blender create Mesh node Cube.124
+15:52:36 | INFO: Blender create Mesh node Cube.125
+15:52:36 | INFO: Blender create Mesh node Cube.135
+15:52:36 | INFO: Blender create Mesh node Cube.138
+15:52:36 | INFO: Blender create Mesh node Plane.001
+15:52:36 | INFO: Blender create Mesh node Plane.003
+15:52:36 | INFO: Blender create Mesh node Plane.007
+15:52:36 | INFO: Blender create Mesh node Cube.154
+15:52:36 | INFO: Blender create Mesh node Cube.156
+15:52:36 | INFO: Blender create Mesh node Cube.158
+15:52:36 | INFO: Blender create Mesh node Cube.160
+15:52:36 | INFO: Blender create Mesh node Cube.162
+15:52:36 | INFO: Blender create Mesh node Cube.164
+15:52:36 | INFO: Blender create Mesh node Cube.174
+15:52:36 | INFO: Blender create Mesh node Cube.178
+15:52:36 | INFO: Blender create Mesh node Cube.215
+15:52:36 | INFO: Blender create Mesh node Cube.216
+15:52:36 | INFO: Blender create Mesh node Cube.217
+15:52:36 | INFO: Blender create Mesh node Cube.218
+15:52:36 | INFO: Blender create Mesh node Cube.232
+15:52:36 | INFO: Blender create Mesh node Cube.233
+15:52:36 | INFO: Blender create Mesh node Cube.234
+15:52:36 | INFO: Blender create Mesh node Cube.235
+15:52:36 | INFO: Blender create Mesh node Cube.236
+15:52:36 | INFO: Blender create Mesh node Cube.237
+15:52:36 | INFO: Blender create Mesh node Cube.238
+15:52:36 | INFO: Blender create Mesh node Cube.239
+15:52:36 | INFO: Blender create Mesh node Cube.252
+15:52:36 | INFO: Blender create Mesh node Plane.018
+15:52:36 | INFO: Blender create Mesh node Cube.273
+15:52:36 | INFO: Blender create Mesh node Cube.293
+15:52:36 | INFO: Blender create Mesh node Cube.297
+15:52:36 | INFO: Blender create Mesh node Cube.301
+15:52:36 | INFO: Blender create Mesh node Cube.305
+15:52:36 | INFO: Blender create Mesh node Cube.310
+15:52:36 | INFO: Blender create Mesh node Cube.315
+15:52:36 | INFO: Blender create Mesh node Cube.320
+15:52:36 | INFO: Blender create Mesh node Plane.028
+15:52:36 | INFO: Blender create Mesh node Cube.001
+15:52:36 | INFO: Blender create Mesh node Cube.007
+15:52:36 | INFO: Blender create Mesh node Cube.008
+15:52:36 | INFO: Blender create Mesh node Cube.009
+15:52:36 | INFO: Blender create Mesh node Plane.087
+15:52:36 | INFO: Blender create Mesh node Plane.099
+15:52:36 | INFO: Blender create Mesh node Plane.172
+15:52:36 | INFO: Blender create Mesh node Plane.093
+15:52:36 | INFO: Blender create Mesh node Cube.539
+15:52:36 | INFO: Blender create Mesh node Cube.765
+15:52:36 | INFO: Blender create Mesh node Cube.803
+15:52:36 | INFO: Blender create Mesh node Cube.807
+15:52:36 | INFO: Blender create Mesh node Cube.141
+15:52:36 | INFO: Blender create Mesh node Cube.143
+15:52:36 | INFO: Blender create Mesh node Cube.147
+15:52:36 | INFO: Blender create Mesh node Cube.255
+15:52:36 | INFO: Blender create Mesh node Cube.274
+15:52:36 | INFO: Blender create Mesh node Cube.294
+15:52:36 | INFO: Blender create Mesh node Cube.298
+15:52:36 | INFO: Blender create Mesh node Cube.302
+15:52:36 | INFO: Blender create Mesh node Cube.323
+15:52:36 | INFO: Blender create Mesh node Cube.322
+15:52:36 | INFO: Blender create Mesh node Cube.307
+15:52:36 | INFO: Blender create Mesh node Cube.313
+15:52:36 | INFO: Blender create Mesh node Cube.318
+15:52:36 | INFO: glTF import finished in 0.42s
+信息: 已另存为 "D04.blend"
+15:52:39 | INFO: Starting glTF 2.0 export
+15:52:39 | WARNING: Mesh Cube.285 is not valid, and may be exported wrongly
+15:52:39 | INFO: Extracting primitive: Cube.285
+15:52:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+15:52:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+15:52:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+15:52:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+15:52:40 | INFO: Primitives created: 6
+15:52:40 | INFO: Finished glTF 2.0 export in 0.513312816619873 s
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\AssetLibrary\environment\supplement\medieval-waterpowered-sawmill\extracted\WaterPoweredSawmillUpload.blend"
+Warning: region type 4 missing in space type "Info" (id: 7) - removing region
+Traceback (most recent call last):
+  File "C:\GameMake\tools\build_s10_buildings.py", line 255, in <module>
+    assert len(cols)>=4, f'Sawmill low post extraction failed: {len(cols)}'
+           ^^^^^^^^^^^^
+AssertionError: Sawmill low post extraction failed: 0
+
+S10 BUILT D04 50410 triangles
+
+Blender quit

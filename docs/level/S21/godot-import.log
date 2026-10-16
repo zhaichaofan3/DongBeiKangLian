@@ -1,0 +1,157 @@
+WorkerThreadPool: 16 threads, 12 max low-priority.
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: C:/Users/Administrator/AppData/Roaming/Godot/editor_settings-4.7.tres remapped: C:/Users/Administrator/AppData/Roaming/Godot/editor_settings-4.7.tres
+Completed load for: 'C:/Users/Administrator/AppData/Roaming/Godot/editor_settings-4.7.tres' remapped 'C:/Users/Administrator/AppData/Roaming/Godot/editor_settings-4.7.tres' at thread -1
+EditorSettings: Load OK!
+EditorTheme: Generating new theme for the config '3810048042'.
+EditorTheme: Generating new icons.
+EditorTheme: Generating new fonts.
+EditorTheme: Generating new styles.
+Loading resource: C:/Users/Administrator/AppData/Local/Godot/editor_doc_cache-4.7.res remapped: C:/Users/Administrator/AppData/Local/Godot/editor_doc_cache-4.7.res
+Loaded system CA certificates
+Completed load for: 'C:/Users/Administrator/AppData/Local/Godot/editor_doc_cache-4.7.res' remapped 'C:/Users/Administrator/AppData/Local/Godot/editor_doc_cache-4.7.res' at thread -1
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (1 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Started Preparing scenes for reload (1 steps)[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Analyzing scene [empty][39m[0m
+[  50% ] [90m[1mpreload_reimporting_scene[22m | Preparation done.[39m[0m
+[92m[ DONE ][39m [1mpreload_reimporting_scene[22m
+[0m
+[   0% ] [90m[1mreimport[22m | tianchi_artistic.glb[39m[0m
+EditorFileSystem: Importing file: res://assets/opening/tianchi_artistic.glb
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+glTF: Total buffers: 1
+glTF: Total buffer views: 20
+glTF: Total accessors: 20
+Total materials: 4
+glTF: Parsing mesh: 0
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+glTF: Parsing mesh: 1
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+glTF: Parsing mesh: 2
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+glTF: Parsing mesh: 3
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+glTF: Parsing mesh: 4
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+glTF: Parsing mesh: 5
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+WARNING: glTF import: Buffer view byte stride should be declared for vertex attributes. Assuming packed data and reading anyway.
+glTF: Total meshes: 6
+glTF: Creating mesh for: S21_Artistic_Crater_Ring
+glTF: Creating mesh for: S21_Deep_Blue_Lake
+glTF: Creating mesh for: S21_Talk_Platform_Base
+glTF: Creating mesh for: S21_Ridge_Cap_0
+glTF: Creating mesh for: S21_Ridge_Cap_1
+glTF: Creating mesh for: S21_Ridge_Cap_2
+LOD Generation: Triangles 768, vertices 448 (merged 448)
+  LOD 1: 384 triangles, error 0.00223521119915 (step error 0.00223521119915)
+  LOD 2: 192 triangles, error 0.01253797952086 (step error 0.01253797952086)
+  LOD 3: 128 triangles, error 0.06652384251356 (step error 0.06652384251356)
+  LOD stop: got 128 triangles when asking for 64
+LOD Generation: Triangles 64, vertices 65 (merged 65)
+  LOD stop: got 62 triangles when asking for 32
+LOD Generation: Triangles 80, vertices 63 (merged 63)
+  LOD 1: 40 triangles, error 0.12548239529133 (step error 0.12548239529133)
+  LOD 2: 20 triangles, error 0.18822360038757 (step error 0.1261124163866)
+  LOD 3: 10 triangles, error 0.69094640016556 (step error 0.69094640016556)
+  LOD stop: reached 1.03641963005066 cumulative error (step error 0.59453094005585)
+LOD Generation: Triangles 20, vertices 60 (merged 60)
+  LOD stop: got 20 triangles when asking for 10
+LOD Generation: Triangles 20, vertices 60 (merged 60)
+  LOD stop: got 20 triangles when asking for 10
+LOD Generation: Triangles 20, vertices 60 (merged 60)
+  LOD stop: got 20 triangles when asking for 10
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+Saving scene to: res://.godot/imported/tianchi_artistic.glb-df25e4e8465307ec4a11b49bc2db4866.scn
+[92m[ DONE ][39m [1mimport[22m
+[0m
+EditorFileSystem: "res://assets/opening/tianchi_artistic.glb" import took 67 ms.
+[  50% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (1 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Loading resource: res://main.tscn remapped: res://main.tscn
+Loading resource: res://scripts/mission.gd remapped: res://scripts/mission.gd
+Loading resource: res://assets/audio/rifle_arisaka_01.wav remapped: res://assets/audio/rifle_arisaka_01.wav
+Loading resource: res://.godot/imported/rifle_arisaka_01.wav-7f83b0c6d2c5bd1a5f19055a954e58a4.sample remapped: res://.godot/imported/rifle_arisaka_01.wav-7f83b0c6d2c5bd1a5f19055a954e58a4.sample
+Completed load for: 'res://assets/audio/rifle_arisaka_01.wav' remapped 'res://assets/audio/rifle_arisaka_01.wav' at thread -1
+Loading resource: res://assets/audio/step_grass_01.wav remapped: res://assets/audio/step_grass_01.wav
+Loading resource: res://.godot/imported/step_grass_01.wav-000846a276c460ce6a4b82a3523f634c.sample remapped: res://.godot/imported/step_grass_01.wav-000846a276c460ce6a4b82a3523f634c.sample
+Completed load for: 'res://assets/audio/step_grass_01.wav' remapped 'res://assets/audio/step_grass_01.wav' at thread -1
+Loading resource: res://assets/audio/forest_wind_loop.wav remapped: res://assets/audio/forest_wind_loop.wav
+Loading resource: res://.godot/imported/forest_wind_loop.wav-219462c40492f0a4fdc3e232a83c1f8e.sample remapped: res://.godot/imported/forest_wind_loop.wav-219462c40492f0a4fdc3e232a83c1f8e.sample
+Completed load for: 'res://assets/audio/forest_wind_loop.wav' remapped 'res://assets/audio/forest_wind_loop.wav' at thread -1
+Loading resource: res://assets/first_person/hand_left.glb remapped: res://assets/first_person/hand_left.glb
+Loading resource: res://.godot/imported/hand_left.glb-7c3f54a1c032d99f37b35e5ca7cb84a7.scn remapped: res://.godot/imported/hand_left.glb-7c3f54a1c032d99f37b35e5ca7cb84a7.scn
+Loading resource: res://assets/first_person/hand_left_skin_diffuse.png remapped: res://assets/first_person/hand_left_skin_diffuse.png
+Loading resource: res://.godot/imported/hand_left_skin_diffuse.png-e1bfa644978e6ebdd38b2a0be615bd06.ctex remapped: res://.godot/imported/hand_left_skin_diffuse.png-e1bfa644978e6ebdd38b2a0be615bd06.ctex
+Completed load for: 'res://assets/first_person/hand_left_skin_diffuse.png' remapped 'res://assets/first_person/hand_left_skin_diffuse.png' at thread -1
+Completed load for: 'res://assets/first_person/hand_left.glb' remapped 'res://assets/first_person/hand_left.glb' at thread -1
+Loading resource: res://assets/first_person/hand_right.glb remapped: res://assets/first_person/hand_right.glb
+Loading resource: res://.godot/imported/hand_right.glb-e81316809e0d7f6e9cb9cc08308e1a16.scn remapped: res://.godot/imported/hand_right.glb-e81316809e0d7f6e9cb9cc08308e1a16.scn
+Loading resource: res://assets/first_person/hand_right_skin_diffuse.png remapped: res://assets/first_person/hand_right_skin_diffuse.png
+Loading resource: res://.godot/imported/hand_right_skin_diffuse.png-173d029e8c45acb132d3d7bf5b422166.ctex remapped: res://.godot/imported/hand_right_skin_diffuse.png-173d029e8c45acb132d3d7bf5b422166.ctex
+Completed load for: 'res://assets/first_person/hand_right_skin_diffuse.png' remapped 'res://assets/first_person/hand_right_skin_diffuse.png' at thread -1
+Completed load for: 'res://assets/first_person/hand_right.glb' remapped 'res://assets/first_person/hand_right.glb' at thread -1
+Loading resource: res://assets/audio/river_bank_loop.wav remapped: res://assets/audio/river_bank_loop.wav
+Loading resource: res://.godot/imported/river_bank_loop.wav-65d448a33312badb2a3393a82f84451d.sample remapped: res://.godot/imported/river_bank_loop.wav-65d448a33312badb2a3393a82f84451d.sample
+Completed load for: 'res://assets/audio/river_bank_loop.wav' remapped 'res://assets/audio/river_bank_loop.wav' at thread -1
+Loading resource: res://assets/audio/radio_room_loop.wav remapped: res://assets/audio/radio_room_loop.wav
+Loading resource: res://.godot/imported/radio_room_loop.wav-be2b483a7a3c4bd8c5d16b72a6cea34a.sample remapped: res://.godot/imported/radio_room_loop.wav-be2b483a7a3c4bd8c5d16b72a6cea34a.sample
+Completed load for: 'res://assets/audio/radio_room_loop.wav' remapped 'res://assets/audio/radio_room_loop.wav' at thread -1
+Loading resource: res://assets/audio/power_switch_off.wav remapped: res://assets/audio/power_switch_off.wav
+Loading resource: res://.godot/imported/power_switch_off.wav-f56c0eec9b9d109b33a0be280ebdf68c.sample remapped: res://.godot/imported/power_switch_off.wav-f56c0eec9b9d109b33a0be280ebdf68c.sample
+Completed load for: 'res://assets/audio/power_switch_off.wav' remapped 'res://assets/audio/power_switch_off.wav' at thread -1
+Completed load for: 'res://scripts/mission.gd' remapped 'res://scripts/mission.gd' at thread -1
+Completed load for: 'res://main.tscn' remapped 'res://main.tscn' at thread -1
+Script docs haven't been properly loaded or regenerated, so don't save them to disk.
+EditorSettings: Save OK!
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Orphan StringName: Node (static: 3, total: 4)
+StringName: 1 unclaimed string names at exit.

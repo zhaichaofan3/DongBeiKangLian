@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Opening data records both formal segments
+PASS: A/B formal production boundaries are explicit
+PASS: All 16 authored B shots carry the formal S33 status
+PASS: B1-B6 has all 14 dialogue cues and the shared temporary voice set
+B1 SAMPLE: { "shot": "B-01", "cue": "B1-L01", "peer": true, "badge": "任务序幕 · B-01  |  正式任务序幕 · 艺术化天池 · 已接入场景层" }
+PASS: B1 starts the two-person Tianchi exchange with its formal label
+PASS: B3 states the original rendezvous and keeps the departure route available
+PASS: B4 compresses the multi-day journey with separate time/place cards
+PASS: B5 reveals Lu Shan's injury and roster risk without starting gameplay combat
+PASS: B6 final dialogue leaves the player-facing handoff cue visible
+B6 SAMPLE: { "shot": "B-16", "cue": "", "fov": 78.0, "clock": 79.5 }
+PASS: B6 ends on the authored player-facing handoff composition
+PASS: B1-B6 previews leave gameplay resources and objectives unchanged
+PASS: Continuous task prologue playback reaches all B shots and dialogue cues
+PASS: B6 commits one and only one gameplay handoff
+PASS: Handoff marks briefing complete while leaving objectives and ammunition untouched
+PASS: Player camera and start anchor are restored at handoff
+PASS: Repeated finish cannot duplicate the task handoff
+S33 TASK FORMAL: PASS | checks=16
+WARNING: 2 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

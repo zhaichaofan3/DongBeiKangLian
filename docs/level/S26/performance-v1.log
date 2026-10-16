@@ -1,0 +1,128 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+S26 BENCH: {"effects_enabled":false,"frames":835,"lighting":"day","mean_draw_calls":902.0,"mean_frame_ms":3.59410898203593,"p95_frame_ms":4.389}
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+S26 BENCH: {"effects_enabled":true,"frames":822,"lighting":"day","mean_draw_calls":913.377128953771,"mean_frame_ms":3.65207785888078,"p95_frame_ms":4.601}
+S26 BENCH: {"effects_enabled":false,"frames":881,"lighting":"dim","mean_draw_calls":898.0,"mean_frame_ms":3.40608853575482,"p95_frame_ms":4.196}
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+SCRIPT ERROR: Trying to assign invalid previously freed instance.
+   at: _process (res://tests/s26_performance.gd:27)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://tests/s26_performance.gd:27)
+S26 BENCH: {"effects_enabled":true,"frames":748,"lighting":"dim","mean_draw_calls":910.850267379679,"mean_frame_ms":4.01478877005348,"p95_frame_ms":4.983}
+S26 PERFORMANCE: PASS

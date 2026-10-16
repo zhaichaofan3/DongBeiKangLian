@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-13",
+  "step": "S01",
+  "issues": [
+    {
+      "id": "BASE-01",
+      "category": "版本标记",
+      "finding": "发布记录为 0.6.1，project.godot 的 config/version 仍为 0.6；性能报告会继承内部旧版本字段。",
+      "evidence": ["GodotProject/project.godot", "Release/release_validation.json"],
+      "next_steps": ["S36"],
+      "decision": "本步保留基线，报告同时登记发布版本与内部字段；下次正式构建时统一版本标记。"
+    },
+    {
+      "id": "BASE-02",
+      "category": "NPC 动作与外观",
+      "finding": "现有四类 NPC 使用 13 骨的程序驱动动作，共用基础脸型；通用下载动作尚未接入，尚需逐角色走跑、倒地与交流表现验收。",
+      "evidence": ["docs/v06_production.md", "GodotProject/scripts/human_model.gd", "GodotProject/scripts/field_character_rig.gd"],
+      "next_steps": ["S14", "S15", "S16", "S17", "S18", "S19", "S24"],
+      "decision": "先盘点兼容性，再校准脚步与实际位移；现有程序断言通过不等于表演质量完成。"
+    },
+    {
+      "id": "BASE-03",
+      "category": "第一人称手与持枪",
+      "finding": "0.6.1 已增加手部细分与袖口，仍为风格化模型，沿用原始皮肤颜色贴图；接触检查主要使用关节代理，拉栓时右袖仍占据部分视野。",
+      "evidence": ["docs/v061_hands.md", "GodotProject/VERIFICATION.md"],
+      "next_steps": ["S17"],
+      "decision": "保留可编辑源和既有握点；后续结合连续动作画面检查软组织、逐面接触及视野遮挡。"
+    },
+    {
+      "id": "BASE-04",
+      "category": "新资源接入",
+      "finding": "新采集的 11 组建筑布景尚未进入正式关卡；包含尺度异常、敞顶结构、立面散件与偏日式塔楼；16 项网上候选不包含本地模型文件。",
+      "evidence": ["AssetLibrary/environment/china_northeast_20261013/README.md", "AssetLibrary/environment/china_northeast_20261013/manifest.json"],
+      "next_steps": ["S02", "S10", "S11", "S12", "S13"],
+      "decision": "逐项登记去向和改造需求，不把预览、导入成功或候选页面记为游戏内使用。"
+    },
+    {
+      "id": "BASE-05",
+      "category": "天池与双段开场",
+      "finding": "已有天池是公开高程样板；用户要求的艺术化火山口湖、谈话场地与正式双段开场仍未制作。",
+      "evidence": ["docs/production_plan.md", "AssetLibrary/environment/china_northeast_20261013/terrain/terrain_metadata.json"],
+      "next_steps": ["S03", "S04", "S05", "S06", "S07", "S20", "S21", "S22", "S23", "S24", "S25", "S32", "S33", "S34"],
+      "decision": "先锁定故事接口与分镜，再用现有场景做草案；新天池明确作为艺术化派生场景。"
+    },
+    {
+      "id": "BASE-06",
+      "category": "声音与战争效果",
+      "finding": "本轮规划的增强枪火、炮弹、场景 BGM 与完整中文旁白对白尚未接入，不能以已有枪声和短对白代替。",
+      "evidence": ["docs/production_plan.md", "GodotProject/ASSET_SOURCES.md", "GodotProject/scripts/story_moments.gd"],
+      "next_steps": ["S26", "S27", "S28", "S29", "S30", "S31"],
+      "decision": "按镜头与游戏状态分层制作，实录或生成的最终配音明确登记来源和状态。"
+    },
+    {
+      "id": "BASE-07",
+      "category": "验收边界",
+      "finding": "自动控制器可验证正常 AI、路线、开火和撤离状态，但其精确瞄准不能代表真人难度、战友情绪或实际游玩时长。",
+      "evidence": ["GodotProject/tests/combat_route.gd", "docs/v05_production.md"],
+      "next_steps": ["S35", "S36"],
+      "decision": "性能报告区分固定机位、移动／开火和双方近期射击样本；最终保留人工试玩与视听验收。"
+    }
+  ]
+}

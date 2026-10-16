@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: S12 far forest layer has twelve authored pine instances
+PASS: S12 middle forest layer has eight authored pine instances
+PASS: S12 landscape visual nodes are present
+PASS: S12 visual layer adds no physics bodies
+PASS: S12 keeps the reviewed navigation grid
+PASS: Checkpoint to timber route remains traversable
+PASS: Office to river route remains traversable
+S12 LANDSCAPE RESULT: 7/7 passed

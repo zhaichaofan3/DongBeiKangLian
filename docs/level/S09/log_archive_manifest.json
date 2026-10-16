@@ -1,0 +1,218 @@
+[
+  {
+    "raw": "docs/level/S09/combat-cycle-fixed.log",
+    "archive": "docs/level/S09/combat-cycle-fixed.log.gz",
+    "raw_bytes": 171,
+    "raw_sha256": "a60915ec3eefae657312c96b51a43e3493ebc4f0ec9df53b16878dcb69a60410",
+    "gzip_bytes": 190,
+    "gzip_sha256": "def299e9e4ada4de02a0abf7724593d327cf9b8731a992064700268b44a50295"
+  },
+  {
+    "raw": "docs/level/S09/compile-error-smoke.log",
+    "archive": "docs/level/S09/compile-error-smoke.log.gz",
+    "raw_bytes": 32652320,
+    "raw_sha256": "d19173b2dc6fd3bbaf1d552b3ff3dfdfa05639a4de21fa2b51536b77b12daa80",
+    "gzip_bytes": 127262,
+    "gzip_sha256": "e3f1dce6cbfb6b461d1a8182831cc050748de4c33744024861b7b654bcae89cf"
+  },
+  {
+    "raw": "docs/level/S09/direct-01/runtime.log",
+    "archive": "docs/level/S09/direct-01/runtime.log.gz",
+    "raw_bytes": 403,
+    "raw_sha256": "01c7b9d9f947c5f55abda45f48be8119547fb4434f69e07870790788fff0cf1d",
+    "gzip_bytes": 312,
+    "gzip_sha256": "b2561df9dea27a9da7c3970ab5d54d5e6f5e824b4bb1052b51391e20833f313d"
+  },
+  {
+    "raw": "docs/level/S09/direct-final-02/runtime.log",
+    "archive": "docs/level/S09/direct-final-02/runtime.log.gz",
+    "raw_bytes": 241,
+    "raw_sha256": "84feeb1bd1688d80f64815e84252e27e4c61f41fd39917d0fad5c3af93f4905b",
+    "gzip_bytes": 225,
+    "gzip_sha256": "53dab8a1a605192c039d102e2abd912140772d9078ba7932bcef52c64db9b9e1"
+  },
+  {
+    "raw": "docs/level/S09/direct-render-01/runtime.log",
+    "archive": "docs/level/S09/direct-render-01/runtime.log.gz",
+    "raw_bytes": 241,
+    "raw_sha256": "84feeb1bd1688d80f64815e84252e27e4c61f41fd39917d0fad5c3af93f4905b",
+    "gzip_bytes": 225,
+    "gzip_sha256": "53dab8a1a605192c039d102e2abd912140772d9078ba7932bcef52c64db9b9e1"
+  },
+  {
+    "raw": "docs/level/S09/direct-render-final/runtime.log",
+    "archive": "docs/level/S09/direct-render-final/runtime.log.gz",
+    "raw_bytes": 20537781,
+    "raw_sha256": "ecb502ed5521f58fac6a76a76151530594ce85a06b3a9c59164d9569c91d9ad8",
+    "gzip_bytes": 80376,
+    "gzip_sha256": "6870b2f4378f5d8369a20afdc076c0821865cb4adbdeffccd7d6a64348b04178"
+  },
+  {
+    "raw": "docs/level/S09/full-01/runtime.log",
+    "archive": "docs/level/S09/full-01/runtime.log.gz",
+    "raw_bytes": 131,
+    "raw_sha256": "55210400ed37a659c1e556bf2868048a99b6ecad1b49d308a6177f3a02c40624",
+    "gzip_bytes": 149,
+    "gzip_sha256": "439caea9f5064f37d7e27dd69aed5720a9a9c5e225b5c0c5f2c65c5d2249077c"
+  },
+  {
+    "raw": "docs/level/S09/full-final/runtime.log",
+    "archive": "docs/level/S09/full-final/runtime.log.gz",
+    "raw_bytes": 131,
+    "raw_sha256": "55210400ed37a659c1e556bf2868048a99b6ecad1b49d308a6177f3a02c40624",
+    "gzip_bytes": 149,
+    "gzip_sha256": "439caea9f5064f37d7e27dd69aed5720a9a9c5e225b5c0c5f2c65c5d2249077c"
+  },
+  {
+    "raw": "docs/level/S09/geometry-01/runtime.log",
+    "archive": "docs/level/S09/geometry-01/runtime.log.gz",
+    "raw_bytes": 104,
+    "raw_sha256": "402f72eb8bc04c4b3b5235a8fea6b6334bbe78c785c935afde70cdf91b55fbe5",
+    "gzip_bytes": 131,
+    "gzip_sha256": "cd3477e58ecd15786cbcc58b31a949e2c292083866cdf25d881647b6d6a23c5f"
+  },
+  {
+    "raw": "docs/level/S09/geometry-02/runtime.log",
+    "archive": "docs/level/S09/geometry-02/runtime.log.gz",
+    "raw_bytes": 104,
+    "raw_sha256": "402f72eb8bc04c4b3b5235a8fea6b6334bbe78c785c935afde70cdf91b55fbe5",
+    "gzip_bytes": 131,
+    "gzip_sha256": "cd3477e58ecd15786cbcc58b31a949e2c292083866cdf25d881647b6d6a23c5f"
+  },
+  {
+    "raw": "docs/level/S09/geometry-final/runtime.log",
+    "archive": "docs/level/S09/geometry-final/runtime.log.gz",
+    "raw_bytes": 159414381,
+    "raw_sha256": "add0c48aadb7064e7677944ea480720e19d1971045919cc731875060ca48a071",
+    "gzip_bytes": 618996,
+    "gzip_sha256": "c0e6d99403d2de5f8b07167da9d29bfa3769832590ac388f8ec47bdf8ff6fc46"
+  },
+  {
+    "raw": "docs/level/S09/geometry-final-02/runtime.log",
+    "archive": "docs/level/S09/geometry-final-02/runtime.log.gz",
+    "raw_bytes": 104,
+    "raw_sha256": "782f4cf3eeb1aea462c1a4d61723db9c8e08f4637327d2424279fb3761aac620",
+    "gzip_bytes": 131,
+    "gzip_sha256": "fa9a5e3cc65de2a771d17a1c9997fa1bdbb3133c2a5d0a646096f336e3cab0b7"
+  },
+  {
+    "raw": "docs/level/S09/geometry-verbose.log",
+    "archive": "docs/level/S09/geometry-verbose.log.gz",
+    "raw_bytes": 67643,
+    "raw_sha256": "4cb0d97be2855adf98bb46d930e7053b50816c5bcf9164bce0cb1a08cc547811",
+    "gzip_bytes": 5907,
+    "gzip_sha256": "efee696cbe49f9a60243232d4650614ce2ce79968d873900eb24727dce58b5d5"
+  },
+  {
+    "raw": "docs/level/S09/initial-combat.log",
+    "archive": "docs/level/S09/initial-combat.log.gz",
+    "raw_bytes": 171,
+    "raw_sha256": "a60915ec3eefae657312c96b51a43e3493ebc4f0ec9df53b16878dcb69a60410",
+    "gzip_bytes": 186,
+    "gzip_sha256": "d73b93f747ac03850219f94a2677a91c382dbd457f255c95838be25a2d46594f"
+  },
+  {
+    "raw": "docs/level/S09/initial-smoke.log",
+    "archive": "docs/level/S09/initial-smoke.log.gz",
+    "raw_bytes": 6375,
+    "raw_sha256": "d8b01a2fef9987c34dddbb15bf4bd8954111acd5aa008ec249b918d514f493a9",
+    "gzip_bytes": 2431,
+    "gzip_sha256": "5e9b809ba75fc6d423f8264e3b7cd72e1fdf5c77b5541498c478d11dcbee7214"
+  },
+  {
+    "raw": "docs/level/S09/opening-regression/runtime.log",
+    "archive": "docs/level/S09/opening-regression/runtime.log.gz",
+    "raw_bytes": 2293,
+    "raw_sha256": "5cac98f731e601b675e7426e29499808c55ebb1965e7d53d8eb70a2957fdd45f",
+    "gzip_bytes": 911,
+    "gzip_sha256": "4bec4b2fbe48eea0d65eb681698037c2c3c9eda311bb0d19efb14210aacb5da5"
+  },
+  {
+    "raw": "docs/level/S09/overview/runtime.log",
+    "archive": "docs/level/S09/overview/runtime.log.gz",
+    "raw_bytes": 227,
+    "raw_sha256": "4ffa25c3ef5f8eb6d19f29db88ee21de7aa6ee0cf66b02bd5921c74ae4087116",
+    "gzip_bytes": 218,
+    "gzip_sha256": "3b34897051da20a890e3af2c0dacda31cab4eb25448280177cc446361248dd12"
+  },
+  {
+    "raw": "docs/level/S09/overview-final/runtime.log",
+    "archive": "docs/level/S09/overview-final/runtime.log.gz",
+    "raw_bytes": 227,
+    "raw_sha256": "4ffa25c3ef5f8eb6d19f29db88ee21de7aa6ee0cf66b02bd5921c74ae4087116",
+    "gzip_bytes": 218,
+    "gzip_sha256": "3b34897051da20a890e3af2c0dacda31cab4eb25448280177cc446361248dd12"
+  },
+  {
+    "raw": "docs/level/S09/regression/character-model.log",
+    "archive": "docs/level/S09/regression/character-model.log.gz",
+    "raw_bytes": 2292,
+    "raw_sha256": "14fdf151984cfd10ccc2090d7f7fcb18d726bd700473a457f7a37dacd624d688",
+    "gzip_bytes": 795,
+    "gzip_sha256": "58d8a35f48a97ab1aab8b4380c0fbc81633409eb8bd4bd69ec6b2a889f37eef0"
+  },
+  {
+    "raw": "docs/level/S09/regression/combat-route.log",
+    "archive": "docs/level/S09/regression/combat-route.log.gz",
+    "raw_bytes": 171,
+    "raw_sha256": "a60915ec3eefae657312c96b51a43e3493ebc4f0ec9df53b16878dcb69a60410",
+    "gzip_bytes": 184,
+    "gzip_sha256": "5054fb44b39abfd70110a47e3f57e42ab58dec687a06fd304d853190a12fdfb7"
+  },
+  {
+    "raw": "docs/level/S09/regression/linear-route.log",
+    "archive": "docs/level/S09/regression/linear-route.log.gz",
+    "raw_bytes": 2364,
+    "raw_sha256": "2c39a8bf2b875ebf8d9b5478e4ad643baa66702eb24e4703c755c579ee59ab4c",
+    "gzip_bytes": 1041,
+    "gzip_sha256": "36eaa3bd21f2a2a98cd32b220dc24f55215a4a15f04288be37b0c81aaebf6d3a"
+  },
+  {
+    "raw": "docs/level/S09/regression/smoke.log",
+    "archive": "docs/level/S09/regression/smoke.log.gz",
+    "raw_bytes": 5298,
+    "raw_sha256": "b79e5f3ee45bfabfd905b85a37c736c2a3f544b7e33fb5f02a8c95d52c11c4c1",
+    "gzip_bytes": 2145,
+    "gzip_sha256": "bc5bca9849a3e7d984ff61f466fdc2e61608a8bfba99e96e867ab2d044964e99"
+  },
+  {
+    "raw": "docs/level/S09/regression/story-moments.log",
+    "archive": "docs/level/S09/regression/story-moments.log.gz",
+    "raw_bytes": 683,
+    "raw_sha256": "53be442e1fb66f4789780a5c7e2bf81d9459e3a796b31200a307cefc46e5e208",
+    "gzip_bytes": 423,
+    "gzip_sha256": "49a813b64ae5c800bed077428ac3d0608bc0c17c337bdbad30729b7ab06df613"
+  },
+  {
+    "raw": "docs/level/S09/regression/visual-motion.log",
+    "archive": "docs/level/S09/regression/visual-motion.log.gz",
+    "raw_bytes": 3394,
+    "raw_sha256": "eedd45436a43d05a3a2b7722998e95be6126604b6ad3fdff3eb9a83edb4c1a33",
+    "gzip_bytes": 1487,
+    "gzip_sha256": "f8efd16b138d61e5681710d802d46a04c49c79b8a2cf3be385d66802bb52c8a8"
+  },
+  {
+    "raw": "docs/level/S09/skip-01/runtime.log",
+    "archive": "docs/level/S09/skip-01/runtime.log.gz",
+    "raw_bytes": 3432,
+    "raw_sha256": "8506796df8154ee818b9875708ab4a5fe2cc298a440b7f131bfac1d53957b5d4",
+    "gzip_bytes": 676,
+    "gzip_sha256": "0538c02d1d683cac6af2b215cca8b06b4a1e422504a99db41be23261dff6d4f3"
+  },
+  {
+    "raw": "docs/level/S09/skip-02/runtime.log",
+    "archive": "docs/level/S09/skip-02/runtime.log.gz",
+    "raw_bytes": 133,
+    "raw_sha256": "047eee37d5b71a02e1de74c4629206c39fa6df52e2282c303e533ee3587564ff",
+    "gzip_bytes": 152,
+    "gzip_sha256": "2c020109d677b359513bc05367728a101dc8afcef2488c23f5a733c4c589e9f7"
+  },
+  {
+    "raw": "docs/level/S09/skip-final/runtime.log",
+    "archive": "docs/level/S09/skip-final/runtime.log.gz",
+    "raw_bytes": 133,
+    "raw_sha256": "047eee37d5b71a02e1de74c4629206c39fa6df52e2282c303e533ee3587564ff",
+    "gzip_bytes": 152,
+    "gzip_sha256": "2c020109d677b359513bc05367728a101dc8afcef2488c23f5a733c4c589e9f7"
+  }
+]

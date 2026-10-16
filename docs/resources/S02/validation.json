@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-13",
+  "step": "S02",
+  "records": 105,
+  "counts": {
+    "downloaded_source_group": 85,
+    "local_derived_group": 3,
+    "web_candidate_not_downloaded": 17
+  },
+  "categories": {
+    "environment": 45,
+    "characters": 4,
+    "first_person": 1,
+    "weapons": 1,
+    "audio": 23,
+    "architecture": 11,
+    "derived": 3,
+    "candidate": 17
+  },
+  "planned_dispositions": {
+    "正式使用": 38,
+    "改造": 33,
+    "备用": 28,
+    "过场": 3,
+    "远景": 3
+  },
+  "registered_file_checks": 1109,
+  "unique_checked_files": 1055,
+  "checksum_failures": 1,
+  "geometry_files_measured": 105,
+  "blender_sources_measured": 4,
+  "recorded_document_variations": 1,
+  "unresolved_checksum_failures": 0,
+  "geometry_inspection_failures": 0,
+  "recorded_adaptation_findings": 8,
+  "original_audio_files": 510,
+  "prepared_audio_files": 52,
+  "integrated_source_groups": 28,
+  "game_source_files_unchanged": 279,
+  "game_source_modified": [],
+  "scope": "Read-only source audit and planned placement. Existing source copies and code references checked; no new game assets integrated; no new subjective listening or gameplay test.",
+  "validation_passed": true,
+  "known_missing_dependencies_are_adaptation_items": true
+}

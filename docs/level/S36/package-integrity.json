@@ -1,0 +1,6 @@
+{
+  "all_passed": true,
+  "files_verified": 169,
+  "manifest": "Release/SHA256SUMS.txt",
+  "method": "Read every listed file and independently recompute SHA-256"
+}

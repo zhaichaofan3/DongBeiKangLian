@@ -1,0 +1,72 @@
+{
+  "all_passed": false,
+  "checks": [
+    {
+      "description": "B1 cue enables the second actor and the speaker action",
+      "passed": true
+    },
+    {
+      "description": "Tianchi peer stands on the S22 platform without foot drift",
+      "passed": true
+    },
+    {
+      "description": "B2 player line switches the speaking role",
+      "passed": true
+    },
+    {
+      "description": "B2 listener waits for the line before turning",
+      "passed": true
+    },
+    {
+      "description": "B2 response adds a restrained hand and breath gesture",
+      "passed": true
+    },
+    {
+      "description": "B3 route briefing points toward the departure path",
+      "passed": true
+    },
+    {
+      "description": "B5 restores the two-person forest meeting on the gameplay layer",
+      "passed": false
+    },
+    {
+      "description": "B5 question uses a short forward response turn",
+      "passed": true
+    },
+    {
+      "description": "B4 travel montage hides the conversation peer",
+      "passed": true
+    },
+    {
+      "description": "Performance copy never changes player control mode or ground anchor",
+      "passed": true
+    },
+    {
+      "description": "Conversation acting leaves mission state untouched",
+      "passed": true
+    }
+  ],
+  "cue_samples": [
+    "B1-L01",
+    "B2-L01",
+    "B2-L02",
+    "B3-L01",
+    "B5-L01",
+    "B5-L02"
+  ],
+  "method": "Headless opening preview at authored dialogue cue windows; speaker/listener transform, layer, anchor and mission-state checks.",
+  "peer_anchor": {
+    "forest": [
+      9.4,
+      0.08,
+      82.35
+    ],
+    "tianchi": [
+      497.2,
+      26.0,
+      146.3
+    ]
+  },
+  "status": "failed",
+  "step": "S24"
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/barbed_wire.glb",
+    "sha256": "ff66fdc0767ecd25d0a5d28aabf28a0e2fe991935e491ee1b31b90e4b9c17ead",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/barbed_wire.blend",
+    "source_sha256": "ebd94ca05b546b63b75732be326016a0d9ce672c3dda8adbe4f3b55d49018e7d",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/boat.glb",
+    "sha256": "081cbea4366faf858411a5495504cdb38da507dafa69340d803c1d672cdab78c",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/boat.blend",
+    "source_sha256": "5e4e572e39f0ee7270615e63d67e7f48cf11d2629cf5d3e406d9f64cb02f223e",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/camp_1.glb",
+    "sha256": "f19cf9b4be98242ff2bafb5c3bd7de228c59f52cfe6be719a58935318917cff3",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/camp_1.blend",
+    "source_sha256": "8964bb07a71b1fa6c76bb961a4fe553613b01aecb1c4129f5efb608cfccbd7aa",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/camp_2.glb",
+    "sha256": "67741d16bd3c358b96f81411cc32bd94aec55128fde67bc109882b84fb7df571",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/camp_2.blend",
+    "source_sha256": "421e25132aa8d936fd24345c732c61250093f0929bdf52f9044d540016f2289f",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/camp_3.glb",
+    "sha256": "c7f8cf5cb7cec0c53097d9506b5df5e1cdea60353a636140921b4724963d59e0",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/camp_3.blend",
+    "source_sha256": "e7cba6e7271d6b177773400b04166fa28b3ebe90aadebaeb108467b91329e29f",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/camp_4.glb",
+    "sha256": "c83743d8dd77ce392956e06d1705622939e8ca585521aea3a9e85d973c3665e4",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/camp_4.blend",
+    "source_sha256": "fa454d3c520651cdc905e3592b6e2f331c986ff67ed1e2eab2bcc923aff4e064",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/dock.glb",
+    "sha256": "679f4d1cb4a8314443542d64f00d50bb60dca0e965475ad8a5c91599406019f9",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/dock.blend",
+    "source_sha256": "d557628e8c1ad35676289ee6badc6d8cf5ccaa0e209d4cb7de7e2526486b9bb5",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/kar98k.glb",
+    "sha256": "aca586c09c0131f898de5d89abcd03390d6838f9ce5f8a0aa85e0bafb0053441",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/kar98k.blend",
+    "source_sha256": "5913133f9f880780e777fe6b80e3e2ac3f035a341d51c66f49821b0a4b55ee26",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/office.glb",
+    "sha256": "b71accc8c3d5293dfe6e96075aee9482d0eca6109bfc6a0b9ebf5d496238c7a9",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/office.blend",
+    "source_sha256": "b3d9dde14d18e06b6d5b87de2241ae841e7d32cb717879e01501f8ea64fa7598",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/river.glb",
+    "sha256": "1ef54e09a26379920d9b461032b8acc5667b80096b2fda2495374f002bb739b1",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/river.blend",
+    "source_sha256": "e07a78294f17d745c955ddf3c82eaf12b80ce03d12e0369af7888970d20d603c",
+    "usage": "active"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/village_1.glb",
+    "sha256": "53d90cbfff1d68df32b1c8b5b507fc2218d5898ced91278bcb2a6f4c7d947105",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/village_1.blend",
+    "source_sha256": "6f07d5ed4efd6a76b394a92584c0cb4131be4aa1c169591063a3dc4abe805347",
+    "usage": "retained_previous_derivative"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/village_2.glb",
+    "sha256": "0a9c864b062f093aa72c1b7dca26f4efb0678cc64da326bbe826f3cc5631194e",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/village_2.blend",
+    "source_sha256": "e2d491052e2a1dc16c64add6b8c4ab15b78ee1fb78cde0a9385ca0c605ca55ab",
+    "usage": "retained_previous_derivative"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/village_3.glb",
+    "sha256": "88b4072def87400740b0e1c823d4f08fc7c117b956be0e6ca339756a3e2bda1f",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/village_3.blend",
+    "source_sha256": "f61e771e15525782570c9398b6128e8e6411b0b826202621b34994cf713ae2ac",
+    "usage": "retained_previous_derivative"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/village_4.glb",
+    "sha256": "ae1beee6e9ef2d2d40c9b1960deaed95bee32d6acca6ac25c9688752bfe18ce4",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/village_4.blend",
+    "source_sha256": "01bfc080f1da2585691fa0e761c383d9975db7985567238a0e21bb0bf0fe9b83",
+    "usage": "retained_previous_derivative"
+  },
+  {
+    "path": "GodotProject/assets/user_expansion_20261015/village_complete.glb",
+    "sha256": "305e39ff5285c08c8c81409629c559a17d4702b6fe9a180942b9189b3a7a10da",
+    "editable_source": "AssetLibrary/derived/user_expansion_20261015/village_complete.blend",
+    "source_sha256": "0f11c69587adb49eaace8f97055800d7986ffdc06c2d0a2a6561cc263dc49fa7",
+    "usage": "active"
+  }
+]

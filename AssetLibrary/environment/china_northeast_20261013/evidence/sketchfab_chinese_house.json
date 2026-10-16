@@ -1,0 +1,2518 @@
+{
+  "cursors": {
+    "next": "12",
+    "previous": null
+  },
+  "next": "https://api.sketchfab.com/v3/search?count=12&cursor=12&downloadable=true&q=chinese+house&sort_by=-likeCount&type=models",
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/0bceb4f2d7444809b022ba864ac03df3",
+      "uid": "0bceb4f2d7444809b022ba864ac03df3",
+      "name": "Make your own steampunk house",
+      "staffpickedAt": "2021-11-08T09:25:37.590095",
+      "viewCount": 69809,
+      "likeCount": 3147,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-0bceb4f2d7444809b022ba864ac03df3",
+      "embedUrl": "https://sketchfab.com/models/0bceb4f2d7444809b022ba864ac03df3/embed",
+      "commentCount": 31,
+      "isDownloadable": true,
+      "publishedAt": "2021-11-03T00:12:18.672205",
+      "tags": [
+        {
+          "name": "gate",
+          "slug": "gate",
+          "uri": "https://api.sketchfab.com/v3/tags/gate"
+        },
+        {
+          "name": "steampunk",
+          "slug": "steampunk",
+          "uri": "https://api.sketchfab.com/v3/tags/steampunk"
+        },
+        {
+          "name": "roof",
+          "slug": "roof",
+          "uri": "https://api.sketchfab.com/v3/tags/roof"
+        },
+        {
+          "name": "pack",
+          "slug": "pack",
+          "uri": "https://api.sketchfab.com/v3/tags/pack"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "torii",
+          "slug": "torii",
+          "uri": "https://api.sketchfab.com/v3/tags/torii"
+        },
+        {
+          "name": "tutorial",
+          "slug": "tutorial",
+          "uri": "https://api.sketchfab.com/v3/tags/tutorial"
+        },
+        {
+          "name": "pipes",
+          "slug": "pipes",
+          "uri": "https://api.sketchfab.com/v3/tags/pipes"
+        },
+        {
+          "name": "gothic",
+          "slug": "gothic",
+          "uri": "https://api.sketchfab.com/v3/tags/gothic"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "traditional",
+          "slug": "traditional",
+          "uri": "https://api.sketchfab.com/v3/tags/traditional"
+        },
+        {
+          "name": "architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture"
+        },
+        {
+          "name": "asset",
+          "slug": "asset",
+          "uri": "https://api.sketchfab.com/v3/tags/asset"
+        },
+        {
+          "name": "blender3d",
+          "slug": "blender3d",
+          "uri": "https://api.sketchfab.com/v3/tags/blender3d"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "modular",
+          "slug": "modular",
+          "uri": "https://api.sketchfab.com/v3/tags/modular"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "art-abstract"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7c69b84038b34c90805c6d7aa6ee77d3",
+            "size": 327113,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/0bceb4f2d7444809b022ba864ac03df3/thumbnails/98c8af0f6c8943bc8dacc95f71303f7f/7a7ba91c0db54c2f9bb3a94699e99ef2.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "4fc2dc433d654bbdaef4a8458c4bf44a",
+            "size": 100486,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/0bceb4f2d7444809b022ba864ac03df3/thumbnails/98c8af0f6c8943bc8dacc95f71303f7f/a0315c497e3f4ab799c5c898624ca2ca.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "a09cc6d4a9fd4451ae03e87020ca2e07",
+            "size": 57347,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/0bceb4f2d7444809b022ba864ac03df3/thumbnails/98c8af0f6c8943bc8dacc95f71303f7f/d7002ce73ec94d6e83630367a364c832.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "cc299b7451f54672aa3828d86b9b72b4",
+            "size": 11366,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/0bceb4f2d7444809b022ba864ac03df3/thumbnails/98c8af0f6c8943bc8dacc95f71303f7f/2923b1a8279d4c888cf7eb36d75b9533.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "4d0d4458ffb74f5aa36d89ce0733788d",
+            "size": 1652,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/0bceb4f2d7444809b022ba864ac03df3/thumbnails/98c8af0f6c8943bc8dacc95f71303f7f/2059698105634392ac23ad6abfa8b8bf.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "cf14d50e8f0a42ccad820fc033a7afd3",
+        "username": "ConradJustin",
+        "displayName": "Conrad Justin",
+        "profileUrl": "https://sketchfab.com/ConradJustin",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/a47e454a011d45e2a83bb274c57c7e5c",
+          "images": [
+            {
+              "size": 1153,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/ff7cbcbfbe974a3bb3746ad24176ab8e.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1657,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/15e42672a0e849a9a125c2715b040b5a.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3699,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/d953fce2d7634d1189b0c42ce7a9f938.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4343,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/3c5bf947092f4a9eae99314c886eff49.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/cf14d50e8f0a42ccad820fc033a7afd3"
+      },
+      "description": "Full UE4 asset pack: [Steampunk Town](https://www.unrealengine.com/marketplace/en-US/product/steampunk-town)\n\nFREE resource files [from google drive](https://drive.google.com/file/d/1eaVooLq2jXtuWQdXV_GCKwJ8CG1IN-ol/view?usp=sharing)\n\nThis scene is a part of the [YouTube tutorial](https://youtu.be/1Qqlg7Agrkg) on how to create and use such buidling. I talk about sketching, modelling, exporting to UE4... I give you all parts that you can use to create such buidling - blend file, textures, modular props. \n\nSupport my work: **https://ko-fi.com/conradjustin**\n\nFor more - check my website:**[ https://conradjustin.art/](https://conradjustin.art/)**\n\nand Twitter: https://twitter.com/ConradJustinArt",
+      "faceCount": 575276,
+      "createdAt": "2021-11-02T23:29:31.912993",
+      "vertexCount": 298260,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 58,
+          "size": 116671428,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 575266,
+          "vertexCount": 556316
+        },
+        "gltf": {
+          "textureCount": 58,
+          "size": 94704296,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 575266,
+          "vertexCount": 556316
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 84561,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 39515997,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 22356875,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "72eb2b1960364637901eacce19283624",
+        "label": "Free Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/5240b1dbc29c4ea28be7f91b3638951a",
+      "uid": "5240b1dbc29c4ea28be7f91b3638951a",
+      "name": "Mobile Home",
+      "staffpickedAt": "2021-10-28T07:34:53.815594",
+      "viewCount": 47396,
+      "likeCount": 1267,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-5240b1dbc29c4ea28be7f91b3638951a",
+      "embedUrl": "https://sketchfab.com/models/5240b1dbc29c4ea28be7f91b3638951a/embed",
+      "commentCount": 28,
+      "isDownloadable": true,
+      "publishedAt": "2021-10-21T15:24:21.747118",
+      "tags": [
+        {
+          "name": "tree",
+          "slug": "tree",
+          "uri": "https://api.sketchfab.com/v3/tags/tree"
+        },
+        {
+          "name": "gate",
+          "slug": "gate",
+          "uri": "https://api.sketchfab.com/v3/tags/gate"
+        },
+        {
+          "name": "steampunk",
+          "slug": "steampunk",
+          "uri": "https://api.sketchfab.com/v3/tags/steampunk"
+        },
+        {
+          "name": "rocks",
+          "slug": "rocks",
+          "uri": "https://api.sketchfab.com/v3/tags/rocks"
+        },
+        {
+          "name": "vines",
+          "slug": "vines",
+          "uri": "https://api.sketchfab.com/v3/tags/vines"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "pagoda",
+          "slug": "pagoda",
+          "uri": "https://api.sketchfab.com/v3/tags/pagoda"
+        },
+        {
+          "name": "torii",
+          "slug": "torii",
+          "uri": "https://api.sketchfab.com/v3/tags/torii"
+        },
+        {
+          "name": "gothic",
+          "slug": "gothic",
+          "uri": "https://api.sketchfab.com/v3/tags/gothic"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "floating",
+          "slug": "floating",
+          "uri": "https://api.sketchfab.com/v3/tags/floating"
+        },
+        {
+          "name": "islands",
+          "slug": "islands",
+          "uri": "https://api.sketchfab.com/v3/tags/islands"
+        },
+        {
+          "name": "ravine",
+          "slug": "ravine",
+          "uri": "https://api.sketchfab.com/v3/tags/ravine"
+        },
+        {
+          "name": "architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "blender3d",
+          "slug": "blender3d",
+          "uri": "https://api.sketchfab.com/v3/tags/blender3d"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "home",
+          "slug": "home",
+          "uri": "https://api.sketchfab.com/v3/tags/home"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "art-abstract"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "32e4ebdc50944b2197cc7df658d3c4cc",
+            "size": 282929,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/5240b1dbc29c4ea28be7f91b3638951a/thumbnails/a1a41d5fc788471aa72ec3cf64d03d27/8d23dc992bec492a8e63d2371200b9f4.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "b324156ae0ad4ce0b5f05c80250dd9e0",
+            "size": 80694,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/5240b1dbc29c4ea28be7f91b3638951a/thumbnails/a1a41d5fc788471aa72ec3cf64d03d27/2bd7139316324c46b7f20d5bf5e6ff6f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e545edf1815946bcb29b5e280aaaf997",
+            "size": 43632,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/5240b1dbc29c4ea28be7f91b3638951a/thumbnails/a1a41d5fc788471aa72ec3cf64d03d27/8352b0862f7f47809d8eb2e05c333049.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "fba36bfac28f4e3bae0cd0c702f0a695",
+            "size": 7567,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/5240b1dbc29c4ea28be7f91b3638951a/thumbnails/a1a41d5fc788471aa72ec3cf64d03d27/a8e7f416aca24947bef6d19cdd8085eb.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "773f1da12dbe46818d1eff33aa0707c3",
+            "size": 1308,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/5240b1dbc29c4ea28be7f91b3638951a/thumbnails/a1a41d5fc788471aa72ec3cf64d03d27/1c3e4b40760c46b7b1729eedb704a540.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "cf14d50e8f0a42ccad820fc033a7afd3",
+        "username": "ConradJustin",
+        "displayName": "Conrad Justin",
+        "profileUrl": "https://sketchfab.com/ConradJustin",
+        "account": "prem",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/a47e454a011d45e2a83bb274c57c7e5c",
+          "images": [
+            {
+              "size": 1153,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/ff7cbcbfbe974a3bb3746ad24176ab8e.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1657,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/15e42672a0e849a9a125c2715b040b5a.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3699,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/d953fce2d7634d1189b0c42ce7a9f938.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4343,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/a47e454a011d45e2a83bb274c57c7e5c/3c5bf947092f4a9eae99314c886eff49.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/cf14d50e8f0a42ccad820fc033a7afd3"
+      },
+      "description": "You approach the great ravine with intention to cross to the other side… There you see a something strange!  Giant metallic arms lift up an entire building and carry it towards you! Customs official who lives in a Mobile Home greets you and asks for a toll. As soon as you hand over the money - she invites you on board. “Welcome to house of between” - she says and smiles. She looks into a distance and frowns \"Some stay here forever\".\n\nThis animated scene was modelled in Blender 3.0 in a style I call STEAMPUNK CHINESE GOTHIC based on the assets I am creating for Unreal Engine 4 (Steampunk Town). Hope you like it!\nTutorial on YT: https://youtu.be/1Qqlg7Agrkg\n\nMy website:**[https://conradjustin.art/](https://conradjustin.art/)**\n\nmy Twitter:**https://twitter.com/ConradJustinArt**\n\nmy Artstation:**https://www.artstation.com/conradjustin**",
+      "faceCount": 723496,
+      "createdAt": "2021-10-21T14:57:44.915545",
+      "vertexCount": 391271,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 14,
+          "size": 117494072,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 723484,
+          "vertexCount": 584307
+        },
+        "gltf": {
+          "textureCount": 14,
+          "size": 100122213,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 723484,
+          "vertexCount": 584307
+        },
+        "gltf-ar": {
+          "textureCount": null,
+          "size": 51280,
+          "type": "gltf-ar",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "source": {
+          "textureCount": null,
+          "size": 40252968,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 22955864,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "72eb2b1960364637901eacce19283624",
+        "label": "Free Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/f44115f33e954c75828d09cce03a729a",
+      "uid": "f44115f33e954c75828d09cce03a729a",
+      "name": "Oriental Building",
+      "staffpickedAt": null,
+      "viewCount": 26675,
+      "likeCount": 1229,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-f44115f33e954c75828d09cce03a729a",
+      "embedUrl": "https://sketchfab.com/models/f44115f33e954c75828d09cce03a729a/embed",
+      "commentCount": 8,
+      "isDownloadable": true,
+      "publishedAt": "2020-06-03T00:41:12.511658",
+      "tags": [
+        {
+          "name": "cottage",
+          "slug": "cottage",
+          "uri": "https://api.sketchfab.com/v3/tags/cottage"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "cabin",
+          "slug": "cabin",
+          "uri": "https://api.sketchfab.com/v3/tags/cabin"
+        },
+        {
+          "name": "eastern",
+          "slug": "eastern",
+          "uri": "https://api.sketchfab.com/v3/tags/eastern"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "tiling",
+          "slug": "tiling",
+          "uri": "https://api.sketchfab.com/v3/tags/tiling"
+        },
+        {
+          "name": "xyz",
+          "slug": "xyz",
+          "uri": "https://api.sketchfab.com/v3/tags/xyz"
+        },
+        {
+          "name": "chinese-architecture",
+          "slug": "chinese-architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese-architecture"
+        },
+        {
+          "name": "tilingtextures",
+          "slug": "tilingtextures",
+          "uri": "https://api.sketchfab.com/v3/tags/tilingtextures"
+        },
+        {
+          "name": "chinese-house",
+          "slug": "chinese-house",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese-house"
+        },
+        {
+          "name": "xyz-school",
+          "slug": "xyz-school",
+          "uri": "https://api.sketchfab.com/v3/tags/xyz-school"
+        },
+        {
+          "name": "asian-architecture",
+          "slug": "asian-architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/asian-architecture"
+        },
+        {
+          "name": "architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "concept",
+          "slug": "concept",
+          "uri": "https://api.sketchfab.com/v3/tags/concept"
+        },
+        {
+          "name": "environment",
+          "slug": "environment",
+          "uri": "https://api.sketchfab.com/v3/tags/environment"
+        },
+        {
+          "name": "asian-house",
+          "slug": "asian-house",
+          "uri": "https://api.sketchfab.com/v3/tags/asian-house"
+        },
+        {
+          "name": "draftpunk",
+          "slug": "draftpunk",
+          "uri": "https://api.sketchfab.com/v3/tags/draftpunk"
+        },
+        {
+          "name": "chinese-house-fantasy-house",
+          "slug": "chinese-house-fantasy-house",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese-house-fantasy-house"
+        },
+        {
+          "name": "xyz-school-draftpunk-3",
+          "slug": "xyz-school-draftpunk-3",
+          "uri": "https://api.sketchfab.com/v3/tags/xyz-school-draftpunk-3"
+        },
+        {
+          "name": "draftpunk-3",
+          "slug": "draftpunk-3",
+          "uri": "https://api.sketchfab.com/v3/tags/draftpunk-3"
+        },
+        {
+          "name": "jax-huang",
+          "slug": "jax-huang",
+          "uri": "https://api.sketchfab.com/v3/tags/jax-huang"
+        },
+        {
+          "name": "eastern-house",
+          "slug": "eastern-house",
+          "uri": "https://api.sketchfab.com/v3/tags/eastern-house"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "2c8268858d5d4ccca103e0cc88bb1560",
+            "size": 269972,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/f44115f33e954c75828d09cce03a729a/thumbnails/d53382e16184475392c5e167bbae7fe6/f91c3ba0c93d4740bd0b1114b012c137.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "24ee3e9d04be46c796c2cb513ba1e64e",
+            "size": 56271,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/f44115f33e954c75828d09cce03a729a/thumbnails/d53382e16184475392c5e167bbae7fe6/bbfe183274f9445097f15fa6ae8adef1.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e0e782ef3c4b43538bcb671c87346cd1",
+            "size": 29606,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/f44115f33e954c75828d09cce03a729a/thumbnails/d53382e16184475392c5e167bbae7fe6/6ebef275e7df4136a62e4bc0c17aefaa.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c7597bc0777d4e31be52f9c08297fc4a",
+            "size": 5402,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/f44115f33e954c75828d09cce03a729a/thumbnails/d53382e16184475392c5e167bbae7fe6/eadcd8fc2cc1498fb71cf3d53fe47e16.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "d357afb10cdf4a4798f572bdac2ac82a",
+            "size": 883,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/f44115f33e954c75828d09cce03a729a/thumbnails/d53382e16184475392c5e167bbae7fe6/6e67380734e541338c34cc916a1341a6.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "df5abc06014241469f26913cba7d761f",
+        "username": "N01506",
+        "displayName": "N01516",
+        "profileUrl": "https://sketchfab.com/N01506",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/dc500bcfc5d14cb1a4ed1ebdd0002062",
+          "images": [
+            {
+              "size": 780,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/dc500bcfc5d14cb1a4ed1ebdd0002062/7a8cc1185ea9461c975fd861d4a9da43.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1246,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/dc500bcfc5d14cb1a4ed1ebdd0002062/32111bac45d44eeaaac6e591c05477ff.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2885,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/dc500bcfc5d14cb1a4ed1ebdd0002062/d01039900f9f438fb5e481db9861c412.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3374,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/dc500bcfc5d14cb1a4ed1ebdd0002062/79a1e84739ed4a2bb1af4218b676d06f.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/df5abc06014241469f26913cba7d761f"
+      },
+      "description": "Automatic mapping and using tiling texture practice model based on wonderful concept art made by [Aze K](http://www.artstation.com/artwork/Nk8xb)\n![Imgur](https://i.imgur.com/8keHIvJ.jpg)",
+      "faceCount": 117941,
+      "createdAt": "2020-06-03T00:11:53.251652",
+      "vertexCount": 61429,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 21,
+          "size": 27063084,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 117929,
+          "vertexCount": 106459
+        },
+        "gltf": {
+          "textureCount": 21,
+          "size": 24330253,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 117929,
+          "vertexCount": 106459
+        },
+        "source": {
+          "textureCount": null,
+          "size": 64601527,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 12350555,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/2bb6ef8d3a5a4019b00bf86bbacd96cc",
+      "uid": "2bb6ef8d3a5a4019b00bf86bbacd96cc",
+      "name": "chinese house",
+      "staffpickedAt": null,
+      "viewCount": 28341,
+      "likeCount": 1160,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-2bb6ef8d3a5a4019b00bf86bbacd96cc",
+      "embedUrl": "https://sketchfab.com/models/2bb6ef8d3a5a4019b00bf86bbacd96cc/embed",
+      "commentCount": 8,
+      "isDownloadable": true,
+      "publishedAt": "2020-06-13T02:25:27.802568",
+      "tags": [
+        {
+          "name": "scene",
+          "slug": "scene",
+          "uri": "https://api.sketchfab.com/v3/tags/scene"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "market",
+          "slug": "market",
+          "uri": "https://api.sketchfab.com/v3/tags/market"
+        },
+        {
+          "name": "stall",
+          "slug": "stall",
+          "uri": "https://api.sketchfab.com/v3/tags/stall"
+        },
+        {
+          "name": "chinses",
+          "slug": "chinses",
+          "uri": "https://api.sketchfab.com/v3/tags/chinses"
+        },
+        {
+          "name": "peddler",
+          "slug": "peddler",
+          "uri": "https://api.sketchfab.com/v3/tags/peddler"
+        },
+        {
+          "name": "game",
+          "slug": "game",
+          "uri": "https://api.sketchfab.com/v3/tags/game"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "street",
+          "slug": "street",
+          "uri": "https://api.sketchfab.com/v3/tags/street"
+        },
+        {
+          "name": "shop",
+          "slug": "shop",
+          "uri": "https://api.sketchfab.com/v3/tags/shop"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "021d61e1926f4292b05d60be23a5f115",
+            "size": 146972,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/2bb6ef8d3a5a4019b00bf86bbacd96cc/thumbnails/065bae55867d4a8792745933251c9df0/e3e711b380d449d58b8d5441c682be92.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "697ba1646e8440f18ef73886c3ae9a21",
+            "size": 47009,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/2bb6ef8d3a5a4019b00bf86bbacd96cc/thumbnails/065bae55867d4a8792745933251c9df0/9285463312954444a9b1d52f047c2fc1.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e66de38283a34371bc5a884b30e6218e",
+            "size": 26259,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/2bb6ef8d3a5a4019b00bf86bbacd96cc/thumbnails/065bae55867d4a8792745933251c9df0/cf537b2407dc400abffba21be663249e.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "ed76ca95d3a9485ab8cafd2351b87487",
+            "size": 4982,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/2bb6ef8d3a5a4019b00bf86bbacd96cc/thumbnails/065bae55867d4a8792745933251c9df0/722dc427b72540d1a5fb08ddd1df0432.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "be5c620aa14447418a1d38321dd0f09c",
+            "size": 853,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/2bb6ef8d3a5a4019b00bf86bbacd96cc/thumbnails/065bae55867d4a8792745933251c9df0/c584867ac0154b37859b08070f0db8c0.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "55d4387da42046cb82d35552845bc480",
+        "username": "799105734",
+        "displayName": "noyou",
+        "profileUrl": "https://sketchfab.com/799105734",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78a791694bfc448c980d23b18841d767",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/a3006838ed254530b1dcfba4461858e0.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1244,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/d9fc0f37902746d8b2e297133dc956bb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3013,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/564d3bbc654d4b6ab5c530650734661a.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3554,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/6913ae550cbc4fed8b01f11ae432f7aa.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/55d4387da42046cb82d35552845bc480"
+      },
+      "description": "",
+      "faceCount": 3112,
+      "createdAt": "2020-06-13T02:14:51.305207",
+      "vertexCount": 3002,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 9,
+          "size": 1587436,
+          "type": "glb",
+          "textureMaxResolution": 512,
+          "faceCount": 3112,
+          "vertexCount": 5556
+        },
+        "gltf": {
+          "textureCount": 9,
+          "size": 1467087,
+          "type": "gltf",
+          "textureMaxResolution": 512,
+          "faceCount": 3112,
+          "vertexCount": 5556
+        },
+        "source": {
+          "textureCount": null,
+          "size": 1321477,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 935864,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/55d8371278844dbbbe43e1f867b5fcde",
+      "uid": "55d8371278844dbbbe43e1f867b5fcde",
+      "name": "Ancient Chinese courtyard Park",
+      "staffpickedAt": null,
+      "viewCount": 28975,
+      "likeCount": 1107,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-55d8371278844dbbbe43e1f867b5fcde",
+      "embedUrl": "https://sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/embed",
+      "commentCount": 12,
+      "isDownloadable": true,
+      "publishedAt": "2020-06-18T08:31:40.232777",
+      "tags": [
+        {
+          "name": "scene",
+          "slug": "scene",
+          "uri": "https://api.sketchfab.com/v3/tags/scene"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "park",
+          "slug": "park",
+          "uri": "https://api.sketchfab.com/v3/tags/park"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e609ec5a6a1044fbb9fcbd3a324c6dad",
+            "size": 166936,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/bcff29b08f73459c8ace727f6f12b86b.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "cf75a5727d624c2cbae4286a9baacd69",
+            "size": 51348,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/fe9b3c96a1314b568f0f43911e8ef30a.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "84205a01355d4859a11e81c131c5b441",
+            "size": 29130,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/63e2dcfd3ee6408aba0ffd5158bc7c82.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c78a17ce81044952b3d8a40cd97c478f",
+            "size": 5456,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/d54dab463e1a4af587a3873a4db70c3f.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "df1f1fb8788d41fe8c77629dd2060ef6",
+            "size": 825,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/5fa5779b6dae4de0a47c6c5462ef80e6.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "55d4387da42046cb82d35552845bc480",
+        "username": "799105734",
+        "displayName": "noyou",
+        "profileUrl": "https://sketchfab.com/799105734",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78a791694bfc448c980d23b18841d767",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/a3006838ed254530b1dcfba4461858e0.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1244,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/d9fc0f37902746d8b2e297133dc956bb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3013,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/564d3bbc654d4b6ab5c530650734661a.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3554,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/6913ae550cbc4fed8b01f11ae432f7aa.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/55d4387da42046cb82d35552845bc480"
+      },
+      "description": "",
+      "faceCount": 268562,
+      "createdAt": "2020-06-15T14:36:49.519882",
+      "vertexCount": 154207,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 24,
+          "size": 24818280,
+          "type": "glb",
+          "textureMaxResolution": 512,
+          "faceCount": 268540,
+          "vertexCount": 395621
+        },
+        "gltf": {
+          "textureCount": 24,
+          "size": 7137949,
+          "type": "gltf",
+          "textureMaxResolution": 512,
+          "faceCount": 268540,
+          "vertexCount": 395621
+        },
+        "source": {
+          "textureCount": null,
+          "size": 15911284,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 15121471,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a18881525cfd4fe882e739c9c7cee752",
+      "uid": "a18881525cfd4fe882e739c9c7cee752",
+      "name": "Traditional Chinese Siheyuan Courtyard",
+      "staffpickedAt": null,
+      "viewCount": 38617,
+      "likeCount": 1101,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a18881525cfd4fe882e739c9c7cee752",
+      "embedUrl": "https://sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/embed",
+      "commentCount": 13,
+      "isDownloadable": true,
+      "publishedAt": "2024-10-15T02:23:40.982319",
+      "tags": [
+        {
+          "name": "beijing",
+          "slug": "beijing",
+          "uri": "https://api.sketchfab.com/v3/tags/beijing"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "historic",
+          "slug": "historic",
+          "uri": "https://api.sketchfab.com/v3/tags/historic"
+        },
+        {
+          "name": "residential",
+          "slug": "residential",
+          "uri": "https://api.sketchfab.com/v3/tags/residential"
+        },
+        {
+          "name": "urban",
+          "slug": "urban",
+          "uri": "https://api.sketchfab.com/v3/tags/urban"
+        },
+        {
+          "name": "architectural",
+          "slug": "architectural",
+          "uri": "https://api.sketchfab.com/v3/tags/architectural"
+        },
+        {
+          "name": "historical",
+          "slug": "historical",
+          "uri": "https://api.sketchfab.com/v3/tags/historical"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "cultural",
+          "slug": "cultural",
+          "uri": "https://api.sketchfab.com/v3/tags/cultural"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "culture",
+          "slug": "culture",
+          "uri": "https://api.sketchfab.com/v3/tags/culture"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "imperial",
+          "slug": "imperial",
+          "uri": "https://api.sketchfab.com/v3/tags/imperial"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "old",
+          "slug": "old",
+          "uri": "https://api.sketchfab.com/v3/tags/old"
+        },
+        {
+          "name": "traditional",
+          "slug": "traditional",
+          "uri": "https://api.sketchfab.com/v3/tags/traditional"
+        },
+        {
+          "name": "dynasty",
+          "slug": "dynasty",
+          "uri": "https://api.sketchfab.com/v3/tags/dynasty"
+        },
+        {
+          "name": "courtyard",
+          "slug": "courtyard",
+          "uri": "https://api.sketchfab.com/v3/tags/courtyard"
+        },
+        {
+          "name": "oriental",
+          "slug": "oriental",
+          "uri": "https://api.sketchfab.com/v3/tags/oriental"
+        },
+        {
+          "name": "classical",
+          "slug": "classical",
+          "uri": "https://api.sketchfab.com/v3/tags/classical"
+        },
+        {
+          "name": "ming",
+          "slug": "ming",
+          "uri": "https://api.sketchfab.com/v3/tags/ming"
+        },
+        {
+          "name": "preservation",
+          "slug": "preservation",
+          "uri": "https://api.sketchfab.com/v3/tags/preservation"
+        },
+        {
+          "name": "walled",
+          "slug": "walled",
+          "uri": "https://api.sketchfab.com/v3/tags/walled"
+        },
+        {
+          "name": "vernacular",
+          "slug": "vernacular",
+          "uri": "https://api.sketchfab.com/v3/tags/vernacular"
+        },
+        {
+          "name": "hutong",
+          "slug": "hutong",
+          "uri": "https://api.sketchfab.com/v3/tags/hutong"
+        },
+        {
+          "name": "shui",
+          "slug": "shui",
+          "uri": "https://api.sketchfab.com/v3/tags/shui"
+        },
+        {
+          "name": "feng",
+          "slug": "feng",
+          "uri": "https://api.sketchfab.com/v3/tags/feng"
+        },
+        {
+          "name": "qing",
+          "slug": "qing",
+          "uri": "https://api.sketchfab.com/v3/tags/qing"
+        },
+        {
+          "name": "architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "model",
+          "slug": "model",
+          "uri": "https://api.sketchfab.com/v3/tags/model"
+        },
+        {
+          "name": "design",
+          "slug": "design",
+          "uri": "https://api.sketchfab.com/v3/tags/design"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "history",
+          "slug": "history",
+          "uri": "https://api.sketchfab.com/v3/tags/history"
+        },
+        {
+          "name": "siheyuan",
+          "slug": "siheyuan",
+          "uri": "https://api.sketchfab.com/v3/tags/siheyuan"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8eb9726d91fb4d469bb572f8e6bafaa9",
+            "size": 466760,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/7c3a37fc8af740b0a00d1a2b8ac29c05.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "8b453757ebeb4855af7d998f0ccd5cf5",
+            "size": 102850,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/f96a24c4fa1a4e0ba448bdbf71eb5e3f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "adcbbf9735f142ba8c91468910187e7d",
+            "size": 55214,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/a4a408319e324308b38a9a9f6f721e12.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "385a90a645144aa3a0c2a8dd75f4cfc4",
+            "size": 8558,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/e758b4f67a644adaa27a60297e50b015.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f92eb7fe380e4c2baef3c1d2e4a7c03c",
+            "size": 1448,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/d2844b811d73495e8468fb4750b180cf.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3b08b49297274b319339800207caf69b",
+        "username": "andertan",
+        "displayName": "andertan",
+        "profileUrl": "https://sketchfab.com/andertan",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/237732bab4db4614a7b1c0665f664393",
+          "images": [
+            {
+              "size": 888,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/dbf13a1f80fe4427a100f74a9a8ba50c.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1362,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/e884472606784256909080b17dfc8a59.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4086,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/e307385fc55541a588cebdcd61b45247.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4922,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/50854688436447fc9eef63b4334829ab.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3b08b49297274b319339800207caf69b"
+      },
+      "description": "This is a detailed 3D model of a traditional Beijing Siheyuan, the iconic courtyard residence known for its classical Chinese architecture. A siheyuan is a type of dwelling commonly found throughout China, especially in Beijing and rural Shanxi. Throughout Chinese history, this layout was the foundational pattern for residences, palaces, temples, monasteries, family businesses, and government offices. \n\nCredits for Grass, Trees and Roof textures. Thank you!\n\n“Realtime Grass” (https://skfb.ly/6vtKS) by mfhscoobydoo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n\n“Low Poly Tree Scene Free” (https://skfb.ly/oGw7Y) by Nicholas-3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n\n“写实比例_故宫太和殿顶部 Hall of Supreme Harmony” (https://skfb.ly/oV69n) by TRNKL is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).",
+      "faceCount": 596699,
+      "createdAt": "2024-10-15T00:44:25.883374",
+      "vertexCount": 470348,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 44,
+          "size": 102934464,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 595743,
+          "vertexCount": 751368
+        },
+        "gltf": {
+          "textureCount": 44,
+          "size": 27807609,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 595743,
+          "vertexCount": 751368
+        },
+        "source": {
+          "textureCount": null,
+          "size": 111745118,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 35167416,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/293f4811451d45e0b0bdd568c5553abd",
+      "uid": "293f4811451d45e0b0bdd568c5553abd",
+      "name": "China HOUSE beta",
+      "staffpickedAt": null,
+      "viewCount": 16636,
+      "likeCount": 637,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-293f4811451d45e0b0bdd568c5553abd",
+      "embedUrl": "https://sketchfab.com/models/293f4811451d45e0b0bdd568c5553abd/embed",
+      "commentCount": 5,
+      "isDownloadable": true,
+      "publishedAt": "2019-10-10T19:23:07.647732",
+      "tags": [
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "culture",
+          "slug": "culture",
+          "uri": "https://api.sketchfab.com/v3/tags/culture"
+        },
+        {
+          "name": "pagoda",
+          "slug": "pagoda",
+          "uri": "https://api.sketchfab.com/v3/tags/pagoda"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "227bb23a8a31459ba72bfaeeb29669a3",
+            "size": 397499,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/293f4811451d45e0b0bdd568c5553abd/thumbnails/c3681f2618b640479ac20ac269212ff2/c9d609223ab64b00931d885230816c1a.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "0fcac380f674494cb4de1b53a81fa6dd",
+            "size": 72932,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/293f4811451d45e0b0bdd568c5553abd/thumbnails/c3681f2618b640479ac20ac269212ff2/648e9658802f46c18cf0f280bb1e1e6e.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "bc90706b554c4ab3bb014d625d7aaf6d",
+            "size": 36832,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/293f4811451d45e0b0bdd568c5553abd/thumbnails/c3681f2618b640479ac20ac269212ff2/786610de89904f199b33413a8e7c8d2b.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "7f685f03d9dc4d5eb6345c4cd1dc1a25",
+            "size": 6168,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/293f4811451d45e0b0bdd568c5553abd/thumbnails/c3681f2618b640479ac20ac269212ff2/92ea5f14fee74186b3a0a18863775095.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "2407933acc854a4e964885d9de5a3d77",
+            "size": 994,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/293f4811451d45e0b0bdd568c5553abd/thumbnails/c3681f2618b640479ac20ac269212ff2/f7b0de6d21db40f29826c3c81fc5d060.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "2322b10edc3745f49632cee2a542ae78",
+        "username": "ravenmaddevil",
+        "displayName": "ravenmaddevil",
+        "profileUrl": "https://sketchfab.com/ravenmaddevil",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/713057a81fea43fc88a13cb9617bfc92",
+          "images": [
+            {
+              "size": 713,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/713057a81fea43fc88a13cb9617bfc92/fa9e830472274deca139ee399100f96f.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1126,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/713057a81fea43fc88a13cb9617bfc92/34a5e1ba8eb240ceb3dd8ff0e3ae99c2.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2632,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/713057a81fea43fc88a13cb9617bfc92/1800c95d278848c48bd1c38c5cfd12a8.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3065,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/713057a81fea43fc88a13cb9617bfc92/3ea150cd473847669dc26122d9f5d4a7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2322b10edc3745f49632cee2a542ae78"
+      },
+      "description": "Almost final: just some unplanned problems.\nUPD1: critical artifacts has been decided.",
+      "faceCount": 12476,
+      "createdAt": "2019-10-10T14:40:25.859208",
+      "vertexCount": 9390,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 23,
+          "size": 269332848,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 12476,
+          "vertexCount": 15893
+        },
+        "gltf": {
+          "textureCount": 23,
+          "size": 268463795,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 12476,
+          "vertexCount": 15893
+        },
+        "source": {
+          "textureCount": null,
+          "size": 312303893,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 13938498,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/8acedb4adb1841979de9031e369c9072",
+      "uid": "8acedb4adb1841979de9031e369c9072",
+      "name": "Chinese Fireworks Shop",
+      "staffpickedAt": null,
+      "viewCount": 13942,
+      "likeCount": 603,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-8acedb4adb1841979de9031e369c9072",
+      "embedUrl": "https://sketchfab.com/models/8acedb4adb1841979de9031e369c9072/embed",
+      "commentCount": 12,
+      "isDownloadable": true,
+      "publishedAt": "2020-06-10T14:18:21.294964",
+      "tags": [
+        {
+          "name": "daehowest",
+          "slug": "daehowest",
+          "uri": "https://api.sketchfab.com/v3/tags/daehowest"
+        },
+        {
+          "name": "gameart",
+          "slug": "gameart",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart"
+        },
+        {
+          "name": "stylized",
+          "slug": "stylized",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized"
+        },
+        {
+          "name": "gameart2020",
+          "slug": "gameart2020",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart2020"
+        },
+        {
+          "name": "howestdae2020",
+          "slug": "howestdae2020",
+          "uri": "https://api.sketchfab.com/v3/tags/howestdae2020"
+        },
+        {
+          "name": "daevillages",
+          "slug": "daevillages",
+          "uri": "https://api.sketchfab.com/v3/tags/daevillages"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7afced1f036b42ea856a1b704ea38502",
+            "size": 328865,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/8acedb4adb1841979de9031e369c9072/thumbnails/b7abd02e55e64bd4a819a3a0031774f8/f335a3c3b7044ad29af484d7209b6198.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "79d6385f453246e38ce11370ff9cc726",
+            "size": 58530,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/8acedb4adb1841979de9031e369c9072/thumbnails/b7abd02e55e64bd4a819a3a0031774f8/7858cc5847754ee38e22084d9008e43d.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "213eafcc815d4356b09e18c3775cf6bb",
+            "size": 33095,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/8acedb4adb1841979de9031e369c9072/thumbnails/b7abd02e55e64bd4a819a3a0031774f8/8b3d73c81b91420393b685869f045ad8.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "b2d2db58436245fbbf5575f63331a295",
+            "size": 6679,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/8acedb4adb1841979de9031e369c9072/thumbnails/b7abd02e55e64bd4a819a3a0031774f8/8b37cb46739a4d87b316486acffcb5e1.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "c8de7e55ceb0443a8ca56e28bcf6825a",
+            "size": 1312,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/8acedb4adb1841979de9031e369c9072/thumbnails/b7abd02e55e64bd4a819a3a0031774f8/bfeec151ddea4379896310e1b1cafcb2.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "b96aa41e34574fbcb613039b0657f2d4",
+        "username": "Salome_Vandereyt",
+        "displayName": "Salome_Vandereyt",
+        "profileUrl": "https://sketchfab.com/Salome_Vandereyt",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/671a82df481d4f88907204c83d1710b0",
+          "images": [
+            {
+              "size": 839,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/671a82df481d4f88907204c83d1710b0/eca319e2757e4100b951394215e01663.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1420,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/671a82df481d4f88907204c83d1710b0/0170415bec0b4c36a2ae50d1aada4e20.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4152,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/671a82df481d4f88907204c83d1710b0/f0719095409445ea85ac9eb0437b6f5a.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4894,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/671a82df481d4f88907204c83d1710b0/ba94f0bf071c4f2e9057882359fe7c80.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/b96aa41e34574fbcb613039b0657f2d4"
+      },
+      "description": "This model was made for the course Game Art 1 at Digital Arts and Entertainment.\nThe house is a chinese fireworks shop. The shop owner makes his own fireworks at the back of the house that he sells in his shop.",
+      "faceCount": 56309,
+      "createdAt": "2020-06-10T13:54:02.429533",
+      "vertexCount": 34240,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 5864284,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 56289,
+          "vertexCount": 77096
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 2435258,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 56289,
+          "vertexCount": 77096
+        },
+        "source": {
+          "textureCount": null,
+          "size": 15294071,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3649612,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/400c9069181a4342a7142433dfa3466e",
+      "uid": "400c9069181a4342a7142433dfa3466e",
+      "name": "Modern apartment interior",
+      "staffpickedAt": null,
+      "viewCount": 25141,
+      "likeCount": 589,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-400c9069181a4342a7142433dfa3466e",
+      "embedUrl": "https://sketchfab.com/models/400c9069181a4342a7142433dfa3466e/embed",
+      "commentCount": 6,
+      "isDownloadable": true,
+      "publishedAt": "2025-11-04T09:09:35.565678",
+      "tags": [
+        {
+          "name": "apartment-interior",
+          "slug": "apartment-interior",
+          "uri": "https://api.sketchfab.com/v3/tags/apartment-interior"
+        },
+        {
+          "name": "free",
+          "slug": "free",
+          "uri": "https://api.sketchfab.com/v3/tags/free"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "gameready",
+          "slug": "gameready",
+          "uri": "https://api.sketchfab.com/v3/tags/gameready"
+        },
+        {
+          "name": "apartment-floorplan",
+          "slug": "apartment-floorplan",
+          "uri": "https://api.sketchfab.com/v3/tags/apartment-floorplan"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "82fbddeda9e64c28904639caa7b24978",
+            "size": 416198,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/400c9069181a4342a7142433dfa3466e/thumbnails/75ab10df1fd14263b0219b04221413d8/b76de02e2cc94a7890dd28e4c2d67363.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "c4b3274b04e04c50b5c162bbeda085c0",
+            "size": 95636,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/400c9069181a4342a7142433dfa3466e/thumbnails/75ab10df1fd14263b0219b04221413d8/e6bbdb1b7b0245adb8853a011b8375cd.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "abd73770bd6c48c4848ee2ddcd50e6be",
+            "size": 52368,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/400c9069181a4342a7142433dfa3466e/thumbnails/75ab10df1fd14263b0219b04221413d8/7bb1a28c54e8444da13a7ebc948d441c.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "afa420af80e048b8b69d936323f9dda9",
+            "size": 10225,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/400c9069181a4342a7142433dfa3466e/thumbnails/75ab10df1fd14263b0219b04221413d8/509e18ec3af44eef866020632dff6c12.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "a2a9a35ddaf74747b4df8a7f7bdea20d",
+            "size": 1698,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/400c9069181a4342a7142433dfa3466e/thumbnails/75ab10df1fd14263b0219b04221413d8/ab9de70ee23a44d7bf62f339766ea47c.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "1256d4b01291423bb0e8d4873d54fd5e",
+        "username": "Katydid.",
+        "displayName": "Katydid",
+        "profileUrl": "https://sketchfab.com/Katydid.",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/c2d0b8917df04637837809bb4c40d153",
+          "images": [
+            {
+              "size": 1361,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/213feee4d4fe43e79b43ad216a05e15b.png",
+              "height": 32
+            },
+            {
+              "size": 2528,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/8cb6af0036aa4db6b6f6aaa0d69df9f7.png",
+              "height": 48
+            },
+            {
+              "size": 6418,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/4e2176ab1d3b4bf2b438b1e954ba4532.png",
+              "height": 90
+            },
+            {
+              "size": 7487,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/feac8ae754654d8fb6edb88ccb405925.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/1256d4b01291423bb0e8d4873d54fd5e"
+      },
+      "description": "realistic apartment interior high quality textures✅ game ready/game scene✅ old stlye✅ free download✅ sketchup made,no ai✅ old textures✅ bulidings/abadonded/post/✅ street✅ low poly✅ enjoy! \n\ntags:city apartment interior floorplan modern kitchen living room furnished plants pots sofa window tv table free abhayexe building gameready full sketchup unity unreal town 3dsmax substancepainter maya blender cyberpunk model 3d scaniverse scan photogrammetry obj baked light road books game free download made photoshop halloween pash architecture goli place home models 3d vr sketchfab ar textures pbr matcap shop china slum snack mod alpaca studio air traffic convenience store restaurant townsquare old center abandoned food shopping, street house universe ripped materials clear coat tone mapping color balance ssao screen space reflection grain metalness Add another asset game gameasset gameready art scene scenery noai, 4k, simulation, realistic town blender, asset cco katydid freelance pasha dazstudio followed me",
+      "faceCount": 60084,
+      "createdAt": "2025-11-04T08:26:07.218053",
+      "vertexCount": 51957,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 46,
+          "size": 10063128,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 59920,
+          "vertexCount": 146127
+        },
+        "gltf": {
+          "textureCount": 46,
+          "size": 6400549,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 59920,
+          "vertexCount": 146127
+        },
+        "source": {
+          "textureCount": null,
+          "size": 11107778,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 5889100,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/032d086b265c492eac3f92eb427cb60e",
+      "uid": "032d086b265c492eac3f92eb427cb60e",
+      "name": "Silent Hill 3 cathedral",
+      "staffpickedAt": null,
+      "viewCount": 11772,
+      "likeCount": 528,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-032d086b265c492eac3f92eb427cb60e",
+      "embedUrl": "https://sketchfab.com/models/032d086b265c492eac3f92eb427cb60e/embed",
+      "commentCount": 14,
+      "isDownloadable": true,
+      "publishedAt": "2025-11-05T02:05:07.339034",
+      "tags": [
+        {
+          "name": "fruit",
+          "slug": "fruit",
+          "uri": "https://api.sketchfab.com/v3/tags/fruit"
+        },
+        {
+          "name": "silenthill",
+          "slug": "silenthill",
+          "uri": "https://api.sketchfab.com/v3/tags/silenthill"
+        },
+        {
+          "name": "free",
+          "slug": "free",
+          "uri": "https://api.sketchfab.com/v3/tags/free"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "gameready",
+          "slug": "gameready",
+          "uri": "https://api.sketchfab.com/v3/tags/gameready"
+        },
+        {
+          "name": "silenthill3",
+          "slug": "silenthill3",
+          "uri": "https://api.sketchfab.com/v3/tags/silenthill3"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0f40134ef9de4b17a319928d4afa08cf",
+            "size": 493963,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/032d086b265c492eac3f92eb427cb60e/thumbnails/4a452d03562949cfb1999ae0ab13d65c/6210d7366f36444d964f9bf1b8569bfc.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "ccd448d0d20341329fc0c7eb4d2015dd",
+            "size": 115118,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/032d086b265c492eac3f92eb427cb60e/thumbnails/4a452d03562949cfb1999ae0ab13d65c/fc86539e905e4f9d94c71fb60bfac5cc.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "73d3017d5d54407b92551bc7c9a7fdbf",
+            "size": 58945,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/032d086b265c492eac3f92eb427cb60e/thumbnails/4a452d03562949cfb1999ae0ab13d65c/b0a511e967f244eeba2935fd9f2abd4f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "303dde8c992b422ab9909fe5705a5114",
+            "size": 9167,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/032d086b265c492eac3f92eb427cb60e/thumbnails/4a452d03562949cfb1999ae0ab13d65c/faa7d4024e7c4983a7a59a9aeb06c914.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "96f46429ee6c4e6b8453dbfa0e39cbdb",
+            "size": 1444,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/032d086b265c492eac3f92eb427cb60e/thumbnails/4a452d03562949cfb1999ae0ab13d65c/0f728d2cf969480aad640cbc2275f834.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "1256d4b01291423bb0e8d4873d54fd5e",
+        "username": "Katydid.",
+        "displayName": "Katydid",
+        "profileUrl": "https://sketchfab.com/Katydid.",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/c2d0b8917df04637837809bb4c40d153",
+          "images": [
+            {
+              "size": 1361,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/213feee4d4fe43e79b43ad216a05e15b.png",
+              "height": 32
+            },
+            {
+              "size": 2528,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/8cb6af0036aa4db6b6f6aaa0d69df9f7.png",
+              "height": 48
+            },
+            {
+              "size": 6418,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/4e2176ab1d3b4bf2b438b1e954ba4532.png",
+              "height": 90
+            },
+            {
+              "size": 7487,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/c2d0b8917df04637837809bb4c40d153/feac8ae754654d8fb6edb88ccb405925.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/1256d4b01291423bb0e8d4873d54fd5e"
+      },
+      "description": "realistic silent hill 3 cathedral high quality textures✅ game ready/game scene✅ old stlye✅ free download✅ sketchup made,no ai✅ old textures✅ bulidings/abadonded/post/✅ street✅ low poly✅ enjoy!\n\ntags:city silent hill 3 cathedral church free abhayexe building gameready full sketchup unity unreal town 3dsmax substancepainter maya blender cyberpunk model 3d scaniverse scan photogrammetry obj baked light road books game free download made photoshop halloween pash architecture goli place home models 3d vr sketchfab ar textures pbr matcap shop china slum snack mod alpaca studio air traffic convenience store restaurant townsquare old center abandoned food shopping, street house universe ripped materials clear coat tone mapping color balance ssao screen space reflection grain metalness Add another asset game gameasset gameready art scene scenery noai, 4k, simulation, realistic town blender, asset free standard katydid freelance pasha dazstudio followed me",
+      "faceCount": 39818,
+      "createdAt": "2025-11-04T10:18:22.261714",
+      "vertexCount": 40164,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 13,
+          "size": 8090276,
+          "type": "glb",
+          "textureMaxResolution": 512,
+          "faceCount": 39818,
+          "vertexCount": 132067
+        },
+        "gltf": {
+          "textureCount": 13,
+          "size": 4574413,
+          "type": "gltf",
+          "textureMaxResolution": 512,
+          "faceCount": 39818,
+          "vertexCount": 132067
+        },
+        "source": {
+          "textureCount": null,
+          "size": 7352767,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4506424,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/6f58f3bdef404321b8850aab870e110f",
+      "uid": "6f58f3bdef404321b8850aab870e110f",
+      "name": "Japanese Town",
+      "staffpickedAt": null,
+      "viewCount": 21757,
+      "likeCount": 528,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-6f58f3bdef404321b8850aab870e110f",
+      "embedUrl": "https://sketchfab.com/models/6f58f3bdef404321b8850aab870e110f/embed",
+      "commentCount": 6,
+      "isDownloadable": true,
+      "publishedAt": "2024-09-28T02:37:32.266980",
+      "tags": [
+        {
+          "name": "japan",
+          "slug": "japan",
+          "uri": "https://api.sketchfab.com/v3/tags/japan"
+        },
+        {
+          "name": "houses",
+          "slug": "houses",
+          "uri": "https://api.sketchfab.com/v3/tags/houses"
+        },
+        {
+          "name": "asia",
+          "slug": "asia",
+          "uri": "https://api.sketchfab.com/v3/tags/asia"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "town",
+          "slug": "town",
+          "uri": "https://api.sketchfab.com/v3/tags/town"
+        },
+        {
+          "name": "props",
+          "slug": "props",
+          "uri": "https://api.sketchfab.com/v3/tags/props"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "city",
+          "slug": "city",
+          "uri": "https://api.sketchfab.com/v3/tags/city"
+        },
+        {
+          "name": "stylized",
+          "slug": "stylized",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized"
+        },
+        {
+          "name": "japanese",
+          "slug": "japanese",
+          "uri": "https://api.sketchfab.com/v3/tags/japanese"
+        },
+        {
+          "name": "japanesetown",
+          "slug": "japanesetown",
+          "uri": "https://api.sketchfab.com/v3/tags/japanesetown"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "44164ce7d4dd402ca8a0d029738d9d3a",
+            "size": 465341,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/6f58f3bdef404321b8850aab870e110f/thumbnails/661c823539144378b4fc87606e38db42/dd6223cdeaec40318cd72faf0ba63fbc.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "4da1eaf9c4ad4a9b9db8d64e5e8f7fdb",
+            "size": 94038,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/6f58f3bdef404321b8850aab870e110f/thumbnails/661c823539144378b4fc87606e38db42/faa26aa49a2b45a4a3e97f663cad6aaf.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "28668073f9c24e08a0ee42854520b2ab",
+            "size": 49352,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/6f58f3bdef404321b8850aab870e110f/thumbnails/661c823539144378b4fc87606e38db42/44320c1f4e224adaaffb909ebeefba5a.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "177cd59cb66d40749192b7f5ed17fecd",
+            "size": 8464,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/6f58f3bdef404321b8850aab870e110f/thumbnails/661c823539144378b4fc87606e38db42/51f1a6e97a4045e5a22a0eccd942d127.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "c6eaacb75ceb43218e1d289fb4a7397d",
+            "size": 1482,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/6f58f3bdef404321b8850aab870e110f/thumbnails/661c823539144378b4fc87606e38db42/123460cc79d14ff8bbcfa6f4be5b7880.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "e26583ddeecc44948e777b0e1b59b8d1",
+        "username": "Nazareno_rojas",
+        "displayName": "Nazareno_rojas",
+        "profileUrl": "https://sketchfab.com/Nazareno_rojas",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/4be917c2b12147048f54f8b04518cc36",
+          "images": [
+            {
+              "size": 2651,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/4be917c2b12147048f54f8b04518cc36/92bbd63b2d5945698ff3dfc6475ac579.png",
+              "height": 32
+            },
+            {
+              "size": 5478,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/4be917c2b12147048f54f8b04518cc36/3a9f265a6d5949b3a1cdfff7950cae91.png",
+              "height": 48
+            },
+            {
+              "size": 16653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/4be917c2b12147048f54f8b04518cc36/b20ab1546a0448cbb5e586b0bffa5beb.png",
+              "height": 90
+            },
+            {
+              "size": 19939,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/4be917c2b12147048f54f8b04518cc36/17d7d861d47842dfabc97b9a38b607d9.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/e26583ddeecc44948e777b0e1b59b8d1"
+      },
+      "description": "Japanese Town with 3 Texture atlas",
+      "faceCount": 96308,
+      "createdAt": "2024-09-28T02:13:31.362938",
+      "vertexCount": 59578,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 12,
+          "size": 42385180,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 96308,
+          "vertexCount": 120999
+        },
+        "gltf": {
+          "textureCount": 12,
+          "size": 35827769,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 96308,
+          "vertexCount": 120999
+        },
+        "source": {
+          "textureCount": null,
+          "size": 40827338,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 5512275,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/945f93ac12af4474baebc7c2e0f12807",
+      "uid": "945f93ac12af4474baebc7c2e0f12807",
+      "name": "Concept sketch of a fantasy asian house",
+      "staffpickedAt": null,
+      "viewCount": 9305,
+      "likeCount": 470,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-945f93ac12af4474baebc7c2e0f12807",
+      "embedUrl": "https://sketchfab.com/models/945f93ac12af4474baebc7c2e0f12807/embed",
+      "commentCount": 2,
+      "isDownloadable": true,
+      "publishedAt": "2019-08-08T11:11:33.997084",
+      "tags": [
+        {
+          "name": "sketch",
+          "slug": "sketch",
+          "uri": "https://api.sketchfab.com/v3/tags/sketch"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "bamboo",
+          "slug": "bamboo",
+          "uri": "https://api.sketchfab.com/v3/tags/bamboo"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "cartoon",
+          "slug": "cartoon",
+          "uri": "https://api.sketchfab.com/v3/tags/cartoon"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "home",
+          "slug": "home",
+          "uri": "https://api.sketchfab.com/v3/tags/home"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "fantasy",
+          "slug": "fantasy",
+          "uri": "https://api.sketchfab.com/v3/tags/fantasy"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "furniture-home"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "fd686bcfaf794577af9cf90e02053d7a",
+            "size": 220833,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/945f93ac12af4474baebc7c2e0f12807/thumbnails/9bfd5d3a494f43aeaa5f7ab6ff419bfe/7ebf3dcdd3034c7ab0f8ade00853c146.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a34927d121914d7c96d2a44729aefc67",
+            "size": 75740,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/945f93ac12af4474baebc7c2e0f12807/thumbnails/9bfd5d3a494f43aeaa5f7ab6ff419bfe/3640b4b67c9f4d8e924e32c2cf5fc0b5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "de03ab8824664c599206cca3ca4f274c",
+            "size": 43557,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/945f93ac12af4474baebc7c2e0f12807/thumbnails/9bfd5d3a494f43aeaa5f7ab6ff419bfe/f67673585122404db68d02cb847c64cc.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "512efd62088440b3a3e597a9802bda5b",
+            "size": 7646,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/945f93ac12af4474baebc7c2e0f12807/thumbnails/9bfd5d3a494f43aeaa5f7ab6ff419bfe/555518032b7c4be4bb7ef83cf947271d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "1faf09eb26ed4b8ba3e47f9dc221ed5d",
+            "size": 990,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/945f93ac12af4474baebc7c2e0f12807/thumbnails/9bfd5d3a494f43aeaa5f7ab6ff419bfe/b3972c7e2c5e449aa3dfe57a46f8bd1d.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "31c34a79d4c649e2953dee7afe72446d",
+        "username": "scritta",
+        "displayName": "Scritta",
+        "profileUrl": "https://sketchfab.com/scritta",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/085bbbc71ff44c9e8fe5b5faf7c5b2d2",
+          "images": [
+            {
+              "size": 772,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/085bbbc71ff44c9e8fe5b5faf7c5b2d2/1fc4cf48cbcb4268b9a2da7ffdbb1df4.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1242,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/085bbbc71ff44c9e8fe5b5faf7c5b2d2/6610ded1eaef4089ac1899b5491c0489.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2898,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/085bbbc71ff44c9e8fe5b5faf7c5b2d2/1c1ff7ecc060414f8cd0758b468c95af.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3304,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/085bbbc71ff44c9e8fe5b5faf7c5b2d2/08589287bb4641dba13fd84413e0950b.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/31c34a79d4c649e2953dee7afe72446d"
+      },
+      "description": "One more fantasy cartoon-chinese style building for personal project. Check and download previous one here: https://sketchfab.com/3d-models/fantasy-house-sketchblocking-of-a-building-852cbed510ba499486f8f89fde9bb3a7\n\nYeeeees, it's still a sketch, no textures, no retopology. Wish me good luck to paint it later :)",
+      "faceCount": 509972,
+      "createdAt": "2019-08-08T11:02:33.931886",
+      "vertexCount": 289886,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 21232972,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 509960,
+          "vertexCount": 436488
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 7797644,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 509960,
+          "vertexCount": 436488
+        },
+        "source": {
+          "textureCount": null,
+          "size": 32119544,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6985860,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    }
+  ]
+}

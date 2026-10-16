@@ -1,0 +1,46 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Forest walls retain their original solid volumes and heights
+PASS: Every opaque forest wall retains its actual visible box after batching
+PASS: western wall hides checkpoint enemies
+PASS: checkpoint wall hides the timber sector
+PASS: timber wall hides the office approach
+PASS: Forest wire is limited to two unused spurs
+PASS: 木棚北侧尽头封路: visible wire and collision are 0.8m high and grounded
+PASS: 木棚北侧尽头封路: blocks at wire height with no tall invisible wall
+PASS: 木棚北侧尽头封路: ground sprint-jump blocked
+PASS: 木棚北侧尽头封路: crouch blocked
+PASS: 装卸区东侧支巷封路: visible wire and collision are 0.8m high and grounded
+PASS: 装卸区东侧支巷封路: blocks at wire height with no tall invisible wall
+PASS: 装卸区东侧支巷封路: ground sprint-jump blocked
+PASS: 装卸区东侧支巷封路: crouch blocked
+PASS: Logger and optional supply approach remain open
+PASS: Checkpoint and timber route remains open after gate clearance
+PASS: Northern escort road remains connected to the ferry
+PASS: Reinforcement entrance retains its ferry route
+PASS: Four opaque courtyard wall wings remain visible
+PASS: Courtyard wall at z=100 hides the next encounter
+PASS: Courtyard wall at z=62 hides the next encounter
+PASS: Village wire closes only three rear alleys
+PASS: 村口西院屋后支巷: visible wire and collision are 0.8m high and grounded
+PASS: 村口西院屋后支巷: blocks at wire height with no tall invisible wall
+PASS: 村口西院屋后支巷: ground sprint-jump blocked
+PASS: 村口西院屋后支巷: crouch blocked
+PASS: 主街东院屋后支巷: visible wire and collision are 0.8m high and grounded
+PASS: 主街东院屋后支巷: blocks at wire height with no tall invisible wall
+PASS: 主街东院屋后支巷: ground sprint-jump blocked
+PASS: 主街东院屋后支巷: crouch blocked
+PASS: 北院西侧屋后支巷: visible wire and collision are 0.8m high and grounded
+PASS: 北院西侧屋后支巷: blocks at wire height with no tall invisible wall
+PASS: 北院西侧屋后支巷: ground sprint-jump blocked
+PASS: 北院西侧屋后支巷: crouch blocked
+PASS: Existing village wall and gate seam prevent skipping at x=1041
+PASS: Existing village wall and gate seam prevent skipping at x=1044
+PASS: Existing village wall and gate seam prevent skipping at x=1048
+PASS: Existing village wall and gate seam prevent skipping at x=1052
+PASS: Existing village wall and gate seam prevent skipping at x=1088
+PASS: Village encounters cannot be skipped before opening the gates
+PASS: First opened gate permits only the next encounter
+PASS: Cleared main street stays connected for player and squad
+LINEAR BOUNDARIES: PASS | checks=42

@@ -1,0 +1,65 @@
+{
+  "date_published": 1654646400,
+  "sponsors": [
+    "3267566"
+  ],
+  "name": "Modular Wooden Pier",
+  "type": 2,
+  "authors": {
+    "Rico Cilliers": "All"
+  },
+  "categories": [
+    "structures",
+    "collection: smugglers_cove"
+  ],
+  "tags": [
+    "old",
+    "wooden",
+    "wood",
+    "pier",
+    "ship",
+    "maritime",
+    "sea",
+    "water",
+    "ocean",
+    "worn",
+    "structure",
+    "scaffolding",
+    "dock",
+    "jetty",
+    "landing",
+    "wharf",
+    "mossy",
+    "modular"
+  ],
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 84780,
+  "texel_density": 1645.8413857656371,
+  "dimensions": [
+    3101.5628576278687,
+    19026.371479034424,
+    7515.67667722702
+  ],
+  "files_hash": "219aafe4dfbcc2ebac731ae205bebfd5837c6138",
+  "description": "Free 8K model of a modular, weathered wooden pier: uneven planks, mossy pilings, tied ropes and scaffolded supports conveying a worn maritime character.",
+  "category_id": "ce25e050-de1c-5085-840d-22cb4183684d",
+  "category": "Architecture/Outdoor Structures/Piers & Docks",
+  "collections": [
+    "smugglers_cove"
+  ],
+  "attributes": {
+    "condition": [
+      "weathered"
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ]
+  },
+  "img_version": "03033d74",
+  "download_count": 28003,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/modular_wooden_pier.png?width=256&height=256&format=webp&v=03033d74"
+}

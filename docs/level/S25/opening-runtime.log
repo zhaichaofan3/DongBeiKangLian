@@ -1,0 +1,78 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: New opening begins with A
+PASS: A entry is a valid restorable save
+PASS: Fixed opening words appear unaltered
+PASS: Pause freezes timeline and camera
+PASS: Pause freezes opening environment audio
+PASS: Settings/continue return to the same opening
+PASS: N13 continues across cut without new playback scheduling
+PASS: Last subtitle survives A6 before title
+PASS: Title follows subtitle clearance
+PASS: Cinematic shots do not change gameplay resources or position
+PASS: Cinematic shots do not change story or gates
+PASS: All 33 shots are reached by continuous clock playback
+PASS: All 15 narration and 14 dialogue cues are reached
+FAIL: Full A/B playback commits gameplay once
+FAIL: Full playback: briefing complete, task actions untouched
+FAIL: Full playback: camera and position align
+PASS: Full playback: guards, gates and ammunition unchanged
+FAIL: Repeated finish cannot duplicate the mission
+PASS: Skipping A starts B, not gameplay
+PASS: B boundary has a valid restorable save
+PASS: Stale/double skip cannot skip the new part
+PASS: Skip A and B: briefing complete, task actions untouched
+PASS: Skip A and B: camera and position align
+PASS: Skip A and B: guards, gates and ammunition unchanged
+FAIL: Skip and full playback produce the same mission state
+PASS: Watch A then skip B: briefing complete, task actions untouched
+PASS: Watch A then skip B: camera and position align
+PASS: Watch A then skip B: guards, gates and ammunition unchanged
+PASS: Travel time/place card is separate from spoken dialogue
+PASS: Skip A then watch remaining B: briefing complete, task actions untouched
+PASS: Skip A then watch remaining B: camera and position align
+PASS: Skip A then watch remaining B: guards, gates and ammunition unchanged
+PASS: History save resumes at A1
+PASS: Task save resumes at B1
+PASS: Gameplay save does not replay B or reset progress
+PASS: Legacy gameplay save retains its original briefing state
+PASS: Unknown opening state is rejected visibly, not treated as complete
+PASS: Invalid save remains available for diagnosis
+PASS: Failed handoff save leaves a visible retry state
+PASS: Failed write preserves previous successful save
+PASS: Retry saves the prepared gameplay state
+PASS: Rendered A-01
+PASS: Rendered A-02
+PASS: Rendered A-03
+PASS: Rendered A-04
+PASS: Rendered A-05
+PASS: Rendered A-06
+PASS: Rendered A-07
+PASS: Rendered A-08
+PASS: Rendered A-09
+PASS: Rendered A-10
+PASS: Rendered A-11
+PASS: Rendered A-12
+PASS: Rendered A-13
+PASS: Rendered A-14
+PASS: Rendered A-15
+PASS: Rendered A-16
+PASS: Rendered A-17
+PASS: Rendered B-01
+PASS: Rendered B-02
+PASS: Rendered B-03
+PASS: Rendered B-04
+PASS: Rendered B-05
+PASS: Rendered B-06
+PASS: Rendered B-07
+PASS: Rendered B-08
+PASS: Rendered B-09
+PASS: Rendered B-10
+PASS: Rendered B-11
+PASS: Rendered B-12
+PASS: Rendered B-13
+PASS: Rendered B-14
+PASS: Rendered B-15
+PASS: Rendered B-16
+OPENING RESULT: 69/74 passed

@@ -1,0 +1,73 @@
+{
+  "captures": [
+    {
+      "name": "rim",
+      "save_result": 0,
+      "seconds": 66.0,
+      "shot": "A-18"
+    },
+    {
+      "name": "wide",
+      "save_result": 0,
+      "seconds": 51.0,
+      "shot": "A-16"
+    },
+    {
+      "name": "talk",
+      "save_result": 0,
+      "seconds": 3.0,
+      "shot": "B-01"
+    },
+    {
+      "name": "listen",
+      "save_result": 0,
+      "seconds": 13.0,
+      "shot": "B-03"
+    },
+    {
+      "name": "briefing",
+      "save_result": 0,
+      "seconds": 25.0,
+      "shot": "B-06"
+    },
+    {
+      "name": "environment_wide",
+      "save_result": 0,
+      "seconds": 51.0,
+      "shot": "A-16"
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "performance": [
+    {
+      "draw_calls": 30,
+      "effects": false,
+      "median_ms": 8.42,
+      "p95_ms": 8.828,
+      "primitives": 39644
+    },
+    {
+      "draw_calls": 91,
+      "effects": true,
+      "median_ms": 8.548,
+      "p95_ms": 8.841,
+      "primitives": 71957
+    },
+    {
+      "draw_calls": 30,
+      "effects": false,
+      "median_ms": 8.515,
+      "p95_ms": 8.833,
+      "primitives": 39644
+    },
+    {
+      "draw_calls": 91,
+      "effects": true,
+      "median_ms": 8.638,
+      "p95_ms": 8.832,
+      "primitives": 71957
+    }
+  ],
+  "resolution": "(1280, 720)",
+  "timing_scope": "1280x720 uncapped GL Compatibility; frozen environment view; same camera environment for both toggles; 30 warmup + 90 timed frames per run."
+}

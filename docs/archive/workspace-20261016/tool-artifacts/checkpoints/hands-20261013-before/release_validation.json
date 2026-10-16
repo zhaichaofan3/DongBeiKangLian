@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "version": "0.6",
+  "scope": "Skinned character refinement, clothing, head and hands, rifle grip and death poses",
+  "files": [
+    {
+      "path": "C:\\GameMake\\Release\\FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "C:\\GameMake\\Release\\FenghuoEcho.pck",
+      "bytes": 301653580,
+      "sha256": "f613269e9a427db50d92385f84125d1805870a54813dae9175c0179c624543b7"
+    }
+  ],
+  "commands": [
+    "Test-Game.ps1",
+    "Build-Game.ps1",
+    "Test-Game.ps1 -Release -Capture"
+  ],
+  "source_checks": {
+    "basic": 107,
+    "linear": 37,
+    "motion": 43,
+    "story": 11,
+    "character": 37
+  },
+  "release_checks": {
+    "basic": 107,
+    "linear": 37,
+    "motion": 43,
+    "story": 11,
+    "character": 37
+  },
+  "assertions_per_target": 235,
+  "combat_route": {
+    "passed_source_and_release": true,
+    "guards_defeated": 9,
+    "state": "won",
+    "controller_simulated_seconds": 82.18333333333,
+    "human_difficulty_validated": false
+  },
+  "character_capture_run": {
+    "checks": 37,
+    "image_output_checks": 14,
+    "total_passed": 51
+  },
+  "captures": [
+    {
+      "path": "character-captures\\guard_aim.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\guard_face.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\guard_fallen.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\guard_front.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\lineup.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\logger_face.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\logger_front.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\scout_face.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\scout_front.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\walking.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\wounded_face.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\wounded_front.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\wounded_treated.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "character-captures\\wounded_untreated.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\conversation.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\journal.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\office.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\rescue.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\river.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\settings.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\title.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\1280x720\\yard.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "verification-captures\\960x540\\conversation.png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "verification-captures\\960x540\\journal.png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "verification-captures\\960x540\\office.png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "verification-captures\\960x540\\rescue.png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "verification-captures\\960x540\\river.png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "verification-captures\\960x540\\settings.png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "verification-captures\\960x540\\title.png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "verification-captures\\960x540\\yard.png",
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "visual_review": [
+    "1280x720 in-game conversation and rescue",
+    "1280x720 scout face and neck",
+    "1280x720 guard rifle grip",
+    "1280x720 guard fallen posture"
+  ],
+  "character_asset": {
+    "path": "GodotProject/assets/characters/field_character.glb",
+    "sha256": "bb68e21bd47d696ef6d44da35b220430833c7636a12d1d9f01b2d416d8b6ce0a",
+    "editable_source": "AssetLibrary/characters/field_character/field_character.blend",
+    "bones": 13,
+    "triangles_including_mutually_exclusive_variants": 78656
+  },
+  "limits": [
+    "Stylized shared base face; not Battlefield 1 visual quality.",
+    "Clothing details are not fully historically verified.",
+    "Procedural body animation; no motion capture or facial animation.",
+    "No new performance benchmark.",
+    "Automatic precise aim does not establish human difficulty, tension or play duration.",
+    "Screenshot capture uses staged positions; combat test separately validates continuous walking and escort."
+  ]
+}

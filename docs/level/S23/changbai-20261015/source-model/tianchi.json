@@ -1,0 +1,50 @@
+{
+  "all_passed": true,
+  "bounds": {
+    "position": [
+      -166.889465332031,
+      -8.0,
+      -167.588562011719
+    ],
+    "size": [
+      347.736907958984,
+      43.8991661071777,
+      344.363220214844
+    ]
+  },
+  "checks": [
+    {
+      "description": "Artistic Tianchi GLB loads in Godot",
+      "passed": true
+    },
+    {
+      "description": "Imported model retains four connected crater sectors, lake and platform",
+      "passed": true
+    },
+    {
+      "description": "Crater composition preserves large readable scale",
+      "passed": true
+    },
+    {
+      "description": "Lake is at 0.4m and continuous ridges rise above 28m",
+      "passed": true
+    },
+    {
+      "description": "Export preserves visual material slots",
+      "passed": true
+    },
+    {
+      "description": "S21 visual model has no gameplay collision before S22",
+      "passed": true
+    },
+    {
+      "description": "Four imported crater sectors retain at least 13,000 triangulated terrain faces; source topology audit covers seams and degenerate faces",
+      "passed": true
+    }
+  ],
+  "crater_meshes": 4,
+  "crater_triangles": 41472,
+  "meshes": 6,
+  "method": "Godot import, actual materials, water height, bounds, imported surface counts and original collision absence; Blender mesh-topology.json audits positive-area faces and seam boundaries.",
+  "step": "S21"
+}

@@ -1,0 +1,142 @@
+{
+  "assets": 11,
+  "captures": [],
+  "checks": 31,
+  "details": [
+    {
+      "label": "Both player weapons use the user gunshot",
+      "passed": true
+    },
+    {
+      "label": "Enemy gunfire uses the user gunshot",
+      "passed": true
+    },
+    {
+      "label": "River uses the original MP3 bytes and loops continuously",
+      "passed": true
+    },
+    {
+      "label": "River loop leaves the shared source unchanged",
+      "passed": true
+    },
+    {
+      "label": "Real walking input plays normal footsteps",
+      "passed": true
+    },
+    {
+      "label": "Real sprint input switches to running footsteps",
+      "passed": false
+    },
+    {
+      "label": "Footsteps stop when the player stops",
+      "passed": true
+    },
+    {
+      "label": "Reload plays the user bolt recording",
+      "passed": true
+    },
+    {
+      "label": "Firing plays the user gunshot",
+      "passed": true
+    },
+    {
+      "label": "Rifle bolt sound follows the shot on its own audio layer",
+      "passed": true
+    },
+    {
+      "label": "Pause freezes the rifle bolt recording",
+      "passed": true
+    },
+    {
+      "label": "Resume releases the bolt recording",
+      "passed": true
+    },
+    {
+      "label": "Weapon switching cancels unfinished rifle bolt audio",
+      "passed": true
+    },
+    {
+      "label": "Pistol fire does not schedule manual rifle bolt audio",
+      "passed": true
+    },
+    {
+      "label": "All guards use one of the three supplied alert voices",
+      "passed": true
+    },
+    {
+      "label": "A searching guard calls out when it sees the player",
+      "passed": false
+    },
+    {
+      "label": "Continuous sight does not restart the alert voice",
+      "passed": false
+    },
+    {
+      "label": "Defeated guard stops speaking",
+      "passed": true
+    },
+    {
+      "label": "door_open plays at the door position",
+      "passed": true
+    },
+    {
+      "label": "door_open pauses with gameplay",
+      "passed": false
+    },
+    {
+      "label": "door_open can continue into the door ambush",
+      "passed": true
+    },
+    {
+      "label": "door_close plays at the door position",
+      "passed": true
+    },
+    {
+      "label": "door_close pauses with gameplay",
+      "passed": false
+    },
+    {
+      "label": "door_close can continue into the door ambush",
+      "passed": true
+    },
+    {
+      "label": "Artillery impact plays the user explosion",
+      "passed": true
+    },
+    {
+      "label": "Zero damage does not flash the screen",
+      "passed": true
+    },
+    {
+      "label": "Actual damage flashes all four screen edges",
+      "passed": true
+    },
+    {
+      "label": "Damage tint fades away after the brief flash",
+      "passed": true
+    },
+    {
+      "label": "Restart clears old door sounds and pending bolt audio",
+      "passed": true
+    },
+    {
+      "label": "Requested mouth overlay has been removed",
+      "passed": true
+    },
+    {
+      "label": "Second-door charge still reaches the space-key struggle",
+      "passed": true
+    }
+  ],
+  "failures": [
+    "Real sprint input switches to running footsteps",
+    "A searching guard calls out when it sees the player",
+    "Continuous sight does not restart the alert voice",
+    "door_open pauses with gameplay",
+    "door_close pauses with gameplay"
+  ],
+  "human_listening": false,
+  "human_playtest": false,
+  "mouth_expression": "removed_by_user_request",
+  "passed": false
+}

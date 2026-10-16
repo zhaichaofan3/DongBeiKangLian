@@ -1,0 +1,747 @@
+[
+  {
+    "path": "quaternius_ual1/Universal Animation Library[Standard].zip",
+    "bytes": 15904933,
+    "sha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Godot_Setup.png",
+    "bytes": 499312,
+    "sha256": "8fde3e49385c3b3dc214bfe2bc61dde6f873a06f57cab9b245c8fc2543bc7496"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/License.txt",
+    "bytes": 332,
+    "sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/README.txt",
+    "bytes": 702,
+    "sha256": "ccd02718886b5a57f10f0a8911a38cfe10c36880e1d6dfa3445923fba32d2a72"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unity_Setup.png",
+    "bytes": 237945,
+    "sha256": "1f9ac00f442c4342fae060150a2cfb5a825f7e3b6e8ffd8ce01044e4fe31f7c9"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unreal_Setup.png",
+    "bytes": 148412,
+    "sha256": "c2c64e659943c634f538329ea0904f7902ab4194d0aaae77ac486d236171d00c"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unity/UAL1_Standard.fbx",
+    "bytes": 23754684,
+    "sha256": "21b32d912da3cb93426d974fb945e86f5b2e86970acd2ce89905e0fbf9f1dcc2"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unity/UAL1_Standard_RM.fbx",
+    "bytes": 23767852,
+    "sha256": "5a5f5de6f18e9c91cdbc40eb26319ec85cc45070bc00965bc2737beb4b2984ea"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb",
+    "bytes": 7618436,
+    "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997"
+  },
+  {
+    "path": "quaternius_ual1/files/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard_RM.glb",
+    "bytes": 7620504,
+    "sha256": "be684571ed655a1b892c2c07e6e2aeca053b606c442d34004adaf1d944090d01"
+  },
+  {
+    "path": "quaternius_ual2/Universal Animation Library 2[Standard].zip",
+    "bytes": 18735003,
+    "sha256": "4008ea208a604773a2b2177d965f0f5d3195498b5bf838c3f5785d68e95f2a68"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Godot_Setup.png",
+    "bytes": 499312,
+    "sha256": "8fde3e49385c3b3dc214bfe2bc61dde6f873a06f57cab9b245c8fc2543bc7496"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/License.txt",
+    "bytes": 332,
+    "sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/README.txt",
+    "bytes": 702,
+    "sha256": "ccd02718886b5a57f10f0a8911a38cfe10c36880e1d6dfa3445923fba32d2a72"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unity_Setup.png",
+    "bytes": 237945,
+    "sha256": "1f9ac00f442c4342fae060150a2cfb5a825f7e3b6e8ffd8ce01044e4fe31f7c9"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal_Setup.png",
+    "bytes": 148412,
+    "sha256": "c2c64e659943c634f538329ea0904f7902ab4194d0aaae77ac486d236171d00c"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Female Mannequin/Mannequin_F.blend",
+    "bytes": 4130952,
+    "sha256": "980c6eee3a2fb2ee1028d8bdd5bb95f7df983bc9de45e974ee77646b1eafbc70"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Female Mannequin/README.txt",
+    "bytes": 275,
+    "sha256": "3447416d55d5cf3a82311c4941578068d544cc4cfa1d49a6a26a28c98b96c393"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Female Mannequin/Unity/Mannequin_F.fbx",
+    "bytes": 575100,
+    "sha256": "1a7fb4bb8850860eff36aabd60d65d19273a4a072b3c638001fbb38e42add4de"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Female Mannequin/Unreal-Godot/Mannequin_F.glb",
+    "bytes": 1442824,
+    "sha256": "2ee6cc3fe888d9b144afa8cc4b2ab7bfc5d13a0d5b7548df777f61f64ad65fa6"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unity/UAL2_Standard.fbx",
+    "bytes": 24778332,
+    "sha256": "d26d0e9f4a202d473194c056045143095a605a53ba1d823ef24055be4b86851d"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unity/UAL2_Standard_RM.fbx",
+    "bytes": 24805740,
+    "sha256": "9c249b127154b605b514315c5b055d2baab4e730cdae5ad352a9141a2f7bf960"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard.glb",
+    "bytes": 8091444,
+    "sha256": "8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8"
+  },
+  {
+    "path": "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard_RM.glb",
+    "bytes": 8095936,
+    "sha256": "814eee878f82934992d3ea746c539df25e981487109c591f5efbb8dd03286f99"
+  },
+  {
+    "path": "quaternius_base_characters/Universal Base Characters[Standard].zip",
+    "bytes": 128968391,
+    "sha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/License_Standard.txt",
+    "bytes": 806,
+    "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Preview.png",
+    "bytes": 2109533,
+    "sha256": "84933b9356eb69987e0e07f7fb187c04fbc6ba0639f742868d662e31abf5fcda"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Unreal-Engine-README.txt",
+    "bytes": 289,
+    "sha256": "b2e4b0fc7ab3c619e7f37d36545633ad32d2e8b8f89e1431589421294ad5568e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.bin",
+    "bytes": 990808,
+    "sha256": "3a8220a485b33d05d879115a50697728b45a151781106033afb8b8c243fca208"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf",
+    "bytes": 22939,
+    "sha256": "fd43e6c9a343a249cfebad1a24818794f6df50465a8ca7095b4642525a4cc5fc"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.bin",
+    "bytes": 720076,
+    "sha256": "459003f9745853ae562a85506a2b94dd56515c1f37728f9fa3d2ce1a3e4cd92f"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf",
+    "bytes": 22407,
+    "sha256": "3aa16f6ab5d3a141c2ef0bf90a84d0abea3b735c8328e7f5eb1c0299a9abd743"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Brown.png",
+    "bytes": 35958,
+    "sha256": "d08e3356a83211bc6ca21fe3a8e39f4b5c1a3b8f85457fc2c0fb57be09935025"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Normal.png",
+    "bytes": 15099,
+    "sha256": "9ed61f7726a54fe346a78b9e5a18905d8e2b88f86235d97f53cd207a26f3f8c7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_BaseColor.png",
+    "bytes": 1570376,
+    "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_BaseColor_png.png",
+    "bytes": 1570376,
+    "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_Normal.png",
+    "bytes": 4326126,
+    "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_BaseColor.png",
+    "bytes": 1729467,
+    "sha256": "f9f4f2fb3eeeefb0b6f0fdef38b0770fd6607640c1c680b8139dd76697e9f9b3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_BaseColor_png.png",
+    "bytes": 1729467,
+    "sha256": "f9f4f2fb3eeeefb0b6f0fdef38b0770fd6607640c1c680b8139dd76697e9f9b3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_Normal.png",
+    "bytes": 4710013,
+    "sha256": "172f230aae0d4366c3cfc0402b2e6d1811b11f8487344bff28605eeacac1558d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Dark_BaseColor.png",
+    "bytes": 1319410,
+    "sha256": "d366843ee7d9e9f37ec87a0e1c98c7f2e45573c08eeb80a51a6d9344e68cf288"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Normal.png",
+    "bytes": 3940537,
+    "sha256": "cf922460b43ccd31e983e34db05514c9d451dd2f9cdd01a843978e797719f859"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Roughness.png",
+    "bytes": 3277022,
+    "sha256": "d2beabf2bd0313e32c68dcdbb80dca371a6e994fabf96efa97128bf9f14fa57b"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Dark.png",
+    "bytes": 1384380,
+    "sha256": "df680cbc1967a61e85998bfafb8f7bc0a36dd604bb3266486c4b06b1a184bb45"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Normal.png",
+    "bytes": 4252937,
+    "sha256": "9b25cf9200216eb754b79cf4c63b5380c419780788322f3c57cdd2b3e02679a6"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Roughness.png",
+    "bytes": 3152049,
+    "sha256": "c70dabf48574cda55644d556beae1ee7cf1bdcf68a50d259d20f2f2358f27991"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Eye_Brown.png",
+    "bytes": 35958,
+    "sha256": "d08e3356a83211bc6ca21fe3a8e39f4b5c1a3b8f85457fc2c0fb57be09935025"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Eye_Normal.png",
+    "bytes": 15097,
+    "sha256": "a74aa37050f26fe336e7dbe5d1e9f01942879dd541c67be2f836633529bc68b7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_1_BaseColor.png",
+    "bytes": 1570376,
+    "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_1_Normal.png",
+    "bytes": 3770683,
+    "sha256": "fd4530bb696a083ac7f9c2f685b4bb15d91150040e76c905db591c7644b4aa87"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_2_BaseColor.png",
+    "bytes": 1729467,
+    "sha256": "f9f4f2fb3eeeefb0b6f0fdef38b0770fd6607640c1c680b8139dd76697e9f9b3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_2_Normal.png",
+    "bytes": 4109628,
+    "sha256": "214dff8981ab87319b2acfaf1ad9143db020989afa14896a0d70048a667e17e3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Dark_BaseColor.png",
+    "bytes": 1319410,
+    "sha256": "d366843ee7d9e9f37ec87a0e1c98c7f2e45573c08eeb80a51a6d9344e68cf288"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Light_BaseColor.png",
+    "bytes": 1317541,
+    "sha256": "743f811857db0b950f3ad09a0733dfa4888801ead332313ca25becea14c54f8d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Normal.png",
+    "bytes": 3420584,
+    "sha256": "3b90600cbd90d1e8b39bcb0befee4333388003a82af9d0ff00825d144cf99373"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Roughness.png",
+    "bytes": 1997719,
+    "sha256": "4e00eb2d8196cebacd027e3360b9da6431d8915e27e1b5262c14f20eaaa6dced"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Dark.png",
+    "bytes": 1384380,
+    "sha256": "df680cbc1967a61e85998bfafb8f7bc0a36dd604bb3266486c4b06b1a184bb45"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Ligh.png",
+    "bytes": 1389170,
+    "sha256": "419f96dbb8811511e2d515bcdabc085ff2f219ec7b8b4e91050a84cba6888fe9"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Normal.png",
+    "bytes": 3687166,
+    "sha256": "3645858289beb51643155a924e5148735dd5fe226230532936375c06ba829dec"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Roughness.png",
+    "bytes": 1912686,
+    "sha256": "5079fd95603bdd34700abd42ca6bcf43b615929f29134822aeb63a3a8bb3400c"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Eye_Normal.png",
+    "bytes": 15099,
+    "sha256": "9ed61f7726a54fe346a78b9e5a18905d8e2b88f86235d97f53cd207a26f3f8c7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Hair_1_Normal.png",
+    "bytes": 4326126,
+    "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Hair_2_Normal.png",
+    "bytes": 4710013,
+    "sha256": "172f230aae0d4366c3cfc0402b2e6d1811b11f8487344bff28605eeacac1558d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Superhero_Female_Normal.png",
+    "bytes": 3940537,
+    "sha256": "cf922460b43ccd31e983e34db05514c9d451dd2f9cdd01a843978e797719f859"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Superhero_Male_Normal.png",
+    "bytes": 4252937,
+    "sha256": "9b25cf9200216eb754b79cf4c63b5380c419780788322f3c57cdd2b3e02679a6"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Unity/Superhero_Female_FullBody.fbx",
+    "bytes": 1006508,
+    "sha256": "0727e7b236eeea4115531e07aeb2bb7690c1a58155f743bbf54282944fb97ea9"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Unity/Superhero_Male_FullBody.fbx",
+    "bytes": 826876,
+    "sha256": "79344418d754a59730b79d1874752e9592143db34abe8adf138fa9a92a4768e9"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Eyebrows_Female.fbx",
+    "bytes": 73596,
+    "sha256": "fccb1043cfa5fd3c00c228496702a2b2d6fe8848364b5292dd1f1d52045c35da"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Eyebrows_Regular.fbx",
+    "bytes": 47132,
+    "sha256": "52da1303f33042b361e937e0a7a5baba09d4fcf05d92b42a07f17c1e4a29fc52"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Beard.fbx",
+    "bytes": 48444,
+    "sha256": "675541ea0dfc95fe125264bc8c59eee543269469b4793ba7c20e6df58709f4c0"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Buns.fbx",
+    "bytes": 135388,
+    "sha256": "e0dc086cfc9c20eff1449461146c070b061fa8126056e7a79f900214bfe598ae"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Buzzed.fbx",
+    "bytes": 45036,
+    "sha256": "45cfb65bedb6984510b15cadf12e55c872961380228d971d1e434af438e70f8b"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_BuzzedFemale.fbx",
+    "bytes": 43004,
+    "sha256": "5b226ec4d3f5e7794b8034db70e930e869abe08db3665b023b37a7cbdcca5a7c"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Long.fbx",
+    "bytes": 125036,
+    "sha256": "d2547c3e508ee7c03325792ef87af2de659f6fb79f93df4528479276588b4c56"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_SimpleParted.fbx",
+    "bytes": 62668,
+    "sha256": "7612975d40a7520f5a3ca4df19685a88da37ecd3e5c7d10b198a2265baf98047"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Eyebrows_Female.fbx",
+    "bytes": 73548,
+    "sha256": "663d262b2c08c9a8a36dc1a4832c2662f3f2b6ac1000cb74bb2fff0acaa529a7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Eyebrows_Regular.fbx",
+    "bytes": 47276,
+    "sha256": "d2338ee402f63a8626995ff7e9b4c057ef45776621c8858e0d3402abcfa0a302"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Beard.fbx",
+    "bytes": 48540,
+    "sha256": "2714595320ca9d7f4a8736e8224796054e684a8489d699856233419bc995e902"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Buns.fbx",
+    "bytes": 134476,
+    "sha256": "8a9e7bf4ba09c172aef34b1e79d2447c7a9022b4253c9c9ac7ea689fe23279d0"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Buzzed.fbx",
+    "bytes": 44716,
+    "sha256": "23017b9a2cf917b599f7ff522e5412c6af4752c9db41beaba2142e41f93d2dd7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_BuzzedFemale.fbx",
+    "bytes": 43036,
+    "sha256": "7aed63aeace79f98ffea5d61572de06e9e853cc65325b37f4b8bbc26e11bd516"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Long.fbx",
+    "bytes": 123612,
+    "sha256": "2724f6fa8456c63941ebd7d734e7403d9ebdf5a93f3c91e300f400739c38d97e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_SimpleParted.fbx",
+    "bytes": 61932,
+    "sha256": "130bb5c3dc661bc1f01cdcfd27440693b1863b9544ce5d8e025ed6947a2eb706"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Female.bin",
+    "bytes": 67248,
+    "sha256": "f2efdf2b9d44137630ff4df01cfd9068fe3c3f8c2896c009860404ea17989dbf"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Female.gltf",
+    "bytes": 2855,
+    "sha256": "9d24b43ac63197c3c242349d54d599d7d8dd5bdee6e7ce37847224f3ff1fb14d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Regular.bin",
+    "bytes": 26576,
+    "sha256": "434c62e704037b5d2a12a0c7237513617806fc6cf53d67608f120b0908dd3396"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Regular.gltf",
+    "bytes": 2018,
+    "sha256": "a91059d18fad4bd3af7546a4226976d8a2139eb82c3fe0790a1c5287c6ac6ed8"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Beard.bin",
+    "bytes": 25276,
+    "sha256": "781cf9b719d75a9f8d73881d2ca0713fe580d774edc96adaded392aad37a72b7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Beard.gltf",
+    "bytes": 2005,
+    "sha256": "c91ef54606aad25a9d1191deaba90cb411c0067d8cef262b2f4819f242e5b365"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buns.bin",
+    "bytes": 131768,
+    "sha256": "4f6d4c010201278483da8d6d46ec40e3beb8d9e679ec2139bed216c561bccd38"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buns.gltf",
+    "bytes": 2243,
+    "sha256": "2bb3593575e21c9af39a53e48c42c1314b0a894e9577f3f14abffcb145cd56c5"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buzzed.bin",
+    "bytes": 19892,
+    "sha256": "89992fc7a5319df6f2908e44a3b694329fac4b500629a573224702e5fdd16f77"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buzzed.gltf",
+    "bytes": 2006,
+    "sha256": "43752a4c8f2464eb2494a8ab179bf7ad237638a3d47fb3de0a38361db40e1451"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_BuzzedFemale.bin",
+    "bytes": 19892,
+    "sha256": "6f1ab9bc997b01311dc0635ee165edfe27bd9715222718bc4cf4265e10b933af"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_BuzzedFemale.gltf",
+    "bytes": 2191,
+    "sha256": "3f30e5a7b0fc6d04d2980a4e937cc5e4b03ca923c9247869168ef13e1b40b747"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Long.bin",
+    "bytes": 115996,
+    "sha256": "13996da35c7afbf8cb5097da37207ee5b7c2e2904d4ab9e2ace9843030fff8d5"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Long.gltf",
+    "bytes": 2056,
+    "sha256": "94500e2e37e09efc8b8b920b8c6437ef1c76ca35863992b82d0d5de6e77122e9"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_SimpleParted.bin",
+    "bytes": 32032,
+    "sha256": "57c6359703a37e346ee38a9c7ba55c8dee761c0a02da99847d06f5a91728f3cc"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_SimpleParted.gltf",
+    "bytes": 2010,
+    "sha256": "ce6c666d00bcca2baa0c58d0442505f90f8feff952592effc4697a2341e9e56d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_BaseColor.png",
+    "bytes": 1570376,
+    "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_Normal.png",
+    "bytes": 4326126,
+    "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_BaseColor.png",
+    "bytes": 1729467,
+    "sha256": "f9f4f2fb3eeeefb0b6f0fdef38b0770fd6607640c1c680b8139dd76697e9f9b3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_Normal.png",
+    "bytes": 4710013,
+    "sha256": "172f230aae0d4366c3cfc0402b2e6d1811b11f8487344bff28605eeacac1558d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Eyebrows_Female.fbx",
+    "bytes": 194428,
+    "sha256": "ea6a6d1a3deddcf24b984684543c53693425560e670957e8486b4d2ba7b345dc"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Eyebrows_Regular.fbx",
+    "bytes": 168636,
+    "sha256": "1005c97901cc6eb09d0d9f8b11fb2a692f1dab90229498b27cd50b87c48f96e8"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Beard.fbx",
+    "bytes": 169804,
+    "sha256": "00899e7d2cceebab8c07456ca1c25e54e441eb271bb3427c3d12e371c2ef5189"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Buns.fbx",
+    "bytes": 259420,
+    "sha256": "cb45536c0e8c2b715732d9a75a33849239ca5e788c7dee4e17998daa0986fdfc"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Buzzed.fbx",
+    "bytes": 165884,
+    "sha256": "01c5c2ededd8b164274147ee8713a7a68cf74cd699fad6b969ce5e37c1b7b686"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_BuzzedFemale.fbx",
+    "bytes": 164492,
+    "sha256": "aeb3a606d8b9b1818025dbf6b4640ff33f14b0e9676f3cbfe410321e1a1d6a5d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Long.fbx",
+    "bytes": 249404,
+    "sha256": "206f14b69e05758425278f074eb61a730bfe40250e7cc30e0c433ab0b05342c7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_SimpleParted.fbx",
+    "bytes": 181628,
+    "sha256": "5e98acd3561c814127326fdc78e74f20dfa1c3397760006d17ebaea4c8d7a24d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.bin",
+    "bytes": 100592,
+    "sha256": "7a450832ca276c3d8299acaf78cd83c53b4290d79375c85266286ef617932e46"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.gltf",
+    "bytes": 25053,
+    "sha256": "ec294eb3dbe1b2027090e336255fa34ade5f2182c8964530404f3af7ad45939e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Regular.bin",
+    "bytes": 43656,
+    "sha256": "11b8092c27f17b329210d057eb69019d73130154b45a396b32801975099ffdf5"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Regular.gltf",
+    "bytes": 23117,
+    "sha256": "ced6afcce12cc72a27e30fc06880401aff2b3fe883a01739299a5b49e5f7509e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Beard.bin",
+    "bytes": 41356,
+    "sha256": "bf2f46ef5808665ef31082f787bc68c51ff063e81b76ca1a51ac86a9ae723be7"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Beard.gltf",
+    "bytes": 23104,
+    "sha256": "80013b9791ce12c65fbe693cf669b02ef5c38091c653bf13b9415d2d8380e0ce"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.bin",
+    "bytes": 205916,
+    "sha256": "811606cc84f0bfdefa2e6f1396f3d94c35138308a96d78a4f447b2e7dfc6ed6c"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.gltf",
+    "bytes": 23807,
+    "sha256": "cbdd6f509ec8f1021361b53da6fa1a077b95762ebc8bc2d8acae59bb0cb263c1"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buzzed.bin",
+    "bytes": 33372,
+    "sha256": "5d4b5452ff879ed1d516694be57d1106c070c7133e747a8c9432b01ebf20e908"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buzzed.gltf",
+    "bytes": 23108,
+    "sha256": "6e709c691d4feccda9788df917bf9604e751f02da21cee2bc81bcc3d26b3b580"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_BuzzedFemale.bin",
+    "bytes": 33372,
+    "sha256": "48fcdac8751e85c1d08ac9ff25b5c4d649e5b5d450d37ad8743b9f111a3a7e04"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_BuzzedFemale.gltf",
+    "bytes": 23779,
+    "sha256": "096a7a4ea5bcadc588f4c1e95f04b3461f8a20f3643a0308cfd23e81e180ab32"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Long.bin",
+    "bytes": 181756,
+    "sha256": "268fd531d2c2ac321783d36fcf106d15c5c76e8923eec2c8704d5fe9de953589"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Long.gltf",
+    "bytes": 23813,
+    "sha256": "27e2c63e8f98c79fb600268ffcc92b36c621b8653b5a7dcbadb08328f3f887a9"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.bin",
+    "bytes": 51332,
+    "sha256": "ecd7c81959f3985d6254458a440daaaa18a8bfbb1dbe111c68a04a72374d54db"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.gltf",
+    "bytes": 23114,
+    "sha256": "fe0f354d7f95d83d38e15c60794dcc063fa4d60550706f3d7ba51491cdc07c56"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_BaseColor.png",
+    "bytes": 1570376,
+    "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_Normal.png",
+    "bytes": 4326126,
+    "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_BaseColor.png",
+    "bytes": 1729467,
+    "sha256": "f9f4f2fb3eeeefb0b6f0fdef38b0770fd6607640c1c680b8139dd76697e9f9b3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_Normal.png",
+    "bytes": 4710013,
+    "sha256": "172f230aae0d4366c3cfc0402b2e6d1811b11f8487344bff28605eeacac1558d"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_1_BaseColor.png",
+    "bytes": 1570376,
+    "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_1_Normal.png",
+    "bytes": 3770683,
+    "sha256": "fd4530bb696a083ac7f9c2f685b4bb15d91150040e76c905db591c7644b4aa87"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_2_BaseColor.png",
+    "bytes": 1729467,
+    "sha256": "f9f4f2fb3eeeefb0b6f0fdef38b0770fd6607640c1c680b8139dd76697e9f9b3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_2_Normal.png",
+    "bytes": 4109628,
+    "sha256": "214dff8981ab87319b2acfaf1ad9143db020989afa14896a0d70048a667e17e3"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Textures/Normals Unity - Godot/T_Hair_1_Normal.png",
+    "bytes": 4326126,
+    "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
+  },
+  {
+    "path": "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Textures/Normals Unity - Godot/T_Hair_2_Normal.png",
+    "bytes": 4710013,
+    "sha256": "172f230aae0d4366c3cfc0402b2e6d1811b11f8487344bff28605eeacac1558d"
+  },
+  {
+    "path": "godot_tps_player/LICENSE.md",
+    "bytes": 1972,
+    "sha256": "f7bf763d4c378425b99a5abfe42f49bb03fc530e9721cc5943072becf348caff"
+  },
+  {
+    "path": "godot_tps_player/README.md",
+    "bytes": 2750,
+    "sha256": "2ed40ec23897b8a05012e9c0d5f1f315dbb489e80348131fdf5732e9d0999600"
+  },
+  {
+    "path": "godot_tps_player/player/player.gd",
+    "bytes": 6805,
+    "sha256": "e3e4b5249baafdf42533bb98ab3c947fadfd54cbeeb045d0792a844d26b1ee62"
+  },
+  {
+    "path": "godot_tps_player/player/player.tscn",
+    "bytes": 31831,
+    "sha256": "ed06a245ea650d544cb101621d5b8e98bb497804e58df05db1991b27fcce44ff"
+  },
+  {
+    "path": "godot_tps_player/player/model/player.glb",
+    "bytes": 23844032,
+    "sha256": "16b783ec2e19245d034326d401796b9bd2635de75f4e38917854316abeee4f9c"
+  },
+  {
+    "path": "godot_tps_player/player/model/player.glb.import",
+    "bytes": 1489,
+    "sha256": "a13a2ae21ce333273b3c9c18c5980b97083045a1f396f83f851d881cd414d3f5"
+  },
+  {
+    "path": "godot_tps_player/player/model/playerobot.tres",
+    "bytes": 1039,
+    "sha256": "205c8ca616f171d49a46ab88d8120a1155670e8208988d6bcd69b456e921de79"
+  },
+  {
+    "path": "godot_tps_player/player/model/robotemitter.tres",
+    "bytes": 391,
+    "sha256": "0c8f209ccc4e0393d64305c0b0618a7af1ddfdaa43dd3ae2c3323176e4fe2863"
+  },
+  {
+    "path": "godot_tps_player/player/textures/player_robot_albedo.png",
+    "bytes": 1127472,
+    "sha256": "1a3e77bc611c7378557a90300204107d8d7c624c765e54022699e6f1a2359b2d"
+  },
+  {
+    "path": "godot_tps_player/player/textures/player_robot_emissive.png",
+    "bytes": 10946,
+    "sha256": "b002d15617b5dcde87f85e766221012252a25b50f27504b70798a80921c1bf25"
+  },
+  {
+    "path": "godot_tps_player/player/textures/player_robot_normal.png",
+    "bytes": 1429561,
+    "sha256": "aafc4ad4f93caa0f0cfc607bda0c5eee2389c89696c176cb14f48df963927465"
+  },
+  {
+    "path": "godot_tps_player/player/textures/player_robot_orm.png",
+    "bytes": 4080059,
+    "sha256": "16be14ffcf728fa4168d110c3eb7438bc28de7f15dc22757020bfccdef086a08"
+  }
+]

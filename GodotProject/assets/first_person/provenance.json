@@ -1,0 +1,30 @@
+{
+  "author": "para",
+  "license": "CC0-1.0",
+  "source": "https://opengameart.org/content/fps-arms-rigged-only",
+  "original_mesh_sha256": "60f9a5d0e310907a4a5d15bf656bbff0d40b81dd87edcdfbd4a2ab201e442d86",
+  "changes": "Split left/right by geometry; retain continuous hand/wrist skin and 24 bind bones per hand, trim forearm under sleeve. Normalize wrist rest space. Preserve UV, normals, skin weights and supplied color texture. No test animation used. Blender refinement: weld UV seam duplicates, one Catmull-Clark subdivision level, smooth normals, interpolate UVs/weights and normalize strongest four influences; preserve all original joint transforms and inverse binds.",
+  "outputs": [
+    {
+      "file": "hand_left.glb",
+      "source_triangles": 3356,
+      "triangles": 20136,
+      "vertices": 12389,
+      "bones": 24,
+      "bind_rig_preserved": true,
+      "source_sha256": "5295744011561320aaeeeb41a4f569736090fec0182599bcbcf14af613e0c0fb",
+      "sha256": "7b4d81dd2dd8c2a305489355c9e8573ce78c754d3f188118196eef25ca60a9fb"
+    },
+    {
+      "file": "hand_right.glb",
+      "source_triangles": 3356,
+      "triangles": 20136,
+      "vertices": 14134,
+      "bones": 24,
+      "bind_rig_preserved": true,
+      "source_sha256": "3bac07447ba6f33ac12dd146564eb539fa8efb1d7b890341a0432e85bd93ea04",
+      "sha256": "7e1013e39d3e5547a66552074641db17f4db90a7d4a51530ff63f9d23fed1024"
+    }
+  ],
+  "editable_source": "AssetLibrary/first_person/field_hands/field_hands.blend"
+}

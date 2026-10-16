@@ -1,0 +1,161 @@
+{
+  "step": "S03",
+  "date": "2026-10-13",
+  "scope": "Static planning acceptance only; source evidence and design consistency. No game, animation, audio or cinematic playback tests.",
+  "checks": [
+    {
+      "check": "START matches planned handoff",
+      "passed": true
+    },
+    {
+      "check": "NPC anchor scout",
+      "passed": true
+    },
+    {
+      "check": "NPC anchor logger",
+      "passed": true
+    },
+    {
+      "check": "NPC anchor lu",
+      "passed": true
+    },
+    {
+      "check": "initial player yaw",
+      "passed": true
+    },
+    {
+      "check": "initial player health",
+      "passed": true
+    },
+    {
+      "check": "initial player magazines",
+      "passed": true
+    },
+    {
+      "check": "initial player reserves",
+      "passed": true
+    },
+    {
+      "check": "initial player weapon",
+      "passed": true
+    },
+    {
+      "check": "camera FOV and height",
+      "passed": true
+    },
+    {
+      "check": "handoff briefing is a planned change, not current reset",
+      "passed": true
+    },
+    {
+      "check": "initial roster and maximum alive",
+      "passed": true
+    },
+    {
+      "check": "first contact boundary preserved",
+      "passed": true
+    },
+    {
+      "check": "first two gate dependencies",
+      "passed": true
+    },
+    {
+      "check": "river gate requires power and rescue",
+      "passed": true
+    },
+    {
+      "check": "reinforcements require stage 2 and river gate",
+      "passed": true
+    },
+    {
+      "check": "extraction duration and distances",
+      "passed": true
+    },
+    {
+      "check": "finish checks wounded presence and evacuation",
+      "passed": true
+    },
+    {
+      "check": "save version and player bounds",
+      "passed": true
+    },
+    {
+      "check": "legacy route migration retained",
+      "passed": true
+    },
+    {
+      "check": "unconditional resume requires new opening context",
+      "passed": true
+    },
+    {
+      "check": "HUD unknown-mode first-button assumption recorded",
+      "passed": true
+    },
+    {
+      "check": "7 existing moments kept separate",
+      "passed": true
+    },
+    {
+      "check": "narration exact including punctuation, unchanged since opening checkpoint",
+      "passed": true
+    },
+    {
+      "check": "12 outline segments and 14 future acceptance cases",
+      "passed": true
+    },
+    {
+      "check": "planned interfaces not represented as runtime verification",
+      "passed": true
+    },
+    {
+      "check": "audited source files unchanged from S01",
+      "passed": true
+    },
+    {
+      "check": "document local links exist",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "checks_count": 28,
+  "source_files": 8,
+  "source_function_excerpts": 24,
+  "fixed_narration_characters": 161,
+  "fixed_narration_utf8_sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320",
+  "local_links_checked": 65,
+  "missing_links": [],
+  "runtime_acceptance_cases_defined": 14,
+  "runtime_acceptance_cases_executed": 0,
+  "inputs": [
+    {
+      "path": "docs/S03-narrative-and-mission.md",
+      "sha256": "197a76f5cc5f32aeaf7a9ca2b104897c18acbaf32625e681760289d7b438d593"
+    },
+    {
+      "path": "docs/production_plan.md",
+      "sha256": "d9587abd596b979047aeb91708f39b9c6c61a97cdb93fe2c0b8263d3ce3883f1"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0b8038f0dd9dbb1eb4911283dd8fea59c5fdf2eac793258db4adbcab65631b07"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "2f351b73b98c1c2da32ce76d7635f74dd86cc63924067ee7cd1e9e7ac2f70e47"
+    },
+    {
+      "path": "docs/narrative/S03/interface_contract.json",
+      "sha256": "f0a4e8e93948462157cf842a0d7f07d1f5f32c1a62d26ef69282b04de73128d3"
+    }
+  ],
+  "manual_review": {
+    "scope": "Narrative/editorial review",
+    "decisions": [
+      "Tianchi cast uses Shen Yan and Jiang Lan; Lu Shan remains wounded at the office",
+      "B3 rendezvous plan precedes B5 latest capture information",
+      "Several days of travel are explicitly elided",
+      "Rescue and treatment remain independent of roster/power progression",
+      "Normal completion and skip share one handoff; legacy saves bypass it"
+    ]
+  }
+}

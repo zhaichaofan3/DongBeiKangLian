@@ -1,0 +1,44 @@
+{
+  "all_passed": false,
+  "bounds": {
+    "position": [
+      -91.3332061767578,
+      -9.0,
+      -89.3209075927734
+    ],
+    "size": [
+      185.733963012695,
+      36.1911468505859,
+      184.433013916016
+    ]
+  },
+  "checks": [
+    {
+      "description": "Artistic Tianchi GLB loads in Godot",
+      "passed": true
+    },
+    {
+      "description": "Imported model retains crater, lake, platform and ridge cap meshes",
+      "passed": true
+    },
+    {
+      "description": "Crater composition preserves large readable scale",
+      "passed": true
+    },
+    {
+      "description": "Lake and ridge elevation span is present",
+      "passed": false
+    },
+    {
+      "description": "Export preserves visual material slots",
+      "passed": true
+    },
+    {
+      "description": "S21 visual model has no gameplay collision before S22",
+      "passed": true
+    }
+  ],
+  "meshes": 6,
+  "method": "Godot resource load, mesh bounds, material and collision inspection.",
+  "step": "S21"
+}

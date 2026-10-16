@@ -1,0 +1,77 @@
+{
+  "id": "inventory-sound-effects",
+  "title": "Inventory Sound Effects",
+  "source_url": "https://opengameart.org/content/inventory-sound-effects",
+  "author": "artisticdude",
+  "license": "CC-BY-3.0",
+  "notes": "Multiple alternative licenses offered; selected CC-BY 3.0. Six material/object interaction cues.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "inventory-sound-effects/originals/inventory_sound_effects.zip",
+      "download_url": "https://opengameart.org/sites/default/files/inventory_sound_effects.zip",
+      "bytes": 522542,
+      "sha256": "a61770f1564e285b2dd52e6fd6808e4b170520c25d67e49e3e0c107ac659288c",
+      "role": "original_download"
+    },
+    {
+      "path": "inventory-sound-effects/extracted/inventory_sound_effects/inventory_sound_effects/cloth-inventory.wav",
+      "download_url": "https://opengameart.org/sites/default/files/inventory_sound_effects.zip",
+      "bytes": 119854,
+      "sha256": "1bdcc843cb3b3b5ceea2d55df3580db623e822e85cb1f393b63b480fd8d2e439",
+      "role": "extracted"
+    },
+    {
+      "path": "inventory-sound-effects/extracted/inventory_sound_effects/inventory_sound_effects/leather_inventory.wav",
+      "download_url": "https://opengameart.org/sites/default/files/inventory_sound_effects.zip",
+      "bytes": 207406,
+      "sha256": "31d75251d96aaa767efc6aa326e40c1b52e05f1832a751f49744551a2f916e28",
+      "role": "extracted"
+    },
+    {
+      "path": "inventory-sound-effects/extracted/inventory_sound_effects/inventory_sound_effects/metal-clash.wav",
+      "download_url": "https://opengameart.org/sites/default/files/inventory_sound_effects.zip",
+      "bytes": 83754,
+      "sha256": "1894d5c81d26d365fd7a67356f02b6e38e39d0d9f680e777e18d5c67b3bfe16b",
+      "role": "extracted"
+    },
+    {
+      "path": "inventory-sound-effects/extracted/inventory_sound_effects/inventory_sound_effects/ring_inventory.wav",
+      "download_url": "https://opengameart.org/sites/default/files/inventory_sound_effects.zip",
+      "bytes": 43606,
+      "sha256": "b4136002b3162a037c34822bda74584e1f1e429f60b9184a9d641d4b41983cff",
+      "role": "extracted"
+    },
+    {
+      "path": "inventory-sound-effects/extracted/inventory_sound_effects/inventory_sound_effects/sell_buy_item.wav",
+      "download_url": "https://opengameart.org/sites/default/files/inventory_sound_effects.zip",
+      "bytes": 99006,
+      "sha256": "0bc75f52a27bf4f9f1d36353415f07e20aca2ee35cb7beb038cf471fce1ebc52",
+      "role": "extracted"
+    },
+    {
+      "path": "inventory-sound-effects/extracted/inventory_sound_effects/inventory_sound_effects/turn_page.wav",
+      "download_url": "https://opengameart.org/sites/default/files/inventory_sound_effects.zip",
+      "bytes": 184366,
+      "sha256": "1d13a9b30e75ddcf3f71f6312e8b5ec194163febe81678db5f909bca857d12d3",
+      "role": "extracted"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 6,
+    "decode_passed": 6,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 4.17,
+    "duration_range_seconds": [
+      0.243,
+      1.176
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

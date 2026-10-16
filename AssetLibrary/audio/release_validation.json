@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "scope": "0.3 external audio integration release",
+  "files": [
+    {
+      "path": "C:\\GameMake\\Release\\FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "C:\\GameMake\\Release\\FenghuoEcho.pck",
+      "bytes": 1229872,
+      "sha256": "9c06b52ff9e57807b566c174541e5fe31f98070de88ef59786f74f91a9737ea8"
+    }
+  ],
+  "commands": [
+    "Build-Game.ps1",
+    "Test-Game.ps1 -Release",
+    "FenghuoEcho.exe --headless --script <audio/godot_audio_check.gd> --quit-after 120 (working directory TEMP; no --path)"
+  ],
+  "checks": {
+    "release_basic": {
+      "passed": 76,
+      "total": 76
+    },
+    "release_motion": {
+      "passed": 41,
+      "total": 41
+    },
+    "existing_assertions_passed": 117,
+    "combat_route": {
+      "passed": true,
+      "health": 93.0,
+      "guards_defeated": 5,
+      "controller_simulated_seconds": 57.0833333333314,
+      "state": "won"
+    },
+    "source_audio_check": "PASS",
+    "release_audio_check": "PASS",
+    "source_smoke": {
+      "passed": 76,
+      "total": 76
+    }
+  },
+  "integrated_audio": [
+    "res://assets/audio/rifle_arisaka_01.wav",
+    "res://assets/audio/step_grass_01.wav",
+    "res://assets/audio/forest_wind_loop.wav"
+  ],
+  "logs": [
+    "AssetLibrary/audio/release-build.log",
+    "AssetLibrary/audio/release-regression.log",
+    "AssetLibrary/audio/release-audio-check.log",
+    "Release/integration.log",
+    "Release/visual-motion.log",
+    "Release/combat-route.log"
+  ],
+  "limits": [
+    "No new GPU screenshots or performance measurements for the audio update.",
+    "No exhaustive listening or final mix review.",
+    "Source library assets are separate from the three files integrated into the game.",
+    "Arisaka source metadata specifies .30-06; not verified original Japanese service ammunition."
+  ]
+}

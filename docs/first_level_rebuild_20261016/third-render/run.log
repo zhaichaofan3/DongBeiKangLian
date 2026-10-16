@@ -1,0 +1,89 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: First chapter navigation sampled from real colliders
+PASS: Opening encounters are separated by 76 metres
+PASS: Scout and optional logger are connected
+PASS: Closed first gate blocks all downstream routes: (34.0, 0.08, 194.0)
+PASS: Closed first gate blocks all downstream routes: (34.0, 0.08, 118.0)
+PASS: Closed first gate blocks all downstream routes: (79.0, 0.16, 14.0)
+PASS: Closed gate physically blocks movement 0
+PASS: Gate has no corner shortcut 0/-3.5
+PASS: Gate has no corner shortcut 0/0.0
+PASS: Gate has no corner shortcut 0/3.5
+PASS: Opened gate connects physical navigation 0
+PASS: Later locked gate still blocks the ferry
+PASS: Closed gate physically blocks movement 1
+PASS: Gate has no corner shortcut 1/-3.5
+PASS: Gate has no corner shortcut 1/0.0
+PASS: Gate has no corner shortcut 1/3.5
+PASS: Opened gate connects physical navigation 1
+PASS: Later locked gate still blocks the ferry
+PASS: Closed gate physically blocks movement 2
+PASS: Gate has no corner shortcut 2/-3.5
+PASS: Gate has no corner shortcut 2/0.0
+PASS: Gate has no corner shortcut 2/3.5
+PASS: Opened gate connects physical navigation 2
+PASS: Main path segment 01 is navigable
+PASS: Main path segment 02 is navigable
+PASS: Main path segment 03 is navigable
+PASS: Main path segment 04 is navigable
+PASS: Main path segment 05 is navigable
+PASS: Main path segment 06 is navigable
+PASS: Main path segment 07 is navigable
+PASS: Main path segment 08 is navigable
+PASS: Main path segment 09 is navigable
+PASS: Main path segment 10 is navigable
+PASS: Main path segment 11 is navigable
+PASS: Main path segment 12 is navigable
+PASS: Main path segment 13 is navigable
+PASS: Main path segment 14 is navigable
+PASS: Main path segment 15 is navigable
+PASS: Main path segment 16 is navigable
+PASS: Main path segment 17 is navigable
+PASS: Main path segment 18 is navigable
+PASS: Main path segment 19 is navigable
+PASS: Main path segment 20 is navigable
+PASS: Main path segment 21 is navigable
+PASS: Main path segment 22 is navigable
+PASS: Main path segment 23 is navigable
+PASS: Main path segment 24 is navigable
+PASS: Main path segment 25 is navigable
+PASS: Main path segment 26 is navigable
+PASS: Main path segment 27 is navigable
+PASS: Expanded critical path exceeds 400 metres including office objectives
+PASS: Guard fixture on free chapter ground: gate_guard(30.0, 0.08, 226.0)
+PASS: Guard fixture on free chapter ground: gate_guard(30.0, 0.08, 234.0)
+PASS: Guard fixture on free chapter ground: yard_guard(38.0, 0.08, 134.0)
+PASS: Guard fixture on free chapter ground: yard_guard(38.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: pier_guard(74.0, 0.08, 26.0)
+PASS: Guard fixture on free chapter ground: pier_guard(74.0, 0.08, 18.0)
+PASS: Guard fixture on free chapter ground: timber_guard(30.0, 0.08, 130.0)
+PASS: Guard fixture on free chapter ground: timber_guard(30.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: office_guard(46.0, 0.08, 34.0)
+PASS: Guard fixture on free chapter ground: office_guard(46.0, 0.08, 38.0)
+PASS: Guard fixture on free chapter ground: door_ambusher(34.0, 0.08, 118.5)
+PASS: Guard fixture on free chapter ground: door_ambusher(34.0, 0.08, 112.0)
+PASS: Guard fixture on free chapter ground: gate_guard_2(38.0, 0.08, 210.0)
+PASS: Guard fixture on free chapter ground: gate_guard_2(38.0, 0.08, 204.0)
+PASS: Guard fixture on free chapter ground: gate_guard_3(34.0, 0.08, 214.0)
+PASS: Guard fixture on free chapter ground: gate_guard_3(34.0, 0.08, 206.0)
+PASS: Guard fixture on free chapter ground: yard_guard_2(34.0, 0.08, 134.0)
+PASS: Guard fixture on free chapter ground: yard_guard_2(34.0, 0.08, 128.0)
+PASS: Guard fixture on free chapter ground: yard_guard_3(38.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: yard_guard_3(34.0, 0.08, 126.0)
+PASS: Guard fixture on free chapter ground: office_guard_2(50.0, 0.08, 38.0)
+PASS: Guard fixture on free chapter ground: office_guard_2(46.0, 0.08, 38.0)
+PASS: Guard fixture on free chapter ground: office_guard_3(58.0, 0.08, 36.0)
+PASS: Guard fixture on free chapter ground: office_guard_3(54.0, 0.08, 36.0)
+PASS: Guard fixture on free chapter ground: office_guard_4(56.0, 0.08, 30.0)
+PASS: Guard fixture on free chapter ground: office_guard_4(54.0, 0.08, 30.0)
+PASS: Opaque geography hides future encounter from (34.0, 1.6, 200.0)
+PASS: Opaque geography hides future encounter from (34.0, 1.6, 124.0)
+PASS: Opaque geography hides future encounter from (14.0, 1.6, 276.0)
+PASS: Branch wire remains thigh-height
+PASS: Branch wire remains thigh-height
+PASS: New chapter checkpoint reads back from disk
+PASS: Revision 4 camp save migrates to the expanded entry
+PASS: Original narration and dialogue timing remains unchanged
+FIRST LEVEL REBUILD: PASS | checks=85

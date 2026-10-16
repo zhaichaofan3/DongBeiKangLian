@@ -1,0 +1,37 @@
+{
+  "cpu": {
+    "Name": "AMD Ryzen 7 H 260 w/ Radeon 780M Graphics",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "operating_system": {
+    "Caption": "Microsoft Windows 11 Pro for Workstations",
+    "Version": "10.0.26200",
+    "BuildNumber": "26200",
+    "TotalVisibleMemorySize": 32812440
+  },
+  "video_adapters": [
+    {
+      "Name": "GameViewer Virtual Display Adapter",
+      "DriverVersion": "15.6.5.199"
+    },
+    {
+      "Name": "MuMu Virtual Display Adapter",
+      "DriverVersion": "20.36.41.498"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "DriverVersion": "32.0.16.1692"
+    },
+    {
+      "Name": "Honor Virtual Display Device",
+      "DriverVersion": "1.0.23.3"
+    },
+    {
+      "Name": "AMD Radeon 780M Graphics",
+      "DriverVersion": "32.0.31041.1004"
+    }
+  ],
+  "timezone": "Asia/Shanghai",
+  "measurement_note": "Local machine baseline; source and release runs are sequential; balanced quality; native 1920x1080; VSync and frame limit disabled for rendering tests."
+}

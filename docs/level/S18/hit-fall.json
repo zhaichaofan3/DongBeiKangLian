@@ -1,0 +1,69 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "scout shows nonfatal hit stagger",
+      "passed": true
+    },
+    {
+      "description": "scout recovers from hit without staying twisted",
+      "passed": true
+    },
+    {
+      "description": "logger shows nonfatal hit stagger",
+      "passed": true
+    },
+    {
+      "description": "logger recovers from hit without staying twisted",
+      "passed": true
+    },
+    {
+      "description": "wounded shows nonfatal hit stagger",
+      "passed": true
+    },
+    {
+      "description": "wounded recovers from hit without staying twisted",
+      "passed": true
+    },
+    {
+      "description": "guard shows nonfatal hit stagger",
+      "passed": true
+    },
+    {
+      "description": "guard recovers from hit without staying twisted",
+      "passed": true
+    },
+    {
+      "description": "Live guard takes a nonfatal hit without entering death",
+      "passed": true
+    },
+    {
+      "description": "Live guard stagger returns to idle",
+      "passed": true
+    },
+    {
+      "description": "Fatal hit locks guard in dead state and removes collision",
+      "passed": true
+    },
+    {
+      "description": "Guard reaches a grounded fallen pose",
+      "passed": true
+    },
+    {
+      "description": "Fallen guard remains stable during the hold",
+      "passed": true
+    },
+    {
+      "description": "Dead guard does not resume locomotion",
+      "passed": true
+    }
+  ],
+  "method": "Imported rig flinch probes and live CharacterBody3D nonfatal/fatal guard state checks.",
+  "roles": [
+    "scout",
+    "logger",
+    "wounded",
+    "guard"
+  ],
+  "step": "S18"
+}

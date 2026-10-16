@@ -1,0 +1,263 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Player rests on ground
+PASS: New mission begins with thirteen placed guards including the door ambusher
+PASS: WASD direction
+PASS: Walls block movement
+PASS: Walls block enemy sight
+PASS: Enemy sees exposed player
+PASS: Guard first shot suppresses without unavoidable damage
+PASS: Exposed player can still be damaged by deliberate close-range fire
+PASS: Rifle consumes ammo and hits physical target
+PASS: Immediate defeat checkpoint includes the shot ammunition deduction
+PASS: Reload transfers ammo
+PASS: Weapon switches independent model
+PASS: Mission requires contact briefing
+PASS: Walk to scout
+PASS: E opens face-to-face conversation
+PASS: Dialogue pauses movement and combat
+PASS: Optional route question has a distinct response
+PASS: Briefing unlocks mission and restores control
+PASS: J opens journal from gameplay
+PASS: Escape closes journal
+PASS: Walk to logger shelter
+PASS: Logger offers supplies in person
+PASS: Medical choice grants exactly one bandage
+PASS: Repeat conversation cannot duplicate reward
+PASS: Player bandage consumes resource and restores 40 health
+PASS: Supply cache is reachable
+PASS: World supply is collectible
+PASS: Supply cache cannot be collected twice
+PASS: Closed door blocks navigation
+ROUTE BLOCKED: (38.99998, -0.000031, 62.52253) -> (39.0, 0.0, 61.0)
+ERROR: Reach office door approach
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:121)
+       [2] _follow_route (res://tests/smoke.gd:431)
+       [3] _walk_to (res://tests/smoke.gd:447)
+ROUTE BLOCKED: (38.99998, -0.000012, 62.52253) -> (39.3, 0.08, 38.0)
+ERROR: Approach physical door
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:122)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Door interaction opens physics and navigation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:124)
+       [2] _walk_to (res://tests/smoke.gd:447)
+PASS: Door closes and restores collision
+ROUTE BLOCKED: (38.99998, 0.000224, 62.52253) -> (41.7, 0.08, 38.0)
+ERROR: Player can stand in doorway
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:128)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Door cannot close on player
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:130)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ROUTE BLOCKED: (38.99998, 0.00041, 62.52253) -> (46.0, 0.08, 38.0)
+ERROR: Walk through open door
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:131)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ROUTE BLOCKED: (38.99998, -0.001618, 62.52253) -> (48.0, 0.08, 39.3)
+ERROR: Reach letter shelf without stepping into bench
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:132)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: World letter opens narrative reading
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:134)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Journal preserves discovered letter
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:136)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ROUTE BLOCKED: (38.99998, -0.001328, 62.52253) -> (50.0, 0.08, 38.0)
+ERROR: Codebook route clears desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:137)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Roster pickup advances story
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:139)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Roster cannot be collected twice
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:141)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ROUTE BLOCKED: (39.44783, 0.000844, 62.40675) -> (52.0, 0.08, 36.0)
+ERROR: Reach power switch around desk
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:142)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Power switch extinguishes lights and glowing lanterns
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:144)
+       [2] _walk_to (res://tests/smoke.gd:447)
+PASS: Reinforcements respect cap
+ROUTE BLOCKED: (39.45538, 0.000796, 62.39505) -> (50.0, 0.08, 30.0)
+ERROR: Reach wounded courier
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:147)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Wounded courier offers rescue dialogue
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:149)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Treatment consumes bandage and starts escort
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:151)
+       [2] _walk_to (res://tests/smoke.gd:447)
+PASS: Wait command stops companion
+ROUTE BLOCKED: (39.45538, 0.000796, 62.39505) -> (50.0, 0.08, 30.0)
+ERROR: Player can scout ahead
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:156)
+       [2] _walk_to (res://tests/smoke.gd:447)
+PASS: Waiting companion stays in place
+ROUTE BLOCKED: (39.45538, 0.00079, 62.39505) -> (48.8, 0.08, 30.0)
+ERROR: Return to waiting companion
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:159)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Follow command resumes escort
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:162)
+       [2] _walk_to (res://tests/smoke.gd:447)
+PASS: Death opens retry menu
+ERROR: Checkpoint restores mission
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:168)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Checkpoint restores companion treatment, command and position
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:169)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Checkpoint preserves narrative choices, inventory and door
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:170)
+       [2] _walk_to (res://tests/smoke.gd:447)
+NO ROUTE: (39.45538, 0.00079, 62.39505) -> (79.0, 0.16, 14.0)
+ERROR: Continuous walking reaches evacuation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:171)
+       [2] _walk_to (res://tests/smoke.gd:447)
+ERROR: Companion walks entire office-to-river route without teleporting
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:176)
+       [2] _frames (res://tests/smoke.gd:422)
+ERROR: Evacuation ends in a character conversation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:178)
+       [2] _frames (res://tests/smoke.gd:422)
+ERROR: Both characters and roster depart for the village
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:180)
+       [2] _frames (res://tests/smoke.gd:422)
+ERROR: Ferry transition opens the village chapter
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/smoke.gd:20)
+       [1] _run (res://tests/smoke.gd:182)
+       [2] _frames (res://tests/smoke.gd:422)
+PASS: Invalid companion snapshot rejected
+PASS: Invalid weapon snapshot rejected
+PASS: Corrupt JSON rejected
+PASS: Restart resets narrative, door and companion
+PASS: Alternative ammo choice grants different reward
+PASS: Rescue remains possible without bandages
+PASS: Distant companion cannot satisfy evacuation
+PASS: Waiting companion overlaps evacuation interaction range
+PASS: Dock prompt offers nearby companion conversation
+PASS: Evacuation does not block talking to waiting companion
+PASS: Follow command works inside evacuation area
+PASS: Companion walks from waiting position and starts the crossing
+PASS: Dock still explains missing companion when nobody is nearby
+PASS: QA uses isolated presentation preferences
+PASS: Performance preset applies without resetting mission
+PASS: Quality preset enables 4x antialiasing
+PASS: Zero volume fully mutes audio
+PASS: Graphics and control preferences survive reload from disk
+PASS: Invalid preference values retain safe defaults
+PASS: All five initial guard patrols use traversable routes
+PASS: Reinforcements wait while player occupies their fixed entrance
+PASS: Visible road entrance cannot pop a guard into view
+PASS: Pausing freezes reinforcement countdown
+PASS: Power cut has an initial warning delay
+PASS: First delayed guard brings encounter to six-alive cap
+PASS: Full encounter defers reinforcements without consuming them
+PASS: Defeat is persisted immediately with checkpoint state
+PASS: Vacated slot admits exactly one guard
+PASS: Second pair waits the full inter-wave interval
+PASS: Second pair enters from the same predefined road
+PASS: Partially completed reinforcement encounter creates valid save
+PASS: Repeated load restores exact issued count without duplicate reinforcements
+PASS: Defeated initial and legacy-named wave guards stay defeated after load
+PASS: Checkpoint retains surviving guard health and position
+PASS: Checkpoint retains remaining arrival delay
+PASS: Restored delay cannot spawn the last guard early
+PASS: Final arrival exhausts finite four-guard reinforcement roster
+PASS: All nine defeated remain cleared across long waits and load
+PASS: Save rejects reinforcement index beyond finite roster
+PASS: Save rejects negative reinforcement countdown
+PASS: Save rejects malformed active guard position
+PASS: Save rejects defeat of a reinforcement that never arrived
+PASS: Original version-two save with wave_0 identifier remains compatible
+PASS: Legacy encounter migrates original first wave and delays added second wave
+PASS: Legacy migration preserves defeats and initial roster without surprise guards
+PASS: Migrated legacy encounter writes a valid expanded-format checkpoint
+SMOKE RESULT: 80/108 passed

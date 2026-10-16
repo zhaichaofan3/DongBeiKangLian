@@ -1,0 +1,121 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "History uses 11 longer shots and B retains 16 shots",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-01",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-04",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-06",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-07",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-08",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-10",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-11",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-14",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-15",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-16",
+      "passed": true
+    },
+    {
+      "description": "Authored actors and faction details remain correct in A-18",
+      "passed": true
+    },
+    {
+      "description": "A5-A6 load the artistic Tianchi scene including exported import remapping",
+      "passed": true
+    },
+    {
+      "description": "History has original 15 cues plus two additions over the complete supplied track",
+      "passed": true
+    },
+    {
+      "description": "A4 has the authored S27 barrage and distant fireline layers",
+      "passed": true
+    },
+    {
+      "description": "A07 snow surface uses a procedural material instead of the old flat color",
+      "passed": true
+    },
+    {
+      "description": "A07 snow top aligns with the actors' foot anchor",
+      "passed": true
+    },
+    {
+      "description": "A07 preview shows the snow path and keeps the walking actor above its surface",
+      "passed": true
+    },
+    {
+      "description": "A10 soldiers walk through the office instead of helping each other",
+      "passed": true
+    },
+    {
+      "description": "A10 uses the interior travelling camera and dedicated lighting with separated actors",
+      "passed": true
+    },
+    {
+      "description": "A4 runtime combines formal label, muzzle layer and first barrage",
+      "passed": true
+    },
+    {
+      "description": "A5 carries N15 into the artistic Tianchi close",
+      "passed": true
+    },
+    {
+      "description": "A6 carries the added narration over the continuous building panorama",
+      "passed": true
+    },
+    {
+      "description": "History previews leave gameplay resources and mission state unchanged",
+      "passed": true
+    },
+    {
+      "description": "A1-A6 complete into the separate B boundary without gameplay handoff",
+      "passed": true
+    },
+    {
+      "description": "Continuous history playback reaches all A shots and narration cues",
+      "passed": true
+    },
+    {
+      "description": "History completion does not commit the task prologue",
+      "passed": true
+    }
+  ],
+  "history_shots": 11,
+  "music": "embedded_in_history_global_suppressed",
+  "narration_cues": 17,
+  "sfx_listening": "pending_S28",
+  "status": "runtime_pass_visual_and_audio_acceptance_pending",
+  "step": "S32",
+  "task_prologue": "pending_S33",
+  "voice": "user_supplied_full_mix"
+}

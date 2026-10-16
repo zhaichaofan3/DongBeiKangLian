@@ -1,0 +1,996 @@
+[
+  {
+    "id": "oga_dims-arboretum",
+    "path": "AssetLibrary/environment/supplement/dims-arboretum/extracted/dim_arboretum.blend",
+    "sha256": "2df57c9d43c8d6aa2ebcf68c775db723837991132ef6499f1d52dc9903f2516a",
+    "source_unchanged": true,
+    "scene_mesh_instances": 65,
+    "source_triangles_total_instances": 2037,
+    "source_scene_bbox_blender_xyz": [
+      24.513205,
+      31.084138,
+      9.623183
+    ],
+    "scene_unit_scale": 1.0,
+    "objects": [
+      {
+        "name": "HayBale",
+        "mesh": "HayBale",
+        "source_triangles": 80,
+        "world_bbox_blender_xyz": [
+          2.438308,
+          3.008024,
+          1.89828
+        ]
+      },
+      {
+        "name": "MenthaSpicata",
+        "mesh": "Spearmint",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          1.152,
+          1.152,
+          2.304
+        ]
+      },
+      {
+        "name": "Eupatorium",
+        "mesh": "JoepyeWeed",
+        "source_triangles": 12,
+        "world_bbox_blender_xyz": [
+          1.769287,
+          1.706124,
+          3.21454
+        ]
+      },
+      {
+        "name": "DaucusCarota",
+        "mesh": "QueenAnne'sLace",
+        "source_triangles": 14,
+        "world_bbox_blender_xyz": [
+          0.736596,
+          0.812342,
+          2.576641
+        ]
+      },
+      {
+        "name": "Mushroom8",
+        "mesh": "Mushroom8",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          0.8,
+          0.52,
+          0.324184
+        ]
+      },
+      {
+        "name": "TyphaLatifolia",
+        "mesh": "Cattail",
+        "source_triangles": 20,
+        "world_bbox_blender_xyz": [
+          2.917697,
+          2.798333,
+          4.284588
+        ]
+      },
+      {
+        "name": "MyasotisScorpioides",
+        "mesh": "ForgetMeNot",
+        "source_triangles": 14,
+        "world_bbox_blender_xyz": [
+          1.14917,
+          1.149169,
+          2.08
+        ]
+      },
+      {
+        "name": "FagusAmericana",
+        "mesh": "Beech",
+        "source_triangles": 187,
+        "world_bbox_blender_xyz": [
+          9.048418,
+          11.427519,
+          6.77843
+        ]
+      },
+      {
+        "name": "Carrot",
+        "mesh": "Carrot",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          1.0,
+          0.821282,
+          2.0
+        ]
+      },
+      {
+        "name": "Allium",
+        "mesh": "Onion",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          1.0,
+          0.259147,
+          2.040766
+        ]
+      },
+      {
+        "name": "Stump",
+        "mesh": "Cylinder",
+        "source_triangles": 120,
+        "world_bbox_blender_xyz": [
+          1.98982,
+          1.942989,
+          1.263894
+        ]
+      },
+      {
+        "name": "Mushroom 7 Cluster",
+        "mesh": "Mushroom 7 Cluster",
+        "source_triangles": 18,
+        "world_bbox_blender_xyz": [
+          0.583879,
+          0.61614,
+          0.225162
+        ]
+      },
+      {
+        "name": "Mushroom 7",
+        "mesh": "Mushroom 7",
+        "source_triangles": 6,
+        "world_bbox_blender_xyz": [
+          0.261657,
+          0.261657,
+          0.187344
+        ]
+      },
+      {
+        "name": "TrifoliumPratense",
+        "mesh": "RedClover",
+        "source_triangles": 8,
+        "world_bbox_blender_xyz": [
+          0.378,
+          0.378,
+          1.512
+        ]
+      },
+      {
+        "name": "GroundCover",
+        "mesh": "GroundCover",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          3.74,
+          3.740001,
+          0.285988
+        ]
+      },
+      {
+        "name": "Mushroom6 Cluster",
+        "mesh": "Mushroom6 Cluster",
+        "source_triangles": 28,
+        "world_bbox_blender_xyz": [
+          0.459077,
+          0.577741,
+          0.359997
+        ]
+      },
+      {
+        "name": "Mushroom6",
+        "mesh": "Mushroom6",
+        "source_triangles": 6,
+        "world_bbox_blender_xyz": [
+          0.144,
+          0.144,
+          0.288
+        ]
+      },
+      {
+        "name": "MalvaMoschata",
+        "mesh": "MuskMallow",
+        "source_triangles": 16,
+        "world_bbox_blender_xyz": [
+          1.23483,
+          1.076387,
+          2.469661
+        ]
+      },
+      {
+        "name": "ChrysanthemumLeucanth",
+        "mesh": "Daisy",
+        "source_triangles": 14,
+        "world_bbox_blender_xyz": [
+          0.894365,
+          0.710415,
+          2.619977
+        ]
+      },
+      {
+        "name": "ClethraAlnifolia",
+        "mesh": "RubySpice",
+        "source_triangles": 22,
+        "world_bbox_blender_xyz": [
+          2.639843,
+          3.236922,
+          3.730885
+        ]
+      },
+      {
+        "name": "CornusAmericana",
+        "mesh": "Dogwood",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          0.846398,
+          0.797661,
+          0.480031
+        ]
+      },
+      {
+        "name": "Book2",
+        "mesh": "Book2",
+        "source_triangles": 32,
+        "world_bbox_blender_xyz": [
+          0.133304,
+          0.464361,
+          0.611983
+        ]
+      },
+      {
+        "name": "Book1",
+        "mesh": "Book1",
+        "source_triangles": 28,
+        "world_bbox_blender_xyz": [
+          0.121185,
+          0.464361,
+          0.811983
+        ]
+      },
+      {
+        "name": "Solidago",
+        "mesh": "Goldenrod",
+        "source_triangles": 8,
+        "world_bbox_blender_xyz": [
+          0.64,
+          0.760782,
+          2.56
+        ]
+      },
+      {
+        "name": "LactucaBiennis",
+        "mesh": "TallBlueLettuce",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          1.234831,
+          1.076387,
+          2.469661
+        ]
+      },
+      {
+        "name": "CinderBlock",
+        "mesh": "CinderBlock",
+        "source_triangles": 120,
+        "world_bbox_blender_xyz": [
+          0.624001,
+          0.624,
+          1.248
+        ]
+      },
+      {
+        "name": "Mushroom 5 Cluster",
+        "mesh": "Mushroom 5 Cluster",
+        "source_triangles": 24,
+        "world_bbox_blender_xyz": [
+          1.102038,
+          1.151895,
+          0.500112
+        ]
+      },
+      {
+        "name": "Mushroom 5",
+        "mesh": "Mushroom 5",
+        "source_triangles": 8,
+        "world_bbox_blender_xyz": [
+          0.756498,
+          0.378462,
+          0.357223
+        ]
+      },
+      {
+        "name": "SmilacinaRacemosa",
+        "mesh": "FalseSoloman'sSeal",
+        "source_triangles": 3,
+        "world_bbox_blender_xyz": [
+          0.704529,
+          0.672439,
+          0.464351
+        ]
+      },
+      {
+        "name": "GroundCover3",
+        "mesh": "GroundCover3",
+        "source_triangles": 1,
+        "world_bbox_blender_xyz": [
+          0.56,
+          0.721259,
+          0.114418
+        ]
+      },
+      {
+        "name": "Grate",
+        "mesh": "Grate",
+        "source_triangles": 18,
+        "world_bbox_blender_xyz": [
+          3.6,
+          1.800001,
+          0.07
+        ]
+      },
+      {
+        "name": "FagusAmericanaNG",
+        "mesh": "BeechNG",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          0.509907,
+          0.676148,
+          0.51131
+        ]
+      },
+      {
+        "name": "OsmundaCinnamoneaS",
+        "mesh": "CinnamonFernS",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          1.02537,
+          1.02537,
+          0.441785
+        ]
+      },
+      {
+        "name": "Woodpile",
+        "mesh": "Woodpile",
+        "source_triangles": 274,
+        "world_bbox_blender_xyz": [
+          2.261111,
+          4.427215,
+          2.440673
+        ]
+      },
+      {
+        "name": "Pallette",
+        "mesh": "Pallette",
+        "source_triangles": 132,
+        "world_bbox_blender_xyz": [
+          3.702988,
+          3.507435,
+          0.36864
+        ]
+      },
+      {
+        "name": "Barrel",
+        "mesh": "Barrel",
+        "source_triangles": 52,
+        "world_bbox_blender_xyz": [
+          1.575693,
+          1.575693,
+          2.4
+        ]
+      },
+      {
+        "name": "BarrelOpen",
+        "mesh": "BarrelOpen",
+        "source_triangles": 106,
+        "world_bbox_blender_xyz": [
+          1.545483,
+          1.545483,
+          2.4
+        ]
+      },
+      {
+        "name": "SolidagoUnbloomed",
+        "mesh": "GoldenrodUnbloomed",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          0.613379,
+          0.502528,
+          2.399826
+        ]
+      },
+      {
+        "name": "RudbeckiaHirta",
+        "mesh": "BlackEyedSusan",
+        "source_triangles": 6,
+        "world_bbox_blender_xyz": [
+          1.0,
+          1.0,
+          1.975041
+        ]
+      },
+      {
+        "name": "PhloxPaniculata",
+        "mesh": "BlueParadise",
+        "source_triangles": 18,
+        "world_bbox_blender_xyz": [
+          0.430743,
+          0.413257,
+          1.662785
+        ]
+      },
+      {
+        "name": "Convallaria",
+        "mesh": "LillyOfTheValley",
+        "source_triangles": 7,
+        "world_bbox_blender_xyz": [
+          0.65707,
+          1.250839,
+          0.797551
+        ]
+      },
+      {
+        "name": "AthyriumFelix-FeminaS",
+        "mesh": "LadyFernS",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          0.8,
+          0.8,
+          0.441785
+        ]
+      },
+      {
+        "name": "Mushroom 3 Cluster",
+        "mesh": "Mushroom 3 Cluster",
+        "source_triangles": 18,
+        "world_bbox_blender_xyz": [
+          0.895259,
+          0.748965,
+          0.370926
+        ]
+      },
+      {
+        "name": "Mushroom 3",
+        "mesh": "Mushroom 3",
+        "source_triangles": 6,
+        "world_bbox_blender_xyz": [
+          0.415329,
+          0.429661,
+          0.289313
+        ]
+      },
+      {
+        "name": "Arisaema",
+        "mesh": "JackInThePulpit",
+        "source_triangles": 12,
+        "world_bbox_blender_xyz": [
+          1.6664,
+          1.603917,
+          0.782887
+        ]
+      },
+      {
+        "name": "GrassTall",
+        "mesh": "GrassTall",
+        "source_triangles": 6,
+        "world_bbox_blender_xyz": [
+          1.522597,
+          1.819468,
+          2.937912
+        ]
+      },
+      {
+        "name": "ArctinumMinus",
+        "mesh": "Burdock",
+        "source_triangles": 36,
+        "world_bbox_blender_xyz": [
+          2.287185,
+          2.451848,
+          0.904615
+        ]
+      },
+      {
+        "name": "AbiesBalsamicaSmall",
+        "mesh": "FirSmall",
+        "source_triangles": 77,
+        "world_bbox_blender_xyz": [
+          6.059577,
+          5.136143,
+          6.133731
+        ]
+      },
+      {
+        "name": "AbiesBalsamica",
+        "mesh": "Fir",
+        "source_triangles": 184,
+        "world_bbox_blender_xyz": [
+          8.861711,
+          8.282484,
+          9.273182
+        ]
+      },
+      {
+        "name": "ActaeaAlba",
+        "mesh": "Baneberry",
+        "source_triangles": 8,
+        "world_bbox_blender_xyz": [
+          1.69841,
+          1.4,
+          1.351882
+        ]
+      },
+      {
+        "name": "ErigeronAnnuus",
+        "mesh": "Fleabane",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          0.7,
+          0.7,
+          2.800001
+        ]
+      },
+      {
+        "name": "Talinum",
+        "mesh": "JewelWeed",
+        "source_triangles": 8,
+        "world_bbox_blender_xyz": [
+          0.532937,
+          0.532937,
+          1.560245
+        ]
+      },
+      {
+        "name": "Mushroom 4",
+        "mesh": "Mushroom 4",
+        "source_triangles": 4,
+        "world_bbox_blender_xyz": [
+          0.6,
+          0.2,
+          0.6
+        ]
+      },
+      {
+        "name": "EquisetumCluster",
+        "mesh": "Mare'sTails",
+        "source_triangles": 6,
+        "world_bbox_blender_xyz": [
+          1.142692,
+          0.683892,
+          1.192883
+        ]
+      },
+      {
+        "name": "Equisetum",
+        "mesh": "Equisetum",
+        "source_triangles": 2,
+        "world_bbox_blender_xyz": [
+          0.131559,
+          0.125521,
+          1.195434
+        ]
+      },
+      {
+        "name": "Mushroom 1 Cluster",
+        "mesh": "Mushroom 1 Cluste.001",
+        "source_triangles": 24,
+        "world_bbox_blender_xyz": [
+          0.806995,
+          0.836102,
+          0.327268
+        ]
+      },
+      {
+        "name": "Mushroom 2 Cluster",
+        "mesh": "Mushroom 2 Cluster",
+        "source_triangles": 24,
+        "world_bbox_blender_xyz": [
+          0.651594,
+          0.685607,
+          0.289757
+        ]
+      },
+      {
+        "name": "Mushroom 2",
+        "mesh": "Mushroom 2",
+        "source_triangles": 8,
+        "world_bbox_blender_xyz": [
+          0.415329,
+          0.415329,
+          0.289313
+        ]
+      },
+      {
+        "name": "Mushroom 1",
+        "mesh": "Mushroom 1",
+        "source_triangles": 8,
+        "world_bbox_blender_xyz": [
+          0.469097,
+          0.469097,
+          0.253794
+        ]
+      },
+      {
+        "name": "TussilagoFarfara",
+        "mesh": "ColtsFoot",
+        "source_triangles": 20,
+        "world_bbox_blender_xyz": [
+          1.102109,
+          0.881971,
+          0.517981
+        ]
+      },
+      {
+        "name": "Polystichum",
+        "mesh": "ChristmasFern",
+        "source_triangles": 24,
+        "world_bbox_blender_xyz": [
+          1.798971,
+          2.142088,
+          0.525655
+        ]
+      },
+      {
+        "name": "OsmundaCinnamonea",
+        "mesh": "CinnamonFern",
+        "source_triangles": 30,
+        "world_bbox_blender_xyz": [
+          2.969686,
+          2.728067,
+          2.10734
+        ]
+      },
+      {
+        "name": "WoodwardiaAeolata",
+        "mesh": "NarrowleafChainfern",
+        "source_triangles": 16,
+        "world_bbox_blender_xyz": [
+          1.86199,
+          1.692949,
+          0.750808
+        ]
+      },
+      {
+        "name": "AthyriumFelix-Femina",
+        "mesh": "LadyFern",
+        "source_triangles": 20,
+        "world_bbox_blender_xyz": [
+          2.312877,
+          2.357209,
+          1.578425
+        ]
+      },
+      {
+        "name": "AegopodiumPodagraria",
+        "mesh": "Bishop'sWeed",
+        "source_triangles": 46,
+        "world_bbox_blender_xyz": [
+          1.573711,
+          1.547357,
+          1.782322
+        ]
+      }
+    ],
+    "missing_unpacked_image_references": [],
+    "action_names": [],
+    "method": "Blender 4.5 read-only scene inspection; Z up; base meshes, default frame and world object bounds; modifiers, particles and animation playback not evaluated."
+  },
+  {
+    "id": "oga_birch-tree",
+    "path": "AssetLibrary/environment/supplement/birch-tree/treebirch.blend",
+    "sha256": "52e6ee12f2cf8977ae18b0e445ebee61d97790bcc5f74b2219b37d382e1a81d6",
+    "source_unchanged": true,
+    "scene_mesh_instances": 3,
+    "source_triangles_total_instances": 1808,
+    "source_scene_bbox_blender_xyz": [
+      13.43085,
+      11.4447,
+      14.588789
+    ],
+    "scene_unit_scale": 1.0,
+    "objects": [
+      {
+        "name": "Plane",
+        "mesh": "Plane",
+        "source_triangles": 32,
+        "world_bbox_blender_xyz": [
+          2.0,
+          2.0,
+          0.876783
+        ]
+      },
+      {
+        "name": "TreeBirchShort",
+        "mesh": "Plane.001",
+        "source_triangles": 888,
+        "world_bbox_blender_xyz": [
+          6.715425,
+          5.72235,
+          7.294394
+        ]
+      },
+      {
+        "name": "TreeBirchTall",
+        "mesh": "Plane.002",
+        "source_triangles": 888,
+        "world_bbox_blender_xyz": [
+          13.43085,
+          11.4447,
+          14.588789
+        ]
+      }
+    ],
+    "missing_unpacked_image_references": [
+      {
+        "image": "BarkBirch_d512.png",
+        "source_reference": "//Texture\\BarkBirch_d512.png",
+        "data_users": 1
+      },
+      {
+        "image": "BirchLeafsGreen.png",
+        "source_reference": "//Texture\\BirchLeafsGreen.png",
+        "data_users": 1
+      },
+      {
+        "image": "tree_trunk",
+        "source_reference": "//textures\\tree_trunk.png",
+        "data_users": 1
+      }
+    ],
+    "action_names": [],
+    "method": "Blender 4.5 read-only scene inspection; Z up; base meshes, default frame and world object bounds; modifiers, particles and animation playback not evaluated."
+  },
+  {
+    "id": "oga_medieval-waterpowered-sawmill",
+    "path": "AssetLibrary/environment/supplement/medieval-waterpowered-sawmill/extracted/WaterPoweredSawmillUpload.blend",
+    "sha256": "230f8260d35254551f0ca07b4a37e022816823e307becb66badda65d8f47b532",
+    "source_unchanged": true,
+    "scene_mesh_instances": 18,
+    "source_triangles_total_instances": 8870,
+    "source_scene_bbox_blender_xyz": [
+      11.050229,
+      8.922168,
+      9.292546
+    ],
+    "scene_unit_scale": 1.0,
+    "objects": [
+      {
+        "name": "RoofFrame",
+        "mesh": "Cube.034",
+        "source_triangles": 216,
+        "world_bbox_blender_xyz": [
+          11.050229,
+          7.375686,
+          3.227092
+        ]
+      },
+      {
+        "name": "Foundation",
+        "mesh": "Cube.031",
+        "source_triangles": 138,
+        "world_bbox_blender_xyz": [
+          10.84013,
+          6.93167,
+          3.035794
+        ]
+      },
+      {
+        "name": "Wall",
+        "mesh": "Cube.030",
+        "source_triangles": 6,
+        "world_bbox_blender_xyz": [
+          9.9095,
+          0.116311,
+          1.752623
+        ]
+      },
+      {
+        "name": "Platform",
+        "mesh": "Cube.029",
+        "source_triangles": 44,
+        "world_bbox_blender_xyz": [
+          9.02647,
+          1.50161,
+          0.828491
+        ]
+      },
+      {
+        "name": "Roof",
+        "mesh": "Cube.024",
+        "source_triangles": 152,
+        "world_bbox_blender_xyz": [
+          10.925597,
+          7.168566,
+          3.019194
+        ]
+      },
+      {
+        "name": "RailPlatform",
+        "mesh": "Cube.020",
+        "source_triangles": 312,
+        "world_bbox_blender_xyz": [
+          8.988511,
+          0.710228,
+          1.192642
+        ]
+      },
+      {
+        "name": "Log",
+        "mesh": "Cylinder.012",
+        "source_triangles": 44,
+        "world_bbox_blender_xyz": [
+          2.70244,
+          0.499331,
+          0.499331
+        ]
+      },
+      {
+        "name": "RailWagon",
+        "mesh": "Cylinder.009",
+        "source_triangles": 1244,
+        "world_bbox_blender_xyz": [
+          3.166301,
+          0.777556,
+          0.440493
+        ]
+      },
+      {
+        "name": "Rail",
+        "mesh": "Cube.014",
+        "source_triangles": 112,
+        "world_bbox_blender_xyz": [
+          8.861526,
+          0.69969,
+          0.144872
+        ]
+      },
+      {
+        "name": "WoodenFrame",
+        "mesh": "Cube.006",
+        "source_triangles": 452,
+        "world_bbox_blender_xyz": [
+          10.450147,
+          6.603527,
+          6.014884
+        ]
+      },
+      {
+        "name": "Floor",
+        "mesh": "Cube.003",
+        "source_triangles": 64,
+        "world_bbox_blender_xyz": [
+          10.487787,
+          6.647799,
+          0.04
+        ]
+      },
+      {
+        "name": "Crank",
+        "mesh": "Cylinder.002",
+        "source_triangles": 1752,
+        "world_bbox_blender_xyz": [
+          0.6558,
+          1.902541,
+          0.736322
+        ]
+      },
+      {
+        "name": "Rod",
+        "mesh": "Cylinder.004",
+        "source_triangles": 220,
+        "world_bbox_blender_xyz": [
+          0.539418,
+          0.186714,
+          1.384186
+        ]
+      },
+      {
+        "name": "SawSlider",
+        "mesh": "Cylinder.005",
+        "source_triangles": 172,
+        "world_bbox_blender_xyz": [
+          0.132017,
+          1.122809,
+          2.069448
+        ]
+      },
+      {
+        "name": "Saw",
+        "mesh": "Cube.002",
+        "source_triangles": 282,
+        "world_bbox_blender_xyz": [
+          0.14946,
+          0.387999,
+          1.964692
+        ]
+      },
+      {
+        "name": "Wheel",
+        "mesh": "Cylinder.003",
+        "source_triangles": 3376,
+        "world_bbox_blender_xyz": [
+          4.073557,
+          2.986346,
+          4.073557
+        ]
+      },
+      {
+        "name": "CrankHolder",
+        "mesh": "Cylinder.006",
+        "source_triangles": 216,
+        "world_bbox_blender_xyz": [
+          0.10248,
+          1.390177,
+          0.243799
+        ]
+      },
+      {
+        "name": "SawSliderFrame",
+        "mesh": "Cube.009",
+        "source_triangles": 68,
+        "world_bbox_blender_xyz": [
+          0.24359,
+          1.424037,
+          4.382151
+        ]
+      }
+    ],
+    "missing_unpacked_image_references": [],
+    "action_names": [
+      "Sawing"
+    ],
+    "method": "Blender 4.5 read-only scene inspection; Z up; base meshes, default frame and world object bounds; modifiers, particles and animation playback not evaluated."
+  },
+  {
+    "id": "oga_retro-log-cabin",
+    "path": "AssetLibrary/environment/supplement/retro-log-cabin/extracted/log_cabin/log_cabin.fbx",
+    "sha256": "535eb68414131be18a3376c7c09aabb8254bcf0c0d3ba1ef23572f50a4a77821",
+    "source_unchanged": true,
+    "scene_mesh_instances": 4,
+    "source_triangles_total_instances": 1554,
+    "source_scene_bbox_blender_xyz": [
+      5.900678,
+      6.000001,
+      4.044185
+    ],
+    "scene_unit_scale": 1.0,
+    "objects": [
+      {
+        "name": "cabin_door",
+        "mesh": "cabin_door",
+        "source_triangles": 162,
+        "world_bbox_blender_xyz": [
+          0.94,
+          0.1564,
+          1.921199
+        ]
+      },
+      {
+        "name": "cabin_window_right",
+        "mesh": "cabin_window_right",
+        "source_triangles": 60,
+        "world_bbox_blender_xyz": [
+          0.465,
+          0.04,
+          0.81
+        ]
+      },
+      {
+        "name": "cabin_window_left",
+        "mesh": "cabin_window_left",
+        "source_triangles": 60,
+        "world_bbox_blender_xyz": [
+          0.465,
+          0.04,
+          0.812888
+        ]
+      },
+      {
+        "name": "cabin",
+        "mesh": "cabin",
+        "source_triangles": 1272,
+        "world_bbox_blender_xyz": [
+          5.900678,
+          6.000001,
+          4.044185
+        ]
+      }
+    ],
+    "missing_unpacked_image_references": [],
+    "action_names": [],
+    "method": "Blender 4.5 read-only scene inspection; Z up; base meshes, default frame and world object bounds; modifiers, particles and animation playback not evaluated."
+  }
+]

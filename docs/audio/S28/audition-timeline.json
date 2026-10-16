@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rifle-near-1",
+    "label": "步枪近声 01",
+    "start_seconds": 0.0,
+    "end_seconds": 2.55
+  },
+  {
+    "id": "rifle-near-2",
+    "label": "步枪近声 02",
+    "start_seconds": 3.05,
+    "end_seconds": 5.6
+  },
+  {
+    "id": "pistol-reference",
+    "label": "手枪音色参考",
+    "start_seconds": 6.1,
+    "end_seconds": 8.6
+  },
+  {
+    "id": "rifle-mid-dry",
+    "label": "中远距枪声原尾音",
+    "start_seconds": 9.1,
+    "end_seconds": 12.1
+  },
+  {
+    "id": "rifle-mid-echo",
+    "label": "中远距枪声加回声",
+    "start_seconds": 12.6,
+    "end_seconds": 16.08
+  },
+  {
+    "id": "step-grass-1",
+    "label": "草土脚步 1",
+    "start_seconds": 16.58,
+    "end_seconds": 16.823
+  },
+  {
+    "id": "step-grass-2",
+    "label": "草土脚步 2",
+    "start_seconds": 17.323,
+    "end_seconds": 17.567
+  },
+  {
+    "id": "step-wood-1",
+    "label": "木板脚步 1",
+    "start_seconds": 18.067,
+    "end_seconds": 18.351
+  },
+  {
+    "id": "step-wood-2",
+    "label": "木板脚步 2",
+    "start_seconds": 18.851,
+    "end_seconds": 19.135
+  },
+  {
+    "id": "step-gravel-1",
+    "label": "碎石脚步 1",
+    "start_seconds": 19.635,
+    "end_seconds": 19.821
+  },
+  {
+    "id": "step-gravel-2",
+    "label": "碎石脚步 2",
+    "start_seconds": 20.321,
+    "end_seconds": 20.424
+  },
+  {
+    "id": "step-snow-1",
+    "label": "雪地脚步 1",
+    "start_seconds": 20.924,
+    "end_seconds": 21.401
+  },
+  {
+    "id": "step-snow-2",
+    "label": "雪地脚步 2",
+    "start_seconds": 21.901,
+    "end_seconds": 22.595
+  },
+  {
+    "id": "wind-forest",
+    "label": "林间风声",
+    "start_seconds": 23.095,
+    "end_seconds": 28.095
+  },
+  {
+    "id": "wind-mountains",
+    "label": "高地环境",
+    "start_seconds": 28.595,
+    "end_seconds": 33.595
+  },
+  {
+    "id": "explosion-q009",
+    "label": "爆炸 Q009",
+    "start_seconds": 34.095,
+    "end_seconds": 35.49
+  },
+  {
+    "id": "rumble",
+    "label": "爆炸低频层",
+    "start_seconds": 35.99,
+    "end_seconds": 36.881
+  },
+  {
+    "id": "retro-explosion",
+    "label": "复古爆炸备用",
+    "start_seconds": 37.381,
+    "end_seconds": 38.365
+  },
+  {
+    "id": "bolt",
+    "label": "枪机动作",
+    "start_seconds": 38.865,
+    "end_seconds": 39.965
+  },
+  {
+    "id": "cloth",
+    "label": "布料动作",
+    "start_seconds": 40.465,
+    "end_seconds": 41.115
+  }
+]

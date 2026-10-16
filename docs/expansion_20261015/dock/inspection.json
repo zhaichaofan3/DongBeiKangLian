@@ -1,0 +1,713 @@
+{
+  "source": "AssetLibrary/environment/user_expansion_20261015/dock/3d66.com_JCI54557104651.fbx",
+  "sha256": "31d15b5e693b22991db364c719dcc8542f6aa5c61b95916223fba039e9508a78",
+  "bounds": [
+    [
+      -1.1353049278259277,
+      -1.1012635231018066,
+      -20.411659240722656
+    ],
+    [
+      10.721710205078125,
+      10.408639907836914,
+      -17.588422775268555
+    ]
+  ],
+  "objects": [
+    {
+      "name": "5eb05879-294b-4f71-87af-7de9749685d4",
+      "bounds": [
+        [
+          1.9574089050292969,
+          6.67954158782959,
+          -19.833362579345703
+        ],
+        [
+          8.401815414428711,
+          9.670470237731934,
+          -17.588422775268555
+        ]
+      ],
+      "triangles": 14642,
+      "materials": [
+        "fc8cca68-4b9e-43f2-96a3-73fc5a3c643d",
+        "0c425519-3abf-4bc5-95e2-ae9741a5d093",
+        "9b103731-dd84-466d-8544-eda1f4d624e3"
+      ]
+    },
+    {
+      "name": "065efb59-e336-475b-adb4-3265e31aeb3c",
+      "bounds": [
+        [
+          7.939551830291748,
+          6.4734883308410645,
+          -19.773481369018555
+        ],
+        [
+          10.721710205078125,
+          9.72872543334961,
+          -17.612321853637695
+        ]
+      ],
+      "triangles": 11320,
+      "materials": [
+        "ce9842af-24b4-4a30-bf9c-92e36fb00567",
+        "9d069044-1d6f-4398-9fca-fd9a820951f2"
+      ]
+    },
+    {
+      "name": "49c32c8d-cdde-4f4c-90fa-ee6d1dbd287b",
+      "bounds": [
+        [
+          3.437443733215332,
+          2.5590734481811523,
+          -19.179630279541016
+        ],
+        [
+          6.969155311584473,
+          4.726554870605469,
+          -18.3662109375
+        ]
+      ],
+      "triangles": 8688,
+      "materials": [
+        "45011e56-000f-4dfe-867c-d37bad3a9ee4"
+      ]
+    },
+    {
+      "name": "d2a0a602-7775-4ef9-8232-2565ac868d8a",
+      "bounds": [
+        [
+          -0.8684689402580261,
+          5.1440324783325195,
+          -18.70231819152832
+        ],
+        [
+          1.9773509502410889,
+          9.649529457092285,
+          -17.855379104614258
+        ]
+      ],
+      "triangles": 1460,
+      "materials": [
+        "289d9f03-84b1-42fa-9aba-a71819928a1a"
+      ]
+    },
+    {
+      "name": "941a609d-1203-4697-be5a-68bab5a5ab49",
+      "bounds": [
+        [
+          -0.9242928624153137,
+          3.2701430320739746,
+          -20.22650909423828
+        ],
+        [
+          2.0567760467529297,
+          7.723785400390625,
+          -18.065349578857422
+        ]
+      ],
+      "triangles": 15296,
+      "materials": [
+        "856fd32b-6f54-4a3b-b055-62352ae6e683",
+        "534e2784-5aef-46c6-90e2-5cd00934e9fb"
+      ]
+    },
+    {
+      "name": "58d7f494-da65-42eb-840e-99619f8f24db",
+      "bounds": [
+        [
+          -1.1353049278259277,
+          6.602586269378662,
+          -19.262624740600586
+        ],
+        [
+          1.9631538391113281,
+          10.408639907836914,
+          -17.818174362182617
+        ]
+      ],
+      "triangles": 15402,
+      "materials": [
+        "f13fe718-5198-4aeb-b252-ea6623c0e36e"
+      ]
+    },
+    {
+      "name": "bde2ce79-6685-485c-894f-44660711c286",
+      "bounds": [
+        [
+          -0.9445870518684387,
+          -1.1012635231018066,
+          -20.22650909423828
+        ],
+        [
+          2.0364818572998047,
+          3.3523788452148438,
+          -18.065349578857422
+        ]
+      ],
+      "triangles": 15296,
+      "materials": [
+        "84ea2b3d-6326-463c-8d3f-bf16de11c4df",
+        "6b199376-11d2-4c46-bf44-abafcb076be3"
+      ]
+    },
+    {
+      "name": "eadd8d7e-9263-40a0-b90f-370d9a25ccb2",
+      "bounds": [
+        [
+          -0.862316906452179,
+          0.4950405955314636,
+          -20.199796676635742
+        ],
+        [
+          1.404876947402954,
+          2.397841691970825,
+          -18.264144897460938
+        ]
+      ],
+      "triangles": 3764,
+      "materials": [
+        "09ea46d7-bcb2-4c02-a61a-1113feb05374"
+      ]
+    },
+    {
+      "name": "42899869-e1a5-486c-ba8f-579c49706520",
+      "bounds": [
+        [
+          1.631371021270752,
+          1.1099216938018799,
+          -20.411659240722656
+        ],
+        [
+          3.4792981147766113,
+          3.0831046104431152,
+          -18.44643211364746
+        ]
+      ],
+      "triangles": 8868,
+      "materials": [
+        "16dcacf9-fe91-4956-a26f-06ebf6aa4172",
+        "7ad5740c-aaa5-4774-a52a-0629eb3cc931",
+        "04f3ef8a-e81f-4551-bdba-ce64c694cec7"
+      ]
+    },
+    {
+      "name": "96d65cc9-c5b7-42d0-8807-7d472bf818de",
+      "bounds": [
+        [
+          4.4321136474609375,
+          1.8033696413040161,
+          -18.79646110534668
+        ],
+        [
+          5.685253143310547,
+          4.05925178527832,
+          -18.4157657623291
+        ]
+      ],
+      "triangles": 407,
+      "materials": [
+        "8aa0b66f-fffd-4a90-b33d-32c82dcd4f22"
+      ]
+    }
+  ],
+  "triangles": 95143,
+  "images": [
+    {
+      "name": "3d66-export-JCI54557104651-001",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-001.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-002",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-002.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-003",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-003.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-004",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-004.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-005",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-005.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-006",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-006.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-007",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-007.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-008",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-008.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-009",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-009.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-010",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-010.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-011",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-011.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-012",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-012.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-013",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-013.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-014",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-014.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-015",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-015.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-016",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-016.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-017",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-017.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-018",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-018.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-019",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-019.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-020",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-020.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-021",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-021.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-022",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-022.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-023",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-023.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-024",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-024.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-025",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-025.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-026",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-026.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-027",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-027.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-028",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-028.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-029",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-029.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-030",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-030.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-031",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-031.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-032",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-032.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-033",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-033.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JCI54557104651-034",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\dock\\..\\..\\..\\BlendChangeName\\Tmp\\15734017\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JCI54557104651-034.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "04f3ef8a-e81f-4551-bdba-ce64c694cec7",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-023",
+        "3d66-export-JCI54557104651-024"
+      ]
+    },
+    {
+      "name": "09ea46d7-bcb2-4c02-a61a-1113feb05374",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-029",
+        "3d66-export-JCI54557104651-030"
+      ]
+    },
+    {
+      "name": "0c425519-3abf-4bc5-95e2-ae9741a5d093",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-003",
+        "3d66-export-JCI54557104651-004"
+      ]
+    },
+    {
+      "name": "16dcacf9-fe91-4956-a26f-06ebf6aa4172",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-019",
+        "3d66-export-JCI54557104651-020"
+      ]
+    },
+    {
+      "name": "289d9f03-84b1-42fa-9aba-a71819928a1a",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-027",
+        "3d66-export-JCI54557104651-028"
+      ]
+    },
+    {
+      "name": "45011e56-000f-4dfe-867c-d37bad3a9ee4",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-025",
+        "3d66-export-JCI54557104651-026"
+      ]
+    },
+    {
+      "name": "534e2784-5aef-46c6-90e2-5cd00934e9fb",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-013",
+        "3d66-export-JCI54557104651-014"
+      ]
+    },
+    {
+      "name": "6b199376-11d2-4c46-bf44-abafcb076be3",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-017",
+        "3d66-export-JCI54557104651-018"
+      ]
+    },
+    {
+      "name": "7ad5740c-aaa5-4774-a52a-0629eb3cc931",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-021",
+        "3d66-export-JCI54557104651-022"
+      ]
+    },
+    {
+      "name": "84ea2b3d-6326-463c-8d3f-bf16de11c4df",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-015",
+        "3d66-export-JCI54557104651-016"
+      ]
+    },
+    {
+      "name": "856fd32b-6f54-4a3b-b055-62352ae6e683",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-011",
+        "3d66-export-JCI54557104651-012"
+      ]
+    },
+    {
+      "name": "8aa0b66f-fffd-4a90-b33d-32c82dcd4f22",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-031",
+        "3d66-export-JCI54557104651-032"
+      ]
+    },
+    {
+      "name": "9b103731-dd84-466d-8544-eda1f4d624e3",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-005",
+        "3d66-export-JCI54557104651-006"
+      ]
+    },
+    {
+      "name": "9d069044-1d6f-4398-9fca-fd9a820951f2",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-009",
+        "3d66-export-JCI54557104651-010"
+      ]
+    },
+    {
+      "name": "ce9842af-24b4-4a30-bf9c-92e36fb00567",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-007",
+        "3d66-export-JCI54557104651-008"
+      ]
+    },
+    {
+      "name": "f13fe718-5198-4aeb-b252-ea6623c0e36e",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-033",
+        "3d66-export-JCI54557104651-034"
+      ]
+    },
+    {
+      "name": "fc8cca68-4b9e-43f2-96a3-73fc5a3c643d",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JCI54557104651-001",
+        "3d66-export-JCI54557104651-002"
+      ]
+    }
+  ]
+}

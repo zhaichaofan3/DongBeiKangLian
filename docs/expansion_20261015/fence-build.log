@@ -1,0 +1,13 @@
+信息: 已另存为 "barbed_wire.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:26:22 | INFO: Starting glTF 2.0 export
+21:26:22 | INFO: Extracting primitive: 网格.001
+21:26:23 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+21:26:23 | INFO: Primitives created: 1
+21:26:23 | INFO: Finished glTF 2.0 export in 0.7647378444671631 s
+
+USER_FENCE_BUILD_COMPLETE 3620a46cd64c1b101049cac6580958ffb58c946e788379c3f3c91c12f6fd515f
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\docs\expansion_20261015\fence\raw-import.blend"
+
+Blender quit

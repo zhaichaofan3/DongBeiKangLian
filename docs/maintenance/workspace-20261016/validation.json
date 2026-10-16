@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "actions": {
+    "preserve_entrypoint": 7,
+    "archive": 222,
+    "remove_verified_autosave_duplicate": 25,
+    "remove_regenerable_cache": 70
+  },
+  "retained_files_verified": 254,
+  "protected_files_verified": 4384,
+  "files_after": 149452,
+  "duplicate_bytes_removed": 1215548799,
+  "cache_bytes_removed": 25355948
+}

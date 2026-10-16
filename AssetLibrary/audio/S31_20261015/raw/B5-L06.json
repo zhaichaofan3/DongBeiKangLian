@@ -1,0 +1,11 @@
+{
+  "id": "B5-L06",
+  "part": "B",
+  "text": "绕电报房北侧，到渡口。你掩护，他解缆。",
+  "voice": "Microsoft Kangkang",
+  "rate": 0,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

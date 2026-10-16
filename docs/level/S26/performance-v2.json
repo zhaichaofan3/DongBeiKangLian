@@ -1,0 +1,45 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "measurement_valid": true,
+  "method": "Same stationary 1280x720 balanced scene; no effects vs six remote bursts plus a real pistol round every 0.24 s; 1 s warmup + 3 s wall-clock samples per row, uncapped VSync off; excludes AI and includes shot audio, remote effects and tracers and player recoil. Not a minimum-hardware certification.",
+  "peak_remote_effects": 8,
+  "renderer": "gl_compatibility",
+  "resolution": [
+    1280,
+    720
+  ],
+  "rows": [
+    {
+      "effects_enabled": false,
+      "frames": 857,
+      "lighting": "day",
+      "mean_draw_calls": 902.0,
+      "mean_frame_ms": 3.50092065344224,
+      "p95_frame_ms": 4.756
+    },
+    {
+      "effects_enabled": true,
+      "frames": 888,
+      "lighting": "day",
+      "mean_draw_calls": 915.842342342342,
+      "mean_frame_ms": 3.38040878378378,
+      "p95_frame_ms": 4.446
+    },
+    {
+      "effects_enabled": false,
+      "frames": 980,
+      "lighting": "dim",
+      "mean_draw_calls": 898.0,
+      "mean_frame_ms": 3.06440918367347,
+      "p95_frame_ms": 3.895
+    },
+    {
+      "effects_enabled": true,
+      "frames": 907,
+      "lighting": "dim",
+      "mean_draw_calls": 913.067254685777,
+      "mean_frame_ms": 3.30855016538038,
+      "p95_frame_ms": 4.787
+    }
+  ]
+}

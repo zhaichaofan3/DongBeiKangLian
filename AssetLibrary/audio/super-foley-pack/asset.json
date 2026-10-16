@@ -1,0 +1,119 @@
+{
+  "id": "super-foley-pack",
+  "title": "Super Foley Pack",
+  "source_url": "https://opengameart.org/content/super-foley-pack",
+  "author": "dklon",
+  "license": "CC-BY-3.0",
+  "notes": "Raw multi-take leather, clothing, chest/hand impacts, shuffling and wooden chair sounds; edit before direct event use.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "super-foley-pack/originals/foley_pack.zip",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 15950362,
+      "sha256": "fd825dfd60e9906d2a51521b2d92359418c60ac0f99498eaee42ad674d45eaea",
+      "role": "original_download"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/body_hit_on_ground.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 3197506,
+      "sha256": "d3702e591df13d14bb40043f6068367f137e248e44fab4e0ac5ddda43fbae38a",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/chair_push.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 645474,
+      "sha256": "d6c5cc8ef3d222e7104ac310149576a6ff9a614d9414bca02b1738abafa3a896",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/chest_hit.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 3171162,
+      "sha256": "84c9eac72b65ec70a40ca22ab1e772f92b8a6e2805d827c929da6b3ca3726408",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/fist_hitting_bottle.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 1589206,
+      "sha256": "06e15186f7f40f1ca0f64165a705fac79aed8e3bd67a61b80eb7589a490f892b",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/glass_hit.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 4336622,
+      "sha256": "65cafbe6946210bb8f062b23e6a7e88f9874a901d94be22b30422686748f64f9",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/heart_to_ground.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 459366,
+      "sha256": "11737bbb0f29540e96e6df897693c3355cecd3988849fb714ae524ce550721e8",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/leather_hits.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 1425378,
+      "sha256": "61c4dd83918136cbc5971c0bb295de3d7bdd1bd40ae20d41aaad670ff0e726a0",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/leather_rustling.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 6397866,
+      "sha256": "8efac708ee02baff77e1790637484ebe10c5bbc3d43b5cbc19dbdc7b0a10d6a4",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/shuffling_movement.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 1197150,
+      "sha256": "91ae0d5a36e39a1d6b306d176be2504c7db9df4868fe4bc251785c4bdf9163af",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/spittakes.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 2801102,
+      "sha256": "600db01066383ed0dfeb6abdddb75e374a413b2455d0d4db10a855baee60ac84",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/squishy_sounds.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 3761826,
+      "sha256": "910f23ce2ba4bfa52a9b43679617db929ca180222178c6bc5003952ea0db8235",
+      "role": "extracted"
+    },
+    {
+      "path": "super-foley-pack/extracted/foley_pack/wrist_slaps.wav",
+      "download_url": "https://opengameart.org/sites/default/files/foley_pack.zip",
+      "bytes": 2664414,
+      "sha256": "9ac4e7f89be9d993a6da100cc438d84d3a33863277fa09f83a38d94bd2c5fc18",
+      "role": "extracted"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 12,
+    "decode_passed": 12,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 179.39,
+    "duration_range_seconds": [
+      2.603,
+      36.268
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

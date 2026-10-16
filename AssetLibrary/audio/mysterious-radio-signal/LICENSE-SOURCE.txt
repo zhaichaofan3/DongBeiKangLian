@@ -1,0 +1,7 @@
+Title: Mysterious Radio Signal
+Author: nicStage (2005); Sam Uncle (2017)
+License: CC-BY-3.0
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://opengameart.org/content/mysterious-radio-signal
+Evidence: source.html and source.txt
+Notes: Static and Morse code mixture; ambient radio layer only, not a historically verified message. Original contributor credit retained.

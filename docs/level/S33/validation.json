@@ -1,0 +1,45 @@
+{
+  "step": "S33",
+  "status": "acceptance_reopened",
+  "date": "2026-10-15",
+  "all_passed": false,
+  "scope": {
+    "formal_part": "B1-B6",
+    "shots": 16,
+    "duration_seconds": 80.1,
+    "dialogue_cues": 14,
+    "history_dependency": "S32_formal"
+  },
+  "checks": {
+    "task_formal": "16/16",
+    "opening_regression": "41/41",
+    "conversation_regression": "11/11",
+    "handoff_regression": "10/10"
+  },
+  "runtime_contract": {
+    "speakers": [
+      "沈砚",
+      "姜岚"
+    ],
+    "travel_segment": "B4_no_dialogue_separate_time_place_cards",
+    "sentry_sound": "cinematic_only_no_AI_activation",
+    "handoff": "single_S25_contract",
+    "gameplay_state": "briefing_complete_only_no_objectives_advanced"
+  },
+  "audio_limits": {
+    "voice": "temporary_synthetic_replaceable_by_same_name_wav",
+    "s28_sfx_listening": "pending_user_listening",
+    "s29_music_selection": "pending_user_listening",
+    "s30_final_mix": "not_claimed"
+  },
+  "evidence": [
+    "docs/level/S33/task-formal.json",
+    "docs/level/S33-formal.log",
+    "docs/level/S33/opening-regression.log",
+    "docs/level/S33/s24-regression.log",
+    "docs/level/S33/s25-regression.log"
+  ],
+  "next_step": "S34",
+  "earlier_status": "done_with_explicit_audio_limits",
+  "review_correction": "更正：先前16项检查只证明对白与交接运行正确，修改formal_s33标签本身不是正式制作成果。S36已修复世界标牌入镜；B07下降镜头需继续复看，最终音效／音乐听审和真人连播观感未完成。状态应为blocked，保留已通过的工程验证。"
+}

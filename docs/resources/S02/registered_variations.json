@@ -1,0 +1,12 @@
+[
+  {
+    "path": "AssetLibrary/characters/godot_tps_player/README.md",
+    "registered_sha256": "2ed40ec23897b8a05012e9c0d5f1f315dbb489e80348131fdf5732e9d0999600",
+    "observed_sha256": "d9c035fce29807cdea2df1e22f9ff5f555eb94c11338bba9015d3200f25c9946",
+    "registered_bytes": 2750,
+    "observed_bytes": 2851,
+    "classification": "existing_local_document_variation",
+    "finding": "本地 README 含有上游截图未包含在下载范围的说明，文件大小和哈希与旧下载登记不一致；该文件本轮未修改。其余该组登记文件均匹配。",
+    "decision": "保留原清单与当前文档，两份校验值同时记录；仅此已核对的文档差异不阻止资源盘点完成，不据此放宽模型、贴图或音频校验。该部分示例不是独立可运行工程，README 中 runnable 一词不作为已验证运行能力。"
+  }
+]

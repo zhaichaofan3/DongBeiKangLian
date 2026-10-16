@@ -1,0 +1,11 @@
+{
+  "id": "B6-L01",
+  "part": "B",
+  "text": "先去木棚，林师傅能帮你。我守住回山的路。",
+  "voice": "Microsoft Kangkang",
+  "rate": 0,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

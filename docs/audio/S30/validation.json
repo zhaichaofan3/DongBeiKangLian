@@ -1,0 +1,16 @@
+{
+  "step": "S30",
+  "status": "playback_layer_complete_listening_and_candidate_integration_pending",
+  "specialized_checks": 25,
+  "opening_headless_checks": 41,
+  "project_regression": [
+    "SMOKE RESULT: 107/107 passed",
+    "LINEAR ROUTE RESULT: 37/37 passed",
+    "VISUAL MOTION RESULT: 50/50 passed",
+    "STORY MOMENTS RESULT: 11/11 passed",
+    "CHARACTER MODEL RESULT: 37/37 passed"
+  ],
+  "combat_route_pass": true,
+  "new_assets_integrated": false,
+  "subjective_listening": "pending"
+}

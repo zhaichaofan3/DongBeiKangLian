@@ -1,0 +1,21 @@
+信息: 已另存为 "tianchi_artistic.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+14:34:29 | INFO: Starting glTF 2.0 export
+14:34:30 | INFO: Extracting primitive: S21_Crater_EastMesh
+14:34:30 | INFO: Primitives created: 4
+14:34:30 | INFO: Extracting primitive: S21_Crater_NorthMesh
+14:34:30 | INFO: Primitives created: 4
+14:34:30 | INFO: Extracting primitive: S21_Crater_WestMesh
+14:34:30 | INFO: Primitives created: 4
+14:34:30 | INFO: Extracting primitive: S21_Crater_SouthMesh
+14:34:30 | INFO: Primitives created: 4
+14:34:30 | INFO: Extracting primitive: S21_Deep_Blue_LakeMesh
+14:34:30 | INFO: Primitives created: 1
+14:34:30 | INFO: Extracting primitive: Icosphere
+14:34:30 | INFO: Primitives created: 1
+14:34:30 | INFO: Finished glTF 2.0 export in 0.07776737213134766 s
+
+{"step": "S21", "revision": "changbai-refined-v3-20261015", "source": "original procedural artistic composition; public DEM retained separately as reference only", "coordinates": {"blender": "x,north,up", "godot": "x,up,-north", "metres_per_unit": 1}, "objects": ["S21_Crater_East", "S21_Crater_North", "S21_Crater_West", "S21_Crater_South", "S21_Deep_Blue_Lake", "S21_Talk_Platform_Base"], "vertices": 21887, "triangles": 42176, "scale": {"rim_radius_m": 92, "shore_radius_m_approx": 49, "outer_slope_radius_m": 172, "lake_level_m": 0.4, "platform_top_m": 14}, "files": [{"path": "AssetLibrary/environment/derived/S21/tianchi_artistic.blend", "bytes": 2889070, "sha256": "ca9f3e14114f37464e9bccadca3d08e836378b46a984878fe627a16fe7dc1386"}, {"path": "GodotProject/assets/opening/tianchi_artistic.glb", "bytes": 1138516, "sha256": "e0b7d6587ad8d0727e9d37b13a681084d9f8255b609ca16a869311b3b220da3c"}], "integration": "integrated in OpeningDirector; refined terrain mesh, runtime rock materials and terrain-anchored woodland; S22 owns unchanged route collision"}
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

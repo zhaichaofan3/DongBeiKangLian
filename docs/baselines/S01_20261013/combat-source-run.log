@@ -1,0 +1,81 @@
+{
+	"active_route_frames": {
+		"frames": 15916,
+		"max_frame_ms": 72.181,
+		"mean_fps": 254.648112020084,
+		"mean_frame_ms": 3.92698768534805,
+		"p95_frame_ms": 6.427,
+		"p99_frame_ms": 8.037,
+		"seconds_sampled": 62.5019359999996
+	},
+	"all_playing_frames": {
+		"frames": 21899,
+		"max_frame_ms": 72.181,
+		"mean_fps": 271.23211202918,
+		"mean_frame_ms": 3.68687908123657,
+		"p95_frame_ms": 6.116,
+		"p99_frame_ms": 7.741,
+		"seconds_sampled": 80.7389649999997
+	},
+	"enemy_in_combat_frames": {
+		"frames": 48,
+		"max_frame_ms": 10.946,
+		"mean_fps": 151.084503451337,
+		"mean_frame_ms": 6.6188125,
+		"p95_frame_ms": 8.86,
+		"p99_frame_ms": 9.485,
+		"seconds_sampled": 0.317703
+	},
+	"enemy_shots_observed": 0,
+	"fps_limit": 0,
+	"gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+	"health_at_finish": 100.0,
+	"mean_draw_calls": 360.848714553176,
+	"measurement_valid": false,
+	"peak_alive_enemies_observed": 5,
+	"player_shots_observed": 9,
+	"quality": "balanced",
+	"recent_enemy_firing_frames": {
+		"frames": 0
+	},
+	"recent_firing_frames": {
+		"frames": 1596,
+		"max_frame_ms": 19.011,
+		"mean_fps": 202.049050825211,
+		"mean_frame_ms": 4.9492932330827,
+		"p95_frame_ms": 8.052,
+		"p99_frame_ms": 9.485,
+		"seconds_sampled": 7.89907199999999
+	},
+	"render_scale_3d": 1.0,
+	"renderer": "gl_compatibility",
+	"reported_peak_texture_bytes": 433950777.0,
+	"resolution": [
+		2880,
+		1620
+	],
+	"route_passed": true,
+	"scope": "Real AI and automated player route; automatic aiming is not human difficulty. Primary active_route_frames include movement or a shot within 1s. Stationary no-shot intervals are separate. AI combat state alone is not evidence of firing. Excludes first 1.5s, menus, pauses and their boundary intervals. No fixed-fps simulation override.",
+	"stationary_without_recent_fire_frames": {
+		"frames": 5983,
+		"max_frame_ms": 9.155,
+		"mean_fps": 328.068787958829,
+		"mean_frame_ms": 3.0481412334949,
+		"p95_frame_ms": 4.625,
+		"p99_frame_ms": 5.739,
+		"seconds_sampled": 18.237029
+	},
+	"time_scale": 1.0,
+	"two_sided_recent_firing_frames": {
+		"frames": 0
+	},
+	"validation_errors": [
+		"The observed native render target was not 1920x1080 at 100% 3D scale."
+	],
+	"version": "0.6",
+	"vsync": false,
+	"window_resolution": [
+		1920,
+		1080
+	]
+}

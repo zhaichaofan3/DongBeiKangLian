@@ -1,0 +1,173 @@
+{
+  "scope": "Fixed viewpoints with simulation paused; 60 real wall-time rendered frames per view, no gameplay/performance acceptance",
+  "shots": [
+    {
+      "draw_calls": 959.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 5.82138333333333,
+      "p95_ms": 7.465,
+      "position": [
+        10.0,
+        1.70000004768372,
+        86.0
+      ],
+      "primitives": 1540690.0,
+      "quality": 1,
+      "shot": "01-forest-start",
+      "target": [
+        12.0,
+        2.0,
+        65.0
+      ]
+    },
+    {
+      "draw_calls": 780.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 5.68088333333333,
+      "p95_ms": 7.733,
+      "position": [
+        28.0,
+        1.70000004768372,
+        69.0
+      ],
+      "primitives": 527392.0,
+      "quality": 1,
+      "shot": "02-checkpoint",
+      "target": [
+        34.0,
+        2.59999990463257,
+        49.0
+      ]
+    },
+    {
+      "draw_calls": 577.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 5.11786666666667,
+      "p95_ms": 6.86,
+      "position": [
+        34.0,
+        1.70000004768372,
+        50.0
+      ],
+      "primitives": 547692.0,
+      "quality": 1,
+      "shot": "03-timber-lane",
+      "target": [
+        52.0,
+        3.0,
+        51.0
+      ]
+    },
+    {
+      "draw_calls": 314.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 3.34601666666667,
+      "p95_ms": 4.158,
+      "position": [
+        66.0,
+        1.70000004768372,
+        22.0
+      ],
+      "primitives": 296718.0,
+      "quality": 1,
+      "shot": "04-office-north",
+      "target": [
+        44.0,
+        3.5,
+        13.0
+      ]
+    },
+    {
+      "draw_calls": 113.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 2.07985,
+      "p95_ms": 3.719,
+      "position": [
+        79.0,
+        1.70000004768372,
+        14.0
+      ],
+      "primitives": 192142.0,
+      "quality": 1,
+      "shot": "05-river",
+      "target": [
+        155.0,
+        5.0,
+        -18.0
+      ]
+    },
+    {
+      "draw_calls": 942.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 5.66031666666667,
+      "p95_ms": 7.756,
+      "position": [
+        17.0,
+        13.0,
+        94.0
+      ],
+      "primitives": 1358566.0,
+      "quality": 1,
+      "shot": "06-opening-direction",
+      "target": [
+        20.0,
+        3.0,
+        62.0
+      ]
+    },
+    {
+      "draw_calls": 566.0,
+      "fog": 0.00410000002011657,
+      "fov": 70.0,
+      "image_size": [
+        1280,
+        720
+      ],
+      "mean_ms": 4.9033,
+      "p95_ms": 6.512,
+      "position": [
+        114.0,
+        82.0,
+        133.0
+      ],
+      "primitives": 396934.0,
+      "quality": 1,
+      "shot": "07-overview",
+      "target": [
+        37.0,
+        1.0,
+        44.0
+      ]
+    }
+  ]
+}

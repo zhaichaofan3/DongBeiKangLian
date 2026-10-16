@@ -1,0 +1,7 @@
+Title: Radio Noise 1
+Author: Kresiek The Furry
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/radio-noise-1
+Evidence: source.html and source.txt
+Notes: Real recorded radio static; ambience layer.

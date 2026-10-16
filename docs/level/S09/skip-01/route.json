@@ -1,0 +1,68 @@
+{
+  "all_passed": false,
+  "case": "skip",
+  "checks": [
+    {
+      "description": "Opening hands off once with briefing complete",
+      "passed": false
+    },
+    {
+      "description": "Every entry starts with five guards and all three gates closed",
+      "passed": false
+    },
+    {
+      "description": "Optional logger supply reachable",
+      "passed": false
+    },
+    {
+      "description": "Two gates opened by normal guard conditions",
+      "passed": false
+    },
+    {
+      "description": "Office west door opens through normal interaction",
+      "passed": false
+    },
+    {
+      "description": "Rescue can precede both mission objects",
+      "passed": false
+    },
+    {
+      "description": "Roster interaction reachable",
+      "passed": false
+    },
+    {
+      "description": "Power interaction reachable",
+      "passed": false
+    },
+    {
+      "description": "Selected treated/untreated rescue is preserved",
+      "passed": false
+    },
+    {
+      "description": "River gate opens after objects and rescue",
+      "passed": false
+    },
+    {
+      "description": "Courier follows west exit and north route and completes twelve-second extraction",
+      "passed": false
+    },
+    {
+      "description": "Mission ends in won with player alive",
+      "passed": false
+    },
+    {
+      "description": "Reinforcements respect six-live-guard cap; evacuation does not require final wave kills",
+      "passed": false
+    }
+  ],
+  "final_mode": "cinematic",
+  "gameplay_seconds": 0.0,
+  "health": 100.0,
+  "kills": 0,
+  "method": "Actual movement input, real AI and physics, precise automatic aim; not a human pacing/difficulty measurement. No actor teleport or forced unlock in this route.",
+  "opening_seconds": 0.0,
+  "peak_live_guards": 0,
+  "reinforcements_dispatched": 0,
+  "step": "S09",
+  "trace": []
+}

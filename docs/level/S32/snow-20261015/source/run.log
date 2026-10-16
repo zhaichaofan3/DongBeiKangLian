@@ -1,0 +1,28 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: History uses 11 longer shots and B retains 16 shots
+PASS: Authored actors and faction details remain correct in A-01
+PASS: Authored actors and faction details remain correct in A-04
+PASS: Authored actors and faction details remain correct in A-06
+PASS: Authored actors and faction details remain correct in A-07
+PASS: Authored actors and faction details remain correct in A-08
+PASS: Authored actors and faction details remain correct in A-10
+PASS: Authored actors and faction details remain correct in A-11
+PASS: Authored actors and faction details remain correct in A-14
+PASS: Authored actors and faction details remain correct in A-15
+PASS: Authored actors and faction details remain correct in A-16
+PASS: Authored actors and faction details remain correct in A-18
+PASS: A5-A6 load the artistic Tianchi scene including exported import remapping
+PASS: History has original 15 cues plus two additions over the complete supplied track
+PASS: A4 has the authored S27 barrage and distant fireline layers
+PASS: A07 snow surface uses a procedural material instead of the old flat color
+PASS: A07 snow top aligns with the actors' foot anchor
+PASS: A07 preview shows the snow path and keeps the walking actor above its surface
+PASS: A4 runtime combines formal label, muzzle layer and first barrage
+PASS: A5 carries N15 into the artistic Tianchi close
+PASS: A6 carries the added narration over the continuous building panorama
+PASS: History previews leave gameplay resources and mission state unchanged
+PASS: A1-A6 complete into the separate B boundary without gameplay handoff
+PASS: Continuous history playback reaches all A shots and narration cues
+PASS: History completion does not commit the task prologue
+S32 HISTORY FORMAL: PASS | checks=25

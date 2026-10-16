@@ -1,0 +1,200 @@
+{
+  "audio_driver": "WASAPI",
+  "checks": [
+    {
+      "description": "Continuous B playback completes the gameplay handoff",
+      "passed": true
+    },
+    {
+      "description": "Playback uses real elapsed time without accelerated audio",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B1-L01",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B1-L01",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B2-L01",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded subtitle has silent Voice bus: B2-L01",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B2-L02",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B2-L02",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B2-L03",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded subtitle has silent Voice bus: B2-L03",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B3-L01",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B3-L01",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B3-L02",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded subtitle has silent Voice bus: B3-L02",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B5-L01",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B5-L01",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B5-L02",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded subtitle has silent Voice bus: B5-L02",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B5-L03",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B5-L03",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B5-L04",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B5-L04",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B5-L05",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded subtitle has silent Voice bus: B5-L05",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B5-L06",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B5-L06",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B6-L01",
+      "passed": true
+    },
+    {
+      "description": "Recorded speech reaches Voice bus: B6-L01",
+      "passed": true
+    },
+    {
+      "description": "Rendered and sampled cue: B6-L02",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded subtitle has silent Voice bus: B6-L02",
+      "passed": true
+    }
+  ],
+  "measurements": {
+    "B1-L01": {
+      "max_rms": 0.169022668896894,
+      "sample_blocks": 221,
+      "screenshot": true
+    },
+    "B2-L01": {
+      "max_rms": 0.0,
+      "sample_blocks": 211,
+      "screenshot": true
+    },
+    "B2-L02": {
+      "max_rms": 0.14443808014273,
+      "sample_blocks": 311,
+      "screenshot": true
+    },
+    "B2-L03": {
+      "max_rms": 0.0,
+      "sample_blocks": 99,
+      "screenshot": true
+    },
+    "B3-L01": {
+      "max_rms": 0.180153405895895,
+      "sample_blocks": 707,
+      "screenshot": true
+    },
+    "B3-L02": {
+      "max_rms": 0.0,
+      "sample_blocks": 40,
+      "screenshot": true
+    },
+    "B5-L01": {
+      "max_rms": 0.255000056036957,
+      "sample_blocks": 592,
+      "screenshot": true
+    },
+    "B5-L02": {
+      "max_rms": 0.0,
+      "sample_blocks": 87,
+      "screenshot": true
+    },
+    "B5-L03": {
+      "max_rms": 0.255653715727307,
+      "sample_blocks": 687,
+      "screenshot": true
+    },
+    "B5-L04": {
+      "max_rms": 0.21172224996521,
+      "sample_blocks": 670,
+      "screenshot": true
+    },
+    "B5-L05": {
+      "max_rms": 0.0,
+      "sample_blocks": 191,
+      "screenshot": true
+    },
+    "B5-L06": {
+      "max_rms": 0.255876707997791,
+      "sample_blocks": 417,
+      "screenshot": true
+    },
+    "B6-L01": {
+      "max_rms": 0.293762637266177,
+      "sample_blocks": 444,
+      "screenshot": true
+    },
+    "B6-L02": {
+      "max_rms": 0.0,
+      "sample_blocks": 285,
+      "screenshot": true
+    }
+  },
+  "passed": true,
+  "subjective_listening": "pending",
+  "wall_seconds": 80.305
+}

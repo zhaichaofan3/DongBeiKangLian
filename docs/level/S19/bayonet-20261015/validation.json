@@ -1,0 +1,217 @@
+{
+  "version": "0.7.0-rc1",
+  "revision": "20261015-bayonet-encounter",
+  "created_at": "2026-10-15T11:52:50+08:00",
+  "status": "candidate_ready_pending_remaining_art_visual_listening_and_human_playtest",
+  "source": {
+    "all_runtime_checks_passed": true,
+    "assertions_total": 442,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "guards_defeated": 9,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "docs/level/S19/bayonet-20261015/source-regression-final.log",
+    "final_visual_delta_rechecked": "source-accepted-portraits/validation.json"
+  },
+  "release": {
+    "all_runtime_checks_passed": true,
+    "assertions_total": 442,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "guards_defeated": 9,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "docs/level/S19/bayonet-20261015/release-regression.log",
+    "test_isolation": "EXE launched outside source project; res:// assets exclusively from shipped PCK"
+  },
+  "audio": {
+    "history": "complete_user_mp3_68.18_seconds_with_embedded_music",
+    "global_music": "complete_user_aac_converted_to_ogg_loop",
+    "music_volume_default": 0.22,
+    "global_during_history": false,
+    "history_cues": 17,
+    "temporary_task_voice_cues": 14,
+    "listening": "pending",
+    "source_manifest": "AssetNotices/user-audio-20261015.json"
+  },
+  "history": {
+    "shots": 11,
+    "duration_seconds": 68.18,
+    "building_glide_seconds": 14.44,
+    "total_opening_shots": 27,
+    "total_opening_seconds_with_handoff": 148.48
+  },
+  "visual_review": "Validation/bayonet-20261015/review.md",
+  "prior_viewmodel_evidence": {
+    "review": {
+      "review": "docs/level/S17/reference-anatomy-20261015/review.md",
+      "source_pose_count": 8,
+      "release_pose_count": 8,
+      "release_opening_capture_count": 2,
+      "screen_landmark_max_delta": 0.0,
+      "screen_landmarks_match": true,
+      "muzzle_uv": [
+        0.563316464424133,
+        0.614706635475159
+      ],
+      "support_wrist_uv": [
+        0.57363885641098,
+        0.86824631690979
+      ],
+      "human_acceptance": "not claimed"
+    },
+    "rerun_this_revision": false
+  },
+  "historical_performance": {
+    "evidence": "docs/level/S35/validation.md",
+    "rerun_this_revision": false
+  },
+  "previous_release_preserved": "ReleaseBackups/20261015-before-bayonet",
+  "files": [
+    {
+      "path": "Release/FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 433615428,
+      "sha256": "72127ec76d7b54d5edfe68e6ad33ab5a9315b5b0035bd9cda3edf5c1a75110cc"
+    }
+  ],
+  "historical_realtime": {
+    "revision": "20261015-user-audio-building-glide",
+    "rerun_this_revision": false,
+    "evidence": {
+      "all_passed": true,
+      "captures": {
+        "A-11": true,
+        "A-16": true,
+        "A-18": true,
+        "B-06": true,
+        "B-07": true,
+        "B-16": true
+      },
+      "cues": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "B1-L01",
+        "B2-L01",
+        "B2-L02",
+        "B2-L03",
+        "B3-L01",
+        "B3-L02",
+        "B5-L01",
+        "B5-L02",
+        "B5-L03",
+        "B5-L04",
+        "B5-L05",
+        "B5-L06",
+        "B6-L01",
+        "B6-L02"
+      ],
+      "elapsed_game_seconds": 148.508219999989,
+      "ended_playing": true,
+      "expected_seconds": 148.48,
+      "frames": 8872,
+      "handoffs": 1,
+      "human_listening": "pending",
+      "human_playtest": "pending",
+      "method": "Rendered real _process playback at normal speed, 60fps cap, no seeking or fixed-fps simulation; screenshots are diagnostic only, not performance samples",
+      "mission_isolated": true,
+      "shots": [
+        "A-01",
+        "A-04",
+        "A-06",
+        "A-07",
+        "A-08",
+        "A-10",
+        "A-11",
+        "A-14",
+        "A-15",
+        "A-16",
+        "A-18",
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-04",
+        "B-05",
+        "B-06",
+        "B-07",
+        "B-08",
+        "B-09",
+        "B-10",
+        "B-11",
+        "B-12",
+        "B-13",
+        "B-14",
+        "B-15",
+        "B-16"
+      ],
+      "temporary_voice_count": 14,
+      "version": "0.7.0-rc1",
+      "wall_seconds": 149.352
+    }
+  },
+  "historical_guard_identity_evidence": {
+    "rerun_portrait_suite_this_revision": false,
+    "evidence": {
+      "helmet": "red_outline_circle",
+      "facial_hair": "parted_downward_moustache",
+      "guard_only": true,
+      "opening_allies_excluded": true,
+      "head_skin_weight": 1,
+      "added_triangles": 448,
+      "model_sha256": "b36a4c754154ed396ad89e067570c7410b13338dcc0520bc653c62372a2fda53",
+      "source_portrait_checks": 51,
+      "release_portrait_checks": 51,
+      "images_each": 14,
+      "manual_images_reviewed": [
+        "guard_face",
+        "guard_front",
+        "scout_face",
+        "guard_aim",
+        "guard_fallen"
+      ]
+    }
+  },
+  "bayonet_encounter": {
+    "gate": "yard",
+    "guard": "office_guard",
+    "total_guards": 9,
+    "input": "physical space press/release; holds and echo rejected",
+    "recovery": "pre-door checkpoint until counterattack completed",
+    "source_render_checks": 31,
+    "release_render_checks": 31,
+    "images_each": 6,
+    "shout_seconds": 3.44815,
+    "audio_manifest": "AssetNotices/bayonet-20261015.json",
+    "human_listening": false,
+    "human_difficulty_playtest": false
+  },
+  "additional_route": {
+    "case": "S09 direct supply/medicine/checkpoint route",
+    "checks": 14,
+    "all_passed": true,
+    "evidence": "s09-direct-final/route.json",
+    "initial_exit_audio_warning": "Retained in s09-direct.log; test cleanup fixed and final rerun clean"
+  }
+}

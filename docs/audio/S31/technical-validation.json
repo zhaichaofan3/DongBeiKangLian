@@ -1,0 +1,37 @@
+{
+  "cues": 29,
+  "decoded": 29,
+  "aggregate_tracks_decoded": 2,
+  "input_text_verbatim": true,
+  "original_narration_sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320",
+  "non_overlapping_subtitles": true,
+  "overlong_cues": [],
+  "parts": {
+    "A": {
+      "original_duration_ms": 80000,
+      "proposed_duration_ms": 80000,
+      "extra_ms": 0,
+      "audio": {
+        "path": "AssetLibrary/audio/S31_20261015/A-temporary-rehearsal.wav",
+        "sha256": "15d157fe50c5ac6bb2f13b82dc6b8d29d2bb92ff0ab621947309fd2d7177501a",
+        "duration_ms": 80000,
+        "decode_ok": true,
+        "peak_dbfs": -6.0
+      }
+    },
+    "B": {
+      "original_duration_ms": 80100,
+      "proposed_duration_ms": 80100,
+      "extra_ms": 0,
+      "audio": {
+        "path": "AssetLibrary/audio/S31_20261015/B-temporary-rehearsal.wav",
+        "sha256": "5ae013a91a888a89f011d168c24483d5695fcfd05f9b729b62726cc686665533",
+        "duration_ms": 80100,
+        "decode_ok": true,
+        "peak_dbfs": -6.0
+      }
+    }
+  },
+  "pronunciation_verification": "pending_actual_listening",
+  "runtime_integrated": false
+}

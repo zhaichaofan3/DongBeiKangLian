@@ -1,0 +1,76 @@
+{
+  "all_passed": true,
+  "assertions_total": 507,
+  "suites": [
+    {
+      "marker": "SMOKE RESULT: 107/107 passed",
+      "count": 107
+    },
+    {
+      "marker": "LINEAR ROUTE RESULT: 37/37 passed",
+      "count": 37
+    },
+    {
+      "marker": "VISUAL MOTION RESULT: 50/50 passed",
+      "count": 50
+    },
+    {
+      "marker": "STORY MOMENTS RESULT: 11/11 passed",
+      "count": 11
+    },
+    {
+      "marker": "CHARACTER MODEL RESULT: 37/37 passed",
+      "count": 37
+    },
+    {
+      "marker": "AUDIO SETTINGS: PASS | checks=34",
+      "count": 34
+    },
+    {
+      "marker": "USER SFX RESULT: PASS | 31/31",
+      "count": 31
+    },
+    {
+      "marker": "BAYONET ENCOUNTER: PASS 31/31",
+      "count": 31
+    },
+    {
+      "marker": "USER AUDIO: PASS | checks=26",
+      "count": 26
+    },
+    {
+      "marker": "S30 AUDIO MIX: PASS | checks=25",
+      "count": 25
+    },
+    {
+      "marker": "S22 TIANCHI ACCESS: PASS | checks=9",
+      "count": 9
+    },
+    {
+      "marker": "S25 HANDOFF: PASS | checks=10",
+      "count": 10
+    },
+    {
+      "marker": "S31 VOICE INTEGRATION: PASS | checks=8",
+      "count": 8
+    },
+    {
+      "marker": "S32 HISTORY FORMAL: PASS | checks=22",
+      "count": 22
+    },
+    {
+      "marker": "S33 TASK FORMAL: PASS | checks=14",
+      "count": 14
+    },
+    {
+      "marker": "S34 STATE MATRIX: PASS | checks=14 rows=9",
+      "count": 14
+    },
+    {
+      "marker": "OPENING RESULT: 41/41 passed",
+      "count": 41
+    }
+  ],
+  "departure_samples": 21,
+  "ai_guards_defeated": 9
+}

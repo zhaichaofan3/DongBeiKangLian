@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-16T13:09:52.748606+08:00",
+  "files": 149497,
+  "bytes": 159688263752,
+  "folders": {
+    "(root files)": {
+      "files": 17,
+      "bytes": 52870
+    },
+    ".auto-resume": {
+      "files": 9,
+      "bytes": 1230673
+    },
+    ".models": {
+      "files": 16,
+      "bytes": 564418220
+    },
+    "AssetLibrary": {
+      "files": 2194,
+      "bytes": 6208875246
+    },
+    "AssetReview": {
+      "files": 181,
+      "bytes": 75271191
+    },
+    "ConversationBackups": {
+      "files": 208,
+      "bytes": 802974904
+    },
+    "GameProject": {
+      "files": 12,
+      "bytes": 33851
+    },
+    "GodotProject": {
+      "files": 2593,
+      "bytes": 2870699225
+    },
+    "Release": {
+      "files": 956,
+      "bytes": 1835646033
+    },
+    "ReleaseBackups": {
+      "files": 2545,
+      "bytes": 4999699483
+    },
+    "RestoreChecks": {
+      "files": 542,
+      "bytes": 527675354
+    },
+    "WorkBackups": {
+      "files": 128116,
+      "bytes": 136810980828
+    },
+    "docs": {
+      "files": 4682,
+      "bytes": 3305665332
+    },
+    "licenses": {
+      "files": 2,
+      "bytes": 101257
+    },
+    "tools": {
+      "files": 7424,
+      "bytes": 1684939285
+    }
+  },
+  "errors": [],
+  "skipped_links": [
+    ".models/models--Systran--faster-whisper-small/blobs/3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/config.json",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt",
+    ".models/models--Systran--faster-whisper-tiny/blobs/dcb76c6586fc06cbdac6dd21f14cfd129cc4cdd9dce19bf4ffa62e59cbe6e6d1",
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/config.json",
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/model.bin",
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/tokenizer.json",
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/vocabulary.txt"
+  ],
+  "note": "Logical bytes; NTFS compression changes actual disk usage. This report directory is excluded."
+}

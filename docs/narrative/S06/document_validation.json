@@ -1,0 +1,43 @@
+{
+  "step": "S06",
+  "generated_at": "2026-10-13T13:59:53+08:00",
+  "scope": "document links, Python syntax, editorial references and event time bounds; no game runtime tests",
+  "link_count": 112,
+  "broken_links": [],
+  "python_ast_passed": true,
+  "review_items": 10,
+  "review_shot_ids_valid": true,
+  "events_in_bounds": true,
+  "global_offsets_valid": true,
+  "all_passed": true,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "802d759e25df95bbd572cd7511fefa24d26a34d937a2f8cc0c5a4eb4bbd75ec1"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "ec541c843e0b0aaac46ba27648aada2531ebed18b5f0553ac57951c2fc988273"
+    },
+    {
+      "path": "docs/production_plan.md",
+      "sha256": "827031a09d0a205d873f33084974483577c7178fbfa30080adb673df50cd9c7c"
+    },
+    {
+      "path": "docs/S06-opening-storyboard.md",
+      "sha256": "1e2ebd1c0b9f03350734a06d7885bda1d845342c03e6501b96fe2c4995d15c32"
+    },
+    {
+      "path": "tools/build_s06_storyboard.py",
+      "sha256": "33eae23c996df170f71058b78213438ab5df88528f12c1578a9a92a7db45e591"
+    },
+    {
+      "path": "docs/narrative/S06/storyboard.json",
+      "sha256": "b2ad293f0c0fa18c365779e62a54a71b0460c97b09e75a70752f4ed1f148e40b"
+    },
+    {
+      "path": "docs/narrative/S06/editorial_review.json",
+      "sha256": "1095f73aae07888a2a24dd3db53a01c2ba4c8d8324f7c3d605d782374fc3c2eb"
+    }
+  ]
+}

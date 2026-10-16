@@ -1,0 +1,69 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "Opening data records S32 formal A and S33 pending B stages",
+      "passed": true
+    },
+    {
+      "description": "A/B production boundaries are explicit",
+      "passed": true
+    },
+    {
+      "description": "All 17 authored A shots carry the formal S32 status",
+      "passed": true
+    },
+    {
+      "description": "All 16 B shots remain reserved for S33",
+      "passed": true
+    },
+    {
+      "description": "A5-A6 use the artistic Tianchi scene asset",
+      "passed": true
+    },
+    {
+      "description": "History has all 15 fixed narration cues and temporary voice takes",
+      "passed": true
+    },
+    {
+      "description": "A4 has the authored S27 barrage and distant fireline layers",
+      "passed": true
+    },
+    {
+      "description": "A4 runtime combines formal label, muzzle layer and first barrage",
+      "passed": true
+    },
+    {
+      "description": "A5 carries N15 into the artistic Tianchi close",
+      "passed": true
+    },
+    {
+      "description": "A6 resolves on the layered lake and mountain environment",
+      "passed": true
+    },
+    {
+      "description": "History previews leave gameplay resources and mission state unchanged",
+      "passed": true
+    },
+    {
+      "description": "A1-A6 complete into the separate B boundary without gameplay handoff",
+      "passed": true
+    },
+    {
+      "description": "Continuous history playback reaches all A shots and narration cues",
+      "passed": true
+    },
+    {
+      "description": "History completion does not commit the task prologue",
+      "passed": true
+    }
+  ],
+  "history_shots": 17,
+  "music": "not_selected_pending_S29",
+  "narration_cues": 15,
+  "sfx_listening": "pending_S28",
+  "status": "done",
+  "step": "S32",
+  "task_prologue": "pending_S33",
+  "voice": "temporary_synthetic"
+}

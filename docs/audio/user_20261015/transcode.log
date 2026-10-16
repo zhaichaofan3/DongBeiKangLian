@@ -1,0 +1,82 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'AssetLibrary/audio/user_20261015/战争激昂的背景音乐.aac':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 1
+    compatible_brands: avc1iso5dsmsmsixdash
+    encoder         : Lavf58.29.100
+    description     : Packed by Bilibili XCoder v2.0.2
+  Duration: 00:27:14.27, start: 0.000000, bitrate: 119 kb/s
+  Stream #0:0[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 101 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> vorbis (libvorbis))
+Output #0, ogg, to 'GodotProject/assets/audio/global_war_music.ogg':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 1
+    compatible_brands: avc1iso5dsmsmsixdash
+    description     : Packed by Bilibili XCoder v2.0.2
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Audio: vorbis, 44100 Hz, stereo, fltp (default)
+    Metadata:
+      encoder         : Lavc63.1.102 libvorbis
+      handler_name    : SoundHandler
+      major_brand     : iso5
+      minor_version   : 1
+      compatible_brands: avc1iso5dsmsmsixdash
+      description     : Packed by Bilibili XCoder v2.0.2
+size=     512KiB time=00:00:42.61 bitrate=  98.4kbits/s speed=81.6x elapsed=0:00:00.52    
+size=    1024KiB time=00:01:26.49 bitrate=  97.0kbits/s speed=83.6x elapsed=0:00:01.03    
+size=    1792KiB time=00:02:10.71 bitrate= 112.3kbits/s speed=84.3x elapsed=0:00:01.55    
+size=    2304KiB time=00:02:56.28 bitrate= 107.1kbits/s speed=85.4x elapsed=0:00:02.06    
+size=    3072KiB time=00:03:42.40 bitrate= 113.2kbits/s speed=86.3x elapsed=0:00:02.57    
+size=    3584KiB time=00:04:19.09 bitrate= 113.3kbits/s speed=83.8x elapsed=0:00:03.09    
+size=    4096KiB time=00:04:50.73 bitrate= 115.4kbits/s speed=80.6x elapsed=0:00:03.60    
+size=    4352KiB time=00:05:21.43 bitrate= 110.9kbits/s speed=  78x elapsed=0:00:04.11    
+size=    4864KiB time=00:05:51.83 bitrate= 113.3kbits/s speed=75.9x elapsed=0:00:04.63    
+size=    5376KiB time=00:06:22.08 bitrate= 115.3kbits/s speed=  74x elapsed=0:00:05.16    
+size=    5632KiB time=00:06:50.72 bitrate= 112.3kbits/s speed=72.4x elapsed=0:00:05.67    
+size=    6144KiB time=00:07:20.63 bitrate= 114.2kbits/s speed=71.2x elapsed=0:00:06.19    
+size=    6656KiB time=00:07:51.70 bitrate= 115.6kbits/s speed=70.3x elapsed=0:00:06.70    
+size=    6912KiB time=00:08:21.96 bitrate= 112.8kbits/s speed=69.5x elapsed=0:00:07.22    
+size=    7424KiB time=00:08:52.06 bitrate= 114.3kbits/s speed=68.7x elapsed=0:00:07.74    
+size=    7936KiB time=00:09:21.13 bitrate= 115.9kbits/s speed=  68x elapsed=0:00:08.25    
+size=    8192KiB time=00:09:51.55 bitrate= 113.4kbits/s speed=67.5x elapsed=0:00:08.76    
+size=    8704KiB time=00:10:22.05 bitrate= 114.6kbits/s speed=  67x elapsed=0:00:09.28    
+size=    8960KiB time=00:10:52.62 bitrate= 112.5kbits/s speed=66.6x elapsed=0:00:09.79    
+size=    9472KiB time=00:11:22.01 bitrate= 113.8kbits/s speed=66.2x elapsed=0:00:10.30    
+size=    9984KiB time=00:11:50.05 bitrate= 115.2kbits/s speed=65.6x elapsed=0:00:10.82    
+size=   10240KiB time=00:12:17.94 bitrate= 113.7kbits/s speed=  65x elapsed=0:00:11.34    
+size=   10752KiB time=00:12:47.21 bitrate= 114.8kbits/s speed=64.7x elapsed=0:00:11.85    
+size=   11264KiB time=00:13:15.87 bitrate= 115.9kbits/s speed=64.3x elapsed=0:00:12.37    
+size=   11520KiB time=00:13:45.02 bitrate= 114.4kbits/s speed=  64x elapsed=0:00:12.88    
+size=   12032KiB time=00:14:15.54 bitrate= 115.2kbits/s speed=63.8x elapsed=0:00:13.41    
+size=   12544KiB time=00:14:44.30 bitrate= 116.2kbits/s speed=63.5x elapsed=0:00:13.92    
+size=   12800KiB time=00:15:14.86 bitrate= 114.6kbits/s speed=63.4x elapsed=0:00:14.43    
+size=   13312KiB time=00:15:46.15 bitrate= 115.3kbits/s speed=63.3x elapsed=0:00:14.95    
+size=   13824KiB time=00:16:14.84 bitrate= 116.2kbits/s speed=  63x elapsed=0:00:15.46    
+size=   14336KiB time=00:16:43.75 bitrate= 117.0kbits/s speed=62.8x elapsed=0:00:15.97    
+size=   14592KiB time=00:17:15.35 bitrate= 115.5kbits/s speed=62.7x elapsed=0:00:16.50    
+size=   15104KiB time=00:17:45.00 bitrate= 116.2kbits/s speed=62.6x elapsed=0:00:17.02    
+size=   15616KiB time=00:18:15.12 bitrate= 116.8kbits/s speed=62.5x elapsed=0:00:17.53    
+size=   15872KiB time=00:18:45.41 bitrate= 115.5kbits/s speed=62.4x elapsed=0:00:18.04    
+size=   16384KiB time=00:19:15.58 bitrate= 116.1kbits/s speed=62.2x elapsed=0:00:18.56    
+size=   16896KiB time=00:19:45.18 bitrate= 116.8kbits/s speed=62.1x elapsed=0:00:19.07    
+size=   17152KiB time=00:20:14.51 bitrate= 115.7kbits/s speed=  62x elapsed=0:00:19.59    
+size=   17664KiB time=00:20:43.19 bitrate= 116.4kbits/s speed=61.8x elapsed=0:00:20.10    
+size=   17920KiB time=00:21:11.97 bitrate= 115.4kbits/s speed=61.7x elapsed=0:00:20.61    
+size=   18432KiB time=00:21:39.24 bitrate= 116.2kbits/s speed=61.5x elapsed=0:00:21.13    
+size=   18688KiB time=00:22:07.91 bitrate= 115.3kbits/s speed=61.3x elapsed=0:00:21.66    
+size=   19200KiB time=00:22:35.41 bitrate= 116.0kbits/s speed=61.1x elapsed=0:00:22.17    
+size=   19712KiB time=00:23:03.91 bitrate= 116.7kbits/s speed=  61x elapsed=0:00:22.68    
+size=   19968KiB time=00:23:34.93 bitrate= 115.6kbits/s speed=  61x elapsed=0:00:23.20    
+size=   20480KiB time=00:24:04.79 bitrate= 116.1kbits/s speed=60.9x elapsed=0:00:23.71    
+size=   20736KiB time=00:24:34.20 bitrate= 115.2kbits/s speed=60.8x elapsed=0:00:24.23    
+size=   21248KiB time=00:25:02.68 bitrate= 115.8kbits/s speed=60.7x elapsed=0:00:24.74    
+size=   21760KiB time=00:25:31.60 bitrate= 116.4kbits/s speed=60.6x elapsed=0:00:25.27    
+size=   22016KiB time=00:26:00.41 bitrate= 115.6kbits/s speed=60.5x elapsed=0:00:25.78    
+size=   22528KiB time=00:26:29.65 bitrate= 116.1kbits/s speed=60.5x elapsed=0:00:26.29    
+size=   23040KiB time=00:26:58.67 bitrate= 116.6kbits/s speed=60.4x elapsed=0:00:26.80    
+[out#0/ogg @ 000001eb1330ef80] video:0KiB audio:23097KiB subtitle:0KiB other streams:0KiB global headers:4KiB muxing overhead: 0.881003%
+size=   23301KiB time=00:27:14.26 bitrate= 116.8kbits/s speed=60.4x elapsed=0:00:27.06    

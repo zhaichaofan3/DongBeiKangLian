@@ -1,0 +1,50 @@
+{
+  "scope": "从用户消息中文件提及和image路径提取；不是遍历个人磁盘，也不是历史中任意文本路径的穷尽扫描。",
+  "references": [
+    {
+      "path": "C:\\XboxGames\\ssmmzzhh77",
+      "exists": true,
+      "kind": "directory",
+      "bytes": null,
+      "source_thread": "01a12e87-1f9b-7f02-b753-9f53d2406c17",
+      "source_jsonl_line": 305,
+      "scope": "历史用户提及；仅存在性核对，未复制到本交接包"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\【B站首发】战地1单人剧情流程无解说\\钢铁风暴【17年6月重制】.mp4",
+      "exists": true,
+      "kind": "file",
+      "bytes": 179757211,
+      "source_thread": "01a12e87-1f9b-7f02-b753-9f53d2406c17",
+      "source_jsonl_line": 611,
+      "scope": "历史用户提及；仅存在性核对，未复制到本交接包"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-7727098b-ff73-4045-8822-1af08c7d3346.png",
+      "exists": true,
+      "kind": "file",
+      "bytes": 182302,
+      "source_thread": "01a12f19-8351-7262-9e41-0b4b62d001ef",
+      "source_jsonl_line": 38,
+      "scope": "历史用户提及；仅存在性核对，未复制到本交接包"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-af525aa0-ec72-460a-bdc9-616a533f3406.png",
+      "exists": true,
+      "kind": "file",
+      "bytes": 171315,
+      "source_thread": "01a12fbc-34b0-7303-9268-f880bb40e049",
+      "source_jsonl_line": 72,
+      "scope": "历史用户提及；仅存在性核对，未复制到本交接包"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-e4b98fbc-f8f5-47fa-8ab6-7a824ddaf9c5.png",
+      "exists": true,
+      "kind": "file",
+      "bytes": 22949,
+      "source_thread": "01a130a4-78fb-7ee3-99fa-a27b22cd407c",
+      "source_jsonl_line": 118,
+      "scope": "历史用户提及；仅存在性核对，未复制到本交接包"
+    }
+  ]
+}

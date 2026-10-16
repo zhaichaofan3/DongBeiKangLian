@@ -1,0 +1,1976 @@
+{
+  "version": 1,
+  "status": "integrated_opening_pending_visual_and_audio_acceptance",
+  "durations_ms": {
+    "A": 68180,
+    "B": 80100,
+    "total": 148280
+  },
+  "shots": [
+    {
+      "id": "A-01",
+      "part": "A",
+      "segment": "A1",
+      "title": "林场与松岭屯",
+      "start_ms": 0,
+      "end_ms": 11740,
+      "s07_placeholder": "Original supplied settlement and logging camp, joined in the establishing sequence; fixed narration and timing retained.",
+      "camera_from": [
+        1238,
+        60,
+        324
+      ],
+      "camera_to": [
+        1220,
+        52,
+        302
+      ],
+      "look_at": [
+        1125,
+        3,
+        190
+      ],
+      "fov": 60,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32",
+      "environment": "songling_village",
+      "look_at_to": [
+        1126,
+        3,
+        170
+      ]
+    },
+    {
+      "id": "A-04",
+      "part": "A",
+      "segment": "A2",
+      "title": "青岚林场的屋舍与木料",
+      "start_ms": 11740,
+      "end_ms": 18740,
+      "s07_placeholder": "Original supplied settlement and logging camp, joined in the establishing sequence; fixed narration and timing retained.",
+      "camera_from": [
+        78,
+        30,
+        278
+      ],
+      "camera_to": [
+        68,
+        26,
+        256
+      ],
+      "look_at": [
+        28,
+        3,
+        242
+      ],
+      "fov": 58,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32",
+      "environment": "qinglan_logging"
+    },
+    {
+      "id": "A-06",
+      "part": "A",
+      "segment": "A3",
+      "title": "沿原村道看见家园",
+      "start_ms": 18740,
+      "end_ms": 21740,
+      "s07_placeholder": "Original supplied settlement and logging camp, joined in the establishing sequence; fixed narration and timing retained.",
+      "camera_from": [
+        1171,
+        18,
+        229
+      ],
+      "camera_to": [
+        1161,
+        16,
+        210
+      ],
+      "look_at": [
+        1138,
+        2.8,
+        179
+      ],
+      "fov": 62,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32",
+      "environment": "songling_village"
+    },
+    {
+      "id": "A-07",
+      "part": "A",
+      "segment": "A3",
+      "title": "踏雪",
+      "start_ms": 21740,
+      "end_ms": 23740,
+      "s07_placeholder": "独立冬季副本用浅色地表/已下载雪纹理占位，程序走路；脚印、雪粒不宣称实现。",
+      "camera_from": [
+        9.8,
+        0.55,
+        281
+      ],
+      "camera_to": [
+        9.8,
+        0.55,
+        277
+      ],
+      "look_at": [
+        11,
+        0.3,
+        279
+      ],
+      "fov": 55,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            11,
+            0.08,
+            281
+          ],
+          "end": [
+            11,
+            0.08,
+            277
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "ally2",
+          "start": [
+            12,
+            0.08,
+            283
+          ],
+          "end": [
+            12,
+            0.08,
+            279
+          ],
+          "yaw": 0
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-08",
+      "part": "A",
+      "segment": "A3",
+      "title": "密林穿行",
+      "start_ms": 23740,
+      "end_ms": 27740,
+      "s07_placeholder": "现有树林和正常持枪行走，机位避树；拨枝接触用肩部轻转占位。",
+      "camera_from": [
+        7,
+        2.6,
+        284
+      ],
+      "camera_to": [
+        7,
+        2.6,
+        282
+      ],
+      "look_at": [
+        12,
+        1.1,
+        278
+      ],
+      "fov": 52,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            12,
+            0.08,
+            280
+          ],
+          "end": [
+            12,
+            0.08,
+            276
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "ally2",
+          "start": [
+            13,
+            0.08,
+            282
+          ],
+          "end": [
+            13,
+            0.08,
+            278
+          ],
+          "yaw": 0
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-10",
+      "part": "A",
+      "segment": "A3",
+      "title": "电报房内的脚步",
+      "start_ms": 27740,
+      "end_ms": 32740,
+      "production_note": "友军沿桌后通道行走，连续滑动镜头展示电报设备、木梁与室内冷暖灯光；替换旧扶人镜头。",
+      "camera_from": [
+        58,
+        2.4,
+        41.6
+      ],
+      "camera_to": [
+        57,
+        1.8,
+        36.6
+      ],
+      "look_at": [
+        53,
+        1,
+        34.1
+      ],
+      "look_at_to": [
+        52.4,
+        1.2,
+        37.8
+      ],
+      "fov": 62,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            49,
+            0.08,
+            38
+          ],
+          "end": [
+            55,
+            0.08,
+            38
+          ],
+          "yaw": -1.5707963268
+        },
+        {
+          "id": "ally2",
+          "start": [
+            47.7,
+            0.08,
+            38.7
+          ],
+          "end": [
+            53.7,
+            0.08,
+            38.7
+          ],
+          "yaw": -1.5707963268
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-11",
+      "part": "A",
+      "segment": "A4",
+      "title": "掩体后的信念",
+      "start_ms": 32740,
+      "end_ms": 37740,
+      "s07_placeholder": "独立演出副本复用现有开火、后坐和枪声；无伤害、无正式AI、无弹药消耗。",
+      "camera_from": [
+        28,
+        2.3,
+        136
+      ],
+      "camera_to": [
+        28.5,
+        2.3,
+        135.7
+      ],
+      "look_at": [
+        33,
+        1.3,
+        131
+      ],
+      "fov": 58,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            30,
+            0.08,
+            133
+          ],
+          "end": [
+            30,
+            0.08,
+            133
+          ],
+          "yaw": -1.0
+        },
+        {
+          "id": "enemy1",
+          "start": [
+            38,
+            0.08,
+            128
+          ],
+          "end": [
+            38,
+            0.08,
+            128
+          ],
+          "yaw": 1.5
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-14",
+      "part": "A",
+      "segment": "A4",
+      "title": "仍有人前行",
+      "start_ms": 37740,
+      "end_ms": 41740,
+      "s07_placeholder": "复用独立战斗布景和人物；远景两组烟团，不靠新增大量AI营造规模。",
+      "camera_from": [
+        26,
+        6,
+        138
+      ],
+      "camera_to": [
+        26,
+        7,
+        138
+      ],
+      "look_at": [
+        36,
+        2.8,
+        129
+      ],
+      "fov": 62,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            31,
+            0.08,
+            133
+          ],
+          "end": [
+            33,
+            0.08,
+            131
+          ],
+          "yaw": -0.8
+        },
+        {
+          "id": "ally2",
+          "start": [
+            34,
+            0.08,
+            131
+          ],
+          "end": [
+            36,
+            0.08,
+            129
+          ],
+          "yaw": -0.8
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-15",
+      "part": "A",
+      "segment": "A5",
+      "title": "走向山脊",
+      "start_ms": 41740,
+      "end_ms": 46740,
+      "s07_placeholder": "已有远山作脊线；DEM仅可做远景地貌参考或明确标示的远景占位，人物不能直接在其上假定可行走。",
+      "camera_from": [
+        500,
+        28,
+        153
+      ],
+      "camera_to": [
+        500,
+        33,
+        158
+      ],
+      "look_at": [
+        501,
+        27,
+        143
+      ],
+      "fov": 60,
+      "actors": [
+        {
+          "id": "ally1",
+          "start": [
+            501,
+            26,
+            146
+          ],
+          "end": [
+            502,
+            26,
+            142
+          ],
+          "yaw": -0.2
+        },
+        {
+          "id": "ally2",
+          "start": [
+            503,
+            26,
+            148
+          ],
+          "end": [
+            504,
+            26,
+            144
+          ],
+          "yaw": -0.2
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-16",
+      "part": "A",
+      "segment": "A5",
+      "title": "火山口湖全貌",
+      "start_ms": 46740,
+      "end_ms": 53740,
+      "s07_placeholder": "S07可用现有DEM低档远景加简单湖面占位并标注；正式火山口湖仍需S20–S23另建。",
+      "camera_from": [
+        448,
+        112,
+        264
+      ],
+      "camera_to": [
+        450,
+        126,
+        280
+      ],
+      "look_at": [
+        564,
+        20,
+        119.5
+      ],
+      "fov": 62,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32"
+    },
+    {
+      "id": "A-18",
+      "part": "A",
+      "segment": "A6",
+      "title": "历史与现实 · 林场长镜头",
+      "start_ms": 53740,
+      "end_ms": 68180,
+      "camera_from": [
+        -22,
+        20,
+        282
+      ],
+      "camera_to": [
+        24,
+        26,
+        255
+      ],
+      "look_at": [
+        10,
+        2.5,
+        266
+      ],
+      "look_at_to": [
+        38,
+        3,
+        228
+      ],
+      "fov": 62,
+      "actors": [],
+      "production_status": "integrated_pending_acceptance_s32",
+      "purpose": "新增两句共用14.44秒连续滑动全景，从农村边缘缓慢滑向检查口与林场，标题在同镜头叠入。"
+    },
+    {
+      "id": "B-01",
+      "part": "B",
+      "segment": "B1",
+      "title": "脚下的霜",
+      "start_ms": 0,
+      "end_ms": 5500,
+      "s07_placeholder": "现有石块/平面搭临时站位台，远景可用DEM；姜岚模型和双手复用，袖口接触用轻微手势占位。",
+      "camera_from": [
+        500,
+        27.57,
+        148
+      ],
+      "camera_to": [
+        500,
+        27.57,
+        148
+      ],
+      "look_at": [
+        501.2,
+        27.35,
+        145.5
+      ],
+      "fov": 68,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            501.2,
+            26,
+            145.5
+          ],
+          "end": [
+            501.2,
+            26,
+            145.5
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-02",
+      "part": "B",
+      "segment": "B2",
+      "title": "等太平了",
+      "start_ms": 5500,
+      "end_ms": 9100,
+      "s07_placeholder": "头部朝向与呼吸占位；沈砚不新增全身模型、肩背或复杂面部特写。",
+      "camera_from": [
+        500,
+        27.57,
+        148
+      ],
+      "camera_to": [
+        500,
+        27.57,
+        148
+      ],
+      "look_at": [
+        501.2,
+        27.4,
+        145.5
+      ],
+      "fov": 66,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            501.2,
+            26,
+            145.5
+          ],
+          "end": [
+            501.2,
+            26,
+            145.5
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-03",
+      "part": "B",
+      "segment": "B2",
+      "title": "把这一路慢慢走",
+      "start_ms": 9100,
+      "end_ms": 13300,
+      "s07_placeholder": "微表情未制作用头部轻转、姿态静止占位，不宣称嘴型同步。",
+      "camera_from": [
+        500,
+        27.57,
+        148
+      ],
+      "camera_to": [
+        500,
+        27.57,
+        148
+      ],
+      "look_at": [
+        501.2,
+        27.4,
+        145.5
+      ],
+      "fov": 62,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            501.2,
+            26,
+            145.5
+          ],
+          "end": [
+            501.2,
+            26,
+            145.5
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-04",
+      "part": "B",
+      "segment": "B2",
+      "title": "约定落下",
+      "start_ms": 13300,
+      "end_ms": 16000,
+      "s07_placeholder": "保持站位，程序转头和手臂轻动，不凭空添加枪带检查。",
+      "camera_from": [
+        500,
+        27.57,
+        148
+      ],
+      "camera_to": [
+        500,
+        27.57,
+        148
+      ],
+      "look_at": [
+        502,
+        27.3,
+        145.5
+      ],
+      "fov": 66,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            501.2,
+            26,
+            145.5
+          ],
+          "end": [
+            501.2,
+            26,
+            145.5
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-05",
+      "part": "B",
+      "segment": "B3",
+      "title": "原定的接应",
+      "start_ms": 16000,
+      "end_ms": 24600,
+      "s07_placeholder": "临时路口和指路手势，尚不具备正式行走路径；不出现受伤被扣的新消息。",
+      "camera_from": [
+        500,
+        27.57,
+        148
+      ],
+      "camera_to": [
+        500,
+        27.57,
+        148
+      ],
+      "look_at": [
+        502,
+        27.3,
+        145.5
+      ],
+      "fov": 68,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            501.2,
+            26,
+            145.5
+          ],
+          "end": [
+            501.2,
+            26,
+            145.5
+          ],
+          "yaw": 2.5
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-06",
+      "part": "B",
+      "segment": "B3",
+      "title": "起步之前",
+      "start_ms": 24600,
+      "end_ms": 26300,
+      "s07_placeholder": "现有转身/起步作临时动作，脚步接地待S16。",
+      "camera_from": [
+        500,
+        27.57,
+        148
+      ],
+      "camera_to": [
+        500,
+        27.57,
+        148
+      ],
+      "look_at": [
+        502.2,
+        27.2,
+        145.5
+      ],
+      "fov": 68,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            501.2,
+            26,
+            145.5
+          ],
+          "end": [
+            496.5,
+            26,
+            140.5
+          ],
+          "yaw": 0.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-07",
+      "part": "B",
+      "segment": "B4",
+      "title": "离开高地",
+      "start_ms": 26300,
+      "end_ms": 28300,
+      "s07_placeholder": "现有石块和山脊作短路段，姜岚程序走路。",
+      "camera_from": [
+        503,
+        28.4,
+        139
+      ],
+      "camera_to": [
+        502,
+        27.1,
+        133.5
+      ],
+      "look_at": [
+        496.75,
+        26.3,
+        137.75
+      ],
+      "fov": 65,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            496.5,
+            26,
+            140.5
+          ],
+          "end": [
+            497,
+            24.7,
+            135
+          ],
+          "yaw": -0.09066
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-08",
+      "part": "B",
+      "segment": "B4",
+      "title": "林间的脚步",
+      "start_ms": 28300,
+      "end_ms": 29800,
+      "s07_placeholder": "复用林道局部和姜岚模型，走速与脚步节拍后续再校准。",
+      "camera_from": [
+        10.7,
+        0.55,
+        282
+      ],
+      "camera_to": [
+        10.7,
+        0.55,
+        280
+      ],
+      "look_at": [
+        12,
+        0.3,
+        281
+      ],
+      "fov": 55,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            12,
+            0.08,
+            282
+          ],
+          "end": [
+            12,
+            0.08,
+            280
+          ],
+          "yaw": 0
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-09",
+      "part": "B",
+      "segment": "B4",
+      "title": "侦察员先行",
+      "start_ms": 29800,
+      "end_ms": 31300,
+      "s07_placeholder": "复用林道背影与快步动作；不新增侦察任务、不显示已经获救的陆山。",
+      "camera_from": [
+        10,
+        1.65,
+        287
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        287
+      ],
+      "look_at": [
+        13,
+        1,
+        276
+      ],
+      "fov": 60,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            13,
+            0.08,
+            280
+          ],
+          "end": [
+            13,
+            0.08,
+            275
+          ],
+          "yaw": 0
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-10",
+      "part": "B",
+      "segment": "B4",
+      "title": "回到会合点",
+      "start_ms": 31300,
+      "end_ms": 34300,
+      "s07_placeholder": "同一林道换机位、光线和行进方向，姜岚从侦察方向返回；由B5台词补足林师傅的信息来源。",
+      "camera_from": [
+        10,
+        1.65,
+        286
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        286
+      ],
+      "look_at": [
+        12,
+        1.4,
+        282
+      ],
+      "fov": 66,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            14,
+            0.08,
+            277
+          ],
+          "end": [
+            12,
+            0.08,
+            282
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-11",
+      "part": "B",
+      "segment": "B5",
+      "title": "陆山的消息",
+      "start_ms": 34300,
+      "end_ms": 43700,
+      "s07_placeholder": "既有起点周边演出副本；姜岚临时头手动作，正式陆山仍在电报房。",
+      "camera_from": [
+        10,
+        1.65,
+        286
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        286
+      ],
+      "look_at": [
+        12,
+        1.4,
+        282
+      ],
+      "fov": 66,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            12,
+            0.08,
+            282
+          ],
+          "end": [
+            12,
+            0.08,
+            282
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-12",
+      "part": "B",
+      "segment": "B5",
+      "title": "名册与岗哨响动",
+      "start_ms": 43700,
+      "end_ms": 52400,
+      "s07_placeholder": "声音暂用明确临时短机械提示或留标记，S28选样；不得借用真实守卫AI制造动静。",
+      "camera_from": [
+        10,
+        1.65,
+        286
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        286
+      ],
+      "look_at": [
+        12,
+        1.35,
+        282
+      ],
+      "fov": 68,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            12,
+            0.08,
+            282
+          ],
+          "end": [
+            12,
+            0.08,
+            282
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-13",
+      "part": "B",
+      "segment": "B5",
+      "title": "把路线说清",
+      "start_ms": 52400,
+      "end_ms": 60400,
+      "s07_placeholder": "现有检查口与路牌可用；新增大型建筑只在S10后替换背景，不挡入口。",
+      "camera_from": [
+        10,
+        1.65,
+        286
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        286
+      ],
+      "look_at": [
+        13,
+        1.5,
+        281.5
+      ],
+      "fov": 70,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            12,
+            0.08,
+            282
+          ],
+          "end": [
+            12,
+            0.08,
+            282
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-14",
+      "part": "B",
+      "segment": "B5",
+      "title": "撤到渡口",
+      "start_ms": 60400,
+      "end_ms": 69300,
+      "s07_placeholder": "只做原定方向的姿态提示，不需要新增地图道具；补给/包扎仍可选。",
+      "camera_from": [
+        10,
+        1.65,
+        286
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        286
+      ],
+      "look_at": [
+        12,
+        1.4,
+        282
+      ],
+      "fov": 70,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            12,
+            0.08,
+            282
+          ],
+          "end": [
+            12,
+            0.08,
+            282
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-15",
+      "part": "B",
+      "segment": "B6",
+      "title": "各守一段路",
+      "start_ms": 69300,
+      "end_ms": 74900,
+      "s07_placeholder": "复用起点和scout锚点；准备对齐但不在S06实现任何任务提交。",
+      "camera_from": [
+        10,
+        1.65,
+        286
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        286
+      ],
+      "look_at": [
+        12,
+        1.45,
+        282
+      ],
+      "fov": 74,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            12,
+            0.08,
+            282
+          ],
+          "end": [
+            12,
+            0.08,
+            282
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    },
+    {
+      "id": "B-16",
+      "part": "B",
+      "segment": "B6",
+      "title": "等我，人与名单",
+      "start_ms": 74900,
+      "end_ms": 80100,
+      "s07_placeholder": "S07需实现最小一致交接并实测；正式全矩阵在S34，S06仅给出镜头与状态要求。",
+      "camera_from": [
+        10,
+        1.65,
+        286
+      ],
+      "camera_to": [
+        10,
+        1.65,
+        286
+      ],
+      "look_at": [
+        12,
+        1.45,
+        282
+      ],
+      "fov": 78,
+      "actors": [
+        {
+          "id": "scout",
+          "start": [
+            12,
+            0.08,
+            282
+          ],
+          "end": [
+            12,
+            0.08,
+            282
+          ],
+          "yaw": 2.7
+        }
+      ],
+      "production_status": "integrated_pending_acceptance_s33"
+    }
+  ],
+  "cues": {
+    "A": [
+      {
+        "id": "N01",
+        "segment": "A1",
+        "text": "作为中国共产党创建最早、",
+        "lines": [
+          "作为中国共产党创建最早、"
+        ],
+        "emphasis": [
+          "中国共产党",
+          "最早"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 5340,
+        "pause_after_ms": 0,
+        "delivery": "从容开篇，作为轻起，最早稍落重，保持后接关系",
+        "original_char_start": 0,
+        "original_char_end": 12,
+        "voice_start_ms": 400,
+        "voice_end_ms": 5740,
+        "subtitle_start_ms": 400,
+        "subtitle_end_ms": 5740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N02",
+        "segment": "A1",
+        "text": "坚持抗日时间最长、",
+        "lines": [
+          "坚持抗日时间最长、"
+        ],
+        "emphasis": [
+          "坚持",
+          "最长"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 2000,
+        "pause_after_ms": 0,
+        "delivery": "承接上一项，最长与最早同级，避免每字都重读",
+        "original_char_start": 12,
+        "original_char_end": 21,
+        "voice_start_ms": 5740,
+        "voice_end_ms": 7740,
+        "subtitle_start_ms": 5740,
+        "subtitle_end_ms": 7740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N03",
+        "segment": "A1",
+        "text": "条件最为艰苦的抗日武装力量，",
+        "lines": [
+          "条件最为艰苦的抗日武装力量，"
+        ],
+        "emphasis": [
+          "最为艰苦",
+          "抗日武装力量"
+        ],
+        "inner_pause_after": [
+          "条件最为艰苦的"
+        ],
+        "speech_duration_ms": 4000,
+        "pause_after_ms": 0,
+        "delivery": "三个特征在此收拢；的后只轻连，不把定语与力量读断",
+        "original_char_start": 21,
+        "original_char_end": 35,
+        "voice_start_ms": 7740,
+        "voice_end_ms": 11740,
+        "subtitle_start_ms": 7740,
+        "subtitle_end_ms": 11740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N04",
+        "segment": "A2",
+        "text": "东北抗日联军在民族危亡之际，",
+        "lines": [
+          "东北抗日联军在民族危亡之际，"
+        ],
+        "emphasis": [
+          "东北抗日联军",
+          "民族危亡"
+        ],
+        "inner_pause_after": [
+          "东北抗日联军"
+        ],
+        "speech_duration_ms": 4000,
+        "pause_after_ms": 0,
+        "delivery": "点明主体，危亡压实，避免突然变成口号语气",
+        "original_char_start": 35,
+        "original_char_end": 49,
+        "voice_start_ms": 11740,
+        "voice_end_ms": 15740,
+        "subtitle_start_ms": 11740,
+        "subtitle_end_ms": 15740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N05",
+        "segment": "A2",
+        "text": "高擎抗日救国大旗，",
+        "lines": [
+          "高擎抗日救国大旗，"
+        ],
+        "emphasis": [
+          "高擎",
+          "抗日救国"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 3000,
+        "pause_after_ms": 0,
+        "delivery": "声线稍抬并向前推进，旗字收住，把下一句交给山河画面",
+        "original_char_start": 49,
+        "original_char_end": 58,
+        "voice_start_ms": 15740,
+        "voice_end_ms": 18740,
+        "subtitle_start_ms": 15740,
+        "subtitle_end_ms": 18740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N06",
+        "segment": "A3",
+        "text": "在白山黑水间、",
+        "lines": [
+          "在白山黑水间、"
+        ],
+        "emphasis": [
+          "白山黑水"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 3000,
+        "pause_after_ms": 0,
+        "delivery": "打开空间，字音舒展，顿号仅短停",
+        "original_char_start": 58,
+        "original_char_end": 65,
+        "voice_start_ms": 18740,
+        "voice_end_ms": 21740,
+        "subtitle_start_ms": 18740,
+        "subtitle_end_ms": 21740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N07",
+        "segment": "A3",
+        "text": "在冰天雪地里、",
+        "lines": [
+          "在冰天雪地里、"
+        ],
+        "emphasis": [
+          "冰天雪地"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 2000,
+        "pause_after_ms": 0,
+        "delivery": "与上一句近似节拍，稍加寒意，不突然加速",
+        "original_char_start": 65,
+        "original_char_end": 72,
+        "voice_start_ms": 21740,
+        "voice_end_ms": 23740,
+        "subtitle_start_ms": 21740,
+        "subtitle_end_ms": 23740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N08",
+        "segment": "A3",
+        "text": "在茫茫林海中，",
+        "lines": [
+          "在茫茫林海中，"
+        ],
+        "emphasis": [
+          "茫茫林海"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 2000,
+        "pause_after_ms": 0,
+        "delivery": "三项排比落稳，镜头由辽阔收向林中人物",
+        "original_char_start": 72,
+        "original_char_end": 79,
+        "voice_start_ms": 23740,
+        "voice_end_ms": 25740,
+        "subtitle_start_ms": 23740,
+        "subtitle_end_ms": 25740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N09",
+        "segment": "A3",
+        "text": "孤悬敌后，",
+        "lines": [
+          "孤悬敌后，"
+        ],
+        "emphasis": [
+          "孤悬",
+          "敌后"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 2000,
+        "pause_after_ms": 0,
+        "delivery": "降低声势并压住孤字；留空让处境成立，不读成冲锋口令",
+        "original_char_start": 79,
+        "original_char_end": 84,
+        "voice_start_ms": 25740,
+        "voice_end_ms": 27740,
+        "subtitle_start_ms": 25740,
+        "subtitle_end_ms": 27740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N10",
+        "segment": "A3",
+        "text": "进行了艰苦卓绝的斗争。",
+        "lines": [
+          "进行了艰苦卓绝的斗争。"
+        ],
+        "emphasis": [
+          "艰苦卓绝",
+          "斗争"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 5000,
+        "pause_after_ms": 0,
+        "delivery": "句号处完整换气，给扶起战友或继续行军动作落点",
+        "original_char_start": 84,
+        "original_char_end": 95,
+        "voice_start_ms": 27740,
+        "voice_end_ms": 32740,
+        "subtitle_start_ms": 27740,
+        "subtitle_end_ms": 32740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N11",
+        "segment": "A4",
+        "text": "忠诚于党的坚定信念、",
+        "lines": [
+          "忠诚于党的坚定信念、"
+        ],
+        "emphasis": [
+          "忠诚于党",
+          "坚定信念"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 3000,
+        "pause_after_ms": 0,
+        "delivery": "新一层情绪从坚定开始，三句排比第一层不过早用尽力度",
+        "original_char_start": 95,
+        "original_char_end": 105,
+        "voice_start_ms": 32740,
+        "voice_end_ms": 35740,
+        "subtitle_start_ms": 32740,
+        "subtitle_end_ms": 35740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N12",
+        "segment": "A4",
+        "text": "勇赴国难的民族大义、",
+        "lines": [
+          "勇赴国难的民族大义、"
+        ],
+        "emphasis": [
+          "勇赴国难",
+          "民族大义"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 3000,
+        "pause_after_ms": 0,
+        "delivery": "力度向前，保持与前句相近时值，国难读nàn",
+        "original_char_start": 105,
+        "original_char_end": 115,
+        "voice_start_ms": 35740,
+        "voice_end_ms": 38740,
+        "subtitle_start_ms": 35740,
+        "subtitle_end_ms": 38740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N13",
+        "segment": "A4",
+        "text": "血战到底的英雄气概，",
+        "lines": [
+          "血战到底的英雄气概，"
+        ],
+        "emphasis": [
+          "血战到底",
+          "英雄气概"
+        ],
+        "inner_pause_after": [],
+        "speech_duration_ms": 3000,
+        "pause_after_ms": 0,
+        "delivery": "第三层最强但仍可辨字；句后给战士重新起步和战火远去的余地",
+        "original_char_start": 115,
+        "original_char_end": 125,
+        "voice_start_ms": 38740,
+        "voice_end_ms": 41740,
+        "subtitle_start_ms": 38740,
+        "subtitle_end_ms": 41740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N14",
+        "segment": "A5",
+        "text": "这是战火磨练铸成的东北抗联精神，",
+        "lines": [
+          "这是战火磨练铸成的东北抗联精神，"
+        ],
+        "emphasis": [
+          "战火磨练",
+          "东北抗联精神"
+        ],
+        "inner_pause_after": [
+          "这是",
+          "战火磨练铸成的"
+        ],
+        "speech_duration_ms": 5000,
+        "pause_after_ms": 0,
+        "delivery": "这是轻承接，落在抗联精神；磨练保留原字，不替换成磨炼",
+        "original_char_start": 125,
+        "original_char_end": 141,
+        "voice_start_ms": 41740,
+        "voice_end_ms": 46740,
+        "subtitle_start_ms": 41740,
+        "subtitle_end_ms": 46740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N15",
+        "segment": "A5",
+        "text": "也是中华民族在每次危难之际迸发的复兴强音",
+        "lines": [
+          "也是中华民族在每次危难之际",
+          "迸发的复兴强音"
+        ],
+        "emphasis": [
+          "中华民族",
+          "每次危难",
+          "复兴强音"
+        ],
+        "inner_pause_after": [
+          "也是中华民族",
+          "在每次危难之际"
+        ],
+        "speech_duration_ms": 7000,
+        "pause_after_ms": 0,
+        "delivery": "展开到共同记忆，最后四字放稳，尾音自然结束；原文无句末标点，字幕不自行补句号",
+        "original_char_start": 141,
+        "original_char_end": 161,
+        "voice_start_ms": 46740,
+        "voice_end_ms": 53740,
+        "subtitle_start_ms": 46740,
+        "subtitle_end_ms": 53740,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending"
+      },
+      {
+        "id": "N16",
+        "segment": "A6",
+        "text": "这一刻，历史与现实交响。",
+        "lines": [
+          "这一刻，历史与现实交响。"
+        ],
+        "voice_start_ms": 53740,
+        "voice_end_ms": 58740,
+        "subtitle_start_ms": 53740,
+        "subtitle_end_ms": 58740,
+        "speech_duration_ms": 5000,
+        "pause_after_ms": 0,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending",
+        "source": "User-added recording text"
+      },
+      {
+        "id": "N17",
+        "segment": "A6",
+        "text": "共同把时光瞬间拉回到那个铁血交织的时代。",
+        "lines": [
+          "共同把时光瞬间拉回到",
+          "那个铁血交织的时代。"
+        ],
+        "voice_start_ms": 58740,
+        "voice_end_ms": 65740,
+        "subtitle_start_ms": 58740,
+        "subtitle_end_ms": 65740,
+        "speech_duration_ms": 7000,
+        "pause_after_ms": 0,
+        "audio_source": "opening_history_20261015.mp3",
+        "timing_method": "ASR aligned; listening review pending",
+        "source": "User-added recording text"
+      }
+    ],
+    "B": [
+      {
+        "id": "B1-L01",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "往里站，石头上有霜。",
+        "delivery": "低声、平常，是照应战友，不是呵斥。",
+        "speaker_action": "先看沈砚脚下，再抬眼；指向岩台内侧后收手，不触碰玩家镜头。",
+        "listener_action": "沈砚将重心收回，左手短暂理好袖口后回到持枪位置；视线转向姜岚。",
+        "voice_ms": 2700,
+        "after_ms": 300,
+        "information": [
+          "care_between_comrades"
+        ],
+        "segment": "B1",
+        "start_ms": 2000,
+        "end_ms": 4904,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B1-L01.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 2904
+      },
+      {
+        "id": "B2-L01",
+        "speaker": "player",
+        "listener": "scout",
+        "text": "等太平了，还来这儿？",
+        "delivery": "轻声问，带一点试探和向往，句尾不夸张上扬。",
+        "speaker_action": "沈砚视线越过湖面后停在姜岚脸侧，双手保持自然。",
+        "listener_action": "姜岚先听，稍停后才看向湖面；没有连续点头。",
+        "voice_ms": 2800,
+        "after_ms": 500,
+        "information": [
+          "hope_after_war"
+        ],
+        "segment": "B2",
+        "start_ms": 5800,
+        "end_ms": 8600,
+        "audio_source": null,
+        "voice_status": "silent_pending_recording"
+      },
+      {
+        "id": "B2-L02",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "来。到时候，把这一路慢慢走。",
+        "delivery": "来字干脆，后半句稍放松；慢慢走含一点淡淡笑意。",
+        "speaker_action": "姜岚轻呼气，嘴角略松；说到慢慢走时只看沈砚一次。",
+        "listener_action": "沈砚持枪的手指稍放松但不离开接触点，视线停稳，不用大幅镜头点头。",
+        "voice_ms": 3800,
+        "after_ms": 400,
+        "information": [
+          "promise_to_return"
+        ],
+        "segment": "B2",
+        "start_ms": 9100,
+        "end_ms": 12988,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B2-L02.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 3888
+      },
+      {
+        "id": "B2-L03",
+        "speaker": "player",
+        "listener": "scout",
+        "text": "那可说定了。",
+        "delivery": "简短接住约定，不拔高成宣誓。",
+        "speaker_action": "沈砚略微收回视线，准备整理携行装备。",
+        "listener_action": "姜岚给一次小幅确认，再看向离开岩台的路。",
+        "voice_ms": 1600,
+        "after_ms": 400,
+        "information": [
+          "promise_to_return"
+        ],
+        "segment": "B2",
+        "start_ms": 13300,
+        "end_ms": 14900,
+        "audio_source": null,
+        "voice_status": "silent_pending_recording"
+      },
+      {
+        "id": "B3-L01",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "走吧。去青岚林场找林师傅，接应陆山。最近搜山紧，路上留神。",
+        "delivery": "回到行动语气，三个短意群清楚；不是对着观众介绍关卡。",
+        "speaker_action": "先指向离开方向，再收手准备起步，最后看向林道。",
+        "listener_action": "沈砚听到陆山时抬眼确认，接着稳住握枪位置，等待起步。",
+        "voice_ms": 8100,
+        "after_ms": 300,
+        "information": [
+          "original_rendezvous",
+          "logger_contact",
+          "lu_contact",
+          "search_pressure"
+        ],
+        "segment": "B3",
+        "start_ms": 16200,
+        "end_ms": 24300,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B3-L01.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 7416
+      },
+      {
+        "id": "B3-L02",
+        "speaker": "player",
+        "listener": "scout",
+        "text": "知道了。",
+        "delivery": "短而自然，确认已经听清。",
+        "speaker_action": "沈砚视线转向山路，完成一次重心前移。",
+        "listener_action": "姜岚等应答结束后才转身起步，避免边说边瞬移到下一位置。",
+        "voice_ms": 1000,
+        "after_ms": 300,
+        "information": [
+          "rendezvous_understood"
+        ],
+        "segment": "B3",
+        "start_ms": 24600,
+        "end_ms": 25600,
+        "audio_source": null,
+        "voice_status": "silent_pending_recording"
+      },
+      {
+        "id": "B5-L01",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "我问过林师傅了。陆山昨夜送信受了伤，被扣在电报房。",
+        "delivery": "低声直说，伤与被扣间稍顿，不渲染未经设定的伤势。",
+        "speaker_action": "姜岚先扫一眼检查口方向，回望沈砚后交代；手势克制。",
+        "listener_action": "沈砚的手停住，视线落在姜岚脸上；听完才提问。",
+        "voice_ms": 6900,
+        "after_ms": 300,
+        "information": [
+          "latest_from_logger",
+          "lu_injured_last_night",
+          "lu_detained_office"
+        ],
+        "segment": "B5",
+        "start_ms": 34800,
+        "end_ms": 41700,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L01.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 6048
+      },
+      {
+        "id": "B5-L02",
+        "speaker": "player",
+        "listener": "scout",
+        "text": "能带他走吗？",
+        "delivery": "先问人的情况，短促但不抢断姜岚。",
+        "speaker_action": "沈砚稍倾向说话方向，身体仍在掩蔽内。",
+        "listener_action": "姜岚回看沈砚，准备给出具体判断，而非机械点头。",
+        "voice_ms": 1500,
+        "after_ms": 200,
+        "information": [
+          "concern_for_lu"
+        ],
+        "segment": "B5",
+        "start_ms": 42000,
+        "end_ms": 43500,
+        "audio_source": null,
+        "voice_status": "silent_pending_recording"
+      },
+      {
+        "id": "B5-L03",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "腿伤了，得慢些。搜山名册也在那儿，上头有密营和乡亲的名字。",
+        "delivery": "前半句实在，后半句把注意转到名字；乡亲略落重，不重复宏大口号。",
+        "speaker_action": "姜岚看向电报房的大致方向，随后把视线送回沈砚。",
+        "listener_action": "沈砚听到名字后握稳枪身；远处响动时两人先后转向声源。",
+        "voice_ms": 7900,
+        "after_ms": 800,
+        "information": [
+          "lu_leg_wound",
+          "roster_in_office",
+          "stakes_camp_and_civilians"
+        ],
+        "segment": "B5",
+        "start_ms": 43700,
+        "end_ms": 51600,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L03.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 7056
+      },
+      {
+        "id": "B5-L04",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "过检查口，沿木料巷往北。取名册，再拉总闸，断掉电话中继。",
+        "delivery": "每个地点和动作各成短意群；再字读清，避免把断电讲成取册前的动作。",
+        "speaker_action": "姜岚低位指示主路，再收手；朝向按现有路线，不在天池上指认林场建筑。",
+        "listener_action": "沈砚先随手势看路线，随后回看；不打断要点，不同时作大幅手势。",
+        "voice_ms": 7700,
+        "after_ms": 300,
+        "information": [
+          "checkpoint_then_timber_lane",
+          "get_roster",
+          "roster_before_power",
+          "cut_relay_power"
+        ],
+        "segment": "B5",
+        "start_ms": 52400,
+        "end_ms": 60100,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L04.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 7008
+      },
+      {
+        "id": "B5-L05",
+        "speaker": "player",
+        "listener": "scout",
+        "text": "带上陆山，从哪儿撤？",
+        "delivery": "问清撤路，语气已经进入行动。",
+        "speaker_action": "沈砚把视线从入口收回姜岚，保持姿态低稳。",
+        "listener_action": "姜岚转身幅度很小，留在遮蔽物内指向北侧。",
+        "voice_ms": 2600,
+        "after_ms": 200,
+        "information": [
+          "escort_lu"
+        ],
+        "segment": "B5",
+        "start_ms": 60400,
+        "end_ms": 63000,
+        "audio_source": null,
+        "voice_status": "silent_pending_recording"
+      },
+      {
+        "id": "B5-L06",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "绕电报房北侧，到渡口。你掩护，他解缆。",
+        "delivery": "地点和分工说清，句末干净；不把12秒计时说进人物台词。",
+        "speaker_action": "姜岚指完撤离方向后放下手，注意力回到回山的小路。",
+        "listener_action": "沈砚看一眼撤路方向，再转回；用一次简短呼吸表现记住分工。",
+        "voice_ms": 5000,
+        "after_ms": 300,
+        "information": [
+          "north_office_route",
+          "ferry_evacuation",
+          "cover_lu_unmooring"
+        ],
+        "segment": "B5",
+        "start_ms": 63200,
+        "end_ms": 68576,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L06.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 5376
+      },
+      {
+        "id": "B6-L01",
+        "speaker": "scout",
+        "listener": "player",
+        "text": "先去木棚，林师傅能帮你。我守住回山的路。",
+        "delivery": "关照和分工一起交代，不用赶人语气；木棚是帮助，不写成必须领取奖励。",
+        "speaker_action": "姜岚示意木棚方向，然后侧身看住身后的路，仍在现有锚点附近。",
+        "listener_action": "沈砚视线随指示短移后回稳，双手准备进入正常持枪姿态。",
+        "voice_ms": 5300,
+        "after_ms": 300,
+        "information": [
+          "optional_logger_help",
+          "scout_guards_return_path"
+        ],
+        "segment": "B6",
+        "start_ms": 69300,
+        "end_ms": 74700,
+        "audio_source": "res://assets/audio/user_dialogue_20261015/B6-L01.mp3",
+        "voice_status": "user_supplied_recording",
+        "recorded_duration_ms": 5400
+      },
+      {
+        "id": "B6-L02",
+        "speaker": "player",
+        "listener": "scout",
+        "text": "等我。人和名单，一样也不少。",
+        "delivery": "压低声音承诺，简短有把握，不拖成口号。",
+        "speaker_action": "沈砚完成正常握持；不在台词结束前自行前冲或开火。",
+        "listener_action": "姜岚短暂看回来，轻点一次头后继续警戒，给玩家行动空间。",
+        "voice_ms": 3600,
+        "after_ms": 400,
+        "information": [
+          "bring_back_lu_and_roster"
+        ],
+        "segment": "B6",
+        "start_ms": 74900,
+        "end_ms": 78500,
+        "audio_source": null,
+        "voice_status": "silent_pending_recording"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "A_SUBTITLE_END",
+      "part": "A",
+      "start_ms": 65740,
+      "end_ms": 65740,
+      "kind": "clear_subtitle",
+      "text": "清除新增N17"
+    },
+    {
+      "id": "A_TITLE",
+      "part": "A",
+      "start_ms": 65740,
+      "end_ms": 68180,
+      "kind": "title",
+      "text": "东北抗联-烽火回声"
+    },
+    {
+      "id": "B_DAYS_BEFORE",
+      "part": "B",
+      "start_ms": 0,
+      "end_ms": 2000,
+      "kind": "place_card",
+      "text": "数日前 · 长白山天池高地"
+    },
+    {
+      "id": "B_TIME_ELLIPSIS",
+      "part": "B",
+      "start_ms": 29800,
+      "end_ms": 34300,
+      "kind": "place_card",
+      "text": "数日后 · 1938年深秋\n东南满林区 · 青岚林场（虚构）"
+    },
+    {
+      "id": "B_SENTRY_METAL",
+      "part": "B",
+      "start_ms": 51650,
+      "end_ms": 52200,
+      "kind": "sound_cue",
+      "text": "一次短金属响；纯演出，不触发AI"
+    },
+    {
+      "id": "B_CAMERA_ALIGNED",
+      "part": "B",
+      "start_ms": 78500,
+      "end_ms": 78500,
+      "kind": "handoff_marker",
+      "text": "相机和武器姿态已对齐，控制仍锁定"
+    },
+    {
+      "id": "B_HANDOFF",
+      "part": "B",
+      "start_ms": 80100,
+      "end_ms": 80100,
+      "kind": "handoff_marker",
+      "text": "提交S03统一交接、目标提示、开放控制；跳过B走同一出口"
+    }
+  ],
+  "stage_status": {
+    "A": "integrated_pending_acceptance_s32",
+    "B": "integrated_pending_acceptance_s33"
+  },
+  "formal_assets": {
+    "history": {
+      "scene_layers": [
+        "existing_world_dressed",
+        "winter_forest_cutaway",
+        "artistic_tianchi"
+      ],
+      "characters": [
+        "field_character_scout",
+        "field_character_guard",
+        "field_character_logger"
+      ],
+      "war_effects": [
+        "S26_muzzle_flash_smoke",
+        "S27_artillery_dust_fireline"
+      ],
+      "voice": "user_supplied_full_mix_20261015",
+      "music": "embedded_in_history_global_suppressed",
+      "sfx": "technical_preview_pending_S28_listening",
+      "acceptance": "pending_listening_and_visual_completion"
+    },
+    "task_prologue": {
+      "status": "integrated_pending_acceptance",
+      "dialogue": "eight_user_recordings_six_silent_subtitle_cues",
+      "speakers": [
+        "沈砚",
+        "姜岚"
+      ],
+      "travel_card": "B4_time_and_place_cards",
+      "handoff_contract": "S25_single_gameplay_handoff",
+      "gameplay_state": "briefing_complete_only_no_objectives_advanced",
+      "music": "user_global_20261015"
+    }
+  },
+  "audio_20261015": {
+    "history": "res://assets/audio/opening_history_20261015.mp3",
+    "global_music": "res://assets/audio/global_war_music.ogg",
+    "history_contains_music": true,
+    "history_duration_seconds": 68.179625,
+    "global_music_during_history": false,
+    "history_voice": "user_supplied_full_mix",
+    "task_voice": "eight_user_recordings_missing_lines_silent",
+    "listening": "pending"
+  },
+  "first_level_layout_revision": 5
+}

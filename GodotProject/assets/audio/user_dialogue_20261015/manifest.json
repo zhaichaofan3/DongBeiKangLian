@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "source": "user_supplied_20261015",
+  "missing_dialogue": "silent_with_subtitles_no_synthetic_fallback",
+  "clips": {
+    "B1-L01": {
+      "path": "res://assets/audio/user_dialogue_20261015/B1-L01.mp3",
+      "sha256": "e6a23e9b306bc785d0971ce77d14ab14389a1889267837cab184e0a484c10675",
+      "duration_seconds": 2.904
+    },
+    "B2-L02": {
+      "path": "res://assets/audio/user_dialogue_20261015/B2-L02.mp3",
+      "sha256": "63693d53ef97a4873bea8f2aa11dd390e8cac895f07e128ccdc9746a14c04ebf",
+      "duration_seconds": 3.888
+    },
+    "B3-L01": {
+      "path": "res://assets/audio/user_dialogue_20261015/B3-L01.mp3",
+      "sha256": "0da190621f6caf1bbaa35766dcc89cc30c8579c802bfa78b194ded2c02516e52",
+      "duration_seconds": 7.416
+    },
+    "B5-L01": {
+      "path": "res://assets/audio/user_dialogue_20261015/B5-L01.mp3",
+      "sha256": "9bd8185d23f7c97d129dc2d6f89910965273bec2aef409882d4481d4f3111e45",
+      "duration_seconds": 6.048
+    },
+    "B5-L03": {
+      "path": "res://assets/audio/user_dialogue_20261015/B5-L03.mp3",
+      "sha256": "cc457536e40d09acd68de6fd674034962cb5b6e683a9a7b0d4228209abb23473",
+      "duration_seconds": 7.056
+    },
+    "B5-L04": {
+      "path": "res://assets/audio/user_dialogue_20261015/B5-L04.mp3",
+      "sha256": "c5c678b6763a2d286b00d8dea991b50e34bc78bb6e8286a442f7e6036b40b072",
+      "duration_seconds": 7.008
+    },
+    "B5-L06": {
+      "path": "res://assets/audio/user_dialogue_20261015/B5-L06.mp3",
+      "sha256": "f2c250b80256b4ceb46a63c5f1e7cb6e346129dfd4c95fa2b193ae2a66406642",
+      "duration_seconds": 5.376,
+      "source_revision": "user_later_downloads_replacement"
+    },
+    "B6-L01": {
+      "path": "res://assets/audio/user_dialogue_20261015/B6-L01.mp3",
+      "sha256": "e29461abba96af373822d2f88230287d1c64166ff9a1ec3a1327ffb3ef85ab12",
+      "duration_seconds": 5.4,
+      "source_revision": "user_later_downloads_replacement"
+    }
+  }
+}

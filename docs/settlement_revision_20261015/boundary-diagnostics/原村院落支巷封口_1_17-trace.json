@@ -1,0 +1,455 @@
+[
+	{
+		"at": [
+			1131.69995117188,
+			-0.00249366229400039,
+			77.9938888549805
+		],
+		"contacts": [
+			"村庄山谷地面"
+		],
+		"floor": true,
+		"frame": 0
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.161419421434402,
+			77.9382019042969
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 3
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.361419439315796,
+			77.8282012939453
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 6
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.511419475078583,
+			77.663200378418
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 9
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.611419439315796,
+			77.4431991577148
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 12
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.661419451236725,
+			77.1681976318359
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 15
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.710528314113617,
+			76.9073257446289
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 18
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.853048622608185,
+			76.7288589477539
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 21
+	},
+	{
+		"at": [
+			1131.69995117188,
+			0.996163189411163,
+			76.5523223876953
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 24
+	},
+	{
+		"at": [
+			1131.7001953125,
+			1.1314160823822,
+			76.3572769165039
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 27
+	},
+	{
+		"at": [
+			1131.70068359375,
+			1.25987136363983,
+			76.1371154785156
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 30
+	},
+	{
+		"at": [
+			1131.70166015625,
+			1.39533722400665,
+			75.9272537231445
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 33
+	},
+	{
+		"at": [
+			1131.70288085938,
+			1.53223645687103,
+			75.718620300293
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 36
+	},
+	{
+		"at": [
+			1131.70385742188,
+			1.67621779441834,
+			75.5199813842773
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col",
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 39
+	},
+	{
+		"at": [
+			1131.70458984375,
+			1.81044602394104,
+			75.2466278076172
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 42
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.02711272239685,
+			74.9466323852539
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 45
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.19377946853638,
+			74.6466369628906
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 48
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.31044626235962,
+			74.3466415405273
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 51
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.377112865448,
+			74.0466461181641
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 54
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.39377951622009,
+			73.7466506958008
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 57
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.3604462146759,
+			73.4466552734375
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 60
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.27711296081543,
+			73.1466598510742
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 63
+	},
+	{
+		"at": [
+			1131.70458984375,
+			2.14377975463867,
+			72.8466644287109
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 66
+	},
+	{
+		"at": [
+			1131.70458984375,
+			1.96044635772705,
+			72.5466690063477
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 69
+	},
+	{
+		"at": [
+			1131.70458984375,
+			1.72711300849915,
+			72.2466735839844
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 72
+	},
+	{
+		"at": [
+			1131.70458984375,
+			1.44377958774567,
+			71.9466781616211
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 75
+	},
+	{
+		"at": [
+			1131.70458984375,
+			1.1104462146759,
+			71.6466827392578
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 78
+	},
+	{
+		"at": [
+			1131.70458984375,
+			0.727112889289856,
+			71.3466873168945
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 81
+	},
+	{
+		"at": [
+			1131.70458984375,
+			0.293779462575912,
+			71.0466918945313
+		],
+		"contacts": [],
+		"floor": false,
+		"frame": 84
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.00530393235385418,
+			70.7466888427734
+		],
+		"contacts": [
+			"村庄山谷地面"
+		],
+		"floor": true,
+		"frame": 87
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.000932151102460921,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 90
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.00196085846982896,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 93
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.000183010997716337,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 96
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.00121388747356832,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 99
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.00224177911877632,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 102
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.000497025670483708,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 105
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.00156599876936525,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 108
+	},
+	{
+		"at": [
+			1131.70458984375,
+			0.000190111109986901,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 111
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.00086133909644559,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 114
+	},
+	{
+		"at": [
+			1131.70458984375,
+			-0.00190976390149444,
+			70.7466888427734
+		],
+		"contacts": [
+			"OriginalNortheastSettlement_col"
+		],
+		"floor": true,
+		"frame": 117
+	}
+]

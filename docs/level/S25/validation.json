@@ -1,0 +1,36 @@
+{
+  "step": "S25",
+  "status": "done",
+  "all_passed": true,
+  "handoff": {
+    "runtime_checks": "10/10",
+    "transition_seconds": 0.2,
+    "final_camera_fov": 78.0,
+    "player_anchor": [10, 1.65, 86],
+    "departure_waypoints_used": [[501, 26, 145.5], [493, 24, 133.5], [482, 21.5, 113.5]]
+  },
+  "opening_regression": "74/74",
+  "project_regression": {
+    "smoke": "107/107",
+    "linear_route": "37/37",
+    "combat_route": "PASS",
+    "visual_motion": "50/50",
+    "story_moments": "11/11",
+    "character_model": "37/37"
+  },
+  "evidence": [
+    "docs/level/S25/validation.md",
+    "docs/level/S25/runtime-v4.log",
+    "docs/level/S25/runtime-v4/handoff.json",
+    "docs/level/S25/opening-runtime-v5.log",
+    "docs/level/S25/opening-runtime-v5/frames/before-handoff.png",
+    "docs/level/S25/opening-runtime-v5/frames/after-handoff.png",
+    "docs/level/S25/regression-smoke.log",
+    "docs/level/S25/regression-linear-route.log",
+    "docs/level/S25/regression-combat-route.log",
+    "docs/level/S25/regression-visual-motion.log",
+    "docs/level/S25/regression-story-moments.log",
+    "docs/level/S25/regression-character-model.log"
+  ],
+  "boundary": "S25 owns camera handoff and player control transition; S26 owns muzzle flash, smoke and short-lived firing light."
+}

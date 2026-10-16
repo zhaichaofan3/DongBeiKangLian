@@ -1,0 +1,1101 @@
+{
+  "id": "footsteps-on-different-surfaces",
+  "title": "Footsteps on different surfaces",
+  "source_url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "author": "congusbongus and individual contributors listed in included text files",
+  "license": "CC-BY-3.0",
+  "notes": "Seven surface groups including grass/dirt, gravel, water, wood and metal. Preserve per-file credits in included text files.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "footsteps-on-different-surfaces/originals/footsteps_0.zip",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 414824,
+      "sha256": "542564e7f6b3a0b89a0d08542438e030e77a46303855fe5bf1644a48185861e9",
+      "role": "original_download"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/._footsteps",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 220,
+      "sha256": "584881131cfc791605cfa952c90ae3c50558bb95727ba8a0f039824bf282cd90",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/._.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/bones/._.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/bones/._0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "f36773fc504a482433827865643dc7accef3e27223c482cc86037bc20764a4c2",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/bones/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 327,
+      "sha256": "fcc58a84fc8ff8d2068a980f7f69d051cc1f8df88a81af777df866b9710cd358",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/boots/._0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "09c189fc76efdfbf89ff60f662be44d59130c83306c45a262d199e073371cf5c",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/boots/._1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "5c20830b305b439af6d4b4a77e4d83a1f8692c611c73ffa1c4d9fe6654ed816c",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/boots/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 176,
+      "sha256": "3b7d80431d462b70b1dece83078e49e40318f32f3b03b0bf7d455f2812aa9fbb",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "e20efe7e477f022ea67205dfad82901b0b502a23186ed9b832cd44e715de70ae",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "9fdb14bcc6212e30353697ba6f4e7580907bf4f2033b341aeab64099fc61b803",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "acbe31505c622c4c8f8e0ffe69bf4820df613df1db07c64a26be081aad98e4ab",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "7658b908ed2413a0e4cb1857a02352e4caef2071b9a29c245c61760ab25a1b86",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "c8cbfcf418944f723d93d979c9785b7e6b6acfadff7b8462ed760a9badfb0a46",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "9f1fd6d1a93ede521fc657eae6de8615dbae4d6efcf69db73f0362dc728101aa",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "2fee1abc2ef31386ca6b350aafdc4f318d0bfa7b44189cdcc17ab3429f7491e7",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "a40b71aad07a681693bff3b9830480410bf59b6ae5210b60e4a2e1c5513d2808",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 484,
+      "sha256": "8845c64fdd0dc96a8654316f1272656a5ba1c472db3e5beac1b0107416cd0257",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/grass/._0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "50662f0459a38336cad80469a62aca30f39d857ae6d2b21d477bb02df8eb2e28",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/grass/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 385,
+      "sha256": "31888ea632c155875fe3fa631e06aef8e4f8715ffc5ada7db360913a49f54013",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/gravel/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 542,
+      "sha256": "7601a4a2ccfcc314b8f890875984f78b10c645a24a75950125f331b8309bc102",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/mech/._0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "3baa1c98a3652ab5db6f29996fcebfde8e7b647ef2d70539b559aa2725654a86",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/mech/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 327,
+      "sha256": "ef8f5cb1becf3460f507228315a6f4d4a8b408ff29a9cb0fe8d862f59f74f114",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/metal/._0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "22d5dc46dee8f77c78fef236e08ed735736c5e296cc39d12df2f6b0cd6b5fa67",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/metal/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 385,
+      "sha256": "678543a0e8f731b7ce5c79dcd306a678bc3a231ec8297d4e6a7d13a88240d94e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "db6aad0cb882fddb376f21d4d278a3b11ca27f95403fe7fc490f9edd0d245b93",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "2d97ab2b9f222d853170ee348e934805e7872e7de733471fdb2ec5cd70f0e56b",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "e29ffb54bdc3fe5c1030819fa9555884b8149c70dddf5ef8dc53f02a2883ad89",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "66d82013de03b677ee729f2f19f3a8347925dddd3b0cb80b9cd9270c584e654b",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "301df648f57e93926b2c4d66f67c6b902d4722c5fef13e0de9fa98e9680cb2a3",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "af86913ef286e536bda29caec6cace2816d34678cde774843664c9eaa87fcb57",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "bdf6e7216e1b60ef84d407d1b4e802c188d1278d601018881171130b6db85f1f",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._8.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 276,
+      "sha256": "000751581108532cd95480ef201c15427d8276c7043e87823a404fc18335e624",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 385,
+      "sha256": "e10e1e9af02f67b2fbddfceb2a286dacf827a3f893b214bdc5f1d47a793578f3",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/water/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 385,
+      "sha256": "1ad1928c20e2d8ddb612a6c894c03fe9b0b8a8455eb411249f0734866ca0e8d7",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/wood/._license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 385,
+      "sha256": "1d561449b7d5181b7579d1b88acec540787dfb89042fd88d990eeeb828b21e96",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 6148,
+      "sha256": "6e0b55f75477219ff00b695767b2c67d103e2dbe70f1b6040dcf1b24bea83ff4",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5650,
+      "sha256": "979aef9bca51ed0aab0d21585ce979ca0a98da42b694b76b12c6b24a06e999c7",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5679,
+      "sha256": "1fea2a69b0aa7498a2fcf06f6b7445ffcf68a567fb653e2df8d415c2d9e2c40f",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5759,
+      "sha256": "c0addde3a96bb7ab44c71b6bb5bbbf77c1e4596c5b4f96161d49d3ace10ff9ce",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5842,
+      "sha256": "2e06f7663fa3ea8e14f9ee3b3f2106f15716a82e83dee4a408b2d2c35929d560",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5327,
+      "sha256": "7135cd58456cc485aa327b5be033c925ac869a206623fc838f0244c001ee694e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5645,
+      "sha256": "373349b942bf0afc23e4c10f2fb481173116bc60f6a356c192a617a059b5923d",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 6104,
+      "sha256": "c6d1029a19cd9846903c953fbba5436cccf91d564d7b78d7718cf481c9f7b409",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5160,
+      "sha256": "7b9f21fa99d58264b04491414f052ad7a191b7eae0a78169d28e4571f28a79f0",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/8.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5811,
+      "sha256": "e247dc515cfbec2beeeb1922a0381ebddba828346b88b2111edd80d5ff338e20",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/9.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5580,
+      "sha256": "04ebbc0bae55b7b8c63f87efa482f262692b48ed765fc0f479c47246b369f453",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 139,
+      "sha256": "d0ea7e9ef67fb8f22e242bf40c2a94db7f6c77509db5d9eac1b744b1860fbfd9",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 8764,
+      "sha256": "28a77e3fc5cc53f5a45d08a429dd335bb6dd9fc3b6c5de23dd5fc0c6efc59cad",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4815,
+      "sha256": "638eb70bd1a36d83a81d123f59efa63b3619241f073a82bb318442f7cbd5048c",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4791,
+      "sha256": "1d91bd437de4da810a27ce4c605e3f8e51a63f4c8a430d54d1209c0ef4a7e142",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4764,
+      "sha256": "78b45022cc4b70400e23bf8ad68c8a68d3b788dc1346de545d3130ba6d46f8cd",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4810,
+      "sha256": "0f397ea2dafa9e63a2c63eb94c59f9819346c658203e2c2dec2aa213ca2e0ecf",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4738,
+      "sha256": "847351c4c3f8b4b408450a8b2f221fea6c8951e08bca7c01838addbc4ec469f4",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4796,
+      "sha256": "2d09729a7181c7199e039088a730ae878274dc7a7c17155fe1e2a6e0fbd5634c",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4745,
+      "sha256": "6ccd764d6a995977a1a7fd286fbbd3c82e35d798c9692104910488d7bdfc78d1",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/8.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4801,
+      "sha256": "cfe563ea35aa53bc5cb97c346248ee2a73298c1bd2e11ba02022ef74d786ba50",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 142,
+      "sha256": "c123ed9d342b62cfe886f95fac8ec6d4f5ba30fcdff2387d8a4890e8a4f08bb4",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 7323,
+      "sha256": "2e2f8129f70cde2c19fe6f1339f6afa53c1dced22c25c94c800c63e621ef9188",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 7714,
+      "sha256": "50bf9b39c25b09b7820003c3065ce0d2147e8e86fb6d20bc341ccae561e1b2a4",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 7194,
+      "sha256": "289d524504e08ef7c1e9977f24b4f4f0bcbe6f825e8334e521b82eabc8947c2e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 7892,
+      "sha256": "6b4cc80299afe4f6bbb0539e636cddec3fbf098410147752199c3e5dbc1790c4",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 8299,
+      "sha256": "7f8d5c53857b638e6337fb705539f48e5cbf0b23f008f16c516e32ed1a089a85",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 6751,
+      "sha256": "b85681ffbd4ca8d110a7c2f93983233852cd353e13209e17b8128b7137ee9c19",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 7614,
+      "sha256": "7ccb27617df4ee366e3777f288cc9f09e829f6c7695f7a6adf361769a7bdca1b",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 7446,
+      "sha256": "ff966fe326c5cf4afd77c067de8e3051b2f8422cffe562489bfb01e4b9bb9674",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 137,
+      "sha256": "63221c7352852433ee32c2247c2ab0c739226ef8bad453b6dc1e302da15c5c5b",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5225,
+      "sha256": "8be12a0b02a130173a1d499b88ebdf9eabfd86e77a1f88ca4ac0d8a492be4dd2",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5707,
+      "sha256": "4546dd9d4bb0d2380c44298eb7a8016e477e0ca61e60ce8edc2dbfcecb350551",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5587,
+      "sha256": "9d76063b662aca8e9f3d85fecc2656383f15529c905d5b892d4023a72219cb8d",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5724,
+      "sha256": "1a5c7b63a18d2215e2bd229f40f4bcac1964556500aced2b0873f3d9b55e89a7",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5555,
+      "sha256": "5693b48950567ec27e5981f5fc03a59111f0dc5ac66ad8ac035dce4b18689108",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5752,
+      "sha256": "683104e4b9898b575ed0dc140878bf7946e59cd31411ce9858850a3082f48c9a",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5537,
+      "sha256": "9da54b6d9b43dd002e045d3ef9fc158f13e9bc750fc7d3cc2a48eca64cc2c902",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5700,
+      "sha256": "debba1ce81ca0a16a768d7fba1d97186ee2dd9d2f64b938d8603b5dcc0fdc385",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/8.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5467,
+      "sha256": "2af2e2c6af4a068081756110292049588a57e980ae43c552b45a14563cfbae4f",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 136,
+      "sha256": "6834c1ca039666488c10c95388de053d0d2d313909f10e4be9f4457d264cfc63",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5200,
+      "sha256": "90d33dd0aff925581c97d8577a23d435e14089a789e7361792fd0ca69b888b54",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4387,
+      "sha256": "9a7a083c54c10e5bedafc7f1473967fc074418e798b97c0ad378dcf49b91b35c",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5094,
+      "sha256": "cdf6230d7e83d5b4bea374bfde49ea0e596c26755dbc35a1e07f520ff856edee",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4646,
+      "sha256": "e535f14af2de8868809be1455f6d6fc10642f642e5f57d46ad4cecc726244bdf",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5297,
+      "sha256": "0cd2f6771e69792c472c60d48146c8951566915a3da7ffd041325a4ea60c9352",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5139,
+      "sha256": "b6f2f32e114c92e8f2ee6fdcf22abb7452ee339c9c4fa37e158e1e601cde9e32",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5088,
+      "sha256": "0621550377dc4566facfbdb4a50a13f09c9d67e56848ec53a7899f948c0a4652",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5195,
+      "sha256": "6c4316d2fd702bbb337789fac46d68cbad60ce5cbdc4261d5e4cc29041c4c82e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/8.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4909,
+      "sha256": "8fe7d1d6cf9c77ef4d135c2315db0fad841656c352c5f5b71b4dbf0e1cae9828",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/9.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5196,
+      "sha256": "3828235f14cb0b9044160febe334b41d55305e016a7bfa809e2e768dc1eb4650",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 150,
+      "sha256": "05fef5d151cc0986dda641868296e794cbd0ebc60aa956500366cb6a9d5becf1",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/mech/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5236,
+      "sha256": "01dd501054a162c6dcbb0be9a4e931ebfaf9b233dd22d4cd2148a85d6104006e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/mech/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 152,
+      "sha256": "faf964e8e6cd2942aaa1bb945c96140318ebc4b1a2496b726bf4b5e1be12ed5a",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5532,
+      "sha256": "c4e3dbf5d4000b98aca5a06c210cc8b38644cc16b3e291453aee1e2afac4cd3e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5946,
+      "sha256": "d9a8005ce36786ce98d565961b6c506e83a9b99f5af8ef47d37692197ae55862",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5742,
+      "sha256": "8d9d7378a393ddbd4e5b44ea4ba49df775108ffdf9c943dda88aa5fe5de0572c",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4909,
+      "sha256": "3d619b68ec3e8e1d92429a9d21b370f6d36a8d4a6576d4d240057c335a181ffe",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4550,
+      "sha256": "8cf3a86a63de1b7c2a6412d7342a131e3882de039c8116dc8f966d106bcc0696",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5548,
+      "sha256": "81f31cbe3ede086c6f0588602a34826b5c6eacc1c3b956092cf55f2b76db81f6",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5233,
+      "sha256": "97b779681d7fcbcad936da098f53c19416475bd4ab27813bed5eac7dcc919382",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4761,
+      "sha256": "b330ac4f2b147808920b12153c5a81433bbf233f48c942fc5dddedd2586631aa",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 145,
+      "sha256": "b2f0c186d108ebe8c6452ba6b21c580a81071bc91b66a07938c796372dd72f41",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/.DS_Store",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4573,
+      "sha256": "f76b31475a44d21044dec9e5ee3001fad68c50b5f43bf6d5eb39641bab677257",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4768,
+      "sha256": "ae430e116eb2aee50873a7b9a7f408ffad8dc62d251222d4379ea8c2daebf6e2",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4781,
+      "sha256": "920828f7aee17680a9633402f016c490545ce208d3b5883ab013b717dec26eaa",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4794,
+      "sha256": "d0d5c49ffb2a04006250fe035bca526c39884450e2ba05c425e1d0435d04682e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4790,
+      "sha256": "3dbea760a2e835193acbdda0b924173fc0d8d869baf4c4de2dd4ac4b8f780a60",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4783,
+      "sha256": "8e104f1ec3f7e788043ead41f477c6a078aff7587ecb4d00c9642d59fe750225",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4810,
+      "sha256": "bcd7c761553af9506f18a530eb4d0306054ff4893665de3bad774db9b86607d2",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4789,
+      "sha256": "c884e912d345d85d51c849ef14c2259524c45fe9f7b6de35120e4a8af718550a",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/8.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 4760,
+      "sha256": "e6c019a03edbf9461229d4f563d826327879048579d1331536041483887b6154",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 239,
+      "sha256": "c76a91a912d00bf084e5835964ea5c8b44f47794112c5d9e6d296cca44da0a40",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5368,
+      "sha256": "7a4a2934576d03d765a640df07ad89b70b5a5b17ed7cc4b80c9de4c51da44b10",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5807,
+      "sha256": "ed60614c620953220da1b3109e2bf5a6ff863f5aeeaba802f88d05595a9ec919",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5739,
+      "sha256": "b5d523ad6246c89c82a633c5a89c859aec3a8c7ac0fd5f3bcf890583fcd2805c",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5532,
+      "sha256": "32986928b63c6915e010dda99519fbe903e330cc1da060caf2dbd71fae81a738",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5555,
+      "sha256": "8c6af00b87cff844ae364735fbd185c7a1eb44939cefb8d02978f4f24ae854cc",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 237,
+      "sha256": "4ce92212722a6b7c5b6003223b2771974707ae2cd1b45103491ae94c707915a8",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/0.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5245,
+      "sha256": "b39505d62798011433ca7dea1a4a7422f7c90a005881dcbe76e9cb8a31957082",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5821,
+      "sha256": "8148fe0946273b9126d29229f1e51be83267bf29b24c1ca4e4620dc830e8085b",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5743,
+      "sha256": "34dcbec32271d56f1fdd61b212ce745ee755bbfd1799eb041857a24cb6987de1",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5835,
+      "sha256": "c62732a1e9947e880b21fe91ccfa25b4998103ff1a2e1f066b7e08b8c07f50fb",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5760,
+      "sha256": "c561b5c6418e9226a08a3cb421fc006415ac954f6d9692867282b7105e3eec23",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/5.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5839,
+      "sha256": "33c4332abbdbd9237556946a3a2ca702e91d7c532f143fe2fccbb1ad70390cb1",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/6.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5735,
+      "sha256": "3c09b2d2b2487d869393a6580a37b12e2494ef0791928d1377663d98e93a005e",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/7.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5882,
+      "sha256": "218387ae86c7f63ae61ec9a289996356727556b86f54e0293922f22d09791984",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/8.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 5679,
+      "sha256": "f81a0e5d54b2b7fb18720ec469d20ce6272caa90e8b909432f26c65836fcba51",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 135,
+      "sha256": "c1942e54d1b47535f60414577fa47d4af54ce3d6156e8d14db90f24fa6f1012b",
+      "role": "extracted"
+    },
+    {
+      "path": "ready_to_import/footsteps/step_grass_01.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23442,
+      "sha256": "e912ebc036369e6ebe08384310cfb22577e10099a8b85a0c0e0ea9087f4276c4",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/0.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_grass_02.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23442,
+      "sha256": "760800578995103b73f72f9e66dec9d250750be5403bd52abae0803ac3c05311",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/1.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_grass_03.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23442,
+      "sha256": "f9b3090107c8da6b39adcf15151eef9decd4c4f6818f6379925675f2cc35af37",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/2.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_grass_04.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23442,
+      "sha256": "4edc71e13654a5ad54466fd80b7fcc5275dbf28b6959eee19500fc2fd3bda411",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/3.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_grass_05.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23444,
+      "sha256": "4bd955991191a0db20518fb94b637dab593e55b9753668c17372035246edf830",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/4.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_grass_06.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23442,
+      "sha256": "f0ea5a08e120454444235f5a27cd6a9a6bba82a5dd8945dbc7a78c47bd94ef37",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/5.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_wood_01.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 27358,
+      "sha256": "942e53920df124cbfedaabae6a9cf7c5b4bc183685a59c08df90979817343e99",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/0.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_wood_02.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 27358,
+      "sha256": "f4b307bccfdaa01b33bc8c47b27dd2245218daf11f5fd16aaea682ea507a35df",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/1.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_wood_03.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 27358,
+      "sha256": "32d0f8bd04ae9b320f9df7316c6ecf25a4e11c80ad9601e53cac9f16b1177fd8",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/2.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_wood_04.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 27358,
+      "sha256": "5751a45a4d26a0ed60cb040eb4560bb1789e36a3fc512261a1de1dd87ffa0a50",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/3.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_wood_05.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 27358,
+      "sha256": "6a0e937745d189f0d3ab0f4ddd0d3dc87d43845d898e69d4d4f18b871838ebf8",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/4.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_wood_06.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 27358,
+      "sha256": "f3eafda4049aa01608f93940ba58c93d7f67491b78ecfb162f90153ebfc12286",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/5.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_gravel_01.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 17904,
+      "sha256": "ff515f4ccd13e84b568cae841b4ac16dd7d6aab5b449f22030c5ef37a4829c1b",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/0.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_gravel_02.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 10020,
+      "sha256": "b4b81bdf5fc895be5c1298fed64a62ef09bbb43f05e87d8a41f9f0a88557172e",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/1.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_gravel_03.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23902,
+      "sha256": "04ccea315a6c27f944390a03b93f20974424f775fd797752c6db492ce4ae5520",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/2.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_gravel_04.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 14960,
+      "sha256": "09781c61687ef468bf2b3707b6124485a30f5cc8930a913dd21b0a20b8ec7e01",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/3.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_gravel_05.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 23220,
+      "sha256": "13f9ade39f7d8d36db87579204f898c3fe541b705582d8c5d7886625d1257fc2",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/4.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/footsteps/step_gravel_06.wav",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps_0.zip",
+      "bytes": 21822,
+      "sha256": "22d5d20ad0c3d1133c3ef0be49c41e34a4b9a8c306fe2e823f5187048dbe310a",
+      "role": "derived_ready_to_import",
+      "source_path": "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/5.ogg",
+      "modification": " Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 78,
+    "decode_passed": 78,
+    "sample_rates": [
+      44100,
+      48000
+    ],
+    "channels": [
+      1
+    ],
+    "total_duration_seconds": 16.62,
+    "duration_range_seconds": [
+      0.067,
+      0.433
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

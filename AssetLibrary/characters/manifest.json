@@ -1,0 +1,213 @@
+{
+  "category": "characters",
+  "assets": [
+    {
+      "id": "quaternius_ual1",
+      "title": "Universal Animation Library[Standard]",
+      "source_url": "https://quaternius.itch.io/universal-animation-library",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "license_url": "https://quaternius.com/license.html",
+      "files": [
+        {
+          "path": "quaternius_ual1/Universal Animation Library[Standard].zip",
+          "download_url": "https://quaternius.itch.io/universal-animation-library/file/17958403",
+          "bytes": 15904933,
+          "sha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724"
+        }
+      ],
+      "status": "downloaded_extracted_gltf_structure_verified_not_integrated",
+      "notes": [
+        "Standard free release. Original archive retained; source webpage retained. Direct CDN URL is ephemeral; download_url records source upload endpoint.",
+        "43 clips in each GLB, including A_TPose. Root-motion and in-place files duplicate the same 43 action names, not 86 different actions. Verified skin: 65 joints.",
+        "Useful: Walk_Loop, Walk_Formal_Loop, Jog_Fwd_Loop, Sprint_Loop, Crouch_Fwd_Loop, Crouch_Idle_Loop, Hit_Chest, Hit_Head, Death01, Pistol_Aim_Down/Neutral/Up, Pistol_Reload, Pistol_Shoot. Gun clips are pistol, not rifle.",
+        "Generic humanoid actions require retargeting to final NPC rigs; first-person bolt/reload/grip contact needs weapon-specific authoring."
+      ],
+      "inspection_file": "gltf_inspection.json",
+      "model_files": [
+        "quaternius_ual1/files/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb",
+        "quaternius_ual1/files/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard_RM.glb"
+      ],
+      "license_files": [
+        "quaternius_ual1/files/Universal Animation Library[Standard]/License.txt"
+      ]
+    },
+    {
+      "id": "quaternius_ual2",
+      "title": "Universal Animation Library 2[Standard]",
+      "source_url": "https://quaternius.itch.io/universal-animation-library-2",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "license_url": "https://quaternius.com/license.html",
+      "files": [
+        {
+          "path": "quaternius_ual2/Universal Animation Library 2[Standard].zip",
+          "download_url": "https://quaternius.itch.io/universal-animation-library-2/file/17958478",
+          "bytes": 18735003,
+          "sha256": "4008ea208a604773a2b2177d965f0f5d3195498b5bf838c3f5785d68e95f2a68"
+        }
+      ],
+      "status": "downloaded_extracted_gltf_structure_verified_not_integrated",
+      "notes": [
+        "Standard free release. Original archive retained; source webpage retained. Direct CDN URL is ephemeral; download_url records source upload endpoint.",
+        "43 clips in each animation GLB including A_TPose. Root-motion variant duplicates action names. Verified skin: 65 joints. Female mannequin has 65 joints and no embedded clips.",
+        "Useful: ClimbUp_1m, Hit_Knockback, OverhandThrow, Slide_Start/Loop/Exit, LayToIdle, TreeChopping_Loop, Walk_Carry_Loop, Consume. Several combat/fantasy clips are irrelevant to this setting.",
+        "UAL1 and UAL2 together have 85 unique clip names, including the shared A_TPose (84 non-T-pose names)."
+      ],
+      "inspection_file": "gltf_inspection.json",
+      "model_files": [
+        "quaternius_ual2/files/Universal Animation Library 2[Standard]/Female Mannequin/Unreal-Godot/Mannequin_F.glb",
+        "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard.glb",
+        "quaternius_ual2/files/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard_RM.glb"
+      ],
+      "license_files": [
+        "quaternius_ual2/files/Universal Animation Library 2[Standard]/License.txt"
+      ]
+    },
+    {
+      "id": "quaternius_base_characters",
+      "title": "Universal Base Characters[Standard]",
+      "source_url": "https://quaternius.itch.io/universal-base-characters",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "license_url": "https://quaternius.com/license.html",
+      "files": [
+        {
+          "path": "quaternius_base_characters/Universal Base Characters[Standard].zip",
+          "download_url": "https://quaternius.itch.io/universal-base-characters/file/15861669",
+          "bytes": 128968391,
+          "sha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40"
+        }
+      ],
+      "status": "downloaded_extracted_gltf_structure_verified_not_integrated",
+      "notes": [
+        "Standard free release. Original archive retained; source webpage retained. Direct CDN URL is ephemeral; download_url records source upload endpoint.",
+        "Fixed broken *_png.png image URI names in extracted glTF to point at the matching .png files already included by the author. Original ZIP is preserved unchanged. See texture_reference_repairs.json.",
+        "Two full-body male/female characters, each 65 joints, 3 meshes and 7 image entries; 8 eyebrow/hair choices supplied both static and head-rigged. Full-body characters contain no embedded animations.",
+        "Detailed textures are included, but these are stylized superhero base bodies, not ready-to-use 1938 Northeast Anti-Japanese United Army uniforms. Clothing, head/skin appearance and equipment require adaptation.",
+        "18 glTF files total in this kit: 2 bodies and 16 hair/eyebrow variants. Do not report this as 18 full characters."
+      ],
+      "inspection_file": "gltf_inspection.json",
+      "model_files": [
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Female.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Regular.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Beard.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buns.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buzzed.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_BuzzedFemale.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Long.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_SimpleParted.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Regular.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Beard.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buzzed.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_BuzzedFemale.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Long.gltf",
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.gltf"
+      ],
+      "license_files": [
+        "quaternius_base_characters/files/Universal Base Characters[Standard]/License_Standard.txt"
+      ]
+    },
+    {
+      "id": "godot_tps_player",
+      "title": "Godot TPS Demo player robot and gun animation reference",
+      "source_url": "https://github.com/godotengine/tps-demo",
+      "author": "Juan Linietsky, Fernando Miguel Calabró; Godot Engine contributors",
+      "license": "CC-BY-3.0 (assets); MIT (code)",
+      "license_url": "https://github.com/godotengine/tps-demo/blob/master/LICENSE.md",
+      "files": [
+        {
+          "path": "godot_tps_player/player/model/player.glb",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/model/player.glb",
+          "bytes": 23844032,
+          "sha256": "16b783ec2e19245d034326d401796b9bd2635de75f4e38917854316abeee4f9c"
+        },
+        {
+          "path": "godot_tps_player/LICENSE.md",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/LICENSE.md",
+          "bytes": 1972,
+          "sha256": "f7bf763d4c378425b99a5abfe42f49bb03fc530e9721cc5943072becf348caff"
+        },
+        {
+          "path": "godot_tps_player/README.md",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/README.md",
+          "bytes": 2750,
+          "sha256": "2ed40ec23897b8a05012e9c0d5f1f315dbb489e80348131fdf5732e9d0999600"
+        },
+        {
+          "path": "godot_tps_player/player/model/player.glb.import",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/model/player.glb.import",
+          "bytes": 1489,
+          "sha256": "a13a2ae21ce333273b3c9c18c5980b97083045a1f396f83f851d881cd414d3f5"
+        },
+        {
+          "path": "godot_tps_player/player/model/playerobot.tres",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/model/playerobot.tres",
+          "bytes": 1039,
+          "sha256": "205c8ca616f171d49a46ab88d8120a1155670e8208988d6bcd69b456e921de79"
+        },
+        {
+          "path": "godot_tps_player/player/model/robotemitter.tres",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/model/robotemitter.tres",
+          "bytes": 391,
+          "sha256": "0c8f209ccc4e0393d64305c0b0618a7af1ddfdaa43dd3ae2c3323176e4fe2863"
+        },
+        {
+          "path": "godot_tps_player/player/textures/player_robot_albedo.png",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/textures/player_robot_albedo.png",
+          "bytes": 1127472,
+          "sha256": "1a3e77bc611c7378557a90300204107d8d7c624c765e54022699e6f1a2359b2d"
+        },
+        {
+          "path": "godot_tps_player/player/textures/player_robot_orm.png",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/textures/player_robot_orm.png",
+          "bytes": 4080059,
+          "sha256": "16be14ffcf728fa4168d110c3eb7438bc28de7f15dc22757020bfccdef086a08"
+        },
+        {
+          "path": "godot_tps_player/player/textures/player_robot_normal.png",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/textures/player_robot_normal.png",
+          "bytes": 1429561,
+          "sha256": "aafc4ad4f93caa0f0cfc607bda0c5eee2389c89696c176cb14f48df963927465"
+        },
+        {
+          "path": "godot_tps_player/player/textures/player_robot_emissive.png",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/textures/player_robot_emissive.png",
+          "bytes": 10946,
+          "sha256": "b002d15617b5dcde87f85e766221012252a25b50f27504b70798a80921c1bf25"
+        },
+        {
+          "path": "godot_tps_player/player/player.tscn",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/player.tscn",
+          "bytes": 31831,
+          "sha256": "ed06a245ea650d544cb101621d5b8e98bb497804e58df05db1991b27fcce44ff"
+        },
+        {
+          "path": "godot_tps_player/player/player.gd",
+          "download_url": "https://raw.githubusercontent.com/godotengine/tps-demo/master/player/player.gd",
+          "bytes": 6805,
+          "sha256": "e3e4b5249baafdf42533bb98ab3c947fadfd54cbeeb045d0792a844d26b1ee62"
+        }
+      ],
+      "status": "downloaded_extracted_gltf_structure_verified_not_integrated",
+      "notes": [
+        "Robot visual design is unsuitable for the 1938 story; use gun hold/aim locomotion as a retargeting and animation-state reference. GLB inspection does not by itself verify retargeting compatibility.",
+        "Original materials, 4 PBR texture maps, GLB import settings, player scene and script saved as integration references; the partial example is not a runnable project. Material paths must be relocated when integrating.",
+        "56 embedded clips, including author work-in-progress clips tagged -noexp. Skin has 145 joints. Useful gun locomotion: running_aiming, running_gun-cycle, walking_gun-cycle, strafe_back/front/left/right-cycle, AIM-Center/Down/Up, flinch clips.",
+        "Model is a science-fiction robot. Use as animation reference/retarget source only for this historical game; robot and arm-cannon clips are not a finished rifle animation set.",
+        "29 of 56 embedded clip names do not carry the author -noexp work-in-progress suffix; these are candidate gameplay clips, not all verified final production clips."
+      ],
+      "inspection_file": "gltf_inspection.json",
+      "model_files": [
+        "godot_tps_player/player/model/player.glb"
+      ],
+      "license_files": [
+        "godot_tps_player/LICENSE.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "B1-L01",
+  "part": "B",
+  "text": "往里站，石头上有霜。",
+  "voice": "Microsoft Kangkang",
+  "rate": 0,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

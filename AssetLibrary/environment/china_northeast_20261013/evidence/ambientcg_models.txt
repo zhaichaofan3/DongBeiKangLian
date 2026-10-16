@@ -1,0 +1,2542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+			<!-- Favicon Tags -->
+		<link rel="apple-touch-icon" sizes="180x180" href="https://acg-media.struffelproductions.com/file/ambientCG-Web/media/icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://acg-media.struffelproductions.com/file/ambientCG-Web/media/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://acg-media.struffelproductions.com/file/ambientCG-Web/media/icon/favicon-16x16.png">
+		<link rel="manifest" href="https://acg-media.struffelproductions.com/file/ambientCG-Web/media/icon/site.webmanifest">
+		<link rel="mask-icon" href="https://acg-media.struffelproductions.com/file/ambientCG-Web/media/icon/safari-pinned-tab.svg" color="#116dd5">
+		<link rel="shortcut icon" href="https://acg-media.struffelproductions.com/file/ambientCG-Web/media/icon/favicon.ico">
+
+		<meta name="msapplication-TileColor" content="#116dd5">
+		<meta name="msapplication-config" content="https://acg-media.struffelproductions.com/file/ambientCG-Web/media/icon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+
+		<!-- Primary Meta Tags -->
+		<title>Search | ambientCG</title>
+		<meta name="title" content="Search | ambientCG">
+		<meta name="description" content="Free 3D Assets Never Looked This Good! Get 2000+ PBR Materials, HDRIs and more for free under the Public Domain license.">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://ambientCG.com/">
+		<meta property="og:title" content="Search | ambientCG">
+		<meta property="og:description" content="Free 3D Assets Never Looked This Good! Get 2000+ PBR Materials, HDRIs and more for free under the Public Domain license.">
+		<meta property="og:image" content="https://ambientcg.com/api/metaimage-list?sort=popular">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://ambientCG.com/">
+		<meta property="twitter:title" content="Search | ambientCG">
+		<meta property="twitter:description" content="Free 3D Assets Never Looked This Good! Get 2000+ PBR Materials, HDRIs and more for free under the Public Domain license.">
+		<meta property="twitter:image" content="https://ambientcg.com/api/metaimage-list?sort=popular">
+	<link href="/css/theme.system.css.php?v=" rel="stylesheet">	<link href="/css/base.css?v=" rel="stylesheet">
+	<link href="/css/page.list.css?v=" rel="stylesheet">
+	<script src="https://unpkg.com/htmx.org@2.0.4" crossorigin="anonymous"></script><script src="https://unpkg.com/htmx-ext-remove-me@2.0.0/remove-me.js"></script>	<script defer type="module" src="/js/page.list.js?v="></script>
+	<script src="/js/util.cookies.js?v="></script>
+			<link href="/css/block.asset-block.css?v=" rel="stylesheet">
+		<script async src="https://cdn.fuseplatform.net/publift/tags/2/4026/fuse.js"></script></head>
+
+<body>
+			<header>
+			<link href="/css/block.header.css?v=" rel="stylesheet">
+			<button
+				id="menu-button"
+				onclick="
+				event.preventDefault();
+				var attr = document.querySelector('#header-links').attributes['data-show'];
+				attr.value = (parseInt(attr.value)+1)%2;">
+				<svg class="SvgIcon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+            </svg></button>
+			<div data-show="0" id="header-links">
+				<span class="link-group">
+					<a href="/" class="header-link">
+						<img alt="ambientCG logo" height="100%" src="data:image/gif;base64,R0lGODdhAAEAAfIAABFt1QAAAA8sWZLO7slFJslFJslFJslFJiH5BAEAAAQALAAAAAAAAQABAAP/SLrc/jDKSau9OOvNu/9gKGZDaZ5oqg5j675wLE9rbd/nrO987+LAIM5HLBp9wqTydmw6n5ildFqDWq9Hqnabwnq/La54bAKbzxWyeo1uo9fwuHsOjdvl9Hzvzrfr/y99gn6AhR2DiISGixSJjneMkQ2PlIqShpWZlpd0mp6bnGefo3ihYFSmPyiprK2ur7CxsrO0tba3uGYAu7y9vr/Au7nDEMHGx8jJysdRfcQfvhLL09TVyxaezxS/xdbe3+Bpn9rdveXg6OnJjaPkDdwP6vLzwOzt7gTwDvT8/OL3z+rF60dQnj1SxATuK8gQ3UGEuBS+a0jR2z9SLGxJZFCx/6O1hxBnbVzgseQ0kCFhBRtosiUzGhhXqRyZz6XNlShTpsK58KZPczBj5mDFc+LPowByYtxJsybSoxeFlghVlOPTp0qXSjLG8irUoFKHLuLa1avPrDHHViVpFmnUsFMBvTTa9qsEuCr+zLVa1y1YvGXo7OXb9ydaqXMGsy1sNwLgvG2QlWV88+1jNJInU7Z5GLEuxU43G/77OLCXzHRFnyVdOu6VdT1Vr77bustr1IRlV+4c1grs2Lp3064t08nv3ME5syZuHDfy5C15w22iTDN0k9KnGzn+/HrJ7Np9VAfu3SV4zz3Gky+PfTnxjDzUd2fv8XzvHfIX01c+/L1tHf/5KbDfbI75twKA3Ok3YHv9GSgWDNest2BHljkoQ4ACTshfgQ4W50KEqWn4nXsGQoihiBtC0CFkLYAYIooV2YfXhyfCGB2JForg4nw2FlRhhyPsmGGPI+JYIggnSUgkQzLOiGSNSxbJ4YoediBkaFHGaOSRVmKIZZYNNelklwkOCSZFP65IpnMKnukjNlT+p8GVX7rpTzNxPoiBl3XaaZAGeeppAZ9m6hYLkPgkKoqcijbq6KOQRirppJRWaumlmGaq6aacNiHAp6CGKuqooELjJ0FQkKrqqqy26mqrHJyK5nkUvGrrrbi6OqesYdIqQa7ABptrBrxqOWUSvwqr7LL/ql5QLIXHCpEss9Qy6+yzs6ooxbTVdgvstdgyGa20D3hr7rcVhGusA6iUe+67rw6qbq/aLgEBvPiyKu+8b9arxL35Bizqvvz20yC5DQiscKnpFozquEE4sPDCBDtMD8RASDxxwOBafLG//ya8cb4de/wnyAgvMDLJFZuczsEpr8xywy6f/EC7CsiMb8k1h4PxECrr/C7PPX/zMxNBC20u0UV/hHLMSi/dctNO3zwFA1FLvQ3VLz8dcc5Zezs119QcjXTYYtNMtkVmV0EA2t2OvTah7cJdrdxzs8lA3XZbq3beSXqd8dt9L4s34GvtfTXhhQt7OOL6WL0t442juzXk/3QqwHfllk+AedmCA815sI9/zkvbB1I+uq2lm55U6GevjmvrpqMOmeyz/+164povjvuttH9uu22/s6777pFP4nvxuh6PPFCS26s686QGj/nwMlEPq/PPCwO7DWBr3yz33WM/lPirWg+5+YGhP/7l3Sev+OTuV0/+8+zHVf+o6gMO89f7G9j9dve/wQUwVP3LWwFFd8BPJXBuC4xdAx+4tgiCb3r1oyDZLOi2BjpwgK7jYOo8KAANck2ELPKgCamWP/hgEH1Mw9/33Ba+AMYQeS3E2gRXWLQcJs2GPKwZCuWkwiC6bIhV2iEIr5c/jQFxietrosieCL/4vS56IdPhAf+NaDIfapGK0rCi92aYuinuj4sWQ6JpzJhBKPpPik48oxsVCEc2ug+NDlOja+J4RzzOS48u5CMM/aguQHKrj3PcYB3dhUhCPmtLjGLkIG/4Rj1WoJF7CmGayoiFuHkgip0KpShHScpSmvKUqEylKlfJyla68pAffOUo4wXLyiVENRswHsBIKLMNaIgDurQjLzdGrF/mkpaCHCYxHZmiDATzi8ocWSJF44Fn/jCaywyjMTsAvGRiU2BVHBAIrFnDbyosnPsZJznNObFpUkYE62TnOdHJHngiU5jy1Jo2xTmCeOZzZ57bZgj8+c+hBXRBLyBoQdO2z3S6QKELvdtBHZr/0OZ5M6KOmyh9YgBRjCqLntCZwT2h6VHSabSeMuhoSXPX0PLsYKTlXOmwTuqdl8L0hTK1aAT4adPt4TOnPt0pRXuqr4sC1X40TQ4RbnrUbrY0pEVgalN1eo6aGoGq15wq/5JqqCNIVavvE6pVPRVUkoI1lmK9TqrKGtOzuhMray2qUY8KUmpeAas4bWpdN+MFtrZ1qntlDBj8mtecBrYvZsDrWdGaVtmgQbFu5apg20DYyD6Vr27wq2Uba9c5aBawh/XKH+T6U4y+1TyjJW1WVxpauALis0BtbWNemz5JlvS0UjKEale7UNxCSxK7/es/ZUugSARXpsRtpnFrW1p2xCb3Rqk4rmkl61pWSLe31J2tdcNqVnM+97exYG5zeenbh9WCu7xV5nezZQv0Cpe82UVtLtxb2C2ut1/DoK9345tbYugXm/e9Ez7+O8zyqgNSAtylEvnL3lAuOMDVkGU1ewkNCVv4whjOsIY3zGF3zDRTjC0l5+JKrVYu1m+vPLFJLaxickq4xeLlMIwR2OG5xrbGEVgsji+p1x1jgLU+BmZBg2zPbxK5okU8skjbqOSl/q7Jdy0clCmrsykvAqBWznIeEgAAOw==">
+					</a>
+					<a href="/list" class="header-link">All Assets</a>
+					<a href="/list?type=material,atlas,decal" class="header-link sub-link">Surfaces</a>
+					<a href="/list?type=hdri,hdri-element" class="header-link sub-link">Environments</a>
+					<a href="/list?type=substance" class="header-link sub-link">Substances</a>
+					<a href="/list?type=3d-model,terrain" class="header-link sub-link">3D</a>
+				</span>
+				<span class="breaker"></span>
+				<span class="link-group">
+					<a title="Theme" style="cursor:pointer;" onclick="event.preventDefault();setCookie('theme','dark',90);location.reload(true);">
+						<svg class="SvgIcon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z" />
+            </svg>					</a>
+					<a href=" /activate" class="header-link">Supporter Login</a>
+					<a href="https://docs.ambientcg.com/license" target="_blank" class="header-link">License</a>
+					<a href="https://docs.ambientcg.com" target="_blank" class="header-link">Docs</a>
+					<a href="/gallery" class="header-link">Gallery</a>
+					<a href="https://3dassets.one" target="_blank" class="header-link" style="font-weight:bold;">
+						<span style="color:#CB6CE6;">3D</span><span>assets</span><span style="color:#7ED957;">.</span><span>one</span>
+					</a>
+					<span class="link-group">
+						<a href="https://ko-fi.com/ambientCG" class="header-link"><svg class="SvgIcon" viewBox="0 0 32 32">
+                <path fill="currentColor" d="M31.844 11.932c-1.032-5.448-6.48-6.125-6.48-6.125h-24.4c-0.808 0-0.907 1.063-0.907 1.063s-0.109 9.767-0.027 15.767c0.22 3.228 3.448 3.561 3.448 3.561s11.021-0.031 15.953-0.067c3.251-0.568 3.579-3.423 3.541-4.98 5.808 0.323 9.896-3.776 8.871-9.219zM17.093 16.615c-1.661 1.932-5.348 5.297-5.348 5.297s-0.161 0.161-0.417 0.031c-0.099-0.073-0.14-0.12-0.14-0.12-0.595-0.588-4.491-4.063-5.381-5.271-0.943-1.287-1.385-3.599-0.119-4.948 1.265-1.344 4.005-1.448 5.817 0.541 0 0 2.083-2.375 4.625-1.281 2.536 1.095 2.443 4.016 0.963 5.751zM25.323 17.251c-1.24 0.156-2.244 0.036-2.244 0.036v-7.573h2.359c0 0 2.631 0.735 2.631 3.516 0 2.552-1.313 3.557-2.745 4.021z"/>
+            </svg></a>
+						<a href="https://patreon.com/ambientcg" class="header-link"><svg class="SvgIcon" viewBox="-30 -30 542 542">
+				<path fill="currentColor" d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4C50.3 68.9 23.3 157.7 22.3 246.2C21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3c26.4-35.5 60.5-45.5 102.4-55.9c72-17.8 121.1-74.7 121-150z"/></svg>
+            </svg></a>
+						<a href="https://mastodon.social/@ambientcg" class="header-link"><svg class="SvgIcon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M20.94,14C20.66,15.41 18.5,16.96 15.97,17.26C14.66,17.41 13.37,17.56 12,17.5C9.75,17.39 8,16.96 8,16.96V17.58C8.32,19.8 10.22,19.93 12.03,20C13.85,20.05 15.47,19.54 15.47,19.54L15.55,21.19C15.55,21.19 14.27,21.87 12,22C10.75,22.07 9.19,21.97 7.38,21.5C3.46,20.45 2.78,16.26 2.68,12L2.67,8.57C2.67,4.23 5.5,2.96 5.5,2.96C6.95,2.3 9.41,2 11.97,2H12.03C14.59,2 17.05,2.3 18.5,2.96C18.5,2.96 21.33,4.23 21.33,8.57C21.33,8.57 21.37,11.78 20.94,14M18,8.91C18,7.83 17.7,7 17.15,6.35C16.59,5.72 15.85,5.39 14.92,5.39C13.86,5.39 13.05,5.8 12.5,6.62L12,7.5L11.5,6.62C10.94,5.8 10.14,5.39 9.07,5.39C8.15,5.39 7.41,5.72 6.84,6.35C6.29,7 6,7.83 6,8.91V14.17H8.1V9.06C8.1,8 8.55,7.44 9.46,7.44C10.46,7.44 10.96,8.09 10.96,9.37V12.16H13.03V9.37C13.03,8.09 13.53,7.44 14.54,7.44C15.44,7.44 15.89,8 15.89,9.06V14.17H18V8.91Z" />
+            </svg></a>
+						<a href="https://bsky.app/profile/ambientcg.com" class="header-link"><svg viewBox="0 0 600 530" class="SvgIcon">
+ 		<path fill="currentColor" d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z" />
+		</svg></a>
+						<a href="https://artstation.com/ambientCG" class="header-link"><svg class="SvgIcon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M1.77,16.88L3.5,19.86C3.84,20.54 4.54,21 5.33,21H16.79L14.43,16.88H1.77M22.23,16.9C22.23,16.5 22.11,16.11 21.9,15.78L15.17,4.1C14.82,3.44 14.15,3 13.35,3H9.8L20.18,21L21.82,18.14C22.13,17.6 22.23,17.36 22.23,16.9M12.73,13.94L8.1,5.92L3.45,13.94H12.73Z" />
+            </svg></a>
+						<a href="https://instagram.com/ambientCG" class="header-link"><svg class="SvgIcon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+            </svg></a>
+
+					</span>
+				</span>
+			</div>
+		</header>
+		<script src="/js/util.cookies.js?v="></script>
+	<main>
+		<nav>
+			<button id="toggle-form" onclick="
+				this.parentElement.toggleAttribute('data-hidden');
+			"></button>
+			<script>
+				if (window.innerWidth < 500) {
+					document.querySelector('#toggle-form').click();
+				}
+			</script>
+			<form
+				id="asset-form"
+
+				hx-target="#asset-list"
+				hx-get="/hx/asset-list"
+				hx-trigger="load, input delay:500ms, change"
+				hx-swap="innerHTML"
+				hx-indicator="#asset-list"
+				hx-disabled-elt="#category-sorting"
+
+				oninput="window.scrollTo(0,0);document.querySelector('#asset-list').classList.add('htmx-request');"
+				onchange="window.scrollTo(0,0);document.querySelector('#asset-list').classList.add('htmx-request');">
+
+				<div class="fixed-selections">
+
+					<div>
+						<label for="fixed-ids">ID:&nbsp;</label>
+						<input placeholder=" " type="text" id="fixed-ids" name="id" readonly value="">
+						<button class="reset-button" data-reset-target="#fixed-ids">
+							<svg class="SvgIcon" viewBox="0 0 24 30">
+                <path fill="currentColor" d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" />
+            </svg>						</button>
+					</div>
+
+					<div>
+						<label for="children-of">Children:&nbsp;</label>
+						<input placeholder=" " type="text" id="children-of" name="childrenOf" readonly value="">
+						<button class="reset-button" data-reset-target="#children-of">
+							<svg class="SvgIcon" viewBox="0 0 24 30">
+                <path fill="currentColor" d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" />
+            </svg>						</button>
+					</div>
+
+					<div>
+						<label for="variations-of">Variations:&nbsp;</label>
+						<input placeholder=" " type="text" class="fixed-selection" id="variations-of" name="variationsOf" readonly value="">
+						<button class="reset-button" data-reset-target="#variations-of">
+							<svg class="SvgIcon" viewBox="0 0 24 30">
+                <path fill="currentColor" d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" />
+            </svg>						</button>
+					</div>
+
+					<div>
+						<label for="parents-of">Parents:&nbsp;</label>
+						<input placeholder=" " type="text" id="parents-of" name="parentsOf" readonly value="">
+						<button class="reset-button" data-reset-target="#parents-of">
+							<svg class="SvgIcon" viewBox="0 0 24 30">
+                <path fill="currentColor" d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" />
+            </svg>						</button>
+					</div>
+				</div>
+				<!-- QUERY -->
+				<details open>
+					<summary data-bold-if-active>
+						Keywords
+						<button class="reset-button" data-reset-target="#query-string">↺</button>
+					</summary>
+					<label hidden for="q">Query</label>
+					<input placeholder="Keywords..." type="text" name="q" id="query-string" value="">
+
+					<div id="tag-list"></div>
+				</details>
+
+				<hr class="thin">
+
+				<!-- Type and Categories -->
+				<details data-cookie-controlled="reveal-category">
+					<summary data-bold-if-active>
+						Type & Category<button id="category-reset-button" class="reset-button" data-reset-target="#type-select,#category-select,#category-filter">↺</button>
+					</summary>
+
+					<label hidden for="type[]">Type</label>
+
+					<select
+						data-toggleable
+						multiple
+						name="type[]"
+						id="type-select"
+						size="10">
+
+													<option
+								data-has-icon
+								value="material"
+								id="type-material"
+																data-count="2015">
+								Material							</option>
+													<option
+								data-has-icon
+								value="hdri"
+								id="type-hdri"
+																data-count="433">
+								HDRI							</option>
+													<option
+								data-has-icon
+								value="substance"
+								id="type-substance"
+																data-count="209">
+								Substance							</option>
+													<option
+								data-has-icon
+								value="decal"
+								id="type-decal"
+																data-count="127">
+								Decal							</option>
+													<option
+								data-has-icon
+								value="atlas"
+								id="type-atlas"
+																data-count="61">
+								Atlas							</option>
+													<option
+								data-has-icon
+								value="3d-model"
+								id="type-3d-model"
+																data-count="34">
+								3D Model							</option>
+													<option
+								data-has-icon
+								value="plain-image"
+								id="type-plain-image"
+																data-count="9">
+								Plain Image							</option>
+													<option
+								data-has-icon
+								value="brush"
+								id="type-brush"
+																data-count="5">
+								Brush							</option>
+													<option
+								data-has-icon
+								value="terrain"
+								id="type-terrain"
+																data-count="5">
+								Terrain							</option>
+													<option
+								data-has-icon
+								value="hdri-element"
+								id="type-hdri-element"
+																data-count="4">
+								HDRI Element							</option>
+						
+					</select>
+
+					<label hidden for="category-select">Category</label>
+
+					<input
+						type="text"
+						id="category-filter"
+						onchange="event.stopPropagation();"
+						hx-disable
+						placeholder="Filter Categories...">
+
+
+					<button
+						class="reset-button"
+						id="category-sorting"
+						hx-disable>
+						sort by alphabet/count
+					</button>
+
+					<select
+						data-toggleable
+						multiple
+						id="category-select"
+						name="category[]"
+						size="224">
+
+						
+							<option
+								id="category-Tiles"
+								data-type="material"
+								value="Tiles"
+																data-count="164">
+								&nbsp;Tiles							</option>
+
+						
+							<option
+								id="category-PavingStones"
+								data-type="material"
+								value="PavingStones"
+																data-count="155">
+								&nbsp;Paving Stones							</option>
+
+						
+							<option
+								id="category-DaySkyHDRI"
+								data-type="hdri"
+								value="DaySkyHDRI"
+																data-count="142">
+								&nbsp;Day Sky HDRI							</option>
+
+						
+							<option
+								id="category-Ground"
+								data-type="material"
+								value="Ground"
+																data-count="128">
+								&nbsp;Ground							</option>
+
+						
+							<option
+								id="category-Bricks"
+								data-type="material"
+								value="Bricks"
+																data-count="116">
+								&nbsp;Bricks							</option>
+
+						
+							<option
+								id="category-DayEnvironmentHDRI"
+								data-type="hdri"
+								value="DayEnvironmentHDRI"
+																data-count="112">
+								&nbsp;Day Environment HDRI							</option>
+
+						
+							<option
+								id="category-Wood"
+								data-type="material"
+								value="Wood"
+																data-count="102">
+								&nbsp;Wood							</option>
+
+						
+							<option
+								id="category-Metal"
+								data-type="material"
+								value="Metal"
+																data-count="101">
+								&nbsp;Metal							</option>
+
+						
+							<option
+								id="category-EveningSkyHDRI"
+								data-type="hdri"
+								value="EveningSkyHDRI"
+																data-count="96">
+								&nbsp;Evening Sky HDRI							</option>
+
+						
+							<option
+								id="category-Fabric"
+								data-type="material"
+								value="Fabric"
+																data-count="89">
+								&nbsp;Fabric							</option>
+
+						
+							<option
+								id="category-WoodFloor"
+								data-type="material"
+								value="WoodFloor"
+																data-count="74">
+								&nbsp;Wood Floor							</option>
+
+						
+							<option
+								id="category-RoadLines"
+								data-type="decal"
+								value="RoadLines"
+																data-count="69">
+								&nbsp;Road Lines							</option>
+
+						
+							<option
+								id="category-Rock"
+								data-type="material"
+								value="Rock"
+																data-count="67">
+								&nbsp;Rock							</option>
+
+						
+							<option
+								id="category-Concrete"
+								data-type="material"
+								value="Concrete"
+																data-count="61">
+								&nbsp;Concrete							</option>
+
+						
+							<option
+								id="category-Planks"
+								data-type="material"
+								value="Planks"
+																data-count="59">
+								&nbsp;Planks							</option>
+
+						
+							<option
+								id="category-Leather"
+								data-type="material"
+								value="Leather"
+																data-count="50">
+								&nbsp;Leather							</option>
+
+						
+							<option
+								id="category-Asphalt"
+								data-type="material"
+								value="Asphalt"
+																data-count="46">
+								&nbsp;Asphalt							</option>
+
+						
+							<option
+								id="category-Gravel"
+								data-type="material"
+								value="Gravel"
+																data-count="44">
+								&nbsp;Gravel							</option>
+
+						
+							<option
+								id="category-Leaking"
+								data-type="decal"
+								value="Leaking"
+																data-count="39">
+								&nbsp;Leaking							</option>
+
+						
+							<option
+								id="category-Road"
+								data-type="material"
+								value="Road"
+																data-count="31">
+								&nbsp;Road							</option>
+
+						
+							<option
+								id="category-LeafSet"
+								data-type="atlas"
+								value="LeafSet"
+																data-count="30">
+								&nbsp;Leaf Set							</option>
+
+						
+							<option
+								id="category-MorningSkyHDRI"
+								data-type="hdri"
+								value="MorningSkyHDRI"
+																data-count="28">
+								&nbsp;Morning Sky HDRI							</option>
+
+						
+							<option
+								id="category-RoofingTiles"
+								data-type="material"
+								value="RoofingTiles"
+																data-count="27">
+								&nbsp;Roofing Tiles							</option>
+
+						
+							<option
+								id="category-Facade"
+								data-type="material"
+								value="Facade"
+																data-count="26">
+								&nbsp;Facade							</option>
+
+						
+							<option
+								id="category-Marble"
+								data-type="material"
+								value="Marble"
+																data-count="26">
+								&nbsp;Marble							</option>
+
+						
+							<option
+								id="category-Rocks"
+								data-type="material"
+								value="Rocks"
+																data-count="26">
+								&nbsp;Rocks							</option>
+
+						
+							<option
+								id="category-Sign"
+								data-type="material"
+								value="Sign"
+																data-count="26">
+								&nbsp;Sign							</option>
+
+						
+							<option
+								id="category-Plastic"
+								data-type="material"
+								value="Plastic"
+																data-count="25">
+								&nbsp;Plastic							</option>
+
+						
+							<option
+								id="category-IndoorEnvironmentHDRI"
+								data-type="hdri"
+								value="IndoorEnvironmentHDRI"
+																data-count="23">
+								&nbsp;Indoor Environment HDRI							</option>
+
+						
+							<option
+								id="category-Snow"
+								data-type="material"
+								value="Snow"
+																data-count="23">
+								&nbsp;Snow							</option>
+
+						
+							<option
+								id="category-ChristmasTreeOrnament"
+								data-type="material"
+								value="ChristmasTreeOrnament"
+																data-count="21">
+								&nbsp;Christmas Tree Ornament							</option>
+
+						
+							<option
+								id="category-DiamondPlate"
+								data-type="material"
+								value="DiamondPlate"
+																data-count="21">
+								&nbsp;Diamond Plate							</option>
+
+						
+							<option
+								id="category-Terrazzo"
+								data-type="material"
+								value="Terrazzo"
+																data-count="21">
+								&nbsp;Terrazzo							</option>
+
+						
+							<option
+								id="category-MetalPlates"
+								data-type="material"
+								value="MetalPlates"
+																data-count="20">
+								&nbsp;Metal Plates							</option>
+
+						
+							<option
+								id="category-SurfaceImperfections"
+								data-type="material"
+								value="SurfaceImperfections"
+																data-count="20">
+								&nbsp;Surface Imperfections							</option>
+
+						
+							<option
+								id="category-Wicker"
+								data-type="material"
+								value="Wicker"
+																data-count="19">
+								&nbsp;Wicker							</option>
+
+						
+							<option
+								id="category-PaintedMetal"
+								data-type="material"
+								value="PaintedMetal"
+																data-count="18">
+								&nbsp;Painted Metal							</option>
+
+						
+							<option
+								id="category-PaintedPlaster"
+								data-type="material"
+								value="PaintedPlaster"
+																data-count="18">
+								&nbsp;Painted Plaster							</option>
+
+						
+							<option
+								id="category-TilesSubstance"
+								data-type="substance"
+								value="TilesSubstance"
+																data-count="18">
+								&nbsp;Tiles Substance							</option>
+
+						
+							<option
+								id="category-NightSkyHDRI"
+								data-type="hdri"
+								value="NightSkyHDRI"
+																data-count="17">
+								&nbsp;Night Sky HDRI							</option>
+
+						
+							<option
+								id="category-PaintedWood"
+								data-type="material"
+								value="PaintedWood"
+																data-count="17">
+								&nbsp;Painted Wood							</option>
+
+						
+							<option
+								id="category-Carpet"
+								data-type="material"
+								value="Carpet"
+																data-count="16">
+								&nbsp;Carpet							</option>
+
+						
+							<option
+								id="category-Bark"
+								data-type="material"
+								value="Bark"
+																data-count="15">
+								&nbsp;Bark							</option>
+
+						
+							<option
+								id="category-CorrugatedSteel"
+								data-type="material"
+								value="CorrugatedSteel"
+																data-count="15">
+								&nbsp;Corrugated Steel							</option>
+
+						
+							<option
+								id="category-Onyx"
+								data-type="material"
+								value="Onyx"
+																data-count="15">
+								&nbsp;Onyx							</option>
+
+						
+							<option
+								id="category-Granite"
+								data-type="material"
+								value="Granite"
+																data-count="14">
+								&nbsp;Granite							</option>
+
+						
+							<option
+								id="category-MetalWalkway"
+								data-type="material"
+								value="MetalWalkway"
+																data-count="14">
+								&nbsp;Metal Walkway							</option>
+
+						
+							<option
+								id="category-Travertine"
+								data-type="material"
+								value="Travertine"
+																data-count="14">
+								&nbsp;Travertine							</option>
+
+						
+							<option
+								id="category-3DBread"
+								data-type="3d-model"
+								value="3DBread"
+																data-count="13">
+								&nbsp;3D Bread							</option>
+
+						
+							<option
+								id="category-WoodSiding"
+								data-type="material"
+								value="WoodSiding"
+																data-count="13">
+								&nbsp;Wood Siding							</option>
+
+						
+							<option
+								id="category-Fence"
+								data-type="material"
+								value="Fence"
+																data-count="12">
+								&nbsp;Fence							</option>
+
+						
+							<option
+								id="category-FabricSubstance"
+								data-type="substance"
+								value="FabricSubstance"
+																data-count="11">
+								&nbsp;Fabric Substance							</option>
+
+						
+							<option
+								id="category-ManholeCover"
+								data-type="decal"
+								value="ManholeCover"
+																data-count="11">
+								&nbsp;Manhole Cover							</option>
+
+						
+							<option
+								id="category-WoodSubstance"
+								data-type="substance"
+								value="WoodSubstance"
+																data-count="11">
+								&nbsp;Wood Substance							</option>
+
+						
+							<option
+								id="category-NightEnvironmentHDRI"
+								data-type="hdri"
+								value="NightEnvironmentHDRI"
+																data-count="10">
+								&nbsp;Night Environment HDRI							</option>
+
+						
+							<option
+								id="category-Rust"
+								data-type="material"
+								value="Rust"
+																data-count="10">
+								&nbsp;Rust							</option>
+
+						
+							<option
+								id="category-Backdrop"
+								data-type="plain-image"
+								value="Backdrop"
+																data-count="9">
+								&nbsp;Backdrop							</option>
+
+						
+							<option
+								id="category-Fingerprints"
+								data-type="material"
+								value="Fingerprints"
+																data-count="9">
+								&nbsp;Fingerprints							</option>
+
+						
+							<option
+								id="category-MetalSubstance"
+								data-type="substance"
+								value="MetalSubstance"
+																data-count="9">
+								&nbsp;Metal Substance							</option>
+
+						
+							<option
+								id="category-ScatteredLeaves"
+								data-type="material"
+								value="ScatteredLeaves"
+																data-count="9">
+								&nbsp;Scattered Leaves							</option>
+
+						
+							<option
+								id="category-WoodFloorSubstance"
+								data-type="substance"
+								value="WoodFloorSubstance"
+																data-count="9">
+								&nbsp;Wood Floor Substance							</option>
+
+						
+							<option
+								id="category-Chipboard"
+								data-type="material"
+								value="Chipboard"
+																data-count="8">
+								&nbsp;Chipboard							</option>
+
+						
+							<option
+								id="category-Foliage"
+								data-type="atlas"
+								value="Foliage"
+																data-count="8">
+								&nbsp;Foliage							</option>
+
+						
+							<option
+								id="category-Grass"
+								data-type="material"
+								value="Grass"
+																data-count="8">
+								&nbsp;Grass							</option>
+
+						
+							<option
+								id="category-Net"
+								data-type="material"
+								value="Net"
+																data-count="8">
+								&nbsp;Net							</option>
+
+						
+							<option
+								id="category-Smear"
+								data-type="material"
+								value="Smear"
+																data-count="8">
+								&nbsp;Smear							</option>
+
+						
+							<option
+								id="category-BricksSubstance"
+								data-type="substance"
+								value="BricksSubstance"
+																data-count="7">
+								&nbsp;Bricks Substance							</option>
+
+						
+							<option
+								id="category-Chip"
+								data-type="material"
+								value="Chip"
+																data-count="7">
+								&nbsp;Chip							</option>
+
+						
+							<option
+								id="category-ChristmasTreeOrnamentSubstance"
+								data-type="substance"
+								value="ChristmasTreeOrnamentSubstance"
+																data-count="7">
+								&nbsp;Christmas Tree Ornament Sub...							</option>
+
+						
+							<option
+								id="category-PavingStonesSubstance"
+								data-type="substance"
+								value="PavingStonesSubstance"
+																data-count="7">
+								&nbsp;Paving Stones Substance							</option>
+
+						
+							<option
+								id="category-Plaster"
+								data-type="material"
+								value="Plaster"
+																data-count="7">
+								&nbsp;Plaster							</option>
+
+						
+							<option
+								id="category-TactilePaving"
+								data-type="material"
+								value="TactilePaving"
+																data-count="7">
+								&nbsp;Tactile Paving							</option>
+
+						
+							<option
+								id="category-Bamboo"
+								data-type="material"
+								value="Bamboo"
+																data-count="6">
+								&nbsp;Bamboo							</option>
+
+						
+							<option
+								id="category-Footsteps"
+								data-type="material"
+								value="Footsteps"
+																data-count="6">
+								&nbsp;Footsteps							</option>
+
+						
+							<option
+								id="category-LeatherSubstance"
+								data-type="substance"
+								value="LeatherSubstance"
+																data-count="6">
+								&nbsp;Leather Substance							</option>
+
+						
+							<option
+								id="category-OfficeCeiling"
+								data-type="material"
+								value="OfficeCeiling"
+																data-count="6">
+								&nbsp;Office Ceiling							</option>
+
+						
+							<option
+								id="category-Paint"
+								data-type="material"
+								value="Paint"
+																data-count="6">
+								&nbsp;Paint							</option>
+
+						
+							<option
+								id="category-Paper"
+								data-type="material"
+								value="Paper"
+																data-count="6">
+								&nbsp;Paper							</option>
+
+						
+							<option
+								id="category-Tape"
+								data-type="atlas"
+								value="Tape"
+																data-count="6">
+								&nbsp;Tape							</option>
+
+						
+							<option
+								id="category-Tatami"
+								data-type="material"
+								value="Tatami"
+																data-count="6">
+								&nbsp;Tatami							</option>
+
+						
+							<option
+								id="category-Wallpaper"
+								data-type="material"
+								value="Wallpaper"
+																data-count="6">
+								&nbsp;Wallpaper							</option>
+
+						
+							<option
+								id="category-ConcreteSubstance"
+								data-type="substance"
+								value="ConcreteSubstance"
+																data-count="5">
+								&nbsp;Concrete Substance							</option>
+
+						
+							<option
+								id="category-EveningEnvironmentHDRI"
+								data-type="hdri"
+								value="EveningEnvironmentHDRI"
+																data-count="5">
+								&nbsp;Evening Environment HDRI							</option>
+
+						
+							<option
+								id="category-FoodCrossSectionSet"
+								data-type="atlas"
+								value="FoodCrossSectionSet"
+																data-count="5">
+								&nbsp;Food Cross Section Set							</option>
+
+						
+							<option
+								id="category-Lava"
+								data-type="material"
+								value="Lava"
+																data-count="5">
+								&nbsp;Lava							</option>
+
+						
+							<option
+								id="category-PaintedBricks"
+								data-type="material"
+								value="PaintedBricks"
+																data-count="5">
+								&nbsp;Painted Bricks							</option>
+
+						
+							<option
+								id="category-Scratches"
+								data-type="material"
+								value="Scratches"
+																data-count="5">
+								&nbsp;Scratches							</option>
+
+						
+							<option
+								id="category-Styrofoam"
+								data-type="material"
+								value="Styrofoam"
+																data-count="5">
+								&nbsp;Styrofoam							</option>
+
+						
+							<option
+								id="category-Terrain"
+								data-type="terrain"
+								value="Terrain"
+																data-count="5">
+								&nbsp;Terrain							</option>
+
+						
+							<option
+								id="category-TreeEnd"
+								data-type="material"
+								value="TreeEnd"
+																data-count="5">
+								&nbsp;Tree End							</option>
+
+						
+							<option
+								id="category-3DPear"
+								data-type="3d-model"
+								value="3DPear"
+																data-count="4">
+								&nbsp;3D Pear							</option>
+
+						
+							<option
+								id="category-Cardboard"
+								data-type="material"
+								value="Cardboard"
+																data-count="4">
+								&nbsp;Cardboard							</option>
+
+						
+							<option
+								id="category-Chainmail"
+								data-type="material"
+								value="Chainmail"
+																data-count="4">
+								&nbsp;Chainmail							</option>
+
+						
+							<option
+								id="category-Clay"
+								data-type="material"
+								value="Clay"
+																data-count="4">
+								&nbsp;Clay							</option>
+
+						
+							<option
+								id="category-Cork"
+								data-type="material"
+								value="Cork"
+																data-count="4">
+								&nbsp;Cork							</option>
+
+						
+							<option
+								id="category-FacadeSubstance"
+								data-type="substance"
+								value="FacadeSubstance"
+																data-count="4">
+								&nbsp;Facade Substance							</option>
+
+						
+							<option
+								id="category-GroundSubstance"
+								data-type="substance"
+								value="GroundSubstance"
+																data-count="4">
+								&nbsp;Ground Substance							</option>
+
+						
+							<option
+								id="category-HDRIElement"
+								data-type="hdri-element"
+								value="HDRIElement"
+																data-count="4">
+								&nbsp;HDRI Element							</option>
+
+						
+							<option
+								id="category-Ice"
+								data-type="material"
+								value="Ice"
+																data-count="4">
+								&nbsp;Ice							</option>
+
+						
+							<option
+								id="category-Ivory"
+								data-type="material"
+								value="Ivory"
+																data-count="4">
+								&nbsp;Ivory							</option>
+
+						
+							<option
+								id="category-LeakingSubstance"
+								data-type="substance"
+								value="LeakingSubstance"
+																data-count="4">
+								&nbsp;Leaking Substance							</option>
+
+						
+							<option
+								id="category-MetalPlatesSubstance"
+								data-type="substance"
+								value="MetalPlatesSubstance"
+																data-count="4">
+								&nbsp;Metal Plates Substance							</option>
+
+						
+							<option
+								id="category-Moss"
+								data-type="material"
+								value="Moss"
+																data-count="4">
+								&nbsp;Moss							</option>
+
+						
+							<option
+								id="category-Pathway"
+								data-type="material"
+								value="Pathway"
+																data-count="4">
+								&nbsp;Pathway							</option>
+
+						
+							<option
+								id="category-Pipe"
+								data-type="material"
+								value="Pipe"
+																data-count="4">
+								&nbsp;Pipe							</option>
+
+						
+							<option
+								id="category-Pizza"
+								data-type="material"
+								value="Pizza"
+																data-count="4">
+								&nbsp;Pizza							</option>
+
+						
+							<option
+								id="category-PlanksSubstance"
+								data-type="substance"
+								value="PlanksSubstance"
+																data-count="4">
+								&nbsp;Planks Substance							</option>
+
+						
+							<option
+								id="category-Rubber"
+								data-type="material"
+								value="Rubber"
+																data-count="4">
+								&nbsp;Rubber							</option>
+
+						
+							<option
+								id="category-SheetMetal"
+								data-type="material"
+								value="SheetMetal"
+																data-count="4">
+								&nbsp;Sheet Metal							</option>
+
+						
+							<option
+								id="category-SolarPanel"
+								data-type="material"
+								value="SolarPanel"
+																data-count="4">
+								&nbsp;Solar Panel							</option>
+
+						
+							<option
+								id="category-ThatchedRoof"
+								data-type="material"
+								value="ThatchedRoof"
+																data-count="4">
+								&nbsp;Thatched Roof							</option>
+
+						
+							<option
+								id="category-WrinklesBrush"
+								data-type="brush"
+								value="WrinklesBrush"
+																data-count="4">
+								&nbsp;Wrinkles Brush							</option>
+
+						
+							<option
+								id="category-3DApple"
+								data-type="3d-model"
+								value="3DApple"
+																data-count="3">
+								&nbsp;3D Apple							</option>
+
+						
+							<option
+								id="category-3DPastry"
+								data-type="3d-model"
+								value="3DPastry"
+																data-count="3">
+								&nbsp;3D Pastry							</option>
+
+						
+							<option
+								id="category-AcousticFoam"
+								data-type="material"
+								value="AcousticFoam"
+																data-count="3">
+								&nbsp;Acoustic Foam							</option>
+
+						
+							<option
+								id="category-AsphaltSubstance"
+								data-type="substance"
+								value="AsphaltSubstance"
+																data-count="3">
+								&nbsp;Asphalt Substance							</option>
+
+						
+							<option
+								id="category-Candy"
+								data-type="material"
+								value="Candy"
+																data-count="3">
+								&nbsp;Candy							</option>
+
+						
+							<option
+								id="category-CookieSet"
+								data-type="atlas"
+								value="CookieSet"
+																data-count="3">
+								&nbsp;Cookie Set							</option>
+
+						
+							<option
+								id="category-Foam"
+								data-type="material"
+								value="Foam"
+																data-count="3">
+								&nbsp;Foam							</option>
+
+						
+							<option
+								id="category-Foil"
+								data-type="material"
+								value="Foil"
+																data-count="3">
+								&nbsp;Foil							</option>
+
+						
+							<option
+								id="category-GlazedTerracotta"
+								data-type="material"
+								value="GlazedTerracotta"
+																data-count="3">
+								&nbsp;Glazed Terracotta							</option>
+
+						
+							<option
+								id="category-Leaf"
+								data-type="material"
+								value="Leaf"
+																data-count="3">
+								&nbsp;Leaf							</option>
+
+						
+							<option
+								id="category-MarbleSubstance"
+								data-type="substance"
+								value="MarbleSubstance"
+																data-count="3">
+								&nbsp;Marble Substance							</option>
+
+						
+							<option
+								id="category-PaymentCard"
+								data-type="material"
+								value="PaymentCard"
+																data-count="3">
+								&nbsp;Payment Card							</option>
+
+						
+							<option
+								id="category-PlasticSubstance"
+								data-type="substance"
+								value="PlasticSubstance"
+																data-count="3">
+								&nbsp;Plastic Substance							</option>
+
+						
+							<option
+								id="category-Porcelain"
+								data-type="material"
+								value="Porcelain"
+																data-count="3">
+								&nbsp;Porcelain							</option>
+
+						
+							<option
+								id="category-RockSubstance"
+								data-type="substance"
+								value="RockSubstance"
+																data-count="3">
+								&nbsp;Rock Substance							</option>
+
+						
+							<option
+								id="category-RoofingTilesSubstance"
+								data-type="substance"
+								value="RoofingTilesSubstance"
+																data-count="3">
+								&nbsp;Roofing Tiles Substance							</option>
+
+						
+							<option
+								id="category-Rope"
+								data-type="material"
+								value="Rope"
+																data-count="3">
+								&nbsp;Rope							</option>
+
+						
+							<option
+								id="category-Sponge"
+								data-type="material"
+								value="Sponge"
+																data-count="3">
+								&nbsp;Sponge							</option>
+
+						
+							<option
+								id="category-SurfaceImperfectionsSubstance"
+								data-type="substance"
+								value="SurfaceImperfectionsSubstance"
+																data-count="3">
+								&nbsp;Surface Imperfections Subst...							</option>
+
+						
+							<option
+								id="category-WoodChips"
+								data-type="material"
+								value="WoodChips"
+																data-count="3">
+								&nbsp;Wood Chips							</option>
+
+						
+							<option
+								id="category-3DCookie"
+								data-type="3d-model"
+								value="3DCookie"
+																data-count="2">
+								&nbsp;3D Cookie							</option>
+
+						
+							<option
+								id="category-AsphaltDamageSet"
+								data-type="atlas"
+								value="AsphaltDamageSet"
+																data-count="2">
+								&nbsp;Asphalt Damage Set							</option>
+
+						
+							<option
+								id="category-ChewingGum"
+								data-type="decal"
+								value="ChewingGum"
+																data-count="2">
+								&nbsp;Chewing Gum							</option>
+
+						
+							<option
+								id="category-ChipboardSubstance"
+								data-type="substance"
+								value="ChipboardSubstance"
+																data-count="2">
+								&nbsp;Chipboard Substance							</option>
+
+						
+							<option
+								id="category-ColdCutsSet"
+								data-type="atlas"
+								value="ColdCutsSet"
+																data-count="2">
+								&nbsp;Cold Cuts Set							</option>
+
+						
+							<option
+								id="category-CorrugatedSteelSubstance"
+								data-type="substance"
+								value="CorrugatedSteelSubstance"
+																data-count="2">
+								&nbsp;Corrugated Steel Substance							</option>
+
+						
+							<option
+								id="category-DiamondPlateSubstance"
+								data-type="substance"
+								value="DiamondPlateSubstance"
+																data-count="2">
+								&nbsp;Diamond Plate Substance							</option>
+
+						
+							<option
+								id="category-Door"
+								data-type="decal"
+								value="Door"
+																data-count="2">
+								&nbsp;Door							</option>
+
+						
+							<option
+								id="category-FenceSubstance"
+								data-type="substance"
+								value="FenceSubstance"
+																data-count="2">
+								&nbsp;Fence Substance							</option>
+
+						
+							<option
+								id="category-FingerprintsSubstance"
+								data-type="substance"
+								value="FingerprintsSubstance"
+																data-count="2">
+								&nbsp;Fingerprints Substance							</option>
+
+						
+							<option
+								id="category-GrassSubstance"
+								data-type="substance"
+								value="GrassSubstance"
+																data-count="2">
+								&nbsp;Grass Substance							</option>
+
+						
+							<option
+								id="category-Grate"
+								data-type="material"
+								value="Grate"
+																data-count="2">
+								&nbsp;Grate							</option>
+
+						
+							<option
+								id="category-GravelSubstance"
+								data-type="substance"
+								value="GravelSubstance"
+																data-count="2">
+								&nbsp;Gravel Substance							</option>
+
+						
+							<option
+								id="category-MetalWalkwaySubstance"
+								data-type="substance"
+								value="MetalWalkwaySubstance"
+																data-count="2">
+								&nbsp;Metal Walkway Substance							</option>
+
+						
+							<option
+								id="category-PaintedMetalSubstance"
+								data-type="substance"
+								value="PaintedMetalSubstance"
+																data-count="2">
+								&nbsp;Painted Metal Substance							</option>
+
+						
+							<option
+								id="category-PaintedPlasterSubstance"
+								data-type="substance"
+								value="PaintedPlasterSubstance"
+																data-count="2">
+								&nbsp;Painted Plaster Substance							</option>
+
+						
+							<option
+								id="category-PaintedWoodSubstance"
+								data-type="substance"
+								value="PaintedWoodSubstance"
+																data-count="2">
+								&nbsp;Painted Wood Substance							</option>
+
+						
+							<option
+								id="category-PavingEdge"
+								data-type="decal"
+								value="PavingEdge"
+																data-count="2">
+								&nbsp;Paving Edge							</option>
+
+						
+							<option
+								id="category-PlasterSubstance"
+								data-type="substance"
+								value="PlasterSubstance"
+																data-count="2">
+								&nbsp;Plaster Substance							</option>
+
+						
+							<option
+								id="category-RoadLinesSubstance"
+								data-type="substance"
+								value="RoadLinesSubstance"
+																data-count="2">
+								&nbsp;Road Lines Substance							</option>
+
+						
+							<option
+								id="category-RoadSubstance"
+								data-type="substance"
+								value="RoadSubstance"
+																data-count="2">
+								&nbsp;Road Substance							</option>
+
+						
+							<option
+								id="category-RustSubstance"
+								data-type="substance"
+								value="RustSubstance"
+																data-count="2">
+								&nbsp;Rust Substance							</option>
+
+						
+							<option
+								id="category-SnowSubstance"
+								data-type="substance"
+								value="SnowSubstance"
+																data-count="2">
+								&nbsp;Snow Substance							</option>
+
+						
+							<option
+								id="category-TactilePavingSubstance"
+								data-type="substance"
+								value="TactilePavingSubstance"
+																data-count="2">
+								&nbsp;Tactile Paving Substance							</option>
+
+						
+							<option
+								id="category-TerrazzoSubstance"
+								data-type="substance"
+								value="TerrazzoSubstance"
+																data-count="2">
+								&nbsp;Terrazzo Substance							</option>
+
+						
+							<option
+								id="category-WickerSubstance"
+								data-type="substance"
+								value="WickerSubstance"
+																data-count="2">
+								&nbsp;Wicker Substance							</option>
+
+						
+							<option
+								id="category-WoodSidingSubstance"
+								data-type="substance"
+								value="WoodSidingSubstance"
+																data-count="2">
+								&nbsp;Wood Siding Substance							</option>
+
+						
+							<option
+								id="category-3DAvocado"
+								data-type="3d-model"
+								value="3DAvocado"
+																data-count="1">
+								&nbsp;3D Avocado							</option>
+
+						
+							<option
+								id="category-3DCake"
+								data-type="3d-model"
+								value="3DCake"
+																data-count="1">
+								&nbsp;3D Cake							</option>
+
+						
+							<option
+								id="category-3DCucumber"
+								data-type="3d-model"
+								value="3DCucumber"
+																data-count="1">
+								&nbsp;3D Cucumber							</option>
+
+						
+							<option
+								id="category-3DKiwi"
+								data-type="3d-model"
+								value="3DKiwi"
+																data-count="1">
+								&nbsp;3D Kiwi							</option>
+
+						
+							<option
+								id="category-3DLemon"
+								data-type="3d-model"
+								value="3DLemon"
+																data-count="1">
+								&nbsp;3D Lemon							</option>
+
+						
+							<option
+								id="category-3DMango"
+								data-type="3d-model"
+								value="3DMango"
+																data-count="1">
+								&nbsp;3D Mango							</option>
+
+						
+							<option
+								id="category-3DMelon"
+								data-type="3d-model"
+								value="3DMelon"
+																data-count="1">
+								&nbsp;3D Melon							</option>
+
+						
+							<option
+								id="category-3DStick"
+								data-type="3d-model"
+								value="3DStick"
+																data-count="1">
+								&nbsp;3D Stick							</option>
+
+						
+							<option
+								id="category-3DTreeStump"
+								data-type="3d-model"
+								value="3DTreeStump"
+																data-count="1">
+								&nbsp;3D Tree Stump							</option>
+
+						
+							<option
+								id="category-AcousticFoamSubstance"
+								data-type="substance"
+								value="AcousticFoamSubstance"
+																data-count="1">
+								&nbsp;Acoustic Foam Substance							</option>
+
+						
+							<option
+								id="category-AsphaltDamage"
+								data-type="decal"
+								value="AsphaltDamage"
+																data-count="1">
+								&nbsp;Asphalt Damage							</option>
+
+						
+							<option
+								id="category-BambooSubstance"
+								data-type="substance"
+								value="BambooSubstance"
+																data-count="1">
+								&nbsp;Bamboo Substance							</option>
+
+						
+							<option
+								id="category-CandySubstance"
+								data-type="substance"
+								value="CandySubstance"
+																data-count="1">
+								&nbsp;Candy Substance							</option>
+
+						
+							<option
+								id="category-CardboardSet"
+								data-type="atlas"
+								value="CardboardSet"
+																data-count="1">
+								&nbsp;Cardboard Set							</option>
+
+						
+							<option
+								id="category-CardboardSubstance"
+								data-type="substance"
+								value="CardboardSubstance"
+																data-count="1">
+								&nbsp;Cardboard Substance							</option>
+
+						
+							<option
+								id="category-CarpetSubstance"
+								data-type="substance"
+								value="CarpetSubstance"
+																data-count="1">
+								&nbsp;Carpet Substance							</option>
+
+						
+							<option
+								id="category-ChainmailSubstance"
+								data-type="substance"
+								value="ChainmailSubstance"
+																data-count="1">
+								&nbsp;Chainmail Substance							</option>
+
+						
+							<option
+								id="category-ChewingGumSubstance"
+								data-type="substance"
+								value="ChewingGumSubstance"
+																data-count="1">
+								&nbsp;Chewing Gum Substance							</option>
+
+						
+							<option
+								id="category-ClaySubstance"
+								data-type="substance"
+								value="ClaySubstance"
+																data-count="1">
+								&nbsp;Clay Substance							</option>
+
+						
+							<option
+								id="category-FlowerSet"
+								data-type="material"
+								value="FlowerSet"
+																data-count="1">
+								&nbsp;Flower Set							</option>
+
+						
+							<option
+								id="category-FoamSubstance"
+								data-type="substance"
+								value="FoamSubstance"
+																data-count="1">
+								&nbsp;Foam Substance							</option>
+
+						
+							<option
+								id="category-FoilSubstance"
+								data-type="substance"
+								value="FoilSubstance"
+																data-count="1">
+								&nbsp;Foil Substance							</option>
+
+						
+							<option
+								id="category-FootstepsSubstance"
+								data-type="substance"
+								value="FootstepsSubstance"
+																data-count="1">
+								&nbsp;Footsteps Substance							</option>
+
+						
+							<option
+								id="category-GlazedTerracottaSubstance"
+								data-type="substance"
+								value="GlazedTerracottaSubstance"
+																data-count="1">
+								&nbsp;Glazed Terracotta Substance							</option>
+
+						
+							<option
+								id="category-GraffitiSet"
+								data-type="atlas"
+								value="GraffitiSet"
+																data-count="1">
+								&nbsp;Graffiti Set							</option>
+
+						
+							<option
+								id="category-GraniteSubstance"
+								data-type="substance"
+								value="GraniteSubstance"
+																data-count="1">
+								&nbsp;Granite Substance							</option>
+
+						
+							<option
+								id="category-IceSubstance"
+								data-type="substance"
+								value="IceSubstance"
+																data-count="1">
+								&nbsp;Ice Substance							</option>
+
+						
+							<option
+								id="category-IvorySubstance"
+								data-type="substance"
+								value="IvorySubstance"
+																data-count="1">
+								&nbsp;Ivory Substance							</option>
+
+						
+							<option
+								id="category-LavaSubstance"
+								data-type="substance"
+								value="LavaSubstance"
+																data-count="1">
+								&nbsp;Lava Substance							</option>
+
+						
+							<option
+								id="category-Logs"
+								data-type="material"
+								value="Logs"
+																data-count="1">
+								&nbsp;Logs							</option>
+
+						
+							<option
+								id="category-MossSubstance"
+								data-type="substance"
+								value="MossSubstance"
+																data-count="1">
+								&nbsp;Moss Substance							</option>
+
+						
+							<option
+								id="category-NetSubstance"
+								data-type="substance"
+								value="NetSubstance"
+																data-count="1">
+								&nbsp;Net Substance							</option>
+
+						
+							<option
+								id="category-NightSkyHDRISubstance"
+								data-type="substance"
+								value="NightSkyHDRISubstance"
+																data-count="1">
+								&nbsp;Night Sky HDRI Substance							</option>
+
+						
+							<option
+								id="category-OfficeCeilingSubstance"
+								data-type="substance"
+								value="OfficeCeilingSubstance"
+																data-count="1">
+								&nbsp;Office Ceiling Substance							</option>
+
+						
+							<option
+								id="category-OnyxSubstance"
+								data-type="substance"
+								value="OnyxSubstance"
+																data-count="1">
+								&nbsp;Onyx Substance							</option>
+
+						
+							<option
+								id="category-PaintedBricksSubstance"
+								data-type="substance"
+								value="PaintedBricksSubstance"
+																data-count="1">
+								&nbsp;Painted Bricks Substance							</option>
+
+						
+							<option
+								id="category-Painting"
+								data-type="material"
+								value="Painting"
+																data-count="1">
+								&nbsp;Painting							</option>
+
+						
+							<option
+								id="category-PaintSubstance"
+								data-type="substance"
+								value="PaintSubstance"
+																data-count="1">
+								&nbsp;Paint Substance							</option>
+
+						
+							<option
+								id="category-PaymentCardSubstance"
+								data-type="substance"
+								value="PaymentCardSubstance"
+																data-count="1">
+								&nbsp;Payment Card Sbustance							</option>
+
+						
+							<option
+								id="category-PineNeedles"
+								data-type="atlas"
+								value="PineNeedles"
+																data-count="1">
+								&nbsp;Pine Needles							</option>
+
+						
+							<option
+								id="category-PipeSubstance"
+								data-type="substance"
+								value="PipeSubstance"
+																data-count="1">
+								&nbsp;Pipe Substance							</option>
+
+						
+							<option
+								id="category-PorcelainSubstance"
+								data-type="substance"
+								value="PorcelainSubstance"
+																data-count="1">
+								&nbsp;Porcelain Substance							</option>
+
+						
+							<option
+								id="category-Rails"
+								data-type="material"
+								value="Rails"
+																data-count="1">
+								&nbsp;Rails							</option>
+
+						
+							<option
+								id="category-RockBrush"
+								data-type="brush"
+								value="RockBrush"
+																data-count="1">
+								&nbsp;Rock Brush							</option>
+
+						
+							<option
+								id="category-RopeSubstance"
+								data-type="substance"
+								value="RopeSubstance"
+																data-count="1">
+								&nbsp;Rope Substance							</option>
+
+						
+							<option
+								id="category-RubberSubstance"
+								data-type="substance"
+								value="RubberSubstance"
+																data-count="1">
+								&nbsp;Rubber Substance							</option>
+
+						
+							<option
+								id="category-ScatteredLeavesSubstance"
+								data-type="substance"
+								value="ScatteredLeavesSubstance"
+																data-count="1">
+								&nbsp;Scattered Leaves Substance							</option>
+
+						
+							<option
+								id="category-ScratchesSubstance"
+								data-type="substance"
+								value="ScratchesSubstance"
+																data-count="1">
+								&nbsp;Scratches Substance							</option>
+
+						
+							<option
+								id="category-ScrewSet"
+								data-type="atlas"
+								value="ScrewSet"
+																data-count="1">
+								&nbsp;Screw Set							</option>
+
+						
+							<option
+								id="category-ScrewSubstance"
+								data-type="substance"
+								value="ScrewSubstance"
+																data-count="1">
+								&nbsp;Screw Substance							</option>
+
+						
+							<option
+								id="category-SheetMetalSubstance"
+								data-type="substance"
+								value="SheetMetalSubstance"
+																data-count="1">
+								&nbsp;Sheet Metal Substance							</option>
+
+						
+							<option
+								id="category-Shells"
+								data-type="material"
+								value="Shells"
+																data-count="1">
+								&nbsp;Shells							</option>
+
+						
+							<option
+								id="category-ShellSet"
+								data-type="atlas"
+								value="ShellSet"
+																data-count="1">
+								&nbsp;Shell Set							</option>
+
+						
+							<option
+								id="category-SignSubstance"
+								data-type="substance"
+								value="SignSubstance"
+																data-count="1">
+								&nbsp;Sign Substance							</option>
+
+						
+							<option
+								id="category-SolarPanelSubstance"
+								data-type="substance"
+								value="SolarPanelSubstance"
+																data-count="1">
+								&nbsp;Solar Panel Substance							</option>
+
+						
+							<option
+								id="category-SpongeSubstance"
+								data-type="substance"
+								value="SpongeSubstance"
+																data-count="1">
+								&nbsp;Sponge Substance							</option>
+
+						
+							<option
+								id="category-Sticker"
+								data-type="material"
+								value="Sticker"
+																data-count="1">
+								&nbsp;Sticker							</option>
+
+						
+							<option
+								id="category-StickSet"
+								data-type="material"
+								value="StickSet"
+																data-count="1">
+								&nbsp;Stick Set							</option>
+
+						
+							<option
+								id="category-StyrofoamSubstance"
+								data-type="substance"
+								value="StyrofoamSubstance"
+																data-count="1">
+								&nbsp;Styrofoam Substance							</option>
+
+						
+							<option
+								id="category-TapeSubstance"
+								data-type="substance"
+								value="TapeSubstance"
+																data-count="1">
+								&nbsp;Tape Substance							</option>
+
+						
+							<option
+								id="category-TatamiSubstance"
+								data-type="substance"
+								value="TatamiSubstance"
+																data-count="1">
+								&nbsp;Tatami Substance							</option>
+
+						
+							<option
+								id="category-ThatchedRoofSubstance"
+								data-type="substance"
+								value="ThatchedRoofSubstance"
+																data-count="1">
+								&nbsp;Thatched Roof Substance							</option>
+
+						
+							<option
+								id="category-TireTracks"
+								data-type="decal"
+								value="TireTracks"
+																data-count="1">
+								&nbsp;Tire Tracks							</option>
+
+						
+							<option
+								id="category-TravertineSubstance"
+								data-type="substance"
+								value="TravertineSubstance"
+																data-count="1">
+								&nbsp;Travertine Substance							</option>
+
+						
+							<option
+								id="category-WallpaperSubstance"
+								data-type="substance"
+								value="WallpaperSubstance"
+																data-count="1">
+								&nbsp;Wallpaper Substance							</option>
+
+						
+					</select>
+				</details>
+
+				<hr class="thin">
+
+				<!-- Technique -->
+				<details data-cookie-controlled="reveal-technique">
+					<summary data-bold-if-active>
+						Special Techniques<button class="reset-button" data-reset-target=".technique-select">↺</button>
+					</summary>
+
+					<select
+						data-toggleable
+						multiple
+						name="technique[]"
+						class="technique-select"
+						size="3">
+
+						<option value="surface-photogrammetry"
+							>
+							Photogrammetry
+						</option>
+						<option value="surface-photometric-stereo"
+							>
+							Photometric Stereo
+						</option>
+						<option value="hdri-bracketed-panorama-horizon-clearing"
+							>
+							Cleaned Horizon
+						</option>
+					</select>
+
+				</details>
+
+				<hr class="thin">
+
+				<!-- Color -->
+				<details data-cookie-controlled="reveal-color">
+					<summary data-bold-if-active>
+						Color<button class="reset-button" data-reset-target="#color-mode-select">↺</button>
+					</summary>
+					<select
+						onchange="document.querySelector('#color-select').disabled = !this.value;"
+						id="color-mode-select"
+						name="colorMode">
+
+						<option value="">Off</option>
+													<option
+								value="global"
+								>
+								On&nbsp;(Global)
+							</option>
+													<option
+								value="accent"
+								>
+								On&nbsp;(Accent)
+							</option>
+						
+					</select>
+					<label hidden for="color-select">Color</label>
+					<input disabled name="color" id="color-select" type="color" value="#116dd5">
+					<div id="color-presets">
+													<button
+								class="color-preset"
+								data-target-color="#e53939"
+								style="background-color:#e53939;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#e5e539"
+								style="background-color:#e5e539;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#39e539"
+								style="background-color:#39e539;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#39e5e5"
+								style="background-color:#39e5e5;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#3939e5"
+								style="background-color:#3939e5;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#e539e5"
+								style="background-color:#e539e5;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#e5e5e5"
+								style="background-color:#e5e5e5;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#7f7f7f"
+								style="background-color:#7f7f7f;">
+							</button>
+													<button
+								class="color-preset"
+								data-target-color="#191919"
+								style="background-color:#191919;">
+							</button>
+											</div>
+
+
+				</details>
+
+				<hr class="thin">
+
+				<!-- Collections -->
+				<details data-cookie-controlled="reveal-collection">
+					<summary data-bold-if-active>
+						Collection<button class="reset-button" data-reset-target=".collection-select">↺</button>
+					</summary>
+					<label hidden for="collection">Collection</label>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/22.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-bcon25"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="bcon25"
+									 />
+								<label for="collection-bcon25">
+									<span>
+										<span class="collection-title">Blender Conference 2025</span>
+										<span class="collection-asset-count">(5)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/7.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-factory"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="factory"
+									 />
+								<label for="collection-factory">
+									<span>
+										<span class="collection-title">Industrial Manufacturing Facility</span>
+										<span class="collection-asset-count">(110)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/10.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-glowing-skies"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="glowing-skies"
+									 />
+								<label for="collection-glowing-skies">
+									<span>
+										<span class="collection-title">Glowing Skies</span>
+										<span class="collection-asset-count">(9)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="Banner Artwork by Raihan Erviansyah" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/14.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-ancient-catacombs"
+									type="radio"
+									title="Banner Artwork by Raihan Erviansyah"
+									name="collection"
+									class="collection-select"
+									value="ancient-catacombs"
+									 />
+								<label for="collection-ancient-catacombs">
+									<span>
+										<span class="collection-title">Ancient Catacombs</span>
+										<span class="collection-asset-count">(22)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/3.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-kitchen"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="kitchen"
+									 />
+								<label for="collection-kitchen">
+									<span>
+										<span class="collection-title">Kitchen</span>
+										<span class="collection-asset-count">(116)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/1.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-happy-holidays"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="happy-holidays"
+									 />
+								<label for="collection-happy-holidays">
+									<span>
+										<span class="collection-title">Happy Holidays!</span>
+										<span class="collection-asset-count">(53)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/4.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-borkum"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="borkum"
+									 />
+								<label for="collection-borkum">
+									<span>
+										<span class="collection-title">Island of Borkum</span>
+										<span class="collection-asset-count">(34)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/2.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-bathroom"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="bathroom"
+									 />
+								<label for="collection-bathroom">
+									<span>
+										<span class="collection-title">Bathroom</span>
+										<span class="collection-asset-count">(26)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/9.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-crime-scene"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="crime-scene"
+									 />
+								<label for="collection-crime-scene">
+									<span>
+										<span class="collection-title">Crime Scene</span>
+										<span class="collection-asset-count">(19)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/5.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-solarpunk"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="solarpunk"
+									 />
+								<label for="collection-solarpunk">
+									<span>
+										<span class="collection-title">Solarpunk</span>
+										<span class="collection-asset-count">(15)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/16.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-lake-constanze"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="lake-constanze"
+									 />
+								<label for="collection-lake-constanze">
+									<span>
+										<span class="collection-title">Lake Constanze Panoramas</span>
+										<span class="collection-asset-count">(14)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/20.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-paris"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="paris"
+									 />
+								<label for="collection-paris">
+									<span>
+										<span class="collection-title">Paris Panoramas</span>
+										<span class="collection-asset-count">(14)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/6.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-forest-ways"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="forest-ways"
+									 />
+								<label for="collection-forest-ways">
+									<span>
+										<span class="collection-title">Forest Ways</span>
+										<span class="collection-asset-count">(7)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/19.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-bedroom"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="bedroom"
+									 />
+								<label for="collection-bedroom">
+									<span>
+										<span class="collection-title">Bedroom</span>
+										<span class="collection-asset-count">(7)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+						<div title="" style="background-image:url( https://acg-media.struffelproductions.com/file/ambientCG-Web/media/collection/21.jpg);" class="collection-container">
+							<div>
+								<input
+									id="collection-bentheim-castle"
+									type="radio"
+									title=""
+									name="collection"
+									class="collection-select"
+									value="bentheim-castle"
+									 />
+								<label for="collection-bentheim-castle">
+									<span>
+										<span class="collection-title">Bentheim Castle</span>
+										<span class="collection-asset-count">(4)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					
+
+				</details>
+
+				<hr class="thin">
+
+				<!-- Display -->
+				<details data-cookie-controlled="reveal-display">
+					<summary>
+						Display & Sort
+					</summary>
+
+					<label for="thumbnails">Thumbnail Size</label>
+					<input
+						onchange="setCookie('thumbnail-size',this.value,30);"
+						type="range"
+						id="thumbnails"
+						name="thumbnails"
+						min="100"
+						max="500"
+						step="50"
+						value="200" />
+
+					<label for=" sort">Sort by:</label>
+					<select name="sort" onchange="setCookie('sort',this.value,30);">
+													<option value="popular" selected>Popular</option>
+													<option value="latest" >Latest</option>
+													<option value="downloads" >Downloads</option>
+													<option value="oldest" >Oldest</option>
+													<option value="random" >Random</option>
+													<option value="alphabet" >Alphabet</option>
+						
+					</select>
+				</details>
+
+							</form>
+
+		</nav>
+
+		<div id="asset-list">
+
+		</div>
+	</main>
+</body>
+
+</html>

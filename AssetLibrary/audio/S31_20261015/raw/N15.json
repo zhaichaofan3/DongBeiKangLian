@@ -1,0 +1,11 @@
+{
+  "id": "N15",
+  "part": "A",
+  "text": "也是中华民族在每次危难之际迸发的复兴强音",
+  "voice": "Microsoft Kangkang",
+  "rate": -1,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

@@ -1,0 +1,417 @@
+{
+  "step": "S07",
+  "recorded_at": "2026-10-13T06:41:04.456950+00:00",
+  "scope": "local evidence/source integrity audit; not additional gameplay assertions or final artistic acceptance",
+  "all_passed": true,
+  "passed": 17,
+  "total": 17,
+  "checks": [
+    {
+      "label": "Canonical narration exact text",
+      "passed": true
+    },
+    {
+      "label": "Canonical narration SHA256",
+      "passed": true
+    },
+    {
+      "label": "A cues exactly match approved source",
+      "passed": true
+    },
+    {
+      "label": "B cues exactly match approved source",
+      "passed": true
+    },
+    {
+      "label": "33 shot IDs and approved order",
+      "passed": true
+    },
+    {
+      "label": "Approved shot times and segment mapping",
+      "passed": true
+    },
+    {
+      "label": "Durations and event cards match storyboard",
+      "passed": true
+    },
+    {
+      "label": "Reference GLB source copy",
+      "passed": true
+    },
+    {
+      "label": "33 shot captures and 2 handoff captures",
+      "passed": true
+    },
+    {
+      "label": "All captures 1280x720 PNG",
+      "passed": true
+    },
+    {
+      "label": "accepted-headless report all passed",
+      "passed": true
+    },
+    {
+      "label": "accepted-headless log no errors or exit warnings",
+      "passed": true
+    },
+    {
+      "label": "accepted-render report all passed",
+      "passed": true
+    },
+    {
+      "label": "accepted-render log no errors or exit warnings",
+      "passed": true
+    },
+    {
+      "label": "accepted-live report all passed",
+      "passed": true
+    },
+    {
+      "label": "accepted-live log no errors or exit warnings",
+      "passed": true
+    },
+    {
+      "label": "Data generator Python syntax",
+      "passed": true
+    }
+  ],
+  "implementation_files": [
+    {
+      "path": "tools/build_s07_opening_data.py",
+      "sha256": "0eb02a9a94fb0b79dd48b93ec5fb9c6bbd000dfe00326499caefa7cb1531cf36",
+      "bytes": 5777
+    },
+    {
+      "path": "Test-Opening.ps1",
+      "sha256": "defbd4ddabd12ceee59830ad9f384de3c61b325f1fa305da77a22c539b4622e9",
+      "bytes": 2401
+    },
+    {
+      "path": "GodotProject/scripts/opening_director.gd",
+      "sha256": "c256c25be7fc3435a8324730407c7a006af840c1da72df088cb119092fecfc76",
+      "bytes": 17324
+    },
+    {
+      "path": "GodotProject/scripts/mission.gd",
+      "sha256": "44e01b5ec6694aa46ac47d294b5cd526718cd4d2e1fcecaf9293f73ba5685a0d",
+      "bytes": 27781
+    },
+    {
+      "path": "GodotProject/scripts/hud.gd",
+      "sha256": "db632ddfd4c6ad2ed2d667c80017c0c5c6eb9737211e36bd3991b5bf8d4e017d",
+      "bytes": 17080
+    },
+    {
+      "path": "GodotProject/tests/opening.gd",
+      "sha256": "8b1268dfaef0afc616ff07106fd6a809d14ce7eab010cd6afb7b8e14ad78e9b8",
+      "bytes": 9382
+    },
+    {
+      "path": "GodotProject/tests/opening_live.gd",
+      "sha256": "0b584f1d4c59939d7f87985b22bbfd7ad39871c3e7da75dc394f188f05d009f6",
+      "bytes": 2031
+    },
+    {
+      "path": "GodotProject/export_presets.cfg",
+      "sha256": "325db67ee4cf6f7dee124c9835186944f47287bb18f14de7430444a9d7549eef",
+      "bytes": 581
+    },
+    {
+      "path": "GodotProject/assets/opening/opening.json",
+      "sha256": "134644d724d15baf447fd325065103e291d8e80e5fae3bc61f6b8f5e1831e29c",
+      "bytes": 50577
+    },
+    {
+      "path": "GodotProject/assets/opening/tianchi_reference.glb",
+      "sha256": "6cb48b44e743abf97744865079ea7032aadf4a3d70c41c87b621a5ceec8741c7",
+      "bytes": 5036956
+    },
+    {
+      "path": "GodotProject/assets/opening/reference_source.json",
+      "sha256": "b4e0e49c2100e6e4b9df0495fc698b209a13d391b56d428e4612b30bf07c5811",
+      "bytes": 598
+    }
+  ],
+  "frames": [
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-01.png",
+      "sha256": "fc75abe6e03a534e8fc4e873cb9d35cc3ecceb0bc30b429caea16acc006d595f",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-02.png",
+      "sha256": "19aea5fca40e83e67640ce1d498b1997bd838bfeb2271b6d5d7d3732449a7313",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-03.png",
+      "sha256": "8749d66207ea89904148ec4dde13a6c9c3d18573392f8fb34d4028e6241b9e6d",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-04.png",
+      "sha256": "4ed00803d5570de39a277fedcc83d6a2812ac8cd8767ef157c996f649c72d708",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-05.png",
+      "sha256": "c5bd7bca3319a47e17145461abb9357e3cde57c6183180bd9ba554ed923604df",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-06.png",
+      "sha256": "7e84280e79e5fb56f7a77934edfc8495431eead97e30210b34870e46841e3747",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-07.png",
+      "sha256": "59a080b72668e3e1c9aaeb19365c8a1dec54541a16b46e1e6e2aa73fd532ef55",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-08.png",
+      "sha256": "a8c7927ca84ddc464553f393052f34baa7a6f2c8431de181c4a469dca3d07cf2",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-09.png",
+      "sha256": "24e70860f5cf839df66782bc53cc6c0811f8329f731b213d3e1707f7a87390e1",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-10.png",
+      "sha256": "3d397de5c7b3d6fff288cab2b3a4688b612f228e3d04555f49f3e28b6854bad5",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-11.png",
+      "sha256": "4be0d220b364c7da6c1d76bec73b6f4d6ab87b503628b056946610a88422367f",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-12.png",
+      "sha256": "3ab0bde11e38268d4ac27d5d00962bbf29ee570334c83cfedb68f368ff0b6900",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-13.png",
+      "sha256": "c91fbee32103647c84b0051787c9a49daf005353b306954246c9d9d7dfb86363",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-14.png",
+      "sha256": "287f38f8e2e5140ac56666a1b975aa5e8e8031e0bff71f275852c94fbff147e6",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-15.png",
+      "sha256": "4c8bea1553ae922d1c198403ed953a6a2eb5e1f711135c3535d7e238f24b3d9b",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-16.png",
+      "sha256": "60818458a690565935b53a84ed313637fbeba0294e3f6372cd053c77c39bd73e",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/A-17.png",
+      "sha256": "e14cf9b61fd65797ce60854d09aae137d3bedc7695b313b396b1237ca9b52ce6",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/after-handoff.png",
+      "sha256": "58cc424b05a0cac562b9baeb0a27c24b4e54d4947b35bc36c49cc45cefa52b5c",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-01.png",
+      "sha256": "b68ef85834f2a9efa8fe2a7ecd55da3318d6ae28045c59c5f5706b7e97bd5f37",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-02.png",
+      "sha256": "f7a87447e090cc20053137267e582db865b825d74f3d447140f27ce705ab0b30",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-03.png",
+      "sha256": "2f140ab71107205c03f35b56b92c3bdff0916d99b5543eec86401ed1431bde72",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-04.png",
+      "sha256": "dfd6ee750240163a2f50953f91f21bf9ec9962487ad52a5b51f49a9ffaa86d2b",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-05.png",
+      "sha256": "ebc697a67add7a88493655819730429a3fa0e858ce9e76de30d5d95d735a3da7",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-06.png",
+      "sha256": "d026b55eec57d5249f29eba3f4d63bf6936c15ffaddc4f6f72c56846d5cb5e7c",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-07.png",
+      "sha256": "4d74c9ff1a1aee37655d9425b3c6f50ff7627924eec5d77ce0cca3c49d9fdf63",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-08.png",
+      "sha256": "3409a69bbcd641e60b0a81cf54e236e24ce305c46dc8a1d5e479fd2c2048cb01",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-09.png",
+      "sha256": "245c26116443e5718b6a248e455fbca49a20c5f3370b54b1b44f634be6447872",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-10.png",
+      "sha256": "f1e4109a0ea823f479ab15fe51bb28302034b94c4531b22ff30bc264939eb77b",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-11.png",
+      "sha256": "bb787025bb76ef9751680cfcd38611326229560d6f678f3ce20a60da58802e3a",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-12.png",
+      "sha256": "63d24a4d4f349ff7c401f22b16354dde8f6f86869676b05631671e0ad2ff9873",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-13.png",
+      "sha256": "6e996c0bcd29699b4287292d35302bf92806b07b0ffd1970162ba952778a7f04",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-14.png",
+      "sha256": "2adc267a53cffcab738be416170e2aa9287acb6c19cfb14fdad021f7f7365c2f",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-15.png",
+      "sha256": "8caef88af2c3b87172cb4c8250580f2ce7dda63d2792c82b2d78c35676df1808",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/B-16.png",
+      "sha256": "f66ff50ce3f42887d951b93f3c9ae8f8a0ab6d4e28af05602ad2a4968540b25f",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/narrative/S07/accepted-render/frames/before-handoff.png",
+      "sha256": "49564799a1e16ea7e29beefa11b4799979730a99dc1b5e54df295940ffb497d7",
+      "size": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

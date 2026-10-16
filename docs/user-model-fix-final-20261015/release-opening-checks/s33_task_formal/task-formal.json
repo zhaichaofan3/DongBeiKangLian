@@ -1,0 +1,69 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "All 16 authored task shots remain available",
+      "passed": true
+    },
+    {
+      "description": "B1-B6 has all 14 dialogue cues and the shared temporary voice set",
+      "passed": true
+    },
+    {
+      "description": "B1 starts the two-person Tianchi exchange with its formal label",
+      "passed": true
+    },
+    {
+      "description": "B3 states the original rendezvous and keeps the departure route available",
+      "passed": true
+    },
+    {
+      "description": "B4 compresses the multi-day journey with separate time/place cards",
+      "passed": true
+    },
+    {
+      "description": "B5 reveals Lu Shan's injury and roster risk without starting gameplay combat",
+      "passed": true
+    },
+    {
+      "description": "B6 final dialogue leaves the player-facing handoff cue visible",
+      "passed": true
+    },
+    {
+      "description": "B6 ends on the authored player-facing handoff composition",
+      "passed": true
+    },
+    {
+      "description": "B1-B6 previews leave gameplay resources and objectives unchanged",
+      "passed": true
+    },
+    {
+      "description": "Continuous task prologue playback reaches all B shots and dialogue cues",
+      "passed": true
+    },
+    {
+      "description": "B6 commits one and only one gameplay handoff",
+      "passed": true
+    },
+    {
+      "description": "Handoff marks briefing complete while leaving objectives and ammunition untouched",
+      "passed": true
+    },
+    {
+      "description": "Player camera and start anchor are restored at handoff",
+      "passed": true
+    },
+    {
+      "description": "Repeated finish cannot duplicate the task handoff",
+      "passed": true
+    }
+  ],
+  "dialogue_cues": 14,
+  "handoff": "single_S25_contract",
+  "music": "user_global_20261015",
+  "sfx_listening": "pending_S28",
+  "status": "runtime_pass_audio_and_visual_review_pending",
+  "step": "S33",
+  "task_shots": 16,
+  "voice": "temporary_synthetic"
+}

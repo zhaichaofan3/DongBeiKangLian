@@ -1,0 +1,66 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: New game title in application and menu
+PASS: Title menu uses the scenic camera
+PASS: Thirteen guards: 3 checkpoint, 4 timber, 4 office, 1 door ambusher, 1 pier
+PASS: Friendly coat is grey: scout
+PASS: Friendly coat is grey: lu
+PASS: First-person sleeves and cuffs share the grey uniform palette
+PASS: Every new patrol has a traversable path
+PASS: Added checkpoint guards must also be defeated
+PASS: All three checkpoint guards unlock first gate
+PASS: Added timber guards must also be defeated
+PASS: All four timber guards unlock second gate
+PASS: Second gate retains its separate original ambush
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+GRAPPLE CAMERA: (50.0023, 1.657524, 36.0) ENEMY: (49.12346, 0.08, 35.56173) PLAYER: (50.0, 0.08, 36.0) CURRENT: /root/Main/@Node3D@3081/@Camera3D@3082
+PASS: Office grapple pauses without advancing
+PASS: Counterattack finishes and saves the fourth office defeat
+PASS: Completed office encounter does not replay after load
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_2
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_3
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_4
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: Hold starts at thirty seconds and blocks early extraction
+PASS: First pursuing soldier arrives when untying starts
+PASS: Top-left countdown displays 00:30
+PASS: No new wave while a pursuing soldier remains alive
+PASS: Next wave does not spawn before two seconds after death
+PASS: Pause freezes both countdown and spawn delay
+PASS: Next group contains two soldiers
+PASS: Load restores exact pursuing soldiers without duplication
+PASS: Pursuit continues beyond the first group
+PASS: Load preserves partially completed thirty-second hold
+PASS: Thirty seconds permits joint evacuation
+PASS: Spawning ends when the hold completes
+PASS: Completed hold survives reload
+PASS: Revised mission still reaches its shared ending
+PASS: Original twelve-second extraction save remains valid
+PASS: Half-completed old hold migrates to half of thirty seconds
+PASS: Completed original hold stays complete
+USER REVISION: PASS 61/61

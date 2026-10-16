@@ -1,0 +1,83 @@
+{
+  "step": "S08",
+  "checked_at": "2026-10-13T06:57:48.280862+00:00",
+  "scope": "design data and static 2D clearance, not runtime collision or human playtest",
+  "checks": {
+    "all_105_resource_ids_retained": true,
+    "all_slot_assets_in_inventory": true,
+    "all_proposed_slot_clearances": true,
+    "no_game_source_changes": true,
+    "duration_budgets_sum_320_560": true,
+    "gate_locations_preserved": true,
+    "all_paths_surveyed": true,
+    "canonical_narration_unaltered": true
+  },
+  "all_passed": true,
+  "game_source_files_unchanged": 289,
+  "resource_dispositions": {
+    "正式使用": 38,
+    "改造": 33,
+    "备用": 28,
+    "过场": 3,
+    "远景": 3
+  },
+  "clearance_samples_spacing_m": 0.1,
+  "slot_clearances": [
+    {
+      "slot": "D01",
+      "nearest_route": "O01",
+      "centreline_clearance_m": 18.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D02",
+      "nearest_route": "O01",
+      "centreline_clearance_m": 10.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D03",
+      "nearest_route": "R02",
+      "centreline_clearance_m": 14.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D04",
+      "nearest_route": "R05",
+      "centreline_clearance_m": 6.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D05",
+      "nearest_route": "R04b",
+      "centreline_clearance_m": 11.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D06",
+      "nearest_route": "O01",
+      "centreline_clearance_m": 2.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D07",
+      "nearest_route": "R04b",
+      "centreline_clearance_m": 12.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D08",
+      "nearest_route": "R04b",
+      "centreline_clearance_m": 3.0,
+      "at_least_1_2m": true
+    },
+    {
+      "slot": "D09",
+      "nearest_route": "O01",
+      "centreline_clearance_m": 6.403,
+      "at_least_1_2m": true
+    }
+  ],
+  "survey_log_sha256": "f7a1dec19cc6fee57b406862fde96cd1bc3a51061dd2e2d7bfbb1db9394bc232",
+  "map_sha256": "d99546b751c6d16c07dbb3cbc2ef9fb441287c2386c1ebc74db308ebb3b47e88"
+}

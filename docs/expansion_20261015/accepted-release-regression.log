@@ -1,0 +1,941 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Player rests on ground
+PASS: New mission begins with thirteen placed guards including the door ambusher
+PASS: WASD direction
+PASS: Walls block movement
+PASS: Walls block enemy sight
+PASS: Enemy sees exposed player
+PASS: Guard first shot suppresses without unavoidable damage
+PASS: Exposed player can still be damaged by deliberate close-range fire
+PASS: Rifle consumes ammo and hits physical target
+PASS: Immediate defeat checkpoint includes the shot ammunition deduction
+PASS: Reload transfers ammo
+PASS: Weapon switches independent model
+PASS: Mission requires contact briefing
+PASS: Walk to scout
+PASS: E opens face-to-face conversation
+PASS: Dialogue pauses movement and combat
+PASS: Optional route question has a distinct response
+PASS: Briefing unlocks mission and restores control
+PASS: J opens journal from gameplay
+PASS: Escape closes journal
+PASS: Walk to logger shelter
+PASS: Logger offers supplies in person
+PASS: Medical choice grants exactly one bandage
+PASS: Repeat conversation cannot duplicate reward
+PASS: Player bandage consumes resource and restores 40 health
+PASS: Supply cache is reachable
+PASS: World supply is collectible
+PASS: Supply cache cannot be collected twice
+PASS: Closed door blocks navigation
+PASS: Reach office door approach
+PASS: Approach physical door
+PASS: Door interaction opens physics and navigation
+PASS: Door closes and restores collision
+PASS: Player can stand in doorway
+PASS: Door cannot close on player
+PASS: Walk through open door
+PASS: Reach letter shelf without stepping into bench
+PASS: World letter opens narrative reading
+PASS: Journal preserves discovered letter
+PASS: Codebook route clears desk
+PASS: Roster pickup advances story
+PASS: Roster cannot be collected twice
+PASS: Reach power switch around desk
+PASS: Power switch extinguishes lights and glowing lanterns
+PASS: Reinforcements respect cap
+PASS: Reach wounded courier
+PASS: Wounded courier offers rescue dialogue
+PASS: Treatment consumes bandage and starts escort
+PASS: Wait command stops companion
+PASS: Player can scout ahead
+PASS: Waiting companion stays in place
+PASS: Return to waiting companion
+PASS: Follow command resumes escort
+PASS: Death opens retry menu
+PASS: Checkpoint restores mission
+PASS: Checkpoint restores companion treatment, command and position
+PASS: Checkpoint preserves narrative choices, inventory and door
+PASS: Continuous walking reaches evacuation
+PASS: Companion walks entire office-to-river route without teleporting
+PASS: Evacuation ends in a character conversation
+PASS: Both characters and roster depart for the village
+PASS: Ferry transition opens the village chapter
+PASS: Invalid companion snapshot rejected
+PASS: Invalid weapon snapshot rejected
+PASS: Corrupt JSON rejected
+PASS: Restart resets narrative, door and companion
+PASS: Alternative ammo choice grants different reward
+PASS: Rescue remains possible without bandages
+PASS: Distant companion cannot satisfy evacuation
+PASS: Waiting companion overlaps evacuation interaction range
+PASS: Dock prompt offers nearby companion conversation
+PASS: Evacuation does not block talking to waiting companion
+PASS: Follow command works inside evacuation area
+PASS: Companion walks from waiting position and starts the crossing
+PASS: Dock still explains missing companion when nobody is nearby
+PASS: QA uses isolated presentation preferences
+PASS: Performance preset applies without resetting mission
+PASS: Quality preset enables 4x antialiasing
+PASS: Zero volume fully mutes audio
+PASS: Graphics and control preferences survive reload from disk
+PASS: Invalid preference values retain safe defaults
+PASS: All five initial guard patrols use traversable routes
+PASS: Reinforcements wait while player occupies their fixed entrance
+PASS: Visible road entrance cannot pop a guard into view
+PASS: Pausing freezes reinforcement countdown
+PASS: Power cut has an initial warning delay
+PASS: First delayed guard brings encounter to six-alive cap
+PASS: Full encounter defers reinforcements without consuming them
+PASS: Defeat is persisted immediately with checkpoint state
+PASS: Vacated slot admits exactly one guard
+PASS: Second pair waits the full inter-wave interval
+PASS: Second pair enters from the same predefined road
+PASS: Partially completed reinforcement encounter creates valid save
+PASS: Repeated load restores exact issued count without duplicate reinforcements
+PASS: Defeated initial and legacy-named wave guards stay defeated after load
+PASS: Checkpoint retains surviving guard health and position
+PASS: Checkpoint retains remaining arrival delay
+PASS: Restored delay cannot spawn the last guard early
+PASS: Final arrival exhausts finite four-guard reinforcement roster
+PASS: All nine defeated remain cleared across long waits and load
+PASS: Save rejects reinforcement index beyond finite roster
+PASS: Save rejects negative reinforcement countdown
+PASS: Save rejects malformed active guard position
+PASS: Save rejects defeat of a reinforcement that never arrived
+PASS: Original version-two save with wave_0 identifier remains compatible
+PASS: Legacy encounter migrates original first wave and delays added second wave
+PASS: Legacy migration preserves defeats and initial roster without surprise guards
+PASS: Migrated legacy encounter writes a valid expanded-format checkpoint
+SMOKE RESULT: 108/108 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New mission closes every route gate
+PASS: Briefing approach does not activate later combat
+PASS: Closed checkpoint cannot be bypassed through the map
+PASS: Player cannot skip the mission along either map edge
+PASS: First engagement activates only after contact and approach
+PASS: Closed checkpoint physically stops forward movement
+PASS: Interaction sight ray cannot pass through a closed gate
+PASS: Interaction cannot open the checkpoint before its guard is defeated
+PASS: Empty weapons can take emergency rifle rounds without skipping combat
+PASS: Emergency crate does not duplicate ammunition while rounds remain
+PASS: Emergency ammunition and locked gate survive checkpoint restore
+PASS: Defeating checkpoint guard unlocks its local interaction
+PASS: Opening checkpoint also opens navigation
+PASS: Opened checkpoint permits physical movement
+PASS: Timber lane exit blocks all routes into office sector
+PASS: Both timber defenders must be cleared before the lane opens
+PASS: Cleared timber lane opens the next engagement in order
+PASS: Office approach becomes navigable after opening timber exit
+PASS: Gate progress is immediately saved to the isolated checkpoint
+PASS: Checkpoint restores gate visuals, collision state and navigation together
+PASS: River exit cannot be bypassed from the office sector
+PASS: River gate stays closed before power cut and rescue
+PASS: Power cut and rescue unlock the final route
+PASS: Arrival begins a real thirty-second hold instead of instant victory
+PASS: Pause freezes extraction countdown
+PASS: Leaving the river hold area stops its countdown
+PASS: Waiting courier cannot advance the extraction hold
+PASS: Checkpoint preserves partially completed extraction time
+PASS: Holding with the following courier completes extraction
+PASS: Completed hold permits the final shared evacuation conversation
+PASS: Completed rescue starts the village crossing
+PASS: Linear route continues into the far-bank village
+PASS: Existing version-two checkpoint without linear fields remains readable
+PASS: Legacy checkpoint opens route gates without introducing new locks
+PASS: Malformed linear checkpoint block is rejected
+PASS: Out-of-order gate checkpoint is rejected
+PASS: Negative extraction checkpoint time is rejected
+PASS: Non-numeric extraction checkpoint time is rejected
+LINEAR ROUTE RESULT: 38/38 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ACTIVE COMBAT ROUTE: PASS | health=91.0 | guards defeated=33 | elapsed=151.066666666679 | state=won
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Motion scene starts in normal playable grounded state
+PASS: Motion verification writes only its own temporary checkpoint
+PASS: Rifle begins as the visible active weapon
+PASS: Aim transitions through an intermediate blend
+PASS: Aim changes FOV smoothly without an immediate jump
+PASS: Held aim converges to the intended FOV
+PASS: Aim brings the weapon sights onto the camera centerline
+PASS: Releasing aim restores the hip view
+PASS: Rifle input fires exactly one real round
+PASS: Firing starts a brief muzzle flash and view-model recoil
+PASS: Rifle shot physically lifts and retracts the bolt
+PASS: Firing hand leaves the grip to operate the bolt
+PASS: The firing hand has bound middle and thumb joints
+PASS: Curled finger joints stay around the bolt knob while it is open
+PASS: Cycling the supplied bolt keeps sleeves outside the central sight line
+PASS: Fingers stay within 2.5 cm of the knob throughout lift, pull, push and lock
+PASS: Bolt handle rises above its closed position instead of rotating underneath the rifle
+PASS: Support hand stays planted on the fore-end throughout the bolt cycle
+BOLT CONTACT: samples=[5, 8, 10, 5], max_error_m=[0.00001329415409, 0.00001042491022, 0.00000913328859, 0.00002013410085], support_drift_m=0.0
+PASS: Bolt returns fully to battery after the cycle
+PASS: Firing hand returns to its grip
+PASS: Flash and recoil decay after the shot
+PASS: Held aim recovers its sight alignment after firing and operating the bolt
+PASS: Rifle reload starts without granting ammunition early
+PASS: Mid-reload clip is visible over the open receiver
+PASS: Support hand reaches the receiver during loading
+PASS: Clip has moved down along its insertion path
+PASS: Rifle reload completes with the correct magazine and reserve transfer
+PASS: Completed reload hides the clip and restores the hand and bolt
+PASS: Held aim recovers its sight alignment after reloading
+PASS: Weapon key switches visibility to the pistol
+PASS: Weapon switch begins its timed visual transition
+PASS: Switched pistol rises into its held position
+PASS: Pistol index-finger skin reaches the trigger region inside the guard outline
+PISTOL TRIGGER: resting_joint=(0.028522, -0.046995, -0.011955), closest_finger_surface=(0.009203, -0.051302, -0.018156), trigger_distance_m=0.01056751329452
+PASS: Pistol shot consumes a round and cycles its bolt
+PASS: Pistol bolt returns after cycling
+PASS: Pistol trigger finger visibly pulls and returns to its held grip
+PASS: Pistol reload uses a visible clip and a separate loading hand
+PASS: Pistol reload completes with correct ammunition transfer
+PASS: Pistol loading hand and clip return to normal
+PASS: Restore test begins while shot effects are active
+PASS: Restore immediately cancels an unfinished shot effect
+PASS: Restore test begins during a real unfinished reload
+PASS: Restore cancels loading and restores snapshot ammunition
+PASS: Restore resets all weapon mechanisms and hands
+PASS: Cancelled reload cannot grant ammunition later
+PASS: Weapon-switch test begins during real rifle loading
+PASS: Switching away cancels loading and hides the rifle
+PASS: Switched-away reload cannot grant ammunition later
+PASS: Restore resets the hidden rifle after its interrupted loading action
+PASS: Restore recovers both weapons' ammunition after a cancelled switch reload
+PASS: Motion verification removes its temporary checkpoint
+VISUAL MOTION RESULT: 51/51 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Pre-0.4 story saves remain accepted
+PASS Legacy restore initializes optional field dialogue state
+PASS Walking dialogue leaves player in live gameplay
+PASS Pause does not consume an unheard subtitle
+PASS Saved field dialogue is not repeated on restore
+PASS Cutting power stops room radio and plays switch once
+PASS Loading powered-off checkpoint does not replay the switch
+PASS Unknown narrative flags are rejected safely
+PASS Invalid narrative flag type is rejected safely
+PASS River is a spatial looping stream
+PASS New mission restores radio and fresh dialogue state
+STORY MOMENTS RESULT: 11/11 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scout uses the imported skin, not the fallback model
+PASS: scout instantiates the correct supplied model or preserved civilian
+PASS: scout has every animated body joint
+PASS: scout has valid skin weights and bone bindings
+PASS: scout shows its correct clothing, headgear and injury equipment
+PASS: scout sleeves meet both wrist openings
+PASS: scout retains the supplied textured glove geometry
+PASS: scout relaxed glove has natural palm and finger proportions: 0
+PASS: scout relaxed glove has natural palm and finger proportions: 1
+PASS: scout has human scale without exploded vertices
+PASS: scout standing footwear stays near the floor
+PASS: logger uses the imported skin, not the fallback model
+PASS: logger instantiates the correct supplied model or preserved civilian
+PASS: logger has every animated body joint
+PASS: logger has valid skin weights and bone bindings
+PASS: logger shows its correct clothing, headgear and injury equipment
+PASS: logger has human scale without exploded vertices
+PASS: logger standing footwear stays near the floor
+PASS: wounded uses the imported skin, not the fallback model
+PASS: wounded instantiates the correct supplied model or preserved civilian
+PASS: wounded has every animated body joint
+PASS: wounded has valid skin weights and bone bindings
+PASS: wounded shows its correct clothing, headgear and injury equipment
+PASS: wounded sleeves meet both wrist openings
+PASS: wounded retains the supplied textured glove geometry
+PASS: wounded relaxed glove has natural palm and finger proportions: 0
+PASS: wounded relaxed glove has natural palm and finger proportions: 1
+PASS: Lu Shan has no obsolete forehead bandage crossing his cap or eyes
+PASS: wounded has human scale without exploded vertices
+PASS: wounded standing footwear stays near the floor
+PASS: guard uses the imported skin, not the fallback model
+PASS: guard instantiates the correct supplied model or preserved civilian
+PASS: guard has every animated body joint
+PASS: guard has valid skin weights and bone bindings
+PASS: guard shows its correct clothing, headgear and injury equipment
+PASS: guard sleeves meet both wrist openings
+PASS: guard has human scale without exploded vertices
+PASS: guard standing footwear stays near the floor
+PASS: Walking drives imported legs, arms and torso
+PASS: Walking keeps sleeves attached to both wrists
+PASS: Walking skin stays finite and attached to its rig
+PASS: Walking stance remains at ground level
+PASS: Aiming drives imported shoulder and elbow bones
+PASS: Guard retains a visible rifle during aiming
+PASS: Aiming keeps sleeves attached to both wrists
+PASS: Skinned palms stay within 5.5 cm of both rifle grips while lowered and aiming
+RIFLE GRIP ERROR (m): lowered=0.00003153796933, aiming=0.00000024978897
+PASS: Firing recoil reaches the imported body rig
+PASS: Armed friendly selects gripping gloves instead of relaxed fingers
+PASS: Armed friendly gloves remain connected to both sleeves
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: lowered/0
+FRIENDLY GLOVE DISTANCE (m): lowered/0 nearest=0.01592145673931 farthest=0.10163950175047
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: lowered/1
+FRIENDLY GLOVE DISTANCE (m): lowered/1 nearest=0.01737236790359 farthest=0.09838600456715
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: aim/0
+FRIENDLY GLOVE DISTANCE (m): aim/0 nearest=0.01590701192617 farthest=0.10166443884373
+PASS: Actual friendly glove surface wraps the rifle without extended fingers: aim/1
+FRIENDLY GLOVE DISTANCE (m): aim/1 nearest=0.01737247034907 farthest=0.09838584810495
+PASS: Treating Lu Shan changes his imported injury posture
+PASS: Treatment transition keeps clothing and bandages attached
+PASS: Death lowers the imported head and torso onto the ground
+PASS: Fallen skin remains finite with a horizontal silhouette
+PASS: Fallen character has no substantial underground geometry
+PASS: Death releases prior aiming twists into a consistent relaxed arm pose
+CHARACTER MODEL RESULT: 59/59 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Forest walls retain their original solid volumes and heights
+SKIP: Dummy rendering server does not return MultiMesh instance placements; rendered check verifies wall boxes
+PASS: western wall hides checkpoint enemies
+PASS: checkpoint wall hides the timber sector
+PASS: timber wall hides the office approach
+PASS: Forest wire is limited to two unused spurs
+PASS: 木棚北侧尽头封路: wire mesh and collision are 0.8m high, grounded collision
+PASS: 木棚北侧尽头封路: blocks at wire height with no tall invisible wall
+PASS: 木棚北侧尽头封路: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 木棚北侧尽头封路: ground sprint-jump blocked
+PASS: 木棚北侧尽头封路: crouch blocked
+PASS: 装卸区东侧支巷封路: wire mesh and collision are 0.8m high, grounded collision
+PASS: 装卸区东侧支巷封路: blocks at wire height with no tall invisible wall
+PASS: 装卸区东侧支巷封路: both ends meet scenery, gaps=[0.0, 0.00000002980232]
+PASS: 装卸区东侧支巷封路: ground sprint-jump blocked
+PASS: 装卸区东侧支巷封路: crouch blocked
+PASS: Logger and optional supply approach remain open
+PASS: Checkpoint and timber route remains open after gate clearance
+PASS: Northern escort road remains connected to the ferry
+PASS: Reinforcement entrance retains its ferry route
+PASS: Four opaque courtyard wall wings remain visible
+PASS: Courtyard wall at z=100 hides the next encounter
+PASS: Courtyard wall at z=62 hides the next encounter
+PASS: Village wire closes only three rear alleys
+PASS: 村口西院屋后支巷: wire mesh and collision are 0.8m high, grounded collision
+PASS: 村口西院屋后支巷: blocks at wire height with no tall invisible wall
+PASS: 村口西院屋后支巷: both ends meet scenery, gaps=[0.0, 0.01290130615234]
+PASS: 村口西院屋后支巷: ground sprint-jump blocked
+PASS: 村口西院屋后支巷: crouch blocked
+PASS: 村口西院屋后支巷: squad navigation cannot cut through the thin wire
+PASS: 主街东院屋后支巷: wire mesh and collision are 0.8m high, grounded collision
+PASS: 主街东院屋后支巷: blocks at wire height with no tall invisible wall
+PASS: 主街东院屋后支巷: both ends meet scenery, gaps=[0.0, 0.01039886474609]
+PASS: 主街东院屋后支巷: ground sprint-jump blocked
+PASS: 主街东院屋后支巷: crouch blocked
+PASS: 主街东院屋后支巷: squad navigation cannot cut through the thin wire
+PASS: 北院西侧屋后支巷: wire mesh and collision are 0.8m high, grounded collision
+PASS: 北院西侧屋后支巷: blocks at wire height with no tall invisible wall
+PASS: 北院西侧屋后支巷: both ends meet scenery, gaps=[0.00883483886719, 0.0]
+PASS: 北院西侧屋后支巷: ground sprint-jump blocked
+PASS: 北院西侧屋后支巷: crouch blocked
+PASS: 北院西侧屋后支巷: squad navigation cannot cut through the thin wire
+PASS: Existing village wall and gate seam prevent skipping at x=1041
+PASS: Existing village wall and gate seam prevent skipping at x=1044
+PASS: Existing village wall and gate seam prevent skipping at x=1048
+PASS: Existing village wall and gate seam prevent skipping at x=1052
+PASS: Existing village wall and gate seam prevent skipping at x=1088
+PASS: Village encounters cannot be skipped before opening the gates
+PASS: First opened gate permits only the next encounter
+PASS: Cleared main street stays connected for player and squad
+LINEAR BOUNDARIES: PASS | checks=49
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Supplied rifle is the active first-person weapon
+PASS: Supplied bolt and clip remain independently animated
+PASS: Bolt hand socket lies on the supplied metal handle geometry
+PASS: Four supplied courtyards surrounded by forest and mountains
+PASS: Supplied river channel uses animated game water
+PASS: Supplied pier and boat present at both banks
+PASS: Codebook reachable on the south-hall office desk
+PASS: Relocated codebook interaction advances mission
+PASS: Power switch reachable beside the northeast telephone cabinet
+PASS: Relocated power switch advances mission
+PASS: Ferry pursuit issues two soldiers per batch
+PASS: Next pursuit batch waits for its one-second interval
+PASS: Second pair arrives after one second, twice the old batch cadence
+PASS: Legacy ferry victory saves migrate to a completed departure
+PASS: Departure starts the ferry transition
+PASS: Ferry arrives in the playable village and restores control
+PASS: Arrival applies the village atmosphere
+PASS: Village starts with twelve enemies
+PASS: Jiang Lan joins combat while Lu Shan rests with the roster
+PASS: Jiang Lan carries a rifle with friendly appearance
+PASS: Closed first courtyard gate blocks route to the next encounter
+PASS: Uncleared encounter cannot open its gate
+PASS: Companion fires at a visible village enemy
+PASS: Village checkpoint validates all actor and encounter states
+PASS: Village checkpoint restores chapter, ally and enemies
+PASS: Village restore works from disk without the in-memory fallback
+PASS: Disk restore retains the village atmosphere
+PASS: Village encounter 0 clears in order
+PASS: Village gate 0 opens after clearing its encounter
+PASS: Gate checkpoint remains loadable
+PASS: Village encounter 1 clears in order
+PASS: Village gate 1 opens after clearing its encounter
+PASS: Gate checkpoint remains loadable
+PASS: Village encounter 2 clears in order
+PASS: Final rendezvous wins only after all twelve village enemies are defeated
+PASS: Final village victory is saved
+PASS: Completed village restores its victory state
+PASS: New game restores the forest atmosphere
+PASS: Starting a new chapter resets Jiang Lan to the original scout pose
+PASS: A-01 wide shot presents the playable village
+PASS: A-04 wide shot presents the playable village
+PASS: A-06 wide shot presents the playable village
+USER EXPANSION: PASS | checks=42
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Cap star has correct faction visibility: scout
+PASS: Cap insignia is a five-point star: scout
+PASS: Cap star has correct faction visibility: lu
+PASS: Cap insignia is a five-point star: lu
+PASS: Cap star has correct faction visibility: logger
+PASS: Cap insignia is a five-point star: logger
+PASS: Enemy headgear never displays the friendly star
+PASS: Opening friendly wears the red star: ally1
+PASS: Opening friendly uses the supplied friendly model: ally1
+PASS: Opening friendly wears the red star: ally2
+PASS: Opening friendly uses the supplied friendly model: ally2
+PASS: Opening friendly wears the red star: scout
+PASS: Opening friendly uses the supplied friendly model: scout
+PASS: Conversation muzzle points down at 3.1 seconds
+PASS: Conversation muzzle points down at 11.0 seconds
+PASS: Conversation muzzle points down at 18.5 seconds
+PASS: Conversation muzzle points down at 48.8 seconds
+PASS: Conversation muzzle points down at 76.0 seconds
+PASS: Office replaces paired rescue with walking actors and a continuous camera move
+PASS: Office walk clears furniture: ally1
+PASS: Office walk clears furniture: ally2
+PASS: Office showcase leaves mission state and player resources unchanged
+PASS: Interior showcase lights deactivate after the shot
+PASS: Gameplay conversations display the same safe weapon posture
+PASS: Combat hold restores smoothly after a conversation
+PASS: Both hands reach the final grapple after 3m charge
+PASS: Both hands reach the final grapple after 7m charge
+PASS: Both hands reach the final grapple after 12m charge
+PASS: Long and short charges never stretch visible sleeves beyond the arm budget
+PASS: Both hands meet the rifle within ten centimetres in the grapple
+POLISH REVISION: PASS | checks=30
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Straight charge starts for office_guard
+PASS: Pre-charge checkpoint remains readable for office_guard
+PASS: Entire charge corridor is clear for office_guard
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard
+PASS: Straight charge reaches the existing grapple: office_guard
+PASS: Straight charge starts for office_guard_2
+PASS: Pre-charge checkpoint remains readable for office_guard_2
+PASS: Entire charge corridor is clear for office_guard_2
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_2
+PASS: Straight charge reaches the existing grapple: office_guard_2
+PASS: Straight charge starts for office_guard_3
+PASS: Pre-charge checkpoint remains readable for office_guard_3
+PASS: Entire charge corridor is clear for office_guard_3
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_3
+PASS: Straight charge reaches the existing grapple: office_guard_3
+PASS: Straight charge starts for office_guard_4
+PASS: Pre-charge checkpoint remains readable for office_guard_4
+PASS: Entire charge corridor is clear for office_guard_4
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_4
+PASS: Straight charge reaches the existing grapple: office_guard_4
+PASS: Desk blocks the charge even when the player is visible above it
+PASS: Blocked corridor never starts a winding charge or clips through the desk
+PASS: Final survivor approaches around furniture before committing to a clear straight charge
+PASS: Clear approach starts the same two-point charge
+PASS: Office wall also blocks a direct charge
+PASS: A visible final defender outside charge range keeps approaching
+PASS: Approach closes the distance instead of stopping in the normal firing stance
+STRAIGHT CHARGE: PASS | checks=27
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Both actors keep low, anatomically bounded gestures throughout all conversation scenes
+PASS: Palms stay clear of the coat body during talk and listen poses
+PASS: Continuous 60fps samples have no arm snaps across lines and camera cuts
+PASS: Conversation performance leaves mission state unchanged
+PASS: A10 replaces paired contact with separated walking soldiers inside the office
+DIALOGUE MOTION: PASS | checks=5
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New game title in application and menu
+PASS: Title menu uses the scenic camera
+PASS: Thirteen guards: 3 checkpoint, 4 timber, 4 office, 1 door ambusher, 1 pier
+PASS: Friendly coat is grey: scout
+PASS: Friendly coat is grey: lu
+PASS: First-person sleeves and cuffs share the grey uniform palette
+PASS: Every new patrol has a traversable path
+PASS: Added checkpoint guards must also be defeated
+PASS: All three checkpoint guards unlock first gate
+PASS: Added timber guards must also be defeated
+PASS: All four timber guards unlock second gate
+PASS: Second gate retains its separate original ambush
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+GRAPPLE CAMERA: (46.00441, 1.656717, 37.0) ENEMY: (46.0, 0.08, 36.02) PLAYER: (46.0, 0.08, 37.0) CURRENT: /root/Main/@Node3D@2888/@Camera3D@2889
+PASS: Office grapple pauses without advancing
+PASS: Counterattack finishes and saves the fourth office defeat
+PASS: Completed office encounter does not replay after load
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_2
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_3
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_4
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: Hold starts at thirty seconds and blocks early extraction
+PASS: First pursuing pair arrives when untying starts
+PASS: Top-left countdown displays 00:30
+PASS: No new wave while a pursuing pair remains alive
+PASS: Next wave does not spawn before one second after clearing the pair
+PASS: Pause freezes both countdown and spawn delay
+PASS: Next group contains two soldiers
+PASS: Load restores exact pursuing soldiers without duplication
+PASS: Pursuit continues beyond the first group
+PASS: Load preserves partially completed thirty-second hold
+PASS: Thirty seconds permits joint evacuation
+PASS: Spawning ends when the hold completes
+PASS: Completed hold survives reload
+PASS: Completed ferry hold continues into the village crossing
+PASS: Original twelve-second extraction save remains valid
+PASS: Half-completed old hold migrates to half of thirty seconds
+PASS: Completed original hold stays complete
+USER REVISION: PASS 61/61
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Settings exposes all four requested volume controls
+PASS: Existing music default is preserved and new controls default to full volume
+PASS: Music zero leaves speech and effects audible
+PASS: Effects zero independently mutes weapons, footsteps and environment
+PASS: Dialogue zero independently mutes speech
+PASS: Cinematic mute has no effect on ordinary menu or gameplay routes
+PASS: Slider percentage updates with the preference
+PASS: Category changes preserve master volume
+PASS: All four slider preferences survive reload from disk
+PASS: Settings title and fixed return button stay inside the viewport
+PASS: All four volume controls are visible without scrolling
+PASS: Long settings page can scroll to the remaining controls
+PASS: Return closes the settings page without starting a task
+PASS: Dialogue ducking preserves the user's effect gain across updates
+PASS: Music ducking combines with music preference while speech retains its own gain
+PASS: All three enemy discovery recordings use dialogue volume
+PASS: Actual gun, bolt, footstep and river players use effect categories
+PASS: Complete history recording uses cinematic volume exactly once
+PASS: History mixed narration survives separate dialogue and music mute with no extra score
+PASS: Cinematic zero mutes the complete history scene including extra effects
+PASS: Changing sliders during pause does not resume, seek or restart the recording
+PASS: Cinematic slider applies immediately while paused
+PASS: Resume retains cinematic time after settings changes
+PASS: Task dialogue combines dialogue and cinematic volume
+PASS: Task music and footsteps combine their category with cinematic volume
+PASS: Dialogue mute in task cinematic leaves its music audible
+PASS: Cinematic zero mutes all layers of the task introduction
+PASS: Skipping the opening immediately restores gameplay audio despite cinematic mute
+PASS: Non-cinematic voice playback uses dialogue volume after the handoff
+PASS: Leaving a paused opening restores menu routing immediately
+PASS: Starting another game keeps user category settings and normal routing
+PASS: Old configuration without new keys keeps its music level and safe full-volume defaults
+PASS: Invalid and nonfinite config values fall back; out-of-range numeric values are clamped
+PASS: Existing master mute still silences every category
+AUDIO SETTINGS: PASS | checks=34
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Both player weapons use the user gunshot
+PASS: Enemy gunfire uses the user gunshot
+PASS: River uses the original MP3 bytes and loops continuously
+PASS: River loop leaves the shared source unchanged
+PASS: Real walking input plays normal footsteps
+PASS: Real sprint input switches to running footsteps
+PASS: Footsteps stop when the player stops
+PASS: Reload plays the user bolt recording
+PASS: Firing plays the user gunshot
+PASS: Rifle bolt sound follows the shot on its own audio layer
+PASS: Pause freezes the rifle bolt recording
+PASS: Resume releases the bolt recording
+PASS: Weapon switching cancels unfinished rifle bolt audio
+PASS: Pistol fire does not schedule manual rifle bolt audio
+PASS: All guards use one of the three supplied alert voices
+PASS: A searching guard calls out when it sees the player
+PASS: Continuous sight does not restart the alert voice
+PASS: Defeated guard stops speaking
+PASS: door_open plays at the door position
+PASS: door_open pauses with gameplay
+PASS: door_open can continue into the door ambush
+PASS: door_close plays at the door position
+PASS: door_close pauses with gameplay
+PASS: door_close can continue into the door ambush
+PASS: Artillery impact plays the user explosion
+PASS: Zero damage does not flash the screen
+PASS: Actual damage flashes all four screen edges
+PASS: Damage tint fades away after the brief flash
+PASS: Restart clears old door sounds and pending bolt audio
+PASS: Requested mouth overlay has been removed
+PASS: Second-door charge still reaches the space-key struggle
+USER SFX RESULT: PASS | 31/31
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: No ambush before opening the second door
+PASS: Second door immediately starts the turn
+PASS: User MP3 plays once at the turn
+PASS: Rifle carries an actual bayonet mesh
+PASS: Checkpoint remains before second door until success
+PASS: Unfinished grapple cannot overwrite safe checkpoint
+PASS: Enemy visibly rotates from back-facing pose
+PASS: Escape freezes the encounter timer
+PASS: Pause freezes the shout
+PASS: Settings return resumes the same encounter and sound
+PASS: Enemy actually advances toward player
+PASS: Charge flows into close combat
+PASS: Both grappling hands replace the ordinary gun view
+PASS: Holding and keyboard repeat count as only one press
+PASS: A released then repressed space adds a new effort
+PASS: Repeated physical taps earn the counterattack
+PASS: Long pause during the fall cannot delete the actor or advance animation
+PASS: Success returns player control
+PASS: Counterattack records exactly one guard defeat
+PASS: Camera gun and audio restored after success
+PASS: Successful door and enemy state saved together
+PASS: Success survives reload without duplicate encounter or kill
+PASS: No taps loses the grapple and exits cleanly
+PASS: Failure restores healthy player at closed second door
+PASS: Retry can trigger the same ambush
+PASS: Paused input cannot advance effort
+PASS: Menu return cleans camera hands overlay and encounter
+PASS: Loading during the grapple restores the safe pre-door state
+PASS: New task clears an interrupted grapple
+PASS: Failed pre-door write leaves the door closed and replayable
+PASS: Older saves beyond the door retain their progress
+EVIDENCE: C:\GameMake\docs\expansion_20261015\accepted-release-regression\opening-checks\bayonet_encounter
+BAYONET ENCOUNTER: PASS 31/31
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Menu starts one global music stream
+PASS: Music defaults to 22 percent and loops
+PASS: Entire user background recording is available
+PASS: Settings exposes a background music slider
+PASS: Music zero mutes only the music bus
+PASS: Restoring music leaves master and narration unchanged
+PASS: Music preference survives config reload
+PASS: A starts the supplied full recording with zero global music streams
+PASS: History duration covers the full audio without cutting its tail
+PASS: Subtitle changes never replay synthetic A narration
+PASS: Pausing A pauses the complete recording
+PASS: Pause preserves camera and subtitle time
+PASS: Resuming A keeps global music silent
+PASS: One building shot carries added narration at 54.0s
+PASS: One building shot carries added narration at 60.5s
+PASS: One building shot carries added narration at 65.0s
+PASS: Building camera movement is continuous between frames
+PASS: Title appears on the same panorama after the final words
+PASS: Skipping A stops the mixed recording and restores one global score
+PASS: B dialogue automatically lowers global background music
+PASS: Pausing B immediately pauses music and dialogue
+PASS: Leaving paused B releases narration and resumes one menu score
+PASS: Direct gameplay starts one global score
+PASS: Natural A completion restores B music and retires history audio
+PASS: Gameplay handoff preserves one music stream
+PASS: Checkpoint load restores one music stream
+USER AUDIO: PASS | checks=26
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Category buses and cinematic master exist without replacing Master volume
+PASS: Existing player gun, footstep and wind streams route to separate buses
+PASS: Spatial river, radio and switch use the appropriate layers
+PASS: Gameplay pause freezes gunfire and ambient playback
+PASS: Resume releases paused streams without replaying them
+PASS: Reload uses Foley rather than the gunshot layer
+PASS: Music starts at silence and fades in
+PASS: Repeated request for the same cue does not restart or add a player
+PASS: A transition overlaps exactly two streams
+PASS: Rapid cue changes recycle the quieter slot and preserve the audible outgoing cue
+PASS: Journal pause freezes both playback and crossfade time
+PASS: Fade completion releases the old stream
+PASS: Voice lowers music by 10dB while keeping a separate voice bus
+PASS: Voice lowers ambience by 3dB without changing gunshot gain
+PASS: Ducking does not overwrite the user's Master volume
+PASS: Music recovers gradually after speech ends
+PASS: Music fade-out retains playback until the fade finishes
+PASS: Music fade-out ends with both streams released
+PASS: Loading clears old voice/gun tails and restores the global music
+PASS: A-to-B transition clears old history cue audio
+PASS: New voice or music requested during cinematic pause stays paused
+PASS: Leaving a paused cinematic releases cue audio and restores menu music
+PASS: A new task resumes one persistent ambient stream
+PASS: Scene re-entry reuses buses without duplicates
+PASS: Scene teardown clears dialogue ducking
+S30 AUDIO MIX: PASS | checks=25
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Woodland follows the lake environment lifecycle
+PASS: Bounded woodland density supplies a visible mountain forest
+PASS: Woodland covers all four mountain sectors
+PASS: Tree trunks stay outside the water and exposed shore
+PASS: Tree crowns leave room around both walking routes and the speakers
+PASS: Tall trees stay below the summit and off steep cliffs
+PASS: Woodland uses bounded spatial batches on the isolated lake layer
+PASS: Decorative woodland and rock details add no collision
+PASS: Conversation floor retains its 26m collision surface
+PASS: Natural ledge, stone edges and low vegetation replace visual markers
+PASS: S21_Crater_East has world-mapped rock detail
+PASS: S21_Crater_North has world-mapped rock detail
+PASS: S21_Crater_West has world-mapped rock detail
+PASS: S21_Crater_South has world-mapped rock detail
+PASS: Refined crater mesh has a bounded geometry budget
+PASS: Wide camera frames the lake center inside the main image
+PASS: Historical wide shot includes substantial woodland
+PASS: Historical wide hides the conversation platform dressing
+PASS: Wide shot continues a smooth rising camera move
+PASS: 04-talk enables the mountain details
+PASS: 05-listen enables the mountain details
+PASS: 06-briefing enables the mountain details
+PASS: 07-departure enables the mountain details
+PASS: Forest mission shots hide all lake decoration
+PASS: Aborting the opening leaves no visible lake decoration
+CHANGBAI LANDSCAPE: PASS | checks=25 | trees=680
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Opening stage loads the S21 artistic Tianchi model
+PASS: S21 model remains fully instanced in the opening stage
+PASS: Five arrival steps, five departure steps, talk platform and visible departure ramp exist
+PASS: Arrival and departure routes expose five ordered waypoints each
+PASS: All ten route waypoints have a walkable top surface
+PASS: Arrival and departure waypoints stay outside the lake clearance radius
+PASS: Both speakers share a level 26m talk-platform surface
+PASS: B1 opening speaker stands on the S22 platform anchor
+PASS: Opening access colliders disable after player control is restored
+S22 TIANCHI ACCESS: PASS | checks=9
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: B3 exit crosses the level platform toward its departure ramp
+PASS: B4 departure descends on the corrected visible ramp
+PASS: B16 aligns the cinematic camera to the gameplay FOV
+PASS: B16 camera reaches the player handoff anchor
+PASS: Full playback enters a single locked handoff transition
+PASS: Handoff covers the camera cut with a short fade
+PASS: Handoff commits once after the fade
+PASS: Player camera, position and control mode are continuous
+PASS: Opening handoff sets briefing state without advancing mission objectives
+PASS: Cinematic access and S23 environment are cleared on handoff
+S25 HANDOFF: PASS | checks=10
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Complete user history MP3 and eight supplied dialogue MP3s load
+PASS: Mixed history recording uses the complete cinematic volume bus
+PASS: N01 appears over the complete user history recording
+PASS: Seeking within one cue does not restart the same voice take
+PASS: Cinematic pause freezes the current voice take
+PASS: B1 dialogue replaces the narration take
+PASS: Subtitle retained: B1-L01
+PASS: Supplied recording selected: B1-L01
+PASS: Imported recording bytes match latest supplied take: B1-L01
+PASS: Subtitle covers complete recording: B1-L01
+PASS: Subtitle retained: B2-L01
+PASS: Unrecorded dialogue is silent without fallback: B2-L01
+PASS: Subtitle retained: B2-L02
+PASS: Supplied recording selected: B2-L02
+PASS: Imported recording bytes match latest supplied take: B2-L02
+PASS: Subtitle covers complete recording: B2-L02
+PASS: Subtitle retained: B2-L03
+PASS: Unrecorded dialogue is silent without fallback: B2-L03
+PASS: Subtitle retained: B3-L01
+PASS: Supplied recording selected: B3-L01
+PASS: Imported recording bytes match latest supplied take: B3-L01
+PASS: Subtitle covers complete recording: B3-L01
+PASS: Subtitle retained: B3-L02
+PASS: Unrecorded dialogue is silent without fallback: B3-L02
+PASS: Subtitle retained: B5-L01
+PASS: Supplied recording selected: B5-L01
+PASS: Imported recording bytes match latest supplied take: B5-L01
+PASS: Subtitle covers complete recording: B5-L01
+PASS: Subtitle retained: B5-L02
+PASS: Unrecorded dialogue is silent without fallback: B5-L02
+PASS: Subtitle retained: B5-L03
+PASS: Supplied recording selected: B5-L03
+PASS: Imported recording bytes match latest supplied take: B5-L03
+PASS: Subtitle covers complete recording: B5-L03
+PASS: Subtitle retained: B5-L04
+PASS: Supplied recording selected: B5-L04
+PASS: Imported recording bytes match latest supplied take: B5-L04
+PASS: Subtitle covers complete recording: B5-L04
+PASS: Subtitle retained: B5-L05
+PASS: Unrecorded dialogue is silent without fallback: B5-L05
+PASS: Subtitle retained: B5-L06
+PASS: Supplied recording selected: B5-L06
+PASS: Imported recording bytes match latest supplied take: B5-L06
+PASS: Subtitle covers complete recording: B5-L06
+PASS: Subtitle retained: B6-L01
+PASS: Supplied recording selected: B6-L01
+PASS: Imported recording bytes match latest supplied take: B6-L01
+PASS: Subtitle covers complete recording: B6-L01
+PASS: Subtitle retained: B6-L02
+PASS: Unrecorded dialogue is silent without fallback: B6-L02
+PASS: Eight recorded and six silent dialogue cues; no temporary synthesis
+PASS: Leaving the opening stops the last voice take
+PASS: Skipping a part clears voice before the next part begins
+S31 VOICE INTEGRATION: PASS | checks=53
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: History uses 11 longer shots and B retains 16 shots
+PASS: Authored actors and faction details remain correct in A-01
+PASS: Authored actors and faction details remain correct in A-04
+PASS: Authored actors and faction details remain correct in A-06
+PASS: Authored actors and faction details remain correct in A-07
+PASS: Authored actors and faction details remain correct in A-08
+PASS: Authored actors and faction details remain correct in A-10
+PASS: Authored actors and faction details remain correct in A-11
+PASS: Authored actors and faction details remain correct in A-14
+PASS: Authored actors and faction details remain correct in A-15
+PASS: Authored actors and faction details remain correct in A-16
+PASS: Authored actors and faction details remain correct in A-18
+PASS: A5-A6 load the artistic Tianchi scene including exported import remapping
+PASS: History has original 15 cues plus two additions over the complete supplied track
+PASS: A4 has the authored S27 barrage and distant fireline layers
+PASS: A07 snow surface uses a procedural material instead of the old flat color
+PASS: A07 snow top aligns with the actors' foot anchor
+PASS: A07 preview shows the snow path and keeps the walking actor above its surface
+PASS: A10 soldiers walk through the office instead of helping each other
+PASS: A10 uses the interior travelling camera and dedicated lighting with separated actors
+PASS: A4 runtime combines formal label, muzzle layer and first barrage
+PASS: A5 carries N15 into the artistic Tianchi close
+PASS: A6 carries the added narration over the continuous building panorama
+PASS: History previews leave gameplay resources and mission state unchanged
+PASS: A1-A6 complete into the separate B boundary without gameplay handoff
+PASS: Continuous history playback reaches all A shots and narration cues
+PASS: History completion does not commit the task prologue
+S32 HISTORY FORMAL: PASS | checks=27
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: All 16 authored task shots remain available
+PASS: B1-B6 keeps all 14 subtitle cues and the eight supplied recordings
+B1 SAMPLE: { "shot": "B-01", "cue": "B1-L01", "peer": true, "badge": "任务序幕 · B-01" }
+PASS: B1 starts the two-person Tianchi exchange with its task label
+PASS: B3 states the original rendezvous and keeps the departure route available
+PASS: B4 compresses the multi-day journey with separate time/place cards
+PASS: B5 reveals Lu Shan's injury and roster risk without starting gameplay combat
+PASS: B6 final dialogue leaves the player-facing handoff cue visible
+B6 SAMPLE: { "shot": "B-16", "cue": "", "fov": 78.0, "clock": 79.5 }
+PASS: B6 ends on the authored player-facing handoff composition
+PASS: B1-B6 previews leave gameplay resources and objectives unchanged
+PASS: Continuous task prologue playback reaches all B shots and dialogue cues
+PASS: B6 commits one and only one gameplay handoff
+PASS: Handoff marks briefing complete while leaving objectives and ammunition untouched
+PASS: Player camera and start anchor are restored at handoff
+PASS: Repeated finish cannot duplicate the task handoff
+S33 TASK FORMAL: PASS | checks=14
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: pause_A | Pause freezes clock, mode and environment audio
+PASS: resume_A | Resume returns to the same cinematic point
+PASS: exit_A_restore | Mid-history exit resumes at the saved A boundary
+PASS: skip_A_exit_B | Skip-A then exit resumes at the B boundary
+PASS: pause_B_dialogue | Pause preserves the B1 dialogue stream
+PASS: skip_B_handoff | Skip-B commits one gameplay handoff without advancing objectives
+PASS: skip_B_idempotent | Repeated finish is idempotent
+PASS: gameplay_restore | Gameplay checkpoint restores play instead of replaying B
+PASS: restore_unique_guards | Restore has exactly the revised roster with unique initial guards
+PASS: invalid_opening_save | Malformed opening save enters a visible load error
+PASS: legacy_restore | Legacy gameplay save retains the original briefing state
+PASS: failed_write | Failed handoff write exposes a retry state
+PASS: failed_write_preserves_file | Failed final write preserves the previous file byte for byte
+PASS: retry_write | Retry writes the prepared gameplay checkpoint
+S34 STATE MATRIX: PASS | checks=14 rows=9
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New opening begins with A
+PASS: A entry is a valid restorable save
+PASS: Fixed opening words appear unaltered
+PASS: Pause freezes timeline and camera
+PASS: Pause freezes opening environment audio
+PASS: Settings/continue return to the same opening
+PASS: N13 remains visible through the continuous battle shot
+PASS: New closing subtitle remains over the building glide before title
+PASS: Title follows subtitle clearance
+PASS: Cinematic shots do not change gameplay resources or position
+PASS: Cinematic shots do not change story or gates
+PASS: All 27 shots are reached by continuous clock playback
+PASS: All 17 narration and 14 dialogue cues are reached
+PASS: Full A/B playback commits gameplay once
+PASS: Full playback: briefing complete, task actions untouched
+PASS: Full playback: camera and position align
+PASS: Full playback: guards, gates and ammunition unchanged
+PASS: Repeated finish cannot duplicate the mission
+PASS: Skipping A starts B, not gameplay
+PASS: B boundary has a valid restorable save
+PASS: Stale/double skip cannot skip the new part
+PASS: Skip A and B: briefing complete, task actions untouched
+PASS: Skip A and B: camera and position align
+PASS: Skip A and B: guards, gates and ammunition unchanged
+PASS: Skip and full playback produce the same mission state
+PASS: Watch A then skip B: briefing complete, task actions untouched
+PASS: Watch A then skip B: camera and position align
+PASS: Watch A then skip B: guards, gates and ammunition unchanged
+PASS: Travel time/place card is separate from spoken dialogue
+PASS: Skip A then watch remaining B: briefing complete, task actions untouched
+PASS: Skip A then watch remaining B: camera and position align
+PASS: Skip A then watch remaining B: guards, gates and ammunition unchanged
+PASS: History save resumes at A1
+PASS: Task save resumes at B1
+PASS: Gameplay save does not replay B or reset progress
+PASS: Legacy gameplay save retains its original briefing state
+PASS: Unknown opening state is rejected visibly, not treated as complete
+PASS: Invalid save remains available for diagnosis
+PASS: Failed handoff save leaves a visible retry state
+PASS: Failed write preserves previous successful save
+PASS: Retry saves the prepared gameplay state
+OPENING RESULT: 41/41 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+DEPARTURE GROUND: { "clock": 26.5, "actor": [496.549987792969, 25.8700008392334, 139.949996948242], "terrain_y": 24.9430541992188 }
+DEPARTURE GROUND: { "clock": 27.3, "actor": [496.75, 25.3500003814697, 137.75], "terrain_y": 24.6345062255859 }
+DEPARTURE GROUND: { "clock": 28.1, "actor": [496.950012207031, 24.8299999237061, 135.550003051758], "terrain_y": 24.1957855224609 }
+S36 DEPARTURE: PASS | samples=21
+
+All game checks passed.

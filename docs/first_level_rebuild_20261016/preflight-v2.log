@@ -1,0 +1,455 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Rebuilt encounter walls retain solid opaque 2.8m volumes
+SKIP: Dummy rendering server does not return MultiMesh instance placements; rendered check verifies wall boxes
+PASS: western wall hides checkpoint enemies
+PASS: checkpoint wall hides the timber sector
+PASS: timber wall hides the office approach
+PASS: Forest wire is limited to two unused spurs
+PASS: 林师傅木棚尽头低网: wire mesh and collision are 0.8m high, grounded collision
+PASS: 林师傅木棚尽头低网: blocks at wire height with no tall invisible wall
+PASS: 林师傅木棚尽头低网: both ends meet scenery, gaps=[0.15490493774414, 0.0]
+PASS: 林师傅木棚尽头低网: ground sprint-jump blocked
+PASS: 林师傅木棚尽头低网: crouch blocked
+PASS: 装卸棚后低网: wire mesh and collision are 0.8m high, grounded collision
+PASS: 装卸棚后低网: blocks at wire height with no tall invisible wall
+PASS: 装卸棚后低网: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 装卸棚后低网: ground sprint-jump blocked
+PASS: 装卸棚后低网: crouch blocked
+BERM ATTEMPT: (6.0, 0.08, 274.0) end=(4.205734, 0.000036, 274.0) crouch=false
+PASS: Berm blocks sprint jumping at (6.0, 0.08, 274.0)
+BERM ATTEMPT: (6.0, 0.08, 274.0) end=(4.210557, -0.000757, 274.0) crouch=true
+PASS: Berm blocks crouching at (6.0, 0.08, 274.0)
+BERM ATTEMPT: (34.0, 0.08, 188.0) end=(30.20152, 0.000395, 188.0) crouch=false
+PASS: Berm blocks sprint jumping at (34.0, 0.08, 188.0)
+BERM ATTEMPT: (34.0, 0.08, 188.0) end=(30.65222, 0.00084, 188.0) crouch=true
+PASS: Berm blocks crouching at (34.0, 0.08, 188.0)
+BERM ATTEMPT: (56.0, 0.08, 176.0) end=(59.79396, -0.000066, 176.0) crouch=false
+PASS: Berm blocks sprint jumping at (56.0, 0.08, 176.0)
+BERM ATTEMPT: (56.0, 0.08, 176.0) end=(59.34774, 0.000757, 176.0) crouch=true
+PASS: Berm blocks crouching at (56.0, 0.08, 176.0)
+BERM ATTEMPT: (72.0, 0.08, 90.0) end=(75.79394, 0.000288, 90.0) crouch=false
+PASS: Berm blocks sprint jumping at (72.0, 0.08, 90.0)
+BERM ATTEMPT: (72.0, 0.08, 90.0) end=(75.34788, -0.001288, 90.0) crouch=true
+PASS: Berm blocks crouching at (72.0, 0.08, 90.0)
+PASS: Logger and optional supply approach remain open
+PASS: Checkpoint and timber route remains open after gate clearance
+PASS: Northern escort road remains connected to the ferry
+PASS: Reinforcement entrance retains its ferry route
+PASS: Four opaque courtyard wall wings remain visible
+PASS: Courtyard wall at z=182 hides the next encounter
+PASS: Courtyard wall at z=75 hides the next encounter
+PASS: Low wire closes only measured gaps between original courtyard surfaces
+PASS: 原村院落支巷封口_0_0: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_0: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_0: both ends meet scenery, gaps=[0.215234375, 0.0]
+PASS: 原村院落支巷封口_0_0: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_1: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_1: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_1: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_1: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_2: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_2: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_2: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_2: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_3: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_3: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_3: both ends meet scenery, gaps=[0.0, 0.170068359375]
+PASS: 原村院落支巷封口_0_3: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_4: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_4: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_4: both ends meet scenery, gaps=[0.170068359375, 0.0]
+PASS: 原村院落支巷封口_0_4: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_5: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_5: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_5: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_5: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_6: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_6: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_6: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_6: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_7: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_7: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_7: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_7: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_8: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_8: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_8: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_8: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_9: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_9: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_9: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_9: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_10: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_10: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_10: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_10: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_11: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_11: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_11: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_0_11: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_0_12: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_0_12: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_0_12: both ends meet scenery, gaps=[0.0, 0.215234375]
+PASS: 原村院落支巷封口_0_12: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_13: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_13: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_13: both ends meet scenery, gaps=[0.2151123046875, 0.0]
+PASS: 原村院落支巷封口_1_13: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_13: crouch blocked
+PASS: 原村院落支巷封口_1_13: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_14: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_14: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_14: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_14: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_14: crouch blocked
+PASS: 原村院落支巷封口_1_14: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_15: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_15: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_15: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_15: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_16: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_16: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_16: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_16: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_16: crouch blocked
+PASS: 原村院落支巷封口_1_16: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_17: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_17: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_17: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_17: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_18: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_18: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_18: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_18: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_19: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_19: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_19: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 原村院落支巷封口_1_19: squad navigation cannot cut through the thin wire
+PASS: 原村院落支巷封口_1_20: wire mesh and collision are 0.8m high, grounded collision
+PASS: 原村院落支巷封口_1_20: blocks at wire height with no tall invisible wall
+PASS: 原村院落支巷封口_1_20: both ends meet scenery, gaps=[0.0, 0.2151123046875]
+PASS: 原村院落支巷封口_1_20: ground sprint-jump blocked
+PASS: 原村院落支巷封口_1_20: crouch blocked
+PASS: 原村院落支巷封口_1_20: squad navigation cannot cut through the thin wire
+PASS: 北院草垛支路低网_21: wire mesh and collision are 0.8m high, grounded collision
+PASS: 北院草垛支路低网_21: blocks at wire height with no tall invisible wall
+PASS: 北院草垛支路低网_21: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 北院草垛支路低网_21: squad navigation cannot cut through the thin wire
+PASS: 北院草垛支路低网_22: wire mesh and collision are 0.8m high, grounded collision
+PASS: 北院草垛支路低网_22: blocks at wire height with no tall invisible wall
+PASS: 北院草垛支路低网_22: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 北院草垛支路低网_22: ground sprint-jump blocked
+PASS: 北院草垛支路低网_22: crouch blocked
+PASS: 北院草垛支路低网_22: squad navigation cannot cut through the thin wire
+PASS: 北院草垛支路低网_23: wire mesh and collision are 0.8m high, grounded collision
+PASS: 北院草垛支路低网_23: blocks at wire height with no tall invisible wall
+PASS: 北院草垛支路低网_23: both ends meet scenery, gaps=[0.0, 0.0]
+PASS: 北院草垛支路低网_23: ground sprint-jump blocked
+PASS: 北院草垛支路低网_23: crouch blocked
+PASS: 北院草垛支路低网_23: squad navigation cannot cut through the thin wire
+PASS: Courtyard wall and gate seam prevent skipping at x=1133
+PASS: Courtyard wall and gate seam prevent skipping at x=1138
+PASS: Courtyard wall and gate seam prevent skipping at x=1143
+PASS: Courtyard wall and gate seam prevent skipping at x=1148
+PASS: Courtyard wall and gate seam prevent skipping at x=1153
+PASS: Village encounters cannot be skipped before opening the gates
+PASS: First opened gate permits only the next encounter
+PASS: Cleared main street stays connected for player and squad
+LINEAR BOUNDARIES: PASS | checks=147
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Supplied rifle is the active first-person weapon
+PASS: Supplied bolt and clip remain independently animated
+PASS: Bolt hand socket lies on the supplied metal handle geometry
+PASS: Complete original settlement retains twenty-two courtyard groups and its surrounding forest
+PASS: Supplied river channel uses animated game water
+PASS: Supplied pier and boat present at both banks
+PASS: Codebook reachable on the south-hall office desk
+PASS: Relocated codebook interaction advances mission
+PASS: Power switch reachable beside the northeast telephone cabinet
+PASS: Relocated power switch advances mission
+PASS: Ferry pursuit issues two soldiers per batch
+PASS: Next pursuit batch waits for its one-second interval
+PASS: Second pair arrives after one second, twice the old batch cadence
+PASS: Legacy ferry victory saves migrate to a completed departure
+PASS: Departure starts the ferry transition
+PASS: Ferry arrives in the playable village and restores control
+PASS: Arrival applies the village atmosphere
+PASS: Village starts with twelve enemies
+PASS: Jiang Lan joins combat while Lu Shan rests with the roster
+PASS: Jiang Lan carries a rifle with friendly appearance
+PASS: Closed first courtyard gate blocks route to the next encounter
+PASS: Uncleared encounter cannot open its gate
+PASS: Companion fires at a visible village enemy
+PASS: Village checkpoint validates all actor and encounter states
+PASS: Village checkpoint restores chapter, ally and enemies
+PASS: Village restore works from disk without the in-memory fallback
+PASS: Disk restore retains the village atmosphere
+PASS: Village encounter 0 clears in order
+PASS: Village gate 0 opens after clearing its encounter
+PASS: Gate checkpoint remains loadable
+PASS: Village encounter 1 clears in order
+PASS: Village gate 1 opens after clearing its encounter
+PASS: Gate checkpoint remains loadable
+PASS: Village encounter 2 clears in order
+PASS: Final rendezvous wins only after all twelve village enemies are defeated
+PASS: Final village victory is saved
+PASS: Completed village restores its victory state
+PASS: New game restores the forest atmosphere
+PASS: Starting a new chapter resets Jiang Lan to the original scout pose
+PASS: A-01 establishing sequence combines original village and logging camp
+PASS: A-04 establishing sequence combines original village and logging camp
+PASS: A-06 establishing sequence combines original village and logging camp
+USER EXPANSION: PASS | checks=42
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Cap star has correct faction visibility: scout
+PASS: Cap insignia is a five-point star: scout
+PASS: Cap star has correct faction visibility: lu
+PASS: Cap insignia is a five-point star: lu
+PASS: Cap star has correct faction visibility: logger
+PASS: Cap insignia is a five-point star: logger
+PASS: Enemy headgear never displays the friendly star
+PASS: Opening friendly wears the red star: ally1
+PASS: Opening friendly uses the supplied friendly model: ally1
+PASS: Opening friendly wears the red star: ally2
+PASS: Opening friendly uses the supplied friendly model: ally2
+PASS: Opening friendly wears the red star: scout
+PASS: Opening friendly uses the supplied friendly model: scout
+PASS: Conversation muzzle points down at 3.1 seconds
+PASS: Conversation muzzle points down at 11.0 seconds
+PASS: Conversation muzzle points down at 18.5 seconds
+PASS: Conversation muzzle points down at 48.8 seconds
+PASS: Conversation muzzle points down at 76.0 seconds
+PASS: Office replaces paired rescue with walking actors and a continuous camera move
+PASS: Office walk clears furniture: ally1
+PASS: Office walk clears furniture: ally2
+PASS: Office showcase leaves mission state and player resources unchanged
+PASS: Interior showcase lights deactivate after the shot
+PASS: Gameplay conversations display the same safe weapon posture
+PASS: Combat hold restores smoothly after a conversation
+PASS: Both hands reach the final grapple after 3m charge
+PASS: Both hands reach the final grapple after 7m charge
+PASS: Both hands reach the final grapple after 12m charge
+PASS: Long and short charges never stretch visible sleeves beyond the arm budget
+PASS: Both hands meet the rifle within ten centimetres in the grapple
+POLISH REVISION: PASS | checks=30
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Straight charge starts for office_guard
+PASS: Pre-charge checkpoint remains readable for office_guard
+PASS: Entire charge corridor is clear for office_guard
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard
+PASS: Straight charge reaches the existing grapple: office_guard
+PASS: Straight charge starts for office_guard_2
+PASS: Pre-charge checkpoint remains readable for office_guard_2
+PASS: Entire charge corridor is clear for office_guard_2
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_2
+PASS: Straight charge reaches the existing grapple: office_guard_2
+PASS: Straight charge starts for office_guard_3
+PASS: Pre-charge checkpoint remains readable for office_guard_3
+PASS: Entire charge corridor is clear for office_guard_3
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_3
+PASS: Straight charge reaches the existing grapple: office_guard_3
+PASS: Straight charge starts for office_guard_4
+PASS: Pre-charge checkpoint remains readable for office_guard_4
+PASS: Entire charge corridor is clear for office_guard_4
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_4
+PASS: Straight charge reaches the existing grapple: office_guard_4
+PASS: Desk blocks the charge even when the player is visible above it
+PASS: Blocked corridor never starts a winding charge or clips through the desk
+PASS: Final survivor approaches around furniture before committing to a clear straight charge
+PASS: Clear approach starts the same two-point charge
+PASS: Office wall also blocks a direct charge
+PASS: A visible final defender outside charge range keeps approaching
+PASS: Approach closes the distance instead of stopping in the normal firing stance
+STRAIGHT CHARGE: PASS | checks=27
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Both actors keep low, anatomically bounded gestures throughout all conversation scenes
+PASS: Palms stay clear of the coat body during talk and listen poses
+PASS: Continuous 60fps samples have no arm snaps across lines and camera cuts
+PASS: Conversation performance leaves mission state unchanged
+PASS: A10 replaces paired contact with separated walking soldiers inside the office
+DIALOGUE MOTION: PASS | checks=5
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New game title in application and menu
+PASS: Title menu uses the scenic camera
+PASS: Thirteen guards: 3 checkpoint, 4 timber, 4 office, 1 door ambusher, 1 pier
+PASS: Friendly coat is grey: scout
+PASS: Friendly coat is grey: lu
+PASS: First-person sleeves and cuffs share the grey uniform palette
+PASS: Every new patrol has a traversable path
+PASS: Added checkpoint guards must also be defeated
+PASS: All three checkpoint guards unlock first gate
+PASS: Added timber guards must also be defeated
+PASS: All four timber guards unlock second gate
+PASS: Second gate retains its separate original ambush
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+GRAPPLE CAMERA: (46.00441, 1.656717, 37.0) ENEMY: (46.0, 0.08, 36.02) PLAYER: (46.0, 0.08, 37.0) CURRENT: /root/Main/@Node3D@1338/@Camera3D@1339
+PASS: Office grapple pauses without advancing
+PASS: Counterattack finishes and saves the fourth office defeat
+PASS: Completed office encounter does not replay after load
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_2
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_3
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_4
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: Hold starts at thirty seconds and blocks early extraction
+PASS: First pursuing pair arrives when untying starts
+PASS: Top-left countdown displays 00:30
+PASS: No new wave while a pursuing pair remains alive
+PASS: Next wave does not spawn before one second after clearing the pair
+PASS: Pause freezes both countdown and spawn delay
+PASS: Next group contains two soldiers
+PASS: Load restores exact pursuing soldiers without duplication
+PASS: Pursuit continues beyond the first group
+PASS: Load preserves partially completed thirty-second hold
+PASS: Thirty seconds permits joint evacuation
+PASS: Spawning ends when the hold completes
+PASS: Completed hold survives reload
+PASS: Completed ferry hold continues into the village crossing
+PASS: Original twelve-second extraction save remains valid
+PASS: Half-completed old hold migrates to half of thirty seconds
+PASS: Completed original hold stays complete
+USER REVISION: PASS 61/61
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Settings exposes all four requested volume controls
+PASS: Existing music default is preserved and new controls default to full volume
+PASS: Music zero leaves speech and effects audible
+PASS: Effects zero independently mutes weapons, footsteps and environment
+PASS: Dialogue zero independently mutes speech
+PASS: Cinematic mute has no effect on ordinary menu or gameplay routes
+PASS: Slider percentage updates with the preference
+PASS: Category changes preserve master volume
+PASS: All four slider preferences survive reload from disk
+PASS: Settings title and fixed return button stay inside the viewport
+PASS: All four volume controls are visible without scrolling
+PASS: Long settings page can scroll to the remaining controls
+PASS: Return closes the settings page without starting a task
+PASS: Dialogue ducking preserves the user's effect gain across updates
+PASS: Music ducking combines with music preference while speech retains its own gain
+PASS: All three enemy discovery recordings use dialogue volume
+PASS: Actual gun, bolt, footstep and river players use effect categories
+PASS: Complete history recording uses cinematic volume exactly once
+PASS: History mixed narration survives separate dialogue and music mute with no extra score
+PASS: Cinematic zero mutes the complete history scene including extra effects
+PASS: Changing sliders during pause does not resume, seek or restart the recording
+PASS: Cinematic slider applies immediately while paused
+PASS: Resume retains cinematic time after settings changes
+PASS: Task dialogue combines dialogue and cinematic volume
+PASS: Task music and footsteps combine their category with cinematic volume
+PASS: Dialogue mute in task cinematic leaves its music audible
+PASS: Cinematic zero mutes all layers of the task introduction
+PASS: Skipping the opening immediately restores gameplay audio despite cinematic mute
+PASS: Non-cinematic voice playback uses dialogue volume after the handoff
+PASS: Leaving a paused opening restores menu routing immediately
+PASS: Starting another game keeps user category settings and normal routing
+PASS: Old configuration without new keys keeps its music level and safe full-volume defaults
+PASS: Invalid and nonfinite config values fall back; out-of-range numeric values are clamped
+PASS: Existing master mute still silences every category
+AUDIO SETTINGS: PASS | checks=34
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Both player weapons use the user gunshot
+PASS: Enemy gunfire uses the user gunshot
+PASS: River uses the original MP3 bytes and loops continuously
+PASS: River loop leaves the shared source unchanged
+PASS: Real walking input plays normal footsteps
+PASS: Real sprint input switches to running footsteps
+PASS: Footsteps stop when the player stops
+PASS: Reload plays the user bolt recording
+PASS: Firing plays the user gunshot
+PASS: Rifle bolt sound follows the shot on its own audio layer
+PASS: Pause freezes the rifle bolt recording
+PASS: Resume releases the bolt recording
+PASS: Weapon switching cancels unfinished rifle bolt audio
+PASS: Pistol fire does not schedule manual rifle bolt audio
+PASS: All guards use one of the three supplied alert voices
+PASS: A searching guard calls out when it sees the player
+PASS: Continuous sight does not restart the alert voice
+PASS: Defeated guard stops speaking
+PASS: door_open plays at the door position
+PASS: door_open pauses with gameplay
+PASS: door_open can continue into the door ambush
+PASS: door_close plays at the door position
+PASS: door_close pauses with gameplay
+PASS: door_close can continue into the door ambush
+PASS: Artillery impact plays the user explosion
+PASS: Zero damage does not flash the screen
+PASS: Actual damage flashes all four screen edges
+PASS: Damage tint fades away after the brief flash
+PASS: Restart clears old door sounds and pending bolt audio
+PASS: Requested mouth overlay has been removed
+PASS: Second-door charge still reaches the space-key struggle
+USER SFX RESULT: PASS | 31/31
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: No ambush before opening the second door
+PASS: Second door immediately starts the turn
+PASS: User MP3 plays once at the turn
+PASS: Rifle carries an actual bayonet mesh
+PASS: Checkpoint remains before second door until success
+PASS: Unfinished grapple cannot overwrite safe checkpoint
+PASS: Enemy visibly rotates from back-facing pose
+PASS: Escape freezes the encounter timer
+PASS: Pause freezes the shout
+PASS: Settings return resumes the same encounter and sound
+PASS: Enemy actually advances toward player
+FAIL: Charge flows into close combat
+FAIL: Both grappling hands replace the ordinary gun view
+FAIL: Holding and keyboard repeat count as only one press
+FAIL: A released then repressed space adds a new effort
+FAIL: Repeated physical taps earn the counterattack
+PASS: Long pause during the fall cannot delete the actor or advance animation
+FAIL: Success returns player control
+FAIL: Counterattack records exactly one guard defeat
+FAIL: Camera gun and audio restored after success
+FAIL: Successful door and enemy state saved together
+FAIL: Success survives reload without duplicate encounter or kill
+FAIL: No taps loses the grapple and exits cleanly
+PASS: Failure restores healthy player at closed second door
+PASS: Retry can trigger the same ambush
+PASS: Paused input cannot advance effort
+PASS: Menu return cleans camera hands overlay and encounter
+PASS: Loading during the grapple restores the safe pre-door state
+PASS: New task clears an interrupted grapple
+PASS: Failed pre-door write leaves the door closed and replayable
+PASS: Older saves beyond the door retain their progress
+EVIDENCE: C:\GameMake\docs\first_level_rebuild_20261016\preflight-v2\opening-checks\bayonet_encounter
+BAYONET ENCOUNTER: FAIL 20/31
+

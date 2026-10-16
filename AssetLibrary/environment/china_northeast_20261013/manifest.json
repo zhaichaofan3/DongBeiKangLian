@@ -1,0 +1,562 @@
+{
+  "date": "2026-10-13",
+  "purpose": "个人非商用游戏及文旅展示素材",
+  "assets": [
+    {
+      "id": "pagoda_red",
+      "title": "五层塔楼（偏日式）",
+      "source_url": "https://poly.pizza/m/1zS7ucaAd4J",
+      "author": "Poly by Google",
+      "license": "CC-BY-3.0",
+      "notes": "高耸地标底模。外观偏日式，保留为备用，不作为东北或中国古建代表。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/pagoda_red/pagoda_red.glb",
+      "files": [
+        {
+          "path": "models/pagoda_red/pagoda_red.glb",
+          "download_url": "https://static.poly.pizza/5ed9ad9d-ebd6-4eb8-9ea5-5232f8f55a61.glb",
+          "bytes": 1720628,
+          "sha256": "a03f3c12541d479e8d3d5593fe5aaa6426f098f72ec7178eda230575d125d917"
+        }
+      ],
+      "geometry": {
+        "meshes": 1,
+        "triangles_unique_meshes": 2362,
+        "materials": 1,
+        "external_dependencies": []
+      },
+      "category": "备用",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/pagoda_red.png",
+      "source_dimensions_blender_xyz": [
+        26.41153907775879,
+        26.41153907775879,
+        55.50045394897461
+      ]
+    },
+    {
+      "id": "pagoda_hall",
+      "title": "三层楼阁（偏日式）",
+      "source_url": "https://poly.pizza/m/d1M5ncMBUDi",
+      "author": "Poly by Google",
+      "license": "CC-BY-3.0",
+      "notes": "原目录称 Pagoda，实物为三层楼阁；屋顶与立面偏日式。原始尺度异常，接入时需重设尺寸。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/pagoda_hall/pagoda_hall.glb",
+      "files": [
+        {
+          "path": "models/pagoda_hall/pagoda_hall.glb",
+          "download_url": "https://static.poly.pizza/1f9ea5bb-fad8-4ed9-9a39-1ee403d5efbe.glb",
+          "bytes": 492728,
+          "sha256": "25a3012216e157154f952f93e5b7b20251ed048eba42664785522c8236f4540a"
+        }
+      ],
+      "geometry": {
+        "meshes": 285,
+        "triangles_unique_meshes": 3728,
+        "materials": 3,
+        "external_dependencies": []
+      },
+      "category": "备用",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/pagoda_hall.png",
+      "source_dimensions_blender_xyz": [
+        8541.8515625,
+        8605.4287109375,
+        10906.388671875
+      ]
+    },
+    {
+      "id": "pagoda_tower",
+      "title": "双层圆亭塔（风格化）",
+      "source_url": "https://poly.pizza/m/eHOI2VgW1ol",
+      "author": "Poly by Google",
+      "license": "CC-BY-3.0",
+      "notes": "红柱绿顶的低面圆亭塔，可作远景点缀；造型简化，不对应具体景点。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/pagoda_tower/pagoda_tower.glb",
+      "files": [
+        {
+          "path": "models/pagoda_tower/pagoda_tower.glb",
+          "download_url": "https://static.poly.pizza/c8c63564-31e0-4f19-9e82-1c5bec4ac870.glb",
+          "bytes": 181304,
+          "sha256": "e3bdcb854fc3e045d12a3477c7c0297d6d2f6c032de23e998deecc714c4a57ee"
+        }
+      ],
+      "geometry": {
+        "meshes": 1,
+        "triangles_unique_meshes": 2458,
+        "materials": 5,
+        "external_dependencies": []
+      },
+      "category": "建筑",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/pagoda_tower.png",
+      "source_dimensions_blender_xyz": [
+        15.960570335388184,
+        14.634300231933594,
+        16.344791412353516
+      ]
+    },
+    {
+      "id": "warehouse",
+      "title": "敞顶仓库结构",
+      "source_url": "https://poly.pizza/m/fsxbktzB1zo",
+      "author": "Lavender Harmony",
+      "license": "CC-BY-3.0",
+      "notes": "带木墙与钢架的大型敞顶仓库。适合作为林场仓储背景底模，屋顶、封闭墙面及年代细节需补齐。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/warehouse/warehouse.glb",
+      "files": [
+        {
+          "path": "models/warehouse/warehouse.glb",
+          "download_url": "https://static.poly.pizza/6c857b4e-b74f-49c0-a956-fa67975024ab.glb",
+          "bytes": 5356004,
+          "sha256": "e600fa56109904c8c4c610db9c3b1dc9d2718f664b22e42b6c60f8ffc1ec4606"
+        }
+      ],
+      "geometry": {
+        "meshes": 2,
+        "triangles_unique_meshes": 7194,
+        "materials": 6,
+        "external_dependencies": []
+      },
+      "category": "建筑",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/warehouse.png",
+      "source_dimensions_blender_xyz": [
+        60.5321159362793,
+        102.56498718261719,
+        49.500030517578125
+      ]
+    },
+    {
+      "id": "log_cabin_scene",
+      "title": "木屋与周边环境整景",
+      "source_url": "https://poly.pizza/m/2gQe0wyzkhb",
+      "author": "Poly by Google",
+      "license": "CC-BY-3.0",
+      "notes": "木屋、栈台、地面和围栏整景。可作林区聚落底模，属通用木屋，非东北民居复原；需统一尺度。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/log_cabin_scene/log_cabin_scene.glb",
+      "files": [
+        {
+          "path": "models/log_cabin_scene/log_cabin_scene.glb",
+          "download_url": "https://static.poly.pizza/09c4aaee-a04d-4dd3-9c1d-ceb261895b52.glb",
+          "bytes": 311736,
+          "sha256": "ac977670a38c94dd9f963345f0b57e08cef5dd1a2027e89c45d7a5c30ce4d535"
+        }
+      ],
+      "geometry": {
+        "meshes": 4,
+        "triangles_unique_meshes": 4414,
+        "materials": 2,
+        "external_dependencies": []
+      },
+      "category": "建筑",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/log_cabin_scene.png",
+      "source_dimensions_blender_xyz": [
+        2000.0,
+        2000.890869140625,
+        839.6500244140625
+      ]
+    },
+    {
+      "id": "village_market",
+      "title": "成组村镇集市",
+      "source_url": "https://poly.pizza/m/0TsHLxX6CB",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "notes": "多个布篷摊位组成的整组模型，能快速填充空地；需调整鲜艳篷布与装饰，并校正偏小的原始尺度。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/village_market/village_market.glb",
+      "files": [
+        {
+          "path": "models/village_market/village_market.glb",
+          "download_url": "https://static.poly.pizza/d99b4be3-5157-4dda-b308-ad77acbe8801.glb",
+          "bytes": 385312,
+          "sha256": "a9ded34097efad3bb34f097f885805e96dd4c0d7f0f7a516cfe539d0b0139b3f"
+        }
+      ],
+      "geometry": {
+        "meshes": 1,
+        "triangles_unique_meshes": 6986,
+        "materials": 7,
+        "external_dependencies": []
+      },
+      "category": "布景",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/village_market.png",
+      "source_dimensions_blender_xyz": [
+        1.8907968997955322,
+        2.1084136962890625,
+        0.552578330039978
+      ]
+    },
+    {
+      "id": "market_stalls",
+      "title": "成组果蔬摊棚",
+      "source_url": "https://poly.pizza/m/fmHUuX9AS3",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "notes": "成组果蔬货架与木制摊棚，适合市场或集散区布景；原始尺度偏小，需按人物高度放大。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/market_stalls/market_stalls.glb",
+      "files": [
+        {
+          "path": "models/market_stalls/market_stalls.glb",
+          "download_url": "https://static.poly.pizza/5448d0ab-edfe-49fa-9c0e-e270fb2ed2b8.glb",
+          "bytes": 987996,
+          "sha256": "ceb40decc76f7045cae5c5a882ed528c5d9c79f31e9be2e647d9a0971b5b9e04"
+        }
+      ],
+      "geometry": {
+        "meshes": 1,
+        "triangles_unique_meshes": 14164,
+        "materials": 8,
+        "external_dependencies": []
+      },
+      "category": "布景",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/market_stalls.png",
+      "source_dimensions_blender_xyz": [
+        1.9329653978347778,
+        1.9854614734649658,
+        0.6571075916290283
+      ]
+    },
+    {
+      "id": "modular_factory_facade",
+      "title": "砖砌厂房立面模块套件",
+      "source_url": "https://polyhaven.com/a/modular_factory_facade",
+      "author": "James Ray Cock",
+      "license": "CC0-1.0",
+      "notes": "192 个网格构成的砖墙、门窗与细部模块，可拼大型厂房或仓库。当前是零件展列，需自行组装建筑。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/modular_factory_facade/modular_factory_facade_2k.gltf",
+      "files": [
+        {
+          "path": "models/modular_factory_facade/modular_factory_facade_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modular_factory_facade/modular_factory_facade_2k.gltf",
+          "bytes": 372666,
+          "sha256": "f659bc368b07878202dbacca63bc60c8150bb61a3ede4869b540864e4dcb1e48"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_trim_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_trim_01_diff_2k.jpg",
+          "bytes": 2537009,
+          "sha256": "bc4e041d46829466f8a7cb45b2b84f26e6cd7a41464b89590423d7ba65075c6d"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_brick_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_brick_nor_gl_2k.jpg",
+          "bytes": 3471100,
+          "sha256": "a31341b4b1329bb2c27ce74da866aa56b359a5a60fcddbc6cd5be0029e410611"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_doors_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_doors_nor_gl_2k.jpg",
+          "bytes": 2099914,
+          "sha256": "4c885d8170310e9b26c80780458eee000dcb67ea057cb14b782d10e835b2a698"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_garage_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_garage_nor_gl_2k.jpg",
+          "bytes": 3235785,
+          "sha256": "d42a8cbcffe9a08d4fea5d12dbac82da0622efa49ad083361eead5b94927a086"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_trim_01_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_trim_01_arm_2k.jpg",
+          "bytes": 3129201,
+          "sha256": "3c70a0bb5e9f4d46183bebe5494d7665a775ea13c428af0dcea2fc29c950d48f"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_garage_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_garage_diff_2k.jpg",
+          "bytes": 2189076,
+          "sha256": "83722741c6bbdfafd285b6f5d0a2913c133d91b11705fb684d526a6695da0537"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_trim_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_trim_01_nor_gl_2k.jpg",
+          "bytes": 3717593,
+          "sha256": "1f43fa78247a60f4f06096c95df26b95b94727167e917a18962963b2993eb650"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_brick_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_brick_arm_2k.jpg",
+          "bytes": 2567917,
+          "sha256": "dc313e13bd12687bd8827b5e439c1ea2b56fbc883d935f26132b44781a21be14"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_windows_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_windows_nor_gl_2k.jpg",
+          "bytes": 2675074,
+          "sha256": "7d66b69bf4715555085b1d3c0f95fc2e28f325d8a1ab7a68d1078dca7db7ab04"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_garage_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_garage_arm_2k.jpg",
+          "bytes": 2542492,
+          "sha256": "0efc9b69568cf6b13bb22256edf8bec347fbc0ac5496d5736c8dc3eb69e800dd"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_windows_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_windows_diff_2k.jpg",
+          "bytes": 2316599,
+          "sha256": "2ca66aa0a753ab7fb6dcf605ec64a90fe116d6271719b20ee1a2069b568d2edd"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_doors_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_doors_arm_2k.jpg",
+          "bytes": 2628673,
+          "sha256": "07af095d6ecb4966ec029968ff7b0d111de8b2e1910bbea168dc9c958a4da3d1"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_windows_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_windows_arm_2k.jpg",
+          "bytes": 3333067,
+          "sha256": "963ececefba6c4a104a32258e611f250ea1f715fba747f7a0a640b7e4603f1b6"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_doors_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_doors_diff_2k.jpg",
+          "bytes": 2081334,
+          "sha256": "1189acbe5ed4ecaccda9ec40f0a4a4a454016a22dbab0f18d3bdb61a01d9821a"
+        },
+        {
+          "path": "models/modular_factory_facade/modular_factory_facade.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_factory_facade/modular_factory_facade.bin",
+          "bytes": 6269260,
+          "sha256": "12702fb065a838695e0621e1aac3947af92d32c439fb965c8b0563ad691fed70"
+        },
+        {
+          "path": "models/modular_factory_facade/textures/modular_factory_facade_brick_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_factory_facade/modular_factory_facade_brick_diff_2k.jpg",
+          "bytes": 4421090,
+          "sha256": "02204a7971f406dcd2b6e1e3bc90e5656c5749a4417cfd5977dc7dfa5042a5d4"
+        }
+      ],
+      "geometry": {
+        "meshes": 192,
+        "triangles_unique_meshes": 175014,
+        "materials": 6,
+        "external_dependencies": [
+          "modular_factory_facade.bin",
+          "textures/modular_factory_facade_trim_01_nor_gl_2k.jpg",
+          "textures/modular_factory_facade_trim_01_diff_2k.jpg",
+          "textures/modular_factory_facade_trim_01_arm_2k.jpg",
+          "textures/modular_factory_facade_windows_nor_gl_2k.jpg",
+          "textures/modular_factory_facade_windows_diff_2k.jpg",
+          "textures/modular_factory_facade_windows_arm_2k.jpg",
+          "textures/modular_factory_facade_windows_diff_2k.jpg",
+          "textures/modular_factory_facade_garage_nor_gl_2k.jpg",
+          "textures/modular_factory_facade_garage_diff_2k.jpg",
+          "textures/modular_factory_facade_garage_arm_2k.jpg",
+          "textures/modular_factory_facade_brick_nor_gl_2k.jpg",
+          "textures/modular_factory_facade_brick_diff_2k.jpg",
+          "textures/modular_factory_facade_brick_arm_2k.jpg",
+          "textures/modular_factory_facade_doors_nor_gl_2k.jpg",
+          "textures/modular_factory_facade_doors_diff_2k.jpg",
+          "textures/modular_factory_facade_doors_arm_2k.jpg"
+        ]
+      },
+      "category": "建筑",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/modular_factory_facade.png",
+      "source_dimensions_blender_xyz": [
+        53.32999801635742,
+        5.356249809265137,
+        29.0
+      ]
+    },
+    {
+      "id": "chinese_screen_panels",
+      "title": "中式屏风整套",
+      "source_url": "https://polyhaven.com/a/chinese_screen_panels",
+      "author": "Kirill Sannikov",
+      "license": "CC0-1.0",
+      "notes": "带传统纹样的屏风，可填充院内或室内陈设。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/chinese_screen_panels/chinese_screen_panels_2k.gltf",
+      "files": [
+        {
+          "path": "models/chinese_screen_panels/chinese_screen_panels_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/chinese_screen_panels/chinese_screen_panels_2k.gltf",
+          "bytes": 4225,
+          "sha256": "b41e9a2e3ec6f0639ee367b330890c551930ab3d3657a078fa46d3be61824b37"
+        },
+        {
+          "path": "models/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_screen_panels/chinese_screen_panels_nor_gl_2k.jpg",
+          "bytes": 1667117,
+          "sha256": "964516af3a3970181b1b3fad02ade4e9e5ef2e4631e5faf7c7f0066d79edd172"
+        },
+        {
+          "path": "models/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_screen_panels/chinese_screen_panels_diff_2k.jpg",
+          "bytes": 2496906,
+          "sha256": "1d13578e290fca3998a2c0862e6c72dc02ce54be2cc4b3767b5f67ddf4220ae8"
+        },
+        {
+          "path": "models/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_screen_panels/chinese_screen_panels_arm_2k.jpg",
+          "bytes": 2104738,
+          "sha256": "bb41fb737068c276b4959f5d30783d0178ef6fd0f712201fbbc085786a4e121f"
+        },
+        {
+          "path": "models/chinese_screen_panels/chinese_screen_panels.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/chinese_screen_panels/chinese_screen_panels.bin",
+          "bytes": 35936,
+          "sha256": "34a2f03180313ed4dbf6ac8dd6c0277b1b873929daf6bf8f06a209af6c9b2fc3"
+        }
+      ],
+      "geometry": {
+        "meshes": 2,
+        "triangles_unique_meshes": 784,
+        "materials": 1,
+        "external_dependencies": [
+          "chinese_screen_panels.bin",
+          "textures/chinese_screen_panels_nor_gl_2k.jpg",
+          "textures/chinese_screen_panels_diff_2k.jpg",
+          "textures/chinese_screen_panels_arm_2k.jpg"
+        ]
+      },
+      "category": "布景",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/chinese_screen_panels.png",
+      "source_dimensions_blender_xyz": [
+        1.2939677238464355,
+        0.376891165971756,
+        1.6031262874603271
+      ]
+    },
+    {
+      "id": "chinese_tea_table",
+      "title": "中式茶桌",
+      "source_url": "https://polyhaven.com/a/chinese_tea_table",
+      "author": "Kirill Sannikov",
+      "license": "CC0-1.0",
+      "notes": "适合茶室、民居、院落陈设；小道具，需搭配大型建筑使用。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/chinese_tea_table/chinese_tea_table_2k.gltf",
+      "files": [
+        {
+          "path": "models/chinese_tea_table/chinese_tea_table_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/chinese_tea_table/chinese_tea_table_2k.gltf",
+          "bytes": 2793,
+          "sha256": "bd79eb86ac2edcb87b312ce1c2ae2a0cf5881981d11d21f5b62e3dd69d486303"
+        },
+        {
+          "path": "models/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_tea_table/chinese_tea_table_diff_2k.jpg",
+          "bytes": 1696113,
+          "sha256": "0ea6290528c50a5c5c994a4648f101670fa0f2ce98209496a4dbba1b025ad669"
+        },
+        {
+          "path": "models/chinese_tea_table/chinese_tea_table.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/chinese_tea_table/chinese_tea_table.bin",
+          "bytes": 78792,
+          "sha256": "e584dbcf8d654c662ef849ef6111b11dc9f87e9a7ea8dc98c7d32dbfe10b7e52"
+        },
+        {
+          "path": "models/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_tea_table/chinese_tea_table_nor_gl_2k.jpg",
+          "bytes": 2329694,
+          "sha256": "ca8484f0c8fa66c6922246cd129523cd4aee9f48a9fc5b0ce4c3f5f04b51e96c"
+        },
+        {
+          "path": "models/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_tea_table/chinese_tea_table_arm_2k.jpg",
+          "bytes": 1922536,
+          "sha256": "316bfe378289b18df8bec3bf906996e921153474417215baad8ce5c2f3701d88"
+        }
+      ],
+      "geometry": {
+        "meshes": 1,
+        "triangles_unique_meshes": 2508,
+        "materials": 1,
+        "external_dependencies": [
+          "chinese_tea_table.bin",
+          "textures/chinese_tea_table_nor_gl_2k.jpg",
+          "textures/chinese_tea_table_diff_2k.jpg",
+          "textures/chinese_tea_table_arm_2k.jpg"
+        ]
+      },
+      "category": "布景",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/chinese_tea_table.png",
+      "source_dimensions_blender_xyz": [
+        0.8413149118423462,
+        0.8356219530105591,
+        0.4986410439014435
+      ]
+    },
+    {
+      "id": "wicker_basket_01",
+      "title": "编织方筐",
+      "source_url": "https://polyhaven.com/a/wicker_basket_01",
+      "author": "Kuutti Siitonen",
+      "license": "CC0-1.0",
+      "notes": "约 38 厘米宽的小筐，适合市场、仓储和生活区的近景点缀。",
+      "status": "downloaded_blender_and_godot_import_verified",
+      "entry": "models/wicker_basket_01/wicker_basket_01_2k.gltf",
+      "files": [
+        {
+          "path": "models/wicker_basket_01/wicker_basket_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wicker_basket_01/wicker_basket_01_2k.gltf",
+          "bytes": 2792,
+          "sha256": "bd02a364acb48039355642f69349f63d0fe9c635a33b4a57c44e6e24d672cb35"
+        },
+        {
+          "path": "models/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wicker_basket_01/wicker_basket_01_arm_2k.jpg",
+          "bytes": 2893672,
+          "sha256": "b1932ee1cd909fde89d4cd73b69b33d9c62b9bebf10063a37133461164f9e672"
+        },
+        {
+          "path": "models/wicker_basket_01/wicker_basket_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wicker_basket_01/wicker_basket_01.bin",
+          "bytes": 624920,
+          "sha256": "8e96025ffcdc64a7e75d1aa980f2491b1219912a4554272cd1e192a966c399f8"
+        },
+        {
+          "path": "models/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wicker_basket_01/wicker_basket_01_nor_gl_2k.jpg",
+          "bytes": 2229761,
+          "sha256": "74eb1bd455ff66f6dd00abe26fa5ad9669a5b67217f394be981d9b04d3e9e774"
+        },
+        {
+          "path": "models/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wicker_basket_01/wicker_basket_01_diff_2k.jpg",
+          "bytes": 2606521,
+          "sha256": "ffc48a6f829f36d6baf7461cbe8d0b71971893315840d93c0e50f3c8b95a9dce"
+        }
+      ],
+      "geometry": {
+        "meshes": 1,
+        "triangles_unique_meshes": 22276,
+        "materials": 1,
+        "external_dependencies": [
+          "wicker_basket_01.bin",
+          "textures/wicker_basket_01_nor_gl_2k.jpg",
+          "textures/wicker_basket_01_diff_2k.jpg",
+          "textures/wicker_basket_01_arm_2k.jpg"
+        ]
+      },
+      "category": "布景",
+      "visual_review": "2026-10-13; see notes and local preview",
+      "preview": "previews/wicker_basket_01.png",
+      "source_dimensions_blender_xyz": [
+        0.3832242488861084,
+        0.29501521587371826,
+        0.1174229308962822
+      ]
+    }
+  ],
+  "downloaded_group_count": 11,
+  "downloaded_model_bytes": 79720074,
+  "game_integration_status": "collected_for_selection; not_added_to_main_game"
+}

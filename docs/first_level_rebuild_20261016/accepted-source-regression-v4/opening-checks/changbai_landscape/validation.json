@@ -1,0 +1,121 @@
+{
+  "captures": [],
+  "checks": [
+    {
+      "description": "Woodland follows the lake environment lifecycle",
+      "passed": true
+    },
+    {
+      "description": "Bounded woodland density supplies a visible mountain forest",
+      "passed": true
+    },
+    {
+      "description": "Woodland covers all four mountain sectors",
+      "passed": true
+    },
+    {
+      "description": "Tree trunks stay outside the water and exposed shore",
+      "passed": true
+    },
+    {
+      "description": "Tree crowns leave room around both walking routes and the speakers",
+      "passed": true
+    },
+    {
+      "description": "Tall trees stay below the summit and off steep cliffs",
+      "passed": true
+    },
+    {
+      "description": "Woodland uses bounded spatial batches on the isolated lake layer",
+      "passed": true
+    },
+    {
+      "description": "Decorative woodland and rock details add no collision",
+      "passed": true
+    },
+    {
+      "description": "Conversation floor retains its 26m collision surface",
+      "passed": true
+    },
+    {
+      "description": "Natural ledge, stone edges and low vegetation replace visual markers",
+      "passed": true
+    },
+    {
+      "description": "S21_Crater_East has world-mapped rock detail",
+      "passed": true
+    },
+    {
+      "description": "S21_Crater_North has world-mapped rock detail",
+      "passed": true
+    },
+    {
+      "description": "S21_Crater_West has world-mapped rock detail",
+      "passed": true
+    },
+    {
+      "description": "S21_Crater_South has world-mapped rock detail",
+      "passed": true
+    },
+    {
+      "description": "Refined crater mesh has a bounded geometry budget",
+      "passed": true
+    },
+    {
+      "description": "Wide camera frames the lake center inside the main image",
+      "passed": true
+    },
+    {
+      "description": "Historical wide shot includes substantial woodland",
+      "passed": true
+    },
+    {
+      "description": "Historical wide hides the conversation platform dressing",
+      "passed": true
+    },
+    {
+      "description": "Wide shot continues a smooth rising camera move",
+      "passed": true
+    },
+    {
+      "description": "04-talk enables the mountain details",
+      "passed": true
+    },
+    {
+      "description": "05-listen enables the mountain details",
+      "passed": true
+    },
+    {
+      "description": "06-briefing enables the mountain details",
+      "passed": true
+    },
+    {
+      "description": "07-departure enables the mountain details",
+      "passed": true
+    },
+    {
+      "description": "Forest mission shots hide all lake decoration",
+      "passed": true
+    },
+    {
+      "description": "Aborting the opening leaves no visible lake decoration",
+      "passed": true
+    }
+  ],
+  "count": 25,
+  "device": "headless",
+  "passed": true,
+  "performance": [],
+  "rendered": false,
+  "resolution": "(64, 64)",
+  "scope": "Actual Godot scene, spatial clearance, layers, collision, shot framing, raster samples and frozen camera timing; not full realtime gameplay performance.",
+  "sector_counts": {
+    "S21_Crater_East": 162,
+    "S21_Crater_North": 159,
+    "S21_Crater_South": 181,
+    "S21_Crater_West": 178
+  },
+  "terrain_triangles": 41472,
+  "tree_batches": 29,
+  "trees": 680
+}

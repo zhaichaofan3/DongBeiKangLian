@@ -1,0 +1,11 @@
+{
+	"checks": 55,
+	"failures": [
+		"Pre-charge save preserves exactly three office defeats",
+		"Pre-charge save preserves exactly three office defeats",
+		"Pre-charge save preserves exactly three office defeats",
+		"Pre-charge save preserves exactly three office defeats"
+	],
+	"passed": false,
+	"rendered": false
+}

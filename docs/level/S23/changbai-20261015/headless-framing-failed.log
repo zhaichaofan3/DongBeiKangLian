@@ -1,0 +1,28 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Woodland follows the lake environment lifecycle
+PASS: Bounded woodland density supplies a visible mountain forest
+PASS: Woodland covers all four mountain sectors
+PASS: Tree trunks stay outside the water and exposed shore
+PASS: Tree crowns leave room around both walking routes and the speakers
+PASS: Tall trees stay below the summit and off steep cliffs
+PASS: Woodland uses bounded spatial batches on the isolated lake layer
+PASS: Decorative woodland and rock details add no collision
+PASS: Conversation floor retains its 26m collision surface
+PASS: Natural ledge, stone edges and low vegetation replace visual markers
+PASS: S21_Crater_East has world-mapped rock detail
+PASS: S21_Crater_North has world-mapped rock detail
+PASS: S21_Crater_West has world-mapped rock detail
+PASS: S21_Crater_South has world-mapped rock detail
+PASS: Refined crater mesh has a bounded geometry budget
+FAIL: Wide camera frames the lake center inside the main image
+PASS: Historical wide shot includes substantial woodland
+PASS: Historical wide hides the conversation platform dressing
+PASS: Wide shot continues a smooth rising camera move
+PASS: 04-talk enables the mountain details
+PASS: 05-listen enables the mountain details
+PASS: 06-briefing enables the mountain details
+PASS: 07-departure enables the mountain details
+PASS: Forest mission shots hide all lake decoration
+PASS: Aborting the opening leaves no visible lake decoration
+CHANGBAI LANDSCAPE: FAIL | checks=25 | trees=680

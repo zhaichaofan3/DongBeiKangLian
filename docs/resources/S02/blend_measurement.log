@@ -1,0 +1,9 @@
+FBX version: 7400
+S02 BLEND MEASUREMENT: 4 sources inspected, unchanged
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\AssetLibrary\environment\supplement\dims-arboretum\extracted\dim_arboretum.blend"
+Read blend: "C:\GameMake\AssetLibrary\environment\supplement\birch-tree\treebirch.blend"
+Read blend: "C:\GameMake\AssetLibrary\environment\supplement\medieval-waterpowered-sawmill\extracted\WaterPoweredSawmillUpload.blend"
+Warning: region type 4 missing in space type "Info" (id: 7) - removing region
+
+Blender quit

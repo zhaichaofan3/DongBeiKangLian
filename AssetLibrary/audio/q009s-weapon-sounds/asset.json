@@ -1,0 +1,274 @@
+{
+  "id": "q009s-weapon-sounds",
+  "title": "Q009 weapon sounds",
+  "source_url": "https://opengameart.org/content/q009s-weapon-sounds",
+  "author": "Q009",
+  "license": "CC-BY-SA-3.0",
+  "notes": "Gunshots, reloads, shell eject and explosions; stylized supplemental layers.",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "files": [
+    {
+      "path": "q009s-weapon-sounds/originals/q009-sounds.zip",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 1659693,
+      "sha256": "34bbb21f78e252f1b969d00e9c8c00c8720bb3868c1e51bfce9db93e939dd6e7",
+      "role": "original_download"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/explosion.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 26458,
+      "sha256": "4942bf1fa9cf5eaa320d310832e0af3f26e40cdc540fe4534dfcf57b8e6dd396",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/glauncher.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 33687,
+      "sha256": "9cfa1895a63a550abd9bca5480e97b65edf58cdc5761e86eba08c916b28179a6",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/glauncher2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 35442,
+      "sha256": "e902669d80cb2c069a2091a9d3761ba22f61c2cd72d9e2e0077e92f16d81a713",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/glauncher3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 33228,
+      "sha256": "ca18b99eae1c898435cbd5726a9bd607b7dd1593aec767691db24ebe229c9d1b",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/grenade.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 18868,
+      "sha256": "0ca117e812a74ebabdad3abe0bd78ce7c3cb82c55728495653290c4e5ae7bd23",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/grenade2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 18440,
+      "sha256": "b495d25aef281a875bc6fac7baa35fccc884946433b7e9453b144486ca85efcf",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/grenade3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 15448,
+      "sha256": "463eaa4e52c6a123c4d5640af751e282b4d8bee10776c7bee6b01d444606ede6",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/jumppad.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 18891,
+      "sha256": "658b7c1adf3b3719c761a4fda4760b1c97b6b75f90673ee15a0dc33be047398a",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/jumppad2.wav",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 229364,
+      "sha256": "bfcd0f217f5af881d7d7844700c80a29a8ed1ad065492da7c8b3aaa3a014592d",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/license.txt",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 19440,
+      "sha256": "4863004eb6a6d471b5b88b8299d9456aef0b47275bba8c3f2f1034b7ea8623a4",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/minigun.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 27887,
+      "sha256": "3f1610732a1b9ef57c7e1a0b6d7b2cf049d342787b64a44bae16174a50b513db",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/minigun2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 23328,
+      "sha256": "ae38b3048ceeb2e75179eeb084a74535c1e99c2db7e0fb0be5f153ee310ddc5e",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/minigun3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 26256,
+      "sha256": "e4ab92d1641d86a281843314389dd225029dc70124b436f33f33aa99efd61aed",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/outofammo.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 17875,
+      "sha256": "0092848933d9d3a60fc573965caa760ddd9c74b314f67e1a98341093e30e7e08",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/pistol.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 28394,
+      "sha256": "f2125304b119d04352cd6a9471b048f96c3ef3c67e8b42062284d61c50ac287c",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/pistol2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 28382,
+      "sha256": "0c8f837319958a1087bd8f86c69b0888653e1208eb806e8a0b2a20c04e761f34",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/pistol3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 26900,
+      "sha256": "a36a76b6e3a89e612c628dd1c5bb3e10c7a7c838987156802626c5241cfa9cef",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/quaddamage_out.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 32622,
+      "sha256": "451eab33364cbceda6a525ef26de52ce361d9c4a5b3b846ce633c48d63617a99",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/quaddamage_shoot.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 27708,
+      "sha256": "228182b356244a0fd9796a25ad6de41a5cca129642a7f35b8f79b7d1f0c74dd0",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/readme.txt",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 1316,
+      "sha256": "e6bf30214c5093052a563c9b4576c74332dd8de9c0af06579ae59b96cb926367",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/ren.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 57450,
+      "sha256": "afba7e637c1558fbff1105f6f62b37459b61d93221afd4e814f4de5f769b15b9",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/ren2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 61105,
+      "sha256": "bfe98c4f39a0cb53aba6d43de2201751ce88002a91f5ad3a3a825796ccc0bd81",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/ren3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 62113,
+      "sha256": "3727883997ef68fe821116eac92a1e906cf9edac9fdec70bdb01504e5d0e4689",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/rifle.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 129037,
+      "sha256": "f26f2813568898d7e3bcc0c2f3dc61428126dc9cd9de2a593493a3973dd4c036",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/rifle2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 124220,
+      "sha256": "965150c460b66e69fa2c7b793eb8475f6732fa1d3f4c6192b159f02f4e75f8dd",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/rifle3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 122683,
+      "sha256": "cf9f22db63b2fed70b03eca14173cb14192b7c3b49555668c31d119add453fde",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/rlauncher.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 57937,
+      "sha256": "0fb8f5d3d1cb60404c7555ae41d8b62274e10f135aa0ba76eee3769cf60364ac",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/rlauncher2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 58699,
+      "sha256": "75fbcc099ea35a72333f16860482b61ee323cc6b5352c7ede9aaf31e61da0c94",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/rlauncher3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 57645,
+      "sha256": "d6ffa932b691c65c6c985cda35845762c72b000cc9235a32313ed72adc72236d",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/shotgun.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 125080,
+      "sha256": "04f0f8ff75c940994c3f6c0f70b41069f24e53cb7ddcebd4f18c5b79de10ffe3",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/shotgun2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 126102,
+      "sha256": "a369c37078c1ad9075cfd7b4d60060c7597970892cce02be8597ccb99630d164",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/shotgun3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 124398,
+      "sha256": "c1b460c13a47721c9e3d4e6e3ae91ae7b73dee0df3b5465652243d159d6b11bc",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/teleport.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 17122,
+      "sha256": "051b78f7d2de8d3bf2ec6e3f271921c151e80466be8cf6d13419513a8b44b1ad",
+      "role": "extracted"
+    },
+    {
+      "path": "q009s-weapon-sounds/extracted/q009-sounds/q009/weapswitch.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/q009-sounds.zip",
+      "bytes": 20443,
+      "sha256": "daef10a4badf147aa92627f2c669654be8e425bbe226b429fbf9686a79484999",
+      "role": "extracted"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 32,
+    "decode_passed": 32,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      1,
+      2
+    ],
+    "total_duration_seconds": 44.15,
+    "duration_range_seconds": [
+      0.233,
+      2.71
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

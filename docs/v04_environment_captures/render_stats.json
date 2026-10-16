@@ -1,0 +1,33 @@
+{
+	"gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+	"models_placed": 59,
+	"quality": 1,
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1600,
+		900
+	],
+	"scope": "Single GPU screenshot frames; not a frame-time benchmark or combat load test.",
+	"views": [
+		{
+			"draw_calls": 617.0,
+			"primitives": 1393210.0,
+			"view": "forest_path"
+		},
+		{
+			"draw_calls": 200.0,
+			"primitives": 285822.0,
+			"view": "shelter"
+		},
+		{
+			"draw_calls": 364.0,
+			"primitives": 377344.0,
+			"view": "office"
+		},
+		{
+			"draw_calls": 212.0,
+			"primitives": 209030.0,
+			"view": "rescue"
+		}
+	]
+}

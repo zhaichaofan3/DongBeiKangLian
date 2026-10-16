@@ -1,0 +1,11 @@
+{
+  "id": "N07",
+  "part": "A",
+  "text": "在冰天雪地里、",
+  "voice": "Microsoft Kangkang",
+  "rate": -1,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

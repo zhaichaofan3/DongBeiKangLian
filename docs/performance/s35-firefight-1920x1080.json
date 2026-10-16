@@ -1,0 +1,33 @@
+{
+  "enemy_shots_observed": 4,
+  "fixture": "normal guard sight/fire and player muzzle/effect paths; linear gates disabled and player health raised only to keep the measurement window alive; no gameplay result claimed.",
+  "fps_limit": 0,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "max_frame_ms": 13.509,
+  "mean_draw_calls": 630.152777777778,
+  "mean_fps": 173.167961137261,
+  "mean_frame_ms": 5.77474027777778,
+  "mean_primitives": 848763.947222222,
+  "measurement_valid": true,
+  "p95_frame_ms": 7.546,
+  "p99_frame_ms": 8.264,
+  "peak_alive_enemies": 5,
+  "player_shots_observed": 1,
+  "quality": "balanced",
+  "render_scale_3d": 1.0,
+  "renderer": "gl_compatibility",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "sample_frames": 720,
+  "sample_seconds": 4.157813,
+  "status": "firefight_sample_complete",
+  "step": "S35",
+  "two_sided_exchange": true,
+  "vsync": false,
+  "window_resolution": [
+    1920,
+    1080
+  ]
+}

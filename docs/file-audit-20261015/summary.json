@@ -1,0 +1,167 @@
+{
+  "StartedAt": "2026-10-15T18:16:52.1484901+08:00",
+  "FinishedAt": "2026-10-15T18:17:32.9247846+08:00",
+  "Workspace": "C:\\GameMake",
+  "InventoryBoundary": "Snapshot after starting P00 checkpoint; generated audit outputs and closing checkpoint are outside this inventory.",
+  "Files": 104714,
+  "Directories": 16225,
+  "TotalBytes": 81809671629.0,
+  "EnumerationErrors": 0,
+  "ReparsePoints": 10,
+  "ZeroByteFiles": 112,
+  "LongPaths": 0,
+  "DriveTotalBytes": 1023876075520,
+  "DriveFreeBytes": 76105723904,
+  "DirectorySummary": [
+    {
+      "Directory": "WorkBackups",
+      "Files": 87349,
+      "Bytes": 67282019378.0
+    },
+    {
+      "Directory": "ReleaseBackups",
+      "Files": 2545,
+      "Bytes": 4999699483.0
+    },
+    {
+      "Directory": "AssetLibrary",
+      "Files": 1917,
+      "Bytes": 2594309211.0
+    },
+    {
+      "Directory": "tools",
+      "Files": 7404,
+      "Bytes": 1684756801.0
+    },
+    {
+      "Directory": "docs",
+      "Files": 2945,
+      "Bytes": 1297278193.0
+    },
+    {
+      "Directory": "GodotProject",
+      "Files": 1389,
+      "Bytes": 1236553049.0
+    },
+    {
+      "Directory": "ConversationBackups",
+      "Files": 208,
+      "Bytes": 802974904.0
+    },
+    {
+      "Directory": "Release",
+      "Files": 178,
+      "Bytes": 743301135.0
+    },
+    {
+      "Directory": ".models",
+      "Files": 16,
+      "Bytes": 564418220.0
+    },
+    {
+      "Directory": "RestoreChecks",
+      "Files": 542,
+      "Bytes": 527675354.0
+    },
+    {
+      "Directory": "AssetReview",
+      "Files": 181,
+      "Bytes": 75271191.0
+    },
+    {
+      "Directory": ".auto-resume",
+      "Files": 9,
+      "Bytes": 1230673.0
+    },
+    {
+      "Directory": "licenses",
+      "Files": 2,
+      "Bytes": 101257.0
+    },
+    {
+      "Directory": "(root)",
+      "Files": 17,
+      "Bytes": 48929.0
+    },
+    {
+      "Directory": "GameProject",
+      "Files": 12,
+      "Bytes": 33851.0
+    }
+  ],
+  "JsonChecked": 1066,
+  "JsonFailures": [
+    {
+      "Path": "docs/connection-latest.json",
+      "Bytes": 1769,
+      "Error": "Conversion from JSON failed with error: Additional text encountered after finished reading JSON content: \\. Path '', line 75, position 1."
+    },
+    {
+      "Path": "docs/level/S13/accepted-01/summary.json",
+      "Bytes": 593,
+      "Error": "Empty JSON or NUL character present."
+    },
+    {
+      "Path": ".auto-resume/control.json",
+      "Bytes": 180,
+      "Error": "Empty JSON or NUL character present."
+    }
+  ],
+  "HistoryLines": 189,
+  "HistoryErrors": [],
+  "BackupCheckpoints": 189,
+  "BackupEntriesChecked": 86970,
+  "BackupMetadataIssues": [],
+  "PendingBackups": [],
+  "SourceCheckpoint": "WorkBackups/20261015-180101-S19-in_progress-92509d",
+  "SourceCheckpointChanges": [
+    {
+      "Path": "docs/production_state.json",
+      "Change": "changed"
+    },
+    {
+      "Path": "docs/work_history.jsonl",
+      "Change": "changed"
+    },
+    {
+      "Path": "PROGRESS.md",
+      "Change": "changed"
+    }
+  ],
+  "SourceFilesNotInCheckpoint": [],
+  "ReleaseHashesChecked": 177,
+  "ReleaseHashFailures": [],
+  "ReleaseUnlistedFiles": [],
+  "MissingStepEvidence": [
+    {
+      "Step": "S17",
+      "Path": "Release/Validation/viewmodel-reference-anatomy-20261015/review.md"
+    },
+    {
+      "Step": "S17",
+      "Path": "Release/Validation/viewmodel-reference-anatomy-20261015/validation.json"
+    }
+  ],
+  "GeneratedRecordChecks": [
+    {
+      "Path": "PROGRESS.md",
+      "MatchesLatestSnapshot": true
+    },
+    {
+      "Path": "docs/production_state.json",
+      "MatchesLatestSnapshot": true
+    },
+    {
+      "Path": "docs/work_history.jsonl",
+      "MatchesLatestSnapshot": true
+    }
+  ],
+  "AutoControl": {
+    "Bytes": 180,
+    "NullBytes": 180,
+    "Sha256": "10b2a66888c58a54b277fe2e68fb6e87150c3cd2c537b7f6a2d84559017438c7",
+    "PauseFileExists": true
+  },
+  "RuntimeTestsRun": false,
+  "AllHistoricalBackupHashesChecked": false
+}

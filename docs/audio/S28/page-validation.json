@@ -1,0 +1,111 @@
+{
+  "audio_links": 21,
+  "all_resolve": true,
+  "sources": [
+    {
+      "src": "audition-summary.wav",
+      "frames": 1997516,
+      "ok": true
+    },
+    {
+      "src": "samples/rifle-near-1.wav",
+      "frames": 122400,
+      "ok": true
+    },
+    {
+      "src": "samples/rifle-near-2.wav",
+      "frames": 122400,
+      "ok": true
+    },
+    {
+      "src": "samples/pistol-reference.wav",
+      "frames": 120000,
+      "ok": true
+    },
+    {
+      "src": "samples/rifle-mid-dry.wav",
+      "frames": 144000,
+      "ok": true
+    },
+    {
+      "src": "samples/rifle-mid-echo.wav",
+      "frames": 167040,
+      "ok": true
+    },
+    {
+      "src": "samples/step-grass-1.wav",
+      "frames": 11682,
+      "ok": true
+    },
+    {
+      "src": "samples/step-grass-2.wav",
+      "frames": 11682,
+      "ok": true
+    },
+    {
+      "src": "samples/step-wood-1.wav",
+      "frames": 13640,
+      "ok": true
+    },
+    {
+      "src": "samples/step-wood-2.wav",
+      "frames": 13640,
+      "ok": true
+    },
+    {
+      "src": "samples/step-gravel-1.wav",
+      "frames": 8913,
+      "ok": true
+    },
+    {
+      "src": "samples/step-gravel-2.wav",
+      "frames": 4971,
+      "ok": true
+    },
+    {
+      "src": "samples/step-snow-1.wav",
+      "frames": 22890,
+      "ok": true
+    },
+    {
+      "src": "samples/step-snow-2.wav",
+      "frames": 33300,
+      "ok": true
+    },
+    {
+      "src": "samples/wind-forest.wav",
+      "frames": 416878,
+      "ok": true
+    },
+    {
+      "src": "samples/wind-mountains.wav",
+      "frames": 264950,
+      "ok": true
+    },
+    {
+      "src": "samples/explosion-q009.wav",
+      "frames": 66960,
+      "ok": true
+    },
+    {
+      "src": "samples/rumble.wav",
+      "frames": 42786,
+      "ok": true
+    },
+    {
+      "src": "samples/retro-explosion.wav",
+      "frames": 47212,
+      "ok": true
+    },
+    {
+      "src": "samples/bolt.wav",
+      "frames": 52800,
+      "ok": true
+    },
+    {
+      "src": "samples/cloth.wav",
+      "frames": 31200,
+      "ok": true
+    }
+  ]
+}

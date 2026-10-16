@@ -1,0 +1,7 @@
+Title: Handling Guns
+Author: Gary (fossilrecords.net)
+License: CC-BY-SA-3.0
+License URL: https://creativecommons.org/licenses/by-sa/3.0/
+Source: https://opengameart.org/content/handling-guns
+Evidence: source.html and source.txt
+Notes: Includes bolt-action rifle mechanics and dry recordings. Credit Guns by Gary; preserve share-alike for modified audio.

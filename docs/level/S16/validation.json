@@ -1,0 +1,20 @@
+{
+  "step": "S16",
+  "status": "done",
+  "changes": [
+    "Player horizontal movement now accelerates/decelerates with a bounded target velocity and footstep timer follows actual speed.",
+    "Friendly and guard CharacterBody3D movement now uses horizontal acceleration and feeds actual speed to the model gait."
+  ],
+  "specialized": "8/8",
+  "linear_route": "37/37",
+  "combat_route": "PASS",
+  "visual_motion": "50/50",
+  "evidence": [
+    "docs/level/S16/locomotion.json",
+    "docs/level/S16/locomotion-runtime-final.log",
+    "docs/level/S16/linear-route.log",
+    "docs/level/S16/combat-route.log",
+    "docs/level/S16/visual-motion.log"
+  ],
+  "scope_boundary": "S16 calibrates locomotion speed and phase; S17 handles weapon-specific movement, aim, fire and reload transitions."
+}

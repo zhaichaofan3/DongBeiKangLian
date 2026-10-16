@@ -1,0 +1,7 @@
+Title: Super Foley Pack
+Author: dklon
+License: CC-BY-3.0
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://opengameart.org/content/super-foley-pack
+Evidence: source.html and source.txt
+Notes: Raw multi-take leather, clothing, chest/hand impacts, shuffling and wooden chair sounds; edit before direct event use.

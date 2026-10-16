@@ -1,0 +1,58 @@
+[
+  {
+    "id": "rumble",
+    "name": "rumble.flac",
+    "url": "https://opengameart.org/sites/default/files/rumble.flac",
+    "source_url": "https://opengameart.org/content/rumbleexplosion",
+    "author": "Michel Baradari",
+    "license": "CC-BY-3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "notes": "Broad rumble/explosion source; no claim of a historical artillery recording.",
+    "status": "downloaded_and_decoded",
+    "path": "AssetLibrary/audio/S28_20261015/originals/rumble.flac",
+    "bytes": 80972,
+    "sha256": "ac7ea8146bd7b86b98a7d1c2c10e8df7225ed91bbcfec7881a312f795a5f5636",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "flac",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "0.891361"
+      }
+    }
+  },
+  {
+    "id": "retro-explosion",
+    "name": "explosion.wav",
+    "url": "https://opengameart.org/sites/default/files/explosion.wav",
+    "source_url": "https://opengameart.org/content/explosion-0",
+    "author": "TinyWorlds",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "notes": "Author explicitly describes retro game audio; reserve candidate, not a realism reference.",
+    "status": "downloaded_and_decoded",
+    "path": "AssetLibrary/audio/S28_20261015/originals/explosion.wav",
+    "bytes": 86796,
+    "sha256": "df2594dcef5cf8f8f9b131828224fc47c9e3fdaf677bd9211d1b372dfde47177",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.983583"
+      }
+    }
+  }
+]

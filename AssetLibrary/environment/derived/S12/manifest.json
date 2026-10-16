@@ -1,0 +1,34 @@
+{
+  "source": "Existing JKM tree set, GPL as included with original package; no new download",
+  "purpose": "Distant forest only, shared mesh instancing; authored material bindings replace missing MTL",
+  "height_m": 10,
+  "vertices": 171,
+  "triangles": 113,
+  "files": [
+    {
+      "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/pinetree.obj",
+      "bytes": 17897,
+      "sha256": "392a66ba03855e9abb7f0a04b8377ec1c8f675c4288c4adf994e5267f04998da"
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/nadel.tga",
+      "bytes": 233128,
+      "sha256": "1a9c732400e1450f09efe61f8ce5aee515c22ce5e06c0323fbdfd4680fce5851"
+    },
+    {
+      "path": "AssetLibrary/environment/supplement/jkms-tree-set/extracted/models/stamm.jpg",
+      "bytes": 2103,
+      "sha256": "e648b05c1bf6a50ee4b97d3286297fcaeb8e58560e6b50e25e37f31a8ef8f372"
+    },
+    {
+      "path": "AssetLibrary/environment/derived/S12/far_pine.blend",
+      "bytes": 732440,
+      "sha256": "127a0387309e21010f6f34092c332bb0e1e2f800271382ee6776862dda59c979"
+    },
+    {
+      "path": "GodotProject/assets/environment/landscape/far_pine.glb",
+      "bytes": 193248,
+      "sha256": "526cfaf55a31b11d6d3193152f34e8fe7eaa41af9aa7766de2b5992f19d70f32"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "all_passed": false,
+  "checks": [
+    {
+      "description": "Menu starts one global music stream",
+      "passed": true
+    },
+    {
+      "description": "Music defaults to 22 percent and loops",
+      "passed": true
+    },
+    {
+      "description": "Entire user background recording is available",
+      "passed": true
+    },
+    {
+      "description": "Settings exposes a background music slider",
+      "passed": true
+    },
+    {
+      "description": "Music zero mutes only the music bus",
+      "passed": true
+    },
+    {
+      "description": "Restoring music leaves master and narration unchanged",
+      "passed": true
+    },
+    {
+      "description": "Music preference survives config reload",
+      "passed": true
+    },
+    {
+      "description": "A starts the supplied full recording with zero global music streams",
+      "passed": true
+    },
+    {
+      "description": "History duration covers the full audio without cutting its tail",
+      "passed": true
+    },
+    {
+      "description": "Subtitle changes never replay synthetic A narration",
+      "passed": true
+    },
+    {
+      "description": "Pausing A pauses the complete recording",
+      "passed": true
+    },
+    {
+      "description": "Pause preserves camera and subtitle time",
+      "passed": true
+    },
+    {
+      "description": "Resuming A keeps global music silent",
+      "passed": true
+    },
+    {
+      "description": "One building shot carries added narration at 54.0s",
+      "passed": true
+    },
+    {
+      "description": "One building shot carries added narration at 60.5s",
+      "passed": true
+    },
+    {
+      "description": "One building shot carries added narration at 65.0s",
+      "passed": true
+    },
+    {
+      "description": "Building camera movement is continuous between frames",
+      "passed": false
+    },
+    {
+      "description": "Title appears on the same panorama after the final words",
+      "passed": true
+    },
+    {
+      "description": "Skipping A stops the mixed recording and restores one global score",
+      "passed": true
+    },
+    {
+      "description": "B dialogue automatically lowers global background music",
+      "passed": true
+    },
+    {
+      "description": "Pausing B immediately pauses music and dialogue",
+      "passed": true
+    },
+    {
+      "description": "Leaving paused B releases narration and resumes one menu score",
+      "passed": true
+    },
+    {
+      "description": "Direct gameplay starts one global score",
+      "passed": true
+    },
+    {
+      "description": "Natural A completion restores B music and retires history audio",
+      "passed": true
+    },
+    {
+      "description": "Gameplay handoff preserves one music stream",
+      "passed": true
+    },
+    {
+      "description": "Checkpoint load restores one music stream",
+      "passed": true
+    }
+  ],
+  "global_music_default": 0.22,
+  "history_ms": 68180,
+  "history_shots": 11,
+  "listening": "pending"
+}

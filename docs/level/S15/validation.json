@@ -1,0 +1,24 @@
+{
+  "step": "S15",
+  "status": "done",
+  "change": "human_model.gd now smooths turn target into turn_amount at 9/s while retaining existing motion blend and breathing.",
+  "roles": ["scout", "logger", "wounded", "guard"],
+  "specialized": "24/24",
+  "visual_motion": "50/50",
+  "character_model": "37/37",
+  "checks": [
+    "bounded idle breathing",
+    "standing-to-motion blend",
+    "motion-to-stop easing",
+    "turn response easing",
+    "no instantaneous turn snap",
+    "smooth reversal for all four roles"
+  ],
+  "evidence": [
+    "docs/level/S15/motion_transitions.json",
+    "docs/level/S15/motion-transitions-runtime.log",
+    "docs/level/S15/visual-motion.log",
+    "docs/level/S15/character-model.log"
+  ],
+  "scope_boundary": "S15 covers standing, breathing, turning, starting, stopping and transitions; walk/run speed calibration remains S16."
+}

@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Friendly role identities remain explicit
+PASS: Scout, logger and untreated wounded speeds are distinct
+PASS: Treated Lu Shan gains a distinct recovered pace
+PASS: Scout and logger use different idle posture
+PASS: Untreated Lu Shan retains injury posture
+FAIL: Lu Shan injury posture eases after treatment
+PASS: Guard retains rifle and patrol-to-contact behavior profile
+PASS: Guard combat pace exceeds patrol pace
+PASS: Guard profile enters a stable aimed rifle pose
+S19 ROLE PROFILES: FAIL | checks=9

@@ -1,0 +1,43 @@
+{
+  "author": "para",
+  "license": "CC0-1.0",
+  "source": "https://opengameart.org/content/fps-arms-rigged-only",
+  "original_mesh_sha256": "60f9a5d0e310907a4a5d15bf656bbff0d40b81dd87edcdfbd4a2ab201e442d86",
+  "changes": "Split left/right by geometry; retain continuous hand/wrist skin and 24 bind bones per hand, trim forearm under sleeve. Normalize wrist rest space. Preserve UV, normals, skin weights and supplied color texture. No test animation used.",
+  "outputs": [
+    {
+      "file": "hand_left.glb",
+      "triangles": 3356,
+      "vertices": 1922,
+      "bones": 24,
+      "sha256": "5295744011561320aaeeeb41a4f569736090fec0182599bcbcf14af613e0c0fb",
+      "bounds_min": [
+        -0.07223247594322049,
+        -0.05881555101236763,
+        -0.030788891440387822
+      ],
+      "bounds_max": [
+        0.07296563652618787,
+        0.20808824828781602,
+        0.060371985167195275
+      ]
+    },
+    {
+      "file": "hand_right.glb",
+      "triangles": 3356,
+      "vertices": 1922,
+      "bones": 24,
+      "sha256": "3bac07447ba6f33ac12dd146564eb539fa8efb1d7b890341a0432e85bd93ea04",
+      "bounds_min": [
+        -0.07296549527261553,
+        -0.05881555533889704,
+        -0.030788970172161756
+      ],
+      "bounds_max": [
+        0.07223259348318911,
+        0.20808825895627386,
+        0.060371905679051374
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Cap star has correct faction visibility: scout
+PASS: Cap insignia is a five-point star: scout
+PASS: Cap star has correct faction visibility: lu
+PASS: Cap insignia is a five-point star: lu
+PASS: Cap star has correct faction visibility: logger
+PASS: Cap insignia is a five-point star: logger
+PASS: Enemy headgear never displays the friendly star
+SCRIPT ERROR: Invalid call to function '_prepare_role' in base 'Node3D (field_character_rig.gd)'. Expected 3 argument(s).
+   at: _build_stage (res://scripts/opening_director.gd:139)
+   GDScript backtrace (most recent call first):
+       [0] _build_stage (res://scripts/opening_director.gd:139)
+       [1] initialize (res://scripts/opening_director.gd:82)
+       [2] _ensure_opening (res://scripts/mission.gd:250)
+       [3] start_with_opening (res://scripts/mission.gd:240)
+       [4] _run (res://tests/polish_revision.gd:77)
+       [5] frames (res://tests/polish_revision.gd:18)
+SCRIPT ERROR: Invalid assignment of property or key 'stream_paused' with value of type 'bool' on a base object of type 'Nil'.
+   at: _stop_cue_audio (res://scripts/opening_director.gd:891)
+   GDScript backtrace (most recent call first):
+       [0] _stop_cue_audio (res://scripts/opening_director.gd:891)
+       [1] _enter_part (res://scripts/opening_director.gd:521)
+       [2] start (res://scripts/opening_director.gd:516)
+       [3] start_with_opening (res://scripts/mission.gd:241)
+       [4] _run (res://tests/polish_revision.gd:77)
+       [5] frames (res://tests/polish_revision.gd:18)
+SCRIPT ERROR: Invalid access to property or key 'ally1' on a base object of type 'Dictionary'.
+   at: _update_view (res://scripts/opening_director.gd:574)
+   GDScript backtrace (most recent call first):
+       [0] _update_view (res://scripts/opening_director.gd:574)
+       [1] _enter_part (res://scripts/opening_director.gd:537)
+       [2] start (res://scripts/opening_director.gd:516)
+       [3] start_with_opening (res://scripts/mission.gd:241)
+       [4] _run (res://tests/polish_revision.gd:77)
+       [5] frames (res://tests/polish_revision.gd:18)
+SCRIPT ERROR: Invalid access to property or key 'ally1' on a base object of type 'Dictionary'.
+   at: _run (res://tests/polish_revision.gd:82)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/polish_revision.gd:82)
+       [1] frames (res://tests/polish_revision.gd:18)

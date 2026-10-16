@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "release_files_verified": 90,
+  "archive_file_hashes_verified": 1035,
+  "runtime": {
+    "source": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 657,
+      "departure_samples": 21,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "guards_defeated": 19,
+        "game_seconds": 103.133333333329
+      }
+    },
+    "release": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 657,
+      "departure_samples": 21,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "guards_defeated": 19,
+        "game_seconds": 103.133333333329
+      }
+    }
+  },
+  "render_groups": 4
+}

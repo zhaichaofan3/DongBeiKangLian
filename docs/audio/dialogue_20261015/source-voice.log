@@ -1,0 +1,48 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Complete user history MP3 and eight supplied dialogue MP3s load
+PASS: Mixed history recording uses the complete cinematic volume bus
+PASS: N01 appears over the complete user history recording
+PASS: Seeking within one cue does not restart the same voice take
+PASS: Cinematic pause freezes the current voice take
+PASS: B1 dialogue replaces the narration take
+PASS: Subtitle retained: B1-L01
+PASS: Supplied recording selected: B1-L01
+PASS: Subtitle covers complete recording: B1-L01
+PASS: Subtitle retained: B2-L01
+PASS: Unrecorded dialogue is silent without fallback: B2-L01
+PASS: Subtitle retained: B2-L02
+PASS: Supplied recording selected: B2-L02
+PASS: Subtitle covers complete recording: B2-L02
+PASS: Subtitle retained: B2-L03
+PASS: Unrecorded dialogue is silent without fallback: B2-L03
+PASS: Subtitle retained: B3-L01
+PASS: Supplied recording selected: B3-L01
+PASS: Subtitle covers complete recording: B3-L01
+PASS: Subtitle retained: B3-L02
+PASS: Unrecorded dialogue is silent without fallback: B3-L02
+PASS: Subtitle retained: B5-L01
+PASS: Supplied recording selected: B5-L01
+PASS: Subtitle covers complete recording: B5-L01
+PASS: Subtitle retained: B5-L02
+PASS: Unrecorded dialogue is silent without fallback: B5-L02
+PASS: Subtitle retained: B5-L03
+PASS: Supplied recording selected: B5-L03
+PASS: Subtitle covers complete recording: B5-L03
+PASS: Subtitle retained: B5-L04
+PASS: Supplied recording selected: B5-L04
+PASS: Subtitle covers complete recording: B5-L04
+PASS: Subtitle retained: B5-L05
+PASS: Unrecorded dialogue is silent without fallback: B5-L05
+PASS: Subtitle retained: B5-L06
+PASS: Supplied recording selected: B5-L06
+PASS: Subtitle covers complete recording: B5-L06
+PASS: Subtitle retained: B6-L01
+PASS: Supplied recording selected: B6-L01
+PASS: Subtitle covers complete recording: B6-L01
+PASS: Subtitle retained: B6-L02
+PASS: Unrecorded dialogue is silent without fallback: B6-L02
+PASS: Eight recorded and six silent dialogue cues; no temporary synthesis
+PASS: Leaving the opening stops the last voice take
+PASS: Skipping a part clears voice before the next part begins
+S31 VOICE INTEGRATION: PASS | checks=45

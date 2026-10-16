@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: S23 environment root is present under the opening stage
+PASS: Animated water reuses the imported disk without overlapping surfaces
+PASS: Water surface uses the S23 animated shader
+PASS: Three lightweight mist bands provide lake, rim and far-layer separation
+PASS: Every mist band uses the shared translucent S23 mist shader
+PASS: Three ordered distant mountain layers are present
+PASS: Lake environment has height fog tuned for crater depth
+PASS: Dedicated lake fill light keeps characters readable
+PASS: Platform rim light covers the conversation area
+PASS: B1 conversation shot enables the complete lake environment
+PASS: B1 keeps the speaker on the lake visual layer
+PASS: Non-lake shot disables S23 layers and restores the forest environment
+S23 TIANCHI ENVIRONMENT: PASS | checks=12

@@ -1,0 +1,19 @@
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\AssetLibrary\environment\derived\S21\tianchi_artistic.blend"
+帧:1 内存:64.23M (峰值 64.98M) | 时间:00:01.33 | Rendering 1 / 64 samples
+帧:1 内存:64.23M (峰值 64.98M) | 时间:00:01.40 | Rendering 25 / 64 samples
+帧:1 内存:64.23M (峰值 64.98M) | 时间:00:01.46 | Rendering 50 / 64 samples
+帧:1 内存:64.23M (峰值 64.98M) | 时间:00:01.50 | Rendering 64 / 64 samples
+Saved: 'C:\GameMake\docs\level\S21\previews\tianchi_far.png'
+Time: 00:01.68 (Saving: 00:00.15)
+
+帧:1 内存:64.23M (峰值 64.23M) | 时间:00:00.08 | Rendering 1 / 64 samples
+帧:1 内存:64.23M (峰值 64.23M) | 时间:00:00.15 | Rendering 25 / 64 samples
+帧:1 内存:64.23M (峰值 64.23M) | 时间:00:00.22 | Rendering 50 / 64 samples
+帧:1 内存:64.23M (峰值 64.23M) | 时间:00:00.27 | Rendering 64 / 64 samples
+Saved: 'C:\GameMake\docs\level\S21\previews\tianchi_near.png'
+Time: 00:00.33 (Saving: 00:00.04)
+
+Rendered S21 previews: C:\GameMake\docs\level\S21\previews\tianchi_far.png, C:\GameMake\docs\level\S21\previews\tianchi_near.png
+
+Blender quit

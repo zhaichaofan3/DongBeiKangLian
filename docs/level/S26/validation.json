@@ -1,0 +1,79 @@
+{
+  "step": "S26",
+  "status": "done",
+  "date": "2026-10-15",
+  "all_passed": true,
+  "render_checks": 56,
+  "state_checks": 32,
+  "render_captures": 24,
+  "performance": {
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "measurement_valid": true,
+    "method": "Same stationary 1280x720 balanced scene; no effects vs six remote bursts plus a real pistol round every 0.24 s; 1 s warmup + 3 s wall-clock samples per row, uncapped VSync off; excludes AI and includes shot audio, remote effects and tracers and player recoil. Not a minimum-hardware certification.",
+    "peak_remote_effects": 8,
+    "renderer": "gl_compatibility",
+    "resolution": [
+      1280,
+      720
+    ],
+    "rows": [
+      {
+        "effects_enabled": false,
+        "frames": 857,
+        "lighting": "day",
+        "mean_draw_calls": 902.0,
+        "mean_frame_ms": 3.50092065344224,
+        "p95_frame_ms": 4.756
+      },
+      {
+        "effects_enabled": true,
+        "frames": 888,
+        "lighting": "day",
+        "mean_draw_calls": 915.842342342342,
+        "mean_frame_ms": 3.38040878378378,
+        "p95_frame_ms": 4.446
+      },
+      {
+        "effects_enabled": false,
+        "frames": 980,
+        "lighting": "dim",
+        "mean_draw_calls": 898.0,
+        "mean_frame_ms": 3.06440918367347,
+        "p95_frame_ms": 3.895
+      },
+      {
+        "effects_enabled": true,
+        "frames": 907,
+        "lighting": "dim",
+        "mean_draw_calls": 913.067254685777,
+        "mean_frame_ms": 3.30855016538038,
+        "p95_frame_ms": 4.787
+      }
+    ]
+  },
+  "regression": {
+    "smoke": "107/107",
+    "linear": "37/37",
+    "combat": "PASS",
+    "visual_motion": "50/50",
+    "story": "11/11",
+    "character_model": "37/37"
+  },
+  "limits": {
+    "player_flash_seconds": 0.045,
+    "remote_flash_seconds": 0.065,
+    "smoke_particle_seconds": 0.38,
+    "effect_clear_seconds": 0.46,
+    "max_remote_effects": 8,
+    "player_particles": 6,
+    "remote_particles": 7
+  },
+  "rejected_evidence": "performance-v1.log has SCRIPT ERROR and its PASS marker is not accepted; see performance-v1-rejected.md",
+  "scope": "Actual player rifle and pistol, real guard muzzle anchor, day/dim and continuous fire. No explosion/audio replacement claim. Fixed-view performance on this machine only.",
+  "source_sha256": {
+    "GodotProject/scripts/muzzle_effect.gd": "a5fb613d53d658223f7c8e0ee61e8bbd1195ce4a1cf1bcfaaf1e7054eeb67f15",
+    "GodotProject/scripts/fps_player.gd": "307e5f54284337cedb455847bf0fc260f360d297fb07a720c2a2b695c212c3ad",
+    "GodotProject/scripts/guard.gd": "fbc7457b18658c2dbe814b47e1885af0d008da36dd0bd2940eec05c93993b6bf",
+    "GodotProject/scripts/mission.gd": "fb4198be5edd082818f5cfc869a9287ebc26f56e939b1b661e562ad674d788c7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "release_files": 955,
+  "package_sha256": "af2283e1bbbb7649e2a55d450b54fbd22e439a1eb52a83d7d0405d1beabf9ea6",
+  "protections": {
+    "hand_files": 6,
+    "audio_files": 61,
+    "original_packages": 7,
+    "retained_model_files": 15,
+    "village_scripts": "unchanged",
+    "opening_cues_and_timing": "unchanged"
+  }
+}

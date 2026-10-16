@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "release_files_verified": 414,
+  "runtime": {
+    "source": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 727,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "defeated": 19,
+        "seconds": 103.133333333329
+      }
+    },
+    "release": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 727,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "defeated": 19,
+        "seconds": 103.133333333329
+      }
+    }
+  },
+  "realtime_dialogue": {
+    "source": {
+      "passed": true,
+      "checks": 30,
+      "wall_seconds": 80.306,
+      "audio_driver": "WASAPI",
+      "rendered_cues": 14,
+      "subjective_listening": "pending"
+    },
+    "release": {
+      "passed": true,
+      "checks": 31,
+      "wall_seconds": 80.307,
+      "audio_driver": "WASAPI",
+      "rendered_cues": 14,
+      "subjective_listening": "pending"
+    }
+  },
+  "first_person_unchanged": 7,
+  "latest_replacements_verified": 2
+}

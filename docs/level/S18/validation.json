@@ -1,0 +1,15 @@
+{
+  "step": "S18",
+  "status": "done",
+  "change": "human_model.gd adds a short directional stagger envelope to nonfatal flinch while retaining the existing grounded death pose and hold.",
+  "specialized": "14/14",
+  "character_model": "37/37",
+  "combat_route": "PASS",
+  "evidence": [
+    "docs/level/S18/hit-fall.json",
+    "docs/level/S18/hit-fall-runtime-final.log",
+    "docs/level/S18/character-model.log",
+    "docs/level/S18/combat-route.log"
+  ],
+  "scope_boundary": "S18 covers hit, stagger, fall and death hold; S19 handles identity and behavior differences between roles."
+}

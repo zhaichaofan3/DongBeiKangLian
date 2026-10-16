@@ -1,0 +1,10 @@
+{
+	"checks": 31,
+	"failures": [
+		"Failure restores healthy player at closed second door",
+		"Retry can trigger the same ambush"
+	],
+	"human_playtest": false,
+	"passed": false,
+	"rendered": false
+}

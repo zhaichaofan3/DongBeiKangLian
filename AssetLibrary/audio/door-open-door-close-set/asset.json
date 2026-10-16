@@ -1,0 +1,288 @@
+{
+  "id": "door-open-door-close-set",
+  "title": "Door open / close set",
+  "source_url": "https://opengameart.org/content/door-open-door-close-set",
+  "author": "qubodup",
+  "license": "CC0-1.0",
+  "notes": "Wooden/metal/synthetic doors. Select wood variants for village and telegraph room.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "door-open-door-close-set/originals/qubodup-DoorSet.7z",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 3340803,
+      "sha256": "88502c82451a646fa4bc1b9021a26bbd3441b2850a613784a05336067b11a25d",
+      "role": "original_download"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose01.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 66399,
+      "sha256": "2959db3fddc39a3b6141e9d987e589393989a107473559e03733b3e0b4aaed94",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose02.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 46416,
+      "sha256": "29dd1e636ad932211dde35741f975e588d35f3995b255f872df1caf3caa5b92b",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose03.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 129347,
+      "sha256": "44a8b36d7b22b963e9332be25dc08f8d826338ace999bc7bf212c498c7e5731e",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose04.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 105619,
+      "sha256": "2a62d99dce4638426665e022cdb9a44c6fa99cb9a7ddb05979b694d9c2417dad",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose05.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 135179,
+      "sha256": "ce610c595f0b264f574fb7554fe4e3538a7a342e00aa7e3f3d9ee358cdd29d7e",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose06.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 300252,
+      "sha256": "86c760cd67d23d3570e069766055382a70d311213bb6318e9224607fcb306ad3",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose07.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 214138,
+      "sha256": "3b794af9a275e405b0ab46d5abc03ac8ec2bc127a0d20fc3d61bdddcc6f97891",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose08.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 161503,
+      "sha256": "8ed4874eed21803a76216a22a9ef5d6feb09726ccac70b8a1e404bf75993d7d3",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose09.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 252626,
+      "sha256": "59e878b16390213cd6cf0909a70599960abf73d3c5e65f6e886efcfda0725311",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorClose10.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 251980,
+      "sha256": "9b3cda64bb59b1914e685927b6f63efb3b52be453566ca9d715f107ddd02672b",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen01.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 143740,
+      "sha256": "eb97248b3338996da76f3597f2de14e0d9dcd499f1799c33b9b7e2559d7bf796",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen02.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 141307,
+      "sha256": "c75c679b70cdc72b7c61c6b7078a042d33904abfbf47e25fb50d39003e56f2b5",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen03.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 175508,
+      "sha256": "ef7215b83b14567f9cb7180a1fb631ac73c4d0591a6d07dfb1952d46827e592c",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen04.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 150878,
+      "sha256": "71fc3cb4b4ffadb285b5a2d847da44a3d8595fe053c04a1088a76dad213b4a8b",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen05.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 223968,
+      "sha256": "3101cd5eb9a2ded9be72706c6c231aa66e7d46bb1d5f4af5bfff98f428fb7661",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen06.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 163826,
+      "sha256": "05338546c2f86626852d265edde76871ae41352c28f9d7a4b02880858ca9996e",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen07.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 314566,
+      "sha256": "b105d475260a8e7b3d266d470f6bf8b8edc9b72481a59e9cf642b7d53ecac10c",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/flac/qubodup-DoorOpen08.flac",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 191405,
+      "sha256": "6f4eb3fe4d5608c2625050314f6b8d8882df7a752d3c042c7c7aacdc36099ec8",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose01.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 17252,
+      "sha256": "bfdf68934a00f973b299f353d7485857234fa44fec185399c760ef3c309eca73",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose02.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16513,
+      "sha256": "2ef388b5fc95f50f6ba0473bb5f331532e75b02f30000c6a4f4c25fd84a6fbeb",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose03.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 17138,
+      "sha256": "d5e84709c047902fa62c17abfcd6b9d49fab2d9c8e03664ba0c7ecee191afe4a",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose04.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16741,
+      "sha256": "3fdb5ca001c16891a7638ecbed4da78fbbeeab81756820085825489f21bb8cf7",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose05.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 18972,
+      "sha256": "e90a47d58fdefe2c5afc7c10af59a4634d3ebad1dd9d223960144bd2f1fcab3d",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose06.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16970,
+      "sha256": "115734059764be52067f6b135aa16bea1adbc9cc190c2a0d43c9646159605772",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose07.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16532,
+      "sha256": "25e75e6dce7116bd6e942bf06a00ebb171f6e365be1d0b8cd10d82031dd21851",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose08.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16110,
+      "sha256": "ffb08f98c7abe395e9244813f24092211f13c5c3cda6f8a368f925b1e10a8dad",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose09.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 17204,
+      "sha256": "2171c032bde0459fed5d87b24d8ac48eee8f5e2bf170df7b688a7508505f5c40",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorClose10.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16880,
+      "sha256": "40eb8b0eeb8eefd8ebd7cba7f4bed73c09ed2698b1dadebacf9129f52b07b865",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen01.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 17130,
+      "sha256": "a8f27b2da62edce49e8c50909d35e932cfd5d23dd22c16ae73a22c6d0d26a997",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen02.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 17611,
+      "sha256": "877552b020edbea385fc7c0ad543696bac471ced6cafc6bdbb52997851c561d8",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen03.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 18039,
+      "sha256": "6a213eac8a539f0f52bcb7664b65d8d77868359044c3f1f66aa23e58de547f6d",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen04.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 17433,
+      "sha256": "a4ce41e89bfb5791870841f088519e2b64dac6e9614098af9e9748038f1d6387",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen05.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16416,
+      "sha256": "1cf08303ad3a21c58429f0a0488221efbf405f0a03019f1716ad52bc0d393ddb",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen06.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16371,
+      "sha256": "6a61f4406d4dd086810c79ab719a62715c311c9b9834c17fc3bee8ac8becfc99",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen07.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 17837,
+      "sha256": "daefc19bf5690f2e3a166c24211e299beb263e78331e455c7132d64592f7cdb3",
+      "role": "extracted"
+    },
+    {
+      "path": "door-open-door-close-set/extracted/qubodup-DoorSet/qubodup-DoorSet/ogg/qubodup-DoorOpen08.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/qubodup-DoorSet.7z",
+      "bytes": 16335,
+      "sha256": "7659e0e37dd9f180dc70d103e3675b804c1c4796bdf1d42d49b9c89012519a91",
+      "role": "extracted"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 36,
+    "decode_passed": 36,
+    "sample_rates": [
+      44100,
+      96000
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 36.0,
+    "duration_range_seconds": [
+      1.0,
+      1.0
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

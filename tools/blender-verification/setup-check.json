@@ -1,0 +1,8 @@
+{
+  "version": "4.5.14 LTS",
+  "background_python": true,
+  "language": "zh_HANS",
+  "preferences_directory": "C:\\GameMake\\tools\\blender-4.5.14-windows-x64\\portable\\config",
+  "native_project": "C:\\GameMake\\tools\\blender-verification\\pipeline-check.blend",
+  "game_export": "C:\\GameMake\\tools\\blender-verification\\pipeline-check.glb"
+}

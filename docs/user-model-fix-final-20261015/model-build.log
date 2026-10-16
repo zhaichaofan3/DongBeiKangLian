@@ -1,0 +1,25 @@
+SOURCE_ARM_LANDMARKS volunteer {0: {'shoulder': [-0.21199999749660492, 1.399999976158142, 0.0], 'elbow': [-0.3420948386192322, 1.25813627243042, -0.0761774405837059], 'wrist': [-0.4520273804664612, 1.138258934020996, -0.14054878056049347]}, 1: {'shoulder': [0.21199999749660492, 1.399999976158142, 0.0], 'elbow': [0.2876725494861603, 1.2531694173812866, -0.15506915748119354], 'wrist': [0.3516172468662262, 1.1290948390960693, -0.2861054539680481]}}
+信息: 已另存为 "volunteer.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+18:27:51 | INFO: Starting glTF 2.0 export
+18:27:51 | INFO: Extracting primitive: ForeheadWrap
+18:27:51 | INFO: Primitives created: 1
+18:27:51 | INFO: Extracting primitive: Cap
+18:27:51 | INFO: Primitives created: 1
+18:27:51 | INFO: Extracting primitive: Clothing
+18:27:51 | INFO: Primitives created: 7
+18:27:51 | INFO: Extracting primitive: Face
+18:27:52 | INFO: Primitives created: 1
+18:27:52 | INFO: Extracting primitive: FriendlyCapStar
+18:27:52 | INFO: Primitives created: 1
+18:27:52 | INFO: Extracting primitive: Hands.001
+18:27:52 | INFO: Primitives created: 1
+18:27:52 | INFO: Extracting primitive: Hands
+18:27:52 | INFO: Primitives created: 1
+18:27:52 | INFO: Finished glTF 2.0 export in 0.49561023712158203 s
+
+USER_SOLDIER_BUILT {"role": "volunteer", "source": "volunteer/3d66.com_17309872.max", "game_model": "GodotProject/assets/characters/user_soldiers/volunteer.glb", "sha256": "54d6108e0e70d9dcb6983a7f18e9aadf6469d8343f93209d0d078fcf8b2c24d0", "bones": 13, "parts": [{"name": "Clothing", "triangles": 15107, "vertices": 7781}, {"name": "Face", "triangles": 20534, "vertices": 10456}, {"name": "Cap", "triangles": 1994, "vertices": 1062}, {"name": "Hands", "triangles": 4918, "vertices": 2463}, {"name": "GuardHands", "triangles": 4918, "vertices": 2463}, {"name": "Bandage", "triangles": 496, "vertices": 256}, {"name": "FriendlyCapStar", "triangles": 10, "vertices": 11}], "adaptation": "MAX geometry, original textured gloves and UVs reposed to the existing 13-bone game rig; separate relaxed/gripping hands. Leg bandage retained, incompatible old forehead wrap removed. First-person hands untouched.", "triangles": 47977}
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\docs\user-models-20261015\volunteer\raw-import.blend"
+
+Blender quit

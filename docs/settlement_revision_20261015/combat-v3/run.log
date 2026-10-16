@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Rescued courier did not unlock the river passage
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:70)
+       [1] _route (res://tests/combat_route.gd:204)
+       [2] _walk (res://tests/combat_route.gd:215)
+ERROR: Ferry did not reach the village
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:82)
+ERROR: Village encounter did not clear: 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:93)
+ERROR: Village gate did not open: 0
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:99)
+ERROR: Village encounter did not clear: 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:93)
+ERROR: Village gate did not open: 1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:99)
+ERROR: Village encounter did not clear: 2
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _run (res://tests/combat_route.gd:93)
+ACTIVE COMBAT ROUTE: FAIL | health=91.0 | guards defeated=12 | elapsed=73.2999999999971 | state=playing

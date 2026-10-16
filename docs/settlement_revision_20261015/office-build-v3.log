@@ -1,0 +1,11 @@
+信息: 已另存为 "office.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+23:30:52 | INFO: Starting glTF 2.0 export
+23:30:52 | INFO: Extracting primitive: OfficeMeasuredOpenings
+23:30:52 | INFO: Primitives created: 20
+23:30:52 | INFO: Finished glTF 2.0 export in 0.6773808002471924 s
+
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\docs\expansion_20261015\office\raw-import.blend"
+
+Blender quit

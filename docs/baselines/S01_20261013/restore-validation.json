@@ -1,0 +1,11 @@
+{
+  "checkpoint": "WorkBackups/20261013-115838-S01-in_progress-6a7858",
+  "restored_project": "C:\\GameMake\\RestoreChecks\\S01-0e5a4467\\GodotProject",
+  "restored_files_checked": 317,
+  "source_hashes_match": true,
+  "import_passed": true,
+  "smoke_passed": true,
+  "engine": "C:\\GameMake\\tools\\Godot-4.7.2\\Godot_v4.7.2-stable_win64_console.exe",
+  "passed": true,
+  "note": "Isolated source restore; existing engine reused; import cache rebuilt; original checkpoint is read-only; ordinary player saves protected by --qa."
+}

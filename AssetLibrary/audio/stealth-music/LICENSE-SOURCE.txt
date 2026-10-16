@@ -1,0 +1,7 @@
+Title: Stealth in the Woods
+Author: Lisboa
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/stealth-music
+Evidence: source.html and source.txt
+Notes: Loopable stealth music candidate; artistic suitability and loop seams not yet auditioned.

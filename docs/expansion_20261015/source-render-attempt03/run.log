@@ -1,0 +1,851 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Supplied rifle is the active first-person weapon
+PASS: Supplied bolt and clip remain independently animated
+PASS: Four supplied courtyards surrounded by forest and mountains
+PASS: Supplied river channel uses animated game water
+PASS: Supplied pier and boat present at both banks
+PASS: Codebook reachable on the south-hall office desk
+PASS: Relocated codebook interaction advances mission
+PASS: Power switch reachable beside the northeast telephone cabinet
+PASS: Relocated power switch advances mission
+PASS: Ferry pursuit issues two soldiers per batch
+PASS: Next pursuit batch waits for its one-second interval
+PASS: Second pair arrives after one second, twice the old batch cadence
+ERROR: Legacy ferry victory saves migrate to a completed departure
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:78)
+       [2] _capture (res://tests/user_expansion.gd:147)
+PASS: Departure starts the ferry transition
+ERROR: Index p_index = 0 is out of bounds ((int)data.children_cache.size() - data.internal_children_front_count_cache - data.internal_children_back_count_cache = 0).
+   at: get_child (scene/main/node.cpp:1861)
+   GDScript backtrace (most recent call first):
+       [0] show_menu (res://scripts/hud.gd:374)
+       [1] _process (res://scripts/hud.gd:179)
+SCRIPT ERROR: Cannot call method 'grab_focus' on a null value.
+   at: show_menu (res://scripts/hud.gd:375)
+   GDScript backtrace (most recent call first):
+       [0] show_menu (res://scripts/hud.gd:375)
+       [1] _process (res://scripts/hud.gd:179)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+PASS: Ferry arrives in the playable village and restores control
+PASS: Village starts with twelve enemies
+PASS: Jiang Lan joins combat while Lu Shan rests with the roster
+ERROR: Closed first courtyard gate blocks route to the next encounter
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:85)
+       [2] _frames (res://tests/user_expansion.gd:150)
+PASS: Uncleared encounter cannot open its gate
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+ERROR: Companion fires at a visible village enemy
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:94)
+       [2] _frames (res://tests/user_expansion.gd:150)
+ERROR: Village checkpoint validates all actor and encounter states
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:95)
+       [2] _frames (res://tests/user_expansion.gd:150)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+PASS: Village checkpoint restores chapter, ally and enemies
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+SCRIPT ERROR: Invalid call. Nonexistent function 'to_global' in base 'Nil'.
+   at: _update_ally (res://scripts/village_director.gd:179)
+   GDScript backtrace (most recent call first):
+       [0] _update_ally (res://scripts/village_director.gd:179)
+       [1] _process (res://scripts/village_director.gd:84)
+PASS: Village encounter 0 clears in order
+PASS: Village gate 0 opens after clearing its encounter
+ERROR: Gate checkpoint remains loadable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:112)
+       [2] _frames (res://tests/user_expansion.gd:150)
+PASS: Village encounter 1 clears in order
+PASS: Village gate 1 opens after clearing its encounter
+ERROR: Gate checkpoint remains loadable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:112)
+       [2] _frames (res://tests/user_expansion.gd:150)
+PASS: Village encounter 2 clears in order
+PASS: Final rendezvous wins only after all twelve village enemies are defeated
+ERROR: Final village victory is saved
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/user_expansion.gd:21)
+       [1] _run (res://tests/user_expansion.gd:117)
+       [2] _frames (res://tests/user_expansion.gd:150)
+PASS: Completed village restores its victory state
+USER EXPANSION: FAIL | checks=32

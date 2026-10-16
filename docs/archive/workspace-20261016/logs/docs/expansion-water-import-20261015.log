@@ -1,0 +1,1464 @@
+FBX version: 7500
+信息: 已另存为 "raw-import.blend"
+EXPANSION_IMPORT dock 10 95143 ([-1.1353049278259277, -1.1012635231018066, -20.411659240722656], [10.721710205078125, 10.408639907836914, -17.588422775268555])
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Fra:1 Mem:676.96M (Peak 676.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 5eb05879-294b-4f71-87af-7de9749685d4
+Fra:1 Mem:676.97M (Peak 676.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | bde2ce79-6685-485c-894f-44660711c286
+Fra:1 Mem:676.99M (Peak 676.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 96d65cc9-c5b7-42d0-8807-7d472bf818de
+Fra:1 Mem:679.02M (Peak 679.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ReviewSun
+帧:1 内存:690.09M (峰值 696.58M) | 时间:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:690.05M (Peak 696.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-001
+帧:1 内存:690.05M (峰值 696.58M) | 时间:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-009
+Fra:1 Mem:690.05M (Peak 696.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-011
+Fra:1 Mem:946.06M (Peak 946.06M) | Time:00:00.16 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-012
+Fra:1 Mem:962.06M (Peak 962.06M) | Time:00:00.16 | Mem:32.00M, Peak:32.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-013
+Fra:1 Mem:978.06M (Peak 978.06M) | Time:00:00.16 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-014
+Fra:1 Mem:994.06M (Peak 994.06M) | Time:00:00.16 | Mem:64.00M, Peak:64.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-033
+Fra:1 Mem:1010.06M (Peak 1010.06M) | Time:00:00.17 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-034
+Fra:1 Mem:1026.06M (Peak 1026.06M) | Time:00:00.17 | Mem:96.00M, Peak:96.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-015
+Fra:1 Mem:1042.06M (Peak 1042.06M) | Time:00:00.17 | Mem:112.00M, Peak:112.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-016
+帧:1 内存:1042.06M (峰值 1042.06M) | 时间:00:00.17 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-031
+Fra:1 Mem:1074.06M (Peak 1074.06M) | Time:00:00.17 | Mem:144.00M, Peak:144.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-017
+Fra:1 Mem:1090.06M (Peak 1090.06M) | Time:00:00.18 | Mem:160.00M, Peak:160.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-018
+Fra:1 Mem:1106.06M (Peak 1106.06M) | Time:00:00.18 | Mem:176.00M, Peak:176.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-029
+Fra:1 Mem:1122.06M (Peak 1122.06M) | Time:00:00.18 | Mem:192.00M, Peak:192.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-030
+Fra:1 Mem:1138.06M (Peak 1138.06M) | Time:00:00.19 | Mem:208.00M, Peak:208.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-019
+Fra:1 Mem:1138.06M (Peak 1138.06M) | Time:00:00.19 | Mem:224.00M, Peak:224.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-020
+Fra:1 Mem:1170.06M (Peak 1170.06M) | Time:00:00.20 | Mem:240.00M, Peak:240.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-021
+Fra:1 Mem:1186.06M (Peak 1186.06M) | Time:00:00.21 | Mem:256.00M, Peak:256.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-022
+Fra:1 Mem:1202.06M (Peak 1202.06M) | Time:00:00.21 | Mem:272.00M, Peak:272.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-023
+Fra:1 Mem:1218.06M (Peak 1218.06M) | Time:00:00.21 | Mem:288.00M, Peak:288.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-024
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.25 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.25 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.25 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.25 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.25 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:1238.12M (Peak 1238.12M) | Time:00:00.32 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:1238.12M (Peak 1238.12M) | Time:00:00.32 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:1245.88M (Peak 1245.88M) | Time:00:00.32 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.32 | Mem:551.77M, Peak:551.77M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.32 | Mem:551.77M, Peak:551.77M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.32 | Mem:554.67M, Peak:554.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.33 | Mem:557.83M, Peak:560.73M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.33 | Mem:557.83M, Peak:560.73M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:557.83M, Peak:560.73M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.72M, Peak:561.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:1249.77M (Peak 1249.77M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:1249.77M (Peak 1249.77M) | Time:00:00.33 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Sample 0/8
+Fra:1 Mem:1328.23M (Peak 1328.23M) | Time:00:00.43 | Remaining:00:00.68 | Mem:640.09M, Peak:640.09M | Scene, ViewLayer | Sample 1/8
+Fra:1 Mem:1361.19M (Peak 1410.63M) | Time:00:04.32 | Mem:640.09M, Peak:640.09M | Scene, ViewLayer | Sample 8/8
+Fra:1 Mem:1361.19M (Peak 1410.63M) | Time:00:04.32 | Mem:640.09M, Peak:640.09M | Scene, ViewLayer | Finished
+Saved: 'C:\GameMake\docs\expansion_20261015\dock\overview.png'
+Time: 00:04.70 (Saving: 00:00.30)
+
+Fra:1 Mem:681.51M (Peak 681.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 5eb05879-294b-4f71-87af-7de9749685d4
+Fra:1 Mem:681.51M (Peak 681.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | d2a0a602-7775-4ef9-8232-2565ac868d8a
+Fra:1 Mem:681.51M (Peak 681.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 58d7f494-da65-42eb-840e-99619f8f24db
+Fra:1 Mem:681.54M (Peak 681.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | eadd8d7e-9263-40a0-b90f-370d9a25ccb2
+Fra:1 Mem:681.55M (Peak 681.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 42899869-e1a5-486c-ba8f-579c49706520
+Fra:1 Mem:681.59M (Peak 681.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ReviewSun
+帧:1 内存:690.09M (峰值 694.65M) | 时间:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:690.05M (Peak 694.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-001
+Fra:1 Mem:690.05M (Peak 694.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-027
+Fra:1 Mem:690.05M (Peak 694.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-011
+Fra:1 Mem:946.06M (Peak 946.06M) | Time:00:00.02 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-012
+Fra:1 Mem:962.06M (Peak 962.06M) | Time:00:00.03 | Mem:32.00M, Peak:32.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-013
+Fra:1 Mem:978.06M (Peak 978.06M) | Time:00:00.03 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-014
+Fra:1 Mem:994.06M (Peak 994.06M) | Time:00:00.03 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-033
+Fra:1 Mem:1010.06M (Peak 1010.06M) | Time:00:00.03 | Mem:96.00M, Peak:96.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-034
+Fra:1 Mem:1026.06M (Peak 1026.06M) | Time:00:00.04 | Mem:112.00M, Peak:112.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-015
+Fra:1 Mem:1042.06M (Peak 1042.06M) | Time:00:00.04 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-016
+Fra:1 Mem:1058.06M (Peak 1058.06M) | Time:00:00.04 | Mem:144.00M, Peak:144.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-017
+Fra:1 Mem:1074.06M (Peak 1074.06M) | Time:00:00.04 | Mem:160.00M, Peak:160.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-018
+Fra:1 Mem:1090.06M (Peak 1090.06M) | Time:00:00.04 | Mem:160.00M, Peak:160.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-029
+Fra:1 Mem:1106.06M (Peak 1106.06M) | Time:00:00.04 | Mem:192.00M, Peak:192.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-030
+Fra:1 Mem:1106.06M (Peak 1106.06M) | Time:00:00.04 | Mem:192.00M, Peak:192.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-019
+Fra:1 Mem:1138.06M (Peak 1138.06M) | Time:00:00.04 | Mem:208.00M, Peak:208.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-020
+帧:1 内存:1154.06M (峰值 1154.06M) | 时间:00:00.04 | Mem:224.00M, Peak:224.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-031
+Fra:1 Mem:1170.06M (Peak 1170.06M) | Time:00:00.04 | Mem:240.00M, Peak:240.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-021
+Fra:1 Mem:1186.06M (Peak 1186.06M) | Time:00:00.04 | Mem:256.00M, Peak:256.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-022
+Fra:1 Mem:1202.06M (Peak 1202.06M) | Time:00:00.04 | Mem:272.00M, Peak:272.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-023
+Fra:1 Mem:1218.06M (Peak 1218.06M) | Time:00:00.05 | Mem:288.00M, Peak:288.00M | Scene, ViewLayer | Updating Images | Loading 3d66-export-JCI54557104651-024
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.07 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.07 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.07 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:1232.58M (Peak 1234.06M) | Time:00:00.07 | Mem:544.00M, Peak:544.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.01M, Peak:544.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:1232.68M (Peak 1234.06M) | Time:00:00.07 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:1238.12M (Peak 1238.12M) | Time:00:00.14 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:1238.12M (Peak 1238.12M) | Time:00:00.14 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:1245.88M (Peak 1245.88M) | Time:00:00.14 | Mem:544.02M, Peak:544.02M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.14 | Mem:551.77M, Peak:551.77M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.14 | Mem:551.77M, Peak:551.77M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.14 | Mem:554.67M, Peak:554.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.14 | Mem:557.83M, Peak:560.73M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:1245.87M (Peak 1245.88M) | Time:00:00.14 | Mem:557.83M, Peak:560.73M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:557.83M, Peak:560.73M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.72M, Peak:561.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.72M, Peak:561.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:1249.76M (Peak 1249.76M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:1249.77M (Peak 1249.77M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:1249.77M (Peak 1249.77M) | Time:00:00.15 | Mem:561.80M, Peak:561.80M | Scene, ViewLayer | Sample 0/8
+Fra:1 Mem:1328.23M (Peak 1328.23M) | Time:00:00.26 | Remaining:00:00.76 | Mem:640.09M, Peak:640.09M | Scene, ViewLayer | Sample 1/8
+Fra:1 Mem:1361.19M (Peak 1410.63M) | Time:00:03.71 | Mem:640.09M, Peak:640.09M | Scene, ViewLayer | Sample 8/8
+Fra:1 Mem:1361.19M (Peak 1410.63M) | Time:00:03.71 | Mem:640.09M, Peak:640.09M | Scene, ViewLayer | Finished
+Saved: 'C:\GameMake\docs\expansion_20261015\dock\top.png'
+Time: 00:03.87 (Saving: 00:00.15)
+
+  reading 'ClassData'... 580
+  reading 'Config'... 10975
+  reading 'DllDirectory'... 3488
+  reading 'ClassDirectory3'... 5814
+  reading 'VideoPostQueue'... 52
+  reading 'Scene'... 283855835
+  reading 'FileAssetMetaData2'... 6208
+  metadata: 0xcc4 '6'...Bitmap
+  imgpath: 0x6d91c43c -> '31: 3d66Model-15202935-files-52.jpg'
+  metadata: 0x1368 '6'...Bitmap
+  imgpath: 0x1b4faab6 -> '30: 3d66Model-15202935-files-6.jpg'
+  metadata: 0xd85a '6'...Bitmap
+  imgpath: 0x6292d5f6 -> '31: 3d66Model-15202935-files-60.jpg'
+  metadata: 0xc23 '6'...Bitmap
+  imgpath: 0xa448d335 -> '30: 3d66Model-15202935-files-3.jpg'
+  metadata: 0x7592 '6'...Bitmap
+  imgpath: 0x2866556c -> '31: 3d66Model-15202935-files-48.jpg'
+  metadata: 0xf5d2 '6'...Bitmap
+  imgpath: 0x9aa4f513 -> '31: 3d66Model-15202935-files-41.jpg'
+  metadata: 0xc309 '6'...Bitmap
+  imgpath: 0xc259ca18 -> '31: 3d66Model-15202935-files-16.jpg'
+  metadata: 0x139d '6'...Bitmap
+  imgpath: 0x97379483 -> '31: 3d66Model-15202935-files-12.jpg'
+  metadata: 0x280f '6'...Bitmap
+  imgpath: 0x66f2ec9a -> '31: 3d66Model-15202935-files-36.jpg'
+  metadata: 0x644c '6'...Bitmap
+  imgpath: 0x73f81e24 -> '31: 3d66Model-15202935-files-24.jpg'
+  metadata: 0x1e26 '6'...Bitmap
+  imgpath: 0x9f0f92a9 -> '31: 3d66Model-15202935-files-38.jpg'
+  metadata: 0xfbe5 '6'...Bitmap
+  imgpath: 0xfc9c75ab -> '31: 3d66Model-15202935-files-59.jpg'
+  metadata: 0x7c9b '6'...Bitmap
+  imgpath: 0x9dfd070a -> '31: 3d66Model-15202935-files-61.jpg'
+  metadata: 0x20a7 '6'...Bitmap
+  imgpath: 0xfe4f3095 -> '31: 3d66Model-15202935-files-31.jpg'
+  metadata: 0x51a1 '6'...Bitmap
+  imgpath: 0x7cc0ebfa -> '31: 3d66Model-15202935-files-49.jpg'
+  metadata: 0x523e '6'...Bitmap
+  imgpath: 0x455eba17 -> '31: 3d66Model-15202935-files-45.jpg'
+  metadata: 0x58f1 '6'...Bitmap
+  imgpath: 0x952f5ea5 -> '30: 3d66Model-15202935-files-4.jpg'
+  metadata: 0x408f '6'...Bitmap
+  imgpath: 0x4f5061f4 -> '31: 3d66Model-15202935-files-14.jpg'
+  metadata: 0xd4cb '6'...Bitmap
+  imgpath: 0xbf8ab9f4 -> '31: 3d66Model-15202935-files-35.jpg'
+  metadata: 0xd993 '6'...Bitmap
+  imgpath: 0x8f9a6922 -> '31: 3d66Model-15202935-files-34.jpg'
+  metadata: 0x5392 '6'...Bitmap
+  imgpath: 0xdd07bd89 -> '31: 3d66Model-15202935-files-54.jpg'
+  metadata: 0x7a75 '6'...Bitmap
+  imgpath: 0x1f0df318 -> '31: 3d66Model-15202935-files-40.jpg'
+  metadata: 0x83ba '6'...Bitmap
+  imgpath: 0x4afdd1fd -> '31: 3d66Model-15202935-files-11.jpg'
+  metadata: 0xe795 '6'...Bitmap
+  imgpath: 0xe6b34dd9 -> '31: 3d66Model-15202935-files-30.jpg'
+  metadata: 0x592f '6'...Bitmap
+  imgpath: 0xdcb01840 -> '30: 3d66Model-15202935-files-1.jpg'
+  metadata: 0x3757 '6'...Bitmap
+  imgpath: 0x910837a3 -> '31: 3d66Model-15202935-files-44.exr'
+  metadata: 0x660d '6'...Bitmap
+  imgpath: 0x911df28b -> '31: 3d66Model-15202935-files-23.jpg'
+  metadata: 0x1111 '6'...Bitmap
+  imgpath: 0x247d9d14 -> '31: 3d66Model-15202935-files-56.jpg'
+  metadata: 0x9afc '6'...Bitmap
+  imgpath: 0x6c90245 -> '31: 3d66Model-15202935-files-21.jpg'
+  metadata: 0xbe98 '6'...Bitmap
+  imgpath: 0x151af63a -> '30: 3d66Model-15202935-files-8.jpg'
+  metadata: 0xc01c '6'...Bitmap
+  imgpath: 0xea380cf9 -> '31: 3d66Model-15202935-files-46.jpg'
+  metadata: 0x39ab '6'...Bitmap
+  imgpath: 0x531d5c0d -> '31: 3d66Model-15202935-files-50.png'
+  metadata: 0x48f2 '6'...Bitmap
+  imgpath: 0x29014dd8 -> '31: 3d66Model-15202935-files-20.jpg'
+  metadata: 0x7b8f '6'...Bitmap
+  imgpath: 0xcc62a6a1 -> '31: 3d66Model-15202935-files-51.jpg'
+  metadata: 0x7811 '6'...Bitmap
+  imgpath: 0xa70979e9 -> '30: 3d66Model-15202935-files-2.jpg'
+  metadata: 0xe602 '6'...Bitmap
+  imgpath: 0xd575ba3a -> '31: 3d66Model-15202935-files-28.jpg'
+  metadata: 0x511f '6'...Bitmap
+  imgpath: 0x6b728d60 -> '31: 3d66Model-15202935-files-53.jpg'
+  metadata: 0x38ff '6'...Bitmap
+  imgpath: 0xe6e18358 -> '30: 3d66Model-15202935-files-7.jpg'
+  metadata: 0xcc0f '6'...Bitmap
+  imgpath: 0x472832da -> '31: 3d66Model-15202935-files-10.jpg'
+  metadata: 0xeab5 '6'...Bitmap
+  imgpath: 0x95687a4 -> '31: 3d66Model-15202935-files-15.jpg'
+  metadata: 0xaa56 '6'...Bitmap
+  imgpath: 0x9bc10625 -> '31: 3d66Model-15202935-files-26.jpg'
+  metadata: 0x6954 '6'...Bitmap
+  imgpath: 0x4eb612f7 -> '31: 3d66Model-15202935-files-37.jpg'
+  metadata: 0xdf57 '6'...Bitmap
+  imgpath: 0x769ac82c -> '30: 3d66Model-15202935-files-5.jpg'
+  metadata: 0xb717 '6'...Bitmap
+  imgpath: 0x515627cb -> '31: 3d66Model-15202935-files-27.jpg'
+  metadata: 0x6894 '6'...Bitmap
+  imgpath: 0xe9f36e99 -> '30: 3d66Model-15202935-files-9.jpg'
+  metadata: 0x4d30 '6'...Bitmap
+  imgpath: 0x79dd308 -> '31: 3d66Model-15202935-files-13.jpg'
+  metadata: 0x8a53 '6'...Bitmap
+  imgpath: 0x306f118b -> '31: 3d66Model-15202935-files-19.jpg'
+  metadata: 0x16a4 '6'...Bitmap
+  imgpath: 0x7a4386e1 -> '31: 3d66Model-15202935-files-39.jpg'
+  metadata: 0x87b7 '6'...Bitmap
+  imgpath: 0xd6231589 -> '31: 3d66Model-15202935-files-17.jpg'
+  metadata: 0x2037 '6'...Bitmap
+  imgpath: 0xf8679fc3 -> '31: 3d66Model-15202935-files-18.jpg'
+  metadata: 0x47e2 '6'...Bitmap
+  imgpath: 0x72703c6 -> '31: 3d66Model-15202935-files-22.jpg'
+  metadata: 0xd817 '6'...Bitmap
+  imgpath: 0x22a7a253 -> '31: 3d66Model-15202935-files-25.jpg'
+  metadata: 0xa297 '6'...Bitmap
+  imgpath: 0x2c243d4e -> '31: 3d66Model-15202935-files-29.jpg'
+  metadata: 0x7bc3 '6'...Bitmap
+  imgpath: 0xb4f0a655 -> '31: 3d66Model-15202935-files-32.jpg'
+  metadata: 0x1bfe '6'...Bitmap
+  imgpath: 0xfe7eee8 -> '31: 3d66Model-15202935-files-33.jpg'
+  metadata: 0xd201 '6'...Bitmap
+  imgpath: 0xfd0b28ea -> '32: 3d66Model-15202935-files-42.jpeg'
+  metadata: 0x5ac2 '6'...Bitmap
+  imgpath: 0x969df27c -> '32: 3d66Model-15202935-files-43.jpeg'
+  metadata: 0x6169 '6'...Bitmap
+  imgpath: 0xcfac38f9 -> '31: 3d66Model-15202935-files-57.jpg'
+  metadata: 0x9283 '6'...Bitmap
+  imgpath: 0x580da8c8 -> '31: 3d66Model-15202935-files-58.jpg'
+  metadata: 0x7034 '6'...Bitmap
+  imgpath: 0x7da07653 -> '31: 3d66Model-15202935-files-47.jpg'
+  metadata: 0x8c44 '6'...Bitmap
+  imgpath: 0xae072aab -> '31: 3d66Model-15202935-files-55.jpg'
+	skipping Camera 'Camera001'... 
+	skipping Camera Target '3d66Model-15202935-0000004-548'... 
+	skipping VRayLight '3d66Model-15202935-0000702-548'... 
+信息: 已另存为 "raw-import.blend"
+EXPANSION_IMPORT river 681 2723155 ([-28735.408203125, -5869.63525390625, -832.3682250976562], [2016.523681640625, 4966.59912109375, 399.06768798828125])
+Fra:1 Mem:1039.48M (Peak 1039.48M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-1-536
+Fra:1 Mem:1039.48M (Peak 1039.48M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-4-11
+Fra:1 Mem:1039.48M (Peak 1039.48M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-5-409
+Fra:1 Mem:1039.60M (Peak 1039.60M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-7-318
+Fra:1 Mem:1039.70M (Peak 1039.70M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-8-740
+Fra:1 Mem:1039.70M (Peak 1039.70M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-11-315
+Fra:1 Mem:1039.70M (Peak 1039.70M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-12-98
+Fra:1 Mem:1039.71M (Peak 1039.71M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-13-328
+Fra:1 Mem:1040.87M (Peak 1040.87M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-16-56
+Fra:1 Mem:1040.88M (Peak 1040.88M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-18-675
+Fra:1 Mem:1042.41M (Peak 1042.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-19-956
+Fra:1 Mem:1051.41M (Peak 1051.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-20-765
+Fra:1 Mem:1051.63M (Peak 1051.63M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-21-702
+Fra:1 Mem:1052.16M (Peak 1052.16M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-22-936
+Fra:1 Mem:1055.81M (Peak 1055.81M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-23-839
+Fra:1 Mem:1060.28M (Peak 1060.28M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-24-703
+Fra:1 Mem:1060.96M (Peak 1060.96M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-25-166
+Fra:1 Mem:1061.30M (Peak 1061.30M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-26-514
+Fra:1 Mem:1065.98M (Peak 1065.98M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-27-757
+Fra:1 Mem:1068.13M (Peak 1068.13M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-28-595
+Fra:1 Mem:1070.53M (Peak 1070.53M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-29-823
+Fra:1 Mem:1071.42M (Peak 1071.42M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-30-498
+Fra:1 Mem:1072.45M (Peak 1072.45M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-31-146
+Fra:1 Mem:1072.53M (Peak 1072.53M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-32-194
+Fra:1 Mem:1072.90M (Peak 1072.90M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-33-202
+Fra:1 Mem:1074.27M (Peak 1074.27M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-34-351
+Fra:1 Mem:1074.35M (Peak 1074.35M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-35-121
+Fra:1 Mem:1076.15M (Peak 1076.15M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-36-527
+Fra:1 Mem:1080.89M (Peak 1080.89M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-37-668
+Fra:1 Mem:1081.40M (Peak 1081.40M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-38-633
+Fra:1 Mem:1082.27M (Peak 1082.27M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-39-440
+Fra:1 Mem:1084.94M (Peak 1084.94M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-40-688
+Fra:1 Mem:1084.61M (Peak 1084.94M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-41-224
+Fra:1 Mem:1084.30M (Peak 1084.94M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-42-893
+Fra:1 Mem:1088.88M (Peak 1088.88M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-43-944
+Fra:1 Mem:1090.35M (Peak 1090.35M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-44-780
+Fra:1 Mem:1090.21M (Peak 1090.35M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-45-587
+Fra:1 Mem:1090.51M (Peak 1090.51M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-46-59
+Fra:1 Mem:1092.32M (Peak 1092.32M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-47-953
+Fra:1 Mem:1092.95M (Peak 1092.95M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-48-97
+Fra:1 Mem:1094.15M (Peak 1094.15M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-49-765
+帧:1 内存:1095.86M (峰值 1095.86M) | 时间:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ReviewSun
+帧:1 内存:1095.86M (峰值 1095.86M) | 时间:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-681-939
+Fra:1 Mem:1098.65M (Peak 1098.65M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-50-184
+Fra:1 Mem:1098.74M (Peak 1098.74M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-51-579
+Fra:1 Mem:1099.26M (Peak 1099.26M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-52-141
+Fra:1 Mem:1099.74M (Peak 1099.74M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-53-856
+Fra:1 Mem:1100.08M (Peak 1100.08M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-54-883
+Fra:1 Mem:1102.13M (Peak 1102.13M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-55-433
+Fra:1 Mem:1102.95M (Peak 1102.95M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-56-563
+Fra:1 Mem:1102.99M (Peak 1102.99M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-57-270
+Fra:1 Mem:1102.85M (Peak 1102.99M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-58-304
+Fra:1 Mem:1102.85M (Peak 1102.99M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-61-118
+Fra:1 Mem:1102.87M (Peak 1102.99M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-62-988
+Fra:1 Mem:1103.36M (Peak 1103.36M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-63-926
+Fra:1 Mem:1103.43M (Peak 1103.43M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-64-318
+Fra:1 Mem:1103.22M (Peak 1103.43M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-67-907
+Fra:1 Mem:1103.30M (Peak 1103.43M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-68-566
+Fra:1 Mem:1103.32M (Peak 1103.43M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-69-685
+Fra:1 Mem:1104.18M (Peak 1104.18M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-70-795
+Fra:1 Mem:1103.99M (Peak 1104.18M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-680-121
+Fra:1 Mem:1104.37M (Peak 1104.37M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-72-908
+Fra:1 Mem:1105.81M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-73-610
+Fra:1 Mem:1104.95M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-74-348
+Fra:1 Mem:1105.09M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-75-530
+Fra:1 Mem:1105.32M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-76-940
+Fra:1 Mem:1105.25M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-78-399
+Fra:1 Mem:1105.27M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-82-152
+Fra:1 Mem:1105.43M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-83-882
+Fra:1 Mem:1105.52M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-84-253
+Fra:1 Mem:1105.55M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-85-326
+Fra:1 Mem:1105.63M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-86-80
+Fra:1 Mem:1105.68M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-89-20
+Fra:1 Mem:1105.70M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-92-659
+Fra:1 Mem:1105.76M (Peak 1105.81M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-94-191
+Fra:1 Mem:1106.14M (Peak 1106.15M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-95-310
+Fra:1 Mem:1106.32M (Peak 1106.32M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-96-278
+Fra:1 Mem:1106.35M (Peak 1106.35M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-97-909
+Fra:1 Mem:1106.47M (Peak 1106.47M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-98-467
+Fra:1 Mem:1106.57M (Peak 1106.57M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-99-357
+Fra:1 Mem:1106.83M (Peak 1106.83M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-100-517
+Fra:1 Mem:1106.96M (Peak 1106.96M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-101-569
+Fra:1 Mem:1107.01M (Peak 1107.01M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-102-421
+Fra:1 Mem:1107.51M (Peak 1107.51M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-103-559
+Fra:1 Mem:1107.53M (Peak 1107.53M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-104-113
+Fra:1 Mem:1107.50M (Peak 1107.53M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-105-614
+Fra:1 Mem:1107.62M (Peak 1107.62M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-106-825
+Fra:1 Mem:1107.65M (Peak 1107.65M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-107-918
+Fra:1 Mem:1107.88M (Peak 1107.88M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-108-304
+Fra:1 Mem:1108.13M (Peak 1108.13M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-109-726
+Fra:1 Mem:1108.19M (Peak 1108.19M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-110-428
+Fra:1 Mem:1108.26M (Peak 1108.26M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-112-605
+帧:1 内存:1108.08M (峰值 1108.26M) | 时间:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-679-324
+Fra:1 Mem:1108.15M (Peak 1108.26M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-113-352
+Fra:1 Mem:1109.49M (Peak 1109.49M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-115-138
+Fra:1 Mem:1109.62M (Peak 1109.62M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-116-913
+Fra:1 Mem:1109.68M (Peak 1109.68M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-117-706
+Fra:1 Mem:1109.91M (Peak 1109.91M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-118-853
+Fra:1 Mem:1110.23M (Peak 1110.23M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-119-266
+Fra:1 Mem:1110.58M (Peak 1110.58M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-120-50
+Fra:1 Mem:1110.64M (Peak 1110.64M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-122-673
+Fra:1 Mem:1114.12M (Peak 1114.12M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-124-317
+Fra:1 Mem:1114.21M (Peak 1114.21M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-127-500
+Fra:1 Mem:1114.27M (Peak 1114.27M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-129-582
+Fra:1 Mem:1114.30M (Peak 1114.30M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-133-398
+Fra:1 Mem:1114.70M (Peak 1114.70M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-134-133
+Fra:1 Mem:1114.79M (Peak 1114.79M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-135-849
+Fra:1 Mem:1117.11M (Peak 1117.11M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-136-360
+Fra:1 Mem:1122.79M (Peak 1122.79M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-137-776
+Fra:1 Mem:1123.90M (Peak 1123.90M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-138-737
+Fra:1 Mem:1124.29M (Peak 1124.29M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-139-173
+Fra:1 Mem:1124.60M (Peak 1124.60M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-140-441
+Fra:1 Mem:1125.11M (Peak 1125.11M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-141-529
+Fra:1 Mem:1128.46M (Peak 1128.46M) | Time:00:00.15 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-142-541
+Fra:1 Mem:1130.71M (Peak 1130.71M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-143-570
+Fra:1 Mem:1131.92M (Peak 1131.92M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-144-266
+Fra:1 Mem:1135.00M (Peak 1135.00M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-145-774
+Fra:1 Mem:1137.73M (Peak 1137.73M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-146-437
+Fra:1 Mem:1143.10M (Peak 1143.10M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-152-791
+Fra:1 Mem:1143.22M (Peak 1143.22M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-153-160
+Fra:1 Mem:1143.83M (Peak 1143.83M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-154-82
+Fra:1 Mem:1144.91M (Peak 1144.91M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-155-97
+Fra:1 Mem:1144.50M (Peak 1144.91M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-156-99
+Fra:1 Mem:1144.62M (Peak 1144.91M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-160-440
+Fra:1 Mem:1144.70M (Peak 1144.91M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-161-5
+Fra:1 Mem:1144.74M (Peak 1144.91M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-162-470
+Fra:1 Mem:1145.02M (Peak 1145.02M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-163-7
+Fra:1 Mem:1145.18M (Peak 1145.18M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-164-932
+Fra:1 Mem:1145.76M (Peak 1145.76M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-165-219
+Fra:1 Mem:1145.78M (Peak 1145.78M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-166-147
+Fra:1 Mem:1145.80M (Peak 1145.80M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-167-19
+Fra:1 Mem:1145.78M (Peak 1145.80M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-168-51
+Fra:1 Mem:1145.80M (Peak 1145.80M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-169-110
+Fra:1 Mem:1145.89M (Peak 1145.89M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-170-594
+Fra:1 Mem:1146.06M (Peak 1146.06M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-171-578
+Fra:1 Mem:1146.07M (Peak 1146.07M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-172-764
+Fra:1 Mem:1146.23M (Peak 1146.23M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-173-48
+Fra:1 Mem:1146.23M (Peak 1146.23M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-174-727
+Fra:1 Mem:1146.25M (Peak 1146.25M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-175-135
+Fra:1 Mem:1146.77M (Peak 1146.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-177-131
+Fra:1 Mem:1146.78M (Peak 1146.78M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-178-973
+Fra:1 Mem:1147.27M (Peak 1147.27M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-179-709
+Fra:1 Mem:1147.29M (Peak 1147.29M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-180-343
+Fra:1 Mem:1147.33M (Peak 1147.33M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-181-413
+Fra:1 Mem:1147.40M (Peak 1147.40M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-182-395
+Fra:1 Mem:1147.43M (Peak 1147.43M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-183-528
+Fra:1 Mem:1147.45M (Peak 1147.45M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-184-180
+Fra:1 Mem:1147.76M (Peak 1147.76M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-185-574
+Fra:1 Mem:1147.77M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-186-350
+Fra:1 Mem:1144.00M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-187-32
+Fra:1 Mem:1144.08M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-188-340
+Fra:1 Mem:1144.20M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-189-736
+Fra:1 Mem:1144.42M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-190-38
+Fra:1 Mem:1144.02M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-191-692
+Fra:1 Mem:1144.08M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-192-866
+Fra:1 Mem:1144.16M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-193-664
+Fra:1 Mem:1144.17M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-194-763
+Fra:1 Mem:1144.19M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-195-633
+Fra:1 Mem:1144.39M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-196-393
+Fra:1 Mem:1144.43M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-197-46
+Fra:1 Mem:1144.49M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-198-271
+Fra:1 Mem:1144.51M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-199-511
+Fra:1 Mem:1144.52M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-200-930
+Fra:1 Mem:1144.61M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-201-94
+Fra:1 Mem:1144.68M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-202-997
+Fra:1 Mem:1145.04M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-203-635
+Fra:1 Mem:1145.08M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-207-778
+Fra:1 Mem:1145.26M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-208-961
+Fra:1 Mem:1145.66M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-209-645
+Fra:1 Mem:1145.78M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-210-410
+Fra:1 Mem:1145.97M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-211-666
+Fra:1 Mem:1145.95M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-212-954
+Fra:1 Mem:1146.25M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-213-772
+Fra:1 Mem:1146.29M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-214-782
+Fra:1 Mem:1146.30M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-215-604
+Fra:1 Mem:1146.53M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-216-134
+Fra:1 Mem:1146.56M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-218-126
+Fra:1 Mem:1146.76M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-219-202
+Fra:1 Mem:1147.36M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-220-218
+Fra:1 Mem:1147.36M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-176-899
+Fra:1 Mem:1147.46M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-222-19
+Fra:1 Mem:1147.71M (Peak 1147.77M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-223-691
+Fra:1 Mem:1147.81M (Peak 1147.81M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-224-576
+Fra:1 Mem:1148.14M (Peak 1148.14M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-225-518
+Fra:1 Mem:1148.22M (Peak 1148.22M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-227-773
+Fra:1 Mem:1148.37M (Peak 1148.37M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-228-762
+Fra:1 Mem:1148.90M (Peak 1148.90M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-229-865
+Fra:1 Mem:1148.99M (Peak 1148.99M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-230-909
+Fra:1 Mem:1149.95M (Peak 1149.95M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-231-488
+Fra:1 Mem:1150.00M (Peak 1150.01M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-232-86
+Fra:1 Mem:1150.32M (Peak 1150.32M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-233-679
+Fra:1 Mem:1151.30M (Peak 1151.30M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-234-644
+Fra:1 Mem:1151.02M (Peak 1151.30M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-236-838
+Fra:1 Mem:1151.24M (Peak 1151.30M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-237-737
+Fra:1 Mem:1151.41M (Peak 1151.41M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-238-244
+Fra:1 Mem:1151.53M (Peak 1151.53M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-239-214
+Fra:1 Mem:1151.53M (Peak 1151.53M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-240-250
+Fra:1 Mem:1151.68M (Peak 1151.68M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-241-7
+Fra:1 Mem:1151.73M (Peak 1151.73M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-242-590
+Fra:1 Mem:1151.80M (Peak 1151.80M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-243-867
+Fra:1 Mem:1151.86M (Peak 1151.86M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-244-796
+Fra:1 Mem:1153.64M (Peak 1153.64M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-245-101
+Fra:1 Mem:1153.71M (Peak 1153.71M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-246-983
+Fra:1 Mem:1153.79M (Peak 1153.79M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-247-764
+Fra:1 Mem:1153.90M (Peak 1153.90M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-248-914
+Fra:1 Mem:1153.91M (Peak 1153.91M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-249-661
+Fra:1 Mem:1154.12M (Peak 1154.12M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-250-153
+Fra:1 Mem:1154.23M (Peak 1154.23M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-251-935
+Fra:1 Mem:1154.29M (Peak 1154.29M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-252-755
+Fra:1 Mem:1154.40M (Peak 1154.40M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-253-394
+Fra:1 Mem:1154.46M (Peak 1154.46M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-254-642
+Fra:1 Mem:1154.55M (Peak 1154.54M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-255-486
+Fra:1 Mem:1154.63M (Peak 1154.63M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-256-43
+Fra:1 Mem:1154.70M (Peak 1154.70M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-257-991
+Fra:1 Mem:1154.73M (Peak 1154.73M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-259-688
+Fra:1 Mem:1154.87M (Peak 1154.87M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-261-628
+Fra:1 Mem:1154.95M (Peak 1154.95M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-260-647
+Fra:1 Mem:1154.96M (Peak 1154.96M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-262-58
+Fra:1 Mem:1155.09M (Peak 1155.09M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-263-830
+Fra:1 Mem:1155.23M (Peak 1155.23M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-264-952
+Fra:1 Mem:1155.20M (Peak 1155.23M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-265-282
+Fra:1 Mem:1155.22M (Peak 1155.23M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-267-802
+Fra:1 Mem:1155.38M (Peak 1155.38M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-268-633
+Fra:1 Mem:1155.60M (Peak 1155.60M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-269-578
+Fra:1 Mem:1155.62M (Peak 1155.62M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-271-879
+Fra:1 Mem:1155.66M (Peak 1155.66M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-272-911
+Fra:1 Mem:1155.80M (Peak 1155.80M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-273-377
+Fra:1 Mem:1155.90M (Peak 1155.90M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-275-678
+Fra:1 Mem:1156.03M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-276-898
+Fra:1 Mem:1156.00M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-277-840
+Fra:1 Mem:1153.62M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-278-290
+Fra:1 Mem:1153.67M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-279-750
+Fra:1 Mem:1153.71M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-280-122
+Fra:1 Mem:1153.78M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-281-169
+Fra:1 Mem:1153.84M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-283-782
+Fra:1 Mem:1153.88M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-285-762
+Fra:1 Mem:1154.05M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-286-477
+Fra:1 Mem:1154.12M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-287-872
+Fra:1 Mem:1154.32M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-288-82
+Fra:1 Mem:1154.36M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-289-978
+Fra:1 Mem:1154.55M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-290-661
+Fra:1 Mem:1154.66M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-291-856
+Fra:1 Mem:1154.73M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-293-256
+Fra:1 Mem:1154.93M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-294-309
+Fra:1 Mem:1155.32M (Peak 1156.03M) | Time:00:00.16 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-295-137
+Fra:1 Mem:1155.56M (Peak 1156.03M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-296-304
+Fra:1 Mem:1155.85M (Peak 1156.03M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-297-789
+Fra:1 Mem:1155.79M (Peak 1156.03M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-300-703
+Fra:1 Mem:1156.28M (Peak 1156.28M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-301-479
+Fra:1 Mem:1156.29M (Peak 1156.29M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-303-927
+Fra:1 Mem:1156.61M (Peak 1156.61M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-304-430
+Fra:1 Mem:1156.73M (Peak 1156.73M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-305-384
+Fra:1 Mem:1156.81M (Peak 1156.81M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-306-29
+Fra:1 Mem:1156.86M (Peak 1156.86M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-307-689
+Fra:1 Mem:1157.09M (Peak 1157.09M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-308-136
+Fra:1 Mem:1157.30M (Peak 1157.30M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-309-393
+Fra:1 Mem:1157.37M (Peak 1157.37M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-310-592
+Fra:1 Mem:1157.59M (Peak 1157.59M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-312-709
+Fra:1 Mem:1157.92M (Peak 1157.92M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-313-326
+Fra:1 Mem:1157.99M (Peak 1157.99M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-314-399
+Fra:1 Mem:1158.49M (Peak 1158.49M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-315-508
+Fra:1 Mem:1158.46M (Peak 1158.49M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-316-115
+Fra:1 Mem:1158.52M (Peak 1158.52M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-317-197
+Fra:1 Mem:1158.59M (Peak 1158.59M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-318-683
+Fra:1 Mem:1158.72M (Peak 1158.72M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-319-363
+Fra:1 Mem:1158.95M (Peak 1158.95M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-320-851
+Fra:1 Mem:1159.31M (Peak 1159.31M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-321-841
+Fra:1 Mem:1159.42M (Peak 1159.42M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-322-917
+Fra:1 Mem:1159.34M (Peak 1159.42M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-323-973
+Fra:1 Mem:1159.42M (Peak 1159.42M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-325-640
+Fra:1 Mem:1159.56M (Peak 1159.56M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-326-844
+Fra:1 Mem:1159.59M (Peak 1159.59M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-327-726
+Fra:1 Mem:1159.77M (Peak 1159.77M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-328-260
+Fra:1 Mem:1159.82M (Peak 1159.82M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-329-556
+Fra:1 Mem:1159.97M (Peak 1159.97M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-330-406
+Fra:1 Mem:1160.01M (Peak 1160.01M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-331-64
+Fra:1 Mem:1160.04M (Peak 1160.04M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-332-679
+Fra:1 Mem:1160.09M (Peak 1160.09M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-333-197
+Fra:1 Mem:1160.24M (Peak 1160.24M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-334-934
+Fra:1 Mem:1160.30M (Peak 1160.30M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-335-231
+Fra:1 Mem:1160.38M (Peak 1160.38M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-336-638
+Fra:1 Mem:1160.58M (Peak 1160.58M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-337-125
+Fra:1 Mem:1160.71M (Peak 1160.71M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-338-445
+Fra:1 Mem:1160.71M (Peak 1160.71M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-339-704
+Fra:1 Mem:1160.70M (Peak 1160.71M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-340-225
+Fra:1 Mem:1160.73M (Peak 1160.73M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-341-135
+Fra:1 Mem:1160.75M (Peak 1160.75M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-342-369
+Fra:1 Mem:1160.95M (Peak 1160.95M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-343-751
+Fra:1 Mem:1160.95M (Peak 1160.95M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-345-722
+Fra:1 Mem:1161.00M (Peak 1161.00M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-346-574
+Fra:1 Mem:1161.07M (Peak 1161.07M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-348-201
+Fra:1 Mem:1161.13M (Peak 1161.13M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-350-14
+Fra:1 Mem:1161.15M (Peak 1161.15M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-351-191
+Fra:1 Mem:1161.19M (Peak 1161.19M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-352-854
+Fra:1 Mem:1161.22M (Peak 1161.22M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-353-414
+Fra:1 Mem:1161.68M (Peak 1161.68M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-354-861
+Fra:1 Mem:1161.70M (Peak 1161.70M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-356-131
+Fra:1 Mem:1161.83M (Peak 1161.83M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-357-639
+Fra:1 Mem:1161.95M (Peak 1161.95M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-358-444
+Fra:1 Mem:1162.10M (Peak 1162.10M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-359-636
+Fra:1 Mem:1162.10M (Peak 1162.10M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-360-286
+Fra:1 Mem:1162.16M (Peak 1162.16M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-362-858
+Fra:1 Mem:1162.27M (Peak 1162.27M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-363-559
+Fra:1 Mem:1162.71M (Peak 1162.71M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-364-37
+Fra:1 Mem:1162.76M (Peak 1162.76M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-366-579
+Fra:1 Mem:1162.75M (Peak 1162.76M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-368-710
+Fra:1 Mem:1162.96M (Peak 1162.96M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-369-166
+Fra:1 Mem:1162.98M (Peak 1162.98M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-370-921
+Fra:1 Mem:1163.18M (Peak 1163.18M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-371-751
+Fra:1 Mem:1163.24M (Peak 1163.24M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-372-729
+Fra:1 Mem:1163.24M (Peak 1163.24M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-374-697
+Fra:1 Mem:1163.36M (Peak 1163.36M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-375-840
+Fra:1 Mem:1163.48M (Peak 1163.48M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-377-413
+Fra:1 Mem:1163.62M (Peak 1163.62M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-378-908
+Fra:1 Mem:1164.11M (Peak 1164.11M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-379-764
+Fra:1 Mem:1164.16M (Peak 1164.16M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-380-472
+Fra:1 Mem:1164.21M (Peak 1164.21M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-381-208
+Fra:1 Mem:1164.29M (Peak 1164.29M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-382-820
+Fra:1 Mem:1164.31M (Peak 1164.31M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-383-306
+Fra:1 Mem:1164.78M (Peak 1164.78M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-384-937
+Fra:1 Mem:1164.93M (Peak 1164.93M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-385-995
+Fra:1 Mem:1165.12M (Peak 1165.12M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-386-259
+Fra:1 Mem:1165.21M (Peak 1165.21M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-387-939
+Fra:1 Mem:1165.27M (Peak 1165.27M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-388-34
+Fra:1 Mem:1165.43M (Peak 1165.43M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-389-81
+Fra:1 Mem:1165.76M (Peak 1165.76M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-390-479
+Fra:1 Mem:1165.76M (Peak 1165.76M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-391-620
+Fra:1 Mem:1165.72M (Peak 1165.76M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-392-188
+Fra:1 Mem:1166.23M (Peak 1166.23M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-393-633
+Fra:1 Mem:1166.37M (Peak 1166.38M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-394-440
+Fra:1 Mem:1166.57M (Peak 1166.57M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-395-309
+Fra:1 Mem:1166.57M (Peak 1166.57M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-396-95
+Fra:1 Mem:1167.09M (Peak 1167.09M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-397-960
+Fra:1 Mem:1167.13M (Peak 1167.13M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-398-845
+Fra:1 Mem:1167.38M (Peak 1167.38M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-399-692
+Fra:1 Mem:1167.58M (Peak 1167.58M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-400-164
+Fra:1 Mem:1167.67M (Peak 1167.67M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-401-543
+Fra:1 Mem:1167.68M (Peak 1167.68M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-402-769
+Fra:1 Mem:1167.76M (Peak 1167.76M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-403-71
+Fra:1 Mem:1167.84M (Peak 1167.84M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-404-51
+Fra:1 Mem:1168.04M (Peak 1168.04M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-405-531
+Fra:1 Mem:1168.30M (Peak 1168.30M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-406-243
+Fra:1 Mem:1168.45M (Peak 1168.45M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-407-901
+Fra:1 Mem:1168.64M (Peak 1168.64M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-408-369
+Fra:1 Mem:1168.77M (Peak 1168.77M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-409-928
+Fra:1 Mem:1168.82M (Peak 1168.82M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-410-615
+Fra:1 Mem:1168.76M (Peak 1168.82M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-411-922
+Fra:1 Mem:1168.82M (Peak 1168.82M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-413-173
+Fra:1 Mem:1169.20M (Peak 1169.20M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-414-43
+Fra:1 Mem:1169.29M (Peak 1169.29M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-415-379
+Fra:1 Mem:1169.41M (Peak 1169.41M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-416-290
+Fra:1 Mem:1169.41M (Peak 1169.41M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-417-355
+Fra:1 Mem:1169.57M (Peak 1169.57M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-418-972
+Fra:1 Mem:1169.63M (Peak 1169.63M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-419-275
+Fra:1 Mem:1169.86M (Peak 1169.86M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-420-149
+Fra:1 Mem:1169.78M (Peak 1169.86M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-421-763
+Fra:1 Mem:1169.80M (Peak 1169.86M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-424-118
+Fra:1 Mem:1169.91M (Peak 1169.91M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-427-348
+Fra:1 Mem:1169.99M (Peak 1169.99M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-428-17
+Fra:1 Mem:1170.14M (Peak 1170.14M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-429-364
+Fra:1 Mem:1170.19M (Peak 1170.19M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-430-471
+Fra:1 Mem:1170.27M (Peak 1170.27M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-431-187
+Fra:1 Mem:1170.31M (Peak 1170.31M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-432-862
+Fra:1 Mem:1170.44M (Peak 1170.44M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-433-758
+Fra:1 Mem:1170.50M (Peak 1170.50M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-434-397
+Fra:1 Mem:1170.57M (Peak 1170.57M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-435-129
+Fra:1 Mem:1171.80M (Peak 1171.80M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-436-440
+Fra:1 Mem:1171.90M (Peak 1171.90M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-437-778
+Fra:1 Mem:1172.33M (Peak 1172.33M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-438-271
+Fra:1 Mem:1172.34M (Peak 1172.34M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-441-262
+Fra:1 Mem:1172.54M (Peak 1172.54M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-442-998
+Fra:1 Mem:1172.62M (Peak 1172.62M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-443-217
+Fra:1 Mem:1172.65M (Peak 1172.65M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-445-986
+Fra:1 Mem:1172.76M (Peak 1172.76M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-448-447
+Fra:1 Mem:1172.86M (Peak 1172.86M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-449-732
+Fra:1 Mem:1173.13M (Peak 1173.13M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-450-953
+Fra:1 Mem:1173.13M (Peak 1173.13M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-451-537
+Fra:1 Mem:1173.26M (Peak 1173.26M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-453-450
+Fra:1 Mem:1173.33M (Peak 1173.33M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-454-312
+Fra:1 Mem:1173.73M (Peak 1173.73M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-455-431
+Fra:1 Mem:1173.87M (Peak 1173.87M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-456-571
+Fra:1 Mem:1173.91M (Peak 1173.91M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-457-731
+Fra:1 Mem:1174.00M (Peak 1174.00M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-458-120
+Fra:1 Mem:1173.99M (Peak 1174.00M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-459-927
+Fra:1 Mem:1175.40M (Peak 1175.40M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-460-810
+Fra:1 Mem:1175.43M (Peak 1175.43M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-461-303
+Fra:1 Mem:1175.58M (Peak 1175.58M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-462-790
+Fra:1 Mem:1175.69M (Peak 1175.69M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-463-618
+Fra:1 Mem:1176.03M (Peak 1176.03M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-464-9
+Fra:1 Mem:1176.08M (Peak 1176.08M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-465-785
+Fra:1 Mem:1176.09M (Peak 1176.09M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-467-605
+Fra:1 Mem:1176.26M (Peak 1176.26M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-468-989
+Fra:1 Mem:1176.49M (Peak 1176.49M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-469-401
+Fra:1 Mem:1176.74M (Peak 1176.74M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-470-637
+Fra:1 Mem:1176.75M (Peak 1176.75M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-471-995
+Fra:1 Mem:1176.89M (Peak 1176.89M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-472-546
+Fra:1 Mem:1177.10M (Peak 1177.10M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-473-880
+Fra:1 Mem:1177.14M (Peak 1177.14M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-474-458
+Fra:1 Mem:1177.23M (Peak 1177.23M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-475-510
+Fra:1 Mem:1177.34M (Peak 1177.34M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-476-30
+Fra:1 Mem:1177.42M (Peak 1177.42M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-477-263
+Fra:1 Mem:1177.55M (Peak 1177.55M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-478-476
+Fra:1 Mem:1177.71M (Peak 1177.71M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-479-668
+Fra:1 Mem:1178.04M (Peak 1178.04M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-480-285
+帧:1 内存:1177.06M (峰值 1178.04M) | 时间:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-678-651
+Fra:1 Mem:1177.01M (Peak 1178.04M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-481-832
+Fra:1 Mem:1178.23M (Peak 1178.23M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-482-249
+Fra:1 Mem:1178.29M (Peak 1178.29M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-483-515
+Fra:1 Mem:1178.34M (Peak 1178.34M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-484-544
+Fra:1 Mem:1179.25M (Peak 1179.25M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-485-876
+Fra:1 Mem:1179.22M (Peak 1179.25M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-487-362
+Fra:1 Mem:1179.32M (Peak 1179.32M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-488-384
+Fra:1 Mem:1180.41M (Peak 1180.41M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-489-530
+Fra:1 Mem:1180.70M (Peak 1180.70M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-491-516
+Fra:1 Mem:1180.70M (Peak 1180.70M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-492-322
+Fra:1 Mem:1180.75M (Peak 1180.75M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-493-378
+Fra:1 Mem:1180.82M (Peak 1180.82M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-494-728
+Fra:1 Mem:1180.94M (Peak 1180.94M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-495-449
+Fra:1 Mem:1181.02M (Peak 1181.03M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-496-156
+Fra:1 Mem:1181.26M (Peak 1181.26M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-497-64
+Fra:1 Mem:1181.30M (Peak 1181.30M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-498-88
+Fra:1 Mem:1181.33M (Peak 1181.33M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-500-634
+Fra:1 Mem:1181.36M (Peak 1181.36M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-501-618
+Fra:1 Mem:1181.36M (Peak 1181.36M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-502-791
+Fra:1 Mem:1181.59M (Peak 1181.59M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-504-555
+Fra:1 Mem:1181.63M (Peak 1181.63M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-505-716
+Fra:1 Mem:1181.81M (Peak 1181.85M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-507-881
+Fra:1 Mem:1181.82M (Peak 1181.85M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-508-892
+Fra:1 Mem:1181.88M (Peak 1181.88M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-509-591
+Fra:1 Mem:1182.17M (Peak 1182.17M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-510-538
+Fra:1 Mem:1182.17M (Peak 1182.17M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-511-819
+Fra:1 Mem:1182.31M (Peak 1182.31M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-512-27
+Fra:1 Mem:1182.34M (Peak 1182.34M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-513-830
+Fra:1 Mem:1182.38M (Peak 1182.38M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-514-3
+Fra:1 Mem:1182.46M (Peak 1182.46M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-516-696
+Fra:1 Mem:1182.48M (Peak 1182.48M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-517-744
+Fra:1 Mem:1182.82M (Peak 1182.82M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-518-193
+Fra:1 Mem:1182.90M (Peak 1182.90M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-519-579
+Fra:1 Mem:1182.94M (Peak 1182.94M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-520-740
+Fra:1 Mem:1183.02M (Peak 1183.02M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-521-564
+Fra:1 Mem:1183.11M (Peak 1183.11M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-522-637
+Fra:1 Mem:1183.20M (Peak 1183.20M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-523-805
+Fra:1 Mem:1183.35M (Peak 1183.35M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-524-250
+Fra:1 Mem:1183.39M (Peak 1183.39M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-526-807
+Fra:1 Mem:1183.47M (Peak 1183.47M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-527-867
+Fra:1 Mem:1183.56M (Peak 1183.56M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-528-196
+Fra:1 Mem:1183.68M (Peak 1183.68M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-529-506
+Fra:1 Mem:1183.83M (Peak 1183.83M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-530-433
+Fra:1 Mem:1183.88M (Peak 1183.88M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-533-617
+Fra:1 Mem:1183.93M (Peak 1183.93M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-534-776
+Fra:1 Mem:1184.03M (Peak 1184.03M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-535-328
+Fra:1 Mem:1184.25M (Peak 1184.29M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-536-203
+Fra:1 Mem:1184.40M (Peak 1184.40M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-538-672
+Fra:1 Mem:1184.59M (Peak 1184.59M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-539-628
+Fra:1 Mem:1184.66M (Peak 1184.66M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-541-524
+Fra:1 Mem:1184.69M (Peak 1184.69M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-543-793
+Fra:1 Mem:1185.06M (Peak 1185.06M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-544-237
+Fra:1 Mem:1185.40M (Peak 1185.40M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-545-372
+Fra:1 Mem:1185.48M (Peak 1185.48M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-546-449
+Fra:1 Mem:1185.49M (Peak 1185.49M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-547-876
+Fra:1 Mem:1185.98M (Peak 1185.98M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-548-805
+Fra:1 Mem:1186.02M (Peak 1186.02M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-549-726
+Fra:1 Mem:1185.96M (Peak 1186.02M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-551-430
+Fra:1 Mem:1186.19M (Peak 1186.19M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-552-167
+Fra:1 Mem:1186.35M (Peak 1186.35M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-553-470
+Fra:1 Mem:1186.97M (Peak 1186.97M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-554-618
+Fra:1 Mem:1186.90M (Peak 1186.97M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-555-702
+Fra:1 Mem:1186.95M (Peak 1186.97M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-556-129
+Fra:1 Mem:1187.23M (Peak 1187.23M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-557-187
+Fra:1 Mem:1187.26M (Peak 1187.26M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-558-139
+Fra:1 Mem:1187.77M (Peak 1187.77M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-559-776
+Fra:1 Mem:1187.73M (Peak 1187.77M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-560-366
+Fra:1 Mem:1187.87M (Peak 1187.87M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-562-124
+Fra:1 Mem:1188.36M (Peak 1188.36M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-563-639
+Fra:1 Mem:1188.35M (Peak 1188.36M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-564-177
+Fra:1 Mem:1189.01M (Peak 1189.01M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-565-554
+Fra:1 Mem:1189.19M (Peak 1189.19M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-566-230
+Fra:1 Mem:1189.28M (Peak 1189.28M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-567-634
+Fra:1 Mem:1189.45M (Peak 1189.45M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-568-188
+Fra:1 Mem:1189.76M (Peak 1189.76M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-569-115
+Fra:1 Mem:1189.72M (Peak 1189.76M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-571-268
+Fra:1 Mem:1189.90M (Peak 1189.90M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-572-560
+Fra:1 Mem:1190.11M (Peak 1190.11M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-573-586
+Fra:1 Mem:1190.24M (Peak 1190.24M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-574-942
+Fra:1 Mem:1190.27M (Peak 1190.27M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-575-854
+Fra:1 Mem:1190.35M (Peak 1190.35M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-576-824
+Fra:1 Mem:1190.46M (Peak 1190.46M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-577-570
+Fra:1 Mem:1190.69M (Peak 1190.69M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-578-916
+Fra:1 Mem:1190.78M (Peak 1190.78M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-579-934
+Fra:1 Mem:1190.87M (Peak 1190.87M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-580-918
+Fra:1 Mem:1191.02M (Peak 1191.02M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-581-461
+Fra:1 Mem:1191.01M (Peak 1191.02M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-583-984
+Fra:1 Mem:1191.03M (Peak 1191.03M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-584-532
+Fra:1 Mem:1191.08M (Peak 1191.08M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-585-352
+Fra:1 Mem:1191.16M (Peak 1191.16M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-587-333
+Fra:1 Mem:1191.21M (Peak 1191.21M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-588-343
+Fra:1 Mem:1191.30M (Peak 1191.30M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-589-968
+Fra:1 Mem:1191.44M (Peak 1191.44M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-590-433
+Fra:1 Mem:1191.52M (Peak 1191.52M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-592-246
+Fra:1 Mem:1191.57M (Peak 1191.57M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-594-36
+Fra:1 Mem:1191.74M (Peak 1191.74M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-595-977
+Fra:1 Mem:1191.80M (Peak 1191.80M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-596-166
+Fra:1 Mem:1191.94M (Peak 1191.94M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-597-554
+Fra:1 Mem:1191.95M (Peak 1191.95M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-599-695
+Fra:1 Mem:1191.93M (Peak 1191.95M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-601-890
+Fra:1 Mem:1192.03M (Peak 1192.03M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-602-326
+Fra:1 Mem:1192.49M (Peak 1192.49M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-603-539
+Fra:1 Mem:1192.51M (Peak 1192.51M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-606-699
+Fra:1 Mem:1192.70M (Peak 1192.70M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-607-984
+Fra:1 Mem:1192.80M (Peak 1192.80M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-608-41
+Fra:1 Mem:1192.96M (Peak 1192.96M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-609-6
+Fra:1 Mem:1193.07M (Peak 1193.07M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-610-827
+Fra:1 Mem:1193.23M (Peak 1193.23M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-611-59
+Fra:1 Mem:1193.28M (Peak 1193.28M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-612-924
+Fra:1 Mem:1193.27M (Peak 1193.28M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-613-560
+Fra:1 Mem:1193.29M (Peak 1193.29M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-614-840
+Fra:1 Mem:1193.36M (Peak 1193.36M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-615-27
+Fra:1 Mem:1193.44M (Peak 1193.44M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-616-51
+Fra:1 Mem:1193.64M (Peak 1193.64M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-617-784
+Fra:1 Mem:1193.57M (Peak 1193.64M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-619-44
+Fra:1 Mem:1193.65M (Peak 1193.65M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-621-977
+Fra:1 Mem:1193.78M (Peak 1193.78M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-622-990
+Fra:1 Mem:1193.94M (Peak 1193.94M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-623-274
+Fra:1 Mem:1194.03M (Peak 1194.03M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-624-761
+Fra:1 Mem:1194.06M (Peak 1194.06M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-625-935
+Fra:1 Mem:1194.24M (Peak 1194.24M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-627-423
+Fra:1 Mem:1194.26M (Peak 1194.26M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-628-434
+Fra:1 Mem:1194.42M (Peak 1194.42M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-629-709
+Fra:1 Mem:1194.56M (Peak 1194.56M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-630-62
+Fra:1 Mem:1194.78M (Peak 1194.78M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-631-159
+Fra:1 Mem:1194.96M (Peak 1194.96M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-632-677
+Fra:1 Mem:1195.03M (Peak 1195.03M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-633-303
+Fra:1 Mem:1195.14M (Peak 1195.14M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-634-437
+Fra:1 Mem:1195.55M (Peak 1195.55M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-635-394
+Fra:1 Mem:1195.84M (Peak 1195.84M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-636-436
+Fra:1 Mem:1195.86M (Peak 1195.86M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-637-29
+Fra:1 Mem:1195.98M (Peak 1195.98M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-638-92
+Fra:1 Mem:1196.12M (Peak 1196.12M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-639-884
+Fra:1 Mem:1196.44M (Peak 1196.44M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-640-484
+Fra:1 Mem:1196.48M (Peak 1196.48M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-641-730
+Fra:1 Mem:1196.53M (Peak 1196.53M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-642-697
+Fra:1 Mem:1196.57M (Peak 1196.57M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-643-136
+Fra:1 Mem:1197.72M (Peak 1197.72M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-644-555
+Fra:1 Mem:1198.03M (Peak 1198.03M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-645-600
+Fra:1 Mem:1198.44M (Peak 1198.44M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-646-995
+Fra:1 Mem:1198.66M (Peak 1198.66M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-647-66
+Fra:1 Mem:1199.30M (Peak 1199.30M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-648-280
+Fra:1 Mem:1200.12M (Peak 1200.12M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-649-809
+Fra:1 Mem:1200.44M (Peak 1200.44M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-650-460
+Fra:1 Mem:1202.26M (Peak 1202.26M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-651-399
+Fra:1 Mem:1203.58M (Peak 1203.58M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-652-518
+Fra:1 Mem:1204.17M (Peak 1204.17M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-653-661
+Fra:1 Mem:1206.42M (Peak 1206.42M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-654-705
+Fra:1 Mem:1207.17M (Peak 1207.17M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-655-265
+Fra:1 Mem:1210.29M (Peak 1210.29M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-656-180
+Fra:1 Mem:1211.99M (Peak 1211.99M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-657-501
+Fra:1 Mem:1212.75M (Peak 1212.75M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-658-492
+Fra:1 Mem:1212.83M (Peak 1212.83M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-659-969
+Fra:1 Mem:1212.92M (Peak 1212.92M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-660-136
+Fra:1 Mem:1219.32M (Peak 1219.32M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-661-83
+Fra:1 Mem:1219.40M (Peak 1219.40M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-662-685
+Fra:1 Mem:1221.31M (Peak 1221.50M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-664-296
+Fra:1 Mem:1224.88M (Peak 1224.88M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-665-631
+Fra:1 Mem:1228.67M (Peak 1228.67M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-666-987
+Fra:1 Mem:1237.52M (Peak 1237.52M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-667-7
+帧:1 内存:1244.25M (峰值 1244.25M) | 时间:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-677-128
+Fra:1 Mem:1249.92M (Peak 1249.92M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-668-473
+Fra:1 Mem:1261.65M (Peak 1261.65M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-669-301
+Fra:1 Mem:1262.20M (Peak 1262.20M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-670-814
+Fra:1 Mem:1264.00M (Peak 1264.00M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-671-974
+Fra:1 Mem:1265.44M (Peak 1265.44M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-672-94
+Fra:1 Mem:1265.39M (Peak 1265.44M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-674-138
+Fra:1 Mem:1266.94M (Peak 1266.94M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-675-267
+Fra:1 Mem:1287.16M (Peak 1288.22M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-676-389
+帧:1 内存:1302.99M (峰值 1307.60M) | 时间:00:00.22 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+帧:1 内存:1300.17M (峰值 1307.60M) | 时间:00:00.22 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-46.jpg
+Fra:1 Mem:1300.17M (Peak 1307.60M) | Time:00:00.22 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-15.jpg
+Fra:1 Mem:1615.87M (Peak 1615.87M) | Time:00:00.23 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-22.jpg
+Fra:1 Mem:1679.87M (Peak 1679.87M) | Time:00:00.23 | Mem:2.91M, Peak:2.91M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-25.jpg
+Fra:1 Mem:1695.87M (Peak 1695.87M) | Time:00:00.23 | Mem:5.10M, Peak:5.10M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-24.jpg
+Fra:1 Mem:1711.87M (Peak 1711.87M) | Time:00:00.23 | Mem:7.28M, Peak:7.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-27.jpg
+Fra:1 Mem:1727.87M (Peak 1727.87M) | Time:00:00.23 | Mem:9.47M, Peak:9.47M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-31.jpg
+Fra:1 Mem:1762.20M (Peak 1762.20M) | Time:00:00.23 | Mem:11.66M, Peak:11.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-29.jpg
+Fra:1 Mem:1796.54M (Peak 1796.54M) | Time:00:00.26 | Mem:21.36M, Peak:21.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-30.jpg
+Fra:1 Mem:1857.57M (Peak 1857.57M) | Time:00:00.27 | Mem:37.36M, Peak:37.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-28.jpg
+Fra:1 Mem:1857.57M (Peak 1857.57M) | Time:00:00.27 | Mem:53.36M, Peak:53.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-32.jpg
+Fra:1 Mem:1926.24M (Peak 1926.24M) | Time:00:00.28 | Mem:69.36M, Peak:69.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-33.jpg
+Fra:1 Mem:1926.72M (Peak 1926.72M) | Time:00:00.28 | Mem:69.84M, Peak:69.84M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-35.jpg
+Fra:1 Mem:1927.20M (Peak 1927.20M) | Time:00:00.28 | Mem:70.32M, Peak:70.32M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-36.jpg
+Fra:1 Mem:1927.40M (Peak 1927.40M) | Time:00:00.28 | Mem:70.52M, Peak:70.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-37.jpg
+Fra:1 Mem:1927.59M (Peak 1927.59M) | Time:00:00.28 | Mem:70.71M, Peak:70.71M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-38.jpg
+Fra:1 Mem:1927.96M (Peak 1927.96M) | Time:00:00.28 | Mem:71.08M, Peak:71.08M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-39.jpg
+Fra:1 Mem:1928.33M (Peak 1928.33M) | Time:00:00.28 | Mem:71.45M, Peak:71.45M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-40.jpg
+Fra:1 Mem:1928.70M (Peak 1928.70M) | Time:00:00.28 | Mem:71.82M, Peak:71.82M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-41.jpg
+Fra:1 Mem:1929.07M (Peak 1929.07M) | Time:00:00.28 | Mem:72.19M, Peak:72.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-48.jpg
+帧:1 内存:1930.07M (峰值 1930.07M) | 时间:00:00.29 | Mem:88.19M, Peak:88.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-49.jpg
+Fra:1 Mem:1938.66M (Peak 1938.66M) | Time:00:00.29 | Mem:89.19M, Peak:89.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-51.jpg
+Fra:1 Mem:1939.66M (Peak 1939.66M) | Time:00:00.29 | Mem:105.19M, Peak:105.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-58.jpg
+Fra:1 Mem:1944.18M (Peak 1944.18M) | Time:00:00.29 | Mem:106.19M, Peak:106.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-53.jpg
+Fra:1 Mem:1944.28M (Peak 1944.28M) | Time:00:00.29 | Mem:106.30M, Peak:106.30M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-54.jpg
+Fra:1 Mem:1944.45M (Peak 1944.45M) | Time:00:00.29 | Mem:106.46M, Peak:106.46M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-50.png
+Fra:1 Mem:1960.45M (Peak 1960.45M) | Time:00:00.29 | Mem:122.46M, Peak:122.46M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-55.jpg
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.45 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.45 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.45 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.45 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.45 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.45 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.45 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.45 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.45 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.45 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:1947.43M (Peak 1969.03M) | Time:00:00.45 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:1947.43M (Peak 1969.03M) | Time:00:00.45 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:1947.43M (Peak 1969.03M) | Time:00:00.45 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:1976.55M (Peak 1976.55M) | Time:00:00.82 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:1976.55M (Peak 1976.55M) | Time:00:00.83 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:2075.24M (Peak 2075.24M) | Time:00:00.89 | Mem:669.09M, Peak:669.09M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:2075.14M (Peak 2075.24M) | Time:00:00.89 | Mem:767.62M, Peak:767.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:00.89 | Mem:767.62M, Peak:767.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:00.89 | Mem:850.72M, Peak:850.72M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:01.06 | Mem:943.62M, Peak:1026.72M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:01.06 | Mem:943.62M, Peak:1026.72M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:943.62M, Peak:1026.72M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:1018.94M, Peak:1026.72M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:1018.94M, Peak:1026.72M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:01.14 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:01.14 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:01.14 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:01.14 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:01.14 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:01.14 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:2150.50M (Peak 2150.50M) | Time:00:01.14 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:2150.50M (Peak 2150.50M) | Time:00:01.14 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Sample 0/8
+Fra:1 Mem:2228.96M (Peak 2228.96M) | Time:00:01.20 | Remaining:00:00.40 | Mem:1097.33M, Peak:1097.33M | Scene, ViewLayer | Sample 1/8
+Fra:1 Mem:2261.93M (Peak 2311.37M) | Time:00:04.23 | Mem:1097.33M, Peak:1097.33M | Scene, ViewLayer | Sample 8/8
+Fra:1 Mem:2261.93M (Peak 2311.37M) | Time:00:04.23 | Mem:1097.33M, Peak:1097.33M | Scene, ViewLayer | Finished
+Saved: 'C:\GameMake\docs\expansion_20261015\river\overview.png'
+Time: 00:04.53 (Saving: 00:00.19)
+
+Fra:1 Mem:1132.76M (Peak 1132.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-1-536
+Fra:1 Mem:1132.76M (Peak 1132.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-4-11
+Fra:1 Mem:1132.76M (Peak 1132.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-5-409
+Fra:1 Mem:1132.79M (Peak 1132.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-8-740
+Fra:1 Mem:1132.81M (Peak 1132.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-9-381
+Fra:1 Mem:1132.81M (Peak 1132.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-11-315
+Fra:1 Mem:1132.81M (Peak 1132.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-14-606
+Fra:1 Mem:1132.81M (Peak 1132.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-16-56
+Fra:1 Mem:1137.01M (Peak 1137.01M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-17-500
+Fra:1 Mem:1137.10M (Peak 1137.10M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-19-956
+Fra:1 Mem:1137.21M (Peak 1137.21M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-20-765
+Fra:1 Mem:1137.34M (Peak 1137.34M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-21-702
+Fra:1 Mem:1139.94M (Peak 1139.94M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-22-936
+Fra:1 Mem:1145.42M (Peak 1145.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-23-839
+Fra:1 Mem:1145.55M (Peak 1145.55M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-24-703
+Fra:1 Mem:1147.06M (Peak 1147.06M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-25-166
+Fra:1 Mem:1149.78M (Peak 1149.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-26-514
+Fra:1 Mem:1150.73M (Peak 1150.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-27-757
+Fra:1 Mem:1150.75M (Peak 1150.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-29-823
+Fra:1 Mem:1152.63M (Peak 1152.63M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-30-498
+Fra:1 Mem:1155.69M (Peak 1155.69M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-32-194
+Fra:1 Mem:1157.52M (Peak 1157.52M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-34-351
+Fra:1 Mem:1158.83M (Peak 1158.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-35-121
+Fra:1 Mem:1159.67M (Peak 1159.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-36-527
+Fra:1 Mem:1159.66M (Peak 1159.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-37-668
+Fra:1 Mem:1159.79M (Peak 1159.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-39-440
+Fra:1 Mem:1159.26M (Peak 1159.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-41-224
+Fra:1 Mem:1159.35M (Peak 1159.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-42-893
+Fra:1 Mem:1159.72M (Peak 1159.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-43-944
+Fra:1 Mem:1160.04M (Peak 1160.04M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-44-780
+Fra:1 Mem:1160.31M (Peak 1160.39M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-45-587
+Fra:1 Mem:1164.42M (Peak 1164.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-46-59
+Fra:1 Mem:1165.76M (Peak 1165.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-47-953
+Fra:1 Mem:1166.45M (Peak 1166.45M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-49-765
+Fra:1 Mem:1167.57M (Peak 1167.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-51-579
+Fra:1 Mem:1170.37M (Peak 1170.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-53-856
+Fra:1 Mem:1170.65M (Peak 1170.70M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-54-883
+Fra:1 Mem:1171.00M (Peak 1171.00M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-56-563
+Fra:1 Mem:1170.69M (Peak 1171.00M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-57-270
+Fra:1 Mem:1170.77M (Peak 1171.00M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-59-679
+Fra:1 Mem:1171.53M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-60-634
+Fra:1 Mem:1170.94M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-63-926
+Fra:1 Mem:1171.00M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-64-318
+Fra:1 Mem:1171.16M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-66-443
+Fra:1 Mem:1171.32M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-67-907
+Fra:1 Mem:1171.33M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-68-566
+Fra:1 Mem:1171.42M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-70-795
+Fra:1 Mem:1171.49M (Peak 1171.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-72-908
+Fra:1 Mem:1171.63M (Peak 1171.63M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-73-610
+Fra:1 Mem:1171.69M (Peak 1171.69M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-74-348
+Fra:1 Mem:1171.69M (Peak 1171.69M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-78-399
+Fra:1 Mem:1171.86M (Peak 1171.86M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-79-398
+Fra:1 Mem:1171.89M (Peak 1171.89M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-82-152
+Fra:1 Mem:1171.96M (Peak 1171.96M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-83-882
+Fra:1 Mem:1171.99M (Peak 1171.99M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-84-253
+Fra:1 Mem:1172.00M (Peak 1172.00M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-85-326
+Fra:1 Mem:1172.11M (Peak 1172.11M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-86-80
+Fra:1 Mem:1172.15M (Peak 1172.15M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-87-193
+Fra:1 Mem:1172.17M (Peak 1172.17M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-89-20
+Fra:1 Mem:1172.24M (Peak 1172.24M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-90-568
+Fra:1 Mem:1172.36M (Peak 1172.36M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-91-703
+Fra:1 Mem:1172.38M (Peak 1172.38M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-92-659
+Fra:1 Mem:1172.65M (Peak 1172.65M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-93-411
+Fra:1 Mem:1172.71M (Peak 1172.71M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-95-310
+Fra:1 Mem:1172.76M (Peak 1172.76M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-97-909
+Fra:1 Mem:1173.84M (Peak 1173.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-98-467
+Fra:1 Mem:1173.84M (Peak 1173.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-100-517
+Fra:1 Mem:1173.93M (Peak 1173.93M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-101-569
+Fra:1 Mem:1174.04M (Peak 1174.04M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-102-421
+Fra:1 Mem:1174.08M (Peak 1174.08M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-103-559
+Fra:1 Mem:1174.19M (Peak 1174.19M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-104-113
+Fra:1 Mem:1174.21M (Peak 1174.21M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-108-304
+Fra:1 Mem:1174.44M (Peak 1174.44M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-109-726
+Fra:1 Mem:1174.45M (Peak 1174.45M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-111-84
+Fra:1 Mem:1174.46M (Peak 1174.46M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-112-605
+Fra:1 Mem:1174.66M (Peak 1174.66M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-113-352
+Fra:1 Mem:1174.83M (Peak 1174.83M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-115-138
+Fra:1 Mem:1174.89M (Peak 1174.89M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-117-706
+Fra:1 Mem:1175.16M (Peak 1175.16M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-118-853
+Fra:1 Mem:1175.33M (Peak 1175.33M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-120-50
+Fra:1 Mem:1175.38M (Peak 1175.38M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-122-673
+Fra:1 Mem:1175.50M (Peak 1175.50M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-123-284
+Fra:1 Mem:1175.81M (Peak 1175.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-124-317
+Fra:1 Mem:1175.85M (Peak 1175.85M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-125-664
+Fra:1 Mem:1175.95M (Peak 1175.95M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-126-707
+Fra:1 Mem:1176.03M (Peak 1176.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-129-582
+Fra:1 Mem:1176.09M (Peak 1176.09M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-130-439
+Fra:1 Mem:1176.23M (Peak 1176.23M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-131-856
+Fra:1 Mem:1176.37M (Peak 1176.37M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-132-613
+Fra:1 Mem:1176.53M (Peak 1176.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-133-398
+Fra:1 Mem:1177.20M (Peak 1177.20M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-134-133
+Fra:1 Mem:1177.23M (Peak 1177.23M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-137-776
+Fra:1 Mem:1178.14M (Peak 1178.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-138-737
+Fra:1 Mem:1182.31M (Peak 1182.31M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-139-173
+Fra:1 Mem:1182.31M (Peak 1182.31M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-140-441
+Fra:1 Mem:1182.93M (Peak 1182.93M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-141-529
+Fra:1 Mem:1183.28M (Peak 1183.28M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-142-541
+Fra:1 Mem:1184.29M (Peak 1184.29M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-143-570
+Fra:1 Mem:1186.69M (Peak 1186.69M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-144-266
+Fra:1 Mem:1186.99M (Peak 1186.99M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-145-774
+Fra:1 Mem:1187.96M (Peak 1187.96M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-146-437
+Fra:1 Mem:1188.33M (Peak 1188.33M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-147-843
+Fra:1 Mem:1188.33M (Peak 1188.33M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-148-777
+Fra:1 Mem:1188.17M (Peak 1188.33M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-149-558
+Fra:1 Mem:1188.22M (Peak 1188.33M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-150-120
+Fra:1 Mem:1188.81M (Peak 1188.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-151-516
+Fra:1 Mem:1188.31M (Peak 1188.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-152-791
+Fra:1 Mem:1188.49M (Peak 1188.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-155-97
+Fra:1 Mem:1189.93M (Peak 1189.93M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-158-727
+Fra:1 Mem:1189.44M (Peak 1189.93M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-160-440
+Fra:1 Mem:1189.62M (Peak 1189.93M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-161-5
+Fra:1 Mem:1189.73M (Peak 1192.38M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-162-470
+Fra:1 Mem:1192.45M (Peak 1192.45M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-163-7
+Fra:1 Mem:1192.45M (Peak 1192.45M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-165-219
+Fra:1 Mem:1192.56M (Peak 1192.56M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-166-147
+Fra:1 Mem:1192.58M (Peak 1192.58M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-167-19
+Fra:1 Mem:1192.95M (Peak 1192.95M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-171-578
+Fra:1 Mem:1192.94M (Peak 1192.95M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-172-764
+Fra:1 Mem:1192.98M (Peak 1192.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-173-48
+Fra:1 Mem:1192.51M (Peak 1192.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-176-899
+Fra:1 Mem:1192.52M (Peak 1192.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-177-131
+Fra:1 Mem:1192.55M (Peak 1192.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-178-973
+Fra:1 Mem:1192.59M (Peak 1192.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-179-709
+Fra:1 Mem:1194.00M (Peak 1194.00M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-180-343
+Fra:1 Mem:1194.07M (Peak 1194.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-181-413
+Fra:1 Mem:1194.11M (Peak 1194.11M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-182-395
+Fra:1 Mem:1194.17M (Peak 1194.17M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-183-528
+Fra:1 Mem:1194.23M (Peak 1194.23M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-185-574
+Fra:1 Mem:1194.32M (Peak 1194.32M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-186-350
+Fra:1 Mem:1194.44M (Peak 1194.44M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-187-32
+Fra:1 Mem:1194.66M (Peak 1194.66M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-188-340
+Fra:1 Mem:1194.79M (Peak 1194.79M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-189-736
+Fra:1 Mem:1194.76M (Peak 1194.79M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-191-692
+Fra:1 Mem:1194.78M (Peak 1194.79M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-192-866
+Fra:1 Mem:1194.88M (Peak 1194.88M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-193-664
+Fra:1 Mem:1194.97M (Peak 1194.97M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-194-763
+Fra:1 Mem:1195.03M (Peak 1195.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-195-633
+Fra:1 Mem:1195.11M (Peak 1195.11M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-196-393
+Fra:1 Mem:1195.20M (Peak 1195.20M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-198-271
+Fra:1 Mem:1196.28M (Peak 1196.28M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-200-930
+Fra:1 Mem:1196.31M (Peak 1196.31M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-202-997
+Fra:1 Mem:1194.99M (Peak 1196.31M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-203-635
+Fra:1 Mem:1196.36M (Peak 1196.36M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-205-167
+Fra:1 Mem:1195.29M (Peak 1196.36M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-206-570
+Fra:1 Mem:1201.04M (Peak 1201.04M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-207-778
+Fra:1 Mem:1201.14M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-210-410
+Fra:1 Mem:1198.67M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-211-666
+Fra:1 Mem:1198.70M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-213-772
+Fra:1 Mem:1198.95M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-214-782
+Fra:1 Mem:1199.00M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-215-604
+Fra:1 Mem:1199.02M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-216-134
+Fra:1 Mem:1199.03M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-218-126
+Fra:1 Mem:1199.39M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-219-202
+Fra:1 Mem:1199.51M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-221-320
+Fra:1 Mem:1199.63M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-222-19
+Fra:1 Mem:1199.68M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-224-576
+Fra:1 Mem:1199.78M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-226-616
+Fra:1 Mem:1200.13M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-228-762
+Fra:1 Mem:1200.44M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-229-865
+Fra:1 Mem:1200.41M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-230-909
+Fra:1 Mem:1200.68M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-231-488
+Fra:1 Mem:1200.82M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-233-679
+Fra:1 Mem:1200.74M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-237-737
+Fra:1 Mem:1200.79M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-240-250
+Fra:1 Mem:1200.84M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-241-7
+Fra:1 Mem:1200.98M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-242-590
+Fra:1 Mem:1201.04M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-243-867
+Fra:1 Mem:1201.08M (Peak 1201.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-244-796
+Fra:1 Mem:1201.18M (Peak 1201.18M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-245-101
+Fra:1 Mem:1201.32M (Peak 1201.32M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-247-764
+Fra:1 Mem:1201.32M (Peak 1201.32M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-249-661
+Fra:1 Mem:1201.48M (Peak 1201.48M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-250-153
+Fra:1 Mem:1201.53M (Peak 1201.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-251-935
+Fra:1 Mem:1201.60M (Peak 1201.60M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-253-394
+Fra:1 Mem:1201.74M (Peak 1201.74M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-255-486
+Fra:1 Mem:1201.85M (Peak 1201.85M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-256-43
+Fra:1 Mem:1201.94M (Peak 1201.94M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-257-991
+Fra:1 Mem:1202.01M (Peak 1202.01M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-259-688
+Fra:1 Mem:1202.04M (Peak 1202.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-260-647
+Fra:1 Mem:1203.49M (Peak 1203.49M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-264-952
+Fra:1 Mem:1203.56M (Peak 1203.56M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-265-282
+Fra:1 Mem:1203.65M (Peak 1203.65M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-266-323
+Fra:1 Mem:1203.79M (Peak 1203.79M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-267-802
+Fra:1 Mem:1203.81M (Peak 1203.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-269-578
+Fra:1 Mem:1203.89M (Peak 1203.89M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-271-879
+Fra:1 Mem:1204.02M (Peak 1204.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-273-377
+Fra:1 Mem:1204.05M (Peak 1204.05M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-272-911
+Fra:1 Mem:1204.17M (Peak 1204.17M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-274-452
+Fra:1 Mem:1204.26M (Peak 1204.26M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-276-898
+Fra:1 Mem:1204.29M (Peak 1204.29M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-279-750
+Fra:1 Mem:1206.98M (Peak 1206.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-280-122
+Fra:1 Mem:1207.07M (Peak 1207.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-281-169
+Fra:1 Mem:1207.08M (Peak 1207.08M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-282-267
+Fra:1 Mem:1207.15M (Peak 1207.15M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-283-782
+Fra:1 Mem:1207.28M (Peak 1207.28M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-284-817
+Fra:1 Mem:1207.37M (Peak 1207.37M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-285-762
+Fra:1 Mem:1207.38M (Peak 1207.38M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-286-477
+Fra:1 Mem:1207.52M (Peak 1207.52M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-287-872
+Fra:1 Mem:1207.54M (Peak 1207.54M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-289-978
+Fra:1 Mem:1207.59M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-291-856
+Fra:1 Mem:1203.69M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-293-256
+Fra:1 Mem:1203.76M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-294-309
+Fra:1 Mem:1203.95M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-296-304
+Fra:1 Mem:1204.01M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-297-789
+Fra:1 Mem:1204.28M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-298-917
+Fra:1 Mem:1204.43M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-299-10
+Fra:1 Mem:1204.49M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-301-479
+Fra:1 Mem:1204.55M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-302-766
+Fra:1 Mem:1204.62M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-303-927
+Fra:1 Mem:1204.67M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-304-430
+Fra:1 Mem:1204.79M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-306-29
+Fra:1 Mem:1204.91M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-307-689
+Fra:1 Mem:1204.98M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-308-136
+Fra:1 Mem:1205.09M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-309-393
+Fra:1 Mem:1205.16M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-310-592
+Fra:1 Mem:1205.30M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-311-20
+Fra:1 Mem:1205.43M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-313-326
+Fra:1 Mem:1205.57M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-314-399
+Fra:1 Mem:1205.73M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-316-115
+Fra:1 Mem:1205.82M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-317-197
+Fra:1 Mem:1205.83M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-319-363
+Fra:1 Mem:1205.91M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-318-683
+Fra:1 Mem:1206.01M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-321-841
+Fra:1 Mem:1206.09M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-322-917
+Fra:1 Mem:1206.25M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-324-613
+Fra:1 Mem:1206.37M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-326-844
+Fra:1 Mem:1206.44M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-327-726
+Fra:1 Mem:1206.56M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-328-260
+Fra:1 Mem:1206.59M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-329-556
+Fra:1 Mem:1206.72M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-330-406
+Fra:1 Mem:1207.17M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-331-64
+Fra:1 Mem:1207.21M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-333-197
+Fra:1 Mem:1207.27M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-334-934
+Fra:1 Mem:1207.33M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-336-638
+Fra:1 Mem:1207.35M (Peak 1207.59M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-337-125
+Fra:1 Mem:1207.39M (Peak 1207.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-338-445
+Fra:1 Mem:1207.47M (Peak 1207.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-340-225
+Fra:1 Mem:1207.53M (Peak 1207.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-342-369
+Fra:1 Mem:1207.61M (Peak 1207.61M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-344-964
+Fra:1 Mem:1207.67M (Peak 1207.67M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-345-722
+Fra:1 Mem:1207.75M (Peak 1207.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-348-201
+Fra:1 Mem:1207.78M (Peak 1207.78M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-350-14
+Fra:1 Mem:1207.79M (Peak 1207.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-352-854
+Fra:1 Mem:1207.92M (Peak 1207.92M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-353-414
+Fra:1 Mem:1208.11M (Peak 1208.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-354-861
+Fra:1 Mem:1208.23M (Peak 1208.23M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-355-956
+Fra:1 Mem:1208.28M (Peak 1208.28M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-356-131
+Fra:1 Mem:1208.30M (Peak 1208.30M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-358-444
+Fra:1 Mem:1208.40M (Peak 1208.40M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-359-636
+Fra:1 Mem:1208.42M (Peak 1208.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-361-407
+Fra:1 Mem:1208.46M (Peak 1208.46M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-362-858
+Fra:1 Mem:1208.65M (Peak 1208.65M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-363-559
+Fra:1 Mem:1208.68M (Peak 1208.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-364-37
+Fra:1 Mem:1208.73M (Peak 1208.73M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-365-459
+Fra:1 Mem:1208.88M (Peak 1208.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-366-579
+Fra:1 Mem:1208.86M (Peak 1208.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-367-383
+Fra:1 Mem:1208.98M (Peak 1208.98M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-369-166
+Fra:1 Mem:1209.01M (Peak 1209.01M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-370-921
+Fra:1 Mem:1209.09M (Peak 1209.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-371-751
+Fra:1 Mem:1209.15M (Peak 1209.15M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-373-411
+Fra:1 Mem:1209.26M (Peak 1209.26M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-374-697
+Fra:1 Mem:1209.29M (Peak 1209.29M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-375-840
+Fra:1 Mem:1209.36M (Peak 1209.36M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-378-908
+Fra:1 Mem:1209.62M (Peak 1209.62M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-379-764
+Fra:1 Mem:1209.64M (Peak 1209.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-381-208
+Fra:1 Mem:1209.68M (Peak 1209.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-382-820
+Fra:1 Mem:1209.96M (Peak 1209.96M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-384-937
+Fra:1 Mem:1209.92M (Peak 1209.96M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-386-259
+Fra:1 Mem:1210.03M (Peak 1210.03M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-387-939
+Fra:1 Mem:1210.08M (Peak 1210.08M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-389-81
+Fra:1 Mem:1210.26M (Peak 1210.26M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-390-479
+Fra:1 Mem:1210.32M (Peak 1210.32M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-392-188
+Fra:1 Mem:1210.45M (Peak 1210.45M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-391-620
+Fra:1 Mem:1210.76M (Peak 1210.76M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-393-633
+Fra:1 Mem:1210.78M (Peak 1210.78M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-395-309
+Fra:1 Mem:1210.91M (Peak 1210.91M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-396-95
+Fra:1 Mem:1211.14M (Peak 1211.14M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-397-960
+Fra:1 Mem:1211.26M (Peak 1211.26M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-399-692
+Fra:1 Mem:1211.32M (Peak 1211.32M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-400-164
+Fra:1 Mem:1211.35M (Peak 1211.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-402-769
+Fra:1 Mem:1211.41M (Peak 1211.41M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-403-71
+Fra:1 Mem:1211.48M (Peak 1211.48M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-404-51
+Fra:1 Mem:1211.80M (Peak 1211.80M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-405-531
+Fra:1 Mem:1211.90M (Peak 1211.90M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-406-243
+Fra:1 Mem:1211.94M (Peak 1211.94M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-407-901
+Fra:1 Mem:1212.20M (Peak 1212.20M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-408-369
+Fra:1 Mem:1212.21M (Peak 1212.21M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-410-615
+Fra:1 Mem:1212.35M (Peak 1212.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-412-171
+Fra:1 Mem:1212.42M (Peak 1212.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-414-43
+Fra:1 Mem:1212.58M (Peak 1212.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-415-379
+Fra:1 Mem:1212.60M (Peak 1212.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-417-355
+Fra:1 Mem:1212.79M (Peak 1212.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-418-972
+Fra:1 Mem:1212.81M (Peak 1212.81M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-420-149
+Fra:1 Mem:1212.89M (Peak 1212.89M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-421-763
+Fra:1 Mem:1213.09M (Peak 1213.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-423-154
+Fra:1 Mem:1213.11M (Peak 1213.11M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-425-998
+Fra:1 Mem:1213.12M (Peak 1213.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-426-410
+Fra:1 Mem:1213.17M (Peak 1213.17M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-427-348
+Fra:1 Mem:1213.23M (Peak 1213.23M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-430-471
+Fra:1 Mem:1213.21M (Peak 1213.23M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-432-862
+Fra:1 Mem:1213.28M (Peak 1213.28M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-433-758
+Fra:1 Mem:1213.31M (Peak 1213.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-435-129
+Fra:1 Mem:1213.44M (Peak 1213.44M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-436-440
+Fra:1 Mem:1213.55M (Peak 1213.55M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-437-778
+Fra:1 Mem:1213.75M (Peak 1213.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-438-271
+Fra:1 Mem:1213.85M (Peak 1213.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-439-269
+Fra:1 Mem:1213.88M (Peak 1213.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-443-217
+Fra:1 Mem:1214.01M (Peak 1214.01M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-444-381
+Fra:1 Mem:1214.19M (Peak 1214.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-445-986
+Fra:1 Mem:1214.24M (Peak 1214.24M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-446-218
+Fra:1 Mem:1214.33M (Peak 1214.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-447-797
+Fra:1 Mem:1214.35M (Peak 1214.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-450-953
+Fra:1 Mem:1214.39M (Peak 1214.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-451-537
+Fra:1 Mem:1214.47M (Peak 1214.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-452-148
+Fra:1 Mem:1214.48M (Peak 1214.48M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-453-450
+Fra:1 Mem:1214.54M (Peak 1214.54M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-455-431
+Fra:1 Mem:1214.64M (Peak 1214.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-456-571
+Fra:1 Mem:1214.76M (Peak 1214.76M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-457-731
+Fra:1 Mem:1214.86M (Peak 1214.86M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-458-120
+Fra:1 Mem:1214.86M (Peak 1214.86M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-459-927
+Fra:1 Mem:1214.87M (Peak 1214.87M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-461-303
+Fra:1 Mem:1215.07M (Peak 1215.07M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-462-790
+Fra:1 Mem:1215.11M (Peak 1215.11M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-463-618
+Fra:1 Mem:1215.20M (Peak 1215.20M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-464-9
+Fra:1 Mem:1215.29M (Peak 1215.29M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-465-785
+Fra:1 Mem:1215.36M (Peak 1215.41M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-466-305
+Fra:1 Mem:1215.60M (Peak 1215.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-467-605
+Fra:1 Mem:1215.86M (Peak 1215.86M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-469-401
+Fra:1 Mem:1215.84M (Peak 1215.86M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-471-995
+Fra:1 Mem:1216.05M (Peak 1216.05M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-472-546
+Fra:1 Mem:1216.17M (Peak 1216.17M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-474-458
+Fra:1 Mem:1216.45M (Peak 1216.45M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-475-510
+Fra:1 Mem:1216.59M (Peak 1216.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-477-263
+Fra:1 Mem:1216.67M (Peak 1216.67M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-478-476
+Fra:1 Mem:1216.74M (Peak 1216.74M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-481-832
+Fra:1 Mem:1217.10M (Peak 1217.10M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-483-515
+Fra:1 Mem:1217.19M (Peak 1217.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-484-544
+Fra:1 Mem:1217.40M (Peak 1217.40M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-485-876
+Fra:1 Mem:1217.48M (Peak 1217.48M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-486-822
+Fra:1 Mem:1217.77M (Peak 1217.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-487-362
+Fra:1 Mem:1217.79M (Peak 1217.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-488-384
+Fra:1 Mem:1217.97M (Peak 1217.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-491-516
+Fra:1 Mem:1217.97M (Peak 1217.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-494-728
+Fra:1 Mem:1218.19M (Peak 1218.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-495-449
+Fra:1 Mem:1218.22M (Peak 1218.22M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-498-88
+Fra:1 Mem:1218.54M (Peak 1218.54M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-500-634
+Fra:1 Mem:1218.57M (Peak 1218.57M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-501-618
+Fra:1 Mem:1218.63M (Peak 1218.63M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-504-555
+Fra:1 Mem:1218.68M (Peak 1218.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-506-487
+Fra:1 Mem:1218.72M (Peak 1218.72M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-508-892
+Fra:1 Mem:1218.94M (Peak 1218.94M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-509-591
+Fra:1 Mem:1218.93M (Peak 1218.94M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-512-27
+Fra:1 Mem:1218.94M (Peak 1218.94M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-513-830
+Fra:1 Mem:1218.97M (Peak 1218.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-514-3
+Fra:1 Mem:1218.99M (Peak 1218.99M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-515-218
+Fra:1 Mem:1219.04M (Peak 1219.04M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-517-744
+Fra:1 Mem:1219.13M (Peak 1219.13M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-518-193
+Fra:1 Mem:1219.19M (Peak 1219.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-521-564
+Fra:1 Mem:1219.20M (Peak 1219.20M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-522-637
+Fra:1 Mem:1219.25M (Peak 1219.25M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-524-250
+Fra:1 Mem:1219.25M (Peak 1219.25M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-525-160
+Fra:1 Mem:1219.79M (Peak 1219.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-527-867
+Fra:1 Mem:1219.92M (Peak 1219.92M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-529-506
+Fra:1 Mem:1219.93M (Peak 1219.93M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-530-433
+Fra:1 Mem:1220.01M (Peak 1220.01M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-531-632
+Fra:1 Mem:1220.04M (Peak 1220.04M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-533-617
+Fra:1 Mem:1220.13M (Peak 1220.13M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-534-776
+Fra:1 Mem:1220.30M (Peak 1220.30M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-535-328
+Fra:1 Mem:1220.29M (Peak 1220.30M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-536-203
+Fra:1 Mem:1220.39M (Peak 1220.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-538-672
+Fra:1 Mem:1220.47M (Peak 1220.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-541-524
+Fra:1 Mem:1220.60M (Peak 1220.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-542-723
+Fra:1 Mem:1220.76M (Peak 1220.76M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-544-237
+Fra:1 Mem:1220.83M (Peak 1220.83M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-545-372
+Fra:1 Mem:1220.90M (Peak 1220.90M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-546-449
+Fra:1 Mem:1221.18M (Peak 1221.18M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-547-876
+Fra:1 Mem:1221.35M (Peak 1221.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-548-805
+Fra:1 Mem:1221.32M (Peak 1221.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-551-430
+Fra:1 Mem:1221.56M (Peak 1221.56M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-552-167
+Fra:1 Mem:1221.58M (Peak 1221.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-553-470
+Fra:1 Mem:1221.65M (Peak 1221.65M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-554-618
+Fra:1 Mem:1221.78M (Peak 1221.82M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-555-702
+Fra:1 Mem:1221.91M (Peak 1221.91M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-557-187
+Fra:1 Mem:1222.01M (Peak 1222.01M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-558-139
+Fra:1 Mem:1222.02M (Peak 1222.02M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-560-366
+Fra:1 Mem:1222.10M (Peak 1222.10M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-561-489
+Fra:1 Mem:1222.26M (Peak 1222.26M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-562-124
+Fra:1 Mem:1222.37M (Peak 1222.37M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-564-177
+Fra:1 Mem:1222.42M (Peak 1222.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-565-554
+Fra:1 Mem:1222.68M (Peak 1222.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-567-634
+Fra:1 Mem:1222.77M (Peak 1222.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-568-188
+Fra:1 Mem:1222.90M (Peak 1222.90M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-570-694
+Fra:1 Mem:1222.97M (Peak 1222.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-571-268
+Fra:1 Mem:1222.99M (Peak 1222.99M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-572-560
+Fra:1 Mem:1223.39M (Peak 1223.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-573-586
+Fra:1 Mem:1223.49M (Peak 1223.49M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-576-824
+Fra:1 Mem:1223.50M (Peak 1223.50M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-578-916
+Fra:1 Mem:1223.54M (Peak 1223.54M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-579-934
+Fra:1 Mem:1223.56M (Peak 1223.56M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-582-470
+Fra:1 Mem:1223.58M (Peak 1223.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-584-532
+Fra:1 Mem:1223.62M (Peak 1223.62M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-585-352
+Fra:1 Mem:1223.92M (Peak 1223.92M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-586-686
+Fra:1 Mem:1223.99M (Peak 1223.99M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-588-343
+Fra:1 Mem:1224.02M (Peak 1224.02M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-591-797
+Fra:1 Mem:1224.14M (Peak 1224.14M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-592-246
+Fra:1 Mem:1224.23M (Peak 1224.23M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-593-860
+Fra:1 Mem:1224.27M (Peak 1224.27M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-594-36
+Fra:1 Mem:1224.33M (Peak 1224.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-595-977
+Fra:1 Mem:1224.36M (Peak 1224.36M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-596-166
+Fra:1 Mem:1224.41M (Peak 1224.41M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-597-554
+Fra:1 Mem:1224.42M (Peak 1224.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-599-695
+Fra:1 Mem:1225.10M (Peak 1225.10M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-600-550
+Fra:1 Mem:1225.13M (Peak 1225.13M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-601-890
+Fra:1 Mem:1225.13M (Peak 1225.13M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-603-539
+Fra:1 Mem:1225.43M (Peak 1225.43M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-604-128
+Fra:1 Mem:1225.48M (Peak 1225.48M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-605-267
+Fra:1 Mem:1225.50M (Peak 1225.50M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-607-984
+Fra:1 Mem:1225.51M (Peak 1225.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-608-41
+Fra:1 Mem:1225.55M (Peak 1225.55M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-610-827
+Fra:1 Mem:1225.63M (Peak 1225.63M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-611-59
+Fra:1 Mem:1225.70M (Peak 1225.70M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-614-840
+Fra:1 Mem:1225.74M (Peak 1225.74M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-615-27
+Fra:1 Mem:1225.78M (Peak 1225.78M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-616-51
+Fra:1 Mem:1225.86M (Peak 1225.86M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-618-662
+Fra:1 Mem:1225.87M (Peak 1225.87M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-620-116
+Fra:1 Mem:1225.89M (Peak 1225.89M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-622-990
+Fra:1 Mem:1225.92M (Peak 1225.92M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-624-761
+Fra:1 Mem:1225.98M (Peak 1225.98M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-625-935
+Fra:1 Mem:1226.11M (Peak 1226.11M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-626-137
+Fra:1 Mem:1226.26M (Peak 1226.26M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-627-423
+Fra:1 Mem:1226.28M (Peak 1226.28M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-629-709
+Fra:1 Mem:1226.44M (Peak 1226.44M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-630-62
+Fra:1 Mem:1226.53M (Peak 1226.53M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-631-159
+Fra:1 Mem:1226.60M (Peak 1226.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-632-677
+Fra:1 Mem:1226.61M (Peak 1226.61M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-633-303
+Fra:1 Mem:1226.69M (Peak 1226.69M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-635-394
+Fra:1 Mem:1226.79M (Peak 1226.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-636-436
+Fra:1 Mem:1226.92M (Peak 1226.92M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-637-29
+Fra:1 Mem:1227.02M (Peak 1227.02M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-638-92
+Fra:1 Mem:1227.03M (Peak 1227.03M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-639-884
+Fra:1 Mem:1227.12M (Peak 1227.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-642-697
+Fra:1 Mem:1227.51M (Peak 1227.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-643-136
+Fra:1 Mem:1227.99M (Peak 1227.99M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-644-555
+Fra:1 Mem:1228.12M (Peak 1228.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-645-600
+Fra:1 Mem:1228.88M (Peak 1228.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-646-995
+Fra:1 Mem:1228.96M (Peak 1228.96M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-647-66
+Fra:1 Mem:1229.24M (Peak 1229.24M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-648-280
+Fra:1 Mem:1230.82M (Peak 1230.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-649-809
+Fra:1 Mem:1230.78M (Peak 1230.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-652-518
+Fra:1 Mem:1231.33M (Peak 1231.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-653-661
+Fra:1 Mem:1231.68M (Peak 1231.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-654-705
+Fra:1 Mem:1232.92M (Peak 1232.92M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-655-265
+Fra:1 Mem:1235.77M (Peak 1235.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-656-180
+Fra:1 Mem:1238.43M (Peak 1238.43M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-657-501
+Fra:1 Mem:1239.19M (Peak 1239.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-659-969
+Fra:1 Mem:1239.88M (Peak 1239.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-661-83
+Fra:1 Mem:1249.53M (Peak 1249.61M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-662-685
+Fra:1 Mem:1252.39M (Peak 1252.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-663-391
+Fra:1 Mem:1252.39M (Peak 1252.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-664-296
+Fra:1 Mem:1253.47M (Peak 1253.47M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-666-987
+Fra:1 Mem:1255.83M (Peak 1255.83M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-668-473
+Fra:1 Mem:1256.53M (Peak 1256.99M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-669-301
+Fra:1 Mem:1257.74M (Peak 1257.74M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-670-814
+Fra:1 Mem:1259.33M (Peak 1259.33M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-671-974
+Fra:1 Mem:1261.50M (Peak 1261.50M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-672-94
+Fra:1 Mem:1261.56M (Peak 1261.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-674-138
+Fra:1 Mem:1267.51M (Peak 1267.51M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-675-267
+Fra:1 Mem:1278.79M (Peak 1279.95M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-676-389
+Fra:1 Mem:1281.87M (Peak 1281.87M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-677-128
+Fra:1 Mem:1287.35M (Peak 1287.35M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-678-651
+Fra:1 Mem:1289.72M (Peak 1289.72M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-679-324
+Fra:1 Mem:1289.72M (Peak 1290.10M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-680-121
+帧:1 内存:1291.31M (峰值 1291.31M) | 时间:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ReviewSun
+帧:1 内存:1293.10M (峰值 1293.10M) | 时间:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Obj3d66-15202935-681-939
+帧:1 内存:1302.99M (峰值 1308.75M) | 时间:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+帧:1 内存:1300.17M (峰值 1308.75M) | 时间:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-46.jpg
+Fra:1 Mem:1300.17M (Peak 1308.75M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-15.jpg
+Fra:1 Mem:1615.87M (Peak 1615.87M) | Time:00:00.13 | Mem:2.19M, Peak:2.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-22.jpg
+Fra:1 Mem:1615.87M (Peak 1615.87M) | Time:00:00.13 | Mem:2.91M, Peak:2.91M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-25.jpg
+Fra:1 Mem:1695.87M (Peak 1695.87M) | Time:00:00.13 | Mem:5.10M, Peak:5.10M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-24.jpg
+Fra:1 Mem:1695.87M (Peak 1695.87M) | Time:00:00.13 | Mem:7.28M, Peak:7.28M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-27.jpg
+Fra:1 Mem:1711.87M (Peak 1711.87M) | Time:00:00.14 | Mem:11.66M, Peak:11.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-29.jpg
+Fra:1 Mem:1796.54M (Peak 1796.54M) | Time:00:00.14 | Mem:27.66M, Peak:27.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-30.jpg
+Fra:1 Mem:1857.57M (Peak 1857.57M) | Time:00:00.15 | Mem:43.66M, Peak:43.66M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-28.jpg
+Fra:1 Mem:1891.90M (Peak 1891.90M) | Time:00:00.15 | Mem:53.36M, Peak:53.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-32.jpg
+Fra:1 Mem:1926.24M (Peak 1926.24M) | Time:00:00.15 | Mem:69.36M, Peak:69.36M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-33.jpg
+Fra:1 Mem:1926.72M (Peak 1926.72M) | Time:00:00.15 | Mem:69.84M, Peak:69.84M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-35.jpg
+Fra:1 Mem:1927.20M (Peak 1927.20M) | Time:00:00.15 | Mem:85.84M, Peak:85.84M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-36.jpg
+Fra:1 Mem:1927.40M (Peak 1927.40M) | Time:00:00.15 | Mem:86.03M, Peak:86.03M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-37.jpg
+Fra:1 Mem:1927.59M (Peak 1927.59M) | Time:00:00.15 | Mem:102.52M, Peak:102.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-38.jpg
+Fra:1 Mem:1927.59M (Peak 1927.59M) | Time:00:00.15 | Mem:102.52M, Peak:102.52M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-39.jpg
+Fra:1 Mem:1928.33M (Peak 1928.33M) | Time:00:00.16 | Mem:102.89M, Peak:102.89M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-40.jpg
+Fra:1 Mem:1928.70M (Peak 1928.70M) | Time:00:00.16 | Mem:118.89M, Peak:118.89M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-41.jpg
+Fra:1 Mem:1929.07M (Peak 1929.07M) | Time:00:00.16 | Mem:120.00M, Peak:120.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-48.jpg
+Fra:1 Mem:1930.07M (Peak 1930.07M) | Time:00:00.16 | Mem:136.00M, Peak:136.00M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-51.jpg
+Fra:1 Mem:1931.07M (Peak 1931.07M) | Time:00:00.16 | Mem:136.19M, Peak:136.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-58.jpg
+Fra:1 Mem:1931.07M (Peak 1931.07M) | Time:00:00.16 | Mem:138.19M, Peak:138.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-54.jpg
+Fra:1 Mem:1935.59M (Peak 1935.59M) | Time:00:00.16 | Mem:138.19M, Peak:138.19M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-50.png
+Fra:1 Mem:1951.86M (Peak 1951.86M) | Time:00:00.16 | Mem:138.30M, Peak:138.30M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-55.jpg
+Fra:1 Mem:1960.45M (Peak 1960.45M) | Time:00:00.16 | Mem:138.46M, Peak:138.46M | Scene, ViewLayer | Updating Images | Loading 3d66Model-15202935-files-49.jpg
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.30 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.30 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.30 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:1947.16M (Peak 1969.03M) | Time:00:00.30 | Mem:668.85M, Peak:668.85M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.30 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.30 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.30 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.30 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.30 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:1947.27M (Peak 1969.03M) | Time:00:00.30 | Mem:668.87M, Peak:668.87M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:1947.43M (Peak 1969.03M) | Time:00:00.30 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:1947.43M (Peak 1969.03M) | Time:00:00.30 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:1947.43M (Peak 1969.03M) | Time:00:00.30 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:1976.55M (Peak 1976.55M) | Time:00:00.68 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:1976.55M (Peak 1976.55M) | Time:00:00.69 | Mem:669.03M, Peak:669.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:2075.24M (Peak 2075.24M) | Time:00:00.73 | Mem:669.09M, Peak:669.09M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:2075.14M (Peak 2075.24M) | Time:00:00.73 | Mem:767.62M, Peak:767.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:00.73 | Mem:767.62M, Peak:767.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:00.73 | Mem:850.72M, Peak:850.72M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:00.87 | Mem:943.62M, Peak:1026.72M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:2075.15M (Peak 2075.24M) | Time:00:00.87 | Mem:943.62M, Peak:1026.72M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:943.62M, Peak:1026.72M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:1018.94M, Peak:1026.72M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:1018.94M, Peak:1026.72M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:2150.47M (Peak 2150.47M) | Time:00:00.94 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:00.94 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:00.94 | Mem:1019.03M, Peak:1026.72M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:00.94 | Mem:1018.95M, Peak:1026.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:00.94 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:2150.48M (Peak 2150.48M) | Time:00:00.94 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:2150.50M (Peak 2150.50M) | Time:00:00.94 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:2150.50M (Peak 2150.50M) | Time:00:00.94 | Mem:1019.04M, Peak:1026.72M | Scene, ViewLayer | Sample 0/8
+Fra:1 Mem:2228.96M (Peak 2228.96M) | Time:00:00.99 | Remaining:00:00.38 | Mem:1097.33M, Peak:1097.33M | Scene, ViewLayer | Sample 1/8
+Fra:1 Mem:2261.92M (Peak 2311.37M) | Time:00:04.13 | Mem:1097.33M, Peak:1097.33M | Scene, ViewLayer | Sample 8/8
+Fra:1 Mem:2261.92M (Peak 2311.37M) | Time:00:04.13 | Mem:1097.33M, Peak:1097.33M | Scene, ViewLayer | Finished
+Saved: 'C:\GameMake\docs\expansion_20261015\river\top.png'
+Time: 00:04.35 (Saving: 00:00.15)
+
+
+Blender quit

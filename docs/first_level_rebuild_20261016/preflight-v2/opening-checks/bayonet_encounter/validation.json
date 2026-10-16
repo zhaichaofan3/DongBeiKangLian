@@ -1,0 +1,19 @@
+{
+	"checks": 31,
+	"failures": [
+		"Charge flows into close combat",
+		"Both grappling hands replace the ordinary gun view",
+		"Holding and keyboard repeat count as only one press",
+		"A released then repressed space adds a new effort",
+		"Repeated physical taps earn the counterattack",
+		"Success returns player control",
+		"Counterattack records exactly one guard defeat",
+		"Camera gun and audio restored after success",
+		"Successful door and enemy state saved together",
+		"Success survives reload without duplicate encounter or kill",
+		"No taps loses the grapple and exits cleanly"
+	],
+	"human_playtest": false,
+	"passed": false,
+	"rendered": false
+}

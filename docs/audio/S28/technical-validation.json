@@ -1,0 +1,24 @@
+{
+  "passed": 20,
+  "total": 20,
+  "method": "重新解码每份样本；幅度、端点与来源校验；无主观试听",
+  "loop_samples": [
+    "wind-forest",
+    "wind-mountains"
+  ],
+  "montage": {
+    "decode_ok": true,
+    "sample_rate": 48000,
+    "channels": 1,
+    "duration_seconds": 41.614917,
+    "peak_dbfs": -9.0,
+    "rms_dbfs": -29.18,
+    "clipped_samples": 0,
+    "boundary_difference_pcm": 0,
+    "bytes": 3995076,
+    "sha256": "b7009546ea759c26d5fe6f70238d2dcae40e9fecd10f24ce7626322a68e4ffd4"
+  },
+  "all_no_clipping": true,
+  "all_sources_exist": true,
+  "subjective_listening": "pending"
+}

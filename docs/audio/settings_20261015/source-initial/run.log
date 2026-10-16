@@ -1,0 +1,65 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Settings exposes all four requested volume controls
+PASS: Existing music default is preserved and new controls default to full volume
+PASS: Music zero leaves speech and effects audible
+PASS: Effects zero independently mutes weapons, footsteps and environment
+PASS: Dialogue zero independently mutes speech
+PASS: Cinematic mute has no effect on ordinary menu or gameplay routes
+PASS: Slider percentage updates with the preference
+PASS: Category changes preserve master volume
+PASS: All four slider preferences survive reload from disk
+PASS: Settings title and fixed return button stay inside the viewport
+PASS: All four volume controls are visible without scrolling
+PASS: Long settings page can scroll to the remaining controls
+ERROR: Object is locked and can't be freed.
+   at: callp (core/object/object.cpp:787)
+   GDScript backtrace (most recent call first):
+       [0] show_menu (res://scripts/hud.gd:265)
+       [1] <anonymous lambda> (res://scripts/hud.gd:402)
+       [2] _run (res://tests/audio_settings.gd:95)
+       [3] frames (res://tests/audio_settings.gd:18)
+SCRIPT ERROR: Attempted to free a locked object (calling or emitting).
+   at: show_menu (res://scripts/hud.gd:265)
+   GDScript backtrace (most recent call first):
+       [0] show_menu (res://scripts/hud.gd:265)
+       [1] <anonymous lambda> (res://scripts/hud.gd:402)
+       [2] _run (res://tests/audio_settings.gd:95)
+       [3] frames (res://tests/audio_settings.gd:18)
+PASS: Return closes the settings page without starting a task
+PASS: Dialogue ducking preserves the user's effect gain across updates
+PASS: Music ducking combines with music preference while speech retains its own gain
+PASS: All three enemy discovery recordings use dialogue volume
+PASS: Actual gun, bolt, footstep and river players use effect categories
+PASS: Complete history recording uses cinematic volume exactly once
+PASS: History mixed narration survives separate dialogue and music mute with no extra score
+PASS: Cinematic zero mutes the complete history scene including extra effects
+PASS: Changing sliders during pause does not resume, seek or restart the recording
+PASS: Cinematic slider applies immediately while paused
+ERROR: Object is locked and can't be freed.
+   at: callp (core/object/object.cpp:787)
+   GDScript backtrace (most recent call first):
+       [0] show_menu (res://scripts/hud.gd:265)
+       [1] <anonymous lambda> (res://scripts/hud.gd:402)
+       [2] _run (res://tests/audio_settings.gd:132)
+       [3] frames (res://tests/audio_settings.gd:18)
+SCRIPT ERROR: Attempted to free a locked object (calling or emitting).
+   at: show_menu (res://scripts/hud.gd:265)
+   GDScript backtrace (most recent call first):
+       [0] show_menu (res://scripts/hud.gd:265)
+       [1] <anonymous lambda> (res://scripts/hud.gd:402)
+       [2] _run (res://tests/audio_settings.gd:132)
+       [3] frames (res://tests/audio_settings.gd:18)
+PASS: Resume retains cinematic time after settings changes
+PASS: Task dialogue combines dialogue and cinematic volume
+PASS: Task music and footsteps combine their category with cinematic volume
+PASS: Dialogue mute in task cinematic leaves its music audible
+PASS: Cinematic zero mutes all layers of the task introduction
+PASS: Skipping the opening immediately restores gameplay audio despite cinematic mute
+PASS: Non-cinematic voice playback uses dialogue volume after the handoff
+PASS: Leaving a paused opening restores menu routing immediately
+PASS: Starting another game keeps user category settings and normal routing
+PASS: Old configuration without new keys keeps its music level and safe full-volume defaults
+PASS: Invalid and nonfinite config values fall back; out-of-range numeric values are clamped
+PASS: Existing master mute still silences every category
+AUDIO SETTINGS: PASS | checks=34

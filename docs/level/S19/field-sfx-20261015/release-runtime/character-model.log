@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scout uses the imported skin, not the fallback model
+PASS: scout has every animated body joint
+PASS: scout has valid skin weights and bone bindings
+PASS: scout shows its correct clothing, headgear and injury equipment
+PASS: scout has human scale without exploded vertices
+PASS: scout standing footwear stays near the floor
+PASS: logger uses the imported skin, not the fallback model
+PASS: logger has every animated body joint
+PASS: logger has valid skin weights and bone bindings
+PASS: logger shows its correct clothing, headgear and injury equipment
+PASS: logger has human scale without exploded vertices
+PASS: logger standing footwear stays near the floor
+PASS: wounded uses the imported skin, not the fallback model
+PASS: wounded has every animated body joint
+PASS: wounded has valid skin weights and bone bindings
+PASS: wounded shows its correct clothing, headgear and injury equipment
+PASS: wounded has human scale without exploded vertices
+PASS: wounded standing footwear stays near the floor
+PASS: guard uses the imported skin, not the fallback model
+PASS: guard has every animated body joint
+PASS: guard has valid skin weights and bone bindings
+PASS: guard shows its correct clothing, headgear and injury equipment
+PASS: guard has human scale without exploded vertices
+PASS: guard standing footwear stays near the floor
+PASS: Walking drives imported legs, arms and torso
+PASS: Walking skin stays finite and attached to its rig
+PASS: Walking stance remains at ground level
+PASS: Aiming drives imported shoulder and elbow bones
+PASS: Guard retains a visible rifle during aiming
+PASS: Skinned palms stay within 5.5 cm of both rifle grips while lowered and aiming
+RIFLE GRIP ERROR (m): lowered=0.0000315543839, aiming=0.00000025023306
+PASS: Firing recoil reaches the imported body rig
+PASS: Treating Lu Shan changes his imported injury posture
+PASS: Treatment transition keeps clothing and bandages attached
+PASS: Death lowers the imported head and torso onto the ground
+PASS: Fallen skin remains finite with a horizontal silhouette
+PASS: Fallen character has no substantial underground geometry
+PASS: Death releases prior aiming twists into a consistent relaxed arm pose
+CHARACTER MODEL RESULT: 37/37 passed

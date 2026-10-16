@@ -1,0 +1,38 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Both player weapons use the user gunshot
+PASS: Enemy gunfire uses the user gunshot
+PASS: River uses the original MP3 bytes and loops continuously
+PASS: River loop leaves the shared source unchanged
+PASS: Real walking input plays normal footsteps
+SPRINT STATE: (0.0, -6.0) (10.0, 0.000839, 79.42229) true res://assets/audio/user_sfx_20261015/step_run.mp3 true
+PASS: Real sprint input switches to running footsteps
+PASS: Footsteps stop when the player stops
+PASS: Reload plays the user bolt recording
+PASS: Firing plays the user gunshot
+PASS: Rifle bolt sound follows the shot on its own audio layer
+PASS: Pause freezes the rifle bolt recording
+PASS: Resume releases the bolt recording
+PASS: Weapon switching cancels unfinished rifle bolt audio
+PASS: Pistol fire does not schedule manual rifle bolt audio
+PASS: All guards use one of the three supplied alert voices
+ALERT STATE: combat true (34.0, 0.074444, 66.0) (34.0, 0.000495, 74.0)
+PASS: A searching guard calls out when it sees the player
+PASS: Continuous sight does not restart the alert voice
+PASS: Defeated guard stops speaking
+PASS: door_open plays at the door position
+DOOR PAUSE: true 11 paused
+PASS: door_open pauses with gameplay
+PASS: door_open can continue into the door ambush
+PASS: door_close plays at the door position
+DOOR PAUSE: true 12 paused
+PASS: door_close pauses with gameplay
+PASS: door_close can continue into the door ambush
+PASS: Artillery impact plays the user explosion
+PASS: Zero damage does not flash the screen
+PASS: Actual damage flashes all four screen edges
+PASS: Damage tint fades away after the brief flash
+PASS: Restart clears old door sounds and pending bolt audio
+PASS: Requested mouth overlay has been removed
+PASS: Second-door charge still reaches the space-key struggle
+USER SFX RESULT: PASS | 31/31

@@ -1,0 +1,71 @@
+{
+  "boat_samples": [
+    {
+      "boat": [
+        586.0,
+        -1.3178653717041,
+        600.0
+      ],
+      "shot": "boarding",
+      "time": 2.7
+    },
+    {
+      "boat": [
+        586.0,
+        -1.29671323299408,
+        600.0
+      ],
+      "shot": "boarding",
+      "time": 7.5
+    },
+    {
+      "boat": [
+        591.000244140625,
+        -1.28200376033783,
+        583.620910644531
+      ],
+      "shot": "river-wide",
+      "time": 12.0
+    },
+    {
+      "boat": [
+        606.899597167969,
+        -1.28225922584534,
+        539.348205566406
+      ],
+      "shot": "river-onboard",
+      "time": 23.0
+    },
+    {
+      "boat": [
+        1215.31896972656,
+        -1.29999995231628,
+        444.857788085938
+      ],
+      "shot": "landing",
+      "time": 30.0
+    },
+    {
+      "boat": [
+        1214.0,
+        -1.29999995231628,
+        442.0
+      ],
+      "shot": "landing",
+      "time": 35.7
+    }
+  ],
+  "captures": [],
+  "checks": 40,
+  "failures": [
+    "Real player movement follows the dirt road through bend 1",
+    "The village introduction plays exactly once at the entrance",
+    "After the introduction only the first village encounter activates",
+    "The post-introduction checkpoint is valid",
+    "Loading after the introduction does not repeat the dialogue",
+    "Legacy village saves retain the original encounter and skip the new arrival"
+  ],
+  "forest_trees": 2037,
+  "passed": false,
+  "renderer": "headless"
+}

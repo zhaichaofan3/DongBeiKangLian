@@ -1,0 +1,35 @@
+{
+  "id": "paper-pages-sounds",
+  "title": "Paper pages sounds",
+  "source_url": "https://opengameart.org/content/paper-pages-sounds",
+  "author": "Vinrax",
+  "license": "CC-BY-3.0",
+  "notes": "WAV contains separate takes divided by click; slice and remove separators.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "paper-pages-sounds/originals/paper_pages.wav",
+      "download_url": "https://opengameart.org/sites/default/files/paper_pages.wav",
+      "bytes": 794832,
+      "sha256": "4f862a55f2c51b1c075990c6aa6e4a2e628428e7f1d211319817e0950876c52b",
+      "role": "original_download"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 1,
+    "decode_passed": 1,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 4.51,
+    "duration_range_seconds": [
+      4.506,
+      4.506
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

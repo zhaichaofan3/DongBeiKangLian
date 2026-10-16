@@ -1,0 +1,7 @@
+Title: Cloth swing sounds
+Author: Vinrax
+License: CC-BY-3.0
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://opengameart.org/content/cloth-swing-sounds
+Evidence: source.html and source.txt
+Notes: Continuous takes in WAV; slice into individual motion cues before use.

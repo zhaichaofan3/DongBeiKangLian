@@ -1,0 +1,132 @@
+{
+  "id": "ambient-mountain-river-wind-and-forest-and-waterfall",
+  "title": "Ambient mountain, river, wind, forest and waterfall",
+  "source_url": "https://opengameart.org/content/ambient-mountain-river-wind-and-forest-and-waterfall",
+  "author": "Blender Foundation",
+  "license": "CC-BY-3.0",
+  "notes": "From Yo Frankie; use forest and water loops, check transitions before game import.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "ambient-mountain-river-wind-and-forest-and-waterfall/originals/ambient_mountains_forest_river_waterfall_wind.7z",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 3982631,
+      "sha256": "4c5d5b57eeb14a8e053f18e17b3392f2c53c226acbf2a79cce6d843b3ebed401",
+      "role": "original_download"
+    },
+    {
+      "path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_forest.flac",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 450792,
+      "sha256": "8af3318e24feb41025dc7705e28fe460276291b5790249df4c7d7e872965ca5c",
+      "role": "extracted"
+    },
+    {
+      "path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_mountains.flac",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 738970,
+      "sha256": "03d1c556599bf772737aadb4574287b8245ad1d2ebeb50c2c72d1cc3f8e93c43",
+      "role": "extracted"
+    },
+    {
+      "path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_river.flac",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 1254937,
+      "sha256": "1816383c2b65a5c2babc2ff9a7a19ed26a2c9ca8664018954f3d42d481c79b1f",
+      "role": "extracted"
+    },
+    {
+      "path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_stream.flac",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 325121,
+      "sha256": "e613a45a04b80c6336bf5354dacafb3c707a9d163ce939eb742fd8372d25b1ca",
+      "role": "extracted"
+    },
+    {
+      "path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_waterfall.flac",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 1079511,
+      "sha256": "d49f69374270b43ff45eb49b057bc65f70c8b8964ed7794aa67bf7b8caffcd40",
+      "role": "extracted"
+    },
+    {
+      "path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_wind_1.flac",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 87217,
+      "sha256": "83ebb7da229da833594d655a63515ccb565a747aeb302e710df1184430aad81a",
+      "role": "extracted"
+    },
+    {
+      "path": "ready_to_import/ambience/amb_forest.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 95867,
+      "sha256": "0eb34d65471cd494a3a785f65203e77cd251581fd09ee0baec7a84d31dcb65c2",
+      "role": "derived_ready_to_import",
+      "source_path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_forest.flac",
+      "modification": "Original loop suitability still requires listening. Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/ambience/amb_mountains.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 122292,
+      "sha256": "f902987a6dcd1b9e9e27abe5ad364561cf12b2630da7a3cfd020bf6f3b6c2506",
+      "role": "derived_ready_to_import",
+      "source_path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_mountains.flac",
+      "modification": "Original loop suitability still requires listening. Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/ambience/amb_river.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 268932,
+      "sha256": "e5854c94af7c31cadf1aee310591e1dae9b7f8ee68f246a740bd3af2e5c2d6e4",
+      "role": "derived_ready_to_import",
+      "source_path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_river.flac",
+      "modification": "Original loop suitability still requires listening. Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/ambience/amb_stream.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 67989,
+      "sha256": "c69b0e2c28cc3bfd289bd66979eea6a68939c3dbefa0a6a4e16eb13302f7e75d",
+      "role": "derived_ready_to_import",
+      "source_path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_stream.flac",
+      "modification": "Original loop suitability still requires listening. Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/ambience/amb_waterfall.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 153164,
+      "sha256": "edbf9253184e2206c88c8ed5ed0b12883edc415a2e0f0a791a69873903417148",
+      "role": "derived_ready_to_import",
+      "source_path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_waterfall.flac",
+      "modification": "Original loop suitability still requires listening. Converted to 48kHz; original untouched. Auditory/mix review pending."
+    },
+    {
+      "path": "ready_to_import/ambience/amb_wind_1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/ambient_mountains_forest_river_waterfall_wind.7z",
+      "bytes": 26677,
+      "sha256": "a445ad9953e5d29a726774f38775f8bb28101ed085b6e4b23d94116f9a769df5",
+      "role": "derived_ready_to_import",
+      "source_path": "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_wind_1.flac",
+      "modification": "Original loop suitability still requires listening. Converted to 48kHz; original untouched. Auditory/mix review pending."
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 6,
+    "decode_passed": 6,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      1,
+      2
+    ],
+    "total_duration_seconds": 50.49,
+    "duration_range_seconds": [
+      2.734,
+      21.423
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

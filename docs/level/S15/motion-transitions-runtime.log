@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scout has bounded idle breathing
+PASS: scout blends from standing into movement
+PASS: scout eases to a stable stop
+PASS: scout eases into a turn response
+PASS: scout avoids an instantaneous turn snap
+PASS: scout reverses turn response smoothly
+PASS: logger has bounded idle breathing
+PASS: logger blends from standing into movement
+PASS: logger eases to a stable stop
+PASS: logger eases into a turn response
+PASS: logger avoids an instantaneous turn snap
+PASS: logger reverses turn response smoothly
+PASS: wounded has bounded idle breathing
+PASS: wounded blends from standing into movement
+PASS: wounded eases to a stable stop
+PASS: wounded eases into a turn response
+PASS: wounded avoids an instantaneous turn snap
+PASS: wounded reverses turn response smoothly
+PASS: guard has bounded idle breathing
+PASS: guard blends from standing into movement
+PASS: guard eases to a stable stop
+PASS: guard eases into a turn response
+PASS: guard avoids an instantaneous turn snap
+PASS: guard reverses turn response smoothly
+S15 MOTION TRANSITIONS: PASS | checks=24

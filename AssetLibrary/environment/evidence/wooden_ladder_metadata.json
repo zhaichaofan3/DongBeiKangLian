@@ -1,0 +1,55 @@
+{
+  "type": 2,
+  "name": "Wooden Ladder",
+  "categories": [
+    "collection: project_lighthouse",
+    "tools",
+    "industrial"
+  ],
+  "tags": [
+    "scaffolding",
+    "steps",
+    "construction",
+    "workshop",
+    "ladder",
+    "step-ladder",
+    "maintenance",
+    "utility",
+    "wooden"
+  ],
+  "description": "Free 4K wooden step ladder model with an A-frame design, worn planks, top platform, metal braces, and realistic scuffs, grain, and hardware.",
+  "authors": {
+    "Miroslav Turura": "All"
+  },
+  "donated": true,
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 8492,
+  "files_hash": "6be946b83102f13c42165cd9c4c13cc0cce50608",
+  "texel_density": 2740.1267331443696,
+  "dimensions": [
+    959.1718018054962,
+    500.0000149011612,
+    1334.923267364502
+  ],
+  "date_published": 1780963200,
+  "category_id": "35e65347-76a7-53d6-b3b7-117229a4548e",
+  "category": "Tools & Equipment/Workshop Equipment/Ladders",
+  "collections": [
+    "project_lighthouse"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ]
+  },
+  "img_version": "d0f1f4be",
+  "download_count": 1661,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/wooden_ladder.png?width=256&height=256&format=webp&v=d0f1f4be"
+}

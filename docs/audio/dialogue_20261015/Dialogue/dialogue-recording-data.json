@@ -1,0 +1,240 @@
+[
+  {
+    "id": "B1-L01",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "往里站，石头上有霜。",
+    "delivery": "低声、平常，是照应战友，不是呵斥。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B2-L01",
+    "speaker": "沈砚",
+    "scene": "天池及任务开场",
+    "text": "等太平了，还来这儿？",
+    "delivery": "轻声问，带一点试探和向往，句尾不夸张上扬。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "B2-L02",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "来。到时候，把这一路慢慢走。",
+    "delivery": "来字干脆，后半句稍放松；慢慢走含一点淡淡笑意。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B2-L03",
+    "speaker": "沈砚",
+    "scene": "天池及任务开场",
+    "text": "那可说定了。",
+    "delivery": "简短接住约定，不拔高成宣誓。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "B3-L01",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "走吧。去青岚林场找林师傅，接应陆山。最近搜山紧，路上留神。",
+    "delivery": "回到行动语气，三个短意群清楚；不是对着观众介绍关卡。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B3-L02",
+    "speaker": "沈砚",
+    "scene": "天池及任务开场",
+    "text": "知道了。",
+    "delivery": "短而自然，确认已经听清。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "B5-L01",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "我问过林师傅了。陆山昨夜送信受了伤，被扣在电报房。",
+    "delivery": "低声直说，伤与被扣间稍顿，不渲染未经设定的伤势。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B5-L02",
+    "speaker": "沈砚",
+    "scene": "天池及任务开场",
+    "text": "能带他走吗？",
+    "delivery": "先问人的情况，短促但不抢断姜岚。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "B5-L03",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "腿伤了，得慢些。搜山名册也在那儿，上头有密营和乡亲的名字。",
+    "delivery": "前半句实在，后半句把注意转到名字；乡亲略落重，不重复宏大口号。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B5-L04",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "过检查口，沿木料巷往北。取名册，再拉总闸，断掉电话中继。",
+    "delivery": "每个地点和动作各成短意群；再字读清，避免把断电讲成取册前的动作。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B5-L05",
+    "speaker": "沈砚",
+    "scene": "天池及任务开场",
+    "text": "带上陆山，从哪儿撤？",
+    "delivery": "问清撤路，语气已经进入行动。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "B5-L06",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "绕电报房北侧，到渡口。你掩护，他解缆。",
+    "delivery": "地点和分工说清，句末干净；不把12秒计时说进人物台词。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B6-L01",
+    "speaker": "姜岚",
+    "scene": "天池及任务开场",
+    "text": "先去木棚，林师傅能帮你。我守住回山的路。",
+    "delivery": "关照和分工一起交代，不用赶人语气；木棚是帮助，不写成必须领取奖励。",
+    "recording_status": "supplied_and_integrated"
+  },
+  {
+    "id": "B6-L02",
+    "speaker": "沈砚",
+    "scene": "天池及任务开场",
+    "text": "等我。人和名单，一样也不少。",
+    "delivery": "压低声音承诺，简短有把握，不拖成口号。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G01",
+    "speaker": "姜岚",
+    "scene": "林道初次接头",
+    "text": "沈砚，林场的电报房扣下了搜山名册。陆山送信时受了伤，也被关在那里。名单关系着密营和山下接济我们的乡亲。\n先问问前面木棚里的林师傅，再进电报房。我守住回山的路，你把人和名单带回来。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G02",
+    "speaker": "姜岚",
+    "scene": "询问详细路线（更新人数与三十秒目标）",
+    "text": "从林道的木墙缺口进入，解决检查口三名岗哨，再打开栅门。木料巷还有四名守卫，清掉后继续开门向北。电报房里有四名日军，入口在右手边。拿名册、断电并接上陆山后，绕房子北侧去渡口；到船边掩护他解缆，守住三十秒。\n林师傅守在北面的木棚。和他当面说清楚，他会给你补给。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G03",
+    "speaker": "姜岚",
+    "scene": "再次询问姜岚",
+    "text": "穿过木墙缺口，先突破检查口，再沿木料巷往北。清掉守卫才能打开栅门。取名单、拉总闸，接上陆山绕电报房北侧去渡口。别丢下他。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G04",
+    "speaker": "林守义",
+    "scene": "向林师傅询问陆山与补给",
+    "text": "陆山在电报房西北角，腿上有伤。昨晚他还替我捎话，说山上的孩子缺棉衣……今天就没能走出那扇门。\n我这儿有一卷干净布，还有藏下的十发步枪弹。你先带哪一样？剩下的留给接应的人。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G05",
+    "speaker": "林守义",
+    "scene": "领取补给后再交谈",
+    "text": "电报房的门没上锁。桌后的总闸连着电话中继，拉下来能拖住他们。运材场矮箱上还有个医药包；别让陆山一个人留在里面。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G06",
+    "speaker": "陆山",
+    "scene": "电报房初次救援",
+    "text": "名册就在桌上。第三页那个卖豆腐的，上回给我们多塞了两块……他还有两个孩子。别把名字落下。\n我还能走。你慢一点，到拐角等我一下。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G07",
+    "speaker": "陆山",
+    "scene": "陆山未包扎时交谈",
+    "text": "听你的。我的脚步可能慢一些，走到拐角时记得回头看看。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G08",
+    "speaker": "陆山",
+    "scene": "陆山已包扎时交谈",
+    "text": "伤口扎稳了，我能跟上。名单交回去，乡亲们就多一分转移的时间。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "G09",
+    "speaker": "陆山",
+    "scene": "共同撤离前的对话",
+    "text": "听见溪水了……这条路我认得。过了河，还得赶紧通知名单上的人。\n刚才你折回来那一下，我看见了。我原以为，今天只能把信送到这儿。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "F01",
+    "speaker": "陆山",
+    "scene": "切断电源",
+    "text": "灯灭了……他们会回来，别在门口停。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "F02",
+    "speaker": "陆山",
+    "scene": "靠近河岸",
+    "text": "听见水了。把名单揣进衣服里，别让它湿了。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "F03",
+    "speaker": "陆山",
+    "scene": "陆山落在后面",
+    "text": "等一下……这条腿跟不上了。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "F04",
+    "speaker": "陆山",
+    "scene": "护送穿过北侧通道",
+    "text": "从前这条路，我闭着眼也走得过。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "F05",
+    "speaker": "沈砚",
+    "scene": "敌人发现玩家",
+    "text": "有人！先找掩护。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "F06",
+    "speaker": "林守义",
+    "scene": "选择绷带后离开木棚",
+    "text": "这是家里剩下的干布……给他扎紧些。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "F07",
+    "speaker": "沈砚",
+    "scene": "离开接头地点",
+    "text": "先把人带出去。名单上的名字，一个也不能丢。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "D01",
+    "speaker": "陆山",
+    "scene": "渡口解缆",
+    "text": "前面就是船！你看住后面的路，我来解缆。",
+    "recording_status": "silent_pending_recording"
+  },
+  {
+    "id": "D02",
+    "speaker": "陆山",
+    "scene": "渡口解缆",
+    "text": "缆绳解开了！快上船，一起走！",
+    "recording_status": "silent_pending_recording"
+  }
+]

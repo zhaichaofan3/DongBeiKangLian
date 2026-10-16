@@ -1,0 +1,54 @@
+{
+  "step": "S21",
+  "objects": [
+    {
+      "name": "S21_Crater_East",
+      "vertices": 1820,
+      "faces": 3456,
+      "triangles": 3456,
+      "degenerate_faces": 0,
+      "boundary_edges": 182
+    },
+    {
+      "name": "S21_Crater_North",
+      "vertices": 1820,
+      "faces": 3456,
+      "triangles": 3456,
+      "degenerate_faces": 0,
+      "boundary_edges": 182
+    },
+    {
+      "name": "S21_Crater_West",
+      "vertices": 1820,
+      "faces": 3456,
+      "triangles": 3456,
+      "degenerate_faces": 0,
+      "boundary_edges": 182
+    },
+    {
+      "name": "S21_Crater_South",
+      "vertices": 1820,
+      "faces": 3456,
+      "triangles": 3456,
+      "degenerate_faces": 0,
+      "boundary_edges": 182
+    },
+    {
+      "name": "S21_Deep_Blue_Lake",
+      "vertices": 257,
+      "faces": 256,
+      "triangles": 256,
+      "degenerate_faces": 0,
+      "boundary_edges": 256
+    },
+    {
+      "name": "S21_Talk_Platform_Base",
+      "vertices": 162,
+      "faces": 320,
+      "triangles": 320,
+      "degenerate_faces": 0,
+      "boundary_edges": 0
+    }
+  ],
+  "topology": "all mesh faces have positive area; sector seams remain explicit for S22 collision authoring"
+}

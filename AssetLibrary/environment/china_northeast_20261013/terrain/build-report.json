@@ -1,0 +1,18 @@
+[
+  {
+    "file": "tianchi_display_lod.glb",
+    "terrain_triangles": 131072,
+    "lake_triangles": 2030,
+    "grid": 257,
+    "bytes": 5036956,
+    "sha256": "6cb48b44e743abf97744865079ea7032aadf4a3d70c41c87b621a5ceec8741c7"
+  },
+  {
+    "file": "tianchi_display.glb",
+    "terrain_triangles": 524288,
+    "lake_triangles": 2030,
+    "grid": 513,
+    "bytes": 16063396,
+    "sha256": "0da496ea961fc769b0d8b7ee9aa77a39320573b3c2c5381654916f344c63d13d"
+  }
+]

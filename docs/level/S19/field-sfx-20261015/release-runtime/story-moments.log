@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Pre-0.4 story saves remain accepted
+PASS Legacy restore initializes optional field dialogue state
+PASS Walking dialogue leaves player in live gameplay
+PASS Pause does not consume an unheard subtitle
+PASS Saved field dialogue is not repeated on restore
+PASS Cutting power stops room radio and plays switch once
+PASS Loading powered-off checkpoint does not replay the switch
+PASS Unknown narrative flags are rejected safely
+PASS Invalid narrative flag type is rejected safely
+PASS River is a spatial looping stream
+PASS New mission restores radio and fresh dialogue state
+STORY MOMENTS RESULT: 11/11 passed

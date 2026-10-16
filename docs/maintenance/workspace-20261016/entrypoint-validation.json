@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "documents": 9,
+  "local_links": 125,
+  "release_manifest_files": 955,
+  "release_check_method": "Compare manifest with per-file SHA-256 independently rechecked by verify.",
+  "game_regression_rerun": false,
+  "failures": []
+}

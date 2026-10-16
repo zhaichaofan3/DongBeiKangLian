@@ -1,0 +1,21 @@
+{
+	"captures": [
+		"office-exterior",
+		"office-interior",
+		"dock",
+		"village-arrival",
+		"village-wide"
+	],
+	"checks": 32,
+	"failures": [
+		"Legacy ferry victory saves migrate to a completed departure",
+		"Closed first courtyard gate blocks route to the next encounter",
+		"Companion fires at a visible village enemy",
+		"Village checkpoint validates all actor and encounter states",
+		"Gate checkpoint remains loadable",
+		"Gate checkpoint remains loadable",
+		"Final village victory is saved"
+	],
+	"passed": false,
+	"renderer": "Windows"
+}

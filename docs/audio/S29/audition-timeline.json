@@ -1,0 +1,32 @@
+[
+  {
+    "id": "solemn-war",
+    "title": "To Be Tacribian",
+    "start_seconds": 0,
+    "end_seconds": 16.0
+  },
+  {
+    "id": "stealth",
+    "title": "Stealth in the Woods",
+    "start_seconds": 17.0,
+    "end_seconds": 33.0
+  },
+  {
+    "id": "battle",
+    "title": "Battle Theme A",
+    "start_seconds": 34.0,
+    "end_seconds": 50.0
+  },
+  {
+    "id": "peaceful",
+    "title": "Peaceful Intro",
+    "start_seconds": 51.0,
+    "end_seconds": 67.0
+  },
+  {
+    "id": "solemn-opening",
+    "title": "Solemn (Opening)",
+    "start_seconds": 68.0,
+    "end_seconds": 84.0
+  }
+]

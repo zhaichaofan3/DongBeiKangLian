@@ -1,0 +1,289 @@
+[
+  {
+    "id": "B1-L01",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "往里站，石头上有霜。",
+    "delivery": "低声、平常，是照应战友，不是呵斥。",
+    "speaker_action": "先看沈砚脚下，再抬眼；指向岩台内侧后收手，不触碰玩家镜头。",
+    "listener_action": "沈砚将重心收回，左手短暂理好袖口后回到持枪位置；视线转向姜岚。",
+    "voice_ms": 2700,
+    "after_ms": 300,
+    "information": [
+      "care_between_comrades"
+    ],
+    "segment": "B1",
+    "start_ms": 2000,
+    "end_ms": 4904,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B1-L01.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 2904
+  },
+  {
+    "id": "B2-L01",
+    "speaker": "player",
+    "listener": "scout",
+    "text": "等太平了，还来这儿？",
+    "delivery": "轻声问，带一点试探和向往，句尾不夸张上扬。",
+    "speaker_action": "沈砚视线越过湖面后停在姜岚脸侧，双手保持自然。",
+    "listener_action": "姜岚先听，稍停后才看向湖面；没有连续点头。",
+    "voice_ms": 2800,
+    "after_ms": 500,
+    "information": [
+      "hope_after_war"
+    ],
+    "segment": "B2",
+    "start_ms": 5800,
+    "end_ms": 8600,
+    "audio_source": null,
+    "voice_status": "silent_pending_recording"
+  },
+  {
+    "id": "B2-L02",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "来。到时候，把这一路慢慢走。",
+    "delivery": "来字干脆，后半句稍放松；慢慢走含一点淡淡笑意。",
+    "speaker_action": "姜岚轻呼气，嘴角略松；说到慢慢走时只看沈砚一次。",
+    "listener_action": "沈砚持枪的手指稍放松但不离开接触点，视线停稳，不用大幅镜头点头。",
+    "voice_ms": 3800,
+    "after_ms": 400,
+    "information": [
+      "promise_to_return"
+    ],
+    "segment": "B2",
+    "start_ms": 9100,
+    "end_ms": 12988,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B2-L02.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 3888
+  },
+  {
+    "id": "B2-L03",
+    "speaker": "player",
+    "listener": "scout",
+    "text": "那可说定了。",
+    "delivery": "简短接住约定，不拔高成宣誓。",
+    "speaker_action": "沈砚略微收回视线，准备整理携行装备。",
+    "listener_action": "姜岚给一次小幅确认，再看向离开岩台的路。",
+    "voice_ms": 1600,
+    "after_ms": 400,
+    "information": [
+      "promise_to_return"
+    ],
+    "segment": "B2",
+    "start_ms": 13300,
+    "end_ms": 14900,
+    "audio_source": null,
+    "voice_status": "silent_pending_recording"
+  },
+  {
+    "id": "B3-L01",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "走吧。去青岚林场找林师傅，接应陆山。最近搜山紧，路上留神。",
+    "delivery": "回到行动语气，三个短意群清楚；不是对着观众介绍关卡。",
+    "speaker_action": "先指向离开方向，再收手准备起步，最后看向林道。",
+    "listener_action": "沈砚听到陆山时抬眼确认，接着稳住握枪位置，等待起步。",
+    "voice_ms": 8100,
+    "after_ms": 300,
+    "information": [
+      "original_rendezvous",
+      "logger_contact",
+      "lu_contact",
+      "search_pressure"
+    ],
+    "segment": "B3",
+    "start_ms": 16200,
+    "end_ms": 24300,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B3-L01.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 7416
+  },
+  {
+    "id": "B3-L02",
+    "speaker": "player",
+    "listener": "scout",
+    "text": "知道了。",
+    "delivery": "短而自然，确认已经听清。",
+    "speaker_action": "沈砚视线转向山路，完成一次重心前移。",
+    "listener_action": "姜岚等应答结束后才转身起步，避免边说边瞬移到下一位置。",
+    "voice_ms": 1000,
+    "after_ms": 300,
+    "information": [
+      "rendezvous_understood"
+    ],
+    "segment": "B3",
+    "start_ms": 24600,
+    "end_ms": 25600,
+    "audio_source": null,
+    "voice_status": "silent_pending_recording"
+  },
+  {
+    "id": "B5-L01",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "我问过林师傅了。陆山昨夜送信受了伤，被扣在电报房。",
+    "delivery": "低声直说，伤与被扣间稍顿，不渲染未经设定的伤势。",
+    "speaker_action": "姜岚先扫一眼检查口方向，回望沈砚后交代；手势克制。",
+    "listener_action": "沈砚的手停住，视线落在姜岚脸上；听完才提问。",
+    "voice_ms": 6900,
+    "after_ms": 300,
+    "information": [
+      "latest_from_logger",
+      "lu_injured_last_night",
+      "lu_detained_office"
+    ],
+    "segment": "B5",
+    "start_ms": 34800,
+    "end_ms": 41700,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L01.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 6048
+  },
+  {
+    "id": "B5-L02",
+    "speaker": "player",
+    "listener": "scout",
+    "text": "能带他走吗？",
+    "delivery": "先问人的情况，短促但不抢断姜岚。",
+    "speaker_action": "沈砚稍倾向说话方向，身体仍在掩蔽内。",
+    "listener_action": "姜岚回看沈砚，准备给出具体判断，而非机械点头。",
+    "voice_ms": 1500,
+    "after_ms": 200,
+    "information": [
+      "concern_for_lu"
+    ],
+    "segment": "B5",
+    "start_ms": 42000,
+    "end_ms": 43500,
+    "audio_source": null,
+    "voice_status": "silent_pending_recording"
+  },
+  {
+    "id": "B5-L03",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "腿伤了，得慢些。搜山名册也在那儿，上头有密营和乡亲的名字。",
+    "delivery": "前半句实在，后半句把注意转到名字；乡亲略落重，不重复宏大口号。",
+    "speaker_action": "姜岚看向电报房的大致方向，随后把视线送回沈砚。",
+    "listener_action": "沈砚听到名字后握稳枪身；远处响动时两人先后转向声源。",
+    "voice_ms": 7900,
+    "after_ms": 800,
+    "information": [
+      "lu_leg_wound",
+      "roster_in_office",
+      "stakes_camp_and_civilians"
+    ],
+    "segment": "B5",
+    "start_ms": 43700,
+    "end_ms": 51600,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L03.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 7056
+  },
+  {
+    "id": "B5-L04",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "过检查口，沿木料巷往北。取名册，再拉总闸，断掉电话中继。",
+    "delivery": "每个地点和动作各成短意群；再字读清，避免把断电讲成取册前的动作。",
+    "speaker_action": "姜岚低位指示主路，再收手；朝向按现有路线，不在天池上指认林场建筑。",
+    "listener_action": "沈砚先随手势看路线，随后回看；不打断要点，不同时作大幅手势。",
+    "voice_ms": 7700,
+    "after_ms": 300,
+    "information": [
+      "checkpoint_then_timber_lane",
+      "get_roster",
+      "roster_before_power",
+      "cut_relay_power"
+    ],
+    "segment": "B5",
+    "start_ms": 52400,
+    "end_ms": 60100,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L04.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 7008
+  },
+  {
+    "id": "B5-L05",
+    "speaker": "player",
+    "listener": "scout",
+    "text": "带上陆山，从哪儿撤？",
+    "delivery": "问清撤路，语气已经进入行动。",
+    "speaker_action": "沈砚把视线从入口收回姜岚，保持姿态低稳。",
+    "listener_action": "姜岚转身幅度很小，留在遮蔽物内指向北侧。",
+    "voice_ms": 2600,
+    "after_ms": 200,
+    "information": [
+      "escort_lu"
+    ],
+    "segment": "B5",
+    "start_ms": 60400,
+    "end_ms": 63000,
+    "audio_source": null,
+    "voice_status": "silent_pending_recording"
+  },
+  {
+    "id": "B5-L06",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "绕电报房北侧，到渡口。你掩护，他解缆。",
+    "delivery": "地点和分工说清，句末干净；不把12秒计时说进人物台词。",
+    "speaker_action": "姜岚指完撤离方向后放下手，注意力回到回山的小路。",
+    "listener_action": "沈砚看一眼撤路方向，再转回；用一次简短呼吸表现记住分工。",
+    "voice_ms": 5000,
+    "after_ms": 300,
+    "information": [
+      "north_office_route",
+      "ferry_evacuation",
+      "cover_lu_unmooring"
+    ],
+    "segment": "B5",
+    "start_ms": 63200,
+    "end_ms": 68576,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B5-L06.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 5376
+  },
+  {
+    "id": "B6-L01",
+    "speaker": "scout",
+    "listener": "player",
+    "text": "先去木棚，林师傅能帮你。我守住回山的路。",
+    "delivery": "关照和分工一起交代，不用赶人语气；木棚是帮助，不写成必须领取奖励。",
+    "speaker_action": "姜岚示意木棚方向，然后侧身看住身后的路，仍在现有锚点附近。",
+    "listener_action": "沈砚视线随指示短移后回稳，双手准备进入正常持枪姿态。",
+    "voice_ms": 5300,
+    "after_ms": 300,
+    "information": [
+      "optional_logger_help",
+      "scout_guards_return_path"
+    ],
+    "segment": "B6",
+    "start_ms": 69300,
+    "end_ms": 74700,
+    "audio_source": "res://assets/audio/user_dialogue_20261015/B6-L01.mp3",
+    "voice_status": "user_supplied_recording",
+    "recorded_duration_ms": 5400
+  },
+  {
+    "id": "B6-L02",
+    "speaker": "player",
+    "listener": "scout",
+    "text": "等我。人和名单，一样也不少。",
+    "delivery": "压低声音承诺，简短有把握，不拖成口号。",
+    "speaker_action": "沈砚完成正常握持；不在台词结束前自行前冲或开火。",
+    "listener_action": "姜岚短暂看回来，轻点一次头后继续警戒，给玩家行动空间。",
+    "voice_ms": 3600,
+    "after_ms": 400,
+    "information": [
+      "bring_back_lu_and_roster"
+    ],
+    "segment": "B6",
+    "start_ms": 74900,
+    "end_ms": 78500,
+    "audio_source": null,
+    "voice_status": "silent_pending_recording"
+  }
+]

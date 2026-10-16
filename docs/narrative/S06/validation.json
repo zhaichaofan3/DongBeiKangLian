@@ -1,0 +1,895 @@
+{
+  "step": "S06",
+  "generated_at": "2026-10-13T13:59:31+08:00",
+  "scope": "static editorial contracts; no game run, rendering, audio recording or asset import",
+  "all_passed": true,
+  "check_count": 98,
+  "checks": [
+    {
+      "id": "unique_shot_ids",
+      "passed": true,
+      "evidence": 33
+    },
+    {
+      "id": "A_continuous",
+      "passed": true,
+      "evidence": {
+        "shots": 17,
+        "duration_ms": 80000
+      }
+    },
+    {
+      "id": "A1_coverage",
+      "passed": true,
+      "evidence": [
+        "A-01",
+        "A-02",
+        "A-03"
+      ]
+    },
+    {
+      "id": "A2_coverage",
+      "passed": true,
+      "evidence": [
+        "A-04",
+        "A-05"
+      ]
+    },
+    {
+      "id": "A3_coverage",
+      "passed": true,
+      "evidence": [
+        "A-06",
+        "A-07",
+        "A-08",
+        "A-09",
+        "A-10"
+      ]
+    },
+    {
+      "id": "A4_coverage",
+      "passed": true,
+      "evidence": [
+        "A-11",
+        "A-12",
+        "A-13",
+        "A-14"
+      ]
+    },
+    {
+      "id": "A5_coverage",
+      "passed": true,
+      "evidence": [
+        "A-15",
+        "A-16"
+      ]
+    },
+    {
+      "id": "A6_coverage",
+      "passed": true,
+      "evidence": [
+        "A-17"
+      ]
+    },
+    {
+      "id": "N01_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N01",
+          "overlap_start_ms": 3000,
+          "overlap_end_ms": 7400
+        }
+      ]
+    },
+    {
+      "id": "N02_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N02",
+          "overlap_start_ms": 7800,
+          "overlap_end_ms": 11000
+        }
+      ]
+    },
+    {
+      "id": "N03_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N03",
+          "overlap_start_ms": 11400,
+          "overlap_end_ms": 16600
+        }
+      ]
+    },
+    {
+      "id": "N04_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N04",
+          "overlap_start_ms": 17400,
+          "overlap_end_ms": 22600
+        }
+      ]
+    },
+    {
+      "id": "N05_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N05",
+          "overlap_start_ms": 23100,
+          "overlap_end_ms": 26300
+        }
+      ]
+    },
+    {
+      "id": "N06_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N06",
+          "overlap_start_ms": 27100,
+          "overlap_end_ms": 29900
+        }
+      ]
+    },
+    {
+      "id": "N07_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N07",
+          "overlap_start_ms": 30300,
+          "overlap_end_ms": 33100
+        }
+      ]
+    },
+    {
+      "id": "N08_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N08",
+          "overlap_start_ms": 33500,
+          "overlap_end_ms": 36300
+        }
+      ]
+    },
+    {
+      "id": "N09_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N09",
+          "overlap_start_ms": 36900,
+          "overlap_end_ms": 38900
+        }
+      ]
+    },
+    {
+      "id": "N10_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N10",
+          "overlap_start_ms": 39800,
+          "overlap_end_ms": 44300
+        }
+      ]
+    },
+    {
+      "id": "N11_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N11",
+          "overlap_start_ms": 45500,
+          "overlap_end_ms": 49500
+        }
+      ]
+    },
+    {
+      "id": "N12_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N12",
+          "overlap_start_ms": 50000,
+          "overlap_end_ms": 54000
+        }
+      ]
+    },
+    {
+      "id": "N13_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N13",
+          "overlap_start_ms": 54500,
+          "overlap_end_ms": 57400
+        },
+        {
+          "cue_id": "N13",
+          "overlap_start_ms": 57400,
+          "overlap_end_ms": 58800
+        }
+      ]
+    },
+    {
+      "id": "N14_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N14",
+          "overlap_start_ms": 59900,
+          "overlap_end_ms": 66000
+        }
+      ]
+    },
+    {
+      "id": "N15_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "N15",
+          "overlap_start_ms": 66700,
+          "overlap_end_ms": 75700
+        }
+      ]
+    },
+    {
+      "id": "B_continuous",
+      "passed": true,
+      "evidence": {
+        "shots": 16,
+        "duration_ms": 80100
+      }
+    },
+    {
+      "id": "B1_coverage",
+      "passed": true,
+      "evidence": [
+        "B-01"
+      ]
+    },
+    {
+      "id": "B2_coverage",
+      "passed": true,
+      "evidence": [
+        "B-02",
+        "B-03",
+        "B-04"
+      ]
+    },
+    {
+      "id": "B3_coverage",
+      "passed": true,
+      "evidence": [
+        "B-05",
+        "B-06"
+      ]
+    },
+    {
+      "id": "B4_coverage",
+      "passed": true,
+      "evidence": [
+        "B-07",
+        "B-08",
+        "B-09",
+        "B-10"
+      ]
+    },
+    {
+      "id": "B5_coverage",
+      "passed": true,
+      "evidence": [
+        "B-11",
+        "B-12",
+        "B-13",
+        "B-14"
+      ]
+    },
+    {
+      "id": "B6_coverage",
+      "passed": true,
+      "evidence": [
+        "B-15",
+        "B-16"
+      ]
+    },
+    {
+      "id": "B1-L01_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B1-L01",
+          "overlap_start_ms": 2000,
+          "overlap_end_ms": 4700
+        }
+      ]
+    },
+    {
+      "id": "B2-L01_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B2-L01",
+          "overlap_start_ms": 5800,
+          "overlap_end_ms": 8600
+        }
+      ]
+    },
+    {
+      "id": "B2-L02_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B2-L02",
+          "overlap_start_ms": 9100,
+          "overlap_end_ms": 12900
+        }
+      ]
+    },
+    {
+      "id": "B2-L03_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B2-L03",
+          "overlap_start_ms": 13300,
+          "overlap_end_ms": 14900
+        }
+      ]
+    },
+    {
+      "id": "B3-L01_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B3-L01",
+          "overlap_start_ms": 16200,
+          "overlap_end_ms": 24300
+        }
+      ]
+    },
+    {
+      "id": "B3-L02_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B3-L02",
+          "overlap_start_ms": 24600,
+          "overlap_end_ms": 25600
+        }
+      ]
+    },
+    {
+      "id": "B5-L01_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B5-L01",
+          "overlap_start_ms": 34800,
+          "overlap_end_ms": 41700
+        }
+      ]
+    },
+    {
+      "id": "B5-L02_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B5-L02",
+          "overlap_start_ms": 42000,
+          "overlap_end_ms": 43500
+        }
+      ]
+    },
+    {
+      "id": "B5-L03_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B5-L03",
+          "overlap_start_ms": 43700,
+          "overlap_end_ms": 51600
+        }
+      ]
+    },
+    {
+      "id": "B5-L04_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B5-L04",
+          "overlap_start_ms": 52400,
+          "overlap_end_ms": 60100
+        }
+      ]
+    },
+    {
+      "id": "B5-L05_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B5-L05",
+          "overlap_start_ms": 60400,
+          "overlap_end_ms": 63000
+        }
+      ]
+    },
+    {
+      "id": "B5-L06_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B5-L06",
+          "overlap_start_ms": 63200,
+          "overlap_end_ms": 68200
+        }
+      ]
+    },
+    {
+      "id": "B6-L01_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B6-L01",
+          "overlap_start_ms": 69300,
+          "overlap_end_ms": 74600
+        }
+      ]
+    },
+    {
+      "id": "B6-L02_voice_coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "cue_id": "B6-L02",
+          "overlap_start_ms": 74900,
+          "overlap_end_ms": 78500
+        }
+      ]
+    },
+    {
+      "id": "narration_unchanged",
+      "passed": true,
+      "evidence": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320"
+    },
+    {
+      "id": "dialogue_unchanged",
+      "passed": true,
+      "evidence": {
+        "lines": 14
+      }
+    },
+    {
+      "id": "B4_silent",
+      "passed": true,
+      "evidence": "26.3–34.3秒无对白，时间卡独立"
+    },
+    {
+      "id": "B_cast_two_people",
+      "passed": true,
+      "evidence": "林守义/陆山不在序幕中实体出场"
+    },
+    {
+      "id": "A_independent_cast",
+      "passed": true,
+      "evidence": "A段角色为无名演出实例，不改正式任务人物"
+    },
+    {
+      "id": "N13_bridge",
+      "passed": true,
+      "evidence": "一条旁白跨镜连续播放，不重复"
+    },
+    {
+      "id": "N15_subtitle_tail",
+      "passed": true,
+      "evidence": "A6保留末句字幕至76.5秒，77秒标题"
+    },
+    {
+      "id": "metal_after_dialogue",
+      "passed": true,
+      "evidence": "仅0.8秒反应空隙"
+    },
+    {
+      "id": "handoff_contract",
+      "passed": true,
+      "evidence": "引用S03统一交接，镜头末端对齐"
+    },
+    {
+      "id": "all_shots_described",
+      "passed": true,
+      "evidence": "每镜含构图、运动、动作、声音、转场、占位、依赖"
+    },
+    {
+      "id": "all_resources_registered",
+      "passed": true,
+      "evidence": 25
+    },
+    {
+      "id": "valid_step_dependencies",
+      "passed": true,
+      "evidence": "后续S07–S35"
+    },
+    {
+      "id": "WORLD_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 2,
+        "missing": [],
+        "status": "existing_game_map"
+      }
+    },
+    {
+      "id": "ACTORS_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 2,
+        "missing": [],
+        "status": "existing_base_requires_cinematic_setup"
+      }
+    },
+    {
+      "id": "ACTORS_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "derived_field_character",
+        "current_use": "已有选用部分或派生版本接入；不代表整包已使用"
+      }
+    },
+    {
+      "id": "HANDS_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 3,
+        "missing": [],
+        "status": "existing_base_requires_cinematic_setup"
+      }
+    },
+    {
+      "id": "HANDS_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "derived_field_hands",
+        "current_use": "已有选用部分或派生版本接入；不代表整包已使用"
+      }
+    },
+    {
+      "id": "CABIN_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 1,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "CABIN_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "log_cabin_scene",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "WAREHOUSE_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 1,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "WAREHOUSE_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "warehouse",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "FACTORY_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 17,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "FACTORY_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "modular_factory_facade",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "MARKET_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 1,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "MARKET_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "village_market",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "BASKET_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 5,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "BASKET_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "wicker_basket_01",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "TEA_TABLE_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 5,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "TEA_TABLE_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "chinese_tea_table",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "SCREEN_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 5,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "SCREEN_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "chinese_screen_panels",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "SNOW_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 5,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "SNOW_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "polyhaven_snow_02",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "DEM_REF_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 3,
+        "missing": [],
+        "status": "local_reference_not_integrated"
+      }
+    },
+    {
+      "id": "DEM_REF_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "derived_tianchi_dem",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "TIANCHI_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 0,
+        "missing": [],
+        "status": "planned_missing"
+      }
+    },
+    {
+      "id": "TALK_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 1,
+        "missing": [],
+        "status": "planned_missing"
+      }
+    },
+    {
+      "id": "TWO_PERSON_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 0,
+        "missing": [],
+        "status": "planned_missing"
+      }
+    },
+    {
+      "id": "COMBAT_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 3,
+        "missing": [],
+        "status": "existing_base_requires_cinematic_setup"
+      }
+    },
+    {
+      "id": "ARTILLERY_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 0,
+        "missing": [],
+        "status": "planned_missing"
+      }
+    },
+    {
+      "id": "WIND_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 15,
+        "missing": [],
+        "status": "existing_base_requires_cinematic_setup"
+      }
+    },
+    {
+      "id": "WIND_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "ambient-mountain-river-wind-and-forest-and-waterfall",
+        "current_use": "已有选用部分或派生版本接入；不代表整包已使用"
+      }
+    },
+    {
+      "id": "FOOTSTEP_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 149,
+        "missing": [],
+        "status": "existing_base_requires_cinematic_setup"
+      }
+    },
+    {
+      "id": "FOOTSTEP_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "footsteps-on-different-surfaces",
+        "current_use": "已有选用部分或派生版本接入；不代表整包已使用"
+      }
+    },
+    {
+      "id": "SNOW_STEP_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 50,
+        "missing": [],
+        "status": "downloaded_not_integrated"
+      }
+    },
+    {
+      "id": "SNOW_STEP_inventory",
+      "passed": true,
+      "evidence": {
+        "inventory_id": "42-snow-and-gravel-footsteps",
+        "current_use": "未接入正式关卡"
+      }
+    },
+    {
+      "id": "METAL_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 1,
+        "missing": [],
+        "status": "planned_missing"
+      }
+    },
+    {
+      "id": "SCORE_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 0,
+        "missing": [],
+        "status": "planned_missing"
+      }
+    },
+    {
+      "id": "VOICE_A_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 3,
+        "missing": [],
+        "status": "script_only_not_recorded"
+      }
+    },
+    {
+      "id": "VOICE_B_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 3,
+        "missing": [],
+        "status": "script_only_not_recorded"
+      }
+    },
+    {
+      "id": "TITLES_files",
+      "passed": true,
+      "evidence": {
+        "referenced_files": 1,
+        "missing": [],
+        "status": "planned_missing"
+      }
+    },
+    {
+      "id": "mission_source_matches_S03",
+      "passed": true,
+      "evidence": [
+        "GodotProject/scripts/mission.gd",
+        "GodotProject/scripts/story.gd",
+        "GodotProject/scripts/fps_player.gd",
+        "GodotProject/scripts/linear_director.gd"
+      ]
+    },
+    {
+      "id": "document_links",
+      "passed": true,
+      "evidence": {
+        "checked": 42,
+        "deferred_review_reports": [
+          "narrative/S06/editorial_review.json",
+          "narrative/S06/validation.json"
+        ],
+        "broken": []
+      }
+    },
+    {
+      "id": "generated_readback",
+      "passed": true,
+      "evidence": "JSON回读一致"
+    }
+  ],
+  "outputs": {
+    "shots": 33,
+    "A_shots": 17,
+    "B_shots": 16,
+    "A_duration_ms": 80000,
+    "B_duration_ms": 80100,
+    "voice_cues": 29,
+    "resources": 25
+  },
+  "storyboard_sha256": "b2ad293f0c0fa18c365779e62a54a71b0460c97b09e75a70752f4ed1f148e40b"
+}

@@ -1,0 +1,64 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Complete departure checkpoint validates before boarding
+PASS: Ferry starts the two-person cinematic
+PASS: Both passengers use the existing skinned friendly models
+PASS: Cinematic camera owns a finite frame: boarding
+PASS: Cinematic camera owns a finite frame: step-aboard
+PASS: Cinematic camera owns a finite frame: seated
+PASS: Both seated passengers travel with the hull: seated
+PASS: The hull is above actual river-water geometry: seated
+PASS: Cinematic camera owns a finite frame: river-wide
+PASS: Both seated passengers travel with the hull: river-wide
+PASS: The hull is above actual river-water geometry: river-wide
+PASS: Cinematic camera owns a finite frame: river-onboard
+PASS: Both seated passengers travel with the hull: river-onboard
+PASS: The hull is above actual river-water geometry: river-onboard
+PASS: Cinematic camera owns a finite frame: approaching-bank
+PASS: The hull is above actual river-water geometry: approaching-bank
+PASS: Cinematic camera owns a finite frame: landing
+PASS: The boat visibly drifts downstream rather than remaining stationary
+PASS: Pausing freezes the crossing clock and river sound
+PASS: Resume restores the ferry cinematic
+PASS: A mid-river save cannot replace the safe departure checkpoint
+PASS: Returning to menu cleans up the cinematic and restores gameplay actors
+PASS: Disk-only recovery during crossing resumes the safe departure
+PASS: Skipping hands control to the forest landing, retaining the playable approach
+PASS: Player arrives at the shore, outside the village
+PASS: Village combat stays inactive throughout the forest approach
+PASS: Crossing grants the existing arrival supplies once
+PASS: Repeated finish cannot duplicate supplies
+PASS: The landing checkpoint validates the enlarged chapter bounds
+PASS: The non-road woodland is densely populated using instanced existing pine models
+PASS: The dirt route has substantially lighter colour than the forest floor
+PASS: A navigation route connects the landing to the original village
+PASS: The player can physically walk back along the landing pier
+PASS: The landing pier supports a valid checkpoint beyond the forest ground edge
+PASS: Walking off the pier safely returns to shore without a soft lock
+PASS: Real player movement follows the dirt road through bend 1
+PASS: Real player movement follows the dirt road through bend 2
+PASS: Real player movement follows the dirt road through bend 3
+PASS: A mid-forest checkpoint is written
+PASS: Disk-only loading preserves forest progress instead of replaying the boat
+PASS: Real player movement follows the dirt road through bend 4
+PASS: Real player movement follows the dirt road through bend 5
+PASS: Real player movement follows the dirt road through bend 6
+PASS: Real player movement follows the dirt road through bend 7
+PASS: Real player movement follows the dirt road through bend 8
+PASS: Real player movement follows the dirt road through bend 9
+PASS: Real player movement follows the dirt road through bend 10
+PASS: Real player movement follows the dirt road through bend 11
+PASS: The village introduction plays exactly once at the entrance
+PASS: After the introduction only the first village encounter activates
+PASS: The post-introduction checkpoint is valid
+PASS: Loading after the introduction does not repeat the dialogue
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 2 side -1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 2 side 1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 3 side -1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 3 side 1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 5 side -1
+PASS: Visible forest banks prevent sprint-jump shortcuts at bend 5 side 1
+PASS: Legacy village saves retain the original encounter and skip the new arrival
+PASS: Contradictory forest-introduction flags are rejected
+RIVER JOURNEY: PASS | checks=60

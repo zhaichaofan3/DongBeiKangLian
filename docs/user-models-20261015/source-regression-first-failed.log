@@ -1,0 +1,418 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Player rests on ground
+PASS: New mission begins with thirteen placed guards including the door ambusher
+PASS: WASD direction
+PASS: Walls block movement
+PASS: Walls block enemy sight
+PASS: Enemy sees exposed player
+PASS: Guard first shot suppresses without unavoidable damage
+PASS: Exposed player can still be damaged by deliberate close-range fire
+PASS: Rifle consumes ammo and hits physical target
+PASS: Immediate defeat checkpoint includes the shot ammunition deduction
+PASS: Reload transfers ammo
+PASS: Weapon switches independent model
+PASS: Mission requires contact briefing
+PASS: Walk to scout
+PASS: E opens face-to-face conversation
+PASS: Dialogue pauses movement and combat
+PASS: Optional route question has a distinct response
+PASS: Briefing unlocks mission and restores control
+PASS: J opens journal from gameplay
+PASS: Escape closes journal
+PASS: Walk to logger shelter
+PASS: Logger offers supplies in person
+PASS: Medical choice grants exactly one bandage
+PASS: Repeat conversation cannot duplicate reward
+PASS: Player bandage consumes resource and restores 40 health
+PASS: Supply cache is reachable
+PASS: World supply is collectible
+PASS: Supply cache cannot be collected twice
+PASS: Closed door blocks navigation
+PASS: Reach office door approach
+PASS: Approach physical door
+PASS: Door interaction opens physics and navigation
+PASS: Door closes and restores collision
+PASS: Player can stand in doorway
+PASS: Door cannot close on player
+PASS: Walk through open door
+PASS: Reach letter shelf without stepping into bench
+PASS: World letter opens narrative reading
+PASS: Journal preserves discovered letter
+PASS: Codebook route clears desk
+PASS: Roster pickup advances story
+PASS: Roster cannot be collected twice
+PASS: Reach power switch around desk
+PASS: Power switch extinguishes lights and glowing lanterns
+PASS: Reinforcements respect cap
+PASS: Reach wounded courier
+PASS: Wounded courier offers rescue dialogue
+PASS: Treatment consumes bandage and starts escort
+PASS: Wait command stops companion
+PASS: Player can scout ahead
+PASS: Waiting companion stays in place
+PASS: Return to waiting companion
+PASS: Follow command resumes escort
+PASS: Death opens retry menu
+PASS: Checkpoint restores mission
+PASS: Checkpoint restores companion treatment, command and position
+PASS: Checkpoint preserves narrative choices, inventory and door
+PASS: Continuous walking reaches evacuation
+PASS: Companion walks entire office-to-river route without teleporting
+PASS: Evacuation ends in a character conversation
+PASS: Both characters and roster complete mission
+PASS: Invalid companion snapshot rejected
+PASS: Invalid weapon snapshot rejected
+PASS: Corrupt JSON rejected
+PASS: Restart resets narrative, door and companion
+PASS: Alternative ammo choice grants different reward
+PASS: Rescue remains possible without bandages
+PASS: Distant companion cannot satisfy evacuation
+PASS: Waiting companion overlaps evacuation interaction range
+PASS: Dock prompt offers nearby companion conversation
+PASS: Evacuation does not block talking to waiting companion
+PASS: Follow command works inside evacuation area
+PASS: Companion walks from waiting position and completes evacuation
+PASS: Dock still explains missing companion when nobody is nearby
+PASS: QA uses isolated presentation preferences
+PASS: Performance preset applies without resetting mission
+PASS: Quality preset enables 4x antialiasing
+PASS: Zero volume fully mutes audio
+PASS: Graphics and control preferences survive reload from disk
+PASS: Invalid preference values retain safe defaults
+PASS: All five initial guard patrols use traversable routes
+PASS: Reinforcements wait while player occupies their fixed entrance
+PASS: Visible road entrance cannot pop a guard into view
+PASS: Pausing freezes reinforcement countdown
+PASS: Power cut has an initial warning delay
+PASS: First delayed guard brings encounter to six-alive cap
+PASS: Full encounter defers reinforcements without consuming them
+PASS: Defeat is persisted immediately with checkpoint state
+PASS: Vacated slot admits exactly one guard
+PASS: Second pair waits the full inter-wave interval
+PASS: Second pair enters from the same predefined road
+PASS: Partially completed reinforcement encounter creates valid save
+PASS: Repeated load restores exact issued count without duplicate reinforcements
+PASS: Defeated initial and legacy-named wave guards stay defeated after load
+PASS: Checkpoint retains surviving guard health and position
+PASS: Checkpoint retains remaining arrival delay
+PASS: Restored delay cannot spawn the last guard early
+PASS: Final arrival exhausts finite four-guard reinforcement roster
+PASS: All nine defeated remain cleared across long waits and load
+PASS: Save rejects reinforcement index beyond finite roster
+PASS: Save rejects negative reinforcement countdown
+PASS: Save rejects malformed active guard position
+PASS: Save rejects defeat of a reinforcement that never arrived
+PASS: Original version-two save with wave_0 identifier remains compatible
+PASS: Legacy encounter migrates original first wave and delays added second wave
+PASS: Legacy migration preserves defeats and initial roster without surprise guards
+PASS: Migrated legacy encounter writes a valid expanded-format checkpoint
+SMOKE RESULT: 107/107 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New mission closes every route gate
+PASS: Briefing approach does not activate later combat
+PASS: Closed checkpoint cannot be bypassed through the map
+PASS: Player cannot skip the mission along either map edge
+PASS: First engagement activates only after contact and approach
+PASS: Closed checkpoint physically stops forward movement
+PASS: Interaction sight ray cannot pass through a closed gate
+PASS: Interaction cannot open the checkpoint before its guard is defeated
+PASS: Empty weapons can take emergency rifle rounds without skipping combat
+PASS: Emergency crate does not duplicate ammunition while rounds remain
+PASS: Emergency ammunition and locked gate survive checkpoint restore
+PASS: Defeating checkpoint guard unlocks its local interaction
+PASS: Opening checkpoint also opens navigation
+PASS: Opened checkpoint permits physical movement
+PASS: Timber lane exit blocks all routes into office sector
+PASS: Both timber defenders must be cleared before the lane opens
+PASS: Cleared timber lane opens the next engagement in order
+PASS: Office approach becomes navigable after opening timber exit
+PASS: Gate progress is immediately saved to the isolated checkpoint
+PASS: Checkpoint restores gate visuals, collision state and navigation together
+PASS: River exit cannot be bypassed from the office sector
+PASS: River gate stays closed before power cut and rescue
+PASS: Power cut and rescue unlock the final route
+PASS: Arrival begins a real thirty-second hold instead of instant victory
+PASS: Pause freezes extraction countdown
+PASS: Leaving the river hold area stops its countdown
+PASS: Waiting courier cannot advance the extraction hold
+PASS: Checkpoint preserves partially completed extraction time
+PASS: Holding with the following courier completes extraction
+PASS: Completed hold permits the final shared evacuation conversation
+PASS: Linear mission retains the completed rescue ending
+PASS: Existing version-two checkpoint without linear fields remains readable
+PASS: Legacy checkpoint opens route gates without introducing new locks
+PASS: Malformed linear checkpoint block is rejected
+PASS: Out-of-order gate checkpoint is rejected
+PASS: Negative extraction checkpoint time is rejected
+PASS: Non-numeric extraction checkpoint time is rejected
+LINEAR ROUTE RESULT: 37/37 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ACTIVE COMBAT ROUTE: PASS | health=91.0 | guards defeated=19 | elapsed=103.133333333329 | state=won
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Motion scene starts in normal playable grounded state
+PASS: Motion verification writes only its own temporary checkpoint
+PASS: Rifle begins as the visible active weapon
+PASS: Aim transitions through an intermediate blend
+PASS: Aim changes FOV smoothly without an immediate jump
+PASS: Held aim converges to the intended FOV
+PASS: Aim brings the weapon sights onto the camera centerline
+PASS: Releasing aim restores the hip view
+PASS: Rifle input fires exactly one real round
+PASS: Firing starts a brief muzzle flash and view-model recoil
+PASS: Rifle shot physically lifts and retracts the bolt
+PASS: Firing hand leaves the grip to operate the bolt
+PASS: The firing hand has bound middle and thumb joints
+PASS: Curled finger joints stay around the bolt knob while it is open
+PASS: Fingers stay within 2.5 cm of the knob throughout lift, pull, push and lock
+PASS: Bolt handle rises above its closed position instead of rotating underneath the rifle
+PASS: Support hand stays planted on the fore-end throughout the bolt cycle
+BOLT CONTACT: samples=[5, 8, 10, 5], max_error_m=[0.00001154148595, 0.00001144479484, 0.00000972480302, 0.00000810710299], support_drift_m=0.0
+PASS: Bolt returns fully to battery after the cycle
+PASS: Firing hand returns to its grip
+PASS: Flash and recoil decay after the shot
+PASS: Held aim recovers its sight alignment after firing and operating the bolt
+PASS: Rifle reload starts without granting ammunition early
+PASS: Mid-reload clip is visible over the open receiver
+PASS: Support hand reaches the receiver during loading
+PASS: Clip has moved down along its insertion path
+PASS: Rifle reload completes with the correct magazine and reserve transfer
+PASS: Completed reload hides the clip and restores the hand and bolt
+PASS: Held aim recovers its sight alignment after reloading
+PASS: Weapon key switches visibility to the pistol
+PASS: Weapon switch begins its timed visual transition
+PASS: Switched pistol rises into its held position
+PASS: Pistol index-finger skin reaches the trigger region inside the guard outline
+PISTOL TRIGGER: resting_joint=(0.028522, -0.046995, -0.011955), closest_finger_surface=(0.009203, -0.051302, -0.018156), trigger_distance_m=0.01056751329452
+PASS: Pistol shot consumes a round and cycles its bolt
+PASS: Pistol bolt returns after cycling
+PASS: Pistol trigger finger visibly pulls and returns to its held grip
+PASS: Pistol reload uses a visible clip and a separate loading hand
+PASS: Pistol reload completes with correct ammunition transfer
+PASS: Pistol loading hand and clip return to normal
+PASS: Restore test begins while shot effects are active
+PASS: Restore immediately cancels an unfinished shot effect
+PASS: Restore test begins during a real unfinished reload
+PASS: Restore cancels loading and restores snapshot ammunition
+PASS: Restore resets all weapon mechanisms and hands
+PASS: Cancelled reload cannot grant ammunition later
+PASS: Weapon-switch test begins during real rifle loading
+PASS: Switching away cancels loading and hides the rifle
+PASS: Switched-away reload cannot grant ammunition later
+PASS: Restore resets the hidden rifle after its interrupted loading action
+PASS: Restore recovers both weapons' ammunition after a cancelled switch reload
+PASS: Motion verification removes its temporary checkpoint
+VISUAL MOTION RESULT: 50/50 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Pre-0.4 story saves remain accepted
+PASS Legacy restore initializes optional field dialogue state
+PASS Walking dialogue leaves player in live gameplay
+PASS Pause does not consume an unheard subtitle
+PASS Saved field dialogue is not repeated on restore
+PASS Cutting power stops room radio and plays switch once
+PASS Loading powered-off checkpoint does not replay the switch
+PASS Unknown narrative flags are rejected safely
+PASS Invalid narrative flag type is rejected safely
+PASS River is a spatial looping stream
+PASS New mission restores radio and fresh dialogue state
+STORY MOMENTS RESULT: 11/11 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scout uses the imported skin, not the fallback model
+PASS: scout instantiates the correct supplied model or preserved civilian
+PASS: scout has every animated body joint
+PASS: scout has valid skin weights and bone bindings
+PASS: scout shows its correct clothing, headgear and injury equipment
+PASS: scout sleeves meet both wrist openings
+PASS: scout has human scale without exploded vertices
+PASS: scout standing footwear stays near the floor
+PASS: logger uses the imported skin, not the fallback model
+PASS: logger instantiates the correct supplied model or preserved civilian
+PASS: logger has every animated body joint
+PASS: logger has valid skin weights and bone bindings
+PASS: logger shows its correct clothing, headgear and injury equipment
+PASS: logger has human scale without exploded vertices
+PASS: logger standing footwear stays near the floor
+PASS: wounded uses the imported skin, not the fallback model
+PASS: wounded instantiates the correct supplied model or preserved civilian
+PASS: wounded has every animated body joint
+PASS: wounded has valid skin weights and bone bindings
+PASS: wounded shows its correct clothing, headgear and injury equipment
+PASS: wounded sleeves meet both wrist openings
+PASS: wounded has human scale without exploded vertices
+PASS: wounded standing footwear stays near the floor
+PASS: guard uses the imported skin, not the fallback model
+PASS: guard instantiates the correct supplied model or preserved civilian
+PASS: guard has every animated body joint
+PASS: guard has valid skin weights and bone bindings
+PASS: guard shows its correct clothing, headgear and injury equipment
+PASS: guard sleeves meet both wrist openings
+PASS: guard has human scale without exploded vertices
+PASS: guard standing footwear stays near the floor
+PASS: Walking drives imported legs, arms and torso
+PASS: Walking keeps sleeves attached to both wrists
+PASS: Walking skin stays finite and attached to its rig
+PASS: Walking stance remains at ground level
+PASS: Aiming drives imported shoulder and elbow bones
+PASS: Guard retains a visible rifle during aiming
+PASS: Aiming keeps sleeves attached to both wrists
+PASS: Skinned palms stay within 5.5 cm of both rifle grips while lowered and aiming
+RIFLE GRIP ERROR (m): lowered=0.0000315543839, aiming=0.00000025023306
+PASS: Firing recoil reaches the imported body rig
+PASS: Treating Lu Shan changes his imported injury posture
+PASS: Treatment transition keeps clothing and bandages attached
+PASS: Death lowers the imported head and torso onto the ground
+PASS: Fallen skin remains finite with a horizontal silhouette
+PASS: Fallen character has no substantial underground geometry
+PASS: Death releases prior aiming twists into a consistent relaxed arm pose
+CHARACTER MODEL RESULT: 46/46 passed
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Cap star has correct faction visibility: scout
+PASS: Cap insignia is a five-point star: scout
+PASS: Cap star has correct faction visibility: lu
+PASS: Cap insignia is a five-point star: lu
+PASS: Cap star has correct faction visibility: logger
+PASS: Cap insignia is a five-point star: logger
+PASS: Enemy headgear never displays the friendly star
+PASS: Opening friendly wears the red star: ally1
+PASS: Opening friendly uses the supplied friendly model: ally1
+PASS: Opening friendly wears the red star: ally2
+PASS: Opening friendly uses the supplied friendly model: ally2
+PASS: Opening friendly wears the red star: scout
+PASS: Opening friendly uses the supplied friendly model: scout
+PASS: Conversation muzzle points down at 3.1 seconds
+PASS: Conversation muzzle points down at 11.0 seconds
+PASS: Conversation muzzle points down at 18.5 seconds
+PASS: Conversation muzzle points down at 48.8 seconds
+PASS: Conversation muzzle points down at 76.0 seconds
+PASS: Office replaces paired rescue with walking actors and a continuous camera move
+PASS: Office walk clears furniture: ally1
+PASS: Office walk clears furniture: ally2
+PASS: Office showcase leaves mission state and player resources unchanged
+PASS: Interior showcase lights deactivate after the shot
+PASS: Gameplay conversations display the same safe weapon posture
+PASS: Combat hold restores smoothly after a conversation
+PASS: Both hands reach the final grapple after 3m charge
+PASS: Both hands reach the final grapple after 7m charge
+PASS: Both hands reach the final grapple after 12m charge
+PASS: Long and short charges never stretch visible sleeves beyond the arm budget
+PASS: Both hands meet the rifle within ten centimetres in the grapple
+POLISH REVISION: PASS | checks=30
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Straight charge starts for office_guard
+PASS: Pre-charge checkpoint remains readable for office_guard
+PASS: Entire charge corridor is clear for office_guard
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard
+PASS: Straight charge reaches the existing grapple: office_guard
+PASS: Straight charge starts for office_guard_2
+PASS: Pre-charge checkpoint remains readable for office_guard_2
+PASS: Entire charge corridor is clear for office_guard_2
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_2
+PASS: Straight charge reaches the existing grapple: office_guard_2
+PASS: Straight charge starts for office_guard_3
+PASS: Pre-charge checkpoint remains readable for office_guard_3
+PASS: Entire charge corridor is clear for office_guard_3
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_3
+PASS: Straight charge reaches the existing grapple: office_guard_3
+PASS: Straight charge starts for office_guard_4
+PASS: Pre-charge checkpoint remains readable for office_guard_4
+PASS: Entire charge corridor is clear for office_guard_4
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_4
+PASS: Straight charge reaches the existing grapple: office_guard_4
+PASS: Desk blocks the charge even when the player is visible above it
+PASS: Blocked corridor never starts a winding charge or clips through the desk
+PASS: Final survivor approaches around furniture before committing to a clear straight charge
+PASS: Clear approach starts the same two-point charge
+PASS: Office wall also blocks a direct charge
+PASS: A visible final defender outside charge range keeps approaching
+PASS: Approach closes the distance instead of stopping in the normal firing stance
+STRAIGHT CHARGE: PASS | checks=27
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Both actors keep low, anatomically bounded gestures throughout all conversation scenes
+PASS: Palms stay clear of the coat body during talk and listen poses
+PASS: Continuous 60fps samples have no arm snaps across lines and camera cuts
+PASS: Conversation performance leaves mission state unchanged
+PASS: A10 replaces paired contact with separated walking soldiers inside the office
+DIALOGUE MOTION: PASS | checks=5
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New game title in application and menu
+PASS: Title menu uses the scenic camera
+PASS: Thirteen guards: 3 checkpoint, 4 timber, 4 office, 1 door ambusher, 1 pier
+FAIL: Friendly coat is grey: scout
+FAIL: Friendly coat is grey: lu
+PASS: First-person sleeves and cuffs share the grey uniform palette
+PASS: Every new patrol has a traversable path
+PASS: Added checkpoint guards must also be defeated
+PASS: All three checkpoint guards unlock first gate
+PASS: Added timber guards must also be defeated
+PASS: All four timber guards unlock second gate
+PASS: Second gate retains its separate original ambush
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+GRAPPLE CAMERA: (46.00441, 1.656717, 37.0) ENEMY: (46.0, 0.08, 36.02) PLAYER: (46.0, 0.08, 37.0) CURRENT: /root/Main/@Node3D@3081/@Camera3D@3082
+PASS: Office grapple pauses without advancing
+PASS: Counterattack finishes and saves the fourth office defeat
+PASS: Completed office encounter does not replay after load
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_2
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_3
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: No charge before three office kills
+PASS: No charge before three office kills
+PASS: Any last survivor charges: office_guard_4
+PASS: Reuses the supplied banzai shout
+PASS: Pre-charge save preserves exactly three office defeats
+PASS: Failed office grapple exits cleanly
+PASS: Retry restores three kills and the surviving defender
+PASS: Retry can replay the same office survivor
+PASS: Hold starts at thirty seconds and blocks early extraction
+PASS: First pursuing soldier arrives when untying starts
+PASS: Top-left countdown displays 00:30
+PASS: No new wave while a pursuing soldier remains alive
+PASS: Next wave does not spawn before two seconds after death
+PASS: Pause freezes both countdown and spawn delay
+PASS: Next group contains two soldiers
+PASS: Load restores exact pursuing soldiers without duplication
+PASS: Pursuit continues beyond the first group
+PASS: Load preserves partially completed thirty-second hold
+PASS: Thirty seconds permits joint evacuation
+PASS: Spawning ends when the hold completes
+PASS: Completed hold survives reload
+PASS: Revised mission still reaches its shared ending
+PASS: Original twelve-second extraction save remains valid
+PASS: Half-completed old hold migrates to half of thirty seconds
+PASS: Completed original hold stays complete
+USER REVISION: FAIL 59/61
+

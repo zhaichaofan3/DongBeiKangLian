@@ -1,0 +1,5491 @@
+{
+  "created_at": "2026-10-16T14:51:11+08:00",
+  "bytes": 171864663704,
+  "files": 160329,
+  "directories": [
+    {
+      "path": ".",
+      "bytes": 171864663704,
+      "files": 160329
+    },
+    {
+      "path": "WorkBackups",
+      "bytes": 150085783827,
+      "files": 138663
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff",
+      "bytes": 6813013811,
+      "files": 2043
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files",
+      "bytes": 6812572469,
+      "files": 2041
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d",
+      "bytes": 5523203663,
+      "files": 1569
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files",
+      "bytes": 5522868191,
+      "files": 1567
+    },
+    {
+      "path": "AssetLibrary",
+      "bytes": 5429633896,
+      "files": 2175
+    },
+    {
+      "path": "ReleaseBackups",
+      "bytes": 4999699483,
+      "files": 2545
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d",
+      "bytes": 4145629380,
+      "files": 1462
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d/files",
+      "bytes": 4145319612,
+      "files": 1460
+    },
+    {
+      "path": "WorkBackups/20261016-095513-S10-in_progress-8ac53f",
+      "bytes": 3898557442,
+      "files": 2060
+    },
+    {
+      "path": "WorkBackups/20261016-095513-S10-in_progress-8ac53f/files",
+      "bytes": 3898106314,
+      "files": 2058
+    },
+    {
+      "path": "WorkBackups/20261016-001805-S10-in_progress-92b087",
+      "bytes": 3575366289,
+      "files": 1886
+    },
+    {
+      "path": "WorkBackups/20261016-001805-S10-in_progress-92b087/files",
+      "bytes": 3574956277,
+      "files": 1884
+    },
+    {
+      "path": "WorkBackups/20261015-220555-S10-in_progress-7d0903",
+      "bytes": 3455228739,
+      "files": 1261
+    },
+    {
+      "path": "WorkBackups/20261015-220555-S10-in_progress-7d0903/files",
+      "bytes": 3454962814,
+      "files": 1259
+    },
+    {
+      "path": "WorkBackups/20261015-215230-S10-in_progress-3e035f",
+      "bytes": 3450313108,
+      "files": 1226
+    },
+    {
+      "path": "WorkBackups/20261015-215230-S10-in_progress-3e035f/files",
+      "bytes": 3450055169,
+      "files": 1224
+    },
+    {
+      "path": "WorkBackups/20261015-214543-S10-in_progress-1c47f9",
+      "bytes": 3440685401,
+      "files": 1213
+    },
+    {
+      "path": "WorkBackups/20261015-214543-S10-in_progress-1c47f9/files",
+      "bytes": 3440430346,
+      "files": 1211
+    },
+    {
+      "path": "WorkBackups/20261015-213744-S10-in_progress-d4e591",
+      "bytes": 3422573423,
+      "files": 1201
+    },
+    {
+      "path": "WorkBackups/20261015-213744-S10-in_progress-d4e591/files",
+      "bytes": 3422320874,
+      "files": 1199
+    },
+    {
+      "path": "WorkBackups/20261015-212019-S10-in_progress-fd4a89",
+      "bytes": 3360022218,
+      "files": 1174
+    },
+    {
+      "path": "WorkBackups/20261015-212019-S10-in_progress-fd4a89/files",
+      "bytes": 3359775140,
+      "files": 1172
+    },
+    {
+      "path": "WorkBackups/20261015-204840-S10-in_progress-b221eb",
+      "bytes": 3304403615,
+      "files": 1117
+    },
+    {
+      "path": "WorkBackups/20261015-204840-S10-in_progress-b221eb/files",
+      "bytes": 3304168482,
+      "files": 1115
+    },
+    {
+      "path": "WorkBackups/20261016-125835-S10-done-086d8b",
+      "bytes": 3289756023,
+      "files": 2516
+    },
+    {
+      "path": "WorkBackups/20261016-125835-S10-done-086d8b/files",
+      "bytes": 3289199031,
+      "files": 2514
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4",
+      "bytes": 3162681922,
+      "files": 2172
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files",
+      "bytes": 3162203059,
+      "files": 2170
+    },
+    {
+      "path": "WorkBackups/20261016-143837-S10-in_progress-4796a0",
+      "bytes": 3124918263,
+      "files": 2077
+    },
+    {
+      "path": "WorkBackups/20261016-143837-S10-in_progress-4796a0/files",
+      "bytes": 3124461662,
+      "files": 2075
+    },
+    {
+      "path": "WorkBackups/20261016-131947-S10-in_progress-8f594a",
+      "bytes": 3071717098,
+      "files": 1953
+    },
+    {
+      "path": "WorkBackups/20261016-131947-S10-in_progress-8f594a/files",
+      "bytes": 3071287353,
+      "files": 1951
+    },
+    {
+      "path": "docs",
+      "bytes": 3037105426,
+      "files": 5113
+    },
+    {
+      "path": "GodotProject",
+      "bytes": 2870737788,
+      "files": 2596
+    },
+    {
+      "path": "WorkBackups/20261015-085440-S36-blocked-751c99",
+      "bytes": 2807362009,
+      "files": 2675
+    },
+    {
+      "path": "WorkBackups/20261015-085440-S36-blocked-751c99/files",
+      "bytes": 2806846341,
+      "files": 2673
+    },
+    {
+      "path": "AssetLibrary/environment",
+      "bytes": 2774160794,
+      "files": 949
+    },
+    {
+      "path": "WorkBackups/20261015-235945-S10-in_progress-6e420c",
+      "bytes": 2082786700,
+      "files": 1412
+    },
+    {
+      "path": "WorkBackups/20261015-235945-S10-in_progress-6e420c/files",
+      "bytes": 2082482627,
+      "files": 1410
+    },
+    {
+      "path": "WorkBackups/20261015-234029-S10-in_progress-577dd2",
+      "bytes": 2046746992,
+      "files": 1371
+    },
+    {
+      "path": "WorkBackups/20261015-234029-S10-in_progress-577dd2/files",
+      "bytes": 2046451932,
+      "files": 1369
+    },
+    {
+      "path": "Release",
+      "bytes": 1860463882,
+      "files": 1096
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015",
+      "bytes": 1830926581,
+      "files": 238
+    },
+    {
+      "path": "tools",
+      "bytes": 1634759236,
+      "files": 7217
+    },
+    {
+      "path": "GodotProject/.godot",
+      "bytes": 1633829694,
+      "files": 1336
+    },
+    {
+      "path": "GodotProject/.godot/imported",
+      "bytes": 1633595882,
+      "files": 1225
+    },
+    {
+      "path": "WorkBackups/20261015-174451-S19-done-64284b",
+      "bytes": 1427562700,
+      "files": 1025
+    },
+    {
+      "path": "WorkBackups/20261015-174451-S19-done-64284b/files",
+      "bytes": 1427352329,
+      "files": 1023
+    },
+    {
+      "path": "WorkBackups/20261015-192101-S31-done-42d196",
+      "bytes": 1397869773,
+      "files": 1437
+    },
+    {
+      "path": "WorkBackups/20261015-192101-S31-done-42d196/files",
+      "bytes": 1397567186,
+      "files": 1435
+    },
+    {
+      "path": "WorkBackups/20261016-113120-S10-in_progress-ea2c20",
+      "bytes": 1392303741,
+      "files": 1517
+    },
+    {
+      "path": "WorkBackups/20261016-113120-S10-in_progress-ea2c20/files",
+      "bytes": 1391976471,
+      "files": 1515
+    },
+    {
+      "path": "WorkBackups/20261015-184756-S19-done-73b3c6",
+      "bytes": 1366298818,
+      "files": 1156
+    },
+    {
+      "path": "WorkBackups/20261015-184756-S19-done-73b3c6/files",
+      "bytes": 1366056702,
+      "files": 1154
+    },
+    {
+      "path": "WorkBackups/20261016-110859-S10-in_progress-d1e27d",
+      "bytes": 1333714703,
+      "files": 1436
+    },
+    {
+      "path": "WorkBackups/20261016-110859-S10-in_progress-d1e27d/files",
+      "bytes": 1333405802,
+      "files": 1434
+    },
+    {
+      "path": "WorkBackups/20261015-082603-S36-in_progress-7f177f",
+      "bytes": 1306882902,
+      "files": 642
+    },
+    {
+      "path": "WorkBackups/20261015-082603-S36-in_progress-7f177f/files",
+      "bytes": 1306751699,
+      "files": 640
+    },
+    {
+      "path": "WorkBackups/20261015-160237-S24-done-ddc795",
+      "bytes": 1291535359,
+      "files": 1293
+    },
+    {
+      "path": "WorkBackups/20261015-160152-S19-done-e20556",
+      "bytes": 1291532529,
+      "files": 1293
+    },
+    {
+      "path": "WorkBackups/20261015-160237-S24-done-ddc795/files",
+      "bytes": 1291267248,
+      "files": 1291
+    },
+    {
+      "path": "WorkBackups/20261015-160152-S19-done-e20556/files",
+      "bytes": 1291264544,
+      "files": 1291
+    },
+    {
+      "path": "WorkBackups/20261016-141748-S10-in_progress-5a70e7",
+      "bytes": 1290859177,
+      "files": 1394
+    },
+    {
+      "path": "WorkBackups/20261016-141748-S10-in_progress-5a70e7/files",
+      "bytes": 1290559507,
+      "files": 1392
+    },
+    {
+      "path": "WorkBackups/20261016-105712-S10-in_progress-d14969",
+      "bytes": 1265372513,
+      "files": 1364
+    },
+    {
+      "path": "WorkBackups/20261016-105712-S10-in_progress-d14969/files",
+      "bytes": 1265078633,
+      "files": 1362
+    },
+    {
+      "path": "WorkBackups/20261015-160620-S32-in_progress-8650f3",
+      "bytes": 1260014479,
+      "files": 1227
+    },
+    {
+      "path": "WorkBackups/20261015-160620-S32-in_progress-8650f3/files",
+      "bytes": 1259760525,
+      "files": 1225
+    },
+    {
+      "path": "WorkBackups/20261016-133849-S10-in_progress-1d326a",
+      "bytes": 1257019540,
+      "files": 1324
+    },
+    {
+      "path": "WorkBackups/20261016-133849-S10-in_progress-1d326a/files",
+      "bytes": 1256735021,
+      "files": 1322
+    },
+    {
+      "path": "WorkBackups/20261016-102538-S10-in_progress-d0ac46",
+      "bytes": 1253551310,
+      "files": 1319
+    },
+    {
+      "path": "WorkBackups/20261016-102538-S10-in_progress-d0ac46/files",
+      "bytes": 1253267694,
+      "files": 1317
+    },
+    {
+      "path": "WorkBackups/20261015-190628-S31-in_progress-969edb",
+      "bytes": 1247634277,
+      "files": 1027
+    },
+    {
+      "path": "WorkBackups/20261015-190628-S31-in_progress-969edb/files",
+      "bytes": 1247421594,
+      "files": 1025
+    },
+    {
+      "path": "WorkBackups/20261015-192730-S10-in_progress-07d4b5",
+      "bytes": 1247032016,
+      "files": 1028
+    },
+    {
+      "path": "WorkBackups/20261015-192730-S10-in_progress-07d4b5/files",
+      "bytes": 1246817003,
+      "files": 1026
+    },
+    {
+      "path": "WorkBackups/20261016-100744-S10-in_progress-d358b9",
+      "bytes": 1246735931,
+      "files": 1310
+    },
+    {
+      "path": "WorkBackups/20261016-100744-S10-in_progress-d358b9/files",
+      "bytes": 1246454010,
+      "files": 1308
+    },
+    {
+      "path": "WorkBackups/20261016-135404-S10-in_progress-56cd69",
+      "bytes": 1237814842,
+      "files": 1307
+    },
+    {
+      "path": "WorkBackups/20261016-135404-S10-in_progress-56cd69/files",
+      "bytes": 1237533802,
+      "files": 1305
+    },
+    {
+      "path": "GodotProject/assets",
+      "bytes": 1235969316,
+      "files": 1049
+    },
+    {
+      "path": "WorkBackups/20261015-182515-S19-in_progress-c82f14",
+      "bytes": 1233838576,
+      "files": 875
+    },
+    {
+      "path": "WorkBackups/20261015-182515-S19-in_progress-c82f14/files",
+      "bytes": 1233658551,
+      "files": 873
+    },
+    {
+      "path": "WorkBackups/20261015-145419-S23-done-43eb48",
+      "bytes": 1208355654,
+      "files": 1215
+    },
+    {
+      "path": "WorkBackups/20261015-145419-S23-done-43eb48/files",
+      "bytes": 1208104897,
+      "files": 1213
+    },
+    {
+      "path": "WorkBackups/20261015-153703-S19-in_progress-450000",
+      "bytes": 1179962345,
+      "files": 1148
+    },
+    {
+      "path": "WorkBackups/20261015-153703-S19-in_progress-450000/files",
+      "bytes": 1179725242,
+      "files": 1146
+    },
+    {
+      "path": "WorkBackups/20261015-142608-S19-done-7a5b1d",
+      "bytes": 1174140441,
+      "files": 1125
+    },
+    {
+      "path": "WorkBackups/20261015-142608-S19-done-7a5b1d/files",
+      "bytes": 1173908023,
+      "files": 1123
+    },
+    {
+      "path": "WorkBackups/20261015-170445-S32-in_progress-454871",
+      "bytes": 1173543063,
+      "files": 1093
+    },
+    {
+      "path": "WorkBackups/20261015-170445-S32-in_progress-454871/files",
+      "bytes": 1173316373,
+      "files": 1091
+    },
+    {
+      "path": "AssetLibrary/derived",
+      "bytes": 1168071278,
+      "files": 20
+    },
+    {
+      "path": "WorkBackups/20261015-125542-S19-done-1573da",
+      "bytes": 1162044510,
+      "files": 1084
+    },
+    {
+      "path": "WorkBackups/20261015-125542-S19-done-1573da/files",
+      "bytes": 1161820461,
+      "files": 1082
+    },
+    {
+      "path": "WorkBackups/20261015-143030-S23-in_progress-6383a9",
+      "bytes": 1157128172,
+      "files": 1084
+    },
+    {
+      "path": "WorkBackups/20261015-143030-S23-in_progress-6383a9/files",
+      "bytes": 1156904121,
+      "files": 1082
+    },
+    {
+      "path": "WorkBackups/20261015-132229-S30-blocked-f95ce2",
+      "bytes": 1143938720,
+      "files": 1063
+    },
+    {
+      "path": "WorkBackups/20261015-132229-S30-blocked-f95ce2/files",
+      "bytes": 1143718562,
+      "files": 1061
+    },
+    {
+      "path": "WorkBackups/20261015-115837-S19-done-c3807d",
+      "bytes": 1142643434,
+      "files": 1040
+    },
+    {
+      "path": "WorkBackups/20261015-115837-S19-done-c3807d/files",
+      "bytes": 1142427942,
+      "files": 1038
+    },
+    {
+      "path": "WorkBackups/20261015-135623-S19-in_progress-3af0a4",
+      "bytes": 1136072416,
+      "files": 1028
+    },
+    {
+      "path": "WorkBackups/20261015-135623-S19-in_progress-3af0a4/files",
+      "bytes": 1135859979,
+      "files": 1026
+    },
+    {
+      "path": "WorkBackups/20261015-113019-S19-done-12df1f",
+      "bytes": 1129334814,
+      "files": 960
+    },
+    {
+      "path": "WorkBackups/20261015-113019-S19-done-12df1f/files",
+      "bytes": 1129136461,
+      "files": 958
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015",
+      "bytes": 1108326475,
+      "files": 15
+    },
+    {
+      "path": "WorkBackups/20261015-110359-S32-in_progress-20c125",
+      "bytes": 1106110853,
+      "files": 899
+    },
+    {
+      "path": "WorkBackups/20261015-110359-S32-in_progress-20c125/files",
+      "bytes": 1105926447,
+      "files": 897
+    },
+    {
+      "path": "WorkBackups/20261015-094937-S17-done-b88495",
+      "bytes": 1089277542,
+      "files": 883
+    },
+    {
+      "path": "WorkBackups/20261015-094937-S17-done-b88495/files",
+      "bytes": 1089096177,
+      "files": 881
+    },
+    {
+      "path": "WorkBackups/20261015-113400-S19-in_progress-06b906",
+      "bytes": 1073804149,
+      "files": 896
+    },
+    {
+      "path": "WorkBackups/20261015-113400-S19-in_progress-06b906/files",
+      "bytes": 1073619316,
+      "files": 894
+    },
+    {
+      "path": "WorkBackups/20261015-091330-S17-done-94cda2",
+      "bytes": 1040429760,
+      "files": 937
+    },
+    {
+      "path": "WorkBackups/20261015-091330-S17-done-94cda2/files",
+      "bytes": 1040238429,
+      "files": 935
+    },
+    {
+      "path": "WorkBackups/20261015-091746-S17-in_progress-70b689",
+      "bytes": 1039972721,
+      "files": 833
+    },
+    {
+      "path": "WorkBackups/20261015-091746-S17-in_progress-70b689/files",
+      "bytes": 1039802056,
+      "files": 831
+    },
+    {
+      "path": "WorkBackups/20261015-170755-S19-in_progress-2f6d31",
+      "bytes": 1000177481,
+      "files": 724
+    },
+    {
+      "path": "WorkBackups/20261015-170755-S19-in_progress-2f6d31/files",
+      "bytes": 1000030197,
+      "files": 722
+    },
+    {
+      "path": "WorkBackups/.pending-20261016-102422-S10-in_progress-b0c3ee",
+      "bytes": 978530845,
+      "files": 893
+    },
+    {
+      "path": "WorkBackups/.pending-20261016-102422-S10-in_progress-b0c3ee/files",
+      "bytes": 978530845,
+      "files": 893
+    },
+    {
+      "path": "docs/expansion_20261015",
+      "bytes": 976092641,
+      "files": 417
+    },
+    {
+      "path": "WorkBackups/20261015-084453-S36-in_progress-ad2fbc",
+      "bytes": 970009414,
+      "files": 750
+    },
+    {
+      "path": "WorkBackups/20261015-084453-S36-in_progress-ad2fbc/files",
+      "bytes": 969858515,
+      "files": 748
+    },
+    {
+      "path": "WorkBackups/20261015-083640-S35-in_progress-44feeb",
+      "bytes": 941513545,
+      "files": 702
+    },
+    {
+      "path": "WorkBackups/20261015-083640-S35-in_progress-44feeb/files",
+      "bytes": 941371832,
+      "files": 700
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64",
+      "bytes": 938445658,
+      "files": 6025
+    },
+    {
+      "path": "WorkBackups/20261015-083042-S32-blocked-66b253",
+      "bytes": 937337296,
+      "files": 659
+    },
+    {
+      "path": "WorkBackups/20261015-083042-S32-blocked-66b253/files",
+      "bytes": 937203446,
+      "files": 657
+    },
+    {
+      "path": "WorkBackups/20261015-224937-S10-in_progress-a53787",
+      "bytes": 934535474,
+      "files": 1062
+    },
+    {
+      "path": "WorkBackups/20261015-224937-S10-in_progress-a53787/files",
+      "bytes": 934310629,
+      "files": 1060
+    },
+    {
+      "path": "docs/level",
+      "bytes": 921590843,
+      "files": 1667
+    },
+    {
+      "path": "WorkBackups/20261015-090143-S17-in_progress-2fbb33",
+      "bytes": 917670646,
+      "files": 683
+    },
+    {
+      "path": "WorkBackups/20261015-090143-S17-in_progress-2fbb33/files",
+      "bytes": 917531811,
+      "files": 681
+    },
+    {
+      "path": "AssetLibrary/audio",
+      "bytes": 831239711,
+      "files": 960
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings",
+      "bytes": 813348913,
+      "files": 588
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015",
+      "bytes": 805081111,
+      "files": 561
+    },
+    {
+      "path": "ConversationBackups",
+      "bytes": 802974904,
+      "files": 208
+    },
+    {
+      "path": "ConversationBackups/objects",
+      "bytes": 801190510,
+      "files": 151
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx",
+      "bytes": 797016296,
+      "files": 568
+    },
+    {
+      "path": "WorkBackups/20261013-122008-S01-done-886184",
+      "bytes": 796065514,
+      "files": 469
+    },
+    {
+      "path": "WorkBackups/20261013-122008-S01-done-886184/files",
+      "bytes": 795969670,
+      "files": 467
+    },
+    {
+      "path": "WorkBackups/20261013-115838-S01-in_progress-6a7858",
+      "bytes": 780398307,
+      "files": 413
+    },
+    {
+      "path": "WorkBackups/20261013-115838-S01-in_progress-6a7858/files",
+      "bytes": 780314358,
+      "files": 411
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet",
+      "bytes": 762424789,
+      "files": 465
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity",
+      "bytes": 756227473,
+      "files": 384
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio",
+      "bytes": 717488981,
+      "files": 298
+    },
+    {
+      "path": "WorkBackups/20261015-173937-S19-in_progress-21c8fa",
+      "bytes": 640176934,
+      "files": 805
+    },
+    {
+      "path": "WorkBackups/20261015-173937-S19-in_progress-21c8fa/files",
+      "bytes": 640011660,
+      "files": 803
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale",
+      "bytes": 631879178,
+      "files": 170
+    },
+    {
+      "path": "WorkBackups/20261015-173548-S19-in_progress-6c0cd5",
+      "bytes": 623742760,
+      "files": 784
+    },
+    {
+      "path": "WorkBackups/20261015-172851-S19-in_progress-7eb55c",
+      "bytes": 623599609,
+      "files": 772
+    },
+    {
+      "path": "WorkBackups/20261015-173548-S19-in_progress-6c0cd5/files",
+      "bytes": 623581741,
+      "files": 782
+    },
+    {
+      "path": "WorkBackups/20261015-172851-S19-in_progress-7eb55c/files",
+      "bytes": 623440658,
+      "files": 770
+    },
+    {
+      "path": "AssetLibrary/characters",
+      "bytes": 614450148,
+      "files": 210
+    },
+    {
+      "path": ".models",
+      "bytes": 564418220,
+      "files": 16
+    },
+    {
+      "path": ".models/blobs",
+      "bytes": 559085394,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/the-free-firearm-sound-library",
+      "bytes": 538623235,
+      "files": 86
+    },
+    {
+      "path": "RestoreChecks",
+      "bytes": 527675354,
+      "files": 542
+    },
+    {
+      "path": "RestoreChecks/S01-0e5a4467",
+      "bytes": 527675354,
+      "files": 542
+    },
+    {
+      "path": "RestoreChecks/S01-0e5a4467/GodotProject",
+      "bytes": 527675354,
+      "files": 542
+    },
+    {
+      "path": "WorkBackups/20261015-183852-S19-in_progress-a5b85f",
+      "bytes": 523008259,
+      "files": 816
+    },
+    {
+      "path": "WorkBackups/20261015-183852-S19-in_progress-a5b85f/files",
+      "bytes": 522839350,
+      "files": 814
+    },
+    {
+      "path": "ReleaseBackups/20261015-pre-S36",
+      "bytes": 521313853,
+      "files": 72
+    },
+    {
+      "path": "WorkBackups/20261015-183216-S19-in_progress-b1bc0e",
+      "bytes": 494240358,
+      "files": 737
+    },
+    {
+      "path": "WorkBackups/20261015-183216-S19-in_progress-b1bc0e/files",
+      "bytes": 494088683,
+      "files": 735
+    },
+    {
+      "path": "WorkBackups/20261015-175138-S19-in_progress-85c8af",
+      "bytes": 491380802,
+      "files": 703
+    },
+    {
+      "path": "WorkBackups/20261015-175138-S19-in_progress-85c8af/files",
+      "bytes": 491236249,
+      "files": 701
+    },
+    {
+      "path": "WorkBackups/20261015-180101-S19-in_progress-92509d",
+      "bytes": 491094535,
+      "files": 733
+    },
+    {
+      "path": "WorkBackups/20261015-180101-S19-in_progress-92509d/files",
+      "bytes": 490943960,
+      "files": 731
+    },
+    {
+      "path": "tools/downloads",
+      "bytes": 484675792,
+      "files": 3
+    },
+    {
+      "path": ".models/blobs/42",
+      "bytes": 483547012,
+      "files": 2
+    },
+    {
+      "path": "WorkBackups/20261015-191423-S31-in_progress-af1166",
+      "bytes": 445942844,
+      "files": 837
+    },
+    {
+      "path": "WorkBackups/20261015-191423-S31-in_progress-af1166/files",
+      "bytes": 445770568,
+      "files": 835
+    },
+    {
+      "path": "WorkBackups/20261015-190020-S31-in_progress-6209dd",
+      "bytes": 439307251,
+      "files": 767
+    },
+    {
+      "path": "WorkBackups/20261015-190020-S31-in_progress-6209dd/files",
+      "bytes": 439150043,
+      "files": 765
+    },
+    {
+      "path": "WorkBackups/20261015-185549-S31-in_progress-1f3a74",
+      "bytes": 438162771,
+      "files": 749
+    },
+    {
+      "path": "WorkBackups/20261015-185549-S31-in_progress-1f3a74/files",
+      "bytes": 438009175,
+      "files": 747
+    },
+    {
+      "path": "WorkBackups/20261015-011211-S31-blocked-a179f1",
+      "bytes": 434943951,
+      "files": 721
+    },
+    {
+      "path": "WorkBackups/20261015-010932-S31-in_progress-f5f72e",
+      "bytes": 434933302,
+      "files": 718
+    },
+    {
+      "path": "WorkBackups/20261015-011211-S31-blocked-a179f1/files",
+      "bytes": 434798536,
+      "files": 719
+    },
+    {
+      "path": "WorkBackups/20261015-010932-S31-in_progress-f5f72e/files",
+      "bytes": 434788352,
+      "files": 716
+    },
+    {
+      "path": "WorkBackups/20261015-184852-S31-in_progress-d6796e",
+      "bytes": 432043458,
+      "files": 694
+    },
+    {
+      "path": "WorkBackups/20261015-184852-S31-in_progress-d6796e/files",
+      "bytes": 431900748,
+      "files": 692
+    },
+    {
+      "path": "WorkBackups/20261015-163227-S32-in_progress-e1bc16",
+      "bytes": 422362370,
+      "files": 713
+    },
+    {
+      "path": "WorkBackups/20261015-163227-S32-in_progress-e1bc16/files",
+      "bytes": 422216496,
+      "files": 711
+    },
+    {
+      "path": "WorkBackups/20261015-155645-S24-in_progress-67193a",
+      "bytes": 405307441,
+      "files": 705
+    },
+    {
+      "path": "WorkBackups/20261015-155015-S24-in_progress-f533bd",
+      "bytes": 405256155,
+      "files": 702
+    },
+    {
+      "path": "WorkBackups/20261015-155645-S24-in_progress-67193a/files",
+      "bytes": 405163327,
+      "files": 703
+    },
+    {
+      "path": "WorkBackups/20261015-155015-S24-in_progress-f533bd/files",
+      "bytes": 405112599,
+      "files": 700
+    },
+    {
+      "path": "WorkBackups/20261015-161717-S32-in_progress-f03c71",
+      "bytes": 403064457,
+      "files": 688
+    },
+    {
+      "path": "WorkBackups/20261015-161717-S32-in_progress-f03c71/files",
+      "bytes": 402924012,
+      "files": 686
+    },
+    {
+      "path": "WorkBackups/20261015-004216-S27-done-e377e7",
+      "bytes": 393609494,
+      "files": 616
+    },
+    {
+      "path": "WorkBackups/20261015-004216-S27-done-e377e7/files",
+      "bytes": 393483417,
+      "files": 614
+    },
+    {
+      "path": "WorkBackups/20261015-154016-S24-in_progress-a7dfdc",
+      "bytes": 390274118,
+      "files": 663
+    },
+    {
+      "path": "WorkBackups/20261015-154016-S24-in_progress-a7dfdc/files",
+      "bytes": 390138780,
+      "files": 661
+    },
+    {
+      "path": "WorkBackups/20261015-112609-S19-in_progress-afb100",
+      "bytes": 385379288,
+      "files": 627
+    },
+    {
+      "path": "WorkBackups/20261015-112609-S19-in_progress-afb100/files",
+      "bytes": 385250590,
+      "files": 625
+    },
+    {
+      "path": "WorkBackups/20261015-112220-S19-in_progress-9196ad",
+      "bytes": 382307010,
+      "files": 609
+    },
+    {
+      "path": "WorkBackups/20261015-112220-S19-in_progress-9196ad/files",
+      "bytes": 382181960,
+      "files": 607
+    },
+    {
+      "path": "WorkBackups/20261013-174833-S10-done-90f870",
+      "bytes": 379433509,
+      "files": 420
+    },
+    {
+      "path": "WorkBackups/20261013-174833-S10-done-90f870/files",
+      "bytes": 379345702,
+      "files": 418
+    },
+    {
+      "path": "WorkBackups/20261015-125054-S19-in_progress-69641e",
+      "bytes": 366155629,
+      "files": 674
+    },
+    {
+      "path": "WorkBackups/20261015-125054-S19-in_progress-69641e/files",
+      "bytes": 366017653,
+      "files": 672
+    },
+    {
+      "path": "WorkBackups/20261015-124814-S19-in_progress-6b7443",
+      "bytes": 366005123,
+      "files": 670
+    },
+    {
+      "path": "WorkBackups/20261015-124814-S19-in_progress-6b7443/files",
+      "bytes": 365868052,
+      "files": 668
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/4.5",
+      "bytes": 364747469,
+      "files": 5456
+    },
+    {
+      "path": "WorkBackups/20261015-105600-S30-in_progress-393cb5",
+      "bytes": 363540767,
+      "files": 613
+    },
+    {
+      "path": "WorkBackups/20261015-105600-S30-in_progress-393cb5/files",
+      "bytes": 363415037,
+      "files": 611
+    },
+    {
+      "path": "WorkBackups/20261015-144420-S23-in_progress-9eb548",
+      "bytes": 363305789,
+      "files": 695
+    },
+    {
+      "path": "WorkBackups/20261015-144420-S23-in_progress-9eb548/files",
+      "bytes": 363163838,
+      "files": 693
+    },
+    {
+      "path": "AssetLibrary/environment/supplement",
+      "bytes": 362084517,
+      "files": 117
+    },
+    {
+      "path": "WorkBackups/20261014-185359-S14-done-157833",
+      "bytes": 361026500,
+      "files": 472
+    },
+    {
+      "path": "WorkBackups/20261014-185359-S14-done-157833/files",
+      "bytes": 360927027,
+      "files": 470
+    },
+    {
+      "path": "WorkBackups/20261015-083852-S35-done-3ab63f",
+      "bytes": 360562954,
+      "files": 678
+    },
+    {
+      "path": "WorkBackups/20261015-083852-S35-done-3ab63f/files",
+      "bytes": 360425275,
+      "files": 676
+    },
+    {
+      "path": "Release/Validation",
+      "bytes": 357462639,
+      "files": 1056
+    },
+    {
+      "path": "WorkBackups/20261013-171635-S10-in_progress-64289b",
+      "bytes": 356598985,
+      "files": 341
+    },
+    {
+      "path": "WorkBackups/20261013-171635-S10-in_progress-64289b/files",
+      "bytes": 356527615,
+      "files": 339
+    },
+    {
+      "path": "WorkBackups/20261015-090741-S17-in_progress-8c869b",
+      "bytes": 356102699,
+      "files": 640
+    },
+    {
+      "path": "WorkBackups/20261015-090741-S17-in_progress-8c869b/files",
+      "bytes": 355971124,
+      "files": 638
+    },
+    {
+      "path": "WorkBackups/20261015-114415-S19-in_progress-141d93",
+      "bytes": 353477739,
+      "files": 633
+    },
+    {
+      "path": "WorkBackups/20261015-114415-S19-in_progress-141d93/files",
+      "bytes": 353347862,
+      "files": 631
+    },
+    {
+      "path": "WorkBackups/20261015-123531-S19-in_progress-fed476",
+      "bytes": 351501501,
+      "files": 651
+    },
+    {
+      "path": "WorkBackups/20261015-123531-S19-in_progress-fed476/files",
+      "bytes": 351368246,
+      "files": 649
+    },
+    {
+      "path": "WorkBackups/20261015-141941-S19-in_progress-f93f48",
+      "bytes": 349704996,
+      "files": 672
+    },
+    {
+      "path": "WorkBackups/20261015-141941-S19-in_progress-f93f48/files",
+      "bytes": 349567760,
+      "files": 670
+    },
+    {
+      "path": "WorkBackups/20261015-121850-S19-in_progress-d53507",
+      "bytes": 348146855,
+      "files": 645
+    },
+    {
+      "path": "WorkBackups/20261015-120857-S19-in_progress-9d49b5",
+      "bytes": 348132455,
+      "files": 633
+    },
+    {
+      "path": "WorkBackups/20261015-121850-S19-in_progress-d53507/files",
+      "bytes": 348014795,
+      "files": 643
+    },
+    {
+      "path": "WorkBackups/20261015-120857-S19-in_progress-9d49b5/files",
+      "bytes": 348002811,
+      "files": 631
+    },
+    {
+      "path": "WorkBackups/20261015-002525-S26-done-2aa71c",
+      "bytes": 347384558,
+      "files": 551
+    },
+    {
+      "path": "WorkBackups/20261015-002525-S26-done-2aa71c/files",
+      "bytes": 347270696,
+      "files": 549
+    },
+    {
+      "path": "WorkBackups/20261015-131800-S30-in_progress-8d4532",
+      "bytes": 344604483,
+      "files": 666
+    },
+    {
+      "path": "WorkBackups/20261015-131800-S30-in_progress-8d4532/files",
+      "bytes": 344467753,
+      "files": 664
+    },
+    {
+      "path": "WorkBackups/20261015-131434-S30-in_progress-4c9994",
+      "bytes": 344440494,
+      "files": 649
+    },
+    {
+      "path": "WorkBackups/20261015-140720-S19-in_progress-bcc3b1",
+      "bytes": 344311222,
+      "files": 656
+    },
+    {
+      "path": "WorkBackups/20261015-131434-S30-in_progress-4c9994/files",
+      "bytes": 344307570,
+      "files": 647
+    },
+    {
+      "path": "WorkBackups/20261015-140720-S19-in_progress-bcc3b1/files",
+      "bytes": 344177128,
+      "files": 654
+    },
+    {
+      "path": "WorkBackups/20261015-133024-S32-in_progress-76d203",
+      "bytes": 341276156,
+      "files": 647
+    },
+    {
+      "path": "WorkBackups/20261015-080213-S31-done-a03347",
+      "bytes": 341172865,
+      "files": 678
+    },
+    {
+      "path": "WorkBackups/20261015-133024-S32-in_progress-76d203/files",
+      "bytes": 341143794,
+      "files": 645
+    },
+    {
+      "path": "WorkBackups/20261015-080213-S31-done-a03347/files",
+      "bytes": 341035093,
+      "files": 676
+    },
+    {
+      "path": "WorkBackups/20261015-154001-S19-in_progress-d1bc56",
+      "bytes": 340780408,
+      "files": 655
+    },
+    {
+      "path": "WorkBackups/20261015-132631-S32-in_progress-27951b",
+      "bytes": 340665311,
+      "files": 641
+    },
+    {
+      "path": "WorkBackups/20261015-154001-S19-in_progress-d1bc56/files",
+      "bytes": 340646592,
+      "files": 653
+    },
+    {
+      "path": "WorkBackups/20261015-130719-S30-in_progress-f212c9",
+      "bytes": 340636901,
+      "files": 637
+    },
+    {
+      "path": "WorkBackups/20261015-132631-S32-in_progress-27951b/files",
+      "bytes": 340534171,
+      "files": 639
+    },
+    {
+      "path": "WorkBackups/20261015-130719-S30-in_progress-f212c9/files",
+      "bytes": 340506421,
+      "files": 635
+    },
+    {
+      "path": "docs/expansion_20261015/village",
+      "bytes": 333462627,
+      "files": 4
+    },
+    {
+      "path": "WorkBackups/20261015-113847-S19-in_progress-35129d",
+      "bytes": 333203093,
+      "files": 609
+    },
+    {
+      "path": "WorkBackups/20261015-113847-S19-in_progress-35129d/files",
+      "bytes": 333078085,
+      "files": 607
+    },
+    {
+      "path": "WorkBackups/20261015-120623-S19-in_progress-d9014c",
+      "bytes": 333076867,
+      "files": 610
+    },
+    {
+      "path": "WorkBackups/20261015-120623-S19-in_progress-d9014c/files",
+      "bytes": 332951603,
+      "files": 608
+    },
+    {
+      "path": "WorkBackups/20261014-141042-S12-done-764e4e",
+      "bytes": 329248936,
+      "files": 520
+    },
+    {
+      "path": "WorkBackups/20261014-141042-S12-done-764e4e/files",
+      "bytes": 329140832,
+      "files": 518
+    },
+    {
+      "path": "WorkBackups/20261014-130903-S12-in_progress-be6d3a",
+      "bytes": 315358315,
+      "files": 491
+    },
+    {
+      "path": "WorkBackups/20261014-130903-S12-in_progress-be6d3a/files",
+      "bytes": 315255495,
+      "files": 489
+    },
+    {
+      "path": "WorkBackups/20261013-144233-S07-done-83b039",
+      "bytes": 314596540,
+      "files": 492
+    },
+    {
+      "path": "WorkBackups/20261013-144233-S07-done-83b039/files",
+      "bytes": 314496794,
+      "files": 490
+    },
+    {
+      "path": "WorkBackups/20261015-002027-S26-in_progress-ba902f",
+      "bytes": 308516968,
+      "files": 503
+    },
+    {
+      "path": "WorkBackups/20261015-002027-S26-in_progress-ba902f/files",
+      "bytes": 308411823,
+      "files": 501
+    },
+    {
+      "path": "WorkBackups/20261015-085030-S33-blocked-e47692",
+      "bytes": 306697327,
+      "files": 613
+    },
+    {
+      "path": "WorkBackups/20261015-085030-S33-blocked-e47692/files",
+      "bytes": 306571348,
+      "files": 611
+    },
+    {
+      "path": "WorkBackups/20261015-084906-S34-done-77e1fb",
+      "bytes": 306280841,
+      "files": 613
+    },
+    {
+      "path": "WorkBackups/20261015-085020-S32-blocked-fcee97",
+      "bytes": 306274221,
+      "files": 608
+    },
+    {
+      "path": "WorkBackups/20261015-104907-S32-in_progress-7eb863",
+      "bytes": 306273979,
+      "files": 596
+    },
+    {
+      "path": "WorkBackups/20261015-082500-S35-done-fca73c",
+      "bytes": 306203733,
+      "files": 587
+    },
+    {
+      "path": "WorkBackups/20261015-083113-S33-blocked-f3613d",
+      "bytes": 306200200,
+      "files": 587
+    },
+    {
+      "path": "WorkBackups/20261015-083149-S35-in_progress-bdc5cf",
+      "bytes": 306192285,
+      "files": 583
+    },
+    {
+      "path": "WorkBackups/20261015-081318-S33-done-8f2a15",
+      "bytes": 306176455,
+      "files": 581
+    },
+    {
+      "path": "WorkBackups/20261015-081627-S34-done-c09ff0",
+      "bytes": 306173567,
+      "files": 576
+    },
+    {
+      "path": "WorkBackups/20261015-081646-S35-in_progress-73c38e",
+      "bytes": 306172759,
+      "files": 575
+    },
+    {
+      "path": "WorkBackups/20261015-080940-S32-done-f5a1d8",
+      "bytes": 306168823,
+      "files": 581
+    },
+    {
+      "path": "WorkBackups/20261015-081003-S33-in_progress-b0604b",
+      "bytes": 306162706,
+      "files": 577
+    },
+    {
+      "path": "WorkBackups/20261015-084906-S34-done-77e1fb/files",
+      "bytes": 306155045,
+      "files": 611
+    },
+    {
+      "path": "WorkBackups/20261015-104907-S32-in_progress-7eb863/files",
+      "bytes": 306151477,
+      "files": 594
+    },
+    {
+      "path": "WorkBackups/20261015-085020-S32-blocked-fcee97/files",
+      "bytes": 306149196,
+      "files": 606
+    },
+    {
+      "path": "WorkBackups/20261015-080611-S32-in_progress-1f1707",
+      "bytes": 306142549,
+      "files": 572
+    },
+    {
+      "path": "WorkBackups/20261015-082500-S35-done-fca73c/files",
+      "bytes": 306082906,
+      "files": 585
+    },
+    {
+      "path": "WorkBackups/20261015-083113-S33-blocked-f3613d/files",
+      "bytes": 306079583,
+      "files": 585
+    },
+    {
+      "path": "WorkBackups/20261015-083149-S35-in_progress-bdc5cf/files",
+      "bytes": 306072332,
+      "files": 581
+    },
+    {
+      "path": "WorkBackups/20261015-081318-S33-done-8f2a15/files",
+      "bytes": 306056913,
+      "files": 579
+    },
+    {
+      "path": "WorkBackups/20261015-081627-S34-done-c09ff0/files",
+      "bytes": 306054903,
+      "files": 574
+    },
+    {
+      "path": "WorkBackups/20261015-081646-S35-in_progress-73c38e/files",
+      "bytes": 306054292,
+      "files": 573
+    },
+    {
+      "path": "WorkBackups/20261015-080940-S32-done-f5a1d8/files",
+      "bytes": 306049298,
+      "files": 579
+    },
+    {
+      "path": "WorkBackups/20261015-081003-S33-in_progress-b0604b/files",
+      "bytes": 306043880,
+      "files": 575
+    },
+    {
+      "path": "WorkBackups/20261015-080611-S32-in_progress-1f1707/files",
+      "bytes": 306024663,
+      "files": 570
+    },
+    {
+      "path": "WorkBackups/20261014-223452-S22-done-41d74c",
+      "bytes": 301429416,
+      "files": 504
+    },
+    {
+      "path": "WorkBackups/20261014-205954-S21-done-d9f1b0",
+      "bytes": 301407606,
+      "files": 495
+    },
+    {
+      "path": "WorkBackups/20261014-210324-S22-in_progress-0582b2",
+      "bytes": 301407371,
+      "files": 495
+    },
+    {
+      "path": "WorkBackups/20261014-223452-S22-done-41d74c/files",
+      "bytes": 301324473,
+      "files": 502
+    },
+    {
+      "path": "WorkBackups/20261014-205954-S21-done-d9f1b0/files",
+      "bytes": 301304197,
+      "files": 493
+    },
+    {
+      "path": "WorkBackups/20261014-210324-S22-in_progress-0582b2/files",
+      "bytes": 301304040,
+      "files": 493
+    },
+    {
+      "path": "WorkBackups/20261014-231000-S23-done-4935ac",
+      "bytes": 300240369,
+      "files": 510
+    },
+    {
+      "path": "WorkBackups/20261014-231109-S24-in_progress-d2d7bf",
+      "bytes": 300221549,
+      "files": 502
+    },
+    {
+      "path": "WorkBackups/20261014-231000-S23-done-4935ac/files",
+      "bytes": 300134237,
+      "files": 508
+    },
+    {
+      "path": "WorkBackups/20261014-231109-S24-in_progress-d2d7bf/files",
+      "bytes": 300116968,
+      "files": 500
+    },
+    {
+      "path": "WorkBackups/20261014-233109-S24-done-7cb1f4",
+      "bytes": 299203313,
+      "files": 511
+    },
+    {
+      "path": "WorkBackups/20261014-233217-S25-in_progress-41224a",
+      "bytes": 299184485,
+      "files": 502
+    },
+    {
+      "path": "WorkBackups/20261014-233109-S24-done-7cb1f4/files",
+      "bytes": 299096971,
+      "files": 509
+    },
+    {
+      "path": "WorkBackups/20261014-233217-S25-in_progress-41224a/files",
+      "bytes": 299079879,
+      "files": 500
+    },
+    {
+      "path": "WorkBackups/20261015-000315-S25-done-6b95e6",
+      "bytes": 298914782,
+      "files": 499
+    },
+    {
+      "path": "WorkBackups/20261015-000315-S25-done-6b95e6/files",
+      "bytes": 298810665,
+      "files": 497
+    },
+    {
+      "path": "WorkBackups/20261014-224939-S23-in_progress-7184aa",
+      "bytes": 298604610,
+      "files": 494
+    },
+    {
+      "path": "WorkBackups/20261014-224939-S23-in_progress-7184aa/files",
+      "bytes": 298501348,
+      "files": 492
+    },
+    {
+      "path": "WorkBackups/20261014-204346-S21-in_progress-9250dd",
+      "bytes": 298117598,
+      "files": 484
+    },
+    {
+      "path": "WorkBackups/20261014-204346-S21-in_progress-9250dd/files",
+      "bytes": 298016186,
+      "files": 482
+    },
+    {
+      "path": "WorkBackups/20261015-010502-S30-in_progress-205505",
+      "bytes": 297090488,
+      "files": 512
+    },
+    {
+      "path": "WorkBackups/20261015-010239-S30-in_progress-5967cf",
+      "bytes": 297082087,
+      "files": 509
+    },
+    {
+      "path": "WorkBackups/20261015-010508-S31-in_progress-9a3259",
+      "bytes": 297078114,
+      "files": 507
+    },
+    {
+      "path": "WorkBackups/20261015-003207-S27-in_progress-fab876",
+      "bytes": 297064941,
+      "files": 498
+    },
+    {
+      "path": "WorkBackups/20261015-005906-S30-in_progress-ba0dca",
+      "bytes": 297063787,
+      "files": 494
+    },
+    {
+      "path": "WorkBackups/20261015-004333-S28-in_progress-1dd32e",
+      "bytes": 297052120,
+      "files": 492
+    },
+    {
+      "path": "WorkBackups/20261015-002600-S27-in_progress-f7e40b",
+      "bytes": 297030422,
+      "files": 489
+    },
+    {
+      "path": "WorkBackups/20261015-000430-S26-in_progress-961dfa",
+      "bytes": 297008865,
+      "files": 486
+    },
+    {
+      "path": "WorkBackups/20261015-010502-S30-in_progress-205505/files",
+      "bytes": 296984086,
+      "files": 510
+    },
+    {
+      "path": "WorkBackups/20261015-010239-S30-in_progress-5967cf/files",
+      "bytes": 296976203,
+      "files": 507
+    },
+    {
+      "path": "WorkBackups/20261014-223553-S23-in_progress-147919",
+      "bytes": 296973604,
+      "files": 481
+    },
+    {
+      "path": "WorkBackups/20261015-010508-S31-in_progress-9a3259/files",
+      "bytes": 296972621,
+      "files": 505
+    },
+    {
+      "path": "WorkBackups/20261015-003207-S27-in_progress-fab876/files",
+      "bytes": 296961018,
+      "files": 496
+    },
+    {
+      "path": "WorkBackups/20261015-005906-S30-in_progress-ba0dca/files",
+      "bytes": 296960607,
+      "files": 492
+    },
+    {
+      "path": "WorkBackups/20261015-004333-S28-in_progress-1dd32e/files",
+      "bytes": 296949302,
+      "files": 490
+    },
+    {
+      "path": "WorkBackups/20261015-002600-S27-in_progress-f7e40b/files",
+      "bytes": 296928169,
+      "files": 487
+    },
+    {
+      "path": "WorkBackups/20261015-000430-S26-in_progress-961dfa/files",
+      "bytes": 296907047,
+      "files": 484
+    },
+    {
+      "path": "WorkBackups/20261014-223553-S23-in_progress-147919/files",
+      "bytes": 296872883,
+      "files": 479
+    },
+    {
+      "path": "WorkBackups/20261014-183720-S13-done-d3436d",
+      "bytes": 296216724,
+      "files": 481
+    },
+    {
+      "path": "WorkBackups/20261014-183720-S13-done-d3436d/files",
+      "bytes": 296115777,
+      "files": 479
+    },
+    {
+      "path": "WorkBackups/20261014-200416-S20-done-3ea42e",
+      "bytes": 295851067,
+      "files": 468
+    },
+    {
+      "path": "WorkBackups/20261014-195903-S19-done-25558a",
+      "bytes": 295848288,
+      "files": 471
+    },
+    {
+      "path": "WorkBackups/20261014-194841-S18-done-132928",
+      "bytes": 295841841,
+      "files": 470
+    },
+    {
+      "path": "WorkBackups/20261014-200557-S21-in_progress-b0a416",
+      "bytes": 295841449,
+      "files": 465
+    },
+    {
+      "path": "WorkBackups/20261014-192133-S16-done-42837a",
+      "bytes": 295839755,
+      "files": 469
+    },
+    {
+      "path": "WorkBackups/20261014-200016-S20-in_progress-70990d",
+      "bytes": 295839602,
+      "files": 465
+    },
+    {
+      "path": "WorkBackups/20261014-193422-S17-done-c3e744",
+      "bytes": 295836197,
+      "files": 468
+    },
+    {
+      "path": "WorkBackups/20261014-144606-S13-in_progress-50ca4d",
+      "bytes": 295834041,
+      "files": 460
+    },
+    {
+      "path": "WorkBackups/20261014-195011-S19-in_progress-bebe0a",
+      "bytes": 295833514,
+      "files": 464
+    },
+    {
+      "path": "WorkBackups/20261014-193719-S18-in_progress-f2f581",
+      "bytes": 295827834,
+      "files": 463
+    },
+    {
+      "path": "WorkBackups/20261014-192246-S17-in_progress-3309ef",
+      "bytes": 295821307,
+      "files": 462
+    },
+    {
+      "path": "WorkBackups/20261014-190227-S15-done-96350b",
+      "bytes": 295818541,
+      "files": 466
+    },
+    {
+      "path": "WorkBackups/20261014-190318-S16-in_progress-9f8e0c",
+      "bytes": 295805181,
+      "files": 460
+    },
+    {
+      "path": "WorkBackups/20261014-185543-S15-in_progress-1de9a2",
+      "bytes": 295799822,
+      "files": 459
+    },
+    {
+      "path": "WorkBackups/20261014-184626-S14-in_progress-c0cab4",
+      "bytes": 295797581,
+      "files": 459
+    },
+    {
+      "path": "WorkBackups/20261014-143952-S13-in_progress-a4bd0b",
+      "bytes": 295785277,
+      "files": 458
+    },
+    {
+      "path": "WorkBackups/20261014-200416-S20-done-3ea42e/files",
+      "bytes": 295752613,
+      "files": 466
+    },
+    {
+      "path": "WorkBackups/20261014-195903-S19-done-25558a/files",
+      "bytes": 295749376,
+      "files": 469
+    },
+    {
+      "path": "WorkBackups/20261014-200557-S21-in_progress-b0a416/files",
+      "bytes": 295743615,
+      "files": 463
+    },
+    {
+      "path": "WorkBackups/20261014-194841-S18-done-132928/files",
+      "bytes": 295743082,
+      "files": 468
+    },
+    {
+      "path": "WorkBackups/20261014-200016-S20-in_progress-70990d/files",
+      "bytes": 295741798,
+      "files": 463
+    },
+    {
+      "path": "WorkBackups/20261014-192133-S16-done-42837a/files",
+      "bytes": 295741176,
+      "files": 467
+    },
+    {
+      "path": "WorkBackups/20261014-193422-S17-done-c3e744/files",
+      "bytes": 295737789,
+      "files": 466
+    },
+    {
+      "path": "WorkBackups/20261014-144606-S13-in_progress-50ca4d/files",
+      "bytes": 295737066,
+      "files": 458
+    },
+    {
+      "path": "WorkBackups/20261014-195011-S19-in_progress-bebe0a/files",
+      "bytes": 295735847,
+      "files": 462
+    },
+    {
+      "path": "WorkBackups/20261014-193719-S18-in_progress-f2f581/files",
+      "bytes": 295730314,
+      "files": 461
+    },
+    {
+      "path": "WorkBackups/20261014-192246-S17-in_progress-3309ef/files",
+      "bytes": 295723984,
+      "files": 460
+    },
+    {
+      "path": "WorkBackups/20261014-190227-S15-done-96350b/files",
+      "bytes": 295720453,
+      "files": 464
+    },
+    {
+      "path": "WorkBackups/20261014-190318-S16-in_progress-9f8e0c/files",
+      "bytes": 295708217,
+      "files": 458
+    },
+    {
+      "path": "WorkBackups/20261014-185543-S15-in_progress-1de9a2/files",
+      "bytes": 295703021,
+      "files": 457
+    },
+    {
+      "path": "WorkBackups/20261014-184626-S14-in_progress-c0cab4/files",
+      "bytes": 295700795,
+      "files": 457
+    },
+    {
+      "path": "WorkBackups/20261014-143952-S13-in_progress-a4bd0b/files",
+      "bytes": 295688734,
+      "files": 456
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.shared",
+      "bytes": 292816419,
+      "files": 465
+    },
+    {
+      "path": "WorkBackups/20261013-202324-S11-done-f7924d",
+      "bytes": 281390690,
+      "files": 451
+    },
+    {
+      "path": "WorkBackups/20261013-202324-S11-done-f7924d/files",
+      "bytes": 281296098,
+      "files": 449
+    },
+    {
+      "path": "docs/expansion_20261015/river",
+      "bytes": 280272069,
+      "files": 4
+    },
+    {
+      "path": "WorkBackups/20261014-115232-S12-in_progress-fd560e",
+      "bytes": 276106329,
+      "files": 436
+    },
+    {
+      "path": "WorkBackups/20261014-115232-S12-in_progress-fd560e/files",
+      "bytes": 276014166,
+      "files": 434
+    },
+    {
+      "path": "WorkBackups/20261013-153744-S09-done-7555a6",
+      "bytes": 273054066,
+      "files": 428
+    },
+    {
+      "path": "WorkBackups/20261013-153744-S09-done-7555a6/files",
+      "bytes": 272966976,
+      "files": 426
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_base_characters",
+      "bytes": 261549752,
+      "files": 114
+    },
+    {
+      "path": "WorkBackups/20261013-185710-P00-in_progress-b597ee",
+      "bytes": 254084639,
+      "files": 414
+    },
+    {
+      "path": "WorkBackups/20261013-185710-P00-in_progress-b597ee/files",
+      "bytes": 253998414,
+      "files": 412
+    },
+    {
+      "path": "WorkBackups/20261013-191125-P00-in_progress-a4348c",
+      "bytes": 253997759,
+      "files": 411
+    },
+    {
+      "path": "WorkBackups/20261013-193723-S11-in_progress-a18336",
+      "bytes": 253994970,
+      "files": 409
+    },
+    {
+      "path": "WorkBackups/20261013-191125-P00-in_progress-a4348c/files",
+      "bytes": 253912099,
+      "files": 409
+    },
+    {
+      "path": "WorkBackups/20261013-193723-S11-in_progress-a18336/files",
+      "bytes": 253909655,
+      "files": 407
+    },
+    {
+      "path": "docs/level/S09",
+      "bytes": 253803431,
+      "files": 104
+    },
+    {
+      "path": "GodotProject/assets/environment",
+      "bytes": 247747671,
+      "files": 282
+    },
+    {
+      "path": "WorkBackups/20261013-150650-S09-in_progress-0e16f3",
+      "bytes": 232189225,
+      "files": 337
+    },
+    {
+      "path": "WorkBackups/20261013-150650-S09-in_progress-0e16f3/files",
+      "bytes": 232118897,
+      "files": 335
+    },
+    {
+      "path": "WorkBackups/20261013-141612-S07-in_progress-3f2d27",
+      "bytes": 232080406,
+      "files": 344
+    },
+    {
+      "path": "WorkBackups/20261013-141612-S07-in_progress-3f2d27/files",
+      "bytes": 232008531,
+      "files": 342
+    },
+    {
+      "path": "WorkBackups/20261013-154144-S10-in_progress-9f8435",
+      "bytes": 231838833,
+      "files": 327
+    },
+    {
+      "path": "WorkBackups/20261013-151736-S09-in_progress-053eb2",
+      "bytes": 231797972,
+      "files": 323
+    },
+    {
+      "path": "WorkBackups/20261013-154144-S10-in_progress-9f8435/files",
+      "bytes": 231770249,
+      "files": 325
+    },
+    {
+      "path": "WorkBackups/20261013-151736-S09-in_progress-053eb2/files",
+      "bytes": 231730059,
+      "files": 321
+    },
+    {
+      "path": "AssetLibrary/environment/models",
+      "bytes": 226710235,
+      "files": 122
+    },
+    {
+      "path": "WorkBackups/20261013-140140-S07-in_progress-d6b7b2",
+      "bytes": 225648993,
+      "files": 331
+    },
+    {
+      "path": "WorkBackups/20261013-140140-S07-in_progress-d6b7b2/files",
+      "bytes": 225579676,
+      "files": 329
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016",
+      "bytes": 217676720,
+      "files": 492
+    },
+    {
+      "path": "docs/settlement_revision_20261015",
+      "bytes": 197569299,
+      "files": 328
+    },
+    {
+      "path": "tools/Godot-4.7.2",
+      "bytes": 181057040,
+      "files": 2
+    },
+    {
+      "path": "AssetLibrary/environment/textures",
+      "bytes": 172353174,
+      "files": 71
+    },
+    {
+      "path": "AssetLibrary/environment/china_northeast_20261013",
+      "bytes": 159046526,
+      "files": 246
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings/Validation",
+      "bytes": 149175806,
+      "files": 469
+    },
+    {
+      "path": "docs/level/S17",
+      "bytes": 148251072,
+      "files": 203
+    },
+    {
+      "path": "docs/archive",
+      "bytes": 142700347,
+      "files": 518
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx/Validation",
+      "bytes": 140401619,
+      "files": 452
+    },
+    {
+      "path": "docs/level/S25",
+      "bytes": 136216173,
+      "files": 201
+    },
+    {
+      "path": "GodotProject/assets/characters",
+      "bytes": 125193089,
+      "files": 71
+    },
+    {
+      "path": "AssetLibrary/characters/user_models_20261015",
+      "bytes": 124433645,
+      "files": 35
+    },
+    {
+      "path": "docs/expansion_20261015/dock",
+      "bytes": 112377688,
+      "files": 4
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet/Validation",
+      "bytes": 105980423,
+      "files": 352
+    },
+    {
+      "path": "WorkBackups/20261015-005828-S29-in_progress-075e43",
+      "bytes": 103169690,
+      "files": 139
+    },
+    {
+      "path": "WorkBackups/20261015-005828-S29-in_progress-075e43/files",
+      "bytes": 103143608,
+      "files": 137
+    },
+    {
+      "path": "WorkBackups/20261016-131635-P00-done-dc30e0",
+      "bytes": 103117160,
+      "files": 278
+    },
+    {
+      "path": "WorkBackups/20261016-131635-P00-done-dc30e0/files",
+      "bytes": 103055271,
+      "files": 276
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity/Validation",
+      "bytes": 99816666,
+      "files": 273
+    },
+    {
+      "path": "docs/level/S27",
+      "bytes": 96789083,
+      "files": 145
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_ual2",
+      "bytes": 91573184,
+      "files": 15
+    },
+    {
+      "path": "docs/archive/workspace-20261015",
+      "bytes": 91411280,
+      "files": 288
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio/Validation",
+      "bytes": 88398423,
+      "files": 192
+    },
+    {
+      "path": "AssetLibrary/audio/S29_20261015",
+      "bytes": 87391268,
+      "files": 28
+    },
+    {
+      "path": "Release/Validation/expansion_20261015",
+      "bytes": 84166508,
+      "files": 200
+    },
+    {
+      "path": "docs/narrative",
+      "bytes": 82532052,
+      "files": 162
+    },
+    {
+      "path": "docs/narrative/S07",
+      "bytes": 82298981,
+      "files": 141
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015",
+      "bytes": 79645071,
+      "files": 214
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_ual1",
+      "bytes": 79585957,
+      "files": 11
+    },
+    {
+      "path": ".models/blobs/95",
+      "bytes": 75538379,
+      "files": 2
+    },
+    {
+      "path": "docs/level/S19",
+      "bytes": 74837223,
+      "files": 324
+    },
+    {
+      "path": "docs/river_journey_20261016",
+      "bytes": 66407546,
+      "files": 210
+    },
+    {
+      "path": "docs/user-models-20261015",
+      "bytes": 60017074,
+      "files": 100
+    },
+    {
+      "path": "AssetLibrary/derived/S10_buildings",
+      "bytes": 59744803,
+      "files": 5
+    },
+    {
+      "path": "docs/level/S36",
+      "bytes": 58616707,
+      "files": 160
+    },
+    {
+      "path": "Release/Validation/first_level_rebuild_20261016",
+      "bytes": 55649215,
+      "files": 169
+    },
+    {
+      "path": "Release/Validation/user-model-fix-final-20261015",
+      "bytes": 55318223,
+      "files": 105
+    },
+    {
+      "path": "docs/archive/workspace-20261016",
+      "bytes": 51289067,
+      "files": 230
+    },
+    {
+      "path": "docs/maintenance",
+      "bytes": 51150408,
+      "files": 10
+    },
+    {
+      "path": "docs/maintenance/workspace-20261016",
+      "bytes": 51150408,
+      "files": 10
+    },
+    {
+      "path": "Release/Validation/settlement_revision_20261015",
+      "bytes": 51120210,
+      "files": 170
+    },
+    {
+      "path": "docs/expansion_20261015/camp",
+      "bytes": 50533088,
+      "files": 4
+    },
+    {
+      "path": "docs/level/S26",
+      "bytes": 50374011,
+      "files": 74
+    },
+    {
+      "path": "AssetReview",
+      "bytes": 50001009,
+      "files": 118
+    },
+    {
+      "path": "AssetLibrary/audio/super-foley-pack",
+      "bytes": 47626861,
+      "files": 17
+    },
+    {
+      "path": "docs/validation",
+      "bytes": 46535224,
+      "files": 172
+    },
+    {
+      "path": "GodotProject/assets/audio",
+      "bytes": 45812794,
+      "files": 118
+    },
+    {
+      "path": "docs/expansion_20261015/office",
+      "bytes": 43343587,
+      "files": 4
+    },
+    {
+      "path": "docs/audio",
+      "bytes": 40710169,
+      "files": 382
+    },
+    {
+      "path": "Release/Validation/user-models-20261015",
+      "bytes": 40233074,
+      "files": 86
+    },
+    {
+      "path": "AssetLibrary/audio/S31_20261015",
+      "bytes": 34970633,
+      "files": 96
+    },
+    {
+      "path": "docs/user-polish-20261015",
+      "bytes": 33138817,
+      "files": 57
+    },
+    {
+      "path": "Release/Validation/polish-20261015",
+      "bytes": 33138110,
+      "files": 56
+    },
+    {
+      "path": "docs/level/S12",
+      "bytes": 32828660,
+      "files": 77
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v2",
+      "bytes": 32472547,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/resume-polish",
+      "bytes": 31472708,
+      "files": 40
+    },
+    {
+      "path": "AssetLibrary/characters/godot_tps_player",
+      "bytes": 30538448,
+      "files": 12
+    },
+    {
+      "path": "AssetLibrary/weapons",
+      "bytes": 29954946,
+      "files": 15
+    },
+    {
+      "path": "AssetLibrary/weapons/lee_enfield",
+      "bytes": 29949950,
+      "files": 13
+    },
+    {
+      "path": "docs/level/S23",
+      "bytes": 27727845,
+      "files": 111
+    },
+    {
+      "path": "AssetLibrary/audio/user_20261015",
+      "bytes": 27119527,
+      "files": 3
+    },
+    {
+      "path": "WorkBackups/20261016-131132-P00-in_progress-241dc0",
+      "bytes": 26675004,
+      "files": 42
+    },
+    {
+      "path": "WorkBackups/20261016-131132-P00-in_progress-241dc0/files",
+      "bytes": 26667206,
+      "files": 40
+    },
+    {
+      "path": "WorkBackups/20261015-203108-P00-done-2c596e",
+      "bytes": 25474745,
+      "files": 45
+    },
+    {
+      "path": "WorkBackups/20261015-203108-P00-done-2c596e/files",
+      "bytes": 25466198,
+      "files": 43
+    },
+    {
+      "path": "docs/file-audit-20261015-2026",
+      "bytes": 24931681,
+      "files": 13
+    },
+    {
+      "path": "Release/Validation/river_journey_20261016",
+      "bytes": 24778075,
+      "files": 139
+    },
+    {
+      "path": "AssetLibrary/characters/field_character",
+      "bytes": 24485920,
+      "files": 5
+    },
+    {
+      "path": "docs/validation/release",
+      "bytes": 23286203,
+      "files": 86
+    },
+    {
+      "path": "docs/validation/source",
+      "bytes": 23249021,
+      "files": 86
+    },
+    {
+      "path": "WorkBackups/20261015-182115-P00-done-af4452",
+      "bytes": 22745185,
+      "files": 45
+    },
+    {
+      "path": "WorkBackups/20261015-182115-P00-done-af4452/files",
+      "bytes": 22736713,
+      "files": 43
+    },
+    {
+      "path": "docs/level/S24",
+      "bytes": 22248234,
+      "files": 84
+    },
+    {
+      "path": "docs/file-audit-20261015",
+      "bytes": 22244409,
+      "files": 13
+    },
+    {
+      "path": "AssetLibrary/audio/handling-guns",
+      "bytes": 21734122,
+      "files": 16
+    },
+    {
+      "path": "ReleaseBackups/20261015-pre-S36/verification-captures",
+      "bytes": 20910828,
+      "files": 23
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio/verification-captures",
+      "bytes": 20910828,
+      "files": 23
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity/verification-captures",
+      "bytes": 20910828,
+      "files": 23
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx/verification-captures",
+      "bytes": 20910828,
+      "files": 23
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet/verification-captures",
+      "bytes": 20910828,
+      "files": 23
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings/verification-captures",
+      "bytes": 20910828,
+      "files": 23
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale/verification-captures",
+      "bytes": 20910828,
+      "files": 23
+    },
+    {
+      "path": "AssetReview/ready",
+      "bytes": 20558754,
+      "files": 15
+    },
+    {
+      "path": "WorkBackups/20261013-211649-P00-done-6f87b5",
+      "bytes": 20458057,
+      "files": 71
+    },
+    {
+      "path": "WorkBackups/20261013-211649-P00-done-6f87b5/files",
+      "bytes": 20445188,
+      "files": 69
+    },
+    {
+      "path": "WorkBackups/20261013-222750-P00-done-240c3c",
+      "bytes": 20399650,
+      "files": 58
+    },
+    {
+      "path": "WorkBackups/20261013-222750-P00-done-240c3c/files",
+      "bytes": 20389125,
+      "files": 56
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/dressing-third",
+      "bytes": 19522958,
+      "files": 20
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-accepted-v3",
+      "bytes": 19513773,
+      "files": 20
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-render-final",
+      "bytes": 19513409,
+      "files": 20
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-render",
+      "bytes": 19513320,
+      "files": 20
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-accepted",
+      "bytes": 19507874,
+      "files": 20
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-accepted-v2",
+      "bytes": 19506051,
+      "files": 20
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render-final",
+      "bytes": 19505960,
+      "files": 20
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/dressing-second",
+      "bytes": 19388321,
+      "files": 20
+    },
+    {
+      "path": "docs/user-revision-20261015",
+      "bytes": 19139474,
+      "files": 53
+    },
+    {
+      "path": "AssetReview/assets",
+      "bytes": 17427080,
+      "files": 22
+    },
+    {
+      "path": "docs/settlement_revision_20261015/polish",
+      "bytes": 16121790,
+      "files": 20
+    },
+    {
+      "path": "docs/user-models-20261015/volunteer",
+      "bytes": 15106306,
+      "files": 6
+    },
+    {
+      "path": "ReleaseBackups/20261015-pre-S36/hand-captures",
+      "bytes": 13771524,
+      "files": 11
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio/hand-captures",
+      "bytes": 13771524,
+      "files": 11
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity/hand-captures",
+      "bytes": 13771524,
+      "files": 11
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx/hand-captures",
+      "bytes": 13771524,
+      "files": 11
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet/hand-captures",
+      "bytes": 13771524,
+      "files": 11
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings/hand-captures",
+      "bytes": 13771524,
+      "files": 11
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale/hand-captures",
+      "bytes": 13771524,
+      "files": 11
+    },
+    {
+      "path": "docs/expansion_20261015/resume-motion-release-captured",
+      "bytes": 13356347,
+      "files": 11
+    },
+    {
+      "path": "docs/expansion_20261015/resume-motion-attempt01",
+      "bytes": 13336463,
+      "files": 11
+    },
+    {
+      "path": "docs/expansion_20261015/rifle-render-source",
+      "bytes": 13193346,
+      "files": 11
+    },
+    {
+      "path": "docs/audio/dialogue_retake_20261015",
+      "bytes": 13060286,
+      "files": 132
+    },
+    {
+      "path": "Release/Validation/dialogue_retake_20261015",
+      "bytes": 13059224,
+      "files": 131
+    },
+    {
+      "path": "tools/grip-final",
+      "bytes": 13042702,
+      "files": 10
+    },
+    {
+      "path": "AssetReview/assets/lee_enfield",
+      "bytes": 12915365,
+      "files": 8
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-gameplay",
+      "bytes": 12105879,
+      "files": 16
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-gameplay",
+      "bytes": 12067144,
+      "files": 16
+    },
+    {
+      "path": "AssetLibrary/environment/hdris",
+      "bytes": 11898530,
+      "files": 2
+    },
+    {
+      "path": "AssetReview/previews",
+      "bytes": 11814424,
+      "files": 36
+    },
+    {
+      "path": "AssetLibrary/first_person",
+      "bytes": 11749699,
+      "files": 18
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/source-render",
+      "bytes": 11714884,
+      "files": 14
+    },
+    {
+      "path": "tools/asset_python",
+      "bytes": 11563737,
+      "files": 741
+    },
+    {
+      "path": "docs/audio/user_20261015",
+      "bytes": 11418382,
+      "files": 82
+    },
+    {
+      "path": "docs/river_journey_20261016/source-before-waterline",
+      "bytes": 11400153,
+      "files": 13
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-final",
+      "bytes": 11388142,
+      "files": 13
+    },
+    {
+      "path": "docs/river_journey_20261016/release-render-final",
+      "bytes": 11387425,
+      "files": 13
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-characters",
+      "bytes": 11078034,
+      "files": 24
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-characters",
+      "bytes": 11076480,
+      "files": 24
+    },
+    {
+      "path": "docs/expansion_20261015/fence",
+      "bytes": 10792923,
+      "files": 4
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-2",
+      "bytes": 10258081,
+      "files": 12
+    },
+    {
+      "path": "AssetReview/previews/gameplay_hands",
+      "bytes": 10247243,
+      "files": 9
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-3",
+      "bytes": 10156611,
+      "files": 12
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/dressing-initial",
+      "bytes": 9920507,
+      "files": 14
+    },
+    {
+      "path": "docs/river_journey_20261016/source-render-1",
+      "bytes": 9761880,
+      "files": 12
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-render-1280",
+      "bytes": 9752361,
+      "files": 10
+    },
+    {
+      "path": "docs/user-models-20261015/release-render-1280",
+      "bytes": 9751598,
+      "files": 10
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-render-1280",
+      "bytes": 9751518,
+      "files": 10
+    },
+    {
+      "path": "docs/user-models-20261015/source-render-1280",
+      "bytes": 9751084,
+      "files": 10
+    },
+    {
+      "path": "docs/user-polish-20261015/release-render-1280",
+      "bytes": 9631959,
+      "files": 10
+    },
+    {
+      "path": "docs/user-polish-20261015/source-render-1280",
+      "bytes": 9631526,
+      "files": 10
+    },
+    {
+      "path": "docs/level/S10",
+      "bytes": 9500011,
+      "files": 26
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/crash-data",
+      "bytes": 9203539,
+      "files": 3
+    },
+    {
+      "path": "WorkBackups/20261013-210629-P00-in_progress-7a382b",
+      "bytes": 8797376,
+      "files": 59
+    },
+    {
+      "path": "WorkBackups/20261013-210629-P00-in_progress-7a382b/files",
+      "bytes": 8786665,
+      "files": 57
+    },
+    {
+      "path": "AssetLibrary/audio/42-snow-and-gravel-footsteps",
+      "bytes": 8127650,
+      "files": 48
+    },
+    {
+      "path": "WorkBackups/20261015-005054-S28-in_progress-309d1f",
+      "bytes": 8111980,
+      "files": 66
+    },
+    {
+      "path": "docs/handover",
+      "bytes": 8106817,
+      "files": 19
+    },
+    {
+      "path": "WorkBackups/20261015-005054-S28-in_progress-309d1f/files",
+      "bytes": 8099414,
+      "files": 64
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-render",
+      "bytes": 8065691,
+      "files": 10
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-render",
+      "bytes": 8064865,
+      "files": 10
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-survey",
+      "bytes": 8009763,
+      "files": 11
+    },
+    {
+      "path": "docs/expansion_20261015/resume-source-render",
+      "bytes": 8008010,
+      "files": 10
+    },
+    {
+      "path": "docs/expansion_20261015/resume-release-render",
+      "bytes": 8007997,
+      "files": 10
+    },
+    {
+      "path": "docs/audio/settings_20261015",
+      "bytes": 8005183,
+      "files": 61
+    },
+    {
+      "path": "docs/user-model-fix-20261015",
+      "bytes": 7992913,
+      "files": 29
+    },
+    {
+      "path": "docs/user-model-fix-20261015/source-characters",
+      "bytes": 7954355,
+      "files": 20
+    },
+    {
+      "path": "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall",
+      "bytes": 7951497,
+      "files": 11
+    },
+    {
+      "path": "docs/settlement_revision_20261015/boundary-diagnostics",
+      "bytes": 7842994,
+      "files": 10
+    },
+    {
+      "path": "WorkBackups/20261013-205053-P00-in_progress-8a61cd",
+      "bytes": 7786461,
+      "files": 45
+    },
+    {
+      "path": "WorkBackups/20261013-205053-P00-in_progress-8a61cd/files",
+      "bytes": 7778205,
+      "files": 43
+    },
+    {
+      "path": "AssetLibrary/audio/S28_20261015",
+      "bytes": 7666376,
+      "files": 26
+    },
+    {
+      "path": "docs/expansion_20261015/source-render-attempt06",
+      "bytes": 7545906,
+      "files": 10
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/second-render",
+      "bytes": 7530859,
+      "files": 9
+    },
+    {
+      "path": "AssetLibrary/audio/field_sfx_20261015",
+      "bytes": 7526879,
+      "files": 12
+    },
+    {
+      "path": "GodotProject/assets/opening",
+      "bytes": 7519044,
+      "files": 8
+    },
+    {
+      "path": "AssetLibrary/audio/ready_to_import",
+      "bytes": 7518310,
+      "files": 52
+    },
+    {
+      "path": "docs/v04_environment_captures",
+      "bytes": 7395543,
+      "files": 5
+    },
+    {
+      "path": "tools/asset_python/Cryptodome",
+      "bytes": 7220989,
+      "files": 552
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v5",
+      "bytes": 7127116,
+      "files": 10
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v3",
+      "bytes": 7125735,
+      "files": 10
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-survey-v4",
+      "bytes": 7125452,
+      "files": 10
+    },
+    {
+      "path": "AssetLibrary/environment/evidence",
+      "bytes": 7110980,
+      "files": 134
+    },
+    {
+      "path": "AssetLibrary/audio/door-open-door-close-set",
+      "bytes": 6868844,
+      "files": 41
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/third-render",
+      "bytes": 6807375,
+      "files": 9
+    },
+    {
+      "path": "AssetLibrary/first_person/oga_fps_arms",
+      "bytes": 6686224,
+      "files": 8
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-render-960",
+      "bytes": 6640540,
+      "files": 10
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-render-960",
+      "bytes": 6640167,
+      "files": 10
+    },
+    {
+      "path": "docs/user-models-20261015/source-render-960",
+      "bytes": 6639168,
+      "files": 10
+    },
+    {
+      "path": "docs/user-models-20261015/release-render-960",
+      "bytes": 6638973,
+      "files": 10
+    },
+    {
+      "path": "docs/user-polish-20261015/source-render-960",
+      "bytes": 6575647,
+      "files": 10
+    },
+    {
+      "path": "docs/user-polish-20261015/release-render-960",
+      "bytes": 6575079,
+      "files": 10
+    },
+    {
+      "path": "docs/audio/dialogue_20261015",
+      "bytes": 6535724,
+      "files": 32
+    },
+    {
+      "path": "docs/expansion_20261015/rifle",
+      "bytes": 6505031,
+      "files": 4
+    },
+    {
+      "path": "AssetLibrary/audio/stealth-music",
+      "bytes": 6134479,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/source-render-attempt05",
+      "bytes": 5787624,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261014-115153-P00-done-581ad7",
+      "bytes": 5703370,
+      "files": 71
+    },
+    {
+      "path": "WorkBackups/20261014-115153-P00-done-581ad7/files",
+      "bytes": 5689553,
+      "files": 69
+    },
+    {
+      "path": "docs/user-revision-20261015/render-1280",
+      "bytes": 5627859,
+      "files": 8
+    },
+    {
+      "path": "docs/user-revision-20261015/release-render-1280",
+      "bytes": 5626530,
+      "files": 8
+    },
+    {
+      "path": "docs/reviews",
+      "bytes": 5409626,
+      "files": 38
+    },
+    {
+      "path": "docs/reviews/20261014-project-check",
+      "bytes": 5409626,
+      "files": 38
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-boundaries-final",
+      "bytes": 5391630,
+      "files": 6
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-boundaries",
+      "bytes": 5391630,
+      "files": 6
+    },
+    {
+      "path": "docs/level/S11",
+      "bytes": 5286552,
+      "files": 7
+    },
+    {
+      "path": "AssetLibrary/first_person/field_hands",
+      "bytes": 5059845,
+      "files": 8
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-v2",
+      "bytes": 5044700,
+      "files": 6
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-accepted",
+      "bytes": 5040655,
+      "files": 6
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-v3",
+      "bytes": 5039639,
+      "files": 6
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries-final",
+      "bytes": 5039593,
+      "files": 6
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-boundaries-accepted",
+      "bytes": 5038670,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/source-render-attempt03",
+      "bytes": 4995320,
+      "files": 7
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-final",
+      "bytes": 4906708,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-attempt02",
+      "bytes": 4817381,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-final-v4",
+      "bytes": 4811471,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-release-final",
+      "bytes": 4811393,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-corrected-final",
+      "bytes": 4811269,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-final-v3",
+      "bytes": 4811239,
+      "files": 6
+    },
+    {
+      "path": "docs/reference",
+      "bytes": 4806240,
+      "files": 72
+    },
+    {
+      "path": "docs/reference/bf1_storm_of_steel",
+      "bytes": 4806240,
+      "files": 72
+    },
+    {
+      "path": "docs/user-models-20261015/japanese",
+      "bytes": 4673387,
+      "files": 6
+    },
+    {
+      "path": "GodotProject/assets/first_person",
+      "bytes": 4615607,
+      "files": 9
+    },
+    {
+      "path": "Release/AssetNotices",
+      "bytes": 4201086,
+      "files": 25
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings/AssetNotices",
+      "bytes": 4171195,
+      "files": 21
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx/AssetNotices",
+      "bytes": 4164991,
+      "files": 20
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet/AssetNotices",
+      "bytes": 4164148,
+      "files": 19
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity/AssetNotices",
+      "bytes": 4160238,
+      "files": 17
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio/AssetNotices",
+      "bytes": 4157124,
+      "files": 16
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale/AssetNotices",
+      "bytes": 4157124,
+      "files": 16
+    },
+    {
+      "path": "AssetLibrary/environment/derived",
+      "bytes": 3624090,
+      "files": 4
+    },
+    {
+      "path": "tools/.continuation-schema",
+      "bytes": 3590402,
+      "files": 317
+    },
+    {
+      "path": "docs/user-models-20261015/release-characters",
+      "bytes": 3580268,
+      "files": 14
+    },
+    {
+      "path": "docs/user-models-20261015/source-characters",
+      "bytes": 3578868,
+      "files": 14
+    },
+    {
+      "path": "AssetLibrary/audio/q009s-weapon-sounds",
+      "bytes": 3539466,
+      "files": 39
+    },
+    {
+      "path": "docs/v04",
+      "bytes": 3486689,
+      "files": 4
+    },
+    {
+      "path": "docs/v04/before",
+      "bytes": 3486689,
+      "files": 4
+    },
+    {
+      "path": "docs/user-revision-20261015/render-960",
+      "bytes": 3288487,
+      "files": 8
+    },
+    {
+      "path": "docs/user-revision-20261015/release-render-960",
+      "bytes": 3288272,
+      "files": 8
+    },
+    {
+      "path": "docs/expansion_20261015/fence-source-attempt01",
+      "bytes": 3269289,
+      "files": 5
+    },
+    {
+      "path": "Release/AssetNotices/D02",
+      "bytes": 3246565,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/layout-initial",
+      "bytes": 3178745,
+      "files": 5
+    },
+    {
+      "path": "WorkBackups/20261013-125927-S02-done-ec4445",
+      "bytes": 3099442,
+      "files": 59
+    },
+    {
+      "path": "WorkBackups/20261013-125927-S02-done-ec4445/files",
+      "bytes": 3088270,
+      "files": 57
+    },
+    {
+      "path": "ReleaseBackups/20261015-pre-S36/character-captures",
+      "bytes": 2980242,
+      "files": 14
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio/character-captures",
+      "bytes": 2980242,
+      "files": 14
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity/character-captures",
+      "bytes": 2980242,
+      "files": 14
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx/character-captures",
+      "bytes": 2980242,
+      "files": 14
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet/character-captures",
+      "bytes": 2980242,
+      "files": 14
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings/character-captures",
+      "bytes": 2980242,
+      "files": 14
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale/character-captures",
+      "bytes": 2980242,
+      "files": 14
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale/Validation",
+      "bytes": 2806366,
+      "files": 64
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-small",
+      "bytes": 2666377,
+      "files": 5
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-tiny",
+      "bytes": 2666254,
+      "files": 5
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-small/blobs",
+      "bytes": 2665470,
+      "files": 3
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-tiny/blobs",
+      "bytes": 2665349,
+      "files": 3
+    },
+    {
+      "path": "AssetReview/assets/first_person",
+      "bytes": 2643808,
+      "files": 8
+    },
+    {
+      "path": "docs/level/S21",
+      "bytes": 2483047,
+      "files": 27
+    },
+    {
+      "path": "docs/settlement_revision_20261015/office-survey",
+      "bytes": 2452383,
+      "files": 5
+    },
+    {
+      "path": "docs/settlement_revision_20261015/office-refined",
+      "bytes": 2452182,
+      "files": 5
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/blender.crt",
+      "bytes": 2326041,
+      "files": 51
+    },
+    {
+      "path": "docs/resources",
+      "bytes": 2149967,
+      "files": 13
+    },
+    {
+      "path": "docs/resources/S02",
+      "bytes": 2149967,
+      "files": 13
+    },
+    {
+      "path": "AssetLibrary/characters/quaternius_modular",
+      "bytes": 2063550,
+      "files": 7
+    },
+    {
+      "path": "AssetLibrary/audio/kenney-rpg-audio",
+      "bytes": 2052762,
+      "files": 60
+    },
+    {
+      "path": "docs/v06",
+      "bytes": 1966593,
+      "files": 2
+    },
+    {
+      "path": "AssetLibrary/audio/kenney-impact-sounds",
+      "bytes": 1904979,
+      "files": 138
+    },
+    {
+      "path": "AssetReview/assets/fps_arms",
+      "bytes": 1867907,
+      "files": 6
+    },
+    {
+      "path": "WorkBackups/20261015-011209-S29-blocked-1e7afc",
+      "bytes": 1843306,
+      "files": 70
+    },
+    {
+      "path": "WorkBackups/20261015-011209-S29-blocked-1e7afc/files",
+      "bytes": 1830616,
+      "files": 68
+    },
+    {
+      "path": "AssetLibrary/audio/radio-noise-1",
+      "bytes": 1790272,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/cloth-swing-sounds",
+      "bytes": 1770401,
+      "files": 5
+    },
+    {
+      "path": "docs/level/S32",
+      "bytes": 1744085,
+      "files": 21
+    },
+    {
+      "path": "docs/river_journey_20261016/release-combat-render-final",
+      "bytes": 1711222,
+      "files": 3
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-combat-render-final",
+      "bytes": 1710443,
+      "files": 3
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-combat-render",
+      "bytes": 1710141,
+      "files": 3
+    },
+    {
+      "path": "tools/.continuation-schema/v2",
+      "bytes": 1688574,
+      "files": 278
+    },
+    {
+      "path": "docs/audio/S29",
+      "bytes": 1499641,
+      "files": 39
+    },
+    {
+      "path": "tools/asset_python/backports",
+      "bytes": 1373036,
+      "files": 43
+    },
+    {
+      "path": "WorkBackups/20261013-150408-S08-done-a43152",
+      "bytes": 1351778,
+      "files": 57
+    },
+    {
+      "path": "WorkBackups/20261013-150408-S08-done-a43152/files",
+      "bytes": 1341182,
+      "files": 55
+    },
+    {
+      "path": "AssetLibrary/audio/inventory-sound-effects",
+      "bytes": 1312968,
+      "files": 11
+    },
+    {
+      "path": "AssetLibrary/audio/mysterious-radio-signal",
+      "bytes": 1299865,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/creaky-light-wooden-door",
+      "bytes": 1252509,
+      "files": 5
+    },
+    {
+      "path": "AssetLibrary/audio/opening-and-closing-a-map-sounds",
+      "bytes": 1234981,
+      "files": 6
+    },
+    {
+      "path": ".auto-resume",
+      "bytes": 1230673,
+      "files": 9
+    },
+    {
+      "path": "docs/user-revision-20261015/a10-render",
+      "bytes": 1112428,
+      "files": 2
+    },
+    {
+      "path": "WorkBackups/20261013-145714-S08-in_progress-f7463e",
+      "bytes": 1095763,
+      "files": 43
+    },
+    {
+      "path": "WorkBackups/20261013-145714-S08-in_progress-f7463e/files",
+      "bytes": 1087755,
+      "files": 41
+    },
+    {
+      "path": "AssetLibrary/audio/fantozzis-footsteps-grasssand-stone",
+      "bytes": 1042411,
+      "files": 29
+    },
+    {
+      "path": "WorkBackups/20261013-140021-S06-done-0e309b",
+      "bytes": 1029172,
+      "files": 51
+    },
+    {
+      "path": "WorkBackups/20261013-140021-S06-done-0e309b/files",
+      "bytes": 1019437,
+      "files": 49
+    },
+    {
+      "path": "AssetLibrary/audio/footsteps-on-different-surfaces",
+      "bytes": 973711,
+      "files": 134
+    },
+    {
+      "path": "WorkBackups/20261013-135445-S06-in_progress-760fa0",
+      "bytes": 953039,
+      "files": 45
+    },
+    {
+      "path": "WorkBackups/20261013-135445-S06-in_progress-760fa0/files",
+      "bytes": 944623,
+      "files": 43
+    },
+    {
+      "path": "WorkBackups/20261013-144515-S08-in_progress-d797e9",
+      "bytes": 862768,
+      "files": 36
+    },
+    {
+      "path": "WorkBackups/20261013-144515-S08-in_progress-d797e9/files",
+      "bytes": 855992,
+      "files": 34
+    },
+    {
+      "path": "tools/asset_python/psutil",
+      "bytes": 845516,
+      "files": 21
+    },
+    {
+      "path": "AssetLibrary/audio/paper-pages-sounds",
+      "bytes": 819449,
+      "files": 5
+    },
+    {
+      "path": "Release/AssetNotices/JKM",
+      "bytes": 753303,
+      "files": 3
+    },
+    {
+      "path": "tools/grip-inspect",
+      "bytes": 715665,
+      "files": 4
+    },
+    {
+      "path": "AssetLibrary/audio/gun-reload-sounds",
+      "bytes": 666993,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261013-123508-S02-in_progress-78222b",
+      "bytes": 658541,
+      "files": 32
+    },
+    {
+      "path": "WorkBackups/20261013-123508-S02-in_progress-78222b/files",
+      "bytes": 652331,
+      "files": 30
+    },
+    {
+      "path": "WorkBackups/20261016-130518-P00-in_progress-6711f8",
+      "bytes": 612884,
+      "files": 36
+    },
+    {
+      "path": "WorkBackups/20261016-130518-P00-in_progress-6711f8/files",
+      "bytes": 606253,
+      "files": 34
+    },
+    {
+      "path": "WorkBackups/20261016-120507-S10-in_progress-2aff36",
+      "bytes": 597505,
+      "files": 39
+    },
+    {
+      "path": "WorkBackups/20261016-120507-S10-in_progress-2aff36/files",
+      "bytes": 589994,
+      "files": 37
+    },
+    {
+      "path": "WorkBackups/20261015-004757-S28-in_progress-29e239",
+      "bytes": 589026,
+      "files": 39
+    },
+    {
+      "path": "WorkBackups/20261016-114200-S10-in_progress-65619a",
+      "bytes": 582301,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-004757-S28-in_progress-29e239/files",
+      "bytes": 581721,
+      "files": 37
+    },
+    {
+      "path": "WorkBackups/20261016-114200-S10-in_progress-65619a/files",
+      "bytes": 575715,
+      "files": 33
+    },
+    {
+      "path": "AssetLibrary/audio/sfx-circuit-breaker",
+      "bytes": 546150,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261015-202619-P00-in_progress-ae6bd2",
+      "bytes": 539108,
+      "files": 32
+    },
+    {
+      "path": "tools/asset_python/py7zr",
+      "bytes": 538501,
+      "files": 29
+    },
+    {
+      "path": "WorkBackups/20261015-202619-P00-in_progress-ae6bd2/files",
+      "bytes": 533043,
+      "files": 30
+    },
+    {
+      "path": "WorkBackups/20261013-225117-P00-done-a02128",
+      "bytes": 506697,
+      "files": 37
+    },
+    {
+      "path": "WorkBackups/20261013-225117-P00-done-a02128/files",
+      "bytes": 499781,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-181504-P00-in_progress-78db18",
+      "bytes": 496281,
+      "files": 32
+    },
+    {
+      "path": "WorkBackups/20261015-181504-P00-in_progress-78db18/files",
+      "bytes": 490295,
+      "files": 30
+    },
+    {
+      "path": "WorkBackups/20261015-170349-S30-blocked-df1e55",
+      "bytes": 475065,
+      "files": 36
+    },
+    {
+      "path": "WorkBackups/20261015-170402-S36-blocked-2e746d",
+      "bytes": 469289,
+      "files": 37
+    },
+    {
+      "path": "WorkBackups/20261015-170349-S30-blocked-df1e55/files",
+      "bytes": 468144,
+      "files": 34
+    },
+    {
+      "path": "WorkBackups/20261015-170323-S19-done-054263",
+      "bytes": 467564,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-170335-S24-done-0f4f85",
+      "bytes": 463608,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-170402-S36-blocked-2e746d/files",
+      "bytes": 462149,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-170323-S19-done-054263/files",
+      "bytes": 460900,
+      "files": 33
+    },
+    {
+      "path": "tools/blender-verification",
+      "bytes": 459453,
+      "files": 5
+    },
+    {
+      "path": "WorkBackups/20261015-170335-S24-done-0f4f85/files",
+      "bytes": 456943,
+      "files": 33
+    },
+    {
+      "path": "GodotProject/scripts",
+      "bytes": 445295,
+      "files": 66
+    },
+    {
+      "path": "WorkBackups/20261015-011209-S28-blocked-9b28e4",
+      "bytes": 443094,
+      "files": 42
+    },
+    {
+      "path": "docs/user-polish-20261015/organization",
+      "bytes": 439483,
+      "files": 3
+    },
+    {
+      "path": "WorkBackups/20261015-011209-S28-blocked-9b28e4/files",
+      "bytes": 435347,
+      "files": 40
+    },
+    {
+      "path": "GodotProject/tests",
+      "bytes": 426620,
+      "files": 122
+    },
+    {
+      "path": "docs/level/S13",
+      "bytes": 423330,
+      "files": 31
+    },
+    {
+      "path": "WorkBackups/20261015-113018-S36-blocked-e94c54",
+      "bytes": 414555,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-110332-S30-blocked-2aa26b",
+      "bytes": 411774,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-110332-S36-blocked-8e8735",
+      "bytes": 408240,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-113018-S36-blocked-e94c54/files",
+      "bytes": 407932,
+      "files": 33
+    },
+    {
+      "path": "WorkBackups/20261015-110331-S31-done-418b90",
+      "bytes": 405946,
+      "files": 35
+    },
+    {
+      "path": "WorkBackups/20261015-110332-S30-blocked-2aa26b/files",
+      "bytes": 405143,
+      "files": 33
+    },
+    {
+      "path": "WorkBackups/20261015-110332-S36-blocked-8e8735/files",
+      "bytes": 401590,
+      "files": 33
+    },
+    {
+      "path": "WorkBackups/20261015-110331-S31-done-418b90/files",
+      "bytes": 399324,
+      "files": 33
+    },
+    {
+      "path": "WorkBackups/20261013-192625-P00-in_progress-a98f8b",
+      "bytes": 378428,
+      "files": 45
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/license",
+      "bytes": 376711,
+      "files": 26
+    },
+    {
+      "path": "WorkBackups/20261013-185238-P00-done-6c7386",
+      "bytes": 375663,
+      "files": 45
+    },
+    {
+      "path": "WorkBackups/20261013-192625-P00-in_progress-a98f8b/files",
+      "bytes": 370135,
+      "files": 43
+    },
+    {
+      "path": "WorkBackups/20261013-185238-P00-done-6c7386/files",
+      "bytes": 367336,
+      "files": 43
+    },
+    {
+      "path": "docs/level/S08",
+      "bytes": 350452,
+      "files": 12
+    },
+    {
+      "path": "WorkBackups/20261015-011211-S30-blocked-14cf66",
+      "bytes": 348415,
+      "files": 36
+    },
+    {
+      "path": "WorkBackups/20261015-011211-S30-blocked-14cf66/files",
+      "bytes": 341641,
+      "files": 34
+    },
+    {
+      "path": "WorkBackups/20261013-133156-S05-done-9a4f5e",
+      "bytes": 333809,
+      "files": 41
+    },
+    {
+      "path": "WorkBackups/20261015-005118-S29-in_progress-9e9c0e",
+      "bytes": 332519,
+      "files": 33
+    },
+    {
+      "path": "WorkBackups/20261015-005118-S29-in_progress-9e9c0e/files",
+      "bytes": 326281,
+      "files": 31
+    },
+    {
+      "path": "WorkBackups/20261013-133156-S05-done-9a4f5e/files",
+      "bytes": 325953,
+      "files": 39
+    },
+    {
+      "path": "ConversationBackups/20261015-085350-3088e9",
+      "bytes": 324292,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261013-131129-S03-done-1edea7",
+      "bytes": 320253,
+      "files": 37
+    },
+    {
+      "path": "WorkBackups/20261013-131129-S03-done-1edea7/files",
+      "bytes": 313121,
+      "files": 35
+    },
+    {
+      "path": "AssetLibrary/audio/dialogue_20261015",
+      "bytes": 306431,
+      "files": 10
+    },
+    {
+      "path": "WorkBackups/20261013-213353-P00-in_progress-25d166",
+      "bytes": 296332,
+      "files": 41
+    },
+    {
+      "path": "WorkBackups/20261013-203103-P00-in_progress-7fa4d2",
+      "bytes": 288837,
+      "files": 41
+    },
+    {
+      "path": "WorkBackups/20261013-213353-P00-in_progress-25d166/files",
+      "bytes": 288831,
+      "files": 39
+    },
+    {
+      "path": "WorkBackups/20261013-191002-P00-done-b36d35",
+      "bytes": 288182,
+      "files": 42
+    },
+    {
+      "path": "WorkBackups/20261013-190806-P00-done-1bb7de",
+      "bytes": 286712,
+      "files": 42
+    },
+    {
+      "path": "WorkBackups/20261014-114712-P00-in_progress-772e31",
+      "bytes": 284694,
+      "files": 35
+    },
+    {
+      "path": "tools/third_party",
+      "bytes": 281305,
+      "files": 9
+    },
+    {
+      "path": "tools/third_party/max_importer",
+      "bytes": 281305,
+      "files": 9
+    },
+    {
+      "path": "WorkBackups/20261013-203103-P00-in_progress-7fa4d2/files",
+      "bytes": 281292,
+      "files": 39
+    },
+    {
+      "path": "WorkBackups/20261013-191002-P00-done-b36d35/files",
+      "bytes": 280401,
+      "files": 40
+    },
+    {
+      "path": "WorkBackups/20261013-190806-P00-done-1bb7de/files",
+      "bytes": 278973,
+      "files": 40
+    },
+    {
+      "path": "WorkBackups/20261014-114712-P00-in_progress-772e31/files",
+      "bytes": 278153,
+      "files": 33
+    },
+    {
+      "path": "WorkBackups/20261013-224854-P00-in_progress-f1fec6",
+      "bytes": 271396,
+      "files": 32
+    },
+    {
+      "path": "WorkBackups/20261013-224236-P00-in_progress-5da335",
+      "bytes": 270650,
+      "files": 32
+    },
+    {
+      "path": "WorkBackups/20261013-224854-P00-in_progress-f1fec6/files",
+      "bytes": 265469,
+      "files": 30
+    },
+    {
+      "path": "WorkBackups/20261013-224236-P00-in_progress-5da335/files",
+      "bytes": 264630,
+      "files": 30
+    },
+    {
+      "path": "WorkBackups/20261013-183942-P00-in_progress-9b8f39",
+      "bytes": 256884,
+      "files": 36
+    },
+    {
+      "path": "WorkBackups/20261013-183942-P00-in_progress-9b8f39/files",
+      "bytes": 250127,
+      "files": 34
+    },
+    {
+      "path": "ConversationBackups/20261013-223822-d09e3c",
+      "bytes": 232974,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261013-132000-S04-done-653d6a",
+      "bytes": 227141,
+      "files": 35
+    },
+    {
+      "path": "AssetLibrary/audio/footsteps-leather-cloth-armor",
+      "bytes": 226252,
+      "files": 17
+    },
+    {
+      "path": "ConversationBackups/20261013-211541-b19fc7",
+      "bytes": 225821,
+      "files": 7
+    },
+    {
+      "path": "docs/recovery",
+      "bytes": 225087,
+      "files": 5
+    },
+    {
+      "path": "ConversationBackups/20261013-205145-7a3b3b",
+      "bytes": 223517,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261013-132000-S04-done-653d6a/files",
+      "bytes": 220421,
+      "files": 33
+    },
+    {
+      "path": "ConversationBackups/20261015-085350-3088e9/workspace",
+      "bytes": 213166,
+      "files": 5
+    },
+    {
+      "path": "WorkBackups/20261013-133603-S06-in_progress-74b99c",
+      "bytes": 210113,
+      "files": 28
+    },
+    {
+      "path": "WorkBackups/20261013-131057-S03-in_progress-c25edd",
+      "bytes": 209678,
+      "files": 28
+    },
+    {
+      "path": "WorkBackups/20261013-133051-S05-in_progress-b274d1",
+      "bytes": 205032,
+      "files": 30
+    },
+    {
+      "path": "WorkBackups/20261013-133603-S06-in_progress-74b99c/files",
+      "bytes": 204711,
+      "files": 26
+    },
+    {
+      "path": "WorkBackups/20261013-131057-S03-in_progress-c25edd/files",
+      "bytes": 204189,
+      "files": 26
+    },
+    {
+      "path": "WorkBackups/20261013-133051-S05-in_progress-b274d1/files",
+      "bytes": 199206,
+      "files": 28
+    },
+    {
+      "path": "ConversationBackups/20261013-185754-b67354",
+      "bytes": 199076,
+      "files": 7
+    },
+    {
+      "path": "ConversationBackups/20261013-185615-a680f7",
+      "bytes": 196293,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261013-131853-S04-in_progress-77b3c6",
+      "bytes": 195282,
+      "files": 32
+    },
+    {
+      "path": "ConversationBackups/20261013-185149-287065",
+      "bytes": 193576,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261013-131853-S04-in_progress-77b3c6/files",
+      "bytes": 189155,
+      "files": 30
+    },
+    {
+      "path": "ConversationBackups/20261013-183937-53fc5e",
+      "bytes": 188749,
+      "files": 7
+    },
+    {
+      "path": "WorkBackups/20261013-180937-P00-done-ff3139",
+      "bytes": 187868,
+      "files": 25
+    },
+    {
+      "path": "WorkBackups/20261013-181641-P00-in_progress-e7b899",
+      "bytes": 187678,
+      "files": 25
+    },
+    {
+      "path": "GodotProject/.godot/editor",
+      "bytes": 185422,
+      "files": 106
+    },
+    {
+      "path": "WorkBackups/20261013-124356-S02-in_progress-f16142",
+      "bytes": 183647,
+      "files": 28
+    },
+    {
+      "path": "WorkBackups/20261013-180937-P00-done-ff3139/files",
+      "bytes": 182966,
+      "files": 23
+    },
+    {
+      "path": "WorkBackups/20261013-181641-P00-in_progress-e7b899/files",
+      "bytes": 182857,
+      "files": 23
+    },
+    {
+      "path": "WorkBackups/20261013-132230-S05-in_progress-78414f",
+      "bytes": 180821,
+      "files": 26
+    },
+    {
+      "path": "WorkBackups/20261013-124356-S02-in_progress-f16142/files",
+      "bytes": 178109,
+      "files": 26
+    },
+    {
+      "path": "tools/blender-4.5.14-windows-x64/portable",
+      "bytes": 177585,
+      "files": 2
+    },
+    {
+      "path": "WorkBackups/20261013-132230-S05-in_progress-78414f/files",
+      "bytes": 175734,
+      "files": 24
+    },
+    {
+      "path": "WorkBackups/20261013-180604-P00-in_progress-099155",
+      "bytes": 174631,
+      "files": 23
+    },
+    {
+      "path": "tools/continuation",
+      "bytes": 172182,
+      "files": 13
+    },
+    {
+      "path": "WorkBackups/20261013-180604-P00-in_progress-099155/files",
+      "bytes": 170128,
+      "files": 21
+    },
+    {
+      "path": "WorkBackups/20261013-131257-S04-in_progress-60ede8",
+      "bytes": 169877,
+      "files": 26
+    },
+    {
+      "path": "WorkBackups/20261013-131257-S04-in_progress-60ede8/files",
+      "bytes": 164807,
+      "files": 24
+    },
+    {
+      "path": "AssetReview/reports",
+      "bytes": 153450,
+      "files": 24
+    },
+    {
+      "path": "WorkBackups/20261013-130027-S03-in_progress-4f26a2",
+      "bytes": 145771,
+      "files": 24
+    },
+    {
+      "path": "WorkBackups/20261013-130027-S03-in_progress-4f26a2/files",
+      "bytes": 141055,
+      "files": 22
+    },
+    {
+      "path": "AssetLibrary/audio/bayonet_20261015",
+      "bytes": 138819,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/release-regression-final",
+      "bytes": 137598,
+      "files": 53
+    },
+    {
+      "path": "docs/river_journey_20261016/source-regression-final",
+      "bytes": 137595,
+      "files": 53
+    },
+    {
+      "path": "AssetLibrary/audio/licenses",
+      "bytes": 137421,
+      "files": 3
+    },
+    {
+      "path": "WorkBackups/20261013-123259-P00-done-7f419c",
+      "bytes": 135522,
+      "files": 25
+    },
+    {
+      "path": "docs/narrative/S06",
+      "bytes": 133093,
+      "files": 5
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-release-regression-v3",
+      "bytes": 131953,
+      "files": 51
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression-v5",
+      "bytes": 131951,
+      "files": 51
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression-v4",
+      "bytes": 131543,
+      "files": 51
+    },
+    {
+      "path": "WorkBackups/20261013-123259-P00-done-7f419c/files",
+      "bytes": 130448,
+      "files": 23
+    },
+    {
+      "path": "ConversationBackups/20261013-223822-d09e3c/workspace",
+      "bytes": 127989,
+      "files": 5
+    },
+    {
+      "path": "docs/baselines",
+      "bytes": 127436,
+      "files": 31
+    },
+    {
+      "path": "docs/baselines/S01_20261013",
+      "bytes": 127436,
+      "files": 31
+    },
+    {
+      "path": "tools/asset_python/pyppmd",
+      "bytes": 126512,
+      "files": 8
+    },
+    {
+      "path": "docs/settlement_revision_20261015/accepted-release-regression",
+      "bytes": 122830,
+      "files": 49
+    },
+    {
+      "path": "docs/settlement_revision_20261015/accepted-source-regression",
+      "bytes": 122828,
+      "files": 49
+    },
+    {
+      "path": "ConversationBackups/20261013-211541-b19fc7/workspace",
+      "bytes": 121722,
+      "files": 5
+    },
+    {
+      "path": "ConversationBackups/20261013-205145-7a3b3b/workspace",
+      "bytes": 119419,
+      "files": 5
+    },
+    {
+      "path": "tools/continuation/__pycache__",
+      "bytes": 111854,
+      "files": 6
+    },
+    {
+      "path": "ConversationBackups/20261013-185615-a680f7/workspace",
+      "bytes": 110978,
+      "files": 5
+    },
+    {
+      "path": "ConversationBackups/20261013-185754-b67354/workspace",
+      "bytes": 110329,
+      "files": 5
+    },
+    {
+      "path": "tools/asset_python/bin",
+      "bytes": 108390,
+      "files": 1
+    },
+    {
+      "path": "ConversationBackups/20261013-185149-287065/workspace",
+      "bytes": 108249,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/accepted-release-regression",
+      "bytes": 106156,
+      "files": 47
+    },
+    {
+      "path": "docs/expansion_20261015/accepted-source-regression",
+      "bytes": 106154,
+      "files": 47
+    },
+    {
+      "path": "ConversationBackups/20261013-183937-53fc5e/workspace",
+      "bytes": 105606,
+      "files": 5
+    },
+    {
+      "path": "licenses",
+      "bytes": 101257,
+      "files": 2
+    },
+    {
+      "path": "docs/audio/S28",
+      "bytes": 99297,
+      "files": 8
+    },
+    {
+      "path": "WorkBackups/20261013-122544-P00-in_progress-07bfba",
+      "bytes": 90770,
+      "files": 13
+    },
+    {
+      "path": "WorkBackups/20261013-122544-P00-in_progress-07bfba/files",
+      "bytes": 87911,
+      "files": 11
+    },
+    {
+      "path": "WorkBackups/20261013-114253-P00-done-3f4d42",
+      "bytes": 87536,
+      "files": 16
+    },
+    {
+      "path": "AssetLibrary/audio/generator-loop",
+      "bytes": 86677,
+      "files": 5
+    },
+    {
+      "path": "WorkBackups/20261013-114102-P00-in_progress-f4a800",
+      "bytes": 85159,
+      "files": 15
+    },
+    {
+      "path": "WorkBackups/20261013-114253-P00-done-3f4d42/files",
+      "bytes": 84042,
+      "files": 14
+    },
+    {
+      "path": "WorkBackups/20261013-114102-P00-in_progress-f4a800/files",
+      "bytes": 81957,
+      "files": 13
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/release-opening-checks",
+      "bytes": 75241,
+      "files": 37
+    },
+    {
+      "path": "docs/user-model-fix-final-20261015/source-opening-checks",
+      "bytes": 75240,
+      "files": 37
+    },
+    {
+      "path": "docs/expansion_20261015/remaining-checks",
+      "bytes": 70697,
+      "files": 31
+    },
+    {
+      "path": "AssetLibrary/audio/dialogue_retake_20261015",
+      "bytes": 66790,
+      "files": 3
+    },
+    {
+      "path": "docs/audio/S31",
+      "bytes": 58556,
+      "files": 18
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v2",
+      "bytes": 53907,
+      "files": 19
+    },
+    {
+      "path": "docs/performance",
+      "bytes": 52459,
+      "files": 33
+    },
+    {
+      "path": "tools/asset_python/pycryptodomex-3.24.1.dist-info",
+      "bytes": 52130,
+      "files": 7
+    },
+    {
+      "path": "tools/asset_python/bcj",
+      "bytes": 50351,
+      "files": 6
+    },
+    {
+      "path": "Release/AssetNotices/Voice",
+      "bytes": 49224,
+      "files": 3
+    },
+    {
+      "path": "tools/asset_python/py7zr-1.1.3.dist-info",
+      "bytes": 46640,
+      "files": 8
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings/opening-checks",
+      "bytes": 45436,
+      "files": 24
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression",
+      "bytes": 44460,
+      "files": 12
+    },
+    {
+      "path": "tools/asset_python/inflate64",
+      "bytes": 44454,
+      "files": 4
+    },
+    {
+      "path": "docs/narrative/S03",
+      "bytes": 43855,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-complete-final",
+      "bytes": 41361,
+      "files": 19
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx/opening-checks",
+      "bytes": 40634,
+      "files": 22
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet/opening-checks",
+      "bytes": 38776,
+      "files": 20
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity/opening-checks",
+      "bytes": 38336,
+      "files": 20
+    },
+    {
+      "path": "tools/asset_python/__pycache__",
+      "bytes": 35278,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v5",
+      "bytes": 35153,
+      "files": 14
+    },
+    {
+      "path": "tools/__pycache__",
+      "bytes": 34871,
+      "files": 2
+    },
+    {
+      "path": "tools/asset_python/multivolumefile",
+      "bytes": 34453,
+      "files": 6
+    },
+    {
+      "path": "tools/asset_python/multivolumefile-0.2.3.dist-info",
+      "bytes": 33949,
+      "files": 6
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-complete",
+      "bytes": 33859,
+      "files": 14
+    },
+    {
+      "path": "GameProject",
+      "bytes": 33851,
+      "files": 12
+    },
+    {
+      "path": "tools/asset_python/pyppmd-1.3.1.dist-info",
+      "bytes": 33734,
+      "files": 6
+    },
+    {
+      "path": "tools/asset_python/pybcj-1.0.8.dist-info",
+      "bytes": 33226,
+      "files": 8
+    },
+    {
+      "path": "tools/asset_python/inflate64-1.0.4.dist-info",
+      "bytes": 32451,
+      "files": 6
+    },
+    {
+      "path": "docs/narrative/S05",
+      "bytes": 30272,
+      "files": 6
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio/opening-checks",
+      "bytes": 29921,
+      "files": 16
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale/opening-checks",
+      "bytes": 29921,
+      "files": 16
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight",
+      "bytes": 28783,
+      "files": 6
+    },
+    {
+      "path": "Release/Dialogue",
+      "bytes": 26788,
+      "files": 4
+    },
+    {
+      "path": "tools/asset_python/backports_zstd-1.8.0.dist-info",
+      "bytes": 26692,
+      "files": 7
+    },
+    {
+      "path": "tools/asset_python/psutil-7.2.2.dist-info",
+      "bytes": 26204,
+      "files": 6
+    },
+    {
+      "path": "docs/audio/S30",
+      "bytes": 26035,
+      "files": 6
+    },
+    {
+      "path": "docs/narrative/S04",
+      "bytes": 25851,
+      "files": 7
+    },
+    {
+      "path": "docs/expansion_20261015/regression-source-final",
+      "bytes": 23849,
+      "files": 10
+    },
+    {
+      "path": "AssetLibrary/audio/__pycache__",
+      "bytes": 21968,
+      "files": 1
+    },
+    {
+      "path": "GameProject/Assets",
+      "bytes": 21842,
+      "files": 6
+    },
+    {
+      "path": "GameProject/Assets/Scripts",
+      "bytes": 21083,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-regression",
+      "bytes": 20956,
+      "files": 8
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-regression-attempt02",
+      "bytes": 19687,
+      "files": 8
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v4",
+      "bytes": 18793,
+      "files": 10
+    },
+    {
+      "path": "AssetReview/scripts",
+      "bytes": 17858,
+      "files": 4
+    },
+    {
+      "path": "docs/level/S16",
+      "bytes": 17505,
+      "files": 9
+    },
+    {
+      "path": "docs/level/S33",
+      "bytes": 17396,
+      "files": 9
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-source-regression-v3",
+      "bytes": 12894,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/regression-third",
+      "bytes": 12579,
+      "files": 5
+    },
+    {
+      "path": "docs/expansion_20261015/regression-source-attempt02",
+      "bytes": 11891,
+      "files": 4
+    },
+    {
+      "path": "docs/level/S15",
+      "bytes": 11633,
+      "files": 6
+    },
+    {
+      "path": "tools/asset_python/texttable-1.7.0.dist-info",
+      "bytes": 11605,
+      "files": 6
+    },
+    {
+      "path": "docs/river_journey_20261016/source-regression-v2",
+      "bytes": 9149,
+      "files": 3
+    },
+    {
+      "path": "docs/level/S20",
+      "bytes": 8699,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/source-attempt02",
+      "bytes": 8612,
+      "files": 2
+    },
+    {
+      "path": "tools/asset_python/brotli-1.2.0.dist-info",
+      "bytes": 8172,
+      "files": 6
+    },
+    {
+      "path": "docs/level/S22",
+      "bytes": 7941,
+      "files": 5
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-release-regression",
+      "bytes": 7870,
+      "files": 3
+    },
+    {
+      "path": "docs/expansion_20261015/resume-source-regression",
+      "bytes": 7870,
+      "files": 3
+    },
+    {
+      "path": "docs/level/S35",
+      "bytes": 7603,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/regression-first",
+      "bytes": 7547,
+      "files": 1
+    },
+    {
+      "path": "docs/level/S18",
+      "bytes": 7517,
+      "files": 7
+    },
+    {
+      "path": "docs/expansion_20261015/regression-source-attempt01",
+      "bytes": 7300,
+      "files": 1
+    },
+    {
+      "path": "GodotProject/shaders",
+      "bytes": 7253,
+      "files": 14
+    },
+    {
+      "path": "docs/level/S34",
+      "bytes": 7178,
+      "files": 5
+    },
+    {
+      "path": "docs/level/S14",
+      "bytes": 7091,
+      "files": 3
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/accepted-release-regression-v2",
+      "bytes": 7046,
+      "files": 2
+    },
+    {
+      "path": "Release/AssetNotices/TerrainReference",
+      "bytes": 6907,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-check-v2",
+      "bytes": 6526,
+      "files": 3
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/preflight-v3",
+      "bytes": 6379,
+      "files": 4
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-regression-attempt01",
+      "bytes": 5984,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-ferry-pier-failure",
+      "bytes": 5863,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/combat-initial",
+      "bytes": 5855,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-attempt-2",
+      "bytes": 5744,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-regression",
+      "bytes": 5623,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/regression-second",
+      "bytes": 5335,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-audio-pause-diagnostic",
+      "bytes": 5267,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-endpoints",
+      "bytes": 5178,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-59-checks-stable",
+      "bytes": 5169,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/initial",
+      "bytes": 5125,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-audio-pause-timing-failure",
+      "bytes": 5052,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/source-audio-pause-second-failure",
+      "bytes": 5052,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/audio-routing-source",
+      "bytes": 5050,
+      "files": 2
+    },
+    {
+      "path": "docs/river_journey_20261016/release-combat-diagnostic",
+      "bytes": 4980,
+      "files": 4
+    },
+    {
+      "path": "docs/expansion_20261015/charge-new-office",
+      "bytes": 4845,
+      "files": 2
+    },
+    {
+      "path": "docs/user-polish-20261015/source-headless",
+      "bytes": 4774,
+      "files": 2
+    },
+    {
+      "path": "GameProject/ProjectSettings",
+      "bytes": 4458,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-headless-corrected",
+      "bytes": 4252,
+      "files": 2
+    },
+    {
+      "path": "tools/.continuation-schema/v1",
+      "bytes": 3687,
+      "files": 2
+    },
+    {
+      "path": "docs/user-models-20261015/s32-targeted",
+      "bytes": 3602,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/resume-motion-release",
+      "bytes": 3578,
+      "files": 1
+    },
+    {
+      "path": "docs/user-revision-20261015/a10-repair",
+      "bytes": 3559,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v4",
+      "bytes": 3416,
+      "files": 1
+    },
+    {
+      "path": "docs/user-revision-20261015/source",
+      "bytes": 2701,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-check-v1",
+      "bytes": 2678,
+      "files": 2
+    },
+    {
+      "path": "docs/expansion_20261015/resume-source-packages",
+      "bytes": 2659,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-check-v3",
+      "bytes": 2574,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/collision-final",
+      "bytes": 2565,
+      "files": 2
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/first-render",
+      "bytes": 2457,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/performance",
+      "bytes": 2324,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v2",
+      "bytes": 2012,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/source-attempt04",
+      "bytes": 2000,
+      "files": 2
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-initial",
+      "bytes": 1850,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v3",
+      "bytes": 1658,
+      "files": 1
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-small/trees",
+      "bytes": 867,
+      "files": 1
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-tiny/trees",
+      "bytes": 865,
+      "files": 1
+    },
+    {
+      "path": "GodotProject/.godot/exported",
+      "bytes": 824,
+      "files": 2
+    },
+    {
+      "path": "GameProject/Assets/Editor",
+      "bytes": 759,
+      "files": 1
+    },
+    {
+      "path": "AssetReview/materials",
+      "bytes": 742,
+      "files": 2
+    },
+    {
+      "path": "GameProject/Packages",
+      "bytes": 687,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/low-wire-source-attempt01",
+      "bytes": 682,
+      "files": 1
+    },
+    {
+      "path": "docs/river_journey_20261016/source-initial",
+      "bytes": 567,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/source-boundaries",
+      "bytes": 509,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/source-initial",
+      "bytes": 395,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/release-combat-render",
+      "bytes": 280,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/resume-release-combat-render",
+      "bytes": 280,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/release-combat-diagnostic",
+      "bytes": 270,
+      "files": 1
+    },
+    {
+      "path": "docs/settlement_revision_20261015/combat-v5",
+      "bytes": 173,
+      "files": 1
+    },
+    {
+      "path": "docs/first_level_rebuild_20261016/combat-second",
+      "bytes": 173,
+      "files": 1
+    },
+    {
+      "path": "docs/expansion_20261015/resume-combat-isolated",
+      "bytes": 173,
+      "files": 1
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-tiny/refs",
+      "bytes": 40,
+      "files": 1
+    },
+    {
+      "path": ".models/models--Systran--faster-whisper-small/refs",
+      "bytes": 40,
+      "files": 1
+    },
+    {
+      "path": "GameProject/Temp",
+      "bytes": 0,
+      "files": 1
+    }
+  ],
+  "extensions": {
+    ".jpg": 42123484491,
+    ".pck": 28323887472,
+    ".glb": 20131750916,
+    ".png": 19709294075,
+    ".blend": 17566593184,
+    ".blend1": 10753983833,
+    ".exe": 9504308886,
+    ".bin": 4653456323,
+    ".wav": 2395249684,
+    ".rar": 2186452914,
+    ".ogg": 2075234965,
+    ".ctex": 1752737446,
+    ".max": 1569095934,
+    ".mp3": 950685630,
+    ".jsonl": 937773499,
+    ".hdr": 900311216,
+    ".md": 777144095,
+    ".exr": 775482651,
+    ".zip": 753654625,
+    "": 565537145,
+    ".log": 479267771,
+    ".fbx": 474132456,
+    ".dll": 363996680,
+    ".7z": 277690915,
+    ".tga": 270496478,
+    ".csv": 234122692,
+    ".json": 210377918,
+    ".scn": 143402479,
+    ".pdb": 126881792,
+    ".gd": 99946240,
+    ".zst": 85871860,
+    ".py": 78462996,
+    ".jpeg": 73594368,
+    ".aac": 73169154,
+    ".mo": 68825312,
+    ".dmp": 63951636,
+    ".pyd": 54022656,
+    ".html": 42561585,
+    ".import": 38474303,
+    ".cube": 24900085,
+    ".oggvorbisstr": 24575406,
+    ".txt": 20850138,
+    ".pyc": 18175914,
+    ".gltf": 17246602,
+    ".woff2": 15498908,
+    ".flac": 12115180,
+    ".mp3str": 10663519,
+    ".dds": 7872000,
+    ".gif": 5362914,
+    ".sample": 4489097,
+    ".ps1": 4394883,
+    ".npy": 4195223,
+    ".whl": 3366507,
+    ".h": 3203032,
+    ".oso": 3105899,
+    ".gz": 2535609,
+    ".mtlx": 2365086,
+    ".tex": 2253151,
+    ".pk3": 1219944,
+    ".pyi": 1083448,
+    ".c": 952287,
+    ".rps": 946176,
+    ".spi1d": 869614,
+    ".usda": 859709,
+    ".gdshader": 757698,
+    ".pxd": 628199,
+    ".pem": 574699,
+    ".cpp": 515293,
+    ".dae": 497874,
+    ".lib": 463994,
+    ".glslfx": 347279,
+    ".dat": 288590,
+    ".mdl": 272587,
+    ".glsl": 242414,
+    ".uid": 231385,
+    ".godot": 208869,
+    ".obj": 165895,
+    ".vbs": 138824,
+    ".cfg": 112521,
+    ".pyx": 87280,
+    ".osl": 81993,
+    ".cmd": 80565,
+    ".md5": 61789,
+    ".tscn": 61574,
+    ".xml": 50601,
+    ".srt": 48651,
+    ".metal": 48030,
+    ".ocio": 31348,
+    ".f90": 24725,
+    ".svg": 23257,
+    ".vtt": 21887,
+    ".cs": 21842,
+    ".rst": 15630,
+    ".toml": 12199,
+    ".cu": 10019,
+    ".f": 9947,
+    ".fits": 8640,
+    ".sl": 5883,
+    ".tsv": 5876,
+    ".manifest": 5128,
+    ".asset": 4375,
+    ".js": 3765,
+    ".build": 2612,
+    ".fish": 2278,
+    ".tres": 2172,
+    ".cmake": 2147,
+    ".pyf": 1650,
+    ".template": 1633,
+    ".bat": 1481,
+    ".css": 1437,
+    ".pkl": 1434,
+    ".csh": 959,
+    ".in": 928,
+    ".sha256": 880,
+    ".npz": 815,
+    ".ini": 690,
+    ".ds_store": 480,
+    ".typed": 412,
+    ".mod": 412,
+    ".tmpl": 365,
+    ".ctypes": 302,
+    ".refs": 219,
+    ".url": 200,
+    ".tag": 195,
+    ".pth": 152,
+    ".spimtx": 118,
+    ".lock": 2
+  },
+  "largest": [
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/Release/FenghuoEcho.pck",
+      "bytes": 1317586856
+    },
+    {
+      "path": "WorkBackups/20261016-143837-S10-in_progress-4796a0/files/Release/FenghuoEcho.pck",
+      "bytes": 1317586856
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 1317586856
+    },
+    {
+      "path": "WorkBackups/20261016-131947-S10-in_progress-8f594a/files/Release/FenghuoEcho.pck",
+      "bytes": 1317564880
+    },
+    {
+      "path": "WorkBackups/20261016-125835-S10-done-086d8b/files/Release/FenghuoEcho.pck",
+      "bytes": 1317564880
+    },
+    {
+      "path": "WorkBackups/20261016-095513-S10-in_progress-8ac53f/files/Release/FenghuoEcho.pck",
+      "bytes": 1317530932
+    },
+    {
+      "path": "WorkBackups/20261016-001805-S10-in_progress-92b087/files/Release/FenghuoEcho.pck",
+      "bytes": 1082486984
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/Release/FenghuoEcho.pck",
+      "bytes": 1082486984
+    },
+    {
+      "path": "WorkBackups/20261016-095513-S10-in_progress-8ac53f/files/AssetLibrary/derived/user_expansion_20261015/village_complete.blend",
+      "bytes": 599206355
+    },
+    {
+      "path": "WorkBackups/20261016-001805-S10-in_progress-92b087/files/AssetLibrary/derived/user_expansion_20261015/village_complete.blend",
+      "bytes": 599206355
+    },
+    {
+      "path": "WorkBackups/20261015-235945-S10-in_progress-6e420c/files/AssetLibrary/derived/user_expansion_20261015/village_complete.blend",
+      "bytes": 599206355
+    },
+    {
+      "path": "WorkBackups/20261015-234029-S10-in_progress-577dd2/files/AssetLibrary/derived/user_expansion_20261015/village_complete.blend",
+      "bytes": 599206355
+    },
+    {
+      "path": "AssetLibrary/derived/user_expansion_20261015/village_complete.blend",
+      "bytes": 599206355
+    },
+    {
+      "path": "WorkBackups/20261015-184756-S19-done-73b3c6/files/Release/FenghuoEcho.pck",
+      "bytes": 490285828
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d/files/Release/FenghuoEcho.pck",
+      "bytes": 488718364
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/Release/FenghuoEcho.pck",
+      "bytes": 488718364
+    },
+    {
+      "path": "WorkBackups/20261015-192730-S10-in_progress-07d4b5/files/Release/FenghuoEcho.pck",
+      "bytes": 488718364
+    },
+    {
+      "path": "WorkBackups/20261015-192101-S31-done-42d196/files/Release/FenghuoEcho.pck",
+      "bytes": 488718364
+    },
+    {
+      "path": "WorkBackups/20261015-190628-S31-in_progress-969edb/files/Release/FenghuoEcho.pck",
+      "bytes": 488718364
+    },
+    {
+      "path": "WorkBackups/20261015-182515-S19-in_progress-c82f14/files/Release/FenghuoEcho.pck",
+      "bytes": 484713056
+    },
+    {
+      "path": "WorkBackups/20261015-174451-S19-done-64284b/files/Release/FenghuoEcho.pck",
+      "bytes": 484713056
+    },
+    {
+      "path": ".models/blobs/42/429ffc84492c1122da005d7274fc397bf142fe12066eb7e4612dc25c579db2ea",
+      "bytes": 483546902
+    },
+    {
+      "path": "WorkBackups/20261015-153703-S19-in_progress-450000/files/Release/FenghuoEcho.pck",
+      "bytes": 441818084
+    },
+    {
+      "path": "WorkBackups/20261015-145419-S23-done-43eb48/files/Release/FenghuoEcho.pck",
+      "bytes": 441818084
+    },
+    {
+      "path": "WorkBackups/20261015-160620-S32-in_progress-8650f3/files/Release/FenghuoEcho.pck",
+      "bytes": 441615940
+    },
+    {
+      "path": "WorkBackups/20261015-160237-S24-done-ddc795/files/Release/FenghuoEcho.pck",
+      "bytes": 441615940
+    },
+    {
+      "path": "WorkBackups/20261015-160152-S19-done-e20556/files/Release/FenghuoEcho.pck",
+      "bytes": 441615940
+    },
+    {
+      "path": "WorkBackups/20261015-170755-S19-in_progress-2f6d31/files/Release/FenghuoEcho.pck",
+      "bytes": 441571256
+    },
+    {
+      "path": "WorkBackups/20261015-170445-S32-in_progress-454871/files/Release/FenghuoEcho.pck",
+      "bytes": 441571256
+    },
+    {
+      "path": "WorkBackups/20261015-143030-S23-in_progress-6383a9/files/Release/FenghuoEcho.pck",
+      "bytes": 441181244
+    },
+    {
+      "path": "WorkBackups/20261015-142608-S19-done-7a5b1d/files/Release/FenghuoEcho.pck",
+      "bytes": 441181244
+    },
+    {
+      "path": "WorkBackups/20261015-135623-S19-in_progress-3af0a4/files/Release/FenghuoEcho.pck",
+      "bytes": 441165632
+    },
+    {
+      "path": "WorkBackups/20261015-132229-S30-blocked-f95ce2/files/Release/FenghuoEcho.pck",
+      "bytes": 441165632
+    },
+    {
+      "path": "WorkBackups/20261015-125542-S19-done-1573da/files/Release/FenghuoEcho.pck",
+      "bytes": 441158740
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-audio-settings/FenghuoEcho.pck",
+      "bytes": 441158740
+    },
+    {
+      "path": "WorkBackups/20261015-115837-S19-done-c3807d/files/Release/FenghuoEcho.pck",
+      "bytes": 433615428
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-field-sfx/FenghuoEcho.pck",
+      "bytes": 433615428
+    },
+    {
+      "path": "WorkBackups/20261015-113400-S19-in_progress-06b906/files/Release/FenghuoEcho.pck",
+      "bytes": 433464004
+    },
+    {
+      "path": "WorkBackups/20261015-113019-S19-done-12df1f/files/Release/FenghuoEcho.pck",
+      "bytes": 433464004
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-bayonet/FenghuoEcho.pck",
+      "bytes": 433464004
+    },
+    {
+      "path": "WorkBackups/20261015-110359-S32-in_progress-20c125/files/Release/FenghuoEcho.pck",
+      "bytes": 433447316
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-guard-identity/FenghuoEcho.pck",
+      "bytes": 433447316
+    },
+    {
+      "path": "WorkBackups/20261015-094937-S17-done-b88495/files/Release/FenghuoEcho.pck",
+      "bytes": 406145332
+    },
+    {
+      "path": "ReleaseBackups/20261015-before-user-audio/FenghuoEcho.pck",
+      "bytes": 406145332
+    },
+    {
+      "path": "WorkBackups/20261015-091746-S17-in_progress-70b689/files/Release/FenghuoEcho.pck",
+      "bytes": 406145108
+    },
+    {
+      "path": "WorkBackups/20261015-091330-S17-done-94cda2/files/Release/FenghuoEcho.pck",
+      "bytes": 406145108
+    },
+    {
+      "path": "WorkBackups/20261015-090143-S17-in_progress-2fbb33/files/Release/FenghuoEcho.pck",
+      "bytes": 406144836
+    },
+    {
+      "path": "WorkBackups/20261015-085440-S36-blocked-751c99/files/Release/FenghuoEcho.pck",
+      "bytes": 406144836
+    },
+    {
+      "path": "ReleaseBackups/20261015-090632-before-reference-scale/FenghuoEcho.pck",
+      "bytes": 406144836
+    },
+    {
+      "path": "WorkBackups/20261015-084453-S36-in_progress-ad2fbc/files/Release/FenghuoEcho.pck",
+      "bytes": 406122132
+    },
+    {
+      "path": "WorkBackups/20261015-083640-S35-in_progress-44feeb/files/Release/FenghuoEcho.pck",
+      "bytes": 406122132
+    },
+    {
+      "path": "WorkBackups/20261015-083042-S32-blocked-66b253/files/Release/FenghuoEcho.pck",
+      "bytes": 406122132
+    },
+    {
+      "path": "tools/downloads/blender-4.5.14-windows-x64.zip",
+      "bytes": 398661046
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/AssetLibrary/environment/user_expansion_20261015/river/original.rar",
+      "bytes": 372325110
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/AssetLibrary/environment/user_expansion_20261015/river/original.rar",
+      "bytes": 372325110
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/original.rar",
+      "bytes": 372325110
+    },
+    {
+      "path": "docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-220555-S10-in_progress-7d0903/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-220555-S10-in_progress-7d0903/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-215230-S10-in_progress-3e035f/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-215230-S10-in_progress-3e035f/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-214543-S10-in_progress-1c47f9/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-214543-S10-in_progress-1c47f9/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-213744-S10-in_progress-d4e591/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-213744-S10-in_progress-d4e591/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-212019-S10-in_progress-fd4a89/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-212019-S10-in_progress-fd4a89/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-204840-S10-in_progress-b221eb/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-204840-S10-in_progress-b221eb/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/docs/expansion_20261015/village/raw-import.blend1",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/docs/expansion_20261015/village/raw-import.blend",
+      "bytes": 330062798
+    },
+    {
+      "path": "WorkBackups/20261015-082603-S36-in_progress-7f177f/files/ReleaseBackups/20261015-pre-S36/FenghuoEcho.pck",
+      "bytes": 302605228
+    },
+    {
+      "path": "WorkBackups/20261015-082603-S36-in_progress-7f177f/files/Release/FenghuoEcho.pck",
+      "bytes": 302605228
+    },
+    {
+      "path": "WorkBackups/20261013-122008-S01-done-886184/files/Release/FenghuoEcho.pck",
+      "bytes": 302605228
+    },
+    {
+      "path": "WorkBackups/20261013-115838-S01-in_progress-6a7858/files/Release/FenghuoEcho.pck",
+      "bytes": 302605228
+    },
+    {
+      "path": "ReleaseBackups/20261015-pre-S36/FenghuoEcho.pck",
+      "bytes": 302605228
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/AssetLibrary/environment/user_expansion_20261015/river/3d66.com_15202935.max",
+      "bytes": 284377088
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/AssetLibrary/environment/user_expansion_20261015/river/3d66.com_15202935.max",
+      "bytes": 284377088
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/river/3d66.com_15202935.max",
+      "bytes": 284377088
+    },
+    {
+      "path": "docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-220555-S10-in_progress-7d0903/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-215230-S10-in_progress-3e035f/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-214543-S10-in_progress-1c47f9/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-213744-S10-in_progress-d4e591/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-212019-S10-in_progress-fd4a89/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-204840-S10-in_progress-b221eb/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/docs/expansion_20261015/river/raw-import.blend",
+      "bytes": 277552178
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-143837-S10-in_progress-4796a0/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-141748-S10-in_progress-5a70e7/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-135404-S10-in_progress-56cd69/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-133849-S10-in_progress-1d326a/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-131947-S10-in_progress-8f594a/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-125835-S10-done-086d8b/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-113120-S10-in_progress-ea2c20/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-110859-S10-in_progress-d1e27d/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-105712-S10-in_progress-d14969/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-102538-S10-in_progress-d0ac46/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-100744-S10-in_progress-d358b9/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-095513-S10-in_progress-8ac53f/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261016-001805-S10-in_progress-92b087/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261015-235945-S10-in_progress-6e420c/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "WorkBackups/20261015-234029-S10-in_progress-577dd2/files/GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "GodotProject/assets/user_expansion_20261015/village_complete.glb",
+      "bytes": 231783592
+    },
+    {
+      "path": "AssetLibrary/audio/the-free-firearm-sound-library/originals/Prepared SFX Library.7z",
+      "bytes": 193954738
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/AssetLibrary/environment/user_expansion_20261015/village/3d66.com_691775.max",
+      "bytes": 180950442
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/AssetLibrary/environment/user_expansion_20261015/village/3d66.com_691775.max",
+      "bytes": 180950442
+    },
+    {
+      "path": "AssetLibrary/environment/user_expansion_20261015/village/3d66.com_691775.max",
+      "bytes": 180950442
+    },
+    {
+      "path": "tools/Godot-4.7.2/Godot_v4.7.2-stable_win64.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261016-144654-S10-done-f0cbe4/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261016-143837-S10-in_progress-4796a0/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261016-131947-S10-in_progress-8f594a/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261016-125835-S10-done-086d8b/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261016-095513-S10-in_progress-8ac53f/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261016-001805-S10-in_progress-92b087/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-223516-S10-done-b5a8ff/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-211433-S10-in_progress-4dc66d/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-203125-S10-in_progress-b8a43d/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-192730-S10-in_progress-07d4b5/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-192101-S31-done-42d196/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-190628-S31-in_progress-969edb/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-184756-S19-done-73b3c6/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-182515-S19-in_progress-c82f14/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-174451-S19-done-64284b/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-170755-S19-in_progress-2f6d31/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-170445-S32-in_progress-454871/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-160620-S32-in_progress-8650f3/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-160237-S24-done-ddc795/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-160152-S19-done-e20556/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-153703-S19-in_progress-450000/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-145419-S23-done-43eb48/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-143030-S23-in_progress-6383a9/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-142608-S19-done-7a5b1d/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-135623-S19-in_progress-3af0a4/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-132229-S30-blocked-f95ce2/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-125542-S19-done-1573da/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-115837-S19-done-c3807d/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-113400-S19-in_progress-06b906/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-113019-S19-done-12df1f/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-110359-S32-in_progress-20c125/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-094937-S17-done-b88495/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-091746-S17-in_progress-70b689/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-091330-S17-done-94cda2/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    },
+    {
+      "path": "WorkBackups/20261015-090143-S17-in_progress-2fbb33/files/Release/FenghuoEcho.exe",
+      "bytes": 180858888
+    }
+  ],
+  "links_skipped": [
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/config.json",
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/model.bin",
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/tokenizer.json",
+    ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/vocabulary.txt",
+    ".models/models--Systran--faster-whisper-tiny/blobs/dcb76c6586fc06cbdac6dd21f14cfd129cc4cdd9dce19bf4ffa62e59cbe6e6d1",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/config.json",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json",
+    ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt",
+    ".models/models--Systran--faster-whisper-small/blobs/3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+  ],
+  "errors": []
+}

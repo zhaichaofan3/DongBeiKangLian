@@ -1,0 +1,26 @@
+15:51:39 | INFO: Data are loaded, start creating Blender stuff
+15:51:39 | INFO: Blender create Mesh node Door_1
+15:51:39 | INFO: Blender create Mesh node Cottage_1
+15:51:39 | INFO: Blender create Mesh node Fence_1
+15:51:39 | INFO: Blender create Mesh node Environment_1
+15:51:39 | INFO: glTF import finished in 0.01s
+信息: 已另存为 "D01.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+15:51:39 | INFO: Starting glTF 2.0 export
+15:51:39 | INFO: Extracting primitive: Door_1.001
+15:51:39 | INFO: Primitives created: 1
+15:51:39 | INFO: Finished glTF 2.0 export in 0.01199793815612793 s
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Traceback (most recent call last):
+  File "C:\GameMake\tools\build_s10_buildings.py", line 146, in <module>
+    wood=material('Retro_cabin_original_atlas',image=image)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GameMake\tools\build_s10_buildings.py", line 46, in material
+    bs.inputs['Base Color'].default_value=color
+    ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'inputs'
+
+S10 BUILT D01 3346 triangles
+FBX version: 7400
+
+Blender quit

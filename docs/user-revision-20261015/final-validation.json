@@ -1,0 +1,115 @@
+{
+  "version": "0.7.0-rc1",
+  "name": "东北抗联-烽火回声",
+  "revision": "20261015-menu-office-extraction-grey",
+  "created_at": "2026-10-15T14:25:50+08:00",
+  "status": "candidate_ready_pending_human_listening_and_remaining_art_visual_review",
+  "source": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 18,
+    "assertions_total": 573,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/user-revision-20261015/source-regression.log"
+  },
+  "release": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 18,
+    "assertions_total": 573,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/user-revision-20261015/release-regression.log"
+  },
+  "renders": {
+    "render-1280": {
+      "checks": 61,
+      "captures": 6,
+      "passed": true
+    },
+    "render-960": {
+      "checks": 61,
+      "captures": 6,
+      "passed": true
+    },
+    "release-render-1280": {
+      "checks": 61,
+      "captures": 6,
+      "passed": true
+    },
+    "release-render-960": {
+      "checks": 61,
+      "captures": 6,
+      "passed": true
+    }
+  },
+  "dialogue": {
+    "required_clips": 32,
+    "roles": {
+      "姜岚": 11,
+      "沈砚": 8,
+      "陆山": 10,
+      "林守义": 3
+    },
+    "optional_player_clips": 4,
+    "path": "Dialogue/dialogue-recording-list.txt",
+    "new_recordings_integrated": false
+  },
+  "encounter": {
+    "placed_guards": 13,
+    "checkpoint": 3,
+    "timber": 4,
+    "office": 4,
+    "door_ambusher": 1,
+    "pier": 1,
+    "hold_seconds": 30,
+    "pursuing_group_size": [
+      1,
+      2
+    ],
+    "delay_after_group_defeat_seconds": 2,
+    "legacy_encounters_preserved": true
+  },
+  "audio": {
+    "history": "complete_user_mp3_with_embedded_music",
+    "temporary_task_voice_cues": 14,
+    "music_volume_default": 0.22,
+    "global_during_history": false,
+    "listening": "pending"
+  },
+  "prior_viewmodel_geometry": {
+    "retained": true,
+    "historical_comparison_rerun": false
+  },
+  "previous_release_preserved": "WorkBackups/20261015-135623-S19-in_progress-3af0a4",
+  "remaining": [
+    "human audio listening",
+    "human gameplay difficulty",
+    "S32 final art review",
+    "S33 terrain art integration",
+    "S36 full human acceptance"
+  ],
+  "files": [
+    {
+      "path": "Release/FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 441181244,
+      "sha256": "a7e8b0acbb0629089107714718d46d6c99bfc8f8aa1695c91cc677ca8654d4df"
+    }
+  ]
+}

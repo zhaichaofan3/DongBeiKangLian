@@ -1,0 +1,7 @@
+Title: Footsteps on different surfaces
+Author: congusbongus and individual contributors listed in included text files
+License: CC-BY-3.0
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://opengameart.org/content/footsteps-on-different-surfaces
+Evidence: source.html and source.txt
+Notes: Seven surface groups including grass/dirt, gravel, water, wood and metal. Preserve per-file credits in included text files.

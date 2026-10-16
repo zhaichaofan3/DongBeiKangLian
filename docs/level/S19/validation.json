@@ -1,0 +1,18 @@
+{
+  "step": "S19",
+  "status": "done",
+  "changes": [
+    "Friendly roles now keep explicit role IDs and role-specific untreated/treated movement speeds.",
+    "Scout and logger receive distinct idle posture offsets; wounded posture follows treatment; guard exposes patrol/combat rifle behavior profile."
+  ],
+  "specialized": "9/9",
+  "linear_route": "37/37",
+  "combat_route": "PASS",
+  "evidence": [
+    "docs/level/S19/role_profiles.json",
+    "docs/level/S19/role-profiles-runtime-final.log",
+    "docs/level/S19/linear-route.log",
+    "docs/level/S19/combat-route.log"
+  ],
+  "scope_boundary": "S19 establishes role differences; S20 begins the artistic Tianchi composition."
+}

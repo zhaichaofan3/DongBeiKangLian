@@ -1,0 +1,19 @@
+{
+  "reproduced": [
+    "The interrupted revision removed Lu Shan's incompatible forehead bandage but had not completed full regression or rebuilt the release.",
+    "The original glove planes differed between sides; bending by world height left fingers extending above the rifle.",
+    "Opening actor setup retained a two-argument call to a role-preparation method that now required a grip argument."
+  ],
+  "correction": [
+    "Retained the supplied glove meshes, textures, relaxed hands, leg bandage and protected first-person files.",
+    "Bent each gripping glove in its own palm frame while preserving surface thickness and wrist transition.",
+    "Removed duplicate opening role preparation; Human.build already selects the faction model and gripping hands. Office walking still switches to relaxed hands."
+  ],
+  "verification_adjustment": "The first new glove-surface distance check mixed rifle-parent coordinates with actor coordinates. Both points now use actor coordinates; the failed run is retained.",
+  "failed_logs": [
+    "character-first-failed.log",
+    "source-regression-first-failed.log",
+    "opening-initial-failed.log"
+  ],
+  "prior_report": "Earlier broad bounds and virtual palm-target checks did not establish real glove orientation. Four close-ups and actual deformed glove distance checks now cover lowered and aimed poses on both sides."
+}

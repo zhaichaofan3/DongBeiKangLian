@@ -1,0 +1,153 @@
+{
+  "revision": "20261015-friendly-star-safe-hold-office-fullscreen-melee-organization",
+  "version": "0.7.0-rc1",
+  "created_at": "2026-10-15T17:03:06+08:00",
+  "runtime": {
+    "source": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 657,
+      "departure_samples": 21,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "guards_defeated": 19,
+        "game_seconds": 103.133333333329
+      }
+    },
+    "release": {
+      "passed": true,
+      "groups": 22,
+      "assertions": 657,
+      "departure_samples": 21,
+      "ai_route": {
+        "result": "won",
+        "health": 91.0,
+        "guards_defeated": 19,
+        "game_seconds": 103.133333333329
+      }
+    }
+  },
+  "renders": {
+    "source-render-1280": {
+      "passed": true,
+      "checks": 43,
+      "resolution": "(1280, 720)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.00849276594817638,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    },
+    "source-render-960": {
+      "passed": true,
+      "checks": 43,
+      "resolution": "(960, 540)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.0089681213721633,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    },
+    "release-render-1280": {
+      "passed": true,
+      "checks": 43,
+      "resolution": "(1280, 720)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.00885339360684156,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    },
+    "release-render-960": {
+      "passed": true,
+      "checks": 43,
+      "resolution": "(960, 540)",
+      "captures": [
+        "bayonet-counter.png",
+        "bayonet-grapple.png",
+        "conversation-low-ready.png",
+        "friendly-cap-star.png",
+        "fullscreen-volume-drag.png",
+        "office-walk-00.png",
+        "office-walk-25.png",
+        "office-walk-50.png"
+      ],
+      "metrics": {
+        "grapple_grip_gap_m": 0.00858672149479389,
+        "max_visible_arm_m": 0.755000054836273,
+        "visible_arm_samples": 50
+      }
+    }
+  },
+  "character": {
+    "all_variant_triangles": 72138,
+    "cap_star_triangles": 10,
+    "sha256": "b1fd325a4121d409fad46bda78ebd0d0823e9a310750af5e0c0d5c8fab0df76b"
+  },
+  "organization": {
+    "actions": 1039,
+    "archive_file_hashes_verified": 1035,
+    "duplicate_bytes_removed": 228579174.0,
+    "manifest": "organization/cleanup.json"
+  },
+  "files": [
+    {
+      "path": "FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "FenghuoEcho.pck",
+      "bytes": 441571256,
+      "sha256": "6818007e2a99841b5c601c06360c7d821ef6e3f645fecc840c88fb322e175552"
+    }
+  ],
+  "preserved_baseline": "WorkBackups/20261015-160620-S32-in_progress-8650f3",
+  "diagnostics": {
+    "first_release_regression": "Native access violation 0xc0000005 during combat-route startup; cause unconfirmed.",
+    "failed_log": "release-regression-first-failed.log",
+    "system_event": "crash-event.json",
+    "isolated_headless_combat": "passed",
+    "serial_full_regression": "passed",
+    "rendered_release_combat": "passed",
+    "claim": "Subsequent checks passed; the initial native exception has not been diagnosed or claimed fixed."
+  },
+  "human_acceptance": {
+    "continuous_animation": "pending",
+    "dialogue_recording": "temporary_synthesis_in_task_opening",
+    "listening_and_mix": "pending",
+    "difficulty_and_full_playtest": "pending"
+  },
+  "limits": "Programmatic state and input checks plus inspected engine screenshots. No new cross-hardware or performance claim."
+}

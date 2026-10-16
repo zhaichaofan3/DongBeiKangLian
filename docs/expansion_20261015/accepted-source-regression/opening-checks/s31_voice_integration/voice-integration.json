@@ -1,0 +1,240 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "Complete user history MP3 and eight supplied dialogue MP3s load",
+      "passed": true
+    },
+    {
+      "description": "Mixed history recording uses the complete cinematic volume bus",
+      "passed": true
+    },
+    {
+      "description": "N01 appears over the complete user history recording",
+      "passed": true
+    },
+    {
+      "description": "Seeking within one cue does not restart the same voice take",
+      "passed": true
+    },
+    {
+      "description": "Cinematic pause freezes the current voice take",
+      "passed": true
+    },
+    {
+      "description": "B1 dialogue replaces the narration take",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B1-L01",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B1-L01",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B1-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B1-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B2-L01",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded dialogue is silent without fallback: B2-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B2-L02",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B2-L02",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B2-L02",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B2-L02",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B2-L03",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded dialogue is silent without fallback: B2-L03",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B3-L01",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B3-L01",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B3-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B3-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B3-L02",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded dialogue is silent without fallback: B3-L02",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B5-L01",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B5-L01",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B5-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B5-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B5-L02",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded dialogue is silent without fallback: B5-L02",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B5-L03",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B5-L03",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B5-L03",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B5-L03",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B5-L04",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B5-L04",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B5-L04",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B5-L04",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B5-L05",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded dialogue is silent without fallback: B5-L05",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B5-L06",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B5-L06",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B5-L06",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B5-L06",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B6-L01",
+      "passed": true
+    },
+    {
+      "description": "Supplied recording selected: B6-L01",
+      "passed": true
+    },
+    {
+      "description": "Imported recording bytes match latest supplied take: B6-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle covers complete recording: B6-L01",
+      "passed": true
+    },
+    {
+      "description": "Subtitle retained: B6-L02",
+      "passed": true
+    },
+    {
+      "description": "Unrecorded dialogue is silent without fallback: B6-L02",
+      "passed": true
+    },
+    {
+      "description": "Eight recorded and six silent dialogue cues; no temporary synthesis",
+      "passed": true
+    },
+    {
+      "description": "Leaving the opening stops the last voice take",
+      "passed": true
+    },
+    {
+      "description": "Skipping a part clears voice before the next part begins",
+      "passed": true
+    }
+  ],
+  "history": "user_supplied_full_mix",
+  "listening": "pending",
+  "silent_cues": [
+    "B2-L01",
+    "B2-L03",
+    "B3-L02",
+    "B5-L02",
+    "B5-L05",
+    "B6-L02"
+  ],
+  "step": "S31",
+  "task_voice": "user_supplied_missing_lines_silent",
+  "voice_count": 8,
+  "voiced_cues": [
+    "B1-L01",
+    "B2-L02",
+    "B3-L01",
+    "B5-L01",
+    "B5-L03",
+    "B5-L04",
+    "B5-L06",
+    "B6-L01"
+  ]
+}

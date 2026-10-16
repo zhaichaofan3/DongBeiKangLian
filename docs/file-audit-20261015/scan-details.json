@@ -1,0 +1,1339 @@
+{
+  "Errors": [],
+  "ReparsePoints": [
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/config.json",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\3baa18e2b321a2f489614607852a729fcd516480"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/model.bin",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\dcb76c6586fc06cbdac6dd21f14cfd129cc4cdd9dce19bf4ffa62e59cbe6e6d1"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/tokenizer.json",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\7818adb6de9fa3064d3ff81226fdd675be1f6344"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/vocabulary.txt",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\c9074644d9d1205686f16d411564729461324b75"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/blobs/dcb76c6586fc06cbdac6dd21f14cfd129cc4cdd9dce19bf4ffa62e59cbe6e6d1",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\95\\95d706516af777831fff6b2c35837dfb450afca078db361910d44a435b24dc2c"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/config.json",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\e5047537059bd8f182d9ca64c470201585015187"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\7818adb6de9fa3064d3ff81226fdd675be1f6344"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\c9074644d9d1205686f16d411564729461324b75"
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/blobs/3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+      "Attributes": "Archive, ReparsePoint",
+      "Target": "..\\..\\blobs\\42\\429ffc84492c1122da005d7274fc397bf142fe12066eb7e4612dc25c579db2ea"
+    }
+  ],
+  "LargestFiles": [
+    {
+      "Path": "WorkBackups/20261015-174451-S19-done-64284b/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 484713056,
+      "ModifiedUtc": "2026-10-15T09:40:00.8077141Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "Release/FenghuoEcho.pck",
+      "Top": "Release",
+      "Bytes": 484713056,
+      "ModifiedUtc": "2026-10-15T09:40:00.8077141Z",
+      "Extension": ".pck",
+      "FullPathLength": 35,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": ".models/blobs/42/429ffc84492c1122da005d7274fc397bf142fe12066eb7e4612dc25c579db2ea",
+      "Top": ".models",
+      "Bytes": 483546902,
+      "ModifiedUtc": "2026-10-15T02:12:56.8317964Z",
+      "Extension": "",
+      "FullPathLength": 93,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-145419-S23-done-43eb48/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441818084,
+      "ModifiedUtc": "2026-10-15T06:48:44.7660398Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-153703-S19-in_progress-450000/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441818084,
+      "ModifiedUtc": "2026-10-15T06:48:44.7660398Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-160237-S24-done-ddc795/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441615940,
+      "ModifiedUtc": "2026-10-15T07:56:59.0631197Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-160620-S32-in_progress-8650f3/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441615940,
+      "ModifiedUtc": "2026-10-15T07:56:59.0631197Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-160152-S19-done-e20556/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441615940,
+      "ModifiedUtc": "2026-10-15T07:56:59.0631197Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-170755-S19-in_progress-2f6d31/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441571256,
+      "ModifiedUtc": "2026-10-15T08:33:28.5844028Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-170445-S32-in_progress-454871/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441571256,
+      "ModifiedUtc": "2026-10-15T08:33:28.5844028Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-142608-S19-done-7a5b1d/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441181244,
+      "ModifiedUtc": "2026-10-15T06:20:12.2208649Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-143030-S23-in_progress-6383a9/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441181244,
+      "ModifiedUtc": "2026-10-15T06:20:12.2208649Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-135623-S19-in_progress-3af0a4/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441165632,
+      "ModifiedUtc": "2026-10-15T05:17:06.8629225Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-132229-S30-blocked-f95ce2/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441165632,
+      "ModifiedUtc": "2026-10-15T05:17:06.8629225Z",
+      "Extension": ".pck",
+      "FullPathLength": 88,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-125542-S19-done-1573da/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 441158740,
+      "ModifiedUtc": "2026-10-15T04:51:11.1284155Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-audio-settings/FenghuoEcho.pck",
+      "Top": "ReleaseBackups",
+      "Bytes": 441158740,
+      "ModifiedUtc": "2026-10-15T04:51:11.1284155Z",
+      "Extension": ".pck",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-field-sfx/FenghuoEcho.pck",
+      "Top": "ReleaseBackups",
+      "Bytes": 433615428,
+      "ModifiedUtc": "2026-10-15T03:47:53.7208078Z",
+      "Extension": ".pck",
+      "FullPathLength": 68,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-115837-S19-done-c3807d/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 433615428,
+      "ModifiedUtc": "2026-10-15T03:47:53.7208078Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-bayonet/FenghuoEcho.pck",
+      "Top": "ReleaseBackups",
+      "Bytes": 433464004,
+      "ModifiedUtc": "2026-10-15T03:27:05.7536157Z",
+      "Extension": ".pck",
+      "FullPathLength": 66,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-113019-S19-done-12df1f/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 433464004,
+      "ModifiedUtc": "2026-10-15T03:27:05.7536157Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-113400-S19-in_progress-06b906/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 433464004,
+      "ModifiedUtc": "2026-10-15T03:27:05.7536157Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-guard-identity/FenghuoEcho.pck",
+      "Top": "ReleaseBackups",
+      "Bytes": 433447316,
+      "ModifiedUtc": "2026-10-15T02:57:08.4479759Z",
+      "Extension": ".pck",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-110359-S32-in_progress-20c125/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 433447316,
+      "ModifiedUtc": "2026-10-15T02:57:08.4479759Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-094937-S17-done-b88495/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 406145332,
+      "ModifiedUtc": "2026-10-15T01:28:35.3096341Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-user-audio/FenghuoEcho.pck",
+      "Top": "ReleaseBackups",
+      "Bytes": 406145332,
+      "ModifiedUtc": "2026-10-15T01:28:35.3096341Z",
+      "Extension": ".pck",
+      "FullPathLength": 69,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-091330-S17-done-94cda2/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 406145108,
+      "ModifiedUtc": "2026-10-15T01:09:39.5937136Z",
+      "Extension": ".pck",
+      "FullPathLength": 85,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-091746-S17-in_progress-70b689/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 406145108,
+      "ModifiedUtc": "2026-10-15T01:09:39.5937136Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-090143-S17-in_progress-2fbb33/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 406144836,
+      "ModifiedUtc": "2026-10-15T00:45:18.0444173Z",
+      "Extension": ".pck",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-085440-S36-blocked-751c99/files/Release/FenghuoEcho.pck",
+      "Top": "WorkBackups",
+      "Bytes": 406144836,
+      "ModifiedUtc": "2026-10-15T00:45:18.0444173Z",
+      "Extension": ".pck",
+      "FullPathLength": 88,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-090632-before-reference-scale/FenghuoEcho.pck",
+      "Top": "ReleaseBackups",
+      "Bytes": 406144836,
+      "ModifiedUtc": "2026-10-15T00:45:18.0444173Z",
+      "Extension": ".pck",
+      "FullPathLength": 81,
+      "Attributes": "Archive"
+    }
+  ],
+  "ZeroByteFiles": [
+    {
+      "Path": "WorkBackups/20261015-170445-S32-in_progress-454871/files/docs/archive/workspace-20261015/tool-logs/field-character-revision-build.log",
+      "Top": "WorkBackups",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-15T07:41:54.9914490Z",
+      "Extension": ".log",
+      "FullPathLength": 145,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261015-085440-S36-blocked-751c99/files/docs/level/S09/regression-final-output.txt",
+      "Top": "WorkBackups",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-13T07:26:58.0705013Z",
+      "Extension": ".txt",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "WorkBackups/20261013-153744-S09-done-7555a6/files/docs/level/S09/regression-final-output.txt",
+      "Top": "WorkBackups",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-13T07:26:58.0705013Z",
+      "Extension": ".txt",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/modules/bl_ui_utils/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 88,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/modules/bl_text_utils/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 90,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/modules/bl_rna_utils/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 89,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/rigs/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/rigs/spines/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/rigs/limbs/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 98,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/rigs/faces/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 98,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/rigs/experimental/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 105,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/rigs/basic/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 98,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/metarigs/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 96,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/scripts/addons_core/rigify/metarigs/Animals/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:35:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/__phello__/ham/eggs.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 82,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/__phello__/ham/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 86,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/urllib/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 78,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/zstandard/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/urllib3-2.4.0.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": "",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/urllib3/contrib/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 101,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/setuptools-63.2.0.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": "",
+      "FullPathLength": 111,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/setuptools/_vendor/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/setuptools/_vendor/jaraco/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 111,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/requests-2.32.3.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": "",
+      "FullPathLength": 109,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pycodestyle-2.13.0.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": "",
+      "FullPathLength": 112,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pkg_resources/_vendor/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pkg_resources/_vendor/jaraco/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 114,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip-24.0.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": "",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/urllib3/packages/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 114,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 124,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/urllib3/contrib/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 113,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 130,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/truststore/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 105,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/tenacity/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 103,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/rich/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/resolvelib/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 105,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/resolvelib/compat/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 115,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/pyparsing/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/platformdirs/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/packaging/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/idna/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/distro/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 101,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/chardet/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/chardet/metadata/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 114,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/chardet/cli/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 109,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/certifi/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_vendor/cachecontrol/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_internal/utils/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 105,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_internal/resolution/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 110,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_internal/resolution/resolvelib/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 121,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_internal/resolution/legacy/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 117,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_internal/operations/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 110,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/pip/_internal/operations/build/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 116,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/OpenImageIO/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-08-24T17:30:28.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 94,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 88,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/_pyinstaller/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/typing/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 97,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/testing/_private/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 108,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/testing/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 105,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/random/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/random/tests/data/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 109,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/polynomial/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 108,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/matrixlib/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/ma/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 100,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/linalg/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/lib/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 101,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/fft/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 101,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/f2py/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:36.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/distutils/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/core/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/numpy/compat/tests/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/mesonbuild/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 96,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/mesonbuild/templates/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 106,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/mesonbuild/dependencies/data/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 114,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/mesonbuild/compilers/mixins/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 113,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/mesonbuild/cmake/data/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 107,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/mesonbuild/backend/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/meson-0.63.0.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": "",
+      "FullPathLength": 106,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/idna-3.10.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": "",
+      "FullPathLength": 103,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/idna/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 87,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/charset_normalizer-3.4.1.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": "",
+      "FullPathLength": 118,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/charset_normalizer/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 101,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/certifi-2025.4.26.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": "",
+      "FullPathLength": 111,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/certifi/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".typed",
+      "FullPathLength": 90,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/site-packages/autopep8-2.3.1.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": "",
+      "FullPathLength": 108,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/pydoc_data/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 82,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/blender-4.5.14-windows-x64/4.5/python/lib/email/mime/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2025-06-29T21:36:34.0000000Z",
+      "Extension": ".py",
+      "FullPathLength": 82,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/pyppmd/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:23.3016491Z",
+      "Extension": ".typed",
+      "FullPathLength": 46,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/py7zr-1.1.3.dist-info/REQUESTED",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:28.2341561Z",
+      "Extension": "",
+      "FullPathLength": 62,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/py7zr/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:27.9559658Z",
+      "Extension": ".typed",
+      "FullPathLength": 45,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/multivolumefile/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:27.5121616Z",
+      "Extension": ".typed",
+      "FullPathLength": 55,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/inflate64/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:27.5626117Z",
+      "Extension": ".typed",
+      "FullPathLength": 49,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/Cryptodome/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:23.4074026Z",
+      "Extension": ".typed",
+      "FullPathLength": 50,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/Cryptodome/PublicKey/__init__.pyi",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:23.6317641Z",
+      "Extension": ".pyi",
+      "FullPathLength": 64,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/Cryptodome/Math/__init__.py",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:23.6051031Z",
+      "Extension": ".py",
+      "FullPathLength": 58,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/Cryptodome/Cipher/__init__.pyi",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:23.4417814Z",
+      "Extension": ".pyi",
+      "FullPathLength": 61,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/bcj/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:27.2124654Z",
+      "Extension": ".typed",
+      "FullPathLength": 43,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "tools/asset_python/backports/zstd/py.typed",
+      "Top": "tools",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T05:48:27.6073509Z",
+      "Extension": ".typed",
+      "FullPathLength": 54,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-guard-identity/Validation/user-audio-20261015/release-realtime.log",
+      "Top": "ReleaseBackups",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-15T02:58:18.1820883Z",
+      "Extension": ".log",
+      "FullPathLength": 109,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-field-sfx/Validation/user-audio-20261015/release-realtime.log",
+      "Top": "ReleaseBackups",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-15T02:58:18.1820883Z",
+      "Extension": ".log",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-bayonet/Validation/user-audio-20261015/release-realtime.log",
+      "Top": "ReleaseBackups",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-15T02:58:18.1820883Z",
+      "Extension": ".log",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "ReleaseBackups/20261015-before-audio-settings/Validation/user-audio-20261015/release-realtime.log",
+      "Top": "ReleaseBackups",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-15T02:58:18.1820883Z",
+      "Extension": ".log",
+      "FullPathLength": 109,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GameProject/Temp/UnityLockfile",
+      "Top": "GameProject",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-11T14:40:36.5094900Z",
+      "Extension": "",
+      "FullPathLength": 42,
+      "Attributes": "Archive, NotContentIndexed"
+    },
+    {
+      "Path": "docs/level/S09/regression-final-output.txt",
+      "Top": "docs",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-13T07:26:58.0705013Z",
+      "Extension": ".txt",
+      "FullPathLength": 54,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "docs/audio/user_20261015/release-realtime.log",
+      "Top": "docs",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-15T02:58:18.1820883Z",
+      "Extension": ".log",
+      "FullPathLength": 57,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "docs/archive/workspace-20261015/tool-logs/field-character-revision-build.log",
+      "Top": "docs",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-15T07:41:54.9914490Z",
+      "Extension": ".log",
+      "FullPathLength": 88,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "AssetReview/reports/game_hands_stderr.log",
+      "Top": "AssetReview",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T06:21:19.2046535Z",
+      "Extension": ".log",
+      "FullPathLength": 53,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "AssetReview/reports/ready_render_stderr.log",
+      "Top": "AssetReview",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T06:04:30.8936181Z",
+      "Extension": ".log",
+      "FullPathLength": 55,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "AssetReview/reports/render_stderr.log",
+      "Top": "AssetReview",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T06:00:38.9654975Z",
+      "Extension": ".log",
+      "FullPathLength": 49,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "AssetReview/reports/rifle_render_stderr.log",
+      "Top": "AssetReview",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T06:03:02.9418978Z",
+      "Extension": ".log",
+      "FullPathLength": 55,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "AssetReview/previews/.gdignore",
+      "Top": "AssetReview",
+      "Bytes": 0,
+      "ModifiedUtc": "2026-10-12T06:02:57.9804057Z",
+      "Extension": ".gdignore",
+      "FullPathLength": 42,
+      "Attributes": "Archive"
+    }
+  ],
+  "LongPaths": [],
+  "CurrentTemporaryFiles": []
+}

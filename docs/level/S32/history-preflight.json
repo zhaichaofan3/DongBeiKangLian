@@ -1,0 +1,59 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "History preflight contains all 17 authored A shots",
+      "passed": true
+    },
+    {
+      "description": "A1-A6 shot coverage matches the storyboard",
+      "passed": true
+    },
+    {
+      "description": "Historical duration and all 15 fixed narration cues are present",
+      "passed": true
+    },
+    {
+      "description": "Temporary narration files are available at both ends of the history timeline",
+      "passed": true
+    },
+    {
+      "description": "The history climax has four authored artillery effects and a closing title event",
+      "passed": true
+    },
+    {
+      "description": "A4 preview activates authored fireline and first barrage impact",
+      "passed": true
+    },
+    {
+      "description": "A14 keeps the final distant blast in frame after its look-at correction",
+      "passed": true
+    },
+    {
+      "description": "A5 carries the last narration into the spiritual close before handoff",
+      "passed": true
+    },
+    {
+      "description": "A6 resolves on the artistic Tianchi lake and layered environment",
+      "passed": true
+    },
+    {
+      "description": "History previews never mutate gameplay resources or mission state",
+      "passed": true
+    },
+    {
+      "description": "History skip enters the separate task prologue boundary",
+      "passed": true
+    },
+    {
+      "description": "Both opening parts share one gameplay handoff",
+      "passed": true
+    }
+  ],
+  "music": "not_selected",
+  "sfx_listening": "pending",
+  "shots_A": 17,
+  "status": "preflight_in_progress",
+  "step": "S32",
+  "voice": "temporary_synthetic"
+}

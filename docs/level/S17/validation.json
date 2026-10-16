@@ -1,0 +1,16 @@
+{
+  "step": "S17",
+  "status": "done",
+  "changes": [
+    "Switching weapons now immediately hides and resets the previous weapon clip, bolt and both hand poses.",
+    "Restore also clears movement foot phase together with weapon disturbance state."
+  ],
+  "specialized": "10/10",
+  "visual_motion": "50/50",
+  "evidence": [
+    "docs/level/S17/weapon_motion.json",
+    "docs/level/S17/weapon-motion-runtime-final.log",
+    "docs/level/S17/visual-motion.log"
+  ],
+  "scope_boundary": "S17 covers first-person rifle/pistol movement, aim, fire, reload interruption and disturbance recovery; S18 handles hit, stagger, fall and recovery poses for characters."
+}

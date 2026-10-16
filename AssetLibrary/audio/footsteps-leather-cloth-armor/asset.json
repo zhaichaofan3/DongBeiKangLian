@@ -1,0 +1,119 @@
+{
+  "id": "footsteps-leather-cloth-armor",
+  "title": "Footsteps leather, cloth, armor",
+  "source_url": "https://opengameart.org/content/footsteps-leather-cloth-armor",
+  "author": "HaelDB",
+  "license": "CC0-1.0",
+  "notes": "Page offers CC0 and OGA-BY 3.0 alternatives; selected CC0. Soft gain, suitable clothing layers.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "footsteps-leather-cloth-armor/originals/footsteps.zip",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 87827,
+      "sha256": "94b5155d119d9378315c2b4457c00098d78a36f2a2c436d5145687d1d3bad257",
+      "role": "original_download"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_cloth1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 8748,
+      "sha256": "ac461649be5e323da29227df7633d1076a905af983e0e587905216dbf85cdb91",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_cloth2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 8843,
+      "sha256": "32b40b43e45c7ac2eb68340f0ca39a40618aae82747ffd7457a23243a5c6d290",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_cloth3.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 8890,
+      "sha256": "8dcc5540225edb7509d84b4ca4c5289e171dc55d6ad4d1e6b5948997fef88296",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_cloth4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 7532,
+      "sha256": "afefb124b4059a2324a921694b26ac0baefb83d157707766bd2fa5649b7c0a78",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_lth1.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 9267,
+      "sha256": "8abf47391e53218a4826a1419e4861ae7dae14df55c51a322f2fa2d4fab2005f",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_lth2.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 8761,
+      "sha256": "35214722297cda533de2158e3a4754c5639990760b213101fe097ab34bab1b86",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_lth33.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 9447,
+      "sha256": "a9b08f5e1b9baad2dabaee57a0f33942cee42844805e2f8e5ce84449f0500bda",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_lth4.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 9374,
+      "sha256": "cef53154dc37d57a4c1d2548f23daa25d5bbdecc5cd21f807ada5a1078e12513",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_metal (2).ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 7171,
+      "sha256": "68afff8c71620628b0ebf894599de06bc3b80d87222d6cc85abec91fc3337b55",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_metal (3).ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 7090,
+      "sha256": "f4b5d7d4a129d83a1efa1963510c40262e577ad797a0007e53000d9cdfb35ffc",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_metal (4).ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 7224,
+      "sha256": "25db2a8e024ab51cd23dc66ef881b7f0c2d898c081e6feb105693e1dd5e2817f",
+      "role": "extracted"
+    },
+    {
+      "path": "footsteps-leather-cloth-armor/extracted/footsteps/footsteps/step_metal.ogg",
+      "download_url": "https://opengameart.org/sites/default/files/footsteps.zip",
+      "bytes": 7253,
+      "sha256": "74fb327096d53e30caf5954df38bc6666bb20679a62438ed014b1beeb67dd251",
+      "role": "extracted"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 12,
+    "decode_passed": 12,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 2.88,
+    "duration_range_seconds": [
+      0.188,
+      0.25
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

@@ -1,0 +1,2191 @@
+{
+  "cursors": {
+    "next": "12",
+    "previous": null
+  },
+  "next": "https://api.sketchfab.com/v3/search?count=12&cursor=12&downloadable=true&q=chinese+courtyard&sort_by=-likeCount&type=models",
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/55d8371278844dbbbe43e1f867b5fcde",
+      "uid": "55d8371278844dbbbe43e1f867b5fcde",
+      "name": "Ancient Chinese courtyard Park",
+      "staffpickedAt": null,
+      "viewCount": 28975,
+      "likeCount": 1107,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-55d8371278844dbbbe43e1f867b5fcde",
+      "embedUrl": "https://sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/embed",
+      "commentCount": 12,
+      "isDownloadable": true,
+      "publishedAt": "2020-06-18T08:31:40.232777",
+      "tags": [
+        {
+          "name": "scene",
+          "slug": "scene",
+          "uri": "https://api.sketchfab.com/v3/tags/scene"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "park",
+          "slug": "park",
+          "uri": "https://api.sketchfab.com/v3/tags/park"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e609ec5a6a1044fbb9fcbd3a324c6dad",
+            "size": 166936,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/bcff29b08f73459c8ace727f6f12b86b.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "cf75a5727d624c2cbae4286a9baacd69",
+            "size": 51348,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/fe9b3c96a1314b568f0f43911e8ef30a.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "84205a01355d4859a11e81c131c5b441",
+            "size": 29130,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/63e2dcfd3ee6408aba0ffd5158bc7c82.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c78a17ce81044952b3d8a40cd97c478f",
+            "size": 5456,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/d54dab463e1a4af587a3873a4db70c3f.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "df1f1fb8788d41fe8c77629dd2060ef6",
+            "size": 825,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/55d8371278844dbbbe43e1f867b5fcde/thumbnails/7feeaae835714eeeb55fa1e26b4b9417/5fa5779b6dae4de0a47c6c5462ef80e6.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "55d4387da42046cb82d35552845bc480",
+        "username": "799105734",
+        "displayName": "noyou",
+        "profileUrl": "https://sketchfab.com/799105734",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78a791694bfc448c980d23b18841d767",
+          "images": [
+            {
+              "size": 788,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/a3006838ed254530b1dcfba4461858e0.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1244,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/d9fc0f37902746d8b2e297133dc956bb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3013,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/564d3bbc654d4b6ab5c530650734661a.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3554,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78a791694bfc448c980d23b18841d767/6913ae550cbc4fed8b01f11ae432f7aa.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/55d4387da42046cb82d35552845bc480"
+      },
+      "description": "",
+      "faceCount": 268562,
+      "createdAt": "2020-06-15T14:36:49.519882",
+      "vertexCount": 154207,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 24,
+          "size": 24818280,
+          "type": "glb",
+          "textureMaxResolution": 512,
+          "faceCount": 268540,
+          "vertexCount": 395621
+        },
+        "gltf": {
+          "textureCount": 24,
+          "size": 7137949,
+          "type": "gltf",
+          "textureMaxResolution": 512,
+          "faceCount": 268540,
+          "vertexCount": 395621
+        },
+        "source": {
+          "textureCount": null,
+          "size": 15911284,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 15121471,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a18881525cfd4fe882e739c9c7cee752",
+      "uid": "a18881525cfd4fe882e739c9c7cee752",
+      "name": "Traditional Chinese Siheyuan Courtyard",
+      "staffpickedAt": null,
+      "viewCount": 38617,
+      "likeCount": 1101,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a18881525cfd4fe882e739c9c7cee752",
+      "embedUrl": "https://sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/embed",
+      "commentCount": 13,
+      "isDownloadable": true,
+      "publishedAt": "2024-10-15T02:23:40.982319",
+      "tags": [
+        {
+          "name": "beijing",
+          "slug": "beijing",
+          "uri": "https://api.sketchfab.com/v3/tags/beijing"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "historic",
+          "slug": "historic",
+          "uri": "https://api.sketchfab.com/v3/tags/historic"
+        },
+        {
+          "name": "residential",
+          "slug": "residential",
+          "uri": "https://api.sketchfab.com/v3/tags/residential"
+        },
+        {
+          "name": "urban",
+          "slug": "urban",
+          "uri": "https://api.sketchfab.com/v3/tags/urban"
+        },
+        {
+          "name": "architectural",
+          "slug": "architectural",
+          "uri": "https://api.sketchfab.com/v3/tags/architectural"
+        },
+        {
+          "name": "historical",
+          "slug": "historical",
+          "uri": "https://api.sketchfab.com/v3/tags/historical"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "cultural",
+          "slug": "cultural",
+          "uri": "https://api.sketchfab.com/v3/tags/cultural"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "culture",
+          "slug": "culture",
+          "uri": "https://api.sketchfab.com/v3/tags/culture"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "imperial",
+          "slug": "imperial",
+          "uri": "https://api.sketchfab.com/v3/tags/imperial"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "old",
+          "slug": "old",
+          "uri": "https://api.sketchfab.com/v3/tags/old"
+        },
+        {
+          "name": "traditional",
+          "slug": "traditional",
+          "uri": "https://api.sketchfab.com/v3/tags/traditional"
+        },
+        {
+          "name": "dynasty",
+          "slug": "dynasty",
+          "uri": "https://api.sketchfab.com/v3/tags/dynasty"
+        },
+        {
+          "name": "courtyard",
+          "slug": "courtyard",
+          "uri": "https://api.sketchfab.com/v3/tags/courtyard"
+        },
+        {
+          "name": "oriental",
+          "slug": "oriental",
+          "uri": "https://api.sketchfab.com/v3/tags/oriental"
+        },
+        {
+          "name": "classical",
+          "slug": "classical",
+          "uri": "https://api.sketchfab.com/v3/tags/classical"
+        },
+        {
+          "name": "ming",
+          "slug": "ming",
+          "uri": "https://api.sketchfab.com/v3/tags/ming"
+        },
+        {
+          "name": "preservation",
+          "slug": "preservation",
+          "uri": "https://api.sketchfab.com/v3/tags/preservation"
+        },
+        {
+          "name": "walled",
+          "slug": "walled",
+          "uri": "https://api.sketchfab.com/v3/tags/walled"
+        },
+        {
+          "name": "vernacular",
+          "slug": "vernacular",
+          "uri": "https://api.sketchfab.com/v3/tags/vernacular"
+        },
+        {
+          "name": "hutong",
+          "slug": "hutong",
+          "uri": "https://api.sketchfab.com/v3/tags/hutong"
+        },
+        {
+          "name": "shui",
+          "slug": "shui",
+          "uri": "https://api.sketchfab.com/v3/tags/shui"
+        },
+        {
+          "name": "feng",
+          "slug": "feng",
+          "uri": "https://api.sketchfab.com/v3/tags/feng"
+        },
+        {
+          "name": "qing",
+          "slug": "qing",
+          "uri": "https://api.sketchfab.com/v3/tags/qing"
+        },
+        {
+          "name": "architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "model",
+          "slug": "model",
+          "uri": "https://api.sketchfab.com/v3/tags/model"
+        },
+        {
+          "name": "design",
+          "slug": "design",
+          "uri": "https://api.sketchfab.com/v3/tags/design"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "history",
+          "slug": "history",
+          "uri": "https://api.sketchfab.com/v3/tags/history"
+        },
+        {
+          "name": "siheyuan",
+          "slug": "siheyuan",
+          "uri": "https://api.sketchfab.com/v3/tags/siheyuan"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8eb9726d91fb4d469bb572f8e6bafaa9",
+            "size": 466760,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/7c3a37fc8af740b0a00d1a2b8ac29c05.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "8b453757ebeb4855af7d998f0ccd5cf5",
+            "size": 102850,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/f96a24c4fa1a4e0ba448bdbf71eb5e3f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "adcbbf9735f142ba8c91468910187e7d",
+            "size": 55214,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/a4a408319e324308b38a9a9f6f721e12.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "385a90a645144aa3a0c2a8dd75f4cfc4",
+            "size": 8558,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/e758b4f67a644adaa27a60297e50b015.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f92eb7fe380e4c2baef3c1d2e4a7c03c",
+            "size": 1448,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a18881525cfd4fe882e739c9c7cee752/thumbnails/d5766dc32ac6491e8458a1f0257b0ba0/d2844b811d73495e8468fb4750b180cf.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3b08b49297274b319339800207caf69b",
+        "username": "andertan",
+        "displayName": "andertan",
+        "profileUrl": "https://sketchfab.com/andertan",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/237732bab4db4614a7b1c0665f664393",
+          "images": [
+            {
+              "size": 888,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/dbf13a1f80fe4427a100f74a9a8ba50c.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1362,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/e884472606784256909080b17dfc8a59.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4086,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/e307385fc55541a588cebdcd61b45247.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4922,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/50854688436447fc9eef63b4334829ab.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3b08b49297274b319339800207caf69b"
+      },
+      "description": "This is a detailed 3D model of a traditional Beijing Siheyuan, the iconic courtyard residence known for its classical Chinese architecture. A siheyuan is a type of dwelling commonly found throughout China, especially in Beijing and rural Shanxi. Throughout Chinese history, this layout was the foundational pattern for residences, palaces, temples, monasteries, family businesses, and government offices. \n\nCredits for Grass, Trees and Roof textures. Thank you!\n\n“Realtime Grass” (https://skfb.ly/6vtKS) by mfhscoobydoo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n\n“Low Poly Tree Scene Free” (https://skfb.ly/oGw7Y) by Nicholas-3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n\n“写实比例_故宫太和殿顶部 Hall of Supreme Harmony” (https://skfb.ly/oV69n) by TRNKL is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).",
+      "faceCount": 596699,
+      "createdAt": "2024-10-15T00:44:25.883374",
+      "vertexCount": 470348,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 44,
+          "size": 102934464,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 595743,
+          "vertexCount": 751368
+        },
+        "gltf": {
+          "textureCount": 44,
+          "size": 27807609,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 595743,
+          "vertexCount": 751368
+        },
+        "source": {
+          "textureCount": null,
+          "size": 111745118,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 35167416,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/6b997aff05bd47daa5cc392a45d9f43f",
+      "uid": "6b997aff05bd47daa5cc392a45d9f43f",
+      "name": "Dragon Sculpture",
+      "staffpickedAt": "2016-05-30T05:37:32.117733",
+      "viewCount": 17922,
+      "likeCount": 521,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-6b997aff05bd47daa5cc392a45d9f43f",
+      "embedUrl": "https://sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/embed",
+      "commentCount": 13,
+      "isDownloadable": true,
+      "publishedAt": "2016-05-29T16:43:12.388240",
+      "tags": [
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "shenzhen",
+          "slug": "shenzhen",
+          "uri": "https://api.sketchfab.com/v3/tags/shenzhen"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "dragon",
+          "slug": "dragon",
+          "uri": "https://api.sketchfab.com/v3/tags/dragon"
+        }
+      ],
+      "categories": [
+        {
+          "name": "science-technology"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "305cc6eef16d48ca8ff05128bab414e6",
+            "size": 1223,
+            "width": 50,
+            "url": "https://media.sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/thumbnails/a7e5dc3eb31442ddbfa672c615582f8a/50x50.jpeg",
+            "height": 50
+          },
+          {
+            "uid": "9527e38f03d449a99e859a4f011b05b7",
+            "size": 3078,
+            "width": 100,
+            "url": "https://media.sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/thumbnails/a7e5dc3eb31442ddbfa672c615582f8a/100x100.jpeg",
+            "height": 100
+          },
+          {
+            "uid": "a5d62f2eb75541448cda27861ed7ff61",
+            "size": 8965,
+            "width": 200,
+            "url": "https://media.sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/thumbnails/a7e5dc3eb31442ddbfa672c615582f8a/200x200.jpeg",
+            "height": 200
+          },
+          {
+            "uid": "75392b9f07d0469ea7f8c5cffcb4a065",
+            "size": 15141,
+            "width": 448,
+            "url": "https://media.sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/thumbnails/a7e5dc3eb31442ddbfa672c615582f8a/448x252.jpeg",
+            "height": 252
+          },
+          {
+            "uid": "7255d841e36b4cf0b6ded94a5d3168a4",
+            "size": 26918,
+            "width": 640,
+            "url": "https://media.sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/thumbnails/a7e5dc3eb31442ddbfa672c615582f8a/640x360.jpeg",
+            "height": 360
+          },
+          {
+            "uid": "67fc5dcd54dc4963926e3f556fdf8476",
+            "size": 42888,
+            "width": 864,
+            "url": "https://media.sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/thumbnails/a7e5dc3eb31442ddbfa672c615582f8a/864x486.jpeg",
+            "height": 486
+          },
+          {
+            "uid": "de027d6226054b4c9309be4a659dca55",
+            "size": 55446,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/6b997aff05bd47daa5cc392a45d9f43f/thumbnails/a7e5dc3eb31442ddbfa672c615582f8a/1024x576.jpeg",
+            "height": 576
+          }
+        ]
+      },
+      "user": {
+        "uid": "559f05ca26514de4a3525f30b3f96deb",
+        "username": "mookan",
+        "displayName": "Moøkan",
+        "profileUrl": "https://sketchfab.com/mookan",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/9f35ac82fc0944d69ae1890fcbfa4218",
+          "images": [
+            {
+              "size": 1063,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/9f35ac82fc0944d69ae1890fcbfa4218/c5e86cc4169b48afb3b3749b7954c006.jpeg",
+              "height": 90
+            },
+            {
+              "size": 602,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/9f35ac82fc0944d69ae1890fcbfa4218/a89f94f54dc640e191738c74f3ef0124.jpeg",
+              "height": 48
+            },
+            {
+              "size": 439,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/9f35ac82fc0944d69ae1890fcbfa4218/06f6a4e51640444d9b2b3711a079d80e.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1442,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/9f35ac82fc0944d69ae1890fcbfa4218/97c717dc14a3430eaa56255ba88f3620.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/559f05ca26514de4a3525f30b3f96deb"
+      },
+      "description": "Dragon sculpture from Tian hou temple inside courtyard, Shekou, Shenzhen. check more in mookan.gagogarcia.com",
+      "faceCount": 29828,
+      "createdAt": "2016-05-29T16:21:11.648836",
+      "vertexCount": 14800,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 2,
+          "size": 6780676,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 29828,
+          "vertexCount": 21506
+        },
+        "gltf": {
+          "textureCount": 2,
+          "size": 6405597,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 29828,
+          "vertexCount": 21506
+        },
+        "source": {
+          "textureCount": null,
+          "size": 7137379,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 2850620,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "b9ddc40b93e34cdca1fc152f39b9f375",
+        "label": "CC Attribution-ShareAlike"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/631615777ba4421a98814559dc2d4c5a",
+      "uid": "631615777ba4421a98814559dc2d4c5a",
+      "name": "Small Chinese imperial style building",
+      "staffpickedAt": null,
+      "viewCount": 18797,
+      "likeCount": 516,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-631615777ba4421a98814559dc2d4c5a",
+      "embedUrl": "https://sketchfab.com/models/631615777ba4421a98814559dc2d4c5a/embed",
+      "commentCount": 7,
+      "isDownloadable": true,
+      "publishedAt": "2024-09-14T08:52:09.607438",
+      "tags": [
+        {
+          "name": "forbidden",
+          "slug": "forbidden",
+          "uri": "https://api.sketchfab.com/v3/tags/forbidden"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "pavilion",
+          "slug": "pavilion",
+          "uri": "https://api.sketchfab.com/v3/tags/pavilion"
+        },
+        {
+          "name": "historical",
+          "slug": "historical",
+          "uri": "https://api.sketchfab.com/v3/tags/historical"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "cultural",
+          "slug": "cultural",
+          "uri": "https://api.sketchfab.com/v3/tags/cultural"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "pagoda",
+          "slug": "pagoda",
+          "uri": "https://api.sketchfab.com/v3/tags/pagoda"
+        },
+        {
+          "name": "imperial",
+          "slug": "imperial",
+          "uri": "https://api.sketchfab.com/v3/tags/imperial"
+        },
+        {
+          "name": "east",
+          "slug": "east",
+          "uri": "https://api.sketchfab.com/v3/tags/east"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "traditional",
+          "slug": "traditional",
+          "uri": "https://api.sketchfab.com/v3/tags/traditional"
+        },
+        {
+          "name": "dynasty",
+          "slug": "dynasty",
+          "uri": "https://api.sketchfab.com/v3/tags/dynasty"
+        },
+        {
+          "name": "courtyard",
+          "slug": "courtyard",
+          "uri": "https://api.sketchfab.com/v3/tags/courtyard"
+        },
+        {
+          "name": "oriental",
+          "slug": "oriental",
+          "uri": "https://api.sketchfab.com/v3/tags/oriental"
+        },
+        {
+          "name": "ming",
+          "slug": "ming",
+          "uri": "https://api.sketchfab.com/v3/tags/ming"
+        },
+        {
+          "name": "qing",
+          "slug": "qing",
+          "uri": "https://api.sketchfab.com/v3/tags/qing"
+        },
+        {
+          "name": "architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture"
+        },
+        {
+          "name": "city",
+          "slug": "city",
+          "uri": "https://api.sketchfab.com/v3/tags/city"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "temple",
+          "slug": "temple",
+          "uri": "https://api.sketchfab.com/v3/tags/temple"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0177fa9389b84d848dc2703bc0482653",
+            "size": 303768,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/631615777ba4421a98814559dc2d4c5a/thumbnails/f596b2d6babf41518f296447e0e98c04/399f39e604a047038795888f8d9b6103.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "784e6346d4af4addbf6402cfcd674d25",
+            "size": 86428,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/631615777ba4421a98814559dc2d4c5a/thumbnails/f596b2d6babf41518f296447e0e98c04/ceca407290714e18a4e1640313e70e98.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e486b0f0a4454433892e9ee76139af75",
+            "size": 45190,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/631615777ba4421a98814559dc2d4c5a/thumbnails/f596b2d6babf41518f296447e0e98c04/a9ae376395cd4cd794b0cf44db1b6cf6.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "aecea2e306f4498a883066abdb0a6f1f",
+            "size": 6922,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/631615777ba4421a98814559dc2d4c5a/thumbnails/f596b2d6babf41518f296447e0e98c04/6f296f7bb5c44f04b34366ad269a212c.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "bdbbfcd41c19415fafa1bb410567cf20",
+            "size": 1269,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/631615777ba4421a98814559dc2d4c5a/thumbnails/f596b2d6babf41518f296447e0e98c04/801f27369c224320949afac826ec7268.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3b08b49297274b319339800207caf69b",
+        "username": "andertan",
+        "displayName": "andertan",
+        "profileUrl": "https://sketchfab.com/andertan",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/237732bab4db4614a7b1c0665f664393",
+          "images": [
+            {
+              "size": 888,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/dbf13a1f80fe4427a100f74a9a8ba50c.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1362,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/e884472606784256909080b17dfc8a59.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4086,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/e307385fc55541a588cebdcd61b45247.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4922,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/237732bab4db4614a7b1c0665f664393/50854688436447fc9eef63b4334829ab.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3b08b49297274b319339800207caf69b"
+      },
+      "description": "A small yet elegant Chinese building inspired by the architecture of the Forbidden City. This structure features a hip-and-gable roof (歇山顶), traditional roof figures, reflecting the grandeur of imperial design in a compact form. \n\n\n\n\n\n\nThanks to TRNKL for the exquisite roof figures of this model.",
+      "faceCount": 681578,
+      "createdAt": "2024-09-14T08:35:06.063799",
+      "vertexCount": 346149,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 23,
+          "size": 56239060,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 680108,
+          "vertexCount": 610009
+        },
+        "gltf": {
+          "textureCount": 23,
+          "size": 35638529,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 680108,
+          "vertexCount": 610009
+        },
+        "source": {
+          "textureCount": null,
+          "size": 94157237,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 24174559,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/68ba9abd86ea4491918e7b9e6949cb9e",
+      "uid": "68ba9abd86ea4491918e7b9e6949cb9e",
+      "name": "Humility Brings Prosperity gate - point cloud",
+      "staffpickedAt": null,
+      "viewCount": 8768,
+      "likeCount": 292,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-68ba9abd86ea4491918e7b9e6949cb9e",
+      "embedUrl": "https://sketchfab.com/models/68ba9abd86ea4491918e7b9e6949cb9e/embed",
+      "commentCount": 2,
+      "isDownloadable": true,
+      "publishedAt": "2021-01-08T18:53:10.820022",
+      "tags": [
+        {
+          "name": "artsmia",
+          "slug": "artsmia",
+          "uri": "https://api.sketchfab.com/v3/tags/artsmia"
+        }
+      ],
+      "categories": [
+        {
+          "name": "art-abstract"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "b486c651560f4dc0a29d7d091dac2630",
+            "size": 143826,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/68ba9abd86ea4491918e7b9e6949cb9e/thumbnails/9d1c1195684f4bd8801fb9674cd84d94/b287b0e72b6f4625b7d02a52e3804a89.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "32595c8e0da5445aa8a09695233c7360",
+            "size": 43532,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/68ba9abd86ea4491918e7b9e6949cb9e/thumbnails/9d1c1195684f4bd8801fb9674cd84d94/2590f6d70be64d9f9b997d6e7849a981.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "e7d666c3c5e54fb9bded90b1e87aea7a",
+            "size": 24122,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/68ba9abd86ea4491918e7b9e6949cb9e/thumbnails/9d1c1195684f4bd8801fb9674cd84d94/a29e30ddb83b4a06ae17346810367c75.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "8bb77eca19da4eda817946000c6c67c1",
+            "size": 4313,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/68ba9abd86ea4491918e7b9e6949cb9e/thumbnails/9d1c1195684f4bd8801fb9674cd84d94/708885f65bc14635aadd5cfb4a3a864e.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "63942075e1e44ac68d14955e99fc988b",
+            "size": 746,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/68ba9abd86ea4491918e7b9e6949cb9e/thumbnails/9d1c1195684f4bd8801fb9674cd84d94/f187e48dd9c74ff992dc25055bfdc668.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "4a165be2661d4a6a866ea01d1f76334c",
+        "username": "artsmia",
+        "displayName": "Minneapolis Institute of Art",
+        "profileUrl": "https://sketchfab.com/artsmia",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/460c99e61d614a2fa9d27cbff41c6916",
+          "images": [
+            {
+              "size": 1741,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/1c5305ddbb83465fa5b035c914b2926d.jpeg",
+              "height": 100
+            },
+            {
+              "size": 1568,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/1e57f6ec2ba1431789c5d9e41b24d355.jpeg",
+              "height": 90
+            },
+            {
+              "size": 738,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/27e47a49772e401b8b1be9191f6013cd.jpeg",
+              "height": 48
+            },
+            {
+              "size": 470,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/592ed0dd94734839a49afb6f9c5e245a.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/4a165be2661d4a6a866ea01d1f76334c"
+      },
+      "description": "A big point cloud of the Humility Brings Prosperity gate, now installed in Gallery 200 at Mia.\n\n*The gate comes from Shanxi province, which, because of its dry climate, contains the largest concentration of surviving historic wooden structures in China. An inscription on the main beam dates the gate to 1858, during the Qing dynasty (1644–1912).*\n\n[More info](https://collections.artsmia.org/art/127331/humility-brings-prosperity-gate-china)\n\n*This imposing gate once formed the entrance to the main courtyard of an urban middle-class family compound. The four-character panel over the doorway reads, Humility Brings Prosperity (Lüqian Jianfeng 履謙漸豐). The gate demonstrates the hallmarks of traditional Chinese architecture: a post-and-lintel structure that supports a graceful gable roof and intricate rafters, as well as brackets that extend the eaves and provide decoration. Like other works of traditional Chinese architecture, no glue or nails were used, and the gate was assembled using only joinery and wooden pins.*",
+      "faceCount": 0,
+      "createdAt": "2019-01-18T06:23:25.199198",
+      "vertexCount": 6900185,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 194694892,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 0,
+          "vertexCount": 6951219
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 87254677,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 0,
+          "vertexCount": 6951219
+        },
+        "source": {
+          "textureCount": null,
+          "size": 194660157,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "2628dbe5140a4e9592126c8df566c0b7",
+        "label": "CC Attribution-NonCommercial-ShareAlike"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/380056e846df4ffbb9ccacbfc80b7327",
+      "uid": "380056e846df4ffbb9ccacbfc80b7327",
+      "name": "Humility Brings Prosperity gate - low-resolution",
+      "staffpickedAt": null,
+      "viewCount": 5541,
+      "likeCount": 198,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-380056e846df4ffbb9ccacbfc80b7327",
+      "embedUrl": "https://sketchfab.com/models/380056e846df4ffbb9ccacbfc80b7327/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2021-01-08T18:42:54.216351",
+      "tags": [
+        {
+          "name": "artsmia",
+          "slug": "artsmia",
+          "uri": "https://api.sketchfab.com/v3/tags/artsmia"
+        }
+      ],
+      "categories": [
+        {
+          "name": "art-abstract"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "fbd19a1190aa4ab5b94f3f01406cb89c",
+            "size": 111659,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/380056e846df4ffbb9ccacbfc80b7327/thumbnails/cf8df12662414775ba00d326935ee37a/d8b55ef20ead4ec7aabc53abf0f03f30.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "0e7cb85026d84aa3b18b7ae1afa89793",
+            "size": 39738,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/380056e846df4ffbb9ccacbfc80b7327/thumbnails/cf8df12662414775ba00d326935ee37a/3d17e87011684c61926a421811d81942.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "69be08a12ec949058f0b30259c36ad37",
+            "size": 23422,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/380056e846df4ffbb9ccacbfc80b7327/thumbnails/cf8df12662414775ba00d326935ee37a/d734569732ab44e0a2ae54b6ebef54e1.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "29edfce1a13e47b0a90e2c33551077e4",
+            "size": 4482,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/380056e846df4ffbb9ccacbfc80b7327/thumbnails/cf8df12662414775ba00d326935ee37a/ac60c562c8ee40a4ab8d01b1fbe273df.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "691cbf6fa70c496faf04910199af74ee",
+            "size": 811,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/380056e846df4ffbb9ccacbfc80b7327/thumbnails/cf8df12662414775ba00d326935ee37a/aefd90118c8f44bc90f6be894e2ffadf.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "4a165be2661d4a6a866ea01d1f76334c",
+        "username": "artsmia",
+        "displayName": "Minneapolis Institute of Art",
+        "profileUrl": "https://sketchfab.com/artsmia",
+        "account": "pro",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/460c99e61d614a2fa9d27cbff41c6916",
+          "images": [
+            {
+              "size": 1741,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/1c5305ddbb83465fa5b035c914b2926d.jpeg",
+              "height": 100
+            },
+            {
+              "size": 1568,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/1e57f6ec2ba1431789c5d9e41b24d355.jpeg",
+              "height": 90
+            },
+            {
+              "size": 738,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/27e47a49772e401b8b1be9191f6013cd.jpeg",
+              "height": 48
+            },
+            {
+              "size": 470,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/460c99e61d614a2fa9d27cbff41c6916/592ed0dd94734839a49afb6f9c5e245a.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/4a165be2661d4a6a866ea01d1f76334c"
+      },
+      "description": "A low-res version of the Humility Brings Prosperity gate, now installed in Gallery 200 at Mia. \nThe gate comes from Shanxi province, which, because of its dry climate, contains the largest concentration of surviving historic wooden structures in China. An inscription on the main beam dates the gate to 1858, during the Qing dynasty (1644–1912).\n\n[More info](https://collections.artsmia.org/art/127331/humility-brings-prosperity-gate-china)\n\n*This imposing gate once formed the entrance to the main courtyard of an urban middle-class family compound. The four-character panel over the doorway reads, Humility Brings Prosperity (Lüqian Jianfeng 履謙漸豐). The gate demonstrates the hallmarks of traditional Chinese architecture: a post-and-lintel structure that supports a graceful gable roof and intricate rafters, as well as brackets that extend the eaves and provide decoration. Like other works of traditional Chinese architecture, no glue or nails were used, and the gate was assembled using only joinery and wooden pins.*",
+      "faceCount": 93836,
+      "createdAt": "2019-02-19T17:35:11.831013",
+      "vertexCount": 60797,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 0,
+          "size": 6497356,
+          "type": "glb",
+          "textureMaxResolution": 0,
+          "faceCount": 93836,
+          "vertexCount": 167733
+        },
+        "gltf": {
+          "textureCount": 0,
+          "size": 3790574,
+          "type": "gltf",
+          "textureMaxResolution": 0,
+          "faceCount": 93836,
+          "vertexCount": 167733
+        },
+        "source": {
+          "textureCount": null,
+          "size": 18904017,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4191324,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "2628dbe5140a4e9592126c8df566c0b7",
+        "label": "CC Attribution-NonCommercial-ShareAlike"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ed4ea9eb5f024d989eec182d48fa72d8",
+      "uid": "ed4ea9eb5f024d989eec182d48fa72d8",
+      "name": "Ancient Chinese Courtyard House",
+      "staffpickedAt": null,
+      "viewCount": 4217,
+      "likeCount": 180,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ed4ea9eb5f024d989eec182d48fa72d8",
+      "embedUrl": "https://sketchfab.com/models/ed4ea9eb5f024d989eec182d48fa72d8/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2019-04-22T21:01:33.578520",
+      "tags": [
+        {
+          "name": "china-house",
+          "slug": "china-house",
+          "uri": "https://api.sketchfab.com/v3/tags/china-house"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0c037867e8de434299ea58b14877b2bb",
+            "size": 492381,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ed4ea9eb5f024d989eec182d48fa72d8/thumbnails/4b70a30aa5624972a496303a4a4e70f7/e5178b45686b48bbb688daab9da609af.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6fdd384c35ef41608cd2e3e44cb8489c",
+            "size": 79584,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ed4ea9eb5f024d989eec182d48fa72d8/thumbnails/4b70a30aa5624972a496303a4a4e70f7/9602dcb3f80244c6a6917851021908f1.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "03d71057603f4ae696d5cf5be13199fe",
+            "size": 37484,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ed4ea9eb5f024d989eec182d48fa72d8/thumbnails/4b70a30aa5624972a496303a4a4e70f7/02616bdd66bd469da47f52f2e36ab98f.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "2b69db83775b4e75b766ad326c8fc32e",
+            "size": 5901,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ed4ea9eb5f024d989eec182d48fa72d8/thumbnails/4b70a30aa5624972a496303a4a4e70f7/8a71831bb81e4acc85997aca31a985db.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "c602623833b14e8fa6c17480a1b60ca4",
+            "size": 1181,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ed4ea9eb5f024d989eec182d48fa72d8/thumbnails/4b70a30aa5624972a496303a4a4e70f7/88b9975d1c5442cf9a3a051b7d2f730d.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6f36522aa5b4424bb33a2bb1e7611e1a",
+        "username": "BlackBirb",
+        "displayName": "BlackBirb",
+        "profileUrl": "https://sketchfab.com/BlackBirb",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/668adda9ff8b4a68aa045c6e3e2bf02d",
+          "images": [
+            {
+              "size": 754,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/668adda9ff8b4a68aa045c6e3e2bf02d/f1e597dc612e4838b047e3ffecb0ae8e.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1218,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/668adda9ff8b4a68aa045c6e3e2bf02d/26f7797aa1504bfa808b79f553f124e2.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3298,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/668adda9ff8b4a68aa045c6e3e2bf02d/77354a0c53f3424294f8b8cd6862eff6.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3864,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/668adda9ff8b4a68aa045c6e3e2bf02d/ccdd04a1354c40598c17bc0132f4bacf.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6f36522aa5b4424bb33a2bb1e7611e1a"
+      },
+      "description": "",
+      "faceCount": 7672,
+      "createdAt": "2019-04-22T20:56:40.815406",
+      "vertexCount": 5424,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 6,
+          "size": 28583048,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 7639,
+          "vertexCount": 11516
+        },
+        "gltf": {
+          "textureCount": 6,
+          "size": 28260987,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 7639,
+          "vertexCount": 11516
+        },
+        "source": {
+          "textureCount": null,
+          "size": 58413242,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 11511536,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/9667ff254489498b8a6a3b59f8abe86e",
+      "uid": "9667ff254489498b8a6a3b59f8abe86e",
+      "name": "Celadon jar with architecture and proto-Buddhas",
+      "staffpickedAt": null,
+      "viewCount": 679,
+      "likeCount": 40,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-9667ff254489498b8a6a3b59f8abe86e",
+      "embedUrl": "https://sketchfab.com/models/9667ff254489498b8a6a3b59f8abe86e/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2018-03-14T03:25:14.133185",
+      "tags": [
+        {
+          "name": "ceramic",
+          "slug": "ceramic",
+          "uri": "https://api.sketchfab.com/v3/tags/ceramic"
+        },
+        {
+          "name": "cultural-heritage",
+          "slug": "cultural-heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/cultural-heritage"
+        },
+        {
+          "name": "chinese-art",
+          "slug": "chinese-art",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese-art"
+        },
+        {
+          "name": "grave-goods",
+          "slug": "grave-goods",
+          "uri": "https://api.sketchfab.com/v3/tags/grave-goods"
+        },
+        {
+          "name": "3df-zephyr",
+          "slug": "3df-zephyr",
+          "uri": "https://api.sketchfab.com/v3/tags/3df-zephyr"
+        }
+      ],
+      "categories": [
+        {
+          "name": "art-abstract"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8cf6bb18b07c45c28819699b34b61214",
+            "size": 157278,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/9667ff254489498b8a6a3b59f8abe86e/thumbnails/788db401ee014a98b948a30949d2a713/0869ed9e93544900a186ac1606787e24.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "5f3f05c3a147402f81ebc855828c464f",
+            "size": 50893,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/9667ff254489498b8a6a3b59f8abe86e/thumbnails/788db401ee014a98b948a30949d2a713/678117e4604a449e8e6ec696274fc936.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "cabd4e5c75ca4bfcb4a361bb17c77722",
+            "size": 28960,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/9667ff254489498b8a6a3b59f8abe86e/thumbnails/788db401ee014a98b948a30949d2a713/de94e2fe0feb4ef0893490e5dfbf5ec1.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "95f9f5ebd5ad41e5bbb45102e7275aff",
+            "size": 5290,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/9667ff254489498b8a6a3b59f8abe86e/thumbnails/788db401ee014a98b948a30949d2a713/274ff8d3a90d418eb506c51dbf998f11.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "cfd6032d32184e91bb5fb1766e4913f1",
+            "size": 846,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/9667ff254489498b8a6a3b59f8abe86e/thumbnails/788db401ee014a98b948a30949d2a713/4bed2aa82f7b44759f7e065f883935da.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "62133e983df84e858753f383fdd0d0e4",
+        "username": "dluo",
+        "displayName": "Di Luo 罗迪",
+        "profileUrl": "https://sketchfab.com/dluo",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/c1b3010790c048b9a185707bdaf832e3",
+          "images": [
+            {
+              "size": 1020,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/c1b3010790c048b9a185707bdaf832e3/1c295e481ba74572b0b8ace386a21f74.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1331,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/c1b3010790c048b9a185707bdaf832e3/b2e414c2abf5402baffe1aa98516154c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2417,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/c1b3010790c048b9a185707bdaf832e3/ed301d57a92242778996da732af4dc7b.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2727,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/c1b3010790c048b9a185707bdaf832e3/41712f2472bb45f2abb27bf11fad17b3.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/62133e983df84e858753f383fdd0d0e4"
+      },
+      "description": "Dated 287 (Western Jin period). Excavated in 1983 from a tomb at the construction site of a steel factory in Hangzhou, China. Zhejiang Provincial Museum, Gushan Branch. </br>\nThis type of ceramicware, sometimes referred to as the \"underground barns (*gucang*)\" or \"soul urns (*hunping*),\" was frequently used as grave goods (*mingqi*) in 3rd-century tombs in cities along China's southeast coast.</br>\nThe cover of this jar is shaped into a building complex with a central tower, a courtyard enclosure, and multistory gateways with beast guardians as columns. Most notable is the row of seated figures--identified as proto-Buddhist icons--around the bottom of the cover; here we witness one of the earliest cases where Buddhist iconography intruded into indigenous Chinese art.</br>\n(Note: images of the back of the jar are largely missing due to glares of the museum lighting on the protective glass case, which makes photographing difficult.)",
+      "faceCount": 339837,
+      "createdAt": "2018-03-14T02:36:00.817139",
+      "vertexCount": 210341,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 4,
+          "size": 23476984,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 338031,
+          "vertexCount": 245203
+        },
+        "gltf": {
+          "textureCount": 4,
+          "size": 19433328,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 338031,
+          "vertexCount": 245203
+        },
+        "source": {
+          "textureCount": null,
+          "size": 25149666,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 11492777,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/5278caac17904ac0a7bfc42d85d81485",
+      "uid": "5278caac17904ac0a7bfc42d85d81485",
+      "name": "Backrooms Level 188 V2",
+      "staffpickedAt": null,
+      "viewCount": 533,
+      "likeCount": 6,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-5278caac17904ac0a7bfc42d85d81485",
+      "embedUrl": "https://sketchfab.com/models/5278caac17904ac0a7bfc42d85d81485/embed",
+      "commentCount": 3,
+      "isDownloadable": true,
+      "publishedAt": "2026-09-03T16:19:04.386731",
+      "tags": [
+        {
+          "name": "london",
+          "slug": "london",
+          "uri": "https://api.sketchfab.com/v3/tags/london"
+        },
+        {
+          "name": "hotel",
+          "slug": "hotel",
+          "uri": "https://api.sketchfab.com/v3/tags/hotel"
+        },
+        {
+          "name": "complex",
+          "slug": "complex",
+          "uri": "https://api.sketchfab.com/v3/tags/complex"
+        },
+        {
+          "name": "t4",
+          "slug": "t4",
+          "uri": "https://api.sketchfab.com/v3/tags/t4"
+        },
+        {
+          "name": "backrooms",
+          "slug": "backrooms",
+          "uri": "https://api.sketchfab.com/v3/tags/backrooms"
+        },
+        {
+          "name": "heathrow",
+          "slug": "heathrow",
+          "uri": "https://api.sketchfab.com/v3/tags/heathrow"
+        },
+        {
+          "name": "liminal_space",
+          "slug": "liminal_space",
+          "uri": "https://api.sketchfab.com/v3/tags/liminal_space"
+        },
+        {
+          "name": "kanepixels",
+          "slug": "kanepixels",
+          "uri": "https://api.sketchfab.com/v3/tags/kanepixels"
+        },
+        {
+          "name": "level188",
+          "slug": "level188",
+          "uri": "https://api.sketchfab.com/v3/tags/level188"
+        }
+      ],
+      "categories": [
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "4d757b7ef71a48ddbf795cdfece8b56b",
+            "size": 257673,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/5278caac17904ac0a7bfc42d85d81485/thumbnails/03b47c5a60cb4db3845e38b5c3b9b56f/d4e8eced0f264e37aabce9f0bec19d57.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e369af4243d0460da63b70c0340b30f9",
+            "size": 79283,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/5278caac17904ac0a7bfc42d85d81485/thumbnails/03b47c5a60cb4db3845e38b5c3b9b56f/a83ed32468ee498aa167866526cafde3.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "45f3a08bf6b6429cad79788248331e9d",
+            "size": 45710,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/5278caac17904ac0a7bfc42d85d81485/thumbnails/03b47c5a60cb4db3845e38b5c3b9b56f/e03117c98ddc4c5c98600d414f6a8e11.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "0d7307e57f454dce96b3a5c4ecc419bf",
+            "size": 10627,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/5278caac17904ac0a7bfc42d85d81485/thumbnails/03b47c5a60cb4db3845e38b5c3b9b56f/03b773f88ddd4c5f9dc1fe03283058d4.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "309c5c5fba544cefbed3cfdeaeb5a8b8",
+            "size": 1760,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/5278caac17904ac0a7bfc42d85d81485/thumbnails/03b47c5a60cb4db3845e38b5c3b9b56f/ea831fd007df494299526a83416b6f05.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "16a00fb03b5840ab85af4c240046b0ec",
+        "username": "lukskorn",
+        "displayName": "A-SYNC - Complex Research A24",
+        "profileUrl": "https://sketchfab.com/lukskorn",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/51f243b06f4d471987e4ac2b2f8a4b59",
+          "images": [
+            {
+              "size": 1093,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/51f243b06f4d471987e4ac2b2f8a4b59/48cec506b106407f8965d320cff0e5ee.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1580,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/51f243b06f4d471987e4ac2b2f8a4b59/c1b6f972582a4ede88c073d84e6fcd7f.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3446,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/51f243b06f4d471987e4ac2b2f8a4b59/e7f1c22492a64b61954dbf2dbd8fd101.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4106,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/51f243b06f4d471987e4ac2b2f8a4b59/648085d6eede48deb9802e641d8908b3.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/16a00fb03b5840ab85af4c240046b0ec"
+      },
+      "description": "English\n\nI made a new version of the backrooms level 188 also knowns as the courtyard of windows of the windows\n\njust a case of window -_-\n\nbut the 3rd window is has a plain black girl figure, i think that figure is a girl but you rotate it will not see the girl neither the bridge\n\nsometimes that girl's skin is beige.\n\nthat guy they take a photo ._.\n\nEspañol\n\nHice una nueva versión del nivel 188 de los Backrooms, también conocido como el «Patio de las Ventanas».\n\nEs básicamente un montón de ventanas -_-\n\nPero en la tercera ventana aparece la silueta negra de una chica; creo que es una chica, aunque si giras mi modelo, ya no se la ve la chica ni el puente.\n\nA veces, la piel de esa chica es de color beige.\n\nY hay un tipo que le toma una foto ._.",
+      "faceCount": 3568,
+      "createdAt": "2026-09-03T16:09:46.701311",
+      "vertexCount": 2152,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 6,
+          "size": 1691480,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 3568,
+          "vertexCount": 6611
+        },
+        "gltf": {
+          "textureCount": 6,
+          "size": 1438767,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 3568,
+          "vertexCount": 6611
+        },
+        "source": {
+          "textureCount": null,
+          "size": 1452819,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 1637771,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/7bb55edf19244e119bafb7474cb2078f",
+      "uid": "7bb55edf19244e119bafb7474cb2078f",
+      "name": "Chiva Khyo1",
+      "staffpickedAt": null,
+      "viewCount": 119,
+      "likeCount": 6,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-7bb55edf19244e119bafb7474cb2078f",
+      "embedUrl": "https://sketchfab.com/models/7bb55edf19244e119bafb7474cb2078f/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2021-07-05T11:17:49.442796",
+      "tags": [
+        {
+          "name": "monument",
+          "slug": "monument",
+          "uri": "https://api.sketchfab.com/v3/tags/monument"
+        },
+        {
+          "name": "heritage",
+          "slug": "heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/heritage"
+        },
+        {
+          "name": "kathmandu",
+          "slug": "kathmandu",
+          "uri": "https://api.sketchfab.com/v3/tags/kathmandu"
+        },
+        {
+          "name": "chiva",
+          "slug": "chiva",
+          "uri": "https://api.sketchfab.com/v3/tags/chiva"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "ffa25b4113fe45eaa1ec8b54150e8a74",
+            "size": 63931,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/7bb55edf19244e119bafb7474cb2078f/thumbnails/e3e83547fcc64aaba26a0aa7455c31ee/c17d4947660746d1b5729a4216c22f15.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "266f55581d3542fe85891170496fecf2",
+            "size": 20314,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/7bb55edf19244e119bafb7474cb2078f/thumbnails/e3e83547fcc64aaba26a0aa7455c31ee/9aa97fcfdfb848c7b87e822f8182d8bd.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "05ee22e8212848f585883b13006b90fe",
+            "size": 11419,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/7bb55edf19244e119bafb7474cb2078f/thumbnails/e3e83547fcc64aaba26a0aa7455c31ee/e032473d59294b218fda3ec47bb21916.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e50186b065cb419f893fa2b963187d32",
+            "size": 2440,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/7bb55edf19244e119bafb7474cb2078f/thumbnails/e3e83547fcc64aaba26a0aa7455c31ee/b6506489769f43dfab08861debf61d87.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "85cacd8df8604a1fbe1f8b9f4e56001c",
+            "size": 881,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/7bb55edf19244e119bafb7474cb2078f/thumbnails/e3e83547fcc64aaba26a0aa7455c31ee/07c46d9884de447197add43619a261c8.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "12d1c37888bf4d8db7e48cada7f34edc",
+        "username": "trueladder",
+        "displayName": "trueLadder",
+        "profileUrl": "https://sketchfab.com/trueladder",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/38b4e35ff51e4833a5caf73ec0942c86",
+          "images": [
+            {
+              "size": 923,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/38b4e35ff51e4833a5caf73ec0942c86/f600fa3660ab435ca0cce9d5dec181c5.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1282,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/38b4e35ff51e4833a5caf73ec0942c86/4548f9eef7544ce1a5ab48db8cda6b5c.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2373,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/38b4e35ff51e4833a5caf73ec0942c86/e2aaf1a146f940c8b994e2c6d1aebf34.jpeg",
+              "height": 90
+            },
+            {
+              "size": 2788,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/38b4e35ff51e4833a5caf73ec0942c86/3d79e160fa2c43f38015f7ed69d9f36d.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/12d1c37888bf4d8db7e48cada7f34edc"
+      },
+      "description": "Chiva are monuments with archaeological, historical, social and economical values. They are spread all over Kathmandu valley in thousands. Promotion and preservation is the need of time. At a place called ChivaKhyo(in other words courtyard-open space with Chivas) in Kathmandu there is a large Chiva and many smaller Chivas around that established by general public. Beautiful place. This is a model of one of the smaller Chiva. For more information visit https://facebook.com/chivachaitya\nChivaSN:P0142\nTechnology partner: trueladder.io",
+      "faceCount": 410168,
+      "createdAt": "2021-07-05T11:16:43.439959",
+      "vertexCount": 212139,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 4,
+          "size": 17186972,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 410168,
+          "vertexCount": 219131
+        },
+        "gltf": {
+          "textureCount": 4,
+          "size": 9684688,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 410168,
+          "vertexCount": 219131
+        },
+        "source": {
+          "textureCount": null,
+          "size": 10000890,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 10197240,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/53e9805bcb42449db83e65e36fb17610",
+      "uid": "53e9805bcb42449db83e65e36fb17610",
+      "name": "Temple of Literature: Gate of Great Success",
+      "staffpickedAt": null,
+      "viewCount": 139,
+      "likeCount": 2,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-53e9805bcb42449db83e65e36fb17610",
+      "embedUrl": "https://sketchfab.com/models/53e9805bcb42449db83e65e36fb17610/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2023-11-28T10:54:32.319821",
+      "tags": [],
+      "categories": [
+        {
+          "name": "cultural-heritage-history"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e3c2a7ae0b8b4bcf9c9242efa4741b1b",
+            "size": 105761,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/53e9805bcb42449db83e65e36fb17610/thumbnails/cd171d352e5b4a469feb944ead002e0e/2d6657a631a843539416e55be124cda3.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "2db19edeb83a44bfb67a251edafe7c38",
+            "size": 33492,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/53e9805bcb42449db83e65e36fb17610/thumbnails/cd171d352e5b4a469feb944ead002e0e/97b7d1adce584901a7de44e1157ea6f0.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7d2717d89d224730bcac499160d39fd5",
+            "size": 18764,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/53e9805bcb42449db83e65e36fb17610/thumbnails/cd171d352e5b4a469feb944ead002e0e/4e43ed0e337747bcaa52284126378d74.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "b4f73d4fb358423c8d50a7012dfe8d16",
+            "size": 3491,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/53e9805bcb42449db83e65e36fb17610/thumbnails/cd171d352e5b4a469feb944ead002e0e/dc31ad779e5646a8b26bf73ce8e79820.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "960db3f4094b4a6d9fa1692cd8f7f739",
+            "size": 969,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/53e9805bcb42449db83e65e36fb17610/thumbnails/cd171d352e5b4a469feb944ead002e0e/9dc559acb23846c09544c76a316e0205.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a6a7f2c1d571405ab61981c7802e55a4",
+        "username": "gene.pham07",
+        "displayName": "gene.pham07",
+        "profileUrl": "https://sketchfab.com/gene.pham07",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a6a7f2c1d571405ab61981c7802e55a4"
+      },
+      "description": "The Fourth Courtyard: Gate of Great Success & Attained Talent Sanctuary\nThe fourth courtyard lies behind the Gate of Great Success, the central area, as well as the main architecture of the Temple of Literature. It consists of two large works arranged parallel and connected by other houses. This place is used for the worshiping of Confucius, four most brilliant students of Confucius (Mencius, Yanhui, Zengshen, and Zisi) and Ten Chinese Philosophers.",
+      "faceCount": 19800,
+      "createdAt": "2023-11-28T10:52:50.289964",
+      "vertexCount": 9902,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 1,
+          "size": 2831676,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 19800,
+          "vertexCount": 39800
+        },
+        "gltf": {
+          "textureCount": 1,
+          "size": 1705752,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 19800,
+          "vertexCount": 39800
+        },
+        "source": {
+          "textureCount": null,
+          "size": 16109874,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 2595855,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/f4e8ebb55f9b49b7b763b97a6436c6fb",
+      "uid": "f4e8ebb55f9b49b7b763b97a6436c6fb",
+      "name": "Contemporary Zen Chinese Courtyard",
+      "staffpickedAt": null,
+      "viewCount": 208,
+      "likeCount": 1,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-f4e8ebb55f9b49b7b763b97a6436c6fb",
+      "embedUrl": "https://sketchfab.com/models/f4e8ebb55f9b49b7b763b97a6436c6fb/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2025-02-19T07:53:54.022316",
+      "tags": [
+        {
+          "name": "modernism",
+          "slug": "modernism",
+          "uri": "https://api.sketchfab.com/v3/tags/modernism"
+        },
+        {
+          "name": "zen",
+          "slug": "zen",
+          "uri": "https://api.sketchfab.com/v3/tags/zen"
+        },
+        {
+          "name": "chinesegarden",
+          "slug": "chinesegarden",
+          "uri": "https://api.sketchfab.com/v3/tags/chinesegarden"
+        },
+        {
+          "name": "landscape-design",
+          "slug": "landscape-design",
+          "uri": "https://api.sketchfab.com/v3/tags/landscape-design"
+        },
+        {
+          "name": "courtyarddesign",
+          "slug": "courtyarddesign",
+          "uri": "https://api.sketchfab.com/v3/tags/courtyarddesign"
+        },
+        {
+          "name": "luxuryvilla",
+          "slug": "luxuryvilla",
+          "uri": "https://api.sketchfab.com/v3/tags/luxuryvilla"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "nature-plants"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "d9d0d38ab06a434a9677c5c3db987c8f",
+            "size": 223090,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/f4e8ebb55f9b49b7b763b97a6436c6fb/thumbnails/8961025799c048629cb70357e5d30a1a/a0567803ba6e491cb4a092b9f89f4822.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "6b1f3c7d6cbc4348922ae8108da45516",
+            "size": 67266,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/f4e8ebb55f9b49b7b763b97a6436c6fb/thumbnails/8961025799c048629cb70357e5d30a1a/08ab7bd4cf554f22aba34b663d49fe47.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "d14305a1932d4e068222838ae6cefb3b",
+            "size": 38038,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/f4e8ebb55f9b49b7b763b97a6436c6fb/thumbnails/8961025799c048629cb70357e5d30a1a/ae8da4671dfd47e89b425a895ef16733.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "a39e0380333f4a5e94f0731fd1e4efb3",
+            "size": 7268,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/f4e8ebb55f9b49b7b763b97a6436c6fb/thumbnails/8961025799c048629cb70357e5d30a1a/9f81ccfd17a04961857fe79a7ce6608e.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "b73b2ef6294f498685de05da2903e652",
+            "size": 1393,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/f4e8ebb55f9b49b7b763b97a6436c6fb/thumbnails/8961025799c048629cb70357e5d30a1a/77a3af126f9b44c9a4d5254321ac767f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "8145d2658d2d4000b2368d6927428a4a",
+        "username": "Rapunzelxu",
+        "displayName": "Rapunzelxu",
+        "profileUrl": "https://sketchfab.com/Rapunzelxu",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/d48e21b33b294c3199f4c0305b335084",
+          "images": [
+            {
+              "size": 1014,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/d48e21b33b294c3199f4c0305b335084/c1f635af80424198bdf8c53808d96b3b.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1383,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/d48e21b33b294c3199f4c0305b335084/83533f75369047159397e2eff0a53452.jpeg",
+              "height": 48
+            },
+            {
+              "size": 3035,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/d48e21b33b294c3199f4c0305b335084/bdbc4e42438242acbfba71cca06bf306.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3435,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/d48e21b33b294c3199f4c0305b335084/9e3f00c5ab3143e5abcb14a16d1115cf.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/8145d2658d2d4000b2368d6927428a4a"
+      },
+      "description": "Design Overview\nThis is an authentic private residence courtyard project located in Sichuan, China, featuring a three-dimensional zen landscape. The design comprises five functional zones:\n\nEntrance Garden -  welcoming path\nSide Garden - Open-air dining area for 6 people\nSunken Courtyard - Meditation and reading space \nViewing Garden -  landscape artwork with water and plants\nRooftop Garden - Cloud-kissing aerial zen retreat\n\nModeling Software: SketchUp 2018 \nSupported Formats: OBJ",
+      "faceCount": 1427393,
+      "createdAt": "2025-02-17T13:58:02.619612",
+      "vertexCount": 475204,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 99,
+          "size": 119975568,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 1423919,
+          "vertexCount": 2539615
+        },
+        "gltf": {
+          "textureCount": 99,
+          "size": 42303437,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 1423919,
+          "vertexCount": 2539615
+        },
+        "source": {
+          "textureCount": null,
+          "size": 94804414,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 63933319,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    }
+  ]
+}

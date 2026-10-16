@@ -1,0 +1,7 @@
+Title: Opening and closing a map
+Author: Julie Damsgaard / Spring Spring / Spring Enterprises
+License: CC0-1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/opening-and-closing-a-map-sounds
+Evidence: source.html and source.txt
+Notes: Two ready cues for maps or documents.

@@ -1,0 +1,514 @@
+{
+  "role": "japanese",
+  "source": "AssetLibrary/characters/user_models_20261015/japanese/3d66.com_22426855.max",
+  "sha256": "7428604edae856941001a616cf6caecfa5e6d58258c086883bff0ff2d97b0a50",
+  "importer": "nrgsille76/io_scene_max 1.9.2 (GPL-2.0-or-later)",
+  "objects": [
+    {
+      "name": "3d66-Biped_Object-22426855-001",
+      "type": "EMPTY",
+      "parent": null
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-002",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-001"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-003",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-001"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-004",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-003"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-005",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-004"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-006",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-005"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-007",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-006"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-008",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-007"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-009",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-008"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-010",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-009"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-011",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-010"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-012",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-011"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-013",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-012"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-014",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-013"
+    },
+    {
+      "name": "3d66-Dummy-22426855-001",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-014"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-015",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-011"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-016",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-015"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-017",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-016"
+    },
+    {
+      "name": "3d66-Dummy-22426855-002",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-017"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-018",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-011"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-019",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-018"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-020",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-019"
+    },
+    {
+      "name": "3d66-Dummy-22426855-003",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-020"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-021",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-011"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-022",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-021"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-023",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-022"
+    },
+    {
+      "name": "3d66-Dummy-22426855-004",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-023"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-024",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-011"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-025",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-024"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-026",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-025"
+    },
+    {
+      "name": "3d66-Dummy-22426855-005",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-026"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-027",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-007"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-028",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-027"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-029",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-028"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-030",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-029"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-031",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-030"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-032",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-031"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-033",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-032"
+    },
+    {
+      "name": "3d66-Dummy-22426855-006",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-033"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-034",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-030"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-035",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-034"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-036",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-035"
+    },
+    {
+      "name": "3d66-Dummy-22426855-007",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-036"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-037",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-030"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-038",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-037"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-039",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-038"
+    },
+    {
+      "name": "3d66-Dummy-22426855-008",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-039"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-040",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-030"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-041",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-040"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-042",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-041"
+    },
+    {
+      "name": "3d66-Dummy-22426855-009",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-042"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-043",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-030"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-044",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-043"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-045",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-044"
+    },
+    {
+      "name": "3d66-Dummy-22426855-010",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-045"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-046",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-007"
+    },
+    {
+      "name": "3d66-Dummy-22426855-011",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-046"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-047",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-004"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-048",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-047"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-049",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-048"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-050",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-049"
+    },
+    {
+      "name": "3d66-Dummy-22426855-012",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-050"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-051",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-004"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-052",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-051"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-053",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-052"
+    },
+    {
+      "name": "3d66-Biped_Object-22426855-054",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-053"
+    },
+    {
+      "name": "3d66-Dummy-22426855-013",
+      "type": "EMPTY",
+      "parent": "3d66-Biped_Object-22426855-054"
+    },
+    {
+      "name": "3d66-Editable_mesh-22426855-001",
+      "type": "MESH",
+      "parent": null,
+      "vertices": 6574,
+      "triangles": 11106,
+      "materials": [
+        "3d66-Standardmaterial-22426855-004_3d66Model-22426855-files-008",
+        "3d66-Standardmaterial-22426855-002_3d66Model-22426855-files-004",
+        "3d66-Standardmaterial-22426855-001_3d66Model-22426855-files-005",
+        "3d66-Standardmaterial-22426855-003_3d66Model-22426855-files-002",
+        "3d66-Standardmaterial-22426855-005_3d66Model-22426855-files-009"
+      ],
+      "uv_layers": 2,
+      "vertex_groups": [],
+      "modifiers": [],
+      "bounds": [
+        [
+          -180.28839111328125,
+          -68.75688171386719
+        ],
+        [
+          -21.31178855895996,
+          16.687467575073242
+        ],
+        [
+          0.02414703369140625,
+          175.85934448242188
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "3d66-Standardmaterial-22426855-001_3d66Model-22426855-files-005",
+      "diffuse": [
+        0.5879999995231628,
+        0.5879999995231628,
+        0.5879999995231628,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22426855-files-005.dds",
+        "3d66Model-22426855-files-007.dds",
+        "3d66Model-22426855-files-006.dds"
+      ]
+    },
+    {
+      "name": "3d66-Standardmaterial-22426855-002_3d66Model-22426855-files-004",
+      "diffuse": [
+        0.5879999995231628,
+        0.5879999995231628,
+        0.5879999995231628,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22426855-files-004.dds"
+      ]
+    },
+    {
+      "name": "3d66-Standardmaterial-22426855-003_3d66Model-22426855-files-002",
+      "diffuse": [
+        0.5879999995231628,
+        0.5879999995231628,
+        0.5879999995231628,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22426855-files-002.tga",
+        "3d66Model-22426855-files-003.tga"
+      ]
+    },
+    {
+      "name": "3d66-Standardmaterial-22426855-004_3d66Model-22426855-files-008",
+      "diffuse": [
+        0.5879999995231628,
+        0.5879999995231628,
+        0.5879999995231628,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22426855-files-008.jpg"
+      ]
+    },
+    {
+      "name": "3d66-Standardmaterial-22426855-005_3d66Model-22426855-files-009",
+      "diffuse": [
+        0.5879999995231628,
+        0.5879999995231628,
+        0.5879999995231628,
+        1.0
+      ],
+      "images": [
+        "3d66Model-22426855-files-009.jpg"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "3d66Model-22426855-files-002.tga",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-002.tga",
+      "size": [
+        512,
+        256
+      ],
+      "has_data": true
+    },
+    {
+      "name": "3d66Model-22426855-files-003.tga",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-003.tga",
+      "size": [
+        512,
+        256
+      ],
+      "has_data": true
+    },
+    {
+      "name": "3d66Model-22426855-files-004.dds",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-004.dds",
+      "size": [
+        32,
+        32
+      ],
+      "has_data": true
+    },
+    {
+      "name": "3d66Model-22426855-files-005.dds",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-005.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "has_data": true
+    },
+    {
+      "name": "3d66Model-22426855-files-006.dds",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-006.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "has_data": true
+    },
+    {
+      "name": "3d66Model-22426855-files-007.dds",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-007.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "has_data": true
+    },
+    {
+      "name": "3d66Model-22426855-files-008.jpg",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-008.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "has_data": true
+    },
+    {
+      "name": "3d66Model-22426855-files-009.jpg",
+      "filepath": "C:\\GameMake\\AssetLibrary\\characters\\user_models_20261015\\japanese\\3d66Model-22426855-files-009.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "has_data": true
+    }
+  ],
+  "animation_actions": []
+}

@@ -1,0 +1,49 @@
+; Engine configuration file.
+; Fenghuo Echo solo prototype.
+config_version=5
+
+[application]
+
+config/name="东北抗联-烽火回声"
+config/version="0.7.0-rc1"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="FenghuoEcho"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/size/mode=0
+
+[input]
+
+interact={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"physical_keycode":69)]
+}
+reload={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"physical_keycode":82)]
+}
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+anti_aliasing/quality/msaa_3d=1
+environment/defaults/default_clear_color=Color(0.06, 0.08, 0.1, 1)
+
+[physics]
+
+common/enable_pause_aware_picking=true
+common/physics_interpolation=true
+
+[development]
+
+route_blockout_enabled=true

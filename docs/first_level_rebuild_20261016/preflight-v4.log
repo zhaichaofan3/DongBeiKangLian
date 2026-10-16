@@ -1,0 +1,115 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Menu starts one global music stream
+PASS: Music defaults to 22 percent and loops
+PASS: Entire user background recording is available
+PASS: Settings exposes a background music slider
+PASS: Music zero mutes only the music bus
+PASS: Restoring music leaves master and narration unchanged
+PASS: Music preference survives config reload
+PASS: A starts the supplied full recording with zero global music streams
+PASS: History duration covers the full audio without cutting its tail
+PASS: Subtitle changes never replay synthetic A narration
+PASS: Pausing A pauses the complete recording
+PASS: Pause preserves camera and subtitle time
+PASS: Resuming A keeps global music silent
+PASS: One building shot carries added narration at 54.0s
+PASS: One building shot carries added narration at 60.5s
+PASS: One building shot carries added narration at 65.0s
+PASS: Building camera movement is continuous between frames
+PASS: Title appears on the same panorama after the final words
+PASS: Skipping A stops the mixed recording and restores one global score
+PASS: B dialogue automatically lowers global background music
+PASS: Pausing B immediately pauses music and dialogue
+PASS: Leaving paused B releases narration and resumes one menu score
+PASS: Direct gameplay starts one global score
+PASS: Natural A completion restores B music and retires history audio
+PASS: Gameplay handoff preserves one music stream
+PASS: Checkpoint load restores one music stream
+USER AUDIO: PASS | checks=26
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Category buses and cinematic master exist without replacing Master volume
+PASS: Existing player gun, footstep and wind streams route to separate buses
+PASS: Spatial river, radio and switch use the appropriate layers
+PASS: Gameplay pause freezes gunfire and ambient playback
+PASS: Resume releases paused streams without replaying them
+PASS: Reload uses Foley rather than the gunshot layer
+PASS: Music starts at silence and fades in
+PASS: Repeated request for the same cue does not restart or add a player
+PASS: A transition overlaps exactly two streams
+PASS: Rapid cue changes recycle the quieter slot and preserve the audible outgoing cue
+PASS: Journal pause freezes both playback and crossfade time
+PASS: Fade completion releases the old stream
+PASS: Voice lowers music by 10dB while keeping a separate voice bus
+PASS: Voice lowers ambience by 3dB without changing gunshot gain
+PASS: Ducking does not overwrite the user's Master volume
+PASS: Music recovers gradually after speech ends
+PASS: Music fade-out retains playback until the fade finishes
+PASS: Music fade-out ends with both streams released
+PASS: Loading clears old voice/gun tails and restores the global music
+PASS: A-to-B transition clears old history cue audio
+PASS: New voice or music requested during cinematic pause stays paused
+PASS: Leaving a paused cinematic releases cue audio and restores menu music
+PASS: A new task resumes one persistent ambient stream
+PASS: Scene re-entry reuses buses without duplicates
+PASS: Scene teardown clears dialogue ducking
+S30 AUDIO MIX: PASS | checks=25
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Woodland follows the lake environment lifecycle
+PASS: Bounded woodland density supplies a visible mountain forest
+PASS: Woodland covers all four mountain sectors
+PASS: Tree trunks stay outside the water and exposed shore
+PASS: Tree crowns leave room around both walking routes and the speakers
+PASS: Tall trees stay below the summit and off steep cliffs
+PASS: Woodland uses bounded spatial batches on the isolated lake layer
+PASS: Decorative woodland and rock details add no collision
+PASS: Conversation floor retains its 26m collision surface
+PASS: Natural ledge, stone edges and low vegetation replace visual markers
+PASS: S21_Crater_East has world-mapped rock detail
+PASS: S21_Crater_North has world-mapped rock detail
+PASS: S21_Crater_West has world-mapped rock detail
+PASS: S21_Crater_South has world-mapped rock detail
+PASS: Refined crater mesh has a bounded geometry budget
+PASS: Wide camera frames the lake center inside the main image
+PASS: Historical wide shot includes substantial woodland
+PASS: Historical wide hides the conversation platform dressing
+PASS: Wide shot continues a smooth rising camera move
+PASS: 04-talk enables the mountain details
+PASS: 05-listen enables the mountain details
+PASS: 06-briefing enables the mountain details
+PASS: 07-departure enables the mountain details
+PASS: Forest mission shots hide all lake decoration
+PASS: Aborting the opening leaves no visible lake decoration
+CHANGBAI LANDSCAPE: PASS | checks=25 | trees=680
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Opening stage loads the S21 artistic Tianchi model
+PASS: S21 model remains fully instanced in the opening stage
+PASS: Five arrival steps, five departure steps, talk platform and visible departure ramp exist
+PASS: Arrival and departure routes expose five ordered waypoints each
+PASS: All ten route waypoints have a walkable top surface
+PASS: Arrival and departure waypoints stay outside the lake clearance radius
+PASS: Both speakers share a level 26m talk-platform surface
+PASS: B1 opening speaker stands on the S22 platform anchor
+PASS: Opening access colliders disable after player control is restored
+S22 TIANCHI ACCESS: PASS | checks=9
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: B3 exit crosses the level platform toward its departure ramp
+PASS: B4 departure descends on the corrected visible ramp
+PASS: B16 aligns the cinematic camera to the gameplay FOV
+PASS: B16 camera reaches the player handoff anchor
+PASS: Full playback enters a single locked handoff transition
+PASS: Handoff covers the camera cut with a short fade
+PASS: Handoff commits once after the fade
+FAIL: Player camera, position and control mode are continuous
+PASS: Opening handoff sets briefing state without advancing mission objectives
+PASS: Cinematic access and S23 environment are cleared on handoff
+S25 HANDOFF: FAIL | checks=10
+

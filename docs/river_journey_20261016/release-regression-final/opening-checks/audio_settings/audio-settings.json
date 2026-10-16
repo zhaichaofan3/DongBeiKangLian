@@ -1,0 +1,143 @@
+{
+  "all_passed": true,
+  "captures": [],
+  "checks": [
+    {
+      "description": "Settings exposes all four requested volume controls",
+      "passed": true
+    },
+    {
+      "description": "Existing music default is preserved and new controls default to full volume",
+      "passed": true
+    },
+    {
+      "description": "Music zero leaves speech and effects audible",
+      "passed": true
+    },
+    {
+      "description": "Effects zero independently mutes weapons, footsteps and environment",
+      "passed": true
+    },
+    {
+      "description": "Dialogue zero independently mutes speech",
+      "passed": true
+    },
+    {
+      "description": "Cinematic mute has no effect on ordinary menu or gameplay routes",
+      "passed": true
+    },
+    {
+      "description": "Slider percentage updates with the preference",
+      "passed": true
+    },
+    {
+      "description": "Category changes preserve master volume",
+      "passed": true
+    },
+    {
+      "description": "All four slider preferences survive reload from disk",
+      "passed": true
+    },
+    {
+      "description": "Settings title and fixed return button stay inside the viewport",
+      "passed": true
+    },
+    {
+      "description": "All four volume controls are visible without scrolling",
+      "passed": true
+    },
+    {
+      "description": "Long settings page can scroll to the remaining controls",
+      "passed": true
+    },
+    {
+      "description": "Return closes the settings page without starting a task",
+      "passed": true
+    },
+    {
+      "description": "Dialogue ducking preserves the user's effect gain across updates",
+      "passed": true
+    },
+    {
+      "description": "Music ducking combines with music preference while speech retains its own gain",
+      "passed": true
+    },
+    {
+      "description": "All three enemy discovery recordings use dialogue volume",
+      "passed": true
+    },
+    {
+      "description": "Actual gun, bolt, footstep and river players use effect categories",
+      "passed": true
+    },
+    {
+      "description": "Complete history recording uses cinematic volume exactly once",
+      "passed": true
+    },
+    {
+      "description": "History mixed narration survives separate dialogue and music mute with no extra score",
+      "passed": true
+    },
+    {
+      "description": "Cinematic zero mutes the complete history scene including extra effects",
+      "passed": true
+    },
+    {
+      "description": "Changing sliders during pause does not resume, seek or restart the recording",
+      "passed": true
+    },
+    {
+      "description": "Cinematic slider applies immediately while paused",
+      "passed": true
+    },
+    {
+      "description": "Resume retains cinematic time after settings changes",
+      "passed": true
+    },
+    {
+      "description": "Task dialogue combines dialogue and cinematic volume",
+      "passed": true
+    },
+    {
+      "description": "Task music and footsteps combine their category with cinematic volume",
+      "passed": true
+    },
+    {
+      "description": "Dialogue mute in task cinematic leaves its music audible",
+      "passed": true
+    },
+    {
+      "description": "Cinematic zero mutes all layers of the task introduction",
+      "passed": true
+    },
+    {
+      "description": "Skipping the opening immediately restores gameplay audio despite cinematic mute",
+      "passed": true
+    },
+    {
+      "description": "Non-cinematic voice playback uses dialogue volume after the handoff",
+      "passed": true
+    },
+    {
+      "description": "Leaving a paused opening restores menu routing immediately",
+      "passed": true
+    },
+    {
+      "description": "Starting another game keeps user category settings and normal routing",
+      "passed": true
+    },
+    {
+      "description": "Old configuration without new keys keeps its music level and safe full-volume defaults",
+      "passed": true
+    },
+    {
+      "description": "Invalid and nonfinite config values fall back; out-of-range numeric values are clamped",
+      "passed": true
+    },
+    {
+      "description": "Existing master mute still silences every category",
+      "passed": true
+    }
+  ],
+  "human_listening": "pending"
+}

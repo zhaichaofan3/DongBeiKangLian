@@ -1,0 +1,622 @@
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+10:59:03 | INFO: Starting glTF 2.0 export
+10:59:03 | INFO: Extracting primitive: OSM_Tianchi_Shoreline
+10:59:03 | INFO: Primitives created: 1
+10:59:03 | INFO: Extracting primitive: Changbai_Terrain_257
+10:59:03 | INFO: Primitives created: 1
+10:59:03 | INFO: Finished glTF 2.0 export in 0.19995856285095215 s
+
+10:59:05 | INFO: Starting glTF 2.0 export
+10:59:05 | INFO: Extracting primitive: OSM_Tianchi_Shoreline
+10:59:05 | INFO: Primitives created: 1
+10:59:05 | INFO: Extracting primitive: Changbai_Terrain_513
+10:59:06 | INFO: Primitives created: 1
+10:59:06 | INFO: Finished glTF 2.0 export in 0.5231149196624756 s
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Fra:1 Mem:147.09M (Peak 185.24M) | Time:00:03.73 | Rendering 1 / 32 samples
+Fra:1 Mem:147.09M (Peak 185.24M) | Time:00:03.74 | Rendering 25 / 32 samples
+Fra:1 Mem:147.09M (Peak 185.24M) | Time:00:03.74 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\tianchi_overview.png'
+Time: 00:04.01 (Saving: 00:00.19)
+
+Fra:1 Mem:163.18M (Peak 193.25M) | Time:00:00.09 | Rendering 1 / 32 samples
+Fra:1 Mem:163.18M (Peak 193.25M) | Time:00:00.17 | Rendering 25 / 32 samples
+Fra:1 Mem:163.18M (Peak 193.25M) | Time:00:00.20 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\tianchi_crater.png'
+Time: 00:00.33 (Saving: 00:00.09)
+
+
+Info: Saved as "tianchi_display.blend"
+TIANCHI_BUILD_COMPLETE [{"file": "tianchi_display_lod.glb", "terrain_triangles": 131072, "lake_triangles": 2030, "grid": 257, "bytes": 5036956}, {"file": "tianchi_display.glb", "terrain_triangles": 524288, "lake_triangles": 2030, "grid": 513, "bytes": 16063396}]
+10:59:10 | INFO: Data are loaded, start creating Blender stuff
+10:59:10 | INFO: Blender create Mesh node Pagoda_mesh_1
+10:59:10 | INFO: glTF import finished in 0.01s
+Fra:1 Mem:74.14M (Peak 74.14M) | Time:00:00.11 | Rendering 1 / 32 samples
+Fra:1 Mem:74.14M (Peak 74.14M) | Time:00:00.11 | Rendering 25 / 32 samples
+Fra:1 Mem:74.14M (Peak 74.14M) | Time:00:00.11 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\pagoda_red.png'
+Time: 00:00.30 (Saving: 00:00.09)
+
+MODEL_PREVIEW_COMPLETE pagoda_red 1 [26.41153907775879, 26.41153907775879, 55.50045394897461]
+10:59:11 | INFO: Data are loaded, start creating Blender stuff
+10:59:11 | INFO: Blender create Mesh node Box20465_1
+10:59:11 | INFO: Blender create Mesh node Box20466_1
+10:59:11 | INFO: Blender create Mesh node Box20467_1
+10:59:11 | INFO: Blender create Mesh node Plane014_1
+10:59:11 | INFO: Blender create Mesh node Box20468_1
+10:59:11 | INFO: Blender create Mesh node Box20469_1
+10:59:11 | INFO: Blender create Mesh node Box20470_1
+10:59:11 | INFO: Blender create Mesh node Plane015_1
+10:59:11 | INFO: Blender create Mesh node Box20471_1
+10:59:11 | INFO: Blender create Mesh node Box20472_1
+10:59:11 | INFO: Blender create Mesh node Box20473_1
+10:59:11 | INFO: Blender create Mesh node Box20474_1
+10:59:11 | INFO: Blender create Mesh node Box20475_1
+10:59:11 | INFO: Blender create Mesh node Box20476_1
+10:59:11 | INFO: Blender create Mesh node Box20477_1
+10:59:11 | INFO: Blender create Mesh node Box20478_1
+10:59:11 | INFO: Blender create Mesh node Box20479_1
+10:59:11 | INFO: Blender create Mesh node Box20480_1
+10:59:11 | INFO: Blender create Mesh node Box20481_1
+10:59:11 | INFO: Blender create Mesh node Box20482_1
+10:59:11 | INFO: Blender create Mesh node Box20483_1
+10:59:11 | INFO: Blender create Mesh node Box20484_1
+10:59:11 | INFO: Blender create Mesh node Box20485_1
+10:59:11 | INFO: Blender create Mesh node Box20486_1
+10:59:11 | INFO: Blender create Mesh node Box20487_1
+10:59:11 | INFO: Blender create Mesh node Box20488_1
+10:59:11 | INFO: Blender create Mesh node Box20489_1
+10:59:11 | INFO: Blender create Mesh node Box20490_1
+10:59:11 | INFO: Blender create Mesh node Box20491_1
+10:59:11 | INFO: Blender create Mesh node Box20492_1
+10:59:11 | INFO: Blender create Mesh node Box20493_1
+10:59:11 | INFO: Blender create Mesh node Box20494_1
+10:59:11 | INFO: Blender create Mesh node Box20495_1
+10:59:11 | INFO: Blender create Mesh node Box20496_1
+10:59:11 | INFO: Blender create Mesh node Box20497_1
+10:59:11 | INFO: Blender create Mesh node Box20498_1
+10:59:11 | INFO: Blender create Mesh node Box20499_1
+10:59:11 | INFO: Blender create Mesh node Box20500_1
+10:59:11 | INFO: Blender create Mesh node Box20501_1
+10:59:11 | INFO: Blender create Mesh node Box20502_1
+10:59:11 | INFO: Blender create Mesh node Box20503_1
+10:59:11 | INFO: Blender create Mesh node Box20504_1
+10:59:11 | INFO: Blender create Mesh node Box20505_1
+10:59:11 | INFO: Blender create Mesh node Box20506_1
+10:59:11 | INFO: Blender create Mesh node Box20507_1
+10:59:11 | INFO: Blender create Mesh node Box20508_1
+10:59:11 | INFO: Blender create Mesh node Box20509_1
+10:59:11 | INFO: Blender create Mesh node Box20510_1
+10:59:11 | INFO: Blender create Mesh node Box20511_1
+10:59:11 | INFO: Blender create Mesh node Box20512_1
+10:59:11 | INFO: Blender create Mesh node Box20513_1
+10:59:11 | INFO: Blender create Mesh node Box20514_1
+10:59:11 | INFO: Blender create Mesh node Box20515_1
+10:59:11 | INFO: Blender create Mesh node Box20516_1
+10:59:11 | INFO: Blender create Mesh node Box20517_1
+10:59:11 | INFO: Blender create Mesh node Box20518_1
+10:59:11 | INFO: Blender create Mesh node Box20519_1
+10:59:11 | INFO: Blender create Mesh node Box20520_1
+10:59:11 | INFO: Blender create Mesh node Box20521_1
+10:59:11 | INFO: Blender create Mesh node Box20522_1
+10:59:11 | INFO: Blender create Mesh node Box20523_1
+10:59:11 | INFO: Blender create Mesh node Box20524_1
+10:59:11 | INFO: Blender create Mesh node Box20525_1
+10:59:11 | INFO: Blender create Mesh node Box20526_1
+10:59:11 | INFO: Blender create Mesh node Plane016_1
+10:59:11 | INFO: Blender create Mesh node Box20527_1
+10:59:11 | INFO: Blender create Mesh node Box20528_1
+10:59:11 | INFO: Blender create Mesh node Box20529_1
+10:59:11 | INFO: Blender create Mesh node Box20530_1
+10:59:11 | INFO: Blender create Mesh node Box20531_1
+10:59:11 | INFO: Blender create Mesh node Box20532_1
+10:59:11 | INFO: Blender create Mesh node Box20533_1
+10:59:11 | INFO: Blender create Mesh node Box20534_1
+10:59:11 | INFO: Blender create Mesh node Box20535_1
+10:59:11 | INFO: Blender create Mesh node Box20536_1
+10:59:11 | INFO: Blender create Mesh node Box20537_1
+10:59:11 | INFO: Blender create Mesh node Box20538_1
+10:59:11 | INFO: Blender create Mesh node Box20539_1
+10:59:11 | INFO: Blender create Mesh node Box20540_1
+10:59:11 | INFO: Blender create Mesh node Box20541_1
+10:59:11 | INFO: Blender create Mesh node Box20542_1
+10:59:11 | INFO: Blender create Mesh node Box20543_1
+10:59:11 | INFO: Blender create Mesh node Box20544_1
+10:59:11 | INFO: Blender create Mesh node Box20545_1
+10:59:11 | INFO: Blender create Mesh node Box20546_1
+10:59:11 | INFO: Blender create Mesh node Box20547_1
+10:59:11 | INFO: Blender create Mesh node Box20548_1
+10:59:11 | INFO: Blender create Mesh node Box20549_1
+10:59:11 | INFO: Blender create Mesh node Box20550_1
+10:59:11 | INFO: Blender create Mesh node Box20551_1
+10:59:11 | INFO: Blender create Mesh node Box20552_1
+10:59:11 | INFO: Blender create Mesh node Box20553_1
+10:59:11 | INFO: Blender create Mesh node Box20554_1
+10:59:11 | INFO: Blender create Mesh node Box20555_1
+10:59:11 | INFO: Blender create Mesh node Box20556_1
+10:59:11 | INFO: Blender create Mesh node Box20557_1
+10:59:11 | INFO: Blender create Mesh node Box20558_1
+10:59:11 | INFO: Blender create Mesh node Box20559_1
+10:59:11 | INFO: Blender create Mesh node Box20560_1
+10:59:11 | INFO: Blender create Mesh node Box20561_1
+10:59:11 | INFO: Blender create Mesh node Box20562_1
+10:59:11 | INFO: Blender create Mesh node Box20563_1
+10:59:11 | INFO: Blender create Mesh node Box20564_1
+10:59:11 | INFO: Blender create Mesh node Box20565_1
+10:59:11 | INFO: Blender create Mesh node Box20566_1
+10:59:11 | INFO: Blender create Mesh node Box20567_1
+10:59:11 | INFO: Blender create Mesh node Box20568_1
+10:59:11 | INFO: Blender create Mesh node Box20569_1
+10:59:11 | INFO: Blender create Mesh node Box20570_1
+10:59:11 | INFO: Blender create Mesh node Box20571_1
+10:59:11 | INFO: Blender create Mesh node Plane017_1
+10:59:11 | INFO: Blender create Mesh node Box20572_1
+10:59:11 | INFO: Blender create Mesh node Box20573_1
+10:59:11 | INFO: Blender create Mesh node Box20574_1
+10:59:11 | INFO: Blender create Mesh node Box20575_1
+10:59:11 | INFO: Blender create Mesh node Box20576_1
+10:59:11 | INFO: Blender create Mesh node Box20577_1
+10:59:11 | INFO: Blender create Mesh node Box20578_1
+10:59:11 | INFO: Blender create Mesh node Box20579_1
+10:59:11 | INFO: Blender create Mesh node Box20580_1
+10:59:11 | INFO: Blender create Mesh node Box20581_1
+10:59:11 | INFO: Blender create Mesh node Box20582_1
+10:59:11 | INFO: Blender create Mesh node Box20583_1
+10:59:11 | INFO: Blender create Mesh node Box20584_1
+10:59:11 | INFO: Blender create Mesh node Box20585_1
+10:59:11 | INFO: Blender create Mesh node Box20586_1
+10:59:11 | INFO: Blender create Mesh node Box20587_1
+10:59:11 | INFO: Blender create Mesh node Box20588_1
+10:59:11 | INFO: Blender create Mesh node Box20589_1
+10:59:11 | INFO: Blender create Mesh node Box20590_1
+10:59:11 | INFO: Blender create Mesh node Box20591_1
+10:59:11 | INFO: Blender create Mesh node Box20592_1
+10:59:11 | INFO: Blender create Mesh node Box20593_1
+10:59:11 | INFO: Blender create Mesh node Box20594_1
+10:59:11 | INFO: Blender create Mesh node Box20595_1
+10:59:11 | INFO: Blender create Mesh node Box20596_1
+10:59:11 | INFO: Blender create Mesh node Box20597_1
+10:59:11 | INFO: Blender create Mesh node Box20598_1
+10:59:11 | INFO: Blender create Mesh node Box20599_1
+10:59:11 | INFO: Blender create Mesh node Box20600_1
+10:59:11 | INFO: Blender create Mesh node Box20601_1
+10:59:11 | INFO: Blender create Mesh node Box20602_1
+10:59:11 | INFO: Blender create Mesh node Box20603_1
+10:59:11 | INFO: Blender create Mesh node Box20604_1
+10:59:11 | INFO: Blender create Mesh node Box20605_1
+10:59:11 | INFO: Blender create Mesh node Box20606_1
+10:59:11 | INFO: Blender create Mesh node Box20607_1
+10:59:11 | INFO: Blender create Mesh node Box20608_1
+10:59:11 | INFO: Blender create Mesh node Box20609_1
+10:59:11 | INFO: Blender create Mesh node Box20610_1
+10:59:11 | INFO: Blender create Mesh node Box20611_1
+10:59:11 | INFO: Blender create Mesh node Box20612_1
+10:59:11 | INFO: Blender create Mesh node Box20613_1
+10:59:11 | INFO: Blender create Mesh node Box20614_1
+10:59:11 | INFO: Blender create Mesh node Box20615_1
+10:59:11 | INFO: Blender create Mesh node Box20616_1
+10:59:11 | INFO: Blender create Mesh node Box20617_1
+10:59:11 | INFO: Blender create Mesh node Box20618_1
+10:59:11 | INFO: Blender create Mesh node Box20619_1
+10:59:11 | INFO: Blender create Mesh node Box20620_1
+10:59:11 | INFO: Blender create Mesh node Box20621_1
+10:59:11 | INFO: Blender create Mesh node Box20622_1
+10:59:11 | INFO: Blender create Mesh node Plane018_1
+10:59:11 | INFO: Blender create Mesh node Box20623_1
+10:59:11 | INFO: Blender create Mesh node Box20624_1
+10:59:11 | INFO: Blender create Mesh node Box20625_1
+10:59:11 | INFO: Blender create Mesh node Box20626_1
+10:59:11 | INFO: Blender create Mesh node Box20627_1
+10:59:11 | INFO: Blender create Mesh node Box20628_1
+10:59:11 | INFO: Blender create Mesh node Box20629_1
+10:59:11 | INFO: Blender create Mesh node Box20630_1
+10:59:11 | INFO: Blender create Mesh node Box20631_1
+10:59:11 | INFO: Blender create Mesh node Box20632_1
+10:59:11 | INFO: Blender create Mesh node Box20633_1
+10:59:11 | INFO: Blender create Mesh node Box20634_1
+10:59:11 | INFO: Blender create Mesh node Box20635_1
+10:59:11 | INFO: Blender create Mesh node Box20636_1
+10:59:11 | INFO: Blender create Mesh node Box20637_1
+10:59:11 | INFO: Blender create Mesh node Box20638_1
+10:59:11 | INFO: Blender create Mesh node Box20639_1
+10:59:11 | INFO: Blender create Mesh node Box20640_1
+10:59:11 | INFO: Blender create Mesh node Box20641_1
+10:59:11 | INFO: Blender create Mesh node Box20642_1
+10:59:11 | INFO: Blender create Mesh node Box20643_1
+10:59:11 | INFO: Blender create Mesh node Box20644_1
+10:59:11 | INFO: Blender create Mesh node Box20645_1
+10:59:11 | INFO: Blender create Mesh node Box20646_1
+10:59:11 | INFO: Blender create Mesh node Box20647_1
+10:59:11 | INFO: Blender create Mesh node Box20648_1
+10:59:11 | INFO: Blender create Mesh node Box20649_1
+10:59:11 | INFO: Blender create Mesh node Box20650_1
+10:59:11 | INFO: Blender create Mesh node Box20651_1
+10:59:11 | INFO: Blender create Mesh node Box20652_1
+10:59:11 | INFO: Blender create Mesh node Box20653_1
+10:59:11 | INFO: Blender create Mesh node Box20654_1
+10:59:11 | INFO: Blender create Mesh node Box20655_1
+10:59:11 | INFO: Blender create Mesh node Box20656_1
+10:59:11 | INFO: Blender create Mesh node Box20657_1
+10:59:11 | INFO: Blender create Mesh node Box20658_1
+10:59:11 | INFO: Blender create Mesh node Box20659_1
+10:59:11 | INFO: Blender create Mesh node Box20660_1
+10:59:11 | INFO: Blender create Mesh node Box20661_1
+10:59:11 | INFO: Blender create Mesh node Box20662_1
+10:59:11 | INFO: Blender create Mesh node Box20663_1
+10:59:11 | INFO: Blender create Mesh node Box20664_1
+10:59:11 | INFO: Blender create Mesh node Box20665_1
+10:59:11 | INFO: Blender create Mesh node Plane019_1
+10:59:11 | INFO: Blender create Mesh node Plane020_1
+10:59:11 | INFO: Blender create Mesh node Box20666_1
+10:59:11 | INFO: Blender create Mesh node Box20667_1
+10:59:11 | INFO: Blender create Mesh node Box20668_1
+10:59:11 | INFO: Blender create Mesh node Box20669_1
+10:59:11 | INFO: Blender create Mesh node Box20670_1
+10:59:11 | INFO: Blender create Mesh node Box20671_1
+10:59:11 | INFO: Blender create Mesh node Box20672_1
+10:59:11 | INFO: Blender create Mesh node Box20673_1
+10:59:11 | INFO: Blender create Mesh node Box20674_1
+10:59:11 | INFO: Blender create Mesh node Box20675_1
+10:59:11 | INFO: Blender create Mesh node Box20676_1
+10:59:11 | INFO: Blender create Mesh node Box20677_1
+10:59:11 | INFO: Blender create Mesh node Box20678_1
+10:59:11 | INFO: Blender create Mesh node Box20679_1
+10:59:11 | INFO: Blender create Mesh node Box20680_1
+10:59:11 | INFO: Blender create Mesh node Box20681_1
+10:59:11 | INFO: Blender create Mesh node Box20682_1
+10:59:11 | INFO: Blender create Mesh node Box20683_1
+10:59:11 | INFO: Blender create Mesh node Box20684_1
+10:59:11 | INFO: Blender create Mesh node Box20685_1
+10:59:11 | INFO: Blender create Mesh node Plane021_1
+10:59:11 | INFO: Blender create Mesh node Box20686_1
+10:59:11 | INFO: Blender create Mesh node Box20687_1
+10:59:11 | INFO: Blender create Mesh node Box20688_1
+10:59:11 | INFO: Blender create Mesh node Box20689_1
+10:59:11 | INFO: Blender create Mesh node Box20690_1
+10:59:11 | INFO: Blender create Mesh node Box20691_1
+10:59:11 | INFO: Blender create Mesh node Box20692_1
+10:59:11 | INFO: Blender create Mesh node Box20693_1
+10:59:11 | INFO: Blender create Mesh node Plane022_1
+10:59:11 | INFO: Blender create Mesh node Box20694_1
+10:59:11 | INFO: Blender create Mesh node Box20695_1
+10:59:11 | INFO: Blender create Mesh node Box20696_1
+10:59:11 | INFO: Blender create Mesh node Box20697_1
+10:59:11 | INFO: Blender create Mesh node Box20698_1
+10:59:11 | INFO: Blender create Mesh node Box20699_1
+10:59:11 | INFO: Blender create Mesh node Plane023_1
+10:59:11 | INFO: Blender create Mesh node Box20700_1
+10:59:11 | INFO: Blender create Mesh node Box20701_1
+10:59:11 | INFO: Blender create Mesh node Box20702_1
+10:59:11 | INFO: Blender create Mesh node Box20703_1
+10:59:11 | INFO: Blender create Mesh node Box20704_1
+10:59:11 | INFO: Blender create Mesh node Box20705_1
+10:59:11 | INFO: Blender create Mesh node Box20706_1
+10:59:11 | INFO: Blender create Mesh node Box20707_1
+10:59:11 | INFO: Blender create Mesh node Box20708_1
+10:59:11 | INFO: Blender create Mesh node Box20709_1
+10:59:11 | INFO: Blender create Mesh node Box20710_1
+10:59:11 | INFO: Blender create Mesh node Box20711_1
+10:59:11 | INFO: Blender create Mesh node Box20712_1
+10:59:11 | INFO: Blender create Mesh node Box20713_1
+10:59:11 | INFO: Blender create Mesh node Box20714_1
+10:59:11 | INFO: Blender create Mesh node Box20715_1
+10:59:11 | INFO: Blender create Mesh node Box20716_1
+10:59:11 | INFO: Blender create Mesh node Box20717_1
+10:59:11 | INFO: Blender create Mesh node Box20718_1
+10:59:11 | INFO: Blender create Mesh node Box20719_1
+10:59:11 | INFO: Blender create Mesh node Box20720_1
+10:59:11 | INFO: Blender create Mesh node Box20721_1
+10:59:11 | INFO: Blender create Mesh node Box20722_1
+10:59:11 | INFO: Blender create Mesh node Box20723_1
+10:59:11 | INFO: Blender create Mesh node Box20724_1
+10:59:11 | INFO: Blender create Mesh node Box20725_1
+10:59:11 | INFO: Blender create Mesh node Box20726_1
+10:59:11 | INFO: Blender create Mesh node Box20727_1
+10:59:11 | INFO: Blender create Mesh node Box20728_1
+10:59:11 | INFO: Blender create Mesh node Box20729_1
+10:59:11 | INFO: Blender create Mesh node Box20730_1
+10:59:11 | INFO: Blender create Mesh node Plane024_1
+10:59:11 | INFO: Blender create Mesh node Box20731_1
+10:59:11 | INFO: Blender create Mesh node Box20732_1
+10:59:11 | INFO: Blender create Mesh node Box20733_1
+10:59:11 | INFO: Blender create Mesh node Box20734_1
+10:59:11 | INFO: Blender create Mesh node Box20735_1
+10:59:11 | INFO: Blender create Mesh node Box20736_1
+10:59:11 | INFO: Blender create Mesh node Plane025_1
+10:59:11 | INFO: Blender create Mesh node Box20737_1
+10:59:11 | INFO: glTF import finished in 0.27s
+Fra:1 Mem:80.19M (Peak 80.19M) | Time:00:00.11 | Rendering 1 / 32 samples
+Fra:1 Mem:80.19M (Peak 80.19M) | Time:00:00.12 | Rendering 25 / 32 samples
+Fra:1 Mem:80.19M (Peak 80.19M) | Time:00:00.12 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\pagoda_hall.png'
+Time: 00:00.32 (Saving: 00:00.08)
+
+MODEL_PREVIEW_COMPLETE pagoda_hall 285 [8541.8515625, 8605.4287109375, 10906.388671875]
+10:59:11 | INFO: Data are loaded, start creating Blender stuff
+10:59:11 | INFO: Blender create Mesh node SM_Pagoda:SM_Pagoda_1
+10:59:11 | INFO: glTF import finished in 0.01s
+Fra:1 Mem:57.32M (Peak 57.32M) | Time:00:00.06 | Rendering 1 / 32 samples
+Fra:1 Mem:57.32M (Peak 57.32M) | Time:00:00.06 | Rendering 25 / 32 samples
+Fra:1 Mem:57.32M (Peak 57.32M) | Time:00:00.07 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\pagoda_tower.png'
+Time: 00:00.26 (Saving: 00:00.08)
+
+MODEL_PREVIEW_COMPLETE pagoda_tower 1 [15.960570335388184, 14.634300231933594, 16.344791412353516]
+10:59:12 | INFO: Data are loaded, start creating Blender stuff
+10:59:12 | INFO: Blender create Mesh node Plane-Mesh
+10:59:12 | INFO: Blender create Mesh node group_0_10988977.001-Mesh
+10:59:12 | INFO: glTF import finished in 0.02s
+Fra:1 Mem:91.72M (Peak 96.00M) | Time:00:00.11 | Rendering 1 / 32 samples
+Fra:1 Mem:91.72M (Peak 96.00M) | Time:00:00.11 | Rendering 25 / 32 samples
+Fra:1 Mem:91.72M (Peak 96.00M) | Time:00:00.11 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\warehouse.png'
+Time: 00:00.29 (Saving: 00:00.09)
+
+MODEL_PREVIEW_COMPLETE warehouse 2 [60.5321159362793, 102.56498718261719, 49.500030517578125]
+10:59:12 | INFO: Data are loaded, start creating Blender stuff
+10:59:12 | INFO: Blender create Mesh node Door_1
+10:59:12 | INFO: Blender create Mesh node Cottage_1
+10:59:12 | INFO: Blender create Mesh node Fence_1
+10:59:12 | INFO: Blender create Mesh node Environment_1
+10:59:12 | INFO: glTF import finished in 0.02s
+Fra:1 Mem:65.75M (Peak 69.90M) | Time:00:00.08 | Rendering 1 / 32 samples
+Fra:1 Mem:65.75M (Peak 69.90M) | Time:00:00.08 | Rendering 25 / 32 samples
+Fra:1 Mem:65.75M (Peak 69.90M) | Time:00:00.08 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\log_cabin_scene.png'
+Time: 00:00.29 (Saving: 00:00.09)
+
+MODEL_PREVIEW_COMPLETE log_cabin_scene 4 [2000.0, 2000.890869140625, 839.6500244140625]
+10:59:13 | INFO: Data are loaded, start creating Blender stuff
+10:59:13 | INFO: Blender create Mesh node Market_FirstAge_Level3
+10:59:13 | INFO: glTF import finished in 0.02s
+Fra:1 Mem:58.70M (Peak 58.70M) | Time:00:00.06 | Rendering 1 / 32 samples
+Fra:1 Mem:58.70M (Peak 58.70M) | Time:00:00.15 | Rendering 25 / 32 samples
+Fra:1 Mem:58.70M (Peak 58.70M) | Time:00:00.17 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\village_market.png'
+Time: 00:00.29 (Saving: 00:00.08)
+
+MODEL_PREVIEW_COMPLETE village_market 1 [1.8907968997955322, 2.1084136962890625, 0.552578330039978]
+10:59:13 | INFO: Data are loaded, start creating Blender stuff
+10:59:13 | INFO: Blender create Mesh node Market_SecondAge_Level3
+10:59:13 | INFO: glTF import finished in 0.03s
+Fra:1 Mem:60.94M (Peak 60.94M) | Time:00:00.06 | Rendering 1 / 32 samples
+Fra:1 Mem:60.94M (Peak 60.94M) | Time:00:00.15 | Rendering 25 / 32 samples
+Fra:1 Mem:60.94M (Peak 60.94M) | Time:00:00.17 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\market_stalls.png'
+Time: 00:00.31 (Saving: 00:00.10)
+
+MODEL_PREVIEW_COMPLETE market_stalls 1 [1.9329653978347778, 1.9854614734649658, 0.6571075916290283]
+10:59:13 | INFO: Data are loaded, start creating Blender stuff
+10:59:13 | INFO: Blender create Mesh node Cube.598
+10:59:13 | INFO: Blender create Mesh node Cube.030
+10:59:13 | INFO: Blender create Mesh node Cube.032
+10:59:13 | INFO: Blender create Mesh node Cube.014
+10:59:13 | INFO: Blender create Mesh node Cube.034
+10:59:13 | INFO: Blender create Mesh node Cube.039
+10:59:13 | INFO: Blender create Mesh node Cube.046
+10:59:13 | INFO: Blender create Mesh node Cube.848
+10:59:13 | INFO: Blender create Mesh node Cube.846
+10:59:13 | INFO: Blender create Mesh node Cube.841
+10:59:13 | INFO: Blender create Mesh node Cube.590
+10:59:13 | INFO: Blender create Mesh node Cube.243
+10:59:13 | INFO: Blender create Mesh node Cube.464
+10:59:13 | INFO: Blender create Mesh node Cube.504
+10:59:13 | INFO: Blender create Mesh node Cube.375
+10:59:13 | INFO: Blender create Mesh node Cube.439
+10:59:13 | INFO: Blender create Mesh node Cube.050
+10:59:13 | INFO: Blender create Mesh node Cube.136
+10:59:13 | INFO: Blender create Mesh node Cube.139
+10:59:13 | INFO: Blender create Mesh node Cube.225
+10:59:13 | INFO: Blender create Mesh node Cube.726
+10:59:13 | INFO: Blender create Mesh node Cube.741
+10:59:13 | INFO: Blender create Mesh node Cube.745
+10:59:13 | INFO: Blender create Mesh node Cube.750
+10:59:13 | INFO: Blender create Mesh node Cube.003
+10:59:13 | INFO: Blender create Mesh node Cube.033
+10:59:13 | INFO: Blender create Mesh node Cube.044
+10:59:13 | INFO: Blender create Mesh node Cube.068
+10:59:13 | INFO: Blender create Mesh node Cube.070
+10:59:13 | INFO: Blender create Mesh node Cube.091
+10:59:13 | INFO: Blender create Mesh node Cube.095
+10:59:13 | INFO: Blender create Mesh node Cube.106
+10:59:13 | INFO: Blender create Mesh node Cube.109
+10:59:13 | INFO: Blender create Mesh node Cube.112
+10:59:13 | INFO: Blender create Mesh node Cube.113
+10:59:13 | INFO: Blender create Mesh node Cube.130
+10:59:13 | INFO: Blender create Mesh node Cube.140
+10:59:13 | INFO: Blender create Mesh node Cube.152
+10:59:13 | INFO: Blender create Mesh node Cube.219
+10:59:13 | INFO: Blender create Mesh node Cube.220
+10:59:13 | INFO: Blender create Mesh node Cube.221
+10:59:14 | INFO: Blender create Mesh node Cube.222
+10:59:14 | INFO: Blender create Mesh node Cube.228
+10:59:14 | INFO: Blender create Mesh node Cube.229
+10:59:14 | INFO: Blender create Mesh node Cube.230
+10:59:14 | INFO: Blender create Mesh node Cube.231
+10:59:14 | INFO: Blender create Mesh node Cube.248
+10:59:14 | INFO: Blender create Mesh node Cube.249
+10:59:14 | INFO: Blender create Mesh node Cube.250
+10:59:14 | INFO: Blender create Mesh node Cube.251
+10:59:14 | INFO: Blender create Mesh node Plane.102
+10:59:14 | INFO: Blender create Mesh node Plane.086
+10:59:14 | INFO: Blender create Mesh node Plane.085
+10:59:14 | INFO: Blender create Mesh node Plane.059
+10:59:14 | INFO: Blender create Mesh node Plane.080
+10:59:14 | INFO: Blender create Mesh node Plane.088
+10:59:14 | INFO: Blender create Mesh node Plane.008
+10:59:14 | INFO: Blender create Mesh node Plane.012
+10:59:14 | INFO: Blender create Mesh node Plane.014
+10:59:14 | INFO: Blender create Mesh node Plane.017
+10:59:14 | INFO: Blender create Mesh node Plane.022
+10:59:14 | INFO: Blender create Mesh node Plane.025
+10:59:14 | INFO: Blender create Mesh node Plane.002
+10:59:14 | INFO: Blender create Mesh node Plane.006
+10:59:14 | INFO: Blender create Mesh node Plane.009
+10:59:14 | INFO: Blender create Mesh node Cube.747
+10:59:14 | INFO: Blender create Mesh node Cube.742
+10:59:14 | INFO: Blender create Mesh node Cube.814
+10:59:14 | INFO: Blender create Mesh node Cube.591
+10:59:14 | INFO: Blender create Mesh node Cube.015
+10:59:14 | INFO: Blender create Mesh node Cube.035
+10:59:14 | INFO: Blender create Mesh node Cube.041
+10:59:14 | INFO: Blender create Mesh node Cube.047
+10:59:14 | INFO: Blender create Mesh node Cube.083
+10:59:14 | INFO: Blender create Mesh node Cube.084
+10:59:14 | INFO: Blender create Mesh node Cube.596
+10:59:14 | INFO: Blender create Mesh node Cube.604
+10:59:14 | INFO: Blender create Mesh node Cube.010
+10:59:14 | INFO: Blender create Mesh node Cube.038
+10:59:14 | INFO: Blender create Mesh node Cube.045
+10:59:14 | INFO: Blender create Mesh node Cube.597
+10:59:14 | INFO: Blender create Mesh node Cube.019
+10:59:14 | INFO: Blender create Mesh node Cube.048
+10:59:14 | INFO: Blender create Mesh node Cube.053
+10:59:14 | INFO: Blender create Mesh node Cube.066
+10:59:14 | INFO: Blender create Mesh node Cube.071
+10:59:14 | INFO: Blender create Mesh node Cube.073
+10:59:14 | INFO: Blender create Mesh node Cube.075
+10:59:14 | INFO: Blender create Mesh node Cube.094
+10:59:14 | INFO: Blender create Mesh node Cube.097
+10:59:14 | INFO: Blender create Mesh node Cube.599
+10:59:14 | INFO: Blender create Mesh node Cube.079
+10:59:14 | INFO: Blender create Mesh node Cube.080
+10:59:14 | INFO: Blender create Mesh node Cube.031
+10:59:14 | INFO: Blender create Mesh node Cube.037
+10:59:14 | INFO: Blender create Mesh node Cube.043
+10:59:14 | INFO: Blender create Mesh node Cube.049
+10:59:14 | INFO: Blender create Mesh node Cube.804
+10:59:14 | INFO: Blender create Mesh node Cube.809
+10:59:14 | INFO: Blender create Mesh node Cube.843
+10:59:14 | INFO: Blender create Mesh node Cube.023
+10:59:14 | INFO: Blender create Mesh node Cube.040
+10:59:14 | INFO: Blender create Mesh node Cube.108
+10:59:14 | INFO: Blender create Mesh node Cube.442
+10:59:14 | INFO: Blender create Mesh node Cube.443
+10:59:14 | INFO: Blender create Mesh node Cube.444
+10:59:14 | INFO: Blender create Mesh node Cube.445
+10:59:14 | INFO: Blender create Mesh node Cube.116
+10:59:14 | INFO: Blender create Mesh node Cube.352
+10:59:14 | INFO: Blender create Mesh node Plane.063
+10:59:14 | INFO: Blender create Mesh node Cube.018
+10:59:14 | INFO: Blender create Mesh node Plane.126
+10:59:14 | INFO: Blender create Mesh node Cube.004
+10:59:14 | INFO: Blender create Mesh node Cube.005
+10:59:14 | INFO: Blender create Mesh node Cube.021
+10:59:14 | INFO: Blender create Mesh node Cube.024
+10:59:14 | INFO: Blender create Mesh node Cube.052
+10:59:14 | INFO: Blender create Mesh node Cube.056
+10:59:14 | INFO: Blender create Mesh node Cube.061
+10:59:14 | INFO: Blender create Mesh node Cube.067
+10:59:14 | INFO: Blender create Mesh node Cube.069
+10:59:14 | INFO: Blender create Mesh node Cube.088
+10:59:14 | INFO: Blender create Mesh node Cube.090
+10:59:14 | INFO: Blender create Mesh node Cube.105
+10:59:14 | INFO: Blender create Mesh node Cube.107
+10:59:14 | INFO: Blender create Mesh node Cube.110
+10:59:14 | INFO: Blender create Mesh node Cube.111
+10:59:14 | INFO: Blender create Mesh node Cube.121
+10:59:14 | INFO: Blender create Mesh node Cube.123
+10:59:14 | INFO: Blender create Mesh node Cube.124
+10:59:14 | INFO: Blender create Mesh node Cube.125
+10:59:14 | INFO: Blender create Mesh node Cube.135
+10:59:14 | INFO: Blender create Mesh node Cube.138
+10:59:14 | INFO: Blender create Mesh node Plane.001
+10:59:14 | INFO: Blender create Mesh node Plane.003
+10:59:14 | INFO: Blender create Mesh node Plane.007
+10:59:14 | INFO: Blender create Mesh node Cube.154
+10:59:14 | INFO: Blender create Mesh node Cube.156
+10:59:14 | INFO: Blender create Mesh node Cube.158
+10:59:14 | INFO: Blender create Mesh node Cube.160
+10:59:14 | INFO: Blender create Mesh node Cube.162
+10:59:14 | INFO: Blender create Mesh node Cube.164
+10:59:14 | INFO: Blender create Mesh node Cube.174
+10:59:14 | INFO: Blender create Mesh node Cube.178
+10:59:14 | INFO: Blender create Mesh node Cube.215
+10:59:14 | INFO: Blender create Mesh node Cube.216
+10:59:14 | INFO: Blender create Mesh node Cube.217
+10:59:14 | INFO: Blender create Mesh node Cube.218
+10:59:14 | INFO: Blender create Mesh node Cube.232
+10:59:14 | INFO: Blender create Mesh node Cube.233
+10:59:14 | INFO: Blender create Mesh node Cube.234
+10:59:14 | INFO: Blender create Mesh node Cube.235
+10:59:14 | INFO: Blender create Mesh node Cube.236
+10:59:14 | INFO: Blender create Mesh node Cube.237
+10:59:14 | INFO: Blender create Mesh node Cube.238
+10:59:14 | INFO: Blender create Mesh node Cube.239
+10:59:14 | INFO: Blender create Mesh node Cube.252
+10:59:14 | INFO: Blender create Mesh node Plane.018
+10:59:14 | INFO: Blender create Mesh node Cube.273
+10:59:14 | INFO: Blender create Mesh node Cube.293
+10:59:14 | INFO: Blender create Mesh node Cube.297
+10:59:14 | INFO: Blender create Mesh node Cube.301
+10:59:14 | INFO: Blender create Mesh node Cube.305
+10:59:14 | INFO: Blender create Mesh node Cube.310
+10:59:14 | INFO: Blender create Mesh node Cube.315
+10:59:14 | INFO: Blender create Mesh node Cube.320
+10:59:14 | INFO: Blender create Mesh node Plane.028
+10:59:14 | INFO: Blender create Mesh node Cube.001
+10:59:14 | INFO: Blender create Mesh node Cube.007
+10:59:14 | INFO: Blender create Mesh node Cube.008
+10:59:14 | INFO: Blender create Mesh node Cube.009
+10:59:14 | INFO: Blender create Mesh node Plane.087
+10:59:14 | INFO: Blender create Mesh node Plane.099
+10:59:14 | INFO: Blender create Mesh node Plane.172
+10:59:14 | INFO: Blender create Mesh node Plane.093
+10:59:14 | INFO: Blender create Mesh node Cube.539
+10:59:14 | INFO: Blender create Mesh node Cube.765
+10:59:14 | INFO: Blender create Mesh node Cube.803
+10:59:14 | INFO: Blender create Mesh node Cube.807
+10:59:14 | INFO: Blender create Mesh node Cube.141
+10:59:14 | INFO: Blender create Mesh node Cube.143
+10:59:14 | INFO: Blender create Mesh node Cube.147
+10:59:14 | INFO: Blender create Mesh node Cube.255
+10:59:14 | INFO: Blender create Mesh node Cube.274
+10:59:14 | INFO: Blender create Mesh node Cube.294
+10:59:14 | INFO: Blender create Mesh node Cube.298
+10:59:14 | INFO: Blender create Mesh node Cube.302
+10:59:14 | INFO: Blender create Mesh node Cube.323
+10:59:14 | INFO: Blender create Mesh node Cube.322
+10:59:14 | INFO: Blender create Mesh node Cube.307
+10:59:14 | INFO: Blender create Mesh node Cube.313
+10:59:14 | INFO: Blender create Mesh node Cube.318
+10:59:14 | INFO: glTF import finished in 0.76s
+Fra:1 Mem:389.91M (Peak 415.80M) | Time:00:00.80 | Rendering 1 / 32 samples
+Fra:1 Mem:389.91M (Peak 415.80M) | Time:00:00.91 | Rendering 25 / 32 samples
+Fra:1 Mem:389.91M (Peak 415.80M) | Time:00:00.95 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\modular_factory_facade.png'
+Time: 00:01.08 (Saving: 00:00.09)
+
+MODEL_PREVIEW_COMPLETE modular_factory_facade 192 [53.32999801635742, 5.356249809265137, 29.0]
+10:59:15 | INFO: Data are loaded, start creating Blender stuff
+10:59:15 | INFO: Blender create Mesh node Plane.002
+10:59:15 | INFO: Blender create Mesh node Plane.005
+10:59:15 | INFO: glTF import finished in 0.01s
+Fra:1 Mem:110.55M (Peak 126.54M) | Time:00:00.18 | Rendering 1 / 32 samples
+Fra:1 Mem:110.55M (Peak 126.54M) | Time:00:00.27 | Rendering 25 / 32 samples
+Fra:1 Mem:110.55M (Peak 126.54M) | Time:00:00.30 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\chinese_screen_panels.png'
+Time: 00:00.42 (Saving: 00:00.09)
+
+MODEL_PREVIEW_COMPLETE chinese_screen_panels 2 [1.2939677238464355, 0.376891165971756, 1.6031262874603271]
+10:59:16 | INFO: Data are loaded, start creating Blender stuff
+10:59:16 | INFO: Blender create Mesh node Plane.003
+10:59:16 | INFO: glTF import finished in 0.01s
+Fra:1 Mem:110.58M (Peak 126.67M) | Time:00:00.14 | Rendering 1 / 32 samples
+Fra:1 Mem:110.58M (Peak 126.67M) | Time:00:00.22 | Rendering 25 / 32 samples
+Fra:1 Mem:110.58M (Peak 126.67M) | Time:00:00.25 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\chinese_tea_table.png'
+Time: 00:00.35 (Saving: 00:00.07)
+
+MODEL_PREVIEW_COMPLETE chinese_tea_table 1 [0.8413149118423462, 0.8356219530105591, 0.4986410439014435]
+10:59:16 | INFO: Data are loaded, start creating Blender stuff
+10:59:16 | INFO: Blender create Mesh node Vert.001
+10:59:16 | INFO: glTF import finished in 0.03s
+Fra:1 Mem:116.95M (Peak 134.18M) | Time:00:00.16 | Rendering 1 / 32 samples
+Fra:1 Mem:116.95M (Peak 134.18M) | Time:00:00.25 | Rendering 25 / 32 samples
+Fra:1 Mem:116.95M (Peak 134.18M) | Time:00:00.27 | Rendering 32 / 32 samples
+Saved: 'C:\GameMake\AssetLibrary\environment\china_northeast_20261013\previews\wicker_basket_01.png'
+Time: 00:00.38 (Saving: 00:00.08)
+
+MODEL_PREVIEW_COMPLETE wicker_basket_01 1 [0.3832242488861084, 0.29501521587371826, 0.1174229308962822]
+
+Blender quit

@@ -1,0 +1,35 @@
+{
+  "id": "stealth-music",
+  "title": "Stealth in the Woods",
+  "source_url": "https://opengameart.org/content/stealth-music",
+  "author": "Lisboa",
+  "license": "CC0-1.0",
+  "notes": "Loopable stealth music candidate; artistic suitability and loop seams not yet auditioned.",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "files": [
+    {
+      "path": "stealth-music/originals/Stealth in the Woods_0.mp3",
+      "download_url": "https://opengameart.org/sites/default/files/Stealth%20in%20the%20Woods_0.mp3",
+      "bytes": 6111678,
+      "sha256": "b3564bae7917e86f95b07b26733c08a355d0c87a949b5b51dde8f6dab910fb45",
+      "role": "original_download"
+    }
+  ],
+  "status": "downloaded_extracted_decode_verified",
+  "validation": {
+    "audio_file_count": 1,
+    "decode_passed": 1,
+    "sample_rates": [
+      44100
+    ],
+    "channels": [
+      2
+    ],
+    "total_duration_seconds": 152.79,
+    "duration_range_seconds": [
+      152.79,
+      152.79
+    ],
+    "method": "ffprobe metadata plus full ffmpeg null decode; no exhaustive auditory review"
+  }
+}

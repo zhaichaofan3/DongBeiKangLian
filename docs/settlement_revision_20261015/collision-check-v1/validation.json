@@ -1,0 +1,10 @@
+{
+	"checks": 34,
+	"failures": [
+		"Enemy spawns on reachable original village ground: village_0",
+		"Old straight-village checkpoint migrates to the matching encounter",
+		"Village migration preserves defeats and ammunition",
+		"Disk-only resume restores the new layout"
+	],
+	"passed": false
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-12",
+  "version": "4.5.14 LTS",
+  "executable": "C:\\GameMake\\tools\\blender-4.5.14-windows-x64\\blender.exe",
+  "launcher": "C:\\GameMake\\Start-Blender.cmd",
+  "source": "https://mirrors.tuna.tsinghua.edu.cn/blender/release/Blender4.5/blender-4.5.14-windows-x64.zip",
+  "checksum_source": "https://mirrors.tuna.tsinghua.edu.cn/blender/release/Blender4.5/blender-4.5.14.sha256",
+  "zip_sha256": "b9533d2397ac1984db4466fb23a7a4649391cca93f6e84209f9bcc60d071c8b9",
+  "checksum_matched": true,
+  "authenticode_status": "Valid",
+  "signer": "Blender Foundation",
+  "portable_preferences": "C:\\GameMake\\tools\\blender-4.5.14-windows-x64\\portable\\config",
+  "checks": [
+    "Background Python control",
+    "Chinese preferences saved",
+    "Native blend saved",
+    "GLB export succeeded"
+  ]
+}

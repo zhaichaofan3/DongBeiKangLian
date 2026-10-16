@@ -1,0 +1,7 @@
+{
+	"checks": 35,
+	"failures": [
+		"Village migration preserves defeats and ammunition"
+	],
+	"passed": false
+}

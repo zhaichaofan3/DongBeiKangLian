@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: No ambush before opening the second door
+PASS: Second door immediately starts the turn
+PASS: User MP3 plays once at the turn
+PASS: Rifle carries an actual bayonet mesh
+PASS: Checkpoint remains before second door until success
+PASS: Unfinished grapple cannot overwrite safe checkpoint
+PASS: Enemy visibly rotates from back-facing pose
+PASS: Escape freezes the encounter timer
+PASS: Pause freezes the shout
+PASS: Settings return resumes the same encounter and sound
+PASS: Enemy actually advances toward player
+PASS: Charge flows into close combat
+PASS: Both grappling hands replace the ordinary gun view
+PASS: Holding and keyboard repeat count as only one press
+PASS: A released then repressed space adds a new effort
+PASS: Repeated physical taps earn the counterattack
+PASS: Long pause during the fall cannot delete the actor or advance animation
+PASS: Success returns player control
+PASS: Counterattack records exactly one guard defeat
+PASS: Camera gun and audio restored after success
+PASS: Successful door and enemy state saved together
+PASS: Success survives reload without duplicate encounter or kill
+PASS: No taps loses the grapple and exits cleanly
+PASS: Failure restores healthy player at closed second door
+PASS: Retry can trigger the same ambush
+PASS: Paused input cannot advance effort
+PASS: Menu return cleans camera hands overlay and encounter
+PASS: Loading during the grapple restores the safe pre-door state
+PASS: New task clears an interrupted grapple
+PASS: Failed pre-door write leaves the door closed and replayable
+PASS: Older saves beyond the door retain their progress
+EVIDENCE: C:\GameMake\docs\validation\release\opening-checks\bayonet_encounter
+BAYONET ENCOUNTER: PASS 31/31

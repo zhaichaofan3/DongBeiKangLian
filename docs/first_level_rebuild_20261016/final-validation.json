@@ -1,0 +1,498 @@
+{
+  "version": "0.7.0-rc1",
+  "revision": "20261016-first-level-rebuild",
+  "passed": true,
+  "created_at": "2026-10-16T12:54:14+08:00",
+  "runtime": {
+    "source": {
+      "groups": 28,
+      "assertions": 1084,
+      "map_checks": 125,
+      "critical_path_metres": 572.592300727963,
+      "screenshots": [
+        {
+          "file": "arrival-shelter.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4835,
+          "deviation": 50.771675840999286,
+          "sha256": "7f578f15bb542f02d8dd61f186107cb0f38495e7cc894b94e5358a7cc0f26947"
+        },
+        {
+          "file": "arrival.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4645,
+          "deviation": 54.21400854156665,
+          "sha256": "f0aba817b6a70d1c23332ebf07fbf573f42747489d8895c5673d047174553cdd"
+        },
+        {
+          "file": "checkpoint-workside.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5321,
+          "deviation": 52.73787363908619,
+          "sha256": "4dcba42740fe508eecf04768c0469813e3c193a60615267ef1a45929cc1cee6b"
+        },
+        {
+          "file": "checkpoint.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4186,
+          "deviation": 57.26055853423527,
+          "sha256": "eb8c56874d81c44d5d0d2552e55950c895638cda9abad3b64d27b1f2e0054fbf"
+        },
+        {
+          "file": "escort-road.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 6129,
+          "deviation": 45.96521989675688,
+          "sha256": "e1559b2ad180493a28a3a79e9ae129fe913daa660c46894c2256cd2e89fc4f28"
+        },
+        {
+          "file": "ferry.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 3027,
+          "deviation": 61.923638510353356,
+          "sha256": "c67c9dc73c5fd5e785a64f163b0346e8d07d99f17f6d3e69240dfacfae035a0f"
+        },
+        {
+          "file": "loading-forest.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5006,
+          "deviation": 49.6154512106639,
+          "sha256": "4ed67e7d82b4dd82e1a1a54b0758514d898a046455fe0524ae3d6efb0fd1a09b"
+        },
+        {
+          "file": "logging-wide.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5452,
+          "deviation": 50.870297921565765,
+          "sha256": "81ea92b608cc18f75f2c8875a0f7c5b1d0ea17ad31ee8e13643af7546540e44b"
+        },
+        {
+          "file": "mission-handoff.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5101,
+          "deviation": 65.27080517371216,
+          "sha256": "1d92596178dd16e17b39286b452f5d510e49b0d865a1b1b98c211cc2857dcaba"
+        },
+        {
+          "file": "office-approach.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4499,
+          "deviation": 49.06029939607545,
+          "sha256": "b3dfca1c35e2ed8e74575bd27768e7366541f5def807a652fc29d51af8a866b0"
+        },
+        {
+          "file": "office-reveal.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5104,
+          "deviation": 55.91341873260196,
+          "sha256": "9f968b3af0e395252c163b3a9e267b2a5b7c94d66e662aac8098d8383c5cc9d4"
+        },
+        {
+          "file": "overview.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 1408,
+          "deviation": 12.651109223246428,
+          "sha256": "408e1e7e917b238ff7791045afdcc10281ef64971028313d2b780cdb2280ace7"
+        },
+        {
+          "file": "timber-barrage.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4954,
+          "deviation": 48.70412844616581,
+          "sha256": "4f47c33778ae785df636c1940141345fb4e14f3e259b84c0d6518c815425bdfe"
+        },
+        {
+          "file": "timber-workside.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4248,
+          "deviation": 56.88668102536478,
+          "sha256": "0657ede0088c46f20241717d3aeaf4c879c10775360e4d12197812a5da66b8fb"
+        },
+        {
+          "file": "timber-yard.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 3738,
+          "deviation": 58.10542722876667,
+          "sha256": "c40217ded7b756604a64723b669b4e4a9ffb48ca1023b6fbc7ee0a77db958e53"
+        },
+        {
+          "file": "transport-turn.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4506,
+          "deviation": 40.79467655017184,
+          "sha256": "ae706c03d86ecc262759bc7477b59c52ff64f6ab6bfeae20760d1c3128a27743"
+        },
+        {
+          "file": "village-to-camp.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5370,
+          "deviation": 47.35255430190573,
+          "sha256": "cc8673b4ae3e8b67fee33064799b30fd9366e71b9c44deee534dbc099f63d5c3"
+        },
+        {
+          "file": "village-wide.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4074,
+          "deviation": 63.98781965241197,
+          "sha256": "6afa5bb4c53f1a2ee06e26ae38a6ffca2d0acbfddd351917645a70cbb3cdcf12"
+        }
+      ],
+      "scenery_objects": 248,
+      "near_trees": 36,
+      "combat": {
+        "health": 100.0,
+        "defeated": 37,
+        "seconds": 318.750000000039,
+        "state": "won"
+      },
+      "pursuit": {
+        "issued": 12,
+        "final_batch_defeated": 2,
+        "final_batch_shots": 0,
+        "first_contact_remaining": 28.8333333333334
+      }
+    },
+    "release": {
+      "groups": 28,
+      "assertions": 1084,
+      "map_checks": 125,
+      "critical_path_metres": 572.592300727963,
+      "screenshots": [
+        {
+          "file": "arrival-shelter.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4846,
+          "deviation": 50.77535166480871,
+          "sha256": "c6cee5c37b375580bf8fc0ef19cac37f1a1ae1130e8ec1e6cb982f76d09a24fd"
+        },
+        {
+          "file": "arrival.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4654,
+          "deviation": 54.21501529386526,
+          "sha256": "21323721c9986329b27c88422be3e5291228afa5b3cd7c52b548b66e752e6ffa"
+        },
+        {
+          "file": "checkpoint-workside.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5321,
+          "deviation": 52.73787363908619,
+          "sha256": "4dcba42740fe508eecf04768c0469813e3c193a60615267ef1a45929cc1cee6b"
+        },
+        {
+          "file": "checkpoint.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4186,
+          "deviation": 57.26055853423527,
+          "sha256": "eb8c56874d81c44d5d0d2552e55950c895638cda9abad3b64d27b1f2e0054fbf"
+        },
+        {
+          "file": "escort-road.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 6129,
+          "deviation": 45.96521989675688,
+          "sha256": "e1559b2ad180493a28a3a79e9ae129fe913daa660c46894c2256cd2e89fc4f28"
+        },
+        {
+          "file": "ferry.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 3027,
+          "deviation": 61.923638510353356,
+          "sha256": "c67c9dc73c5fd5e785a64f163b0346e8d07d99f17f6d3e69240dfacfae035a0f"
+        },
+        {
+          "file": "loading-forest.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5006,
+          "deviation": 49.6154512106639,
+          "sha256": "fe9e3fbe918fab1dcc2b23fbcb3b51fbb5f2bdc2b9df9ed685945ac5b7ba487b"
+        },
+        {
+          "file": "logging-wide.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5452,
+          "deviation": 50.870297921565765,
+          "sha256": "81ea92b608cc18f75f2c8875a0f7c5b1d0ea17ad31ee8e13643af7546540e44b"
+        },
+        {
+          "file": "mission-handoff.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5101,
+          "deviation": 65.27080517371216,
+          "sha256": "1d92596178dd16e17b39286b452f5d510e49b0d865a1b1b98c211cc2857dcaba"
+        },
+        {
+          "file": "office-approach.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4499,
+          "deviation": 49.06029939607545,
+          "sha256": "b3dfca1c35e2ed8e74575bd27768e7366541f5def807a652fc29d51af8a866b0"
+        },
+        {
+          "file": "office-reveal.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5104,
+          "deviation": 55.91341873260196,
+          "sha256": "9f968b3af0e395252c163b3a9e267b2a5b7c94d66e662aac8098d8383c5cc9d4"
+        },
+        {
+          "file": "overview.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 1408,
+          "deviation": 12.651109223246428,
+          "sha256": "94fac7e7c275b7116be3f2fad449abc290a3de3bed24c5673007d99fe250829b"
+        },
+        {
+          "file": "timber-barrage.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4953,
+          "deviation": 48.70398597631112,
+          "sha256": "bcdd07fbf5326075a2c21c53f1751ffd7c406f421b1e7d4c31e477abecba6b85"
+        },
+        {
+          "file": "timber-workside.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4248,
+          "deviation": 56.88668102536478,
+          "sha256": "9de1bfc14c896d92e0f3ae60998e439479781d811efa92bf6932fb252ac5446e"
+        },
+        {
+          "file": "timber-yard.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 3738,
+          "deviation": 58.10542722876667,
+          "sha256": "c40217ded7b756604a64723b669b4e4a9ffb48ca1023b6fbc7ee0a77db958e53"
+        },
+        {
+          "file": "transport-turn.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4506,
+          "deviation": 40.79467655017184,
+          "sha256": "ae706c03d86ecc262759bc7477b59c52ff64f6ab6bfeae20760d1c3128a27743"
+        },
+        {
+          "file": "village-to-camp.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 5370,
+          "deviation": 47.35255430190573,
+          "sha256": "01bd62c0fd6bc97661d32d80b7df1f5285718317b73ea1d37ccda21527a93a3a"
+        },
+        {
+          "file": "village-wide.png",
+          "width": 1280,
+          "height": 720,
+          "colors": 4074,
+          "deviation": 63.98781965241197,
+          "sha256": "6afa5bb4c53f1a2ee06e26ae38a6ffca2d0acbfddd351917645a70cbb3cdcf12"
+        }
+      ],
+      "scenery_objects": 248,
+      "near_trees": 36,
+      "combat": {
+        "health": 100.0,
+        "defeated": 37,
+        "seconds": 318.750000000039,
+        "state": "won"
+      },
+      "pursuit": {
+        "issued": 12,
+        "final_batch_defeated": 2,
+        "final_batch_shots": 0,
+        "first_contact_remaining": 28.8333333333334
+      }
+    }
+  },
+  "rendered_release_combat": "won",
+  "layout_revision": 5,
+  "combat_screenshots": [
+    {
+      "file": "ferry-combat.png",
+      "width": 1280,
+      "height": 720,
+      "colors": 5069,
+      "deviation": 59.027400642545224,
+      "sha256": "24b0fff1674d0be32f4fc3b53b88d0e2de6e20e669c307eb64f132a118673450"
+    },
+    {
+      "file": "village-victory.png",
+      "width": 1280,
+      "height": 720,
+      "colors": 1572,
+      "deviation": 22.272393817999593,
+      "sha256": "39edd91b55f6bd4308d369cba1d579b736c065f8384a7d5beb5103d7a0f00d51"
+    }
+  ],
+  "rendered_boundary_checks": 148,
+  "boundary_screenshots": [
+    {
+      "file": "forest-walls-retained.png",
+      "width": 1280,
+      "height": 720,
+      "colors": 4465,
+      "deviation": 52.161854551896546,
+      "sha256": "a5fa125fe93b85badc1d1ea5bf6c8658ddc81020c827408c7f8c18cf6bff8499"
+    },
+    {
+      "file": "low-wire-human-scale.png",
+      "width": 1280,
+      "height": 720,
+      "colors": 5749,
+      "deviation": 30.75398476130989,
+      "sha256": "e232c2be5a3292e9fe539aa8c9e46e644e39bbd14c8e30d3ea84f4b8b2849a46"
+    },
+    {
+      "file": "village-low-side-wire.png",
+      "width": 1280,
+      "height": 720,
+      "colors": 5255,
+      "deviation": 55.20336232123231,
+      "sha256": "d1d15b24f7fa173101e6886a92881eaf37206f19720180c699df96821b1bc09b"
+    },
+    {
+      "file": "village-walls-retained.png",
+      "width": 1280,
+      "height": 720,
+      "colors": 3827,
+      "deviation": 68.31434088871818,
+      "sha256": "01516e98261d2768aed7cb4b02c556549c2d6e9ea34bf7c5945a7d1c37a2eb47"
+    }
+  ],
+  "performance": {
+    "engine": "4.7.2-stable (official)",
+    "fps_limit": 0,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "measurement_valid": true,
+    "quality": "1",
+    "render_scale_3d": 1.0,
+    "renderer": "gl_compatibility",
+    "reported_viewport_texture_size": [
+      2880.0,
+      1620.0
+    ],
+    "resolution": [
+      1920,
+      1080
+    ],
+    "resolution_method": "Viewport image readback outside timed samples, with window and stretch configuration checked each sample.",
+    "sample_seconds_per_view": 3,
+    "scope": "Fixed camera views; AI and player physics paused; excludes startup and shader warmup.",
+    "views": [
+      {
+        "frames": 689,
+        "mean_draw_calls": 962.0,
+        "mean_fps": 229.368487632744,
+        "mean_frame_ms": 4.35979680696662,
+        "mean_primitives": 774273.0,
+        "node_count": 3045.0,
+        "p95_frame_ms": 5.253,
+        "p99_frame_ms": 6.039,
+        "view": "forest_contact"
+      },
+      {
+        "frames": 705,
+        "mean_draw_calls": 682.309219858156,
+        "mean_fps": 234.810664334325,
+        "mean_frame_ms": 4.25875035460993,
+        "mean_primitives": 1147491.34893617,
+        "node_count": 3045.0,
+        "p95_frame_ms": 5.352,
+        "p99_frame_ms": 5.765,
+        "view": "yard"
+      },
+      {
+        "frames": 688,
+        "mean_draw_calls": 668.0,
+        "mean_fps": 229.313841656793,
+        "mean_frame_ms": 4.36083575581395,
+        "mean_primitives": 825795.0,
+        "node_count": 3045.0,
+        "p95_frame_ms": 5.487,
+        "p99_frame_ms": 5.931,
+        "view": "office"
+      }
+    ],
+    "vsync": false,
+    "window_resolution": [
+      1920,
+      1080
+    ]
+  },
+  "layout": {
+    "depth_metres": 304,
+    "first_gate_spacing_metres": 76,
+    "wire_height_metres": 0.8
+  },
+  "protections": {
+    "hand_files": 6,
+    "audio_files": 61,
+    "original_packages": 7,
+    "retained_model_files": 15,
+    "village_scripts": "unchanged",
+    "opening_cues_and_timing": "unchanged"
+  },
+  "save_migration": "Revision 4 camp, yard, office and ferry checkpoints restored from disk; village regressions retained.",
+  "baseline": "WorkBackups/20261016-095513-S10-in_progress-8ac53f",
+  "human_acceptance": {
+    "listening": "pending",
+    "difficulty": "pending",
+    "continuous_art": "pending"
+  },
+  "crash_followup": {
+    "initial_failures": 2,
+    "exception": "0xc0000005",
+    "offset": "0x31d6c57",
+    "identified_function": "AudioServer::_mix_step",
+    "mitigation": "Only update changed sends under AudioServer.lock()",
+    "live_route_transitions": 512,
+    "scope": "Local regression passed; other hardware remains unverified",
+    "evidence": "Validation/first_level_rebuild_20261016/crash-diagnostic.md"
+  },
+  "review": "Validation/first_level_rebuild_20261016/review.md",
+  "files": [
+    {
+      "path": "FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "FenghuoEcho.pck",
+      "bytes": 1317564880,
+      "sha256": "af2283e1bbbb7649e2a55d450b54fbd22e439a1eb52a83d7d0405d1beabf9ea6"
+    }
+  ]
+}

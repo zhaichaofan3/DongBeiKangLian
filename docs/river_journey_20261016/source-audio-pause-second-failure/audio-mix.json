@@ -1,0 +1,116 @@
+{
+  "all_passed": false,
+  "checks": [
+    {
+      "description": "Category buses and cinematic master exist without replacing Master volume",
+      "passed": true
+    },
+    {
+      "description": "Existing player gun, footstep and wind streams route to separate buses",
+      "passed": true
+    },
+    {
+      "description": "Spatial river, radio and switch use the appropriate layers",
+      "passed": true
+    },
+    {
+      "description": "Gameplay pause freezes gunfire and ambient playback",
+      "passed": false
+    },
+    {
+      "description": "Resume releases paused streams without replaying them",
+      "passed": true
+    },
+    {
+      "description": "Reload uses Foley rather than the gunshot layer",
+      "passed": true
+    },
+    {
+      "description": "Music starts at silence and fades in",
+      "passed": true
+    },
+    {
+      "description": "Repeated request for the same cue does not restart or add a player",
+      "passed": true
+    },
+    {
+      "description": "A transition overlaps exactly two streams",
+      "passed": true
+    },
+    {
+      "description": "Rapid cue changes recycle the quieter slot and preserve the audible outgoing cue",
+      "passed": true
+    },
+    {
+      "description": "Journal pause freezes both playback and crossfade time",
+      "passed": true
+    },
+    {
+      "description": "Fade completion releases the old stream",
+      "passed": true
+    },
+    {
+      "description": "Voice lowers music by 10dB while keeping a separate voice bus",
+      "passed": true
+    },
+    {
+      "description": "Voice lowers ambience by 3dB without changing gunshot gain",
+      "passed": true
+    },
+    {
+      "description": "Ducking does not overwrite the user's Master volume",
+      "passed": true
+    },
+    {
+      "description": "Music recovers gradually after speech ends",
+      "passed": true
+    },
+    {
+      "description": "Music fade-out retains playback until the fade finishes",
+      "passed": true
+    },
+    {
+      "description": "Music fade-out ends with both streams released",
+      "passed": true
+    },
+    {
+      "description": "Loading clears old voice/gun tails and restores the global music",
+      "passed": true
+    },
+    {
+      "description": "A-to-B transition clears old history cue audio",
+      "passed": true
+    },
+    {
+      "description": "New voice or music requested during cinematic pause stays paused",
+      "passed": true
+    },
+    {
+      "description": "Leaving a paused cinematic releases cue audio and restores menu music",
+      "passed": true
+    },
+    {
+      "description": "A new task resumes one persistent ambient stream",
+      "passed": true
+    },
+    {
+      "description": "512 live routing transitions preserve every category send without a mixer crash",
+      "passed": true
+    },
+    {
+      "description": "The audio thread keeps advancing during routing transitions",
+      "passed": true
+    },
+    {
+      "description": "Scene re-entry reuses buses without duplicates",
+      "passed": true
+    },
+    {
+      "description": "Scene teardown clears dialogue ducking",
+      "passed": true
+    }
+  ],
+  "listening": "pending",
+  "music_test_fixture": "Forest WAV fixtures plus user global score",
+  "new_recordings_integrated": true
+}

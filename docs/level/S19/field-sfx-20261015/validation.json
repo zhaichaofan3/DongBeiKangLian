@@ -1,0 +1,62 @@
+{
+  "step": "S19",
+  "revision": "20261015-field-sfx-no-mouth",
+  "created_at": "2026-10-15T12:55:11+08:00",
+  "all_passed": true,
+  "scope": "User requested 11 sound effects and transient red damage edges; mouth expression removed by latest instruction",
+  "source": {
+    "all_runtime_checks_passed": true,
+    "assertions_total": 473,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "guards_defeated": 9,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "docs/level/S19/field-sfx-20261015/source-regression.log",
+    "render_checks": 31,
+    "captures": 4
+  },
+  "release": {
+    "all_runtime_checks_passed": true,
+    "assertions_total": 473,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "guards_defeated": 9,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "docs/level/S19/field-sfx-20261015/release-regression.log",
+    "render_checks": 31,
+    "captures": 4,
+    "test_isolation": "EXE launched outside source project; all res:// assets resolve to shipped PCK"
+  },
+  "assets_original_integrity": "asset-integrity.json",
+  "asset_count": 11,
+  "mouth_expression": "removed",
+  "red_edge_fade_seconds": 0.25,
+  "human_listening": false,
+  "human_playtest": false,
+  "files": [
+    {
+      "path": "Release/FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 441158740,
+      "sha256": "2f8b9c8ea5c813bb6dd8f09bc43b4384575c4a0280507dda46bc2be04df6d7d9"
+    }
+  ],
+  "visual_review": {
+    "reviewed": [
+      "source-render/damage-red-edge.png",
+      "source-render/bayonet-original-face.png",
+      "release-render/damage-red-edge.png",
+      "release-render/damage-cleared.png",
+      "release-render/bayonet-original-face.png"
+    ],
+    "conclusion": "Soft red edge flash clears; original guard face, helmet circle, moustache and grapple remain."
+  }
+}

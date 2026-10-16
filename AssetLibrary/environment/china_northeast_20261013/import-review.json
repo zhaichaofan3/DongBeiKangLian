@@ -1,0 +1,123 @@
+[
+  {
+    "id": "pagoda_red",
+    "imported_mesh_objects": 1,
+    "dimensions_source_units": [
+      26.41153907775879,
+      26.41153907775879,
+      55.50045394897461
+    ],
+    "missing_images": [],
+    "preview": "previews/pagoda_red.png"
+  },
+  {
+    "id": "pagoda_hall",
+    "imported_mesh_objects": 285,
+    "dimensions_source_units": [
+      8541.8515625,
+      8605.4287109375,
+      10906.388671875
+    ],
+    "missing_images": [],
+    "preview": "previews/pagoda_hall.png"
+  },
+  {
+    "id": "pagoda_tower",
+    "imported_mesh_objects": 1,
+    "dimensions_source_units": [
+      15.960570335388184,
+      14.634300231933594,
+      16.344791412353516
+    ],
+    "missing_images": [],
+    "preview": "previews/pagoda_tower.png"
+  },
+  {
+    "id": "warehouse",
+    "imported_mesh_objects": 2,
+    "dimensions_source_units": [
+      60.5321159362793,
+      102.56498718261719,
+      49.500030517578125
+    ],
+    "missing_images": [],
+    "preview": "previews/warehouse.png"
+  },
+  {
+    "id": "log_cabin_scene",
+    "imported_mesh_objects": 4,
+    "dimensions_source_units": [
+      2000.0,
+      2000.890869140625,
+      839.6500244140625
+    ],
+    "missing_images": [],
+    "preview": "previews/log_cabin_scene.png"
+  },
+  {
+    "id": "village_market",
+    "imported_mesh_objects": 1,
+    "dimensions_source_units": [
+      1.8907968997955322,
+      2.1084136962890625,
+      0.552578330039978
+    ],
+    "missing_images": [],
+    "preview": "previews/village_market.png"
+  },
+  {
+    "id": "market_stalls",
+    "imported_mesh_objects": 1,
+    "dimensions_source_units": [
+      1.9329653978347778,
+      1.9854614734649658,
+      0.6571075916290283
+    ],
+    "missing_images": [],
+    "preview": "previews/market_stalls.png"
+  },
+  {
+    "id": "modular_factory_facade",
+    "imported_mesh_objects": 192,
+    "dimensions_source_units": [
+      53.32999801635742,
+      5.356249809265137,
+      29.0
+    ],
+    "missing_images": [],
+    "preview": "previews/modular_factory_facade.png"
+  },
+  {
+    "id": "chinese_screen_panels",
+    "imported_mesh_objects": 2,
+    "dimensions_source_units": [
+      1.2939677238464355,
+      0.376891165971756,
+      1.6031262874603271
+    ],
+    "missing_images": [],
+    "preview": "previews/chinese_screen_panels.png"
+  },
+  {
+    "id": "chinese_tea_table",
+    "imported_mesh_objects": 1,
+    "dimensions_source_units": [
+      0.8413149118423462,
+      0.8356219530105591,
+      0.4986410439014435
+    ],
+    "missing_images": [],
+    "preview": "previews/chinese_tea_table.png"
+  },
+  {
+    "id": "wicker_basket_01",
+    "imported_mesh_objects": 1,
+    "dimensions_source_units": [
+      0.3832242488861084,
+      0.29501521587371826,
+      0.1174229308962822
+    ],
+    "missing_images": [],
+    "preview": "previews/wicker_basket_01.png"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "reproduced": [
+    "Legacy forehead bandage floated across Lu Shan's new winter cap and eyes.",
+    "Legacy relaxed hand meshes did not match the supplied winter soldier's glove shape."
+  ],
+  "correction": [
+    "Removed the incompatible forehead wrap while keeping the leg bandage.",
+    "Adapted supplied textured glove geometry with relaxed and rifle-gripping variants.",
+    "Selected gripping hands by behavior as well as appearance; opening office walking retains relaxed hands."
+  ],
+  "verification_adjustment": "The first new palm proportion check used posed world axes and rejected the rotated injured hand. It now measures the actual neutral skin geometry; deformed poses and screenshots are checked separately.",
+  "failed_log": "character-first-failed.log",
+  "prior_report": "The previous revision's passing broad bounds and nearest-cuff checks did not establish close-up head and hand appearance. New close-up captures and targeted checks cover these omissions."
+}

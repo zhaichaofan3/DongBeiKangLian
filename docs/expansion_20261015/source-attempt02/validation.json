@@ -1,0 +1,29 @@
+{
+	"captures": [],
+	"checks": 32,
+	"failures": [
+		"Supplied river channel uses animated game water",
+		"Supplied pier and boat present at both banks",
+		"Legacy ferry victory saves migrate to a completed departure",
+		"Departure starts the ferry transition",
+		"Ferry arrives in the playable village and restores control",
+		"Village starts with twelve enemies",
+		"Jiang Lan joins combat while Lu Shan rests with the roster",
+		"Closed first courtyard gate blocks route to the next encounter",
+		"Companion fires at a visible village enemy",
+		"Village checkpoint validates all actor and encounter states",
+		"Village checkpoint restores chapter, ally and enemies",
+		"Village encounter 0 clears in order",
+		"Village gate 0 opens after clearing its encounter",
+		"Gate checkpoint remains loadable",
+		"Village encounter 1 clears in order",
+		"Village gate 1 opens after clearing its encounter",
+		"Gate checkpoint remains loadable",
+		"Village encounter 2 clears in order",
+		"Final rendezvous wins only after all twelve village enemies are defeated",
+		"Final village victory is saved",
+		"Completed village restores its victory state"
+	],
+	"passed": false,
+	"renderer": "headless"
+}

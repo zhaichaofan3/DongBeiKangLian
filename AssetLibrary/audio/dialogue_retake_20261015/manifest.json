@@ -1,0 +1,54 @@
+{
+  "source": "user_later_downloads_replacement",
+  "originals": [
+    {
+      "cue_id": "B5-L06",
+      "text": "绕电报房北侧，到渡口。你掩护，他解缆。",
+      "source_path": "C:\\Users\\Administrator\\Downloads\\绕电报房北侧，到渡⼝。你掩护，他解缆。.mp3",
+      "archive": "AssetLibrary/audio/dialogue_retake_20261015/B5-L06.mp3",
+      "sha256": "f2c250b80256b4ceb46a63c5f1e7cb6e346129dfd4c95fa2b193ae2a66406642",
+      "previous_selection": {
+        "path": "res://assets/audio/user_dialogue_20261015/B5-L06.mp3",
+        "sha256": "bd8dc1f2778caa27de73d35629eff700fc24400f5fbda907bb6580a2e86ad032",
+        "duration_seconds": 5.064
+      },
+      "duration_seconds": 5.376,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "peak_dbfs": -3.5626093820558014,
+      "rms_dbfs": -24.85468807555103,
+      "decode": "complete_pcm_decode_passed",
+      "processing": "none_exact_mp3_copy"
+    },
+    {
+      "cue_id": "B6-L01",
+      "text": "先去木棚，林师傅能帮你。我守住回山的路。",
+      "source_path": "C:\\Users\\Administrator\\Downloads\\先去⽊棚，林师傅能帮你。我守住回⼭的路。.mp3",
+      "archive": "AssetLibrary/audio/dialogue_retake_20261015/B6-L01.mp3",
+      "sha256": "e29461abba96af373822d2f88230287d1c64166ff9a1ec3a1327ffb3ef85ab12",
+      "previous_selection": {
+        "path": "res://assets/audio/user_dialogue_20261015/B6-L01.mp3",
+        "sha256": "1799d1b8bb96af435d167c60f1f9b9b317ee071dce1204eafe0bdf71a3eb4e32",
+        "duration_seconds": 4.896
+      },
+      "duration_seconds": 5.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "peak_dbfs": -4.792179901100984,
+      "rms_dbfs": -23.955485769625962,
+      "decode": "complete_pcm_decode_passed",
+      "processing": "none_exact_mp3_copy"
+    }
+  ],
+  "previous_originals": "AssetLibrary/audio/dialogue_20261015/manifest.json"
+}

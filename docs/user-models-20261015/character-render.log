@@ -1,0 +1,65 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: scout uses the imported skin, not the fallback model
+PASS: scout instantiates the correct supplied model or preserved civilian
+PASS: scout has every animated body joint
+PASS: scout has valid skin weights and bone bindings
+PASS: scout shows its correct clothing, headgear and injury equipment
+PASS: scout sleeves meet both wrist openings
+PASS: scout has human scale without exploded vertices
+PASS: scout standing footwear stays near the floor
+PASS: logger uses the imported skin, not the fallback model
+PASS: logger instantiates the correct supplied model or preserved civilian
+PASS: logger has every animated body joint
+PASS: logger has valid skin weights and bone bindings
+PASS: logger shows its correct clothing, headgear and injury equipment
+PASS: logger has human scale without exploded vertices
+PASS: logger standing footwear stays near the floor
+PASS: wounded uses the imported skin, not the fallback model
+PASS: wounded instantiates the correct supplied model or preserved civilian
+PASS: wounded has every animated body joint
+PASS: wounded has valid skin weights and bone bindings
+PASS: wounded shows its correct clothing, headgear and injury equipment
+PASS: wounded sleeves meet both wrist openings
+PASS: wounded has human scale without exploded vertices
+PASS: wounded standing footwear stays near the floor
+PASS: guard uses the imported skin, not the fallback model
+PASS: guard instantiates the correct supplied model or preserved civilian
+PASS: guard has every animated body joint
+PASS: guard has valid skin weights and bone bindings
+PASS: guard shows its correct clothing, headgear and injury equipment
+PASS: guard sleeves meet both wrist openings
+PASS: guard has human scale without exploded vertices
+PASS: guard standing footwear stays near the floor
+PASS: Character image saved: lineup
+PASS: Character image saved: scout_front
+PASS: Character image saved: scout_face
+PASS: Character image saved: logger_front
+PASS: Character image saved: logger_face
+PASS: Character image saved: wounded_front
+PASS: Character image saved: wounded_face
+PASS: Character image saved: guard_front
+PASS: Character image saved: guard_face
+PASS: Walking drives imported legs, arms and torso
+PASS: Walking keeps sleeves attached to both wrists
+PASS: Walking skin stays finite and attached to its rig
+PASS: Walking stance remains at ground level
+PASS: Character image saved: walking
+PASS: Aiming drives imported shoulder and elbow bones
+PASS: Guard retains a visible rifle during aiming
+PASS: Aiming keeps sleeves attached to both wrists
+PASS: Skinned palms stay within 5.5 cm of both rifle grips while lowered and aiming
+RIFLE GRIP ERROR (m): lowered=0.00003151738929, aiming=0.00000025386697
+PASS: Firing recoil reaches the imported body rig
+PASS: Character image saved: guard_aim
+PASS: Character image saved: wounded_untreated
+PASS: Treating Lu Shan changes his imported injury posture
+PASS: Treatment transition keeps clothing and bandages attached
+PASS: Character image saved: wounded_treated
+PASS: Death lowers the imported head and torso onto the ground
+PASS: Fallen skin remains finite with a horizontal silhouette
+PASS: Fallen character has no substantial underground geometry
+PASS: Death releases prior aiming twists into a consistent relaxed arm pose
+PASS: Character image saved: guard_fallen
+CHARACTER MODEL RESULT: 60/60 passed

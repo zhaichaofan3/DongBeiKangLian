@@ -1,0 +1,173 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "label": "New opening begins with A",
+      "passed": true
+    },
+    {
+      "label": "A entry is a valid restorable save",
+      "passed": true
+    },
+    {
+      "label": "Fixed opening words appear unaltered",
+      "passed": true
+    },
+    {
+      "label": "Pause freezes timeline and camera",
+      "passed": true
+    },
+    {
+      "label": "Pause freezes opening environment audio",
+      "passed": true
+    },
+    {
+      "label": "Settings/continue return to the same opening",
+      "passed": true
+    },
+    {
+      "label": "N13 continues across cut without new playback scheduling",
+      "passed": true
+    },
+    {
+      "label": "Last subtitle survives A6 before title",
+      "passed": true
+    },
+    {
+      "label": "Title follows subtitle clearance",
+      "passed": true
+    },
+    {
+      "label": "Cinematic shots do not change gameplay resources or position",
+      "passed": true
+    },
+    {
+      "label": "Cinematic shots do not change story or gates",
+      "passed": true
+    },
+    {
+      "label": "All 33 shots are reached by continuous clock playback",
+      "passed": true
+    },
+    {
+      "label": "All 15 narration and 14 dialogue cues are reached",
+      "passed": true
+    },
+    {
+      "label": "Full A/B playback commits gameplay once",
+      "passed": true
+    },
+    {
+      "label": "Full playback: briefing complete, task actions untouched",
+      "passed": true
+    },
+    {
+      "label": "Full playback: camera and position align",
+      "passed": true
+    },
+    {
+      "label": "Full playback: guards, gates and ammunition unchanged",
+      "passed": true
+    },
+    {
+      "label": "Repeated finish cannot duplicate the mission",
+      "passed": true
+    },
+    {
+      "label": "Skipping A starts B, not gameplay",
+      "passed": true
+    },
+    {
+      "label": "B boundary has a valid restorable save",
+      "passed": true
+    },
+    {
+      "label": "Stale/double skip cannot skip the new part",
+      "passed": true
+    },
+    {
+      "label": "Skip A and B: briefing complete, task actions untouched",
+      "passed": true
+    },
+    {
+      "label": "Skip A and B: camera and position align",
+      "passed": true
+    },
+    {
+      "label": "Skip A and B: guards, gates and ammunition unchanged",
+      "passed": true
+    },
+    {
+      "label": "Skip and full playback produce the same mission state",
+      "passed": true
+    },
+    {
+      "label": "Watch A then skip B: briefing complete, task actions untouched",
+      "passed": true
+    },
+    {
+      "label": "Watch A then skip B: camera and position align",
+      "passed": true
+    },
+    {
+      "label": "Watch A then skip B: guards, gates and ammunition unchanged",
+      "passed": true
+    },
+    {
+      "label": "Travel time/place card is separate from spoken dialogue",
+      "passed": true
+    },
+    {
+      "label": "Skip A then watch remaining B: briefing complete, task actions untouched",
+      "passed": true
+    },
+    {
+      "label": "Skip A then watch remaining B: camera and position align",
+      "passed": true
+    },
+    {
+      "label": "Skip A then watch remaining B: guards, gates and ammunition unchanged",
+      "passed": true
+    },
+    {
+      "label": "History save resumes at A1",
+      "passed": true
+    },
+    {
+      "label": "Task save resumes at B1",
+      "passed": true
+    },
+    {
+      "label": "Gameplay save does not replay B or reset progress",
+      "passed": true
+    },
+    {
+      "label": "Legacy gameplay save retains its original briefing state",
+      "passed": true
+    },
+    {
+      "label": "Unknown opening state is rejected visibly, not treated as complete",
+      "passed": true
+    },
+    {
+      "label": "Invalid save remains available for diagnosis",
+      "passed": true
+    },
+    {
+      "label": "Failed handoff save leaves a visible retry state",
+      "passed": true
+    },
+    {
+      "label": "Failed write preserves previous successful save",
+      "passed": true
+    },
+    {
+      "label": "Retry saves the prepared gameplay state",
+      "passed": true
+    }
+  ],
+  "passed": 41,
+  "scope": "runtime clock/state and optional rendered frame captures; no final animation or voiceover claim",
+  "step": "S07",
+  "total": 41
+}

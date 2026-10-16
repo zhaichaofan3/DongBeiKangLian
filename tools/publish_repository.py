@@ -1,0 +1,126 @@
+"""Authenticated GitHub operations; credentials never leave this process."""
+import argparse
+import hashlib
+import http.client
+import json
+import subprocess
+import urllib.error
+import urllib.parse
+import urllib.request
+import zipfile
+from pathlib import Path
+
+REPOSITORY = "zhaichaofan3/DongBeiKangLian"
+ROOT = Path(__file__).resolve().parents[1]
+REPORT = ROOT / 'docs/maintenance/repository-20261016'
+TAG = 'v0.7.0-rc1'
+
+
+def github_token():
+    result = subprocess.run(["git", "credential", "fill"], input="protocol=https\nhost=github.com\n\n",
+                            text=True, capture_output=True, check=True)
+    fields = dict(line.split("=", 1) for line in result.stdout.splitlines() if "=" in line)
+    return fields["password"]
+
+
+def api(path, method="GET", data=None):
+    body = json.dumps(data).encode() if data is not None else None
+    request = urllib.request.Request("https://api.github.com" + path, data=body, method=method,
+        headers={"Authorization": "Bearer " + github_token(), "User-Agent": "DongBeiKangLian-maintenance",
+                 "Accept": "application/vnd.github+json", "Content-Type": "application/json"})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        body = response.read()
+        return json.loads(body) if body else None
+
+
+def inspect():
+    repository = api("/repos/" + REPOSITORY)
+    user = api("/user")
+    print(json.dumps({"repository": repository["full_name"], "private": repository["private"],
+        "default_branch": repository["default_branch"], "size_KiB": repository["size"],
+        "authenticated_as": user["login"], "user_id": user["id"],
+        "can_push": repository.get("permissions", {}).get("push", False)}, ensure_ascii=False))
+
+
+def package():
+    output = ROOT / '.publish'
+    output.mkdir(exist_ok=True)
+    archive = output / 'FenghuoEcho-0.7.0-rc1-Windows-x64.zip'
+    with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=3, allowZip64=True) as target:
+        for source in sorted((ROOT / 'Release').rglob('*')):
+            if source.is_file() and 'Validation' not in source.relative_to(ROOT / 'Release').parts:
+                target.write(source, Path('FenghuoEcho') / source.relative_to(ROOT / 'Release'))
+    with archive.open('rb') as source:
+        digest = hashlib.file_digest(source, 'sha256').hexdigest()
+    checksum = output / (archive.name + '.sha256')
+    checksum.write_text(digest + '  ' + archive.name + '\n', encoding='ascii')
+    result = dict(path=archive.relative_to(ROOT).as_posix(), bytes=archive.stat().st_size, sha256=digest)
+    (REPORT / 'release-archive.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(result), flush=True)
+
+
+def upload_asset(release, path):
+    existing = next((item for item in release.get('assets', []) if item['name'] == path.name), None)
+    if existing and existing.get('state') == 'uploaded' and existing['size'] == path.stat().st_size:
+        return existing
+    if existing:
+        api('/repos/' + REPOSITORY + '/releases/assets/' + str(existing['id']), method='DELETE')
+    url = urllib.parse.urlsplit(release['upload_url'].split('{')[0] + '?name=' + urllib.parse.quote(path.name))
+    connection = http.client.HTTPSConnection(url.hostname, timeout=180)
+    try:
+        connection.putrequest('POST', url.path + '?' + url.query)
+        connection.putheader('Authorization', 'Bearer ' + github_token())
+        connection.putheader('User-Agent', 'DongBeiKangLian-maintenance')
+        connection.putheader('Content-Type', 'application/octet-stream')
+        connection.putheader('Content-Length', str(path.stat().st_size))
+        connection.endheaders()
+        sent, reported = 0, 0
+        with path.open('rb') as source:
+            while chunk := source.read(8 * 1024**2):
+                connection.send(chunk)
+                sent += len(chunk)
+                if sent - reported >= 64 * 1024**2:
+                    print(json.dumps(dict(upload=path.name, MiB_sent=sent // 1024**2)), flush=True)
+                    reported = sent
+        response = connection.getresponse()
+        body = response.read()
+        if response.status != 201:
+            raise RuntimeError('Release asset upload failed: HTTP ' + str(response.status))
+        return json.loads(body)
+    finally:
+        connection.close()
+
+
+def release():
+    commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+    try:
+        item = api('/repos/' + REPOSITORY + '/releases/tags/' + TAG)
+    except urllib.error.HTTPError as error:
+        if error.code != 404:
+            raise
+        item = api('/repos/' + REPOSITORY + '/releases', method='POST', data=dict(
+            tag_name=TAG, target_commitish=commit, name='0.7.0-rc1 · 林海归途试玩候选版',
+            draft=True, prerelease=True,
+            body='Windows离线试玩候选版。双人渡河、密林入村与完整松岭屯三段战斗。\n\n'
+                 '解压Windows-x64.zip后运行FenghuoEcho.exe，保留同目录全部文件。\n\n'
+                 '新增部分对白仍为字幕，声音听审、连续美术与真人难度尚待验收。来源和许可随包提供。'))
+    files = sorted((ROOT / '.publish').glob('*.zip*'))
+    if len(files) != 2:
+        raise RuntimeError('Run package first; expected one ZIP and its SHA-256 file')
+    assets = [upload_asset(item, path) for path in files]
+    item = api('/repos/' + REPOSITORY + '/releases/' + str(item['id']), method='PATCH', data=dict(draft=False))
+    result = dict(url=item['html_url'], tag=TAG, target_commit=commit,
+                  assets=[dict(name=a['name'], bytes=a['size'], url=a['browser_download_url'], digest=a.get('digest')) for a in assets])
+    (REPORT / 'github-release.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(result, ensure_ascii=False), flush=True)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("command", choices=["inspect", "package", "release"])
+    args = parser.parse_args()
+    try:
+        globals()[args.command]()
+    except urllib.error.HTTPError as error:
+        print(json.dumps({"error": "GitHub API request failed", "status": error.code}))
+        raise SystemExit(1)

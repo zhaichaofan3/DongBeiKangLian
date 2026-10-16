@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <rect width="960" height="560" fill="#1e2b30"/>
+  <text x="28" y="38" fill="#e8eee8" font-family="sans-serif" font-size="24">S22 天池谈话岩台与路线（Godot 开场坐标，俯视示意）</text>
+  <text x="28" y="66" fill="#aebdb5" font-family="sans-serif" font-size="15">绿色：到达；橙色：离开；蓝色：湖面安全边界；黑色：站立岩台</text>
+  <!-- world x 470..575 -> screen 80..920; world z 50..210 -> screen 480..80 -->
+  <circle cx="830" cy="306" r="214" fill="#123f51" stroke="#3c91a8" stroke-width="3" opacity=".9"/>
+  <circle cx="830" cy="306" r="236" fill="none" stroke="#65b4c4" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="745" y="312" fill="#bde7ef" font-family="sans-serif" font-size="18">深蓝湖面</text>
+  <text x="680" y="93" fill="#8fcbd8" font-family="sans-serif" font-size="14">55 m 安全边界</text>
+  <rect x="310" y="242" width="112" height="66" rx="12" fill="#26201a" stroke="#ddc59c" stroke-width="4"/>
+  <text x="327" y="273" fill="#f4e6c5" font-family="sans-serif" font-size="16">谈话岩台</text>
+  <text x="330" y="294" fill="#cbb99a" font-family="sans-serif" font-size="13">平台顶 26 m</text>
+  <polyline points="192,106 216,145 256,195 296,230 366,275" fill="none" stroke="#72d69a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="366,275 302,309 214,359 278,424 454,484" fill="none" stroke="#f3a557" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#dcefe4" stroke="#173a2a" stroke-width="2">
+    <circle cx="192" cy="106" r="8"/><circle cx="216" cy="145" r="8"/><circle cx="256" cy="195" r="8"/><circle cx="296" cy="230" r="8"/><circle cx="366" cy="275" r="8"/>
+  </g>
+  <g fill="#ffe0b3" stroke="#4b2a0e" stroke-width="2">
+    <circle cx="366" cy="275" r="8"/><circle cx="302" cy="309" r="8"/><circle cx="214" cy="359" r="8"/><circle cx="278" cy="424" r="8"/><circle cx="454" cy="484" r="8"/>
+  </g>
+  <text x="148" y="95" fill="#bce9c9" font-family="sans-serif" font-size="15">到达起点</text>
+  <text x="465" y="496" fill="#ffd8a0" font-family="sans-serif" font-size="15">离开方向</text>
+  <text x="430" y="260" fill="#f4e6c5" font-family="sans-serif" font-size="14">沈砚 / 姜岚</text>
+  <path d="M360 219 l12 12 -17 2 z" fill="#72d69a"/>
+  <path d="M280 332 l-12 -12 17 -2 z" fill="#f3a557"/>
+</svg>

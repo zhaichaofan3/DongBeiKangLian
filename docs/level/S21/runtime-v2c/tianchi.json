@@ -1,0 +1,91 @@
+{
+  "all_passed": false,
+  "bounds": {
+    "position": [
+      -166.874130249023,
+      -8.0,
+      -167.592651367188
+    ],
+    "size": [
+      347.72998046875,
+      44.4065399169922,
+      344.373352050781
+    ]
+  },
+  "checks": [
+    {
+      "description": "Artistic Tianchi GLB loads in Godot",
+      "passed": true
+    },
+    {
+      "description": "Imported model retains four connected crater sectors, lake and platform",
+      "passed": true
+    },
+    {
+      "description": "Crater composition preserves large readable scale",
+      "passed": true
+    },
+    {
+      "description": "Lake is at 0.4m and continuous ridges rise above 28m",
+      "passed": true
+    },
+    {
+      "description": "Export preserves visual material slots",
+      "passed": true
+    },
+    {
+      "description": "S21 visual model has no gameplay collision before S22",
+      "passed": true
+    },
+    {
+      "description": "704 vertical samples across lake, shore, inner wall and outer slopes find a visible surface",
+      "passed": false
+    }
+  ],
+  "meshes": 6,
+  "method": "Godot import, actual materials, water height, bounds, original collision absence and temporary mesh raycasts across shoreline.",
+  "missing_surfaces": [
+    [
+      19,
+      120.0
+    ],
+    [
+      22,
+      80.0
+    ],
+    [
+      22,
+      156.0
+    ],
+    [
+      52,
+      80.0
+    ],
+    [
+      53,
+      60.0
+    ],
+    [
+      54,
+      60.0
+    ],
+    [
+      55,
+      120.0
+    ],
+    [
+      56,
+      68.0
+    ],
+    [
+      58,
+      80.0
+    ],
+    [
+      59,
+      120.0
+    ]
+  ],
+  "step": "S21",
+  "surface_samples": 704
+}

@@ -1,0 +1,7 @@
+Title: Inventory Sound Effects
+Author: artisticdude
+License: CC-BY-3.0
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://opengameart.org/content/inventory-sound-effects
+Evidence: source.html and source.txt
+Notes: Multiple alternative licenses offered; selected CC-BY 3.0. Six material/object interaction cues.

@@ -1,0 +1,14 @@
+[
+  {
+    "TimeCreated": "2026-10-15T21:30:00.0966477+08:00",
+    "Id": 1001,
+    "ProviderName": "Windows Error Reporting",
+    "Message": "Fault bucket 1988878044672960797, type 4\r\nEvent Name: APPCRASH\r\nResponse: Not available\r\nCab Id: 0\r\n\r\nProblem signature:\r\nP1: Godot_v4.7.2-stable_win64.exe\r\nP2: 4.7.2.0\r\nP3: 6a826550\r\nP4: Godot_v4.7.2-stable_win64.exe\r\nP5: 4.7.2.0\r\nP6: 6a826550\r\nP7: c0000005\r\nP8: 00000000031d6c57\r\nP9: \r\nP10: \r\n\r\nAttached files:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.6f4e4c49-359b-4d9c-b2e8-8af170209bdd.tmp.dmp\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.19d5f916-5911-4bdd-bd08-cf13d6692570.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9c7c8b56-18d8-4f47-a956-d32f2a202cd8.tmp.csv\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.bd63f4fd-628d-4102-ac6d-25aadfca7929.tmp.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.929cc1f1-a76b-4087-b17d-91aa10b5a2d7.tmp.xml\r\n\r\nThese files may be available here:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_Godot_v4.7.2-sta_e0e78779fbe2b6ef6d4f506b91794266fbaa882f_c38cbb91_74ea90ff-def9-49e6-b16e-f33b84b0d55c\r\n\r\nAnalysis symbol: \r\nRechecking for solution: 0\r\nReport Id: a4f8e114-1147-474e-ba40-4bbc8c8dc32b\r\nReport Status: 268435456\r\nHashed bucket: fee823398ae4c6867b99ea0b4a4e291d\r\nCab Guid: 0"
+  },
+  {
+    "TimeCreated": "2026-10-15T21:29:56.8691964+08:00",
+    "Id": 1000,
+    "ProviderName": "Application Error",
+    "Message": "Faulting application name: Godot_v4.7.2-stable_win64.exe, version: 4.7.2.0, time stamp: 0x6a826550\r\nFaulting module name: Godot_v4.7.2-stable_win64.exe, version: 4.7.2.0, time stamp: 0x6a826550\r\nException code: 0xc0000005\r\nFault offset: 0x00000000031d6c57\r\nFaulting process id: 0x4BB4\r\nFaulting application start time: 0x1DD5CA935B1D63F\r\nFaulting application path: C:\\GameMake\\tools\\Godot-4.7.2\\Godot_v4.7.2-stable_win64.exe\r\nFaulting module path: C:\\GameMake\\tools\\Godot-4.7.2\\Godot_v4.7.2-stable_win64.exe\r\nReport Id: a4f8e114-1147-474e-ba40-4bbc8c8dc32b\r\nFaulting package full name: \r\nFaulting package-relative application ID: "
+  }
+]

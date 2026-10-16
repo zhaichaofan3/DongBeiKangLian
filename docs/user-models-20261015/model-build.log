@@ -1,0 +1,50 @@
+SOURCE_ARM_LANDMARKS japanese {0: {'shoulder': [-0.21199999749660492, 1.3600000143051147, 0.0], 'elbow': [-0.30480173230171204, 1.2338204383850098, 0.014038879424333572], 'wrist': [-0.383220911026001, 1.127196192741394, 0.02590199187397957]}, 1: {'shoulder': [0.21199999749660492, 1.3600000143051147, 0.0], 'elbow': [0.30480173230171204, 1.2338204383850098, 0.014038510620594025], 'wrist': [0.383220911026001, 1.127196192741394, 0.0259013120085001]}}
+Info: Saved as "japanese.blend"
+INFO Draco mesh compression is available, use library at C:\GameMake\tools\blender-4.5.14-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+17:25:59 | INFO: Starting glTF 2.0 export
+17:25:59 | INFO: Extracting primitive: Clothing
+17:25:59 | INFO: Primitives created: 2
+17:25:59 | INFO: Extracting primitive: Face
+17:25:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+17:25:59 | INFO: Primitives created: 4
+17:25:59 | INFO: Extracting primitive: Sphere.005_Retopology.005
+17:25:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+17:25:59 | INFO: Primitives created: 1
+17:25:59 | INFO: Extracting primitive: GuardHelmetMark
+17:25:59 | INFO: Primitives created: 1
+17:25:59 | INFO: Extracting primitive: GuardMoustache
+17:25:59 | INFO: Primitives created: 1
+17:25:59 | INFO: Extracting primitive: Sphere.005_Retopology.002
+17:25:59 | INFO: Primitives created: 1
+17:25:59 | INFO: Extracting primitive: Helmet
+17:25:59 | INFO: Primitives created: 2
+17:25:59 | INFO: Finished glTF 2.0 export in 0.5521252155303955 s
+
+USER_SOLDIER_BUILT {"role": "japanese", "source": "japanese/3d66.com_22426855.max", "game_model": "GodotProject/assets/characters/user_soldiers/japanese.glb", "sha256": "975d31ae518aae796aef75d2451a19a8afc7a04b495585201bad1d51dafd7784", "bones": 13, "parts": [{"name": "Face", "triangles": 2735, "vertices": 1516}, {"name": "Helmet", "triangles": 734, "vertices": 432}, {"name": "Clothing", "triangles": 5877, "vertices": 3168}, {"name": "Hands", "triangles": 3362, "vertices": 2194}, {"name": "GuardHands", "triangles": 3362, "vertices": 2194}, {"name": "GuardHelmetMark", "triangles": 128, "vertices": 128}, {"name": "GuardMoustache", "triangles": 320, "vertices": 210}], "adaptation": "MAX geometry and UVs; normalized and reposed to the existing 13-bone game rig. Existing third-person hand contact meshes retained. First-person hands untouched.", "triangles": 16518}
+SOURCE_ARM_LANDMARKS volunteer {0: {'shoulder': [-0.21199999749660492, 1.399999976158142, 0.0], 'elbow': [-0.3420948386192322, 1.25813627243042, -0.0761774405837059], 'wrist': [-0.4520273804664612, 1.138258934020996, -0.14054878056049347]}, 1: {'shoulder': [0.21199999749660492, 1.399999976158142, 0.0], 'elbow': [0.2876725494861603, 1.2531694173812866, -0.15506915748119354], 'wrist': [0.3516172468662262, 1.1290948390960693, -0.2861054539680481]}}
+Info: Saved as "volunteer.blend"
+17:26:01 | INFO: Starting glTF 2.0 export
+17:26:01 | INFO: Extracting primitive: ForeheadWrap
+17:26:01 | INFO: Primitives created: 2
+17:26:01 | INFO: Extracting primitive: Cap
+17:26:01 | INFO: Primitives created: 1
+17:26:01 | INFO: Extracting primitive: Clothing
+17:26:01 | INFO: Primitives created: 7
+17:26:01 | INFO: Extracting primitive: Face
+17:26:01 | INFO: Primitives created: 1
+17:26:01 | INFO: Extracting primitive: FriendlyCapStar
+17:26:01 | INFO: Primitives created: 1
+17:26:01 | INFO: Extracting primitive: Sphere.005_Retopology.005
+17:26:01 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:26:01 | INFO: Primitives created: 1
+17:26:01 | INFO: Extracting primitive: Sphere.005_Retopology.002
+17:26:01 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:26:01 | INFO: Primitives created: 1
+17:26:01 | INFO: Finished glTF 2.0 export in 0.3366725444793701 s
+
+USER_SOLDIER_BUILT {"role": "volunteer", "source": "volunteer/3d66.com_17309872.max", "game_model": "GodotProject/assets/characters/user_soldiers/volunteer.glb", "sha256": "f996372b6505cab610bf3b736a28e4112cae96a15255c3c6e3b783eb990a9d3f", "bones": 13, "parts": [{"name": "Clothing", "triangles": 15107, "vertices": 7781}, {"name": "Face", "triangles": 20534, "vertices": 10456}, {"name": "Cap", "triangles": 1994, "vertices": 1062}, {"name": "Hands", "triangles": 3362, "vertices": 2194}, {"name": "GuardHands", "triangles": 3362, "vertices": 2194}, {"name": "Bandage", "triangles": 872, "vertices": 448}, {"name": "FriendlyCapStar", "triangles": 10, "vertices": 11}], "adaptation": "MAX geometry and UVs; normalized and reposed to the existing 13-bone game rig. Existing third-person hand contact meshes retained. First-person hands untouched.", "triangles": 45241}
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\docs\user-models-20261015\japanese\raw-import.blend"
+Read blend: "C:\GameMake\docs\user-models-20261015\volunteer\raw-import.blend"
+
+Blender quit

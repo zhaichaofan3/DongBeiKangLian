@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Menu starts one global music stream
+PASS: Music defaults to 22 percent and loops
+PASS: Entire user background recording is available
+PASS: Settings exposes a background music slider
+PASS: Music zero mutes only the music bus
+PASS: Restoring music leaves master and narration unchanged
+PASS: Music preference survives config reload
+PASS: A starts the supplied full recording with zero global music streams
+PASS: History duration covers the full audio without cutting its tail
+PASS: Subtitle changes never replay synthetic A narration
+PASS: Pausing A pauses the complete recording
+PASS: Pause preserves camera and subtitle time
+PASS: Resuming A keeps global music silent
+PASS: One building shot carries added narration at 54.0s
+PASS: One building shot carries added narration at 60.5s
+PASS: One building shot carries added narration at 65.0s
+PASS: Building camera movement is continuous between frames
+PASS: Title appears on the same panorama after the final words
+PASS: Skipping A stops the mixed recording and restores one global score
+PASS: B dialogue automatically lowers global background music
+PASS: Pausing B immediately pauses music and dialogue
+PASS: Leaving paused B releases narration and resumes one menu score
+PASS: Direct gameplay starts one global score
+PASS: Natural A completion restores B music and retires history audio
+PASS: Gameplay handoff preserves one music stream
+PASS: Checkpoint load restores one music stream
+USER AUDIO: PASS | checks=26

@@ -1,0 +1,277 @@
+{
+	"encounter": true,
+	"linear": true,
+	"snapshot": {
+		"defeated": {
+			"village_0": true,
+			"village_1": true,
+			"village_2": true,
+			"village_3": true
+		},
+		"elapsed": 0.0,
+		"encounter": {
+			"active": {
+				"village_10": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				},
+				"village_11": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				},
+				"village_4": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				},
+				"village_5": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				},
+				"village_6": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				},
+				"village_7": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				},
+				"village_8": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				},
+				"village_9": {
+					"fire_wait": 1.2,
+					"health": 75.0,
+					"last_seen": [
+						0,
+						0,
+						0
+					],
+					"memory": 0.0,
+					"patrol": [
+						1048,
+						0.08,
+						77
+					],
+					"position": [
+						1048,
+						0.08,
+						80
+					],
+					"shots": 0,
+					"state": "patrol",
+					"yaw": 0.0
+				}
+			},
+			"expanded": true,
+			"hold_next": 0,
+			"hold_wait": 0.0,
+			"next": 0,
+			"revision": 2,
+			"wait": 0.0
+		},
+		"kills": 4,
+		"linear": {
+			"contact_started": false,
+			"enabled": true,
+			"extraction_remaining": 30.0,
+			"extraction_started": false,
+			"opened": [
+				"checkpoint",
+				"yard",
+				"river"
+			],
+			"version": 2
+		},
+		"map_revision": 3,
+		"opening": {
+			"phase": "gameplay",
+			"version": 1
+		},
+		"player": {
+			"health": 100.0,
+			"magazines": [
+				5,
+				10
+			],
+			"position": [
+				1048,
+				0.08,
+				85
+			],
+			"reserves": [
+				70,
+				80
+			],
+			"weapon": 0,
+			"yaw": 0.0
+		},
+		"stage": 3,
+		"story": {
+			"bandages": 2,
+			"briefed": true,
+			"choice": "none",
+			"door": true,
+			"following": false,
+			"letter": false,
+			"lu_position": [
+				1043,
+				0.08,
+				137
+			],
+			"moments_seen": [],
+			"recruited": true,
+			"supply": false,
+			"treated": false
+		},
+		"version": 2,
+		"village": {
+			"ally_position": [
+				1052,
+				0.08,
+				82
+			],
+			"ally_shots": 0,
+			"entered": true,
+			"finished": false,
+			"phase": 1,
+			"version": 1
+		},
+		"yard": false
+	},
+	"story": true,
+	"village": true
+}

@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Default artillery is cosmetic and cannot change actor health
+PASS: Flight lead-in displays a shell without early damage
+PASS: Real blast uses distance falloff and leaves the out-of-radius guard untouched
+PASS: Impact flash, short light and preview explosion audio start together
+PASS: A shell applies damage exactly once across multiple frames
+PASS: Nearby guard receives a hit reaction through its normal damage path
+PASS: Flash clears before the expanding dust and smoke
+PASS: Pause freezes shell time, smoke and explosion audio
+PASS: Completed shells reclaim every transient visual and audio node
+PASS: Solid world collision shields the player from a nearby blast
+PASS: Artillery rejects a seventh active shell instead of scheduling invisible damage
+PASS: Gameplay artillery cannot be requested during cinematic playback
+PASS: Leaving gameplay clears queued shells
+PASS: Restart removes pending artillery
+PASS: Checkpoint restore removes pending artillery
+PASS: A4 samples the authored incoming shell before impact
+PASS: A4 impact uses the same explosion with one timed sound event
+PASS: Nearby cinematic actors react without using gameplay damage
+PASS: Pause reaches an initialized impact audio playback
+PASS: A4 progresses from short flash to flying debris
+FAR PUFF: { "world": (33.22453, 5.68824, 31.83536), "screen": (246.3963, 214.0756), "visible": true, "scale": (2.121328, 2.121328, 2.121328), "color": (0.23, 0.25, 0.24, 0.78), "age": 1.9 }
+PASS: Authored distant fireline pulses inside the history timeline
+PASS: Cinematic barrage leaves player resources, story and combat state unchanged
+PAUSE EVIDENCE: { "age": 1.205, "before": 1.205, "paused": true, "audio_playing": false, "audio_paused": true }
+PASS: Cinematic pause freezes explosion visual and sound together
+PASS: Skipping history stops all artillery before the conversation
+S27 ARTILLERY: PASS | checks=24

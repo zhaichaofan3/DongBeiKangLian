@@ -1,0 +1,28 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: New mission closes every route gate
+PASS: Briefing approach does not activate later combat
+PASS: Closed checkpoint cannot be bypassed through the map
+PASS: Player cannot skip the mission along either map edge
+PASS: First engagement activates only after contact and approach
+PASS: Closed checkpoint physically stops forward movement
+PASS: Interaction sight ray cannot pass through a closed gate
+PASS: Interaction cannot open the checkpoint before its guard is defeated
+PASS: Empty weapons can take emergency rifle rounds without skipping combat
+PASS: Emergency crate does not duplicate ammunition while rounds remain
+PASS: Emergency ammunition and locked gate survive checkpoint restore
+PASS: Defeating checkpoint guard unlocks its local interaction
+PASS: Opening checkpoint also opens navigation
+PASS: Opened checkpoint permits physical movement
+PASS: Timber lane exit blocks all routes into office sector
+PASS: Both timber defenders must be cleared before the lane opens
+PASS: Cleared timber lane opens the next engagement in order
+PASS: Office approach becomes navigable after opening timber exit
+PASS: Gate progress is immediately saved to the isolated checkpoint
+PASS: Checkpoint restores gate visuals, collision state and navigation together
+PASS: River exit cannot be bypassed from the office sector
+PASS: River gate stays closed before power cut and rescue
+PASS: Power cut and rescue unlock the final route
+PASS: Arrival begins a real thirty-second hold instead of instant victory
+PASS: Pause freezes extraction countdown
+PASS: Leaving the river hold area stops its countdown

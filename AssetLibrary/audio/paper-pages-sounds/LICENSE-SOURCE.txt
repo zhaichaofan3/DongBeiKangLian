@@ -1,0 +1,7 @@
+Title: Paper pages sounds
+Author: Vinrax
+License: CC-BY-3.0
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://opengameart.org/content/paper-pages-sounds
+Evidence: source.html and source.txt
+Notes: WAV contains separate takes divided by click; slice and remove separators.

@@ -1,0 +1,190 @@
+{
+  "step": "S03",
+  "scope": "Read-only source excerpts and hashes; no runtime assertions executed",
+  "files": [
+    {
+      "path": "GodotProject/scripts/mission.gd",
+      "sha256": "4f75bec4544f448a6836eb84bb04611478d849a2345541f9881ae7910b068b3a",
+      "bytes": 23162,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "start_new",
+          "line": 150,
+          "source": "func start_new() -> void:\n\tstage = 0\n\telapsed = 0\n\tkills = 0\n\tdefeated.clear()\n\treached_yard = false\n\treinforcement_pending = 0\n\treinforcement_next = 0\n\treinforcement_wait = 0.0\n\texpanded_encounter = true\n\tstory.reset()\n\tlinear.reset()\n\tplayer.restore({\"position\": [START.x, START.y, START.z], \"yaw\": -0.6, \"health\": 100.0, \"magazines\": [5, 10], \"reserves\": [35, 50], \"weapon\": 0})\n\t_reset_guards()\n\tcodebook.visible = true\n\tcodebook.collision_layer = 1\n\tworld.set_power(true)\n\t_save_checkpoint()\n\tresume()\n\tnotify(\"林道前方是侦察员姜岚。靠近后按 E 交谈。J 查看行动记录。\", 7)"
+        },
+        {
+          "function": "resume",
+          "line": 171,
+          "source": "func resume() -> void:\n\tmode = \"playing\"\n\tplayer.model.visible = true\n\tInput.mouse_mode = Input.MOUSE_MODE_CAPTURED"
+        },
+        {
+          "function": "interact",
+          "line": 180,
+          "source": "func interact() -> void:\n\tif mode != \"playing\":\n\t\treturn\n\tif linear.interact():\n\t\treturn\n\tvar at_evac := stage == 2 and can_reach(EVAC, 3.0)\n\tif at_evac and story.ready_to_leave():\n\t\tstory.ending()\n\t\treturn\n\tvar objective_ready: bool = story.met_scout and stage < 2 and can_reach([BOOK, POWER][mini(stage, 1)], 2.3)\n\tif not objective_ready and story.interact():\n\t\treturn\n\tif at_evac:\n\t\tstory.ending()\n\t\treturn\n\tif not story.met_scout or not can_reach([BOOK, POWER, EVAC, EVAC][stage], 2.3):\n\t\treturn\n\tmatch stage:\n\t\t0:\n\t\t\tstage = 1\n\t\t\tcodebook.visible = false\n\t\t\tcodebook.collision_layer = 0\n\t\t\tnotify(\"名册上记着密营联络点。切断总闸，阻止电话中继继续传讯。\", 6)\n\t\t\t_save_checkpoint()\n\t\t1:\n\t\t\tstage = 2\n\t\t\tworld.set_power(false)\n\t\t\treinforcement_pending = REINFORCEMENT_COUNT\n\t\t\treinforcement_next = 0\n\t\t\treinforcement_wait = REINFORCEMENT_FIRST_DELAY\n\t\t\t_save_checkpoint()\n\t\t\tnotify(\"中继电源已切断。接上陆山，绕电报房北侧去渡口！\", 6)"
+        },
+        {
+          "function": "_update_reinforcements",
+          "line": 348,
+          "source": "func _update_reinforcements(delta: float) -> void:\n\tif mode != \"playing\" or stage != 2 or reinforcement_next >= REINFORCEMENT_COUNT:\n\t\treturn\n\tif linear.enabled and \"river\" not in linear.opened:\n\t\treturn\n\treinforcement_wait = maxf(0.0, reinforcement_wait - delta)\n\tif reinforcement_wait > 0.0 or alive_guard_count() >= MAX_ALIVE_GUARDS:\n\t\treturn\n\tvar entry: Vector3 = REINFORCEMENT_ENTRIES[reinforcement_next]\n\tif not _reinforcement_entry_safe(entry):\n\t\treinforcement_wait = 0.5\n\t\treturn\n\tvar guard := _spawn_guard(\"wave_%d\" % reinforcement_next, entry, Vector3(74, 0.08, 30))\n\tif guard == null:\n\t\treturn\n\tguard.hear_shot(Vector3(74, 0.08, 30))\n\treinforcement_next += 1\n\treinforcement_pending = REINFORCEMENT_COUNT - reinforcement_next\n\treinforcement_wait = REINFORCEMENT_WAVE_DELAY if reinforcement_next % 2 == 0 else REINFORCEMENT_INTERVAL\n\tif reinforcement_pending == 0:\n\t\treinforcement_wait = 0.0\n\t_save_checkpoint()"
+        },
+        {
+          "function": "_snapshot",
+          "line": 397,
+          "source": "func _snapshot() -> Dictionary:\n\tvar active: Dictionary = {}\n\tfor guard in guards:\n\t\tif is_instance_valid(guard) and guard.state != \"dead\":\n\t\t\tactive[guard.guard_id] = guard.encounter_snapshot()\n\treturn {\"version\": 2, \"player\": player.snapshot(), \"story\": story.snapshot(), \"stage\": stage, \"defeated\": defeated.duplicate(), \"kills\": kills, \"elapsed\": elapsed, \"yard\": reached_yard,\n\t\t\"linear\": linear.snapshot(), \"encounter\": {\"expanded\": expanded_encounter, \"next\": reinforcement_next, \"wait\": reinforcement_wait, \"active\": active}}"
+        },
+        {
+          "function": "_read_save",
+          "line": 414,
+          "source": "func _read_save() -> Dictionary:\n\tif not FileAccess.file_exists(save_path):\n\t\treturn {}\n\tvar file := FileAccess.open(save_path, FileAccess.READ)\n\tif file == null:\n\t\treturn {}\n\tvar parser := JSON.new()\n\tif parser.parse(file.get_as_text()) != OK:\n\t\treturn {}\n\tvar result = parser.data\n\tif not result is Dictionary or result.get(\"version\") != 2 or not result.get(\"player\") is Dictionary:\n\t\treturn {}\n\tif not story.valid(result.get(\"story\")):\n\t\treturn {}\n\tif result.has(\"linear\") and not linear.valid_snapshot(result.linear):\n\t\treturn {}\n\tif not _whole_number(result.get(\"stage\"), 0, 2):\n\t\treturn {}\n\tif not result.get(\"defeated\") is Dictionary or not result.get(\"yard\") is bool:\n\t\treturn {}\n\tfor identifier in result.defeated:\n\t\tif (identifier not in INITIAL_GUARDS and identifier not in [\"wave_0\", \"wave_1\", \"wave_2\", \"wave_3\"]) or result.defeated[identifier] != true:\n\t\t\treturn {}\n\tif not _whole_number(result.get(\"kills\"), 0, 9) or int(result.kills) != result.defeated.size():\n\t\treturn {}\n\tif not _valid_encounter(result):\n\t\treturn {}\n\tif not _number_between(result.get(\"elapsed\"), 0, 10000000):\n\t\treturn {}\n\tvar saved_player: Dictionary = result.player\n\tfor key in [\"position\", \"magazines\", \"reserves\"]:\n\t\tif not saved_player.get(key) is Array or saved_player[key].size() != (3 if key == \"position\" else 2):\n\t\t\treturn {}\n\tif not _number_between(saved_player.position[0], 4.4, 83.6) or not _number_between(saved_player.position[1], -0.1, 6) or not _number_between(saved_player.position[2], 4.4, 91.6):\n\t\treturn {}\n\tif not _number_between(saved_player.get(\"health\"), 0.1, 100) or not _number_between(saved_player.get(\"yaw\"), -100000, 100000) or not _whole_number(saved_player.get(\"weapon\"), 0, 1):\n\t\treturn {}\n\tfor index in 2:\n\t\tif not _whole_number(saved_player.magazines[index], 0, Player.WEAPONS[index].capacity) or not _whole_number(saved_player.reserves[index], 0, 1000):\n\t\t\treturn {}\n\treturn result"
+        },
+        {
+          "function": "continue_checkpoint",
+          "line": 491,
+          "source": "func continue_checkpoint() -> void:\n\tvar data := _read_save()\n\tif data.is_empty():\n\t\tdata = checkpoint\n\tif data.is_empty():\n\t\tstart_new()\n\t\treturn\n\tstage = int(data.stage)\n\tdefeated = data.defeated.duplicate()\n\tkills = int(data.kills)\n\telapsed = float(data.elapsed)\n\treached_yard = data.yard\n\tvar encounter: Dictionary = data.get(\"encounter\", {})\n\texpanded_encounter = encounter.get(\"expanded\", false)\n\treinforcement_next = int(encounter.get(\"next\", 2 if stage >= 2 else 0))\n\treinforcement_wait = float(encounter.get(\"wait\", REINFORCEMENT_WAVE_DELAY if stage >= 2 else 0.0))\n\tplayer.restore(data.player)\n\tstory.restore(data.story)\n\tlinear.restore(data.get(\"linear\", {}))\n\t_reset_guards(encounter.get(\"active\", {}))\n\tif not data.has(\"linear\"):\n\t\t# Old positions may overlap the new partitions. Only displaced actors move.\n\t\tplayer.position = world.relocate_to_walkable(player.position)\n\t\tstory.people.lu.position = world.relocate_to_walkable(story.people.lu.position)\n\t\tplayer.reset_physics_interpolation()\n\t\tstory.people.lu.reset_physics_interpolation()\n\t\tfor guard in guards:\n\t\t\tguard.position = world.relocate_to_walkable(guard.position)\n\t\t\tguard.patrol_target = world.relocate_to_walkable(guard.patrol_target)\n\t\t\tguard.reset_physics_interpolation()\n\tcodebook.visible = stage == 0\n\tcodebook.collision_layer = 1 if stage == 0 else 0\n\tworld.set_power(stage < 2)\n\tresume()\n\tnotify(\"检查点已恢复。\", 2)"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/story.gd",
+      "sha256": "6af84ee900a18713b9e1e80e79aab78276efc21c6febf552f6cb5ea84c013c83",
+      "bytes": 14497,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "initialize",
+          "line": 32,
+          "source": "func initialize(owner_node: Node3D) -> void:\n\tmain = owner_node\n\t_add_person(\"scout\", \"姜岚 · 抗联侦察员\", \"scout\", SCOUT)\n\t_add_person(\"logger\", \"林守义 · 林工\", \"logger\", LOGGER)\n\t_add_person(\"lu\", \"陆山 · 交通员\", \"wounded\", WOUNDED)\n\tdoor = main.world.box(\"电报房木门\", DOOR, Vector3(0.18, 3, 3.65), \"wood\")\n\tparcel = main.world.box(\"医药包\", SUPPLY, Vector3(0.6, 0.24, 0.4), \"sandbag\", false)\n\tmain.world.box(\"补给矮箱\", SUPPLY - Vector3(0, 0.48, 0), Vector3(0.9, 0.72, 0.65), \"wood\")\n\tmain.world.navigation.set_point_solid(main.world.cell_at(SUPPLY))\n\tmain.world.box(\"未寄出的家书\", LETTER, Vector3(0.5, 0.025, 0.36), \"paper\", false)\n\tmain.world.box(\"案边木架\", LETTER - Vector3(0, 0.63, 0), Vector3(2.1, 1.0, 0.5), \"wood\")\n\treset()\n\tmoments = StoryMoments.new()\n\tmain.add_child(moments)\n\tmoments.initialize(main)"
+        },
+        {
+          "function": "reset",
+          "line": 54,
+          "source": "func reset() -> void:\n\tmet_scout = false\n\tsupply_choice = \"none\"\n\tread_letter = false\n\tsupply_taken = false\n\trecruited = false\n\tbandages = 1\n\tspeaker_id = \"\"\n\tpeople.scout.reset(SCOUT)\n\tpeople.logger.reset(LOGGER)\n\tpeople.lu.reset(WOUNDED)\n\t_set_door(false)\n\tparcel.visible = true\n\tif is_instance_valid(moments):\n\t\tmoments.reset()"
+        },
+        {
+          "function": "talk",
+          "line": 112,
+          "source": "func talk(id: String) -> void:\n\tmatch id:\n\t\t\"scout\":\n\t\t\tif not met_scout:\n\t\t\t\tshow_dialog(id, \"姜岚\", \"沈砚，林场的电报房扣下了搜山名册。陆山送信时受了伤，也被关在那里。名单关系着密营和山下接济我们的乡亲。\\n先问问前面木棚里的林师傅，再进电报房。我守住回山的路，你把人和名单带回来。\", [\n\t\t\t\t\t{\"label\": \"知道了。名单和陆山，都带回来。\", \"action\": \"brief\"},\n\t\t\t\t\t{\"label\": \"问清楚电报房和撤离路线\", \"action\": \"route\"}])\n\t\t\telse:\n\t\t\t\tshow_dialog(id, \"姜岚\", \"穿过木墙缺口，先突破检查口，再沿木料巷往北。清掉守卫才能打开栅门。取名单、拉总闸，接上陆山绕电报房北侧去渡口。别丢下他。\", [{\"label\": \"继续行动\", \"action\": \"close\"}])\n\t\t\"logger\":\n\t\t\tif supply_choice == \"none\":\n\t\t\t\tshow_dialog(id, \"林守义\", \"陆山在电报房西北角，腿上有伤。昨晚他还替我捎话，说山上的孩子缺棉衣……今天就没能走出那扇门。\\n我这儿有一卷干净布，还有藏下的十发步枪弹。你先带哪一样？剩下的留给接应的人。\", [\n\t\t\t\t\t{\"label\": \"拿绷带，给陆山治伤\", \"action\": \"medicine\"},\n\t\t\t\t\t{\"label\": \"拿十发步枪弹\", \"action\": \"ammunition\"},\n\t\t\t\t\t{\"label\": \"先不拿，等会儿再来\", \"action\": \"close\"}])\n\t\t\telse:\n\t\t\t\tshow_dialog(id, \"林守义\", \"电报房的门没上锁。桌后的总闸连着电话中继，拉下来能拖住他们。运材场矮箱上还有个医药包；别让陆山一个人留在里面。\", [{\"label\": \"谢谢。你也先隐蔽。\", \"action\": \"close\"}])\n\t\t\"lu\":\n\t\t\tif not recruited:\n\t\t\t\tvar options: Array = []\n\t\t\t\tif bandages > 0:\n\t\t\t\t\toptions.append({\"label\": \"消耗一卷绷带，包扎后一起走\", \"action\": \"rescue_treat\"})\n\t\t\t\toptions.append({\"label\": \"先带你离开，慢慢跟着我\", \"action\": \"rescue\"})\n\t\t\t\toptions.append({\"label\": \"先在这里隐蔽，我处理电报房\", \"action\": \"close\"})\n\t\t\t\tshow_dialog(id, \"陆山\", \"名册就在桌上。第三页那个卖豆腐的，上回给我们多塞了两块……他还有两个孩子。别把名字落下。\\n我还能走。你慢一点，到拐角等我一下。\", options)\n\t\t\telse:\n\t\t\t\tvar options: Array = [{\"label\": \"跟紧我\", \"action\": \"follow\"}, {\"label\": \"在这里等候，我先探路\", \"action\": \"wait\"}]\n\t\t\t\tif not people.lu.treated and bandages > 0:\n\t\t\t\t\toptions.append({\"label\": \"用绷带处理伤口\", \"action\": \"treat\"})\n\t\t\t\tshow_dialog(id, \"陆山\", \"听你的。我的脚步可能慢一些，走到拐角时记得回头看看。\" if not people.lu.treated else \"伤口扎稳了，我能跟上。名单交回去，乡亲们就多一分转移的时间。\", options)"
+        },
+        {
+          "function": "choose",
+          "line": 169,
+          "source": "func choose(index: int) -> void:\n\tif main.mode != \"dialogue\" or index < 0 or index >= choices.size():\n\t\treturn\n\tvar action: String = choices[index].action\n\tif action == \"route\":\n\t\tshow_dialog(\"scout\", \"姜岚\", \"从林道的木墙缺口进入，解决检查口岗哨，按 E 开栅门。木料巷还有两名守卫，清掉后继续开门向北。电报房入口在右手边。拿名册、断电并接上陆山后，绕房子北侧去渡口；到船边掩护他解缆。\\n林师傅守在北面的木棚。和他当面说清楚，他会给你补给。\", [{\"label\": \"记住了，开始行动\", \"action\": \"brief\"}])\n\t\treturn\n\tclose_dialog()\n\tmatch action:\n\t\t\"brief\":\n\t\t\tmet_scout = true\n\t\t\tmain.notify(\"行动记录已更新。J 查看记录；前方木棚可以向林师傅求助。\", 6)\n\t\t\"medicine\":\n\t\t\tif supply_choice == \"none\":\n\t\t\t\tsupply_choice = \"medicine\"\n\t\t\t\tbandages += 1\n\t\t\t\tmain.notify(\"林守义递给你一卷干净布。绷带 +1。\", 4)\n\t\t\"ammunition\":\n\t\t\tif supply_choice == \"none\":\n\t\t\t\tsupply_choice = \"ammunition\"\n\t\t\t\tmain.player.reserves[0] += 10\n\t\t\t\tmain.notify(\"获得步枪弹 ×10。医药包还在运材场。\", 4)\n\t\t\"rescue\", \"rescue_treat\":\n\t\t\trecruited = true\n\t\t\tpeople.lu.following = true\n\t\t\tif action == \"rescue_treat\":\n\t\t\t\t_treat()\n\t\t\tmain.notify(\"陆山开始跟随。靠近他按 E 可让他等候或继续跟随。\", 5)\n\t\t\"follow\":\n\t\t\tpeople.lu.following = true\n\t\t\"wait\":\n\t\t\tpeople.lu.following = false\n\t\t\"treat\":\n\t\t\t_treat()\n\t\t\"finish\":\n\t\t\tif ready_to_leave():\n\t\t\t\tmain.stage = 3\n\t\t\t\tmain.mode = \"won\"\n\t\t\t\tInput.mouse_mode = Input.MOUSE_MODE_VISIBLE\n\tif action not in [\"close\", \"finish\"]:\n\t\tmain._save_checkpoint()"
+        },
+        {
+          "function": "ready_to_leave",
+          "line": 229,
+          "source": "func ready_to_leave() -> bool:\n\treturn recruited and people.lu.position.distance_to(main.EVAC) < 5.5 and main.stage == 2 and main.linear.can_evacuate()"
+        },
+        {
+          "function": "snapshot",
+          "line": 268,
+          "source": "func snapshot() -> Dictionary:\n\tvar lu: CharacterBody3D = people.lu\n\treturn {\"briefed\": met_scout, \"choice\": supply_choice, \"letter\": read_letter, \"supply\": supply_taken, \"recruited\": recruited, \"door\": door_open, \"bandages\": bandages, \"lu_position\": [lu.position.x, lu.position.y, lu.position.z], \"following\": lu.following, \"treated\": lu.treated, \"moments_seen\": moments.seen.duplicate() if is_instance_valid(moments) else []}"
+        },
+        {
+          "function": "valid",
+          "line": 272,
+          "source": "func valid(data: Variant) -> bool:\n\tif not data is Dictionary:\n\t\treturn false\n\tif not StoryMoments.valid_flags(data.get(\"moments_seen\", [])):\n\t\treturn false\n\tfor key in [\"briefed\", \"letter\", \"supply\", \"recruited\", \"door\", \"following\", \"treated\"]:\n\t\tif not data.get(key) is bool:\n\t\t\treturn false\n\tif (data.following or data.treated) and not data.recruited:\n\t\treturn false\n\tif data.get(\"choice\") not in [\"none\", \"medicine\", \"ammunition\"] or not main._whole_number(data.get(\"bandages\"), 0, 3):\n\t\treturn false\n\tif not data.get(\"lu_position\") is Array or data.lu_position.size() != 3:\n\t\treturn false\n\treturn main._number_between(data.lu_position[0], 4.4, 83.6) and main._number_between(data.lu_position[1], -0.1, 6) and main._number_between(data.lu_position[2], 4.4, 91.6)"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/linear_director.gd",
+      "sha256": "9b21fba0cd292f680e63e190d4896b2bcb2767152d329d576ebe77e5792c97b4",
+      "bytes": 7347,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "gate_ready",
+          "line": 34,
+          "source": "func gate_ready(id: String) -> bool:\n\tif not main.story.met_scout:\n\t\treturn false\n\tmatch id:\n\t\t\"checkpoint\": return main.defeated.has(\"gate_guard\")\n\t\t\"yard\": return \"checkpoint\" in opened and main.defeated.has(\"yard_guard\") and main.defeated.has(\"timber_guard\")\n\t\t\"river\": return \"yard\" in opened and main.stage == 2 and main.story.recruited\n\treturn false"
+        },
+        {
+          "function": "can_guard_act",
+          "line": 88,
+          "source": "func can_guard_act(id: String) -> bool:\n\tif not enabled:\n\t\treturn true\n\tmatch id:\n\t\t\"gate_guard\": return contact_started\n\t\t\"yard_guard\", \"timber_guard\": return \"checkpoint\" in opened\n\t\t\"office_guard\": return \"yard\" in opened\n\t\t\"pier_guard\": return \"river\" in opened\n\treturn \"river\" in opened"
+        },
+        {
+          "function": "update",
+          "line": 98,
+          "source": "func update(delta: float) -> void:\n\tif not enabled or main.mode != \"playing\":\n\t\treturn\n\tif not contact_started and main.story.met_scout and main.player.position.x > 24:\n\t\tcontact_started = true\n\t\tmain.notify(\"前方检查口有岗哨。压低身子，借沙袋接近。\", 4)\n\tif \"river\" not in opened or main.stage != 2 or not main.story.recruited:\n\t\treturn\n\tif not main.story.people.lu.following or main.player.position.distance_to(main.EVAC) > 10 or main.story.people.lu.position.distance_to(main.EVAC) > 6:\n\t\treturn\n\tif not extraction_started:\n\t\textraction_started = true\n\t\tmain.notify(\"陆山正在解缆！守住渡口，留意南侧追兵。\", 5)\n\t\tmain._save_checkpoint()\n\tif extraction_remaining > 0:\n\t\textraction_remaining = maxf(0, extraction_remaining - delta)\n\t\tif extraction_remaining == 0:\n\t\t\tmain.notify(\"陆山：缆绳解开了！到船边按 E，一起走！\", 6)\n\t\t\tmain._save_checkpoint()"
+        },
+        {
+          "function": "can_evacuate",
+          "line": 118,
+          "source": "func can_evacuate() -> bool:\n\treturn not enabled or (\"river\" in opened and extraction_started and extraction_remaining <= 0)"
+        },
+        {
+          "function": "restore",
+          "line": 173,
+          "source": "func restore(data: Dictionary) -> void:\n\treset()\n\tif data.is_empty():\n\t\tset_enabled(false)\n\t\treturn\n\tenabled = data.enabled\n\topened.assign(data.opened)\n\tcontact_started = data.contact_started\n\textraction_started = data.extraction_started\n\textraction_remaining = float(data.extraction_remaining)\n\t_sync_gates()"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/friendly.gd",
+      "sha256": "d6def0825493efd2da8fe4d0dddafb20b90e62c4ee2de3b3fdddea9f6b38f0fc",
+      "bytes": 2845,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "_physics_process",
+          "line": 41,
+          "source": "func _physics_process(delta: float) -> void:\n\tvar previous_yaw := rotation.y\n\tvar talking: bool = main.mode == \"dialogue\" and main.story.speaker_id == person_id\n\tnameplate.visible = main.player.position.distance_to(position) < 9 and main.mode == \"playing\"\n\tif main.mode != \"playing\":\n\t\tif talking:\n\t\t\tvar facing: Vector3 = main.player.position - position\n\t\t\trotation.y = lerp_angle(rotation.y, atan2(-facing.x, -facing.z), minf(1.0, delta * 9))\n\t\tmodel.set_motion_context(treated, angle_difference(previous_yaw, rotation.y) / maxf(delta, 0.001))\n\t\tmodel.animate(delta, 0, talking)\n\t\treturn\n\tvar direction := Vector3.ZERO\n\tvar distance: float = position.distance_to(main.player.position)\n\tif following and distance > 2.2:\n\t\troute_clock -= delta\n\t\tif route_clock <= 0:\n\t\t\troute = main.world.path(position, main.player.position)\n\t\t\troute_index = 1 if route.size() > 1 else 0\n\t\t\troute_clock = 0.5\n\t\tif route_index < route.size():\n\t\t\tvar offset := route[route_index] - position\n\t\t\toffset.y = 0\n\t\t\tif offset.length() < 0.45:\n\t\t\t\troute_index += 1\n\t\t\telse:\n\t\t\t\tdirection = offset.normalized()\n\tvar speed := 3.2 if treated else 2.2\n\tvelocity.x = direction.x * speed\n\tvelocity.z = direction.z * speed\n\tvelocity.y = -0.2 if is_on_floor() else velocity.y - 20 * delta\n\tmove_and_slide()\n\tvar facing := direction\n\tif distance < 4 and direction.length() < 0.1:\n\t\tfacing = main.player.position - position\n\tif facing.length() > 0.1:\n\t\trotation.y = lerp_angle(rotation.y, atan2(-facing.x, -facing.z), delta * 4)\n\tmodel.set_motion_context(treated, angle_difference(previous_yaw, rotation.y) / maxf(delta, 0.001))\n\tmodel.animate(delta, direction.length() * speed)"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/story_moments.gd",
+      "sha256": "96497358bcfbee3870df9b73e83f10712114da8f63cd164d3c46e6e7a0fb1921",
+      "bytes": 4278,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "_process",
+          "line": 77,
+          "source": "func _process(delta: float) -> void:\n\tif not is_instance_valid(main):\n\t\treturn\n\tvar active: bool = main.mode == \"playing\"\n\triver_audio.stream_paused = not active\n\tradio_audio.stream_paused = not active\n\tswitch_audio.stream_paused = not active\n\tif not active:\n\t\treturn\n\tif last_stage != main.stage:\n\t\tif last_stage < 2 and main.stage == 2:\n\t\t\tradio_audio.stop()\n\t\t\tswitch_audio.play()\n\t\t\t_say(\"power\", \"陆山：灯灭了……他们会回来，别在门口停。\")\n\t\tlast_stage = main.stage\n\tremaining = maxf(0, remaining - delta)\n\tif remaining > 0:\n\t\treturn\n\tcaption = \"\"\n\tsilence = maxf(0, silence - delta)\n\tif silence > 0:\n\t\treturn\n\tvar story: RefCounted = main.story\n\tvar player_at: Vector3 = main.player.position\n\tvar lu: CharacterBody3D = story.people.lu\n\tif story.recruited and main.stage == 2:\n\t\tif player_at.distance_to(main.EVAC) < 12 and lu.position.distance_to(main.EVAC) < 14:\n\t\t\tif _say(\"river\", \"陆山：听见水了。把名单揣进衣服里，别让它湿了。\"):\n\t\t\t\treturn\n\t\tif lu.following and lu.position.distance_to(player_at) > 16:\n\t\t\tif _say(\"falling_behind\", \"陆山：等一下……这条腿跟不上了。\"):\n\t\t\t\treturn\n\t\tif player_at.x > 66 and player_at.z < 31 and lu.position.distance_to(player_at) < 7:\n\t\t\tif _say(\"crossing\", \"陆山：从前这条路，我闭着眼也走得过。\"):\n\t\t\t\treturn\n\tif not story.met_scout:\n\t\treturn\n\tif \"contact\" not in seen:\n\t\tfor guard in main.guards:\n\t\t\tif is_instance_valid(guard) and guard.state == \"combat\" and player_at.distance_to(guard.position) < 28:\n\t\t\t\t_say(\"contact\", \"沈砚：有人！先找掩护。\")\n\t\t\t\treturn\n\tif story.supply_choice == \"medicine\" and player_at.distance_to(story.LOGGER) < 7:\n\t\tif _say(\"cloth\", \"林守义：这是家里剩下的干布……给他扎紧些。\"):\n\t\t\treturn\n\tif player_at.z < 79 and player_at.z > 62:\n\t\t_say(\"departure\", \"沈砚：先把人带出去。名单上的名字，一个也不能丢。\")"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/fps_player.gd",
+      "sha256": "64269a7b1ffd79d3b58b294c840a99704e5c3ec43461b30ceeda2d44fb72d6c6",
+      "bytes": 16757,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "restore",
+          "line": 327,
+          "source": "func restore(snapshot: Dictionary) -> void:\n\tposition = Vector3(snapshot.position[0], snapshot.position[1], snapshot.position[2])\n\trotation.y = snapshot.get(\"yaw\", 0.0)\n\tpitch = 0\n\tvelocity = Vector3.ZERO\n\thealth = snapshot.health\n\tmagazines.assign(snapshot.magazines)\n\treserves.assign(snapshot.reserves)\n\treload_timer = 0\n\tshot_timer = 0\n\tdamage_flash = 0\n\tfire_requested = false\n\taiming = false\n\tcrouching = false\n\trecoil = 0\n\tview_kick = 0.0\n\tflash_time = 0.0\n\tmouse_impulse = Vector2.ZERO\n\tmouse_sway = Vector2.ZERO\n\taim_blend = 0.0\n\tmovement_blend = 0.0\n\tsprint_blend = 0.0\n\tcamera.rotation = Vector3.ZERO\n\tcamera.fov = 78.0\n\tcamera.position.y = 1.57\n\t(collider.shape as CapsuleShape3D).height = 1.72\n\tcollider.position.y = 0.86\n\tswitch_weapon(int(snapshot.weapon))\n\tvisual_fire_age = 2.0\n\tswitch_age = 1.0\n\tmodel.position = Vector3(0.18, -0.16, -0.56) if weapon_index == 0 else Vector3(0.16, -0.14, -0.52)\n\tmodel.rotation = Vector3.ZERO\n\tfor i in weapon_rigs.size():\n\t\tvar rig: Dictionary = weapon_rigs[i]\n\t\tvar rest: Dictionary = hand_rest[i]\n\t\trig.left.position = rest.left_position\n\t\trig.left.rotation = rest.left_rotation\n\t\trig.right.position = rest.right_position\n\t\trig.right.rotation = rest.right_rotation\n\t\trig.bolt.position = Vector3.ZERO\n\t\trig.bolt.rotation = Vector3.ZERO\n\t\trig.clip.visible = false\n\t\trig.left.pose(\"grip\",1.0,1.0)\n\t\trig.right.pose(\"grip\",1.0,1.0)\n\t\trig.left.update_sleeve()\n\t\trig.right.update_sleeve()\n\tmuzzle_flash.visible = false\n\tmuzzle_light.light_energy = 0.0\n\treset_physics_interpolation()"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/hud.gd",
+      "sha256": "3adbd90f1384d88adaee11dd8d0d1a5ba128846dfba7a96d2c491c1e944be5bd",
+      "bytes": 16097,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "show_menu",
+          "line": 202,
+          "source": "func show_menu(kind: String) -> void:\n\tmenu_kind = kind\n\tmenu.visible = kind not in [\"playing\", \"dialogue\"]\n\tfor child in actions.get_children():\n\t\tchild.free()\n\tfor child in settings_panel.get_children():\n\t\tchild.free()\n\tif kind in [\"playing\", \"dialogue\"]:\n\t\treturn\n\tmatch kind:\n\t\t\"briefing\":\n\t\t\tmenu_title.text = \"烽火回声 · 林海归途\"\n\t\t\tmenu_caption.text = \"1938 · 深秋 · 东北抗联\\n青岚林场，一份名册，一个等着回山的人。\\n你能守住的，只是身边这几步路。\"\n\t\t\t_button(\"开始任务\", main.start_new)\n\t\t\tif main.has_save():\n\t\t\t\t_button(\"继续检查点\", main.continue_checkpoint)\n\t\t\t_button(\"设置\", _show_settings)\n\t\t\t_button(\"退出\", func(): main.get_tree().quit())\n\t\t\"paused\":\n\t\t\tmenu_title.text = \"任务暂停\"\n\t\t\tmenu_caption.text = \"青岚林场 · 林海归途\"\n\t\t\t_button(\"继续\", main.resume)\n\t\t\t_button(\"返回检查点\", main.continue_checkpoint)\n\t\t\t_button(\"重新开始\", main.start_new)\n\t\t\t_button(\"设置\", _show_settings)\n\t\t\t_button(\"退出\", func(): main.get_tree().quit())\n\t\t\"lost\":\n\t\t\tmenu_title.text = \"任务失败\"\n\t\t\tmenu_caption.text = \"交通线还在等待。\"\n\t\t\t_button(\"返回检查点\", main.continue_checkpoint)\n\t\t\t_button(\"重新开始\", main.start_new)\n\t\t\t_button(\"退出\", func(): main.get_tree().quit())\n\t\t\"won\":\n\t\t\tmenu_title.text = \"一起回山\"\n\t\t\tmenu_caption.text = \"陆山和名册都已安全抵达接应点。\\n%s\\n%s\\n用时 %s\" % [\"你替陆山包扎了伤口，他能自己走完回山的路。\" if main.story.people.lu.treated else \"陆山带着腿伤走到了渡口，接应的人扶住了他。\", \"林师傅送出的补给也留在了这次行动的记录里。\" if main.story.supply_choice != \"none\" else \"山下的林工仍在等待交通线恢复。\", main.elapsed_text()]\n\t\t\t_button(\"再试一次\", main.start_new)\n\t\t\t_button(\"退出\", func(): main.get_tree().quit())\n\t\t\"journal\":\n\t\t\tmenu_title.text = \"行动记录\"\n\t\t\tmenu_caption.text = main.story.journal_text()\n\t\t\t_button(\"返回行动  [J / Esc]\", main.resume)\n\tvar first := actions.get_child(0) as Button\n\tfirst.grab_focus()"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/guard.gd",
+      "sha256": "f3a85b261e5fc24209357cf84f5862a714b67319789e5123059fe139890a7006",
+      "bytes": 7238,
+      "matches_S01": true,
+      "functions": [
+        {
+          "function": "_physics_process",
+          "line": 42,
+          "source": "func _physics_process(delta: float) -> void:\n\tif state == \"dead\":\n\t\tif main.mode == \"playing\":\n\t\t\tmodel.animate_death(delta)\n\t\treturn\n\tif main.mode != \"playing\":\n\t\treturn\n\tif main.linear != null and not main.linear.can_guard_act(guard_id):\n\t\treturn\n\tvar previous_yaw := rotation.y\n\tvar player_position: Vector3 = main.player.global_position\n\tvar distance := global_position.distance_to(player_position)\n\tvar visible_player := can_see_player()\n\tif visible_player:\n\t\tif state == \"patrol\":\n\t\t\tmain.notify(\"岗哨发现了你！\", 2.0)\n\t\t\tfire_timer = 1.4 + float(absi(guard_id.hash()) % 4) * 0.12\n\t\tstate = \"combat\"\n\t\tlast_seen = player_position\n\t\tsight_memory = 6.0\n\telse:\n\t\tsight_memory = maxf(0, sight_memory - delta)\n\t\tif state == \"combat\" and sight_memory < 4:\n\t\t\tstate = \"search\"\n\t\tif state == \"search\" and sight_memory <= 0:\n\t\t\tstate = \"patrol\"\n\tvar target := patrol_target if state == \"patrol\" else last_seen\n\tif state == \"patrol\" and global_position.distance_to(target) < 1.2:\n\t\tpatrol_target = spawn_position if patrol_target != spawn_position else patrol_endpoint\n\tpath_timer -= delta\n\tif path_timer <= 0:\n\t\troute = main.world.path(global_position, target)\n\t\troute_index = 1 if route.size() > 1 else 0\n\t\tpath_timer = 0.6\n\tvar direction := Vector3.ZERO\n\tif not (visible_player and distance < 17) and route_index < route.size():\n\t\tvar to_point := route[route_index] - global_position\n\t\tto_point.y = 0\n\t\tif to_point.length() < 0.7:\n\t\t\troute_index += 1\n\t\telse:\n\t\t\tdirection = to_point.normalized()\n\tvar facing := (player_position - global_position) if visible_player else direction\n\tfacing.y = 0\n\tif facing.length() > 0.05:\n\t\trotation.y = lerp_angle(rotation.y, atan2(-facing.x, -facing.z), delta * 7)\n\tvelocity.x = direction.x * (2.2 if state != \"patrol\" else 1.3)\n\tvelocity.z = direction.z * (2.2 if state != \"patrol\" else 1.3)\n\tvelocity.y = -0.2 if is_on_floor() else velocity.y - delta * 20\n\tmove_and_slide()\n\tstride += delta * direction.length() * 7\n\tmodel.set_motion_context(false, angle_difference(previous_yaw, rotation.y) / maxf(delta, 0.001), visible_player)\n\tmodel.animate(delta, direction.length() * 1.8)\n\tfire_timer -= delta\n\tif visible_player and distance < 26 and fire_timer <= 0:\n\t\tfire_timer = 2.0 + float(absi(guard_id.hash()) % 4) * 0.12\n\t\tshots_fired += 1\n\t\tmodel.fire()\n\t\t# The first shot warns; subsequent deliberate shots alternate with\n\t\t# suppression. Extra guards add pressure without six perfect hits at once.\n\t\tvar aimed_hit := shots_fired % (3 if distance > 12.0 else 2) == 0\n\t\tvar shot_target := player_position + Vector3.UP * 1.2\n\t\tif not aimed_hit:\n\t\t\tvar side := (player_position - global_position).cross(Vector3.UP).normalized()\n\t\t\tshot_target += side * (0.8 if shots_fired % 2 == 0 else -0.8) + Vector3.UP * 0.25\n\t\tmain.guard_shot(global_position + Vector3.UP * 1.35, shot_target)\n\t\tif aimed_hit:\n\t\t\tmain.player.take_damage(7.0 if distance > 12 else 9.0)"
+        }
+      ]
+    }
+  ]
+}

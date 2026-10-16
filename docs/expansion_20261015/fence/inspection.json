@@ -1,0 +1,89 @@
+{
+  "source": "AssetLibrary/environment/user_expansion_20261015/fence/3d66.com_JJI54557884089.fbx",
+  "sha256": "414c2907bc86e4ea4eca60d75977d2a5758460f7355dce98ba81c887d5056024",
+  "bounds": [
+    [
+      -2.5799877643585205,
+      -0.7873192429542542,
+      -0.8462156057357788
+    ],
+    [
+      2.5799877643585205,
+      0.7873192429542542,
+      0.8462156057357788
+    ]
+  ],
+  "objects": [
+    {
+      "name": "a0efdb41-a43a-48b8-836e-1e9878a485e1",
+      "bounds": [
+        [
+          -2.5799877643585205,
+          -0.7873192429542542,
+          -0.8462156057357788
+        ],
+        [
+          2.5799877643585205,
+          0.7873192429542542,
+          0.8462156057357788
+        ]
+      ],
+      "triangles": 1068,
+      "materials": [
+        "8d789637-38d2-4058-a763-91d585f70fa2"
+      ]
+    }
+  ],
+  "triangles": 1068,
+  "images": [
+    {
+      "name": "3d66-export-JJI54557884089-001",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\fence\\..\\..\\..\\BlendChangeName\\Tmp\\22864887\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JJI54557884089-001.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JJI54557884089-002",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\fence\\..\\..\\..\\BlendChangeName\\Tmp\\22864887\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JJI54557884089-002.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JJI54557884089-003",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\fence\\..\\..\\..\\BlendChangeName\\Tmp\\22864887\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JJI54557884089-003.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "3d66-export-JJI54557884089-004",
+      "path": "C:\\GameMake\\AssetLibrary\\environment\\user_expansion_20261015\\fence\\..\\..\\..\\BlendChangeName\\Tmp\\22864887\\FbxBeforeConversion\\unzip\\TempMap\\3d66-export-JJI54557884089-004.jpg",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "8d789637-38d2-4058-a763-91d585f70fa2",
+      "color": [
+        0.5882353186607361,
+        0.5882353186607361,
+        0.5882353186607361,
+        1.0
+      ],
+      "images": [
+        "3d66-export-JJI54557884089-001",
+        "3d66-export-JJI54557884089-003",
+        "3d66-export-JJI54557884089-002",
+        "3d66-export-JJI54557884089-004"
+      ]
+    }
+  ]
+}

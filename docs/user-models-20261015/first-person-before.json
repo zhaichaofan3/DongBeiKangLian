@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "C:\\GameMake\\GodotProject\\assets\\first_person\\hand_left_skin_diffuse.png",
+    "Hash": "B2905CA2F37BF97C18CE1B903229B85C0485BD17F49E47921F0347860598F158"
+  },
+  {
+    "Path": "C:\\GameMake\\GodotProject\\assets\\first_person\\hand_left.glb",
+    "Hash": "7B4D81DD2DD8C2A305489355C9E8573CE78C754D3F188118196EEF25CA60A9FB"
+  },
+  {
+    "Path": "C:\\GameMake\\GodotProject\\assets\\first_person\\hand_right_skin_diffuse.png",
+    "Hash": "B2905CA2F37BF97C18CE1B903229B85C0485BD17F49E47921F0347860598F158"
+  },
+  {
+    "Path": "C:\\GameMake\\GodotProject\\assets\\first_person\\hand_right.glb",
+    "Hash": "7E1013E39D3E5547A66552074641DB17F4DB90A7D4A51530FF63F9D23FED1024"
+  },
+  {
+    "Path": "C:\\GameMake\\GodotProject\\assets\\first_person\\provenance.json",
+    "Hash": "64495EC530A41FAA4D447CEE0E3A312CF2A9A9E7D3D7B297452ED9AD4085D9FC"
+  },
+  {
+    "Path": "C:\\GameMake\\GodotProject\\scripts\\fp_hands.gd",
+    "Hash": "BACB9E38572C9B754D7892C5A40DA90503146E1315CDDE0E429E4A9B2C8B64F8"
+  },
+  {
+    "Path": "C:\\GameMake\\GodotProject\\scripts\\weapon_visuals.gd",
+    "Hash": "71716DEA858A65E4ED3EF0880C873F6443D51CE21379A44C0CB2E5767B54F729"
+  }
+]

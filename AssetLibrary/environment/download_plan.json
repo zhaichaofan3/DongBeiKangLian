@@ -1,0 +1,1904 @@
+{
+  "category": "environment",
+  "assets": [
+    {
+      "id": "polyhaven_dead_tree_trunk",
+      "title": "Dead Tree Trunk",
+      "source_url": "https://polyhaven.com/a/dead_tree_trunk",
+      "author": "Rob Tuytel",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/dead_tree_trunk_metadata.json",
+      "file_catalog_evidence": "evidence/dead_tree_trunk_files.json",
+      "type": "3d_model",
+      "polycount": 101802,
+      "files": [
+        {
+          "path": "models/dead_tree_trunk/dead_tree_trunk_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/dead_tree_trunk/dead_tree_trunk_2k.gltf",
+          "expected_bytes": 2812,
+          "expected_md5": "0101cc9b4167fee9872c4153602c1179"
+        },
+        {
+          "path": "models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_tree_trunk/dead_tree_trunk_diff_2k.jpg",
+          "expected_bytes": 2580084,
+          "expected_md5": "c75e5dc80be2e5d4bc873db388e2093c"
+        },
+        {
+          "path": "models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_tree_trunk/dead_tree_trunk_arm_2k.jpg",
+          "expected_bytes": 2608763,
+          "expected_md5": "908ade4a274dd887658eb055415ad61b"
+        },
+        {
+          "path": "models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_tree_trunk/dead_tree_trunk_nor_gl_2k.jpg",
+          "expected_bytes": 3804907,
+          "expected_md5": "c09438c886b3327dca4f61b758dbd570"
+        },
+        {
+          "path": "models/dead_tree_trunk/dead_tree_trunk.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/dead_tree_trunk/dead_tree_trunk.bin",
+          "expected_bytes": 2293788,
+          "expected_md5": "2a2b05e67a5c51fba5fc7591a7857957"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain.",
+        "High polygon source asset: decimation/LOD or baking is required before dense realtime placement."
+      ]
+    },
+    {
+      "id": "polyhaven_tree_stump_01",
+      "title": "Tree Stump 01",
+      "source_url": "https://polyhaven.com/a/tree_stump_01",
+      "author": "Rob Tuytel",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/tree_stump_01_metadata.json",
+      "file_catalog_evidence": "evidence/tree_stump_01_files.json",
+      "type": "3d_model",
+      "polycount": 41046,
+      "files": [
+        {
+          "path": "models/tree_stump_01/tree_stump_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/tree_stump_01/tree_stump_01_2k.gltf",
+          "expected_bytes": 2793,
+          "expected_md5": "5af8eb57d53722ad13a5b06f8910563e"
+        },
+        {
+          "path": "models/tree_stump_01/tree_stump_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tree_stump_01/tree_stump_01.bin",
+          "expected_bytes": 965380,
+          "expected_md5": "acb292727949126b92e58217fd50fca9"
+        },
+        {
+          "path": "models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tree_stump_01/tree_stump_01_nor_gl_2k.jpg",
+          "expected_bytes": 4415649,
+          "expected_md5": "78c30fd8b3b070596e92e7969c78eaa7"
+        },
+        {
+          "path": "models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tree_stump_01/tree_stump_01_diff_2k.jpg",
+          "expected_bytes": 3189746,
+          "expected_md5": "5e061f6985b34f3c36824e63473ed1c9"
+        },
+        {
+          "path": "models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tree_stump_01/tree_stump_01_arm_2k.jpg",
+          "expected_bytes": 2801595,
+          "expected_md5": "07f544eae11d9a255bef25e82510a91f"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_pine_roots",
+      "title": "Pine Roots",
+      "source_url": "https://polyhaven.com/a/pine_roots",
+      "author": "Rob Tuytel",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/pine_roots_metadata.json",
+      "file_catalog_evidence": "evidence/pine_roots_files.json",
+      "type": "3d_model",
+      "polycount": 162693,
+      "files": [
+        {
+          "path": "models/pine_roots/pine_roots_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/pine_roots/pine_roots_2k.gltf",
+          "expected_bytes": 5161,
+          "expected_md5": "1e01e390309f32319d4f0fc4be4be93b"
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_b_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_roots/pine_roots_b_arm_2k.jpg",
+          "expected_bytes": 3282054,
+          "expected_md5": "18ce29a75cb83825f403fe0d25ed58e5"
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_b_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_roots/pine_roots_b_nor_gl_2k.jpg",
+          "expected_bytes": 5333614,
+          "expected_md5": "1f44897be53be2c1b493d477db6eb55b"
+        },
+        {
+          "path": "models/pine_roots/pine_roots.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pine_roots/pine_roots.bin",
+          "expected_bytes": 3753376,
+          "expected_md5": "55ca478cc9135baa10be976931ee57a7"
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_a_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_roots/pine_roots_a_diff_2k.jpg",
+          "expected_bytes": 2866543,
+          "expected_md5": "83873e50eb9e2259a11c8301767c3e78"
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_a_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_roots/pine_roots_a_nor_gl_2k.jpg",
+          "expected_bytes": 5376324,
+          "expected_md5": "6e305cdaa55bd180fb0d0f0077957bb0"
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_a_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_roots/pine_roots_a_arm_2k.jpg",
+          "expected_bytes": 3248573,
+          "expected_md5": "3ece65dc9f02287832fab66b0b628c53"
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_b_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_roots/pine_roots_b_diff_2k.jpg",
+          "expected_bytes": 2855036,
+          "expected_md5": "2f7c187bed5d0547bcc7bb6caee1f386"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain.",
+        "High polygon source asset: decimation/LOD or baking is required before dense realtime placement."
+      ]
+    },
+    {
+      "id": "polyhaven_fern_02",
+      "title": "Fern 02",
+      "source_url": "https://polyhaven.com/a/fern_02",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/fern_02_metadata.json",
+      "file_catalog_evidence": "evidence/fern_02_files.json",
+      "type": "3d_model",
+      "polycount": 6232,
+      "files": [
+        {
+          "path": "models/fern_02/fern_02_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/fern_02/fern_02_2k.gltf",
+          "expected_bytes": 6899,
+          "expected_md5": "904c73900125e017f5e76ac1cdd906fe"
+        },
+        {
+          "path": "models/fern_02/textures/fern_02_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_diff_2k.jpg",
+          "expected_bytes": 993703,
+          "expected_md5": "ba8bbb9dc9ff55bdc081565cd926d776"
+        },
+        {
+          "path": "models/fern_02/textures/fern_02_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_arm_2k.jpg",
+          "expected_bytes": 850856,
+          "expected_md5": "7f7b46e813a3cb4811405191de0ecdce"
+        },
+        {
+          "path": "models/fern_02/fern_02.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/fern_02/fern_02.bin",
+          "expected_bytes": 176176,
+          "expected_md5": "c061e9255f7d36ae9ce0e92ef3e100b2"
+        },
+        {
+          "path": "models/fern_02/textures/fern_02_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_nor_gl_2k.jpg",
+          "expected_bytes": 1365615,
+          "expected_md5": "00936dff4661dc9fe1f2fbe6c000615a"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_rock_moss_set_01",
+      "title": "Rock Moss Set 01",
+      "source_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "author": "Kless Gyzen",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/rock_moss_set_01_metadata.json",
+      "file_catalog_evidence": "evidence/rock_moss_set_01_files.json",
+      "type": "3d_model",
+      "polycount": 63127,
+      "files": [
+        {
+          "path": "models/rock_moss_set_01/rock_moss_set_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/rock_moss_set_01/rock_moss_set_01_2k.gltf",
+          "expected_bytes": 9987,
+          "expected_md5": "c45cebb55c848a11233126f691557ca0"
+        },
+        {
+          "path": "models/rock_moss_set_01/rock_moss_set_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_moss_set_01/rock_moss_set_01.bin",
+          "expected_bytes": 1466380,
+          "expected_md5": "207a51c9f56d34732e9814bbf9cc07b1"
+        },
+        {
+          "path": "models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_moss_set_01/rock_moss_set_01_diff_2k.jpg",
+          "expected_bytes": 649415,
+          "expected_md5": "d3e1292c9e34bd6b4a236698a1b41290"
+        },
+        {
+          "path": "models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_moss_set_01/rock_moss_set_01_nor_gl_2k.jpg",
+          "expected_bytes": 840957,
+          "expected_md5": "88be6d9cf2927a09182e2bfccc9b8b56"
+        },
+        {
+          "path": "models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_moss_set_01/rock_moss_set_01_rough_2k.jpg",
+          "expected_bytes": 293827,
+          "expected_md5": "f7b3045b503fbde038598f8586ac25ef"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_rock_07",
+      "title": "Rock 07",
+      "source_url": "https://polyhaven.com/a/rock_07",
+      "author": "Jenelle van Heerden",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/rock_07_metadata.json",
+      "file_catalog_evidence": "evidence/rock_07_files.json",
+      "type": "3d_model",
+      "polycount": 27830,
+      "files": [
+        {
+          "path": "models/rock_07/rock_07_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/rock_07/rock_07_2k.gltf",
+          "expected_bytes": 2979,
+          "expected_md5": "903924785f3c43703b77ffd692897814"
+        },
+        {
+          "path": "models/rock_07/rock_07.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_07/rock_07.bin",
+          "expected_bytes": 468936,
+          "expected_md5": "817b2cfd1626cb06f18a825f87f58ec3"
+        },
+        {
+          "path": "models/rock_07/textures/rock_07_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_07/rock_07_arm_2k.jpg",
+          "expected_bytes": 829879,
+          "expected_md5": "b61dd56e72420bd1e08cc8f63c5e7e0e"
+        },
+        {
+          "path": "models/rock_07/textures/rock_07_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_07/rock_07_diff_2k.jpg",
+          "expected_bytes": 2227207,
+          "expected_md5": "21dec6e230e78a4a3758a93f1963e6a1"
+        },
+        {
+          "path": "models/rock_07/textures/rock_07_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_07/rock_07_nor_gl_2k.jpg",
+          "expected_bytes": 2781907,
+          "expected_md5": "a0842c476bfbb004d6e1a1f479f4512c"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_crate_01",
+      "title": "Wooden Crate 01",
+      "source_url": "https://polyhaven.com/a/wooden_crate_01",
+      "author": "James Ray Cock",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wooden_crate_01_metadata.json",
+      "file_catalog_evidence": "evidence/wooden_crate_01_files.json",
+      "type": "3d_model",
+      "polycount": 6576,
+      "files": [
+        {
+          "path": "models/wooden_crate_01/wooden_crate_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_crate_01/wooden_crate_01_2k.gltf",
+          "expected_bytes": 5612,
+          "expected_md5": "0fcc2eefac2c31d293152daf68667afe"
+        },
+        {
+          "path": "models/wooden_crate_01/wooden_crate_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wooden_crate_01/wooden_crate_01.bin",
+          "expected_bytes": 189408,
+          "expected_md5": "8318f76b0c24b5538ce23051dbcb79a0"
+        },
+        {
+          "path": "models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_arm_2k.jpg",
+          "expected_bytes": 2808807,
+          "expected_md5": "cab0dc371ff6d90a091737d4b6f92d0f"
+        },
+        {
+          "path": "models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_nor_gl_2k.jpg",
+          "expected_bytes": 2553649,
+          "expected_md5": "2d693bd47dd55fc02c2ff8b6195a9181"
+        },
+        {
+          "path": "models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_diff_2k.jpg",
+          "expected_bytes": 2728494,
+          "expected_md5": "d4e0552359a0e8fddcb15827f9781cef"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_old_military_crate",
+      "title": "Old Military Crate",
+      "source_url": "https://polyhaven.com/a/old_military_crate",
+      "author": "Jack Mava",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/old_military_crate_metadata.json",
+      "file_catalog_evidence": "evidence/old_military_crate_files.json",
+      "type": "3d_model",
+      "polycount": 10476,
+      "files": [
+        {
+          "path": "models/old_military_crate/old_military_crate_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/old_military_crate/old_military_crate_2k.gltf",
+          "expected_bytes": 10126,
+          "expected_md5": "38a0dbf05a8086e54978fa5f3f45ba49"
+        },
+        {
+          "path": "models/old_military_crate/textures/old_military_crate_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_military_crate/old_military_crate_nor_gl_2k.jpg",
+          "expected_bytes": 3184154,
+          "expected_md5": "d7fc7062b059c6f99ae5de99af6c33b6"
+        },
+        {
+          "path": "models/old_military_crate/textures/old_military_crate_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_military_crate/old_military_crate_diff_2k.jpg",
+          "expected_bytes": 2968985,
+          "expected_md5": "141e3163cfd56a2654440a4f4fac9bfa"
+        },
+        {
+          "path": "models/old_military_crate/textures/old_military_crate_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_military_crate/old_military_crate_arm_2k.jpg",
+          "expected_bytes": 2808924,
+          "expected_md5": "84727b16aef55f262d04dd1ebd265dc6"
+        },
+        {
+          "path": "models/old_military_crate/old_military_crate.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/old_military_crate/old_military_crate.bin",
+          "expected_bytes": 329004,
+          "expected_md5": "4aa204ebcc401c38206677a808aebea6"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain.",
+        "Check and repaint printed labels/markings for the 1930s Northeast China setting."
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_military_crate",
+      "title": "Wooden Military Crate",
+      "source_url": "https://polyhaven.com/a/wooden_military_crate",
+      "author": "Prabhjinder Singh",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wooden_military_crate_metadata.json",
+      "file_catalog_evidence": "evidence/wooden_military_crate_files.json",
+      "type": "3d_model",
+      "polycount": 22986,
+      "files": [
+        {
+          "path": "models/wooden_military_crate/wooden_military_crate_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_military_crate/wooden_military_crate_2k.gltf",
+          "expected_bytes": 6002,
+          "expected_md5": "2c84491b19099a64bda9b5bd8b45b310"
+        },
+        {
+          "path": "models/wooden_military_crate/textures/wooden_military_crate_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_military_crate/wooden_military_crate_nor_gl_2k.jpg",
+          "expected_bytes": 3257305,
+          "expected_md5": "37626f706e87708ee2e3acd3d0e77c2c"
+        },
+        {
+          "path": "models/wooden_military_crate/textures/wooden_military_crate_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_military_crate/wooden_military_crate_diff_2k.jpg",
+          "expected_bytes": 3301328,
+          "expected_md5": "0cb09af655abcaea6e6b53a7a96a487c"
+        },
+        {
+          "path": "models/wooden_military_crate/textures/wooden_military_crate_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_military_crate/wooden_military_crate_arm_2k.jpg",
+          "expected_bytes": 2970344,
+          "expected_md5": "1b926ab999f8afaaae0bf52e55fbe429"
+        },
+        {
+          "path": "models/wooden_military_crate/wooden_military_crate.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_military_crate/wooden_military_crate.bin",
+          "expected_bytes": 687548,
+          "expected_md5": "fb5dbf4aed842eb45f2e18e62683d34a"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain.",
+        "Check and repaint printed labels/markings for the 1930s Northeast China setting."
+      ]
+    },
+    {
+      "id": "polyhaven_wine_barrel_01",
+      "title": "Wine Barrel 01",
+      "source_url": "https://polyhaven.com/a/wine_barrel_01",
+      "author": "James Ray Cock",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wine_barrel_01_metadata.json",
+      "file_catalog_evidence": "evidence/wine_barrel_01_files.json",
+      "type": "3d_model",
+      "polycount": 10820,
+      "files": [
+        {
+          "path": "models/wine_barrel_01/wine_barrel_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wine_barrel_01/wine_barrel_01_2k.gltf",
+          "expected_bytes": 6673,
+          "expected_md5": "d539ff427a5712be4133ffc8489b093b"
+        },
+        {
+          "path": "models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wine_barrel_01/wine_barrel_01_arm_2k.jpg",
+          "expected_bytes": 579968,
+          "expected_md5": "05f9953cd7d08c3cd4ae197c84262a3e"
+        },
+        {
+          "path": "models/wine_barrel_01/wine_barrel_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wine_barrel_01/wine_barrel_01.bin",
+          "expected_bytes": 385912,
+          "expected_md5": "84f578460020912056a1e3fbe3ec1b97"
+        },
+        {
+          "path": "models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wine_barrel_01/wine_barrel_01_nor_gl_2k.jpg",
+          "expected_bytes": 531442,
+          "expected_md5": "9ba30a934324a4bb078bcb1e220b062f"
+        },
+        {
+          "path": "models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wine_barrel_01/wine_barrel_01_diff_2k.jpg",
+          "expected_bytes": 728748,
+          "expected_md5": "dbc89b97cee96eae289c8786c7d99351"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_bucket_01",
+      "title": "Wooden Bucket 01",
+      "source_url": "https://polyhaven.com/a/wooden_bucket_01",
+      "author": "James Ray Cock",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wooden_bucket_01_metadata.json",
+      "file_catalog_evidence": "evidence/wooden_bucket_01_files.json",
+      "type": "3d_model",
+      "polycount": 5116,
+      "files": [
+        {
+          "path": "models/wooden_bucket_01/wooden_bucket_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_bucket_01/wooden_bucket_01_2k.gltf",
+          "expected_bytes": 4248,
+          "expected_md5": "52a2fe64f09c9480facc0631e121eaef"
+        },
+        {
+          "path": "models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bucket_01/wooden_bucket_01_diff_2k.jpg",
+          "expected_bytes": 2656660,
+          "expected_md5": "2cd2c5932fa159c0a6461dbb0e87802e"
+        },
+        {
+          "path": "models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bucket_01/wooden_bucket_01_nor_gl_2k.jpg",
+          "expected_bytes": 2926119,
+          "expected_md5": "6fd04a013a65b7a645537e489418dbfd"
+        },
+        {
+          "path": "models/wooden_bucket_01/wooden_bucket_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wooden_bucket_01/wooden_bucket_01.bin",
+          "expected_bytes": 158408,
+          "expected_md5": "a93114e5fadd149de908464de7b42550"
+        },
+        {
+          "path": "models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bucket_01/wooden_bucket_01_arm_2k.jpg",
+          "expected_bytes": 2758514,
+          "expected_md5": "d7e45f8c8e827474c25a8ab36e77d4dc"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_ladder",
+      "title": "Wooden Ladder",
+      "source_url": "https://polyhaven.com/a/wooden_ladder",
+      "author": "Miroslav Turura",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wooden_ladder_metadata.json",
+      "file_catalog_evidence": "evidence/wooden_ladder_files.json",
+      "type": "3d_model",
+      "polycount": 8492,
+      "files": [
+        {
+          "path": "models/wooden_ladder/wooden_ladder_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_ladder/wooden_ladder_2k.gltf",
+          "expected_bytes": 4390,
+          "expected_md5": "3e68ad46a2c48536c4cc0c459bced8b3"
+        },
+        {
+          "path": "models/wooden_ladder/textures/wooden_ladder_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_ladder/wooden_ladder_nor_gl_2k.jpg",
+          "expected_bytes": 2624568,
+          "expected_md5": "514523d8c8fde68ba55750e6df36969a"
+        },
+        {
+          "path": "models/wooden_ladder/textures/wooden_ladder_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_ladder/wooden_ladder_diff_2k.jpg",
+          "expected_bytes": 2917245,
+          "expected_md5": "cb48ea1ee50b5f1925cc996ecbe593e6"
+        },
+        {
+          "path": "models/wooden_ladder/textures/wooden_ladder_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_ladder/wooden_ladder_arm_2k.jpg",
+          "expected_bytes": 3090590,
+          "expected_md5": "9b98f79b36157464f87a75891ad469bd"
+        },
+        {
+          "path": "models/wooden_ladder/wooden_ladder.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_ladder/wooden_ladder.bin",
+          "expected_bytes": 282184,
+          "expected_md5": "058aa183bf6ea324a181d003dabe84c9"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_axe_02",
+      "title": "Wooden Axe 02",
+      "source_url": "https://polyhaven.com/a/wooden_axe_02",
+      "author": "Ulan Cabanilla",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wooden_axe_02_metadata.json",
+      "file_catalog_evidence": "evidence/wooden_axe_02_files.json",
+      "type": "3d_model",
+      "polycount": 2218,
+      "files": [
+        {
+          "path": "models/wooden_axe_02/wooden_axe_02_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_axe_02/wooden_axe_02_2k.gltf",
+          "expected_bytes": 2774,
+          "expected_md5": "0712a3171350c062bcb3d216c14fab93"
+        },
+        {
+          "path": "models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_axe_02/wooden_axe_02_arm_2k.jpg",
+          "expected_bytes": 3218573,
+          "expected_md5": "698e42bf8cf7bde016a2f3fd20613e4f"
+        },
+        {
+          "path": "models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_axe_02/wooden_axe_02_diff_2k.jpg",
+          "expected_bytes": 3055826,
+          "expected_md5": "8f357e5969c99fc252fd072d7f35b6d7"
+        },
+        {
+          "path": "models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_axe_02/wooden_axe_02_nor_gl_2k.jpg",
+          "expected_bytes": 2424098,
+          "expected_md5": "7ebb3ced0f2a04e642d1cf25567889b5"
+        },
+        {
+          "path": "models/wooden_axe_02/wooden_axe_02.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_axe_02/wooden_axe_02.bin",
+          "expected_bytes": 59196,
+          "expected_md5": "b4a0979c424f7abc64767fc6a4f96b6e"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_handsaw_wood",
+      "title": "Handsaw Wood",
+      "source_url": "https://polyhaven.com/a/handsaw_wood",
+      "author": "Konrad Szałankiewicz",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/handsaw_wood_metadata.json",
+      "file_catalog_evidence": "evidence/handsaw_wood_files.json",
+      "type": "3d_model",
+      "polycount": 2548,
+      "files": [
+        {
+          "path": "models/handsaw_wood/handsaw_wood_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/handsaw_wood/handsaw_wood_2k.gltf",
+          "expected_bytes": 2762,
+          "expected_md5": "47de82796b5f85d9747436a652c3a312"
+        },
+        {
+          "path": "models/handsaw_wood/textures/handsaw_wood_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/handsaw_wood/handsaw_wood_arm_2k.jpg",
+          "expected_bytes": 3209921,
+          "expected_md5": "d17709f8d41b08e894f39c8714d2d0ff"
+        },
+        {
+          "path": "models/handsaw_wood/handsaw_wood.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/handsaw_wood/handsaw_wood.bin",
+          "expected_bytes": 89624,
+          "expected_md5": "a6c9236ed8f9201bbd13f1ef984b21ca"
+        },
+        {
+          "path": "models/handsaw_wood/textures/handsaw_wood_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/handsaw_wood/handsaw_wood_nor_gl_2k.jpg",
+          "expected_bytes": 2857031,
+          "expected_md5": "9ffce4719c56d16eafa0e2fca2c40e3d"
+        },
+        {
+          "path": "models/handsaw_wood/textures/handsaw_wood_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/handsaw_wood/handsaw_wood_diff_2k.jpg",
+          "expected_bytes": 2711227,
+          "expected_md5": "fa247473c4aa4e82f1013f6c26d14d92"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_Lantern_01",
+      "title": "Lantern 01",
+      "source_url": "https://polyhaven.com/a/Lantern_01",
+      "author": "Rajil Jose Macatangay",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/Lantern_01_metadata.json",
+      "file_catalog_evidence": "evidence/Lantern_01_files.json",
+      "type": "3d_model",
+      "polycount": 33902,
+      "files": [
+        {
+          "path": "models/Lantern_01/Lantern_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/Lantern_01/Lantern_01_2k.gltf",
+          "expected_bytes": 4866,
+          "expected_md5": "547ce8bced853073ef9d9367f0ee1930"
+        },
+        {
+          "path": "models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Lantern_01/Lantern_01_brass_diff_2k.jpg",
+          "expected_bytes": 519828,
+          "expected_md5": "e28d5e3c524040c2910bd9d19ce45a35"
+        },
+        {
+          "path": "models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Lantern_01/Lantern_01_brass_nor_gl_2k.jpg",
+          "expected_bytes": 805944,
+          "expected_md5": "ddf52226353a7329997c143d5c26a79b"
+        },
+        {
+          "path": "models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Lantern_01/Lantern_01_brass_arm_2k.jpg",
+          "expected_bytes": 847840,
+          "expected_md5": "10a5d10c22dca0ededd3b65e65f70107"
+        },
+        {
+          "path": "models/Lantern_01/Lantern_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/Lantern_01/Lantern_01.bin",
+          "expected_bytes": 864852,
+          "expected_md5": "857a868798e7e5f40d78c2d09e6f8ea0"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_WoodenTable_01",
+      "title": "Wooden Table 01",
+      "source_url": "https://polyhaven.com/a/WoodenTable_01",
+      "author": "Ethan Place",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/WoodenTable_01_metadata.json",
+      "file_catalog_evidence": "evidence/WoodenTable_01_files.json",
+      "type": "3d_model",
+      "polycount": 952,
+      "files": [
+        {
+          "path": "models/WoodenTable_01/WoodenTable_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/WoodenTable_01/WoodenTable_01_2k.gltf",
+          "expected_bytes": 2688,
+          "expected_md5": "1077d725ff587c92b951446534a12533"
+        },
+        {
+          "path": "models/WoodenTable_01/WoodenTable_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/WoodenTable_01/WoodenTable_01.bin",
+          "expected_bytes": 42064,
+          "expected_md5": "b764ee635684db5cc2c06288d51a3c14"
+        },
+        {
+          "path": "models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/WoodenTable_01/WoodenTable_01_diff_2k.jpg",
+          "expected_bytes": 537903,
+          "expected_md5": "36cc69fe92823391f97363b51b9f8512"
+        },
+        {
+          "path": "models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/WoodenTable_01/WoodenTable_01_nor_gl_2k.jpg",
+          "expected_bytes": 497296,
+          "expected_md5": "d18f1390d9806653b99c4ce3110142d0"
+        },
+        {
+          "path": "models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/WoodenTable_01/WoodenTable_01_arm_2k.jpg",
+          "expected_bytes": 744344,
+          "expected_md5": "e95bfdaafd43d7e90ba4f34fe33e4d5e"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_stool_01",
+      "title": "Wooden Stool 01",
+      "source_url": "https://polyhaven.com/a/wooden_stool_01",
+      "author": "Kuutti Siitonen",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wooden_stool_01_metadata.json",
+      "file_catalog_evidence": "evidence/wooden_stool_01_files.json",
+      "type": "3d_model",
+      "polycount": 10946,
+      "files": [
+        {
+          "path": "models/wooden_stool_01/wooden_stool_01_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_stool_01/wooden_stool_01_2k.gltf",
+          "expected_bytes": 2715,
+          "expected_md5": "c02502685cece3b0418bea9e9f7c0861"
+        },
+        {
+          "path": "models/wooden_stool_01/wooden_stool_01.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wooden_stool_01/wooden_stool_01.bin",
+          "expected_bytes": 290924,
+          "expected_md5": "883e9617a69e90be7e19447dca83041c"
+        },
+        {
+          "path": "models/wooden_stool_01/textures/wooden_stool_01_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_stool_01/wooden_stool_01_rough_2k.jpg",
+          "expected_bytes": 794678,
+          "expected_md5": "f22525d65238293e60ef7abc720cd5f5"
+        },
+        {
+          "path": "models/wooden_stool_01/textures/wooden_stool_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_stool_01/wooden_stool_01_diff_2k.jpg",
+          "expected_bytes": 908336,
+          "expected_md5": "ee6190745468180c358e2f0c39da8871"
+        },
+        {
+          "path": "models/wooden_stool_01/textures/wooden_stool_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_stool_01/wooden_stool_01_nor_gl_2k.jpg",
+          "expected_bytes": 1161595,
+          "expected_md5": "cdaccb09cc95589de6de34a8e0e3f224"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_bookshelf_worn",
+      "title": "Wooden Bookshelf Worn",
+      "source_url": "https://polyhaven.com/a/wooden_bookshelf_worn",
+      "author": "Ulan Cabanilla",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wooden_bookshelf_worn_metadata.json",
+      "file_catalog_evidence": "evidence/wooden_bookshelf_worn_files.json",
+      "type": "3d_model",
+      "polycount": 10106,
+      "files": [
+        {
+          "path": "models/wooden_bookshelf_worn/wooden_bookshelf_worn_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_bookshelf_worn/wooden_bookshelf_worn_2k.gltf",
+          "expected_bytes": 2849,
+          "expected_md5": "160c74db04f4893185f1c14d1d59eb1a"
+        },
+        {
+          "path": "models/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bookshelf_worn/wooden_bookshelf_worn_diff_2k.jpg",
+          "expected_bytes": 3196349,
+          "expected_md5": "d30c5d793a1c7301a2096f070aef0941"
+        },
+        {
+          "path": "models/wooden_bookshelf_worn/wooden_bookshelf_worn.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_bookshelf_worn/wooden_bookshelf_worn.bin",
+          "expected_bytes": 267964,
+          "expected_md5": "3842de1943f58cdafb3a25d384b2400f"
+        },
+        {
+          "path": "models/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bookshelf_worn/wooden_bookshelf_worn_arm_2k.jpg",
+          "expected_bytes": 2749576,
+          "expected_md5": "1c9d7ef5073fec63760cec1d30d2c573"
+        },
+        {
+          "path": "models/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bookshelf_worn/wooden_bookshelf_worn_nor_gl_2k.jpg",
+          "expected_bytes": 4101268,
+          "expected_md5": "14523af1b58c2bad9469e1174d6d4fe3"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_barrel_stove",
+      "title": "Barrel Stove",
+      "source_url": "https://polyhaven.com/a/barrel_stove",
+      "author": "MP",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/barrel_stove_metadata.json",
+      "file_catalog_evidence": "evidence/barrel_stove_files.json",
+      "type": "3d_model",
+      "polycount": 11404,
+      "files": [
+        {
+          "path": "models/barrel_stove/barrel_stove_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/barrel_stove/barrel_stove_2k.gltf",
+          "expected_bytes": 2747,
+          "expected_md5": "311afb0daef7e262cdf14668cc8f88bf"
+        },
+        {
+          "path": "models/barrel_stove/textures/barrel_stove_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/barrel_stove/barrel_stove_diff_2k.jpg",
+          "expected_bytes": 3451677,
+          "expected_md5": "8ec2f1037f97c629f51f380c9beaa973"
+        },
+        {
+          "path": "models/barrel_stove/barrel_stove.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/barrel_stove/barrel_stove.bin",
+          "expected_bytes": 267680,
+          "expected_md5": "6f152ba1f02c40efc326247416d18a51"
+        },
+        {
+          "path": "models/barrel_stove/textures/barrel_stove_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/barrel_stove/barrel_stove_arm_2k.jpg",
+          "expected_bytes": 2937259,
+          "expected_md5": "823ad3e734ffdd3d27fda743c85eb764"
+        },
+        {
+          "path": "models/barrel_stove/textures/barrel_stove_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/barrel_stove/barrel_stove_nor_gl_2k.jpg",
+          "expected_bytes": 694414,
+          "expected_md5": "cba827b983eb8dbb71562347e6880f4a"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_modular_wooden_pier",
+      "title": "Modular Wooden Pier",
+      "source_url": "https://polyhaven.com/a/modular_wooden_pier",
+      "author": "Rico Cilliers",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/modular_wooden_pier_metadata.json",
+      "file_catalog_evidence": "evidence/modular_wooden_pier_files.json",
+      "type": "3d_model",
+      "polycount": 84780,
+      "files": [
+        {
+          "path": "models/modular_wooden_pier/modular_wooden_pier_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modular_wooden_pier/modular_wooden_pier_2k.gltf",
+          "expected_bytes": 21127,
+          "expected_md5": "90a45abef7245cd0b54dc8cada94d3a3"
+        },
+        {
+          "path": "models/modular_wooden_pier/modular_wooden_pier.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_wooden_pier/modular_wooden_pier.bin",
+          "expected_bytes": 2651092,
+          "expected_md5": "dbdbeca4676a3012a64b4daa75d1f97c"
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_planks_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_wooden_pier/modular_wooden_pier_planks_arm_2k.jpg",
+          "expected_bytes": 2718602,
+          "expected_md5": "7f685bf8bd9cbb8e83e8546d60776873"
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_planks_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_wooden_pier/modular_wooden_pier_planks_nor_gl_2k.jpg",
+          "expected_bytes": 4272628,
+          "expected_md5": "21a821d3a0d6f484c19c199853a1bbef"
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_planks_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_wooden_pier/modular_wooden_pier_planks_diff_2k.jpg",
+          "expected_bytes": 2886320,
+          "expected_md5": "636da8df2fc13ca85e3f96fe2fa0d527"
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_poles_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_wooden_pier/modular_wooden_pier_poles_arm_2k.jpg",
+          "expected_bytes": 3156282,
+          "expected_md5": "eedd38da6254c68aff47d93099b4ae8b"
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_poles_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_wooden_pier/modular_wooden_pier_poles_nor_gl_2k.jpg",
+          "expected_bytes": 4033427,
+          "expected_md5": "9cdef0bc0587c64f5ba52432a986229e"
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_poles_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_wooden_pier/modular_wooden_pier_poles_diff_2k.jpg",
+          "expected_bytes": 3319026,
+          "expected_md5": "1a73fa4ad5d6bf82931a4c3b387b76f4"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain."
+      ]
+    },
+    {
+      "id": "polyhaven_pine_sapling_small",
+      "title": "Pine Sapling Small",
+      "source_url": "https://polyhaven.com/a/pine_sapling_small",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/pine_sapling_small_metadata.json",
+      "file_catalog_evidence": "evidence/pine_sapling_small_files.json",
+      "type": "3d_model",
+      "polycount": 398144,
+      "files": [
+        {
+          "path": "models/pine_sapling_small/pine_sapling_small_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/pine_sapling_small/pine_sapling_small_2k.gltf",
+          "expected_bytes": 11442,
+          "expected_md5": "adfea6822fe6b16db26a1036530b7555"
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_sapling_small/pine_sapling_small_bark_arm_2k.jpg",
+          "expected_bytes": 2941366,
+          "expected_md5": "218f22567f42e7918afc25c7e3450be8"
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_sapling_small/pine_sapling_small_twig_nor_gl_2k.jpg",
+          "expected_bytes": 2557993,
+          "expected_md5": "07d9fbb7a95f16a0d733f06efbca56a7"
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_sapling_small/pine_sapling_small_bark_diff_2k.jpg",
+          "expected_bytes": 2700448,
+          "expected_md5": "f420cb9ca2e845cd988f3bcf03c41a85"
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_sapling_small/pine_sapling_small_twig_diff_2k.jpg",
+          "expected_bytes": 1542464,
+          "expected_md5": "acb5a3388d67a8cfcdcfcf9c66539fd0"
+        },
+        {
+          "path": "models/pine_sapling_small/pine_sapling_small.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pine_sapling_small/pine_sapling_small.bin",
+          "expected_bytes": 17771796,
+          "expected_md5": "76dd1802d8de128c812f2e124a258b35"
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_sapling_small/pine_sapling_small_bark_nor_gl_2k.jpg",
+          "expected_bytes": 3373886,
+          "expected_md5": "da6eb7bc3c4eafea4e8ed696f7891a73"
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pine_sapling_small/pine_sapling_small_twig_arm_2k.jpg",
+          "expected_bytes": 1251644,
+          "expected_md5": "20b41bc76f1e40e11d1847b39779c015"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain.",
+        "High polygon source asset: decimation/LOD or baking is required before dense realtime placement.",
+        "Small sapling; does not replace a mature forest tree set. Need mature pine/birch models and wind setup."
+      ]
+    },
+    {
+      "id": "polyhaven_vintage_radio_transceiver",
+      "title": "Vintage Radio Transceiver",
+      "source_url": "https://polyhaven.com/a/vintage_radio_transceiver",
+      "author": "Mateusz Sadek",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/vintage_radio_transceiver_metadata.json",
+      "file_catalog_evidence": "evidence/vintage_radio_transceiver_files.json",
+      "type": "3d_model",
+      "polycount": 42350,
+      "files": [
+        {
+          "path": "models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf",
+          "expected_bytes": 25848,
+          "expected_md5": "af5ddd4c138c5df0f3b71dcc55f1cb78"
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_radio_transceiver/vintage_radio_transceiver_nor_gl_2k.jpg",
+          "expected_bytes": 1809010,
+          "expected_md5": "ff82c5beffbb15b6b957068146bd29c2"
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_radio_transceiver/vintage_radio_transceiver_diff_2k.jpg",
+          "expected_bytes": 2978698,
+          "expected_md5": "ca8ed94854fd44184fe4709bc191934b"
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_radio_transceiver/vintage_radio_transceiver_arm_2k.jpg",
+          "expected_bytes": 3683828,
+          "expected_md5": "8e4e2afe7b1169af11238411bd81e482"
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_radio_transceiver/vintage_radio_transceiver_accessories_nor_gl_2k.jpg",
+          "expected_bytes": 1927802,
+          "expected_md5": "13f79c9f8a46b0c4481f97876abf0226"
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_radio_transceiver/vintage_radio_transceiver_accessories_diff_2k.jpg",
+          "expected_bytes": 2759700,
+          "expected_md5": "6d8f410e64947c3c3b74cda91f33a1e6"
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_radio_transceiver/vintage_radio_transceiver_accessories_arm_2k.jpg",
+          "expected_bytes": 3430814,
+          "expected_md5": "ad1bea0b52eddb104d95709f086e399e"
+        },
+        {
+          "path": "models/vintage_radio_transceiver/vintage_radio_transceiver.bin",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/vintage_radio_transceiver/vintage_radio_transceiver.bin",
+          "expected_bytes": 1740024,
+          "expected_md5": "81b1c00a7fe0254f6d507bb80111368f"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "glTF 2.0 with all API-listed buffers and textures. Godot supports glTF import; collision, LOD, placement and material tuning remain.",
+        "WW2-style field radio: useful for the telegraph room; specific model/year and army markings need historical review or repainting."
+      ]
+    },
+    {
+      "id": "polyhaven_brown_mud_leaves_01",
+      "title": "Brown Mud Leaves 01",
+      "source_url": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "author": "Rob Tuytel",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/brown_mud_leaves_01_metadata.json",
+      "file_catalog_evidence": "evidence/brown_mud_leaves_01_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg",
+          "expected_bytes": 4539452,
+          "expected_md5": "e8b45aee8e00a253eb3a2b08cea89776"
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg",
+          "expected_bytes": 5688696,
+          "expected_md5": "eb2c704d2889e1e5a53148dc6a2ebdf4"
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg",
+          "expected_bytes": 2421908,
+          "expected_md5": "3e7209ff00204174c5bd013df3945b22"
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_ao_2k.jpg",
+          "expected_bytes": 3813568,
+          "expected_md5": "63089afd1c1bdbe5506d6d2b3f3942e0"
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_disp_2k.jpg",
+          "expected_bytes": 1788400,
+          "expected_md5": "cbf64ab799b5d9fa5ef27da55692e563"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_forest_ground_04",
+      "title": "Forest Ground 04",
+      "source_url": "https://polyhaven.com/a/forest_ground_04",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/forest_ground_04_metadata.json",
+      "file_catalog_evidence": "evidence/forest_ground_04_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_ground_04/forest_ground_04_diff_2k.jpg",
+          "expected_bytes": 4529321,
+          "expected_md5": "f6ce9c8af4316c2627a4b3fbab8ad944"
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_ground_04/forest_ground_04_nor_gl_2k.jpg",
+          "expected_bytes": 5288849,
+          "expected_md5": "5fa9256955e7bfa40a0269b4965ce646"
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_ground_04/forest_ground_04_rough_2k.jpg",
+          "expected_bytes": 2509805,
+          "expected_md5": "81daa9a1d8b35dd9ffdff3aa7a74fbd9"
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_ground_04/forest_ground_04_ao_2k.jpg",
+          "expected_bytes": 2950026,
+          "expected_md5": "c86e235729064b28e2354bf4bdcd4465"
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_ground_04/forest_ground_04_disp_2k.jpg",
+          "expected_bytes": 696276,
+          "expected_md5": "2d342b36619dc1a4e4afcd3bfc256dfe"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_muddy_tracks",
+      "title": "Muddy Tracks",
+      "source_url": "https://polyhaven.com/a/muddy_tracks",
+      "author": "Amal Kumar",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/muddy_tracks_metadata.json",
+      "file_catalog_evidence": "evidence/muddy_tracks_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/muddy_tracks/muddy_tracks_diff_2k.jpg",
+          "expected_bytes": 2969433,
+          "expected_md5": "f3a4fce7216493f69741ad88f52daab8"
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/muddy_tracks/muddy_tracks_nor_gl_2k.jpg",
+          "expected_bytes": 5110104,
+          "expected_md5": "f8d5c1f1e90bae67605b5fca77761ee2"
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/muddy_tracks/muddy_tracks_rough_2k.jpg",
+          "expected_bytes": 3035220,
+          "expected_md5": "4c6dd34d04b0ba95e024e6c345a352c3"
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/muddy_tracks/muddy_tracks_ao_2k.jpg",
+          "expected_bytes": 3585977,
+          "expected_md5": "897d2c14f16a8b0d3410d330730329e6"
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/muddy_tracks/muddy_tracks_disp_2k.jpg",
+          "expected_bytes": 1408615,
+          "expected_md5": "33eb0a986110353bd6493336e2a0e624"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_pine_bark",
+      "title": "Pine Bark",
+      "source_url": "https://polyhaven.com/a/pine_bark",
+      "author": "Dimitrios Savva",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/pine_bark_metadata.json",
+      "file_catalog_evidence": "evidence/pine_bark_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/pine_bark/pine_bark_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/pine_bark/pine_bark_diff_2k.jpg",
+          "expected_bytes": 3167561,
+          "expected_md5": "d10980446d36a65a73081cf61bc84992"
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/pine_bark/pine_bark_nor_gl_2k.jpg",
+          "expected_bytes": 4637035,
+          "expected_md5": "ee1de039967165665060653a0e12e571"
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/pine_bark/pine_bark_rough_2k.jpg",
+          "expected_bytes": 2085022,
+          "expected_md5": "9ea974ea3e298b30ee3b7a21ec05b566"
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/pine_bark/pine_bark_ao_2k.jpg",
+          "expected_bytes": 2874296,
+          "expected_md5": "604da5925849b0270b7ec46c211d909d"
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/pine_bark/pine_bark_disp_2k.jpg",
+          "expected_bytes": 1259109,
+          "expected_md5": "4f46a23fd05aed2f2c5ab948abb1e589"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_japanese_cedar_bark",
+      "title": "Japanese Cedar Bark",
+      "source_url": "https://polyhaven.com/a/japanese_cedar_bark",
+      "author": "Charlotte Baglioni",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/japanese_cedar_bark_metadata.json",
+      "file_catalog_evidence": "evidence/japanese_cedar_bark_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/japanese_cedar_bark/japanese_cedar_bark_diff_2k.jpg",
+          "expected_bytes": 5506299,
+          "expected_md5": "916a1359baaa898c01ddf019a209f7c0"
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/japanese_cedar_bark/japanese_cedar_bark_nor_gl_2k.jpg",
+          "expected_bytes": 7737423,
+          "expected_md5": "d8a3eff507e9e300e820626b9481f470"
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/japanese_cedar_bark/japanese_cedar_bark_rough_2k.jpg",
+          "expected_bytes": 1672128,
+          "expected_md5": "e833678fe2af6851939efcffc86f54f8"
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/japanese_cedar_bark/japanese_cedar_bark_ao_2k.jpg",
+          "expected_bytes": 4867266,
+          "expected_md5": "cf0ef0e8b9c329d49501094e09eb6eba"
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/japanese_cedar_bark/japanese_cedar_bark_disp_2k.jpg",
+          "expected_bytes": 2197719,
+          "expected_md5": "fbc186dd0f204482ec90145a480a064a"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wood_trunk_wall",
+      "title": "Wood Trunk Wall",
+      "source_url": "https://polyhaven.com/a/wood_trunk_wall",
+      "author": "Amal Kumar",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wood_trunk_wall_metadata.json",
+      "file_catalog_evidence": "evidence/wood_trunk_wall_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_trunk_wall/wood_trunk_wall_diff_2k.jpg",
+          "expected_bytes": 2082901,
+          "expected_md5": "4ee54e6e4e1b2460d091ab66dbe9c533"
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_trunk_wall/wood_trunk_wall_nor_gl_2k.jpg",
+          "expected_bytes": 3551981,
+          "expected_md5": "316f64bf1cb6cb066e164def07ec6103"
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_trunk_wall/wood_trunk_wall_rough_2k.jpg",
+          "expected_bytes": 1544604,
+          "expected_md5": "1295a3c158b6d1058950f76b6504b15c"
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_trunk_wall/wood_trunk_wall_ao_2k.jpg",
+          "expected_bytes": 1671625,
+          "expected_md5": "a5d930158f7e2ccdbf53ccaf17d45425"
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_trunk_wall/wood_trunk_wall_disp_2k.jpg",
+          "expected_bytes": 626328,
+          "expected_md5": "07db04cf5f166dae1a74a79aac5cfd3a"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_weathered_brown_planks",
+      "title": "Weathered Brown Planks",
+      "source_url": "https://polyhaven.com/a/weathered_brown_planks",
+      "author": "Dimitrios Savva, Rico Cilliers",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/weathered_brown_planks_metadata.json",
+      "file_catalog_evidence": "evidence/weathered_brown_planks_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg",
+          "expected_bytes": 911358,
+          "expected_md5": "31317a56abbee4fbf7018d9f41180827"
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg",
+          "expected_bytes": 1029733,
+          "expected_md5": "d6720855901b27dbdd209942f327b795"
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg",
+          "expected_bytes": 944154,
+          "expected_md5": "4dd58553f1d0f76bf883b71aa9fc89ea"
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/weathered_brown_planks/weathered_brown_planks_ao_2k.jpg",
+          "expected_bytes": 600648,
+          "expected_md5": "afbfe9f3308edd0d532badf095ce7ca9"
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/weathered_brown_planks/weathered_brown_planks_disp_2k.jpg",
+          "expected_bytes": 374197,
+          "expected_md5": "18c5f810bb461bf82ed1f54b135a91c1"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_raw_plank_wall",
+      "title": "Raw Plank Wall",
+      "source_url": "https://polyhaven.com/a/raw_plank_wall",
+      "author": "Dimitrios Savva",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/raw_plank_wall_metadata.json",
+      "file_catalog_evidence": "evidence/raw_plank_wall_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/raw_plank_wall/raw_plank_wall_diff_2k.jpg",
+          "expected_bytes": 2522671,
+          "expected_md5": "b56bcf1c5c2c4c984468598afcc62be6"
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/raw_plank_wall/raw_plank_wall_nor_gl_2k.jpg",
+          "expected_bytes": 3223836,
+          "expected_md5": "2752697ed683a35ccbb080c1c4e5408b"
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/raw_plank_wall/raw_plank_wall_rough_2k.jpg",
+          "expected_bytes": 1637646,
+          "expected_md5": "ff518ba0bd6b61a0f34fa2456976ec13"
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/raw_plank_wall/raw_plank_wall_ao_2k.jpg",
+          "expected_bytes": 2527943,
+          "expected_md5": "5baa5d3e55815d82fc8441a3b71ccb56"
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/raw_plank_wall/raw_plank_wall_disp_2k.jpg",
+          "expected_bytes": 813999,
+          "expected_md5": "d1ab084efce8c76e744db83f964145fa"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_wood_chips",
+      "title": "Wood Chips",
+      "source_url": "https://polyhaven.com/a/wood_chips",
+      "author": "eye-candy.xyz",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/wood_chips_metadata.json",
+      "file_catalog_evidence": "evidence/wood_chips_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/wood_chips/wood_chips_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_chips/wood_chips_diff_2k.jpg",
+          "expected_bytes": 4437289,
+          "expected_md5": "399d1cc48468d8da90ea2d1fa94420e5"
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_chips/wood_chips_nor_gl_2k.jpg",
+          "expected_bytes": 5638212,
+          "expected_md5": "cf1717be74a48fed9df8fd3371a4eb2c"
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_chips/wood_chips_rough_2k.jpg",
+          "expected_bytes": 1497828,
+          "expected_md5": "e0fdb7ecf43ce962f7583d41a97cc345"
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_chips/wood_chips_ao_2k.jpg",
+          "expected_bytes": 3341038,
+          "expected_md5": "3254f7869716fa9c12a82b5e230e574c"
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_chips/wood_chips_disp_2k.jpg",
+          "expected_bytes": 1657138,
+          "expected_md5": "6e6a7e9a5ad8f0ad90548c66cf40cc64"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_grey_roof_tiles",
+      "title": "Grey Roof Tiles",
+      "source_url": "https://polyhaven.com/a/grey_roof_tiles",
+      "author": "Rob Tuytel",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/grey_roof_tiles_metadata.json",
+      "file_catalog_evidence": "evidence/grey_roof_tiles_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg",
+          "expected_bytes": 2039152,
+          "expected_md5": "304912638959851b052610a992e05274"
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg",
+          "expected_bytes": 1504796,
+          "expected_md5": "6d1ef876fc9750d81c8c8f6008ca0317"
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg",
+          "expected_bytes": 1009346,
+          "expected_md5": "b726b64fb47ae1be160e5d5d2073aed0"
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_tiles/grey_roof_tiles_ao_2k.jpg",
+          "expected_bytes": 1008759,
+          "expected_md5": "227810c0421ec815d3f2a30e558e5046"
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_tiles/grey_roof_tiles_disp_2k.jpg",
+          "expected_bytes": 467988,
+          "expected_md5": "280ffbef959e46883b6d7e6353834c5c"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_brick_wall_001",
+      "title": "Brick Wall 001",
+      "source_url": "https://polyhaven.com/a/brick_wall_001",
+      "author": "Rob Tuytel, Dimitrios Savva",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/brick_wall_001_metadata.json",
+      "file_catalog_evidence": "evidence/brick_wall_001_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_001/brick_wall_001_diffuse_2k.jpg",
+          "expected_bytes": 2043756,
+          "expected_md5": "0f478f67d252a1fa7b351460a19965bd"
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_001/brick_wall_001_nor_gl_2k.jpg",
+          "expected_bytes": 1160617,
+          "expected_md5": "b3c77c1e0dbbe0788d11b993296bb822"
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_001/brick_wall_001_rough_2k.jpg",
+          "expected_bytes": 788257,
+          "expected_md5": "3218b14608165fb4903dcca0e127c005"
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_001/brick_wall_001_ao_2k.jpg",
+          "expected_bytes": 1052369,
+          "expected_md5": "bde8859a1e9febee40b6316bf641181b"
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_displacement_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_001/brick_wall_001_displacement_2k.jpg",
+          "expected_bytes": 478534,
+          "expected_md5": "6bbd556def5da04f21ae3a6246d635db"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_rusty_metal_04",
+      "title": "Rusty Metal 04",
+      "source_url": "https://polyhaven.com/a/rusty_metal_04",
+      "author": "Amal Kumar",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/rusty_metal_04_metadata.json",
+      "file_catalog_evidence": "evidence/rusty_metal_04_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_04/rusty_metal_04_diff_2k.jpg",
+          "expected_bytes": 3463347,
+          "expected_md5": "4506564abb3ff16ff7a3dfecf0386ba8"
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg",
+          "expected_bytes": 3582694,
+          "expected_md5": "b524a2a880732090097c02371c9d21d7"
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_04/rusty_metal_04_rough_2k.jpg",
+          "expected_bytes": 2548882,
+          "expected_md5": "bf8eb527dd96b3491add04fc07c92455"
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_04/rusty_metal_04_ao_2k.jpg",
+          "expected_bytes": 1103505,
+          "expected_md5": "b26d9535287b63a27cba06ce1ccd98cb"
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_metal_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_04/rusty_metal_04_metal_2k.jpg",
+          "expected_bytes": 3278371,
+          "expected_md5": "634987bd77bb7c08cdb102c053b85891"
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_04/rusty_metal_04_disp_2k.jpg",
+          "expected_bytes": 1090942,
+          "expected_md5": "8b7e92b754ddd5e345cf670c63497d79"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_gravel_road",
+      "title": "Gravel Road",
+      "source_url": "https://polyhaven.com/a/gravel_road",
+      "author": "Amal Kumar",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/gravel_road_metadata.json",
+      "file_catalog_evidence": "evidence/gravel_road_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/gravel_road/gravel_road_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_road/gravel_road_diff_2k.jpg",
+          "expected_bytes": 2871851,
+          "expected_md5": "5d024d27bc8ffa9decad93e4743de749"
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_road/gravel_road_nor_gl_2k.jpg",
+          "expected_bytes": 3613956,
+          "expected_md5": "7c25211b3cf395df072ffad97c6c2550"
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_road/gravel_road_rough_2k.jpg",
+          "expected_bytes": 1203380,
+          "expected_md5": "bbd4f6c7c1b8ceb4c88a41d03e4ba158"
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_road/gravel_road_ao_2k.jpg",
+          "expected_bytes": 1452789,
+          "expected_md5": "63e95c50d35f747fa2777bcd7db37ede"
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_road/gravel_road_disp_2k.jpg",
+          "expected_bytes": 1122273,
+          "expected_md5": "32c59027b713715190ca19dc73c9c0fe"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_snow_02",
+      "title": "Snow 02",
+      "source_url": "https://polyhaven.com/a/snow_02",
+      "author": "Rob Tuytel",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/snow_02_metadata.json",
+      "file_catalog_evidence": "evidence/snow_02_files.json",
+      "type": "pbr_texture_set",
+      "polycount": null,
+      "files": [
+        {
+          "path": "textures/snow_02/snow_02_diff_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_diff_2k.jpg",
+          "expected_bytes": 1314409,
+          "expected_md5": "5541e5601951b071691238ddc70632c0"
+        },
+        {
+          "path": "textures/snow_02/snow_02_nor_gl_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_nor_gl_2k.jpg",
+          "expected_bytes": 4761595,
+          "expected_md5": "ef128fbdf1b31932c792eb6472c84574"
+        },
+        {
+          "path": "textures/snow_02/snow_02_rough_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_rough_2k.jpg",
+          "expected_bytes": 628467,
+          "expected_md5": "8b9787b4c7b1d7390a4b4a1ae67728b1"
+        },
+        {
+          "path": "textures/snow_02/snow_02_ao_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_ao_2k.jpg",
+          "expected_bytes": 1356103,
+          "expected_md5": "7d41f091dd46e66d6023804d030e682c"
+        },
+        {
+          "path": "textures/snow_02/snow_02_disp_2k.jpg",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_disp_2k.jpg",
+          "expected_bytes": 432399,
+          "expected_md5": "c7c8e7848b76819012cbac660a90a61c"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k PBR maps; OpenGL normal selected for Godot. Albedo uses sRGB; roughness, normal, AO and height are data maps. Map scale and material assignment remain."
+      ]
+    },
+    {
+      "id": "polyhaven_kloofendal_overcast_puresky",
+      "title": "Kloofendal Overcast (Pure Sky)",
+      "source_url": "https://polyhaven.com/a/kloofendal_overcast_puresky",
+      "author": "Greg Zaal",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/kloofendal_overcast_puresky_metadata.json",
+      "file_catalog_evidence": "evidence/kloofendal_overcast_puresky_files.json",
+      "type": "hdri",
+      "polycount": null,
+      "files": [
+        {
+          "path": "hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/kloofendal_overcast_puresky_2k.hdr",
+          "expected_bytes": 4335717,
+          "expected_md5": "26462123fc5ce757a331553d05e4db37"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k HDR environment; import into Godot PanoramaSkyMaterial and tune exposure. Forest panorama is lighting/reference, not playable geometry."
+      ]
+    },
+    {
+      "id": "polyhaven_autumn_forest_01",
+      "title": "Autumn Forest 01",
+      "source_url": "https://polyhaven.com/a/autumn_forest_01",
+      "author": "Andreas Mischok",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_evidence": "evidence/polyhaven_license.html",
+      "metadata_evidence": "evidence/autumn_forest_01_metadata.json",
+      "file_catalog_evidence": "evidence/autumn_forest_01_files.json",
+      "type": "hdri",
+      "polycount": null,
+      "files": [
+        {
+          "path": "hdris/autumn_forest_01/autumn_forest_01_2k.hdr",
+          "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/autumn_forest_01_2k.hdr",
+          "expected_bytes": 7562813,
+          "expected_md5": "fa4c8c3f5415e39f0a68cabaa3c83221"
+        }
+      ],
+      "status": "planned",
+      "notes": [
+        "2k HDR environment; import into Godot PanoramaSkyMaterial and tune exposure. Forest panorama is lighting/reference, not playable geometry."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-13",
+  "baseline_release_version": "0.6.1",
+  "embedded_project_version": "0.6",
+  "version_marker_mismatch": true,
+  "starting_checkpoint": "WorkBackups/20261013-115838-S01-in_progress-6a7858",
+  "starting_checkpoint_files": 411,
+  "starting_checkpoint_bytes": 780314358,
+  "release_files": [
+    {
+      "path": "Release/FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424",
+      "matches_release_record": true
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 302605228,
+      "sha256": "0cbb03c8e5707e5d98290c5d272e5ee8fe00e01c2399ebda4bcce0e7f7180c87",
+      "matches_release_record": true
+    }
+  ],
+  "unchanged_source_files_checked": 279,
+  "changed_source_files": [],
+  "editable_sources": [
+    "AssetLibrary/characters/field_character/field_character.blend",
+    "AssetLibrary/first_person/field_hands/field_hands.blend"
+  ],
+  "character_generator_source_dependencies": [
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.bin",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_Normal.png",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_BaseColor.png",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Normal.png",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Brown.png",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Normal.png",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Dark.png",
+    "AssetLibrary/characters/quaternius_base_characters/files/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Roughness.png"
+  ],
+  "qa_save_isolation_verified_in_source": true,
+  "ordinary_save_path": "user://qinglan_checkpoint_v2.json",
+  "qa_save_path": "user://qa_qinglan_checkpoint_v2.json"
+}

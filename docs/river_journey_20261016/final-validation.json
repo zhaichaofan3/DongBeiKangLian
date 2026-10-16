@@ -1,0 +1,209 @@
+{
+  "version": "0.7.0-rc1",
+  "revision": "20261016-river-journey",
+  "passed": true,
+  "created_at": "2026-10-16T14:46:16+08:00",
+  "runtime": {
+    "source": {
+      "groups": 29,
+      "assertions": 1145,
+      "ferry_checks": 60,
+      "trees": 2017,
+      "screenshots": [
+        {
+          "file": "approaching-bank.png",
+          "colors": 6306,
+          "deviation": 56.3499209737689,
+          "sha256": "5aa62cf4b4d457d7789e3d95e9ffb3f440dde826e1a61e2c65a18629d9a3dc51"
+        },
+        {
+          "file": "boarding.png",
+          "colors": 6817,
+          "deviation": 56.84473090438902,
+          "sha256": "ffd9dc74fe137f10d8e92e61065efc44e5aa8631bda3941be7d515191f05f015"
+        },
+        {
+          "file": "forest-bend.png",
+          "colors": 1987,
+          "deviation": 11.587632132638573,
+          "sha256": "caaee388309df7ab933d8a6be2aaec5c08e7e7fb613851943c89d8c6e13e5d2c"
+        },
+        {
+          "file": "forest-landing.png",
+          "colors": 2502,
+          "deviation": 14.509982035978322,
+          "sha256": "a32bb0f4a87ef7de811b8f079000deb66d105a36335499c4ec014d0e76540ab6"
+        },
+        {
+          "file": "landing.png",
+          "colors": 6159,
+          "deviation": 55.57090744098589,
+          "sha256": "0e1b00545eda9779e9b3f512297210bd1b23e1bf61733595e8a3f4b1b425768c"
+        },
+        {
+          "file": "paused.png",
+          "colors": 2970,
+          "deviation": 18.85944887127922,
+          "sha256": "175447f140f78ccb082af4cb7b6480ce7a75f17d0debd57527d83d4f856f0b1c"
+        },
+        {
+          "file": "river-onboard.png",
+          "colors": 5659,
+          "deviation": 61.689081755616044,
+          "sha256": "fa049371ef099bfee334a6bde6b6553c203d2ede0d727f44065226fc2b813321"
+        },
+        {
+          "file": "river-wide.png",
+          "colors": 6465,
+          "deviation": 51.895806078914,
+          "sha256": "b6d0917e0dab4570ed7bccf5d4844fba269c8cd64438a7052c6e34e90540ca09"
+        },
+        {
+          "file": "seated.png",
+          "colors": 6816,
+          "deviation": 56.7801084974981,
+          "sha256": "45fe139bf42a40ddfd44ceacb9f1ffe552b3cb54dbe855da43a9d0cab2f843c1"
+        },
+        {
+          "file": "step-aboard.png",
+          "colors": 6797,
+          "deviation": 56.82672228468027,
+          "sha256": "865c65813149f8b2080ed01749023ef18aa536dcd8fca344bdca729687b32968"
+        },
+        {
+          "file": "village-introduction.png",
+          "colors": 2503,
+          "deviation": 60.36536568949441,
+          "sha256": "9f0322acc0576d99ccc3933db62dabcc21e47de4b727c67d35385e666e75e284"
+        }
+      ],
+      "combat": {
+        "health": 100.0,
+        "defeated": 37,
+        "seconds": 400.149999999965,
+        "state": "won"
+      }
+    },
+    "release": {
+      "groups": 29,
+      "assertions": 1145,
+      "ferry_checks": 60,
+      "trees": 2017,
+      "screenshots": [
+        {
+          "file": "approaching-bank.png",
+          "colors": 6300,
+          "deviation": 56.35006904319497,
+          "sha256": "363803527e7e00a16f36ed32cf4a5bdbecaf521e98659d4c88c502551daba1ca"
+        },
+        {
+          "file": "boarding.png",
+          "colors": 6818,
+          "deviation": 56.84464147031705,
+          "sha256": "a8037ce6b715b7961f4b98d8f45162aec7ff543ff9b1f1bda35db07970fc93d9"
+        },
+        {
+          "file": "forest-bend.png",
+          "colors": 1987,
+          "deviation": 11.587632132638573,
+          "sha256": "caaee388309df7ab933d8a6be2aaec5c08e7e7fb613851943c89d8c6e13e5d2c"
+        },
+        {
+          "file": "forest-landing.png",
+          "colors": 2502,
+          "deviation": 14.509982035978322,
+          "sha256": "a32bb0f4a87ef7de811b8f079000deb66d105a36335499c4ec014d0e76540ab6"
+        },
+        {
+          "file": "landing.png",
+          "colors": 6158,
+          "deviation": 55.57100966785142,
+          "sha256": "0ffc59e996ba6a6f571996e0f565ad6a059b50ab64d6cbcd1e99dd606448e3a9"
+        },
+        {
+          "file": "paused.png",
+          "colors": 2971,
+          "deviation": 18.859492034781645,
+          "sha256": "980770bcaf373344e59b3872564c37160e10cfb96b48300b81cea792e1a81dad"
+        },
+        {
+          "file": "river-onboard.png",
+          "colors": 5656,
+          "deviation": 61.689464928460204,
+          "sha256": "245f935c7473921dde2d7e9b360f07599cd307375e6f01af7cd2ef9aa88c8309"
+        },
+        {
+          "file": "river-wide.png",
+          "colors": 6467,
+          "deviation": 51.896452755820924,
+          "sha256": "1bb1f398a7eaab54206015c1a5010b57347b32089381eb918942f61dfb223af4"
+        },
+        {
+          "file": "seated.png",
+          "colors": 6817,
+          "deviation": 56.780069547298936,
+          "sha256": "19c2c1854d15a0643569da34a92f606d4758ed76e4c8a24f83c8f13a9cd2c210"
+        },
+        {
+          "file": "step-aboard.png",
+          "colors": 6799,
+          "deviation": 56.826805981698435,
+          "sha256": "8d9e144a1841761bfb1b0f0af7c3d7c4d51992966d6492437e2342a449216cf8"
+        },
+        {
+          "file": "village-introduction.png",
+          "colors": 2498,
+          "deviation": 60.36906005337829,
+          "sha256": "7bc82c898d7683c07c8317cf7a22f67f70bc95d840bf5dec233a2440f2a24597"
+        }
+      ],
+      "combat": {
+        "health": 100.0,
+        "defeated": 37,
+        "seconds": 400.149999999965,
+        "state": "won"
+      }
+    }
+  },
+  "duration_seconds": 38,
+  "combat_screenshots": [
+    {
+      "file": "ferry-combat.png",
+      "colors": 5059,
+      "deviation": 59.02844164785995,
+      "sha256": "1ef68e400564d99e06c9801c7934f1e46041319f16824d7b5c2708a1a05e9451"
+    },
+    {
+      "file": "village-victory.png",
+      "colors": 1576,
+      "deviation": 22.280244736902365,
+      "sha256": "ed45967b2762b17e2949eaaa1313b0d26a5b54ec1cf12419ac9b96fd5553fdc9"
+    }
+  ],
+  "protections": {
+    "audio_files": 61,
+    "hand_files": 12,
+    "model_files": 15,
+    "opening_cues_and_timing": "unchanged"
+  },
+  "save_policy": "Mid-river interruptions resume the safe departure; landing/forest saves retain progress; old village saves retain their encounters.",
+  "human_acceptance": {
+    "listening": "pending",
+    "difficulty": "pending",
+    "continuous_art": "pending"
+  },
+  "review": "Validation/river_journey_20261016/review.md",
+  "baseline": "WorkBackups/20261016-131947-S10-in_progress-8f594a",
+  "files": [
+    {
+      "path": "FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "FenghuoEcho.pck",
+      "bytes": 1317586856,
+      "sha256": "c76fae8ae40cf358458f962f75024d6da2f91c2c5eb84b07ce6f01d3627711a4"
+    }
+  ]
+}

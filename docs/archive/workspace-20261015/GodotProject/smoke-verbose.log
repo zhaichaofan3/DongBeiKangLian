@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+Loading resource: res://tests/smoke.gd remapped: res://tests/smoke.gd
+Completed load for: 'res://tests/smoke.gd' remapped 'res://tests/smoke.gd' at thread -1
+SceneTreeFTI: traversal method DEFAULT
+Loaded system CA certificates
+Loading resource: res://main.tscn remapped: res://main.tscn
+Loading resource: res://scripts/mission.gd remapped: res://scripts/mission.gd
+Completed load for: 'res://scripts/mission.gd' remapped 'res://scripts/mission.gd' at thread -1
+Completed load for: 'res://main.tscn' remapped 'res://main.tscn' at thread -1
+PASS: Player rests on ground
+PASS: WASD moves forward rather than backward
+PASS: Character collision blocks passage through wall
+PASS: Enemy sight is blocked by wall
+PASS: Enemy can see an unobstructed player
+PASS: Firing consumes one round
+PASS: Rifle ray hits and defeats a visible guard
+PASS: Reload transfers ammo correctly
+PASS: Second weapon switches model and ammo independently
+PASS: Pause prevents combat damage
+PASS: A wall prevents remote objective pickup
+PASS: Office doorway is physically reachable
+PASS: Player can move inside office
+PASS: Codebook is physically reachable
+PASS: Pickup updates mission and removes book collision
+PASS: Player can step around office desk
+PASS: Office desk has a clear bypass
+PASS: Power switch is physically reachable
+PASS: Power interaction advances evacuation stage
+PASS: Blackout disables real level lights
+PASS: Repeated switch use cannot advance mission twice
+PASS: Death opens failure state
+PASS: Checkpoint restores mission and player after death
+PASS: Checkpoint restores objective and blackout state
+PASS: Restoring reinforcement wave respects enemy cap
+PASS: Evacuation completes full mission
+PASS: Entire spawn-to-office route works without teleporting
+PASS: Continuous route reaches codebook approach
+PASS: Continuous route retrieves codebook
+PASS: Continuous route reaches power switch
+PASS: Continuous route cuts power
+PASS: Entire office-to-dock route works without teleporting
+PASS: Continuous movement completes all three objectives
+PASS: Checkpoint with missing fields is rejected
+PASS: Checkpoint with invalid weapon is rejected
+PASS: Corrupt checkpoint is rejected
+SMOKE RESULT: 36/36 passed

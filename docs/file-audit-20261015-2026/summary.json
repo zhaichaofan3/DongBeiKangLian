@@ -1,0 +1,2474 @@
+{
+  "StartedAt": "2026-10-15T20:27:00.8849029+08:00",
+  "FinishedAt": "2026-10-15T20:28:00.8908092+08:00",
+  "Workspace": "C:\\GameMake",
+  "InventoryBoundary": "Snapshot after starting P00 checkpoint; generated audit outputs and closing checkpoint are outside this inventory.",
+  "Files": 116491,
+  "Directories": 17678,
+  "TotalBytes": 95875851874.0,
+  "EnumerationErrors": 0,
+  "ReparsePoints": 10,
+  "ZeroByteFiles": 114,
+  "LongPaths": 0,
+  "DriveTotalBytes": 1023876075520,
+  "DriveFreeBytes": 60291665920,
+  "DirectorySummary": [
+    {
+      "Directory": "WorkBackups",
+      "Files": 97549,
+      "Bytes": 76570682072.0
+    },
+    {
+      "Directory": "AssetLibrary",
+      "Files": 2186,
+      "Bytes": 5408670438.0
+    },
+    {
+      "Directory": "ReleaseBackups",
+      "Files": 2545,
+      "Bytes": 4999699483.0
+    },
+    {
+      "Directory": "docs",
+      "Files": 3458,
+      "Bytes": 2715849708.0
+    },
+    {
+      "Directory": "GodotProject",
+      "Files": 1940,
+      "Bytes": 1708659085.0
+    },
+    {
+      "Directory": "tools",
+      "Files": 7411,
+      "Bytes": 1684799214.0
+    },
+    {
+      "Directory": "Release",
+      "Files": 415,
+      "Bytes": 815737055.0
+    },
+    {
+      "Directory": "ConversationBackups",
+      "Files": 208,
+      "Bytes": 802974904.0
+    },
+    {
+      "Directory": ".models",
+      "Files": 16,
+      "Bytes": 564418220.0
+    },
+    {
+      "Directory": "RestoreChecks",
+      "Files": 542,
+      "Bytes": 527675354.0
+    },
+    {
+      "Directory": "AssetReview",
+      "Files": 181,
+      "Bytes": 75271191.0
+    },
+    {
+      "Directory": ".auto-resume",
+      "Files": 9,
+      "Bytes": 1230673.0
+    },
+    {
+      "Directory": "licenses",
+      "Files": 2,
+      "Bytes": 101257.0
+    },
+    {
+      "Directory": "(root)",
+      "Files": 17,
+      "Bytes": 49369.0
+    },
+    {
+      "Directory": "GameProject",
+      "Files": 12,
+      "Bytes": 33851.0
+    }
+  ],
+  "JsonChecked": 1254,
+  "JsonFailures": [
+    {
+      "Path": "docs/connection-latest.json",
+      "Bytes": 1769,
+      "Error": "Conversion from JSON failed with error: Additional text encountered after finished reading JSON content: \\. Path '', line 75, position 1."
+    },
+    {
+      "Path": "docs/level/S13/accepted-01/summary.json",
+      "Bytes": 593,
+      "Error": "Empty JSON or NUL character present."
+    },
+    {
+      "Path": ".auto-resume/control.json",
+      "Bytes": 180,
+      "Error": "Empty JSON or NUL character present."
+    }
+  ],
+  "HistoryLines": 202,
+  "HistoryErrors": [],
+  "BackupCheckpoints": 202,
+  "BackupEntriesChecked": 97144,
+  "BackupMetadataIssues": [],
+  "PendingBackups": [],
+  "SourceCheckpoint": "WorkBackups/20261015-192730-S10-in_progress-07d4b5",
+  "SourceCheckpointChanges": [
+    {
+      "Path": "docs/production_plan.md",
+      "Change": "changed"
+    },
+    {
+      "Path": "docs/production_state.json",
+      "Change": "changed"
+    },
+    {
+      "Path": "docs/work_history.jsonl",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/assets/opening/opening.json",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/asset_dressing.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/fps_player.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/friendly.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/guard.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/hud.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/human_model.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/linear_director.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/mission.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/route_blockout.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/story.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/weapon_visuals.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/world.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "PROGRESS.md",
+      "Change": "changed"
+    }
+  ],
+  "SourceFilesNotInCheckpoint": [
+    {
+      "Path": "GodotProject/scripts/village_director.gd",
+      "Top": "GodotProject",
+      "Bytes": 8369,
+      "ModifiedUtc": "2026-10-15T11:57:48.5070661Z",
+      "Extension": ".gd",
+      "FullPathLength": 52,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/scripts/village_director.gd.uid",
+      "Top": "GodotProject",
+      "Bytes": 20,
+      "ModifiedUtc": "2026-10-15T11:56:03.6600510Z",
+      "Extension": ".uid",
+      "FullPathLength": 56,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/scripts/village_world.gd",
+      "Top": "GodotProject",
+      "Bytes": 7483,
+      "ModifiedUtc": "2026-10-15T11:57:48.5030351Z",
+      "Extension": ".gd",
+      "FullPathLength": 49,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/scripts/village_world.gd.uid",
+      "Top": "GodotProject",
+      "Bytes": 20,
+      "ModifiedUtc": "2026-10-15T11:56:03.6674056Z",
+      "Extension": ".uid",
+      "FullPathLength": 53,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_1.glb",
+      "Top": "GodotProject",
+      "Bytes": 2393076,
+      "ModifiedUtc": "2026-10-15T11:43:58.6971000Z",
+      "Extension": ".glb",
+      "FullPathLength": 66,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_1.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1164,
+      "ModifiedUtc": "2026-10-15T11:56:07.0016720Z",
+      "Extension": ".import",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_1_3d66Model-4690991-files-2.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1140301,
+      "ModifiedUtc": "2026-10-15T11:56:05.6392096Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_1_3d66Model-4690991-files-2.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1097,
+      "ModifiedUtc": "2026-10-15T11:56:06.8236664Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_1_3d66Model-4690991-files-4.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1231224,
+      "ModifiedUtc": "2026-10-15T11:56:03.8627317Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_1_3d66Model-4690991-files-4.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1097,
+      "ModifiedUtc": "2026-10-15T11:56:05.3693530Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_2.glb",
+      "Top": "GodotProject",
+      "Bytes": 2385428,
+      "ModifiedUtc": "2026-10-15T11:43:59.9653122Z",
+      "Extension": ".glb",
+      "FullPathLength": 66,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_2.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1164,
+      "ModifiedUtc": "2026-10-15T11:56:09.8902977Z",
+      "Extension": ".import",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_2_3d66Model-4690991-files-2.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1140301,
+      "ModifiedUtc": "2026-10-15T11:56:08.5650421Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_2_3d66Model-4690991-files-2.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1097,
+      "ModifiedUtc": "2026-10-15T11:56:09.7176915Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_2_3d66Model-4690991-files-4.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1231224,
+      "ModifiedUtc": "2026-10-15T11:56:07.0947558Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_2_3d66Model-4690991-files-4.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1096,
+      "ModifiedUtc": "2026-10-15T11:56:08.3370857Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_3.glb",
+      "Top": "GodotProject",
+      "Bytes": 2391288,
+      "ModifiedUtc": "2026-10-15T11:44:01.3284630Z",
+      "Extension": ".glb",
+      "FullPathLength": 66,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_3.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1163,
+      "ModifiedUtc": "2026-10-15T11:56:13.1046391Z",
+      "Extension": ".import",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_3_3d66Model-4690991-files-2.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1140301,
+      "ModifiedUtc": "2026-10-15T11:56:11.7227907Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_3_3d66Model-4690991-files-2.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1096,
+      "ModifiedUtc": "2026-10-15T11:56:12.9470040Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_3_3d66Model-4690991-files-4.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1231224,
+      "ModifiedUtc": "2026-10-15T11:56:09.9885976Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_3_3d66Model-4690991-files-4.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1097,
+      "ModifiedUtc": "2026-10-15T11:56:11.4729546Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_4.glb",
+      "Top": "GodotProject",
+      "Bytes": 2380632,
+      "ModifiedUtc": "2026-10-15T11:44:02.6038177Z",
+      "Extension": ".glb",
+      "FullPathLength": 66,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_4.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1164,
+      "ModifiedUtc": "2026-10-15T11:56:16.1227746Z",
+      "Extension": ".import",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_4_3d66Model-4690991-files-2.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1140301,
+      "ModifiedUtc": "2026-10-15T11:56:14.7106991Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_4_3d66Model-4690991-files-2.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1097,
+      "ModifiedUtc": "2026-10-15T11:56:15.9703653Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_4_3d66Model-4690991-files-4.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1231224,
+      "ModifiedUtc": "2026-10-15T11:56:13.1887982Z",
+      "Extension": ".jpg",
+      "FullPathLength": 92,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/camp_4_3d66Model-4690991-files-4.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1097,
+      "ModifiedUtc": "2026-10-15T11:56:14.4687913Z",
+      "Extension": ".import",
+      "FullPathLength": 99,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/kar98k.glb",
+      "Top": "GodotProject",
+      "Bytes": 3453404,
+      "ModifiedUtc": "2026-10-15T11:43:56.6240025Z",
+      "Extension": ".glb",
+      "FullPathLength": 66,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/kar98k.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1164,
+      "ModifiedUtc": "2026-10-15T11:56:17.6226889Z",
+      "Extension": ".import",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/kar98k_3d66-export-JJI54551850227-001.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2292151,
+      "ModifiedUtc": "2026-10-15T11:56:16.2203923Z",
+      "Extension": ".jpg",
+      "FullPathLength": 97,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/kar98k_3d66-export-JJI54551850227-001.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1112,
+      "ModifiedUtc": "2026-10-15T11:56:17.4157297Z",
+      "Extension": ".import",
+      "FullPathLength": 104,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office.glb",
+      "Top": "GodotProject",
+      "Bytes": 9901968,
+      "ModifiedUtc": "2026-10-15T11:43:57.6763614Z",
+      "Extension": ".glb",
+      "FullPathLength": 66,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1164,
+      "ModifiedUtc": "2026-10-15T11:56:21.3031579Z",
+      "Extension": ".import",
+      "FullPathLength": 73,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-001.jpg",
+      "Top": "GodotProject",
+      "Bytes": 41234,
+      "ModifiedUtc": "2026-10-15T11:56:19.7314108Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-001.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:19.7867203Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-002.jpg",
+      "Top": "GodotProject",
+      "Bytes": 37308,
+      "ModifiedUtc": "2026-10-15T11:56:20.5086256Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-002.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.5650773Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-003.jpg",
+      "Top": "GodotProject",
+      "Bytes": 21139,
+      "ModifiedUtc": "2026-10-15T11:56:20.0347155Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-003.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.0836599Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-004.jpg",
+      "Top": "GodotProject",
+      "Bytes": 39500,
+      "ModifiedUtc": "2026-10-15T11:56:19.8959386Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-004.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:19.9459097Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-005.jpg",
+      "Top": "GodotProject",
+      "Bytes": 40135,
+      "ModifiedUtc": "2026-10-15T11:56:20.2247760Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-005.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.2752915Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-006.jpg",
+      "Top": "GodotProject",
+      "Bytes": 59782,
+      "ModifiedUtc": "2026-10-15T11:56:20.1074109Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-006.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.1991321Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-007.jpg",
+      "Top": "GodotProject",
+      "Bytes": 75565,
+      "ModifiedUtc": "2026-10-15T11:56:20.2962239Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-007.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.3954929Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-008.jpg",
+      "Top": "GodotProject",
+      "Bytes": 49184,
+      "ModifiedUtc": "2026-10-15T11:56:19.9626519Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-008.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.0164596Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-009.jpg",
+      "Top": "GodotProject",
+      "Bytes": 52603,
+      "ModifiedUtc": "2026-10-15T11:56:20.4296887Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-009.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.4860109Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-010.jpg",
+      "Top": "GodotProject",
+      "Bytes": 356234,
+      "ModifiedUtc": "2026-10-15T11:56:17.6996326Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-010.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:18.0380443Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-011.jpg",
+      "Top": "GodotProject",
+      "Bytes": 177146,
+      "ModifiedUtc": "2026-10-15T11:56:18.8485955Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-011.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:19.1129819Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-012.jpg",
+      "Top": "GodotProject",
+      "Bytes": 185585,
+      "ModifiedUtc": "2026-10-15T11:56:18.4963396Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-012.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:18.7983195Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-013.jpg",
+      "Top": "GodotProject",
+      "Bytes": 472572,
+      "ModifiedUtc": "2026-10-15T11:56:18.0959057Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-013.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:18.4205559Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-014.jpg",
+      "Top": "GodotProject",
+      "Bytes": 501267,
+      "ModifiedUtc": "2026-10-15T11:56:20.7627814Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-014.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:21.0470350Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-015.jpg",
+      "Top": "GodotProject",
+      "Bytes": 48097,
+      "ModifiedUtc": "2026-10-15T11:56:19.6481058Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-015.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:19.7011596Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-016.jpg",
+      "Top": "GodotProject",
+      "Bytes": 36436,
+      "ModifiedUtc": "2026-10-15T11:56:19.8069774Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-016.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:19.8588777Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-017.jpg",
+      "Top": "GodotProject",
+      "Bytes": 61297,
+      "ModifiedUtc": "2026-10-15T11:56:19.1527282Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-017.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:19.2472957Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-018.jpg",
+      "Top": "GodotProject",
+      "Bytes": 298988,
+      "ModifiedUtc": "2026-10-15T11:56:19.2836081Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-018.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:19.6029348Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-019.jpg",
+      "Top": "GodotProject",
+      "Bytes": 48299,
+      "ModifiedUtc": "2026-10-15T11:56:20.5830581Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-019.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.6378224Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-020.jpg",
+      "Top": "GodotProject",
+      "Bytes": 38161,
+      "ModifiedUtc": "2026-10-15T11:56:20.6554124Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/office_3d66Model-22399557-files-020.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:20.7290721Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1.glb",
+      "Top": "GodotProject",
+      "Bytes": 22244432,
+      "ModifiedUtc": "2026-10-15T11:44:05.3494327Z",
+      "Extension": ".glb",
+      "FullPathLength": 69,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1173,
+      "ModifiedUtc": "2026-10-15T11:56:31.0502243Z",
+      "Extension": ".import",
+      "FullPathLength": 76,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-67.jpg",
+      "Top": "GodotProject",
+      "Bytes": 3508601,
+      "ModifiedUtc": "2026-10-15T11:56:22.4300279Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-67.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:23.5246592Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-68.jpg",
+      "Top": "GodotProject",
+      "Bytes": 4022272,
+      "ModifiedUtc": "2026-10-15T11:56:24.0123425Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-68.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:25.3158166Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-69.jpg",
+      "Top": "GodotProject",
+      "Bytes": 255098,
+      "ModifiedUtc": "2026-10-15T11:56:21.7079907Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-69.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:21.8001147Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-70.jpg",
+      "Top": "GodotProject",
+      "Bytes": 123441,
+      "ModifiedUtc": "2026-10-15T11:56:22.2245702Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-70.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:22.3094431Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-71.jpg",
+      "Top": "GodotProject",
+      "Bytes": 201285,
+      "ModifiedUtc": "2026-10-15T11:56:23.6652037Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-71.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:23.7649821Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-72.jpg",
+      "Top": "GodotProject",
+      "Bytes": 557479,
+      "ModifiedUtc": "2026-10-15T11:56:26.1480661Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-72.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:26.3166939Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-73.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2826161,
+      "ModifiedUtc": "2026-10-15T11:56:27.8528567Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-73.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:29.0338003Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-74.jpg",
+      "Top": "GodotProject",
+      "Bytes": 432438,
+      "ModifiedUtc": "2026-10-15T11:56:25.6034052Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-74.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:25.7238744Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-75.jpg",
+      "Top": "GodotProject",
+      "Bytes": 212017,
+      "ModifiedUtc": "2026-10-15T11:56:25.4654302Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-75.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:25.5599263Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-76.jpg",
+      "Top": "GodotProject",
+      "Bytes": 471432,
+      "ModifiedUtc": "2026-10-15T11:56:25.7547584Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-76.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:25.8700156Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-77.jpg",
+      "Top": "GodotProject",
+      "Bytes": 208547,
+      "ModifiedUtc": "2026-10-15T11:56:23.8071622Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-77.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:23.8922966Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-78.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2999385,
+      "ModifiedUtc": "2026-10-15T11:56:26.4451428Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-78.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:27.6331804Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-79.jpg",
+      "Top": "GodotProject",
+      "Bytes": 806057,
+      "ModifiedUtc": "2026-10-15T11:56:21.4128305Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-79.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:21.6356524Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-80.jpg",
+      "Top": "GodotProject",
+      "Bytes": 542914,
+      "ModifiedUtc": "2026-10-15T11:56:30.4852571Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-80.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:30.7414167Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-81.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1258372,
+      "ModifiedUtc": "2026-10-15T11:56:29.2041515Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-81.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1104,
+      "ModifiedUtc": "2026-10-15T11:56:29.4776467Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-82.jpg",
+      "Top": "GodotProject",
+      "Bytes": 358631,
+      "ModifiedUtc": "2026-10-15T11:56:29.5431661Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-82.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:29.6530762Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-83.jpg",
+      "Top": "GodotProject",
+      "Bytes": 940174,
+      "ModifiedUtc": "2026-10-15T11:56:21.8484794Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-83.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:22.1704946Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-84.jpg",
+      "Top": "GodotProject",
+      "Bytes": 329655,
+      "ModifiedUtc": "2026-10-15T11:56:25.9320279Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-84.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:26.0873792Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-85.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1226755,
+      "ModifiedUtc": "2026-10-15T11:56:29.7266624Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-85.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:30.3952325Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-86.jpg",
+      "Top": "GodotProject",
+      "Bytes": 156294,
+      "ModifiedUtc": "2026-10-15T11:56:30.7971120Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-86.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:30.8893819Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-87.jpg",
+      "Top": "GodotProject",
+      "Bytes": 58786,
+      "ModifiedUtc": "2026-10-15T11:56:30.9229054Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_1_3d66Model-691775-files-87.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:30.9569857Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2.glb",
+      "Top": "GodotProject",
+      "Bytes": 22204940,
+      "ModifiedUtc": "2026-10-15T11:44:08.2606863Z",
+      "Extension": ".glb",
+      "FullPathLength": 69,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1173,
+      "ModifiedUtc": "2026-10-15T11:56:41.4455694Z",
+      "Extension": ".import",
+      "FullPathLength": 76,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-67.jpg",
+      "Top": "GodotProject",
+      "Bytes": 3508601,
+      "ModifiedUtc": "2026-10-15T11:56:32.1628579Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-67.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:33.2627613Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-68.jpg",
+      "Top": "GodotProject",
+      "Bytes": 4022272,
+      "ModifiedUtc": "2026-10-15T11:56:33.7463947Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-68.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:35.0228548Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-69.jpg",
+      "Top": "GodotProject",
+      "Bytes": 255098,
+      "ModifiedUtc": "2026-10-15T11:56:31.4626621Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-69.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:31.5529407Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-70.jpg",
+      "Top": "GodotProject",
+      "Bytes": 123441,
+      "ModifiedUtc": "2026-10-15T11:56:31.9637279Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-70.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:32.0486447Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-71.jpg",
+      "Top": "GodotProject",
+      "Bytes": 201285,
+      "ModifiedUtc": "2026-10-15T11:56:33.4027136Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-71.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:33.5060777Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-72.jpg",
+      "Top": "GodotProject",
+      "Bytes": 557479,
+      "ModifiedUtc": "2026-10-15T11:56:35.8131823Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-72.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:35.9950020Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-73.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2826161,
+      "ModifiedUtc": "2026-10-15T11:56:37.8569133Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-73.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:39.3030418Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-74.jpg",
+      "Top": "GodotProject",
+      "Bytes": 432438,
+      "ModifiedUtc": "2026-10-15T11:56:35.3011507Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-74.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:35.4093281Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-75.jpg",
+      "Top": "GodotProject",
+      "Bytes": 212017,
+      "ModifiedUtc": "2026-10-15T11:56:35.1802847Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-75.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:35.2712763Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-76.jpg",
+      "Top": "GodotProject",
+      "Bytes": 471432,
+      "ModifiedUtc": "2026-10-15T11:56:35.4427510Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-76.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:35.5583643Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-77.jpg",
+      "Top": "GodotProject",
+      "Bytes": 208547,
+      "ModifiedUtc": "2026-10-15T11:56:33.5450313Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-77.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:33.6287072Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-78.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2999385,
+      "ModifiedUtc": "2026-10-15T11:56:36.1428889Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-78.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:37.6301474Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-79.jpg",
+      "Top": "GodotProject",
+      "Bytes": 806057,
+      "ModifiedUtc": "2026-10-15T11:56:31.1800498Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-79.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:31.4167002Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-80.jpg",
+      "Top": "GodotProject",
+      "Bytes": 542914,
+      "ModifiedUtc": "2026-10-15T11:56:40.8949824Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-80.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:41.1412316Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-81.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1258372,
+      "ModifiedUtc": "2026-10-15T11:56:39.4777765Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-81.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:39.7850147Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-82.jpg",
+      "Top": "GodotProject",
+      "Bytes": 358631,
+      "ModifiedUtc": "2026-10-15T11:56:39.8460262Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-82.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:39.9582565Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-83.jpg",
+      "Top": "GodotProject",
+      "Bytes": 940174,
+      "ModifiedUtc": "2026-10-15T11:56:31.6030213Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-83.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:31.9130431Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-84.jpg",
+      "Top": "GodotProject",
+      "Bytes": 329655,
+      "ModifiedUtc": "2026-10-15T11:56:35.6018312Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-84.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:35.7694845Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-85.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1226755,
+      "ModifiedUtc": "2026-10-15T11:56:40.0229384Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-85.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:40.8133989Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-86.jpg",
+      "Top": "GodotProject",
+      "Bytes": 156294,
+      "ModifiedUtc": "2026-10-15T11:56:41.2100062Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-86.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:41.3013850Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-87.jpg",
+      "Top": "GodotProject",
+      "Bytes": 58786,
+      "ModifiedUtc": "2026-10-15T11:56:41.3238243Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_2_3d66Model-691775-files-87.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:41.3561916Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3.glb",
+      "Top": "GodotProject",
+      "Bytes": 22227504,
+      "ModifiedUtc": "2026-10-15T11:44:11.2253176Z",
+      "Extension": ".glb",
+      "FullPathLength": 69,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1173,
+      "ModifiedUtc": "2026-10-15T11:56:50.2928060Z",
+      "Extension": ".import",
+      "FullPathLength": 76,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-67.jpg",
+      "Top": "GodotProject",
+      "Bytes": 3508601,
+      "ModifiedUtc": "2026-10-15T11:56:42.5381958Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-67.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:43.6129414Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-68.jpg",
+      "Top": "GodotProject",
+      "Bytes": 4022272,
+      "ModifiedUtc": "2026-10-15T11:56:44.0187406Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-68.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:45.0660387Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-69.jpg",
+      "Top": "GodotProject",
+      "Bytes": 255098,
+      "ModifiedUtc": "2026-10-15T11:56:41.8526403Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-69.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:41.9428411Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-70.jpg",
+      "Top": "GodotProject",
+      "Bytes": 123441,
+      "ModifiedUtc": "2026-10-15T11:56:42.3449851Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-70.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:42.4288876Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-71.jpg",
+      "Top": "GodotProject",
+      "Bytes": 201285,
+      "ModifiedUtc": "2026-10-15T11:56:43.7256852Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-71.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:43.8189847Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-72.jpg",
+      "Top": "GodotProject",
+      "Bytes": 557479,
+      "ModifiedUtc": "2026-10-15T11:56:45.6987891Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-72.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:45.8479467Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-73.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2826161,
+      "ModifiedUtc": "2026-10-15T11:56:47.1592191Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-73.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:48.2932390Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-74.jpg",
+      "Top": "GodotProject",
+      "Bytes": 432438,
+      "ModifiedUtc": "2026-10-15T11:56:45.2831274Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-74.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:45.3650157Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-75.jpg",
+      "Top": "GodotProject",
+      "Bytes": 212017,
+      "ModifiedUtc": "2026-10-15T11:56:45.1846816Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-75.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:45.2563494Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-76.jpg",
+      "Top": "GodotProject",
+      "Bytes": 471432,
+      "ModifiedUtc": "2026-10-15T11:56:45.3964831Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-76.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:45.4863562Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-77.jpg",
+      "Top": "GodotProject",
+      "Bytes": 208547,
+      "ModifiedUtc": "2026-10-15T11:56:43.8426984Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-77.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:43.9227215Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-78.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2999385,
+      "ModifiedUtc": "2026-10-15T11:56:45.9491015Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-78.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:46.9781062Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-79.jpg",
+      "Top": "GodotProject",
+      "Bytes": 806057,
+      "ModifiedUtc": "2026-10-15T11:56:41.5715465Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-79.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:41.8054046Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-80.jpg",
+      "Top": "GodotProject",
+      "Bytes": 542914,
+      "ModifiedUtc": "2026-10-15T11:56:49.7196449Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-80.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:49.9894491Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-81.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1258372,
+      "ModifiedUtc": "2026-10-15T11:56:48.4508568Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-81.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:48.7367131Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-82.jpg",
+      "Top": "GodotProject",
+      "Bytes": 358631,
+      "ModifiedUtc": "2026-10-15T11:56:48.7965068Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-82.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:48.9115175Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-83.jpg",
+      "Top": "GodotProject",
+      "Bytes": 940174,
+      "ModifiedUtc": "2026-10-15T11:56:41.9886221Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-83.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:42.2915984Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-84.jpg",
+      "Top": "GodotProject",
+      "Bytes": 329655,
+      "ModifiedUtc": "2026-10-15T11:56:45.5219129Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-84.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:45.6674571Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-85.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1226755,
+      "ModifiedUtc": "2026-10-15T11:56:48.9750250Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-85.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:49.6351835Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-86.jpg",
+      "Top": "GodotProject",
+      "Bytes": 156294,
+      "ModifiedUtc": "2026-10-15T11:56:50.0225301Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-86.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:50.1330350Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-87.jpg",
+      "Top": "GodotProject",
+      "Bytes": 58786,
+      "ModifiedUtc": "2026-10-15T11:56:50.1614859Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_3_3d66Model-691775-files-87.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:50.1986796Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4.glb",
+      "Top": "GodotProject",
+      "Bytes": 22244440,
+      "ModifiedUtc": "2026-10-15T11:44:14.1301397Z",
+      "Extension": ".glb",
+      "FullPathLength": 69,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4.glb.import",
+      "Top": "GodotProject",
+      "Bytes": 1173,
+      "ModifiedUtc": "2026-10-15T11:56:59.7189089Z",
+      "Extension": ".import",
+      "FullPathLength": 76,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-67.jpg",
+      "Top": "GodotProject",
+      "Bytes": 3508601,
+      "ModifiedUtc": "2026-10-15T11:56:51.3794669Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-67.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:52.4477465Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-68.jpg",
+      "Top": "GodotProject",
+      "Bytes": 4022272,
+      "ModifiedUtc": "2026-10-15T11:56:52.9449868Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-68.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:54.1641517Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-69.jpg",
+      "Top": "GodotProject",
+      "Bytes": 255098,
+      "ModifiedUtc": "2026-10-15T11:56:50.6926849Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-69.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:50.7862612Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-70.jpg",
+      "Top": "GodotProject",
+      "Bytes": 123441,
+      "ModifiedUtc": "2026-10-15T11:56:51.1778782Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-70.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:51.2685623Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-71.jpg",
+      "Top": "GodotProject",
+      "Bytes": 201285,
+      "ModifiedUtc": "2026-10-15T11:56:52.5801759Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-71.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:52.6855250Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-72.jpg",
+      "Top": "GodotProject",
+      "Bytes": 557479,
+      "ModifiedUtc": "2026-10-15T11:56:54.9228145Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-72.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:55.0925773Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-73.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2826161,
+      "ModifiedUtc": "2026-10-15T11:56:56.6552788Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-73.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:57.8893011Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-74.jpg",
+      "Top": "GodotProject",
+      "Bytes": 432438,
+      "ModifiedUtc": "2026-10-15T11:56:54.4335855Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-74.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:54.5400830Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-75.jpg",
+      "Top": "GodotProject",
+      "Bytes": 212017,
+      "ModifiedUtc": "2026-10-15T11:56:54.3083918Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-75.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:54.3989236Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-76.jpg",
+      "Top": "GodotProject",
+      "Bytes": 471432,
+      "ModifiedUtc": "2026-10-15T11:56:54.5746460Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-76.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:54.6926350Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-77.jpg",
+      "Top": "GodotProject",
+      "Bytes": 208547,
+      "ModifiedUtc": "2026-10-15T11:56:52.7196301Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-77.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:52.8171132Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-78.jpg",
+      "Top": "GodotProject",
+      "Bytes": 2999385,
+      "ModifiedUtc": "2026-10-15T11:56:55.2104616Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-78.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:56.4324806Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-79.jpg",
+      "Top": "GodotProject",
+      "Bytes": 806057,
+      "ModifiedUtc": "2026-10-15T11:56:50.4101704Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-79.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:50.6426714Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-80.jpg",
+      "Top": "GodotProject",
+      "Bytes": 542914,
+      "ModifiedUtc": "2026-10-15T11:56:59.2656847Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-80.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:59.4754665Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-81.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1258372,
+      "ModifiedUtc": "2026-10-15T11:56:58.0575985Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-81.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:58.3410191Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-82.jpg",
+      "Top": "GodotProject",
+      "Bytes": 358631,
+      "ModifiedUtc": "2026-10-15T11:56:58.3958770Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-82.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:58.5073207Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-83.jpg",
+      "Top": "GodotProject",
+      "Bytes": 940174,
+      "ModifiedUtc": "2026-10-15T11:56:50.8310478Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-83.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:51.1287159Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-84.jpg",
+      "Top": "GodotProject",
+      "Bytes": 329655,
+      "ModifiedUtc": "2026-10-15T11:56:54.7287142Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-84.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1105,
+      "ModifiedUtc": "2026-10-15T11:56:54.8854750Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-85.jpg",
+      "Top": "GodotProject",
+      "Bytes": 1226755,
+      "ModifiedUtc": "2026-10-15T11:56:58.5779017Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-85.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:59.1960460Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-86.jpg",
+      "Top": "GodotProject",
+      "Bytes": 156294,
+      "ModifiedUtc": "2026-10-15T11:56:59.5079625Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-86.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:59.5905406Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-87.jpg",
+      "Top": "GodotProject",
+      "Bytes": 58786,
+      "ModifiedUtc": "2026-10-15T11:56:59.6118802Z",
+      "Extension": ".jpg",
+      "FullPathLength": 95,
+      "Attributes": "Archive"
+    },
+    {
+      "Path": "GodotProject/assets/user_expansion_20261015/village_4_3d66Model-691775-files-87.jpg.import",
+      "Top": "GodotProject",
+      "Bytes": 1106,
+      "ModifiedUtc": "2026-10-15T11:56:59.6409251Z",
+      "Extension": ".import",
+      "FullPathLength": 102,
+      "Attributes": "Archive"
+    }
+  ],
+  "ReleaseHashesChecked": 414,
+  "ReleaseHashFailures": [],
+  "ReleaseUnlistedFiles": [],
+  "MissingStepEvidence": [
+    {
+      "Step": "S17",
+      "Path": "Release/Validation/viewmodel-reference-anatomy-20261015/review.md"
+    },
+    {
+      "Step": "S17",
+      "Path": "Release/Validation/viewmodel-reference-anatomy-20261015/validation.json"
+    }
+  ],
+  "GeneratedRecordChecks": [
+    {
+      "Path": "PROGRESS.md",
+      "MatchesLatestSnapshot": true
+    },
+    {
+      "Path": "docs/production_state.json",
+      "MatchesLatestSnapshot": true
+    },
+    {
+      "Path": "docs/work_history.jsonl",
+      "MatchesLatestSnapshot": true
+    }
+  ],
+  "AutoControl": {
+    "Bytes": 180,
+    "NullBytes": 180,
+    "Sha256": "10b2a66888c58a54b277fe2e68fb6e87150c3cd2c537b7f6a2d84559017438c7",
+    "PauseFileExists": true
+  },
+  "RuntimeTestsRun": false,
+  "AllHistoricalBackupHashesChecked": false
+}

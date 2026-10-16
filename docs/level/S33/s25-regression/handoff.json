@@ -1,0 +1,74 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "B3 exit begins on the authored S22 departure route",
+      "passed": true
+    },
+    {
+      "description": "B4 highland departure descends through the S22 route",
+      "passed": true
+    },
+    {
+      "description": "B16 aligns the cinematic camera to the gameplay FOV",
+      "passed": true
+    },
+    {
+      "description": "B16 camera reaches the player handoff anchor",
+      "passed": true
+    },
+    {
+      "description": "Full playback enters a single locked handoff transition",
+      "passed": true
+    },
+    {
+      "description": "Handoff covers the camera cut with a short fade",
+      "passed": true
+    },
+    {
+      "description": "Handoff commits once after the fade",
+      "passed": true
+    },
+    {
+      "description": "Player camera, position and control mode are continuous",
+      "passed": true
+    },
+    {
+      "description": "Opening handoff sets briefing state without advancing mission objectives",
+      "passed": true
+    },
+    {
+      "description": "Cinematic access and S23 environment are cleared on handoff",
+      "passed": true
+    }
+  ],
+  "handoff": {
+    "departure_waypoints_used": [
+      [
+        501,
+        26,
+        145.5
+      ],
+      [
+        493,
+        24,
+        133.5
+      ],
+      [
+        482,
+        21.5,
+        113.5
+      ]
+    ],
+    "final_camera_fov": 78.0,
+    "player_anchor": [
+      10,
+      1.65,
+      86
+    ],
+    "transition_seconds": 0.2
+  },
+  "method": "Headless B6/B7 preview, final camera alignment and timed handoff transition checks.",
+  "status": "done",
+  "step": "S25"
+}

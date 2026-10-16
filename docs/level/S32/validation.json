@@ -1,0 +1,48 @@
+{
+  "step": "S32",
+  "status": "acceptance_reopened",
+  "date": "2026-10-15",
+  "all_passed": false,
+  "scope": {
+    "formal_part": "A1-A6",
+    "shots": 17,
+    "duration_seconds": 80.0,
+    "task_part": "B1-B6_pending_S33"
+  },
+  "checks": {
+    "history_preflight": "12/12",
+    "history_formal": "14/14",
+    "opening_regression": "41/41",
+    "voice_regression": "8/8"
+  },
+  "runtime_assets": {
+    "scene_layers": [
+      "existing_world_dressed",
+      "winter_forest_cutaway",
+      "artistic_tianchi"
+    ],
+    "war_effects": [
+      "S26_muzzle_flash_smoke",
+      "S27_artillery_dust_fireline"
+    ],
+    "narration": "temporary_synthetic_N01_N15",
+    "tianchi_model": "GodotProject/assets/opening/tianchi_artistic.glb"
+  },
+  "audio_limits": {
+    "s28_sfx_listening": "pending_user_listening",
+    "s29_music_selection": "pending_user_listening",
+    "s30_final_mix": "not_claimed",
+    "actor_recording": "not_claimed"
+  },
+  "evidence": [
+    "docs/level/S32/history-preflight.json",
+    "docs/level/S32/preflight/history-preflight.json",
+    "docs/level/S32/history-formal.json",
+    "docs/level/S32-formal.log",
+    "docs/level/S32/opening-regression.log",
+    "docs/level/S32/s31-regression.log"
+  ],
+  "next_step": "S33",
+  "earlier_status": "done_with_explicit_audio_limits",
+  "review_correction": "更正：先前的14项检查与formal_s32元数据只证明运行接入，不足以证明正式历史段完成。S36实际查看33镜后发现A段友方被对话清理逻辑误隐藏、世界标牌入镜、雪地仍为浅色平面、A10扶人仍为简化姿态。前两项已修复，A11重排机位。雪地／扶人精修及音效、BGM听审仍未完成；状态应为blocked，历史done检查点仅作可回退历史，不能作为最终验收。"
+}

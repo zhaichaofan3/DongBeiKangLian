@@ -1,0 +1,66 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started Packing (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/forest_wind_loop.wav-219462c40492f0a4fdc3e232a83c1f8e.sample[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://assets/audio/forest_wind_loop.wav.import[39m[0m
+[   6% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/rifle_arisaka_01.wav-7f83b0c6d2c5bd1a5f19055a954e58a4.sample[39m[0m
+[   6% ] [90m[1msavepack[22m | Storing File: res://assets/audio/rifle_arisaka_01.wav.import[39m[0m
+[  12% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/step_grass_01.wav-000846a276c460ce6a4b82a3523f634c.sample[39m[0m
+[  12% ] [90m[1msavepack[22m | Storing File: res://assets/audio/step_grass_01.wav.import[39m[0m
+[  18% ] [90m[1msavepack[22m | Storing File: res://scripts/story.gdc[39m[0m
+[  24% ] [90m[1msavepack[22m | Storing File: res://scripts/audio_factory.gdc[39m[0m
+[  30% ] [90m[1msavepack[22m | Storing File: res://scripts/fps_player.gdc[39m[0m
+[  35% ] [90m[1msavepack[22m | Storing File: res://scripts/weapon_visuals.gdc[39m[0m
+[  41% ] [90m[1msavepack[22m | Storing File: res://scripts/world.gdc[39m[0m
+[  47% ] [90m[1msavepack[22m | Storing File: res://shaders/forest_foliage.gdshader[39m[0m
+[  52% ] [90m[1msavepack[22m | Storing File: res://shaders/river.gdshader[39m[0m
+[  58% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn[39m[0m
+[  64% ] [90m[1msavepack[22m | Storing File: res://scripts/presentation.gdc[39m[0m
+[  69% ] [90m[1msavepack[22m | Storing File: res://scripts/friendly.gdc[39m[0m
+[  75% ] [90m[1msavepack[22m | Storing File: res://scripts/guard.gdc[39m[0m
+[  81% ] [90m[1msavepack[22m | Storing File: res://scripts/hud.gdc[39m[0m
+[  87% ] [90m[1msavepack[22m | Storing File: res://scripts/human_model.gdc[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/mission.gdc[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/story.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/audio_factory.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/fps_player.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/weapon_visuals.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/world.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://main.tscn.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/presentation.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/friendly.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/guard.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/hud.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/human_model.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/mission.gd.remap[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://.godot/global_script_class_cache.cfg[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://.godot/uid_cache.bin[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+C:\GameMake\Release\FenghuoEcho.exe

@@ -1,0 +1,55 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Motion scene starts in normal playable grounded state
+PASS: Motion verification writes only its own temporary checkpoint
+PASS: Rifle begins as the visible active weapon
+PASS: Aim transitions through an intermediate blend
+PASS: Aim changes FOV smoothly without an immediate jump
+PASS: Held aim converges to the intended FOV
+PASS: Aim brings the weapon sights onto the camera centerline
+PASS: Releasing aim restores the hip view
+PASS: Rifle input fires exactly one real round
+PASS: Firing starts a brief muzzle flash and view-model recoil
+PASS: Rifle shot physically lifts and retracts the bolt
+PASS: Firing hand leaves the grip to operate the bolt
+PASS: The firing hand has bound middle and thumb joints
+PASS: Curled finger joints stay around the bolt knob while it is open
+PASS: Fingers stay within 2.5 cm of the knob throughout lift, pull, push and lock
+PASS: Bolt handle rises above its closed position instead of rotating underneath the rifle
+PASS: Support hand stays planted on the fore-end throughout the bolt cycle
+BOLT CONTACT: samples=[5, 8, 10, 5], max_error_m=[0.00001154148595, 0.00001144479484, 0.00000972480302, 0.00000810710299], support_drift_m=0.0
+PASS: Bolt returns fully to battery after the cycle
+PASS: Firing hand returns to its grip
+PASS: Flash and recoil decay after the shot
+PASS: Held aim recovers its sight alignment after firing and operating the bolt
+PASS: Rifle reload starts without granting ammunition early
+PASS: Mid-reload clip is visible over the open receiver
+PASS: Support hand reaches the receiver during loading
+PASS: Clip has moved down along its insertion path
+PASS: Rifle reload completes with the correct magazine and reserve transfer
+PASS: Completed reload hides the clip and restores the hand and bolt
+PASS: Held aim recovers its sight alignment after reloading
+PASS: Weapon key switches visibility to the pistol
+PASS: Weapon switch begins its timed visual transition
+PASS: Switched pistol rises into its held position
+PASS: Pistol index-finger skin reaches the trigger region inside the guard outline
+PISTOL TRIGGER: resting_joint=(0.028522, -0.046995, -0.011955), closest_finger_surface=(0.009203, -0.051302, -0.018156), trigger_distance_m=0.01056751329452
+PASS: Pistol shot consumes a round and cycles its bolt
+PASS: Pistol bolt returns after cycling
+PASS: Pistol trigger finger visibly pulls and returns to its held grip
+PASS: Pistol reload uses a visible clip and a separate loading hand
+PASS: Pistol reload completes with correct ammunition transfer
+PASS: Pistol loading hand and clip return to normal
+PASS: Restore test begins while shot effects are active
+PASS: Restore immediately cancels an unfinished shot effect
+PASS: Restore test begins during a real unfinished reload
+PASS: Restore cancels loading and restores snapshot ammunition
+PASS: Restore resets all weapon mechanisms and hands
+PASS: Cancelled reload cannot grant ammunition later
+PASS: Weapon-switch test begins during real rifle loading
+PASS: Switching away cancels loading and hides the rifle
+PASS: Switched-away reload cannot grant ammunition later
+PASS: Restore resets the hidden rifle after its interrupted loading action
+PASS: Restore recovers both weapons' ammunition after a cancelled switch reload
+PASS: Motion verification removes its temporary checkpoint
+VISUAL MOTION RESULT: 50/50 passed

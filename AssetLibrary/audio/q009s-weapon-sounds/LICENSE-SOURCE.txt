@@ -1,0 +1,7 @@
+Title: Q009 weapon sounds
+Author: Q009
+License: CC-BY-SA-3.0
+License URL: https://creativecommons.org/licenses/by-sa/3.0/
+Source: https://opengameart.org/content/q009s-weapon-sounds
+Evidence: source.html and source.txt
+Notes: Gunshots, reloads, shell eject and explosions; stylized supplemental layers.

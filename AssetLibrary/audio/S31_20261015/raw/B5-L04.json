@@ -1,0 +1,11 @@
+{
+  "id": "B5-L04",
+  "part": "B",
+  "text": "过检查口，沿木料巷往北。取名册，再拉总闸，断掉电话中继。",
+  "voice": "Microsoft Kangkang",
+  "rate": 0,
+  "volume": 100,
+  "method": "Windows System.Speech offline synthesis",
+  "status": "temporary_rehearsal_not_final_voice",
+  "pronunciation_review": "pending"
+}

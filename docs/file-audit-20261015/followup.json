@@ -1,0 +1,129 @@
+{
+  "CheckedAt": "2026-10-15T18:19:51.3829703+08:00",
+  "Links": [
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/config.json",
+      "Resolved": "C:\\GameMake\\.models\\models--Systran--faster-whisper-tiny\\blobs\\3baa18e2b321a2f489614607852a729fcd516480",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/model.bin",
+      "Resolved": "C:\\GameMake\\.models\\blobs\\95\\95d706516af777831fff6b2c35837dfb450afca078db361910d44a435b24dc2c",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/tokenizer.json",
+      "Resolved": "C:\\GameMake\\.models\\models--Systran--faster-whisper-tiny\\blobs\\7818adb6de9fa3064d3ff81226fdd675be1f6344",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/snapshots/d90ca5fe260221311c53c58e660288d3deb8d356/vocabulary.txt",
+      "Resolved": "C:\\GameMake\\.models\\models--Systran--faster-whisper-tiny\\blobs\\c9074644d9d1205686f16d411564729461324b75",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-tiny/blobs/dcb76c6586fc06cbdac6dd21f14cfd129cc4cdd9dce19bf4ffa62e59cbe6e6d1",
+      "Resolved": "C:\\GameMake\\.models\\blobs\\95\\95d706516af777831fff6b2c35837dfb450afca078db361910d44a435b24dc2c",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/config.json",
+      "Resolved": "C:\\GameMake\\.models\\models--Systran--faster-whisper-small\\blobs\\e5047537059bd8f182d9ca64c470201585015187",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+      "Resolved": "C:\\GameMake\\.models\\blobs\\42\\429ffc84492c1122da005d7274fc397bf142fe12066eb7e4612dc25c579db2ea",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json",
+      "Resolved": "C:\\GameMake\\.models\\models--Systran--faster-whisper-small\\blobs\\7818adb6de9fa3064d3ff81226fdd675be1f6344",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt",
+      "Resolved": "C:\\GameMake\\.models\\models--Systran--faster-whisper-small\\blobs\\c9074644d9d1205686f16d411564729461324b75",
+      "Exists": true
+    },
+    {
+      "Path": ".models/models--Systran--faster-whisper-small/blobs/3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+      "Resolved": "C:\\GameMake\\.models\\blobs\\42\\429ffc84492c1122da005d7274fc397bf142fe12066eb7e4612dc25c579db2ea",
+      "Exists": true
+    }
+  ],
+  "EvidenceMappings": [
+    {
+      "OldPath": "Release/Validation/viewmodel-reference-anatomy-20261015/review.md",
+      "CurrentPath": "docs/level/S17/reference-anatomy-20261015/review.md",
+      "Exists": true,
+      "HashMatches": true
+    },
+    {
+      "OldPath": "Release/Validation/viewmodel-reference-anatomy-20261015/validation.json",
+      "CurrentPath": "docs/level/S17/reference-anatomy-20261015/validation.json",
+      "Exists": true,
+      "HashMatches": true
+    }
+  ],
+  "ConversationSnapshots": 8,
+  "ConversationReferencesChecked": 513,
+  "UniqueHashFilesChecked": 722,
+  "TranscriptReferencesChecked": 489,
+  "PreviouslyUnavailableAttachmentEntries": 0,
+  "ConversationIssues": [],
+  "ReleaseSourceCheckpoint": "WorkBackups/20261015-174451-S19-done-64284b",
+  "CurrentPackMatchesThatCheckpoint": true,
+  "SourceChangesSinceThatRelease": [
+    {
+      "Path": "GodotProject/ASSET_SOURCES.md",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/assets/characters/user_soldiers/provenance.json",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/assets/characters/user_soldiers/volunteer.glb",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/KNOWN_ISSUES.md",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/README.md",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/field_character_rig.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/scripts/human_model.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/tests/character_model.gd",
+      "Change": "changed"
+    },
+    {
+      "Path": "GodotProject/VERIFICATION.md",
+      "Change": "changed"
+    }
+  ],
+  "NullFilledFiles": [
+    {
+      "Path": ".auto-resume/control.json",
+      "Bytes": 180,
+      "NullBytes": 180,
+      "Sha256": "10b2a66888c58a54b277fe2e68fb6e87150c3cd2c537b7f6a2d84559017438c7"
+    },
+    {
+      "Path": "docs/level/S13/accepted-01/summary.json",
+      "Bytes": 593,
+      "NullBytes": 593,
+      "Sha256": "b83f488146553d6df162dba2d8557b62a9301031a3f6ca9f992b7eeaad9e1101"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "actor_recording": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "All 15 narration and 14 dialogue WAVs load by cue ID",
+      "passed": true
+    },
+    {
+      "description": "Opening voice uses the dedicated Voice bus",
+      "passed": true
+    },
+    {
+      "description": "N01 starts its temporary narration take at the subtitle cue",
+      "passed": true
+    },
+    {
+      "description": "Seeking within one cue does not restart the same voice take",
+      "passed": true
+    },
+    {
+      "description": "Cinematic pause freezes the current voice take",
+      "passed": true
+    },
+    {
+      "description": "B1 dialogue replaces the narration take",
+      "passed": true
+    },
+    {
+      "description": "Leaving the opening stops the last voice take",
+      "passed": true
+    },
+    {
+      "description": "Skipping a part clears voice before the next part begins",
+      "passed": true
+    }
+  ],
+  "listening": "pending",
+  "step": "S31",
+  "temporary": true,
+  "voice_count": 29
+}

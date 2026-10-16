@@ -1,0 +1,157 @@
+{
+	"closed_gate_path": 0,
+	"enemies": [
+		{
+			"clear": true,
+			"id": "village_0",
+			"path": 20
+		},
+		{
+			"clear": true,
+			"id": "village_1",
+			"path": 38
+		},
+		{
+			"clear": true,
+			"id": "village_2",
+			"path": 67
+		},
+		{
+			"clear": true,
+			"id": "village_3",
+			"path": 89
+		},
+		{
+			"clear": true,
+			"id": "village_4",
+			"path": 121
+		},
+		{
+			"clear": true,
+			"id": "village_5",
+			"path": 140
+		},
+		{
+			"clear": true,
+			"id": "village_6",
+			"path": 168
+		},
+		{
+			"clear": true,
+			"id": "village_7",
+			"path": 197
+		},
+		{
+			"clear": true,
+			"id": "village_8",
+			"path": 221
+		},
+		{
+			"clear": true,
+			"id": "village_9",
+			"path": 236
+		},
+		{
+			"clear": true,
+			"id": "village_10",
+			"path": 255
+		},
+		{
+			"clear": true,
+			"id": "village_11",
+			"path": 268
+		}
+	],
+	"house_count": 22,
+	"stops": [
+		{
+			"at": [
+				1153.0,
+				268.0
+			],
+			"clear": true,
+			"path": 12
+		},
+		{
+			"at": [
+				1152.0,
+				244.0
+			],
+			"clear": true,
+			"path": 27
+		},
+		{
+			"at": [
+				1147.0,
+				219.0
+			],
+			"clear": true,
+			"path": 32
+		},
+		{
+			"at": [
+				1143.0,
+				191.0
+			],
+			"clear": true,
+			"path": 34
+		},
+		{
+			"at": [
+				1140.0,
+				167.0
+			],
+			"clear": true,
+			"path": 29
+		},
+		{
+			"at": [
+				1141.0,
+				146.0
+			],
+			"clear": true,
+			"path": 24
+		},
+		{
+			"at": [
+				1148.0,
+				123.0
+			],
+			"clear": true,
+			"path": 32
+		},
+		{
+			"at": [
+				1148.0,
+				86.0
+			],
+			"clear": true,
+			"path": 39
+		},
+		{
+			"at": [
+				1147.0,
+				68.0
+			],
+			"clear": true,
+			"path": 21
+		},
+		{
+			"at": [
+				1147.0,
+				48.0
+			],
+			"clear": true,
+			"path": 22
+		},
+		{
+			"at": [
+				1147.0,
+				29.0
+			],
+			"clear": true,
+			"path": 21
+		}
+	],
+	"wire_count": 29
+}

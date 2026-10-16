@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "step": "S05",
+  "revision": "1.0",
+  "status": "authored_script_not_recorded_or_animated",
+  "date": "2026-10-13",
+  "cast": {"player": "沈砚", "scout": "姜岚"},
+  "source_contract": "docs/narrative/S03/interface_contract.json",
+  "source_narration": "docs/narrative/S04/narration_original.txt",
+  "audio_recorded": false,
+  "runtime_integrated": false,
+  "timing_status": "estimated_rehearsal_windows_not_recorded_alignment",
+  "segments": [
+    {
+      "id": "B1", "title": "岩台休整", "place": "艺术化天池避风岩台", "time": "数日前", "lead_ms": 2000, "tail_ms": 500,
+      "stage_direction": "A段声音收束后，先让高地风声和人物呼吸进入。沈砚的视线从深蓝湖面收向脚边；姜岚站在内侧安全处，用一次低位手势提醒。两人都不贴悬崖边，不走危险的表演动作。",
+      "knowledge_boundary": "只有同行与休整，不知道数日后陆山受伤被扣的新情况。",
+      "cues": [
+        {"id": "B1-L01", "speaker": "scout", "listener": "player", "text": "往里站，石头上有霜。", "delivery": "低声、平常，是照应战友，不是呵斥。", "speaker_action": "先看沈砚脚下，再抬眼；指向岩台内侧后收手，不触碰玩家镜头。", "listener_action": "沈砚将重心收回，左手短暂理好袖口后回到持枪位置；视线转向姜岚。", "voice_ms": 2700, "after_ms": 300, "information": ["care_between_comrades"]}
+      ]
+    },
+    {
+      "id": "B2", "title": "战友约定", "place": "同一岩台", "time": "接B1", "lead_ms": 300, "tail_ms": 700,
+      "stage_direction": "沈砚看回湖面。姜岚听完才跟着看，不与沈砚同时转头。用目光、呼吸和短暂停顿表达关系，不增加拥抱或复杂接触动作。",
+      "knowledge_boundary": "表达对太平生活的愿望，不重复历史序章旁白，不杜撰人物家史和军衔。",
+      "cues": [
+        {"id": "B2-L01", "speaker": "player", "listener": "scout", "text": "等太平了，还来这儿？", "delivery": "轻声问，带一点试探和向往，句尾不夸张上扬。", "speaker_action": "沈砚视线越过湖面后停在姜岚脸侧，双手保持自然。", "listener_action": "姜岚先听，稍停后才看向湖面；没有连续点头。", "voice_ms": 2800, "after_ms": 500, "information": ["hope_after_war"]},
+        {"id": "B2-L02", "speaker": "scout", "listener": "player", "text": "来。到时候，把这一路慢慢走。", "delivery": "来字干脆，后半句稍放松；慢慢走含一点淡淡笑意。", "speaker_action": "姜岚轻呼气，嘴角略松；说到慢慢走时只看沈砚一次。", "listener_action": "沈砚持枪的手指稍放松但不离开接触点，视线停稳，不用大幅镜头点头。", "voice_ms": 3800, "after_ms": 400, "information": ["promise_to_return"]},
+        {"id": "B2-L03", "speaker": "player", "listener": "scout", "text": "那可说定了。", "delivery": "简短接住约定，不拔高成宣誓。", "speaker_action": "沈砚略微收回视线，准备整理携行装备。", "listener_action": "姜岚给一次小幅确认，再看向离开岩台的路。", "voice_ms": 1600, "after_ms": 400, "information": ["promise_to_return"]}
+      ]
+    },
+    {
+      "id": "B3", "title": "原定接应", "place": "岩台内侧离开口", "time": "接B2", "lead_ms": 200, "tail_ms": 400,
+      "stage_direction": "姜岚转向山路，再回身交代行程；沈砚确认握持，准备起步。只检查携行状态，不拉栓退弹、不换弹、不扣扳机。",
+      "knowledge_boundary": "去联络点接头、接应陆山是原计划；此处不出现昨夜、受伤、被扣、名册已经到手等信息。",
+      "cues": [
+        {"id": "B3-L01", "speaker": "scout", "listener": "player", "text": "走吧。去青岚林场找林师傅，接应陆山。最近搜山紧，路上留神。", "delivery": "回到行动语气，三个短意群清楚；不是对着观众介绍关卡。", "speaker_action": "先指向离开方向，再收手准备起步，最后看向林道。", "listener_action": "沈砚听到陆山时抬眼确认，接着稳住握枪位置，等待起步。", "voice_ms": 8100, "after_ms": 300, "information": ["original_rendezvous", "logger_contact", "lu_contact", "search_pressure"]},
+        {"id": "B3-L02", "speaker": "player", "listener": "scout", "text": "知道了。", "delivery": "短而自然，确认已经听清。", "speaker_action": "沈砚视线转向山路，完成一次重心前移。", "listener_action": "姜岚等应答结束后才转身起步，避免边说边瞬移到下一位置。", "voice_ms": 1000, "after_ms": 300, "information": ["rendezvous_understood"]}
+      ]
+    },
+    {
+      "id": "B4", "title": "数日行军", "place": "山路、林道、青岚林场外围", "time": "数日省略", "lead_ms": 8000, "tail_ms": 0,
+      "stage_direction": "无对白。用三段短行进动作跨过旅程：离开岩台、林间脚步、姜岚先行探路的背影；再切到数日后的林场会合点。时间地点卡独立显示，末端姜岚从侦察方向回到沈砚近前。总长度暂定8秒，不做湖边到林场的一镜到底。",
+      "knowledge_boundary": "观众看见姜岚先行和返回；B5的我问过林师傅了补足新消息来源。途中不展示陆山已被救出。",
+      "cues": []
+    },
+    {
+      "id": "B5", "title": "最新敌情", "place": "青岚林场入口的隐蔽会合点", "time": "1938年深秋，接B4时间卡", "lead_ms": 500, "tail_ms": 800,
+      "stage_direction": "姜岚靠近后压低声音。先讲人，再讲名册，再讲路线；沈砚的问题让情报成为对话。第四句前远处一次岗哨金属碰响，两人停看半拍，随后继续。该声音只属演出，不让正式守卫开火或触发任务接敌。",
+      "knowledge_boundary": "首次揭示陆山昨夜送信时受伤被扣与名册位置；腿伤、未治疗与待救状态符合当前任务。",
+      "cues": [
+        {"id": "B5-L01", "speaker": "scout", "listener": "player", "text": "我问过林师傅了。陆山昨夜送信受了伤，被扣在电报房。", "delivery": "低声直说，伤与被扣间稍顿，不渲染未经设定的伤势。", "speaker_action": "姜岚先扫一眼检查口方向，回望沈砚后交代；手势克制。", "listener_action": "沈砚的手停住，视线落在姜岚脸上；听完才提问。", "voice_ms": 6900, "after_ms": 300, "information": ["latest_from_logger", "lu_injured_last_night", "lu_detained_office"]},
+        {"id": "B5-L02", "speaker": "player", "listener": "scout", "text": "能带他走吗？", "delivery": "先问人的情况，短促但不抢断姜岚。", "speaker_action": "沈砚稍倾向说话方向，身体仍在掩蔽内。", "listener_action": "姜岚回看沈砚，准备给出具体判断，而非机械点头。", "voice_ms": 1500, "after_ms": 200, "information": ["concern_for_lu"]},
+        {"id": "B5-L03", "speaker": "scout", "listener": "player", "text": "腿伤了，得慢些。搜山名册也在那儿，上头有密营和乡亲的名字。", "delivery": "前半句实在，后半句把注意转到名字；乡亲略落重，不重复宏大口号。", "speaker_action": "姜岚看向电报房的大致方向，随后把视线送回沈砚。", "listener_action": "沈砚听到名字后握稳枪身；远处响动时两人先后转向声源。", "voice_ms": 7900, "after_ms": 800, "information": ["lu_leg_wound", "roster_in_office", "stakes_camp_and_civilians"]},
+        {"id": "B5-L04", "speaker": "scout", "listener": "player", "text": "过检查口，沿木料巷往北。取名册，再拉总闸，断掉电话中继。", "delivery": "每个地点和动作各成短意群；再字读清，避免把断电讲成取册前的动作。", "speaker_action": "姜岚低位指示主路，再收手；朝向按现有路线，不在天池上指认林场建筑。", "listener_action": "沈砚先随手势看路线，随后回看；不打断要点，不同时作大幅手势。", "voice_ms": 7700, "after_ms": 300, "information": ["checkpoint_then_timber_lane", "get_roster", "roster_before_power", "cut_relay_power"]},
+        {"id": "B5-L05", "speaker": "player", "listener": "scout", "text": "带上陆山，从哪儿撤？", "delivery": "问清撤路，语气已经进入行动。", "speaker_action": "沈砚把视线从入口收回姜岚，保持姿态低稳。", "listener_action": "姜岚转身幅度很小，留在遮蔽物内指向北侧。", "voice_ms": 2600, "after_ms": 200, "information": ["escort_lu"]},
+        {"id": "B5-L06", "speaker": "scout", "listener": "player", "text": "绕电报房北侧，到渡口。你掩护，他解缆。", "delivery": "地点和分工说清，句末干净；不把12秒计时说进人物台词。", "speaker_action": "姜岚指完撤离方向后放下手，注意力回到回山的小路。", "listener_action": "沈砚看一眼撤路方向，再转回；用一次简短呼吸表现记住分工。", "voice_ms": 5000, "after_ms": 300, "information": ["north_office_route", "ferry_evacuation", "cover_lu_unmooring"]}
+      ]
+    },
+    {
+      "id": "B6", "title": "各守一段路", "place": "现有玩家起点与姜岚锚点", "time": "接B5", "lead_ms": 0, "tail_ms": 1200,
+      "stage_direction": "姜岚让出前路但留在接头区域；不承诺跟随战斗。镜头在控制仍关闭时对齐既有玩家起点和视线，最后一句结束后再渐显HUD并开放操作；首个提示包含木棚补给与J查看记录。",
+      "knowledge_boundary": "人物知道任务，但玩家尚未取得名册、断电、救人或领取补给；本段结束和跳过走S03同一交接契约。",
+      "cues": [
+        {"id": "B6-L01", "speaker": "scout", "listener": "player", "text": "先去木棚，林师傅能帮你。我守住回山的路。", "delivery": "关照和分工一起交代，不用赶人语气；木棚是帮助，不写成必须领取奖励。", "speaker_action": "姜岚示意木棚方向，然后侧身看住身后的路，仍在现有锚点附近。", "listener_action": "沈砚视线随指示短移后回稳，双手准备进入正常持枪姿态。", "voice_ms": 5300, "after_ms": 300, "information": ["optional_logger_help", "scout_guards_return_path"]},
+        {"id": "B6-L02", "speaker": "player", "listener": "scout", "text": "等我。人和名单，一样也不少。", "delivery": "压低声音承诺，简短有把握，不拖成口号。", "speaker_action": "沈砚完成正常握持；不在台词结束前自行前冲或开火。", "listener_action": "姜岚短暂看回来，轻点一次头后继续警戒，给玩家行动空间。", "voice_ms": 3600, "after_ms": 400, "information": ["bring_back_lu_and_roster"]}
+      ]
+    }
+  ]
+}

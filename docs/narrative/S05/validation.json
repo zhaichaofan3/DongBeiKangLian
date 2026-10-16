@@ -1,0 +1,89 @@
+{
+  "step": "S05",
+  "date": "2026-10-13",
+  "passed": true,
+  "scope": "Static authored-script checks and separate editorial continuity review; no runtime or audio validation",
+  "dialogue_lines": 14,
+  "spoken_hanzi": 185,
+  "segment_count": 6,
+  "silent_segments": [
+    "B4"
+  ],
+  "duration_ms": 80100,
+  "voice_windows_ms": 60500,
+  "non_voice_ms": 19600,
+  "cue_ids_unique": true,
+  "speakers_match_S03": true,
+  "speaker_and_listener_actions_all_present": true,
+  "timing_nonoverlapping": true,
+  "B3_has_no_premature_capture_reveal": true,
+  "required_information_tags": [
+    "original_rendezvous",
+    "lu_detained_office",
+    "roster_in_office",
+    "stakes_camp_and_civilians",
+    "checkpoint_then_timber_lane",
+    "roster_before_power",
+    "escort_lu",
+    "north_office_route",
+    "ferry_evacuation",
+    "cover_lu_unmooring",
+    "optional_logger_help",
+    "scout_guards_return_path"
+  ],
+  "recording_lines_roundtrip_exact": true,
+  "source_files_unchanged": [
+    {
+      "path": "GodotProject/scripts/mission.gd",
+      "sha256": "4f75bec4544f448a6836eb84bb04611478d849a2345541f9881ae7910b068b3a",
+      "matches_S03": true
+    },
+    {
+      "path": "GodotProject/scripts/story.gd",
+      "sha256": "6af84ee900a18713b9e1e80e79aab78276efc21c6febf552f6cb5ea84c013c83",
+      "matches_S03": true
+    },
+    {
+      "path": "GodotProject/scripts/linear_director.gd",
+      "sha256": "9b21fba0cd292f680e63e190d4896b2bcb2767152d329d576ebe77e5792c97b4",
+      "matches_S03": true
+    },
+    {
+      "path": "GodotProject/scripts/story_moments.gd",
+      "sha256": "96497358bcfbee3870df9b73e83f10712114da8f63cd164d3c46e6e7a0fb1921",
+      "matches_S03": true
+    }
+  ],
+  "fixed_narration_unchanged": true,
+  "fixed_narration_sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320",
+  "editorial_review_items": 10,
+  "audio_recorded": false,
+  "runtime_integrated": false,
+  "outputs": [
+    {
+      "path": "docs/S05-task-prologue-dialogue.md",
+      "sha256": "592e1b6fbf7904b53185d3ca8588b0c2fd00762146923b626df57b8e21080e9b",
+      "bytes": 14794
+    },
+    {
+      "path": "docs/narrative/S05/dialogue_script.json",
+      "sha256": "73d9e28c1fbc6b7e4d3e8b294ff954c600b00fffc1ac150c2dca2cb83c7e7a44",
+      "bytes": 10818
+    },
+    {
+      "path": "docs/narrative/S05/dialogue_timeline.json",
+      "sha256": "b8848566838cccdf9076541028fada1a25c12e092e8c7bc0bbb86393a9912ec9",
+      "bytes": 10817
+    },
+    {
+      "path": "docs/narrative/S05/recording_lines.txt",
+      "sha256": "11659af4e41d76ef334cb80fde5a8a8ee6542f8c925712ab5aab6bb04396d686",
+      "bytes": 952
+    },
+    {
+      "path": "docs/narrative/S05/continuity_review.json",
+      "sha256": "6ffe74670460816f64ce50a5a7df85a9101991f166457079b28d5ee616f2c42a",
+      "bytes": 4395
+    }
+  ]
+}

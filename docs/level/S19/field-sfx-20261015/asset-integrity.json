@@ -1,0 +1,62 @@
+{
+  "all_verified": true,
+  "asset_count": 11,
+  "checks": [
+    {
+      "name": "拉栓声.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "ab5fd73ea7ec30d3d8dbf150e6ed59579f7c6ade0a88e8dfcad7c31f4726cb85"
+    },
+    {
+      "name": "流水声.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "f4feb35c008059cf3f8d5e97efa7e259235fa27f674d662668c7f6d37a5c5421"
+    },
+    {
+      "name": "跑步的脚步声.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "201da14b069adc375b41d37ed227ac73bdd513ebd258c826cf12bca589e9f66e"
+    },
+    {
+      "name": "枪声（一声）.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "33b12e446a2b2eceb6ecfda62651b94de25f1b347c2c26163839a83006324a2b"
+    },
+    {
+      "name": "日军发现敌人的语音1.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "301df04e8566fb73093153696c4c4ca9d3385b9ad3e6d7b6a7f43799471b7a23"
+    },
+    {
+      "name": "日军发现敌人的语音2.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "1ad52869a2a6428fecbf810ea93439d51d5cfb701b81f76da887877dd6fb4522"
+    },
+    {
+      "name": "日军发现敌人的语音3.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "068f158198b509e18a5b66ce7d9828c62c8d9523c22be9b264f341efcf5ce45f"
+    },
+    {
+      "name": "一声爆炸声.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "63929c874f5dae05c52ec01c987b7e79ed967fa7a1b933fc2e6c79acd58626b8"
+    },
+    {
+      "name": "正常的脚步声.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "f0158efee2f8030aec22ea8bda270e3bab6bde1222732383836eac268af946c1"
+    },
+    {
+      "name": "关门声.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "766a0f118eecfa56dad4229f745ab7a56688e2d09001a8862034e663ff495c0f"
+    },
+    {
+      "name": "开门声.mp3",
+      "all_three_match_manifest": true,
+      "sha256": "f77d5101ae1b2cf31658af9a7e1bc36131cb7727c5cc12e37a776f2bbd795c33"
+    }
+  ],
+  "human_listening": false
+}

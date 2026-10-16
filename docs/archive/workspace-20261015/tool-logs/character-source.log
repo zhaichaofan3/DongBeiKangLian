@@ -1,0 +1,9 @@
+21:41:36 | INFO: Data are loaded, start creating Blender stuff
+21:41:36 | INFO: Blender create Mesh node Face
+21:41:36 | INFO: Blender create Mesh node Face.001
+21:41:36 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+21:41:36 | INFO: glTF import finished in 0.13s
+SOURCE_INSPECTED C:\GameMake\tools\blender-verification\character-source.json
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

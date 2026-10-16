@@ -1,0 +1,90 @@
+{
+  "source": "User supplied local audio files, 2026-10-15",
+  "author": "not provided",
+  "license": "not provided; user selected for this local project",
+  "original_locations": [
+    "C:/Users/Administrator/Desktop/10月15日.mp3",
+    "C:/Users/Administrator/Videos/bilblidown/战争激昂的背景音乐.aac"
+  ],
+  "history": "Unmodified MP3 full mix",
+  "global_music": "AAC to OGG Vorbis quality 4; 1.5s head fade, 2.5s tail fade starting 1631.7s; full duration; runtime loop enabled",
+  "listening": "pending",
+  "files": [
+    {
+      "path": "AssetLibrary/audio/user_20261015/10月15日.mp3",
+      "bytes": 2727233,
+      "sha256": "cda3218a9c6ee8cbfdb54b7758f9c85665aa2f65c537fc812fd96c0ed022a993",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "68.179575"
+        }
+      }
+    },
+    {
+      "path": "AssetLibrary/audio/user_20261015/战争激昂的背景音乐.aac",
+      "bytes": 24389718,
+      "sha256": "6f08cc8b7ce8d486363ebf85723e94044f220c83cd0b0f20c9155fb2c69d0b1e",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1634.266621"
+        }
+      }
+    },
+    {
+      "path": "GodotProject/assets/audio/opening_history_20261015.mp3",
+      "bytes": 2727233,
+      "sha256": "cda3218a9c6ee8cbfdb54b7758f9c85665aa2f65c537fc812fd96c0ed022a993",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "68.179575"
+        }
+      }
+    },
+    {
+      "path": "GodotProject/assets/audio/global_war_music.ogg",
+      "bytes": 23859938,
+      "sha256": "1afa667076c556ac1cf96e420d08dfafcea638ca023ef6b86b02ff17ad4fa686",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vorbis",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1634.266848"
+        }
+      }
+    }
+  ]
+}

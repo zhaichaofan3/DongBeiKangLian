@@ -1,0 +1,77 @@
+[
+  {
+    "Directory": "WorkBackups",
+    "Files": 97549,
+    "Bytes": 76570682072.0
+  },
+  {
+    "Directory": "AssetLibrary",
+    "Files": 2186,
+    "Bytes": 5408670438.0
+  },
+  {
+    "Directory": "ReleaseBackups",
+    "Files": 2545,
+    "Bytes": 4999699483.0
+  },
+  {
+    "Directory": "docs",
+    "Files": 3458,
+    "Bytes": 2715849708.0
+  },
+  {
+    "Directory": "GodotProject",
+    "Files": 1940,
+    "Bytes": 1708659085.0
+  },
+  {
+    "Directory": "tools",
+    "Files": 7411,
+    "Bytes": 1684799214.0
+  },
+  {
+    "Directory": "Release",
+    "Files": 415,
+    "Bytes": 815737055.0
+  },
+  {
+    "Directory": "ConversationBackups",
+    "Files": 208,
+    "Bytes": 802974904.0
+  },
+  {
+    "Directory": ".models",
+    "Files": 16,
+    "Bytes": 564418220.0
+  },
+  {
+    "Directory": "RestoreChecks",
+    "Files": 542,
+    "Bytes": 527675354.0
+  },
+  {
+    "Directory": "AssetReview",
+    "Files": 181,
+    "Bytes": 75271191.0
+  },
+  {
+    "Directory": ".auto-resume",
+    "Files": 9,
+    "Bytes": 1230673.0
+  },
+  {
+    "Directory": "licenses",
+    "Files": 2,
+    "Bytes": 101257.0
+  },
+  {
+    "Directory": "(root)",
+    "Files": 17,
+    "Bytes": 49369.0
+  },
+  {
+    "Directory": "GameProject",
+    "Files": 12,
+    "Bytes": 33851.0
+  }
+]

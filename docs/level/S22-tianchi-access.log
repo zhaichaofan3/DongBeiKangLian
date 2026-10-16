@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Opening stage loads the S21 artistic Tianchi model
+PASS: S21 model remains fully instanced in the opening stage
+PASS: Five arrival steps, five departure steps and one talk-platform collider exist
+PASS: Arrival and departure routes expose five ordered waypoints each
+PASS: All ten route waypoints have a walkable top surface
+PASS: Arrival and departure waypoints stay outside the lake clearance radius
+PASS: Both speakers share a level 26m talk-platform surface
+PASS: B1 opening speaker stands on the S22 platform anchor
+PASS: Opening access colliders disable after player control is restored
+S22 TIANCHI ACCESS: PASS | checks=9

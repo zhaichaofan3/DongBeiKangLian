@@ -1,0 +1,4 @@
+{
+  "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A20%5D%3B%28way%5B%22natural%22%3D%22water%22%5D%2841.94%2C127.97%2C42.06%2C128.15%29%3Brelation%5B%22natural%22%3D%22water%22%5D%2841.94%2C127.97%2C42.06%2C128.15%29%3B%29%3Bout+geom%3B",
+  "status": 200
+}

@@ -1,0 +1,2401 @@
+{
+  "schema_version": 1,
+  "step": "S06",
+  "revision": "1.0",
+  "status": "authored_storyboard_not_rendered_or_integrated",
+  "runtime_integrated": false,
+  "audio_recorded": false,
+  "timebase": "integer milliseconds; each part starts at zero; global B offset is 80000",
+  "timing_status": "estimated_rehearsal_windows_inherited_from_S04_S05",
+  "durations_ms": {
+    "A": 80000,
+    "B": 80100,
+    "total": 160100
+  },
+  "cue_sources": {
+    "A": "docs/narrative/S04/narration_timeline.json",
+    "B": "docs/narrative/S05/dialogue_timeline.json"
+  },
+  "cue_playback": "Schedule each source cue once on the part clock; shot refs are coverage only, never playback commands.",
+  "handoff_source": "docs/narrative/S03/interface_contract.json",
+  "events": [
+    {
+      "id": "A_SUBTITLE_END",
+      "part": "A",
+      "start_ms": 76500,
+      "end_ms": 76500,
+      "kind": "clear_subtitle",
+      "text": "清除N15；不得在A6切镜时提前清除"
+    },
+    {
+      "id": "A_TITLE",
+      "part": "A",
+      "start_ms": 77000,
+      "end_ms": 80000,
+      "kind": "title",
+      "text": "烽火回声 · 林海归途"
+    },
+    {
+      "id": "B_DAYS_BEFORE",
+      "part": "B",
+      "start_ms": 0,
+      "end_ms": 2000,
+      "kind": "place_card",
+      "text": "数日前 · 长白山天池高地"
+    },
+    {
+      "id": "B_TIME_ELLIPSIS",
+      "part": "B",
+      "start_ms": 29800,
+      "end_ms": 34300,
+      "kind": "place_card",
+      "text": "数日后 · 1938年深秋\n东南满林区 · 青岚林场（虚构）"
+    },
+    {
+      "id": "B_SENTRY_METAL",
+      "part": "B",
+      "start_ms": 51650,
+      "end_ms": 52200,
+      "kind": "sound_cue",
+      "text": "一次短金属响；纯演出，不触发AI"
+    },
+    {
+      "id": "B_CAMERA_ALIGNED",
+      "part": "B",
+      "start_ms": 78500,
+      "end_ms": 78500,
+      "kind": "handoff_marker",
+      "text": "相机和武器姿态已对齐，控制仍锁定"
+    },
+    {
+      "id": "B_HANDOFF",
+      "part": "B",
+      "start_ms": 80100,
+      "end_ms": 80100,
+      "kind": "handoff_marker",
+      "text": "提交S03统一交接、目标提示、开放控制；跳过B走同一出口"
+    }
+  ],
+  "resources": [
+    {
+      "id": "WORLD",
+      "label": "0.6.1既有林场、树林、河岸与远山",
+      "status": "existing_game_map",
+      "reference_paths": [
+        "GodotProject/scripts/world.gd",
+        "GodotProject/scripts/asset_dressing.gd"
+      ],
+      "placeholder": "S07复制视觉场地作独立演出，正式关卡锚点以现有源码为准。",
+      "missing": "宏大取景、建筑替换和过场装配尚未实现。",
+      "final_steps": [
+        "S07",
+        "S10",
+        "S11",
+        "S12",
+        "S13"
+      ]
+    },
+    {
+      "id": "ACTORS",
+      "label": "现有连续蒙皮NPC",
+      "status": "existing_base_requires_cinematic_setup",
+      "reference_paths": [
+        "GodotProject/assets/characters/field_character.glb"
+      ],
+      "placeholder": "复用scout/guard/logger外形和程序动作；A段均为无名演出实例。",
+      "missing": "精细走跑、接地、衣着差异、手势和面部表演待完善。",
+      "final_steps": [
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S24"
+      ],
+      "inventory_id": "derived_field_character",
+      "source_record_kind": "local_derived_group",
+      "integrated_in_game_at_S02": true,
+      "source_entries": [
+        "AssetLibrary/characters/field_character/field_character.blend",
+        "GodotProject/assets/characters/field_character.glb"
+      ],
+      "registered_files": [
+        "AssetLibrary/characters/field_character/field_character.blend",
+        "GodotProject/assets/characters/field_character.glb"
+      ]
+    },
+    {
+      "id": "HANDS",
+      "label": "0.6.1第一人称双手",
+      "status": "existing_base_requires_cinematic_setup",
+      "reference_paths": [
+        "GodotProject/assets/first_person/hand_left.glb",
+        "GodotProject/assets/first_person/hand_right.glb"
+      ],
+      "placeholder": "沈砚仅用第一人称手/袖口；沿用握枪接触点。",
+      "missing": "整理袖口、交谈中握持变化和最终接管姿态需制作。",
+      "final_steps": [
+        "S17",
+        "S24",
+        "S25"
+      ],
+      "inventory_id": "derived_field_hands",
+      "source_record_kind": "local_derived_group",
+      "integrated_in_game_at_S02": true,
+      "source_entries": [
+        "AssetLibrary/first_person/field_hands/field_hands.blend",
+        "GodotProject/assets/first_person/hand_left.glb",
+        "GodotProject/assets/first_person/hand_right.glb"
+      ],
+      "registered_files": [
+        "AssetLibrary/first_person/field_hands/field_hands.blend",
+        "GodotProject/assets/first_person/hand_left.glb",
+        "GodotProject/assets/first_person/hand_right.glb"
+      ]
+    },
+    {
+      "id": "CABIN",
+      "label": "木屋大体块",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/models/log_cabin_scene/log_cabin_scene.glb"
+      ],
+      "placeholder": "现有木棚体块占位。",
+      "missing": "源尺寸约2000单位；需拆地面、校门高、去西式细节。",
+      "final_steps": [
+        "S10",
+        "S12"
+      ],
+      "inventory_id": "log_cabin_scene",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/models/log_cabin_scene/log_cabin_scene.glb"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/models/log_cabin_scene/log_cabin_scene.glb"
+      ]
+    },
+    {
+      "id": "WAREHOUSE",
+      "label": "林场大型仓库",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/models/warehouse/warehouse.glb"
+      ],
+      "placeholder": "现有仓储木料/盒体占位。",
+      "missing": "源敞顶，补屋顶封墙；高8米与10×17米仅是S02尺度草案。",
+      "final_steps": [
+        "S10",
+        "S13",
+        "S35"
+      ],
+      "inventory_id": "warehouse",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/models/warehouse/warehouse.glb"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/models/warehouse/warehouse.glb"
+      ]
+    },
+    {
+      "id": "FACTORY",
+      "label": "厂房立面背景",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/modular_factory_facade_2k.gltf"
+      ],
+      "placeholder": "现有电报房体块占位。",
+      "missing": "192网格是模块展列，须组装并补背面屋顶，不能整套作为成楼。",
+      "final_steps": [
+        "S10",
+        "S13",
+        "S35"
+      ],
+      "inventory_id": "modular_factory_facade",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/modular_factory_facade_2k.gltf"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/modular_factory_facade_2k.gltf",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_trim_01_diff_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_brick_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_doors_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_garage_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_trim_01_arm_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_garage_diff_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_trim_01_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_brick_arm_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_windows_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_garage_arm_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_windows_diff_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_doors_arm_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_windows_arm_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_doors_diff_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/modular_factory_facade.bin",
+        "AssetLibrary/environment/china_northeast_20261013/models/modular_factory_facade/textures/modular_factory_facade_brick_diff_2k.jpg"
+      ]
+    },
+    {
+      "id": "MARKET",
+      "label": "生活区摊棚",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/models/village_market/village_market.glb"
+      ],
+      "placeholder": "现有木棚/小体块占位；在A-04前景边角。",
+      "missing": "按成人门高校准，旧布与符合年代地域的货物替换。",
+      "final_steps": [
+        "S11",
+        "S13"
+      ],
+      "inventory_id": "village_market",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/models/village_market/village_market.glb"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/models/village_market/village_market.glb"
+      ]
+    },
+    {
+      "id": "BASKET",
+      "label": "竹筐/编织生活细节",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/models/wicker_basket_01/wicker_basket_01_2k.gltf"
+      ],
+      "placeholder": "保留前景位置，未适配时可以省去。",
+      "missing": "统一旧化、近景密度与性能。",
+      "final_steps": [
+        "S11",
+        "S35"
+      ],
+      "inventory_id": "wicker_basket_01",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/models/wicker_basket_01/wicker_basket_01_2k.gltf"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/models/wicker_basket_01/wicker_basket_01_2k.gltf",
+        "AssetLibrary/environment/china_northeast_20261013/models/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/wicker_basket_01/wicker_basket_01.bin",
+        "AssetLibrary/environment/china_northeast_20261013/models/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg"
+      ]
+    },
+    {
+      "id": "TEA_TABLE",
+      "label": "中式旧木桌",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_tea_table/chinese_tea_table_2k.gltf"
+      ],
+      "placeholder": "既有桌体作为门内生活痕迹。",
+      "missing": "高度约0.5米的低桌需合理陈设，避免现代茶室。",
+      "final_steps": [
+        "S11"
+      ],
+      "inventory_id": "chinese_tea_table",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_tea_table/chinese_tea_table_2k.gltf"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_tea_table/chinese_tea_table_2k.gltf",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_tea_table/chinese_tea_table.bin",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg"
+      ]
+    },
+    {
+      "id": "SCREEN",
+      "label": "室内屏风",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_screen_panels/chinese_screen_panels_2k.gltf"
+      ],
+      "placeholder": "门内背景留位置，S07可省去；不堵战斗通路。",
+      "missing": "适合民居的旧化与位置；不是普通林工必备陈设。",
+      "final_steps": [
+        "S11"
+      ],
+      "inventory_id": "chinese_screen_panels",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_screen_panels/chinese_screen_panels_2k.gltf"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_screen_panels/chinese_screen_panels_2k.gltf",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg",
+        "AssetLibrary/environment/china_northeast_20261013/models/chinese_screen_panels/chinese_screen_panels.bin"
+      ]
+    },
+    {
+      "id": "SNOW",
+      "label": "独立冬季雪地纹理",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/textures/snow_02/snow_02_diff_2k.jpg"
+      ],
+      "placeholder": "浅色临时地面或已有雪纹理，只用于A-07演出副本。",
+      "missing": "雪面、脚印与人物接地，不能把可玩深秋场景改成冬季。",
+      "final_steps": [
+        "S12",
+        "S16",
+        "S32"
+      ],
+      "inventory_id": "polyhaven_snow_02",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [],
+      "registered_files": [
+        "AssetLibrary/environment/textures/snow_02/snow_02_diff_2k.jpg",
+        "AssetLibrary/environment/textures/snow_02/snow_02_nor_gl_2k.jpg",
+        "AssetLibrary/environment/textures/snow_02/snow_02_rough_2k.jpg",
+        "AssetLibrary/environment/textures/snow_02/snow_02_ao_2k.jpg",
+        "AssetLibrary/environment/textures/snow_02/snow_02_disp_2k.jpg"
+      ]
+    },
+    {
+      "id": "DEM_REF",
+      "label": "公开高程天池参考",
+      "status": "local_reference_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.blend",
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.glb",
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display_lod.glb"
+      ],
+      "placeholder": "S07仅远景参考/远景占位，明确标注高程样板。",
+      "missing": "没有谈话岩台与碰撞，约14.54公里真实尺度不作为新艺术场景完成证据。",
+      "final_steps": [
+        "S20",
+        "S21",
+        "S22",
+        "S23"
+      ],
+      "inventory_id": "derived_tianchi_dem",
+      "source_record_kind": "local_derived_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.blend",
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.glb",
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display_lod.glb"
+      ],
+      "registered_files": [
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.blend",
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display.glb",
+        "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display_lod.glb"
+      ]
+    },
+    {
+      "id": "TIANCHI",
+      "label": "艺术化火山口湖、岩台与山路",
+      "status": "planned_missing",
+      "reference_paths": [],
+      "placeholder": "现有石块/平面搭临时岩台，远山与DEM作远景参考。",
+      "missing": "正式山体、湖面、环壁、站位、路径、碰撞、水雾和光照均未完成。",
+      "final_steps": [
+        "S20",
+        "S21",
+        "S22",
+        "S23"
+      ]
+    },
+    {
+      "id": "TALK",
+      "label": "双人交谈与听者反应",
+      "status": "planned_missing",
+      "reference_paths": [
+        "docs/narrative/S05/dialogue_script.json"
+      ],
+      "placeholder": "S07用现有骨架的头、肩、手、呼吸简单排演，无新嘴型。",
+      "missing": "逐句目光、表情、口型、微动作和地面接触需S24/S31。",
+      "final_steps": [
+        "S24",
+        "S25",
+        "S31"
+      ]
+    },
+    {
+      "id": "TWO_PERSON",
+      "label": "扶住战友的配合动作",
+      "status": "planned_missing",
+      "reference_paths": [],
+      "placeholder": "两名演出实例的停步、伸臂和重心变化占位。",
+      "missing": "手臂接触、受力、脚部接地尚未制作；不能称已有救助动画。",
+      "final_steps": [
+        "S15",
+        "S18",
+        "S19",
+        "S24"
+      ]
+    },
+    {
+      "id": "COMBAT",
+      "label": "现有枪、开火、后坐、倒地与枪声",
+      "status": "existing_base_requires_cinematic_setup",
+      "reference_paths": [
+        "GodotProject/scripts/human_model.gd",
+        "GodotProject/scripts/weapon_visuals.gd",
+        "GodotProject/assets/audio/rifle_arisaka_01.wav"
+      ],
+      "placeholder": "在演出副本调用模型姿态和视觉开火，禁用真实伤害与资源消耗。",
+      "missing": "更强枪焰、烟气、完善倒地和音画同步尚待后续。",
+      "final_steps": [
+        "S17",
+        "S18",
+        "S26",
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "ARTILLERY",
+      "label": "炮弹轨迹、落弹、土石与战争烟尘",
+      "status": "planned_missing",
+      "reference_paths": [],
+      "placeholder": "S07用短轨迹线、落点标记与简单烟团说明动作，不能称正式爆炸效果。",
+      "missing": "炮弹视觉/声音、伤害区别、回收与性能尚待制作验收。",
+      "final_steps": [
+        "S27",
+        "S28",
+        "S30",
+        "S35"
+      ]
+    },
+    {
+      "id": "WIND",
+      "label": "现有森林风与河岸声",
+      "status": "existing_base_requires_cinematic_setup",
+      "reference_paths": [
+        "GodotProject/assets/audio/forest_wind_loop.wav",
+        "GodotProject/assets/audio/river_bank_loop.wav"
+      ],
+      "placeholder": "林风可临时垫底；天池不直接套瀑布声。",
+      "missing": "高地风、呼吸、衣料需选样试听与混音。",
+      "final_steps": [
+        "S23",
+        "S28",
+        "S30"
+      ],
+      "inventory_id": "ambient-mountain-river-wind-and-forest-and-waterfall",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": true,
+      "source_entries": [],
+      "registered_files": [
+        "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall/originals/ambient_mountains_forest_river_waterfall_wind.7z",
+        "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_forest.flac",
+        "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_mountains.flac",
+        "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_river.flac",
+        "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_stream.flac",
+        "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_waterfall.flac",
+        "AssetLibrary/audio/ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_wind_1.flac",
+        "AssetLibrary/audio/ready_to_import/ambience/amb_forest.ogg",
+        "AssetLibrary/audio/ready_to_import/ambience/amb_mountains.ogg",
+        "AssetLibrary/audio/ready_to_import/ambience/amb_river.ogg",
+        "AssetLibrary/audio/ready_to_import/ambience/amb_stream.ogg",
+        "AssetLibrary/audio/ready_to_import/ambience/amb_waterfall.ogg",
+        "AssetLibrary/audio/ready_to_import/ambience/amb_wind_1.ogg"
+      ]
+    },
+    {
+      "id": "FOOTSTEP",
+      "label": "既有草地脚步",
+      "status": "existing_base_requires_cinematic_setup",
+      "reference_paths": [
+        "GodotProject/assets/audio/step_grass_01.wav"
+      ],
+      "placeholder": "仅林道脚步可临时使用。",
+      "missing": "雪地/石路/木地表逐个选样、与动作同步。",
+      "final_steps": [
+        "S16",
+        "S28",
+        "S30"
+      ],
+      "inventory_id": "footsteps-on-different-surfaces",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": true,
+      "source_entries": [],
+      "registered_files": [
+        "AssetLibrary/audio/footsteps-on-different-surfaces/originals/footsteps_0.zip",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/._footsteps",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/._.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/bones/._.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/bones/._0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/bones/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/boots/._0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/boots/._1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/boots/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/dog/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/grass/._0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/grass/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/gravel/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/mech/._0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/mech/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/metal/._0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/metal/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._8.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/tile/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/water/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/__MACOSX/footsteps/wood/._license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/8.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/9.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/bones/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/8.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/boots/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/dog/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/8.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/8.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/9.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/gravel/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/mech/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/mech/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/metal/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/.DS_Store",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/8.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/tile/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/water/license.txt",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/0.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/1.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/2.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/3.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/4.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/5.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/6.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/7.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/8.ogg",
+        "AssetLibrary/audio/footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/wood/license.txt",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_grass_01.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_grass_02.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_grass_03.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_grass_04.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_grass_05.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_grass_06.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_wood_01.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_wood_02.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_wood_03.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_wood_04.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_wood_05.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_wood_06.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_gravel_01.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_gravel_02.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_gravel_03.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_gravel_04.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_gravel_05.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_gravel_06.wav"
+      ]
+    },
+    {
+      "id": "SNOW_STEP",
+      "label": "雪与碎石脚步库存",
+      "status": "downloaded_not_integrated",
+      "reference_paths": [
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/originals/corsica_s-walking_in_snow.7z"
+      ],
+      "placeholder": "已有文件但未试听选片，S07可留声点标记。",
+      "missing": "实际解码试听、选片与脚步同步尚待S28/S30。",
+      "final_steps": [
+        "S28",
+        "S30"
+      ],
+      "inventory_id": "42-snow-and-gravel-footsteps",
+      "source_record_kind": "downloaded_source_group",
+      "integrated_in_game_at_S02": false,
+      "source_entries": [],
+      "registered_files": [
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/originals/corsica_s-walking_in_snow.7z",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_01.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_02.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_03.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_04.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_05.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_06.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_07.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_08.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_09.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_10.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_11.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_12.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_13.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_14.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_15.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_16.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_17.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_18.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_01.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_02.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_03.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_04.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_05.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_06.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_07.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_08.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_09.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_10.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_11.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_12.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_13.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_14.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_15.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_16.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_17.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_18.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_19.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_20.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_21.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_22.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_23.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/Corsica_S-Walking_on_snow_covered_gravel_and_ice_24.flac",
+        "AssetLibrary/audio/42-snow-and-gravel-footsteps/extracted/corsica_s-walking_in_snow/Corsica_S-Walking_in_Snow/readme.txt",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_snow_01.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_snow_02.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_snow_03.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_snow_04.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_snow_05.wav",
+        "AssetLibrary/audio/ready_to_import/footsteps/step_snow_06.wav"
+      ]
+    },
+    {
+      "id": "METAL",
+      "label": "岗哨金属轻响",
+      "status": "planned_missing",
+      "reference_paths": [
+        "GodotProject/scripts/audio_factory.gd"
+      ],
+      "placeholder": "现有合成机械短提示可作明确临时声，或先留时间标记。",
+      "missing": "正式素材需S28试听，不能把临时声称为网上取得的成品。",
+      "final_steps": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "id": "SCORE",
+      "label": "宏大序章/行军/谈话音乐",
+      "status": "planned_missing",
+      "reference_paths": [],
+      "placeholder": "S07音乐可留空，用节奏/情绪标记；不把潜行候选直接定为宏大BGM。",
+      "missing": "实际网上搜集、下载、试听、选择与剪辑待S29；本步未新增音频。",
+      "final_steps": [
+        "S29",
+        "S30"
+      ]
+    },
+    {
+      "id": "VOICE_A",
+      "label": "固定历史旁白",
+      "status": "script_only_not_recorded",
+      "reference_paths": [
+        "docs/narrative/S04/narration_original.txt",
+        "docs/narrative/S04/narration_timeline.json",
+        "docs/narrative/S04/narration_rehearsal.srt"
+      ],
+      "placeholder": "S07原文字幕排演，若生成临时配音须明确标识。",
+      "missing": "尚无最终录音与同步；重录/变速只能调整时码，不改字句。",
+      "final_steps": [
+        "S31",
+        "S32"
+      ]
+    },
+    {
+      "id": "VOICE_B",
+      "label": "沈砚与姜岚原创对白",
+      "status": "script_only_not_recorded",
+      "reference_paths": [
+        "docs/narrative/S05/dialogue_script.json",
+        "docs/narrative/S05/dialogue_timeline.json",
+        "docs/narrative/S05/recording_lines.txt"
+      ],
+      "placeholder": "S07依对白时码显示说话者与原台词。",
+      "missing": "正式双角色配音、字幕与表演同步待S31；本步不重写台词。",
+      "final_steps": [
+        "S31",
+        "S33"
+      ]
+    },
+    {
+      "id": "TITLES",
+      "label": "游戏标题、时间地点卡",
+      "status": "planned_missing",
+      "reference_paths": [
+        "GodotProject/scripts/hud.gd"
+      ],
+      "placeholder": "现有游戏标题文字与简单字幕样式在S07搭建。",
+      "missing": "现有HUD无完整过场分支，标题/跳过/暂停仍需新接入。",
+      "final_steps": [
+        "S07",
+        "S31",
+        "S32",
+        "S33",
+        "S34"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "A-01",
+      "part": "A",
+      "segment": "A1",
+      "title": "风起林海",
+      "set_id": "FOREST",
+      "start_ms": 0,
+      "end_ms": 7800,
+      "duration_ms": 7800,
+      "global_start_ms": 0,
+      "global_end_ms": 7800,
+      "framing": "大远景；近树梢遮住下缘，山脊居上三分之一，天空不过半。",
+      "camera_motion": "0–1秒黑场渐显；从树冠后缓慢升高约4米、前移约6米，FOV约60°。",
+      "cast": [],
+      "action": "3秒前只让风和晨雾建立空间，N01进入时山脊完整露出。无现代建筑、道路或地名战役标签。",
+      "voice_refs": [
+        {
+          "cue_id": "N01",
+          "overlap_start_ms": 3000,
+          "overlap_end_ms": 7400
+        }
+      ],
+      "subtitle_refs": [
+        "N01"
+      ],
+      "sound": "林风先入，低弦持续音意图从3秒缓入；旁白居中，音乐低于语音。",
+      "transition_out": "随N01停顿硬切到行军纵深，风声连续。",
+      "resources": [
+        "WORLD",
+        "WIND",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "复用现有远山与树林演出副本，慢移镜头；现有林风临时使用；音乐留空。",
+      "final_steps": [
+        "S12",
+        "S29",
+        "S30",
+        "S31",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-02",
+      "part": "A",
+      "segment": "A1",
+      "title": "漫长的路",
+      "set_id": "FOREST",
+      "start_ms": 7800,
+      "end_ms": 11400,
+      "duration_ms": 3600,
+      "global_start_ms": 7800,
+      "global_end_ms": 11400,
+      "framing": "长焦感大全景；两名战士只占画面高度约1/8，树干形成前中后层。",
+      "camera_motion": "固定侧机位，FOV约42°；人物从左向右走，避免急推和摇摆。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "队伍一前一后跨过林道，后人稍慢，留出前行仍漫长的空白。",
+      "voice_refs": [
+        {
+          "cue_id": "N02",
+          "overlap_start_ms": 7800,
+          "overlap_end_ms": 11000
+        }
+      ],
+      "subtitle_refs": [
+        "N02"
+      ],
+      "sound": "延续低弦；低位脚步意图，不让每一步压住N02。",
+      "transition_out": "人物出画方向匹配下一镜。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "FOOTSTEP",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "现有scout外形的两份无名演出实例、程序走路；衣着差异留后续。",
+      "final_steps": [
+        "S15",
+        "S16",
+        "S19",
+        "S28",
+        "S30",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-03",
+      "part": "A",
+      "segment": "A1",
+      "title": "寒林中的人",
+      "set_id": "FOREST",
+      "start_ms": 11400,
+      "end_ms": 17400,
+      "duration_ms": 6000,
+      "global_start_ms": 11400,
+      "global_end_ms": 17400,
+      "framing": "中近景；棉衣、握枪的手和侧脸同框，树影遮去背景重复人物。",
+      "camera_motion": "与后方战士平行慢移约1.5米，FOV约55°；末段略停。",
+      "cast": [
+        "extra_ally_2"
+      ],
+      "action": "战士收拢衣襟、短促呼气后抬眼继续；具体手指和寒气尚待制作。",
+      "voice_refs": [
+        {
+          "cue_id": "N03",
+          "overlap_start_ms": 11400,
+          "overlap_end_ms": 16600
+        }
+      ],
+      "subtitle_refs": [
+        "N03"
+      ],
+      "sound": "N03清楚落地，衣料、呼吸只作轻层；不临时加台词。",
+      "transition_out": "旁白停顿时切到木屋宽景，色温微暖。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "用现有持枪姿态、头部转动和短停表示寒冷；不用不存在的衣襟接触动画。",
+      "final_steps": [
+        "S15",
+        "S17",
+        "S19",
+        "S28",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-04",
+      "part": "A",
+      "segment": "A2",
+      "title": "家园与林场",
+      "set_id": "HOMESTEAD",
+      "start_ms": 17400,
+      "end_ms": 23100,
+      "duration_ms": 5700,
+      "global_start_ms": 17400,
+      "global_end_ms": 23100,
+      "framing": "大全景；木屋与仓库为主体，占宽约2/3；前景一角摊棚/竹筐，中景林工，远处厂房屋脊。",
+      "camera_motion": "从木棚外侧横移约3米，FOV约58°；稳定保留完整屋顶轮廓至少3秒。",
+      "cast": [
+        "extra_worker"
+      ],
+      "action": "林工在木料旁停下看向远处；生活物件归于门前、窗边和生产区，主路保持通透。",
+      "voice_refs": [
+        {
+          "cue_id": "N04",
+          "overlap_start_ms": 17400,
+          "overlap_end_ms": 22600
+        }
+      ],
+      "subtitle_refs": [
+        "N04"
+      ],
+      "sound": "N04之下少量木料轻碰，风中加入较暖和声意图，拒绝热闹集市喧哗。",
+      "transition_out": "沿林工目光切整装战士；空间仍属主题蒙太奇。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "CABIN",
+        "WAREHOUSE",
+        "FACTORY",
+        "MARKET",
+        "BASKET",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "现有木棚/电报房/木料作体块占位。新建筑仅已下载，S07不以未经改造的整包替代成品。",
+      "final_steps": [
+        "S10",
+        "S11",
+        "S12",
+        "S19",
+        "S29",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-05",
+      "part": "A",
+      "segment": "A2",
+      "title": "从屋檐下出发",
+      "set_id": "HOMESTEAD",
+      "start_ms": 23100,
+      "end_ms": 27100,
+      "duration_ms": 4000,
+      "global_start_ms": 23100,
+      "global_end_ms": 27100,
+      "framing": "中景带环境；门框与旧木桌压前景，战士居中，另一人从后侧跟上。",
+      "camera_motion": "低于眼高的平稳机位，FOV约55°，随起步小幅右摇。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "先确认握持，再互看、起步。以共同出发承接“大旗”的精神含义；不凭空制作未经考据的旗号。",
+      "voice_refs": [
+        {
+          "cue_id": "N05",
+          "overlap_start_ms": 23100,
+          "overlap_end_ms": 26300
+        }
+      ],
+      "subtitle_refs": [
+        "N05"
+      ],
+      "sound": "N05后半句轻抬音乐意图；脚步在句后可闻，不加宣誓或新旁白。",
+      "transition_out": "出画后硬切山水；用风声保留连贯。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "CABIN",
+        "TEA_TABLE",
+        "SCREEN",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "现有木棚边放既有桌体占位；战士程序转身起步；屏风/茶桌待S11统一旧化。",
+      "final_steps": [
+        "S10",
+        "S11",
+        "S15",
+        "S17",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-06",
+      "part": "A",
+      "segment": "A3",
+      "title": "白山黑水",
+      "set_id": "RIVER",
+      "start_ms": 27100,
+      "end_ms": 30300,
+      "duration_ms": 3200,
+      "global_start_ms": 27100,
+      "global_end_ms": 30300,
+      "framing": "大远景；水面斜切画面，远山、河湾、林线分三层，无现代设施。",
+      "camera_motion": "高位缓慢斜移，FOV约62°；只展示地貌，不扫过整个任务布局。",
+      "cast": [],
+      "action": "让水与山成为地域意象，既有河岸可以作主题演出背景，不标成真实历史战役地点。",
+      "voice_refs": [
+        {
+          "cue_id": "N06",
+          "overlap_start_ms": 27100,
+          "overlap_end_ms": 29900
+        }
+      ],
+      "subtitle_refs": [
+        "N06"
+      ],
+      "sound": "N06与风、水低层；音乐稍收，准备雪地的干冷质感。",
+      "transition_out": "句后直接切冷色雪地，明确跨季节蒙太奇。",
+      "resources": [
+        "WORLD",
+        "WIND",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "复用现有河岸、远山；天池不在本镜冒充河流。",
+      "final_steps": [
+        "S12",
+        "S28",
+        "S30",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-07",
+      "part": "A",
+      "segment": "A3",
+      "title": "踏雪",
+      "set_id": "WINTER",
+      "start_ms": 30300,
+      "end_ms": 33500,
+      "duration_ms": 3200,
+      "global_start_ms": 30300,
+      "global_end_ms": 33500,
+      "framing": "腿部近景；一前一后脚印方向一致，画面上沿带第二人腿部。",
+      "camera_motion": "机位约膝高，FOV约55°，短距离跟拍；不贴到未精修鞋底。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "两次错开的脚步落点，浅雪被踩实；不让两人同步迈腿。",
+      "voice_refs": [
+        {
+          "cue_id": "N07",
+          "overlap_start_ms": 30300,
+          "overlap_end_ms": 33100
+        }
+      ],
+      "subtitle_refs": [
+        "N07"
+      ],
+      "sound": "雪地脚步、衣料；无现成可用选片时保持安静，不把草地脚步当雪声。",
+      "transition_out": "以脚落点切到密林背影。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "SNOW",
+        "SNOW_STEP",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "独立冬季副本用浅色地表/已下载雪纹理占位，程序走路；脚印、雪粒不宣称实现。",
+      "final_steps": [
+        "S12",
+        "S16",
+        "S28",
+        "S30",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-08",
+      "part": "A",
+      "segment": "A3",
+      "title": "密林穿行",
+      "set_id": "FOREST",
+      "start_ms": 33500,
+      "end_ms": 36900,
+      "duration_ms": 3400,
+      "global_start_ms": 33500,
+      "global_end_ms": 36900,
+      "framing": "中远景；前景两根树干，后方人影时隐时现，通道朝右前。",
+      "camera_motion": "随队伍慢移约2米，FOV约52°；不从树干实体穿过。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "前人拨开路线、后人低身通过；队形与前镜一致，跨季节变化不伪装任务当天。",
+      "voice_refs": [
+        {
+          "cue_id": "N08",
+          "overlap_start_ms": 33500,
+          "overlap_end_ms": 36300
+        }
+      ],
+      "subtitle_refs": [
+        "N08"
+      ],
+      "sound": "N08下风和脚步，枝叶轻擦待选片；音乐保持压低。",
+      "transition_out": "前景树干擦过画面作为切口，不增加时间。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "FOOTSTEP",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "现有树林和正常持枪行走，机位避树；拨枝接触用肩部轻转占位。",
+      "final_steps": [
+        "S12",
+        "S16",
+        "S17",
+        "S28",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-09",
+      "part": "A",
+      "segment": "A3",
+      "title": "孤悬敌后",
+      "set_id": "FOREST",
+      "start_ms": 36900,
+      "end_ms": 39800,
+      "duration_ms": 2900,
+      "global_start_ms": 36900,
+      "global_end_ms": 39800,
+      "framing": "俯视大全景；两名战士缩成林海中的小点，前方道路不见终点。",
+      "camera_motion": "固定高位，FOV约48°；最后0.9秒保留静止留白。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "人物伏低停看，暂缓前行；不切入敌军指挥室或新增剧情。",
+      "voice_refs": [
+        {
+          "cue_id": "N09",
+          "overlap_start_ms": 36900,
+          "overlap_end_ms": 38900
+        }
+      ],
+      "subtitle_refs": [
+        "N09"
+      ],
+      "sound": "N09时音乐明显收低，句后只剩风与呼吸意图。",
+      "transition_out": "在留白结束切到战友之间的动作。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "WIND",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "用程序低姿态或停步占位，不把伏身侦察当作已有完善动画。",
+      "final_steps": [
+        "S15",
+        "S19",
+        "S30",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-10",
+      "part": "A",
+      "segment": "A3",
+      "title": "扶住战友",
+      "set_id": "FOREST",
+      "start_ms": 39800,
+      "end_ms": 45500,
+      "duration_ms": 5700,
+      "global_start_ms": 39800,
+      "global_end_ms": 45500,
+      "framing": "双人中景；后人踉跄前倾，前人在右侧回身，手部接触避开极近特写。",
+      "camera_motion": "固定侧机位略向前推0.5米，FOV约55°；地面和双脚留在下缘。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "后人失衡；前人停住扶臂；站稳后再一起移动。均为无名演出战士，不借用陆山的任务身份。",
+      "voice_refs": [
+        {
+          "cue_id": "N10",
+          "overlap_start_ms": 39800,
+          "overlap_end_ms": 44300
+        }
+      ],
+      "subtitle_refs": [
+        "N10"
+      ],
+      "sound": "N10为中心，呼吸和衣料在句后显露；44.5秒后远枪声意图预告战斗。",
+      "transition_out": "远枪声提前进入，下镜再见枪口。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "TWO_PERSON",
+        "COMBAT",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "两人停步、伸臂与身体倾斜作明确临时姿态，不能称完成扶人动画。",
+      "final_steps": [
+        "S15",
+        "S18",
+        "S19",
+        "S24",
+        "S28",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-11",
+      "part": "A",
+      "segment": "A4",
+      "title": "掩体后的信念",
+      "set_id": "BATTLE",
+      "start_ms": 45500,
+      "end_ms": 50000,
+      "duration_ms": 4500,
+      "global_start_ms": 45500,
+      "global_end_ms": 50000,
+      "framing": "中近景；战士贴木料掩体观察，枪口不遮脸，敌方只在右后景掩体。",
+      "camera_motion": "左侧低机位微推，FOV约58°；友方向右、敌方向左，保持交火轴线。",
+      "cast": [
+        "extra_ally_1",
+        "extra_enemy_1"
+      ],
+      "action": "战士观察、举枪、短促开火后缩回；枪口火光在画面边部，不能让人脸持续过曝。",
+      "voice_refs": [
+        {
+          "cue_id": "N11",
+          "overlap_start_ms": 45500,
+          "overlap_end_ms": 49500
+        }
+      ],
+      "subtitle_refs": [
+        "N11"
+      ],
+      "sound": "N11优先；枪声与闪光同步并压低，较强枪响放在49.5秒后的停顿。",
+      "transition_out": "沿掩体方向切侧向冲锋中景。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "COMBAT",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "独立演出副本复用现有开火、后坐和枪声；无伤害、无正式AI、无弹药消耗。",
+      "final_steps": [
+        "S17",
+        "S26",
+        "S28",
+        "S30",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-12",
+      "part": "A",
+      "segment": "A4",
+      "title": "穿过火线",
+      "set_id": "BATTLE",
+      "start_ms": 50000,
+      "end_ms": 54500,
+      "duration_ms": 4500,
+      "global_start_ms": 50000,
+      "global_end_ms": 54500,
+      "framing": "中远景；前景一人掩护，中景战士跨到下个掩体，远景一道炮弹轨迹意图。",
+      "camera_motion": "侧向跟移约3米，FOV约60°；人物仍由左向右，末端落回稳定机位。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2",
+        "extra_enemy_1",
+        "extra_enemy_2"
+      ],
+      "action": "先掩护再起跑，另一人俯低跟进；远处落弹压住背景层，近身厮杀由交叉火力与掩体争夺表现。",
+      "voice_refs": [
+        {
+          "cue_id": "N12",
+          "overlap_start_ms": 50000,
+          "overlap_end_ms": 54000
+        }
+      ],
+      "subtitle_refs": [
+        "N12"
+      ],
+      "sound": "N12下压低枪火；54.05秒安排一次远处爆炸瞬态，爆炸尾音压入下一句下层。",
+      "transition_out": "爆炸亮点引出下一镜土尘，不能用白闪遮住整幅画面。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "COMBAT",
+        "ARTILLERY",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "程序跑步加无伤害枪口闪光；炮弹轨迹/落点用几何标记与小烟团占位，不新增刺刀格斗。",
+      "final_steps": [
+        "S16",
+        "S17",
+        "S26",
+        "S27",
+        "S28",
+        "S30",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-13",
+      "part": "A",
+      "segment": "A4",
+      "title": "落弹与倒地",
+      "set_id": "BATTLE",
+      "start_ms": 54500,
+      "end_ms": 57400,
+      "duration_ms": 2900,
+      "global_start_ms": 54500,
+      "global_end_ms": 57400,
+      "framing": "低位中景；友方在前景缩身，敌方在中景被击倒，烟尘在远景。",
+      "camera_motion": "镜头保持交火轴线同侧，FOV约58°；只给极轻一次震动，主体不出框。",
+      "cast": [
+        "extra_ally_2",
+        "extra_enemy_1"
+      ],
+      "action": "承接前镜落弹尘土；敌方倒向空地并停留，友方避开倒地者转移。无血腥特写。",
+      "voice_refs": [
+        {
+          "cue_id": "N13",
+          "overlap_start_ms": 54500,
+          "overlap_end_ms": 57400
+        }
+      ],
+      "subtitle_refs": [
+        "N13"
+      ],
+      "sound": "N13连续播放；枪声、尘土与闷响不遮“血战到底”。",
+      "transition_out": "N13跨镜保持音频连续，切后不可从句首重播。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "COMBAT",
+        "ARTILLERY",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "现有倒地驱动用于无名敌方副本；烟尘仅临时几何/粒子，倒地接地待S18验收。",
+      "final_steps": [
+        "S18",
+        "S26",
+        "S27",
+        "S30",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-14",
+      "part": "A",
+      "segment": "A4",
+      "title": "仍有人前行",
+      "set_id": "BATTLE",
+      "start_ms": 57400,
+      "end_ms": 59900,
+      "duration_ms": 2500,
+      "global_start_ms": 57400,
+      "global_end_ms": 59900,
+      "framing": "大全景；前景残留掩体、中景双人前进、远景两处烟柱拉开尺度。",
+      "camera_motion": "缓慢升高约1米，FOV约62°；不越过战线，不突然反向。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "两人交替移动，一人掩护一人前进，承接N13末尾；不展示真实任务胜利或已救陆山。",
+      "voice_refs": [
+        {
+          "cue_id": "N13",
+          "overlap_start_ms": 57400,
+          "overlap_end_ms": 58800
+        }
+      ],
+      "subtitle_refs": [
+        "N13"
+      ],
+      "sound": "旁白58.8秒结束后才让战场尾音短暂显露，音乐开始拉开空间。",
+      "transition_out": "前进的步态匹配A-15，烟尘尾部淡入山风。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "COMBAT",
+        "ARTILLERY",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "复用独立战斗布景和人物；远景两组烟团，不靠新增大量AI营造规模。",
+      "final_steps": [
+        "S16",
+        "S19",
+        "S27",
+        "S30",
+        "S35",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-15",
+      "part": "A",
+      "segment": "A5",
+      "title": "走向山脊",
+      "set_id": "RIDGE",
+      "start_ms": 59900,
+      "end_ms": 66700,
+      "duration_ms": 6800,
+      "global_start_ms": 59900,
+      "global_end_ms": 66700,
+      "framing": "背影全景；双人从下方走入脊线，山体占画面，逐渐显出远湖一角。",
+      "camera_motion": "从人物后方缓升并后退，FOV约60°；人景比例由1/3收至1/8。",
+      "cast": [
+        "extra_ally_1",
+        "extra_ally_2"
+      ],
+      "action": "战士保持前行，天池是地域与精神意象；用独立切镜脱离刚才战场，不声称此地发生真实战役。",
+      "voice_refs": [
+        {
+          "cue_id": "N14",
+          "overlap_start_ms": 59900,
+          "overlap_end_ms": 66000
+        }
+      ],
+      "subtitle_refs": [
+        "N14"
+      ],
+      "sound": "N14完整，战火尾音退去，高地风与舒展和声意图接入。",
+      "transition_out": "在66秒后旁白停顿切湖面全貌，不同地理位置之间用蒙太奇连接。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "TIANCHI",
+        "DEM_REF",
+        "WIND",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "已有远山作脊线；DEM仅可做远景地貌参考或明确标示的远景占位，人物不能直接在其上假定可行走。",
+      "final_steps": [
+        "S16",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S29",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-16",
+      "part": "A",
+      "segment": "A5",
+      "title": "火山口湖全貌",
+      "set_id": "LAKE_WIDE",
+      "start_ms": 66700,
+      "end_ms": 75700,
+      "duration_ms": 9000,
+      "global_start_ms": 66700,
+      "global_end_ms": 75700,
+      "framing": "大远景；深蓝湖面约占下部1/3，环状山壁包围左右，中间留出远山缺口。",
+      "camera_motion": "沿近侧火山口缓慢抬升，FOV约62°；一镜保持9秒，让观众看清环壁和湖面。",
+      "cast": [],
+      "action": "前景暗岩、湖面、受光山壁、远山雾层分开；避免平坦圆盘或机械对称圆环。无现代栈道/游客建筑。",
+      "voice_refs": [
+        {
+          "cue_id": "N15",
+          "overlap_start_ms": 66700,
+          "overlap_end_ms": 75700
+        }
+      ],
+      "subtitle_refs": [
+        "N15"
+      ],
+      "sound": "N15舒展到底；音乐情绪最宽但语音仍最清楚，结尾留自然尾音。",
+      "transition_out": "同景保持进入A6，先退字幕再显示标题。",
+      "resources": [
+        "TIANCHI",
+        "DEM_REF",
+        "WIND",
+        "SCORE",
+        "VOICE_A"
+      ],
+      "s07_placeholder": "S07可用现有DEM低档远景加简单湖面占位并标注；正式火山口湖仍需S20–S23另建。",
+      "final_steps": [
+        "S20",
+        "S21",
+        "S23",
+        "S29",
+        "S30",
+        "S31",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "A-17",
+      "part": "A",
+      "segment": "A6",
+      "title": "山河与标题",
+      "set_id": "LAKE_WIDE",
+      "start_ms": 75700,
+      "end_ms": 80000,
+      "duration_ms": 4300,
+      "global_start_ms": 75700,
+      "global_end_ms": 80000,
+      "framing": "延续A-16的湖面全貌；77秒起标题“烽火回声 · 林海归途”居中。",
+      "camera_motion": "到此停止抬升，构图安定，最后0.5秒轻收暗；不另增片长。",
+      "cast": [],
+      "action": "N15字幕保持到76.5秒；77秒出标题；80秒标题退去，切B1并显示“数日前”。",
+      "voice_refs": [],
+      "subtitle_refs": [
+        "N15"
+      ],
+      "sound": "无新旁白；音乐回落到风声，B1首句在全片82秒才开始。",
+      "transition_out": "80秒硬切人物主观视线；用高地风声音桥衔接。",
+      "resources": [
+        "TIANCHI",
+        "DEM_REF",
+        "WIND",
+        "SCORE",
+        "TITLES"
+      ],
+      "s07_placeholder": "复用上一镜静帧机位与临时文字，清楚标为分镜排演。",
+      "final_steps": [
+        "S20",
+        "S23",
+        "S30",
+        "S31",
+        "S32"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-01",
+      "part": "B",
+      "segment": "B1",
+      "title": "脚下的霜",
+      "set_id": "TERRACE",
+      "start_ms": 0,
+      "end_ms": 5500,
+      "duration_ms": 5500,
+      "global_start_ms": 80000,
+      "global_end_ms": 85500,
+      "framing": "沈砚第一人称中景；湖在上半幅、袖口在下缘，姜岚位于岩台内侧。",
+      "camera_motion": "视线从湖收到脚前霜面，再缓抬到姜岚；FOV约68°，身体仅轻微回收。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "0–2秒显示“数日前 · 长白山天池高地”；姜岚先看脚下再提醒，沈砚收回重心、理袖口。",
+      "voice_refs": [
+        {
+          "cue_id": "B1-L01",
+          "overlap_start_ms": 2000,
+          "overlap_end_ms": 4700
+        }
+      ],
+      "subtitle_refs": [
+        "B1-L01"
+      ],
+      "sound": "高地风、呼吸、衣料；B1-L01居中，音乐只留极弱持续音意图。",
+      "transition_out": "同一主观视线继续，切镜不跨双人轴线。",
+      "resources": [
+        "TIANCHI",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "现有石块/平面搭临时站位台，远景可用DEM；姜岚模型和双手复用，袖口接触用轻微手势占位。",
+      "final_steps": [
+        "S17",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S30",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-02",
+      "part": "B",
+      "segment": "B2",
+      "title": "等太平了",
+      "set_id": "TERRACE",
+      "start_ms": 5500,
+      "end_ms": 9100,
+      "duration_ms": 3600,
+      "global_start_ms": 85500,
+      "global_end_ms": 89100,
+      "framing": "主观中景；姜岚三分侧面与湖同框，眼睛位于上三分之一。",
+      "camera_motion": "沈砚视线先越过湖、再回到姜岚侧脸；FOV约66°，不作机械点头。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "沈砚发问；姜岚完整听完，短停后再看湖，两人不同时转头。",
+      "voice_refs": [
+        {
+          "cue_id": "B2-L01",
+          "overlap_start_ms": 5800,
+          "overlap_end_ms": 8600
+        }
+      ],
+      "subtitle_refs": [
+        "B2-L01"
+      ],
+      "sound": "B2-L01及句后0.5秒风声；不让音乐替角色煽情。",
+      "transition_out": "反应停顿后略收紧姜岚构图，仍在沈砚主观位置。",
+      "resources": [
+        "TIANCHI",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "头部朝向与呼吸占位；沈砚不新增全身模型、肩背或复杂面部特写。",
+      "final_steps": [
+        "S20",
+        "S23",
+        "S24",
+        "S25",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-03",
+      "part": "B",
+      "segment": "B2",
+      "title": "把这一路慢慢走",
+      "set_id": "TERRACE",
+      "start_ms": 9100,
+      "end_ms": 13300,
+      "duration_ms": 4200,
+      "global_start_ms": 89100,
+      "global_end_ms": 93300,
+      "framing": "姜岚主观反打中近景；保持湖面留白，脸部不占满全幅。",
+      "camera_motion": "稳定镜头，FOV约62°；只允许极轻呼吸起伏。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "姜岚先答“来”，轻呼气，到“慢慢走”才看沈砚；玩家手保持握持。",
+      "voice_refs": [
+        {
+          "cue_id": "B2-L02",
+          "overlap_start_ms": 9100,
+          "overlap_end_ms": 12900
+        }
+      ],
+      "subtitle_refs": [
+        "B2-L02"
+      ],
+      "sound": "B2-L02保持平常语气，风声在对白下轻压；无新增台词。",
+      "transition_out": "停顿后回到稍宽的双人空间感，不切出玩家全身。",
+      "resources": [
+        "TIANCHI",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "微表情未制作用头部轻转、姿态静止占位，不宣称嘴型同步。",
+      "final_steps": [
+        "S23",
+        "S24",
+        "S25",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-04",
+      "part": "B",
+      "segment": "B2",
+      "title": "约定落下",
+      "set_id": "TERRACE",
+      "start_ms": 13300,
+      "end_ms": 16000,
+      "duration_ms": 2700,
+      "global_start_ms": 93300,
+      "global_end_ms": 96000,
+      "framing": "主观中景；姜岚与离开口同时可见，袖口只占画面下角。",
+      "camera_motion": "FOV回到约66°；沈砚视线轻收，带出右侧山路。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "沈砚确认约定；姜岚仅一次小幅确认后看向山路，把情绪自然转向行动。",
+      "voice_refs": [
+        {
+          "cue_id": "B2-L03",
+          "overlap_start_ms": 13300,
+          "overlap_end_ms": 14900
+        }
+      ],
+      "subtitle_refs": [
+        "B2-L03"
+      ],
+      "sound": "B2-L03后留一秒左右反应与衣料意图。",
+      "transition_out": "动作相接，沿同侧视线转向离开口。",
+      "resources": [
+        "TIANCHI",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "保持站位，程序转头和手臂轻动，不凭空添加枪带检查。",
+      "final_steps": [
+        "S17",
+        "S22",
+        "S24",
+        "S25",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-05",
+      "part": "B",
+      "segment": "B3",
+      "title": "原定的接应",
+      "set_id": "TERRACE",
+      "start_ms": 16000,
+      "end_ms": 24600,
+      "duration_ms": 8600,
+      "global_start_ms": 96000,
+      "global_end_ms": 104600,
+      "framing": "主观中景；姜岚在路口侧身，湖退为背景，离开方向在画面右侧。",
+      "camera_motion": "同机位慢摇跟随低位手势，FOV约68°；8.6秒长镜不在长句中抢切。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "姜岚说原定去林场找林师傅、接应陆山，收手准备走；沈砚听到陆山抬眼确认、稳住握持。",
+      "voice_refs": [
+        {
+          "cue_id": "B3-L01",
+          "overlap_start_ms": 16200,
+          "overlap_end_ms": 24300
+        }
+      ],
+      "subtitle_refs": [
+        "B3-L01"
+      ],
+      "sound": "B3-L01三个意群清楚；脚步未开始，不加拉栓或装填声。",
+      "transition_out": "姜岚等待回答，保持离开方向不变。",
+      "resources": [
+        "TIANCHI",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "临时路口和指路手势，尚不具备正式行走路径；不出现受伤被扣的新消息。",
+      "final_steps": [
+        "S17",
+        "S22",
+        "S24",
+        "S25",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-06",
+      "part": "B",
+      "segment": "B3",
+      "title": "起步之前",
+      "set_id": "TERRACE",
+      "start_ms": 24600,
+      "end_ms": 26300,
+      "duration_ms": 1700,
+      "global_start_ms": 104600,
+      "global_end_ms": 106300,
+      "framing": "主观中景；姜岚从侧脸转背，近景枪保持安全低位。",
+      "camera_motion": "短跟随右摇，FOV约68°，镜头不跨越姜岚身体。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "沈砚答“知道了”，姜岚等回答后才起步；玩家仅重心前移。",
+      "voice_refs": [
+        {
+          "cue_id": "B3-L02",
+          "overlap_start_ms": 24600,
+          "overlap_end_ms": 25600
+        }
+      ],
+      "subtitle_refs": [
+        "B3-L02"
+      ],
+      "sound": "B3-L02结束才给第一下落脚声意图。",
+      "transition_out": "起步动作匹配B-07，开始省略行程。",
+      "resources": [
+        "TIANCHI",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "现有转身/起步作临时动作，脚步接地待S16。",
+      "final_steps": [
+        "S15",
+        "S16",
+        "S22",
+        "S24",
+        "S25",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-07",
+      "part": "B",
+      "segment": "B4",
+      "title": "离开高地",
+      "set_id": "MARCH",
+      "start_ms": 26300,
+      "end_ms": 28300,
+      "duration_ms": 2000,
+      "global_start_ms": 106300,
+      "global_end_ms": 108300,
+      "framing": "姜岚背影中远景；回望视角短暂看见山脊，湖迅速被岩石遮住。",
+      "camera_motion": "随行视线沿山路前进，FOV约65°；人物保持左后至右前方向。",
+      "cast": [
+        "scout"
+      ],
+      "action": "姜岚走过岩台出口，沈砚在镜头后跟随；不拍沈砚不存在的全身。",
+      "voice_refs": [],
+      "subtitle_refs": [],
+      "sound": "无对白；高地风与两下石路脚步意图。",
+      "transition_out": "以山石遮挡硬切林间，明确省略路程。",
+      "resources": [
+        "WORLD",
+        "TIANCHI",
+        "ACTORS",
+        "WIND",
+        "SCORE"
+      ],
+      "s07_placeholder": "现有石块和山脊作短路段，姜岚程序走路。",
+      "final_steps": [
+        "S16",
+        "S22",
+        "S25",
+        "S28",
+        "S30",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-08",
+      "part": "B",
+      "segment": "B4",
+      "title": "林间的脚步",
+      "set_id": "MARCH",
+      "start_ms": 28300,
+      "end_ms": 29800,
+      "duration_ms": 1500,
+      "global_start_ms": 108300,
+      "global_end_ms": 109800,
+      "framing": "低位近景；仅拍姜岚腿脚、落叶和树影，避免把不同天气当连续一小段路。",
+      "camera_motion": "侧跟约1米，FOV约55°；行进方向继续朝右。",
+      "cast": [
+        "scout"
+      ],
+      "action": "剪入另一天的林间脚步，以光线和地面从岩石变落叶压缩旅程。",
+      "voice_refs": [],
+      "subtitle_refs": [],
+      "sound": "无对白；草地脚步可临时复用，风声换为林风。",
+      "transition_out": "硬切更深林道，允许亮度变化表达时间流逝。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "FOOTSTEP",
+        "WIND",
+        "SCORE"
+      ],
+      "s07_placeholder": "复用林道局部和姜岚模型，走速与脚步节拍后续再校准。",
+      "final_steps": [
+        "S12",
+        "S16",
+        "S25",
+        "S30",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-09",
+      "part": "B",
+      "segment": "B4",
+      "title": "侦察员先行",
+      "set_id": "MARCH",
+      "start_ms": 29800,
+      "end_ms": 31300,
+      "duration_ms": 1500,
+      "global_start_ms": 109800,
+      "global_end_ms": 111300,
+      "framing": "姜岚远去背影中远景；前景树干压画面一侧，背影沿林道消失。",
+      "camera_motion": "固定随行视线，FOV约60°；末0.2秒树干遮挡成为下一镜擦切入口。",
+      "cast": [
+        "scout"
+      ],
+      "action": "29.8–34.3秒两行时间地点卡：“数日后 · 1938年深秋 / 东南满林区 · 青岚林场（虚构）”；姜岚快步先行侦察，不展示陆山。",
+      "voice_refs": [],
+      "subtitle_refs": [],
+      "sound": "无对白；两下脚步远去，低林风接续时间卡。",
+      "transition_out": "31.3秒树干擦切省略侦察与等待时间，时间卡跨镜保持。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "FOOTSTEP",
+        "WIND",
+        "TITLES",
+        "SCORE"
+      ],
+      "s07_placeholder": "复用林道背影与快步动作；不新增侦察任务、不显示已经获救的陆山。",
+      "final_steps": [
+        "S16",
+        "S25",
+        "S30",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-10",
+      "part": "B",
+      "segment": "B4",
+      "title": "回到会合点",
+      "set_id": "APPROACH",
+      "start_ms": 31300,
+      "end_ms": 34300,
+      "duration_ms": 3000,
+      "global_start_ms": 111300,
+      "global_end_ms": 114300,
+      "framing": "主观中景；姜岚从侦察方向回来，检查口隐约在身后，前景仍有树干。",
+      "camera_motion": "FOV约66°，擦切后机位固定；33.3秒姜岚到近前，随后减速站定。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "从背影先行切到返回，明确省略一段侦察与等待；时间地点卡34.3秒退去，给B5首次消息留空间。",
+      "voice_refs": [],
+      "subtitle_refs": [],
+      "sound": "无对白；回来的脚步在34秒前停下，留下0.8秒环境声再开口。",
+      "transition_out": "接近动作自然停住，切B-11时不改变站位或提前触发战斗。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "FOOTSTEP",
+        "WIND",
+        "TITLES",
+        "SCORE"
+      ],
+      "s07_placeholder": "同一林道换机位、光线和行进方向，姜岚从侦察方向返回；由B5台词补足林师傅的信息来源。",
+      "final_steps": [
+        "S15",
+        "S16",
+        "S25",
+        "S30",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-11",
+      "part": "B",
+      "segment": "B5",
+      "title": "陆山的消息",
+      "set_id": "APPROACH",
+      "start_ms": 34300,
+      "end_ms": 43700,
+      "duration_ms": 9400,
+      "global_start_ms": 114300,
+      "global_end_ms": 123700,
+      "framing": "主观中近景；姜岚在树影下，检查口只在侧后方露出轮廓。",
+      "camera_motion": "固定眼高，FOV约66°；随着沈砚提问轻收视线，不做切出陆山的插镜。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "姜岚确认隐蔽后讲新消息；沈砚手停住，听完先问能否带走；姜岚听问回看。",
+      "voice_refs": [
+        {
+          "cue_id": "B5-L01",
+          "overlap_start_ms": 34800,
+          "overlap_end_ms": 41700
+        },
+        {
+          "cue_id": "B5-L02",
+          "overlap_start_ms": 42000,
+          "overlap_end_ms": 43500
+        }
+      ],
+      "subtitle_refs": [
+        "B5-L01",
+        "B5-L02"
+      ],
+      "sound": "B5-L01、L02依次播放，保留中间0.3秒；林风低，音乐开始紧张但轻。",
+      "transition_out": "在沈砚问题后的停顿切稍宽角度，让路线方向进入画面。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "既有起点周边演出副本；姜岚临时头手动作，正式陆山仍在电报房。",
+      "final_steps": [
+        "S15",
+        "S24",
+        "S25",
+        "S29",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-12",
+      "part": "B",
+      "segment": "B5",
+      "title": "名册与岗哨响动",
+      "set_id": "APPROACH",
+      "start_ms": 43700,
+      "end_ms": 52400,
+      "duration_ms": 8700,
+      "global_start_ms": 123700,
+      "global_end_ms": 132400,
+      "framing": "主观中景；姜岚、遮蔽物和检查口方向同时可辨，不要求从起点看穿到电报房。",
+      "camera_motion": "FOV约68°；末0.8秒先看姜岚转头，再延迟约0.2秒小幅跟向声源。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "姜岚解释腿伤和名册风险，沈砚握稳；51.65秒岗哨金属轻响，两人先后停看，不触发实战。",
+      "voice_refs": [
+        {
+          "cue_id": "B5-L03",
+          "overlap_start_ms": 43700,
+          "overlap_end_ms": 51600
+        }
+      ],
+      "subtitle_refs": [
+        "B5-L03"
+      ],
+      "sound": "B5-L03到51.6秒结束；51.65秒一次短金属响，尾音收于52.2秒，下一句52.4秒开始。",
+      "transition_out": "顺着两人恢复观察的动作进入指路长镜。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "METAL",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "声音暂用明确临时短机械提示或留标记，S28选样；不得借用真实守卫AI制造动静。",
+      "final_steps": [
+        "S17",
+        "S24",
+        "S25",
+        "S28",
+        "S30",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-13",
+      "part": "B",
+      "segment": "B5",
+      "title": "把路线说清",
+      "set_id": "APPROACH",
+      "start_ms": 52400,
+      "end_ms": 60400,
+      "duration_ms": 8000,
+      "global_start_ms": 132400,
+      "global_end_ms": 140400,
+      "framing": "主观中景带检查口方向；手势位于中下部，不覆盖字幕；不插入上帝视角路线动画。",
+      "camera_motion": "FOV约70°；随低位手势小摇看入口，句末回望姜岚。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "姜岚说明检查口、木料巷、取册再断电话中继；沈砚先看路线再回看，仍留在掩蔽内。",
+      "voice_refs": [
+        {
+          "cue_id": "B5-L04",
+          "overlap_start_ms": 52400,
+          "overlap_end_ms": 60100
+        }
+      ],
+      "subtitle_refs": [
+        "B5-L04"
+      ],
+      "sound": "B5-L04中地点和“再”读清；不以枪声打断任务信息。",
+      "transition_out": "句后停顿才回到姜岚脸侧，准备撤路问答。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "现有检查口与路牌可用；新增大型建筑只在S10后替换背景，不挡入口。",
+      "final_steps": [
+        "S10",
+        "S13",
+        "S24",
+        "S25",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-14",
+      "part": "B",
+      "segment": "B5",
+      "title": "撤到渡口",
+      "set_id": "APPROACH",
+      "start_ms": 60400,
+      "end_ms": 69300,
+      "duration_ms": 8900,
+      "global_start_ms": 140400,
+      "global_end_ms": 149300,
+      "framing": "主观中景；姜岚偏画面右侧，左侧留一条可走的前路。",
+      "camera_motion": "FOV约70°；问句保持稳定，答句时只轻随北侧方向，不强行看见远处渡口。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "沈砚问撤路；姜岚说明电报房北侧、渡口与掩护解缆，再收手看回山路；无救人完成的插镜。",
+      "voice_refs": [
+        {
+          "cue_id": "B5-L05",
+          "overlap_start_ms": 60400,
+          "overlap_end_ms": 63000
+        },
+        {
+          "cue_id": "B5-L06",
+          "overlap_start_ms": 63200,
+          "overlap_end_ms": 68200
+        }
+      ],
+      "subtitle_refs": [
+        "B5-L05",
+        "B5-L06"
+      ],
+      "sound": "B5-L05与L06按原时码；68.2秒后留反应，风声中保留危机，不提前播追兵。",
+      "transition_out": "轻收镜头进入交接段，画面仍为同一会合点。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "只做原定方向的姿态提示，不需要新增地图道具；补给/包扎仍可选。",
+      "final_steps": [
+        "S13",
+        "S24",
+        "S25",
+        "S31",
+        "S33"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-15",
+      "part": "B",
+      "segment": "B6",
+      "title": "各守一段路",
+      "set_id": "HANDOFF",
+      "start_ms": 69300,
+      "end_ms": 74900,
+      "duration_ms": 5600,
+      "global_start_ms": 149300,
+      "global_end_ms": 154900,
+      "framing": "第一人称中景；姜岚靠既有锚点让出前路，木棚方向可辨。",
+      "camera_motion": "机位锁在玩家起点附近，FOV从约70°缓到74°；不沿关卡自动前冲。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "姜岚示意木棚后侧身看住回山路；沈砚随指示短移视线，双手准备正常持枪。",
+      "voice_refs": [
+        {
+          "cue_id": "B6-L01",
+          "overlap_start_ms": 69300,
+          "overlap_end_ms": 74600
+        }
+      ],
+      "subtitle_refs": [
+        "B6-L01"
+      ],
+      "sound": "B6-L01，音乐开始缓退；第一提示只在控制接管后出现，不压人物对白。",
+      "transition_out": "同位置连续进入最后一句，不能突然重置相机。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "复用起点和scout锚点；准备对齐但不在S06实现任何任务提交。",
+      "final_steps": [
+        "S17",
+        "S24",
+        "S25",
+        "S30",
+        "S31",
+        "S33",
+        "S34"
+      ],
+      "implementation_status": "design_only"
+    },
+    {
+      "id": "B-16",
+      "part": "B",
+      "segment": "B6",
+      "title": "等我，人与名单",
+      "set_id": "HANDOFF",
+      "start_ms": 74900,
+      "end_ms": 80100,
+      "duration_ms": 5200,
+      "global_start_ms": 154900,
+      "global_end_ms": 160100,
+      "framing": "第一人称恢复正常视野；姜岚警戒，前路在视线中，双手回到原握点。",
+      "camera_motion": "78.5秒前完成对齐：玩家(10,0.08,86)、yaw=-0.6、pitch=0、FOV78°、相机相对高1.57。其后不再移动。",
+      "cast": [
+        "player",
+        "scout"
+      ],
+      "action": "沈砚承诺后停稳；姜岚轻点一次头继续警戒。78.9–80.1秒只收过场层，80.1秒按S03契约提交一次、显示目标并开放控制。",
+      "voice_refs": [
+        {
+          "cue_id": "B6-L02",
+          "overlap_start_ms": 74900,
+          "overlap_end_ms": 78500
+        }
+      ],
+      "subtitle_refs": [
+        "B6-L02"
+      ],
+      "sound": "B6-L02到78.5秒；留1.6秒反应与风声，音乐退出不得使环境声重复叠播。",
+      "transition_out": "无切黑接可玩视角；正常结束和跳过B使用同一交接出口。",
+      "resources": [
+        "WORLD",
+        "ACTORS",
+        "HANDS",
+        "TALK",
+        "WIND",
+        "SCORE",
+        "VOICE_B"
+      ],
+      "s07_placeholder": "S07需实现最小一致交接并实测；正式全矩阵在S34，S06仅给出镜头与状态要求。",
+      "final_steps": [
+        "S17",
+        "S24",
+        "S25",
+        "S30",
+        "S31",
+        "S33",
+        "S34"
+      ],
+      "implementation_status": "design_only"
+    }
+  ]
+}

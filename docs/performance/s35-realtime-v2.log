@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+S35 REALTIME SAMPLE: {"frames":2315,"max_frame_ms":9.675,"mean_draw_calls":623.416414686825,"mean_fps":192.856238378642,"mean_frame_ms":5.18520950323973,"mean_primitives":532613.575809935,"p95_frame_ms":6.322,"p99_frame_ms":7.267,"part":"A","sample_seconds":12.00376,"scenario":"A4_fireline","shots":["A-11","A-12","A-13","A-14"],"timeline_seconds":12.011213}
+S35 REALTIME SAMPLE: {"frames":7444,"max_frame_ms":5.681,"mean_draw_calls":51.8452444922085,"mean_fps":437.824740356223,"mean_frame_ms":2.28401894142935,"mean_primitives":20423.0013433638,"p95_frame_ms":3.506,"p99_frame_ms":3.941,"part":"A","sample_seconds":17.002237,"scenario":"A5_A6_tianchi","shots":["A-15","A-16","A-17"],"timeline_seconds":17.0074120000002}
+S35 REALTIME SAMPLE: {"frames":7787,"max_frame_ms":6.128,"mean_draw_calls":87.4367535636317,"mean_fps":338.541372303342,"mean_frame_ms":2.95384872222936,"mean_primitives":99139.6709901117,"p95_frame_ms":3.845,"p99_frame_ms":4.36,"part":"B","sample_seconds":23.00162,"scenario":"B1_B3_conversation","shots":["B-01","B-02","B-03","B-04","B-05"],"timeline_seconds":23.0065350000001}
+S35 REALTIME SAMPLE: {"frames":5484,"max_frame_ms":9.818,"mean_draw_calls":725.249817651349,"mean_fps":182.788959546844,"mean_frame_ms":5.47078993435447,"mean_primitives":1401011.47283005,"p95_frame_ms":6.494,"p99_frame_ms":7.958,"part":"B","sample_seconds":30.001812,"scenario":"B5_forest_briefing","shots":["B-11","B-12","B-13","B-14"],"timeline_seconds":30.0094800000003}
+S35 SCENE PERFORMANCE: PASS | rows=4

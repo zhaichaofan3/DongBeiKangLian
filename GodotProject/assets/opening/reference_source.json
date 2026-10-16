@@ -1,0 +1,9 @@
+{
+  "status": "distant_cinematic_reference_only_not_artistic_final_model",
+  "source": "AssetLibrary/environment/china_northeast_20261013/terrain/tianchi_display_lod.glb",
+  "sha256": "6cb48b44e743abf97744865079ea7032aadf4a3d70c41c87b621a5ceec8741c7",
+  "source_manifest": "AssetLibrary/environment/china_northeast_20261013/terrain/source.json",
+  "attribution": "Mapzen/Terrarium elevation tiles via Tilezen/Joerd; © OpenStreetMap contributors for lake outline",
+  "osm_license": "ODbL 1.0",
+  "use": "S07远景与临时站位排演；不提供真实游览路线或地形精度承诺"
+}

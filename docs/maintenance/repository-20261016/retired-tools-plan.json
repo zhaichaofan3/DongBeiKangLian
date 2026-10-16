@@ -1,0 +1,199 @@
+{
+  "items": [
+    {
+      "path": "docs/auto_resume_config.json",
+      "bytes": 343,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "docs/auto_resume_interrupt_observation.json",
+      "bytes": 542,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "docs/auto_resume_live_validation.json",
+      "bytes": 605,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "docs/auto_resume_single_controller_validation.json",
+      "bytes": 891,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "docs/auto_resume_unit_validation.json",
+      "bytes": 571,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "docs/auto_resume_validation.json",
+      "bytes": 1938,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "docs/checkpoint_tool_validation.json",
+      "bytes": 565,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "docs/production_plan_validation.json",
+      "bytes": 285,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/archive_bayonet_20261015.py",
+      "bytes": 6019,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/archive_guard_identity_20261015.py",
+      "bytes": 3451,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/archive_s36_candidate.py",
+      "bytes": 8892,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/archive_user_audio_20261015.py",
+      "bytes": 4934,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/archive_viewmodel_reference.py",
+      "bytes": 6338,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/audit_s03_interfaces.py",
+      "bytes": 9817,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/blender-mirror-index.html",
+      "bytes": 50324,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/build_s02_inventory.py",
+      "bytes": 29276,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/build_s04_narration.py",
+      "bytes": 14133,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/build_s05_dialogue.py",
+      "bytes": 14816,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/build_s06_storyboard.py",
+      "bytes": 53498,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/build_s07_opening_data.py",
+      "bytes": 5777,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/build_s08_plan.py",
+      "bytes": 18624,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/build_s09_evidence.py",
+      "bytes": 5623,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/diagnose_model_connection.py",
+      "bytes": 8454,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_changbai_20261015.py",
+      "bytes": 5164,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_character_revision_20261015.py",
+      "bytes": 5376,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_first_level_rebuild.py",
+      "bytes": 10294,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_polish_revision_20261015.py",
+      "bytes": 6188,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_river_journey.py",
+      "bytes": 6933,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_settlement_revision.py",
+      "bytes": 10115,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_user_dialogue_20261015.py",
+      "bytes": 7459,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_user_expansion_20261015.py",
+      "bytes": 8971,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_user_models_20261015.py",
+      "bytes": 7347,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/finalize_user_revision_20261015.py",
+      "bytes": 4730,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/generate_handover_catalog.py",
+      "bytes": 28210,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/generate_handover_support.py",
+      "bytes": 23181,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/migrate_first_level_qa.py",
+      "bytes": 2589,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/Organize-Workspace.ps1",
+      "bytes": 6938,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/verify_handover.py",
+      "bytes": 12751,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    },
+    {
+      "path": "tools/workspace_maintenance.py",
+      "bytes": 16983,
+      "reason": "Retired one-off step controller, old state generator or superseded batch finalizer"
+    }
+  ]
+}

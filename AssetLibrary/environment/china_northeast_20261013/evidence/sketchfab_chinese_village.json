@@ -1,0 +1,2339 @@
+{
+  "cursors": {
+    "next": "12",
+    "previous": null
+  },
+  "next": "https://api.sketchfab.com/v3/search?count=12&cursor=12&downloadable=true&q=chinese+village&sort_by=-likeCount&type=models",
+  "previous": null,
+  "results": [
+    {
+      "uri": "https://api.sketchfab.com/v3/models/af2da248227c4dac96fc2570e58e26da",
+      "uid": "af2da248227c4dac96fc2570e58e26da",
+      "name": "DAE Villages | Shipwrecked Chinese Supply Store",
+      "staffpickedAt": "2021-06-12T09:02:00.749299",
+      "viewCount": 21333,
+      "likeCount": 883,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-af2da248227c4dac96fc2570e58e26da",
+      "embedUrl": "https://sketchfab.com/models/af2da248227c4dac96fc2570e58e26da/embed",
+      "commentCount": 34,
+      "isDownloadable": true,
+      "publishedAt": "2021-06-10T19:11:42.244978",
+      "tags": [
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "daehowest",
+          "slug": "daehowest",
+          "uri": "https://api.sketchfab.com/v3/tags/daehowest"
+        },
+        {
+          "name": "shipwrecked",
+          "slug": "shipwrecked",
+          "uri": "https://api.sketchfab.com/v3/tags/shipwrecked"
+        },
+        {
+          "name": "handpainted",
+          "slug": "handpainted",
+          "uri": "https://api.sketchfab.com/v3/tags/handpainted"
+        },
+        {
+          "name": "ship",
+          "slug": "ship",
+          "uri": "https://api.sketchfab.com/v3/tags/ship"
+        },
+        {
+          "name": "daevillages",
+          "slug": "daevillages",
+          "uri": "https://api.sketchfab.com/v3/tags/daevillages"
+        },
+        {
+          "name": "gameart2021",
+          "slug": "gameart2021",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart2021"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "art-abstract"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "59a37b89e2d346a9b9ac7d5422104427",
+            "size": 252766,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/af2da248227c4dac96fc2570e58e26da/thumbnails/3c57919ed364447a9ff4583a59cc479d/7d86b66dd9444e75aa16fad7343f5fa9.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "a2ee2777ea09463fa55af3f162f32251",
+            "size": 80016,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/af2da248227c4dac96fc2570e58e26da/thumbnails/3c57919ed364447a9ff4583a59cc479d/cd6e87ade6414ef6aac9ad8a85fe7bfd.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "764830a5130c45e48ca1df93fcc5ec38",
+            "size": 44551,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/af2da248227c4dac96fc2570e58e26da/thumbnails/3c57919ed364447a9ff4583a59cc479d/1e95cd117d03445d9f1dc557c2a30b6a.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "67aba674e5aa48bfb1ae489304f53734",
+            "size": 8086,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/af2da248227c4dac96fc2570e58e26da/thumbnails/3c57919ed364447a9ff4583a59cc479d/6721aad7d65547b0a2892318aa1cce18.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "b03553b4854c438893b2f0013393ff70",
+            "size": 1358,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/af2da248227c4dac96fc2570e58e26da/thumbnails/3c57919ed364447a9ff4583a59cc479d/547a3823eba44297b735fb7a8b9d07e6.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "6353d2df84d5411fa7bf010ab2dbb2da",
+        "username": "kennethtzh",
+        "displayName": "kennethtzh",
+        "profileUrl": "https://sketchfab.com/kennethtzh",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6353d2df84d5411fa7bf010ab2dbb2da"
+      },
+      "description": "Shipwrecked supply store where sailors can resupply at. \n\nFinal Assignment for the Game Art Course at DAE.",
+      "faceCount": 24417,
+      "createdAt": "2021-06-10T15:46:28.755598",
+      "vertexCount": 15920,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 4,
+          "size": 13387276,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 24417,
+          "vertexCount": 49286
+        },
+        "gltf": {
+          "textureCount": 4,
+          "size": 11922674,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 24417,
+          "vertexCount": 49286
+        },
+        "source": {
+          "textureCount": null,
+          "size": 20068401,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 8728691,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/600e821c90e74cc8ae1bb078609327f0",
+      "uid": "600e821c90e74cc8ae1bb078609327f0",
+      "name": "Village head",
+      "staffpickedAt": null,
+      "viewCount": 44677,
+      "likeCount": 815,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-600e821c90e74cc8ae1bb078609327f0",
+      "embedUrl": "https://sketchfab.com/models/600e821c90e74cc8ae1bb078609327f0/embed",
+      "commentCount": 19,
+      "isDownloadable": true,
+      "publishedAt": "2020-03-25T03:13:54.199157",
+      "tags": [
+        {
+          "name": "cloth",
+          "slug": "cloth",
+          "uri": "https://api.sketchfab.com/v3/tags/cloth"
+        },
+        {
+          "name": "moustache",
+          "slug": "moustache",
+          "uri": "https://api.sketchfab.com/v3/tags/moustache"
+        },
+        {
+          "name": "farmer",
+          "slug": "farmer",
+          "uri": "https://api.sketchfab.com/v3/tags/farmer"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "villager",
+          "slug": "villager",
+          "uri": "https://api.sketchfab.com/v3/tags/villager"
+        },
+        {
+          "name": "oldman",
+          "slug": "oldman",
+          "uri": "https://api.sketchfab.com/v3/tags/oldman"
+        },
+        {
+          "name": "aged",
+          "slug": "aged",
+          "uri": "https://api.sketchfab.com/v3/tags/aged"
+        }
+      ],
+      "categories": [
+        {
+          "name": "characters-creatures"
+        },
+        {
+          "name": "people"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7de445f746224e9d8c7be56eb88e473f",
+            "size": 379476,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/600e821c90e74cc8ae1bb078609327f0/thumbnails/2d93929afe474abfa16ab97f11652126/239ea1119c5045e5a0a9758764288c97.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "7c8284862b3b496fb3648667a2a4c58a",
+            "size": 51978,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/600e821c90e74cc8ae1bb078609327f0/thumbnails/2d93929afe474abfa16ab97f11652126/633b0824477943e4bfe15c52d50201b5.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "c600fe6517dd4b81b41ff92375c122ea",
+            "size": 23556,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/600e821c90e74cc8ae1bb078609327f0/thumbnails/2d93929afe474abfa16ab97f11652126/76caee3fe75e423ab3392b96dfd484d6.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c000bb220c8b42ab9cefc7a13ab6d0d9",
+            "size": 4064,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/600e821c90e74cc8ae1bb078609327f0/thumbnails/2d93929afe474abfa16ab97f11652126/a1e38b567cf042dfb556737037fbde13.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "b4ecf27cd498453a96744096a6918802",
+            "size": 838,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/600e821c90e74cc8ae1bb078609327f0/thumbnails/2d93929afe474abfa16ab97f11652126/4294252b00dc4304b47f102547be1420.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "a89ef943663042d9bb11fa50e32273c5",
+        "username": "Paofu",
+        "displayName": "Hipuff",
+        "profileUrl": "https://sketchfab.com/Paofu",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/21bcc684a01a43b88bca43c5368cb4e3",
+          "images": [
+            {
+              "size": 728,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/21bcc684a01a43b88bca43c5368cb4e3/f6ad7aa490a8478e926feb061a9a1149.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1139,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/21bcc684a01a43b88bca43c5368cb4e3/eba6ccb527d14884866c919a22c27bf4.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2626,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/21bcc684a01a43b88bca43c5368cb4e3/a7138cbfd204466b8edacf18ad794b89.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3004,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/21bcc684a01a43b88bca43c5368cb4e3/484ba664f331493c9f2c2885f8acc957.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/a89ef943663042d9bb11fa50e32273c5"
+      },
+      "description": "This is the image of an old man in ancient China, inspired by an old game",
+      "faceCount": 7582,
+      "createdAt": "2019-12-25T13:00:35.761938",
+      "vertexCount": 3879,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 15610856,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 7582,
+          "vertexCount": 4504
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 15428364,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 7582,
+          "vertexCount": 4504
+        },
+        "source": {
+          "textureCount": null,
+          "size": 30244314,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6054236,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/a210febbec4f454dbd0df1d142be06bc",
+      "uid": "a210febbec4f454dbd0df1d142be06bc",
+      "name": "Japanese Temple",
+      "staffpickedAt": null,
+      "viewCount": 38449,
+      "likeCount": 805,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-a210febbec4f454dbd0df1d142be06bc",
+      "embedUrl": "https://sketchfab.com/models/a210febbec4f454dbd0df1d142be06bc/embed",
+      "commentCount": 10,
+      "isDownloadable": true,
+      "publishedAt": "2019-02-08T07:04:06.709519",
+      "tags": [
+        {
+          "name": "historic",
+          "slug": "historic",
+          "uri": "https://api.sketchfab.com/v3/tags/historic"
+        },
+        {
+          "name": "japan",
+          "slug": "japan",
+          "uri": "https://api.sketchfab.com/v3/tags/japan"
+        },
+        {
+          "name": "historical",
+          "slug": "historical",
+          "uri": "https://api.sketchfab.com/v3/tags/historical"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "pagoda",
+          "slug": "pagoda",
+          "uri": "https://api.sketchfab.com/v3/tags/pagoda"
+        },
+        {
+          "name": "shrine",
+          "slug": "shrine",
+          "uri": "https://api.sketchfab.com/v3/tags/shrine"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "substancepainter",
+          "slug": "substancepainter",
+          "uri": "https://api.sketchfab.com/v3/tags/substancepainter"
+        },
+        {
+          "name": "substance",
+          "slug": "substance",
+          "uri": "https://api.sketchfab.com/v3/tags/substance"
+        },
+        {
+          "name": "wood",
+          "slug": "wood",
+          "uri": "https://api.sketchfab.com/v3/tags/wood"
+        },
+        {
+          "name": "fantasy",
+          "slug": "fantasy",
+          "uri": "https://api.sketchfab.com/v3/tags/fantasy"
+        },
+        {
+          "name": "download",
+          "slug": "download",
+          "uri": "https://api.sketchfab.com/v3/tags/download"
+        },
+        {
+          "name": "village",
+          "slug": "village",
+          "uri": "https://api.sketchfab.com/v3/tags/village"
+        },
+        {
+          "name": "temple",
+          "slug": "temple",
+          "uri": "https://api.sketchfab.com/v3/tags/temple"
+        },
+        {
+          "name": "japanese",
+          "slug": "japanese",
+          "uri": "https://api.sketchfab.com/v3/tags/japanese"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "db4d9cfad18044ca99901f7e7665d53f",
+            "size": 719,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/a210febbec4f454dbd0df1d142be06bc/thumbnails/46b0c2c495c341aa8e2975589a4dce34/3d5903457c5b4000a2e2569c7dca9207.jpeg",
+            "height": 36
+          },
+          {
+            "uid": "c50073a628434da8904ae60cb67c4a0a",
+            "size": 4084,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/a210febbec4f454dbd0df1d142be06bc/thumbnails/46b0c2c495c341aa8e2975589a4dce34/42a34a308fed4fd0a971d28647039cca.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "a3fbdfae0d114bd2a2c16ab9922c6a07",
+            "size": 23230,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/a210febbec4f454dbd0df1d142be06bc/thumbnails/46b0c2c495c341aa8e2975589a4dce34/93c42ed701454d6cb3a994257cd8029c.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "586b390f4e7945709ac9228bfbff9f33",
+            "size": 43454,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/a210febbec4f454dbd0df1d142be06bc/thumbnails/46b0c2c495c341aa8e2975589a4dce34/57ae1c28a2724338993d62cd31e54cf8.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "73153629552d4ddc8316cecefdcb54eb",
+            "size": 165884,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/a210febbec4f454dbd0df1d142be06bc/thumbnails/46b0c2c495c341aa8e2975589a4dce34/4b60adee7c584861a27d6d3bcfc1f56a.jpeg",
+            "height": 1080
+          }
+        ]
+      },
+      "user": {
+        "uid": "0127bee13d7e4e33aea8264155ffd257",
+        "username": "spectraut2",
+        "displayName": "Jainesh Pathak",
+        "profileUrl": "https://sketchfab.com/spectraut2",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "size": 6421,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+              "height": 100
+            },
+            {
+              "size": 2518,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+              "height": 48
+            },
+            {
+              "size": 5653,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1350,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/0127bee13d7e4e33aea8264155ffd257"
+      },
+      "description": "Japanese Temple made in Blender 2.79, painted in Substance Painter and rendered in Blender cycles.",
+      "faceCount": 29702,
+      "createdAt": "2019-02-08T07:02:05.613263",
+      "vertexCount": 16610,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 25455008,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 29696,
+          "vertexCount": 33629
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 23748280,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 29696,
+          "vertexCount": 33629
+        },
+        "source": {
+          "textureCount": null,
+          "size": 14185528,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3882265,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/55b44e8257c742819204c3a880563526",
+      "uid": "55b44e8257c742819204c3a880563526",
+      "name": "DAE Villages — Chinese Food Truck",
+      "staffpickedAt": null,
+      "viewCount": 6246,
+      "likeCount": 301,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-55b44e8257c742819204c3a880563526",
+      "embedUrl": "https://sketchfab.com/models/55b44e8257c742819204c3a880563526/embed",
+      "commentCount": 2,
+      "isDownloadable": true,
+      "publishedAt": "2022-06-17T06:22:23.661440",
+      "tags": [
+        {
+          "name": "food",
+          "slug": "food",
+          "uri": "https://api.sketchfab.com/v3/tags/food"
+        },
+        {
+          "name": "truck",
+          "slug": "truck",
+          "uri": "https://api.sketchfab.com/v3/tags/truck"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "diorama",
+          "slug": "diorama",
+          "uri": "https://api.sketchfab.com/v3/tags/diorama"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "daehowest",
+          "slug": "daehowest",
+          "uri": "https://api.sketchfab.com/v3/tags/daehowest"
+        },
+        {
+          "name": "foodtruck",
+          "slug": "foodtruck",
+          "uri": "https://api.sketchfab.com/v3/tags/foodtruck"
+        },
+        {
+          "name": "maya",
+          "slug": "maya",
+          "uri": "https://api.sketchfab.com/v3/tags/maya"
+        },
+        {
+          "name": "photoshop",
+          "slug": "photoshop",
+          "uri": "https://api.sketchfab.com/v3/tags/photoshop"
+        },
+        {
+          "name": "stylized",
+          "slug": "stylized",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized"
+        },
+        {
+          "name": "daevillages",
+          "slug": "daevillages",
+          "uri": "https://api.sketchfab.com/v3/tags/daevillages"
+        },
+        {
+          "name": "gameart2022",
+          "slug": "gameart2022",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart2022"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "13a832a025b54110a1636f01113b9f8a",
+            "size": 153896,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/55b44e8257c742819204c3a880563526/thumbnails/b6731874d0a64ec184c20764d08731e3/7af184af72f64133a2c3347b3f54fe1d.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "46cb9eb366b947c7abd783c22a16ccc4",
+            "size": 48127,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/55b44e8257c742819204c3a880563526/thumbnails/b6731874d0a64ec184c20764d08731e3/0ead69c2170c4518b420d4b16ad78262.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "b6aca71d5a95484db00bfc3ce8ba433f",
+            "size": 28665,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/55b44e8257c742819204c3a880563526/thumbnails/b6731874d0a64ec184c20764d08731e3/ec9856e23d2d43988421b37121074314.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e27895de930447139e857ffb7141bb4c",
+            "size": 6061,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/55b44e8257c742819204c3a880563526/thumbnails/b6731874d0a64ec184c20764d08731e3/c767311ea3fc46e3ade663926604ad84.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "c8e5976b42124171a89d5783fc759878",
+            "size": 1234,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/55b44e8257c742819204c3a880563526/thumbnails/b6731874d0a64ec184c20764d08731e3/20bd44900acb480f88dd4313218e1363.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "41775079d9724cd7aee6f6a7a0f1be39",
+        "username": "CleuzaCosta",
+        "displayName": "Cleuza Costa",
+        "profileUrl": "https://sketchfab.com/CleuzaCosta",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/2de774eb3a1a45189f09f8afedc4fe77",
+          "images": [
+            {
+              "size": 2705,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/2de774eb3a1a45189f09f8afedc4fe77/82cff7df5fd64032bae924f5375463f5.png",
+              "height": 32
+            },
+            {
+              "size": 5588,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/2de774eb3a1a45189f09f8afedc4fe77/10cf8da28ee84c83ba1398215468ec20.png",
+              "height": 48
+            },
+            {
+              "size": 17977,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/2de774eb3a1a45189f09f8afedc4fe77/110f1e78832f4fb79892d0c5c0a56585.png",
+              "height": 90
+            },
+            {
+              "size": 21743,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/2de774eb3a1a45189f09f8afedc4fe77/cdb30985715e459b8fa9f2ad0f2ba7dd.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/41775079d9724cd7aee6f6a7a0f1be39"
+      },
+      "description": "**Game Art 1** final assignment “DAE Villages” for **Howest DAE**. A **stylized diorama** of a chosen ancient civilization and profession. \nModeled in Maya, textured in Photoshop.\n\nPlease contact me if you use my model in one of your projects (:",
+      "faceCount": 24650,
+      "createdAt": "2022-06-16T20:35:52.837503",
+      "vertexCount": 16402,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 3921020,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 24650,
+          "vertexCount": 32740
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 3048581,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 24650,
+          "vertexCount": 32740
+        },
+        "source": {
+          "textureCount": null,
+          "size": 4878578,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3647538,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/7def7cbe0ce042a2b72782be9d68e9ae",
+      "uid": "7def7cbe0ce042a2b72782be9d68e9ae",
+      "name": "The Fan Maker - DAE Villages",
+      "staffpickedAt": null,
+      "viewCount": 3872,
+      "likeCount": 234,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-7def7cbe0ce042a2b72782be9d68e9ae",
+      "embedUrl": "https://sketchfab.com/models/7def7cbe0ce042a2b72782be9d68e9ae/embed",
+      "commentCount": 6,
+      "isDownloadable": true,
+      "publishedAt": "2021-06-09T16:48:27.293106",
+      "tags": [
+        {
+          "name": "diorama",
+          "slug": "diorama",
+          "uri": "https://api.sketchfab.com/v3/tags/diorama"
+        },
+        {
+          "name": "daehowest",
+          "slug": "daehowest",
+          "uri": "https://api.sketchfab.com/v3/tags/daehowest"
+        },
+        {
+          "name": "gameart",
+          "slug": "gameart",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart"
+        },
+        {
+          "name": "stylized",
+          "slug": "stylized",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized"
+        },
+        {
+          "name": "fantasy",
+          "slug": "fantasy",
+          "uri": "https://api.sketchfab.com/v3/tags/fantasy"
+        },
+        {
+          "name": "diorama3d",
+          "slug": "diorama3d",
+          "uri": "https://api.sketchfab.com/v3/tags/diorama3d"
+        },
+        {
+          "name": "daevillages",
+          "slug": "daevillages",
+          "uri": "https://api.sketchfab.com/v3/tags/daevillages"
+        },
+        {
+          "name": "gameart2021",
+          "slug": "gameart2021",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart2021"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8c705a070a2046afba4774392942932e",
+            "size": 185099,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/7def7cbe0ce042a2b72782be9d68e9ae/thumbnails/e0b73173815c48af9ee09fafcde72b60/28e8d3904b754a538013b60d3b5d0245.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "73f2a1b174814813900819d2e2667669",
+            "size": 56504,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/7def7cbe0ce042a2b72782be9d68e9ae/thumbnails/e0b73173815c48af9ee09fafcde72b60/a6867c170e55468f8adb1afc1a333078.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7c567866fcf445c186565590320d8309",
+            "size": 32507,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/7def7cbe0ce042a2b72782be9d68e9ae/thumbnails/e0b73173815c48af9ee09fafcde72b60/e927ea3ade7e481b804c1a4ef8719677.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "97971bc5a23d4a378e69c8989ac1ed46",
+            "size": 6494,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/7def7cbe0ce042a2b72782be9d68e9ae/thumbnails/e0b73173815c48af9ee09fafcde72b60/52a8412591974ba5bd237561222d3e1b.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "aa6e28ff1ce142b39104ea7c7ed6d260",
+            "size": 1279,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/7def7cbe0ce042a2b72782be9d68e9ae/thumbnails/e0b73173815c48af9ee09fafcde72b60/45c7d066ae9643f1a672274a93aefb84.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "653dd7fb3b7f407c9bbe608d39d53210",
+        "username": "Mondpanther",
+        "displayName": "Katharina Alexander",
+        "profileUrl": "https://sketchfab.com/Mondpanther",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/8bd4266d6ab1488e8ca89f0f2ce4adc8",
+          "images": [
+            {
+              "size": 1023,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/8bd4266d6ab1488e8ca89f0f2ce4adc8/48542a6ae1ce45fb9de3b3f9e0c8c0d4.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1344,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/8bd4266d6ab1488e8ca89f0f2ce4adc8/e374720e11e34750a2c3ef40dde05491.jpeg",
+              "height": 48
+            },
+            {
+              "size": 2638,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/8bd4266d6ab1488e8ca89f0f2ce4adc8/a26b6ceac0d74ffe963a432e5208a7bc.jpeg",
+              "height": 90
+            },
+            {
+              "size": 3005,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/8bd4266d6ab1488e8ca89f0f2ce4adc8/be37baed45b24d1e8fbfe3802ed8bdf7.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/653dd7fb3b7f407c9bbe608d39d53210"
+      },
+      "description": "This is my take on the DAE Villages assignment for our game art course.\nThe assignment was to create a cozy stylized scene based on an ancient civilization, and to give the person living there an easily recognizable occupation.\n\nI chose ancient China and went with a traditional fan maker, who sells their fans in the front of the house and has a little workshop area in the back.\n\n\n\nMusic: https://www.youtube.com/watch?v=BkkMFbSlFYc",
+      "faceCount": 83106,
+      "createdAt": "2021-06-09T16:00:45.927781",
+      "vertexCount": 48266,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 2,
+          "size": 16847788,
+          "type": "glb",
+          "textureMaxResolution": 4096,
+          "faceCount": 83106,
+          "vertexCount": 103055
+        },
+        "gltf": {
+          "textureCount": 2,
+          "size": 13867214,
+          "type": "gltf",
+          "textureMaxResolution": 4096,
+          "faceCount": 83106,
+          "vertexCount": 103055
+        },
+        "source": {
+          "textureCount": null,
+          "size": 26333924,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 4497410,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/1f9e555b9d7b44dc8d28b2112b733c6d",
+      "uid": "1f9e555b9d7b44dc8d28b2112b733c6d",
+      "name": "Lobster Market - Exam GameArt Dries De Ridder",
+      "staffpickedAt": null,
+      "viewCount": 2838,
+      "likeCount": 170,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-1f9e555b9d7b44dc8d28b2112b733c6d",
+      "embedUrl": "https://sketchfab.com/models/1f9e555b9d7b44dc8d28b2112b733c6d/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2017-06-15T01:02:22.239955",
+      "tags": [
+        {
+          "name": "scene",
+          "slug": "scene",
+          "uri": "https://api.sketchfab.com/v3/tags/scene"
+        },
+        {
+          "name": "daehowest",
+          "slug": "daehowest",
+          "uri": "https://api.sketchfab.com/v3/tags/daehowest"
+        },
+        {
+          "name": "huang",
+          "slug": "huang",
+          "uri": "https://api.sketchfab.com/v3/tags/huang"
+        },
+        {
+          "name": "feng",
+          "slug": "feng",
+          "uri": "https://api.sketchfab.com/v3/tags/feng"
+        },
+        {
+          "name": "handpainted",
+          "slug": "handpainted",
+          "uri": "https://api.sketchfab.com/v3/tags/handpainted"
+        },
+        {
+          "name": "photoshop",
+          "slug": "photoshop",
+          "uri": "https://api.sketchfab.com/v3/tags/photoshop"
+        },
+        {
+          "name": "3dsmax",
+          "slug": "3dsmax",
+          "uri": "https://api.sketchfab.com/v3/tags/3dsmax"
+        },
+        {
+          "name": "3dsmaxpublisher",
+          "slug": "3dsmaxpublisher",
+          "uri": "https://api.sketchfab.com/v3/tags/3dsmaxpublisher"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "stylized",
+          "slug": "stylized",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "gameart2017",
+          "slug": "gameart2017",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart2017"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "places-travel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "a427433ff9074c579f223ef9722848ed",
+            "size": 56596,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/1f9e555b9d7b44dc8d28b2112b733c6d/thumbnails/5c40e71c106e429e93bb78de95bbb1da/1024x576.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f16d06345f214815841de9c7f8a58c96",
+            "size": 33456,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/1f9e555b9d7b44dc8d28b2112b733c6d/thumbnails/5c40e71c106e429e93bb78de95bbb1da/720x405.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "c41b392bbfb94931ac40f7ea2a23cc71",
+            "size": 6815,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/1f9e555b9d7b44dc8d28b2112b733c6d/thumbnails/5c40e71c106e429e93bb78de95bbb1da/256x144.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "684a4c40edbd461b82db47485aed760c",
+            "size": 1329,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/1f9e555b9d7b44dc8d28b2112b733c6d/thumbnails/5c40e71c106e429e93bb78de95bbb1da/64x36.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "492a2de3650d41f58201b7821c3d0a78",
+        "username": "driesderidder",
+        "displayName": "driesderidder",
+        "profileUrl": "https://sketchfab.com/driesderidder",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/8958182ce1bb41f1862cdd62274b1c60",
+          "images": [
+            {
+              "size": 4384,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/8958182ce1bb41f1862cdd62274b1c60/afb0202acb5346c4a6af227070c49e59.jpeg",
+              "height": 100
+            },
+            {
+              "size": 3839,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/8958182ce1bb41f1862cdd62274b1c60/cfda550dc2d644d18272477b02dcf18e.jpeg",
+              "height": 90
+            },
+            {
+              "size": 1459,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/8958182ce1bb41f1862cdd62274b1c60/d764f7acb8b24ff9aad3d36c213dccd7.jpeg",
+              "height": 48
+            },
+            {
+              "size": 897,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/8958182ce1bb41f1862cdd62274b1c60/2fdf6872984249a49872ce556a878e05.jpeg",
+              "height": 32
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/492a2de3650d41f58201b7821c3d0a78"
+      },
+      "description": "Exam for Game Art. \nThis is a stylised scene based on Feng Huang, an ancient village in China.\nModelled in 3Ds max, textured in photoshop",
+      "faceCount": 26083,
+      "createdAt": "2017-06-15T01:01:59.771394",
+      "vertexCount": 15690,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 10,
+          "size": 9854828,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 26079,
+          "vertexCount": 39304
+        },
+        "gltf": {
+          "textureCount": 10,
+          "size": 8752479,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 26079,
+          "vertexCount": 39304
+        },
+        "source": {
+          "textureCount": null,
+          "size": 6202720,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 9557621,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/417f9b22083b482d9784616e9861af90",
+      "uid": "417f9b22083b482d9784616e9861af90",
+      "name": "Black Myth: Wukong - Er Lang Shen [Static]",
+      "staffpickedAt": null,
+      "viewCount": 4552,
+      "likeCount": 151,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-417f9b22083b482d9784616e9861af90",
+      "embedUrl": "https://sketchfab.com/models/417f9b22083b482d9784616e9861af90/embed",
+      "commentCount": 2,
+      "isDownloadable": true,
+      "publishedAt": "2025-03-29T16:40:03.291596",
+      "tags": [
+        {
+          "name": "god",
+          "slug": "god",
+          "uri": "https://api.sketchfab.com/v3/tags/god"
+        },
+        {
+          "name": "journey-to-the-west",
+          "slug": "journey-to-the-west",
+          "uri": "https://api.sketchfab.com/v3/tags/journey-to-the-west"
+        },
+        {
+          "name": "chinese_culture",
+          "slug": "chinese_culture",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese_culture"
+        },
+        {
+          "name": "monster",
+          "slug": "monster",
+          "uri": "https://api.sketchfab.com/v3/tags/monster"
+        },
+        {
+          "name": "journeytothewest",
+          "slug": "journeytothewest",
+          "uri": "https://api.sketchfab.com/v3/tags/journeytothewest"
+        },
+        {
+          "name": "blackmythwukong",
+          "slug": "blackmythwukong",
+          "uri": "https://api.sketchfab.com/v3/tags/blackmythwukong"
+        },
+        {
+          "name": "er-lang-shen",
+          "slug": "er-lang-shen",
+          "uri": "https://api.sketchfab.com/v3/tags/er-lang-shen"
+        }
+      ],
+      "categories": [
+        {
+          "name": "characters-creatures"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "a5f9b4d2bfe94e8a860c69d1a7dcb3c9",
+            "size": 146196,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/417f9b22083b482d9784616e9861af90/thumbnails/582b17d5948a4a0fa00e2fc4b4292f6b/72501fdca8db467fa0573863877007dd.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "b49e19ec58cc4944abc4eee1e3362072",
+            "size": 45908,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/417f9b22083b482d9784616e9861af90/thumbnails/582b17d5948a4a0fa00e2fc4b4292f6b/1369f9ab789c42b58b3f56afd77f5677.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "9f0c04bbe36b41ae884486f724e4b230",
+            "size": 26716,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/417f9b22083b482d9784616e9861af90/thumbnails/582b17d5948a4a0fa00e2fc4b4292f6b/c30199e475d54aa9bf7f6e65fe5a5e41.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "ae1765a3a5ab483dbd932f1c145295d7",
+            "size": 5230,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/417f9b22083b482d9784616e9861af90/thumbnails/582b17d5948a4a0fa00e2fc4b4292f6b/9a460327901b450dbc553a0503119597.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "1ed15edaf6424d77b38ac053298fad5d",
+            "size": 1195,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/417f9b22083b482d9784616e9861af90/thumbnails/582b17d5948a4a0fa00e2fc4b4292f6b/ddbebfb9a2d84a9b9e0398c9032a23d8.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "756401d0aa2b4762b6f35a264ce28c3d",
+        "username": "hakudragons",
+        "displayName": "Haku Dragon",
+        "profileUrl": "https://sketchfab.com/hakudragons",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb",
+          "images": [
+            {
+              "size": 2366,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/ab8c4805cf5b458bb4b43013038f512e.png",
+              "height": 32
+            },
+            {
+              "size": 4695,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/23662240b1024fcdabb839f636d8bf37.png",
+              "height": 48
+            },
+            {
+              "size": 14083,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/0a3de38dd36f4063b5c8f65ad7753be3.png",
+              "height": 90
+            },
+            {
+              "size": 16879,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/b4b53615bc864b42adab99e837cac28a.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/756401d0aa2b4762b6f35a264ce28c3d"
+      },
+      "description": "Er Lang Shen - Introduction\n\nThere is a magical fish in the South China Sea that can change into black and white. When it appears, it brings storms and plague. A fisherman helped an old man carrying a scroll across the river. The old man read the fortune for the fisherman and warned him not to let a young man wearing a bamboo hat and a white robe enter the fishing village. A few days later, the fisherman met the man but sent him to a neighboring village. After the man left, a big black fish appeared in the river, causing a storm. After a while, a big plague broke out in the neighboring village, killing many people. He was a little complacent, but the plague still spread and their village was not spared.\n\nRender ripped by game 《Black Myth: Wukong》\n\nRespect for intellectual property rights, no commercial use.\n\n*I just ripped the model and animation then upload it.*\n\n**Copyright 2024 Game Science All rights reserved.**",
+      "faceCount": 376628,
+      "createdAt": "2025-03-29T16:30:42.301869",
+      "vertexCount": 196043,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 16,
+          "size": 44325704,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 376628,
+          "vertexCount": 219656
+        },
+        "gltf": {
+          "textureCount": 16,
+          "size": 33036268,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 376628,
+          "vertexCount": 219656
+        },
+        "source": {
+          "textureCount": null,
+          "size": 71279078,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 17287378,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/ae3a0d8280a34cad885fe15daea2639d",
+      "uid": "ae3a0d8280a34cad885fe15daea2639d",
+      "name": "DAE Villages GameArt",
+      "staffpickedAt": null,
+      "viewCount": 5173,
+      "likeCount": 146,
+      "animationCount": 1,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-ae3a0d8280a34cad885fe15daea2639d",
+      "embedUrl": "https://sketchfab.com/models/ae3a0d8280a34cad885fe15daea2639d/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2022-08-26T16:30:45.743389",
+      "tags": [
+        {
+          "name": "dae",
+          "slug": "dae",
+          "uri": "https://api.sketchfab.com/v3/tags/dae"
+        },
+        {
+          "name": "diorama",
+          "slug": "diorama",
+          "uri": "https://api.sketchfab.com/v3/tags/diorama"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "fireworks",
+          "slug": "fireworks",
+          "uri": "https://api.sketchfab.com/v3/tags/fireworks"
+        },
+        {
+          "name": "stylized-handpainted",
+          "slug": "stylized-handpainted",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized-handpainted"
+        },
+        {
+          "name": "howestdae",
+          "slug": "howestdae",
+          "uri": "https://api.sketchfab.com/v3/tags/howestdae"
+        },
+        {
+          "name": "animated",
+          "slug": "animated",
+          "uri": "https://api.sketchfab.com/v3/tags/animated"
+        },
+        {
+          "name": "cinahem",
+          "slug": "cinahem",
+          "uri": "https://api.sketchfab.com/v3/tags/cinahem"
+        },
+        {
+          "name": "stylized-cina",
+          "slug": "stylized-cina",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized-cina"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "categories": [
+        {
+          "name": "art-abstract"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "6cd52084910c483791cfef08d7f8c360",
+            "size": 154337,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/ae3a0d8280a34cad885fe15daea2639d/thumbnails/cec87cdd0fb04306a8e4e22a4d29cb3d/d5de050e42074129af46c0c65be2f9d5.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "9f2055fcfe43478c894e90e05872f98d",
+            "size": 53935,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/ae3a0d8280a34cad885fe15daea2639d/thumbnails/cec87cdd0fb04306a8e4e22a4d29cb3d/4ccce309faf44affb524b0fd08440929.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "f38065ba9996432c9bd8138095627bd1",
+            "size": 31631,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/ae3a0d8280a34cad885fe15daea2639d/thumbnails/cec87cdd0fb04306a8e4e22a4d29cb3d/1fba4d5ecdb54cf2b33f62f22cb5319c.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "f11b41d015854ce98de489ac5a08a87b",
+            "size": 6231,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/ae3a0d8280a34cad885fe15daea2639d/thumbnails/cec87cdd0fb04306a8e4e22a4d29cb3d/b0dc46abf37f4c8393b659b1e83e4f9e.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "77b51dd239124d55a7fbee75f6097a45",
+            "size": 1175,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/ae3a0d8280a34cad885fe15daea2639d/thumbnails/cec87cdd0fb04306a8e4e22a4d29cb3d/3e400dfd77844574a57fd1c9f7a73cf1.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "3edb33b1438f4c7d8697a07f4c8a0ca3",
+        "username": "gabrielestefa",
+        "displayName": "gabrielestefa",
+        "profileUrl": "https://sketchfab.com/gabrielestefa",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/70db16c2d1e048c58002a7431a157ad8",
+          "images": [
+            {
+              "size": 2605,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/70db16c2d1e048c58002a7431a157ad8/ed325514750948bbb21f3c6cf754921f.png",
+              "height": 32
+            },
+            {
+              "size": 5368,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/70db16c2d1e048c58002a7431a157ad8/8cb63e06024f479ebd9a24ca28ddaf7e.png",
+              "height": 48
+            },
+            {
+              "size": 16289,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/70db16c2d1e048c58002a7431a157ad8/4587882605644edebb2482740c05b915.png",
+              "height": 90
+            },
+            {
+              "size": 19386,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/70db16c2d1e048c58002a7431a157ad8/fd221e720d6c4baa8dd33a5b24077aa3.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3edb33b1438f4c7d8697a07f4c8a0ca3"
+      },
+      "description": "For the GameArt retake we had to choose an ancient civilazation and profession, can you guess which are mine?",
+      "faceCount": 175245,
+      "createdAt": "2022-08-26T16:13:22.900710",
+      "vertexCount": 105092,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 2,
+          "size": 58161280,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 175245,
+          "vertexCount": 159196
+        },
+        "gltf": {
+          "textureCount": 2,
+          "size": 40938659,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 175245,
+          "vertexCount": 159196
+        },
+        "source": {
+          "textureCount": null,
+          "size": 36181435,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 6320958,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "72eb2b1960364637901eacce19283624",
+        "label": "Free Standard"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/04337ff5619b435eaeb606a563e9b481",
+      "uid": "04337ff5619b435eaeb606a563e9b481",
+      "name": "Ancient Chinese Pottery | DAE Villages",
+      "staffpickedAt": null,
+      "viewCount": 3566,
+      "likeCount": 139,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-04337ff5619b435eaeb606a563e9b481",
+      "embedUrl": "https://sketchfab.com/models/04337ff5619b435eaeb606a563e9b481/embed",
+      "commentCount": 1,
+      "isDownloadable": true,
+      "publishedAt": "2022-06-14T15:59:00.483666",
+      "tags": [
+        {
+          "name": "dae",
+          "slug": "dae",
+          "uri": "https://api.sketchfab.com/v3/tags/dae"
+        },
+        {
+          "name": "ancient",
+          "slug": "ancient",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient"
+        },
+        {
+          "name": "pottery",
+          "slug": "pottery",
+          "uri": "https://api.sketchfab.com/v3/tags/pottery"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "asian",
+          "slug": "asian",
+          "uri": "https://api.sketchfab.com/v3/tags/asian"
+        },
+        {
+          "name": "diorama",
+          "slug": "diorama",
+          "uri": "https://api.sketchfab.com/v3/tags/diorama"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "daehowest",
+          "slug": "daehowest",
+          "uri": "https://api.sketchfab.com/v3/tags/daehowest"
+        },
+        {
+          "name": "ancient-china",
+          "slug": "ancient-china",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient-china"
+        },
+        {
+          "name": "maya",
+          "slug": "maya",
+          "uri": "https://api.sketchfab.com/v3/tags/maya"
+        },
+        {
+          "name": "photoshop",
+          "slug": "photoshop",
+          "uri": "https://api.sketchfab.com/v3/tags/photoshop"
+        },
+        {
+          "name": "stylized",
+          "slug": "stylized",
+          "uri": "https://api.sketchfab.com/v3/tags/stylized"
+        },
+        {
+          "name": "daevillages",
+          "slug": "daevillages",
+          "uri": "https://api.sketchfab.com/v3/tags/daevillages"
+        },
+        {
+          "name": "gameart2022",
+          "slug": "gameart2022",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart2022"
+        },
+        {
+          "name": "ancient-chinese",
+          "slug": "ancient-chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient-chinese"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        },
+        {
+          "name": "furniture-home"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "49dab1daf4eb4f13a357826ca93499de",
+            "size": 184748,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/04337ff5619b435eaeb606a563e9b481/thumbnails/73066e8c789d410b82d7094df7eddc08/4dc04ed6abf94aa982ad8c25d1aa0983.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "dadc363039d1495291c485fe43eed3a7",
+            "size": 59457,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/04337ff5619b435eaeb606a563e9b481/thumbnails/73066e8c789d410b82d7094df7eddc08/a0e8a041f7ca404c98b6cbc4f904345f.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "6a074e16925d41b5b6eff2723308939e",
+            "size": 33898,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/04337ff5619b435eaeb606a563e9b481/thumbnails/73066e8c789d410b82d7094df7eddc08/d41a1526307c4fc3a52b8365610f5af9.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "df852f663afa413f83748b20379e097f",
+            "size": 6372,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/04337ff5619b435eaeb606a563e9b481/thumbnails/73066e8c789d410b82d7094df7eddc08/558f091a24f14a9ead559ccf744b822d.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "487c1000365a4b2da3ad626f3f4e5fe8",
+            "size": 1238,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/04337ff5619b435eaeb606a563e9b481/thumbnails/73066e8c789d410b82d7094df7eddc08/713c5bdfa2bc40b0979355865bbdc567.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "9440b8ddbfe64bc4b4363f3d5382e6f4",
+        "username": "JoanTieu",
+        "displayName": "Joan Tieu",
+        "profileUrl": "https://sketchfab.com/JoanTieu",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/9e5c133e53b5426a8699496f3347c360",
+          "images": [
+            {
+              "size": 2256,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/9e5c133e53b5426a8699496f3347c360/bdbaed925c4c48eaaf2b14c871ad053e.png",
+              "height": 32
+            },
+            {
+              "size": 4161,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/9e5c133e53b5426a8699496f3347c360/09c9e13949504f339fb41c1749f62011.png",
+              "height": 48
+            },
+            {
+              "size": 10098,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/9e5c133e53b5426a8699496f3347c360/280d54f880a64f46b9e602a8c53e60db.png",
+              "height": 90
+            },
+            {
+              "size": 11782,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/9e5c133e53b5426a8699496f3347c360/67a2d46ccd864fd7b4c2c52913065ece.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/9440b8ddbfe64bc4b4363f3d5382e6f4"
+      },
+      "description": "This is my submission for the final exam in Game Art.\nIt is an ancient Chinese potter's house in a stylized style. \n\nSofwares: Modelling - Maya, Texturing - Photoshop",
+      "faceCount": 53333,
+      "createdAt": "2022-05-17T08:13:10.823057",
+      "vertexCount": 32778,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 3,
+          "size": 4113128,
+          "type": "glb",
+          "textureMaxResolution": 1024,
+          "faceCount": 53332,
+          "vertexCount": 59951
+        },
+        "gltf": {
+          "textureCount": 3,
+          "size": 2468069,
+          "type": "gltf",
+          "textureMaxResolution": 1024,
+          "faceCount": 53332,
+          "vertexCount": 59951
+        },
+        "source": {
+          "textureCount": null,
+          "size": 3739794,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3232052,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/8766d27434a34a238f0f99a325fb6b45",
+      "uid": "8766d27434a34a238f0f99a325fb6b45",
+      "name": "Chinese Painter's Little House - DAE Villages",
+      "staffpickedAt": null,
+      "viewCount": 3170,
+      "likeCount": 124,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-8766d27434a34a238f0f99a325fb6b45",
+      "embedUrl": "https://sketchfab.com/models/8766d27434a34a238f0f99a325fb6b45/embed",
+      "commentCount": 6,
+      "isDownloadable": true,
+      "publishedAt": "2021-06-07T15:14:44.739359",
+      "tags": [
+        {
+          "name": "cute",
+          "slug": "cute",
+          "uri": "https://api.sketchfab.com/v3/tags/cute"
+        },
+        {
+          "name": "china",
+          "slug": "china",
+          "uri": "https://api.sketchfab.com/v3/tags/china"
+        },
+        {
+          "name": "stylised",
+          "slug": "stylised",
+          "uri": "https://api.sketchfab.com/v3/tags/stylised"
+        },
+        {
+          "name": "diorama",
+          "slug": "diorama",
+          "uri": "https://api.sketchfab.com/v3/tags/diorama"
+        },
+        {
+          "name": "chinese",
+          "slug": "chinese",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese"
+        },
+        {
+          "name": "daehowest",
+          "slug": "daehowest",
+          "uri": "https://api.sketchfab.com/v3/tags/daehowest"
+        },
+        {
+          "name": "painted-texture",
+          "slug": "painted-texture",
+          "uri": "https://api.sketchfab.com/v3/tags/painted-texture"
+        },
+        {
+          "name": "ancient-china",
+          "slug": "ancient-china",
+          "uri": "https://api.sketchfab.com/v3/tags/ancient-china"
+        },
+        {
+          "name": "painter",
+          "slug": "painter",
+          "uri": "https://api.sketchfab.com/v3/tags/painter"
+        },
+        {
+          "name": "handpainted",
+          "slug": "handpainted",
+          "uri": "https://api.sketchfab.com/v3/tags/handpainted"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "house",
+          "slug": "house",
+          "uri": "https://api.sketchfab.com/v3/tags/house"
+        },
+        {
+          "name": "history",
+          "slug": "history",
+          "uri": "https://api.sketchfab.com/v3/tags/history"
+        },
+        {
+          "name": "environment",
+          "slug": "environment",
+          "uri": "https://api.sketchfab.com/v3/tags/environment"
+        },
+        {
+          "name": "daevillages",
+          "slug": "daevillages",
+          "uri": "https://api.sketchfab.com/v3/tags/daevillages"
+        },
+        {
+          "name": "gameart2021",
+          "slug": "gameart2021",
+          "uri": "https://api.sketchfab.com/v3/tags/gameart2021"
+        }
+      ],
+      "categories": [
+        {
+          "name": "architecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0479c7b8680341c8a417fe6d49d127dd",
+            "size": 256000,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/8766d27434a34a238f0f99a325fb6b45/thumbnails/8deb4c802661470695164b8b57cf6878/6a96233da9a14d8c8fede23368846742.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "e9b74061b3a646fe95de438d9482d21e",
+            "size": 71337,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/8766d27434a34a238f0f99a325fb6b45/thumbnails/8deb4c802661470695164b8b57cf6878/27c280bb52dd43bc810e7b47e0f1c5bc.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "7e3417decaa740cbb8c83f7646bb26f7",
+            "size": 42503,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/8766d27434a34a238f0f99a325fb6b45/thumbnails/8deb4c802661470695164b8b57cf6878/2155e4d43f044102b35194c1f087a250.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "59561f7f3bd24110b9ec16be6dff22fb",
+            "size": 8574,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/8766d27434a34a238f0f99a325fb6b45/thumbnails/8deb4c802661470695164b8b57cf6878/5b5266c94317449ca31a9888eafb1397.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "ecb15db5d7184ef0a526c28cbb621e96",
+            "size": 1175,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/8766d27434a34a238f0f99a325fb6b45/thumbnails/8deb4c802661470695164b8b57cf6878/22032b732e2b4bc5836972d4c1240bca.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "33d3901097474b0ab96b1c5a2376499d",
+        "username": "LobkeVGH",
+        "displayName": "Lobke Van Gheluwe",
+        "profileUrl": "https://sketchfab.com/LobkeVGH",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/4d5e0377267b4a14bdbbd623bf20aaa8",
+          "images": [
+            {
+              "size": 830,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/4d5e0377267b4a14bdbbd623bf20aaa8/38955640e4b5427983af45ca67e8c751.jpeg",
+              "height": 32
+            },
+            {
+              "size": 1428,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/4d5e0377267b4a14bdbbd623bf20aaa8/ccab2141b26d4e97bac6e9251f9186be.jpeg",
+              "height": 48
+            },
+            {
+              "size": 4161,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/4d5e0377267b4a14bdbbd623bf20aaa8/be637c56271c4077ac15356d11d64cc0.jpeg",
+              "height": 90
+            },
+            {
+              "size": 4949,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/4d5e0377267b4a14bdbbd623bf20aaa8/2218024ad9e0497a94f0f8e317f788e3.jpeg",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/33d3901097474b0ab96b1c5a2376499d"
+      },
+      "description": "Final exam for Game Art. \n\nModelled in Maya and textured in Photoshop (+ paintings done in Procreate).",
+      "faceCount": 43999,
+      "createdAt": "2021-06-05T20:22:09.029149",
+      "vertexCount": 34507,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 2,
+          "size": 3958288,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 43999,
+          "vertexCount": 60042
+        },
+        "gltf": {
+          "textureCount": 2,
+          "size": 2163801,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 43999,
+          "vertexCount": 60042
+        },
+        "source": {
+          "textureCount": null,
+          "size": 7223835,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 3456477,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/8eceaec4e2b14858beec011d9b9e625b",
+      "uid": "8eceaec4e2b14858beec011d9b9e625b",
+      "name": "Black Myth: Wukong - Hao Fu Li Shi [Static]",
+      "staffpickedAt": null,
+      "viewCount": 3262,
+      "likeCount": 121,
+      "animationCount": 0,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-8eceaec4e2b14858beec011d9b9e625b",
+      "embedUrl": "https://sketchfab.com/models/8eceaec4e2b14858beec011d9b9e625b/embed",
+      "commentCount": 0,
+      "isDownloadable": true,
+      "publishedAt": "2025-03-26T11:03:27.681648",
+      "tags": [
+        {
+          "name": "monsters",
+          "slug": "monsters",
+          "uri": "https://api.sketchfab.com/v3/tags/monsters"
+        },
+        {
+          "name": "bull",
+          "slug": "bull",
+          "uri": "https://api.sketchfab.com/v3/tags/bull"
+        },
+        {
+          "name": "ox",
+          "slug": "ox",
+          "uri": "https://api.sketchfab.com/v3/tags/ox"
+        },
+        {
+          "name": "bulls",
+          "slug": "bulls",
+          "uri": "https://api.sketchfab.com/v3/tags/bulls"
+        },
+        {
+          "name": "journey-to-the-west",
+          "slug": "journey-to-the-west",
+          "uri": "https://api.sketchfab.com/v3/tags/journey-to-the-west"
+        },
+        {
+          "name": "chinese_culture",
+          "slug": "chinese_culture",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese_culture"
+        },
+        {
+          "name": "monster",
+          "slug": "monster",
+          "uri": "https://api.sketchfab.com/v3/tags/monster"
+        },
+        {
+          "name": "journeytothewest",
+          "slug": "journeytothewest",
+          "uri": "https://api.sketchfab.com/v3/tags/journeytothewest"
+        },
+        {
+          "name": "blackmythwukong",
+          "slug": "blackmythwukong",
+          "uri": "https://api.sketchfab.com/v3/tags/blackmythwukong"
+        },
+        {
+          "name": "hao-fu-li-shi",
+          "slug": "hao-fu-li-shi",
+          "uri": "https://api.sketchfab.com/v3/tags/hao-fu-li-shi"
+        }
+      ],
+      "categories": [
+        {
+          "name": "animals-pets"
+        },
+        {
+          "name": "characters-creatures"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "9c4d78641b6c4d1882699d893be0a31c",
+            "size": 166412,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/8eceaec4e2b14858beec011d9b9e625b/thumbnails/cee3b8d4dd414230910a8fded637ec6e/eed8a5fcb0d845599e634d568ce4e07a.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "8ed60330fbfc4e1880c577749f1d54b6",
+            "size": 50198,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/8eceaec4e2b14858beec011d9b9e625b/thumbnails/cee3b8d4dd414230910a8fded637ec6e/f33526efd8474668abaae0b95aefa249.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "198602a8caf046a98d27aaef132ee9ce",
+            "size": 28412,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/8eceaec4e2b14858beec011d9b9e625b/thumbnails/cee3b8d4dd414230910a8fded637ec6e/284920928a7d4bd19e4d83bda64d3ebe.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "e28ff9cd03d34a83b2268ce001f93b4d",
+            "size": 5587,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/8eceaec4e2b14858beec011d9b9e625b/thumbnails/cee3b8d4dd414230910a8fded637ec6e/f30424a7f1ce4eb7aff11987ebb0ff95.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f5396b7a880245fd9559a372e015dc93",
+            "size": 1261,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/8eceaec4e2b14858beec011d9b9e625b/thumbnails/cee3b8d4dd414230910a8fded637ec6e/e753cdbc3bfb44e9992f1d82e90ee19f.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "756401d0aa2b4762b6f35a264ce28c3d",
+        "username": "hakudragons",
+        "displayName": "Haku Dragon",
+        "profileUrl": "https://sketchfab.com/hakudragons",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb",
+          "images": [
+            {
+              "size": 2366,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/ab8c4805cf5b458bb4b43013038f512e.png",
+              "height": 32
+            },
+            {
+              "size": 4695,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/23662240b1024fcdabb839f636d8bf37.png",
+              "height": 48
+            },
+            {
+              "size": 14083,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/0a3de38dd36f4063b5c8f65ad7753be3.png",
+              "height": 90
+            },
+            {
+              "size": 16879,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/b4b53615bc864b42adab99e837cac28a.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/756401d0aa2b4762b6f35a264ce28c3d"
+      },
+      "description": "Hao Fu Li Shi - Introduction\n\nThe Niu Mo Wang (see my render) watched the bull demons training in the camp of Chunqiu Village. He appreciated the training results of Hao Fu Li Shi and promoted him to the position of Vanguard. Hao Fu Li Shi thanked the Niu Mo Wang for the promotion and promised to be loyal to him. At this time, the Niu Mo Wang's son, a red-skinned boy, came to the camp. The Niu Mo Wang asked him to learn how to select soldiers and introduce the newly appointed Vanguard to him. The boy said that he would make Hao Fu Li Shi his general in the future. The boy asked to keep something, but the Niu Mo Wang refused and looked a little haggard. Although the boy was puzzled, he respected his father's decision and left the camp.\n\nRender ripped by game 《Black Myth: Wukong》\n\nRespect for intellectual property rights, no commercial use.\n\n*I just ripped the model and animation then upload it.*\n\n**Copyright 2024 Game Science All rights reserved.**",
+      "faceCount": 58807,
+      "createdAt": "2025-03-26T10:54:31.350960",
+      "vertexCount": 30872,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 6,
+          "size": 34926944,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 58807,
+          "vertexCount": 33098
+        },
+        "gltf": {
+          "textureCount": 6,
+          "size": 33211551,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 58807,
+          "vertexCount": 33098
+        },
+        "source": {
+          "textureCount": null,
+          "size": 66770312,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 19795347,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    },
+    {
+      "uri": "https://api.sketchfab.com/v3/models/0e7a480f4beb42dea38c3c10b867e81a",
+      "uid": "0e7a480f4beb42dea38c3c10b867e81a",
+      "name": "Black Myth: Wukong - Yin Yang Yu [Animation]",
+      "staffpickedAt": null,
+      "viewCount": 3233,
+      "likeCount": 118,
+      "animationCount": 18,
+      "viewerUrl": "https://sketchfab.com/3d-models/none-0e7a480f4beb42dea38c3c10b867e81a",
+      "embedUrl": "https://sketchfab.com/models/0e7a480f4beb42dea38c3c10b867e81a/embed",
+      "commentCount": 3,
+      "isDownloadable": true,
+      "publishedAt": "2025-03-29T15:42:14.780037",
+      "tags": [
+        {
+          "name": "fish",
+          "slug": "fish",
+          "uri": "https://api.sketchfab.com/v3/tags/fish"
+        },
+        {
+          "name": "monsters",
+          "slug": "monsters",
+          "uri": "https://api.sketchfab.com/v3/tags/monsters"
+        },
+        {
+          "name": "journey-to-the-west",
+          "slug": "journey-to-the-west",
+          "uri": "https://api.sketchfab.com/v3/tags/journey-to-the-west"
+        },
+        {
+          "name": "chinese_culture",
+          "slug": "chinese_culture",
+          "uri": "https://api.sketchfab.com/v3/tags/chinese_culture"
+        },
+        {
+          "name": "monster",
+          "slug": "monster",
+          "uri": "https://api.sketchfab.com/v3/tags/monster"
+        },
+        {
+          "name": "journeytothewest",
+          "slug": "journeytothewest",
+          "uri": "https://api.sketchfab.com/v3/tags/journeytothewest"
+        },
+        {
+          "name": "blackmythwukong",
+          "slug": "blackmythwukong",
+          "uri": "https://api.sketchfab.com/v3/tags/blackmythwukong"
+        }
+      ],
+      "categories": [
+        {
+          "name": "animals-pets"
+        },
+        {
+          "name": "characters-creatures"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "dca83d6395d349e6920f2b2ac48b6292",
+            "size": 149057,
+            "width": 1920,
+            "url": "https://media.sketchfab.com/models/0e7a480f4beb42dea38c3c10b867e81a/thumbnails/a47edfe6a3ad4dd09662b0a472acd895/9b47fbe0f06641d6a93a20951decef33.jpeg",
+            "height": 1080
+          },
+          {
+            "uid": "51efc1f3ea1e46c99b85d7254af016b3",
+            "size": 48231,
+            "width": 1024,
+            "url": "https://media.sketchfab.com/models/0e7a480f4beb42dea38c3c10b867e81a/thumbnails/a47edfe6a3ad4dd09662b0a472acd895/089b8191704747eb8b8c76985d5c0799.jpeg",
+            "height": 576
+          },
+          {
+            "uid": "1f8c644e94a64c3dbf94fb1347d5d595",
+            "size": 27301,
+            "width": 720,
+            "url": "https://media.sketchfab.com/models/0e7a480f4beb42dea38c3c10b867e81a/thumbnails/a47edfe6a3ad4dd09662b0a472acd895/2c0ee6be22cd481886b90a841ecea229.jpeg",
+            "height": 405
+          },
+          {
+            "uid": "dd6ef74a68634ed887f48aedfc29b5cd",
+            "size": 5343,
+            "width": 256,
+            "url": "https://media.sketchfab.com/models/0e7a480f4beb42dea38c3c10b867e81a/thumbnails/a47edfe6a3ad4dd09662b0a472acd895/8ab029cd2a84491c8064291a71decad8.jpeg",
+            "height": 144
+          },
+          {
+            "uid": "f126f3962bfa42ce811e960e755373b6",
+            "size": 1153,
+            "width": 64,
+            "url": "https://media.sketchfab.com/models/0e7a480f4beb42dea38c3c10b867e81a/thumbnails/a47edfe6a3ad4dd09662b0a472acd895/fc14827dfe71478b98a7da66548dd97a.jpeg",
+            "height": 36
+          }
+        ]
+      },
+      "user": {
+        "uid": "756401d0aa2b4762b6f35a264ce28c3d",
+        "username": "hakudragons",
+        "displayName": "Haku Dragon",
+        "profileUrl": "https://sketchfab.com/hakudragons",
+        "account": "basic",
+        "avatar": {
+          "uri": "https://api.sketchfab.com/v3/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb",
+          "images": [
+            {
+              "size": 2366,
+              "width": 32,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/ab8c4805cf5b458bb4b43013038f512e.png",
+              "height": 32
+            },
+            {
+              "size": 4695,
+              "width": 48,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/23662240b1024fcdabb839f636d8bf37.png",
+              "height": 48
+            },
+            {
+              "size": 14083,
+              "width": 90,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/0a3de38dd36f4063b5c8f65ad7753be3.png",
+              "height": 90
+            },
+            {
+              "size": 16879,
+              "width": 100,
+              "url": "https://media.sketchfab.com/avatars/375e872fe7cb4b8bb7f67d57b4fecfeb/b4b53615bc864b42adab99e837cac28a.png",
+              "height": 100
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/756401d0aa2b4762b6f35a264ce28c3d"
+      },
+      "description": "Yin Yang Yu - Introduction\n\nThere is a magical fish in the South China Sea that can change into black and white. When it appears, it brings storms and plague. A fisherman helped an old man carrying a scroll across the river. The old man read the fortune for the fisherman and warned him not to let a young man wearing a bamboo hat and a white robe enter the fishing village. A few days later, the fisherman met the man but sent him to a neighboring village. After the man left, a big black fish appeared in the river, causing a storm. After a while, a big plague broke out in the neighboring village, killing many people. He was a little complacent, but the plague still spread and their village was not spared.\n\nRender ripped by game 《Black Myth: Wukong》\n\nRespect for intellectual property rights, no commercial use.\n\n*I just ripped the model and animation then upload it.*\n\n**Copyright 2024 Game Science All rights reserved.**",
+      "faceCount": 98708,
+      "createdAt": "2025-03-29T15:32:56.362031",
+      "vertexCount": 49748,
+      "isAgeRestricted": false,
+      "archives": {
+        "glb": {
+          "textureCount": 8,
+          "size": 106567684,
+          "type": "glb",
+          "textureMaxResolution": 2048,
+          "faceCount": 98708,
+          "vertexCount": 52946
+        },
+        "gltf": {
+          "textureCount": 8,
+          "size": 68990031,
+          "type": "gltf",
+          "textureMaxResolution": 2048,
+          "faceCount": 98708,
+          "vertexCount": 52946
+        },
+        "source": {
+          "textureCount": null,
+          "size": 118199916,
+          "type": "source",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        },
+        "usdz": {
+          "textureCount": null,
+          "size": 17498709,
+          "type": "usdz",
+          "textureMaxResolution": null,
+          "faceCount": null,
+          "vertexCount": null
+        }
+      },
+      "license": {
+        "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Artistic Tianchi GLB loads in Godot
+PASS: Imported model retains four connected crater sectors, lake and platform
+PASS: Crater composition preserves large readable scale
+PASS: Lake is at 0.4m and continuous ridges rise above 28m
+PASS: Export preserves visual material slots
+PASS: S21 visual model has no gameplay collision before S22
+PASS: Four imported crater sectors retain at least 13,000 triangulated terrain faces; source topology audit covers seams and degenerate faces
+S21 TIANCHI MODEL: PASS | checks=7

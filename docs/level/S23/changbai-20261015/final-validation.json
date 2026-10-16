@@ -1,0 +1,276 @@
+{
+  "version": "0.7.0-rc1",
+  "name": "东北抗联-烽火回声",
+  "revision": "20261015-changbai-woodland-rock-detail",
+  "created_at": "2026-10-15T14:53:03+08:00",
+  "status": "candidate_ready_pending_human_listening_and_remaining_art_visual_review",
+  "source": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 19,
+    "assertions_total": 598,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/changbai-20261015/source-regression.log"
+  },
+  "release": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 19,
+    "assertions_total": 598,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/changbai-20261015/release-regression.log"
+  },
+  "renders": {
+    "source-render-1280": {
+      "checks": 39,
+      "captures": 7,
+      "passed": true,
+      "frozen_view_performance": [
+        {
+          "draw_calls": 36,
+          "median_ms": 8.469,
+          "p95_ms": 8.852,
+          "primitives": 41186,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.656,
+          "p95_ms": 8.8,
+          "primitives": 72070,
+          "woodland": true
+        },
+        {
+          "draw_calls": 36,
+          "median_ms": 8.548,
+          "p95_ms": 8.838,
+          "primitives": 41186,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.677,
+          "p95_ms": 8.798,
+          "primitives": 72070,
+          "woodland": true
+        }
+      ]
+    },
+    "source-render-960": {
+      "checks": 39,
+      "captures": 7,
+      "passed": true,
+      "frozen_view_performance": [
+        {
+          "draw_calls": 36,
+          "median_ms": 8.579,
+          "p95_ms": 8.9,
+          "primitives": 39826,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.385,
+          "p95_ms": 8.86,
+          "primitives": 70688,
+          "woodland": true
+        },
+        {
+          "draw_calls": 36,
+          "median_ms": 8.483,
+          "p95_ms": 8.865,
+          "primitives": 39826,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.634,
+          "p95_ms": 8.876,
+          "primitives": 70688,
+          "woodland": true
+        }
+      ]
+    },
+    "release-render-1280": {
+      "checks": 39,
+      "captures": 7,
+      "passed": true,
+      "frozen_view_performance": [
+        {
+          "draw_calls": 36,
+          "median_ms": 8.609,
+          "p95_ms": 8.881,
+          "primitives": 41186,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.5,
+          "p95_ms": 8.897,
+          "primitives": 72070,
+          "woodland": true
+        },
+        {
+          "draw_calls": 36,
+          "median_ms": 8.617,
+          "p95_ms": 8.747,
+          "primitives": 41186,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.339,
+          "p95_ms": 8.807,
+          "primitives": 72070,
+          "woodland": true
+        }
+      ]
+    },
+    "release-render-960": {
+      "checks": 39,
+      "captures": 7,
+      "passed": true,
+      "frozen_view_performance": [
+        {
+          "draw_calls": 36,
+          "median_ms": 8.635,
+          "p95_ms": 8.927,
+          "primitives": 39826,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.584,
+          "p95_ms": 9.101,
+          "primitives": 70688,
+          "woodland": true
+        },
+        {
+          "draw_calls": 36,
+          "median_ms": 8.645,
+          "p95_ms": 8.785,
+          "primitives": 39826,
+          "woodland": false
+        },
+        {
+          "draw_calls": 93,
+          "median_ms": 8.658,
+          "p95_ms": 8.764,
+          "primitives": 70688,
+          "woodland": true
+        }
+      ]
+    }
+  },
+  "dialogue": {
+    "required_clips": 32,
+    "roles": {
+      "姜岚": 11,
+      "沈砚": 8,
+      "陆山": 10,
+      "林守义": 3
+    },
+    "optional_player_clips": 4,
+    "path": "Dialogue/dialogue-recording-list.txt",
+    "new_recordings_integrated": false
+  },
+  "encounter": {
+    "placed_guards": 13,
+    "checkpoint": 3,
+    "timber": 4,
+    "office": 4,
+    "door_ambusher": 1,
+    "pier": 1,
+    "hold_seconds": 30,
+    "pursuing_group_size": [
+      1,
+      2
+    ],
+    "delay_after_group_defeat_seconds": 2,
+    "legacy_encounters_preserved": true
+  },
+  "audio": {
+    "history": "complete_user_mp3_with_embedded_music",
+    "temporary_task_voice_cues": 14,
+    "music_volume_default": 0.22,
+    "global_during_history": false,
+    "listening": "pending"
+  },
+  "prior_viewmodel_geometry": {
+    "retained": true,
+    "historical_comparison_rerun": false
+  },
+  "previous_release_preserved": "WorkBackups/20261015-143030-S23-in_progress-6383a9",
+  "remaining": [
+    "human audio listening",
+    "human gameplay difficulty",
+    "S32 final art review",
+    "S33 terrain art integration",
+    "S36 full human acceptance"
+  ],
+  "files": [
+    {
+      "path": "Release/FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 441818084,
+      "sha256": "e51860673f516520d83cbcd7fd818a1d8a5382990bf64224aa50b85637eaaf81"
+    }
+  ],
+  "previous_revision_report": "Validation/user-revision-20261015/final-validation.json",
+  "changbai": {
+    "trees": 680,
+    "tree_batches": 29,
+    "terrain_triangles": 41472,
+    "mesh_source": "AssetLibrary/environment/derived/S21/tianchi_artistic.blend",
+    "tree_source": "existing JKM far_pine derivative; original attribution retained",
+    "grounding": "area-weighted sampling of actual imported triangles; 5cm root embed",
+    "details": [
+      "world-mapped gravel rock",
+      "weathering and lichen",
+      "high rim snow patches",
+      "shore scree",
+      "natural ledge",
+      "low vegetation",
+      "continuous distant terrain"
+    ],
+    "camera": "A-16 lake-centered continuous rising view; existing timing retained",
+    "collision_and_route_anchors_changed": false,
+    "asset_checks": {
+      "model": {
+        "passed": true,
+        "checks": 7
+      },
+      "environment": {
+        "passed": true,
+        "checks": 12
+      },
+      "topology": {
+        "passed": true,
+        "objects": 6,
+        "shared_seam_points": [
+          55,
+          55,
+          55,
+          55
+        ]
+      }
+    },
+    "performance_limit": "Frozen camera toggle comparison on this machine; not full realtime opening performance"
+  }
+}

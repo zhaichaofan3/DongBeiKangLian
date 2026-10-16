@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Cap star has correct faction visibility: scout
+PASS: Cap insignia is a five-point star: scout
+PASS: Cap star has correct faction visibility: lu
+PASS: Cap insignia is a five-point star: lu
+PASS: Cap star has correct faction visibility: logger
+PASS: Cap insignia is a five-point star: logger
+PASS: Enemy headgear never displays the friendly star
+PASS: Opening friendly wears the red star: ally1
+PASS: Opening friendly uses the supplied friendly model: ally1
+PASS: Opening friendly wears the red star: ally2
+PASS: Opening friendly uses the supplied friendly model: ally2
+PASS: Opening friendly wears the red star: scout
+PASS: Opening friendly uses the supplied friendly model: scout
+PASS: Conversation muzzle points down at 3.1 seconds
+PASS: Conversation muzzle points down at 11.0 seconds
+PASS: Conversation muzzle points down at 18.5 seconds
+PASS: Conversation muzzle points down at 48.8 seconds
+PASS: Conversation muzzle points down at 76.0 seconds
+PASS: Office replaces paired rescue with walking actors and a continuous camera move
+PASS: Office walk clears furniture: ally1
+FAIL: Office walk clears furniture: ally2
+PASS: Office showcase leaves mission state and player resources unchanged
+PASS: Interior showcase lights deactivate after the shot
+PASS: Gameplay conversations display the same safe weapon posture
+PASS: Combat hold restores smoothly after a conversation
+PASS: Both hands reach the final grapple after 3m charge
+PASS: Both hands reach the final grapple after 7m charge
+PASS: Both hands reach the final grapple after 12m charge
+PASS: Long and short charges never stretch visible sleeves beyond the arm budget
+PASS: Both hands meet the rifle within ten centimetres in the grapple
+POLISH REVISION: FAIL | checks=30

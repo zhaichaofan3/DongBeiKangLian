@@ -1,0 +1,38 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Patrol round trip: gate_guard
+PASS: Patrol round trip: yard_guard
+PASS: Patrol round trip: pier_guard
+PASS: Patrol round trip: timber_guard
+PASS: Patrol round trip: office_guard
+PASS: Capsule clears navigation route: west_gate
+PASS: Capsule clears navigation route: checkpoint
+PASS: Capsule clears navigation route: yard_gate
+PASS: Capsule clears navigation route: office_return
+PASS: Capsule clears navigation route: north_escort
+PASS: Capsule clears navigation route: river
+PASS: Capsule clears navigation route: wave_0
+PASS: Capsule clears navigation route: wave_1
+PASS: Closed gate blocks capsule: checkpoint
+PASS: Closed gate blocks navigation: checkpoint
+PASS: Open gate clears capsule: checkpoint
+PASS: Closed gate blocks capsule: yard
+PASS: Closed gate blocks navigation: yard
+PASS: Open gate clears capsule: yard
+PASS: Closed gate blocks capsule: river
+PASS: Closed gate blocks navigation: river
+PASS: Open gate clears capsule: river
+PASS: Solid facade/cover: D02
+PASS: Solid facade/cover: D03
+PASS: Solid facade/cover: D04
+PASS: Solid facade/cover: timber_cover
+PASS: Solid facade/cover: sandbag_cover
+PASS: Untreated escort follows: same_cell (final=(33.90008, 0.000824, 37.90008))
+PASS: Untreated escort follows: cover_cell_edge (final=(36.8205, 0.000838, 50.69863))
+PASS: Untreated escort follows: offset_corner (final=(40.18911, 0.000839, 37.42953))
+PASS: Untreated escort follows: north_to_dock (final=(77.33482, 0.000936, 15.54707))
+PASS: Duplicate guard ID rejected: wave_0
+PASS: Reinforcement physically reaches pressure point: wave_0
+PASS: Duplicate guard ID rejected: wave_1
+PASS: Reinforcement physically reaches pressure point: wave_1
+S13 NAVIGATION: PASS | checks=35

@@ -1,0 +1,213 @@
+{
+  "scope": "file existence and source hashes only; no import/render/audio audition",
+  "sources": [
+    {
+      "path": "docs/narrative/S04/narration_timeline.json",
+      "sha256": "3bcc0957c6e7a27e67798635030206c621be22522d2467f63651c5f87491b3aa"
+    },
+    {
+      "path": "docs/narrative/S05/dialogue_timeline.json",
+      "sha256": "b8848566838cccdf9076541028fada1a25c12e092e8c7bc0bbb86393a9912ec9"
+    },
+    {
+      "path": "docs/narrative/S03/interface_contract.json",
+      "sha256": "f0a4e8e93948462157cf842a0d7f07d1f5f32c1a62d26ef69282b04de73128d3"
+    },
+    {
+      "path": "docs/resources/S02/inventory.json",
+      "sha256": "adb64dcf679fc6d8eb3d6663573dea159cb1093c17558554a7de93705af68388"
+    },
+    {
+      "path": "docs/narrative/S04/narration_original.txt",
+      "sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320"
+    },
+    {
+      "path": "docs/narrative/S05/dialogue_script.json",
+      "sha256": "73d9e28c1fbc6b7e4d3e8b294ff954c600b00fffc1ac150c2dca2cb83c7e7a44"
+    },
+    {
+      "path": "GodotProject/scripts/world.gd",
+      "sha256": "257290e3e2c590b50b31a62a166ad9f17169609692f24c04c503639428c37e0d"
+    },
+    {
+      "path": "GodotProject/scripts/human_model.gd",
+      "sha256": "994cd2b98ae19e4a6754862680ddc7c287a950668e92ca254a54ace0297c38fe"
+    },
+    {
+      "path": "GodotProject/scripts/audio_factory.gd",
+      "sha256": "656c0ba3413a8e464c3ca993a55daa3664f4f18166bd4b4e534e1ff84c3ba163"
+    },
+    {
+      "path": "GodotProject/scripts/weapon_visuals.gd",
+      "sha256": "0c76e382fc3985048f73f90910a1ed370f76b4d213444ddf63be203a39fb6c83"
+    },
+    {
+      "path": "GodotProject/scripts/mission.gd",
+      "sha256": "4f75bec4544f448a6836eb84bb04611478d849a2345541f9881ae7910b068b3a"
+    },
+    {
+      "path": "GodotProject/scripts/story.gd",
+      "sha256": "6af84ee900a18713b9e1e80e79aab78276efc21c6febf552f6cb5ea84c013c83"
+    },
+    {
+      "path": "GodotProject/scripts/fps_player.gd",
+      "sha256": "64269a7b1ffd79d3b58b294c840a99704e5c3ec43461b30ceeda2d44fb72d6c6"
+    },
+    {
+      "path": "GodotProject/scripts/linear_director.gd",
+      "sha256": "9b21fba0cd292f680e63e190d4896b2bcb2767152d329d576ebe77e5792c97b4"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": "WORLD",
+      "status": "existing_game_map",
+      "files_checked": 2,
+      "missing": []
+    },
+    {
+      "resource_id": "ACTORS",
+      "status": "existing_base_requires_cinematic_setup",
+      "files_checked": 2,
+      "missing": []
+    },
+    {
+      "resource_id": "HANDS",
+      "status": "existing_base_requires_cinematic_setup",
+      "files_checked": 3,
+      "missing": []
+    },
+    {
+      "resource_id": "CABIN",
+      "status": "downloaded_not_integrated",
+      "files_checked": 1,
+      "missing": []
+    },
+    {
+      "resource_id": "WAREHOUSE",
+      "status": "downloaded_not_integrated",
+      "files_checked": 1,
+      "missing": []
+    },
+    {
+      "resource_id": "FACTORY",
+      "status": "downloaded_not_integrated",
+      "files_checked": 17,
+      "missing": []
+    },
+    {
+      "resource_id": "MARKET",
+      "status": "downloaded_not_integrated",
+      "files_checked": 1,
+      "missing": []
+    },
+    {
+      "resource_id": "BASKET",
+      "status": "downloaded_not_integrated",
+      "files_checked": 5,
+      "missing": []
+    },
+    {
+      "resource_id": "TEA_TABLE",
+      "status": "downloaded_not_integrated",
+      "files_checked": 5,
+      "missing": []
+    },
+    {
+      "resource_id": "SCREEN",
+      "status": "downloaded_not_integrated",
+      "files_checked": 5,
+      "missing": []
+    },
+    {
+      "resource_id": "SNOW",
+      "status": "downloaded_not_integrated",
+      "files_checked": 5,
+      "missing": []
+    },
+    {
+      "resource_id": "DEM_REF",
+      "status": "local_reference_not_integrated",
+      "files_checked": 3,
+      "missing": []
+    },
+    {
+      "resource_id": "TIANCHI",
+      "status": "planned_missing",
+      "files_checked": 0,
+      "missing": []
+    },
+    {
+      "resource_id": "TALK",
+      "status": "planned_missing",
+      "files_checked": 1,
+      "missing": []
+    },
+    {
+      "resource_id": "TWO_PERSON",
+      "status": "planned_missing",
+      "files_checked": 0,
+      "missing": []
+    },
+    {
+      "resource_id": "COMBAT",
+      "status": "existing_base_requires_cinematic_setup",
+      "files_checked": 3,
+      "missing": []
+    },
+    {
+      "resource_id": "ARTILLERY",
+      "status": "planned_missing",
+      "files_checked": 0,
+      "missing": []
+    },
+    {
+      "resource_id": "WIND",
+      "status": "existing_base_requires_cinematic_setup",
+      "files_checked": 15,
+      "missing": []
+    },
+    {
+      "resource_id": "FOOTSTEP",
+      "status": "existing_base_requires_cinematic_setup",
+      "files_checked": 149,
+      "missing": []
+    },
+    {
+      "resource_id": "SNOW_STEP",
+      "status": "downloaded_not_integrated",
+      "files_checked": 50,
+      "missing": []
+    },
+    {
+      "resource_id": "METAL",
+      "status": "planned_missing",
+      "files_checked": 1,
+      "missing": []
+    },
+    {
+      "resource_id": "SCORE",
+      "status": "planned_missing",
+      "files_checked": 0,
+      "missing": []
+    },
+    {
+      "resource_id": "VOICE_A",
+      "status": "script_only_not_recorded",
+      "files_checked": 3,
+      "missing": []
+    },
+    {
+      "resource_id": "VOICE_B",
+      "status": "script_only_not_recorded",
+      "files_checked": 3,
+      "missing": []
+    },
+    {
+      "resource_id": "TITLES",
+      "status": "planned_missing",
+      "files_checked": 1,
+      "missing": []
+    }
+  ]
+}

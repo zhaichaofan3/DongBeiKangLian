@@ -1,0 +1,14 @@
+{
+	"checks": 61,
+	"failures": [
+		"First pursuing soldier arrives when untying starts",
+		"No new wave while a pursuing soldier remains alive",
+		"Next wave does not spawn before two seconds after death",
+		"Pause freezes both countdown and spawn delay",
+		"Next group contains two soldiers",
+		"Load restores exact pursuing soldiers without duplication",
+		"Revised mission still reaches its shared ending"
+	],
+	"passed": false,
+	"rendered": false
+}

@@ -1,0 +1,305 @@
+{
+  "birch-tree": [],
+  "dims-arboretum": [],
+  "jkms-tree-set": [
+    {
+      "path": "jkms-tree-set\\extracted\\models\\pinetree.obj",
+      "vertices": 171,
+      "faces": 113,
+      "triangles_estimate": 113,
+      "materials": [
+        "mtllib pinetree.mtl",
+        "usemtl nadel",
+        "usemtl stamm_stamm.jpg"
+      ]
+    },
+    {
+      "path": "jkms-tree-set\\extracted\\models\\pinetree_small.obj",
+      "vertices": 171,
+      "faces": 113,
+      "triangles_estimate": 113,
+      "materials": [
+        "mtllib pinetree_small.mtl",
+        "usemtl nadel",
+        "usemtl stamm_stamm.jpg"
+      ]
+    },
+    {
+      "path": "jkms-tree-set\\extracted\\models\\tree.obj",
+      "vertices": 134,
+      "faces": 105,
+      "triangles_estimate": 105,
+      "materials": [
+        "mtllib tree1.mtl",
+        "usemtl stamm",
+        "usemtl tree5"
+      ]
+    },
+    {
+      "path": "jkms-tree-set\\extracted\\models\\tree_small.obj",
+      "vertices": 117,
+      "faces": 89,
+      "triangles_estimate": 89,
+      "materials": [
+        "mtllib tree1_small.mtl",
+        "usemtl stamm",
+        "usemtl tree4"
+      ]
+    },
+    {
+      "path": "jkms-tree-set\\extracted\\models\\xmas_tree.obj",
+      "vertices": 238,
+      "faces": 135,
+      "triangles_estimate": 135,
+      "materials": [
+        "mtllib xmas_tree.mtl",
+        "usemtl kerzerot",
+        "usemtl nadelsnowg",
+        "usemtl stamm_stamm.jpg"
+      ]
+    }
+  ],
+  "log-cabin-dae": [],
+  "medieval-waterpowered-sawmill": [],
+  "modular-building-asset-0": [
+    {
+      "path": "modular-building-asset-0\\extracted\\block.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\brick_door.obj",
+      "vertices": 94,
+      "faces": 80,
+      "triangles_estimate": 154,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\brick_double_window.obj",
+      "vertices": 32,
+      "faces": 20,
+      "triangles_estimate": 40,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\brick_small_double_window.obj",
+      "vertices": 28,
+      "faces": 20,
+      "triangles_estimate": 40,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\brick_small_window_1.obj",
+      "vertices": 24,
+      "faces": 18,
+      "triangles_estimate": 36,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\brick_small_window_2.obj",
+      "vertices": 24,
+      "faces": 18,
+      "triangles_estimate": 36,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\brick_window_1.obj",
+      "vertices": 24,
+      "faces": 18,
+      "triangles_estimate": 36,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\brick_window_2.obj",
+      "vertices": 25,
+      "faces": 20,
+      "triangles_estimate": 38,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\concrete_door.obj",
+      "vertices": 94,
+      "faces": 80,
+      "triangles_estimate": 154,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\concrete_double_window.obj",
+      "vertices": 32,
+      "faces": 20,
+      "triangles_estimate": 40,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\concrete_small_double_window.obj",
+      "vertices": 28,
+      "faces": 20,
+      "triangles_estimate": 40,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\concrete_small_window_1.obj",
+      "vertices": 24,
+      "faces": 18,
+      "triangles_estimate": 36,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\concrete_small_window_2.obj",
+      "vertices": 24,
+      "faces": 18,
+      "triangles_estimate": 36,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\concrete_window_1.obj",
+      "vertices": 24,
+      "faces": 18,
+      "triangles_estimate": 36,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\concrete_window_2.obj",
+      "vertices": 24,
+      "faces": 18,
+      "triangles_estimate": 36,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\cooling.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\hangar_door.obj",
+      "vertices": 42,
+      "faces": 41,
+      "triangles_estimate": 80,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\pillar_brick_1.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\pillar_brick_2.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\pillar_brick_3.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\pillar_concrete_1.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\pillar_concrete_2.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\pillar_concrete_3.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\roof.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_brick_1.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_brick_2.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_brick_3.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_brick_4.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_brick_5.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_concrete_1.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_concrete_2.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_concrete_3.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_concrete_4.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    },
+    {
+      "path": "modular-building-asset-0\\extracted\\wall_concrete_5.obj",
+      "vertices": 8,
+      "faces": 6,
+      "triangles_estimate": 12,
+      "materials": []
+    }
+  ],
+  "retro-log-cabin": []
+}

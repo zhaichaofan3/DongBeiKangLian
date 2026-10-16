@@ -1,0 +1,137 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "description": "Pause freezes clock, mode and environment audio",
+      "passed": true,
+      "row": "pause_A"
+    },
+    {
+      "description": "Resume returns to the same cinematic point",
+      "passed": true,
+      "row": "resume_A"
+    },
+    {
+      "description": "Mid-history exit resumes at the saved A boundary",
+      "passed": true,
+      "row": "exit_A_restore"
+    },
+    {
+      "description": "Skip-A then exit resumes at the B boundary",
+      "passed": true,
+      "row": "skip_A_exit_B"
+    },
+    {
+      "description": "Pause preserves the B1 dialogue stream",
+      "passed": true,
+      "row": "pause_B_dialogue"
+    },
+    {
+      "description": "Skip-B commits one gameplay handoff without advancing objectives",
+      "passed": true,
+      "row": "skip_B_handoff"
+    },
+    {
+      "description": "Repeated finish is idempotent",
+      "passed": true,
+      "row": "skip_B_idempotent"
+    },
+    {
+      "description": "Gameplay checkpoint restores play instead of replaying B",
+      "passed": true,
+      "row": "gameplay_restore"
+    },
+    {
+      "description": "Restore has exactly the revised roster with unique initial guards",
+      "passed": true,
+      "row": "restore_unique_guards"
+    },
+    {
+      "description": "Malformed opening save enters a visible load error",
+      "passed": true,
+      "row": "invalid_opening_save"
+    },
+    {
+      "description": "Legacy gameplay save retains the original briefing state",
+      "passed": true,
+      "row": "legacy_restore"
+    },
+    {
+      "description": "Failed handoff write exposes a retry state",
+      "passed": true,
+      "row": "failed_write"
+    },
+    {
+      "description": "Failed final write preserves the previous file byte for byte",
+      "passed": true,
+      "row": "failed_write_preserves_file"
+    },
+    {
+      "description": "Retry writes the prepared gameplay checkpoint",
+      "passed": true,
+      "row": "retry_write"
+    }
+  ],
+  "method": "Headless state matrix with isolated user save and explicit failure evidence.",
+  "music": "user_global_20261015",
+  "opening_audio": "temporary_voice_cleared_on_abort_and_boundary_transition",
+  "rows": [
+    {
+      "action": "pause then resume",
+      "expected": "same A clock; no audio drift",
+      "id": "pause_A",
+      "passed": true
+    },
+    {
+      "action": "return to menu during A then continue",
+      "expected": "history A1 boundary",
+      "id": "exit_A_restore",
+      "passed": true
+    },
+    {
+      "action": "skip A, exit during B, continue",
+      "expected": "task B1 boundary without replaying A",
+      "id": "skip_A_exit_B",
+      "passed": true
+    },
+    {
+      "action": "pause during B1 dialogue",
+      "expected": "same voice stream and clock",
+      "id": "pause_B_dialogue",
+      "passed": true
+    },
+    {
+      "action": "skip B",
+      "expected": "single gameplay handoff at stage 0",
+      "id": "skip_B_handoff",
+      "passed": true
+    },
+    {
+      "action": "continue after completed opening",
+      "expected": "playing state; no cinematic",
+      "id": "gameplay_restore",
+      "passed": true
+    },
+    {
+      "action": "load unknown opening phase",
+      "expected": "opening_load_error with file preserved",
+      "id": "invalid_opening_save",
+      "passed": true
+    },
+    {
+      "action": "load version-2 save without opening field",
+      "expected": "normal gameplay briefing",
+      "id": "legacy_restore",
+      "passed": true
+    },
+    {
+      "action": "force missing parent at handoff then retry",
+      "expected": "old save retained; retry commits prepared state",
+      "id": "failed_write",
+      "passed": true
+    }
+  ],
+  "sfx_listening": "pending_S28",
+  "status": "done",
+  "step": "S34"
+}

@@ -1,0 +1,58 @@
+{
+  "revision": "20261015-straight-charge-natural-dialogue",
+  "source": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 21,
+    "assertions_total": 630,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/natural-dialogue-20261015/source-regression-final.log"
+  },
+  "release": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 21,
+    "assertions_total": 630,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/natural-dialogue-20261015/release-regression-final.log"
+  },
+  "renders": {
+    "charge/source-render-1280": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(1280, 720)"
+    },
+    "charge/source-render-960": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(960, 540)"
+    },
+    "charge/release-render-1280": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(1280, 720)"
+    },
+    "charge/release-render-960": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(960, 540)"
+    }
+  },
+  "combined_report": "docs/level/S24/natural-dialogue-20261015/final-validation.json"
+}

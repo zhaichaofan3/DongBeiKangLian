@@ -1,0 +1,61 @@
+[
+  {
+    "game_path": "C:\\GameMake\\GodotProject\\assets\\audio\\rifle_arisaka_01.wav",
+    "res_path": "res://assets/audio/rifle_arisaka_01.wav",
+    "sources": [
+      "the-free-firearm-sound-library/extracted/Prepared SFX Library/Prepared SFX Library/Arisaka/E_25P.wav"
+    ],
+    "modifications": "Single shot E_25P.wav from 0.513917s to 3.063917s; 48kHz mono PCM16, 80ms tail fade, peak -6dBFS. Source labels Arisaka .30-06; tonal reference, not verified original 6.5/7.7mm service ammunition.",
+    "license": "CC0-1.0",
+    "sample_rate": 48000,
+    "channels": 1,
+    "duration_seconds": 2.55,
+    "frames": 122400,
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -34.53,
+    "bytes": 244844,
+    "sha256": "0f06056ac3d02337ee26b74d30f4f8f3454ff3deec0b47d28d5c1316784c9d4e",
+    "loop": false,
+    "decode_ok": true
+  },
+  {
+    "game_path": "C:\\GameMake\\GodotProject\\assets\\audio\\step_grass_01.wav",
+    "res_path": "res://assets/audio/step_grass_01.wav",
+    "sources": [
+      "footsteps-on-different-surfaces/extracted/footsteps_0/footsteps/grass/0.ogg"
+    ],
+    "modifications": "Grass/dirt footstep derived by congusbongus from swuing. 48kHz mono PCM16, peak -14dBFS, 5ms edge fades.",
+    "license": "CC-BY-3.0",
+    "sample_rate": 48000,
+    "channels": 1,
+    "duration_seconds": 0.243375,
+    "frames": 11682,
+    "peak_dbfs": -14.0,
+    "rms_dbfs": -25.87,
+    "bytes": 23408,
+    "sha256": "cfa2f720672020c70e848b5227e9b6ca95ebb1fd6c8536dc42844bf4bcc470f3",
+    "loop": false,
+    "decode_ok": true
+  },
+  {
+    "game_path": "C:\\GameMake\\GodotProject\\assets\\audio\\forest_wind_loop.wav",
+    "res_path": "res://assets/audio/forest_wind_loop.wav",
+    "sources": [
+      "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_forest.flac",
+      "ambient-mountain-river-wind-and-forest-and-waterfall/extracted/ambient_mountains_forest_river_waterfall_wind/ambient_mountains_forest_river_waterfall_wind/amb_wind_1.flac"
+    ],
+    "modifications": "Blender Foundation / Yo Frankie forest and wind blended 72:28 after RMS balancing. Wind wraps with 400ms crossfade; final ambience loop with 600ms crossfade and 2ms cosine seam fades to exact zero endpoints. 48kHz mono PCM16, RMS approximately -28dBFS, peak capped at -12dBFS.",
+    "license": "CC-BY-3.0",
+    "sample_rate": 48000,
+    "channels": 1,
+    "duration_seconds": 8.584958333333333,
+    "frames": 412078,
+    "peak_dbfs": -12.88,
+    "rms_dbfs": -28.0,
+    "bytes": 824200,
+    "sha256": "e634f4c609443add66dbd7b929569b073426942c239c645389d34e1e46476c1c",
+    "loop": true,
+    "loop_boundary_sample_difference": 0,
+    "decode_ok": true
+  }
+]

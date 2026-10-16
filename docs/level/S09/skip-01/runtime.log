@@ -1,0 +1,68 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Opening hands off once with briefing complete
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:42)
+ERROR: Every entry starts with five guards and all three gates closed
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:44)
+ERROR: Optional logger supply reachable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:54)
+ERROR: Two gates opened by normal guard conditions
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:68)
+ERROR: Office west door opens through normal interaction
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:77)
+ERROR: Rescue can precede both mission objects
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:84)
+ERROR: Roster interaction reachable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:90)
+ERROR: Power interaction reachable
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:96)
+ERROR: Selected treated/untreated rescue is preserved
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:102)
+ERROR: River gate opens after objects and rescue
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:112)
+ERROR: Courier follows west exit and north route and completes twelve-second extraction
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:120)
+ERROR: Mission ends in won with player alive
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:123)
+ERROR: Reinforcements respect six-live-guard cap; evacuation does not require final wave kills
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:124)
+S09 ROUTE skip: FAIL | checks=13 | seconds=0.0

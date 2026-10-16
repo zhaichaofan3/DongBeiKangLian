@@ -1,0 +1,222 @@
+{
+  "version": "0.7.0-rc1",
+  "name": "东北抗联-烽火回声",
+  "revision": "20261015-straight-charge-natural-dialogue",
+  "created_at": "2026-10-15T16:01:20+08:00",
+  "status": "candidate_ready_pending_human_listening_and_remaining_art_visual_review",
+  "source": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 21,
+    "assertions_total": 630,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/natural-dialogue-20261015/source-regression-final.log"
+  },
+  "release": {
+    "all_runtime_checks_passed": true,
+    "test_groups": 21,
+    "assertions_total": 630,
+    "departure_support_and_visibility_samples": 21,
+    "ai_route": {
+      "result": "won",
+      "health": 91.0,
+      "guards_defeated": 19,
+      "game_seconds": 103.133333333329,
+      "human_difficulty_assessed": false
+    },
+    "evidence": "Validation/natural-dialogue-20261015/release-regression-final.log"
+  },
+  "dialogue": {
+    "required_clips": 32,
+    "roles": {
+      "姜岚": 11,
+      "沈砚": 8,
+      "陆山": 10,
+      "林守义": 3
+    },
+    "optional_player_clips": 4,
+    "path": "Dialogue/dialogue-recording-list.txt",
+    "new_recordings_integrated": false
+  },
+  "encounter": {
+    "placed_guards": 13,
+    "checkpoint": 3,
+    "timber": 4,
+    "office": 4,
+    "door_ambusher": 1,
+    "pier": 1,
+    "hold_seconds": 30,
+    "pursuing_group_size": [
+      1,
+      2
+    ],
+    "delay_after_group_defeat_seconds": 2,
+    "legacy_encounters_preserved": true
+  },
+  "audio": {
+    "history": "complete_user_mp3_with_embedded_music",
+    "temporary_task_voice_cues": 14,
+    "music_volume_default": 0.22,
+    "global_during_history": false,
+    "listening": "pending"
+  },
+  "prior_viewmodel_geometry": {
+    "retained": true,
+    "historical_comparison_rerun": false
+  },
+  "previous_release_preserved": "WorkBackups/20261015-153703-S19-in_progress-450000",
+  "remaining": [
+    "human audio listening",
+    "human gameplay difficulty",
+    "S32 final art review",
+    "S33 terrain art integration",
+    "S36 full human acceptance"
+  ],
+  "files": [
+    {
+      "path": "Release/FenghuoEcho.exe",
+      "bytes": 180858888,
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "path": "Release/FenghuoEcho.pck",
+      "bytes": 441615940,
+      "sha256": "4b7270cc778b4f118160823a131c65dd0659658d294b3d696a54de94a082895b"
+    }
+  ],
+  "previous_revision_report": "Validation/changbai-20261015/final-validation.json",
+  "changbai": {
+    "trees": 680,
+    "tree_batches": 29,
+    "terrain_triangles": 41472,
+    "mesh_source": "AssetLibrary/environment/derived/S21/tianchi_artistic.blend",
+    "tree_source": "existing JKM far_pine derivative; original attribution retained",
+    "grounding": "area-weighted sampling of actual imported triangles; 5cm root embed",
+    "details": [
+      "world-mapped gravel rock",
+      "weathering and lichen",
+      "high rim snow patches",
+      "shore scree",
+      "natural ledge",
+      "low vegetation",
+      "continuous distant terrain"
+    ],
+    "camera": "A-16 lake-centered continuous rising view; existing timing retained",
+    "collision_and_route_anchors_changed": false,
+    "asset_checks": {
+      "model": {
+        "passed": true,
+        "checks": 7
+      },
+      "environment": {
+        "passed": true,
+        "checks": 12
+      },
+      "topology": {
+        "passed": true,
+        "objects": 6,
+        "shared_seam_points": [
+          55,
+          55,
+          55,
+          55
+        ]
+      }
+    },
+    "performance_limit": "Frozen camera toggle comparison on this machine; not full realtime opening performance",
+    "detailed_asset_checks_revision": "20261015-changbai-woodland-rock-detail",
+    "detailed_asset_checks_repeated_this_revision": false,
+    "landscape_runtime_checks_repeated_this_revision": true
+  },
+  "renders": {
+    "dialogue/source-render-1280": {
+      "passed": true,
+      "checks": 21,
+      "captures": 8,
+      "resolution": "(1280, 720)"
+    },
+    "dialogue/source-render-960": {
+      "passed": true,
+      "checks": 21,
+      "captures": 8,
+      "resolution": "(960, 540)"
+    },
+    "dialogue/release-render-1280": {
+      "passed": true,
+      "checks": 21,
+      "captures": 8,
+      "resolution": "(1280, 720)"
+    },
+    "dialogue/release-render-960": {
+      "passed": true,
+      "checks": 21,
+      "captures": 8,
+      "resolution": "(960, 540)"
+    },
+    "charge/source-render-1280": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(1280, 720)"
+    },
+    "charge/source-render-960": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(960, 540)"
+    },
+    "charge/release-render-1280": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(1280, 720)"
+    },
+    "charge/release-render-960": {
+      "passed": true,
+      "checks": 33,
+      "captures": 3,
+      "resolution": "(960, 540)"
+    }
+  },
+  "character_revision": {
+    "office_charge": "Capsule-clear fixed line with fixed facing; ordinary approach until range and clearance permit charge",
+    "dialogue": "Separate sleeve/torso skinning, cue-timed low gestures, listener nods and partner gaze",
+    "clothing_comparison": {
+      "before": {
+        "source": "C:\\GameMake\\WorkBackups\\20261015-154016-S24-in_progress-a7dfdc\\files\\AssetLibrary\\characters\\field_character\\field_character.blend",
+        "sleeve_samples": 1937,
+        "torso_anchored_sleeve_vertices": 338,
+        "edge_samples": 8109,
+        "p95_edge_stretch": 2.7062459300199064,
+        "max_edge_stretch": 7.963329556654239,
+        "pose_radians": {
+          "shoulder": 0.35,
+          "elbow": 0.9
+        },
+        "passed": false
+      },
+      "after": {
+        "source": "C:\\GameMake\\AssetLibrary\\characters\\field_character\\field_character.blend",
+        "sleeve_samples": 356,
+        "torso_anchored_sleeve_vertices": 0,
+        "edge_samples": 1696,
+        "p95_edge_stretch": 1.2008446852682344,
+        "max_edge_stretch": 1.6112324791032662,
+        "pose_radians": {
+          "shoulder": 0.35,
+          "elbow": 0.9
+        },
+        "passed": true
+      }
+    },
+    "existing_conversation_checks": 11,
+    "shared_character_all_variant_triangles": 72128,
+    "limits": "Programmatic pose sampling and inspected stills; human continuous acting review, listening and full playtest remain pending"
+  }
+}

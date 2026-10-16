@@ -1,0 +1,88 @@
+  reading 'ClassData'... 550
+  reading 'Config'... 29892
+  reading 'DllDirectory'... 2894
+  reading 'ClassDirectory3'... 5056
+  reading 'VideoPostQueue'... 52
+  reading 'Scene'... 2557441
+  reading 'FileAssetMetaData3'... 2604
+  metadata: 0xca1 '6'...Bitmap
+  imgpath: 0x4f9ee35b -> '68: C:\Program Files\Autodesk\3ds Max 2018\maps\uvwunwrap\UV_Checker.png'
+  imgpath: 0x4f9ee35b -> '68: C:\Program Files\Autodesk\3ds Max 2018\maps\uvwunwrap\UV_Checker.png'
+  metadata: 0x3963 '6'...Bitmap
+  imgpath: 0xabd0a317 -> '32: 3d66Model-22426855-files-003.tga'
+  imgpath: 0xabd0a317 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-003.tga'
+  metadata: 0xf66a '6'...Bitmap
+  imgpath: 0x2712e796 -> '32: 3d66Model-22426855-files-004.dds'
+  imgpath: 0x2712e796 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-004.dds'
+  metadata: 0x9b45 '6'...Bitmap
+  imgpath: 0x269106b5 -> '32: 3d66Model-22426855-files-006.dds'
+  imgpath: 0x269106b5 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-006.dds'
+  metadata: 0xb965 '6'...Bitmap
+  imgpath: 0xe06fd181 -> '32: 3d66Model-22426855-files-005.dds'
+  imgpath: 0xe06fd181 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-005.dds'
+  metadata: 0xbfb2 '6'...Bitmap
+  imgpath: 0xe6a09e1f -> '32: 3d66Model-22426855-files-008.jpg'
+  imgpath: 0xe6a09e1f -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-008.jpg'
+  metadata: 0xf9e8 '6'...Bitmap
+  imgpath: 0x41baf013 -> '32: 3d66Model-22426855-files-007.dds'
+  imgpath: 0x41baf013 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-007.dds'
+  metadata: 0x5995 '6'...Bitmap
+  imgpath: 0xba3ff174 -> '32: 3d66Model-22426855-files-002.tga'
+  imgpath: 0xba3ff174 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-002.tga'
+  metadata: 0xe173 '6'...Bitmap
+  imgpath: 0x34ca9d57 -> '32: 3d66Model-22426855-files-009.jpg'
+  imgpath: 0x34ca9d57 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-009.jpg'
+  metadata: 0x7cea '6'...Bitmap
+  imgpath: 0xe00e4a91 -> '32: 3d66Model-22426855-files-001.hdr'
+  imgpath: 0xe00e4a91 -> '72: D:\max3.0\max\UN63046999047957\complete\3d66Model-22426855-files-001.hdr'
+	skipping VRayLight '3d66-VRayLight-22426855-001'... 
+Info: Saved as "raw-import.blend"
+USER_MAX_INSPECTION japanese meshes 1 triangles 11106 armatures 0
+  reading 'ClassData'... 644
+  reading 'Config'... 31160
+  reading 'DllDirectory'... 2420
+  reading 'ClassDirectory3'... 4358
+  reading 'VideoPostQueue'... 52
+  reading 'Scene'... 18046179
+  reading 'FileAssetMetaData3'... 3216
+  metadata: 0x4c75 '6'...Bitmap
+  imgpath: 0x1932fc44 -> '32: 3d66Model-17309872-files-010.png'
+  imgpath: 0x1932fc44 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-010.png'
+  metadata: 0x7281 '6'...Bitmap
+  imgpath: 0x86ed3a62 -> '32: 3d66Model-17309872-files-012.png'
+  imgpath: 0x86ed3a62 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-012.png'
+  metadata: 0xf8e '6'...Bitmap
+  imgpath: 0xd23a72c6 -> '32: 3d66Model-17309872-files-004.png'
+  imgpath: 0xd23a72c6 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-004.png'
+  metadata: 0x5e17 '6'...Bitmap
+  imgpath: 0x58630b7e -> '32: 3d66Model-17309872-files-003.png'
+  imgpath: 0x58630b7e -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-003.png'
+  metadata: 0x2213 '6'...Bitmap
+  imgpath: 0xcbbd3ee9 -> '32: 3d66Model-17309872-files-002.png'
+  imgpath: 0xcbbd3ee9 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-002.png'
+  metadata: 0x8d94 '6'...Bitmap
+  imgpath: 0x746faa84 -> '32: 3d66Model-17309872-files-008.png'
+  imgpath: 0x746faa84 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-008.png'
+  metadata: 0xa488 '6'...Bitmap
+  imgpath: 0x2e60cd05 -> '32: 3d66Model-17309872-files-001.png'
+  imgpath: 0x2e60cd05 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-001.png'
+  metadata: 0x7abe '6'...Bitmap
+  imgpath: 0xa116835f -> '32: 3d66Model-17309872-files-006.png'
+  imgpath: 0xa116835f -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-006.png'
+  metadata: 0xe6e5 '6'...Bitmap
+  imgpath: 0x118ce8f2 -> '32: 3d66Model-17309872-files-005.png'
+  imgpath: 0x118ce8f2 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-005.png'
+  metadata: 0xc07d '6'...Bitmap
+  imgpath: 0xf9c3a2c6 -> '32: 3d66Model-17309872-files-007.png'
+  imgpath: 0xf9c3a2c6 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-007.png'
+  metadata: 0x90dd '6'...Bitmap
+  imgpath: 0x78725b37 -> '32: 3d66Model-17309872-files-011.png'
+  imgpath: 0x78725b37 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-011.png'
+  metadata: 0x1992 '6'...Bitmap
+  imgpath: 0x2c82b1b8 -> '32: 3d66Model-17309872-files-009.png'
+  imgpath: 0x2c82b1b8 -> '79: D:\max3.0\Debug\max\UN751074016795961\complete\3d66Model-17309872-files-009.png'
+Info: Saved as "raw-import.blend"
+USER_MAX_INSPECTION volunteer meshes 24 triangles 90274 armatures 0
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

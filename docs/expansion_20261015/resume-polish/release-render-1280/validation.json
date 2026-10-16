@@ -1,0 +1,197 @@
+{
+  "checks": [
+    {
+      "description": "Cap star has correct faction visibility: scout",
+      "passed": true
+    },
+    {
+      "description": "Cap insignia is a five-point star: scout",
+      "passed": true
+    },
+    {
+      "description": "Cap star has correct faction visibility: lu",
+      "passed": true
+    },
+    {
+      "description": "Cap insignia is a five-point star: lu",
+      "passed": true
+    },
+    {
+      "description": "Cap star has correct faction visibility: logger",
+      "passed": true
+    },
+    {
+      "description": "Cap insignia is a five-point star: logger",
+      "passed": true
+    },
+    {
+      "description": "Enemy headgear never displays the friendly star",
+      "passed": true
+    },
+    {
+      "description": "Opening friendly wears the red star: ally1",
+      "passed": true
+    },
+    {
+      "description": "Opening friendly uses the supplied friendly model: ally1",
+      "passed": true
+    },
+    {
+      "description": "Opening friendly wears the red star: ally2",
+      "passed": true
+    },
+    {
+      "description": "Opening friendly uses the supplied friendly model: ally2",
+      "passed": true
+    },
+    {
+      "description": "Opening friendly wears the red star: scout",
+      "passed": true
+    },
+    {
+      "description": "Opening friendly uses the supplied friendly model: scout",
+      "passed": true
+    },
+    {
+      "description": "Conversation muzzle points down at 3.1 seconds",
+      "passed": true
+    },
+    {
+      "description": "Conversation muzzle points down at 11.0 seconds",
+      "passed": true
+    },
+    {
+      "description": "Conversation muzzle points down at 18.5 seconds",
+      "passed": true
+    },
+    {
+      "description": "Conversation muzzle points down at 48.8 seconds",
+      "passed": true
+    },
+    {
+      "description": "Conversation muzzle points down at 76.0 seconds",
+      "passed": true
+    },
+    {
+      "description": "conversation-low-ready renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "friendly-cap-star renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "office-walk-00 renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "office-walk-25 renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "office-walk-50 renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "Office replaces paired rescue with walking actors and a continuous camera move",
+      "passed": true
+    },
+    {
+      "description": "Office walk clears furniture: ally1",
+      "passed": true
+    },
+    {
+      "description": "Office walk clears furniture: ally2",
+      "passed": true
+    },
+    {
+      "description": "Office showcase leaves mission state and player resources unchanged",
+      "passed": true
+    },
+    {
+      "description": "Interior showcase lights deactivate after the shot",
+      "passed": true
+    },
+    {
+      "description": "Gameplay conversations display the same safe weapon posture",
+      "passed": true
+    },
+    {
+      "description": "Combat hold restores smoothly after a conversation",
+      "passed": true
+    },
+    {
+      "description": "Both hands reach the final grapple after 3m charge",
+      "passed": true
+    },
+    {
+      "description": "Both hands reach the final grapple after 7m charge",
+      "passed": true
+    },
+    {
+      "description": "Both hands reach the final grapple after 12m charge",
+      "passed": true
+    },
+    {
+      "description": "bayonet-grapple renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "bayonet-counter renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "Long and short charges never stretch visible sleeves beyond the arm budget",
+      "passed": true
+    },
+    {
+      "description": "Both hands meet the rifle within ten centimetres in the grapple",
+      "passed": true
+    },
+    {
+      "description": "Actual slider drag changes volume and preserves fullscreen: MasterVolume",
+      "passed": true
+    },
+    {
+      "description": "Actual slider drag changes volume and preserves fullscreen: MusicVolume",
+      "passed": true
+    },
+    {
+      "description": "Actual slider drag changes volume and preserves fullscreen: SfxVolume",
+      "passed": true
+    },
+    {
+      "description": "Actual slider drag changes volume and preserves fullscreen: DialogueVolume",
+      "passed": true
+    },
+    {
+      "description": "Actual slider drag changes volume and preserves fullscreen: CinematicVolume",
+      "passed": true
+    },
+    {
+      "description": "fullscreen-volume-drag renders a nonblank frame",
+      "passed": true
+    },
+    {
+      "description": "Other settings retain native fullscreen and synchronize the saved preference",
+      "passed": true
+    },
+    {
+      "description": "Explicitly leaving fullscreen restores the original window geometry",
+      "passed": true
+    },
+    {
+      "description": "Window mode and dragged volumes reload correctly",
+      "passed": true
+    }
+  ],
+  "count": 46,
+  "metrics": {
+    "grapple_grip_gap_m": 0.00894198380410671,
+    "max_visible_arm_m": 0.755000054836273,
+    "visible_arm_samples": 50
+  },
+  "passed": true,
+  "rendered": true,
+  "resolution": "(1280, 720)"
+}

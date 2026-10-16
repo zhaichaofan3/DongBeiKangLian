@@ -1,0 +1,64 @@
+{
+  "step": "S31",
+  "status": "done_with_temporary_synthetic_voice",
+  "voice_mode": "explicitly_authorized_temporary_synthesis_then_replaceable",
+  "cues": 29,
+  "narration_cues": 15,
+  "dialogue_cues": 14,
+  "voice_files_in_project": 29,
+  "voice_integration_checks": [
+    {
+      "description": "All 15 narration and 14 dialogue WAVs load by cue ID",
+      "passed": true
+    },
+    {
+      "description": "Opening voice uses the dedicated Voice bus",
+      "passed": true
+    },
+    {
+      "description": "N01 starts its temporary narration take at the subtitle cue",
+      "passed": true
+    },
+    {
+      "description": "Seeking within one cue does not restart the same voice take",
+      "passed": true
+    },
+    {
+      "description": "Cinematic pause freezes the current voice take",
+      "passed": true
+    },
+    {
+      "description": "B1 dialogue replaces the narration take",
+      "passed": true
+    },
+    {
+      "description": "Leaving the opening stops the last voice take",
+      "passed": true
+    },
+    {
+      "description": "Skipping a part clears voice before the next part begins",
+      "passed": true
+    }
+  ],
+  "opening_regression": "41/41 passed",
+  "conversation_regression": "11/11 passed",
+  "project_regression": [
+    "SMOKE RESULT: 107/107 passed",
+    "LINEAR ROUTE RESULT: 37/37 passed",
+    "ACTIVE COMBAT ROUTE: PASS",
+    "VISUAL MOTION RESULT: 50/50 passed",
+    "STORY MOMENTS RESULT: 11/11 passed",
+    "CHARACTER MODEL RESULT: 37/37 passed",
+    "All game checks passed."
+  ],
+  "narration_verbatim_sha256": "12e5a5c3f06360afb55185f8253e59a4230a409f8174782292449e7f5b477320",
+  "part_durations_ms": {
+    "A": 80000,
+    "B": 80100
+  },
+  "runtime_integrated": true,
+  "actor_recording": false,
+  "subjective_pronunciation_review": "pending",
+  "music_and_sfx_listening": "pending",
+  "release_updated": false
+}

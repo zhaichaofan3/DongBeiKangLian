@@ -1,0 +1,30 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Straight charge starts for office_guard
+PASS: Pre-charge checkpoint remains readable for office_guard
+PASS: Entire charge corridor is clear for office_guard
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard
+PASS: Straight charge reaches the existing grapple: office_guard
+PASS: Straight charge starts for office_guard_2
+PASS: Pre-charge checkpoint remains readable for office_guard_2
+PASS: Entire charge corridor is clear for office_guard_2
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_2
+PASS: Straight charge reaches the existing grapple: office_guard_2
+PASS: Straight charge starts for office_guard_3
+PASS: Pre-charge checkpoint remains readable for office_guard_3
+PASS: Entire charge corridor is clear for office_guard_3
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_3
+PASS: Straight charge reaches the existing grapple: office_guard_3
+PASS: Straight charge starts for office_guard_4
+PASS: Pre-charge checkpoint remains readable for office_guard_4
+PASS: Entire charge corridor is clear for office_guard_4
+PASS: 25 charge samples stay collinear, forward and fixed-facing: office_guard_4
+PASS: Straight charge reaches the existing grapple: office_guard_4
+PASS: Desk blocks the charge even when the player is visible above it
+PASS: Blocked corridor never starts a winding charge or clips through the desk
+PASS: Final survivor approaches around furniture before committing to a clear straight charge
+PASS: Clear approach starts the same two-point charge
+PASS: Office wall also blocks a direct charge
+PASS: A visible final defender outside charge range keeps approaching
+PASS: Approach closes the distance instead of stopping in the normal firing stance
+STRAIGHT CHARGE: PASS | checks=27

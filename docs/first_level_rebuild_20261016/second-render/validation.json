@@ -1,0 +1,18 @@
+{
+	"captures": [
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\second-render/arrival.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\second-render/checkpoint.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\second-render/transport-turn.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\second-render/timber-yard.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\second-render/office-reveal.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\second-render/ferry.png",
+		"C:\\GameMake\\docs\\first_level_rebuild_20261016\\second-render/overview.png"
+	],
+	"checks": 85,
+	"critical_path_metres": 497.763873651624,
+	"failures": [
+		"Main path segment 15 is navigable",
+		"Main path segment 16 is navigable"
+	],
+	"passed": false
+}

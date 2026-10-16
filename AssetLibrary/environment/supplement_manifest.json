@@ -1,0 +1,638 @@
+{
+  "category": "environment",
+  "assets": [
+    {
+      "id": "oga_dims-arboretum",
+      "title": "Dim's Arboretum",
+      "author": "Dim",
+      "license": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source_url": "https://opengameart.org/content/dims-arboretum",
+      "license_evidence": "evidence/oga_dims-arboretum.html",
+      "type": "3d_model_pack",
+      "files": [
+        {
+          "path": "supplement/dims-arboretum/dims_arboretum.zip",
+          "download_url": "https://opengameart.org/sites/default/files/dims_arboretum.zip",
+          "bytes": 25745536,
+          "sha256": "729a57df43980a5cd6e25b10af5897f35e3acfe3db6a7707417b73e69ab13ec9"
+        }
+      ],
+      "status": "downloaded_verified",
+      "notes": [
+        "Textured mature conifer/tree, vegetation, logs and props. Blender source pack from 2010; inspect packed texture links and convert to glTF. Attribute Dim, source and CC-BY-3.0; identify modifications.",
+        "ZIP CRC verified and safely extracted; content is data only and has not been executed.",
+        "Read-only Blender DNA inspection: 65 meshes, including Fir (201 vertices / 96 faces), FirSmall (87 / 41), Beech (151 / 101), woodpile and vegetation. These are low-detail branch-card assets suited to mid/far forest; conversion and texture adaptation remain."
+      ],
+      "archive_contents": [
+        {
+          "path": "readme.txt",
+          "bytes": 281
+        },
+        {
+          "path": "dim_arboretum.blend",
+          "bytes": 34506724
+        }
+      ],
+      "retrieved_date": "2026-10-12",
+      "verification_report": "supplement_verification.json"
+    },
+    {
+      "id": "oga_jkms-tree-set",
+      "title": "JKM's tree set",
+      "author": "Julius Krischan Makowka (JKM / Julius)",
+      "license": "CC-BY-SA-3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://opengameart.org/content/jkms-tree-set",
+      "license_evidence": "evidence/oga_jkms-tree-set.html",
+      "type": "3d_model_pack",
+      "files": [
+        {
+          "path": "supplement/jkms-tree-set/jkm_trees.zip",
+          "download_url": "https://opengameart.org/sites/default/files/jkm_trees.zip",
+          "bytes": 2489736,
+          "sha256": "f800bb933b5b67a50e2e07d69519336ef0b27f10905598eaa77acef6ffca3e34"
+        }
+      ],
+      "status": "downloaded_verified",
+      "notes": [
+        "Game-oriented mature pine and deciduous trees with alternate skins, originally made for Quake 3. Selected CC-BY-SA-3.0 from offered license choices. Preserve attribution and share-alike for asset derivatives; check transparency, texture resolution and materials. Useful candidate for mid/far forest, not claimed modern AAA quality.",
+        "ZIP CRC verified and safely extracted; content is data only and has not been executed.",
+        "OBJ inspection: full-size pine 171 vertices / 113 triangles; five OBJ variants total. Source OBJ files reference missing MTL files. All leaf TGA and bark JPG textures are present; material bindings must be repaired before textured import. Appropriate mainly for distant trees/LOD."
+      ],
+      "archive_contents": [
+        {
+          "path": "gpl.txt",
+          "bytes": 18011
+        },
+        {
+          "path": "jkm_trees.pk3",
+          "bytes": 1219944
+        },
+        {
+          "path": "jkm_trees.txt",
+          "bytes": 2852
+        },
+        {
+          "path": "models/kerzeblau.tga",
+          "bytes": 29513
+        },
+        {
+          "path": "models/kerzerot.tga",
+          "bytes": 27729
+        },
+        {
+          "path": "models/nadel.tga",
+          "bytes": 233128
+        },
+        {
+          "path": "models/nadelsnow.tga",
+          "bytes": 231553
+        },
+        {
+          "path": "models/nadelsnowb.tga",
+          "bytes": 230758
+        },
+        {
+          "path": "models/nadelsnowg.tga",
+          "bytes": 231794
+        },
+        {
+          "path": "models/nadelsnowr.tga",
+          "bytes": 229996
+        },
+        {
+          "path": "models/pinetree.obj",
+          "bytes": 17897
+        },
+        {
+          "path": "models/pinetree_small.obj",
+          "bytes": 17688
+        },
+        {
+          "path": "models/stamm.jpg",
+          "bytes": 2103
+        },
+        {
+          "path": "models/tree.obj",
+          "bytes": 14770
+        },
+        {
+          "path": "models/tree.tga",
+          "bytes": 119385
+        },
+        {
+          "path": "models/tree2.tga",
+          "bytes": 135207
+        },
+        {
+          "path": "models/tree3.tga",
+          "bytes": 114254
+        },
+        {
+          "path": "models/tree4.tga",
+          "bytes": 134682
+        },
+        {
+          "path": "models/tree5.tga",
+          "bytes": 128382
+        },
+        {
+          "path": "models/tree6.tga",
+          "bytes": 128101
+        },
+        {
+          "path": "models/tree_small.obj",
+          "bytes": 12766
+        },
+        {
+          "path": "models/xmas_tree.obj",
+          "bytes": 24065
+        },
+        {
+          "path": "preview.png",
+          "bytes": 110405
+        }
+      ],
+      "retrieved_date": "2026-10-12",
+      "verification_report": "supplement_verification.json"
+    },
+    {
+      "id": "oga_birch-tree",
+      "title": "Birch Tree",
+      "author": "AnyRPG; derivative of geekygnome Low Poly Tree",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://opengameart.org/content/birch-tree",
+      "license_evidence": "evidence/oga_birch-tree.html",
+      "type": "3d_model",
+      "files": [
+        {
+          "path": "supplement/birch-tree/treebirch.blend",
+          "download_url": "https://opengameart.org/sites/default/files/treebirch.blend",
+          "bytes": 562724,
+          "sha256": "52e6ee12f2cf8977ae18b0e445ebee61d97790bcc5f74b2219b37d382e1a81d6"
+        }
+      ],
+      "status": "downloaded_verified",
+      "notes": [
+        "Source page states 1294 vertices / 1776 triangles. Blender source with birch bark; inspect leaf alpha and convert to glTF. Semi-realistic stylized foliage, not a scanned tree.",
+        "Read-only Blender DNA inspection confirms 3 meshes: a ground plane and two 647-vertex, 462-polygon tree meshes. Page aggregate: 1294 vertices / 1776 triangles. Blender 2.81 source; convert and verify leaf transparency."
+      ],
+      "archive_contents": [],
+      "retrieved_date": "2026-10-12",
+      "verification_report": "supplement_verification.json"
+    },
+    {
+      "id": "oga_medieval-waterpowered-sawmill",
+      "title": "Medieval Waterpowered Sawmill",
+      "author": "Daniel Andersson; submitted by hreikin",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://opengameart.org/content/medieval-waterpowered-sawmill",
+      "license_evidence": "evidence/oga_medieval-waterpowered-sawmill.html",
+      "type": "3d_model_pack",
+      "files": [
+        {
+          "path": "supplement/medieval-waterpowered-sawmill/75340_WaterPoweredSawmillUpload_blend.zip",
+          "download_url": "https://opengameart.org/sites/default/files/75340_WaterPoweredSawmillUpload_blend.zip",
+          "bytes": 1728770,
+          "sha256": "401b24a4b240eba41c299072000dd3420262e0a6fa8d86206e0a92e002b02637"
+        }
+      ],
+      "status": "downloaded_verified",
+      "notes": [
+        "Timber sawmill shed and waterwheel, useful lumberyard source. Blender format; community comment reports animation but animation existence/usefulness must be inspected before promising it. Rework medieval foundation/style for Northeast China setting.",
+        "ZIP CRC verified and safely extracted; content is data only and has not been executed.",
+        "Read-only Blender DNA inspection confirms 18 meshes and a bAction named Sawing. No animation playback or Blender export has been performed. Source data is Blender 2.71."
+      ],
+      "archive_contents": [
+        {
+          "path": "WaterPoweredSawmillUpload.blend",
+          "bytes": 2846960
+        },
+        {
+          "path": "75340 - Medieval waterpowered sawmill - License.html",
+          "bytes": 5728
+        },
+        {
+          "path": "preview_75340.jpg",
+          "bytes": 3229
+        }
+      ],
+      "retrieved_date": "2026-10-12",
+      "verification_report": "supplement_verification.json"
+    },
+    {
+      "id": "oga_retro-log-cabin",
+      "title": "Retro Log Cabin",
+      "author": "Elegant Crow",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://opengameart.org/content/retro-log-cabin",
+      "license_evidence": "evidence/oga_retro-log-cabin.html",
+      "type": "3d_model_pack",
+      "files": [
+        {
+          "path": "supplement/retro-log-cabin/log_cabin.zip",
+          "download_url": "https://opengameart.org/sites/default/files/log_cabin.zip",
+          "bytes": 23481554,
+          "sha256": "db54a35e8d64c8ca07d679bc941691163355720e53fe9d06e779d9c8a51d0b5f"
+        }
+      ],
+      "status": "downloaded_verified",
+      "notes": [
+        "Cabin with interior and independent doors/windows, 1K/4K textures per source. Selected standard page license conservatively despite relaxed attribution note. Preserve attribution and share-alike for asset derivatives. Re-material/repaint to match historical setting.",
+        "ZIP CRC verified and safely extracted; content is data only and has not been executed."
+      ],
+      "archive_contents": [
+        {
+          "path": "log_cabin/log_cabin.fbx",
+          "bytes": 79980
+        },
+        {
+          "path": "log_cabin/log_cabin_1024px.png",
+          "bytes": 1294753
+        },
+        {
+          "path": "log_cabin/log_cabin_4096px.png",
+          "bytes": 22166108
+        }
+      ],
+      "retrieved_date": "2026-10-12",
+      "verification_report": "supplement_verification.json"
+    },
+    {
+      "id": "oga_log-cabin-dae",
+      "title": "Log Cabin (DAE)",
+      "author": "mixxit",
+      "license": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source_url": "https://opengameart.org/content/log-cabin-dae",
+      "license_evidence": "evidence/oga_log-cabin-dae.html",
+      "type": "3d_model_pack",
+      "files": [
+        {
+          "path": "supplement/log-cabin-dae/logcabin.zip",
+          "download_url": "https://opengameart.org/sites/default/files/logcabin.zip",
+          "bytes": 10128731,
+          "sha256": "d34b6b833cff101d934a360e00fd9504d904f38d7bb1a6a883e44fb55f35b094"
+        }
+      ],
+      "status": "downloaded_verified",
+      "notes": [
+        "Log cabin with internal space in Collada DAE. Convert to glTF; check scale, collision, doors, texture paths. Attribute mixxit, source/license and modifications.",
+        "ZIP CRC verified and safely extracted; content is data only and has not been executed.",
+        "Collada XML parses correctly. Five referenced image files are present at the declared relative paths."
+      ],
+      "archive_contents": [
+        {
+          "path": "logcabin/logcabin/material_5.jpg",
+          "bytes": 2878246
+        },
+        {
+          "path": "logcabin/logcabin/material_6.jpg",
+          "bytes": 4073852
+        },
+        {
+          "path": "logcabin/logcabin/material_8.jpg",
+          "bytes": 3155760
+        },
+        {
+          "path": "logcabin/logcabin/Roofing_Shingles_Asphalt_.jpg",
+          "bytes": 2056
+        },
+        {
+          "path": "logcabin/logcabin/Wood__Floor_.jpg",
+          "bytes": 13026
+        },
+        {
+          "path": "logcabin/logcabin.dae",
+          "bytes": 497874
+        }
+      ],
+      "retrieved_date": "2026-10-12",
+      "verification_report": "supplement_verification.json"
+    },
+    {
+      "id": "oga_modular-building-asset-0",
+      "title": "Nobiax Modular Building Asset",
+      "author": "Yughues (Nobiax)",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://opengameart.org/content/modular-building-asset-0",
+      "license_evidence": "evidence/oga_modular-building-asset-0.html",
+      "type": "3d_model_pack",
+      "files": [
+        {
+          "path": "supplement/modular-building-asset-0/Free Nobiax modular building asset.7z",
+          "download_url": "https://opengameart.org/sites/default/files/Free%20Nobiax%20modular%20building%20asset.7z",
+          "bytes": 70488351,
+          "sha256": "da60ff6efc04594d5b86922618d3b65ba8dd29fbc6a1a8b2f1bae5736e0ecf4e"
+        }
+      ],
+      "status": "downloaded_verified",
+      "notes": [
+        "Industrial walls, roof, door/window/pillar modules. Use structural pieces suitable to the period; exclude modern air-conditioning equipment. Check UVs and apply collected PBR materials where needed.",
+        "7z structure checked and safely extracted; downloaded content has not been executed.",
+        "Archive contains 34 OBJ modules plus matching 34 FBX versions; OBJ estimated triangles range 12–154 per module. OBJ has no MTL binding; source TGA maps are present and decode correctly. Material assignment remains."
+      ],
+      "archive_contents": [
+        {
+          "path": "diffuse.tga",
+          "bytes": 50331692
+        },
+        {
+          "path": "normal.tga",
+          "bytes": 50331692
+        },
+        {
+          "path": "specular.tga",
+          "bytes": 50331692
+        },
+        {
+          "path": "readme.txt",
+          "bytes": 885
+        },
+        {
+          "path": "block.FBX",
+          "bytes": 20800
+        },
+        {
+          "path": "brick_door.FBX",
+          "bytes": 27696
+        },
+        {
+          "path": "brick_double_window.FBX",
+          "bytes": 20528
+        },
+        {
+          "path": "brick_small_double_window.FBX",
+          "bytes": 21184
+        },
+        {
+          "path": "brick_small_window_1.FBX",
+          "bytes": 20736
+        },
+        {
+          "path": "brick_small_window_2.FBX",
+          "bytes": 20480
+        },
+        {
+          "path": "brick_window_1.FBX",
+          "bytes": 20512
+        },
+        {
+          "path": "brick_window_2.FBX",
+          "bytes": 20736
+        },
+        {
+          "path": "concrete_door.FBX",
+          "bytes": 27392
+        },
+        {
+          "path": "concrete_double_window.FBX",
+          "bytes": 20576
+        },
+        {
+          "path": "concrete_small_double_window.FBX",
+          "bytes": 21200
+        },
+        {
+          "path": "concrete_small_window_1.FBX",
+          "bytes": 20672
+        },
+        {
+          "path": "concrete_small_window_2.FBX",
+          "bytes": 20608
+        },
+        {
+          "path": "concrete_window_1.FBX",
+          "bytes": 20352
+        },
+        {
+          "path": "concrete_window_2.FBX",
+          "bytes": 20528
+        },
+        {
+          "path": "cooling.FBX",
+          "bytes": 20912
+        },
+        {
+          "path": "hangar_door.FBX",
+          "bytes": 23072
+        },
+        {
+          "path": "pillar_brick_1.FBX",
+          "bytes": 20960
+        },
+        {
+          "path": "pillar_brick_2.FBX",
+          "bytes": 20992
+        },
+        {
+          "path": "pillar_brick_3.FBX",
+          "bytes": 20896
+        },
+        {
+          "path": "pillar_concrete_1.FBX",
+          "bytes": 20976
+        },
+        {
+          "path": "pillar_concrete_2.FBX",
+          "bytes": 21040
+        },
+        {
+          "path": "pillar_concrete_3.FBX",
+          "bytes": 20992
+        },
+        {
+          "path": "roof.FBX",
+          "bytes": 20928
+        },
+        {
+          "path": "wall_brick_1.FBX",
+          "bytes": 20960
+        },
+        {
+          "path": "wall_brick_2.FBX",
+          "bytes": 20960
+        },
+        {
+          "path": "wall_brick_3.FBX",
+          "bytes": 20960
+        },
+        {
+          "path": "wall_brick_4.FBX",
+          "bytes": 20960
+        },
+        {
+          "path": "wall_brick_5.FBX",
+          "bytes": 20992
+        },
+        {
+          "path": "wall_concrete_1.FBX",
+          "bytes": 20976
+        },
+        {
+          "path": "wall_concrete_2.FBX",
+          "bytes": 20976
+        },
+        {
+          "path": "wall_concrete_3.FBX",
+          "bytes": 20976
+        },
+        {
+          "path": "wall_concrete_4.FBX",
+          "bytes": 21040
+        },
+        {
+          "path": "wall_concrete_5.FBX",
+          "bytes": 21008
+        },
+        {
+          "path": "block.obj",
+          "bytes": 903
+        },
+        {
+          "path": "brick_door.obj",
+          "bytes": 9115
+        },
+        {
+          "path": "brick_double_window.obj",
+          "bytes": 3140
+        },
+        {
+          "path": "brick_small_double_window.obj",
+          "bytes": 3046
+        },
+        {
+          "path": "brick_small_window_1.obj",
+          "bytes": 2876
+        },
+        {
+          "path": "brick_small_window_2.obj",
+          "bytes": 2706
+        },
+        {
+          "path": "brick_window_1.obj",
+          "bytes": 2856
+        },
+        {
+          "path": "brick_window_2.obj",
+          "bytes": 2765
+        },
+        {
+          "path": "concrete_door.obj",
+          "bytes": 8944
+        },
+        {
+          "path": "concrete_double_window.obj",
+          "bytes": 3116
+        },
+        {
+          "path": "concrete_small_double_window.obj",
+          "bytes": 3022
+        },
+        {
+          "path": "concrete_small_window_1.obj",
+          "bytes": 2740
+        },
+        {
+          "path": "concrete_small_window_2.obj",
+          "bytes": 2712
+        },
+        {
+          "path": "concrete_window_1.obj",
+          "bytes": 2720
+        },
+        {
+          "path": "concrete_window_2.obj",
+          "bytes": 2692
+        },
+        {
+          "path": "cooling.obj",
+          "bytes": 1027
+        },
+        {
+          "path": "hangar_door.obj",
+          "bytes": 4809
+        },
+        {
+          "path": "pillar_brick_1.obj",
+          "bytes": 1110
+        },
+        {
+          "path": "pillar_brick_2.obj",
+          "bytes": 1296
+        },
+        {
+          "path": "pillar_brick_3.obj",
+          "bytes": 1215
+        },
+        {
+          "path": "pillar_concrete_1.obj",
+          "bytes": 1116
+        },
+        {
+          "path": "pillar_concrete_2.obj",
+          "bytes": 1220
+        },
+        {
+          "path": "pillar_concrete_3.obj",
+          "bytes": 1142
+        },
+        {
+          "path": "roof.obj",
+          "bytes": 1097
+        },
+        {
+          "path": "wall_brick_1.obj",
+          "bytes": 1110
+        },
+        {
+          "path": "wall_brick_2.obj",
+          "bytes": 1110
+        },
+        {
+          "path": "wall_brick_3.obj",
+          "bytes": 1110
+        },
+        {
+          "path": "wall_brick_4.obj",
+          "bytes": 1106
+        },
+        {
+          "path": "wall_brick_5.obj",
+          "bytes": 1158
+        },
+        {
+          "path": "wall_concrete_1.obj",
+          "bytes": 1116
+        },
+        {
+          "path": "wall_concrete_2.obj",
+          "bytes": 1116
+        },
+        {
+          "path": "wall_concrete_3.obj",
+          "bytes": 1118
+        },
+        {
+          "path": "wall_concrete_4.obj",
+          "bytes": 1216
+        },
+        {
+          "path": "wall_concrete_5.obj",
+          "bytes": 1164
+        },
+        {
+          "path": "preview.jpg",
+          "bytes": 720309
+        }
+      ],
+      "retrieved_date": "2026-10-12",
+      "verification_report": "supplement_verification.json"
+    }
+  ]
+}

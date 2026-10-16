@@ -1,0 +1,1701 @@
+{
+  "asset_count": 45,
+  "file_count": 202,
+  "bytes": 545587341,
+  "errors": 0,
+  "assets": [
+    {
+      "id": "polyhaven_dead_tree_trunk",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/dead_tree_trunk/dead_tree_trunk_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "dead_tree_trunk.bin",
+            "textures/dead_tree_trunk_nor_gl_2k.jpg",
+            "textures/dead_tree_trunk_diff_2k.jpg",
+            "textures/dead_tree_trunk_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_tree_stump_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/tree_stump_01/tree_stump_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "tree_stump_01.bin",
+            "textures/tree_stump_01_nor_gl_2k.jpg",
+            "textures/tree_stump_01_diff_2k.jpg",
+            "textures/tree_stump_01_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_pine_roots",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/pine_roots/textures/pine_roots_b_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_b_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_a_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_a_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_a_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_roots/textures/pine_roots_b_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/pine_roots/pine_roots_2k.gltf",
+          "version": "2.0",
+          "meshes": 2,
+          "materials": 2,
+          "external_dependencies": [
+            "pine_roots.bin",
+            "textures/pine_roots_a_nor_gl_2k.jpg",
+            "textures/pine_roots_a_diff_2k.jpg",
+            "textures/pine_roots_a_arm_2k.jpg",
+            "textures/pine_roots_b_nor_gl_2k.jpg",
+            "textures/pine_roots_b_diff_2k.jpg",
+            "textures/pine_roots_b_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_fern_02",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/fern_02/textures/fern_02_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/fern_02/textures/fern_02_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/fern_02/textures/fern_02_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/fern_02/fern_02_2k.gltf",
+          "version": "2.0",
+          "meshes": 4,
+          "materials": 1,
+          "external_dependencies": [
+            "fern_02.bin",
+            "textures/fern_02_nor_gl_2k.jpg",
+            "textures/fern_02_diff_2k.jpg",
+            "textures/fern_02_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_rock_moss_set_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/rock_moss_set_01/rock_moss_set_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 6,
+          "materials": 1,
+          "external_dependencies": [
+            "rock_moss_set_01.bin",
+            "textures/rock_moss_set_01_nor_gl_2k.jpg",
+            "textures/rock_moss_set_01_diff_2k.jpg",
+            "textures/rock_moss_set_01_rough_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_rock_07",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/rock_07/textures/rock_07_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/rock_07/textures/rock_07_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/rock_07/textures/rock_07_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/rock_07/rock_07_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "rock_07.bin",
+            "textures/rock_07_nor_gl_2k.jpg",
+            "textures/rock_07_diff_2k.jpg",
+            "textures/rock_07_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_crate_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wooden_crate_01/wooden_crate_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 3,
+          "materials": 1,
+          "external_dependencies": [
+            "wooden_crate_01.bin",
+            "textures/wooden_crate_01_nor_gl_2k.jpg",
+            "textures/wooden_crate_01_diff_2k.jpg",
+            "textures/wooden_crate_01_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_old_military_crate",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/old_military_crate/textures/old_military_crate_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/old_military_crate/textures/old_military_crate_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/old_military_crate/textures/old_military_crate_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/old_military_crate/old_military_crate_2k.gltf",
+          "version": "2.0",
+          "meshes": 5,
+          "materials": 1,
+          "external_dependencies": [
+            "old_military_crate.bin",
+            "textures/old_military_crate_nor_gl_2k.jpg",
+            "textures/old_military_crate_diff_2k.jpg",
+            "textures/old_military_crate_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_military_crate",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wooden_military_crate/textures/wooden_military_crate_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_military_crate/textures/wooden_military_crate_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_military_crate/textures/wooden_military_crate_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wooden_military_crate/wooden_military_crate_2k.gltf",
+          "version": "2.0",
+          "meshes": 3,
+          "materials": 1,
+          "external_dependencies": [
+            "wooden_military_crate.bin",
+            "textures/wooden_military_crate_nor_gl_2k.jpg",
+            "textures/wooden_military_crate_diff_2k.jpg",
+            "textures/wooden_military_crate_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wine_barrel_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wine_barrel_01/wine_barrel_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 4,
+          "materials": 1,
+          "external_dependencies": [
+            "wine_barrel_01.bin",
+            "textures/wine_barrel_01_nor_gl_2k.jpg",
+            "textures/wine_barrel_01_diff_2k.jpg",
+            "textures/wine_barrel_01_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_bucket_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wooden_bucket_01/wooden_bucket_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 2,
+          "materials": 1,
+          "external_dependencies": [
+            "wooden_bucket_01.bin",
+            "textures/wooden_bucket_01_nor_gl_2k.jpg",
+            "textures/wooden_bucket_01_diff_2k.jpg",
+            "textures/wooden_bucket_01_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_ladder",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wooden_ladder/textures/wooden_ladder_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_ladder/textures/wooden_ladder_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_ladder/textures/wooden_ladder_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wooden_ladder/wooden_ladder_2k.gltf",
+          "version": "2.0",
+          "meshes": 2,
+          "materials": 1,
+          "external_dependencies": [
+            "wooden_ladder.bin",
+            "textures/wooden_ladder_nor_gl_2k.jpg",
+            "textures/wooden_ladder_diff_2k.jpg",
+            "textures/wooden_ladder_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_axe_02",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wooden_axe_02/wooden_axe_02_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "wooden_axe_02.bin",
+            "textures/wooden_axe_02_nor_gl_2k.jpg",
+            "textures/wooden_axe_02_diff_2k.jpg",
+            "textures/wooden_axe_02_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_handsaw_wood",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/handsaw_wood/textures/handsaw_wood_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/handsaw_wood/textures/handsaw_wood_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/handsaw_wood/textures/handsaw_wood_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/handsaw_wood/handsaw_wood_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "handsaw_wood.bin",
+            "textures/handsaw_wood_nor_gl_2k.jpg",
+            "textures/handsaw_wood_diff_2k.jpg",
+            "textures/handsaw_wood_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_Lantern_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/Lantern_01/Lantern_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 2,
+          "materials": 2,
+          "external_dependencies": [
+            "Lantern_01.bin",
+            "textures/Lantern_01_brass_nor_gl_2k.jpg",
+            "textures/Lantern_01_brass_diff_2k.jpg",
+            "textures/Lantern_01_brass_arm_2k.jpg",
+            "textures/Lantern_01_brass_diff_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_WoodenTable_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/WoodenTable_01/WoodenTable_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "WoodenTable_01.bin",
+            "textures/WoodenTable_01_nor_gl_2k.jpg",
+            "textures/WoodenTable_01_diff_2k.jpg",
+            "textures/WoodenTable_01_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_stool_01",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wooden_stool_01/textures/wooden_stool_01_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_stool_01/textures/wooden_stool_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_stool_01/textures/wooden_stool_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wooden_stool_01/wooden_stool_01_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "wooden_stool_01.bin",
+            "textures/wooden_stool_01_nor_gl_2k.jpg",
+            "textures/wooden_stool_01_diff_2k.jpg",
+            "textures/wooden_stool_01_rough_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_wooden_bookshelf_worn",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/wooden_bookshelf_worn/textures/wooden_bookshelf_worn_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/wooden_bookshelf_worn/wooden_bookshelf_worn_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "wooden_bookshelf_worn.bin",
+            "textures/wooden_bookshelf_worn_nor_gl_2k.jpg",
+            "textures/wooden_bookshelf_worn_diff_2k.jpg",
+            "textures/wooden_bookshelf_worn_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_barrel_stove",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/barrel_stove/textures/barrel_stove_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/barrel_stove/textures/barrel_stove_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/barrel_stove/textures/barrel_stove_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/barrel_stove/barrel_stove_2k.gltf",
+          "version": "2.0",
+          "meshes": 1,
+          "materials": 1,
+          "external_dependencies": [
+            "barrel_stove.bin",
+            "textures/barrel_stove_nor_gl_2k.jpg",
+            "textures/barrel_stove_diff_2k.jpg",
+            "textures/barrel_stove_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_modular_wooden_pier",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_planks_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_planks_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_planks_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_poles_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_poles_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/modular_wooden_pier/textures/modular_wooden_pier_poles_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/modular_wooden_pier/modular_wooden_pier_2k.gltf",
+          "version": "2.0",
+          "meshes": 7,
+          "materials": 2,
+          "external_dependencies": [
+            "modular_wooden_pier.bin",
+            "textures/modular_wooden_pier_poles_nor_gl_2k.jpg",
+            "textures/modular_wooden_pier_poles_diff_2k.jpg",
+            "textures/modular_wooden_pier_poles_arm_2k.jpg",
+            "textures/modular_wooden_pier_planks_nor_gl_2k.jpg",
+            "textures/modular_wooden_pier_planks_diff_2k.jpg",
+            "textures/modular_wooden_pier_planks_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_pine_sapling_small",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/pine_sapling_small/pine_sapling_small_2k.gltf",
+          "version": "2.0",
+          "meshes": 3,
+          "materials": 2,
+          "external_dependencies": [
+            "pine_sapling_small.bin",
+            "textures/pine_sapling_small_bark_nor_gl_2k.jpg",
+            "textures/pine_sapling_small_bark_diff_2k.jpg",
+            "textures/pine_sapling_small_bark_arm_2k.jpg",
+            "textures/pine_sapling_small_twig_nor_gl_2k.jpg",
+            "textures/pine_sapling_small_twig_diff_2k.jpg",
+            "textures/pine_sapling_small_twig_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_vintage_radio_transceiver",
+      "type": "3d_model",
+      "errors": [],
+      "images": [
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": [
+        {
+          "path": "models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf",
+          "version": "2.0",
+          "meshes": 14,
+          "materials": 2,
+          "external_dependencies": [
+            "vintage_radio_transceiver.bin",
+            "textures/vintage_radio_transceiver_nor_gl_2k.jpg",
+            "textures/vintage_radio_transceiver_diff_2k.jpg",
+            "textures/vintage_radio_transceiver_arm_2k.jpg",
+            "textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg",
+            "textures/vintage_radio_transceiver_accessories_diff_2k.jpg",
+            "textures/vintage_radio_transceiver_accessories_arm_2k.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyhaven_brown_mud_leaves_01",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brown_mud_leaves_01/brown_mud_leaves_01_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_forest_ground_04",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/forest_ground_04/forest_ground_04_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_muddy_tracks",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/muddy_tracks/muddy_tracks_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_pine_bark",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/pine_bark/pine_bark_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/pine_bark/pine_bark_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_japanese_cedar_bark",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_diff_2k.jpg",
+          "resolution": [
+            2048,
+            4096
+          ]
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            4096
+          ]
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_rough_2k.jpg",
+          "resolution": [
+            2048,
+            4096
+          ]
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_ao_2k.jpg",
+          "resolution": [
+            2048,
+            4096
+          ]
+        },
+        {
+          "path": "textures/japanese_cedar_bark/japanese_cedar_bark_disp_2k.jpg",
+          "resolution": [
+            2048,
+            4096
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_wood_trunk_wall",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_trunk_wall/wood_trunk_wall_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_weathered_brown_planks",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/weathered_brown_planks/weathered_brown_planks_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_raw_plank_wall",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/raw_plank_wall/raw_plank_wall_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_wood_chips",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/wood_chips/wood_chips_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/wood_chips/wood_chips_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_grey_roof_tiles",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/grey_roof_tiles/grey_roof_tiles_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_brick_wall_001",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/brick_wall_001/brick_wall_001_displacement_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_rusty_metal_04",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_metal_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/rusty_metal_04/rusty_metal_04_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_gravel_road",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/gravel_road/gravel_road_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/gravel_road/gravel_road_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_snow_02",
+      "type": "pbr_texture_set",
+      "errors": [],
+      "images": [
+        {
+          "path": "textures/snow_02/snow_02_diff_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/snow_02/snow_02_nor_gl_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/snow_02/snow_02_rough_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/snow_02/snow_02_ao_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "textures/snow_02/snow_02_disp_2k.jpg",
+          "resolution": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_kloofendal_overcast_puresky",
+      "type": "hdri",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "polyhaven_autumn_forest_01",
+      "type": "hdri",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "oga_dims-arboretum",
+      "type": "3d_model_pack",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "oga_jkms-tree-set",
+      "type": "3d_model_pack",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "oga_birch-tree",
+      "type": "3d_model",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "oga_medieval-waterpowered-sawmill",
+      "type": "3d_model_pack",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "oga_retro-log-cabin",
+      "type": "3d_model_pack",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "oga_log-cabin-dae",
+      "type": "3d_model_pack",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    },
+    {
+      "id": "oga_modular-building-asset-0",
+      "type": "3d_model_pack",
+      "errors": [],
+      "images": [],
+      "gltf": []
+    }
+  ]
+}

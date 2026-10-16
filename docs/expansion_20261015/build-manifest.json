@@ -1,0 +1,192 @@
+[
+  {
+    "id": "kar98k",
+    "source_role": "rifle",
+    "notes": "Supplied textured receiver, stock, bore, independent bolt and stripper clip; existing player hands retained.",
+    "bounds_blender": [
+      [
+        -0.05407317727804184,
+        -0.43925103545188904,
+        -0.12734673917293549
+      ],
+      [
+        0.027403179556131363,
+        0.729250967502594,
+        0.07618937641382217
+      ]
+    ],
+    "triangles": 11348,
+    "sha256": "aca586c09c0131f898de5d89abcd03390d6838f9ce5f8a0aa85e0bafb0053441"
+  },
+  {
+    "id": "office",
+    "source_role": "office",
+    "notes": "26 x 24 m double arched shell; opened west access and central indoor passage; runtime collision follows the shell and mission anchors move inside.",
+    "bounds_blender": [
+      [
+        -13.000012397766113,
+        -11.999996185302734,
+        0.0017936661606654525
+      ],
+      [
+        12.999987602233887,
+        12.00000286102295,
+        6.271641254425049
+      ]
+    ],
+    "triangles": 46312,
+    "sha256": "f84091d8cc33a2a750896fbfd7eb6427665b3b7912bb119d647aaed0d9d53d9a"
+  },
+  {
+    "id": "camp_1",
+    "source_role": "camp",
+    "notes": "Independent supplied house, grounded and uniformly scaled; runtime coarse collision preserves the route.",
+    "bounds_blender": [
+      [
+        -2.467195987701416,
+        -5.179229259490967,
+        0.0
+      ],
+      [
+        2.4671969413757324,
+        5.179229259490967,
+        5.199999809265137
+      ]
+    ],
+    "triangles": 489,
+    "sha256": "f19cf9b4be98242ff2bafb5c3bd7de228c59f52cfe6be719a58935318917cff3"
+  },
+  {
+    "id": "camp_2",
+    "source_role": "camp",
+    "notes": "Independent supplied house, grounded and uniformly scaled; runtime coarse collision preserves the route.",
+    "bounds_blender": [
+      [
+        -1.4984043836593628,
+        -2.0969128608703613,
+        0.0
+      ],
+      [
+        1.4984043836593628,
+        2.0969128608703613,
+        3.500000238418579
+      ]
+    ],
+    "triangles": 270,
+    "sha256": "fd913a5e2a2eecf47f1b270c277a16efd89607a3fb9dd10c3df65a3048bd141a"
+  },
+  {
+    "id": "camp_3",
+    "source_role": "camp",
+    "notes": "Independent supplied house, grounded and uniformly scaled; runtime coarse collision preserves the route.",
+    "bounds_blender": [
+      [
+        -3.536562442779541,
+        -6.2888994216918945,
+        0.0
+      ],
+      [
+        3.53656268119812,
+        6.2888994216918945,
+        5.400000095367432
+      ]
+    ],
+    "triangles": 442,
+    "sha256": "c7f8cf5cb7cec0c53097d9506b5df5e1cdea60353a636140921b4724963d59e0"
+  },
+  {
+    "id": "camp_4",
+    "source_role": "camp",
+    "notes": "Independent supplied house, grounded and uniformly scaled; runtime coarse collision preserves the route.",
+    "bounds_blender": [
+      [
+        -2.6648597717285156,
+        -1.8338854312896729,
+        0.0
+      ],
+      [
+        2.6648600101470947,
+        1.8338854312896729,
+        4.400000095367432
+      ]
+    ],
+    "triangles": 186,
+    "sha256": "c83743d8dd77ce392956e06d1705622939e8ca585521aea3a9e85d973c3665e4"
+  },
+  {
+    "id": "village_1",
+    "source_role": "village",
+    "notes": "Complete supplied courtyard geometry at centimetres-to-metres scale; other source items retained as unused originals.",
+    "bounds_blender": [
+      [
+        -18.951932907104492,
+        -11.780580520629883,
+        0.0
+      ],
+      [
+        18.951932907104492,
+        11.780580520629883,
+        6.104483127593994
+      ]
+    ],
+    "triangles": 16492,
+    "sha256": "53d90cbfff1d68df32b1c8b5b507fc2218d5898ced91278bcb2a6f4c7d947105"
+  },
+  {
+    "id": "village_2",
+    "source_role": "village",
+    "notes": "Complete supplied courtyard geometry at centimetres-to-metres scale; other source items retained as unused originals.",
+    "bounds_blender": [
+      [
+        -18.95193099975586,
+        -11.780579566955566,
+        0.0
+      ],
+      [
+        18.95193099975586,
+        11.780580520629883,
+        6.104485988616943
+      ]
+    ],
+    "triangles": 15794,
+    "sha256": "0a9c864b062f093aa72c1b7dca26f4efb0678cc64da326bbe826f3cc5631194e"
+  },
+  {
+    "id": "village_3",
+    "source_role": "village",
+    "notes": "Complete supplied courtyard geometry at centimetres-to-metres scale; other source items retained as unused originals.",
+    "bounds_blender": [
+      [
+        -19.013286590576172,
+        -11.862919807434082,
+        0.0
+      ],
+      [
+        19.013280868530273,
+        11.862919807434082,
+        6.104485988616943
+      ]
+    ],
+    "triangles": 16230,
+    "sha256": "88b4072def87400740b0e1c823d4f08fc7c117b956be0e6ca339756a3e2bda1f"
+  },
+  {
+    "id": "village_4",
+    "source_role": "village",
+    "notes": "Complete supplied courtyard geometry at centimetres-to-metres scale; other source items retained as unused originals.",
+    "bounds_blender": [
+      [
+        -11.7805757522583,
+        -18.951932907104492,
+        0.0
+      ],
+      [
+        11.7805757522583,
+        18.951932907104492,
+        6.104485988616943
+      ]
+    ],
+    "triangles": 16492,
+    "sha256": "ae1beee6e9ef2d2d40c9b1960deaed95bee32d6acca6ac25c9688752bfe18ce4"
+  }
+]

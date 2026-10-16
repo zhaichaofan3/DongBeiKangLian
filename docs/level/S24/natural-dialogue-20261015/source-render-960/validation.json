@@ -1,0 +1,96 @@
+{
+	"checks": [
+		{
+			"description": "Both actors keep low, anatomically bounded gestures throughout all conversation scenes",
+			"passed": true
+		},
+		{
+			"description": "Palms stay clear of the coat body during talk and listen poses",
+			"passed": true
+		},
+		{
+			"description": "Continuous 60fps samples have no arm snaps across lines and camera cuts",
+			"passed": true
+		},
+		{
+			"description": "Conversation performance leaves mission state unchanged",
+			"passed": true
+		},
+		{
+			"description": "01-talk renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "01-talk saved",
+			"passed": true
+		},
+		{
+			"description": "02-listen renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "02-listen saved",
+			"passed": true
+		},
+		{
+			"description": "03-response renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "03-response saved",
+			"passed": true
+		},
+		{
+			"description": "04-route renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "04-route saved",
+			"passed": true
+		},
+		{
+			"description": "05-forest renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "05-forest saved",
+			"passed": true
+		},
+		{
+			"description": "06-briefing renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "06-briefing saved",
+			"passed": true
+		},
+		{
+			"description": "07-coat-three-quarter renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "07-coat-three-quarter saved",
+			"passed": true
+		},
+		{
+			"description": "08-rescue-preserved renders a nonblank scene",
+			"passed": true
+		},
+		{
+			"description": "08-rescue-preserved saved",
+			"passed": true
+		},
+		{
+			"description": "Paired rescue contact retains the existing fifteen-centimetre tolerance",
+			"passed": true
+		}
+	],
+	"count": 21,
+	"max_angle_step_radians": 0.0215844381600618,
+	"max_hand_step_m": 0.0094629330560565,
+	"min_hand_lateral_clearance_m": 0.306549072265625,
+	"passed": true,
+	"pose_samples": 8638,
+	"rendered": true,
+	"resolution": "(960, 540)"
+}

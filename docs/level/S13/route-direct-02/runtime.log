@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Combat route blocked at (56.87032, 0.00084, 22.0824) toward (67.0, 0.0, 22.0)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _walk (res://tests/combat_route.gd:163)
+ERROR: River gate opens after objects and rescue
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:116)
+       [2] _route (res://tests/combat_route.gd:144)
+       [3] _walk (res://tests/combat_route.gd:163)
+ERROR: Courier follows west exit and north route and completes twelve-second extraction
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:124)
+       [2] _route (res://tests/combat_route.gd:144)
+       [3] _walk (res://tests/combat_route.gd:163)
+ERROR: Mission ends in won with player alive
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:127)
+       [2] _route (res://tests/combat_route.gd:144)
+       [3] _walk (res://tests/combat_route.gd:163)
+ERROR: Reinforcements respect six-live-guard cap; evacuation does not require final wave kills
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/s09_route.gd:16)
+       [1] _run (res://tests/s09_route.gd:128)
+       [2] _route (res://tests/combat_route.gd:144)
+       [3] _walk (res://tests/combat_route.gd:163)
+S09 ROUTE direct: FAIL | checks=14 | seconds=47.6999999999986

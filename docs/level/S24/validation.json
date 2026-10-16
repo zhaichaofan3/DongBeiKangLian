@@ -1,0 +1,41 @@
+{
+  "step": "S24",
+  "status": "done",
+  "all_passed": true,
+  "runtime_checks": "11/11",
+  "cue_samples": ["B1-L01", "B2-L01", "B2-L02", "B3-L01", "B5-L01", "B5-L02"],
+  "anchors": {
+    "tianchi_peer": [497.2, 26.0, 146.3],
+    "forest_peer": [9.4, 0.08, 82.35]
+  },
+  "render": {
+    "normal_log": "docs/level/S24/render-v1.log",
+    "qa_side_log": "docs/level/S24/render-v4.log",
+    "qa_side_capture": "docs/level/S24/render-v4/conversation_two_shot.png",
+    "qa_side_report": "docs/level/S24/render-v4/conversation_capture.json",
+    "note": "The production opening camera remains first person until S25; the side capture is QA-only."
+  },
+  "regression": {
+    "smoke": "107/107",
+    "linear": "37/37",
+    "combat": "PASS",
+    "visual_motion": "50/50",
+    "story": "11/11",
+    "character_model": "37/37"
+  },
+  "evidence": [
+    "docs/level/S24/validation.md",
+    "docs/level/S24/runtime-v4.log",
+    "docs/level/S24/runtime-v4/conversation.json",
+    "docs/level/S24/render-v1.log",
+    "docs/level/S24/render-v4.log",
+    "docs/level/S24/render-v4/conversation_capture.json",
+    "docs/level/S24/regression-smoke.log",
+    "docs/level/S24/regression-linear-route.log",
+    "docs/level/S24/regression-combat-route.log",
+    "docs/level/S24/regression-visual-motion.log",
+    "docs/level/S24/regression-story-moments.log",
+    "docs/level/S24/regression-character-model.log"
+  ],
+  "boundary": "S24 owns acting; S25 owns camera handoff and player control transition."
+}

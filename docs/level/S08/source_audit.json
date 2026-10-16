@@ -1,0 +1,197 @@
+{
+  "step": "S08",
+  "sources": [
+    {
+      "path": "GodotProject/scripts/world.gd",
+      "sha256": "257290e3e2c590b50b31a62a166ad9f17169609692f24c04c503639428c37e0d",
+      "excerpts": [
+        {
+          "line": 4,
+          "text": "const TILE := 4.0"
+        },
+        {
+          "line": 5,
+          "text": "const GRID_SIZE := Vector2i(22, 24)"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/linear_director.gd",
+      "sha256": "9b21fba0cd292f680e63e190d4896b2bcb2767152d329d576ebe77e5792c97b4",
+      "excerpts": [
+        {
+          "line": 4,
+          "text": "const GATES := [\"checkpoint\", \"yard\", \"river\"]"
+        },
+        {
+          "line": 5,
+          "text": "const POINTS := [Vector3(34, 1.4, 58), Vector3(34, 1.4, 42), Vector3(70, 1.4, 22)]"
+        },
+        {
+          "line": 6,
+          "text": "const HOLD_DURATION := 12.0"
+        },
+        {
+          "line": 34,
+          "text": "func gate_ready(id: String) -> bool:"
+        },
+        {
+          "line": 51,
+          "text": "return id in [\"checkpoint\", \"yard\"] and main.story.met_scout and not gate_ready(id) and main.player.magazines[0] + main.player.magazines[1] + main.player.reserves[0] + main.player.reserves[1] == 0"
+        },
+        {
+          "line": 62,
+          "text": "if not gate_ready(id):"
+        },
+        {
+          "line": 80,
+          "text": "if gate_ready(id):"
+        },
+        {
+          "line": 101,
+          "text": "if not contact_started and main.story.met_scout and main.player.position.x > 24:"
+        },
+        {
+          "line": 106,
+          "text": "if not main.story.people.lu.following or main.player.position.distance_to(main.EVAC) > 10 or main.story.people.lu.position.distance_to(main.EVAC) > 6:"
+        },
+        {
+          "line": 127,
+          "text": "if main.player.position.distance_to(main.EVAC) > 10 or main.story.people.lu.position.distance_to(main.EVAC) > 6:"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/mission.gd",
+      "sha256": "44e01b5ec6694aa46ac47d294b5cd526718cd4d2e1fcecaf9293f73ba5685a0d",
+      "excerpts": [
+        {
+          "line": 12,
+          "text": "const START := Vector3(10, 0.08, 86)"
+        },
+        {
+          "line": 13,
+          "text": "const BOOK := Vector3(53.5, 0.99, 34)"
+        },
+        {
+          "line": 14,
+          "text": "const POWER := Vector3(60.0, 1.55, 30.2)"
+        },
+        {
+          "line": 15,
+          "text": "const EVAC := Vector3(79, 0.16, 14)"
+        },
+        {
+          "line": 30,
+          "text": "const REINFORCEMENT_ENTRIES := [Vector3(78, 0.08, 50), Vector3(78, 0.08, 54), Vector3(78, 0.08, 50), Vector3(78, 0.08, 54)]"
+        },
+        {
+          "line": 381,
+          "text": "_spawn_guard(\"wave_%d\" % index, REINFORCEMENT_ENTRIES[index], Vector3(74, 0.08, 30))"
+        },
+        {
+          "line": 395,
+          "text": "var entry: Vector3 = REINFORCEMENT_ENTRIES[reinforcement_next]"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/story.gd",
+      "sha256": "6af84ee900a18713b9e1e80e79aab78276efc21c6febf552f6cb5ea84c013c83",
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "const SCOUT := Vector3(12, 0.08, 82)"
+        },
+        {
+          "line": 6,
+          "text": "const LOGGER := Vector3(14, 0.08, 66)"
+        },
+        {
+          "line": 7,
+          "text": "const WOUNDED := Vector3(47, 0.08, 30)"
+        },
+        {
+          "line": 8,
+          "text": "const LETTER := Vector3(48, 1.14, 41.8)"
+        },
+        {
+          "line": 9,
+          "text": "const SUPPLY := Vector3(36, 0.9, 50)"
+        },
+        {
+          "line": 10,
+          "text": "const DOOR := Vector3(41.7, 1.5, 38)"
+        },
+        {
+          "line": 230,
+          "text": "return recruited and people.lu.position.distance_to(main.EVAC) < 5.5 and main.stage == 2 and main.linear.can_evacuate()"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/friendly.gd",
+      "sha256": "d6def0825493efd2da8fe4d0dddafb20b90e62c4ee2de3b3fdddea9f6b38f0fc",
+      "excerpts": [
+        {
+          "line": 67,
+          "text": "var speed := 3.2 if treated else 2.2"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/fps_player.gd",
+      "sha256": "64269a7b1ffd79d3b58b294c840a99704e5c3ec43461b30ceeda2d44fb72d6c6",
+      "excerpts": [
+        {
+          "line": 114,
+          "text": "var speed := 1.7 if crouching else 3.8"
+        },
+        {
+          "line": 116,
+          "text": "speed = 6.0"
+        },
+        {
+          "line": 118,
+          "text": "speed *= 0.65"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/scripts/opening_director.gd",
+      "sha256": "c256c25be7fc3435a8324730407c7a006af840c1da72df088cb119092fecfc76",
+      "excerpts": [
+        {
+          "line": 315,
+          "text": "var speed := _v(block.start).distance_to(_v(block.end)) / (float(shot.end_ms-shot.start_ms)*.001)"
+        }
+      ]
+    },
+    {
+      "path": "GodotProject/tests/combat_route.gd",
+      "sha256": "69ac432d2d57b29380f7d18f4e4f74d7dc1bc166cd0b61c24ef7781c3c7b69e3",
+      "excerpts": [
+        {
+          "line": 97,
+          "text": "if main.linear.gate_ready(identifier):"
+        }
+      ]
+    },
+    {
+      "path": "docs/resources/S02/inventory.json",
+      "sha256": "adb64dcf679fc6d8eb3d6663573dea159cb1093c17558554a7de93705af68388",
+      "excerpts": []
+    },
+    {
+      "path": "docs/narrative/S03/interface_contract.json",
+      "sha256": "f0a4e8e93948462157cf842a0d7f07d1f5f32c1a62d26ef69282b04de73128d3",
+      "excerpts": []
+    },
+    {
+      "path": "GodotProject/assets/opening/opening.json",
+      "sha256": "134644d724d15baf447fd325065103e291d8e80e5fae3bc61f6b8f5e1831e29c",
+      "excerpts": []
+    }
+  ],
+  "scope": "source constants and navigation extraction; historical tests are inputs, not rerun claims"
+}

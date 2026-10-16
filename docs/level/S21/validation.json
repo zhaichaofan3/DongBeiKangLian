@@ -1,0 +1,46 @@
+{
+  "step": "S21",
+  "status": "done",
+  "revision": "continuous-shore-v2",
+  "all_passed": true,
+  "checks": {
+    "editable_blender_source": true,
+    "game_glb_export": true,
+    "far_preview": true,
+    "near_preview": true,
+    "godot_import": true,
+    "runtime_checks": "7/7",
+    "topology_positive_area": true,
+    "formal_collision": false
+  },
+  "geometry": {
+    "vertices": 7699,
+    "triangles": 14400,
+    "crater_sector_count": 4,
+    "crater_triangles_in_godot": 13824,
+    "rim_radius_m": 92,
+    "shore_radius_m_approx": 49,
+    "outer_slope_radius_m": 172,
+    "lake_level_m": 0.4,
+    "platform_top_m": 14
+  },
+  "evidence": [
+    "docs/level/S21/runtime-v3/tianchi.json",
+    "docs/level/S21/tianchi-runtime-v3.log",
+    "docs/level/S21/mesh-topology.json",
+    "docs/level/S21/mesh-topology.log",
+    "docs/level/S21/blender-build-v2.log",
+    "docs/level/S21/blender-preview-v3.log",
+    "docs/level/S21/godot-import-v2.log",
+    "docs/level/S21/previews/tianchi_far.png",
+    "docs/level/S21/previews/tianchi_near.png",
+    "AssetLibrary/environment/derived/S21/manifest.json"
+  ],
+  "sha256": {
+    "AssetLibrary/environment/derived/S21/tianchi_artistic.blend": "07c4bb19c3240fe202d66399116ecccc9b6eccd359aff26444365dff51fdc512",
+    "GodotProject/assets/opening/tianchi_artistic.glb": "8b4559562453f494ca79263bd62d473f76e8570a54da1b5ad06c590d95148186",
+    "docs/level/S21/previews/tianchi_far.png": "2fe588cb2e97ab1be8cad337c21a0e31871fe1dc0eb711d00a84fd8a71005d90",
+    "docs/level/S21/previews/tianchi_near.png": "d7920c7c48024e1b18aa71590b595d21bba103c8c15860af1279be84d24c08b4"
+  },
+  "integration_boundary": "Standalone visual asset only; S22 owns platform paths and gameplay collision."
+}

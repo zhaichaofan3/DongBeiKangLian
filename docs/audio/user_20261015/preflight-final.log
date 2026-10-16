@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: History preflight contains 11 authored A shots
+PASS: A1-A6 shot coverage matches the storyboard
+PASS: Historical duration and original narration plus two new cues are present
+PASS: Full history track and 14 temporary B dialogue files are available
+PASS: The history climax has four authored artillery effects and a closing title event
+PASS: A4 preview activates authored fireline and first barrage impact
+PASS: A14 keeps the final distant blast in frame after its look-at correction
+PASS: A5 carries the last narration into the spiritual close before handoff
+PASS: A6 shows the added continuous building panorama
+PASS: History previews never mutate gameplay resources or mission state
+PASS: History skip enters the separate task prologue boundary
+PASS: Both opening parts share one gameplay handoff
+S32 HISTORY PREFLIGHT: PASS | checks=12

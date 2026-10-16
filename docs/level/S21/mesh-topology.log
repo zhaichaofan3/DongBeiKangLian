@@ -1,0 +1,10 @@
+S21_Crater_East verts 1820 faces 3456 degenerate 0 boundary 182
+S21_Crater_North verts 1820 faces 3456 degenerate 0 boundary 182
+S21_Crater_West verts 1820 faces 3456 degenerate 0 boundary 182
+S21_Crater_South verts 1820 faces 3456 degenerate 0 boundary 182
+S21_Deep_Blue_Lake verts 257 faces 256 degenerate 0 boundary 256
+S21_Talk_Platform_Base verts 162 faces 320 degenerate 0 boundary 0
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\GameMake\AssetLibrary\environment\derived\S21\tianchi_artistic.blend"
+
+Blender quit

@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: B1 cue enables the second actor and the speaker action
+PASS: Tianchi peer stands on the S22 platform without foot drift
+PASS: B2 player line switches the speaking role
+PASS: B2 listener waits for the line before turning
+PASS: B2 response adds a restrained hand and breath gesture
+PASS: B3 route briefing points toward the departure path
+PASS: B5 restores the two-person forest meeting on the gameplay layer
+PASS: B5 question uses a short forward response turn
+PASS: B4 travel montage hides the conversation peer
+PASS: Performance copy never changes player control mode or ground anchor
+PASS: Conversation acting leaves mission state untouched
+S24 CONVERSATION: PASS | checks=11

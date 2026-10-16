@@ -1,0 +1,114 @@
+[
+  {
+    "source": "docs/bf1_reference_direction.md",
+    "target": "docs/archive/design-notes/bf1_reference_direction.md"
+  },
+  {
+    "source": "docs/character_modeling_tools.md",
+    "target": "docs/archive/design-notes/character_modeling_tools.md"
+  },
+  {
+    "source": "docs/connection_diagnosis_2026-10-12.md",
+    "target": "docs/archive/design-notes/connection_diagnosis_2026-10-12.md"
+  },
+  {
+    "source": "docs/FILE_GUIDE.md",
+    "target": "docs/archive/design-notes/FILE_GUIDE.md"
+  },
+  {
+    "source": "docs/HANDOVER-2026-10-13.md",
+    "target": "docs/archive/design-notes/HANDOVER-2026-10-13.md"
+  },
+  {
+    "source": "docs/phase1_asset_inventory.md",
+    "target": "docs/archive/design-notes/phase1_asset_inventory.md"
+  },
+  {
+    "source": "docs/phase1_history_review.md",
+    "target": "docs/archive/design-notes/phase1_history_review.md"
+  },
+  {
+    "source": "docs/phase1_mvp_feasibility.md",
+    "target": "docs/archive/design-notes/phase1_mvp_feasibility.md"
+  },
+  {
+    "source": "docs/phase1_preproduction.md",
+    "target": "docs/archive/design-notes/phase1_preproduction.md"
+  },
+  {
+    "source": "docs/phase1_solo_execution.md",
+    "target": "docs/archive/design-notes/phase1_solo_execution.md"
+  },
+  {
+    "source": "docs/phase2_visual_quality_assessment.md",
+    "target": "docs/archive/design-notes/phase2_visual_quality_assessment.md"
+  },
+  {
+    "source": "docs/production_plan.md",
+    "target": "docs/archive/design-notes/production_plan.md"
+  },
+  {
+    "source": "docs/PROJECT_HANDOVER.md",
+    "target": "docs/archive/design-notes/PROJECT_HANDOVER.md"
+  },
+  {
+    "source": "docs/S01-baseline.md",
+    "target": "docs/archive/design-notes/S01-baseline.md"
+  },
+  {
+    "source": "docs/S02-resource-plan.md",
+    "target": "docs/archive/design-notes/S02-resource-plan.md"
+  },
+  {
+    "source": "docs/S03-narrative-and-mission.md",
+    "target": "docs/archive/design-notes/S03-narrative-and-mission.md"
+  },
+  {
+    "source": "docs/S04-narration-and-subtitles.md",
+    "target": "docs/archive/design-notes/S04-narration-and-subtitles.md"
+  },
+  {
+    "source": "docs/S05-task-prologue-dialogue.md",
+    "target": "docs/archive/design-notes/S05-task-prologue-dialogue.md"
+  },
+  {
+    "source": "docs/S06-opening-storyboard.md",
+    "target": "docs/archive/design-notes/S06-opening-storyboard.md"
+  },
+  {
+    "source": "docs/S07-opening-rough-cut.md",
+    "target": "docs/archive/design-notes/S07-opening-rough-cut.md"
+  },
+  {
+    "source": "docs/S08-route-and-pacing.md",
+    "target": "docs/archive/design-notes/S08-route-and-pacing.md"
+  },
+  {
+    "source": "docs/S09-route-blockout.md",
+    "target": "docs/archive/design-notes/S09-route-blockout.md"
+  },
+  {
+    "source": "docs/S10-large-building-integration.md",
+    "target": "docs/archive/design-notes/S10-large-building-integration.md"
+  },
+  {
+    "source": "docs/v03_verification.md",
+    "target": "docs/archive/design-notes/v03_verification.md"
+  },
+  {
+    "source": "docs/v04_production.md",
+    "target": "docs/archive/design-notes/v04_production.md"
+  },
+  {
+    "source": "docs/v05_production.md",
+    "target": "docs/archive/design-notes/v05_production.md"
+  },
+  {
+    "source": "docs/v061_hands.md",
+    "target": "docs/archive/design-notes/v061_hands.md"
+  },
+  {
+    "source": "docs/v06_production.md",
+    "target": "docs/archive/design-notes/v06_production.md"
+  }
+]
