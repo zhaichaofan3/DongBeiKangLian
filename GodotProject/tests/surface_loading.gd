@@ -6,6 +6,7 @@ var main: Node3D
 var checks := 0
 var failures: Array[String] = []
 var output := OS.get_environment("FENGHUO_SURFACE_LOADING_OUTPUT")
+var face_cache := {}
 
 func _initialize() -> void:
 	if "--qa" not in OS.get_cmdline_user_args(): quit(2); return
@@ -47,10 +48,41 @@ func _run() -> void:
 	var lane: MeshInstance3D = main.find_child("引向村口的浅色土路",true,false)
 	var vertices: PackedVector3Array = lane.mesh.surface_get_arrays(0)[Mesh.ARRAY_VERTEX]
 	check(vertices.size()==(Forest.ROAD.size()-1)*6,"Joined road has one strip per segment with no extended overlapping ends")
+	var normals: PackedVector3Array = lane.mesh.surface_get_arrays(0)[Mesh.ARRAY_NORMAL]
+	var faces_up := true
+	for normal in normals:
+		if normal.y<.99: faces_up = false
+	check(faces_up,"Woodland dirt road faces upward and remains visible above its ground")
 	var above := true
 	for vertex in vertices:
 		if Forest.projection(vertex).distance<2.7 and vertex.y<=Forest.height_at(vertex): above = false
 	check(above,"Visible road is above the playable terrain throughout its bends")
+	var forest_ground: MeshInstance3D = main.find_child("渡河后起伏密林地表",true,false)
+	var village_ground: MeshInstance3D = main.find_child("村庄山谷地面",true,false).get_child(0)
+	var village_lane: MeshInstance3D = main.find_child("窄街转入院落的泥辙",true,false)
+	var ground_overlaps := 0
+	var road_overlaps := 0
+	var gaps := 0
+	for i in range(1,40):
+		var segment := 9 if i<20 else 10
+		var at: Vector3 = Forest.ROAD[segment].lerp(Forest.ROAD[segment+1],float(i%20)/20)
+		for side in [-1.0,0.0,1.0]:
+			var point := at+Vector3(side,0,0)
+			var woods := surface_heights(forest_ground,point)
+			var village := surface_heights(village_ground,point)
+			if not woods.is_empty() and not village.is_empty() and absf(woods[0]-village[0])<.005: ground_overlaps += 1
+			var layers := surface_heights(lane,point).size()+surface_heights(village_lane,point).size()
+			if layers>1: road_overlaps += 1
+			if layers==0: gaps += 1
+	check(ground_overlaps==0,"Forest and village visible ground never share the entry ground plane (samples=%d)" % ground_overlaps)
+	check(road_overlaps==0,"Village entry has a single dirt road layer (overlaps=%d)" % road_overlaps)
+	check(gaps==0,"The shared road join has no visible gaps (gaps=%d)" % gaps)
+	var join_clear := true
+	for z_offset in [-.08,.08]:
+		for x_offset in [-1.2,-.6,0,.6,1.2]:
+			var point: Vector3 = Forest.ROAD[-1]+Vector3(x_offset,0,z_offset)
+			if surface_heights(lane,point).size()+surface_heights(village_lane,point).size()!=1: join_clear = false
+	check(join_clear,"Both sides of the narrowed village road seam contain exactly one road layer")
 	for river in main.find_children("*","Node3D",true,false):
 		if river.get_meta("user_waterfront","")!="river": continue
 		var bank: MeshInstance3D = river.find_child("SuppliedRiverBank_2",true,false)
@@ -60,6 +92,9 @@ func _run() -> void:
 			check(dock.position.y>=.035,"Pier decking is lifted above the overlapping shore")
 	await capture_view("forest-landing",Forest.ROAD[1],Forest.ROAD[2]+Vector3.UP*1.6)
 	await capture_view("forest-village-bend",Forest.ROAD[8],Forest.ROAD[10]+Vector3.UP*1.6)
+	await capture_view("village-entry-approach",Forest.ROAD[9],Forest.ROAD[-1]+Vector3.UP*.35)
+	await capture_view("village-entry-join",Forest.ENTRANCE,Vector3(1147,.1,278))
+	await capture_view("village-entry-ground",Vector3(1153,.08,291),Vector3(1154,0,288))
 	await capture_view("ferry-surface",Vector3(79,.08,14),Vector3(88,0,18))
 
 	main.player.position = Vector3(14,.08,276)
@@ -109,6 +144,20 @@ func _run() -> void:
 		FileAccess.open(output.path_join("validation.json"),FileAccess.WRITE).store_string(JSON.stringify({"passed":failures.is_empty(),"checks":checks,"failures":failures,"rendered":DisplayServer.get_name()!="headless"},"  "))
 	print("SURFACE LOADING: ","PASS" if failures.is_empty() else "FAIL"," | checks=",checks)
 	quit(0 if failures.is_empty() else 1)
+
+func surface_heights(instance: MeshInstance3D, at: Vector3) -> Array[float]:
+	var id := instance.get_instance_id()
+	if not face_cache.has(id): face_cache[id] = instance.mesh.get_faces()
+	var faces: PackedVector3Array = face_cache[id]
+	var from := instance.to_local(at+Vector3.UP*8)
+	var to := instance.to_local(at-Vector3.UP*.1)
+	var heights: Array[float] = []
+	for i in range(0,faces.size(),3):
+		var hit = Geometry3D.segment_intersects_triangle(from,to,faces[i],faces[i+1],faces[i+2])
+		if hit!=null:
+			var height: float = instance.to_global(hit).y
+			if heights.is_empty() or absf(height-heights[-1])>.001: heights.append(height)
+	return heights
 
 func capture_view(label: String, at: Vector3, target: Vector3) -> void:
 	main.player.position = at

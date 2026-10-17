@@ -1,0 +1,43 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 Core Profile Context 26.8.1.260810 - Compatibility - Using Device: ATI Technologies Inc. - AMD Radeon 780M Graphics
+
+PASS: World finishes preparation before testing
+PASS: Background mountain triangles never cross the woodland road at eye height
+PASS: Joined road has one strip per segment with no extended overlapping ends
+PASS: Woodland dirt road faces upward and remains visible above its ground
+PASS: Visible road is above the playable terrain throughout its bends
+PASS: Forest and village visible ground never share the entry ground plane (samples=0)
+PASS: Village entry has a single dirt road layer (overlaps=0)
+PASS: The shared road join has no visible gaps (gaps=0)
+PASS: Both sides of the narrowed village road seam contain exactly one road layer
+PASS: Imported riverbank does not share the ground plane
+PASS: Imported riverbank does not share the ground plane
+PASS: Pier decking is lifted above the overlapping shore
+PASS: Pier decking is lifted above the overlapping shore
+PASS: Rendered capture: forest-landing
+PASS: Rendered capture: forest-village-bend
+PASS: Rendered capture: village-entry-approach
+PASS: Rendered capture: village-entry-join
+PASS: Rendered capture: village-entry-ground
+PASS: Rendered capture: ferry-surface
+PASS: Rendered capture: rifle-support
+PASS: Original supplied cartridges animate as five independent meshes
+PASS: Loading shows only the actual 1 required rounds
+PASS: Loading thumb contacts the actual top cartridge, count=1
+PASS: Cartridges move below the receiver before the clip withdraws, count=1
+PASS: Empty clip lifts away after loading, count=1
+PASS: Loading shows only the actual 3 required rounds
+PASS: Loading thumb contacts the actual top cartridge, count=3
+PASS: Cartridges move below the receiver before the clip withdraws, count=3
+PASS: Empty clip lifts away after loading, count=3
+PASS: Loading shows only the actual 5 required rounds
+PASS: Rendered capture: reload-39
+PASS: Rendered capture: reload-50
+PASS: Loading thumb contacts the actual top cartridge, count=5
+PASS: Rendered capture: reload-60
+PASS: Cartridges move below the receiver before the clip withdraws, count=5
+PASS: Rendered capture: reload-65
+PASS: Empty clip lifts away after loading, count=5
+PASS: Rendered capture: reload-empty-clip
+PASS: Clip is hidden after the completed reload
+SURFACE LOADING: PASS | checks=39

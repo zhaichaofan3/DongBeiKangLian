@@ -1,0 +1,10 @@
+{
+  "checks": 37,
+  "failures": [
+    "Forest and village visible ground never share the entry ground plane (samples=52)",
+    "Village entry has a single dirt road layer (overlaps=14)",
+    "The shared road join has no visible gaps (gaps=37)"
+  ],
+  "passed": false,
+  "rendered": true
+}

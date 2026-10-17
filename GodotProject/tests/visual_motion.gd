@@ -215,7 +215,78 @@ func _run() -> void:
 	main.player.restore(saved)
 	check(not rifle.clip.visible and rifle.bolt.position.length() < 0.001 and rifle.bolt.rotation.length() < 0.001 and rifle.left.position.distance_to(rifle_rest.left_position) < 0.001 and rifle.right.position.distance_to(rifle_rest.right_position) < 0.001, "Restore resets the hidden rifle after its interrupted loading action")
 	check(main.player.weapon_index == saved.weapon and main.player.magazines == saved.magazines and main.player.reserves == saved.reserves, "Restore recovers both weapons' ammunition after a cancelled switch reload")
+	await _sprint_camera_checks()
 	await _finish()
+
+func _sprint_camera_checks() -> void:
+	main.set_process(false)
+	main.village.set_process(false)
+	for actor in main.guards+main.story.people.values(): actor.set_physics_process(false)
+	var platform: Node3D = main.world.box("QA sprint floor",Vector3(400,-.3,400),Vector3(40,.6,80),"mud")
+	var player: CharacterBody3D = main.player
+	var saved: Dictionary = player.snapshot()
+	saved.position = [400,.08,428]
+	saved.yaw = 0.0
+	player.restore(saved)
+	await _seconds(.4)
+	var start: Vector3 = player.position
+	Input.action_press("move_forward")
+	Input.action_press("sprint")
+	var low := Vector3(INF,INF,INF)
+	var high := -low
+	var max_roll := 0.0
+	for frame in 90:
+		await physics_frame
+		await process_frame
+		var offset: Vector3 = player.camera.position-Vector3(0,player.eye_height,0)
+		low = low.min(offset)
+		high = high.max(offset)
+		max_roll = maxf(max_roll,absf(player.camera.rotation.z))
+	check(player.is_on_floor() and player.sprint_blend>.95 and player.position.distance_to(start)>6,"Real sprint input reaches running speed and travels on the ground")
+	check(high.y-low.y>.03 and high.x-low.x>.01 and max_roll>deg_to_rad(.3),"Sprinting visibly moves the camera vertically, laterally and in roll")
+	check(maxf(absf(low.y),absf(high.y))<=.031 and maxf(absf(low.x),absf(high.x))<=.013 and max_roll<deg_to_rad(1),"Sprint camera motion stays below 3.1 cm and one degree")
+	await _capture("sprint-camera")
+	var motion: float = main.presentation.motion_strength
+	main.presentation.motion_strength = 0
+	await _seconds(.1)
+	check(player.sprint_blend>.9 and player.run_bob==Vector3.ZERO and player.run_tilt==Vector3.ZERO,"Zero motion setting disables camera bob while sprinting")
+	main.presentation.motion_strength = motion
+	Input.action_press("aim")
+	await _seconds(.65)
+	check(player.aiming and player.run_bob==Vector3.ZERO and player.run_tilt==Vector3.ZERO and absf(player.camera.rotation.x-player.pitch-player.recoil)<.0001,"Aiming removes running camera offsets without losing the aiming pitch or recoil")
+	Input.action_release("aim")
+	Input.action_press("crouch_hold")
+	await _seconds(.65)
+	check(player.crouching and absf(player.camera.position.y-.95)<.002 and player.run_bob==Vector3.ZERO,"Crouch retains the low eye position and suppresses sprint bob")
+	Input.action_release("crouch_hold")
+	await _seconds(.5)
+	Input.action_press("jump")
+	await physics_frame
+	await process_frame
+	Input.action_release("jump")
+	await _seconds(.12)
+	check(not player.is_on_floor() and player.run_bob==Vector3.ZERO and player.run_tilt==Vector3.ZERO,"Leaving the ground suppresses running camera motion")
+	Input.action_release("move_forward")
+	Input.action_release("sprint")
+	await _seconds(1.1)
+	check(player.camera.position.distance_to(Vector3(0,1.57,0))<.001 and player.camera.rotation.length()<.001,"Stopping returns the camera to its base pose without accumulated drift")
+	Input.action_press("lean_right")
+	await _seconds(.3)
+	check(player.lean>.39 and absf(player.camera.position.x-player.lean)<.001 and absf(player.camera.rotation.z+deg_to_rad(11))<.001,"Leaning retains its full protected head offset and roll")
+	Input.action_release("lean_right")
+	await _seconds(.3)
+	Input.action_press("move_forward")
+	Input.action_press("sprint")
+	await _seconds(.6)
+	main.mode = "paused"
+	await process_frame
+	await process_frame
+	check(player.run_bob==Vector3.ZERO and player.run_tilt==Vector3.ZERO and player.camera.position.distance_to(Vector3(0,1.57,0))<.001,"Pause clears the running camera pose immediately")
+	main.mode = "playing"
+	player.restore(saved)
+	check(player.run_bob==Vector3.ZERO and player.run_tilt==Vector3.ZERO and player.sprint_blend==0 and player.camera.position==Vector3(0,1.57,0),"Checkpoint restore clears all sprint camera offsets immediately")
+	for action in ["sprint","move_forward","aim","crouch_hold","jump","lean_right"]: Input.action_release(action)
+	platform.queue_free()
 
 func _sample_bolt_cycle() -> void:
 	if not sampling_bolt or not is_instance_valid(main):

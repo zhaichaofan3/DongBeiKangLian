@@ -53,7 +53,7 @@ func build(owner_world: RefCounted) -> void:
 	container.name = "东北农村_窄街与院落巷战"
 	world.root.add_child(container)
 	var ground := _box("村庄山谷地面", Vector3(1125,-.3,47), Vector3(650,.6,500), "mud")
-	ground.get_child(0).material_override = _ground_material(false)
+	_partition_ground(ground)
 	_build_courtyards()
 	_batch_courtyards()
 	for i in 2:
@@ -147,8 +147,37 @@ func _box(title: String, at: Vector3, size: Vector3, material: String) -> Static
 	body.reparent(container)
 	return body
 
+func _partition_ground(ground: StaticBody3D) -> void:
+	# Keep the original collision slab; only its visible top yields to the forest.
+	var mesh: MeshInstance3D = ground.get_child(0)
+	var surface := SurfaceTool.new()
+	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var faces := mesh.mesh.get_faces()
+	for i in range(0,faces.size(),3):
+		if faces[i].y>.49 and faces[i+1].y>.49 and faces[i+2].y>.49: continue
+		for j in 3:
+			surface.set_uv(Vector2.ZERO)
+			surface.add_vertex(faces[i+j]*mesh.scale)
+	var bounds := Rect2(800,-203,650,500)
+	var cut := Forest.AREA.intersection(bounds)
+	for patch: Rect2 in [Rect2(bounds.position,Vector2(bounds.size.x,cut.position.y-bounds.position.y)),
+		Rect2(Vector2(bounds.position.x,cut.position.y),Vector2(cut.position.x-bounds.position.x,cut.size.y)),
+		Rect2(Vector2(cut.end.x,cut.position.y),Vector2(bounds.end.x-cut.end.x,cut.size.y))]:
+		var a := Vector3(patch.position.x,0,patch.position.y)-ground.position
+		var b := Vector3(patch.end.x,0,patch.position.y)-ground.position
+		var c := Vector3(patch.position.x,0,patch.end.y)-ground.position
+		var d := Vector3(patch.end.x,0,patch.end.y)-ground.position
+		for p in [a,b,c,b,d,c]:
+			surface.set_uv(Vector2(p.x,p.z)*.26)
+			surface.add_vertex(p)
+	surface.generate_normals()
+	surface.generate_tangents()
+	mesh.scale = Vector3.ONE
+	mesh.mesh = surface.commit()
+	mesh.material_override = _ground_material(false)
+
 func _build_lane() -> void:
-	var points: Array[Vector3] = [Forest.ENTRANCE,START]
+	var points: Array[Vector3] = [START]
 	for section: Array in ROUTE_STOPS:
 		for at: Vector3 in section: points.append(at)
 	points.append(EXIT)
@@ -161,6 +190,7 @@ func _build_lane() -> void:
 	for i in samples.size():
 		var direction := (samples[mini(i+1,samples.size()-1)]-samples[maxi(0,i-1)]).normalized()
 		edges.append(Vector3(direction.z,0,-direction.x)*(1.35+sin(samples[i].z*.51)*.08))
+	edges[0] = Vector3.LEFT*Forest.ROAD_JOIN_HALF_WIDTH
 	var surface := SurfaceTool.new()
 	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
 	for i in range(1,samples.size()):
@@ -172,7 +202,7 @@ func _build_lane() -> void:
 		for k in 6:
 			var p: Vector3 = vertices[k]
 			surface.set_uv(Vector2([0,1,1,0,1,0][k],p.z*.26))
-			surface.add_vertex(Vector3(p.x,.016,p.z))
+			surface.add_vertex(Vector3(p.x,Forest.ROAD_ELEVATION,p.z))
 	surface.generate_normals()
 	surface.generate_tangents()
 	var road := MeshInstance3D.new()

@@ -47,6 +47,9 @@ var smoke_age := 1.0
 var breath_clock := 0.0
 var movement_blend := 0.0
 var sprint_blend := 0.0
+var eye_height := 1.57
+var run_bob := Vector3.ZERO
+var run_tilt := Vector3.ZERO
 var aim_blend := 0.0
 var mouse_impulse := Vector2.ZERO
 var mouse_sway := Vector2.ZERO
@@ -129,7 +132,7 @@ func _physics_process(delta: float) -> void:
 		crouching = requested_crouch
 	(collider.shape as CapsuleShape3D).height = 1.05 if crouching else 1.72
 	collider.position.y = 0.525 if crouching else 0.86
-	camera.position.y = lerpf(camera.position.y, 0.95 if crouching else 1.57, minf(1.0, delta * 12))
+	eye_height = lerpf(eye_height, 0.95 if crouching else 1.57, minf(1.0, delta * 12))
 	var axis := Input.get_vector("move_left", "move_right", "move_forward", "move_back")
 	var direction := (transform.basis * Vector3(axis.x, 0, axis.y)).normalized()
 	var speed := 1.7 if crouching else 3.8
@@ -168,10 +171,12 @@ func _physics_process(delta: float) -> void:
 			var count := mini(WEAPONS[weapon_index]["capacity"] - magazines[weapon_index], reserves[weapon_index])
 			magazines[weapon_index] += count
 			reserves[weapon_index] -= count
+	_update_sprint_camera(delta)
+	_apply_camera_pose()
 	if fire_requested:
 		fire_requested = false
 		fire()
-	camera.rotation.x = pitch + recoil
+	_apply_camera_pose()
 
 func _update_lean(delta: float) -> void:
 	var requested := Input.get_axis("lean_left","lean_right")*LEAN_DISTANCE
@@ -179,14 +184,29 @@ func _update_lean(delta: float) -> void:
 	lean = move_toward(lean,_safe_lean(requested),delta*2.4)
 	# Movement and key release must obey the same constraint while returning.
 	lean = _safe_lean(lean)
-	camera.position.x = lean
-	camera.rotation.z = -lean/LEAN_DISTANCE*deg_to_rad(11)
+	_apply_camera_pose()
+
+func _apply_camera_pose() -> void:
+	camera.position = Vector3(lean,eye_height,0)+run_bob
+	camera.rotation.x = pitch+recoil+run_tilt.x
+	camera.rotation.z = -lean/LEAN_DISTANCE*deg_to_rad(11)+run_tilt.z
+
+func _update_sprint_camera(delta: float) -> void:
+	var travel := get_real_velocity()
+	var moving := Vector2(travel.x,travel.z).length()
+	var sprinting := Input.is_action_pressed("sprint") and moving>4.5 and is_on_floor() and not aiming and not crouching and absf(lean)<.05
+	sprint_blend = lerpf(sprint_blend,1.0 if sprinting else 0.0,1.0-exp(-delta*12))
+	var weight := sprint_blend*float(main.presentation.motion_strength) if not aiming and not crouching and is_on_floor() and absf(lean)<.05 else 0.0
+	# Match the running footstep cadence; update with physics for camera interpolation.
+	var phase := walk_clock*PI*.5
+	run_bob = Vector3(sin(phase*.5)*.012,-cos(phase)*.03,0)*weight
+	run_tilt = Vector3(sin(phase)*deg_to_rad(.15),0,sin(phase*.5)*deg_to_rad(.9))*weight
 
 func _safe_lean(distance: float) -> float:
 	if is_zero_approx(distance): return 0
 	var query := PhysicsShapeQueryParameters3D.new()
 	query.shape = _head_probe
-	query.transform.origin = global_transform*Vector3(0,camera.position.y,0)
+	query.transform.origin = global_transform*Vector3(0,eye_height,0)
 	query.motion = global_basis.x*distance
 	query.collision_mask = 1 | 4 | 8
 	query.exclude = [get_rid()]
@@ -218,7 +238,10 @@ func _process(delta: float) -> void:
 		return
 	if main.mode != "playing":
 		lean = 0
-		camera.position.x = 0
+		sprint_blend = 0
+		run_bob = Vector3.ZERO
+		run_tilt = Vector3.ZERO
+		camera.position = Vector3(0,eye_height,0)
 		camera.rotation.z = 0
 		if main.mode == "dialogue":
 			model.position = model.position.lerp(WeaponVisuals.SAFE_POSITION, 1.0 - exp(-delta * 12))
@@ -229,7 +252,7 @@ func _process(delta: float) -> void:
 		muzzle_smoke.visible = false
 		flash_time = 0.0
 		return
-	# View-model motion never changes the camera basis used by fire().
+	# Weapon offsets remain independent of the composed camera pose.
 	var motion := 0.65
 	var presentation: Variant = main.get("presentation")
 	if presentation != null:
@@ -246,7 +269,6 @@ func _process(delta: float) -> void:
 	mouse_sway = mouse_sway.lerp(mouse_impulse, 1.0 - exp(-delta * 10.0))
 	var moving := Vector2(velocity.x, velocity.z).length()
 	movement_blend = lerpf(movement_blend, clampf(moving / 3.8, 0.0, 1.0) if is_on_floor() else 0.0, smooth)
-	sprint_blend = lerpf(sprint_blend, 1.0 if moving > 4.5 and not aiming else 0.0, smooth)
 	aim_blend = lerpf(aim_blend, 1.0 if aiming else 0.0, 1.0 - exp(-delta * 13.0))
 	camera.fov = lerpf(78.0, 54.0, aim_blend)
 	var held: Vector3 = WeaponVisuals.HIP_POSITIONS[weapon_index]
@@ -494,10 +516,12 @@ func restore(snapshot: Dictionary) -> void:
 	aim_blend = 0.0
 	movement_blend = 0.0
 	sprint_blend = 0.0
+	eye_height = 1.57
+	run_bob = Vector3.ZERO
+	run_tilt = Vector3.ZERO
 	camera.rotation = Vector3.ZERO
 	camera.fov = 78.0
-	camera.position.y = 1.57
-	camera.position.x = 0
+	camera.position = Vector3(0,eye_height,0)
 	(collider.shape as CapsuleShape3D).height = 1.72
 	collider.position.y = 0.86
 	switch_weapon(int(snapshot.weapon))

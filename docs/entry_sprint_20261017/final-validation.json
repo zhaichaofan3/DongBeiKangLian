@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "status": "targeted_checks_passed",
+  "checked_at": "2026-10-17T08:51:32.8963565+08:00",
+  "version": "0.7.2-rc1",
+  "pack_sha256": "9a1e1345acae964aa3de4ebaeaca65a5d0fc165234646231bc3af601824194f6",
+  "source_groups": 9,
+  "package_groups": 6,
+  "full_regression_repeated": false,
+  "logs": [
+    {
+      "name": "source/surface_loading.log",
+      "passed": true,
+      "result": "SURFACE LOADING: PASS | checks=39",
+      "sha256": "9edc49fa18df7de7bc678c2ac934ef942ad9cfb07cde585788b19946641b77f1"
+    },
+    {
+      "name": "source/visual_motion.log",
+      "passed": true,
+      "result": "VISUAL MOTION RESULT: 62/62 passed",
+      "sha256": "49f36652fe21c335f79321f625475069e6b51deb5ea78931bc4951eda9c0d5bc"
+    },
+    {
+      "name": "source/courtyard_controls.log",
+      "passed": true,
+      "result": "COURTYARD CONTROLS: PASS | checks=77",
+      "sha256": "c2a50abc49b2ba0c1ece69c4f42f0af655094e012d4d372e05adf293c96a74fc"
+    },
+    {
+      "name": "source/river_journey.log",
+      "passed": true,
+      "result": "RIVER JOURNEY: PASS | checks=60",
+      "sha256": "e56e231cdee22d76a8eebf603000e01944e961ee9d063f83bde772d17f5482f9"
+    },
+    {
+      "name": "source/first_level_rebuild.log",
+      "passed": true,
+      "result": "FIRST LEVEL REBUILD: PASS | checks=125",
+      "sha256": "dce94c5ad481f7054fc5b003651e7a9515569acbe8afbbb94c593744a7ee2f37"
+    },
+    {
+      "name": "source/world_revision.log",
+      "passed": true,
+      "result": "WORLD REVISION: PASS | checks=45",
+      "sha256": "460442b34fb296ea8f4c10fe44433b9bdad92cb88191a94ba6fbaac143df86d5"
+    },
+    {
+      "name": "source/navigation_budget.log",
+      "passed": true,
+      "result": "NAVIGATION BUDGET:",
+      "sha256": "6fd101073c7353e4a70275dea670b94b2fef62b663a5943b6af4fd9676d5f154"
+    },
+    {
+      "name": "source/smoke.log",
+      "passed": true,
+      "result": "SMOKE RESULT: 108/108 passed",
+      "sha256": "af5f89d11b25aadbb0a74a5b385bb755a33167ada778f41d4f72fd61e5855149"
+    },
+    {
+      "name": "source/dialogue_motion.log",
+      "passed": true,
+      "result": "DIALOGUE MOTION: PASS | checks=5",
+      "sha256": "2336346f60d29fe53fb4e66a0348645c766e9109b168ac42e08b3c687824b71e"
+    },
+    {
+      "name": "release/surface_loading.log",
+      "passed": true,
+      "result": "SURFACE LOADING: PASS | checks=39",
+      "sha256": "c6109041e0e8d46b542cd69a4ed6f807dd6e6d9b689ea3e29d80e9f70ae892cd"
+    },
+    {
+      "name": "release/visual_motion.log",
+      "passed": true,
+      "result": "VISUAL MOTION RESULT: 67/67 passed",
+      "sha256": "a4a5922c2e7b8c58a7f04fbee7f886de8114b4fa6660b061393fc4831331b7cb"
+    },
+    {
+      "name": "release/courtyard_controls.log",
+      "passed": true,
+      "result": "COURTYARD CONTROLS: PASS | checks=77",
+      "sha256": "c2a50abc49b2ba0c1ece69c4f42f0af655094e012d4d372e05adf293c96a74fc"
+    },
+    {
+      "name": "release/river_journey.log",
+      "passed": true,
+      "result": "RIVER JOURNEY: PASS | checks=60",
+      "sha256": "e56e231cdee22d76a8eebf603000e01944e961ee9d063f83bde772d17f5482f9"
+    },
+    {
+      "name": "release/navigation_budget.log",
+      "passed": true,
+      "result": "NAVIGATION BUDGET:",
+      "sha256": "e0a3cf1bc22c0c029b1ff881946e1cc320049c126a8073cdf53d28fc8cef1072"
+    },
+    {
+      "name": "release/smoke.log",
+      "passed": true,
+      "result": "SMOKE RESULT: 108/108 passed",
+      "sha256": "af5f89d11b25aadbb0a74a5b385bb755a33167ada778f41d4f72fd61e5855149"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "GodotProject/scripts/forest_approach.gd",
+      "sha256": "26a08eb3d8305d36ac7600526f2559653ff2183bfac867f2e9c2ee13d7862bf6"
+    },
+    {
+      "path": "GodotProject/scripts/fps_player.gd",
+      "sha256": "cf8857d7f35adbc27bd569cf916b772af1a5d3bd29528ed88dc2da465b587a49"
+    },
+    {
+      "path": "GodotProject/scripts/hud.gd",
+      "sha256": "cd1c833f17120fdb988021ce16b180e620e8f45ea3aeec030862d221c4313b0a"
+    },
+    {
+      "path": "GodotProject/scripts/road_surface.gd",
+      "sha256": "73c967b57d1630f08bbe2efef4ae490c3b260aebc86cea6af5d92c9bdd1964b9"
+    },
+    {
+      "path": "GodotProject/scripts/village_world.gd",
+      "sha256": "7ac15e24f739c55909bbadf05a61ea6fdb00bd2b939c6290ddc1a447e77497ce"
+    },
+    {
+      "path": "GodotProject/tests/river_journey.gd",
+      "sha256": "5adac51fb16996e7a9d31a2203e3a219b9f36b057d97050e916d0b0e6bd60448"
+    },
+    {
+      "path": "GodotProject/tests/surface_loading.gd",
+      "sha256": "0ddeec82e0c1e570548ccb90c5ee9e5a8775c2d3ae31f13cf74a952a7f4d5d9e"
+    },
+    {
+      "path": "GodotProject/tests/visual_motion.gd",
+      "sha256": "4350e6e027400449fdc58326721f4d6caf623eeca93a02039529bac2d20d363c"
+    }
+  ],
+  "protected_asset_count": 127,
+  "protected_assets_unchanged": true,
+  "reachable_cells": 79572,
+  "reachable_sha256": "d23dd1abfdd3f63401624e8b3adba1d4c9ea4f1f468e20f486addfc8f3dda5fb",
+  "navigation_matches_previous_and_source": true,
+  "rendered_resolution": [
+    1280,
+    720
+  ],
+  "source_render_device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "package_render_device": "AMD Radeon 780M Graphics",
+  "performance_remeasured": false,
+  "known_limitations": [
+    "Human motion comfort and continuous visual review still pending.",
+    "Previous ferry long frame is not remeasured or resolved.",
+    "Possibly benign camera interpolation warning remains during ferry handoff."
+  ]
+}

@@ -176,8 +176,19 @@ func _run() -> void:
 	FileAccess.open(evidence.path_join("validation.json"),FileAccess.WRITE).store_string(JSON.stringify(result,"  "))
 	print("RIVER JOURNEY: ","PASS" if failures.is_empty() else "FAIL"," | checks=",checks)
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(main.save_path))
+	forest = null
+	main.mode = "paused"
+	main.audio_mix.set_process(false)
+	for kind in ["AudioStreamPlayer","AudioStreamPlayer3D"]:
+		for sound in main.find_children("*",kind,true,false):
+			sound.stop()
+			sound.stream = null
+	await process_frame
+	OS.delay_msec(150)
 	main.queue_free()
 	await _frames(3)
+	OS.delay_msec(150)
+	await process_frame
 	quit(0 if failures.is_empty() else 1)
 
 func _walk(target: Vector3, frames: int) -> bool:

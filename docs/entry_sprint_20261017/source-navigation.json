@@ -1,0 +1,14 @@
+{
+  "assembly_ms": 25832.071,
+  "longest_initial_frame_ms": 1595.893,
+  "passed": true,
+  "reachable_cells": 79572,
+  "reachable_sha256": "d23dd1abfdd3f63401624e8b3adba1d4c9ea4f1f468e20f486addfc8f3dda5fb",
+  "reference": "C:/GameMake/docs/optimization_20261016/navigation.json",
+  "scope": "All four-neighbour cells reachable from the village and landing after opening both section gates. Graph equivalence includes all accessible yards and side recesses. Startup timing is wall-clock and includes deferred scenery/navigation; headless fixture, not FPS.",
+  "twelve_initial_physics_frames_ms": 2550.795,
+  "version": "0.7.2-rc1",
+  "village_navigation_build_ms": 634.835,
+  "village_physics_queries": 104570,
+  "village_scenery_build_ms": 1586.724
+}

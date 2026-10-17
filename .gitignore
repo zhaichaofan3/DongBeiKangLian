@@ -20,6 +20,8 @@ Release/
 !docs/courtyard_revision_20261016/release/**
 !docs/optimization_20261016/release/
 !docs/optimization_20261016/release/**
+!docs/entry_sprint_20261017/release/
+!docs/entry_sprint_20261017/release/**
 ReleaseBackups/
 WorkBackups/
 RestoreChecks/

@@ -462,7 +462,7 @@ func _show_settings() -> void:
 	slider.value = main.player.sensitivity
 	slider.value_changed.connect(func(value: float): main.presentation.change("sensitivity", value))
 	grid.add_child(slider)
-	_label(grid, 17).text = "武器晃动幅度"
+	_label(grid, 17).text = "镜头与武器晃动"
 	var motion := HSlider.new()
 	motion.min_value = 0
 	motion.max_value = 1

@@ -13,6 +13,8 @@ const ROAD := [LANDING, Vector3(1214,0,416), Vector3(1192,0,401),
 	Vector3(1155,0,296), ENTRANCE, Vector3(1147,0,282)]
 const AREA := Rect2(1114, 289, 140, 146)
 const PIER_AREA := Rect2(1212.9,435,2.2,2.3)
+const ROAD_ELEVATION := .045
+const ROAD_JOIN_HALF_WIDTH := 1.35
 var tree_count := 0
 var road_material: StandardMaterial3D
 var ground_material: StandardMaterial3D
@@ -75,9 +77,27 @@ func build(world: RefCounted, parent: Node3D) -> void:
 	ground.material_override = ground_material
 	parent.add_child(ground)
 	ground.create_trimesh_collision()
+	# Close the visible bank without changing the original terrain collision.
+	var bank_surface := SurfaceTool.new()
+	bank_surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+	for x in range(1114,1254):
+		var a := Vector3(x,height_at(Vector3(x,0,289)),289)
+		var b := Vector3(x+1,height_at(Vector3(x+1,0,289)),289)
+		if maxf(a.y,b.y)<.001: continue
+		for p in [a,Vector3(a.x,0,a.z),b,b,Vector3(a.x,0,a.z),Vector3(b.x,0,b.z)]:
+			bank_surface.set_uv(Vector2(p.x,p.y)*.24)
+			bank_surface.add_vertex(p)
+	bank_surface.generate_normals()
+	bank_surface.generate_tangents()
+	var bank := MeshInstance3D.new()
+	bank.name = "村口林坡可见封边"
+	bank.mesh = bank_surface.commit()
+	bank.material_override = ground_material
+	parent.add_child(bank)
 	var lane := MeshInstance3D.new()
 	lane.name = "引向村口的浅色土路"
-	lane.mesh = RoadSurface.build(ROAD,2.3,.045,.28)
+	lane.mesh = RoadSurface.build(ROAD,2.3,ROAD_ELEVATION,.28,Vector3.LEFT*ROAD_JOIN_HALF_WIDTH)
+	lane.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	lane.material_override = road_material
 	parent.add_child(lane)
 	_build_trees(world,parent)
