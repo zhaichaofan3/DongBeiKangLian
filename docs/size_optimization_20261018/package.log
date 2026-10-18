@@ -1,0 +1,5 @@
+{"stage_ready": true, "files": 41, "version": "0.7.3-rc1"}
+Portable archive: every file hash verified.
+
+
+Preprocessing{"output": "C:\\GameMake\\Release\\Distributions\\0.7.3-rc1", "artifacts": [{"name": "FenghuoEcho-0.7.3-rc1-Setup-Windows-x64.exe", "bytes": 823240913, "sha256": "f2ae5ba05b1a5b48b71c78c2e91782ab110cb045b665d662b1e8847c1f2570fa"}, {"name": "FenghuoEcho-0.7.3-rc1-Portable-Windows-x64.zip", "bytes": 850069596, "sha256": "e5f33e953879e23354bd81bd06dede71f2ed5efa32b3a2bc45ce2103462a8b03"}, {"name": "README.md", "bytes": 8523, "sha256": "c778fd4e2f0e1fd69ec8205924818c097797794dd1a3bdf81b249450030d2d28"}, {"name": "README.txt", "bytes": 8627, "sha256": "88dc589e6670a578bf9ffa5e9515aa041ba09e291e56048c0c762b83040c042f"}]}

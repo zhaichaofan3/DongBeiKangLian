@@ -1,0 +1,83 @@
+﻿2026-10-18 10:57:11.950   Log opened. (Time zone: UTC+08:00)
+2026-10-18 10:57:11.950   Setup version: Inno Setup version 6.7.3
+2026-10-18 10:57:11.950   Original Uninstall EXE: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\unins000.exe
+2026-10-18 10:57:11.951   Uninstall DAT: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\unins000.dat
+2026-10-18 10:57:11.951   Current Uninstall EXE: C:\Users\Administrator\AppData\Local\Temp\is-AIYOC3HJFK-uninstall.tmp\_unins.tmp
+2026-10-18 10:57:11.951   Uninstall command line: /SECONDPHASE="C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\unins000.exe" /FIRSTPHASEWND=$1E0ED8 /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=C:\GameMake\docs\size_optimization_20261018\distribution\uninstall.log
+2026-10-18 10:57:11.951   Windows version: 10.0.26200
+2026-10-18 10:57:11.951   Windows architecture: x64 (64-bit)
+2026-10-18 10:57:11.951   Machine types supported by system: x86 x64
+2026-10-18 10:57:11.951   User privileges: Administrative
+2026-10-18 10:57:11.951   Administrative install mode: No
+2026-10-18 10:57:11.951   Install mode root key: HKEY_CURRENT_USER
+2026-10-18 10:57:11.951   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-10-18 10:57:11.951   Cleaning up any residual temporary files from previous Uninstall runs.
+2026-10-18 10:57:11.952   Deleted file: C:\Users\Administrator\AppData\Local\Temp\is-X2Q1PA20PT-uninstall.tmp\_unins.tmp
+2026-10-18 10:57:11.952   Cleanup finished (2 directories found, 2 directories checked, 1 files deleted).
+2026-10-18 10:57:11.955   Created protected temporary directory: C:\Users\Administrator\AppData\Local\Temp\is-7Y9XK3SDQF.tmp
+2026-10-18 10:57:11.990   Starting the uninstallation process.
+2026-10-18 10:57:11.990   Deleting registry key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\{2A8680CD-4EBD-4E71-BB8C-D52487A4CB27}_is1
+2026-10-18 10:57:12.219   Deleting file: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\东北抗联 烽火回声 QA\卸载游戏.lnk
+2026-10-18 10:57:12.224   Deleting directory: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\东北抗联 烽火回声 QA
+2026-10-18 10:57:12.224   Failed to delete directory (145). Will retry later.
+2026-10-18 10:57:12.254   Deleting file: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\东北抗联 烽火回声 QA\游戏说明.lnk
+2026-10-18 10:57:12.256   Deleting directory: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\东北抗联 烽火回声 QA
+2026-10-18 10:57:12.256   Failed to delete directory (145). Will retry later.
+2026-10-18 10:57:12.315   Deleting file: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\东北抗联 烽火回声 QA\东北抗联 烽火回声.lnk
+2026-10-18 10:57:12.316   Deleting directory: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\东北抗联 烽火回声 QA
+2026-10-18 10:57:12.317   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\Dialogue\river-journey-subtitles.md
+2026-10-18 10:57:12.318   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\Dialogue\dialogue-recording-list.txt
+2026-10-18 10:57:12.318   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\Dialogue\dialogue-recording-list.md
+2026-10-18 10:57:12.318   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\Dialogue\dialogue-recording-data.json
+2026-10-18 10:57:12.318   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\Dialogue
+2026-10-18 10:57:12.318   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\Voice\synthesis.json
+2026-10-18 10:57:12.319   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\Voice\README.md
+2026-10-18 10:57:12.319   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\Voice\alignment.json
+2026-10-18 10:57:12.319   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\Voice
+2026-10-18 10:57:12.320   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\TerrainReference\source.json
+2026-10-18 10:57:12.320   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\TerrainReference\reference_source.json
+2026-10-18 10:57:12.320   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\TerrainReference
+2026-10-18 10:57:12.320   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\JKM\README-original.txt
+2026-10-18 10:57:12.320   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\JKM\LICENSE.txt
+2026-10-18 10:57:12.321   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\JKM\far_pine.blend
+2026-10-18 10:57:12.321   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\JKM
+2026-10-18 10:57:12.321   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\D02\D02.glb
+2026-10-18 10:57:12.321   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\D02\D02.blend
+2026-10-18 10:57:12.324   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\D02
+2026-10-18 10:57:12.324   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\user_soldiers.md
+2026-10-18 10:57:12.324   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\user-expansion-20261015.json
+2026-10-18 10:57:12.325   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\user-audio-20261015.json
+2026-10-18 10:57:12.325   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\settlement-revision-20261015.json
+2026-10-18 10:57:12.325   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\guard-identity-20261015.json
+2026-10-18 10:57:12.326   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\field-sfx-20261015.json
+2026-10-18 10:57:12.326   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\extra-ground-textures.json
+2026-10-18 10:57:12.326   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\environment-supplement.json
+2026-10-18 10:57:12.326   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\environment-original.json
+2026-10-18 10:57:12.326   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\environment-batch.json
+2026-10-18 10:57:12.326   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\dialogue-20261015.json
+2026-10-18 10:57:12.327   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\character-credits.md
+2026-10-18 10:57:12.327   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\building-modifications.json
+2026-10-18 10:57:12.327   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\bayonet-20261015.json
+2026-10-18 10:57:12.327   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices\audio-credits.md
+2026-10-18 10:57:12.328   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AssetNotices
+2026-10-18 10:57:12.328   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\SHA256SUMS.txt
+2026-10-18 10:57:12.328   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\release_validation.json
+2026-10-18 10:57:12.329   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\README.txt
+2026-10-18 10:57:12.329   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\README.md
+2026-10-18 10:57:12.329   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\KNOWN_ISSUES.md
+2026-10-18 10:57:12.329   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\INSTALL.txt
+2026-10-18 10:57:12.330   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\GODOT_LICENSE.txt
+2026-10-18 10:57:12.330   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\GODOT_COPYRIGHT.txt
+2026-10-18 10:57:12.330   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\FenghuoEcho.pck
+2026-10-18 10:57:12.433   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\FenghuoEcho.exe
+2026-10-18 10:57:12.464   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\AUDIO_CREDITS.md
+2026-10-18 10:57:12.465   Deleting file: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试\ASSET_SOURCES.md
+2026-10-18 10:57:12.465   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试
+2026-10-18 10:57:12.465   Failed to delete directory (145). Will retry later.
+2026-10-18 10:57:12.465   Deleting Uninstall data files.
+2026-10-18 10:57:12.466   Creating "_unins-done.tmp" file.
+2026-10-18 10:57:12.987   Deleting directory: C:\GameMake\.publish\distribution-qa-0.7.3-rc1\中文路径 安装测试
+2026-10-18 10:57:13.000   Uninstallation process succeeded.
+2026-10-18 10:57:13.000   Removed all? Yes
+2026-10-18 10:57:13.000   Need to restart Windows? No
+2026-10-18 10:57:13.002   Log closed.

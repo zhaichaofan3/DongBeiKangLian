@@ -37,7 +37,9 @@ if (-not (Test-Path -LiteralPath $releaseRuntime) -or (Get-FileHash -LiteralPath
 }
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'licenses\GODOT_LICENSE.txt'),(Join-Path $PSScriptRoot 'licenses\GODOT_COPYRIGHT.txt') -Destination $release -Force
 Copy-Item -LiteralPath (Join-Path $project 'ASSET_SOURCES.md'),(Join-Path $project 'README.md'),(Join-Path $project 'VERIFICATION.md'),(Join-Path $project 'KNOWN_ISSUES.md') -Destination $release -Force
-$sums = Get-ChildItem -LiteralPath $release -Recurse -File | Where-Object { $_.Name -ne 'SHA256SUMS.txt' } | Sort-Object FullName | ForEach-Object {
+$sums = Get-ChildItem -LiteralPath $release -Recurse -File | Where-Object {
+    $_.Name -ne 'SHA256SUMS.txt' -and [IO.Path]::GetRelativePath($release, $_.FullName) -notlike 'Distributions\*'
+} | Sort-Object FullName | ForEach-Object {
     (Get-FileHash -LiteralPath $_.FullName).Hash.ToLowerInvariant() + '  ' + [IO.Path]::GetRelativePath($release, $_.FullName).Replace('\', '/')
 }
 $sums | Set-Content -LiteralPath (Join-Path $release 'SHA256SUMS.txt') -Encoding utf8

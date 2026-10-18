@@ -13,6 +13,7 @@
 
 [Setup]
 AppId={code:ApplicationId}
+UsePreviousLanguage=no
 AppName=东北抗联 烽火回声
 AppVersion={#GameVersion}
 AppVerName=东北抗联 烽火回声 {#GameVersion}

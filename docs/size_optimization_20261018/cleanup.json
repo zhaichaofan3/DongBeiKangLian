@@ -1,0 +1,36 @@
+{
+  "reason": "Superseded generated 0.7.2 artifacts; 0.7.3 installation verified first. Original models, recovery point and player installation retained.",
+  "files": [
+    {
+      "path": "Release\\Distributions\\0.7.2-rc1\\FenghuoEcho-0.7.2-rc1-Portable-Windows-x64.zip",
+      "bytes": 1381485948,
+      "sha256": "c39758a2d2f32dfcc501d384cb49f20c743507d2844abfc644d4aecb724c2376"
+    },
+    {
+      "path": "Release\\Distributions\\0.7.2-rc1\\FenghuoEcho-0.7.2-rc1-Setup-Windows-x64.exe",
+      "bytes": 1353913092,
+      "sha256": "22f28daa1cd33d5df2d548f21833f0a387fdf5fe5bd7e718b8b6800e4f0b2ee0"
+    },
+    {
+      "path": "Release\\Distributions\\0.7.2-rc1\\README.md",
+      "bytes": 8346,
+      "sha256": "c32235a3bdaf25e0264fa0bc94e4474acaec016c37a72d49c92989cd81e75186"
+    },
+    {
+      "path": "Release\\Distributions\\0.7.2-rc1\\README.txt",
+      "bytes": 8450,
+      "sha256": "07ce8570a817f2c01646ae688d389abb8578e567f6743b6e9579d1617aa03b49"
+    },
+    {
+      "path": "Release\\Distributions\\0.7.2-rc1\\SHA256SUMS.txt",
+      "bytes": 380,
+      "sha256": "b7f57e5c7d91796f40075a19d8c25fad9bb8aee994f8f9ed2ff1e219483e6a87"
+    },
+    {
+      "path": "Release\\Distributions\\0.7.2-rc1\\distribution_manifest.json",
+      "bytes": 5709,
+      "sha256": "e0b4d8a56bef19694f55e323808ec4b70c47d55f819e219d7f48208413f992c8"
+    }
+  ],
+  "bytes_removed": 2735421925
+}

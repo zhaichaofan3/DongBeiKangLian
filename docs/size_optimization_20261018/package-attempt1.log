@@ -1,0 +1,15 @@
+{"stage_ready": true, "files": 41, "version": "0.7.3-rc1"}
+Portable archive: every file hash verified.
+
+
+Error in C:\GameMake\tools\installer\FenghuoEcho.iss: UsePreviousLanguage must be set to "no" when AppId includes constants.
+Compile aborted.
+Traceback (most recent call last):
+  File "C:\GameMake\tools\package_game.py", line 121, in <module>
+    package(parser.parse_args())
+  File "C:\GameMake\tools\package_game.py", line 85, in package
+    subprocess.run([str(compiler), '/Qp', '/DPayloadDir=' + str(stage), '/DOutputDir=' + str(output),
+  File "C:\Program Files\Python311\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\GameMake\\tools\\downloads\\InnoSetup\\ISCC.exe', '/Qp', '/DPayloadDir=C:\\GameMake\\.publish\\player-payload-0.7.3-rc1', '/DOutputDir=C:\\GameMake\\Release\\Distributions\\0.7.3-rc1', '/DGameVersion=0.7.3-rc1', '/DChineseLanguage=C:\\GameMake\\tools\\installer\\ChineseSimplified.isl', 'C:\\GameMake\\tools\\installer\\FenghuoEcho.iss']' returned non-zero exit status 2.
+Preprocessing
