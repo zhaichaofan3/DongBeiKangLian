@@ -1,0 +1,18 @@
+{"draft_id": 416206462, "tag": "v0.7.3-rc1"}
+Traceback (most recent call last):
+  File "C:\GameMake\tools\publish_distribution.py", line 102, in <module>
+    publish((ROOT / args.directory).resolve(), (ROOT / args.report).resolve())
+  File "C:\GameMake\tools\publish_distribution.py", line 70, in publish
+    asset = upload_asset(release, file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GameMake\tools\publish_repository.py", line 182, in upload_asset
+    connection.send(chunk)
+  File "C:\Program Files\Python311\Lib\http\client.py", line 998, in send
+    self.sock.sendall(data)
+  File "C:\Program Files\Python311\Lib\ssl.py", line 1241, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\ssl.py", line 1210, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2393)

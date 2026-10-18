@@ -5,14 +5,45 @@ import json
 import subprocess
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
 from package_game import ROOT, digest, write_json
-from publish_repository import REPOSITORY, api, upload_asset
+from publish_repository import REPOSITORY, api, github_token, upload_asset
 
 
-def publish(directory, report):
+def upload_with_curl(release, file):
+    current = api('/repos/' + REPOSITORY + '/releases/' + str(release['id']))
+    if not current['draft']:
+        raise RuntimeError('Streaming uploads may only modify the current draft.')
+    existing = next((item for item in current['assets'] if item['name'] == file.name), None)
+    if existing and existing['state'] == 'uploaded':
+        if existing['size'] != file.stat().st_size or existing.get('digest') != 'sha256:' + digest(file):
+            raise RuntimeError('Completed draft asset differs: ' + file.name)
+        return existing
+    if existing:
+        api('/repos/' + REPOSITORY + '/releases/assets/' + str(existing['id']), method='DELETE')
+    url = current['upload_url'].split('{')[0] + '?name=' + urllib.parse.quote(file.name)
+    command = ['curl.exe', '--silent', '--show-error', '--fail-with-body', '--request', 'POST',
+               '--upload-file', str(file), '--connect-timeout', '30', '--max-time', '900',
+               '--speed-limit', '16384', '--speed-time', '60', '--config', '-', url]
+    proxy = urllib.request.getproxies().get('https')
+    if proxy:
+        command += ['--proxy', proxy]
+    token = github_token().replace('\\', '\\\\').replace('"', '\\"')
+    # Credentials go through stdin, never shell arguments, a file, or diagnostics.
+    config = ('header = "Authorization: Bearer ' + token + '"\n'
+              'header = "Content-Type: application/octet-stream"\n'
+              'header = "User-Agent: DongBeiKangLian-distribution"\n')
+    print(json.dumps(dict(streaming_upload=file.name, bytes=file.stat().st_size)), flush=True)
+    result = subprocess.run(command, input=config, text=True, encoding='utf-8', capture_output=True, timeout=930)
+    if result.returncode:
+        raise RuntimeError('Streaming upload failed for ' + file.name + ': ' + result.stderr.strip())
+    return json.loads(result.stdout)
+
+
+def publish(directory, report, curl_upload=False):
     manifest = json.loads((directory / 'distribution_manifest.json').read_text(encoding='utf-8'))
     verification = json.loads((ROOT / manifest['installation_verification']).read_text(encoding='utf-8'))
     if not manifest.get('installation_verified') or not verification.get('passed') or verification['artifacts'] != manifest['artifacts']:
@@ -67,7 +98,7 @@ def publish(directory, report):
             existing = next((a for a in release.get('assets', []) if a['name'] == file.name), None)
             if existing and existing.get('state') == 'uploaded' and (existing.get('digest') != expected or existing['size'] != file.stat().st_size):
                 raise RuntimeError('A different completed draft asset already uses this name: ' + file.name)
-            asset = upload_asset(release, file)
+            asset = upload_with_curl(release, file) if curl_upload else upload_asset(release, file)
             if asset['size'] != file.stat().st_size or asset.get('digest') != expected:
                 raise RuntimeError('GitHub upload digest does not match local artifact: ' + file.name)
             print(json.dumps(dict(uploaded=file.name, bytes=asset['size'], sha256=expected)), flush=True)
@@ -98,5 +129,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--directory', default='Release/Distributions/0.7.3-rc1')
     parser.add_argument('--report', default='docs/size_optimization_20261018/distribution')
+    parser.add_argument('--curl-upload', action='store_true', help='Stream through curl when the local TLS proxy interrupts Python uploads.')
     args = parser.parse_args()
-    publish((ROOT / args.directory).resolve(), (ROOT / args.report).resolve())
+    publish((ROOT / args.directory).resolve(), (ROOT / args.report).resolve(), args.curl_upload)
