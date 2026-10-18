@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import json
 import subprocess
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -49,15 +50,18 @@ def publish(directory, report):
     except urllib.error.HTTPError as error:
         if error.code != 404:
             raise
-        release = next((r for r in api(path) if r['tag_name'] == tag), None)
+        release = next((r for r in api(path + '?per_page=100&check=' + str(time.time_ns())) if r['tag_name'] == tag), None)
         if release is None:
             release = api(path, method='POST', data=dict(tag_name=tag, target_commitish=commit,
                           name='东北抗联 烽火回声 ' + version + ' · 1 GB以内 Windows版', body=body,
                           draft=True, prerelease=True))
     if release['draft']:
         release = api(path + '/' + str(release['id']), method='PATCH',
-                      data=dict(name='东北抗联 烽火回声 ' + version + ' · 1 GB以内 Windows版',
+                      data=dict(tag_name=tag, name='东北抗联 烽火回声 ' + version + ' · 1 GB以内 Windows版',
                                 body=body, target_commitish=commit))
+        if release['tag_name'] != tag:
+            raise RuntimeError('Draft release tag changed unexpectedly; inspect it before uploading.')
+        print(json.dumps(dict(draft_id=release['id'], tag=release['tag_name'])), flush=True)
         for file in files:
             expected = 'sha256:' + digest(file)
             existing = next((a for a in release.get('assets', []) if a['name'] == file.name), None)
@@ -67,7 +71,7 @@ def publish(directory, report):
             if asset['size'] != file.stat().st_size or asset.get('digest') != expected:
                 raise RuntimeError('GitHub upload digest does not match local artifact: ' + file.name)
             print(json.dumps(dict(uploaded=file.name, bytes=asset['size'], sha256=expected)), flush=True)
-        release = api(path + '/' + str(release['id']), method='PATCH', data=dict(body=body, draft=False))
+        release = api(path + '/' + str(release['id']), method='PATCH', data=dict(tag_name=tag, body=body, draft=False))
     else:
         # A retry after publication may verify downloads, but never replaces public bytes.
         for file in files:
