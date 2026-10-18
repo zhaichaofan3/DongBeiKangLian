@@ -1,0 +1,108 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Motion scene starts in normal playable grounded state
+PASS: Motion verification writes only its own temporary checkpoint
+PASS: Rifle begins as the visible active weapon
+PASS: Motion image saved: rifle
+PASS: Aim transitions through an intermediate blend
+PASS: Aim changes FOV smoothly without an immediate jump
+PASS: Held aim converges to the intended FOV
+PASS: Aim brings the weapon sights onto the camera centerline
+PASS: Motion image saved: aim
+PASS: Releasing aim restores the hip view
+PASS: Rifle input fires exactly one real round
+ERROR: Firing starts a brief muzzle flash and view-model recoil
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (C:/GameMake/GodotProject/tests/visual_motion.gd:45)
+       [1] _run (C:/GameMake/GodotProject/tests/visual_motion.gd:93)
+       [2] _tap (C:/GameMake/GodotProject/tests/visual_motion.gd:404)
+ERROR: Rifle shot physically lifts and retracts the bolt
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (C:/GameMake/GodotProject/tests/visual_motion.gd:45)
+       [1] _run (C:/GameMake/GodotProject/tests/visual_motion.gd:97)
+       [2] _seconds (C:/GameMake/GodotProject/tests/visual_motion.gd:408)
+ERROR: Firing hand leaves the grip to operate the bolt
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (C:/GameMake/GodotProject/tests/visual_motion.gd:45)
+       [1] _run (C:/GameMake/GodotProject/tests/visual_motion.gd:98)
+       [2] _seconds (C:/GameMake/GodotProject/tests/visual_motion.gd:408)
+PASS: The firing hand has bound middle and thumb joints
+ERROR: Curled finger joints stay around the bolt knob while it is open
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (C:/GameMake/GodotProject/tests/visual_motion.gd:45)
+       [1] _run (C:/GameMake/GodotProject/tests/visual_motion.gd:106)
+       [2] _seconds (C:/GameMake/GodotProject/tests/visual_motion.gd:408)
+PASS: Cycling the supplied bolt keeps sleeves outside the central sight line
+ERROR: Fingers stay within 2.5 cm of the knob throughout lift, pull, push and lock
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (C:/GameMake/GodotProject/tests/visual_motion.gd:45)
+       [1] _run (C:/GameMake/GodotProject/tests/visual_motion.gd:116)
+       [2] _seconds (C:/GameMake/GodotProject/tests/visual_motion.gd:408)
+PASS: Bolt handle rises above its closed position instead of rotating underneath the rifle
+PASS: Support hand stays planted on the fore-end throughout the bolt cycle
+BOLT CONTACT: samples=[0, 1, 8, 5], max_error_m=[0.0, 0.00002459592906, 0.00003597006071, 0.00002402115206], support_drift_m=0.0
+PASS: Bolt returns fully to battery after the cycle
+PASS: Firing hand returns to its grip
+PASS: Flash and recoil decay after the shot
+ERROR: Held aim recovers its sight alignment after firing and operating the bolt
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (C:/GameMake/GodotProject/tests/visual_motion.gd:45)
+       [1] _run (C:/GameMake/GodotProject/tests/visual_motion.gd:123)
+       [2] _seconds (C:/GameMake/GodotProject/tests/visual_motion.gd:408)
+PASS: Rifle reload starts without granting ammunition early
+PASS: Mid-reload clip is visible over the open receiver
+PASS: Support hand reaches the receiver during loading
+PASS: Clip has moved down along its insertion path
+PASS: Motion image saved: reload
+PASS: Rifle reload completes with the correct magazine and reserve transfer
+PASS: Completed reload hides the clip and restores the hand and bolt
+ERROR: Held aim recovers its sight alignment after reloading
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (C:/GameMake/GodotProject/tests/visual_motion.gd:45)
+       [1] _run (C:/GameMake/GodotProject/tests/visual_motion.gd:139)
+       [2] _seconds (C:/GameMake/GodotProject/tests/visual_motion.gd:408)
+PASS: Weapon key switches visibility to the pistol
+PASS: Weapon switch begins its timed visual transition
+PASS: Switched pistol rises into its held position
+PASS: Motion image saved: pistol
+PASS: Pistol index-finger skin reaches the trigger region inside the guard outline
+PISTOL TRIGGER: resting_joint=(0.028534, -0.046997, -0.011955), closest_finger_surface=(0.009207, -0.051283, -0.01816), trigger_distance_m=0.01056576520205
+PASS: Pistol shot consumes a round and cycles its bolt
+PASS: Pistol bolt returns after cycling
+PASS: Pistol trigger finger visibly pulls and returns to its held grip
+PASS: Pistol reload uses a visible clip and a separate loading hand
+PASS: Pistol reload completes with correct ammunition transfer
+PASS: Pistol loading hand and clip return to normal
+PASS: Restore test begins while shot effects are active
+PASS: Restore immediately cancels an unfinished shot effect
+PASS: Restore test begins during a real unfinished reload
+PASS: Restore cancels loading and restores snapshot ammunition
+PASS: Restore resets all weapon mechanisms and hands
+PASS: Cancelled reload cannot grant ammunition later
+PASS: Weapon-switch test begins during real rifle loading
+PASS: Switching away cancels loading and hides the rifle
+PASS: Switched-away reload cannot grant ammunition later
+PASS: Restore resets the hidden rifle after its interrupted loading action
+PASS: Restore recovers both weapons' ammunition after a cancelled switch reload
+PASS: Real sprint input reaches running speed and travels on the ground
+PASS: Sprinting visibly moves the camera vertically, laterally and in roll
+PASS: Sprint camera motion stays below 3.1 cm and one degree
+PASS: Motion image saved: sprint-camera
+PASS: Zero motion setting disables camera bob while sprinting
+PASS: Aiming removes running camera offsets without losing the aiming pitch or recoil
+PASS: Crouch retains the low eye position and suppresses sprint bob
+PASS: Leaving the ground suppresses running camera motion
+PASS: Stopping returns the camera to its base pose without accumulated drift
+PASS: Leaning retains its full protected head offset and roll
+PASS: Pause clears the running camera pose immediately
+PASS: Checkpoint restore clears all sprint camera offsets immediately
+PASS: Motion verification removes its temporary checkpoint
+VISUAL MOTION RESULT: 60/67 passed

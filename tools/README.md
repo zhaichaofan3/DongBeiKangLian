@@ -8,6 +8,7 @@
 |---|---|
 | 根 `Start-Game.ps1` | 运行游戏，`-Editor`编辑器 |
 | 根 `Build-Game.ps1` | 导入与安全替换PCK，并拷贝运行时与许可 |
+| 根 `Package-Game.ps1` | 将已验证运行包制作为Windows中文安装版与免安装版，说明源在`docs/player/` |
 | 根 `Test-Game.ps1` | 完整回归，`-Release`验证独立包，必须串行 |
 | `Find-Godot.ps1` | GODOT_EXE、本地工具、PATH或WinGet定位引擎 |
 | `Verify-RiverJourney.ps1` | 渡河、密林、存档与跳过专项，支持-Release、-Headless与-EvidenceRoot |
@@ -43,5 +44,7 @@
 `repository_maintenance.py`生成目录大小清单，`verify_repository.py`校验受保护运行文件、模型迁移及待提交内容。`Apply-RepositoryCleanup.ps1`、`prepare_repository_cleanup.py`与`organize_project_records.py`是本轮一次性整理工具，不应重复执行迁移或删除。审计见docs/maintenance/repository-20261016。
 
 `publish_repository.py`通过Git凭据管理器访问本项目GitHub仓库，不保存凭据。生成包放Releases，当前源与素材放Git/LFS。
+
+`package_game.py`核对既有运行包验收并生成精简玩家包，`verify_distribution.py`实际解压、安装、运行和卸载测试；`publish_distribution.py`只上传已通过本地安装验证且哈希一致的产物，先创建草稿并核对GitHub接收的文件摘要，再公开发布。后者属于发布操作，仅在用户授权发行时运行，不替换已公开版本。安装工具来源见`installer/README.md`。
 
 `Verify-RepositoryBuild.ps1`验证便携构建和独立包；`verify_fresh_clone.py`为本轮空目录远端下载、素材哈希、首次导入及运行验证入口，输出使用固定日期目录，已有验证副本时不得直接覆盖。

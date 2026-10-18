@@ -4,7 +4,7 @@
 
 ## 先运行起来
 
-- **只想试玩：**到 [Releases](https://github.com/zhaichaofan3/DongBeiKangLian/releases) 下载Windows试玩包，解压后运行 `FenghuoEcho.exe`，保留同目录的PCK和来源文件。在线包目前为0.7.0-rc1，本轮0.7.2-rc1从下方本机入口或源码运行。
+- **只想试玩：**到 [0.7.2-rc1下载页](https://github.com/zhaichaofan3/DongBeiKangLian/releases/tag/v0.7.2-rc1) 选择Windows安装版或免安装版。安装版按中文向导安装，从开始菜单启动；免安装版完整解压后运行 `FenghuoEcho.exe`，保留同目录全部文件。无需安装制作工具。
 - **本机已有工程：**双击 `Start-Game.cmd`；编辑器入口为 `./Start-Game.ps1 -Editor`。
 - **新电脑开发：**安装 [Git LFS](https://git-lfs.com/) 与 [Godot 4.7.2](https://godotengine.org/download/archive/)，再执行：
 
@@ -18,6 +18,8 @@ $env:GODOT_EXE = 'D:\Apps\Godot\Godot_v4.7.2-stable_win64_console.exe'
 ```
 
 首次打开会重新导入模型和音频，需要等待。也可直接用Godot打开 `GodotProject/project.godot`。运行游戏不需要Python或Blender；模型制作建议Blender 4.5 LTS，工具脚本使用Python 3.11。环境与构建详情见 [开发指南](docs/DEVELOPMENT.md)。
+
+**玩家说明：**[剧情、人物、游玩流程、操作与游戏特色](docs/player/README.md)。安装包和免安装包中均附有`README.md`及可直接用记事本阅读的`README.txt`。安装版支持卸载，保留用户存档；新发行包本地入口为`Release/Distributions/0.7.2-rc1/`。
 
 ## 当前内容
 
@@ -55,6 +57,7 @@ WASD移动，Shift冲刺，C切换蹲伏（Ctrl按住蹲伏），Q/E按住左右
 ./Test-Game.ps1          # 全量源码检查，串行执行
 ./Build-Game.ps1         # 生成 Release/FenghuoEcho.exe 与 .pck
 ./Test-Game.ps1 -Release # 独立试玩包检查
+./Package-Game.ps1       # 已验收运行包制作中文安装版与免安装版
 ```
 
 地图、剧情、存档和模型修改入口见 [开发指南](docs/DEVELOPMENT.md)。接手先读本页、`PROGRESS.md`与开发指南；无需恢复旧36步状态或自动面板。后续用Git提交记录修改，以项目阶段和待办更新进度，避免反复复制整个文件夹。

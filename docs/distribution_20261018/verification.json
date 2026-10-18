@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-18T02:09:58.465535+00:00",
+  "version": "0.7.2-rc1",
+  "pack_sha256": "9a1e1345acae964aa3de4ebaeaca65a5d0fc165234646231bc3af601824194f6",
+  "artifacts": [
+    {
+      "name": "FenghuoEcho-0.7.2-rc1-Setup-Windows-x64.exe",
+      "bytes": 1353913092,
+      "sha256": "22f28daa1cd33d5df2d548f21833f0a387fdf5fe5bd7e718b8b6800e4f0b2ee0"
+    },
+    {
+      "name": "FenghuoEcho-0.7.2-rc1-Portable-Windows-x64.zip",
+      "bytes": 1381485948,
+      "sha256": "c39758a2d2f32dfcc501d384cb49f20c743507d2844abfc644d4aecb724c2376"
+    },
+    {
+      "name": "README.md",
+      "bytes": 8346,
+      "sha256": "c32235a3bdaf25e0264fa0bc94e4474acaec016c37a72d49c92989cd81e75186"
+    },
+    {
+      "name": "README.txt",
+      "bytes": 8450,
+      "sha256": "07ce8570a817f2c01646ae688d389abb8578e567f6743b6e9579d1617aa03b49"
+    }
+  ],
+  "payload_files_verified": 41,
+  "unicode_paths": true,
+  "windows_uninstall_registration": {
+    "DisplayName": "烽火回声 · 林海归途",
+    "DisplayVersion": "0.7.2-rc1",
+    "InstallLocation": "C:\\GameMake\\.publish\\distribution-qa-0.7.2-rc1\\中文路径 安装测试\\"
+  },
+  "shortcuts_verified": 3,
+  "uninstall_verified": true,
+  "real_player_saves_unchanged": true,
+  "checks": [
+    {
+      "executable": ".publish\\distribution-qa-0.7.2-rc1\\中文路径 解压测试\\FenghuoEcho\\FenghuoEcho.exe",
+      "rendered": false,
+      "fixture": "smoke",
+      "driver": "GodotProject\\tests\\smoke.gd",
+      "driver_sha256": "4e610db0985cd29725748ebe97e80202ec33e9e414cc41c2ff44406a504f36e5",
+      "checks": 108,
+      "exit_code": 0,
+      "log_sha256": "af5f89d11b25aadbb0a74a5b385bb755a33167ada778f41d4f72fd61e5855149"
+    },
+    {
+      "executable": ".publish\\distribution-qa-0.7.2-rc1\\中文路径 安装测试\\FenghuoEcho.exe",
+      "rendered": true,
+      "fixture": "visual_motion",
+      "driver": "tools\\installer\\distribution_motion.gd",
+      "driver_sha256": "9177a9066a59b72e1c4cfb50e01bd14808c92b17153194f2c60ef9c5eccb7368",
+      "checks": 67,
+      "exit_code": 0,
+      "log_sha256": "466fdd0c36e7151065fb854e6e167844279e841ef712922b8fcc14aebdd37849"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "installed-screenshots/aim.png",
+      "sha256": "255a8dadb275054878855716a35587c2a27c3397d992dff6e26bfe852a722140"
+    },
+    {
+      "name": "installed-screenshots/pistol.png",
+      "sha256": "bd99e53fad8f72f579f8d6adbba3be59bbbb733020b78465c702d533f47c359b"
+    },
+    {
+      "name": "installed-screenshots/reload.png",
+      "sha256": "1b362b2251515bad98f5a381119c86431e96aa3b55962f5138fd907115cfe897"
+    },
+    {
+      "name": "installed-screenshots/rifle.png",
+      "sha256": "486cccfda44f32af37845af273ae7684ff0db0f13dfabf5b8cdfeb3a622742b2"
+    },
+    {
+      "name": "installed-screenshots/sprint-camera.png",
+      "sha256": "4fd1152241648556c7a84b8468bd894245ee66d54b078ec19ae46d338cfdec98"
+    }
+  ],
+  "full_game_regression_repeated": false,
+  "installer_visual_review": false
+}

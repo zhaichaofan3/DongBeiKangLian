@@ -46,6 +46,16 @@
 
 构建先导入，再导出临时PCK，成功后替换正式PCK，同时拷贝官方标准运行时及许可。新包先写`validation_pending`并刷新校验清单，避免沿用旧验收；独立包验证后再运行本批次汇总工具写入最终结果。使用 `--export-pack`，无需另装导出模板。试玩包通过GitHub Releases分发。
 
+### 制作玩家发行包
+
+游戏本体验证通过后，执行 `./Package-Game.ps1`，生成中文安装版EXE、免安装ZIP、玩家README及SHA-256清单，位于`Release/Distributions/<版本>/`。该步骤只包装现有EXE/PCK，不会重新导入或重建游戏。脚本先核对游戏版本、已通过验收的PCK及记录中的源码哈希，拒绝把已修改但未验收的运行包直接发行。
+
+发行制作需要Python 3.11和[Inno Setup 6](https://jrsoftware.org/isdl.php)；以`ISCC_EXE`或`-IsccPath`指定编译器。中文翻译、安装定义和来源见`tools/installer/`。安装工具放忽略目录，玩家不需要安装它们。安装包默认使用当前用户目录，提供开始菜单入口、可选桌面快捷方式和卸载，保留用户存档。
+
+发行后检查使用 `python tools/verify_distribution.py --directory Release/Distributions/<版本> --report docs/对应批次`，串行验证解压、中文路径静默安装、实际运行、Windows卸载登记、快捷方式和卸载；使用独立QA文件并核对真实存档未变。若已有正式安装或同名测试目录，先检查现状，不覆盖已有安装。脚本会保留少量日志和游戏截图。
+
+玩家文档源为`docs/player/`；根README继续面向开发者。发行不包含源码、缓存、旧验证目录或工程备份，保留全部现有来源许可。更新游戏后需先重建和验收PCK，再重新制作发行包；仅改玩家说明可重新包装已验收游戏。
+
 首次批处理导入使用 `--headless --import` 并等待引擎自行退出，不要额外叠加 `--quit`。本轮修正了这一导入流程，并从空缓存验证通过。
 
 ## 存档与调试
