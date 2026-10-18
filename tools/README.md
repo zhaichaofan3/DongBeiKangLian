@@ -9,6 +9,10 @@
 | 根 `Start-Game.ps1` | 运行游戏，`-Editor`编辑器 |
 | 根 `Build-Game.ps1` | 导入与安全替换PCK，并拷贝运行时与许可 |
 | 根 `Package-Game.ps1` | 将已验证运行包制作为Windows中文安装版与免安装版，说明源在`docs/player/` |
+| `configure_delivery_assets.gd` | Godot运行；新增/修改场景贴图后重算原图SHA-256与导入参数一致的共用资源和导出清单，普通构建无需重复运行 |
+| `audit_player_pack.py` | 读取Godot PCK v4并核对每项MD5；可对比保留贴图逐字节一致性 |
+| `verify_size_release.py` | 0.7.3资源/名称/首关/村庄/渡河/开场/导航及画质专项，串行；不代替全量回归 |
+| `verify_distribution.py` | 校验下载、解压、独立QA安装/运行/卸载，保护已有玩家安装、快捷方式与存档 |
 | 根 `Test-Game.ps1` | 完整回归，`-Release`验证独立包，必须串行 |
 | `Find-Godot.ps1` | GODOT_EXE、本地工具、PATH或WinGet定位引擎 |
 | `Verify-RiverJourney.ps1` | 渡河、密林、存档与跳过专项，支持-Release、-Headless与-EvidenceRoot |

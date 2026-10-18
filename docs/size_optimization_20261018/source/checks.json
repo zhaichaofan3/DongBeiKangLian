@@ -1,0 +1,10 @@
+[
+  {
+    "name": "delivery_assets",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\source\\delivery_assets.log",
+    "sha256": "2a2429f0065415c4b4c793d42022277d49aa9f1ec24c50c45d7108e9fe1869d0",
+    "result": "DELIVERY ASSETS: PASS | checks=68"
+  }
+]

@@ -23,7 +23,7 @@ def publish(directory, report):
     version = manifest['version']
     tag = 'v' + version
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
-    body = ('东北抗联题材原创单人剧情FPS。1938年深秋，从青岚林场夺回名册、营救战友，'
+    body = ('**东北抗联 烽火回声**，东北抗联题材原创单人剧情FPS。1938年深秋，从青岚林场夺回名册、营救战友，'
             '再经双人顺流渡河和密林土路进入松岭屯，完成三段穿院战斗。\n\n'
             '### 下载与游玩\n\n'
             '- **安装版**：下载 `Setup-Windows-x64.exe`，按中文向导安装，从开始菜单启动。支持卸载，保留用户存档。\n'
@@ -32,11 +32,14 @@ def publish(directory, report):
             '- 随附 `README.md` / `README.txt` 介绍剧情、人物、路线、操作和特色；`SHA256SUMS.txt` 用于核对下载。\n\n'
             '### 本版内容\n\n'
             '12组大院与窄街穿院、蹲伏和左右探头、三档画质、树林分块与院落合批、实际压弹动画，'
-            '并包含最新入村路面接缝修复与跑步镜头晃动。安装和免安装包使用同一份已验证游戏本体。\n\n'
+            '并包含最新入村路面接缝修复与跑步镜头晃动。\n\n'
+            '本版无损合并重复环境贴图，排除未使用的整村展示模型，保留完整关卡、原贴图分辨率与音频。'
+            '安装版及免安装ZIP均小于1 GB（1,000,000,000字节），使用同一份已验证游戏本体。\n\n'
             '### 验证与限制\n\n'
             '本批逐文件核对压缩包和安装内容，实际验证中文路径解压/安装、便携包108项基础检查、'
             '安装版有画面枪械与镜头检查、开始菜单入口和卸载；用户存档未改变。'
-            '游戏内容沿用2026-10-17专项验证，本批没有重跑全量游戏回归或性能基准。\n\n'
+            '资源加载、贴图一致性、首关、院落、渡河、开场、导航与有画面画质/地图专项重新验证；'
+            '本批没有重跑全量游戏回归，运行中的旧版游戏使帧率对比不具备受控条件。\n\n'
             '当前为试玩候选版：部分对白只有字幕，声音听审、连续美术/表演和真人难度仍待收尾；'
             '此前渡口短暂停顿未确认消除，最低配置及其他平台未验收。安装包尚未代码签名。'
             '来源与许可随包保留，公开下载不等于所有素材可自由再授权。')
@@ -49,9 +52,12 @@ def publish(directory, report):
         release = next((r for r in api(path) if r['tag_name'] == tag), None)
         if release is None:
             release = api(path, method='POST', data=dict(tag_name=tag, target_commitish=commit,
-                          name=version + ' · 林海归途 Windows安装版与免安装版', body=body,
+                          name='东北抗联 烽火回声 ' + version + ' · 1 GB以内 Windows版', body=body,
                           draft=True, prerelease=True))
     if release['draft']:
+        release = api(path + '/' + str(release['id']), method='PATCH',
+                      data=dict(name='东北抗联 烽火回声 ' + version + ' · 1 GB以内 Windows版',
+                                body=body, target_commitish=commit))
         for file in files:
             expected = 'sha256:' + digest(file)
             existing = next((a for a in release.get('assets', []) if a['name'] == file.name), None)
@@ -86,7 +92,7 @@ def publish(directory, report):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--directory', default='Release/Distributions/0.7.2-rc1')
-    parser.add_argument('--report', default='docs/distribution_20261018')
+    parser.add_argument('--directory', default='Release/Distributions/0.7.3-rc1')
+    parser.add_argument('--report', default='docs/size_optimization_20261018/distribution')
     args = parser.parse_args()
     publish((ROOT / args.directory).resolve(), (ROOT / args.report).resolve())

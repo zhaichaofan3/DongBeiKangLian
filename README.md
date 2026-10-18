@@ -1,10 +1,10 @@
-# 烽火回声 · 林海归途
+# 东北抗联 烽火回声
 
-东北抗联题材原创单机第一人称游戏。故事发生在1938年深秋的虚构青岚林场与松岭屯，当前版本 **0.7.2-rc1**。使用 **Godot 4.7.2 / GDScript / GL Compatibility**，Windows为当前验证平台。
+东北抗联题材原创单机第一人称游戏。故事发生在1938年深秋的虚构青岚林场与松岭屯，当前版本 **0.7.3-rc1**。使用 **Godot 4.7.2 / GDScript / GL Compatibility**，Windows为当前验证平台。
 
 ## 先运行起来
 
-- **只想试玩：**到 [0.7.2-rc1下载页](https://github.com/zhaichaofan3/DongBeiKangLian/releases/tag/v0.7.2-rc1) 选择Windows安装版或免安装版。安装版按中文向导安装，从开始菜单启动；免安装版完整解压后运行 `FenghuoEcho.exe`，保留同目录全部文件。无需安装制作工具。
+- **只想试玩：**到 [0.7.3-rc1下载页](https://github.com/zhaichaofan3/DongBeiKangLian/releases/tag/v0.7.3-rc1) 选择Windows安装版或免安装版。安装版按中文向导安装，从开始菜单启动；免安装版完整解压后运行 `FenghuoEcho.exe`，保留同目录全部文件。无需安装制作工具。
 - **本机已有工程：**双击 `Start-Game.cmd`；编辑器入口为 `./Start-Game.ps1 -Editor`。
 - **新电脑开发：**安装 [Git LFS](https://git-lfs.com/) 与 [Godot 4.7.2](https://godotengine.org/download/archive/)，再执行：
 
@@ -19,7 +19,7 @@ $env:GODOT_EXE = 'D:\Apps\Godot\Godot_v4.7.2-stable_win64_console.exe'
 
 首次打开会重新导入模型和音频，需要等待。也可直接用Godot打开 `GodotProject/project.godot`。运行游戏不需要Python或Blender；模型制作建议Blender 4.5 LTS，工具脚本使用Python 3.11。环境与构建详情见 [开发指南](docs/DEVELOPMENT.md)。
 
-**玩家说明：**[剧情、人物、游玩流程、操作与游戏特色](docs/player/README.md)。安装包和免安装包中均附有`README.md`及可直接用记事本阅读的`README.txt`。安装版支持卸载，保留用户存档；新发行包本地入口为`Release/Distributions/0.7.2-rc1/`。
+**玩家说明：**[剧情、人物、游玩流程、操作与游戏特色](docs/player/README.md)。安装包和免安装包中均附有`README.md`及可直接用记事本阅读的`README.txt`。安装版支持卸载，保留用户存档；新发行包本地入口为`Release/Distributions/0.7.3-rc1/`。
 
 ## 当前内容
 
@@ -30,6 +30,8 @@ $env:GODOT_EXE = 'D:\Apps\Godot\Godot_v4.7.2-stable_win64_console.exe'
 WASD移动，Shift冲刺，C切换蹲伏（Ctrl按住蹲伏），Q/E按住左右探头，Space跳跃，鼠标射击/瞄准，R装填，F互动，H包扎，J记录，Esc暂停，Enter跳过当前演出。完整操作与存档说明见 [游戏说明](GodotProject/README.md)。
 
 当前是候选版。新增渡河对白仍为字幕，声音听审、连续人物表演与美术观感、完整真人难度及其他硬件兼容性仍待验收。最新状态见 [PROGRESS.md](PROGRESS.md)。
+
+0.7.3正式名称统一为“东北抗联 烽火回声”。以共用完全相同的环境贴图、排除未使用的整村展示资源控制发行大小，保留实际关卡、近景材质、原始音频和既有远景LOD；打包流程对安装EXE和免安装ZIP分别执行1 GB（10亿字节）上限。记录见[体积优化](docs/size_optimization_20261018/README.md)。
 
 0.7.2增加树林空间分块与重复院落合批，保留原有树木和碰撞；改进贴图斜视角清晰度、自然光、近景阴影与地表细节。使用引擎内置Jolt物理与人物资源缓存处理上岸卡顿。画面设置仍为性能、均衡、画质三档，按档位调整抗锯齿、几何细节和阴影精度，默认均衡。开始与读档按钮会等待战场准备完成。
 

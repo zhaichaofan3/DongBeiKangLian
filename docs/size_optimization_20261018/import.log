@@ -1,0 +1,771 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (3 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (16 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | barbed_wire.glb[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | boat.glb[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | camp_1.glb[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | camp_2.glb[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | camp_3.glb[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | camp_4.glb[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | dock.glb[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | kar98k.glb[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | office.glb[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | river.glb[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | village_1.glb[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | village_2.glb[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | village_3.glb[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | village_4.glb[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | village_complete.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | village_passages.glb[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (301 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  99% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  99% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Started Preparing scenes for reload (1 steps)[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Analyzing scene [empty][39m[0m
+[  50% ] [90m[1mpreload_reimporting_scene[22m | Preparation done.[39m[0m
+[92m[ DONE ][39m [1mpreload_reimporting_scene[22m
+[0m
+[   0% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-48.jpg[39m[0m
+[   0% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-47.jpg[39m[0m
+[   0% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-46.jpg[39m[0m
+[   0% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-45.jpg[39m[0m
+[   1% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-60.jpg[39m[0m
+[   1% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-59.jpg[39m[0m
+[   1% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-58.jpg[39m[0m
+[   2% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-50.jpg[39m[0m
+[   2% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-63.jpg[39m[0m
+[   2% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-61.jpg[39m[0m
+[   3% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-62.jpg[39m[0m
+[   3% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-49.jpg[39m[0m
+[   3% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-65.jpg[39m[0m
+[   4% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-64.jpg[39m[0m
+[   4% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-125-3d66Model-691775-files-126.png[39m[0m
+[   4% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-20.jpg[39m[0m
+[   5% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-4.jpg[39m[0m
+[   5% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-5.jpg[39m[0m
+[   5% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-76.jpg[39m[0m
+[   6% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-74.jpg[39m[0m
+[   6% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-75.jpg[39m[0m
+[   6% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-68.jpg[39m[0m
+[   7% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-77.jpg[39m[0m
+[   7% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-71.jpg[39m[0m
+[   7% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-67.jpg[39m[0m
+[   8% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-70.jpg[39m[0m
+[   8% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-83.jpg[39m[0m
+[   8% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-69.jpg[39m[0m
+[   9% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-79.jpg[39m[0m
+[   9% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-66.jpg[39m[0m
+[   9% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-44.jpg[39m[0m
+[  10% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-57.jpg[39m[0m
+[  10% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-55.jpg[39m[0m
+[  10% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-54.jpg[39m[0m
+[  11% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-53.jpg[39m[0m
+[  11% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-52.jpg[39m[0m
+[  11% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-51.jpg[39m[0m
+[  12% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-86.jpg[39m[0m
+[  12% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-80.jpg[39m[0m
+[  12% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-85.jpg[39m[0m
+[  13% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-82.jpg[39m[0m
+[  13% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-81.jpg[39m[0m
+[  13% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-73.jpg[39m[0m
+[  14% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-78.jpg[39m[0m
+[  14% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-72.jpg[39m[0m
+[  14% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-84.jpg[39m[0m
+[  15% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-76.jpg[39m[0m
+[  15% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-74.jpg[39m[0m
+[  15% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-75.jpg[39m[0m
+[  16% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-68.jpg[39m[0m
+[  16% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-77.jpg[39m[0m
+[  16% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-71.jpg[39m[0m
+[  17% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-67.jpg[39m[0m
+[  17% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-70.jpg[39m[0m
+[  17% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-83.jpg[39m[0m
+[  18% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-94.jpg[39m[0m
+[  18% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-21.jpg[39m[0m
+[  18% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-23.jpg[39m[0m
+[  19% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-25.jpg[39m[0m
+[  19% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-22.jpg[39m[0m
+[  19% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-33.jpg[39m[0m
+[  20% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-30.jpg[39m[0m
+[  20% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-31.jpg[39m[0m
+[  20% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-105.jpg[39m[0m
+[  21% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-114.jpg[39m[0m
+[  21% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-43.jpg[39m[0m
+[  21% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-39.jpg[39m[0m
+[  22% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-41.jpg[39m[0m
+[  22% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-40.jpg[39m[0m
+[  22% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-24.jpg[39m[0m
+[  23% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-42.jpg[39m[0m
+[  23% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-102.jpg[39m[0m
+[  23% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-134.jpg[39m[0m
+[  24% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-87.jpg[39m[0m
+[  24% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-69.jpg[39m[0m
+[  24% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-79.jpg[39m[0m
+[  25% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-26.jpg[39m[0m
+[  25% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-131.jpg[39m[0m
+[  25% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-6.jpg[39m[0m
+[  26% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-103.jpg[39m[0m
+[  26% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-1.jpg[39m[0m
+[  26% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-100.jpg[39m[0m
+[  27% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-104.jpg[39m[0m
+[  27% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-11.jpg[39m[0m
+[  27% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-88.jpg[39m[0m
+[  28% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-93.jpg[39m[0m
+[  28% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-136-3d66Model-691775-files-137.png[39m[0m
+[  28% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-14-3d66Model-691775-files-135.png[39m[0m
+[  29% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-109.jpg[39m[0m
+[  29% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-18.jpg[39m[0m
+[  29% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-19.jpg[39m[0m
+[  30% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-17.jpg[39m[0m
+[  30% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-87.jpg[39m[0m
+[  30% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-86.jpg[39m[0m
+[  31% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-80.jpg[39m[0m
+[  31% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-85.jpg[39m[0m
+[  31% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-82.jpg[39m[0m
+[  32% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-81.jpg[39m[0m
+[  32% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-73.jpg[39m[0m
+[  32% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-78.jpg[39m[0m
+[  33% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-72.jpg[39m[0m
+[  33% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-84.jpg[39m[0m
+[  33% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-76.jpg[39m[0m
+[  34% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-74.jpg[39m[0m
+[  34% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-75.jpg[39m[0m
+[  34% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-68.jpg[39m[0m
+[  35% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-77.jpg[39m[0m
+[  35% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-71.jpg[39m[0m
+[  35% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-67.jpg[39m[0m
+[  36% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-70.jpg[39m[0m
+[  36% ] [90m[1mreimport[22m | village_passages_3d66Model-691775-files-83.jpg[39m[0m
+[  36% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-117.jpg[39m[0m
+[  37% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-95.jpg[39m[0m
+[  37% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-9.jpg[39m[0m
+[  37% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-96.jpg[39m[0m
+[  38% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-27.jpg[39m[0m
+[  38% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-13.jpg[39m[0m
+[  38% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-12.jpg[39m[0m
+[  39% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-16.jpg[39m[0m
+[  39% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-56.jpg[39m[0m
+[  39% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-87.jpg[39m[0m
+[  40% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-86.jpg[39m[0m
+[  40% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-80.jpg[39m[0m
+[  40% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-85.jpg[39m[0m
+[  41% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-82.jpg[39m[0m
+[  41% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-81.jpg[39m[0m
+[  41% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-73.jpg[39m[0m
+[  42% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-78.jpg[39m[0m
+[  42% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-72.jpg[39m[0m
+[  42% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-84.jpg[39m[0m
+[  43% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-97.jpg[39m[0m
+[  43% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-98.jpg[39m[0m
+[  43% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-28.jpg[39m[0m
+[  44% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-29.jpg[39m[0m
+[  44% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-35.jpg[39m[0m
+[  44% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-34.jpg[39m[0m
+[  45% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-36.jpg[39m[0m
+[  45% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-32.jpg[39m[0m
+[  45% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-37.jpg[39m[0m
+[  46% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-116.jpg[39m[0m
+[  46% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-90.jpg[39m[0m
+[  46% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-8.jpg[39m[0m
+[  47% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-7.jpg[39m[0m
+[  47% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-132.jpg[39m[0m
+[  47% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-119.jpg[39m[0m
+[  48% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-107.jpg[39m[0m
+[  48% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-130.jpg[39m[0m
+[  48% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-128.jpg[39m[0m
+[  49% ] [90m[1mreimport[22m | village_complete_3d66Model-691775-files-118.jpg[39m[0m
+[  49% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-018.jpg[39m[0m
+[  49% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-017.jpg[39m[0m
+[  50% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-011.jpg[39m[0m
+[  50% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-012.jpg[39m[0m
+[  50% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-013.jpg[39m[0m
+[  50% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-010.jpg[39m[0m
+[  51% ] [90m[1mreimport[22m | kar98k_3d66-export-JJI54551850227-001.jpg[39m[0m
+[  51% ] [90m[1mreimport[22m | kar98k_3d66-export-JJI54551850227-001.jpg[39m[0m
+[  51% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-032.jpg[39m[0m
+[  51% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-031.jpg[39m[0m
+[  52% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-024.jpg[39m[0m
+[  52% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-023.jpg[39m[0m
+[  52% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-022.jpg[39m[0m
+[  53% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-021.jpg[39m[0m
+[  53% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-020.jpg[39m[0m
+[  53% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-019.jpg[39m[0m
+[  54% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-030.jpg[39m[0m
+[  54% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-029.jpg[39m[0m
+[  54% ] [90m[1mreimport[22m | river_3d66Model-15202935-files-55.jpg[39m[0m
+[  55% ] [90m[1mreimport[22m | river_3d66Model-15202935-files-1.jpg[39m[0m
+[  55% ] [90m[1mreimport[22m | river_3d66Model-15202935-files-43.jpg[39m[0m
+[  55% ] [90m[1mreimport[22m | river_3d66Model-15202935-files-42.jpg[39m[0m
+[  56% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-014.jpg[39m[0m
+[  56% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-020.jpg[39m[0m
+[  56% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-019.jpg[39m[0m
+[  57% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-002.jpg[39m[0m
+[  57% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-009.jpg[39m[0m
+[  57% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-007.jpg[39m[0m
+[  58% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-005.jpg[39m[0m
+[  58% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-006.jpg[39m[0m
+[  58% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-003.jpg[39m[0m
+[  59% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-008.jpg[39m[0m
+[  59% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-004.jpg[39m[0m
+[  59% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-016.jpg[39m[0m
+[  60% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-001.jpg[39m[0m
+[  60% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-001.jpg[39m[0m
+[  60% ] [90m[1mreimport[22m | office_3d66Model-22399557-files-015.jpg[39m[0m
+[  60% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-004.jpg[39m[0m
+[  61% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-003.jpg[39m[0m
+[  61% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-002.jpg[39m[0m
+[  61% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-001.jpg[39m[0m
+[  62% ] [90m[1mreimport[22m | camp_4_3d66Model-4690991-files-4.jpg[39m[0m
+[  62% ] [90m[1mreimport[22m | camp_4_3d66Model-4690991-files-2.jpg[39m[0m
+[  62% ] [90m[1mreimport[22m | camp_3_3d66Model-4690991-files-4.jpg[39m[0m
+[  63% ] [90m[1mreimport[22m | camp_3_3d66Model-4690991-files-2.jpg[39m[0m
+[  63% ] [90m[1mreimport[22m | camp_2_3d66Model-4690991-files-4.jpg[39m[0m
+[  63% ] [90m[1mreimport[22m | camp_2_3d66Model-4690991-files-2.jpg[39m[0m
+[  64% ] [90m[1mreimport[22m | camp_1_3d66Model-4690991-files-4.jpg[39m[0m
+[  64% ] [90m[1mreimport[22m | camp_1_3d66Model-4690991-files-2.jpg[39m[0m
+[  64% ] [90m[1mreimport[22m | boat_3d66-export-JCI54557104651-026.jpg[39m[0m
+[  65% ] [90m[1mreimport[22m | boat_3d66-export-JCI54557104651-025.jpg[39m[0m
+[  65% ] [90m[1mreimport[22m | barbed_wire_3d66-export-JJI54557884089-003.jpg[39m[0m
+[  65% ] [90m[1mreimport[22m | barbed_wire_3d66-export-JJI54557884089-004.png[39m[0m
+[  66% ] [90m[1mreimport[22m | barbed_wire_3d66-export-JJI54557884089-001-3d66-export-JJI54557884089-002.png[39m[0m
+[  66% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-018.jpg[39m[0m
+[  66% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-017.jpg[39m[0m
+[  67% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-016.jpg[39m[0m
+[  67% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-015.jpg[39m[0m
+[  67% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-034.jpg[39m[0m
+[  68% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-033.jpg[39m[0m
+[  68% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-014.jpg[39m[0m
+[  68% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-013.jpg[39m[0m
+[  69% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-012.jpg[39m[0m
+[  69% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-011.jpg[39m[0m
+[  69% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-028.jpg[39m[0m
+[  70% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-027.jpg[39m[0m
+[  70% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-010.jpg[39m[0m
+[  70% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-009.jpg[39m[0m
+[  71% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-008.jpg[39m[0m
+[  71% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-007.jpg[39m[0m
+[  71% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-006.jpg[39m[0m
+[  72% ] [90m[1mreimport[22m | dock_3d66-export-JCI54557104651-005.jpg[39m[0m
+[  72% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-67.jpg[39m[0m
+[  72% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-70.jpg[39m[0m
+[  73% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-83.jpg[39m[0m
+[  73% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-69.jpg[39m[0m
+[  73% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-79.jpg[39m[0m
+[  74% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-87.jpg[39m[0m
+[  74% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-86.jpg[39m[0m
+[  74% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-80.jpg[39m[0m
+[  75% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-85.jpg[39m[0m
+[  75% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-82.jpg[39m[0m
+[  75% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-81.jpg[39m[0m
+[  76% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-73.jpg[39m[0m
+[  76% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-78.jpg[39m[0m
+[  76% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-72.jpg[39m[0m
+[  77% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-84.jpg[39m[0m
+[  77% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-76.jpg[39m[0m
+[  77% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-74.jpg[39m[0m
+[  78% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-69.jpg[39m[0m
+[  78% ] [90m[1mreimport[22m | village_4_3d66Model-691775-files-79.jpg[39m[0m
+[  78% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-87.jpg[39m[0m
+[  79% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-86.jpg[39m[0m
+[  79% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-80.jpg[39m[0m
+[  79% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-85.jpg[39m[0m
+[  80% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-82.jpg[39m[0m
+[  80% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-81.jpg[39m[0m
+[  80% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-73.jpg[39m[0m
+[  81% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-78.jpg[39m[0m
+[  81% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-72.jpg[39m[0m
+[  81% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-84.jpg[39m[0m
+[  82% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-76.jpg[39m[0m
+[  82% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-74.jpg[39m[0m
+[  82% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-75.jpg[39m[0m
+[  83% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-68.jpg[39m[0m
+[  83% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-77.jpg[39m[0m
+[  83% ] [90m[1mreimport[22m | village_3_3d66Model-691775-files-71.jpg[39m[0m
+[  84% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-81.jpg[39m[0m
+[  84% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-73.jpg[39m[0m
+[  84% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-78.jpg[39m[0m
+[  85% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-72.jpg[39m[0m
+[  85% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-84.jpg[39m[0m
+[  85% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-76.jpg[39m[0m
+[  86% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-74.jpg[39m[0m
+[  86% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-75.jpg[39m[0m
+[  86% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-68.jpg[39m[0m
+[  87% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-77.jpg[39m[0m
+[  87% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-71.jpg[39m[0m
+[  87% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-67.jpg[39m[0m
+[  88% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-70.jpg[39m[0m
+[  88% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-83.jpg[39m[0m
+[  88% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-69.jpg[39m[0m
+[  89% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-79.jpg[39m[0m
+[  89% ] [90m[1mreimport[22m | river_3d66Model-15202935-files-49_5.jpg[39m[0m
+[  89% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-75.jpg[39m[0m
+[  90% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-68.jpg[39m[0m
+[  90% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-77.jpg[39m[0m
+[  90% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-71.jpg[39m[0m
+[  91% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-67.jpg[39m[0m
+[  91% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-70.jpg[39m[0m
+[  91% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-83.jpg[39m[0m
+[  92% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-69.jpg[39m[0m
+[  92% ] [90m[1mreimport[22m | village_2_3d66Model-691775-files-79.jpg[39m[0m
+[  92% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-82.jpg[39m[0m
+[  93% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-87.jpg[39m[0m
+[  93% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-85.jpg[39m[0m
+[  93% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-86.jpg[39m[0m
+[  94% ] [90m[1mreimport[22m | village_1_3d66Model-691775-files-80.jpg[39m[0m
+[  94% ] [90m[1mreimport[22m | barbed_wire.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/barbed_wire.glb | references=0
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  94% ] [90m[1mreimport[22m | village_1.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/village_1.glb | references=0
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | village_4.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/village_4.glb | references=24
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | boat.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/boat.glb | references=0
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | village_complete.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/village_complete.glb | references=26
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | camp_1.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/camp_1.glb | references=0
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | river.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/river.glb | references=0
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | camp_2.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/camp_2.glb | references=1
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  97% ] [90m[1mreimport[22m | village_3.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/village_3.glb | references=24
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  97% ] [90m[1mreimport[22m | camp_3.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/camp_3.glb | references=2
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  97% ] [90m[1mreimport[22m | kar98k.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/kar98k.glb | references=0
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  98% ] [90m[1mreimport[22m | camp_4.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/camp_4.glb | references=2
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  98% ] [90m[1mreimport[22m | village_2.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/village_2.glb | references=22
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  98% ] [90m[1mreimport[22m | office.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/office.glb | references=0
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  99% ] [90m[1mreimport[22m | dock.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/dock.glb | references=14
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  99% ] [90m[1mreimport[22m | village_passages.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+SHARED SCENE TEXTURES: res://assets/user_expansion_20261015/village_passages.glb | references=24
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  99% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (301 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

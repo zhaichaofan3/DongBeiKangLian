@@ -86,6 +86,9 @@ def package(args):
                     '/DGameVersion=' + version, '/DChineseLanguage=' + str(language),
                     str(ROOT / 'tools/installer/FenghuoEcho.iss')], check=True)
     installer = output / f'FenghuoEcho-{version}-Setup-Windows-x64.exe'
+    for artifact in [installer, archive]:
+        if artifact.stat().st_size >= 1_000_000_000:
+            raise RuntimeError('Player download exceeds the 1 GB budget: ' + artifact.name)
     artifacts = [installer, archive]
     for name in ['README.md', 'README.txt']:
         shutil.copy2(stage / name, output / name)
@@ -98,6 +101,7 @@ def package(args):
                   compiler_sha256=digest(compiler), language_sha256=digest(language),
                   payload=expected, payload_files=len(expected) + 1,
                   payload_bytes=sum((stage / n).stat().st_size for n in [*expected, 'SHA256SUMS.txt']),
+                  download_budget_bytes=1_000_000_000,
                   archive_verified=True, installation_verified=False, artifacts=entries)
     write_json(output / 'distribution_manifest.json', record)
     # Remove only files created above, after both distribution formats succeed.

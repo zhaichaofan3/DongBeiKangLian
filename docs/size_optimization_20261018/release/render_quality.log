@@ -1,0 +1,43 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PASS: Launch actions wait for complete navigation instead of entering during blocking preparation
+PASS: Launch actions unlock after navigation and graphics preparation
+PASS: Quality 0 has the intended antialiasing
+PASS: Quality 0 selects the intended geometric detail
+PASS: Quality 0 selects the intended shadow cascades
+PASS: Quality 0 keeps shadows in the tested range
+PASS: Quality 0 preserves frame cap and native resolution
+PASS: Quality 0 switches every woodland cell consistently
+PASS: Quality 1 has the intended antialiasing
+PASS: Quality 1 selects the intended geometric detail
+PASS: Quality 1 selects the intended shadow cascades
+PASS: Quality 1 keeps shadows in the tested range
+PASS: Quality 1 preserves frame cap and native resolution
+PASS: Quality 1 switches every woodland cell consistently
+PASS: Quality 2 has the intended antialiasing
+PASS: Quality 2 selects the intended geometric detail
+PASS: Quality 2 selects the intended shadow cascades
+PASS: Quality 2 keeps shadows in the tested range
+PASS: Quality 2 preserves frame cap and native resolution
+PASS: Quality 2 switches every woodland cell consistently
+PASS: 重构首关山林 retains all 604 trees in multiple cells
+PASS: 重构首关山林 uses local bounds for frustum culling
+PASS: 重构首关山林 uses mipmaps and anisotropic filtering
+PASS: 重构首关山林 cell bounds contain every rendered tree
+PASS: 上岸后的连续密林 retains all 2017 trees in multiple cells
+PASS: 上岸后的连续密林 uses local bounds for frustum culling
+PASS: 上岸后的连续密林 uses mipmaps and anisotropic filtering
+PASS: 上岸后的连续密林 cell bounds contain every rendered tree
+PASS: 环村树林 retains all 751 trees in multiple cells
+PASS: 环村树林 uses local bounds for frustum culling
+PASS: 环村树林 uses mipmaps and anisotropic filtering
+PASS: 环村树林 cell bounds contain every rendered tree
+PASS: 村内院落与街边松林 retains all 180 trees in multiple cells
+PASS: 村内院落与街边松林 uses local bounds for frustum culling
+PASS: 村内院落与街边松林 uses mipmaps and anisotropic filtering
+PASS: 村内院落与街边松林 cell bounds contain every rendered tree
+PASS: Dense woodland keeps its original 2017 trees
+PASS: Village retains its original 180 nearby trees
+PASS: Static courtyard batches retain all twelve authored modules
+RENDER QUALITY: PASS | checks=39

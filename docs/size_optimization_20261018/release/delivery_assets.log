@@ -1,0 +1,73 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: All 126 identical texture aliases are accounted for
+PASS: Shared texture loads: camp_1_3d66Model-4690991-files-4.jpg
+PASS: Shared texture loads: camp_1_3d66Model-4690991-files-2.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-005.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-006.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-007.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-008.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-009.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-010.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-003.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-004.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-011.jpg
+PASS: Shared texture loads: dock_3d66-export-JCI54557104651-012.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-67.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-68.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-69.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-70.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-71.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-72.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-73.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-74.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-75.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-76.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-77.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-78.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-79.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-80.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-81.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-82.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-83.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-84.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-85.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-86.jpg
+PASS: Shared texture loads: village_1_3d66Model-691775-files-87.jpg
+PASS: Playable supplied scene loads: barbed_wire
+PASS: Every mesh and material retains a shipped texture: barbed_wire
+PASS: Playable supplied scene loads: boat
+PASS: Every mesh and material retains a shipped texture: boat
+PASS: Playable supplied scene loads: camp_1
+PASS: Every mesh and material retains a shipped texture: camp_1
+PASS: Playable supplied scene loads: camp_2
+PASS: Every mesh and material retains a shipped texture: camp_2
+PASS: Playable supplied scene loads: camp_3
+PASS: Every mesh and material retains a shipped texture: camp_3
+PASS: Playable supplied scene loads: camp_4
+PASS: Every mesh and material retains a shipped texture: camp_4
+PASS: Playable supplied scene loads: dock
+PASS: Every mesh and material retains a shipped texture: dock
+PASS: Playable supplied scene loads: kar98k
+PASS: Every mesh and material retains a shipped texture: kar98k
+PASS: Playable supplied scene loads: office
+PASS: Every mesh and material retains a shipped texture: office
+PASS: Playable supplied scene loads: river
+PASS: Every mesh and material retains a shipped texture: river
+PASS: Playable supplied scene loads: village_1
+PASS: Every mesh and material retains a shipped texture: village_1
+PASS: Playable supplied scene loads: village_2
+PASS: Every mesh and material retains a shipped texture: village_2
+PASS: Playable supplied scene loads: village_3
+PASS: Every mesh and material retains a shipped texture: village_3
+PASS: Playable supplied scene loads: village_4
+PASS: Every mesh and material retains a shipped texture: village_4
+PASS: Playable supplied scene loads: village_passages
+PASS: Every mesh and material retains a shipped texture: village_passages
+PASS: Playable scenes use shared materials across more than 100 surfaces
+PASS: Unused full-village display model stays outside the player pack
+PASS: Duplicate source texture paths are absent from the player pack
+PASS: Window and title menu use the requested game name
+PASS: Opening title uses the requested game name
+PASS: Pause menu uses the requested game name
+DELIVERY ASSETS: PASS | checks=70

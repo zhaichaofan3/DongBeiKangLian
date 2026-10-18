@@ -328,7 +328,7 @@ func show_menu(kind: String) -> void:
 		return
 	match kind:
 		"briefing":
-			menu_title.text = "东北抗联-烽火回声"
+			menu_title.text = "东北抗联 烽火回声"
 			menu_caption.text = "一份名册，一位战友。\n穿过林场，把他们一起带回山。"
 			_button("开始游戏", main.start_with_opening,true)
 			_button("直接进入林场", main.start_new,true)
@@ -338,7 +338,7 @@ func show_menu(kind: String) -> void:
 			_button("退出", func(): main.get_tree().quit())
 		"paused":
 			menu_title.text = "任务暂停"
-			menu_caption.text = "青岚林场 · 林海归途"
+			menu_caption.text = "东北抗联 烽火回声"
 			_button("继续", main.resume)
 			_button("返回检查点", main.continue_checkpoint)
 			_button("重新开始", main.start_with_opening)

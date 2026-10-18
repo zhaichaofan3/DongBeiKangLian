@@ -1,0 +1,9 @@
+{
+	"captures": [],
+	"checks": 125,
+	"critical_path_metres": 572.592300727963,
+	"failures": [],
+	"near_trees": 54,
+	"passed": true,
+	"scenery_objects": 248
+}

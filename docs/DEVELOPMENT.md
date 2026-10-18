@@ -52,7 +52,11 @@
 
 发行制作需要Python 3.11和[Inno Setup 6](https://jrsoftware.org/isdl.php)；以`ISCC_EXE`或`-IsccPath`指定编译器。中文翻译、安装定义和来源见`tools/installer/`。安装工具放忽略目录，玩家不需要安装它们。安装包默认使用当前用户目录，提供开始菜单入口、可选桌面快捷方式和卸载，保留用户存档。
 
-发行后检查使用 `python tools/verify_distribution.py --directory Release/Distributions/<版本> --report docs/对应批次`，串行验证解压、中文路径静默安装、实际运行、Windows卸载登记、快捷方式和卸载；使用独立QA文件并核对真实存档未变。若已有正式安装或同名测试目录，先检查现状，不覆盖已有安装。脚本会保留少量日志和游戏截图。
+安装版与免安装ZIP各自必须小于1,000,000,000字节，超过上限时打包失败。0.7.3通过`GodotProject/tools/share_scene_textures.gd`在场景导入后共享完全相同的贴图；源GLB/图片不变，保留原分辨率与导入参数。原完整农村留在素材库，发行只打入实际使用的院落模块。既有`meshes/generate_lods=true`继续负责远景细节。
+
+新增或重做这批环境模型/贴图时，先用Godot无画面运行`tools/configure_delivery_assets.gd`，再导入和构建。该脚本用原图SHA-256及完整导入参数生成`GodotProject/tools/texture_aliases.json`、场景后导入配置与导出排除清单；普通构建不必重复生成。新增纹理不能只手工追加排除清单。`tools/audit_player_pack.py`核对PCK目录及每个文件校验，`tools/verify_size_release.py`记录本次源码/独立包资源与关卡专项，不代替完整回归。
+
+发行后检查使用 `python tools/verify_distribution.py --directory Release/Distributions/<版本> --report docs/对应批次`，串行验证解压、中文路径静默安装、实际运行、Windows卸载登记、快捷方式和卸载。0.7.3实际安装器支持仅供检查的`/DeliveryVerification=isolated`参数，使用独立产品ID、显式测试路径和QA快捷方式目录；正常安装仍沿用原产品ID和存档路径。检查核对已有玩家安装、快捷方式和真实存档未变；同名QA测试目录/登记已存在时停止。脚本会保留少量日志和游戏截图。
 
 玩家文档源为`docs/player/`；根README继续面向开发者。发行不包含源码、缓存、旧验证目录或工程备份，保留全部现有来源许可。更新游戏后需先重建和验收PCK，再重新制作发行包；仅改玩家说明可重新包装已验收游戏。
 

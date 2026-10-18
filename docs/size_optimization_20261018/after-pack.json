@@ -1,0 +1,3400 @@
+{
+  "pack_bytes": 823868320,
+  "sha256": "1deee8f8f08c7c5a3efd8965811dc038d998e337c8d74bee215b56fb999379ec",
+  "files": 675,
+  "types": {
+    ".scn": 47355907,
+    ".cfg": 8,
+    ".mp3str": 10663519,
+    ".ctex": 738836686,
+    ".sample": 1326331,
+    ".oggvorbisstr": 24575406,
+    ".bin": 25941,
+    ".import": 71481,
+    ".json": 517767,
+    ".remap": 1812,
+    ".binary": 2172,
+    ".gdc": 400598,
+    ".gdshader": 8877
+  },
+  "entries": {
+    ".godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn": {
+      "offset": 112,
+      "bytes": 680,
+      "md5": "0a51ad8ae67319d66040b5c1a5ed9046"
+    },
+    ".godot/global_script_class_cache.cfg": {
+      "offset": 823763776,
+      "bytes": 8,
+      "md5": "393edccab1b3701df5cb9b4f4cfc3775"
+    },
+    ".godot/imported/B1-L01.mp3-306a3922541512ea22a17cc74bb5d6c0.mp3str": {
+      "offset": 1225472,
+      "bytes": 17759,
+      "md5": "9d2cd0725652bdf1168d50d7e3943cfa"
+    },
+    ".godot/imported/B2-L02.mp3-6aa4ee84366543323e44859631284470.mp3str": {
+      "offset": 1243392,
+      "bytes": 23663,
+      "md5": "a723b9f443840fd1fb05b469f04bff29"
+    },
+    ".godot/imported/B3-L01.mp3-807a4f773e70efc5d6cbe639968160e2.mp3str": {
+      "offset": 1267216,
+      "bytes": 44831,
+      "md5": "2158a339aca0a809b56b8780b47ae5e5"
+    },
+    ".godot/imported/B5-L01.mp3-7fbab80fc4285209dab47d567ee2bc30.mp3str": {
+      "offset": 1312208,
+      "bytes": 36623,
+      "md5": "0c3d2f6967a7f848be7e4ba450b0dcac"
+    },
+    ".godot/imported/B5-L03.mp3-eba11233d1ecc0fda5836d80cddc0bc7.mp3str": {
+      "offset": 1348992,
+      "bytes": 42671,
+      "md5": "c984fb36109dfe4009dceb8fb12f0b47"
+    },
+    ".godot/imported/B5-L04.mp3-8ad7ef8a73b90754b0697005f2811b72.mp3str": {
+      "offset": 1391824,
+      "bytes": 42383,
+      "md5": "162dd46649bd7ad566ad17eee61f696f"
+    },
+    ".godot/imported/B5-L06.mp3-6500d2c28822b81f26d00fa0ee4684e6.mp3str": {
+      "offset": 1434368,
+      "bytes": 32591,
+      "md5": "5a9e1c9d30582f1fb1f87648a183b341"
+    },
+    ".godot/imported/B6-L01.mp3-85b4272cafcbc0ad1e9c216f56aa2232.mp3str": {
+      "offset": 1467120,
+      "bytes": 32735,
+      "md5": "e49e4eb74f96cac89bb5065895b35b0c"
+    },
+    ".godot/imported/D01.glb-1dbfdcb9cc2daaf3d1c8a646f8e08212.scn": {
+      "offset": 102947920,
+      "bytes": 82501,
+      "md5": "6e31a913687ff0fb180e8bf44b2cd030"
+    },
+    ".godot/imported/D01_Cottage Texture.png-50bb0c618054f7d6a08e48e684d64720.ctex": {
+      "offset": 103030608,
+      "bytes": 44956,
+      "md5": "c84c02b6d1e0fdbd31923060e1fd823f"
+    },
+    ".godot/imported/D02.glb-c08dc0209490296341876ba04c90bea3.scn": {
+      "offset": 103075856,
+      "bytes": 48048,
+      "md5": "71b6c54a32b8baaaee0347b688d1ee9e"
+    },
+    ".godot/imported/D02_log_cabin_1024px.png-5b0f76e848b688f937b695cbc9a5485f.ctex": {
+      "offset": 103124080,
+      "bytes": 1214490,
+      "md5": "578fdd64a5900252074107f3e4c410e2"
+    },
+    ".godot/imported/D03.glb-5b898e08bdece4e9e4482edda664e87a.scn": {
+      "offset": 104338864,
+      "bytes": 223778,
+      "md5": "48f2eb881964eb92b22fae709b80f7bf"
+    },
+    ".godot/imported/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png-03fbcfa9602d35b1c9012c20ffacb994.ctex": {
+      "offset": 104562832,
+      "bytes": 1052240,
+      "md5": "3739b16f7f4cce58e2e0e355ba274c80"
+    },
+    ".godot/imported/D03_concrete_floor_01_diff_1k.jpg-59e32dedaae144a68adb2292c633ccaf.ctex": {
+      "offset": 105615424,
+      "bytes": 1707042,
+      "md5": "1fc1d2218f90f4df8a385c7de8fd6249"
+    },
+    ".godot/imported/D03_concrete_floor_01_nor_1k.jpg-94c1d6612ae406604c90d4724bc7a7ae.ctex": {
+      "offset": 107322768,
+      "bytes": 2542890,
+      "md5": "ad1640b0ae4d5eb28eaa9878aabbb781"
+    },
+    ".godot/imported/D03_green_metal_rust_Nor_1k.jpg-d17c9b150129561afbb4da38a4fb28a6.ctex": {
+      "offset": 110789728,
+      "bytes": 657248,
+      "md5": "bf0ee9e0dea3c5b4fef7e8a5c221c621"
+    },
+    ".godot/imported/D03_green_metal_rust_diff_1k.jpg-308cf4e872df98e9c5f9dea1b31feb07.ctex": {
+      "offset": 109865952,
+      "bytes": 923488,
+      "md5": "3fa9a3a91c3161191dfb4f39b90f2434"
+    },
+    ".godot/imported/D03_rusty_metal_04_diff_2k.jpg-3b917c060ab415364cd3c16967f2a64f.ctex": {
+      "offset": 111447264,
+      "bytes": 1604472,
+      "md5": "d3badd2792830e06207aa306150cabb2"
+    },
+    ".godot/imported/D03_rusty_metal_ao_1k.jpg-b2ddc923829d5fc63106e5836fb78efe.ctex": {
+      "offset": 113052032,
+      "bytes": 708702,
+      "md5": "7a36d773a53fcd0c97c79fab496ca10e"
+    },
+    ".godot/imported/D03_rusty_metal_diff_1k.jpg-47684ff099b741fa7a7a50182c818fc3.ctex": {
+      "offset": 113761024,
+      "bytes": 1962316,
+      "md5": "ebf37343780378122f23351c08ebd4bb"
+    },
+    ".godot/imported/D03_rusty_metal_nor_1k.jpg-60d03536fb28a3c519c5f64a32fe7a67.ctex": {
+      "offset": 115723632,
+      "bytes": 1713624,
+      "md5": "485d821db802158ac919b93d7c0963fd"
+    },
+    ".godot/imported/D03_weathered_brown_planks_diff_2k.jpg-5794066fe960867513dd175c421b2b06.ctex": {
+      "offset": 117437552,
+      "bytes": 1170110,
+      "md5": "328f8d1c59bcd482de4b270f35eef719"
+    },
+    ".godot/imported/D04.glb-0894f62376c1b2fe9a8bc7278aa8cea8.scn": {
+      "offset": 118607968,
+      "bytes": 1113816,
+      "md5": "cd1126131fcdcd2cbdb5e6579bcd1e0b"
+    },
+    ".godot/imported/D04_grey_roof_tiles_diff_2k.jpg-c065bf3488cb18d715cc4004f172ce0f.ctex": {
+      "offset": 119721968,
+      "bytes": 1700450,
+      "md5": "a724705945b350689441d8eea73b067e"
+    },
+    ".godot/imported/D04_modular_factory_facade_brick_arm_2k.jpg-c1173ab7c7c2eadc1fc84e008a1068f7.ctex": {
+      "offset": 121422720,
+      "bytes": 1547210,
+      "md5": "9c1d0cf5711d8edaae3677cd656de089"
+    },
+    ".godot/imported/D04_modular_factory_facade_brick_diff_2k.jpg-b4778482a638bb0cd8fc5b70d09b987d.ctex": {
+      "offset": 122970240,
+      "bytes": 1892472,
+      "md5": "1f097b333ae7325db9d596ce21ee34d0"
+    },
+    ".godot/imported/D04_modular_factory_facade_brick_nor_gl_2k.jpg-322f79b114ff098859c4d3320769668e.ctex": {
+      "offset": 124863024,
+      "bytes": 2273624,
+      "md5": "691118f9c52352b9119f909198a3287e"
+    },
+    ".godot/imported/D04_modular_factory_facade_windows_arm_2k.jpg-3d791c5b07f399f02ce9be7b9a75ffa7.ctex": {
+      "offset": 127136960,
+      "bytes": 1752826,
+      "md5": "8188c366549762662ffbbf5e10a152d5"
+    },
+    ".godot/imported/D04_modular_factory_facade_windows_diff_2k.jpg-913abcad1737f020f7f7486410a7bf33.ctex": {
+      "offset": 128890096,
+      "bytes": 920892,
+      "md5": "d7d81aecfdd3b910f8fd7c2765dc593a"
+    },
+    ".godot/imported/D04_modular_factory_facade_windows_diff_2k_6.png-c208e8a9426acfbc2d3bc098a7836e49.ctex": {
+      "offset": 129811296,
+      "bytes": 1284830,
+      "md5": "16d2f439cf2536f43e6ef8cbdc0034f7"
+    },
+    ".godot/imported/D04_modular_factory_facade_windows_nor_gl_2k.jpg-b8a38a3d25c626b2dee727e1c26d669d.ctex": {
+      "offset": 131096432,
+      "bytes": 1074654,
+      "md5": "95070394d301eb530bfa97d6d2fc19be"
+    },
+    ".godot/imported/D04_weathered_brown_planks_diff_2k.jpg-6c7c0d4075d98fc93108235064d0a23a.ctex": {
+      "offset": 132171392,
+      "bytes": 1170110,
+      "md5": "328f8d1c59bcd482de4b270f35eef719"
+    },
+    ".godot/imported/D05.glb-6efb523b8ab281be235e168b95985e27.scn": {
+      "offset": 133341808,
+      "bytes": 26810,
+      "md5": "a3c8b917f1e782e922b9d4ea33f8cb57"
+    },
+    ".godot/imported/D05_RoofTiles.jpg-4cc89fb785e668d16e1473a292b55cb7.ctex": {
+      "offset": 133368800,
+      "bytes": 825758,
+      "md5": "39dc40601f0df58cf869c0a8346f57a7"
+    },
+    ".godot/imported/D05_TreeLogEdgeWeathered.jpg-8b9b60dea3c11e79cc4b3cefae0767a6.ctex": {
+      "offset": 134194832,
+      "bytes": 615738,
+      "md5": "188466713d0990d3f648cc5ec6c3662f"
+    },
+    ".godot/imported/D05_Wood.jpg-058898eb9d1515ec5379cc49c00a469e.ctex": {
+      "offset": 134810864,
+      "bytes": 1282806,
+      "md5": "407aa48971bad951316cfcb162b088da"
+    },
+    ".godot/imported/Lantern_01_2k.gltf-f65d8addf3e20c5478c894b0ca9c929e.scn": {
+      "offset": 182248624,
+      "bytes": 1150559,
+      "md5": "62ba2e3c3d1f02abc91f9454f9ed1dae"
+    },
+    ".godot/imported/Lantern_01_brass_arm_2k.jpg-ddb69bd9a7c508ab29661545640e4c72.s3tc.ctex": {
+      "offset": 171062784,
+      "bytes": 2796268,
+      "md5": "43e7f569c244f5f8bec342a85c139555"
+    },
+    ".godot/imported/Lantern_01_brass_diff_2k.jpg-469c16d7900aee35e4c564a3c35ee451.s3tc.ctex": {
+      "offset": 173859312,
+      "bytes": 2796268,
+      "md5": "4740d116f883a975e1db7431e0b2feae"
+    },
+    ".godot/imported/Lantern_01_brass_nor_gl_2k.jpg-800f4b0f906d15dee7fcee227f81e33a.s3tc.ctex": {
+      "offset": 176655856,
+      "bytes": 5592484,
+      "md5": "0e5a903d800a73073b9e45b8be30b6e8"
+    },
+    ".godot/imported/WoodenTable_01_2k.gltf-c3b7c66b53acc4e1e57ee0227e715ddc.scn": {
+      "offset": 329615696,
+      "bytes": 26198,
+      "md5": "05a8455ac01a9130cc8b56e3f7d955d2"
+    },
+    ".godot/imported/WoodenTable_01_arm_2k.jpg-b785b678c922f178e8c2d83bc3d12724.s3tc.ctex": {
+      "offset": 318429872,
+      "bytes": 2796268,
+      "md5": "055d5204dc6eaa769df8cf12908594bf"
+    },
+    ".godot/imported/WoodenTable_01_diff_2k.jpg-a24ba57b7507976fed1383658ed29da3.s3tc.ctex": {
+      "offset": 321226400,
+      "bytes": 2796268,
+      "md5": "66e305b8a6e8fe85d5bb49b9d9256379"
+    },
+    ".godot/imported/WoodenTable_01_nor_gl_2k.jpg-0a3a5a03907b5ff99e661a945e0ba866.s3tc.ctex": {
+      "offset": 324022928,
+      "bytes": 5592484,
+      "md5": "96d084b006641881f472ab212894913c"
+    },
+    ".godot/imported/alert_1.mp3-a7f61d1dd0d06e886d8e50fafa3a6312.mp3str": {
+      "offset": 1502016,
+      "bytes": 51587,
+      "md5": "6053f797f3c5b510b7e88aec651b6b1e"
+    },
+    ".godot/imported/alert_2.mp3-92de3cf5700cbf05785d6e47cb358d53.mp3str": {
+      "offset": 1553776,
+      "bytes": 41139,
+      "md5": "104ae67f5b36ff6ec329fbcf274adf87"
+    },
+    ".godot/imported/alert_3.mp3-114b1059f94ec76da8c2e801ac451e23.mp3str": {
+      "offset": 1595088,
+      "bytes": 55767,
+      "md5": "b53b478d15a307e493a8a3f1cbad144f"
+    },
+    ".godot/imported/barbed_wire.glb-a1ef2030fdbf7b210e53c9b84a468fbf.scn": {
+      "offset": 489561872,
+      "bytes": 45898,
+      "md5": "c7318d01eaa6684fd71882b4672346f0"
+    },
+    ".godot/imported/barbed_wire_3d66-export-JJI54557884089-001-3d66-export-JJI54557884089-002.png-3af2ed1f7cb53e2060a4a4ca3bf55a6c.ctex": {
+      "offset": 489607952,
+      "bytes": 6197372,
+      "md5": "234fc2587e1dfa46357be9c5e3bed1e0"
+    },
+    ".godot/imported/barbed_wire_3d66-export-JJI54557884089-003.jpg-74738aecfdbef64e92c95c83337f49de.ctex": {
+      "offset": 495805664,
+      "bytes": 8245466,
+      "md5": "69844a170b505943c6ca9dc6fa5a6fc1"
+    },
+    ".godot/imported/barbed_wire_3d66-export-JJI54557884089-004.png-b8a2ee5cee09a896921fba6943c2dfaa.ctex": {
+      "offset": 504051440,
+      "bytes": 874744,
+      "md5": "e83885fe4a7e5957282cc86ca600b0c5"
+    },
+    ".godot/imported/bayonet_charge.mp3-2f1a322407f6c28fd7aa47c27db4ccd9.mp3str": {
+      "offset": 9034432,
+      "bytes": 138311,
+      "md5": "446803f4784b6a7a67bc6ad12f9f87cd"
+    },
+    ".godot/imported/boat.glb-bbe6fed41ed9d850cfcfa34f2db482db.scn": {
+      "offset": 504926496,
+      "bytes": 286648,
+      "md5": "0639fd2667c447498c49b8aea55410c1"
+    },
+    ".godot/imported/boat_3d66-export-JCI54557104651-025.jpg-0af4de5ee81826629e4d9e6b3cce4796.ctex": {
+      "offset": 505213328,
+      "bytes": 4998686,
+      "md5": "e6e88599338c913ea8796afc2bed424d"
+    },
+    ".godot/imported/boat_3d66-export-JCI54557104651-026.jpg-d5b58c905119879d7b6f0e908f702dc4.ctex": {
+      "offset": 510212320,
+      "bytes": 5069868,
+      "md5": "199432e4d19b45362b1987242078331d"
+    },
+    ".godot/imported/brick_wall_001_diffuse_2k.jpg-c1c2ba091c5ff3418b1c8c846151717d.s3tc.ctex": {
+      "offset": 363627632,
+      "bytes": 2796268,
+      "md5": "0eb193ce77be1f0535d4c50b98337f7c"
+    },
+    ".godot/imported/brick_wall_001_nor_gl_2k.jpg-9132ba2fb277bb1d1956267eb2674770.s3tc.ctex": {
+      "offset": 366424176,
+      "bytes": 5592484,
+      "md5": "284277d3aa1b13ce837352566c2c7568"
+    },
+    ".godot/imported/brick_wall_001_rough_2k.jpg-95dd81ebbe213f31cfc623e84a0bfe39.s3tc.ctex": {
+      "offset": 372016944,
+      "bytes": 2796268,
+      "md5": "76c079731d0ba9c5f7460c45798bf853"
+    },
+    ".godot/imported/brown_mud_leaves_01_diff_2k.jpg-2722075b203068b2cb96670428fca9e7.s3tc.ctex": {
+      "offset": 374813472,
+      "bytes": 2796268,
+      "md5": "f0ab2a0e2d2541a7531a836134c023f6"
+    },
+    ".godot/imported/brown_mud_leaves_01_nor_gl_2k.jpg-1ced6abe515bd14d02b17ff5201970dd.s3tc.ctex": {
+      "offset": 377610016,
+      "bytes": 5592484,
+      "md5": "e3fa73673f3b6b935c64b2904ad3c352"
+    },
+    ".godot/imported/brown_mud_leaves_01_rough_2k.jpg-75f1ca0d3b6a0606a3a262d64a0a4c99.s3tc.ctex": {
+      "offset": 383202784,
+      "bytes": 2796268,
+      "md5": "b0b66607dccb006217b4f3e096000535"
+    },
+    ".godot/imported/camp_1.glb-9501347dd52262bd2fdf40d975c4eb6b.scn": {
+      "offset": 515282496,
+      "bytes": 17089,
+      "md5": "876b866e38d3d4f99a19cf832bb375e4"
+    },
+    ".godot/imported/camp_1_3d66Model-4690991-files-2.jpg-d09020ee1f4be90657c411d774c783b9.ctex": {
+      "offset": 515299776,
+      "bytes": 6842374,
+      "md5": "7401b4fb46de6f9e367909313ce7a7d6"
+    },
+    ".godot/imported/camp_1_3d66Model-4690991-files-4.jpg-f4f6546d0907c3aa50b21387401dd8d4.ctex": {
+      "offset": 522142448,
+      "bytes": 8983772,
+      "md5": "8bd749f91dcc4ccee30090f294d90b2c"
+    },
+    ".godot/imported/camp_2.glb-6b5a1322973c67c36f2ffbc3b87869eb.scn": {
+      "offset": 531126512,
+      "bytes": 10467,
+      "md5": "bf2361c43c6106b22887e75d6be51751"
+    },
+    ".godot/imported/camp_2_3d66Model-4690991-files-2.jpg-b02f2aa7c9e459557ccd3444ff717b3f.ctex": {
+      "offset": 531137168,
+      "bytes": 6456422,
+      "md5": "e7c01a3db103fe02360b74a2e84a17b3"
+    },
+    ".godot/imported/camp_3.glb-feb3e7f5da513e747c3fc60cca6af34c.scn": {
+      "offset": 537595456,
+      "bytes": 16132,
+      "md5": "69d36c8c9799a1d3994a2fee9bedc96f"
+    },
+    ".godot/imported/camp_4.glb-323b61b308ea35c8f7b03e85cf4d45ae.scn": {
+      "offset": 537615584,
+      "bytes": 7521,
+      "md5": "6eea48aa63f2c5ea98f07af8fe162f32"
+    },
+    ".godot/imported/chinese_screen_panels_2k.gltf-7a69421916c0f1a7ae5cecd60f46d794.scn": {
+      "offset": 246108176,
+      "bytes": 26175,
+      "md5": "be19b115afae9fc78e9da733effb7294"
+    },
+    ".godot/imported/chinese_screen_panels_arm_2k.jpg-d0ad20cfd5e71ffd0609f21e55f2b059.ctex": {
+      "offset": 235731040,
+      "bytes": 3747096,
+      "md5": "e7dfabc2aa62eafafa4ef699c4bf48cb"
+    },
+    ".godot/imported/chinese_screen_panels_diff_2k.jpg-70b79db4e01db6702b07173336a82b0e.ctex": {
+      "offset": 239478368,
+      "bytes": 3739694,
+      "md5": "20b87e04be4d5033488b8689aa62d903"
+    },
+    ".godot/imported/chinese_screen_panels_nor_gl_2k.jpg-4d333e3ee9b0445d424f8367c552e47b.ctex": {
+      "offset": 243218288,
+      "bytes": 2889658,
+      "md5": "a65d4a5b146d9cf1d009b959c3d2c5ca"
+    },
+    ".godot/imported/chinese_tea_table_2k.gltf-6199e5f7208f8d97ec21a225651887fd.scn": {
+      "offset": 256142688,
+      "bytes": 76344,
+      "md5": "a47f56e1433e8acb37dde74ec27ee277"
+    },
+    ".godot/imported/chinese_tea_table_arm_2k.jpg-b0c16561db6d232e0ed9d20a4ab8be47.ctex": {
+      "offset": 246134544,
+      "bytes": 3232792,
+      "md5": "5762326498908d25295fe895eb2c8157"
+    },
+    ".godot/imported/chinese_tea_table_diff_2k.jpg-36d708126f2f05977f5b4aad30063110.ctex": {
+      "offset": 249367568,
+      "bytes": 2736996,
+      "md5": "1c621be9a19110fdf72bd404148aca51"
+    },
+    ".godot/imported/chinese_tea_table_nor_gl_2k.jpg-f7ab2efe31d75f2c0ac46dc8473b9726.ctex": {
+      "offset": 252104800,
+      "bytes": 4037656,
+      "md5": "f2df37cea24f2d9ffe6f56e77323201c"
+    },
+    ".godot/imported/dead_tree_trunk_2k.gltf-61b50ba9316e722439487e8a8d91a4c3.scn": {
+      "offset": 155870336,
+      "bytes": 3814963,
+      "md5": "478539b61a39bf171c7ae13d956fdfd3"
+    },
+    ".godot/imported/dead_tree_trunk_arm_2k.jpg-0a9ebd666b3cf698395ecdfad96fc46d.s3tc.ctex": {
+      "offset": 144684512,
+      "bytes": 2796268,
+      "md5": "398d2d16182a47854c6a3d4ea59ad87c"
+    },
+    ".godot/imported/dead_tree_trunk_diff_2k.jpg-87c2c3231af4c913ab714d104445d3e4.s3tc.ctex": {
+      "offset": 147481040,
+      "bytes": 2796268,
+      "md5": "c584bf3f4d1481ea4dab23a771c4c684"
+    },
+    ".godot/imported/dead_tree_trunk_nor_gl_2k.jpg-43aef5eeddff70b04ab0852599e7e087.s3tc.ctex": {
+      "offset": 150277568,
+      "bytes": 5592484,
+      "md5": "d9d32bc10397a87b0e1253bc4ba7fd67"
+    },
+    ".godot/imported/dock.glb-b54f064339e82658dfab8b8f56cb422c.scn": {
+      "offset": 537625200,
+      "bytes": 2732078,
+      "md5": "ff093372cded8c93dfe36b10b7ab6fd3"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-001.jpg-43110a1409dfa14a0ed1e3f353117b4f.ctex": {
+      "offset": 540357456,
+      "bytes": 6734712,
+      "md5": "cb9a1a2e88113b306edab1bcebbe7997"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-002.jpg-c91c1621fd06440440fe8a9b51df5dfc.ctex": {
+      "offset": 547092480,
+      "bytes": 8742820,
+      "md5": "2129b95a57382704e41c08f485d77129"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-003.jpg-1505354f0c1ec95f5970e831d1a83e64.ctex": {
+      "offset": 555835616,
+      "bytes": 6983332,
+      "md5": "a1e89e5719339ac0a21db92ddecba826"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-004.jpg-c25d015e496a9ee2563a32d70fca7f04.ctex": {
+      "offset": 562819264,
+      "bytes": 9234812,
+      "md5": "36bda111ec621003f5f0d65694c3e27d"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-005.jpg-3cb7e8ce916ee49afea00df690f7cd18.ctex": {
+      "offset": 572054384,
+      "bytes": 4446668,
+      "md5": "d38e44bb1e1e8d88fa392e519dcfca86"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-006.jpg-020ad7ba4d6d25fbe2ca21453633913d.ctex": {
+      "offset": 576501360,
+      "bytes": 5632332,
+      "md5": "1b96f8fb8f4d55e4774b938e39c97a76"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-007.jpg-5417e9ea5d82c7c718d8aa5cc997697c.ctex": {
+      "offset": 582134000,
+      "bytes": 6733488,
+      "md5": "1b9678701ff1ab118e1d7df105da374e"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-008.jpg-4436c28369f3119514a74fa41216826e.ctex": {
+      "offset": 588867792,
+      "bytes": 8750256,
+      "md5": "c1075714b016d9c5d1db41de83546d8a"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-009.jpg-6e587f018defcd2bf4ffe28919e4e85b.ctex": {
+      "offset": 597618352,
+      "bytes": 4206470,
+      "md5": "ccbc4fa40b7c18ac0303b655be638c2a"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-010.jpg-10b51573ef1313ebeb171f84f7f49d7c.ctex": {
+      "offset": 601825136,
+      "bytes": 5606050,
+      "md5": "346a08ca3cbc0a78ee440a720180da0f"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-011.jpg-d00ad710a5c4b8bd51e16c3c9b63963f.ctex": {
+      "offset": 607431504,
+      "bytes": 6735428,
+      "md5": "b087d16a75e8d6a22258226356335d3f"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-012.jpg-e2c24f12c4cdeebc30f642732de6bc2c.ctex": {
+      "offset": 614167248,
+      "bytes": 8739698,
+      "md5": "9e96e504153591f7fb8643735be3afcb"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-023.jpg-566faafd5c3a058747d9279960fdc6c3.ctex": {
+      "offset": 623006256,
+      "bytes": 2897956,
+      "md5": "6ff72aa107ddb0fc5ce28bda1c667285"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-024.jpg-478c15d33f52fea0906aa0de0cb17c8c.ctex": {
+      "offset": 625904528,
+      "bytes": 4264064,
+      "md5": "4d9ea91061aaf604b13e92760fb4e2a5"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-031.jpg-7ab3d96ed379df79910710c798a2f46e.ctex": {
+      "offset": 630625104,
+      "bytes": 4996888,
+      "md5": "b38768ae120fc65c3cc903d742ad0441"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-032.jpg-1ee65c225be32a7a82ec1f83744f417d.ctex": {
+      "offset": 635622304,
+      "bytes": 5158728,
+      "md5": "57ae04a8be9d2628adb905ad6f23ec51"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-033.jpg-113543c1a9ffb93db7eac1cc1718e057.ctex": {
+      "offset": 640781344,
+      "bytes": 5006172,
+      "md5": "0fd056fb0a0a1f3dad07325e1d78115a"
+    },
+    ".godot/imported/dock_3d66-export-JCI54557104651-034.jpg-df9b831ffaa211b15812fc8af21d1b4c.ctex": {
+      "offset": 645787824,
+      "bytes": 6492516,
+      "md5": "ed750f956753a59e77a498d771008c58"
+    },
+    ".godot/imported/door_close.mp3-9b40559449d53151ddf1d6300bf466cd.mp3str": {
+      "offset": 1651024,
+      "bytes": 22327,
+      "md5": "9664d55224b9b9dfec629d38729dfa3d"
+    },
+    ".godot/imported/door_open.mp3-b03bd724f19eca28bb6da04aa67af9f0.mp3str": {
+      "offset": 1673520,
+      "bytes": 33823,
+      "md5": "23ee0c8e867439255de3a69cfc092e5e"
+    },
+    ".godot/imported/explosion.mp3-464e0f78e934c54d664762595f0e712b.mp3str": {
+      "offset": 1707504,
+      "bytes": 74575,
+      "md5": "34a1ac6a77b8e2d83c38c3216a215978"
+    },
+    ".godot/imported/far_pine.glb-246ab99d4bcaa7eae1f2dbc0d05f98b4.scn": {
+      "offset": 144482848,
+      "bytes": 6536,
+      "md5": "6f6e58f06542b6f5fc416bc835b57dd6"
+    },
+    ".godot/imported/far_pine_nadel.png-9b094a9cc1b2218284356f70daa0493b.ctex": {
+      "offset": 144489568,
+      "bytes": 179558,
+      "md5": "3334f5c30b604dbbecc7f32b3ed57263"
+    },
+    ".godot/imported/far_pine_stamm.jpg-d38258abc824804bdb6e7b07b8b16b04.ctex": {
+      "offset": 144669408,
+      "bytes": 14818,
+      "md5": "28b0741b80ab3781f721b859bb23becf"
+    },
+    ".godot/imported/fern_02_2k.gltf-2a1ccc7e0e7c88459975b4b2693c8aa4.scn": {
+      "offset": 170871312,
+      "bytes": 191281,
+      "md5": "ad3e9124efd1e57812e51e916ec2720b"
+    },
+    ".godot/imported/fern_02_arm_2k.jpg-4dc20c96d50a8ae93ef941f68e505de3.s3tc.ctex": {
+      "offset": 159685504,
+      "bytes": 2796268,
+      "md5": "ee07c1f68c261b3e9846fcaa8d50cd63"
+    },
+    ".godot/imported/fern_02_diff_2k.jpg-fd586d3f27c821a3f6a30d86b615e2d4.s3tc.ctex": {
+      "offset": 162482032,
+      "bytes": 2796268,
+      "md5": "02dcd19339d206b7ad621afa835dfeb2"
+    },
+    ".godot/imported/fern_02_nor_gl_2k.jpg-f2e21c91962c1c0f713781fb3b8d740d.s3tc.ctex": {
+      "offset": 165278560,
+      "bytes": 5592484,
+      "md5": "28b20ac79fbe41ea880c3ad4241c6e3d"
+    },
+    ".godot/imported/field_character.glb-d9299a1748005f091a254eb50673006d.scn": {
+      "offset": 86510080,
+      "bytes": 1571609,
+      "md5": "fb80323614c2e0612947150017b4305c"
+    },
+    ".godot/imported/field_character_T_Eye_Brown.png-5a10eff5365b407e6a9774ebd372a1f4.ctex": {
+      "offset": 88486784,
+      "bytes": 38736,
+      "md5": "939b00d04f4731d74929e3ae47d79cd0"
+    },
+    ".godot/imported/field_character_T_Eye_Normal.png-dc91894b2a079331474b8e0f7bf8cd90.ctex": {
+      "offset": 88525808,
+      "bytes": 19070,
+      "md5": "e2ed480214b749bf940e126c8f6de8d3"
+    },
+    ".godot/imported/field_character_T_Hair_1_BaseColor.png-3368369a7383291d073b3308796b95a8.ctex": {
+      "offset": 88545168,
+      "bytes": 1870154,
+      "md5": "57a4fda7f1e0d0cfd913113ba5b03c57"
+    },
+    ".godot/imported/field_character_T_Hair_1_Normal.png-478e40c4ced6bba7006d019b22bbf3a0.ctex": {
+      "offset": 90415632,
+      "bytes": 4392890,
+      "md5": "db6142510dc6fd3beafdd5a30038781e"
+    },
+    ".godot/imported/field_character_T_Superhero_Male_Dark.png-50c9772f47cf319f1d791b2725df8ec2.ctex": {
+      "offset": 94808816,
+      "bytes": 1692036,
+      "md5": "089ab8a607909e06d1d4d53cea802ca8"
+    },
+    ".godot/imported/field_character_T_Superhero_Male_Normal.png-2305130e8dbb5c34a92da74caf46043b.ctex": {
+      "offset": 96501168,
+      "bytes": 3979164,
+      "md5": "6810d5d786fc6af072b3e43155f53b5b"
+    },
+    ".godot/imported/field_character_T_Superhero_Male_Roughness.png-d2e7c500d05a1a0817f97d7fae01f704.ctex": {
+      "offset": 100480640,
+      "bytes": 2455572,
+      "md5": "b113f9e5649c05bba1f158ff3589bbef"
+    },
+    ".godot/imported/field_character_field_cotton_weave.png-5ebef9f766c41a72f7e3881c8cef9a7f.ctex": {
+      "offset": 88081888,
+      "bytes": 202100,
+      "md5": "ce967728b317cd5a224bbf51d81f6ae5"
+    },
+    ".godot/imported/field_character_field_wool_weave.png-6edbc24de4f7fc030d5efd99cc426888.ctex": {
+      "offset": 88284304,
+      "bytes": 202180,
+      "md5": "680c1150fbe5a5220da2cbd905d80dd5"
+    },
+    ".godot/imported/forest_ground_04_diff_2k.jpg-d0638d38df213145b3348535c1a23957.s3tc.ctex": {
+      "offset": 385999328,
+      "bytes": 2796268,
+      "md5": "46fe3ceb7aeea99a6ea0c9205e87c46f"
+    },
+    ".godot/imported/forest_ground_04_nor_gl_2k.jpg-08af98070e42406eb4ba49e30eed5d2c.s3tc.ctex": {
+      "offset": 388795872,
+      "bytes": 5592484,
+      "md5": "0c2279ee9c5551742b41e1bc509bb73e"
+    },
+    ".godot/imported/forest_ground_04_rough_2k.jpg-362efaf2bd08108a6b932aace872e12d.s3tc.ctex": {
+      "offset": 394388640,
+      "bytes": 2796268,
+      "md5": "f3e7551c8f3af59a530ef0b97a819b47"
+    },
+    ".godot/imported/forest_wind_loop.wav-219462c40492f0a4fdc3e232a83c1f8e.sample": {
+      "offset": 9172928,
+      "bytes": 824539,
+      "md5": "a55401dd807760c5ef6b997dbc2a2aaf"
+    },
+    ".godot/imported/global_war_music.ogg-a438dff7256f0690c34ae0884f8eb7ed.oggvorbisstr": {
+      "offset": 9997648,
+      "bytes": 24575406,
+      "md5": "b9d6d5b1c8ce73279c3b095626adf628"
+    },
+    ".godot/imported/gravel_road_diff_2k.jpg-a9d7ae1db84c73167b348149d42f2620.ctex": {
+      "offset": 397185184,
+      "bytes": 4541900,
+      "md5": "65bb7fbbba3c19c1092b93e0b41b7f9c"
+    },
+    ".godot/imported/gravel_road_nor_gl_2k.jpg-f6b358d53067beee2e72c7faaa721a1a.ctex": {
+      "offset": 401727296,
+      "bytes": 6271056,
+      "md5": "0195e111749ca403d7b11b34ed6d7ecd"
+    },
+    ".godot/imported/gravel_road_rough_2k.jpg-2c91e2634b019309f02fe68e486c7d45.ctex": {
+      "offset": 407998576,
+      "bytes": 1233950,
+      "md5": "e1170315b282c293e83c621c18ed612a"
+    },
+    ".godot/imported/grey_roof_tiles_diff_2k.jpg-0c5dfd28f869e3196c0173d6d6fde398.s3tc.ctex": {
+      "offset": 409232752,
+      "bytes": 2796268,
+      "md5": "32fe62052d12a3fba2c3284fdc0f02e6"
+    },
+    ".godot/imported/grey_roof_tiles_nor_gl_2k.jpg-89097f41815bfa682044d80a9f849449.s3tc.ctex": {
+      "offset": 412029280,
+      "bytes": 5592484,
+      "md5": "b5f5daa86b289ea82c7ea6e80b8c8a3c"
+    },
+    ".godot/imported/grey_roof_tiles_rough_2k.jpg-9c5570afcaac7eab3dd9ca18d0f8c597.s3tc.ctex": {
+      "offset": 417622048,
+      "bytes": 2796268,
+      "md5": "64e2dc4ea0866d0dd233ae65f5be5ef5"
+    },
+    ".godot/imported/gunshot.mp3-439fa44f9596559c1e9ed89b12284f9d.mp3str": {
+      "offset": 1782240,
+      "bytes": 28599,
+      "md5": "ce57397a06e19cf4aaee3115849bd532"
+    },
+    ".godot/imported/hand_left.glb-7c3f54a1c032d99f37b35e5ca7cb84a7.scn": {
+      "offset": 481654080,
+      "bytes": 554402,
+      "md5": "4c85433db4084577fb6f9fe15f774a6e"
+    },
+    ".godot/imported/hand_left_skin_diffuse.png-e1bfa644978e6ebdd38b2a0be615bd06.ctex": {
+      "offset": 482208672,
+      "bytes": 600524,
+      "md5": "f4c533e8e76f94f98eb9b2cc876b4372"
+    },
+    ".godot/imported/hand_right.glb-e81316809e0d7f6e9cb9cc08308e1a16.scn": {
+      "offset": 482809488,
+      "bytes": 581194,
+      "md5": "428172381b0adbb23670037dbe2717d3"
+    },
+    ".godot/imported/hand_right_skin_diffuse.png-173d029e8c45acb132d3d7bf5b422166.ctex": {
+      "offset": 483390864,
+      "bytes": 600524,
+      "md5": "f4c533e8e76f94f98eb9b2cc876b4372"
+    },
+    ".godot/imported/japanese.glb-eab39a53dc517976f6fee2d1b8058f17.scn": {
+      "offset": 37803696,
+      "bytes": 432697,
+      "md5": "82c1e9107f462afe2de3d0187e568104"
+    },
+    ".godot/imported/japanese_3d66Model-22426855-files-004.png-a0281ee5fee8a1894a683de076fc8915.ctex": {
+      "offset": 38236576,
+      "bytes": 856,
+      "md5": "3901ce171ba931b2b1fefecab7efe1cf"
+    },
+    ".godot/imported/japanese_3d66Model-22426855-files-005.png-8afee9de7548894a8cfc64e5957ef595.ctex": {
+      "offset": 38237744,
+      "bytes": 1458514,
+      "md5": "c65e7abfd81d60f4b37abd4dea8686c4"
+    },
+    ".godot/imported/japanese_3d66Model-22426855-files-006.png-351111ba22eec53d03271a6ebe32d14d.ctex": {
+      "offset": 39696576,
+      "bytes": 1805506,
+      "md5": "584b70847b47bf6b22019ed6d1009dfd"
+    },
+    ".godot/imported/japanese_3d66Model-22426855-files-007.png-3f0ed7fbf998ef979515f674329549b8.ctex": {
+      "offset": 41502400,
+      "bytes": 1132034,
+      "md5": "9dd58e5923196d1f81e724568ac81634"
+    },
+    ".godot/imported/japanese_3d66Model-22426855-files-008.jpg-16b70d89850a9ebed0e8b8acfe3cc74f.ctex": {
+      "offset": 42634752,
+      "bytes": 1474378,
+      "md5": "89774963b83fe48ba29fa98722d4d7d6"
+    },
+    ".godot/imported/japanese_3d66Model-22426855-files-009.jpg-8d724333bca46dd8b7244346e2303d97.ctex": {
+      "offset": 44109440,
+      "bytes": 3697826,
+      "md5": "8b371577aa955bae0bf64ea5967cc4d0"
+    },
+    ".godot/imported/japanese_T_Superhero_Male_Dark.png-1ecad19adb0fb347a0e2bcd36616c0a9.ctex": {
+      "offset": 47807584,
+      "bytes": 1692036,
+      "md5": "089ab8a607909e06d1d4d53cea802ca8"
+    },
+    ".godot/imported/japanese_T_Superhero_Male_Normal.png-36139da8a6cd27c44a19736001846e89.ctex": {
+      "offset": 49499920,
+      "bytes": 3979164,
+      "md5": "6810d5d786fc6af072b3e43155f53b5b"
+    },
+    ".godot/imported/japanese_T_Superhero_Male_Roughness.png-efcba3ecd391a5c9f475c55491f2787d.ctex": {
+      "offset": 53479376,
+      "bytes": 2455572,
+      "md5": "b113f9e5649c05bba1f158ff3589bbef"
+    },
+    ".godot/imported/kar98k.glb-6511c070411b8218dac797df96446f63.scn": {
+      "offset": 652280656,
+      "bytes": 560729,
+      "md5": "9679f583ef72de100fdaf01bc865c3f0"
+    },
+    ".godot/imported/kar98k_3d66-export-JJI54551850227-001.jpg-44fd0e8ffe12b73584986b2b2f1b1c4c.ctex": {
+      "offset": 652841568,
+      "bytes": 4769326,
+      "md5": "176ade1477efdf655d147a594168ff9d"
+    },
+    ".godot/imported/kloofendal_overcast_puresky_2k.hdr-0d1f32063aad7487c8182d4d3610a6e0.ctex": {
+      "offset": 136093952,
+      "bytes": 8388660,
+      "md5": "b21817950a9523405426858e4ad484c9"
+    },
+    ".godot/imported/market_stalls.glb-1a7471d44f6ec884966d75242c700907.scn": {
+      "offset": 256219232,
+      "bytes": 426788,
+      "md5": "8d8944de4ed3e9ad991ce7bc26233d07"
+    },
+    ".godot/imported/muddy_tracks_diff_2k.jpg-7be2d0962682469a9a479558744eb8c4.s3tc.ctex": {
+      "offset": 420418592,
+      "bytes": 2796268,
+      "md5": "d3b8d4a9f848d968aefe3b772ffd6999"
+    },
+    ".godot/imported/muddy_tracks_nor_gl_2k.jpg-e7db4abfebcab7d169877396f9c75a79.s3tc.ctex": {
+      "offset": 423215120,
+      "bytes": 5592484,
+      "md5": "448842e7f3a8870f51a91f5855bcdc35"
+    },
+    ".godot/imported/muddy_tracks_rough_2k.jpg-356f9277031a32be14f29d66fdf3a27d.s3tc.ctex": {
+      "offset": 428807872,
+      "bytes": 2796268,
+      "md5": "5e3d056a1f7dd08c1999cdd7ad9e08ee"
+    },
+    ".godot/imported/office.glb-228a4688597805e7f8530ba394b7264a.scn": {
+      "offset": 657611200,
+      "bytes": 1871544,
+      "md5": "b894a49feacf438945bd695e0d7b8764"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-001.jpg-773c0d2932725641200b32fa6567f588.ctex": {
+      "offset": 659482928,
+      "bytes": 224860,
+      "md5": "ee6a5d15aa12008b4a8017bc5132ef43"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-002.jpg-7e6d6741a139214010375b34d62f3a70.ctex": {
+      "offset": 659708096,
+      "bytes": 204188,
+      "md5": "26ccab6b2e270e83c263f49c11808a44"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-003.jpg-92d715b106485682f8ebc953fa62e31b.ctex": {
+      "offset": 659912592,
+      "bytes": 122672,
+      "md5": "bd5ee0758dd6d044416f9414db5cca24"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-004.jpg-03548826d77133a94b2791ce01378a98.ctex": {
+      "offset": 660035568,
+      "bytes": 195460,
+      "md5": "eddeaba21cd05f34413bfa1c95699a47"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-005.jpg-39aacf045fff143ccc7d5b2f5c713ab8.ctex": {
+      "offset": 660231344,
+      "bytes": 192396,
+      "md5": "5cb12db8d9b06f7332e601d70d451117"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-006.jpg-f3d0bb86ea55ce4abab82da95cc489e6.ctex": {
+      "offset": 660424048,
+      "bytes": 332854,
+      "md5": "c2e6b3f70732cde9c8822d01422715de"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-007.jpg-b2999975350bdf5d9c96100c0ea881da.ctex": {
+      "offset": 660757216,
+      "bytes": 378094,
+      "md5": "13376034608c67f67531d95d4fb5a22b"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-008.jpg-1adecff5f89321811303834b1d08eb8a.ctex": {
+      "offset": 661135616,
+      "bytes": 222042,
+      "md5": "48a795bf485d494e835e8db190e4ca98"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-009.jpg-52f612a62b9748e8951247c45b3c3510.ctex": {
+      "offset": 661357968,
+      "bytes": 252510,
+      "md5": "7d92c323176a4aece8236752f0302ee0"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-010.jpg-181c3d3216b4ac1eda6335905df40f4c.ctex": {
+      "offset": 661610784,
+      "bytes": 1591526,
+      "md5": "42ec6f97504611a9ef8768bd20fc4d07"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-011.jpg-22a6b92e807ab3edaf01cd92a1fa2b9a.ctex": {
+      "offset": 663202624,
+      "bytes": 990536,
+      "md5": "2324fd31dafdedd69fe7d90b5ad6dddd"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-012.jpg-f3d85bd51192a3d6163c8d4339f05bb5.ctex": {
+      "offset": 664193472,
+      "bytes": 1158058,
+      "md5": "29cb603a02b4230899e41645b5ce9f93"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-013.jpg-412a0c2ddcd9bb0b0782c0f32b59dd0b.ctex": {
+      "offset": 665351840,
+      "bytes": 2073918,
+      "md5": "d85d6a2d0dd22fd5b203369c93557ee6"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-014.jpg-e6cec73bdf8806087d906430c09fe0e6.ctex": {
+      "offset": 667426064,
+      "bytes": 2084684,
+      "md5": "7d5b3514e8e16a8c60f5ac1e27bf38ba"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-015.jpg-54343b2b17aa555b147cd411ed27d0a9.ctex": {
+      "offset": 669511056,
+      "bytes": 242578,
+      "md5": "8b7ddeb730a402876bfe642355a5588e"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-016.jpg-e33a8dded079a4bb23809ab01f3320e6.ctex": {
+      "offset": 669753952,
+      "bytes": 188000,
+      "md5": "9246fd48d5deb4f90df5a557022449cd"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-017.jpg-4fab9d15ab7c75a5c784bfbaa42bca94.ctex": {
+      "offset": 669942256,
+      "bytes": 257746,
+      "md5": "b5b9c814fc89e2a9ea56de0338c74e07"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-018.jpg-d21c24ab0efebb7d64999990e368f772.ctex": {
+      "offset": 670200320,
+      "bytes": 1488542,
+      "md5": "efdb9c33325d909d2098a942626ae7cd"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-019.jpg-676ae34644a6ac056e563d8f3858fee0.ctex": {
+      "offset": 671689168,
+      "bytes": 217910,
+      "md5": "f3f3493b45f93d58f09dbe22b03fff05"
+    },
+    ".godot/imported/office_3d66Model-22399557-files-020.jpg-19c465f0d447da71da7cf377235f0a0b.ctex": {
+      "offset": 671907392,
+      "bytes": 182708,
+      "md5": "0caafce2371866370360dd528ca4dd38"
+    },
+    ".godot/imported/opening_history_20261015.mp3-2b5f19e445746a2f7325bc603dbbc31f.mp3str": {
+      "offset": 34573248,
+      "bytes": 2727571,
+      "md5": "994ff8fffc83aad175b598217f813285"
+    },
+    ".godot/imported/pine_bark_diff_2k.jpg-fa7147335b34302a7938126385011ec8.s3tc.ctex": {
+      "offset": 431604400,
+      "bytes": 2796268,
+      "md5": "378a55f642c099881ee50bf106a5804a"
+    },
+    ".godot/imported/pine_bark_nor_gl_2k.jpg-9e92472a723926186a616c9b0a4d5af6.s3tc.ctex": {
+      "offset": 434400928,
+      "bytes": 5592484,
+      "md5": "bebda69c8be9e087fe7a3c4d52c7b0f3"
+    },
+    ".godot/imported/pine_bark_rough_2k.jpg-d2bf58459945dd21ace214319248b247.s3tc.ctex": {
+      "offset": 439993680,
+      "bytes": 2796268,
+      "md5": "9f3eb617d0a2b6bd37d43cf163c23981"
+    },
+    ".godot/imported/pine_sapling_small_2k.gltf-b7338c17fe2f2e53dd0446d4cbea4b79.scn": {
+      "offset": 205771072,
+      "bytes": 16819712,
+      "md5": "e05ce46344f7334b57fc983bd771fc65"
+    },
+    ".godot/imported/pine_sapling_small_bark_arm_2k.jpg-04522bc144e36c2072d53fe144facd28.s3tc.ctex": {
+      "offset": 183399360,
+      "bytes": 2796268,
+      "md5": "d2a7c73a89dbbbbb6ea1bc90a224bc39"
+    },
+    ".godot/imported/pine_sapling_small_bark_diff_2k.jpg-1abf470324fa021bc1f4138c1d88a472.s3tc.ctex": {
+      "offset": 186195904,
+      "bytes": 2796268,
+      "md5": "f47c55b7289d0e7cd0d6832b5bf69e0c"
+    },
+    ".godot/imported/pine_sapling_small_bark_nor_gl_2k.jpg-86a94c3834cd1d6b93b81e142773b21c.s3tc.ctex": {
+      "offset": 188992448,
+      "bytes": 5592484,
+      "md5": "3a25de02bf58dac9658a34927ae76edf"
+    },
+    ".godot/imported/pine_sapling_small_twig_arm_2k.jpg-b41c0e7e3bc82251523106e5479fb042.s3tc.ctex": {
+      "offset": 194585216,
+      "bytes": 2796268,
+      "md5": "2bfab44087ad5941e4a9c96a11eb561b"
+    },
+    ".godot/imported/pine_sapling_small_twig_diff_2k.jpg-304b83ff177369825a19b829df8ff8c6.s3tc.ctex": {
+      "offset": 197381760,
+      "bytes": 2796268,
+      "md5": "b0b0a60c4fdb9adb2db64268c0461067"
+    },
+    ".godot/imported/pine_sapling_small_twig_nor_gl_2k.jpg-bfae3ef334f32dcf52ebca8e74b94747.s3tc.ctex": {
+      "offset": 200178304,
+      "bytes": 5592484,
+      "md5": "2825adf6e4b9317f8022cb8cbb36ac0c"
+    },
+    ".godot/imported/power_switch_off.wav-f56c0eec9b9d109b33a0be280ebdf68c.sample": {
+      "offset": 37301008,
+      "bytes": 18384,
+      "md5": "af7fe08f44c44a6c3dc8197faf8b6607"
+    },
+    ".godot/imported/radio_room_loop.wav-be2b483a7a3c4bd8c5d16b72a6cea34a.sample": {
+      "offset": 37319568,
+      "bytes": 82951,
+      "md5": "779e0fc24ad1c4763ac6f71af4efafae"
+    },
+    ".godot/imported/reload.mp3-18a5decbc9e562eae69cfc5a3bf450c2.mp3str": {
+      "offset": 1817216,
+      "bytes": 43227,
+      "md5": "639c20782519183c784ce9d1d55f0979"
+    },
+    ".godot/imported/rifle_arisaka_01.wav-7f83b0c6d2c5bd1a5f19055a954e58a4.sample": {
+      "offset": 37402704,
+      "bytes": 245183,
+      "md5": "b6045c2056268f161f69fdff1ae289bd"
+    },
+    ".godot/imported/river.glb-7a5e4df5b4f68c08ad0b76e92513aa61.scn": {
+      "offset": 672090416,
+      "bytes": 548761,
+      "md5": "5e62b577bb7c6d7c29353520b8eecc4e"
+    },
+    ".godot/imported/river.mp3-cd11e229a2b6ab44e4265096c2f2ee4d.mp3str": {
+      "offset": 1860608,
+      "bytes": 6855963,
+      "md5": "623e76ad99ca7c1eebdf7a2afed70851"
+    },
+    ".godot/imported/river_3d66Model-15202935-files-1.jpg-9097f2018860346b3f3fdc1849fa2d33.ctex": {
+      "offset": 672639360,
+      "bytes": 5826014,
+      "md5": "da3551045f362bd50cc21b0d75f325ac"
+    },
+    ".godot/imported/river_3d66Model-15202935-files-42.jpg-18aa8682accc875234d03f86c94c2c3b.ctex": {
+      "offset": 678465664,
+      "bytes": 18579572,
+      "md5": "32b4e573a83b4e43ff0c27b2e13292a0"
+    },
+    ".godot/imported/river_3d66Model-15202935-files-43.jpg-ffbc4fb8f2210cda475e6ab35a76d1a8.ctex": {
+      "offset": 697045536,
+      "bytes": 69295084,
+      "md5": "6847d6c49bff9e93e1dd202296e8387e"
+    },
+    ".godot/imported/river_3d66Model-15202935-files-49.jpg-e1e72454be0480c6aa4fadedb53c4eff.ctex": {
+      "offset": 766340928,
+      "bytes": 2916988,
+      "md5": "632d2e899b3fd45fc4d5f2ac1de6a833"
+    },
+    ".godot/imported/river_3d66Model-15202935-files-49_5.jpg-a565b49f537d5df2a934ed51f857d74f.ctex": {
+      "offset": 769258224,
+      "bytes": 5762446,
+      "md5": "b0393d184fc0954528f8596688ff85eb"
+    },
+    ".godot/imported/river_3d66Model-15202935-files-55.jpg-e752f72ce21b0d467b57cb7fe0ce9ce3.ctex": {
+      "offset": 775020976,
+      "bytes": 4581182,
+      "md5": "31a863a5f6c5e4d072c49202c13eaddf"
+    },
+    ".godot/imported/river_bank_loop.wav-65d448a33312badb2a3393a82f84451d.sample": {
+      "offset": 37648064,
+      "bytes": 131527,
+      "md5": "683f504e3ee08d39823baa06e7dcf867"
+    },
+    ".godot/imported/rock_moss_set_01_2k.gltf-9158a464cc0f0a99f868d015ee1122c1.scn": {
+      "offset": 233776800,
+      "bytes": 1954045,
+      "md5": "73ff0ab1c54046ac20c6dbf164bce52d"
+    },
+    ".godot/imported/rock_moss_set_01_diff_2k.jpg-56ce3b700d50671333d248265f0472f8.s3tc.ctex": {
+      "offset": 222590976,
+      "bytes": 2796268,
+      "md5": "4ad600c88f4caaa5655503c463298788"
+    },
+    ".godot/imported/rock_moss_set_01_nor_gl_2k.jpg-de4b3f530547ffcb1dd1df011e94e237.s3tc.ctex": {
+      "offset": 225387504,
+      "bytes": 5592484,
+      "md5": "2f56f867bc27bd7fd0860b61ab8e5954"
+    },
+    ".godot/imported/rock_moss_set_01_rough_2k.jpg-823cbabc220ab633d9783e6d3b2526d4.s3tc.ctex": {
+      "offset": 230980272,
+      "bytes": 2796268,
+      "md5": "2b7a490c06e9deecb49dbb0bd8ac1b0f"
+    },
+    ".godot/imported/rusty_metal_04_diff_2k.jpg-25678e399a79b53ad67e279c17c64dc7.s3tc.ctex": {
+      "offset": 442790208,
+      "bytes": 2796268,
+      "md5": "ae5c78128bdea61a2ffe99c21287908d"
+    },
+    ".godot/imported/rusty_metal_04_nor_gl_2k.jpg-16e82311e38fccaca464dec60ef58096.s3tc.ctex": {
+      "offset": 445586736,
+      "bytes": 5592484,
+      "md5": "fd588a3d7efa5befff0553aba2905464"
+    },
+    ".godot/imported/rusty_metal_04_rough_2k.jpg-1ff42c9fc5ccc6aa6320560233cca214.s3tc.ctex": {
+      "offset": 451179504,
+      "bytes": 2796268,
+      "md5": "f0c0293b957ad968dc62d9b09839a3df"
+    },
+    ".godot/imported/step_grass_01.wav-000846a276c460ce6a4b82a3523f634c.sample": {
+      "offset": 37779776,
+      "bytes": 23747,
+      "md5": "e6cb49ca8118f4063de174d6ffecdfe0"
+    },
+    ".godot/imported/step_run.mp3-2d98a14d896e2c76e30f70e9261f8cac.mp3str": {
+      "offset": 8716736,
+      "bytes": 105919,
+      "md5": "5d43598d834ea92aac9a7d591c5ef6ac"
+    },
+    ".godot/imported/step_walk.mp3-590dab7cefcef64eae72d362ba582f63.mp3str": {
+      "offset": 8822816,
+      "bytes": 211455,
+      "md5": "915981f0e01ee32a30f9792dc2f7e682"
+    },
+    ".godot/imported/tianchi_artistic.glb-df25e4e8465307ec4a11b49bc2db4866.scn": {
+      "offset": 484047296,
+      "bytes": 1191169,
+      "md5": "2c08a04074d764c0990d6dbb6e4165a2"
+    },
+    ".godot/imported/tianchi_reference.glb-9065bcfbe97978698e1581aace067381.scn": {
+      "offset": 485238672,
+      "bytes": 3130953,
+      "md5": "32cc88164ca3cb32f631b83fa2573d2e"
+    },
+    ".godot/imported/tianchi_reference_terrain_color.png-6055262854964e9039167c88418737ce.ctex": {
+      "offset": 488369824,
+      "bytes": 1191756,
+      "md5": "c123023fd1579d736835a23788d579b0"
+    },
+    ".godot/imported/tree_stump_01_2k.gltf-93e20a34ffe7788c5db68fbe1a3aa6d1.scn": {
+      "offset": 281673712,
+      "bytes": 1562998,
+      "md5": "d483f7997cae1334fd2d143695d586e7"
+    },
+    ".godot/imported/tree_stump_01_arm_2k.jpg-5f7ed04d6cc4ccaf1b1384543b7f7f69.s3tc.ctex": {
+      "offset": 270487904,
+      "bytes": 2796268,
+      "md5": "e34cec9d02cd4f1d8b5ba9aa360f11ad"
+    },
+    ".godot/imported/tree_stump_01_diff_2k.jpg-228350fb1fd4d3f1b1af174cf62bec61.s3tc.ctex": {
+      "offset": 273284432,
+      "bytes": 2796268,
+      "md5": "0f3241864a1431dd1a6114c1949ace12"
+    },
+    ".godot/imported/tree_stump_01_nor_gl_2k.jpg-ff1e287ba19099287fc7997999ebb697.s3tc.ctex": {
+      "offset": 276080960,
+      "bytes": 5592484,
+      "md5": "75338bdb60ac8c85c44f38bebfffbc16"
+    },
+    ".godot/imported/village_1.glb-96ad3184db37596286fc967403f8100a.scn": {
+      "offset": 779997360,
+      "bytes": 427291,
+      "md5": "9e389b43d99183cf9ada1b06047d8fe3"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-67.jpg-48a776e006486b704d862f449b710ae4.ctex": {
+      "offset": 780424832,
+      "bytes": 7025006,
+      "md5": "81a4dd7d0bcf53cc382c3f8e40b6099f"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-68.jpg-4fa8c763da8066145755db45ee9e69c0.ctex": {
+      "offset": 787450144,
+      "bytes": 8219666,
+      "md5": "ae1870a3bf91a81fffdf90c10563873a"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-69.jpg-9e731c9efb352167ac1437246303206c.ctex": {
+      "offset": 795670128,
+      "bytes": 532214,
+      "md5": "c073f4b600a1ce481e956287da8f90b4"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-70.jpg-b6fb2729ae4af18b0365617d23cdb936.ctex": {
+      "offset": 796202656,
+      "bytes": 226062,
+      "md5": "b6dcf1bfc2dfb29310b0fa8c19d5a0ad"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-71.jpg-aa5aad4a4d85e3ffec8735b666aba35f.ctex": {
+      "offset": 796429024,
+      "bytes": 378430,
+      "md5": "805c433a239774115e4301c0ad3fe362"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-72.jpg-e9e974a2fb020f6b3e9fb01e31d9f874.ctex": {
+      "offset": 796807760,
+      "bytes": 962494,
+      "md5": "13c7a30b758ff9c07cd67516b4d77e50"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-73.jpg-5b9d4a854ef7804df354e95fd4332bdf.ctex": {
+      "offset": 797770560,
+      "bytes": 6266394,
+      "md5": "4f2c988c08c9509209fb64f67acc748d"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-74.jpg-1fefb774279fa4b80967ec86ca177414.ctex": {
+      "offset": 804037264,
+      "bytes": 655318,
+      "md5": "0567075a325905f9566ad6bee511fd34"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-75.jpg-5302789f78e0f9006a1d18cca70d54e5.ctex": {
+      "offset": 804692896,
+      "bytes": 371412,
+      "md5": "2bf183cdd710bf8ba0a0c908d9a41542"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-76.jpg-c863bae8d1b2ddb1f22aa58861362001.ctex": {
+      "offset": 805064624,
+      "bytes": 709592,
+      "md5": "a277ca195946953f8428019d03d54043"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-77.jpg-b2fd678fcc588834ef4840963c532183.ctex": {
+      "offset": 805774528,
+      "bytes": 341350,
+      "md5": "a16c25c53ee8c1e1102db24f7ce1b944"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-78.jpg-8fc49fc58f337d7f7b064845f39ed194.ctex": {
+      "offset": 806116192,
+      "bytes": 6403456,
+      "md5": "925c8ee4b898a33e50cc824cfbf42636"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-79.jpg-0fe50e594cc85ccbb60b16204809f6c2.ctex": {
+      "offset": 812519952,
+      "bytes": 1527906,
+      "md5": "7907877f9837e2a9f263513927fe5bfd"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-80.jpg-05809bcbdc682ded1a950d24effca64c.ctex": {
+      "offset": 814048176,
+      "bytes": 986130,
+      "md5": "e47648cf8ae9f69a92705872422fca79"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-81.jpg-da6cf012fc8becd1183d480b54de3d2e.ctex": {
+      "offset": 815034624,
+      "bytes": 2356770,
+      "md5": "ac0d893fd91612ecbfeff247556e558c"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-82.jpg-f38a6374a5de0f78e634af0e45b24e25.ctex": {
+      "offset": 817391712,
+      "bytes": 574562,
+      "md5": "47baceabdf8b9a43f1850954648d119b"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-83.jpg-c75f00701765bb6cac63f60b573705f7.ctex": {
+      "offset": 817966592,
+      "bytes": 1811224,
+      "md5": "91e6b64de51d1c0766f50c192bf04582"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-84.jpg-3dd19e8dd398078db6561885574a29e3.ctex": {
+      "offset": 819778128,
+      "bytes": 651240,
+      "md5": "bcfd28405c3311384611b6779d91720c"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-85.jpg-ef51c883556d541d1ce6a413fcca42f9.ctex": {
+      "offset": 820429680,
+      "bytes": 2486954,
+      "md5": "4e198f962a1452eb772b60252053c894"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-86.jpg-58e47874e2a0b71e8f66f63932cde6af.ctex": {
+      "offset": 822916944,
+      "bytes": 344672,
+      "md5": "fe9632cd2ae43e4f73747a284696b6e3"
+    },
+    ".godot/imported/village_1_3d66Model-691775-files-87.jpg-594612ebfbc7cf743b4720ebce3b3357.ctex": {
+      "offset": 823261920,
+      "bytes": 84116,
+      "md5": "071ef3fcda654c934f61471eb29a385a"
+    },
+    ".godot/imported/village_2.glb-ce5548d182c344b48a675cfe1df73ef7.scn": {
+      "offset": 823346352,
+      "bytes": 407374,
+      "md5": "7b9383b6806e7a39bd2fc091eb089031"
+    },
+    ".godot/imported/village_3.glb-7684278d83db529a3686cbd7903b6faa.scn": {
+      "offset": 237264,
+      "bytes": 454288,
+      "md5": "2157a53470b84615996bd28948db46a9"
+    },
+    ".godot/imported/village_4.glb-66c74a36aad77f98976e3a9435598021.scn": {
+      "offset": 630168896,
+      "bytes": 428595,
+      "md5": "955d6ea55158c8d8fa16a283c275e2dd"
+    },
+    ".godot/imported/village_market.glb-8d4bb0ddce974ef7d01f9d178c548eb4.scn": {
+      "offset": 256646208,
+      "bytes": 211431,
+      "md5": "e3678a5be5740b44672c8e4f6f056b0b"
+    },
+    ".godot/imported/village_passages.glb-2af1d5a48a75b66419850e4447dbb9e1.scn": {
+      "offset": 731984,
+      "bytes": 493284,
+      "md5": "9dc4847143ad947286cab5fa7cb92bb4"
+    },
+    ".godot/imported/vintage_radio_transceiver_2k.gltf-aac76f382924447ade5bda0977a4677d.scn": {
+      "offset": 305608672,
+      "bytes": 1299954,
+      "md5": "dae31ea92d7a22a91223a7622024c013"
+    },
+    ".godot/imported/vintage_radio_transceiver_accessories_arm_2k.jpg-c59f13edcb983bd8423fc86b27798beb.s3tc.ctex": {
+      "offset": 283236912,
+      "bytes": 2796268,
+      "md5": "5500d15c6082e17359dd4fd8e8bbd530"
+    },
+    ".godot/imported/vintage_radio_transceiver_accessories_diff_2k.jpg-c24dff92c91f107ea1eba5b9b55daee3.s3tc.ctex": {
+      "offset": 286033472,
+      "bytes": 2796268,
+      "md5": "42ce5fd0486bc268a5aa3e1956c041ba"
+    },
+    ".godot/imported/vintage_radio_transceiver_accessories_nor_gl_2k.jpg-f0121abeaf00d2e20f2b7a6555ce902f.s3tc.ctex": {
+      "offset": 288830032,
+      "bytes": 5592484,
+      "md5": "28cd09cb77449a54a85f4537da2c4884"
+    },
+    ".godot/imported/vintage_radio_transceiver_arm_2k.jpg-949cfa86943f57377020c77cb3da27e1.s3tc.ctex": {
+      "offset": 294422816,
+      "bytes": 2796268,
+      "md5": "e10f07618883724eea62c050a667d61a"
+    },
+    ".godot/imported/vintage_radio_transceiver_diff_2k.jpg-3350423e1020f61a99178df6ddbc2e74.s3tc.ctex": {
+      "offset": 297219360,
+      "bytes": 2796268,
+      "md5": "1989a8aedbf41f6fb5b8464593236e9c"
+    },
+    ".godot/imported/vintage_radio_transceiver_nor_gl_2k.jpg-021a7783e5a38aece589ba3ad362ce05.s3tc.ctex": {
+      "offset": 300015904,
+      "bytes": 5592484,
+      "md5": "640a9e2d7e6c69e396ddf4c8c3d264ae"
+    },
+    ".godot/imported/volunteer.glb-cfb65bd278bf7a74dec23cd17524e8da.scn": {
+      "offset": 55937744,
+      "bytes": 1066666,
+      "md5": "10ef71a80e97e15a2a1b6bc244e70e37"
+    },
+    ".godot/imported/volunteer_3d66Model-17309872-files-004.png-32a1ff6f6814751aa92bcfdcb433ea3a.ctex": {
+      "offset": 57004592,
+      "bytes": 575724,
+      "md5": "c129f4319d525d13f2bed729354f2c4f"
+    },
+    ".godot/imported/volunteer_3d66Model-17309872-files-005.png-cb49c66f9d045ab5700b691bdba9e4d1.ctex": {
+      "offset": 57580624,
+      "bytes": 407490,
+      "md5": "ec8a33183981988c30893a2e6d93412b"
+    },
+    ".godot/imported/volunteer_3d66Model-17309872-files-008.png-89eb08eacba686725badd1dc4bc0d559.ctex": {
+      "offset": 57988432,
+      "bytes": 413348,
+      "md5": "02b1ee42d3d59d6579dc3cbcfe7cf3ae"
+    },
+    ".godot/imported/volunteer_3d66Model-17309872-files-010.png-1ecfd4cb28f309ec04bb263100a94ca1.ctex": {
+      "offset": 58402096,
+      "bytes": 5651006,
+      "md5": "70bc889eb3938023ca46808bccec6602"
+    },
+    ".godot/imported/volunteer_3d66Model-17309872-files-011.png-60259921ef4ec1a330f26cf354f4b0b3.ctex": {
+      "offset": 64053408,
+      "bytes": 4334496,
+      "md5": "eeee76b81852c06fa01a4525b685914d"
+    },
+    ".godot/imported/volunteer_3d66Model-17309872-files-012.png-8701c7fbe6d66caeb9f941638dbde477.ctex": {
+      "offset": 68388208,
+      "bytes": 5559846,
+      "md5": "421a549975e25942b168852ef9365faf"
+    },
+    ".godot/imported/volunteer_T_Superhero_Male_Dark.png-e40fc067190a891862f2ceb90f14cb5f.ctex": {
+      "offset": 73948368,
+      "bytes": 1692036,
+      "md5": "089ab8a607909e06d1d4d53cea802ca8"
+    },
+    ".godot/imported/volunteer_T_Superhero_Male_Normal.png-1d0b06407c14e6547dc11f6c29bdb727.ctex": {
+      "offset": 75640704,
+      "bytes": 3979164,
+      "md5": "6810d5d786fc6af072b3e43155f53b5b"
+    },
+    ".godot/imported/volunteer_T_Superhero_Male_Roughness.png-19c689325f10f26e68130c56465b2e12.ctex": {
+      "offset": 79620160,
+      "bytes": 2455572,
+      "md5": "b113f9e5649c05bba1f158ff3589bbef"
+    },
+    ".godot/imported/volunteer_volunteer_gray_01.png-dbfce913577e7e130fc01b09fecfe163.ctex": {
+      "offset": 82076048,
+      "bytes": 858936,
+      "md5": "9a14de92601620d0a539f37c797f44ef"
+    },
+    ".godot/imported/volunteer_volunteer_gray_02.png-059816be266ba383685b8403a9e21ebc.ctex": {
+      "offset": 82935280,
+      "bytes": 1098998,
+      "md5": "3d29b0732b46237599a8e2fbcb35abf0"
+    },
+    ".godot/imported/volunteer_volunteer_gray_07.png-383000ee21f4dce174360b55c4d9debc.ctex": {
+      "offset": 84034576,
+      "bytes": 1181886,
+      "md5": "d5b96a8a3fe5629e00a9bb14d67d6f9f"
+    },
+    ".godot/imported/volunteer_volunteer_gray_10.png-5f2330c6a8fafe7f97331f6d8638108e.ctex": {
+      "offset": 85216752,
+      "bytes": 1293034,
+      "md5": "7ca1695a540a26ff0076b0fd99cee3c7"
+    },
+    ".godot/imported/weathered_brown_planks_diff_2k.jpg-e8e5183d8bc567fd6be782f37d5a8e76.s3tc.ctex": {
+      "offset": 453976032,
+      "bytes": 2796268,
+      "md5": "0f30a523b9e2efb58e0dc8346d2a4440"
+    },
+    ".godot/imported/weathered_brown_planks_nor_gl_2k.jpg-243a03ebd9091225d1b30a5cc2ca9d9d.s3tc.ctex": {
+      "offset": 456772576,
+      "bytes": 5592484,
+      "md5": "02d761fd5582f0f28cedc59427b98400"
+    },
+    ".godot/imported/weathered_brown_planks_rough_2k.jpg-92627c13e2ed7d244687877e7f9cdbae.s3tc.ctex": {
+      "offset": 462365344,
+      "bytes": 2796268,
+      "md5": "a6601242dfe9feb31139ed54f5e684cc"
+    },
+    ".godot/imported/wicker_basket_01_2k.gltf-783af71c6b7035ce3cba266691aabdda.scn": {
+      "offset": 269793280,
+      "bytes": 694427,
+      "md5": "02948baf58e40443b0f80889a7dd8748"
+    },
+    ".godot/imported/wicker_basket_01_arm_2k.jpg-6b9b14b50aa453223df800012b7540d4.ctex": {
+      "offset": 256857824,
+      "bytes": 4831736,
+      "md5": "84ef472aa4068e4db7691661c1806774"
+    },
+    ".godot/imported/wicker_basket_01_diff_2k.jpg-e6ae9bda10452cf975688008a620bd6c.ctex": {
+      "offset": 261689792,
+      "bytes": 3941590,
+      "md5": "a419d9f493358f211757ef71c30f060f"
+    },
+    ".godot/imported/wicker_basket_01_nor_gl_2k.jpg-eb9ebb2c5a7766d45bee7857b55e1921.ctex": {
+      "offset": 265631616,
+      "bytes": 4161432,
+      "md5": "80c0f6746e765809f33dfddf4da5257f"
+    },
+    ".godot/imported/wine_barrel_01_2k.gltf-db69a1824e1b3d164f3e9007529c9cb9.scn": {
+      "offset": 318094656,
+      "bytes": 335017,
+      "md5": "077f1946be4f3caeef979e7f11183359"
+    },
+    ".godot/imported/wine_barrel_01_arm_2k.jpg-8eb5ee0a12e525116d081a5c9998cf03.s3tc.ctex": {
+      "offset": 306908832,
+      "bytes": 2796268,
+      "md5": "abbed9edf1b4445b3681317bfaed460a"
+    },
+    ".godot/imported/wine_barrel_01_diff_2k.jpg-ef1762091e86aad6aeb7013e5fd6a875.s3tc.ctex": {
+      "offset": 309705360,
+      "bytes": 2796268,
+      "md5": "518106b44832ad1becbd3268f39c3a7e"
+    },
+    ".godot/imported/wine_barrel_01_nor_gl_2k.jpg-64db82a4f7b1c5de5ed890f39113a455.s3tc.ctex": {
+      "offset": 312501888,
+      "bytes": 5592484,
+      "md5": "10f10e5fb5054c5849da7fecf2114a77"
+    },
+    ".godot/imported/wood_chips_diff_2k.jpg-9e8f67467f18032d52e332f462147579.ctex": {
+      "offset": 465161888,
+      "bytes": 6119954,
+      "md5": "dda9c578bc479897a07b7dcaa4fdcc4a"
+    },
+    ".godot/imported/wood_chips_nor_gl_2k.jpg-4892a6222b30386c40e40cf7ceb4322d.ctex": {
+      "offset": 471282064,
+      "bytes": 8871790,
+      "md5": "c465baaf131db2548abce10a3427cded"
+    },
+    ".godot/imported/wood_chips_rough_2k.jpg-cc073924d9b34f6abf9236f2191bb80b.ctex": {
+      "offset": 480154080,
+      "bytes": 1462878,
+      "md5": "3d45d50b30ee02b9ebc6463a2936aee9"
+    },
+    ".godot/imported/wooden_axe_02_2k.gltf-90314b03778f46f9873084c1c12d1855.scn": {
+      "offset": 340827904,
+      "bytes": 66845,
+      "md5": "7b15530d95e97a1209dee3150db3ba16"
+    },
+    ".godot/imported/wooden_axe_02_arm_2k.jpg-38f16d646952b4d2da3e74d6cc8870b2.s3tc.ctex": {
+      "offset": 329642096,
+      "bytes": 2796268,
+      "md5": "2089e14433ffc581d418c4a969379cef"
+    },
+    ".godot/imported/wooden_axe_02_diff_2k.jpg-f4a80602c095c18dfdebdfa48de5b1b5.s3tc.ctex": {
+      "offset": 332438624,
+      "bytes": 2796268,
+      "md5": "db23bdd2cd0a402ecad7a16321c4210c"
+    },
+    ".godot/imported/wooden_axe_02_nor_gl_2k.jpg-46a68c21b60363c387bd920fdbfee383.s3tc.ctex": {
+      "offset": 335235152,
+      "bytes": 5592484,
+      "md5": "40fcbdbba1c81d7ae24d371a6d903098"
+    },
+    ".godot/imported/wooden_bucket_01_2k.gltf-c251bd69b2f717119cd5446a5fd7a9ba.scn": {
+      "offset": 352080784,
+      "bytes": 164546,
+      "md5": "5e630ce2bbcf74956371df9541f07da5"
+    },
+    ".godot/imported/wooden_bucket_01_arm_2k.jpg-ea7fd7f60c4eacf08b86b3924b509673.s3tc.ctex": {
+      "offset": 340894944,
+      "bytes": 2796268,
+      "md5": "c58c92386e12ac4c0fa52f96355e2756"
+    },
+    ".godot/imported/wooden_bucket_01_diff_2k.jpg-307de7b144e188a096fc116c822b8886.s3tc.ctex": {
+      "offset": 343691472,
+      "bytes": 2796268,
+      "md5": "60cdb733cd3ef83d1f8f0e53348c703c"
+    },
+    ".godot/imported/wooden_bucket_01_nor_gl_2k.jpg-ea3c1972bac98aec929e5a4f1e7ddd99.s3tc.ctex": {
+      "offset": 346488016,
+      "bytes": 5592484,
+      "md5": "3e09b192b9bab0f6141b15326cd858b8"
+    },
+    ".godot/imported/wooden_crate_01_2k.gltf-a2bb1b04b3cd674ebcd84b790d20f4d8.scn": {
+      "offset": 363431360,
+      "bytes": 196066,
+      "md5": "e75022cd40d98f298d1443d89481b3d3"
+    },
+    ".godot/imported/wooden_crate_01_arm_2k.jpg-ef0417c3ecce551adb82fb84419f0420.s3tc.ctex": {
+      "offset": 352245536,
+      "bytes": 2796268,
+      "md5": "cd5d4a5dd0b3900c76ef55d2d7f8d936"
+    },
+    ".godot/imported/wooden_crate_01_diff_2k.jpg-5fee41736eeb3914ef5596f04b0bdd88.s3tc.ctex": {
+      "offset": 355042064,
+      "bytes": 2796268,
+      "md5": "3be4f54ceffe1915ad1a33da4961d5d7"
+    },
+    ".godot/imported/wooden_crate_01_nor_gl_2k.jpg-c509e274adcf07cadec8f5813cb4aed0.s3tc.ctex": {
+      "offset": 357838592,
+      "bytes": 5592484,
+      "md5": "3cf6ae26d8211a1db1785c2f23b95077"
+    },
+    ".godot/uid_cache.bin": {
+      "offset": 823763792,
+      "bytes": 25941,
+      "md5": "0ac48399376504f81414ce98ca861562"
+    },
+    "assets/audio/bayonet_charge.mp3.import": {
+      "offset": 9172752,
+      "bytes": 161,
+      "md5": "e14ca34d96fc71191349a5254b194e41"
+    },
+    "assets/audio/forest_wind_loop.wav.import": {
+      "offset": 9997472,
+      "bytes": 163,
+      "md5": "6df36f6544657e79e9e0a07975523fda"
+    },
+    "assets/audio/global_war_music.ogg.import": {
+      "offset": 34573056,
+      "bytes": 184,
+      "md5": "8534ab81ce7f408a781270f7f0e903ef"
+    },
+    "assets/audio/opening_history_20261015.mp3.import": {
+      "offset": 37300832,
+      "bytes": 171,
+      "md5": "70170fa4e8505dc079979c583e69a069"
+    },
+    "assets/audio/power_switch_off.wav.import": {
+      "offset": 37319392,
+      "bytes": 163,
+      "md5": "20d91d1d4de4a76b7e3b2c51858e10e7"
+    },
+    "assets/audio/radio_room_loop.wav.import": {
+      "offset": 37402528,
+      "bytes": 162,
+      "md5": "88246cba681ecb7b4f144e03ddc39571"
+    },
+    "assets/audio/rifle_arisaka_01.wav.import": {
+      "offset": 37647888,
+      "bytes": 163,
+      "md5": "d3ab23ba68955f0f7691dce7dd5bfea9"
+    },
+    "assets/audio/river_bank_loop.wav.import": {
+      "offset": 37779600,
+      "bytes": 161,
+      "md5": "f4b694092126e166067131d7b4820dd3"
+    },
+    "assets/audio/step_grass_01.wav.import": {
+      "offset": 37803536,
+      "bytes": 160,
+      "md5": "b859603c8cd018085a3a0c4469724d12"
+    },
+    "assets/audio/user_dialogue_20261015/B1-L01.mp3.import": {
+      "offset": 1243232,
+      "bytes": 152,
+      "md5": "61b6c665974729d0002eeac617d70c3c"
+    },
+    "assets/audio/user_dialogue_20261015/B2-L02.mp3.import": {
+      "offset": 1267056,
+      "bytes": 152,
+      "md5": "5e616a923725af6be0bf799c9fea6999"
+    },
+    "assets/audio/user_dialogue_20261015/B3-L01.mp3.import": {
+      "offset": 1312048,
+      "bytes": 152,
+      "md5": "d22c6a9d1465301eaed02d8e4fb8f0c2"
+    },
+    "assets/audio/user_dialogue_20261015/B5-L01.mp3.import": {
+      "offset": 1348832,
+      "bytes": 153,
+      "md5": "5f4f2ed54f471cc76bd2e00c77c8a201"
+    },
+    "assets/audio/user_dialogue_20261015/B5-L03.mp3.import": {
+      "offset": 1391664,
+      "bytes": 153,
+      "md5": "4b46c7c968e93383c02c1cbb838f1ffe"
+    },
+    "assets/audio/user_dialogue_20261015/B5-L04.mp3.import": {
+      "offset": 1434208,
+      "bytes": 152,
+      "md5": "869f1cf3d97694c772b86f86c1de659b"
+    },
+    "assets/audio/user_dialogue_20261015/B5-L06.mp3.import": {
+      "offset": 1466960,
+      "bytes": 153,
+      "md5": "aa06313b3ade21b2c8461be5b67b30f5"
+    },
+    "assets/audio/user_dialogue_20261015/B6-L01.mp3.import": {
+      "offset": 1499856,
+      "bytes": 152,
+      "md5": "6a3376b6c25855c122b05693897c8bbd"
+    },
+    "assets/audio/user_dialogue_20261015/manifest.json": {
+      "offset": 1500016,
+      "bytes": 1991,
+      "md5": "42d874b8084b26672067a3b04ab68b12"
+    },
+    "assets/audio/user_sfx_20261015/alert_1.mp3.import": {
+      "offset": 1553616,
+      "bytes": 154,
+      "md5": "c6d277611d9eff9445e820aceb077081"
+    },
+    "assets/audio/user_sfx_20261015/alert_2.mp3.import": {
+      "offset": 1594928,
+      "bytes": 154,
+      "md5": "b7b52512bb730b678ecaaabfe3a367c2"
+    },
+    "assets/audio/user_sfx_20261015/alert_3.mp3.import": {
+      "offset": 1650864,
+      "bytes": 154,
+      "md5": "73f03cf724eacca3c9be32c3433f75fb"
+    },
+    "assets/audio/user_sfx_20261015/door_close.mp3.import": {
+      "offset": 1673360,
+      "bytes": 156,
+      "md5": "1863ff80f37b1e3c12cb338df2eb0674"
+    },
+    "assets/audio/user_sfx_20261015/door_open.mp3.import": {
+      "offset": 1707344,
+      "bytes": 156,
+      "md5": "bf1e5e22dd6f188ad03ef5e7be5868c5"
+    },
+    "assets/audio/user_sfx_20261015/explosion.mp3.import": {
+      "offset": 1782080,
+      "bytes": 156,
+      "md5": "d7f975e516085f04184f6051859d5c5b"
+    },
+    "assets/audio/user_sfx_20261015/gunshot.mp3.import": {
+      "offset": 1810848,
+      "bytes": 154,
+      "md5": "b972f52445146e8aa2cdca202579e0d4"
+    },
+    "assets/audio/user_sfx_20261015/manifest.json": {
+      "offset": 1811008,
+      "bytes": 6204,
+      "md5": "6cfbf9c0f7bc22726dbd5a39a998050f"
+    },
+    "assets/audio/user_sfx_20261015/reload.mp3.import": {
+      "offset": 1860448,
+      "bytes": 153,
+      "md5": "6c3b6948e4a0a253ca1ef80ef72d9b72"
+    },
+    "assets/audio/user_sfx_20261015/river.mp3.import": {
+      "offset": 8716576,
+      "bytes": 151,
+      "md5": "12206b47ba50d16acf71e5915be27276"
+    },
+    "assets/audio/user_sfx_20261015/step_run.mp3.import": {
+      "offset": 8822656,
+      "bytes": 154,
+      "md5": "31d9c69851e9554e15b2b57c46b28d1c"
+    },
+    "assets/audio/user_sfx_20261015/step_walk.mp3.import": {
+      "offset": 9034272,
+      "bytes": 155,
+      "md5": "392835b592b5e9d37a163f44d61ac560"
+    },
+    "assets/characters/field_character.glb.import": {
+      "offset": 88081696,
+      "bytes": 177,
+      "md5": "9f814844911fead1dd0e986dba3c12f6"
+    },
+    "assets/characters/field_character_T_Eye_Brown.png.import": {
+      "offset": 88525520,
+      "bytes": 282,
+      "md5": "e2abd2018beba12f7ae47c7cbf134ef2"
+    },
+    "assets/characters/field_character_T_Eye_Normal.png.import": {
+      "offset": 88544880,
+      "bytes": 283,
+      "md5": "9210e06f95a86ed9fb479d8212357bc1"
+    },
+    "assets/characters/field_character_T_Hair_1_BaseColor.png.import": {
+      "offset": 90415328,
+      "bytes": 290,
+      "md5": "eddce34843cc412e9cf93dfdfb5da15c"
+    },
+    "assets/characters/field_character_T_Hair_1_Normal.png.import": {
+      "offset": 94808528,
+      "bytes": 287,
+      "md5": "e287839f63c94dd686178c562e5d2de0"
+    },
+    "assets/characters/field_character_T_Superhero_Male_Dark.png.import": {
+      "offset": 96500864,
+      "bytes": 293,
+      "md5": "c038b70e36c8fc8bd300c5b2f4a253d1"
+    },
+    "assets/characters/field_character_T_Superhero_Male_Normal.png.import": {
+      "offset": 100480336,
+      "bytes": 295,
+      "md5": "73c9255426277edfe2b58898be9e9a7f"
+    },
+    "assets/characters/field_character_T_Superhero_Male_Roughness.png.import": {
+      "offset": 102936224,
+      "bytes": 297,
+      "md5": "327aa41bccdaa5409456332f901c69a3"
+    },
+    "assets/characters/field_character_field_cotton_weave.png.import": {
+      "offset": 88284000,
+      "bytes": 289,
+      "md5": "7e11fdbe9162b40513f24136133c83ab"
+    },
+    "assets/characters/field_character_field_wool_weave.png.import": {
+      "offset": 88486496,
+      "bytes": 287,
+      "md5": "3664aca67b456498cba82d00a863ad2a"
+    },
+    "assets/characters/provenance.json": {
+      "offset": 102936528,
+      "bytes": 2465,
+      "md5": "7930e6e9336b9e9a9f70c418a1c080fb"
+    },
+    "assets/characters/user_soldiers/japanese.glb.import": {
+      "offset": 38236400,
+      "bytes": 170,
+      "md5": "7a636bcb70f544f7e7dc0817d8f9e0b5"
+    },
+    "assets/characters/user_soldiers/japanese_3d66Model-22426855-files-004.png.import": {
+      "offset": 38237440,
+      "bytes": 293,
+      "md5": "caa9a21eac2227167f483f23aec3e9c5"
+    },
+    "assets/characters/user_soldiers/japanese_3d66Model-22426855-files-005.png.import": {
+      "offset": 39696272,
+      "bytes": 293,
+      "md5": "7730377845314dee99c789077efce219"
+    },
+    "assets/characters/user_soldiers/japanese_3d66Model-22426855-files-006.png.import": {
+      "offset": 41502096,
+      "bytes": 293,
+      "md5": "552d0e6737afe34ce61d58de1f187761"
+    },
+    "assets/characters/user_soldiers/japanese_3d66Model-22426855-files-007.png.import": {
+      "offset": 42634448,
+      "bytes": 293,
+      "md5": "5c9ec05263efd601f2bd321758db8905"
+    },
+    "assets/characters/user_soldiers/japanese_3d66Model-22426855-files-008.jpg.import": {
+      "offset": 44109136,
+      "bytes": 293,
+      "md5": "a3c2d474b39cc185927ca1bf3f961487"
+    },
+    "assets/characters/user_soldiers/japanese_3d66Model-22426855-files-009.jpg.import": {
+      "offset": 47807280,
+      "bytes": 293,
+      "md5": "8479e48fc432e8a9dac0b0c37cbbba50"
+    },
+    "assets/characters/user_soldiers/japanese_T_Superhero_Male_Dark.png.import": {
+      "offset": 49499632,
+      "bytes": 286,
+      "md5": "10706267b1ba2156b86071ae9aa8ef8c"
+    },
+    "assets/characters/user_soldiers/japanese_T_Superhero_Male_Normal.png.import": {
+      "offset": 53479088,
+      "bytes": 288,
+      "md5": "b05b596d1ea6e4aa859b85640a3d1fef"
+    },
+    "assets/characters/user_soldiers/japanese_T_Superhero_Male_Roughness.png.import": {
+      "offset": 55934960,
+      "bytes": 291,
+      "md5": "4c8ba0c5586aaab05970bb4fe0d586ca"
+    },
+    "assets/characters/user_soldiers/provenance.json": {
+      "offset": 55935264,
+      "bytes": 2474,
+      "md5": "7b4bc2c70b2e7cf8d61645da86d6a918"
+    },
+    "assets/characters/user_soldiers/volunteer.glb.import": {
+      "offset": 57004416,
+      "bytes": 171,
+      "md5": "126ff0efe61b5c2f37c2e9845026fd9f"
+    },
+    "assets/characters/user_soldiers/volunteer_3d66Model-17309872-files-004.png.import": {
+      "offset": 57580320,
+      "bytes": 294,
+      "md5": "3899be23ed18f161706ea6f3732148e5"
+    },
+    "assets/characters/user_soldiers/volunteer_3d66Model-17309872-files-005.png.import": {
+      "offset": 57988128,
+      "bytes": 294,
+      "md5": "3ac241ec5718b1b7222c5a8341829825"
+    },
+    "assets/characters/user_soldiers/volunteer_3d66Model-17309872-files-008.png.import": {
+      "offset": 58401792,
+      "bytes": 293,
+      "md5": "b7024d8cc68947beaea41b51d2bf70b6"
+    },
+    "assets/characters/user_soldiers/volunteer_3d66Model-17309872-files-010.png.import": {
+      "offset": 64053104,
+      "bytes": 293,
+      "md5": "258f67f8b74aaad17a93a89c166285c0"
+    },
+    "assets/characters/user_soldiers/volunteer_3d66Model-17309872-files-011.png.import": {
+      "offset": 68387904,
+      "bytes": 294,
+      "md5": "2d97b0fb467830dc88eaa7a0006e8a3e"
+    },
+    "assets/characters/user_soldiers/volunteer_3d66Model-17309872-files-012.png.import": {
+      "offset": 73948064,
+      "bytes": 294,
+      "md5": "c7d9550ddc6d6b066f8c2ae8ce968767"
+    },
+    "assets/characters/user_soldiers/volunteer_T_Superhero_Male_Dark.png.import": {
+      "offset": 75640416,
+      "bytes": 287,
+      "md5": "0c59a36358cfadf73abfc4fec693f5c1"
+    },
+    "assets/characters/user_soldiers/volunteer_T_Superhero_Male_Normal.png.import": {
+      "offset": 79619872,
+      "bytes": 288,
+      "md5": "650fae56a228a235ba903cf1d2dcd465"
+    },
+    "assets/characters/user_soldiers/volunteer_T_Superhero_Male_Roughness.png.import": {
+      "offset": 82075744,
+      "bytes": 292,
+      "md5": "f352da021541c1ac2a19bf7a4b271dbc"
+    },
+    "assets/characters/user_soldiers/volunteer_volunteer_gray_01.png.import": {
+      "offset": 82934992,
+      "bytes": 283,
+      "md5": "c37fca61016ce8b55fe8667b48dfc80d"
+    },
+    "assets/characters/user_soldiers/volunteer_volunteer_gray_02.png.import": {
+      "offset": 84034288,
+      "bytes": 283,
+      "md5": "62bcb570ff1bc166b46e3f703d6612b6"
+    },
+    "assets/characters/user_soldiers/volunteer_volunteer_gray_07.png.import": {
+      "offset": 85216464,
+      "bytes": 283,
+      "md5": "a2554daefe47af336691c0ee80222552"
+    },
+    "assets/characters/user_soldiers/volunteer_volunteer_gray_10.png.import": {
+      "offset": 86509792,
+      "bytes": 283,
+      "md5": "e894fd515119f8ba3ebba1f00f00b282"
+    },
+    "assets/environment/buildings/D01.glb.import": {
+      "offset": 103030432,
+      "bytes": 164,
+      "md5": "daea89e7093a59beb23322da24b5cca7"
+    },
+    "assets/environment/buildings/D01_Cottage Texture.png.import": {
+      "offset": 103075568,
+      "bytes": 275,
+      "md5": "ef9eac04068bf143b0003b326fde4fca"
+    },
+    "assets/environment/buildings/D02.glb.import": {
+      "offset": 103123904,
+      "bytes": 165,
+      "md5": "90e36306b54f4796b46174446e3895db"
+    },
+    "assets/environment/buildings/D02_log_cabin_1024px.png.import": {
+      "offset": 104338576,
+      "bytes": 276,
+      "md5": "e2f05e44daec572fbdfd7acbb782aafe"
+    },
+    "assets/environment/buildings/D03.glb.import": {
+      "offset": 104562656,
+      "bytes": 164,
+      "md5": "e5b6d5702a0af77249eb18c5b6b677c3"
+    },
+    "assets/environment/buildings/D03_concrete_floor_01_ao_1k-concrete_floor_01_ao_1k_concrete_floor_01_ao_1k_concrete_floor_.png.import": {
+      "offset": 105615072,
+      "bytes": 346,
+      "md5": "8befb4ce7674bd38b5b30b5b999e15af"
+    },
+    "assets/environment/buildings/D03_concrete_floor_01_diff_1k.jpg.import": {
+      "offset": 107322480,
+      "bytes": 285,
+      "md5": "0f47ab1edd2f0600263ef3ee1ddaed0a"
+    },
+    "assets/environment/buildings/D03_concrete_floor_01_nor_1k.jpg.import": {
+      "offset": 109865664,
+      "bytes": 284,
+      "md5": "3b808d03a298238fa73f7455618cd3d5"
+    },
+    "assets/environment/buildings/D03_green_metal_rust_Nor_1k.jpg.import": {
+      "offset": 111446976,
+      "bytes": 283,
+      "md5": "b55a1c014619b3773e73a637e2d3d907"
+    },
+    "assets/environment/buildings/D03_green_metal_rust_diff_1k.jpg.import": {
+      "offset": 110789440,
+      "bytes": 283,
+      "md5": "8abf3c841b5714c4c2a561a22e4e4328"
+    },
+    "assets/environment/buildings/D03_rusty_metal_04_diff_2k.jpg.import": {
+      "offset": 113051744,
+      "bytes": 281,
+      "md5": "aa9606a3479b53e42cff4ff2abe7b02e"
+    },
+    "assets/environment/buildings/D03_rusty_metal_ao_1k.jpg.import": {
+      "offset": 113760736,
+      "bytes": 276,
+      "md5": "9edfc1df8158376358a2665fe9d379f3"
+    },
+    "assets/environment/buildings/D03_rusty_metal_diff_1k.jpg.import": {
+      "offset": 115723344,
+      "bytes": 278,
+      "md5": "feb1d2164c9469b76aafeb98c69fabcc"
+    },
+    "assets/environment/buildings/D03_rusty_metal_nor_1k.jpg.import": {
+      "offset": 117437264,
+      "bytes": 278,
+      "md5": "33ad3c1b236f3ba81addff7ba5030f48"
+    },
+    "assets/environment/buildings/D03_weathered_brown_planks_diff_2k.jpg.import": {
+      "offset": 118607664,
+      "bytes": 290,
+      "md5": "0d2bceb93372e2d2e350f549eb9b5af7"
+    },
+    "assets/environment/buildings/D04.glb.import": {
+      "offset": 119721792,
+      "bytes": 165,
+      "md5": "51f6f59225fa73fc43644e83124fb997"
+    },
+    "assets/environment/buildings/D04_grey_roof_tiles_diff_2k.jpg.import": {
+      "offset": 121422432,
+      "bytes": 283,
+      "md5": "e288db355d7cbbba629b3bc13fdf0344"
+    },
+    "assets/environment/buildings/D04_modular_factory_facade_brick_arm_2k.jpg.import": {
+      "offset": 122969936,
+      "bytes": 295,
+      "md5": "e5462669195626aadbeaaef6a49cb715"
+    },
+    "assets/environment/buildings/D04_modular_factory_facade_brick_diff_2k.jpg.import": {
+      "offset": 124862720,
+      "bytes": 296,
+      "md5": "0d51200a1f5abf4d017be14482cec6eb"
+    },
+    "assets/environment/buildings/D04_modular_factory_facade_brick_nor_gl_2k.jpg.import": {
+      "offset": 127136656,
+      "bytes": 298,
+      "md5": "bc04afcf5d216473b670790f6d7d8119"
+    },
+    "assets/environment/buildings/D04_modular_factory_facade_windows_arm_2k.jpg.import": {
+      "offset": 128889792,
+      "bytes": 297,
+      "md5": "5ccc191e725ce061519590e02c1de1e8"
+    },
+    "assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k.jpg.import": {
+      "offset": 129810992,
+      "bytes": 298,
+      "md5": "5c7c426bdbadbfc158e6c98691dd1bf7"
+    },
+    "assets/environment/buildings/D04_modular_factory_facade_windows_diff_2k_6.png.import": {
+      "offset": 131096128,
+      "bytes": 299,
+      "md5": "cafe150605f535967f50a4c9ee0471cb"
+    },
+    "assets/environment/buildings/D04_modular_factory_facade_windows_nor_gl_2k.jpg.import": {
+      "offset": 132171088,
+      "bytes": 300,
+      "md5": "d070d208433eb27af9305990021a8458"
+    },
+    "assets/environment/buildings/D04_weathered_brown_planks_diff_2k.jpg.import": {
+      "offset": 133341504,
+      "bytes": 289,
+      "md5": "9fd1fdfaf1fb0cd21ddd33ab02b218ff"
+    },
+    "assets/environment/buildings/D05.glb.import": {
+      "offset": 133368624,
+      "bytes": 165,
+      "md5": "515f4f64b28f2d31ed85016efd35af34"
+    },
+    "assets/environment/buildings/D05_RoofTiles.jpg.import": {
+      "offset": 134194560,
+      "bytes": 269,
+      "md5": "fb21ec9515be4b020ed6af164fb9da83"
+    },
+    "assets/environment/buildings/D05_TreeLogEdgeWeathered.jpg.import": {
+      "offset": 134810576,
+      "bytes": 280,
+      "md5": "7cc009d1bf94b535d21e442d27dc8b76"
+    },
+    "assets/environment/buildings/D05_Wood.jpg.import": {
+      "offset": 136093680,
+      "bytes": 264,
+      "md5": "057609b7fd164c7411e687edb3a347ea"
+    },
+    "assets/environment/buildings/buildings.json": {
+      "offset": 102939008,
+      "bytes": 8911,
+      "md5": "b449d165ee81ef10b3a4b8c576f1ee8a"
+    },
+    "assets/environment/hdris/kloofendal_overcast_puresky/kloofendal_overcast_puresky_2k.hdr.import": {
+      "offset": 144482624,
+      "bytes": 219,
+      "md5": "f375a8dbd4580a8e8e21bf2281ef7583"
+    },
+    "assets/environment/landscape/far_pine.glb.import": {
+      "offset": 144489392,
+      "bytes": 170,
+      "md5": "3ce03179b453b5c28aac81d42bb99bef"
+    },
+    "assets/environment/landscape/far_pine_nadel.png.import": {
+      "offset": 144669136,
+      "bytes": 269,
+      "md5": "0306912c2ae31974d34ad3433acf9820"
+    },
+    "assets/environment/landscape/far_pine_stamm.jpg.import": {
+      "offset": 144684240,
+      "bytes": 270,
+      "md5": "c6b86d13872e61ec5157d131c08f0d25"
+    },
+    "assets/environment/models/Lantern_01/Lantern_01_2k.gltf.import": {
+      "offset": 183399184,
+      "bytes": 176,
+      "md5": "5a25f46c9549de446cc92aa6221e7b1f"
+    },
+    "assets/environment/models/Lantern_01/textures/Lantern_01_brass_arm_2k.jpg.import": {
+      "offset": 173859056,
+      "bytes": 255,
+      "md5": "1b72e26ebbd4d0e4442aa53b9dbccf9d"
+    },
+    "assets/environment/models/Lantern_01/textures/Lantern_01_brass_diff_2k.jpg.import": {
+      "offset": 176655584,
+      "bytes": 257,
+      "md5": "8c7044519c53b782e196b4d4ac4de264"
+    },
+    "assets/environment/models/Lantern_01/textures/Lantern_01_brass_nor_gl_2k.jpg.import": {
+      "offset": 182248352,
+      "bytes": 259,
+      "md5": "af0717ed00d245d5c0d16e5a3ecd86b5"
+    },
+    "assets/environment/models/WoodenTable_01/WoodenTable_01_2k.gltf.import": {
+      "offset": 329641904,
+      "bytes": 180,
+      "md5": "c14c8022a90814007cf5cb7a790515cc"
+    },
+    "assets/environment/models/WoodenTable_01/textures/WoodenTable_01_arm_2k.jpg.import": {
+      "offset": 321226144,
+      "bytes": 254,
+      "md5": "241d07e11b80706d1b2a755c2442e50d"
+    },
+    "assets/environment/models/WoodenTable_01/textures/WoodenTable_01_diff_2k.jpg.import": {
+      "offset": 324022672,
+      "bytes": 255,
+      "md5": "b913f311acb4e8ae208525556aecedb1"
+    },
+    "assets/environment/models/WoodenTable_01/textures/WoodenTable_01_nor_gl_2k.jpg.import": {
+      "offset": 329615424,
+      "bytes": 257,
+      "md5": "dd6080d1ee0627ac9ba83419975d0f83"
+    },
+    "assets/environment/models/dead_tree_trunk/dead_tree_trunk_2k.gltf.import": {
+      "offset": 159685312,
+      "bytes": 181,
+      "md5": "fd7332e4eb1ae885f73b860f90b88b33"
+    },
+    "assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_arm_2k.jpg.import": {
+      "offset": 147480784,
+      "bytes": 254,
+      "md5": "d0b41e7e7b2b06d3840e32d586a0273e"
+    },
+    "assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_diff_2k.jpg.import": {
+      "offset": 150277312,
+      "bytes": 256,
+      "md5": "af569a8a4ae878adf2f833e95ffc1725"
+    },
+    "assets/environment/models/dead_tree_trunk/textures/dead_tree_trunk_nor_gl_2k.jpg.import": {
+      "offset": 155870064,
+      "bytes": 257,
+      "md5": "ef294ea3e1f796ba833987196d9645a9"
+    },
+    "assets/environment/models/fern_02/fern_02_2k.gltf.import": {
+      "offset": 171062608,
+      "bytes": 173,
+      "md5": "bdf4c11ac01e1527735a3add345519c4"
+    },
+    "assets/environment/models/fern_02/textures/fern_02_arm_2k.jpg.import": {
+      "offset": 162481776,
+      "bytes": 247,
+      "md5": "465591bd89de5e4aad7b1236be14a806"
+    },
+    "assets/environment/models/fern_02/textures/fern_02_diff_2k.jpg.import": {
+      "offset": 165278304,
+      "bytes": 248,
+      "md5": "cbb35d90f3d344009279f68f9ac20d16"
+    },
+    "assets/environment/models/fern_02/textures/fern_02_nor_gl_2k.jpg.import": {
+      "offset": 170871056,
+      "bytes": 249,
+      "md5": "a19e215b8d78b5247c37aa176f355163"
+    },
+    "assets/environment/models/pine_sapling_small/pine_sapling_small_2k.gltf.import": {
+      "offset": 222590784,
+      "bytes": 184,
+      "md5": "41b2f7bc3c7faacc9c0254af093bce6d"
+    },
+    "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_arm_2k.jpg.import": {
+      "offset": 186195632,
+      "bytes": 263,
+      "md5": "5a0f7bd13744fa8b2e648aade733ac34"
+    },
+    "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_diff_2k.jpg.import": {
+      "offset": 188992176,
+      "bytes": 263,
+      "md5": "f36b970648fea4e19fd3c448f8699182"
+    },
+    "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_2k.jpg.import": {
+      "offset": 194584944,
+      "bytes": 266,
+      "md5": "78d2f5659350fd640fb73229716f6ace"
+    },
+    "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_arm_2k.jpg.import": {
+      "offset": 197381488,
+      "bytes": 263,
+      "md5": "01590ec3b010f7492e23e590fc196cda"
+    },
+    "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_diff_2k.jpg.import": {
+      "offset": 200178032,
+      "bytes": 264,
+      "md5": "86adf8f3b78147643311eac128c2ca78"
+    },
+    "assets/environment/models/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_2k.jpg.import": {
+      "offset": 205770800,
+      "bytes": 266,
+      "md5": "0d140c84eeeca75f6e521e6032da85d6"
+    },
+    "assets/environment/models/rock_moss_set_01/rock_moss_set_01_2k.gltf.import": {
+      "offset": 235730848,
+      "bytes": 181,
+      "md5": "9dc69861149987fcabbca4b569dd83d4"
+    },
+    "assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg.import": {
+      "offset": 225387248,
+      "bytes": 256,
+      "md5": "a40f38933d640e0b5241fbeddacc7655"
+    },
+    "assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg.import": {
+      "offset": 230980000,
+      "bytes": 258,
+      "md5": "a0dab17eaaedfbafc6a31a7249938d3d"
+    },
+    "assets/environment/models/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg.import": {
+      "offset": 233776544,
+      "bytes": 256,
+      "md5": "26a46e8485eb0b11b23e8f019ae57a33"
+    },
+    "assets/environment/models/s11/chinese_screen_panels/chinese_screen_panels_2k.gltf.import": {
+      "offset": 246134352,
+      "bytes": 187,
+      "md5": "85701e257ed8253408025386671719e5"
+    },
+    "assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_arm_2k.jpg.import": {
+      "offset": 239478144,
+      "bytes": 217,
+      "md5": "a64ef6ff6299c0244587555b489d934e"
+    },
+    "assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_diff_2k.jpg.import": {
+      "offset": 243218064,
+      "bytes": 218,
+      "md5": "42c21e17f0ff7daed9d5b8098139e5bd"
+    },
+    "assets/environment/models/s11/chinese_screen_panels/textures/chinese_screen_panels_nor_gl_2k.jpg.import": {
+      "offset": 246107952,
+      "bytes": 220,
+      "md5": "56c864085158da640e6a137be54d7215"
+    },
+    "assets/environment/models/s11/chinese_tea_table/chinese_tea_table_2k.gltf.import": {
+      "offset": 256219040,
+      "bytes": 183,
+      "md5": "7ba901f55a97e0e1b5544e6755898949"
+    },
+    "assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_arm_2k.jpg.import": {
+      "offset": 249367344,
+      "bytes": 213,
+      "md5": "a4b202d15b8e1e8b5bec02fb0ccf22ba"
+    },
+    "assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_diff_2k.jpg.import": {
+      "offset": 252104576,
+      "bytes": 214,
+      "md5": "47ec835274647a4423a3a1cadc45d9aa"
+    },
+    "assets/environment/models/s11/chinese_tea_table/textures/chinese_tea_table_nor_gl_2k.jpg.import": {
+      "offset": 256142464,
+      "bytes": 216,
+      "md5": "385d99b0363d8ff5c5eb1352885f6379"
+    },
+    "assets/environment/models/s11/market_stalls/market_stalls.glb.import": {
+      "offset": 256646032,
+      "bytes": 175,
+      "md5": "8bf88dea9877182da4569078de719872"
+    },
+    "assets/environment/models/s11/village_market/village_market.glb.import": {
+      "offset": 256857648,
+      "bytes": 175,
+      "md5": "d5a2ff71f26349301ffe29a27309f3e9"
+    },
+    "assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_arm_2k.jpg.import": {
+      "offset": 261689568,
+      "bytes": 211,
+      "md5": "58abc963f55518bc25ac6afcee40b0fe"
+    },
+    "assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_diff_2k.jpg.import": {
+      "offset": 265631392,
+      "bytes": 213,
+      "md5": "8839221ec2ab56eed265af89711023d9"
+    },
+    "assets/environment/models/s11/wicker_basket_01/textures/wicker_basket_01_nor_gl_2k.jpg.import": {
+      "offset": 269793056,
+      "bytes": 215,
+      "md5": "2cffb4d45aac84e6560928b5cef3fb24"
+    },
+    "assets/environment/models/s11/wicker_basket_01/wicker_basket_01_2k.gltf.import": {
+      "offset": 270487712,
+      "bytes": 182,
+      "md5": "c728208ad0b299180bf44c807ab3c782"
+    },
+    "assets/environment/models/tree_stump_01/textures/tree_stump_01_arm_2k.jpg.import": {
+      "offset": 273284176,
+      "bytes": 253,
+      "md5": "deb0998ee4ac738005933ab50c078cfb"
+    },
+    "assets/environment/models/tree_stump_01/textures/tree_stump_01_diff_2k.jpg.import": {
+      "offset": 276080704,
+      "bytes": 254,
+      "md5": "b0ad484131dfecca4dda80e39f0d0e2e"
+    },
+    "assets/environment/models/tree_stump_01/textures/tree_stump_01_nor_gl_2k.jpg.import": {
+      "offset": 281673456,
+      "bytes": 256,
+      "md5": "25508edcbb4f8324ed71138acb8f20d5"
+    },
+    "assets/environment/models/tree_stump_01/tree_stump_01_2k.gltf.import": {
+      "offset": 283236720,
+      "bytes": 179,
+      "md5": "4a92ddaf529965edbea66f9c416228e4"
+    },
+    "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_arm_2k.jpg.import": {
+      "offset": 286033184,
+      "bytes": 277,
+      "md5": "2c36d4b4d7526d250a5905913439bff2"
+    },
+    "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_diff_2k.jpg.import": {
+      "offset": 288829744,
+      "bytes": 278,
+      "md5": "76cf9042e2668d16abf62dec4418bb6c"
+    },
+    "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_accessories_nor_gl_2k.jpg.import": {
+      "offset": 294422528,
+      "bytes": 280,
+      "md5": "e0cab1fa4cd3af101e0f9fca028a706e"
+    },
+    "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_arm_2k.jpg.import": {
+      "offset": 297219088,
+      "bytes": 265,
+      "md5": "b648ae17209cc07fb0e1d0ba34ce06e9"
+    },
+    "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_diff_2k.jpg.import": {
+      "offset": 300015632,
+      "bytes": 266,
+      "md5": "2abb85dbeca0b3647cc2cff31b9e5cc8"
+    },
+    "assets/environment/models/vintage_radio_transceiver/textures/vintage_radio_transceiver_nor_gl_2k.jpg.import": {
+      "offset": 305608400,
+      "bytes": 267,
+      "md5": "965ad728f5c914ff3ad78b855050165c"
+    },
+    "assets/environment/models/vintage_radio_transceiver/vintage_radio_transceiver_2k.gltf.import": {
+      "offset": 306908640,
+      "bytes": 190,
+      "md5": "b5531e8dd26889d15b4c7a4fbb416644"
+    },
+    "assets/environment/models/wine_barrel_01/textures/wine_barrel_01_arm_2k.jpg.import": {
+      "offset": 309705104,
+      "bytes": 253,
+      "md5": "6378dbcfe38f36ff9b980cbf6f3e0e0f"
+    },
+    "assets/environment/models/wine_barrel_01/textures/wine_barrel_01_diff_2k.jpg.import": {
+      "offset": 312501632,
+      "bytes": 255,
+      "md5": "aaad6daf28457895c931116632ceb636"
+    },
+    "assets/environment/models/wine_barrel_01/textures/wine_barrel_01_nor_gl_2k.jpg.import": {
+      "offset": 318094384,
+      "bytes": 257,
+      "md5": "bf7479da0257a114f70fcda68be071ea"
+    },
+    "assets/environment/models/wine_barrel_01/wine_barrel_01_2k.gltf.import": {
+      "offset": 318429680,
+      "bytes": 180,
+      "md5": "e948a135df9ad169cab459e65c743064"
+    },
+    "assets/environment/models/wooden_axe_02/textures/wooden_axe_02_arm_2k.jpg.import": {
+      "offset": 332438368,
+      "bytes": 252,
+      "md5": "1c39b369cc8fcf1c28419d1165d7eff5"
+    },
+    "assets/environment/models/wooden_axe_02/textures/wooden_axe_02_diff_2k.jpg.import": {
+      "offset": 335234896,
+      "bytes": 253,
+      "md5": "1812f492515e9375f9e6c74276b446c8"
+    },
+    "assets/environment/models/wooden_axe_02/textures/wooden_axe_02_nor_gl_2k.jpg.import": {
+      "offset": 340827648,
+      "bytes": 256,
+      "md5": "4be7e4f1cd268878de31f94fc33bb205"
+    },
+    "assets/environment/models/wooden_axe_02/wooden_axe_02_2k.gltf.import": {
+      "offset": 340894752,
+      "bytes": 179,
+      "md5": "ed97715399312f7f97fd57e1e2be432d"
+    },
+    "assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_arm_2k.jpg.import": {
+      "offset": 343691216,
+      "bytes": 256,
+      "md5": "cfd04510c67a1c0a5282cb86bbf4c580"
+    },
+    "assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_diff_2k.jpg.import": {
+      "offset": 346487744,
+      "bytes": 257,
+      "md5": "439404fe313d2ee4410bc9c928eac949"
+    },
+    "assets/environment/models/wooden_bucket_01/textures/wooden_bucket_01_nor_gl_2k.jpg.import": {
+      "offset": 352080512,
+      "bytes": 259,
+      "md5": "97ccaa2f37bf7000ee2f717c2ddd2956"
+    },
+    "assets/environment/models/wooden_bucket_01/wooden_bucket_01_2k.gltf.import": {
+      "offset": 352245344,
+      "bytes": 182,
+      "md5": "06a1a683c820688fa513da0e455e42dc"
+    },
+    "assets/environment/models/wooden_crate_01/textures/wooden_crate_01_arm_2k.jpg.import": {
+      "offset": 355041808,
+      "bytes": 254,
+      "md5": "083f20e216d11e42693ba2fface199e8"
+    },
+    "assets/environment/models/wooden_crate_01/textures/wooden_crate_01_diff_2k.jpg.import": {
+      "offset": 357838336,
+      "bytes": 255,
+      "md5": "488d30c46c0787dbb6f38b5936bd39da"
+    },
+    "assets/environment/models/wooden_crate_01/textures/wooden_crate_01_nor_gl_2k.jpg.import": {
+      "offset": 363431088,
+      "bytes": 258,
+      "md5": "6db36edfc1d8b4f417fbbbaf3b073577"
+    },
+    "assets/environment/models/wooden_crate_01/wooden_crate_01_2k.gltf.import": {
+      "offset": 363627440,
+      "bytes": 181,
+      "md5": "ac0a5011b7ad00134a18a5c94e74f956"
+    },
+    "assets/environment/sources.json": {
+      "offset": 481617168,
+      "bytes": 36900,
+      "md5": "a6f91e79ea059f5d382f65934e312251"
+    },
+    "assets/environment/textures/brick_wall_001/brick_wall_001_diffuse_2k.jpg.import": {
+      "offset": 366423904,
+      "bytes": 258,
+      "md5": "0fdee3b856407520897c3bdd2537d714"
+    },
+    "assets/environment/textures/brick_wall_001/brick_wall_001_nor_gl_2k.jpg.import": {
+      "offset": 372016672,
+      "bytes": 257,
+      "md5": "9fbb3bd5a801ca0f25873242b2efb8f6"
+    },
+    "assets/environment/textures/brick_wall_001/brick_wall_001_rough_2k.jpg.import": {
+      "offset": 374813216,
+      "bytes": 256,
+      "md5": "4b507feb37752cf855308ae04cfcb658"
+    },
+    "assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg.import": {
+      "offset": 377609744,
+      "bytes": 259,
+      "md5": "1840bc0ed12568bed70ea3bcd2253184"
+    },
+    "assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg.import": {
+      "offset": 383202512,
+      "bytes": 262,
+      "md5": "fe8a24e5996686c351350c0211b0ec1b"
+    },
+    "assets/environment/textures/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg.import": {
+      "offset": 385999056,
+      "bytes": 261,
+      "md5": "ff850f3f6c1a104b9c0034a26dbcb7bc"
+    },
+    "assets/environment/textures/forest_ground_04/forest_ground_04_diff_2k.jpg.import": {
+      "offset": 388795600,
+      "bytes": 257,
+      "md5": "f63b48abae28394de78e63e4fc4dcd46"
+    },
+    "assets/environment/textures/forest_ground_04/forest_ground_04_nor_gl_2k.jpg.import": {
+      "offset": 394388368,
+      "bytes": 259,
+      "md5": "0ef45047fd4ac544ab7c47c0e56326a3"
+    },
+    "assets/environment/textures/forest_ground_04/forest_ground_04_rough_2k.jpg.import": {
+      "offset": 397184912,
+      "bytes": 257,
+      "md5": "56c1af9acf6455fe78af059c3581c979"
+    },
+    "assets/environment/textures/gravel_road/gravel_road_diff_2k.jpg.import": {
+      "offset": 401727088,
+      "bytes": 208,
+      "md5": "6d01486b07aecd7afcb87800b0c98fdb"
+    },
+    "assets/environment/textures/gravel_road/gravel_road_nor_gl_2k.jpg.import": {
+      "offset": 407998352,
+      "bytes": 210,
+      "md5": "990b7746e3e4d7a85d282ee5d230fcfa"
+    },
+    "assets/environment/textures/gravel_road/gravel_road_rough_2k.jpg.import": {
+      "offset": 409232528,
+      "bytes": 209,
+      "md5": "414bb2157c4601bce82923cc7908af82"
+    },
+    "assets/environment/textures/grey_roof_tiles/grey_roof_tiles_diff_2k.jpg.import": {
+      "offset": 412029024,
+      "bytes": 256,
+      "md5": "394651c2861727bcbb33ddf0a662768b"
+    },
+    "assets/environment/textures/grey_roof_tiles/grey_roof_tiles_nor_gl_2k.jpg.import": {
+      "offset": 417621776,
+      "bytes": 258,
+      "md5": "9e2903d6ec4d64dd1598728ff98f1054"
+    },
+    "assets/environment/textures/grey_roof_tiles/grey_roof_tiles_rough_2k.jpg.import": {
+      "offset": 420418320,
+      "bytes": 257,
+      "md5": "3fb5cd11926ecdfbe6d005367309a69f"
+    },
+    "assets/environment/textures/muddy_tracks/muddy_tracks_diff_2k.jpg.import": {
+      "offset": 423214864,
+      "bytes": 253,
+      "md5": "9db7b87f099d9a04986219fd3976dbaa"
+    },
+    "assets/environment/textures/muddy_tracks/muddy_tracks_nor_gl_2k.jpg.import": {
+      "offset": 428807616,
+      "bytes": 254,
+      "md5": "1e43ca93b47ab880d506687ce404eacf"
+    },
+    "assets/environment/textures/muddy_tracks/muddy_tracks_rough_2k.jpg.import": {
+      "offset": 431604144,
+      "bytes": 254,
+      "md5": "84142313200135401d57947ca4b2be07"
+    },
+    "assets/environment/textures/pine_bark/pine_bark_diff_2k.jpg.import": {
+      "offset": 434400672,
+      "bytes": 249,
+      "md5": "f2e2058053224a9c5954c77bd3ba2a14"
+    },
+    "assets/environment/textures/pine_bark/pine_bark_nor_gl_2k.jpg.import": {
+      "offset": 439993424,
+      "bytes": 252,
+      "md5": "bf2e49602cc21e28526f09beb34dce90"
+    },
+    "assets/environment/textures/pine_bark/pine_bark_rough_2k.jpg.import": {
+      "offset": 442789952,
+      "bytes": 251,
+      "md5": "63224f034892cc658837f71890a92ef0"
+    },
+    "assets/environment/textures/rusty_metal_04/rusty_metal_04_diff_2k.jpg.import": {
+      "offset": 445586480,
+      "bytes": 254,
+      "md5": "68ef452bedb902d135f9643644430d12"
+    },
+    "assets/environment/textures/rusty_metal_04/rusty_metal_04_nor_gl_2k.jpg.import": {
+      "offset": 451179232,
+      "bytes": 257,
+      "md5": "dd471f6ee343d4acbbae183ba1d2faed"
+    },
+    "assets/environment/textures/rusty_metal_04/rusty_metal_04_rough_2k.jpg.import": {
+      "offset": 453975776,
+      "bytes": 256,
+      "md5": "c349acd8b01d80a1cbfc319be17a148b"
+    },
+    "assets/environment/textures/weathered_brown_planks/weathered_brown_planks_diff_2k.jpg.import": {
+      "offset": 456772304,
+      "bytes": 262,
+      "md5": "7cd165e778e5d22e233277f07bef138f"
+    },
+    "assets/environment/textures/weathered_brown_planks/weathered_brown_planks_nor_gl_2k.jpg.import": {
+      "offset": 462365072,
+      "bytes": 265,
+      "md5": "4285714f9e827c0e3b06087fd246b749"
+    },
+    "assets/environment/textures/weathered_brown_planks/weathered_brown_planks_rough_2k.jpg.import": {
+      "offset": 465161616,
+      "bytes": 264,
+      "md5": "93e1e6ab810e951684a7bca042230e7e"
+    },
+    "assets/environment/textures/wood_chips/wood_chips_diff_2k.jpg.import": {
+      "offset": 471281856,
+      "bytes": 207,
+      "md5": "2a6cd7b3804ba12ad7c4d368ae1ad2d4"
+    },
+    "assets/environment/textures/wood_chips/wood_chips_nor_gl_2k.jpg.import": {
+      "offset": 480153856,
+      "bytes": 209,
+      "md5": "8d9056880e6c0461962b3a0bbe5df94c"
+    },
+    "assets/environment/textures/wood_chips/wood_chips_rough_2k.jpg.import": {
+      "offset": 481616960,
+      "bytes": 207,
+      "md5": "8d63c9df4e6ab658993d518a98c87ba6"
+    },
+    "assets/first_person/hand_left.glb.import": {
+      "offset": 482208496,
+      "bytes": 171,
+      "md5": "ce48df2a9c32e86dd9f34724d5e6e08a"
+    },
+    "assets/first_person/hand_left_skin_diffuse.png.import": {
+      "offset": 482809200,
+      "bytes": 277,
+      "md5": "29a25822f9301eeb54bb9c2c479b15ce"
+    },
+    "assets/first_person/hand_right.glb.import": {
+      "offset": 483390688,
+      "bytes": 172,
+      "md5": "f12599b20eee888b9c92e9ad7d32c87a"
+    },
+    "assets/first_person/hand_right_skin_diffuse.png.import": {
+      "offset": 483991392,
+      "bytes": 279,
+      "md5": "8aae626c897b55cdde6966901de8c527"
+    },
+    "assets/first_person/provenance.json": {
+      "offset": 483991680,
+      "bytes": 1516,
+      "md5": "989c58f1713e52954a7d3b9366ab69f7"
+    },
+    "assets/opening/opening.json": {
+      "offset": 483993200,
+      "bytes": 53482,
+      "md5": "4a9c7ba55a27d108bb784e579dac29c9"
+    },
+    "assets/opening/reference_source.json": {
+      "offset": 484046688,
+      "bytes": 598,
+      "md5": "3919630e36fa80f1b292cdaa752cf761"
+    },
+    "assets/opening/tianchi_artistic.glb.import": {
+      "offset": 485238480,
+      "bytes": 177,
+      "md5": "677357792f614033177be381e69bd412"
+    },
+    "assets/opening/tianchi_reference.glb.import": {
+      "offset": 488369632,
+      "bytes": 179,
+      "md5": "72a382876cb13ce51816e0a15eaf9e94"
+    },
+    "assets/opening/tianchi_reference_terrain_color.png.import": {
+      "offset": 489561584,
+      "bytes": 287,
+      "md5": "445953f8a1c7aa7c1764484629e0542a"
+    },
+    "assets/user_expansion_20261015/barbed_wire.glb.import": {
+      "offset": 489607776,
+      "bytes": 172,
+      "md5": "ddbe3af42cd52d25b511d1780aec9c84"
+    },
+    "assets/user_expansion_20261015/barbed_wire_3d66-export-JJI54557884089-001-3d66-export-JJI54557884089-002.png.import": {
+      "offset": 495805328,
+      "bytes": 328,
+      "md5": "4eaf826ce09b50bd34832e83546976e1"
+    },
+    "assets/user_expansion_20261015/barbed_wire_3d66-export-JJI54557884089-003.jpg.import": {
+      "offset": 504051136,
+      "bytes": 297,
+      "md5": "1a395cbb40345916c825669a4605881d"
+    },
+    "assets/user_expansion_20261015/barbed_wire_3d66-export-JJI54557884089-004.png.import": {
+      "offset": 504926192,
+      "bytes": 298,
+      "md5": "c1460331284bee9d6a79e4294640458e"
+    },
+    "assets/user_expansion_20261015/boat.glb.import": {
+      "offset": 505213152,
+      "bytes": 166,
+      "md5": "9176febd6b509adefcbcf68cb1d60136"
+    },
+    "assets/user_expansion_20261015/boat_3d66-export-JCI54557104651-025.jpg.import": {
+      "offset": 510212016,
+      "bytes": 291,
+      "md5": "db85f59ba1b601f2be1bf082a00d5f15"
+    },
+    "assets/user_expansion_20261015/boat_3d66-export-JCI54557104651-026.jpg.import": {
+      "offset": 515282192,
+      "bytes": 291,
+      "md5": "aa091e92fd8062ea5137b26297686fdd"
+    },
+    "assets/user_expansion_20261015/camp_1.glb.import": {
+      "offset": 515299600,
+      "bytes": 168,
+      "md5": "a4119e347a514f39f62297214723052a"
+    },
+    "assets/user_expansion_20261015/camp_1_3d66Model-4690991-files-2.jpg.import": {
+      "offset": 522142160,
+      "bytes": 288,
+      "md5": "a01abafffa8cdc60264386cdc9845e83"
+    },
+    "assets/user_expansion_20261015/camp_1_3d66Model-4690991-files-4.jpg.import": {
+      "offset": 531126224,
+      "bytes": 288,
+      "md5": "6ddc5ad50c39352bdb25dc58e57f76b5"
+    },
+    "assets/user_expansion_20261015/camp_2.glb.import": {
+      "offset": 531136992,
+      "bytes": 168,
+      "md5": "d95cb5b8d5935ecd39279743f3b1f653"
+    },
+    "assets/user_expansion_20261015/camp_2_3d66Model-4690991-files-2.jpg.import": {
+      "offset": 537593600,
+      "bytes": 288,
+      "md5": "0f85b194e26c025728dcbdd5b3f77ed3"
+    },
+    "assets/user_expansion_20261015/camp_3.glb.import": {
+      "offset": 537611600,
+      "bytes": 167,
+      "md5": "cff9427612d667e259dc5e2658ff6980"
+    },
+    "assets/user_expansion_20261015/camp_4.glb.import": {
+      "offset": 537623120,
+      "bytes": 168,
+      "md5": "807e8a0f1f4343ab54665f4621afe7a9"
+    },
+    "assets/user_expansion_20261015/dock.glb.import": {
+      "offset": 540357280,
+      "bytes": 166,
+      "md5": "20c0c493b84c390abac7c16595df1b91"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-001.jpg.import": {
+      "offset": 547092176,
+      "bytes": 290,
+      "md5": "c43c11040c5d993e951ff8812bdcff58"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-002.jpg.import": {
+      "offset": 555835312,
+      "bytes": 291,
+      "md5": "b00c6bcad05a8865704e23ca38867d22"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-003.jpg.import": {
+      "offset": 562818960,
+      "bytes": 290,
+      "md5": "c3141a9b244b5cd6ca5179e2b7cfe02d"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-004.jpg.import": {
+      "offset": 572054080,
+      "bytes": 291,
+      "md5": "3bd67b959e9d5ae65b06f161182c75ba"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-005.jpg.import": {
+      "offset": 576501056,
+      "bytes": 291,
+      "md5": "d98cc5b091f24864351efade84dc0071"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-006.jpg.import": {
+      "offset": 582133696,
+      "bytes": 291,
+      "md5": "3f1929cf66dea0adbd7a1cf6d9af74ff"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-007.jpg.import": {
+      "offset": 588867488,
+      "bytes": 290,
+      "md5": "644d34e84f7c2cc5d3ff90bc82d11a21"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-008.jpg.import": {
+      "offset": 597618048,
+      "bytes": 291,
+      "md5": "64772a166bf588c296a87f74a1f5f6ed"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-009.jpg.import": {
+      "offset": 601824832,
+      "bytes": 291,
+      "md5": "3daa712581dc69ee7b63acd5f1463f1e"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-010.jpg.import": {
+      "offset": 607431200,
+      "bytes": 291,
+      "md5": "d526991bf4b66f760f005d36482e3327"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-011.jpg.import": {
+      "offset": 614166944,
+      "bytes": 291,
+      "md5": "e33ce10390dc7b79bdaef01773ea93d3"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-012.jpg.import": {
+      "offset": 622906960,
+      "bytes": 290,
+      "md5": "65e2e2ee5934f9af20ac7ed5e4d63318"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-023.jpg.import": {
+      "offset": 625904224,
+      "bytes": 291,
+      "md5": "77666f7f1bf674973cea2543e00aba89"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-024.jpg.import": {
+      "offset": 630168592,
+      "bytes": 291,
+      "md5": "22e0dbf3fd8d7c825358824cd8291558"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-031.jpg.import": {
+      "offset": 635622000,
+      "bytes": 291,
+      "md5": "2fb3186a248ad94ff6a9212b1c21d555"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-032.jpg.import": {
+      "offset": 640781040,
+      "bytes": 291,
+      "md5": "b0153e2e938fc4142720320db1d745f8"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-033.jpg.import": {
+      "offset": 645787520,
+      "bytes": 291,
+      "md5": "0a9a83c01231bb92da89f2936e89a6d9"
+    },
+    "assets/user_expansion_20261015/dock_3d66-export-JCI54557104651-034.jpg.import": {
+      "offset": 652280352,
+      "bytes": 290,
+      "md5": "df17a3007620ead11336cff451981bd4"
+    },
+    "assets/user_expansion_20261015/kar98k.glb.import": {
+      "offset": 652841392,
+      "bytes": 168,
+      "md5": "e138f8ba7afb88704ccfbfd72540d60b"
+    },
+    "assets/user_expansion_20261015/kar98k_3d66-export-JJI54551850227-001.jpg.import": {
+      "offset": 657610896,
+      "bytes": 293,
+      "md5": "903fb5645ad9403d4730dfb503fc9b5f"
+    },
+    "assets/user_expansion_20261015/office.glb.import": {
+      "offset": 659482752,
+      "bytes": 168,
+      "md5": "a2275f0fad289a37279e9038b8c9738c"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-001.jpg.import": {
+      "offset": 659707792,
+      "bytes": 290,
+      "md5": "69a81255bcfa58d3fa87828e669c108e"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-002.jpg.import": {
+      "offset": 659912288,
+      "bytes": 291,
+      "md5": "565ea6d3e2735bab7428d8c7e7c00fea"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-003.jpg.import": {
+      "offset": 660035264,
+      "bytes": 291,
+      "md5": "eee1559d9cc1662f8930d9f53800e1d0"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-004.jpg.import": {
+      "offset": 660231040,
+      "bytes": 291,
+      "md5": "15909819cb6a706ca4f8a44ede58a5d7"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-005.jpg.import": {
+      "offset": 660423744,
+      "bytes": 291,
+      "md5": "1d5eb4817b8b3e5596d9150a28f9cccf"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-006.jpg.import": {
+      "offset": 660756912,
+      "bytes": 291,
+      "md5": "e298ad15d073787360b598db10e21100"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-007.jpg.import": {
+      "offset": 661135312,
+      "bytes": 291,
+      "md5": "4062c8851feae0e659d154ab61289768"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-008.jpg.import": {
+      "offset": 661357664,
+      "bytes": 291,
+      "md5": "604d3a9d26166107fb9449aa51d3c1d5"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-009.jpg.import": {
+      "offset": 661610480,
+      "bytes": 291,
+      "md5": "9569ce9b0226aac898dee36871479ee6"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-010.jpg.import": {
+      "offset": 663202320,
+      "bytes": 290,
+      "md5": "dbf4577d84a65e9a3c3b48136b144bf4"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-011.jpg.import": {
+      "offset": 664193168,
+      "bytes": 291,
+      "md5": "f3b739791c382e25f29c18a7fe1ee124"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-012.jpg.import": {
+      "offset": 665351536,
+      "bytes": 291,
+      "md5": "1dbe1d208b0743f7ded3d265154feb12"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-013.jpg.import": {
+      "offset": 667425760,
+      "bytes": 291,
+      "md5": "526b4bb3102249c1b189ce85a0f0c268"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-014.jpg.import": {
+      "offset": 669510752,
+      "bytes": 290,
+      "md5": "37f489ef0bb0f441e1bdb0883c18f7a8"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-015.jpg.import": {
+      "offset": 669753648,
+      "bytes": 291,
+      "md5": "b206ee0e784bbce44c1024b27d93dada"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-016.jpg.import": {
+      "offset": 669941952,
+      "bytes": 291,
+      "md5": "b0b1fa750300951de2e278e3fedb8ad3"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-017.jpg.import": {
+      "offset": 670200016,
+      "bytes": 291,
+      "md5": "7936300d8d0d31f4229c624f8c04401a"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-018.jpg.import": {
+      "offset": 671688864,
+      "bytes": 291,
+      "md5": "ce877c08b887d023106a80d615bf2156"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-019.jpg.import": {
+      "offset": 671907088,
+      "bytes": 291,
+      "md5": "2d60e6882aa6883697edea9192b8fed7"
+    },
+    "assets/user_expansion_20261015/office_3d66Model-22399557-files-020.jpg.import": {
+      "offset": 672090112,
+      "bytes": 291,
+      "md5": "e3a08cc828a2872c7eee697c7017992f"
+    },
+    "assets/user_expansion_20261015/river.glb.import": {
+      "offset": 672639184,
+      "bytes": 167,
+      "md5": "71357139b63a33d19081886eff06cf93"
+    },
+    "assets/user_expansion_20261015/river_3d66Model-15202935-files-1.jpg.import": {
+      "offset": 678465376,
+      "bytes": 288,
+      "md5": "6f92c07e18e5501c99de2146ae8bc915"
+    },
+    "assets/user_expansion_20261015/river_3d66Model-15202935-files-42.jpg.import": {
+      "offset": 697045248,
+      "bytes": 288,
+      "md5": "042fd72b75c0029fd88e0931f6f38b85"
+    },
+    "assets/user_expansion_20261015/river_3d66Model-15202935-files-43.jpg.import": {
+      "offset": 766340624,
+      "bytes": 289,
+      "md5": "79875c0bbd5e12557b9c29f1ff1c4def"
+    },
+    "assets/user_expansion_20261015/river_3d66Model-15202935-files-49.jpg.import": {
+      "offset": 769257920,
+      "bytes": 289,
+      "md5": "5d600e0302f81149355c44a7d8ea10c7"
+    },
+    "assets/user_expansion_20261015/river_3d66Model-15202935-files-49_5.jpg.import": {
+      "offset": 775020672,
+      "bytes": 290,
+      "md5": "34d6afeb92a04fbe1e19d3d2a60ecc2a"
+    },
+    "assets/user_expansion_20261015/river_3d66Model-15202935-files-55.jpg.import": {
+      "offset": 779602160,
+      "bytes": 289,
+      "md5": "00356574ee8efc43477b3b64430b9d96"
+    },
+    "assets/user_expansion_20261015/village-layout.json": {
+      "offset": 779602464,
+      "bytes": 394539,
+      "md5": "5b7b183856dd22eea38d59075fb143ea"
+    },
+    "assets/user_expansion_20261015/village-passages.json": {
+      "offset": 779997008,
+      "bytes": 342,
+      "md5": "e8333f01266195abcb29d6fb0d58ecf9"
+    },
+    "assets/user_expansion_20261015/village_1.glb.import": {
+      "offset": 780424656,
+      "bytes": 171,
+      "md5": "2e285ece9dab21adb46d152b72d42aff"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-67.jpg.import": {
+      "offset": 787449840,
+      "bytes": 290,
+      "md5": "9d981bb49eff932c424f465a41d1205f"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-68.jpg.import": {
+      "offset": 795669824,
+      "bytes": 290,
+      "md5": "321bed9b4b49f315d2e5480298d479d6"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-69.jpg.import": {
+      "offset": 796202352,
+      "bytes": 291,
+      "md5": "31c016d3ddc770415f415fbf5a199f3e"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-70.jpg.import": {
+      "offset": 796428720,
+      "bytes": 290,
+      "md5": "48a27512c900ce1d5399aa16751d56ca"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-71.jpg.import": {
+      "offset": 796807456,
+      "bytes": 291,
+      "md5": "affe59f6d91f62ceafa12cc73a4164a0"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-72.jpg.import": {
+      "offset": 797770256,
+      "bytes": 291,
+      "md5": "2b18691b2057fdb320a568e52e229225"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-73.jpg.import": {
+      "offset": 804036960,
+      "bytes": 291,
+      "md5": "d46f79e7fd639c3aa1216aa6a1d583fe"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-74.jpg.import": {
+      "offset": 804692592,
+      "bytes": 291,
+      "md5": "1d94961b928b8d87985d75f5335dab56"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-75.jpg.import": {
+      "offset": 805064320,
+      "bytes": 291,
+      "md5": "69139e378e405db2788e3e4ec2aac3a3"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-76.jpg.import": {
+      "offset": 805774224,
+      "bytes": 290,
+      "md5": "2a5c878296efb808353b5a33007be104"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-77.jpg.import": {
+      "offset": 806115888,
+      "bytes": 291,
+      "md5": "affa993c8dd81a2dc554c0ac5446543c"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-78.jpg.import": {
+      "offset": 812519648,
+      "bytes": 291,
+      "md5": "b2097705df33b11087ec71fc237e8d15"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-79.jpg.import": {
+      "offset": 814047872,
+      "bytes": 290,
+      "md5": "3b4e005a6537105b34c442b95bbc893d"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-80.jpg.import": {
+      "offset": 815034320,
+      "bytes": 291,
+      "md5": "00296b6885771b65923e673c2273b436"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-81.jpg.import": {
+      "offset": 817391408,
+      "bytes": 289,
+      "md5": "81d661e1eca164a3a9158a55afe10a2e"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-82.jpg.import": {
+      "offset": 817966288,
+      "bytes": 291,
+      "md5": "9f254822e2e043f811351802dd308890"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-83.jpg.import": {
+      "offset": 819777824,
+      "bytes": 291,
+      "md5": "299a88cc7d51ccb13cb0e7f9764981e5"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-84.jpg.import": {
+      "offset": 820429376,
+      "bytes": 291,
+      "md5": "14e0da00b114d089358ed77b666f79cd"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-85.jpg.import": {
+      "offset": 822916640,
+      "bytes": 291,
+      "md5": "2ad5772b721ef237a019e545daa146b1"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-86.jpg.import": {
+      "offset": 823261616,
+      "bytes": 291,
+      "md5": "7d1e1a467ac56309c7fec8509517d231"
+    },
+    "assets/user_expansion_20261015/village_1_3d66Model-691775-files-87.jpg.import": {
+      "offset": 823346048,
+      "bytes": 291,
+      "md5": "b92a4b1d0087e2322fda43006dd58a78"
+    },
+    "assets/user_expansion_20261015/village_2.glb.import": {
+      "offset": 823753728,
+      "bytes": 171,
+      "md5": "7a340eb56996db665756409501355f30"
+    },
+    "assets/user_expansion_20261015/village_3.glb.import": {
+      "offset": 691552,
+      "bytes": 171,
+      "md5": "7e6eafe6c806f258834c1697f4d55059"
+    },
+    "assets/user_expansion_20261015/village_4.glb.import": {
+      "offset": 630597504,
+      "bytes": 171,
+      "md5": "483a7362f1d3c33e5b9773d84ee64385"
+    },
+    "assets/user_expansion_20261015/village_passages.glb.import": {
+      "offset": 1225280,
+      "bytes": 178,
+      "md5": "236a7d57091b0d4b25101149368aeba7"
+    },
+    "locomotion.json": {
+      "offset": 800,
+      "bytes": 8345,
+      "md5": "4c9ae7776e9671570325c9801bf123be"
+    },
+    "main.tscn.remap": {
+      "offset": 823761664,
+      "bytes": 97,
+      "md5": "c74a9853779200b38c91a70cebd41c10"
+    },
+    "project.binary": {
+      "offset": 823789744,
+      "bytes": 2172,
+      "md5": "c70ad49055f47002a066a7527a8f9ce2"
+    },
+    "scripts/artillery_director.gd.remap": {
+      "offset": 823763040,
+      "bytes": 53,
+      "md5": "e7ea3d1b9562835d5887b038b8bb762b"
+    },
+    "scripts/artillery_director.gdc": {
+      "offset": 726736,
+      "bytes": 2387,
+      "md5": "c4e9d670e1a898a2692f0c94a141140d"
+    },
+    "scripts/asset_dressing.gd.remap": {
+      "offset": 823762864,
+      "bytes": 49,
+      "md5": "5bfda586cc42c5224af8196d988a36e1"
+    },
+    "scripts/asset_dressing.gdc": {
+      "offset": 691728,
+      "bytes": 15119,
+      "md5": "e006ba0ebde583eb398559a6a7a6b335"
+    },
+    "scripts/audio_factory.gd.remap": {
+      "offset": 823763104,
+      "bytes": 48,
+      "md5": "c7cc6eee360bcb0e3094224c3ed78c65"
+    },
+    "scripts/audio_factory.gdc": {
+      "offset": 729136,
+      "bytes": 2844,
+      "md5": "eb1ddf88727daf721a0d5f07eb955532"
+    },
+    "scripts/audio_mix.gd.remap": {
+      "offset": 823762992,
+      "bytes": 44,
+      "md5": "44dcaf278306891d1c85af55f4063f9f"
+    },
+    "scripts/audio_mix.gdc": {
+      "offset": 720288,
+      "bytes": 6448,
+      "md5": "a8ae8f709e6468f145120cb6778fe484"
+    },
+    "scripts/bayonet_encounter.gd.remap": {
+      "offset": 823762928,
+      "bytes": 52,
+      "md5": "a6e375367805a3a59a121fad0fe55f81"
+    },
+    "scripts/bayonet_encounter.gdc": {
+      "offset": 706848,
+      "bytes": 13440,
+      "md5": "8842f8855bbd276636ef5a8c5efbb383"
+    },
+    "scripts/explosion_effect.gd.remap": {
+      "offset": 823762800,
+      "bytes": 51,
+      "md5": "df0be5fd362a4a5c0654378682f60778"
+    },
+    "scripts/explosion_effect.gdc": {
+      "offset": 232688,
+      "bytes": 4569,
+      "md5": "db5a311ae7115360560004a2ac4ea6e2"
+    },
+    "scripts/field_character_rig.gd.remap": {
+      "offset": 823762736,
+      "bytes": 54,
+      "md5": "28699c81618cccd31d7ee10b0e43749e"
+    },
+    "scripts/field_character_rig.gdc": {
+      "offset": 227728,
+      "bytes": 4955,
+      "md5": "5cd530774c19d1d9631f823b64b0ce6d"
+    },
+    "scripts/first_level_layout.gd.remap": {
+      "offset": 823762672,
+      "bytes": 53,
+      "md5": "bc765d403b27cc418b913eb6535996ac"
+    },
+    "scripts/first_level_layout.gdc": {
+      "offset": 225040,
+      "bytes": 2674,
+      "md5": "17dcd15fe4925302afb47b357e631c8b"
+    },
+    "scripts/first_level_scenery.gd.remap": {
+      "offset": 823762608,
+      "bytes": 54,
+      "md5": "0141d69b66bceba2c231a3b1a2cbddac"
+    },
+    "scripts/first_level_scenery.gdc": {
+      "offset": 212640,
+      "bytes": 12391,
+      "md5": "d0a178b6413cd0f2305092261e3c96b7"
+    },
+    "scripts/first_level_world.gd.remap": {
+      "offset": 823762544,
+      "bytes": 52,
+      "md5": "3f910a4f0efd61690b78f17359e31d9b"
+    },
+    "scripts/first_level_world.gdc": {
+      "offset": 198224,
+      "bytes": 14415,
+      "md5": "c6ac6fb9be4d5484f7a83290f99c1f36"
+    },
+    "scripts/forest_approach.gd.remap": {
+      "offset": 823762480,
+      "bytes": 50,
+      "md5": "1dd21f63099b2a745aa206c8c1e5d61d"
+    },
+    "scripts/forest_approach.gdc": {
+      "offset": 191536,
+      "bytes": 6676,
+      "md5": "3558f53b583075a8206ae0262176b257"
+    },
+    "scripts/fp_hands.gd.remap": {
+      "offset": 823762384,
+      "bytes": 43,
+      "md5": "ccbe9c5c8904381d1021810344b35ed2"
+    },
+    "scripts/fp_hands.gdc": {
+      "offset": 163232,
+      "bytes": 8715,
+      "md5": "908d7f45f317f38881e911525f636ab7"
+    },
+    "scripts/fps_player.gd.remap": {
+      "offset": 823762432,
+      "bytes": 45,
+      "md5": "4fe641873ddf0d719325348eb5cee54e"
+    },
+    "scripts/fps_player.gdc": {
+      "offset": 171952,
+      "bytes": 19571,
+      "md5": "f5c17d694e47e2431712f01ec49d1226"
+    },
+    "scripts/friendly.gd.remap": {
+      "offset": 823762336,
+      "bytes": 43,
+      "md5": "1360aad7bbb7d34d898dbbec3e49cd4e"
+    },
+    "scripts/friendly.gdc": {
+      "offset": 159488,
+      "bytes": 3740,
+      "md5": "73698104c4315922ef702f7458ccc1d9"
+    },
+    "scripts/guard.gd.remap": {
+      "offset": 823762288,
+      "bytes": 40,
+      "md5": "b900e74dc4825149baaf681f0b72a732"
+    },
+    "scripts/guard.gdc": {
+      "offset": 151616,
+      "bytes": 7864,
+      "md5": "df49b9701ea7c3e0533ab23568bb2db9"
+    },
+    "scripts/hud.gd.remap": {
+      "offset": 823762240,
+      "bytes": 38,
+      "md5": "8e02593165028c666aea3ccaa63ef591"
+    },
+    "scripts/hud.gdc": {
+      "offset": 129344,
+      "bytes": 22262,
+      "md5": "e240e6c216e7fceaf6c8a9df1568ec83"
+    },
+    "scripts/human_model.gd.remap": {
+      "offset": 823762192,
+      "bytes": 46,
+      "md5": "db0e65a13b06d3460c569bc24ca1a8fe"
+    },
+    "scripts/human_model.gdc": {
+      "offset": 107488,
+      "bytes": 21848,
+      "md5": "183af8e1d5e79d33b37dd6791243864e"
+    },
+    "scripts/landscape.gd.remap": {
+      "offset": 823762144,
+      "bytes": 44,
+      "md5": "7dd18afc0a4d34eda6db76a7e096602a"
+    },
+    "scripts/landscape.gdc": {
+      "offset": 102464,
+      "bytes": 5016,
+      "md5": "2914bd9ba449449ef322bcf92138b608"
+    },
+    "scripts/linear_director.gd.remap": {
+      "offset": 823762080,
+      "bytes": 50,
+      "md5": "737fef99e675386fef24f0492343a9ef"
+    },
+    "scripts/linear_director.gdc": {
+      "offset": 94512,
+      "bytes": 7940,
+      "md5": "d386c2f9248bb38b416b1bd8b4c4ec87"
+    },
+    "scripts/mission.gd.remap": {
+      "offset": 823762032,
+      "bytes": 42,
+      "md5": "1f74622dcedb6653bd108a504db7183d"
+    },
+    "scripts/mission.gdc": {
+      "offset": 61792,
+      "bytes": 32712,
+      "md5": "89e290a9778c638a370c00b66ce05482"
+    },
+    "scripts/muzzle_effect.gd.remap": {
+      "offset": 823761984,
+      "bytes": 48,
+      "md5": "e59c28966bb16fad30d901374e095164"
+    },
+    "scripts/muzzle_effect.gdc": {
+      "offset": 56608,
+      "bytes": 5173,
+      "md5": "980312bd2453c7ddf618180ddc876605"
+    },
+    "scripts/opening_director.gd.remap": {
+      "offset": 823761920,
+      "bytes": 51,
+      "md5": "c295eb5e14a3fa846f9b3c686c7900ae"
+    },
+    "scripts/opening_director.gdc": {
+      "offset": 23824,
+      "bytes": 32771,
+      "md5": "7c465d23cf56e4b14d2484d1b1b166cb"
+    },
+    "scripts/presentation.gd.remap": {
+      "offset": 823761872,
+      "bytes": 47,
+      "md5": "6c0c6eaedc45d0682ac63a3a3123512c"
+    },
+    "scripts/presentation.gdc": {
+      "offset": 19696,
+      "bytes": 4128,
+      "md5": "c78b32201e96113232e1bf605f2c15e9"
+    },
+    "scripts/river_journey.gd.remap": {
+      "offset": 823761824,
+      "bytes": 48,
+      "md5": "35c7b0153fa3f43d41a836292bfd6919"
+    },
+    "scripts/river_journey.gdc": {
+      "offset": 10432,
+      "bytes": 9259,
+      "md5": "526a9aa6219b65a82e2771516c8c5b46"
+    },
+    "scripts/road_surface.gd.remap": {
+      "offset": 823761776,
+      "bytes": 47,
+      "md5": "6bb49b8f873880acad31d9dcf2c111a9"
+    },
+    "scripts/road_surface.gdc": {
+      "offset": 9152,
+      "bytes": 1272,
+      "md5": "39071965ebd418d8a62a37ad74881988"
+    },
+    "scripts/route_blockout.gd.remap": {
+      "offset": 823763712,
+      "bytes": 49,
+      "md5": "3a9df402ba776827002c0980463b3cec"
+    },
+    "scripts/route_blockout.gdc": {
+      "offset": 823753904,
+      "bytes": 7760,
+      "md5": "4a9a9b624d9c2a5b5d198ceae5de2b5f"
+    },
+    "scripts/story.gd.remap": {
+      "offset": 823763664,
+      "bytes": 40,
+      "md5": "467668cfaf18ce5b60e4b003a6b7acd9"
+    },
+    "scripts/story.gdc": {
+      "offset": 630612080,
+      "bytes": 13015,
+      "md5": "dfbc0605831d311b242ba2771725716b"
+    },
+    "scripts/story_moments.gd.remap": {
+      "offset": 823763616,
+      "bytes": 48,
+      "md5": "62454901f115c4c3375ea6523e274dde"
+    },
+    "scripts/story_moments.gdc": {
+      "offset": 630607712,
+      "bytes": 4364,
+      "md5": "6dcc2e080779fc940d018dff7bdb85ba"
+    },
+    "scripts/tianchi_landscape.gd.remap": {
+      "offset": 823763552,
+      "bytes": 52,
+      "md5": "73f6888623383380cd6144648c168020"
+    },
+    "scripts/tianchi_landscape.gdc": {
+      "offset": 630597680,
+      "bytes": 10021,
+      "md5": "42feccf8562c4e8ee80496d65c1f6402"
+    },
+    "scripts/vegetation_batch.gd.remap": {
+      "offset": 823763488,
+      "bytes": 51,
+      "md5": "69cd59a10fba80598b895ec1504e3ed5"
+    },
+    "scripts/vegetation_batch.gdc": {
+      "offset": 623003744,
+      "bytes": 2499,
+      "md5": "f812a89a369059e054af99d4236536ef"
+    },
+    "scripts/village_director.gd.remap": {
+      "offset": 823763424,
+      "bytes": 51,
+      "md5": "88aed8f3d09f636b7fad821b4ba5ab5f"
+    },
+    "scripts/village_director.gdc": {
+      "offset": 622991264,
+      "bytes": 12465,
+      "md5": "c66bfbb734543cb32ed43971718fff62"
+    },
+    "scripts/village_scenery.gd.remap": {
+      "offset": 823763360,
+      "bytes": 50,
+      "md5": "77e22ea009146ec9448ae87c954130e1"
+    },
+    "scripts/village_scenery.gdc": {
+      "offset": 622984336,
+      "bytes": 6924,
+      "md5": "015420056183682b3be56294ac4a2691"
+    },
+    "scripts/village_world.gd.remap": {
+      "offset": 823763312,
+      "bytes": 48,
+      "md5": "63469cd7ca796c49561053680c36e3ec"
+    },
+    "scripts/village_world.gdc": {
+      "offset": 622966192,
+      "bytes": 18130,
+      "md5": "df533d5f2b1239913dbecb0859ebd708"
+    },
+    "scripts/weapon_visuals.gd.remap": {
+      "offset": 823763248,
+      "bytes": 49,
+      "md5": "c8a7e07de4882dbe0f13b57650e9d95d"
+    },
+    "scripts/weapon_visuals.gdc": {
+      "offset": 622953504,
+      "bytes": 12677,
+      "md5": "b1caf548b51b685ad1495140e01f5f34"
+    },
+    "scripts/wire_fence.gd.remap": {
+      "offset": 823763200,
+      "bytes": 45,
+      "md5": "84129d9752c80db0f7214a9562713431"
+    },
+    "scripts/wire_fence.gdc": {
+      "offset": 622951520,
+      "bytes": 1973,
+      "md5": "6418b8d7819f490af5f900c9aeda0956"
+    },
+    "scripts/world.gd.remap": {
+      "offset": 823763152,
+      "bytes": 40,
+      "md5": "c9f57af2423a717be95e578b14718917"
+    },
+    "scripts/world.gdc": {
+      "offset": 622908928,
+      "bytes": 42581,
+      "md5": "0738e0489847f74b7bd8fe967dce132b"
+    },
+    "shaders/damage_edge.gdshader": {
+      "offset": 622908656,
+      "bytes": 269,
+      "md5": "c1839f57dbd976b98b61fe554e22b8b6"
+    },
+    "shaders/forest_foliage.gdshader": {
+      "offset": 622907776,
+      "bytes": 873,
+      "md5": "6d43f35e2b2894ed9201d4c87188c208"
+    },
+    "shaders/opening_snow.gdshader": {
+      "offset": 622907264,
+      "bytes": 507,
+      "md5": "40c3b0fbece9998e26b8405fc9b175c0"
+    },
+    "shaders/river.gdshader": {
+      "offset": 537624144,
+      "bytes": 1054,
+      "md5": "8f15a58e4891c8091db0b631e30be539"
+    },
+    "shaders/tianchi_mist.gdshader": {
+      "offset": 537623296,
+      "bytes": 839,
+      "md5": "064734af2c0471ce64bd6be7947e7714"
+    },
+    "shaders/tianchi_rock.gdshader": {
+      "offset": 537613104,
+      "bytes": 2468,
+      "md5": "01903a04315847e1e3ecab1e372a048e"
+    },
+    "shaders/tianchi_water.gdshader": {
+      "offset": 537611776,
+      "bytes": 1314,
+      "md5": "ca8032b8200eedd0c5f1d32f4e124b6e"
+    },
+    "shaders/village_ground.gdshader": {
+      "offset": 537593888,
+      "bytes": 1553,
+      "md5": "8daff32c9d9ff204bde06f6b870e71c9"
+    }
+  },
+  "every_entry_checksum_verified": true,
+  "retained_textures_byte_identical": 216,
+  "bytes_removed": 537169216
+}

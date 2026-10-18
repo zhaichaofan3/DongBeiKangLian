@@ -1,0 +1,74 @@
+[
+  {
+    "name": "delivery_assets",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\delivery_assets.log",
+    "sha256": "4cc132613de5f62f7875f997c558683ca3b3ea945d195ec89040286bfd8a7894",
+    "result": "DELIVERY ASSETS: PASS | checks=70"
+  },
+  {
+    "name": "smoke",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\smoke.log",
+    "sha256": "af5f89d11b25aadbb0a74a5b385bb755a33167ada778f41d4f72fd61e5855149",
+    "result": "SMOKE RESULT: 108/108 passed"
+  },
+  {
+    "name": "first_level_rebuild",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\first_level_rebuild.log",
+    "sha256": "dce94c5ad481f7054fc5b003651e7a9515569acbe8afbbb94c593744a7ee2f37",
+    "result": "FIRST LEVEL REBUILD: PASS | checks=125"
+  },
+  {
+    "name": "courtyard_controls",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\courtyard_controls.log",
+    "sha256": "c2a50abc49b2ba0c1ece69c4f42f0af655094e012d4d372e05adf293c96a74fc",
+    "result": "COURTYARD CONTROLS: PASS | checks=77"
+  },
+  {
+    "name": "river_journey",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\river_journey.log",
+    "sha256": "e56e231cdee22d76a8eebf603000e01944e961ee9d063f83bde772d17f5482f9",
+    "result": "RIVER JOURNEY: PASS | checks=60"
+  },
+  {
+    "name": "opening",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\opening.log",
+    "sha256": "7bd6366d85b3b9a5a4bfad02b7f7ccaf3860378f6e5c9d436039f92757301e13",
+    "result": "OPENING RESULT: 41/41 passed"
+  },
+  {
+    "name": "navigation_budget",
+    "rendered": false,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\navigation_budget.log",
+    "sha256": "91fd6767d4a20dcadff0fd0c8ae5223cfa4d0e212fe761f4b0afa9edbdee6a01",
+    "result": "NAVIGATION BUDGET: {\"assembly_ms\":13206.829,\"longest_initial_frame_ms\":1362.76,\"passed\":true,\"reachable_cells\":79572,\"reachable_sha256\":\"d23dd1abfdd3f63401624e8b3adba1d4c9ea4f1f468e20f486addfc8f3dda5fb\",\"reference\":\"C:\\\\GameMake\\\\docs\\\\entry_sprint_20261017\\\\release-navigation.json\",\"scope\":\"All four-neighbour cells reachable from the village and landing after opening both section gates. Graph equivalence includes all accessible yards and side recesses. Startup timing is wall-clock and includes deferred scenery/navigation; headless fixture, not FPS.\",\"twelve_initial_physics_frames_ms\":2104.816,\"version\":\"0.7.3-rc1\",\"village_navigation_build_ms\":485.212,\"village_physics_queries\":104570,\"village_scenery_build_ms\":1353.616}"
+  },
+  {
+    "name": "render_quality",
+    "rendered": true,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\render_quality.log",
+    "sha256": "208bbc4f475bb6601dbaada4250ae6a6fe485515cd70eeec2efe695dbd7bdd9d",
+    "result": "RENDER QUALITY: PASS | checks=39"
+  },
+  {
+    "name": "world_revision",
+    "rendered": true,
+    "exit_code": 0,
+    "log": "docs\\size_optimization_20261018\\release\\world_revision.log",
+    "sha256": "ea59c860d230f311e5711b49ed1ae12ffd95fc64e76b573a0c759422cfb6c7e7",
+    "result": "WORLD REVISION: PASS | checks=54"
+  }
+]
