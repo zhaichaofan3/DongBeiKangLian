@@ -1,0 +1,11 @@
+{"draft_id": 416206462, "tag": "v0.7.3-rc1"}
+{"streaming_upload": "FenghuoEcho-0.7.3-rc1-Setup-Windows-x64.exe", "bytes": 823240913}
+Traceback (most recent call last):
+  File "C:\GameMake\tools\publish_distribution.py", line 134, in <module>
+    publish((ROOT / args.directory).resolve(), (ROOT / args.report).resolve(), args.curl_upload)
+  File "C:\GameMake\tools\publish_distribution.py", line 101, in publish
+    asset = upload_with_curl(release, file) if curl_upload else upload_asset(release, file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GameMake\tools\publish_distribution.py", line 42, in upload_with_curl
+    raise RuntimeError('Streaming upload failed for ' + file.name + ': ' + result.stderr.strip())
+RuntimeError: Streaming upload failed for FenghuoEcho-0.7.3-rc1-Setup-Windows-x64.exe: curl: (55) Send failure: Connection was reset

@@ -37,6 +37,8 @@
 
 新发行验收完成后，逐文件核对并清理本地旧0.7.2生成包，释放2,735,421,925字节；删除清单见`cleanup.json`。暂存完整载荷、QA安装和解压副本均已清理，只保留新版两种发行文件、文字记录和代表截图。未更动用户现有安装，未新增全量恢复点。根运行包校验清单排除单独管理的`Distributions/`，避免旧发行文件被替换后留下过期条目。
 
-下载页：[0.7.3-rc1](https://github.com/zhaichaofan3/DongBeiKangLian/releases/tag/v0.7.3-rc1)，在线上传进行中，最终远端验证保存为`distribution/github-release.json`。
+线上尚未发布。两次Python大文件上传遇`SSLEOFError`，换用curl流式上传仍以“Send failure: Connection was reset”结束；说明文件的小上传成功，大文件未完成。当前0.7.3草稿ID为416206462，不作为可用下载链接；状态见`distribution/github-upload-status.json`，原始错误见`publish-attempt1.log`、`publish-attempt2.log`和`publish-attempt3-curl.log`。本地已验收的安装EXE和ZIP均可立即使用，GitHub源码及验收记录已推送。
+
+服务端旧0.7.2未发布草稿及其1,353,913,092字节旧安装器已核对后删除，0.7.0历史公开版保留。网络恢复后先同步源码，再运行`python tools/publish_distribution.py --curl-upload`或不带该参数的默认上传；脚本沿用匹配版本的草稿，检查已完成资产摘要，全部上传成功后才公开并核对README/校验文件下载。预定版本标签为`v0.7.3-rc1`，只有成功后才生成`github-release.json`。
 
 本次没有重跑全量33组游戏回归、真实时间通关或真人试玩。原渡口单次635毫秒长帧仍未解决。基线取景期间已有玩家安装版运行，`before/performance.json`只保留运行条件和参考画面，不能作为受控帧率对比，也不据此宣称FPS提升。声音、连续表演、真人难度及其它硬件仍待验收；安装向导未作人工视觉验收。

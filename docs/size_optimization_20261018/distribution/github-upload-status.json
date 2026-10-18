@@ -1,0 +1,20 @@
+{
+  "published": false,
+  "draft": true,
+  "release_id": 416206462,
+  "tag": "v0.7.3-rc1",
+  "assets": [
+    {
+      "name": "README.md",
+      "bytes": 8523,
+      "state": "uploaded",
+      "digest": "sha256:c778fd4e2f0e1fd69ec8205924818c097797794dd1a3bdf81b249450030d2d28"
+    }
+  ],
+  "reason": "Two Python TLS uploads failed with SSLEOFError. Curl streaming upload failed with send failure: connection was reset. Both locally verified downloads remain available; no partial release was published.",
+  "superseded_draft_removed": {
+    "id": 416185561,
+    "tag": "v0.7.2-rc1",
+    "asset_bytes": 1353913092
+  }
+}

@@ -4,7 +4,7 @@
 
 ## 先运行起来
 
-- **只想试玩：**到 [0.7.3-rc1下载页](https://github.com/zhaichaofan3/DongBeiKangLian/releases/tag/v0.7.3-rc1) 选择Windows安装版或免安装版。安装版按中文向导安装，从开始菜单启动；免安装版完整解压后运行 `FenghuoEcho.exe`，保留同目录全部文件。无需安装制作工具。
+- **只想试玩：**本机已生成0.7.3-rc1[安装版](Release/Distributions/0.7.3-rc1/FenghuoEcho-0.7.3-rc1-Setup-Windows-x64.exe)（约823 MB）和[免安装版](Release/Distributions/0.7.3-rc1/FenghuoEcho-0.7.3-rc1-Portable-Windows-x64.zip)（约850 MB）。安装版按中文向导安装，从开始菜单启动；免安装版完整解压后运行 `FenghuoEcho.exe`，保留同目录全部文件。无需安装制作工具。当前GitHub大文件上传连续中断，0.7.3仍为未发布草稿；源码与验收记录已推送，在线下载状态见[PROGRESS.md](PROGRESS.md)。
 - **本机已有工程：**双击 `Start-Game.cmd`；编辑器入口为 `./Start-Game.ps1 -Editor`。
 - **新电脑开发：**安装 [Git LFS](https://git-lfs.com/) 与 [Godot 4.7.2](https://godotengine.org/download/archive/)，再执行：
 
